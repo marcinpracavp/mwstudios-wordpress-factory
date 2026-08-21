@@ -1,0 +1,112 @@
+@use 'sass:map';
+@use 'sass:math';
+@use 'variables' as *;
+@use 'mixins' as *;
+
+// Skrypt generujący nam klasy dla font-size razem z RWD. klasy 
+
+// Bazowe rozmiary w px. Font-size i line-height
+$xl-min-values: (
+    62: 72,
+  
+);
+// Skale, o które będą pomniejszane (albo powiększane) rozmiary
+// przy kolejnych media queries. Nazwa klucza w mapie musi odpowiadać
+// temu, co będziesz obsługiwać niżej w @each w mixinie.
+$scale-factors: (
+    xl-max:  0.9,
+    lg-max:  0.8,
+    md-max:  0.7,
+    sm-max:  0.6,
+    xs-max:  0.5
+);
+
+// Jeśli chcesz, możesz tu zdecydować, jaki współczynnik
+// line-height przyjmiesz: np. 1.3, 1.4 etc.
+$default-line-height-factor: 1.3;
+
+// Funkcja do clampowania rozmiaru:
+@function clamp-font-size($value, $min: 16) {
+    @return if($value < $min, $min, $value);
+}
+  
+@mixin generate-text-classes(
+    $class-prefix,
+    $xl-min-values,  // np. (100: 130, 80: 104, 50: 65)
+    $scale-factors   // np. (xl-max: 0.9, lg-max: 0.8, md-max: 0.7, ...)
+) {
+    $text-values: ();
+
+    @each $base-font-size, $base-line-height in $xl-min-values {
+    // Wylicz współczynnik line-height
+    // @debug "Font size: #{$base-font-size}, Line height: #{$base-line-height}";
+    $ratio: calc($base-line-height / $base-font-size);
+
+    // Zaczynamy budować mapę breakpointów 
+    // i clampujemy już w tym kroku
+    $bp-sizes: (
+        xl-min: clamp-font-size($base-font-size)
+    );
+
+    @each $bp, $factor in $scale-factors {
+        $scaled-size: $base-font-size * $factor;
+        $bp-sizes: map-merge(
+        $bp-sizes,
+        (
+            $bp: clamp-font-size($scaled-size)
+        )
+        );
+    }
+
+    $text-values: map-merge(
+        $text-values,
+        (
+        $base-font-size: (
+            ratio: $ratio,
+            breakpoints: $bp-sizes
+        )
+        )
+    );
+    }
+
+    // --- generowanie klas ---
+    @each $font-size-name, $data in $text-values {
+    .#{$class-prefix}-#{$font-size-name} {
+        $ratio: map-get($data, ratio);
+        $bp-map: map-get($data, breakpoints);
+
+        @each $bp, $val in $bp-map {
+        @if $bp == xl-min {
+            /* brak media query – styl domyślny od largest screens w dół
+            (lub min-width: $breakpoint-xl, jeśli chcesz) */
+            font-size: #{$val}px;
+            line-height: #{$ratio};
+
+        } @else if $bp == xl-max {
+            @include media($breakpoint-xl, max) {
+            font-size: #{$val}px;
+            }
+        } @else if $bp == lg-max {
+            @include media($breakpoint-lg, max) {
+            font-size: #{$val}px;
+            }
+        } @else if $bp == md-max {
+            @include media($breakpoint-md, max) {
+            font-size: #{$val}px;
+            }
+        } @else if $bp == sm-max {
+            @include media($breakpoint-sm, max) {
+            font-size: #{$val}px;
+            }
+        } @else if $bp == xs-max {
+            @include media($breakpoint-xs, max) {
+            font-size: #{$val}px;
+            }
+        }
+        }
+    }
+    }
+}
+
+// @debug $xl-min-values;
+@include generate-text-classes("text", $xl-min-values, $scale-factors);

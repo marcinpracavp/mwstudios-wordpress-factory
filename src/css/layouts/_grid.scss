@@ -1,0 +1,211 @@
+@use 'abstracts' as *;
+@use 'sass:math';
+
+/**
+ * GRID SYSTEM
+ * 
+ * WAŻNA INFORMACJA O MEDIA QUERIES I RESPONSYWNOŚCI:
+ * W tym pliku stosujemy specjalny wzorzec "mediaplex" dla media queries.
+ * Zamiast zagnieżdżać media queries w pętlach generujących klasy,
+ * grupujemy wszystkie style dla danego breakpointu razem.
+ * 
+ * Korzyści:
+ * 1. Zapewnia to prawidłową kolejność w wygenerowanym CSS:
+ *    - Najpierw podstawowe klasy (bez breakpointów)
+ *    - Następnie klasy dla największego breakpointu (xl)
+ *    - Na końcu klasy dla najmniejszego breakpointu (xxs)
+ * 
+ * 2. Dzięki temu style dla mniejszych breakpointów (np. sm)
+ *    są później w CSS i poprawnie nadpisują style dla większych (np. lg)
+ * 
+ * Kluczowe jest zachowanie porządku od największego do najmniejszego breakpointu
+ * w mapie $breakpoints oraz generowanie oddzielnych bloków @media dla każdego breakpointu.
+ */
+
+
+%grid {
+    display: grid;
+    grid-template-columns: minmax(1rem, 1fr) repeat(12, minmax(0, calc((#{$page-width} - 11 * #{$page-gap}) / 12))) minmax(1rem, 1fr);
+    gap: $page-gap;
+    row-gap: 0;
+    @include media($breakpoint-sm) {
+        gap: 0;
+        row-gap: 16px;
+    }
+}
+
+.flex {
+    display: flex;
+}
+
+.grid-l-50 {
+    grid-column: 1/8;
+    grid-row: 1/2;
+}
+
+.grid-p-50 {
+    grid-column: 8/15;
+    grid-column: 1/2;
+}
+
+.grid {
+    @extend %grid;
+}
+
+.align-center {
+    align-items: center;
+}
+.justify-center {
+    justify-content: center;
+}
+.align-start {
+    align-items: start;
+}
+.justify-start {
+    justify-content: start;
+}
+.align-end {
+    align-items: end;
+}
+.justify-end {
+    justify-content: end;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-around {
+    justify-content: space-around;
+}
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+// Domyślna liczba wierszy równa liczbie kolumn
+$grid-rows: $grid-columns !default;
+
+// Definiuję mapę z breakpointami (od największego do najmniejszego)
+// Ta kolejność jest kluczowa dla prawidłowego nadpisywania styli w media queries
+$breakpoints: (
+  "xl": $breakpoint-xl,
+  "lg": $breakpoint-lg,
+  "md": $breakpoint-md,
+  "sm": $breakpoint-sm,
+  "xs": $breakpoint-xs,
+  "xxs": $breakpoint-xxs
+);
+
+// Mixin do ustawiania grid-column
+@mixin grid-column-pos($start, $end) {
+  grid-column: #{$start}/#{$end};
+}
+
+// Mixin do ustawiania grid-row
+@mixin grid-row-pos($start, $end) {
+  grid-row: #{$start}/#{$end};
+}
+
+// Generowanie klas utility dla kolumn
+// Najpierw generujemy podstawowe klasy bez media queries
+@for $i from 1 through ($grid-columns + 2) {
+  @for $j from ($i + 1) through ($grid-columns + 3) {
+    .gc-#{$i}\/#{$j} {
+      @include grid-column-pos($i, $j);
+    }
+  }
+}
+
+// Potem generujemy media queries osobno, wyraźnie oddzielone dla każdego breakpointu
+// Dzięki temu wszystkie media queries dla danego breakpointu będą zgrupowane razem
+// Zaczynamy od największego breakpointu (xl) i idziemy do najmniejszego (xxs)
+// Kolejność ma znaczenie! Najmniejsze breakpointy będą na końcu pliku i nadpiszą większe
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  @media screen and (max-width: #{$breakpoint-value}) {
+    @for $i from 1 through ($grid-columns + 2) {
+      @for $j from ($i + 1) through ($grid-columns + 3) {
+        .gc-#{$breakpoint-name}-#{$i}\/#{$j} {
+          grid-column: #{$i}/#{$j} !important;
+        }
+      }
+    }
+  }
+}
+
+// Generowanie klas utility dla wierszy
+// Najpierw generujemy podstawowe klasy bez media queries
+@for $i from 1 through $grid-rows {
+  @for $j from ($i + 1) through ($grid-rows + 2) {
+    .gr-#{$i}\/#{$j} {
+      @include grid-row-pos($i, $j);
+    }
+  }
+}
+
+// Potem generujemy media queries osobno dla każdego breakpointu
+// Porządek od największego do najmniejszego breakpointu
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  @media screen and (max-width: #{$breakpoint-value}) {
+    @for $i from 1 through $grid-rows {
+      @for $j from ($i + 1) through ($grid-rows + 2) {
+        .gr-#{$breakpoint-name}-#{$i}\/#{$j} {
+          grid-row: #{$i}/#{$j} !important;
+        }
+      }
+    }
+  }
+}
+
+
+// Generowanie klas dla gaps
+@function get-gap-class-name($value) {
+  // Konwersja 0.25 -> 25, 0.5 -> 50, 1 -> 100, 1.25 -> 125 itd.
+  $class-value: $value * 100;
+  // Zamiana na string bez kropki dziesiętnej
+  @return $class-value;
+}
+
+// Generowanie klas utility dla gap i row-gap
+$gap-min: 0;
+$gap-max: 5;
+$gap-step: 0.25;
+
+// Najpierw generujemy podstawowe klasy gap bez media queries
+@for $i from 0 through math.div($gap-max - $gap-min, $gap-step) {
+  $current-value: $gap-min + $i * $gap-step;
+  $class-suffix: get-gap-class-name($current-value);
+  
+  .gap-#{$class-suffix} {
+    gap: #{$current-value}rem;
+  }
+  
+  .row-gap-#{$class-suffix} {
+    row-gap: #{$current-value}rem;
+  }
+  
+  .column-gap-#{$class-suffix} {
+    column-gap: #{$current-value}rem;
+  }
+}
+
+// Następnie generujemy responsywne klasy gap dla każdego breakpointu osobno
+// Porządek od największego do najmniejszego breakpointu
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  @media screen and (max-width: #{$breakpoint-value}) {
+    @for $i from 0 through math.div($gap-max - $gap-min, $gap-step) {
+      $current-value: $gap-min + $i * $gap-step;
+      $class-suffix: get-gap-class-name($current-value);
+      
+      .gap-#{$breakpoint-name}-#{$class-suffix} {
+        gap: #{$current-value}rem !important;
+      }
+      
+      .row-gap-#{$breakpoint-name}-#{$class-suffix} {
+        row-gap: #{$current-value}rem !important;
+      }
+      
+      .column-gap-#{$breakpoint-name}-#{$class-suffix} {
+        column-gap: #{$current-value}rem !important;
+      }
+    }
+  }
+}
+

@@ -1,0 +1,68 @@
+// Nad fixed headerem (z-index .l-header = 100). Sam topbar nie jest chowany przy scrollu — headroom działa tylko na .js-headroom.
+.global-topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 101;
+    box-sizing: border-box;
+    background: #1a1a1a;
+    color: #fff;
+    font-size: 1.4rem;
+    line-height: 1.45;
+
+    &[hidden] {
+        display: none !important;
+    }
+
+    &__inner {
+        display: flex;
+        align-items: center;
+        gap: 1.2rem;
+        max-width: 100%;
+        padding: 1rem 1.6rem;
+        margin: 0 auto;
+    }
+
+    &__content {
+        flex: 1;
+        min-width: 0;
+
+        a {
+            color: inherit;
+            text-decoration: underline;
+        }
+
+        p:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__close {
+        flex-shrink: 0;
+        width: 3.6rem;
+        height: 3.6rem;
+        border: 0;
+        border-radius: 4px;
+        background: transparent;
+        color: inherit;
+        font-size: 2.2rem;
+        line-height: 1;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+
+        &:hover,
+        &:focus-visible {
+            opacity: 0.85;
+            outline: 2px solid currentcolor;
+            outline-offset: 2px;
+        }
+    }
+}
+
+body.has-global-topbar .l-header {
+    top: var(--global-topbar-h, 0px);
+}

@@ -1,0 +1,23 @@
+{
+    "key": "ui_options_page_67e2507fe9ed1",
+    "title": "Skrypty",
+    "active": true,
+    "menu_order": 0,
+    "page_title": "Skrypty",
+    "menu_slug": "skrypty",
+    "parent_slug": "acf-options-opcje-globalne",
+    "advanced_configuration": 0,
+    "icon_url": "",
+    "menu_title": "",
+    "position": "",
+    "redirect": false,
+    "description": "",
+    "menu_icon": [],
+    "update_button": "Aktualizuj",
+    "updated_message": "Ustawienia zostały zaktualizowane",
+    "capability": "edit_posts",
+    "data_storage": "options",
+    "post_id": "",
+    "autoload": 0,
+    "modified": 1742885023
+}

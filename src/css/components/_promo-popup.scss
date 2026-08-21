@@ -1,0 +1,90 @@
+@use "abstracts" as *;
+
+// Popup promocyjny (ACF — Opcje globalne). Markup w functions/acf.php.
+
+.global-promo-popup {
+    position: fixed;
+    inset: 0;
+    z-index: 99999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    box-sizing: border-box;
+    backdrop-filter: blur(14px);
+
+    &[hidden] {
+        display: none !important;
+    }
+}
+
+.global-promo-popup__backdrop {
+    position: absolute;
+    inset: 0;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.42);
+    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(14px);
+}
+
+.global-promo-popup__panel {
+    position: relative;
+    z-index: 1;
+    max-width: min(920px, 100%);
+    max-height: 90vh;
+    margin: 0;
+}
+
+.global-promo-popup__close {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    z-index: 2;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    font-size: 24px;
+    line-height: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.global-promo-popup__visual img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 85vh;
+    object-fit: contain;
+}
+
+.global-promo-popup--responsive {
+    .global-promo-popup__visual--mobile {
+        display: none;
+    }
+
+    @include media($breakpoint-sm, max) {
+        .global-promo-popup__visual--desktop {
+            display: none;
+        }
+
+        .global-promo-popup__visual--mobile {
+            display: block;
+        }
+    }
+}
+
+.global-promo-popup--desktop-only .global-promo-popup__visual--mobile {
+    display: none !important;
+}
+
+.global-promo-popup--mobile-only .global-promo-popup__visual--desktop {
+    display: none !important;
+}

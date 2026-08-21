@@ -1,0 +1,98 @@
+@use 'abstracts' as *;
+
+a,
+button {
+    transition: $transition;
+    cursor: pointer;
+    
+    &:hover {
+        transition: $transition;
+        color: $accent;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-font-family;
+  font-weight: 400;
+}
+
+em {
+  font-style: italic;
+}
+
+small {
+  font-size: 0.75em;
+}
+
+.text-italic {
+  font-style: italic;
+}
+.weight-light {
+  font-weight: 300;
+}
+.weight-regular {
+  font-weight: 400;
+}
+.weight-medium {
+  font-weight: 500;
+}
+.weight-semibold {
+  font-weight: 600;
+}
+.weight-bold {
+  font-weight: 700;
+}
+.weight-extrabold {
+  font-weight: 800;
+}
+.weight-black {
+  font-weight: 900;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-right {
+  text-align: right;
+}
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+
+
+.font-family-base {
+  font-family: $base-font-family;
+}
+.font-family-heading {
+  font-family: $heading-font-family;
+}
+
+.color-accent {
+color: $accent;
+}
+.color-white {
+color: $white;
+}
+.color-black {
+color: $black;
+}
+

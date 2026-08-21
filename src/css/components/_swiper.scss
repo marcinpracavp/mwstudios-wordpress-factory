@@ -1,0 +1,53 @@
+@use 'abstracts' as *;
+
+
+.slwn-swiper {
+    position: relative;
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        width: 62px;
+        height: 62px;
+        opacity: .6;
+        transition: $transition;
+        @include media($breakpoint-sm) {
+            width: 50px;
+            height: 50px;
+        }
+        @include media($breakpoint-xs) {
+            width: 40px;
+            height: 40px;
+        }
+
+        &::after {
+            // content: url(../dist/img/swiper-arrow.svg);
+            content: "→"; // Temporary placeholder
+            @include media($breakpoint-sm) {
+                transform: scale(.8);
+            }
+            @include media($breakpoint-xs) {
+                transform: scale(.6);
+            }
+        }
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+    .swiper-button-prev {
+        left: -10px;
+    }
+    .swiper-button-next {
+        right: -10px;
+        &::after {
+            transform: rotate(180deg);
+            @include media($breakpoint-sm) {
+                transform: scale(.8) rotate(180deg);
+            }
+            @include media($breakpoint-xs) {
+                transform: scale(.6) rotate(180deg);
+            }
+        }
+    }
+
+}

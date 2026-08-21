@@ -1,0 +1,39 @@
+@use 'abstracts' as *;
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: $base-colour;
+  background-color: $base-background-colour;
+  font-size: 2rem;
+  line-height: 1.7;
+  font-family: $base-font-family;
+  overflow-x: hidden;
+
+  @include media($breakpoint-sm) {
+    font-size: 1.6rem;
+  }
+}
+
+hr {
+  height: 1px;
+  background-color: $base-colour;
+}
+.viewer-container {
+    li:empty, p:empty {
+        display: block !important;
+    }
+
+    li {
+        display: block !important;
+    }
+}
+
+.decor-red {
+    @include media($breakpoint-sm) {
+        height: 40px;
+        
+    }
+}

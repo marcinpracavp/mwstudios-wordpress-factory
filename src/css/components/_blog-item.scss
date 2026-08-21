@@ -1,0 +1,49 @@
+@use 'abstracts' as *; // importowanie forwardów, zmiennych, mixinów, marginesów, fontów
+
+.blog-item {
+    &__container {
+
+    }
+
+    &__image {
+        margin-bottom: 25px;
+        .image {
+            aspect-ratio: 476 / 394;
+            background-image: url('../dist/img/blog-item-decor.png');
+            background-position: right -1px bottom -1px;
+            background-repeat: no-repeat;
+            background-size: 70% calc(100% + 1px);
+
+            @include media($breakpoint-sm) {
+                aspect-ratio: 476 / 300;;
+                background-size: 60% calc(100% + 1px);
+
+            }
+            
+            img {
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+                position: relative;
+                z-index: -1;
+            }
+        }
+    }
+
+    &__content {
+        .date {
+            color: $gray-3;
+            margin-bottom: 10px
+        }
+        .title {
+            margin-bottom: 20px;
+            h2 {
+                @include letter-spacing-xd(-125);
+            }
+        }
+
+        .excerpt {
+            margin-bottom: 15px;
+        }
+    }
+}

@@ -1,0 +1,140 @@
+@use 'abstracts' as *;
+
+
+.wpcf7 {
+    .screen-reader-response {
+        display: none;
+    }
+
+    form {
+        color: $white;
+        display: flex;
+        flex-direction: column;
+        gap: 6rem;
+
+        textarea {
+            // height: 200px;
+        }
+
+        .row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.6rem;
+
+            @include media($breakpoint-sm) {
+                grid-template-columns: 1fr;
+                textarea {
+                    height: 150px;
+                }
+            }
+
+            
+
+            &.full {
+                grid-template-columns: 1fr;
+
+            }
+
+            .col {
+                height: 100%;
+
+                p {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    height: 100%;
+
+                    gap: 1.6rem;
+
+                    br {
+                        display: none;
+                    }
+                    span {
+                        display: block;
+                    }
+                }
+            }
+
+            &.privacy {
+                font-size: 1.6rem;
+                line-height: 2.4rem;
+                color: $gray-1;
+
+                a {
+                    color: $white;
+
+                    &:hover {
+                        color: $accent;
+                    }
+                }
+
+                label {
+                    display: flex;
+                    gap: 1rem;
+
+                    @include media($breakpoint-sm) {
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+
+            &.submit {
+                display: flex;
+                justify-content: center;
+            }
+        }
+
+        .wpcf7-response-output {
+            width: fit-content;
+            margin: 0 auto;
+            border-radius: 5px;
+            font-size: 14px;
+            line-height: 1;
+            padding: 1rem 3rem;
+        }
+
+        &.invalid {
+            .wpcf7-response-output {
+                background-color: rgba($error-colour, .9);
+                border: 1px solid $error-colour;
+                
+            }
+        }
+        &.sent {
+            .wpcf7-response-output {
+                background-color: rgba($success-colour, .9);
+                border: 1px solid $success-colour;
+                
+            }
+        }
+        &.unaccepted {
+            .wpcf7-response-output {
+                background-color: rgba($warning-colour, .9);
+                border: 1px solid $warning-colour;
+                
+            }
+
+            input[type="checkbox"] {
+                border: 1px solid rgba($error-colour, 1);
+            }
+        }
+    }
+
+    .wpcf7-form-control-wrap {
+        position: relative;
+        .wpcf7-not-valid-tip {
+            position: absolute;
+            left: -.2rem;
+            bottom: -1.6rem;
+            background-color: rgba($error-colour, .9);
+            border: 1px solid $error-colour;
+            border-radius: 5px;
+            font-size: 12px;
+            line-height: 1;
+            padding: .4rem;
+
+        }
+    }
+
+    
+}

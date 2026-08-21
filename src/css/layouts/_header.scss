@@ -1,0 +1,101 @@
+@use 'abstracts' as *;
+
+
+.l-header {
+  transition: $transition;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &--pinned {
+    transform: translateY(0%);
+    background: $base-background-colour;
+  }
+
+  &.header--not-top {
+    background: $base-background-colour;
+
+    .l-header__branding {
+      img {
+        max-width: 150px;
+      }
+    }
+  }
+
+  &--top {
+    background: transparent;
+  }
+
+  &--unpinned {
+    transform: translateY(-150%);
+  }
+
+  &__branding {
+    display: flex;
+
+    img {
+      transition: $transition;
+    }
+  }
+
+  &__menu {
+    display: none;
+    
+    @include media($breakpoint-md, min) {
+        display: flex;
+    }
+    
+    ul {
+        display: flex;
+        gap: 3rem;
+
+        li {
+            position: relative;
+            &.menu-item-has-children {
+                a {
+                    display: flex;
+                    align-items: center;
+                    gap: .4rem;
+                }
+            }
+
+            ul {
+                position: absolute;
+                display: none;
+                flex-direction: column;
+                background-color: $white;
+                gap: 0;
+                left: -2rem;
+                // box-shadow: $shadow;
+
+                li {
+                    a {
+                        padding: .3rem 2rem;
+                        text-wrap: nowrap;
+                        display: block;
+                        border-bottom: 1px solid rgba($gray-1, 0.9);
+
+                        &:hover {
+                            background-color: $gray-1;
+                        }
+                    }
+
+                    &:last-child {
+                        a {
+                            border-bottom: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+  }
+}

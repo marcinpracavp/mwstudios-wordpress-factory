@@ -1,0 +1,66 @@
+@use 'abstracts' as *; // importowanie forwardów, zmiennych, mixinów, marginesów, fontów
+
+.page-template-template-blog {
+    .blog {
+        &-container {
+            &__content {
+                @extend %padding-top-120;
+                @extend %padding-bottom-80;
+            }
+            &__items {
+                .wrapper {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    column-gap: 70px;
+                    row-gap: 90px;
+
+                    @include media($breakpoint-xl) {
+                        column-gap: 3rem;
+                        row-gap: 5rem;
+                    }
+                    @include media($breakpoint-lg) {
+                        grid-template-columns: repeat(3, 1fr);
+                        column-gap: 2rem;
+                        row-gap: 3rem;
+                    }
+                    @include media($breakpoint-md) {
+                        grid-template-columns: repeat(2, 1fr);
+                        column-gap: 1rem;
+                        row-gap: 2rem;
+                    }
+                    @include media($breakpoint-xs) {
+                        grid-template-columns: repeat(1, 1fr);
+                        column-gap: 0;
+                        row-gap: 2rem;
+                    }
+                }
+
+                .pagination {
+                    @extend %margin-top-120;
+                    @extend %margin-bottom-100;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 1rem;
+
+                    .page-numbers {
+                        font-family: $base-font-family;
+                        font-weight: 800;
+
+                        &.current {
+                            color: $accent;
+
+                        }
+                        &.next {
+                            margin-left: 1rem;
+                            transform: rotate(180deg);
+                        }
+                        &.prev {
+                            margin-right: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

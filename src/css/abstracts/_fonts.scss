@@ -1,0 +1,45 @@
+
+
+// @font-face {
+//     font-family: 'n27bold';
+//     src: url('../dist/fonts/N27-Bold.otf');
+//     font-weight: normal;
+//     font-style: normal;
+
+// }
+$Poppins-weights: (
+  200: 'ExtraLight',
+  300: 'Light',
+  400: 'Regular',
+  500: 'Medium',
+  600: 'SemiBold',
+  700: 'Bold',
+  800: 'ExtraBold',
+  900: 'Black'
+);
+
+$Baskervville-weights: (
+  400: 'Regular',
+  500: 'Medium',
+  600: 'SemiBold',
+  700: 'Bold'
+);
+
+// Tymczasowo wyłączamy fonty, bo nie ma plików w assets/fonts
+// FUNKCJA DO REJESTRACJI
+// @each $family, $map in ( 'Poppins': $Poppins-weights, 'Baskervville': $Baskervville-weights ) {
+//   @each $weight, $name in $map {
+//     @font-face {
+//       font-family: #{$family};
+//       src: url('../assets/fonts/#{$family}-#{$name}.ttf') format('truetype');
+//       font-weight: $weight;
+//       font-style: normal;
+//     }
+//     @font-face {
+//       font-family: #{$family};
+//       src: url('../assets/fonts/#{$family}-#{$name}Italic.ttf') format('truetype');
+//       font-weight: $weight;
+//       font-style: italic;
+//     }
+//   }
+// }

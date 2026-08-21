@@ -1,0 +1,124 @@
+{
+    "key": "group_67e250aa3d6ba",
+    "title": "Skrypty",
+    "fields": [
+        {
+            "key": "field_67e250aa2805e",
+            "label": "Header",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_67e250b82805f",
+            "label": "Skrypty header",
+            "name": "skrypty_header",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "W tym polu możesz umieścić kody GTM, dodatkowe skryptu oraz style.\r\nUmiejscowienie: przed tagiem zamykajacym head",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "allow_in_bindings": 0,
+            "rows": "",
+            "placeholder": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_67e251505bc75",
+            "label": "Skrypty header 2",
+            "name": "skrypty_header_2",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "W tym polu możesz umieścić kody GTM, dodatkowe skryptu oraz style.\r\nUmiejscowienie: za tagiem otwierającym body",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "allow_in_bindings": 0,
+            "rows": "",
+            "placeholder": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_67e2511a5bc73",
+            "label": "Footer",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_67e251205bc74",
+            "label": "Skrypty Footer",
+            "name": "skrypty_footer",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "W tym polu możesz umieścić kody GTM, dodatkowe skryptu oraz style.\r\nUmiejscowienie: przed tagiem zamykającym body",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "allow_in_bindings": 0,
+            "rows": "",
+            "placeholder": "",
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "skrypty"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1742886680
+}

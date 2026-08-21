@@ -1,0 +1,83 @@
+@use 'abstracts' as *;
+
+input {
+    &[type="text"] {
+        @extend .custom-input;
+    }
+    
+    &[type="email"] {
+        @extend .custom-input;
+    }
+    
+    &[type="tel"] {
+        @extend .custom-input;
+    }
+    
+    [type="radio"] {
+        
+    }
+    
+    &[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+        // background-color: $white;
+        border: 1px solid $white;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+
+        &:before {
+            content: '\f00c';
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            display: none;
+        }
+
+        &:checked {
+            &::before {
+                display: block;
+            }
+        }
+    }
+    
+    [type="button"] {
+        
+    }
+    
+    [type="submit"] {
+        
+    }
+    
+    [type="file"] {
+        
+    }
+    
+    [type="time"] {
+        
+    }
+    
+    [type="date"] {
+        
+    }
+}
+
+.custom-input {
+    padding: 2.1rem 3.5rem;
+    color: $white;
+    font-family: $base-font-family;
+    border: 3px solid $gray-1;
+    width: 100%;
+    border-radius: 50vh;
+    text-align: center;
+
+    &::placeholder {
+        color: $gray-1;
+        text-align: center;
+    }
+
+    &:focus {
+        border-color: $accent;
+    }
+}

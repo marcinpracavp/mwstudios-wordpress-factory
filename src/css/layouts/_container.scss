@@ -1,0 +1,25 @@
+@use 'abstracts' as *;
+
+
+.l-container {
+  width: 96%;
+  max-width: $page-width;
+  margin: 0 auto;
+
+  &--xxl {
+    max-width: 1753px;
+  }
+
+  &--xl {
+    max-width: 1644px;
+  }
+
+  &--full {
+    width: 100%;
+    max-width: 100%;
+
+    img {
+      width: 100%;
+    }
+  }
+}

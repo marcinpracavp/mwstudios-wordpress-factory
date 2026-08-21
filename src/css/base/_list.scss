@@ -1,0 +1,17 @@
+main {
+    ul,
+    ol {
+        margin-bottom: 14px;;
+        ul {
+            margin-left: 2rem;
+            list-style-type: disc;
+        }
+    }
+}
+
+li {
+  > ul,
+  > ol {
+    margin-bottom: 0;
+  }
+}

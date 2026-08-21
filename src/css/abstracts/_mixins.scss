@@ -1,0 +1,21 @@
+@use 'sass:math';
+@use 'variables' as *;
+
+
+/*
+* Sets element media query
+*/
+@mixin media($breakpoint, $type: max) {
+  @media screen and (#{$type}-width: #{$breakpoint}) {
+    @content;
+  }
+}
+
+/*
+* Converts Adobe XD letter spacing to CSS letter-spacing
+* Konwertuje wartość odstępu między literami z Adobe XD na CSS letter-spacing
+* @param {Number} $xd-value - Letter spacing value from Adobe XD / Wartość z Adobe XD
+*/
+@mixin letter-spacing-xd($xd-value) {
+    letter-spacing: #{math.div($xd-value, 1000)}em;
+}

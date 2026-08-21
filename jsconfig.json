@@ -1,0 +1,12 @@
+{
+	"typeAcquisition": {
+		"include": [
+			"jquery"
+		]
+	},
+	"exclude": [
+		"wp-content/themes/thesigner/node_modules",
+		"wp-admin",
+		"wp-includes"
+	]
+}

@@ -1,0 +1,257 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+// Lista wartości
+$xl-min-values: (210, 150, 140, 130, 120, 110, 100, 90, 80, 70, 60, 50, 40, 30);
+$scale-factors: (
+    xl-max: calc(1 / 1.25),
+    // 75% wartości poprzedniej
+    md-max: calc(1 / 1.5625),
+    // 75% wartości poprzedniej
+    sm-max: calc(1 / 1.953125) // 75% wartości poprzedniej,,,,
+);
+
+// Tworzenie mapy spacing-values
+$spacing-values: ();
+
+@each $size in $xl-min-values {
+    $breakpoints: (
+        xl-min: #{$size}px,
+    );
+
+    @each $bp, $factor in $scale-factors {
+        // Warunki dla wykluczania md-max i sm-max
+        @if not(
+            ($size == 30 or $size == 40) and
+                ($bp == md-max or $bp == sm-max) or
+                ($size == 50 or $size == 60) and
+                ($bp == sm-max)
+        )
+        {
+            $breakpoints: map-merge(
+                $breakpoints,
+                (
+                    $bp: round($size * $factor) + px,
+                )
+            );
+        }
+    }
+
+    $spacing-values: map-merge(
+        $spacing-values,
+        (
+            $size: $breakpoints,
+        )
+    );
+}
+
+// Mixiny do generowania klas
+@mixin generate-spacing($property) {
+    @each $size, $breakpoints in $spacing-values {
+        %#{$property}-#{$size} {
+            @each $bp, $value in $breakpoints {
+                @if $bp == xl-min {
+                    @include media($breakpoint-xl, min) {
+                        #{$property}: $value;
+                    }
+                } @else if $bp == xl-max {
+                    @include media($breakpoint-xl, max) {
+                        #{$property}: $value;
+                    }
+                } @else if $bp == md-max {
+                    @include media($breakpoint-md, max) {
+                        #{$property}: $value;
+                    }
+                } @else if $bp == sm-max {
+                    @include media($breakpoint-sm, max) {
+                        #{$property}: $value;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Mixin dla osi x i y
+@mixin generate-axis-spacing($axis) {
+    @each $size, $breakpoints in $spacing-values {
+        @if $axis == "padding-y" {
+            %#{$axis}-#{$size} {
+                @each $bp, $value in $breakpoints {
+                    @if $bp == xl-min {
+                        @include media($breakpoint-xl, min) {
+                            padding-top: $value;
+                            padding-bottom: $value;
+                        }
+                    } @else if $bp == xl-max {
+                        @include media($breakpoint-xl, max) {
+                            padding-top: $value;
+                            padding-bottom: $value;
+                        }
+                    } @else if $bp == md-max {
+                        @include media($breakpoint-md, max) {
+                            padding-top: $value;
+                            padding-bottom: $value;
+                        }
+                    } @else if $bp == sm-max {
+                        @include media($breakpoint-sm, max) {
+                            padding-top: $value;
+                            padding-bottom: $value;
+                        }
+                    }
+                }
+            }
+        } @else if $axis == "padding-x" {
+            %#{$axis}-#{$size} {
+                @each $bp, $value in $breakpoints {
+                    @if $bp == xl-min {
+                        @include media($breakpoint-xl, min) {
+                            padding-left: $value;
+                            padding-right: $value;
+                        }
+                    } @else if $bp == xl-max {
+                        @include media($breakpoint-xl, max) {
+                            padding-left: $value;
+                            padding-right: $value;
+                        }
+                    } @else if $bp == md-max {
+                        @include media($breakpoint-md, max) {
+                            padding-left: $value;
+                            padding-right: $value;
+                        }
+                    } @else if $bp == sm-max {
+                        @include media($breakpoint-sm, max) {
+                            padding-left: $value;
+                            padding-right: $value;
+                        }
+                    }
+                }
+            }
+        } @else if $axis == "margin-y" {
+            %#{$axis}-#{$size} {
+                @each $bp, $value in $breakpoints {
+                    @if $bp == xl-min {
+                        @include media($breakpoint-xl, min) {
+                            margin-top: $value;
+                            margin-bottom: $value;
+                        }
+                    } @else if $bp == xl-max {
+                        @include media($breakpoint-xl, max) {
+                            margin-top: $value;
+                            margin-bottom: $value;
+                        }
+                    } @else if $bp == md-max {
+                        @include media($breakpoint-md, max) {
+                            margin-top: $value;
+                            margin-bottom: $value;
+                        }
+                    } @else if $bp == sm-max {
+                        @include media($breakpoint-sm, max) {
+                            margin-top: $value;
+                            margin-bottom: $value;
+                        }
+                    }
+                }
+            }
+        } @else if $axis == "margin-x" {
+            %#{$axis}-#{$size} {
+                @each $bp, $value in $breakpoints {
+                    @if $bp == xl-min {
+                        @include media($breakpoint-xl, min) {
+                            margin-left: $value;
+                            margin-right: $value;
+                        }
+                    } @else if $bp == xl-max {
+                        @include media($breakpoint-xl, max) {
+                            margin-left: $value;
+                            margin-right: $value;
+                        }
+                    } @else if $bp == md-max {
+                        @include media($breakpoint-md, max) {
+                            margin-left: $value;
+                            margin-right: $value;
+                        }
+                    } @else if $bp == sm-max {
+                        @include media($breakpoint-sm, max) {
+                            margin-left: $value;
+                            margin-right: $value;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Generowanie klas dla pojedynczych kierunków
+@include generate-spacing("padding-top");
+@include generate-spacing("padding-bottom");
+@include generate-spacing("padding-left");
+@include generate-spacing("padding-right");
+@include generate-spacing("margin-top");
+@include generate-spacing("margin-bottom");
+@include generate-spacing("margin-left");
+@include generate-spacing("margin-right");
+
+// Generowanie klas dla osi x i y
+@include generate-axis-spacing("padding-y");
+@include generate-axis-spacing("padding-x");
+@include generate-axis-spacing("margin-y");
+@include generate-axis-spacing("margin-x");
+
+// Automatyczne generowanie klas utility dla wszystkich wartości
+// Generowanie klas dla pojedynczych kierunków (padding-*)
+@each $size, $breakpoints in $spacing-values {
+  .pt-#{$size} {
+    @extend %padding-top-#{$size};
+  }
+  .pb-#{$size} {
+    @extend %padding-bottom-#{$size};
+  }
+  .pl-#{$size} {
+    @extend %padding-left-#{$size};
+  }
+  .pr-#{$size} {
+    @extend %padding-right-#{$size};
+  }
+  .mt-#{$size} {
+    @extend %margin-top-#{$size};
+  }
+  .mb-#{$size} {
+    @extend %margin-bottom-#{$size};
+  }
+  .ml-#{$size} {
+    @extend %margin-left-#{$size};
+  }
+  .mr-#{$size} {
+    @extend %margin-right-#{$size};
+  }
+}
+
+// Generowanie klas dla osi x i y (padding-x, padding-y, margin-x, margin-y)
+@each $size, $breakpoints in $spacing-values {
+  .py-#{$size} {
+    @extend %padding-y-#{$size};
+  }
+  .px-#{$size} {
+    @extend %padding-x-#{$size};
+  }
+  .my-#{$size} {
+    @extend %margin-y-#{$size};
+  }
+  .mx-#{$size} {
+    @extend %margin-x-#{$size};
+  }
+}
+
+// Generowanie klas dla wszystkich paddingów i marginów
+@each $size, $breakpoints in $spacing-values {
+  .p-#{$size} {
+    @extend %padding-x-#{$size};
+    @extend %padding-y-#{$size};
+  }
+  .m-#{$size} {
+    @extend %margin-x-#{$size};
+    @extend %margin-y-#{$size};
+  }
+}

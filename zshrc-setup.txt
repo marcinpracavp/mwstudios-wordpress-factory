@@ -1,0 +1,18 @@
+# Automatyczne ustawianie środowiska dla projektu ogarnij-to
+# Dodaj ten kod do swojego ~/.zshrc
+
+# Funkcja do automatycznego ustawiania NODE_ENV
+auto_set_node_env() {
+    if [[ "$PWD" == *"ogarnij-to"* ]]; then
+        if [[ -f ".env.local" ]]; then
+            export NODE_ENV=development
+            echo "🔧 Auto-ustawiono NODE_ENV=development dla projektu ogarnij-to"
+        fi
+    fi
+}
+
+# Uruchom funkcję przy zmianie katalogu
+add-zsh-hook chpwd auto_set_node_env
+
+# Uruchom funkcję przy starcie terminala jeśli jesteś już w katalogu projektu
+auto_set_node_env

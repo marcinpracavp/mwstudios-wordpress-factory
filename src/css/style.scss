@@ -1,0 +1,17 @@
+@use "abstracts"; // importowanie forwardów, zmiennych, mixinów, marginesów, fontów
+
+@use "vendor"; // importowanie bibliotek zewnętrznych
+
+@use 'utils'; // importowanie narzędzi
+
+@use "base";
+
+
+@use "layouts";
+
+@use "components";
+
+@use 'pages'; // automatycznie załaduje _index.scss
+
+
+@import '~@fortawesome/fontawesome-free/css/all.css';
