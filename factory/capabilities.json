@@ -1,0 +1,84 @@
+{
+  "$schema": "./schemas/capabilities.schema.json",
+  "factoryVersion": "0.1.0",
+  "capabilities": [
+    {
+      "id": "acf",
+      "name": "Advanced Custom Fields Pro",
+      "type": "core",
+      "required": true,
+      "dependencies": [],
+      "description": "Required structured content foundation for Website Factory projects."
+    },
+    {
+      "id": "cf7",
+      "name": "Contact Form 7",
+      "type": "integration",
+      "required": false,
+      "dependencies": [
+        "acf"
+      ],
+      "description": "Contact Form 7 integration for forms selected and rendered through project content."
+    },
+    {
+      "id": "polylang",
+      "name": "Polylang",
+      "type": "integration",
+      "required": false,
+      "dependencies": [],
+      "description": "Multilingual content and language navigation integration."
+    },
+    {
+      "id": "woocommerce",
+      "name": "WooCommerce",
+      "type": "integration",
+      "required": false,
+      "dependencies": [],
+      "description": "Commerce integration for projects that require products, carts, and checkout."
+    },
+    {
+      "id": "swiper",
+      "name": "Swiper",
+      "type": "frontend",
+      "required": false,
+      "dependencies": [],
+      "description": "Shared slider and carousel capability based on Swiper."
+    },
+    {
+      "id": "aos",
+      "name": "Animate On Scroll",
+      "type": "frontend",
+      "required": false,
+      "dependencies": [],
+      "description": "Optional scroll animation capability based on AOS."
+    },
+    {
+      "id": "blog",
+      "name": "Blog",
+      "type": "feature",
+      "required": false,
+      "dependencies": [],
+      "description": "Editorial listing, post detail, and pagination capability."
+    },
+    {
+      "id": "topbar",
+      "name": "Topbar",
+      "type": "feature",
+      "required": false,
+      "dependencies": [
+        "acf"
+      ],
+      "description": "Dismissible global announcement bar configured through ACF."
+    },
+    {
+      "id": "promo-popup",
+      "name": "Promotional Popup",
+      "type": "feature",
+      "required": false,
+      "dependencies": [
+        "acf"
+      ],
+      "description": "Scheduled promotional popup configured through ACF."
+    }
+  ]
+}

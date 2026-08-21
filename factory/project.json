@@ -1,0 +1,41 @@
+{
+  "$schema": "./schemas/project.schema.json",
+  "factoryVersion": "0.1.0",
+  "mode": "boilerplate",
+  "project": {
+    "name": "MWStudios Website Factory",
+    "slug": "mwstudios-factory",
+    "textDomain": "mwstudios-factory",
+    "prefix": "mwf"
+  },
+  "environment": {
+    "localUrl": null
+  },
+  "wordpress": {
+    "acfPro": true,
+    "languages": [
+      "pl"
+    ],
+    "defaultLanguage": "pl"
+  },
+  "capabilities": {
+    "enabled": [
+      "acf"
+    ]
+  },
+  "figma": {
+    "url": null,
+    "page": null,
+    "rootNode": null
+  },
+  "build": {
+    "distStrategy": "local-release-artifact",
+    "release": {
+      "includeDist": true,
+      "includeSource": true,
+      "includeVendor": true,
+      "excludeNodeModules": true,
+      "excludeGit": true
+    }
+  }
+}

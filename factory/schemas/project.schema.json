@@ -1,0 +1,246 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://mwstudios.pl/website-factory/schemas/project.schema.json",
+  "title": "MWStudios Website Factory project manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "factoryVersion",
+    "mode",
+    "project",
+    "environment",
+    "wordpress",
+    "capabilities",
+    "figma",
+    "build"
+  ],
+  "properties": {
+    "$schema": {
+      "const": "./schemas/project.schema.json"
+    },
+    "factoryVersion": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "mode": {
+      "type": "string",
+      "enum": [
+        "boilerplate",
+        "project"
+      ]
+    },
+    "project": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "slug",
+        "textDomain",
+        "prefix"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "slug": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "textDomain": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "prefix": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        }
+      }
+    },
+    "environment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "localUrl"
+      ],
+      "properties": {
+        "localUrl": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "pattern": "^https?://[^\\s]+$"
+            }
+          ]
+        }
+      }
+    },
+    "wordpress": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "acfPro",
+        "languages",
+        "defaultLanguage"
+      ],
+      "properties": {
+        "acfPro": {
+          "type": "boolean",
+          "const": true
+        },
+        "languages": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "defaultLanguage": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "capabilities": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "enabled"
+      ],
+      "properties": {
+        "enabled": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9-]*$"
+          }
+        }
+      }
+    },
+    "figma": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "url",
+        "page",
+        "rootNode"
+      ],
+      "properties": {
+        "url": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "^https://(?:www\\.)?figma\\.com/"
+            }
+          ]
+        },
+        "page": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "rootNode": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        }
+      }
+    },
+    "build": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "distStrategy",
+        "release"
+      ],
+      "properties": {
+        "distStrategy": {
+          "type": "string",
+          "enum": [
+            "local-release-artifact"
+          ]
+        },
+        "release": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "includeDist",
+            "includeSource",
+            "includeVendor",
+            "excludeNodeModules",
+            "excludeGit"
+          ],
+          "properties": {
+            "includeDist": {
+              "type": "boolean",
+              "const": true
+            },
+            "includeSource": {
+              "type": "boolean",
+              "const": true
+            },
+            "includeVendor": {
+              "type": "boolean",
+              "const": true
+            },
+            "excludeNodeModules": {
+              "type": "boolean",
+              "const": true
+            },
+            "excludeGit": {
+              "type": "boolean",
+              "const": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "required": [
+          "mode"
+        ],
+        "properties": {
+          "mode": {
+            "const": "project"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "figma": {
+            "type": "object",
+            "properties": {
+              "url": {
+                "type": "string"
+              },
+              "page": {
+                "type": "string"
+              },
+              "rootNode": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}
