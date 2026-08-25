@@ -5,48 +5,48 @@
 
 ## Project
 
-Name: MWStudios Website Factory
-Slug: mwstudios-factory
-Theme name: MWStudios Website Factory
-Text domain: mwstudios-factory
-PHP prefix: mwf
-Mode: boilerplate
+Name: Aura
+Slug: aura
+Theme name: Aura
+Text domain: aura
+PHP prefix: aura
+Mode: project
 
 ## Environment
 
-Local URL: Not configured
-Production URL: Not configured
+Local URL: <https://devtest.local>
+Production URL: <https://devtest.local>
 
 ## Design
 
-Figma design: Not configured
+Figma design: <https://www.figma.com/design/66uFGBjIWeTAWe5wsssrFG/AURA-%E2%80%94-Premium-Home-Fragrance-Ecommerce?m=dev>
 Figma page: Not configured
 Figma root/start node: Not configured
 
 ## Languages
 
 Default: pl
-Enabled: pl
+Enabled: pl, en
 
 ## WordPress
 
 ACF Pro: YES
-Contact Form 7: NO
-Polylang: NO
-WooCommerce: NO
+Contact Form 7: YES
+Polylang: YES
+WooCommerce: YES
 Google Maps: NO
 
 ## Frontend
 
 Swiper: YES
-AOS: NO
-Lenis smooth scroll: NO
+AOS: YES
+Lenis smooth scroll: YES
 
 ## Features
 
-Blog/news: NO
-Topbar: NO
-Promo popup: NO
+Blog/news: YES
+Topbar: YES
+Promo popup: YES
 
 ## Build
 
