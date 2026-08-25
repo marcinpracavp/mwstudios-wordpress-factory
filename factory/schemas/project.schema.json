@@ -36,6 +36,7 @@
       "required": [
         "name",
         "slug",
+        "themeName",
         "textDomain",
         "prefix"
       ],
@@ -48,6 +49,11 @@
         "slug": {
           "type": "string",
           "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "themeName": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
         },
         "textDomain": {
           "type": "string",
@@ -63,10 +69,22 @@
       "type": "object",
       "additionalProperties": false,
       "required": [
-        "localUrl"
+        "localUrl",
+        "productionUrl"
       ],
       "properties": {
         "localUrl": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "pattern": "^https?://[^\\s]+$"
+            }
+          ]
+        },
+        "productionUrl": {
           "oneOf": [
             {
               "type": "null"
@@ -89,8 +107,7 @@
       ],
       "properties": {
         "acfPro": {
-          "type": "boolean",
-          "const": true
+          "type": "boolean"
         },
         "languages": {
           "type": "array",
@@ -98,12 +115,12 @@
           "uniqueItems": true,
           "items": {
             "type": "string",
-            "minLength": 1
+            "pattern": "^[a-z]{2,3}(?:-[a-z0-9]{2,8})*$"
           }
         },
         "defaultLanguage": {
           "type": "string",
-          "minLength": 1
+          "pattern": "^[a-z]{2,3}(?:-[a-z0-9]{2,8})*$"
         }
       }
     },
@@ -225,17 +242,12 @@
       },
       "then": {
         "properties": {
-          "figma": {
+          "environment": {
             "type": "object",
             "properties": {
-              "url": {
-                "type": "string"
-              },
-              "page": {
-                "type": "string"
-              },
-              "rootNode": {
-                "type": "string"
+              "localUrl": {
+                "type": "string",
+                "pattern": "^https?://[^\\s]+$"
               }
             }
           }

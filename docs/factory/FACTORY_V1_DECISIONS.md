@@ -6,7 +6,7 @@ Status: **FROZEN for Factory v1**
 
 - WordPress custom theme
 - PHP templates
-- ACF Pro required
+- ACF Pro enabled by default as a configurable project requirement
 - SCSS
 - Vanilla JavaScript
 - Webpack
@@ -21,9 +21,10 @@ ACF Flexible Content is not part of the default Factory v1 architecture.
 
 ## Capabilities
 
-Core capability:
+Initializer defaults:
 
 - `acf`
+- `swiper`
 
 Optional capabilities:
 
@@ -32,13 +33,18 @@ Optional capabilities:
 - `woocommerce`
 - `swiper`
 - `aos`
+- `lenis`
+- `google-maps`
 - `blog`
 - `topbar`
 - `promo-popup`
 
+Capability flags describe the technologies, integrations, and features planned for a project. They provide context for Codex and development tooling; they do not activate a PHP runtime loader, control WordPress requests, or authorize removing disabled functionality from the boilerplate.
+
+ACF Pro defaults to enabled during project initialization but remains a configurable project-context flag. The `lenis` flag means that the project plans to use Lenis as its smooth-scrolling engine. It does not install Lenis or implement smooth scrolling in the WordPress runtime.
+
 Excluded from the v1 core:
 
-- Lenis
 - Viewer
 - AOE
 - TwentyTwenty

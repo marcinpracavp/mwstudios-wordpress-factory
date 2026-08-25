@@ -5,11 +5,13 @@
   "project": {
     "name": "MWStudios Website Factory",
     "slug": "mwstudios-factory",
+    "themeName": "MWStudios Website Factory",
     "textDomain": "mwstudios-factory",
     "prefix": "mwf"
   },
   "environment": {
-    "localUrl": null
+    "localUrl": null,
+    "productionUrl": null
   },
   "wordpress": {
     "acfPro": true,
@@ -20,7 +22,8 @@
   },
   "capabilities": {
     "enabled": [
-      "acf"
+      "acf",
+      "swiper"
     ]
   },
   "figma": {

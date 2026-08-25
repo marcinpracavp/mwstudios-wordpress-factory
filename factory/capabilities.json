@@ -6,9 +6,9 @@
       "id": "acf",
       "name": "Advanced Custom Fields Pro",
       "type": "core",
-      "required": true,
+      "required": false,
       "dependencies": [],
-      "description": "Required structured content foundation for Website Factory projects."
+      "description": "Default structured content foundation for Website Factory projects."
     },
     {
       "id": "cf7",
@@ -37,6 +37,16 @@
       "description": "Commerce integration for projects that require products, carts, and checkout."
     },
     {
+      "id": "google-maps",
+      "name": "Google Maps",
+      "type": "integration",
+      "required": false,
+      "dependencies": [
+        "acf"
+      ],
+      "description": "Google Maps integration planned for project map fields and components."
+    },
+    {
       "id": "swiper",
       "name": "Swiper",
       "type": "frontend",
@@ -51,6 +61,14 @@
       "required": false,
       "dependencies": [],
       "description": "Optional scroll animation capability based on AOS."
+    },
+    {
+      "id": "lenis",
+      "name": "Lenis Smooth Scroll",
+      "type": "frontend",
+      "required": false,
+      "dependencies": [],
+      "description": "Optional smooth scrolling capability planned with Lenis as the engine."
     },
     {
       "id": "blog",

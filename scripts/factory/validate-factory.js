@@ -15,6 +15,15 @@ function readJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, 'utf8'));
 }
 
+function loadFactoryData(project = readJson(FACTORY_PATHS.project)) {
+  return {
+    project,
+    registry: readJson(FACTORY_PATHS.capabilities),
+    projectSchema: readJson(FACTORY_PATHS.projectSchema),
+    capabilitiesSchema: readJson(FACTORY_PATHS.capabilitiesSchema)
+  };
+}
+
 function formatSchemaErrors(scope, errors = []) {
   return errors.map((error) => {
     const location = error.instancePath || '/';
@@ -38,6 +47,31 @@ function findDuplicates(values) {
   });
 
   return [...duplicates];
+}
+
+function isHttpUrl(value) {
+  if (typeof value !== 'string' || !/^https?:\/\/[^\s]+$/.test(value)) {
+    return false;
+  }
+
+  try {
+    const url = new URL(value);
+    return (url.protocol === 'http:' || url.protocol === 'https:') && Boolean(url.hostname);
+  } catch (error) {
+    return false;
+  }
+}
+
+function isFigmaUrl(value) {
+  if (typeof value !== 'string'
+    || !/^https:\/\/(?:www\.)?figma\.com\//.test(value)
+    || !isHttpUrl(value)) {
+    return false;
+  }
+
+  const url = new URL(value);
+  return url.protocol === 'https:'
+    && (url.hostname === 'figma.com' || url.hostname === 'www.figma.com');
 }
 
 function validateFactory({ project, registry, projectSchema, capabilitiesSchema }) {
@@ -99,6 +133,18 @@ function validateFactory({ project, registry, projectSchema, capabilitiesSchema 
 
   checks.push({ label: 'capability registry', errors: registryErrors });
 
+  const capabilityConfigurationErrors = [];
+  const usesAcfPro = project.wordpress?.acfPro;
+  if (typeof usesAcfPro === 'boolean' && usesAcfPro !== enabled.includes('acf')) {
+    capabilityConfigurationErrors.push(
+      'wordpress acfPro must match whether capability "acf" is enabled'
+    );
+  }
+  checks.push({
+    label: 'capability configuration',
+    errors: capabilityConfigurationErrors
+  });
+
   const identifierErrors = [];
   const projectData = project.project || {};
   const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -158,19 +204,23 @@ function validateFactory({ project, registry, projectSchema, capabilitiesSchema 
 
   const environmentErrors = [];
   const localUrl = project.environment?.localUrl;
-  if (localUrl !== null && !/^https?:\/\/[^\s]+$/.test(localUrl || '')) {
+  const productionUrl = project.environment?.productionUrl;
+
+  if (project.mode === 'project' && !isHttpUrl(localUrl)) {
+    environmentErrors.push('environment localUrl is required for project mode and must be an absolute HTTP(S) URL');
+  } else if (localUrl !== null && !isHttpUrl(localUrl)) {
     environmentErrors.push('environment localUrl must be null or an absolute HTTP(S) URL');
+  }
+
+  if (productionUrl !== null && !isHttpUrl(productionUrl)) {
+    environmentErrors.push('environment productionUrl must be null or an absolute HTTP(S) URL');
   }
   checks.push({ label: 'environment', errors: environmentErrors });
 
   const figmaErrors = [];
   const figma = project.figma || {};
-  if (project.mode === 'project') {
-    ['url', 'page', 'rootNode'].forEach((property) => {
-      if (typeof figma[property] !== 'string' || figma[property].trim() === '') {
-        figmaErrors.push(`Figma ${property} is required when mode is "project"`);
-      }
-    });
+  if (figma.url !== null && !isFigmaUrl(figma.url)) {
+    figmaErrors.push('Figma url must be null or an HTTPS URL on figma.com');
   }
   checks.push({ label: 'Figma configuration', errors: figmaErrors });
 
@@ -199,6 +249,14 @@ function validateFactory({ project, registry, projectSchema, capabilitiesSchema 
   return checks;
 }
 
+function validateFactoryProject(project) {
+  return validateFactory(loadFactoryData(project));
+}
+
+function getValidationErrors(checks) {
+  return checks.flatMap((check) => check.errors);
+}
+
 function renderReport(checks) {
   console.log('Website Factory validation');
   console.log('');
@@ -223,12 +281,7 @@ function renderReport(checks) {
 
 function main() {
   try {
-    const checks = validateFactory({
-      project: readJson(FACTORY_PATHS.project),
-      registry: readJson(FACTORY_PATHS.capabilities),
-      projectSchema: readJson(FACTORY_PATHS.projectSchema),
-      capabilitiesSchema: readJson(FACTORY_PATHS.capabilitiesSchema)
-    });
+    const checks = validateFactoryProject(readJson(FACTORY_PATHS.project));
 
     process.exitCode = renderReport(checks) ? 0 : 1;
   } catch (error) {
@@ -246,6 +299,13 @@ if (require.main === module) {
 }
 
 module.exports = {
+  FACTORY_PATHS,
+  getValidationErrors,
+  isFigmaUrl,
+  isHttpUrl,
+  loadFactoryData,
+  readJson,
   renderReport,
-  validateFactory
+  validateFactory,
+  validateFactoryProject
 };

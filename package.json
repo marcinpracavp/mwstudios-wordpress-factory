@@ -53,6 +53,8 @@
     "browsersync": "cross-env NODE_ENV=development node scripts/browsersync.js",
     "build": "cross-env NODE_ENV=production npx webpack --mode=production",
     "build:dev": "cross-env NODE_ENV=development npx webpack --mode=development",
+    "factory:init": "node scripts/factory/init-project.js",
+    "factory:context": "node scripts/factory/generate-context.js",
     "factory:validate": "node scripts/factory/validate-factory.js",
     "serve": "cross-env NODE_ENV=development npx webpack serve --mode=development",
     "clean": "rm -rf dist/*",
