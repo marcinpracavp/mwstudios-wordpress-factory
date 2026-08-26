@@ -1,12 +1,20 @@
 
 
-// @font-face {
-//     font-family: 'n27bold';
-//     src: url('../dist/fonts/N27-Bold.otf');
-//     font-weight: normal;
-//     font-style: normal;
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url('../../assets/fonts/aura/CormorantGaramond-Variable.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+}
 
-// }
+@font-face {
+  font-family: 'Manrope';
+  src: url('../../assets/fonts/aura/Manrope-Variable.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+}
 $Poppins-weights: (
   200: 'ExtraLight',
   300: 'Light',

@@ -5,25 +5,37 @@
 
 
 
-$black: #000000;
-$white: #fff;
+$black: #191713;
+$white: #FFFDF8;
 
-$gray-1: #8D8D8D;
-$accent: #FF5064;
+$gray-1: #6D655B;
+$accent: #641B33;
+
+$aura-background: #F5F1EA;
+$aura-background-secondary: #E8E0D4;
+$aura-surface: #FFFDF8;
+$aura-text: #191713;
+$aura-text-secondary: #6D655B;
+$aura-oxblood: #641B33;
+$aura-moss: #52604A;
+$aura-acid: #D8F04D;
+$aura-border: #CDC3B5;
+$aura-success: #286148;
+$aura-error: #B9353B;
 
 $success-colour: #5cb85c;
 $warning-colour: #f0ad4e;
 $error-colour: #e42f28;
 
 
-$base-colour: $black;
-$base-background-colour: $white;
+$base-colour: $aura-text;
+$base-background-colour: $aura-background;
 
 /**
  * Typography
  */
-$poppins-font-family: "Poppins", sans-serif;
-$geist-font-family: "GeistMono", sans-serif;
+$poppins-font-family: "Manrope", sans-serif;
+$geist-font-family: "Cormorant Garamond", serif;
 
 $base-font-family: $poppins-font-family;
 $heading-font-family: $geist-font-family;
@@ -44,11 +56,12 @@ $timing: ease-in-out;
 $transition: all 0.2s $timing;
 
 
-$base-border-radius: 26px;
-$shadow: 30px 30px 60px rgba($black, .15);
+$base-border-radius: 8px;
+$shadow: 0 12px 32px rgba(26, 23, 18, .1);
+$drawer-shadow: -8px 0 36px rgba(26, 23, 18, .16);
 
-$page-width: 1870px;
-$page-gap: 16px;
+$page-width: 1312px;
+$page-gap: 24px;
 
 $grid-columns: 12; // liczba kolumn w gridzie
 /* Test change ptk 11 lip 14:36:51 2025 CEST */

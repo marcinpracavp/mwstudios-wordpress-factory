@@ -7,14 +7,12 @@ html {
 body {
   color: $base-colour;
   background-color: $base-background-colour;
-  font-size: 2rem;
-  line-height: 1.7;
+  font-size: 1.6rem;
+  line-height: 1.625;
   font-family: $base-font-family;
   overflow-x: hidden;
 
-  @include media($breakpoint-sm) {
-    font-size: 1.6rem;
-  }
+  text-rendering: optimizeLegibility;
 }
 
 hr {

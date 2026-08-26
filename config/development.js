@@ -22,7 +22,7 @@
 
 module.exports = {
   // 🌍 URL WordPress Local - ZMIEŃ NA SWÓJ LOKALNY ADRES
-  WORDPRESS_URL: 'http://safegold.local',
+  WORDPRESS_URL: 'http://devtest.local',
   
   // 🌐 Porty BrowserSync  
   BROWSERSYNC_PORT: 3000,

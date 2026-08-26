@@ -6,7 +6,7 @@
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="theme-color" content="#4285f4">
+    <meta name="theme-color" content="#F5F1EA">
     <?php wp_head(); ?>
     <?php if(isset($acf_globals['skrypty_header'])) : ?>
         <?php echo $acf_globals['skrypty_header']; ?>
@@ -17,11 +17,6 @@
     <?php if(isset($acf_globals['skrypty_header_2'])) : ?>
         <?php echo $acf_globals['skrypty_header_2']; ?>
     <?php endif; ?>
-    <?php
-    if ( function_exists( 'global_render_topbar' ) ) {
-        global_render_topbar();
-    }
-    ?>
     <?php get_template_part('partials/header'); ?>
 
     <main>
