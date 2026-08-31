@@ -7,8 +7,10 @@ const ROOT_DIR = path.resolve(__dirname, '..', '..');
 const FACTORY_PATHS = {
   project: path.join(ROOT_DIR, 'factory', 'project.json'),
   capabilities: path.join(ROOT_DIR, 'factory', 'capabilities.json'),
+  qa: path.join(ROOT_DIR, 'factory', 'qa.json'),
   projectSchema: path.join(ROOT_DIR, 'factory', 'schemas', 'project.schema.json'),
-  capabilitiesSchema: path.join(ROOT_DIR, 'factory', 'schemas', 'capabilities.schema.json')
+  capabilitiesSchema: path.join(ROOT_DIR, 'factory', 'schemas', 'capabilities.schema.json'),
+  qaSchema: path.join(ROOT_DIR, 'factory', 'schemas', 'qa.schema.json')
 };
 
 function readJson(filePath) {
@@ -19,8 +21,10 @@ function loadFactoryData(project = readJson(FACTORY_PATHS.project)) {
   return {
     project,
     registry: readJson(FACTORY_PATHS.capabilities),
+    qa: readJson(FACTORY_PATHS.qa),
     projectSchema: readJson(FACTORY_PATHS.projectSchema),
-    capabilitiesSchema: readJson(FACTORY_PATHS.capabilitiesSchema)
+    capabilitiesSchema: readJson(FACTORY_PATHS.capabilitiesSchema),
+    qaSchema: readJson(FACTORY_PATHS.qaSchema)
   };
 }
 
@@ -74,10 +78,18 @@ function isFigmaUrl(value) {
     && (url.hostname === 'figma.com' || url.hostname === 'www.figma.com');
 }
 
-function validateFactory({ project, registry, projectSchema, capabilitiesSchema }) {
+function validateFactory({
+  project,
+  registry,
+  qa,
+  projectSchema,
+  capabilitiesSchema,
+  qaSchema
+}) {
   const ajv = new Ajv({ allErrors: true, strict: true });
   const validateProjectSchema = ajv.compile(projectSchema);
   const validateCapabilitiesSchema = ajv.compile(capabilitiesSchema);
+  const validateQaSchema = ajv.compile(qaSchema);
   const checks = [];
 
   const projectIsValid = validateProjectSchema(project);
@@ -223,6 +235,23 @@ function validateFactory({ project, registry, projectSchema, capabilitiesSchema 
     figmaErrors.push('Figma url must be null or an HTTPS URL on figma.com');
   }
   checks.push({ label: 'Figma configuration', errors: figmaErrors });
+
+  const qaIsValid = validateQaSchema(qa);
+  const qaErrors = qaIsValid
+    ? []
+    : formatSchemaErrors('QA configuration', validateQaSchema.errors);
+  const routeIds = Array.isArray(qa.routes) ? qa.routes.map((route) => route.id) : [];
+  const viewportIds = Array.isArray(qa.viewports)
+    ? qa.viewports.map((viewport) => viewport.id)
+    : [];
+
+  findDuplicates(routeIds).forEach((id) => {
+    qaErrors.push(`QA configuration has duplicate route id "${id}"`);
+  });
+  findDuplicates(viewportIds).forEach((id) => {
+    qaErrors.push(`QA configuration has duplicate viewport id "${id}"`);
+  });
+  checks.push({ label: 'QA configuration', errors: qaErrors });
 
   const releaseErrors = [];
   const release = project.build?.release || {};

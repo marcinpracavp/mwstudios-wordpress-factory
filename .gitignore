@@ -2,6 +2,7 @@
 yarn.lock
 /node_modules
 /dist
+/.factory-cache/
 package-lock.json
 yarn-lock.json
 composer-lock.json
