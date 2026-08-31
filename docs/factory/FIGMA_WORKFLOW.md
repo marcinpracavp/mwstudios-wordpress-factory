@@ -58,3 +58,29 @@ Do not invent visual design where Figma already defines it. If required design i
 ## 8. Preserve the Boilerplate
 
 Preserve boilerplate functionality unrelated to the current implementation. A disabled or unused flag in `factory/project.json` is project context only; it is not an instruction to remove libraries, integrations, helpers, scripts, partials, or other existing functionality.
+
+## 9. Local Snapshot First
+
+The required Factory sequence is:
+
+```text
+GLOBAL FIRST -> SECTION INVENTORY -> LOCAL SNAPSHOT CACHE -> SECTION IMPLEMENTATION -> SECTION QA -> FULL-PAGE QA
+```
+
+Before code, make one global pass over the whole design: desktop and mobile composition, foundations, reusable components, backgrounds, gradients, glows, shadows, overlaps, decorations, sticky elements, grid, recurring alignment, and section rhythm. A section in isolation can miss an effect that crosses section boundaries.
+
+**Never treat root `get_metadata(fileKey)` as complete Figma discovery.** It can return one page when a file contains many. Load the `figma-use` skill, use the read-only workflow, enumerate `figma.root.children`, then inspect every `PAGE` with `get_metadata(fileKey, pageId)`. Only then use focused design context calls for concrete section nodes.
+
+Do not repeatedly read the entire Figma file during implementation. After discovery, use the local snapshot described in `docs/factory/FIGMA_SNAPSHOT.md`. Node scripts create, inspect, and validate the local cache only; they never call Figma MCP.
+
+For a section, read the project context, `.factory-cache/figma/latest/design-system.json`, the corresponding section JSON, and its desktop/mobile references. Then inspect the boilerplate and apply `REUSE -> EXTEND -> CREATE`.
+
+Before custom CSS, inspect `pt-*`, `pb-*`, `mt-*`, `mb-*`, `gc-*`, `gr-*`, `.l-container`, and other existing utilities. Figma accuracy takes precedence if no utility can express the reference. Keep authored SCSS multiline and section-based in `src/css/pages/<project>/` (for example `_global.scss`, `_header.scss`, `_hero.scss`); do not use one huge page stylesheet. Use exact typography at reference widths and classic media queries, never `clamp()`.
+
+Visible Figma content maps to ACF, WordPress, or a native integration: no hardcoded visible copy and no fallback copy. Project ACF groups are created through ACF Admin and saved as Local JSON in `acf-json/`; whole project groups are not programmatic `acf_add_local_field_group()` defaults. Content-heavy one-page editors use a tab per logical section.
+
+During production implementation, a logical section root uses `data-factory-section="<snapshot-id>"`. This workflow does not change PHP templates itself.
+
+The snapshot is not a prison. Return to Figma only for a specific section node when its snapshot is incomplete or ambiguous, a property is missing, the design changed, or pixel QA exposes an unexplained difference. Update that section snapshot/reference after clarification; do not reread the complete file.
+
+Run `npm run build`, then `npm run factory:qa -- --section <id>`. Compare `.factory-cache/qa/latest/.../sections/<id>.png` with `.factory-cache/figma/latest/references/sections/...`. After section QA, compare full-page QA captures to Figma full-frame references. Factory V1 records both sides but does not yet automate image diffs.

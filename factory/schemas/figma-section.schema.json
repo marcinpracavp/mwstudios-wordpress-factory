@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://mwstudios.pl/website-factory/schemas/figma-section.schema.json",
+  "title": "MWStudios Website Factory Figma section snapshot",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "order", "source", "desktop", "mobile", "layout", "liveFigmaRequired"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" },
+    "name": { "type": "string", "minLength": 1 },
+    "order": { "type": "integer", "minimum": 1 },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["pageId", "desktopNodeId", "mobileNodeId"],
+      "properties": {
+        "pageId": { "type": "string", "minLength": 1 },
+        "desktopNodeId": { "type": "string", "minLength": 1 },
+        "mobileNodeId": { "type": "string", "minLength": 1 }
+      }
+    },
+    "desktop": { "$ref": "#/definitions/layoutViewport" },
+    "mobile": { "$ref": "#/definitions/layoutViewport" },
+    "layout": {
+      "type": "object",
+      "required": ["type"],
+      "properties": {
+        "type": { "type": "string", "minLength": 1 },
+        "columns": { "type": "array" },
+        "alignment": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "typography": { "type": ["object", "array"] },
+    "colors": { "type": "array" },
+    "effects": { "type": "array" },
+    "contentFields": { "type": "array" },
+    "assets": { "type": "array" },
+    "components": { "type": "array" },
+    "overlaps": { "type": "array" },
+    "notes": { "type": "array", "items": { "type": "string" } },
+    "liveFigmaRequired": { "type": "boolean" }
+  },
+  "definitions": {
+    "layoutViewport": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["frameWidth", "width", "height"],
+      "properties": {
+        "frameWidth": { "type": "integer", "minimum": 1 },
+        "x": { "type": "number" },
+        "y": { "type": "number" },
+        "width": { "type": "integer", "minimum": 1 },
+        "height": { "type": "integer", "minimum": 1 },
+        "containerWidth": { "type": ["integer", "null"], "minimum": 1 },
+        "padding": { "type": "object" },
+        "gap": { "type": ["number", "null"] }
+      }
+    }
+  }
+}

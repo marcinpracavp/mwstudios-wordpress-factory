@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://mwstudios.pl/website-factory/schemas/figma.schema.json",
+  "title": "MWStudios Website Factory Figma snapshot configuration",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "snapshotVersion",
+    "strategy",
+    "cacheRoot",
+    "saveFullFrameReferences",
+    "saveSectionReferences",
+    "storeRawMcpResponses",
+    "fallbackToLiveFigmaWhenAmbiguous"
+  ],
+  "properties": {
+    "$schema": { "const": "./schemas/figma.schema.json" },
+    "snapshotVersion": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+$" },
+    "strategy": { "const": "global-then-sections" },
+    "cacheRoot": { "type": "string", "pattern": "^\\.factory-cache/figma/latest$" },
+    "saveFullFrameReferences": { "type": "boolean" },
+    "saveSectionReferences": { "type": "boolean" },
+    "storeRawMcpResponses": { "const": false },
+    "fallbackToLiveFigmaWhenAmbiguous": { "type": "boolean" }
+  }
+}
