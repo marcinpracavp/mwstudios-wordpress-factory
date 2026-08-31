@@ -7,9 +7,11 @@ const ROOT_DIR = path.resolve(__dirname, '..', '..');
 const FACTORY_PATHS = {
   project: path.join(ROOT_DIR, 'factory', 'project.json'),
   capabilities: path.join(ROOT_DIR, 'factory', 'capabilities.json'),
+  figma: path.join(ROOT_DIR, 'factory', 'figma.json'),
   qa: path.join(ROOT_DIR, 'factory', 'qa.json'),
   projectSchema: path.join(ROOT_DIR, 'factory', 'schemas', 'project.schema.json'),
   capabilitiesSchema: path.join(ROOT_DIR, 'factory', 'schemas', 'capabilities.schema.json'),
+  figmaSchema: path.join(ROOT_DIR, 'factory', 'schemas', 'figma.schema.json'),
   qaSchema: path.join(ROOT_DIR, 'factory', 'schemas', 'qa.schema.json')
 };
 
@@ -21,9 +23,11 @@ function loadFactoryData(project = readJson(FACTORY_PATHS.project)) {
   return {
     project,
     registry: readJson(FACTORY_PATHS.capabilities),
+    figmaConfig: readJson(FACTORY_PATHS.figma),
     qa: readJson(FACTORY_PATHS.qa),
     projectSchema: readJson(FACTORY_PATHS.projectSchema),
     capabilitiesSchema: readJson(FACTORY_PATHS.capabilitiesSchema),
+    figmaSchema: readJson(FACTORY_PATHS.figmaSchema),
     qaSchema: readJson(FACTORY_PATHS.qaSchema)
   };
 }
@@ -81,14 +85,17 @@ function isFigmaUrl(value) {
 function validateFactory({
   project,
   registry,
+  figmaConfig,
   qa,
   projectSchema,
   capabilitiesSchema,
+  figmaSchema,
   qaSchema
 }) {
   const ajv = new Ajv({ allErrors: true, strict: true });
   const validateProjectSchema = ajv.compile(projectSchema);
   const validateCapabilitiesSchema = ajv.compile(capabilitiesSchema);
+  const validateFigmaSchema = ajv.compile(figmaSchema);
   const validateQaSchema = ajv.compile(qaSchema);
   const checks = [];
 
@@ -235,6 +242,15 @@ function validateFactory({
     figmaErrors.push('Figma url must be null or an HTTPS URL on figma.com');
   }
   checks.push({ label: 'Figma configuration', errors: figmaErrors });
+
+  const figmaConfigIsValid = validateFigmaSchema(figmaConfig);
+  const figmaConfigErrors = figmaConfigIsValid
+    ? []
+    : formatSchemaErrors('Figma snapshot configuration', validateFigmaSchema.errors);
+  if (figmaConfig.storeRawMcpResponses !== false) {
+    figmaConfigErrors.push('Figma snapshot configuration must keep storeRawMcpResponses false');
+  }
+  checks.push({ label: 'Figma snapshot configuration', errors: figmaConfigErrors });
 
   const qaIsValid = validateQaSchema(qa);
   const qaErrors = qaIsValid

@@ -1,0 +1,10 @@
+{
+  "$schema": "./schemas/figma.schema.json",
+  "snapshotVersion": "1.0",
+  "strategy": "global-then-sections",
+  "cacheRoot": ".factory-cache/figma/latest",
+  "saveFullFrameReferences": true,
+  "saveSectionReferences": true,
+  "storeRawMcpResponses": false,
+  "fallbackToLiveFigmaWhenAmbiguous": true
+}
