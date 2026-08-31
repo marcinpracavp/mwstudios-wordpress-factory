@@ -1,0 +1,25 @@
+{
+  "$schema": "./schemas/qa.schema.json",
+  "routes": [
+    {
+      "id": "home",
+      "path": "/"
+    }
+  ],
+  "languages": {
+    "pl": "/",
+    "en": "/en/"
+  },
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844
+    }
+  ]
+}
