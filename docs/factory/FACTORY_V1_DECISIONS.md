@@ -43,6 +43,8 @@ Capability flags describe the technologies, integrations, and features planned f
 
 ACF Pro defaults to enabled during project initialization but remains a configurable project-context flag. The `lenis` flag means that the project plans to use Lenis as its smooth-scrolling engine. It does not install Lenis or implement smooth scrolling in the WordPress runtime.
 
+The ACF Pro license is configured by the MWStudios boilerplate and is never an operator credential blocker. A missing plugin binary/package remains a separate technical dependency.
+
 Excluded from the v1 core:
 
 - Viewer
@@ -55,6 +57,8 @@ Excluded from the v1 core:
 ## Figma
 
 Figma MCP is the design source. Figma data informs implementation, but production code follows the Factory contracts and the existing WordPress architecture.
+
+Project topology defaults to `auto`. Discovery resolves real `onepage`, `multipage`, or `hybrid` topology in the validated compact site map; Figma PAGE nodes remain design-file containers and are not treated as routes.
 
 ## Workflow
 
@@ -104,3 +108,9 @@ Status: **FROZEN FOR FACTORY V1**
 | `acf-json/*` | actual ACF Local JSON definitions |
 | `src/*` | frontend source |
 | `dist/*` | generated output |
+
+## Autopilot extension
+
+Factory Autopilot is an additive control-plane layer. Its configuration, profiles, prompts, state machine, gates, resume behavior, plugin policy, and safety contract are documented in `docs/factory/FACTORY_AUTOPILOT.md`.
+
+The manual Factory v1 commands and release contract remain valid without Autopilot. Autopilot never authorizes deployment, Git history mutation, or removal of disabled boilerplate capabilities.

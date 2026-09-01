@@ -1,0 +1,265 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://mwstudios.pl/website-factory/schemas/site-map.schema.json",
+  "title": "MWStudios Website Factory resolved website site map",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "topology",
+    "pages",
+    "globalComponents",
+    "languages",
+    "capabilities",
+    "warnings"
+  ],
+  "properties": {
+    "topology": {
+      "enum": ["onepage", "multipage", "hybrid"]
+    },
+    "pages": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/definitions/sitePage" }
+    },
+    "globalComponents": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/globalComponent" }
+    },
+    "languages": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "$ref": "#/definitions/language" }
+    },
+    "capabilities": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/capability" }
+    },
+    "warnings": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    }
+  },
+  "definitions": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$"
+    },
+    "language": {
+      "type": "string",
+      "pattern": "^[a-z]{2,3}(?:-[a-z0-9]{2,8})*$"
+    },
+    "referencePath": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^(?!/)(?![A-Za-z]:[\\\\/]).+\\.png$"
+    },
+    "sourceFrame": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["nodeId", "language", "width", "height", "reference"],
+      "properties": {
+        "nodeId": { "type": "string", "minLength": 1 },
+        "language": { "$ref": "#/definitions/language" },
+        "width": { "type": "integer", "minimum": 1 },
+        "height": { "type": "integer", "minimum": 1 },
+        "reference": { "$ref": "#/definitions/referencePath" }
+      }
+    },
+    "desktopSource": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["mode", "frames"],
+      "properties": {
+        "mode": { "enum": ["figma", "native-derived"] },
+        "frames": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/sourceFrame" }
+        }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "mode": { "const": "figma" } } },
+          "then": { "properties": { "frames": { "type": "array", "minItems": 1 } } }
+        },
+        {
+          "if": { "properties": { "mode": { "const": "native-derived" } } },
+          "then": { "properties": { "frames": { "type": "array", "maxItems": 0 } } }
+        }
+      ]
+    },
+    "mobileSource": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["mode", "frames"],
+      "properties": {
+        "mode": { "enum": ["figma", "derived", "mixed-partial"] },
+        "frames": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/sourceFrame" }
+        }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "mode": { "const": "figma" } } },
+          "then": { "properties": { "frames": { "type": "array", "minItems": 1 } } }
+        },
+        {
+          "if": { "properties": { "mode": { "const": "derived" } } },
+          "then": { "properties": { "frames": { "type": "array", "maxItems": 0 } } }
+        }
+      ]
+    },
+    "sitePage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "slugIntent",
+        "routeIntent",
+        "routeType",
+        "templateIntent",
+        "styleFile",
+        "styleScope",
+        "sections",
+        "sourceFrames",
+        "languages",
+        "languageRoutes",
+        "desktopSource",
+        "mobileSource",
+        "requiredCapabilities",
+        "notes"
+      ],
+      "properties": {
+        "id": { "$ref": "#/definitions/id" },
+        "name": { "type": "string", "minLength": 1 },
+        "slugIntent": { "type": "string", "minLength": 1 },
+        "routeIntent": { "type": "string", "pattern": "^/" },
+        "routeType": {
+          "enum": [
+            "page",
+            "archive",
+            "product",
+            "cart",
+            "checkout",
+            "account",
+            "search",
+            "native-dynamic",
+            "other"
+          ]
+        },
+        "templateIntent": { "type": "string", "minLength": 1 },
+        "styleFile": {
+          "type": "string",
+          "pattern": "^src/css/pages/[a-z][a-z0-9-]*\\.scss$"
+        },
+        "styleScope": {
+          "enum": ["page", "template-family"]
+        },
+        "sections": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "$ref": "#/definitions/id" }
+        },
+        "sourceFrames": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "languages": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "$ref": "#/definitions/language" }
+        },
+        "languageRoutes": {
+          "type": "object",
+          "propertyNames": { "$ref": "#/definitions/language" },
+          "additionalProperties": { "type": "string", "pattern": "^/" }
+        },
+        "desktopSource": { "$ref": "#/definitions/desktopSource" },
+        "mobileSource": { "$ref": "#/definitions/mobileSource" },
+        "requiredCapabilities": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "$ref": "#/definitions/id" }
+        },
+        "notes": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+      ,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "routeType": {
+                "enum": ["product", "cart", "checkout", "account", "search", "native-dynamic"]
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "styleScope": { "const": "template-family" }
+            }
+          }
+        }
+      ]
+    },
+    "globalComponent": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "type", "sourceNodeIds", "usedByPages", "notes"],
+      "properties": {
+        "id": { "$ref": "#/definitions/id" },
+        "name": { "type": "string", "minLength": 1 },
+        "type": {
+          "enum": [
+            "header",
+            "footer",
+            "navigation",
+            "cookie-banner",
+            "banner",
+            "overlay",
+            "background-effect",
+            "other"
+          ]
+        },
+        "sourceNodeIds": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "usedByPages": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "$ref": "#/definitions/id" }
+        },
+        "notes": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "capability": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "required", "backendIntent", "pluginCapability", "evidence"],
+      "properties": {
+        "id": { "$ref": "#/definitions/id" },
+        "required": { "type": "boolean" },
+        "backendIntent": { "type": "string", "minLength": 1 },
+        "pluginCapability": {
+          "type": ["string", "null"],
+          "pattern": "^[a-z][a-z0-9-]*$"
+        },
+        "evidence": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://mwstudios.pl/website-factory/schemas/autopilot.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["$schema", "version", "cacheRoot", "runner", "limits", "policies", "pipeline"],
+  "properties": {
+    "$schema": { "const": "./schemas/autopilot.schema.json" },
+    "version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+$" },
+    "cacheRoot": { "const": ".factory-cache/agents" },
+    "runner": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sessionMode", "sandbox", "approvalPolicy", "networkAccess", "outputSchema", "command"],
+      "properties": {
+        "sessionMode": { "const": "fresh-ephemeral" },
+        "sandbox": { "const": "workspace-write" },
+        "approvalPolicy": { "const": "never" },
+        "networkAccess": { "const": false },
+        "outputSchema": { "const": "factory/agents/schemas/agent-result.schema.json" },
+        "command": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["windows", "default"],
+          "properties": {
+            "windows": { "type": "string", "minLength": 1 },
+            "default": { "type": "string", "minLength": 1 }
+          }
+        }
+      }
+    },
+    "limits": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["discoveryRepairAttempts", "implementationRepairAttempts", "sectionCorrectionLoops", "auditFixLoops", "finalReviewAttempts"],
+      "properties": {
+        "discoveryRepairAttempts": { "$ref": "#/definitions/limit" },
+        "implementationRepairAttempts": { "$ref": "#/definitions/limit" },
+        "sectionCorrectionLoops": { "$ref": "#/definitions/limit" },
+        "auditFixLoops": { "$ref": "#/definitions/limit" },
+        "finalReviewAttempts": { "$ref": "#/definitions/limit" }
+      }
+    },
+    "policies": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "pluginAutoInstall",
+        "stickyHeaderDefault",
+        "spacingUtilitiesRequired",
+        "onePageOneStyleFile",
+        "templateFamilyStyleFiles",
+        "importerExecutionRequired",
+        "wordpressRuntimeBootstrapBeforeQa",
+        "sectionReferenceCoverageRequired",
+        "semanticFunctionalBaseline",
+        "mobileFigmaIsSourceOfTruth",
+        "deriveResponsiveWithoutMobileFigma",
+        "gitMutation",
+        "deployment"
+      ],
+      "properties": {
+        "pluginAutoInstall": { "const": true },
+        "stickyHeaderDefault": { "const": true },
+        "spacingUtilitiesRequired": { "const": true },
+        "onePageOneStyleFile": { "const": true },
+        "templateFamilyStyleFiles": { "const": true },
+        "importerExecutionRequired": { "const": true },
+        "wordpressRuntimeBootstrapBeforeQa": { "const": true },
+        "sectionReferenceCoverageRequired": { "const": true },
+        "semanticFunctionalBaseline": { "const": true },
+        "mobileFigmaIsSourceOfTruth": { "const": true },
+        "deriveResponsiveWithoutMobileFigma": { "const": true },
+        "gitMutation": { "const": false },
+        "deployment": { "const": false }
+      }
+    },
+    "pipeline": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/definitions/stage" }
+    }
+  },
+  "definitions": {
+    "limit": { "type": "integer", "minimum": 1, "maximum": 10 },
+    "stage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "label", "type"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" },
+        "label": { "type": "string", "minLength": 1 },
+        "type": { "enum": ["gate", "agent", "conditional-agent", "report"] },
+        "profile": { "type": "string", "minLength": 1 },
+        "prompt": { "type": "string", "pattern": "^factory/agents/prompts/.+\\.md$" },
+        "condition": { "type": "string", "minLength": 1 },
+        "gates": { "type": "array", "uniqueItems": true, "items": { "type": "string", "minLength": 1 } },
+        "repairProfile": { "type": "string", "minLength": 1 },
+        "repairPrompt": { "type": "string", "pattern": "^factory/agents/prompts/.+\\.md$" },
+        "retryLimit": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

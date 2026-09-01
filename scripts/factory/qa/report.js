@@ -24,6 +24,8 @@ function renderTerminalSummary(summary) {
     console.log(`${consoleCheck?.status === 'PASS' ? '✓' : '✗'} ${consoleCheck?.errorCount || 0} console errors, ${consoleCheck?.warningCount || 0} warnings, ${consoleCheck?.pageErrorCount || 0} page errors`);
     const brokenAssets = result.checks.brokenAssets;
     console.log(`${brokenAssets?.status === 'PASS' ? '✓' : '✗'} ${brokenAssets?.count || 0} broken assets`);
+    const interactions = result.checks.interactions || {};
+    console.log(`${interactions.status === 'FAIL' ? '✗' : interactions.status === 'PASS' ? '✓' : '-'} ${interactions.count || 0} interaction recipes${interactions.failed ? `, ${interactions.failed} failed` : ''}`);
     console.log(`✓ ${result.sectionCount || 0} sections`);
     result.warnings.forEach((warning) => console.log(`! ${warning.message}`));
     console.log('');
@@ -46,16 +48,17 @@ function renderTrackedReport(summary) {
     '',
     `Result: ${summary.errors.length === 0 ? 'PASS' : 'FAIL'}`,
     '',
-    '| Language | Route | Viewport | Result | Overflow | Console errors | Broken assets | Sections |',
-    '| --- | --- | --- | --- | --- | ---: | ---: | ---: |'
+    '| Language | Route | Viewport | Result | Overflow | Console errors | Broken assets | Interactions | Sections |',
+    '| --- | --- | --- | --- | --- | ---: | ---: | ---: | ---: |'
   ];
 
   summary.checks.forEach((result) => {
     const overflow = result.checks.horizontalOverflow || {};
     const consoleCheck = result.checks.console || {};
     const brokenAssets = result.checks.brokenAssets || {};
+    const interactions = result.checks.interactions || {};
     lines.push(
-      `| ${result.language.toUpperCase()} | ${result.route} | ${result.viewport.id} (${result.viewport.width}×${result.viewport.height}) | ${resultStatus(result)} | ${overflow.status === 'FAIL' ? `FAIL +${overflow.delta}px` : 'PASS'} | ${consoleCheck.errorCount || 0} | ${brokenAssets.count || 0} | ${result.sectionCount || 0} |`
+      `| ${result.language.toUpperCase()} | ${result.route} | ${result.viewport.id} (${result.viewport.width}×${result.viewport.height}) | ${resultStatus(result)} | ${overflow.status === 'FAIL' ? `FAIL +${overflow.delta}px` : 'PASS'} | ${consoleCheck.errorCount || 0} | ${brokenAssets.count || 0} | ${interactions.count || 0} | ${result.sectionCount || 0} |`
     );
   });
 

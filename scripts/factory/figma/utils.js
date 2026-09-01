@@ -6,7 +6,12 @@ const FACTORY_PATHS = {
   project: path.join(ROOT_DIR, 'factory', 'project.json'),
   figmaConfig: path.join(ROOT_DIR, 'factory', 'figma.json'),
   manifestSchema: path.join(ROOT_DIR, 'factory', 'schemas', 'figma-snapshot.schema.json'),
-  sectionSchema: path.join(ROOT_DIR, 'factory', 'schemas', 'figma-section.schema.json')
+  sectionSchema: path.join(ROOT_DIR, 'factory', 'schemas', 'figma-section.schema.json'),
+  siteMapSchema: path.join(ROOT_DIR, 'factory', 'schemas', 'site-map.schema.json'),
+  designSystemSchema: path.join(ROOT_DIR, 'factory', 'schemas', 'figma-design-system.schema.json'),
+  componentsSchema: path.join(ROOT_DIR, 'factory', 'schemas', 'figma-components.schema.json'),
+  contentMapSchema: path.join(ROOT_DIR, 'factory', 'schemas', 'figma-content-map.schema.json'),
+  assetsSchema: path.join(ROOT_DIR, 'factory', 'schemas', 'figma-assets.schema.json')
 };
 
 function readJson(filePath) {
@@ -35,9 +40,11 @@ function getSnapshotPaths(figmaConfig) {
     cacheRoot,
     manifest: path.join(cacheRoot, 'manifest.json'),
     pages: path.join(cacheRoot, 'pages.json'),
+    siteMap: path.join(cacheRoot, 'site-map.json'),
     designSystem: path.join(cacheRoot, 'design-system.json'),
     components: path.join(cacheRoot, 'components.json'),
     contentMap: path.join(cacheRoot, 'content-map.json'),
+    assets: path.join(cacheRoot, 'assets.json'),
     sections: path.join(cacheRoot, 'sections'),
     references: path.join(cacheRoot, 'references'),
     fullReferences: path.join(cacheRoot, 'references', 'full'),
@@ -132,12 +139,30 @@ function collectDeclaredReferences(manifest) {
       references.push({ owner: `section "${section.id}" mobile`, path: section.mobileReference });
     }
     Object.entries(section.variants || {}).forEach(([language, variant]) => {
-      references.push({ owner: `section "${section.id}" ${language} desktop`, path: variant.desktopReference });
-      references.push({ owner: `section "${section.id}" ${language} mobile`, path: variant.mobileReference });
+      if (variant.desktopReference) {
+        references.push({ owner: `section "${section.id}" ${language} desktop`, path: variant.desktopReference });
+      }
+      if (variant.mobileReference) {
+        references.push({ owner: `section "${section.id}" ${language} mobile`, path: variant.mobileReference });
+      }
     });
   });
 
   return references;
+}
+
+function collectSiteMapReferences(siteMap) {
+  return (siteMap && Array.isArray(siteMap.pages) ? siteMap.pages : []).flatMap((page) => [
+    ...(page.desktopSource && Array.isArray(page.desktopSource.frames)
+      ? page.desktopSource.frames
+      : []),
+    ...(page.mobileSource && Array.isArray(page.mobileSource.frames)
+      ? page.mobileSource.frames
+      : [])
+  ]).map((frame) => ({
+    owner: `site page "${frame.language}" source frame "${frame.nodeId}"`,
+    path: frame.reference
+  }));
 }
 
 function findDuplicates(values) {
@@ -156,9 +181,11 @@ function getMissingSnapshotParts({ paths, manifest }) {
   const missing = [];
   [
     ['pages.json', paths.pages],
+    ['site-map.json', paths.siteMap],
     ['design-system.json', paths.designSystem],
     ['components.json', paths.components],
-    ['content-map.json', paths.contentMap]
+    ['content-map.json', paths.contentMap],
+    ['assets.json', paths.assets]
   ].forEach(([label, filePath]) => {
     if (!fs.existsSync(filePath)) {
       missing.push(label);
@@ -170,6 +197,17 @@ function getMissingSnapshotParts({ paths, manifest }) {
     if (!snapshotPath || !fs.existsSync(snapshotPath)) {
       missing.push(`section snapshot: ${section.id}`);
     }
+    if (!section.desktopReference) {
+      missing.push(`section desktop reference declaration: ${section.id}`);
+    }
+    if (Boolean(section.mobileNodeId) !== Boolean(section.mobileReference)) {
+      missing.push(`section mobile reference coverage: ${section.id}`);
+    }
+    Object.entries(section.variants || {}).forEach(([language, variant]) => {
+      if (!variant.desktopReference || Boolean(variant.mobileNodeId) !== Boolean(variant.mobileReference)) {
+        missing.push(`section language reference coverage: ${section.id}/${language}`);
+      }
+    });
   });
 
   collectDeclaredReferences(manifest).forEach((reference) => {
@@ -179,6 +217,15 @@ function getMissingSnapshotParts({ paths, manifest }) {
     }
   });
 
+  if (fs.existsSync(paths.siteMap)) {
+    collectSiteMapReferences(readJson(paths.siteMap)).forEach((reference) => {
+      const referencePath = resolveSnapshotFile(paths.cacheRoot, reference.path);
+      if (!referencePath || !fs.existsSync(referencePath)) {
+        missing.push(`reference: ${reference.path}`);
+      }
+    });
+  }
+
   return missing;
 }
 
@@ -186,6 +233,7 @@ module.exports = {
   FACTORY_PATHS,
   ROOT_DIR,
   collectDeclaredReferences,
+  collectSiteMapReferences,
   ensureSnapshotDirectories,
   extractFigmaFileKey,
   findDuplicates,

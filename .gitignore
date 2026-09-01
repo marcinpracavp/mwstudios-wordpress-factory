@@ -3,6 +3,7 @@ yarn.lock
 /node_modules
 /dist
 /.factory-cache/
+/factory/plugin-packages/*.zip
 package-lock.json
 yarn-lock.json
 composer-lock.json

@@ -4,77 +4,221 @@
   "title": "MWStudios Website Factory browser QA configuration",
   "type": "object",
   "additionalProperties": false,
-  "required": [
-    "$schema",
-    "routes",
-    "languages",
-    "viewports"
-  ],
+  "required": ["$schema", "routePlan", "routes", "languages", "viewports", "interactions"],
   "properties": {
-    "$schema": {
-      "const": "./schemas/qa.schema.json"
+    "$schema": { "const": "./schemas/qa.schema.json" },
+    "routePlan": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source", "siteMapPath", "preserveManualRoutes"],
+      "properties": {
+        "source": { "const": "validated-site-map" },
+        "siteMapPath": { "const": ".factory-cache/figma/latest/site-map.json" },
+        "preserveManualRoutes": { "const": true }
+      }
     },
     "routes": {
       "type": "array",
       "minItems": 1,
-      "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": [
-          "id",
-          "path"
-        ],
-        "properties": {
-          "id": {
-            "type": "string",
-            "minLength": 1,
-            "pattern": "^[a-z][a-z0-9-]*$"
-          },
-          "path": {
-            "type": "string",
-            "pattern": "^/"
-          }
-        }
-      }
+      "items": { "$ref": "#/definitions/route" }
     },
     "languages": {
       "type": "object",
       "minProperties": 1,
-      "propertyNames": {
-        "pattern": "^[a-z]{2,3}(?:-[a-z0-9]{2,8})*$"
-      },
-      "additionalProperties": {
-        "type": "string",
-        "pattern": "^/"
-      }
+      "propertyNames": { "$ref": "#/definitions/language" },
+      "additionalProperties": { "type": "string", "pattern": "^/" }
     },
     "viewports": {
       "type": "array",
       "minItems": 1,
-      "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": [
-          "id",
-          "width",
-          "height"
-        ],
-        "properties": {
-          "id": {
-            "type": "string",
-            "minLength": 1,
-            "pattern": "^[a-z][a-z0-9-]*$"
-          },
-          "width": {
-            "type": "integer",
-            "minimum": 1
-          },
-          "height": {
-            "type": "integer",
-            "minimum": 1
-          }
+      "items": { "$ref": "#/definitions/viewport" }
+    },
+    "interactions": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/interaction" }
+    }
+  },
+  "definitions": {
+    "id": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" },
+    "language": { "type": "string", "pattern": "^[a-z]{2,3}(?:-[a-z0-9]{2,8})*$" },
+    "route": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "path",
+        "pageId",
+        "type",
+        "languages",
+        "referenceViewports",
+        "referenceMode",
+        "managedBy"
+      ],
+      "properties": {
+        "id": { "$ref": "#/definitions/id" },
+        "path": { "type": "string", "pattern": "^/" },
+        "pageId": {
+          "oneOf": [
+            { "$ref": "#/definitions/id" },
+            { "type": "null" }
+          ]
+        },
+        "type": {
+          "enum": ["page", "archive", "product", "cart", "checkout", "account", "search", "native-dynamic", "other"]
+        },
+        "languages": {
+          "type": "object",
+          "propertyNames": { "$ref": "#/definitions/language" },
+          "additionalProperties": { "type": "string", "pattern": "^/" }
+        },
+        "referenceViewports": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "$ref": "#/definitions/id" }
+        },
+        "referenceMode": { "enum": ["figma", "quality", "functional"] },
+        "managedBy": { "enum": ["site-map", "manual", "fallback"] }
+      }
+    },
+    "viewport": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "width", "height", "source"],
+      "properties": {
+        "id": { "$ref": "#/definitions/id" },
+        "width": { "type": "integer", "minimum": 1 },
+        "height": { "type": "integer", "minimum": 1 },
+        "source": { "enum": ["factory-minimum", "figma", "manual"] }
+      }
+    },
+    "interaction": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "capability", "route", "languages", "viewports", "steps"],
+      "properties": {
+        "id": { "$ref": "#/definitions/id" },
+        "capability": { "$ref": "#/definitions/id" },
+        "route": { "$ref": "#/definitions/id" },
+        "languages": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "$ref": "#/definitions/language" }
+        },
+        "viewports": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "$ref": "#/definitions/id" }
+        },
+        "steps": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/definitions/interactionStep" }
         }
       }
+    },
+    "interactionStep": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["action"],
+      "properties": {
+        "action": {
+          "enum": [
+            "click",
+            "fill",
+            "submit",
+            "press",
+            "wait",
+            "assertVisible",
+            "assertUrl",
+            "assertText",
+            "assertCount",
+            "assertAttribute",
+            "assertTagName",
+            "assertFocused",
+            "assertAccessibleName",
+            "assertNoConsoleError"
+          ]
+        },
+        "selector": { "type": "string", "minLength": 1 },
+        "value": { "type": "string" },
+        "text": { "type": "string" },
+        "count": { "type": "integer", "minimum": 0 },
+        "attribute": { "type": "string", "minLength": 1 },
+        "tagName": { "type": "string", "minLength": 1 },
+        "name": { "type": "string" },
+        "key": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "minLength": 1 },
+        "match": { "enum": ["exact", "contains"] },
+        "timeoutMs": { "type": "integer", "minimum": 0, "maximum": 30000 }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "action": { "enum": ["click", "submit", "press", "assertVisible", "assertText", "assertCount", "assertAttribute", "assertTagName", "assertFocused", "assertAccessibleName"] } } },
+          "then": {
+            "properties": { "selector": { "type": "string" } },
+            "required": ["selector"]
+          }
+        },
+        {
+          "if": { "properties": { "action": { "const": "fill" } } },
+          "then": {
+            "properties": {
+              "selector": { "type": "string" },
+              "value": { "type": "string" }
+            },
+            "required": ["selector", "value"]
+          }
+        },
+        {
+          "if": { "properties": { "action": { "const": "press" } } },
+          "then": {
+            "properties": { "key": { "type": "string" } },
+            "required": ["selector", "key"]
+          }
+        },
+        {
+          "if": { "properties": { "action": { "const": "assertCount" } } },
+          "then": {
+            "properties": { "count": { "type": "integer" } },
+            "required": ["selector", "count"]
+          }
+        },
+        {
+          "if": { "properties": { "action": { "const": "assertAttribute" } } },
+          "then": {
+            "properties": { "attribute": { "type": "string" }, "value": { "type": "string" } },
+            "required": ["selector", "attribute", "value"]
+          }
+        },
+        {
+          "if": { "properties": { "action": { "const": "assertTagName" } } },
+          "then": {
+            "properties": { "tagName": { "type": "string" } },
+            "required": ["selector", "tagName"]
+          }
+        },
+        {
+          "if": { "properties": { "action": { "const": "assertAccessibleName" } } },
+          "then": {
+            "properties": { "name": { "type": "string" } },
+            "required": ["selector", "name"]
+          }
+        },
+        {
+          "if": { "properties": { "action": { "const": "assertUrl" } } },
+          "then": {
+            "properties": { "url": { "type": "string" } },
+            "required": ["url"]
+          }
+        },
+        {
+          "if": { "properties": { "action": { "const": "assertText" } } },
+          "then": {
+            "properties": { "text": { "type": "string" } },
+            "required": ["text"]
+          }
+        }
+      ]
     }
   }
 }

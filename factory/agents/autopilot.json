@@ -1,0 +1,196 @@
+{
+  "$schema": "./schemas/autopilot.schema.json",
+  "version": "1.0",
+  "cacheRoot": ".factory-cache/agents",
+  "runner": {
+    "sessionMode": "fresh-ephemeral",
+    "sandbox": "workspace-write",
+    "approvalPolicy": "never",
+    "networkAccess": false,
+    "outputSchema": "factory/agents/schemas/agent-result.schema.json",
+    "command": {
+      "windows": "codex.cmd",
+      "default": "codex"
+    }
+  },
+  "limits": {
+    "discoveryRepairAttempts": 2,
+    "implementationRepairAttempts": 2,
+    "sectionCorrectionLoops": 3,
+    "auditFixLoops": 2,
+    "finalReviewAttempts": 3
+  },
+  "policies": {
+    "pluginAutoInstall": true,
+    "stickyHeaderDefault": true,
+    "spacingUtilitiesRequired": true,
+    "onePageOneStyleFile": true,
+    "templateFamilyStyleFiles": true,
+    "importerExecutionRequired": true,
+    "wordpressRuntimeBootstrapBeforeQa": true,
+    "sectionReferenceCoverageRequired": true,
+    "semanticFunctionalBaseline": true,
+    "mobileFigmaIsSourceOfTruth": true,
+    "deriveResponsiveWithoutMobileFigma": true,
+    "gitMutation": false,
+    "deployment": false
+  },
+  "pipeline": [
+    {
+      "id": "preflight",
+      "label": "PRE-FLIGHT",
+      "type": "gate",
+      "gates": ["preflight", "factory-validate", "autopilot-validate"]
+    },
+    {
+      "id": "figma-discovery",
+      "label": "FIGMA DISCOVERY",
+      "type": "agent",
+      "profile": "discovery",
+      "prompt": "factory/agents/prompts/01-figma-discovery.md"
+    },
+    {
+      "id": "snapshot-validation",
+      "label": "SNAPSHOT / SITE MAP VALIDATION",
+      "type": "gate",
+      "gates": ["figma-validate", "figma-status", "qa-route-matrix"],
+      "repairProfile": "discovery",
+      "repairPrompt": "factory/agents/prompts/01-figma-discovery.md",
+      "retryLimit": "discoveryRepairAttempts"
+    },
+    {
+      "id": "plugin-provision",
+      "label": "REQUIRED PLUGINS",
+      "type": "gate",
+      "gates": ["required-plugins"]
+    },
+    {
+      "id": "implementation",
+      "label": "ARCHITECTURE / IMPLEMENTATION",
+      "type": "agent",
+      "profile": "implementer",
+      "prompt": "factory/agents/prompts/02-implementation.md"
+    },
+    {
+      "id": "build",
+      "label": "BUILD",
+      "type": "gate",
+      "gates": ["build", "factory-conventions", "git-diff-check", "php-lint"],
+      "repairProfile": "implementer",
+      "repairPrompt": "factory/agents/prompts/02-implementation.md",
+      "retryLimit": "implementationRepairAttempts"
+    },
+    {
+      "id": "section-qa",
+      "label": "SECTION QA",
+      "type": "gate",
+      "gates": ["factory-qa"],
+      "repairProfile": "corrector",
+      "repairPrompt": "factory/agents/prompts/03-visual-correction.md",
+      "retryLimit": "sectionCorrectionLoops"
+    },
+    {
+      "id": "visual-correction",
+      "label": "VISUAL CORRECTION",
+      "type": "agent",
+      "profile": "corrector",
+      "prompt": "factory/agents/prompts/03-visual-correction.md",
+      "gates": ["build", "factory-conventions", "factory-qa"],
+      "retryLimit": "sectionCorrectionLoops"
+    },
+    {
+      "id": "full-page-qa",
+      "label": "FULL PAGE QA",
+      "type": "gate",
+      "gates": ["factory-qa"],
+      "repairProfile": "corrector",
+      "repairPrompt": "factory/agents/prompts/03-visual-correction.md",
+      "retryLimit": "sectionCorrectionLoops"
+    },
+    {
+      "id": "responsive-qa",
+      "label": "RESPONSIVE CORRECTION",
+      "type": "agent",
+      "profile": "corrector",
+      "prompt": "factory/agents/prompts/04-responsive-correction.md",
+      "gates": ["qa-responsive-matrix", "factory-qa"],
+      "retryLimit": "sectionCorrectionLoops"
+    },
+    {
+      "id": "language-qa",
+      "label": "LANGUAGE CORRECTION",
+      "type": "conditional-agent",
+      "condition": "multilingual-project",
+      "profile": "corrector",
+      "prompt": "factory/agents/prompts/05-language-correction.md",
+      "gates": ["qa-language-matrix", "factory-qa"],
+      "retryLimit": "sectionCorrectionLoops"
+    },
+    {
+      "id": "functional-qa",
+      "label": "FUNCTIONAL QA / CORRECTION",
+      "type": "agent",
+      "profile": "corrector",
+      "prompt": "factory/agents/prompts/06-functional-qa-correction.md",
+      "gates": ["factory-qa", "qa-functional-evidence"],
+      "retryLimit": "sectionCorrectionLoops"
+    },
+    {
+      "id": "evidence-refresh",
+      "label": "FINAL EVIDENCE REFRESH",
+      "type": "gate",
+      "gates": [
+        "build",
+        "factory-conventions",
+        "git-diff-check",
+        "php-lint",
+        "qa-route-matrix",
+        "qa-responsive-matrix",
+        "qa-language-matrix",
+        "factory-qa",
+        "qa-functional-evidence",
+        "qa-evidence-freshness"
+      ]
+    },
+    {
+      "id": "final-visual-audit",
+      "label": "INDEPENDENT FINAL VISUAL AUDIT",
+      "type": "agent",
+      "profile": "finalReviewer",
+      "prompt": "factory/agents/prompts/07-final-visual-audit.md"
+    },
+    {
+      "id": "audit-fix",
+      "label": "FIX AUDIT FINDINGS",
+      "type": "conditional-agent",
+      "condition": "audit-has-issues",
+      "profile": "auditFixer",
+      "prompt": "factory/agents/prompts/08-fix-audit-findings.md",
+      "gates": [
+        "build",
+        "factory-conventions",
+        "git-diff-check",
+        "php-lint",
+        "factory-qa",
+        "qa-functional-evidence",
+        "qa-evidence-freshness"
+      ],
+      "retryLimit": "auditFixLoops"
+    },
+    {
+      "id": "re-audit",
+      "label": "RE-AUDIT",
+      "type": "conditional-agent",
+      "condition": "audit-fix-ran",
+      "profile": "finalReviewer",
+      "prompt": "factory/agents/prompts/07-final-visual-audit.md",
+      "retryLimit": "finalReviewAttempts"
+    },
+    {
+      "id": "final-report",
+      "label": "FINAL REPORT",
+      "type": "report",
+      "gates": ["factory-validate", "factory-conventions", "git-diff-check"]
+    }
+  ]
+}

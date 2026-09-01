@@ -4,37 +4,80 @@
   "title": "MWStudios Website Factory Figma section snapshot",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "name", "order", "source", "desktop", "mobile", "layout", "liveFigmaRequired"],
+  "required": [
+    "id",
+    "sitePageId",
+    "name",
+    "order",
+    "source",
+    "desktop",
+    "mobile",
+    "layout",
+    "typography",
+    "colors",
+    "effects",
+    "assets",
+    "components",
+    "contentFields",
+    "requiredContent",
+    "overlaps",
+    "notes",
+    "liveFigmaRequired"
+  ],
   "properties": {
-    "id": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" },
+    "id": { "$ref": "#/definitions/id" },
+    "sitePageId": { "$ref": "#/definitions/id" },
     "name": { "type": "string", "minLength": 1 },
     "order": { "type": "integer", "minimum": 1 },
     "source": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["pageId", "desktopNodeId", "mobileNodeId"],
+      "required": ["figmaPageId", "desktopNodeId", "mobileNodeId", "languageNodes"],
       "properties": {
-        "pageId": { "type": "string", "minLength": 1 },
+        "figmaPageId": { "type": "string", "minLength": 1 },
         "desktopNodeId": { "type": "string", "minLength": 1 },
-        "mobileNodeId": { "type": "string", "minLength": 1 }
+        "mobileNodeId": { "type": ["string", "null"], "minLength": 1 },
+        "languageNodes": {
+          "type": "object",
+          "propertyNames": { "pattern": "^[a-z]{2,3}(?:-[a-z0-9]{2,8})*$" },
+          "additionalProperties": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "desktopNodeId": { "type": ["string", "null"] },
+              "mobileNodeId": { "type": ["string", "null"] }
+            }
+          }
+        }
       }
     },
     "desktop": { "$ref": "#/definitions/layoutViewport" },
-    "mobile": { "$ref": "#/definitions/layoutViewport" },
+    "mobile": {
+      "oneOf": [
+        { "$ref": "#/definitions/layoutViewport" },
+        { "type": "null" }
+      ]
+    },
     "layout": {
       "type": "object",
-      "required": ["type"],
+      "additionalProperties": true,
+      "required": ["type", "columns", "rows", "alignment"],
       "properties": {
         "type": { "type": "string", "minLength": 1 },
         "columns": { "type": "array" },
+        "rows": { "type": "array" },
         "alignment": { "type": "string" }
-      },
-      "additionalProperties": true
+      }
     },
     "typography": { "type": ["object", "array"] },
     "colors": { "type": "array" },
     "effects": { "type": "array" },
     "contentFields": { "type": "array" },
+    "requiredContent": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 }
+    },
     "assets": { "type": "array" },
     "components": { "type": "array" },
     "overlaps": { "type": "array" },
@@ -42,10 +85,11 @@
     "liveFigmaRequired": { "type": "boolean" }
   },
   "definitions": {
+    "id": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" },
     "layoutViewport": {
       "type": "object",
       "additionalProperties": true,
-      "required": ["frameWidth", "width", "height"],
+      "required": ["frameWidth", "x", "y", "width", "height", "containerWidth", "padding", "gap"],
       "properties": {
         "frameWidth": { "type": "integer", "minimum": 1 },
         "x": { "type": "number" },
@@ -53,7 +97,17 @@
         "width": { "type": "integer", "minimum": 1 },
         "height": { "type": "integer", "minimum": 1 },
         "containerWidth": { "type": ["integer", "null"], "minimum": 1 },
-        "padding": { "type": "object" },
+        "padding": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["top", "right", "bottom", "left"],
+          "properties": {
+            "top": { "type": "number" },
+            "right": { "type": "number" },
+            "bottom": { "type": "number" },
+            "left": { "type": "number" }
+          }
+        },
         "gap": { "type": ["number", "null"] }
       }
     }

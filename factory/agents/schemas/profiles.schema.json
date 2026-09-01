@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://mwstudios.pl/website-factory/schemas/profiles.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["$schema", "catalogVerifiedWith", "profiles"],
+  "properties": {
+    "$schema": { "const": "./schemas/profiles.schema.json" },
+    "catalogVerifiedWith": { "type": "string", "minLength": 1 },
+    "profiles": {
+      "type": "object",
+      "minProperties": 6,
+      "additionalProperties": { "$ref": "#/definitions/profile" }
+    }
+  },
+  "definitions": {
+    "profile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["role", "logicalModel", "runtimeModel", "runtimeModelEnv", "status", "reasoningEffort", "sandbox"],
+      "properties": {
+        "role": { "type": "string", "pattern": "^[A-Z][A-Z_]+$" },
+        "logicalModel": { "enum": ["terra", "sol"] },
+        "runtimeModel": { "type": "string", "minLength": 1 },
+        "runtimeModelEnv": { "type": "string", "pattern": "^FACTORY_CODEX_MODEL_[A-Z]+$" },
+        "status": { "enum": ["active", "reserved"] },
+        "reservedFor": { "type": "string", "minLength": 1 },
+        "reasoningEffort": { "enum": ["high", "max"] },
+        "sandbox": { "enum": ["read-only", "workspace-write"] }
+      }
+    }
+  }
+}

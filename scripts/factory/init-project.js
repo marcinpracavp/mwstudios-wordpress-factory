@@ -59,6 +59,7 @@ function createNeutralManifest() {
     $schema: './schemas/project.schema.json',
     factoryVersion: FACTORY_VERSION,
     mode: 'boilerplate',
+    topology: 'auto',
     project: {
       name: 'MWStudios Website Factory',
       slug: 'mwstudios-factory',
@@ -534,6 +535,7 @@ async function collectProjectConfiguration({ prompt, logger, existingProject, ac
     $schema: controlPlaneDefaults.$schema,
     factoryVersion: controlPlaneDefaults.factoryVersion,
     mode: 'project',
+    topology: editing ? existingProject.topology || 'auto' : 'auto',
     project: {
       name: projectName,
       slug: projectSlug,

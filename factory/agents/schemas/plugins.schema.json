@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://mwstudios.pl/website-factory/schemas/plugins.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["$schema", "plugins"],
+  "properties": {
+    "$schema": { "const": "./schemas/plugins.schema.json" },
+    "plugins": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["capability", "name", "slug", "source", "packageCandidates"],
+        "properties": {
+          "capability": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" },
+          "name": { "type": "string", "minLength": 1 },
+          "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+          "source": { "enum": ["wordpress.org", "commercial-local-package"] },
+          "licenseConfiguredByBoilerplate": { "type": "boolean" },
+          "packageCandidates": { "type": "array", "uniqueItems": true, "items": { "type": "string", "minLength": 1 } }
+        }
+      }
+    }
+  }
+}

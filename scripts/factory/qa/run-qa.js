@@ -1,4 +1,5 @@
 const path = require('path');
+const crypto = require('crypto');
 const Ajv = require('ajv');
 
 const {
@@ -9,6 +10,8 @@ const {
 } = require('../validate-factory');
 const { discoverBrowser, formatBrowserDiscoveryFailure, getChromium } = require('./browser');
 const { capturePage } = require('./capture');
+const { evidenceFingerprints, matrixFingerprint } = require('./evidence');
+const { resolveQaPlan } = require('./plan');
 const { renderTerminalSummary, writeTrackedReport } = require('./report');
 const {
   ROOT_DIR,
@@ -76,15 +79,19 @@ function buildTargets({ project, qa, options }) {
       language,
       route,
       viewport,
-      url: joinUrl(baseUrl, language.path, route.path)
+      url: route.languages && route.languages[language.id]
+        ? joinUrl(baseUrl, route.languages[language.id])
+        : joinUrl(baseUrl, language.path, route.path)
     }))))
   };
 }
 
-function createSummary({ project, baseUrl, browser, selection, generatedAt, checks }) {
+function createSummary({ project, baseUrl, browser, selection, generatedAt, checks, planState }) {
   const errors = checks.flatMap((check) => check.errors);
   const warnings = checks.flatMap((check) => check.warnings);
   return {
+    runId: `${generatedAt.replace(/[-:.]/g, '')}-${crypto.randomBytes(3).toString('hex')}`,
+    planState,
     browser,
     project: {
       name: project.project.name,
@@ -98,8 +105,16 @@ function createSummary({ project, baseUrl, browser, selection, generatedAt, chec
     checks,
     errors,
     warnings,
-    generatedAt
+    generatedAt,
+    ...evidenceFingerprints(),
+    matrixFingerprint: matrixFingerprint(selection)
   };
+}
+
+function interactionsForTarget(interactions, target) {
+  return (interactions || []).filter((recipe) => recipe.route === target.route.id
+    && (recipe.languages.length === 0 || recipe.languages.includes(target.language.id))
+    && (recipe.viewports.length === 0 || recipe.viewports.includes(target.viewport.id)));
 }
 
 async function runQa({
@@ -115,7 +130,16 @@ async function runQa({
   if (validationErrors.length > 0) {
     throw new Error(`Factory QA configuration is invalid:\n- ${validationErrors.join('\n- ')}`);
   }
-  const selection = buildTargets({ project, qa, options });
+  const plan = resolveQaPlan({ project, qa });
+  if (plan.errors.length > 0) {
+    throw new Error(`Factory QA plan is invalid:\n- ${plan.errors.join('\n- ')}`);
+  }
+  const resolvedQa = plan.qa;
+  const resolvedValidationErrors = validateQaConfiguration(resolvedQa, qaSchema);
+  if (resolvedValidationErrors.length > 0) {
+    throw new Error(`Resolved Factory QA configuration is invalid:\n- ${resolvedValidationErrors.join('\n- ')}`);
+  }
+  const selection = buildTargets({ project, qa: resolvedQa, options });
 
   if (!browserDiscovery.browser) {
     throw new Error(formatBrowserDiscoveryFailure(browserDiscovery.checks));
@@ -147,7 +171,8 @@ async function runQa({
         browser,
         target,
         outputDir: targetOutputDir,
-        sectionFilter: options.section
+        sectionFilter: options.section,
+        interactions: interactionsForTarget(resolvedQa.interactions, target)
       }));
     }
   } finally {
@@ -160,7 +185,8 @@ async function runQa({
     browser: browserDiscovery.browser,
     selection,
     generatedAt: new Date().toISOString(),
-    checks
+    checks,
+    planState: plan.state
   });
   writeJson(path.join(outputDir, 'summary.json'), summary);
   if (writeReport) {
@@ -209,6 +235,7 @@ module.exports = {
   OUTPUT_DIR,
   buildTargets,
   createSummary,
+  interactionsForTarget,
   runQa,
   selectById,
   selectLanguages,

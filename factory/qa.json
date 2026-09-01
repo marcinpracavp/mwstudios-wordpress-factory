@@ -1,25 +1,64 @@
 {
   "$schema": "./schemas/qa.schema.json",
+  "routePlan": {
+    "source": "validated-site-map",
+    "siteMapPath": ".factory-cache/figma/latest/site-map.json",
+    "preserveManualRoutes": true
+  },
   "routes": [
     {
       "id": "home",
-      "path": "/"
+      "path": "/",
+      "pageId": null,
+      "type": "page",
+      "languages": {
+        "pl": "/"
+      },
+      "referenceViewports": [],
+      "referenceMode": "quality",
+      "managedBy": "fallback"
     }
   ],
   "languages": {
-    "pl": "/",
-    "en": "/en/"
+    "pl": "/"
   },
   "viewports": [
     {
       "id": "desktop",
       "width": 1440,
-      "height": 900
+      "height": 900,
+      "source": "factory-minimum"
+    },
+    {
+      "id": "desktop-1280",
+      "width": 1280,
+      "height": 900,
+      "source": "factory-minimum"
+    },
+    {
+      "id": "tablet-landscape",
+      "width": 1024,
+      "height": 900,
+      "source": "factory-minimum"
+    },
+    {
+      "id": "tablet-portrait",
+      "width": 768,
+      "height": 1024,
+      "source": "factory-minimum"
     },
     {
       "id": "mobile",
       "width": 390,
-      "height": 844
+      "height": 844,
+      "source": "factory-minimum"
+    },
+    {
+      "id": "mobile-375",
+      "width": 375,
+      "height": 812,
+      "source": "factory-minimum"
     }
-  ]
+  ],
+  "interactions": []
 }

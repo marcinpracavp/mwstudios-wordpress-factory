@@ -71,16 +71,26 @@ Before code, make one global pass over the whole design: desktop and mobile comp
 
 **Never treat root `get_metadata(fileKey)` as complete Figma discovery.** It can return one page when a file contains many. Load the `figma-use` skill, use the read-only workflow, enumerate `figma.root.children`, then inspect every `PAGE` with `get_metadata(fileKey, pageId)`. Only then use focused design context calls for concrete section nodes.
 
+Figma `PAGE` is a design-file container, not a website route. After the global scan, discovery resolves real `onepage`, `multipage`, or `hybrid` topology from final production frames, navigation/route semantics, repeated global components, desktop/mobile/language variants, and project configuration. It persists this separately in `.factory-cache/figma/latest/site-map.json`; `factory/project.json` defaults topology to `auto` until that artifact validates.
+
 Do not repeatedly read the entire Figma file during implementation. After discovery, use the local snapshot described in `docs/factory/FIGMA_SNAPSHOT.md`. Node scripts create, inspect, and validate the local cache only; they never call Figma MCP.
 
 For a section, read the project context, `.factory-cache/figma/latest/design-system.json`, the corresponding section JSON, and its desktop/mobile references. Then inspect the boilerplate and apply `REUSE -> EXTEND -> CREATE`.
 
-Before custom CSS, inspect `pt-*`, `pb-*`, `mt-*`, `mb-*`, `gc-*`, `gr-*`, `.l-container`, and other existing utilities. Figma accuracy takes precedence if no utility can express the reference. Keep authored SCSS multiline and section-based in `src/css/pages/<project>/` (for example `_global.scss`, `_header.scss`, `_hero.scss`); do not use one huge page stylesheet. Use exact typography at reference widths and classic media queries, never `clamp()`.
+Before custom CSS, inspect `pt-*`, `pb-*`, `pl-*`, `pr-*`, `mt-*`, `mb-*`, `ml-*`, `mr-*`, `gap-*`, `gc-*`, `gr-*`, `.l-container`, and other existing utilities. When an exact spacing utility exists, it is mandatory and the value must not be duplicated in page SCSS. Figma accuracy takes precedence if no exact utility can express the reference.
+
+Project page styles follow **one page = one style file**. Keep all Homepage-specific styles in `src/css/pages/homepage.scss`, all About-specific styles in `about.scss`, and so on. A native/dynamic template family owns one file such as `shop.scss`, `product.scss`, `product-category.scss`, `cart.scss`, `checkout.scss`, or `account.scss`, not one file per product/entity URL. `site-map.templateIntent + styleFile + styleScope` is the source of this relationship. Never create section SCSS partials or page subdirectories, and never put all project pages into one giant `project.scss`/`style.scss`. Global foundations and truly reusable components remain in their existing layers. Keep authored SCSS multiline with one declaration per line. Use exact typography at reference widths and existing breakpoints; never substitute an unverified approximation.
 
 Visible Figma content maps to ACF, WordPress, or a native integration: no hardcoded visible copy and no fallback copy. Project ACF groups are created through ACF Admin and saved as Local JSON in `acf-json/`; whole project groups are not programmatic `acf_add_local_field_group()` defaults. Content-heavy one-page editors use a tab per logical section.
 
 During production implementation, a logical section root uses `data-factory-section="<snapshot-id>"`. This workflow does not change PHP templates itself.
 
+Implementation also maintains `docs/factory/project/STATUS.md` as a real-page/section resume contract. A fresh session continues unfinished backend/import/template/page-style/JavaScript/build/visual/responsive/language/functional items instead of restarting completed work.
+
 The snapshot is not a prison. Return to Figma only for a specific section node when its snapshot is incomplete or ambiguous, a property is missing, the design changed, or pixel QA exposes an unexplained difference. Update that section snapshot/reference after clarification; do not reread the complete file.
 
 Run `npm run build`, then `npm run factory:qa -- --section <id>`. Compare `.factory-cache/qa/latest/.../sections/<id>.png` with `.factory-cache/figma/latest/references/sections/...`. After section QA, compare full-page QA captures to Figma full-frame references. Factory V1 records both sides but does not yet automate image diffs.
+
+When final mobile Figma frames exist, they are 1:1 source of truth. When they do not exist, record that fact and derive a complete responsive implementation from desktop without inventing a new visual language. Responsive QA still covers the desktop Figma width plus 1440, 1280, 1024, 768, 390, and 375 pixels, including section visibility, content completeness, wrapping, crop, navigation, sticky header, forms, sliders, footer, and overflow.
+
+Mobile source is resolved per real website page as `figma`, `derived`, or `mixed-partial`. Every final desktop section node requires a local section PNG; final mobile and language-specific nodes require matching references only when they exist and affect the visual output. QA routes are derived deterministically from the validated site map plus preserved manual routes. Functional behavior is evidenced through project-specific Playwright recipes rather than inferred from screenshots.

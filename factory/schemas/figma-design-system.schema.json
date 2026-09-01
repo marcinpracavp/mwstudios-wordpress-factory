@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://mwstudios.pl/website-factory/schemas/figma-design-system.schema.json",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "viewports",
+    "containers",
+    "grid",
+    "colors",
+    "typography",
+    "spacing",
+    "radii",
+    "borders",
+    "shadows",
+    "effects",
+    "buttons",
+    "links",
+    "forms",
+    "breakpoints"
+  ],
+  "properties": {
+    "viewports": { "type": "array", "minItems": 1 },
+    "containers": { "type": "array" },
+    "grid": { "type": ["object", "array"] },
+    "colors": { "type": ["object", "array"] },
+    "typography": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["family", "weight", "style", "fontSize", "lineHeight", "letterSpacing"],
+        "properties": {
+          "family": { "type": "string", "minLength": 1 },
+          "weight": { "type": ["integer", "string"] },
+          "style": { "type": "string", "minLength": 1 },
+          "fontSize": { "type": "number" },
+          "lineHeight": { "type": ["number", "string"] },
+          "letterSpacing": { "type": ["number", "string"] }
+        }
+      }
+    },
+    "spacing": { "type": ["object", "array"] },
+    "radii": { "type": ["object", "array"] },
+    "borders": { "type": ["object", "array"] },
+    "shadows": { "type": ["object", "array"] },
+    "effects": { "type": ["object", "array"] },
+    "buttons": { "type": ["object", "array"] },
+    "links": { "type": ["object", "array"] },
+    "forms": { "type": ["object", "array"] },
+    "breakpoints": { "type": ["object", "array"] }
+  }
+}

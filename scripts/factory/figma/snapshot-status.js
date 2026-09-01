@@ -17,6 +17,7 @@ function getSnapshotStatus({
   }
 
   const manifest = readJson(paths.manifest);
+  const siteMap = fs.existsSync(paths.siteMap) ? readJson(paths.siteMap) : null;
   const references = collectDeclaredReferences(manifest);
   const referenceCount = references.filter((reference) => {
     const referencePath = resolveSnapshotFile(paths.cacheRoot, reference.path);
@@ -25,6 +26,7 @@ function getSnapshotStatus({
   return {
     exists: true,
     manifest,
+    siteMap,
     paths,
     referenceCount,
     referenceTotal: references.length,
@@ -48,7 +50,9 @@ function main() {
     console.log(`Source: ${manifest.source && manifest.source.figmaUrl ? manifest.source.figmaUrl : 'N/R'}`);
     console.log(`File key: ${manifest.source && manifest.source.fileKey ? manifest.source.fileKey : 'N/R'}`);
     console.log(`Status: ${(manifest.status || 'partial').toUpperCase()}`);
-    console.log(`Pages: ${Array.isArray(manifest.pages) ? manifest.pages.length : 0}`);
+    console.log(`Figma pages: ${Array.isArray(manifest.pages) ? manifest.pages.length : 0}`);
+    console.log(`Site map: ${snapshot.siteMap ? snapshot.siteMap.topology.toUpperCase() : 'MISSING'}`);
+    console.log(`Website pages: ${snapshot.siteMap && Array.isArray(snapshot.siteMap.pages) ? snapshot.siteMap.pages.length : 0}`);
     console.log(`Sections: ${Array.isArray(manifest.sections) ? manifest.sections.length : 0}`);
     console.log(`References: ${snapshot.referenceCount}/${snapshot.referenceTotal}`);
     console.log(`Languages: ${Array.isArray(manifest.languages) && manifest.languages.length > 0 ? manifest.languages.join(', ') : 'N/R'}`);

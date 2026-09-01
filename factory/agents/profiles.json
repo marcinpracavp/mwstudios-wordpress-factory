@@ -1,0 +1,61 @@
+{
+  "$schema": "./schemas/profiles.schema.json",
+  "catalogVerifiedWith": "codex-cli 0.144.6",
+  "profiles": {
+    "discovery": {
+      "role": "DISCOVERY",
+      "logicalModel": "terra",
+      "runtimeModel": "gpt-5.6-terra",
+      "runtimeModelEnv": "FACTORY_CODEX_MODEL_TERRA",
+      "status": "active",
+      "reasoningEffort": "high",
+      "sandbox": "workspace-write"
+    },
+    "implementer": {
+      "role": "IMPLEMENTER",
+      "logicalModel": "terra",
+      "runtimeModel": "gpt-5.6-terra",
+      "runtimeModelEnv": "FACTORY_CODEX_MODEL_TERRA",
+      "status": "active",
+      "reasoningEffort": "high",
+      "sandbox": "workspace-write"
+    },
+    "corrector": {
+      "role": "CORRECTOR",
+      "logicalModel": "terra",
+      "runtimeModel": "gpt-5.6-terra",
+      "runtimeModelEnv": "FACTORY_CODEX_MODEL_TERRA",
+      "status": "active",
+      "reasoningEffort": "high",
+      "sandbox": "workspace-write"
+    },
+    "auditFixer": {
+      "role": "AUDIT_FIXER",
+      "logicalModel": "terra",
+      "runtimeModel": "gpt-5.6-terra",
+      "runtimeModelEnv": "FACTORY_CODEX_MODEL_TERRA",
+      "status": "active",
+      "reasoningEffort": "high",
+      "sandbox": "workspace-write"
+    },
+    "finalReviewer": {
+      "role": "FINAL_REVIEWER",
+      "logicalModel": "sol",
+      "runtimeModel": "gpt-5.6-sol",
+      "runtimeModelEnv": "FACTORY_CODEX_MODEL_SOL",
+      "status": "active",
+      "reasoningEffort": "high",
+      "sandbox": "read-only"
+    },
+    "escalation": {
+      "role": "ESCALATION",
+      "logicalModel": "sol",
+      "runtimeModel": "gpt-5.6-sol",
+      "runtimeModelEnv": "FACTORY_CODEX_MODEL_SOL",
+      "status": "reserved",
+      "reservedFor": "Future bounded escalation analysis before human BLOCKED; not executed by the current orchestrator.",
+      "reasoningEffort": "max",
+      "sandbox": "read-only"
+    }
+  }
+}

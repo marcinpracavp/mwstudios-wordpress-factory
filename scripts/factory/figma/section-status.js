@@ -14,17 +14,20 @@ function getSectionStatus(sectionId) {
     throw new Error('No Figma snapshot is prepared. Run npm run factory:figma:prepare first.');
   }
   const manifest = readJson(paths.manifest);
+  const siteMap = fs.existsSync(paths.siteMap) ? readJson(paths.siteMap) : null;
   const section = (manifest.sections || []).find((item) => item.id === sectionId);
   if (!section) {
     throw new Error(`Section "${sectionId}" is not present in the snapshot manifest.`);
   }
+  const sitePage = siteMap && (siteMap.pages || []).find((item) => item.id === section.sitePageId);
+  const mobileIsDerived = sitePage && sitePage.mobileSource && sitePage.mobileSource.mode === 'derived';
   const files = [section.snapshot, section.desktopReference, section.mobileReference]
     .filter(Boolean)
     .map((relativePath) => resolveSnapshotFile(paths.cacheRoot, relativePath));
   const complete = manifest.status === 'complete'
     && Boolean(section.desktopNodeId)
-    && Boolean(section.mobileNodeId)
-    && files.length === 3
+    && (mobileIsDerived || Boolean(section.mobileNodeId))
+    && files.length === (mobileIsDerived ? 2 : 3)
     && files.every((filePath) => filePath && fs.existsSync(filePath));
   return { complete, paths, section };
 }
@@ -40,6 +43,7 @@ function main() {
     const { section } = result;
     console.log(`Section: ${section.name}`);
     console.log(`Snapshot: ${section.snapshot}`);
+    console.log(`Website page: ${section.sitePageId}`);
     console.log(`Desktop node: ${section.desktopNodeId || 'N/R'}`);
     console.log(`Mobile node: ${section.mobileNodeId || 'N/R'}`);
     console.log(`Desktop reference: ${section.desktopReference || 'N/R'}`);

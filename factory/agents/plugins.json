@@ -1,0 +1,36 @@
+{
+  "$schema": "./schemas/plugins.schema.json",
+  "plugins": [
+    {
+      "capability": "acf",
+      "name": "Advanced Custom Fields Pro",
+      "slug": "advanced-custom-fields-pro",
+      "source": "commercial-local-package",
+      "licenseConfiguredByBoilerplate": true,
+      "packageCandidates": [
+        "factory/plugin-packages/advanced-custom-fields-pro.zip"
+      ]
+    },
+    {
+      "capability": "cf7",
+      "name": "Contact Form 7",
+      "slug": "contact-form-7",
+      "source": "wordpress.org",
+      "packageCandidates": []
+    },
+    {
+      "capability": "polylang",
+      "name": "Polylang",
+      "slug": "polylang",
+      "source": "wordpress.org",
+      "packageCandidates": []
+    },
+    {
+      "capability": "woocommerce",
+      "name": "WooCommerce",
+      "slug": "woocommerce",
+      "source": "wordpress.org",
+      "packageCandidates": []
+    }
+  ]
+}

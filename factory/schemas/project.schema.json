@@ -8,6 +8,7 @@
     "$schema",
     "factoryVersion",
     "mode",
+    "topology",
     "project",
     "environment",
     "wordpress",
@@ -28,6 +29,15 @@
       "enum": [
         "boilerplate",
         "project"
+      ]
+    },
+    "topology": {
+      "type": "string",
+      "enum": [
+        "auto",
+        "onepage",
+        "multipage",
+        "hybrid"
       ]
     },
     "project": {

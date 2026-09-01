@@ -5,21 +5,22 @@
 
 ## Project
 
-Name: MWStudios Website Factory
-Slug: mwstudios-factory
-Theme name: MWStudios Website Factory
-Text domain: mwstudios-factory
-PHP prefix: mwf
-Mode: boilerplate
+Name: RudnikAgro
+Slug: rudnikagro
+Theme name: RudnikAgro
+Text domain: rudnikagro
+PHP prefix: rudnikagro
+Mode: project
+Topology: auto (resolved by validated site-map after discovery)
 
 ## Environment
 
-Local URL: Not configured
-Production URL: Not configured
+Local URL: <https://dev.local>
+Production URL: <https://dev.local>
 
 ## Design
 
-Figma design: Not configured
+Figma design: <https://www.figma.com/design/OwiDXrKMVcaHKB9ryYF6mY/Rudnik-Agro?m=dev>
 Figma page: Not configured
 Figma root/start node: Not configured
 
@@ -31,20 +32,20 @@ Enabled: pl
 ## WordPress
 
 ACF Pro: YES
-Contact Form 7: NO
+Contact Form 7: YES
 Polylang: NO
-WooCommerce: NO
+WooCommerce: YES
 Google Maps: NO
 
 ## Frontend
 
 Swiper: YES
-AOS: NO
-Lenis smooth scroll: NO
+AOS: YES
+Lenis smooth scroll: YES
 
 ## Features
 
-Blog/news: NO
+Blog/news: YES
 Topbar: NO
 Promo popup: NO
 
@@ -59,8 +60,17 @@ Release includes `dist/`, `src/`, and `vendor/`; it excludes `node_modules/` and
 - Preserve the existing boilerplate architecture.
 - Inspect existing components and utilities before creating new ones.
 - Reuse the existing grid, spacing, helpers, and partials.
+- Use an exact existing spacing utility before writing custom page spacing.
+- Keep one project page-style file per page; do not create section SCSS files.
+- Keep authored SCSS multiline with one declaration per line.
+- Use a sticky header by default unless Figma or the project specification clearly overrides it.
+- Resolve real onepage, multipage, or hybrid structure from the validated site map; Figma PAGE nodes are not routes.
+- Treat final mobile Figma as 1:1 source of truth; otherwise derive a complete responsive layout from desktop.
 - Do not remove unused boilerplate functionality merely because this project does not use it.
 - `project.json` describes project requirements, not modules to physically delete from the boilerplate.
 - Plan ACF before implementing content-heavy sections.
+- Treat the boilerplate ACF Pro license as configured; a missing plugin binary is a separate technical problem.
+- Keep visible project content in ACF, WordPress, or the selected native integration; do not add fallback copy.
+- Resume implementation per page and section from docs/factory/project/STATUS.md.
 - Use classic PHP templates, ACF, SCSS, and vanilla JavaScript.
 - Do not introduce React or Tailwind into the final WordPress theme.

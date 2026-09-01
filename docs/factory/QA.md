@@ -6,11 +6,17 @@ Visual QA may not be declared complete unless browser screenshots were successfu
 
 ## Configuration
 
-`factory/qa.json` contains the developer-only QA matrix:
+`factory/qa.json` contains the developer-only QA policy and fallback matrix:
 
-- `routes`: named paths to open;
+- `routePlan`: validated site-map source and manual-route preservation policy;
+- `routes`: pre-discovery fallback routes and explicit manual routes;
 - `languages`: language code to URL-path mapping;
-- `viewports`: named width and height pairs.
+- `viewports`: Factory minimum/manual width and height pairs;
+- `interactions`: project-specific declarative Playwright recipes.
+
+After discovery, `npm run factory:qa:plan` resolves the real route matrix from validated `.factory-cache/figma/latest/site-map.json`. Each resolved route has an ID, canonical path, site-map page ID, route type, per-language canonical paths, reference viewports, reference mode, and ownership. Manual routes are preserved; fallback/site-map routes are replaced deterministically in memory and `factory/qa.json` is not arbitrarily rewritten by an agent.
+
+Actual Figma source widths are merged with the minimum responsive widths 1440, 1280, 1024, 768, 390, and 375. Project language configuration remains authoritative.
 
 The base URL always comes from `factory/project.json` → `environment.localUrl`. It is intentionally not duplicated in `qa.json`. When it is not configured, QA fails with `Factory QA requires environment.localUrl.` and never guesses a LocalWP domain.
 
@@ -47,10 +53,11 @@ The current run replaces only `.factory-cache/qa/latest/`, which is Git-ignored.
   console.json
   network.json
   sections.json
+  interactions.json
   sections/
 ```
 
-`summary.json` is machine-readable and records browser, project, base URL, selected matrix, checks, errors, warnings, and generation time. A small tracked overview is written to `docs/factory/project/QA_REPORT.md` after a browser run.
+`summary.json` is machine-readable and records a QA run ID, browser, project, base URL, resolved plan state, selected matrix, passive checks, action-level interaction results, errors, warnings, source fingerprint, build fingerprint, matrix fingerprint, and generation time. A small tracked overview is written to `docs/factory/project/QA_REPORT.md` after a browser run.
 
 ## Checks
 
@@ -59,6 +66,18 @@ Factory captures full-page screenshots and records viewport/document/body dimens
 It records `console.error`, `console.warning`, `pageerror`, failed requests, and broken `<img>` elements (`!complete` or `naturalWidth === 0`). Console warnings are reported but do not fail QA. Console errors, page errors, broken images or failed image requests, fatal page HTTP failures, browser crashes, missing browser, and unavailable `environment.localUrl` fail QA.
 
 When markup exposes `[data-factory-section]`, Factory records each section's ID and x/y/width/height, and captures each element to `sections/`. No section markup is required. With `--section`, Factory still opens the selected pages but captures only that section; an unknown section is a warning, not a crash.
+
+## Deterministic interaction recipes
+
+Recipes run only on configured route/language/viewport targets and support `click`, `fill`, `submit`, `press`, bounded `wait`, `assertVisible`, `assertUrl`, `assertText`, `assertCount`, `assertAttribute`, `assertTagName`, `assertFocused`, `assertAccessibleName`, and `assertNoConsoleError`.
+
+Every action produces PASS/FAIL evidence in `interactions.json`. Functional QA derives required recipe domains from actual validated capabilities and navigation. Passive captures cannot certify menu open/close, switching, form submission, slider controls, search, cart, checkout, or account behavior.
+
+Every real site-map page also requires one `semantic-baseline` recipe. It deterministically checks one logical H1 and the applicable stable selectors for control tag semantics, accessible form names, image alt intent, and decorative icon hiding. Where those existing components occur, the same recipe verifies menu `aria-expanded`, accordion/tab keyboard state, and retained/managed focus. It does not require absent components and is not a full WCAG audit framework.
+
+## Final evidence freshness
+
+Before the read-only final reviewer, Autopilot runs build and the complete current browser matrix. `qa-evidence-freshness` recomputes source/build/matrix fingerprints and verifies every expected route/language/viewport capture, zero QA errors, and the current run ID. Any source or build change after capture invalidates the evidence. Audit-fix refreshes evidence again before re-audit.
 
 ## Filters
 

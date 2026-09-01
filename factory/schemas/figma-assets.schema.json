@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://mwstudios.pl/website-factory/schemas/figma-assets.schema.json",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["sourceNodeId", "type", "usage", "page", "section", "recommendedFormat"],
+    "properties": {
+      "sourceNodeId": { "type": "string", "minLength": 1 },
+      "type": { "type": "string", "minLength": 1 },
+      "usage": { "type": "string", "minLength": 1 },
+      "page": { "type": ["string", "null"] },
+      "section": { "type": ["string", "null"] },
+      "recommendedFormat": { "type": "string", "minLength": 1 }
+    }
+  }
+}

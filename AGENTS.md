@@ -291,3 +291,151 @@ Nie przebudowuj istniejącej architektury bez wyraźnego polecenia.
 
 Nie twórz nowych systemów utility, gridów, kontenerów ani breakpointów,
 jeżeli odpowiednie rozwiązanie istnieje już w projekcie.
+
+## Globalne zasady MWStudios Website Factory
+
+Poniższe zasady obowiązują każdy projekt Factory, także podczas pracy
+`factory:autopilot`.
+
+### Wymagane pluginy
+
+Jeżeli zatwierdzona specyfikacja projektu wymaga funkcji zależnej od pluginu,
+agent domyślnie wykrywa jego stan, instaluje go, aktywuje i konfiguruje
+minimalnie do potrzeb projektu. Publiczny plugin z wordpress.org nie jest
+blockerem tylko dlatego, że nie jest jeszcze zainstalowany. Dla pluginu
+komercyjnego wolno użyć wyłącznie istniejącego legalnego pakietu/licencji;
+nie wolno obchodzić licencji. Instalacja ma być idempotentna i nie może
+usuwać ani resetować innych pluginów.
+
+WooCommerce instaluj wyłącznie dla rzeczywistego ecommerce. Nazwy sekcji
+takie jak Products, Bestsellers lub Offer nie są wystarczającym dowodem.
+
+### Header
+
+Domyślny header Factory jest sticky. Figma lub jawna specyfikacja może tę
+zasadę nadpisać. Sticky header nie może przykrywać anchor targets, psuć menu
+mobilnego, powodować layout shift ani destabilizować screenshotów QA.
+
+### Utilities first i spacing QA
+
+Jeżeli istniejąca utility odpowiada dokładnie wartości wymaganej przez Figma,
+markup musi użyć tej klasy. Nie duplikuj w page SCSS wartości dostępnych jako
+`pt-*`, `pb-*`, `pl-*`, `pr-*`, `mt-*`, `mb-*`, `ml-*`, `mr-*`, `gap-*`,
+`row-gap-*` lub `column-gap-*`.
+
+Figma pozostaje źródłem prawdy. Gdy dokładnej utility nie ma, po ponownej
+weryfikacji pomiaru wolno użyć custom value. Nie wybieraj zbliżonej, ale
+błędnej utility i nie twórz jednorazowego globalnego tokenu.
+
+`CUSTOM_SPACING_WHERE_UTILITY_EXISTS` jest błędem Factory conventions.
+
+### One page = one style file
+
+Każda podstrona ma jeden główny projektowy plik SCSS w `src/css/pages/`, np.
+`homepage.scss`, `about.scss`, `services.scss`, `contact.scss`.
+
+Nie twórz katalogów ani plików SCSS per sekcja strony. Nie łącz też wszystkich
+podstron w jeden `project.scss` lub `style.scss`. Globalne tokens, typography,
+buttons, forms, header/footer i prawdziwie reużywalne komponenty pozostają w
+odpowiednich globalnych warstwach boilerplate.
+
+Source SCSS ma być multiline i zawierać jedną deklarację na linię.
+
+Style file należy do widoku albo rodziny template'ów, nigdy do pojedynczego
+database entity lub URL instance. Statyczne strony używają własnych plików,
+np. `homepage.scss`, `about.scss`, `services.scss`, `contact.scss`. Natywne
+rodziny dynamiczne używają jednego pliku per template family, np.
+`shop.scss`, `product.scss`, `product-category.scss`, `cart.scss`,
+`checkout.scss`, `account.scss`. `site-map.pages[*].templateIntent`,
+`styleFile` i `styleScope` są kontraktem tej relacji. Pliki takie jak
+`product-candle-a.scss` są zabronione, gdy korzystają z tego samego PDP
+template co inne produkty.
+
+### Content i WordPress
+
+Projektowe treści są zarządzane przez ACF, WordPress lub wybraną natywną
+integrację. Widocznego copy nie hardkoduj w template. Fallback copy w rodzaju
+`get_field(...) ?: 'tekst projektu'` jest zabronione. Gdy required contentu
+brakuje, nie renderuj elementu lub sekcji zgodnie z jej kontraktem.
+
+Projektowe grupy ACF używają natywnego ACF Local JSON w `acf-json/`. Polylang
+używa tych samych field names/schema i osobnych wartości stron językowych.
+
+### Mobile i responsive
+
+Jeżeli Figma zawiera finalny mobile design, mobile Figma jest źródłem prawdy
+i ma być odwzorowane 1:1 tak samo jak desktop. Jeżeli finalnego mobile design
+nie ma, responsive należy wyprowadzić z desktop design bez tworzenia nowej
+estetyki i bez pomijania contentu lub sekcji.
+
+Minimalna matryca responsive QA to szerokość desktop Figma oraz 1440, 1280,
+1024, 768, 390 i 375 px. Sprawdzaj layout, kompletność contentu, visibility,
+spacing, wrapping, image crop, navigation, sticky header, buttons, forms,
+cards, sliders, footer i overflow.
+
+### Topologia, site map i QA routes
+
+`factory:init` nie wymaga od operatora znajomości topologii. Domyślne
+`topology: auto` jest rozwiązywane po pełnym discovery do `onepage`,
+`multipage` albo `hybrid` w zwalidowanym
+`.factory-cache/figma/latest/site-map.json`.
+
+Figma PAGE jest kontenerem pliku projektowego, a nie automatycznie stroną
+WWW. Realne strony, routes, kolejność sekcji, języki, capabilities i mobile
+source są odkrywane z final production frames oraz konfiguracji projektu.
+QA route matrix wynika deterministycznie z site map i zachowuje jawne routes
+manualne.
+
+### ACF Pro
+
+Klucz ACF Pro jest poprawnie skonfigurowany przez boilerplate. Nie pytaj o
+klucz, nie generuj go i nie obchodź licencji. Użyj lub aktywuj istniejący
+plugin. Faktyczny brak binary/package jest osobnym problemem technicznym;
+license key nie jest human blockerem.
+
+### STATUS, importer i functional evidence
+
+`docs/factory/project/STATUS.md` jest kontraktem wznowienia per realna strona
+i sekcja. Fresh implementer kontynuuje wyłącznie nieukończony zakres.
+
+Seeded project content otrzymuje deterministyczny, idempotentny importer oraz
+`CONTENT_IMPORT_PLAN.md`; importer nie czyści bazy i nie modyfikuje unrelated
+content. Interakcje istniejące w projekcie muszą mieć realne dowody z
+deklaratywnych recipes Playwright. Passive screenshot nie potwierdza menu,
+formularza, slidera, language switch ani ecommerce action.
+
+Jeżeli importer jest wymagany do osiągnięcia finalnego stanu, jego samo
+utworzenie nie kończy zadania. Implementer tworzy/aktualizuje importer,
+waliduje statycznie, wykonuje go przez rozwiązaną natywną toolchain LocalWP
+PHP/WP-CLI, weryfikuje wynikowy stan WordPressa, wykonuje go drugi raz i
+weryfikuje brak duplikatów, zanim rozpocznie visual/browser QA. Weryfikacja
+obejmuje tylko rzeczywiście wymagane elementy: strony i templates, front page,
+ACF/options, menu i locations, Polylang, media, repeaters/groups, linki,
+WooCommerce i form relationships. Nie resetuj bazy ani unrelated content.
+Gdy finalny content już istnieje i importer nie jest potrzebny, nie twórz go.
+
+Przed finalnym browser QA implementation konfiguruje natywny runtime WordPress
+odkryty w site-map/capabilities: `show_on_front`, `page_on_front`, posts page,
+page templates, menu locations, permalinks/rewrite, Polylang i canonical home
+routing, wymagane strony WooCommerce, relacje backendu formularzy oraz global
+options. Używaj WordPress APIs, WP-CLI lub plugin-native APIs; nie stosuj
+`index.php` hacks ani ręcznych redirectów, jeśli natywna konfiguracja rozwiązuje
+problem.
+
+Functional QA obejmuje lekki, deterministyczny baseline semantyki: dokładnie
+jeden logiczny H1 na stronę, właściwy button/link, sensowne nazwy form,
+alt intent obrazów, stan menu mobilnego, keyboard/state dla istniejących
+accordionów/tabs oraz zachowany focus w istniejących menu/modalach. Dekoracyjne
+SVG/ikony nie mogą tworzyć szumu accessibility. Recipes sprawdzają tylko
+komponenty istniejące w projekcie.
+
+### Autopilot safety
+
+Wynik tekstowy agenta nie jest bramką. O przejściu etapu decydują rzeczywiste
+komendy, exit code i artefakty Factory. Każdy główny etap agenta działa w
+świeżej sesji; FINAL_REVIEWER jest clean-room i nie dziedziczy rozmowy
+implementera.
+
+Autopilot nie wykonuje automatycznie `git commit`, `git push`, force checkout,
+`git reset --hard`, deploy ani produkcyjnych zmian. Po limicie prób zapisuje
+stan `blocked` z dokładnym etapem i pozostałymi problemami.

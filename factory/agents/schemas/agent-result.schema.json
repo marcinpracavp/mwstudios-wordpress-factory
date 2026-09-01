@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://mwstudios.pl/website-factory/schemas/agent-result.schema.json",
+  "title": "MWStudios Factory agent result",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "stage",
+    "status",
+    "summary",
+    "changedFiles",
+    "issues",
+    "warnings",
+    "recommendedNextAction"
+  ],
+  "properties": {
+    "stage": { "type": "string", "minLength": 1 },
+    "status": { "enum": ["pass", "failed", "blocked"] },
+    "summary": { "type": "string", "minLength": 1, "maxLength": 4000 },
+    "changedFiles": {
+      "type": "array",
+      "maxItems": 500,
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1, "pattern": "^(?![A-Za-z]:[\\\\/])(?![\\\\/]).+" }
+    },
+    "issues": {
+      "type": "array",
+      "maxItems": 100,
+      "items": { "$ref": "#/definitions/issue" }
+    },
+    "warnings": {
+      "type": "array",
+      "maxItems": 100,
+      "items": { "type": "string", "minLength": 1, "maxLength": 2000 }
+    },
+    "recommendedNextAction": { "type": "string", "minLength": 1, "maxLength": 2000 }
+  },
+  "definitions": {
+    "issue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "severity", "category", "message", "evidence"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "severity": { "enum": ["P0", "P1", "P2", "P3"] },
+        "category": { "type": "string", "minLength": 1 },
+        "message": { "type": "string", "minLength": 1, "maxLength": 2000 },
+        "evidence": { "type": "string", "minLength": 1, "maxLength": 4000 },
+        "files": {
+          "type": "array",
+          "maxItems": 200,
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    }
+  }
+}
