@@ -1,0 +1,44 @@
+{
+  "id": "checkout-heading",
+  "name": "Dostawa i płatność",
+  "order": 62,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "489:612"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 237,
+    "y": 260,
+    "width": 467,
+    "height": 68,
+    "containerWidth": 1440
+  },
+  "layout": {
+    "type": "page-heading",
+    "designContextRead": true,
+    "alignment": "left"
+  },
+  "typography": [
+    {
+      "nodeId": "489:612",
+      "value": "Dostawa i płatność",
+      "fontFamily": "DM Sans",
+      "fontWeight": 700,
+      "fontSize": 48,
+      "color": "#070707",
+      "lineHeight": "AUTO"
+    }
+  ],
+  "contentFields": [
+    {
+      "id": "489:612",
+      "text": "Dostawa i płatność",
+      "link": null
+    }
+  ],
+  "notes": [
+    "Exact Figma heading text; the template heading level is an implementation decision."
+  ],
+  "liveFigmaRequired": false
+}

@@ -1,0 +1,821 @@
+{
+  "id": "home-benefits",
+  "name": "pasek korzy?ci",
+  "order": 17,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "130:133"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 240,
+    "y": 1106,
+    "width": 1440,
+    "height": 175
+  },
+  "layout": {
+    "type": "source-composition",
+    "productionFrame": "12:2",
+    "designContextRead": true,
+    "nodes": [
+      {
+        "id": "130:133",
+        "name": "pasek korzy?ci",
+        "type": "GROUP",
+        "parentId": "12:2",
+        "bounds": {
+          "x": 240,
+          "y": 1106,
+          "width": 1440,
+          "height": 175
+        },
+        "style": 0
+      },
+      {
+        "id": "161:174",
+        "name": "oryginalne-produkty 1",
+        "type": "FRAME",
+        "parentId": "130:133",
+        "bounds": {
+          "x": 319,
+          "y": 1106,
+          "width": 64,
+          "height": 72
+        },
+        "style": 1
+      },
+      {
+        "id": "161:175",
+        "name": "Vector",
+        "type": "VECTOR",
+        "parentId": "161:174",
+        "bounds": {
+          "x": 354.7204895019531,
+          "y": 1143.5039367675781,
+          "width": 23.46113395690918,
+          "height": 24.038875579833984
+        },
+        "style": 2
+      },
+      {
+        "id": "161:176",
+        "name": "Vector",
+        "type": "VECTOR",
+        "parentId": "161:174",
+        "bounds": {
+          "x": 319,
+          "y": 1106,
+          "width": 64.00306701660156,
+          "height": 72
+        },
+        "style": 2
+      },
+      {
+        "id": "161:177",
+        "name": "Vector",
+        "type": "VECTOR",
+        "parentId": "161:174",
+        "bounds": {
+          "x": 360.8762512207031,
+          "y": 1152.3915710449219,
+          "width": 12.316269874572754,
+          "height": 8.04697322845459
+        },
+        "style": 2
+      },
+      {
+        "id": "222:92",
+        "name": "gwarancja 2",
+        "type": "FRAME",
+        "parentId": "130:133",
+        "bounds": {
+          "x": 628,
+          "y": 1109,
+          "width": 55,
+          "height": 67
+        },
+        "style": 1
+      },
+      {
+        "id": "222:93",
+        "name": "Vector",
+        "type": "VECTOR",
+        "parentId": "222:92",
+        "bounds": {
+          "x": 648.3756713867188,
+          "y": 1146.5131225585938,
+          "width": 3.2727503776550293,
+          "height": 5.905512809753418
+        },
+        "style": 2
+      },
+      {
+        "id": "222:94",
+        "name": "Vector",
+        "type": "VECTOR",
+        "parentId": "222:92",
+        "bounds": {
+          "x": 651.9422607421875,
+          "y": 1146.5131225585938,
+          "width": 5.84642219543457,
+          "height": 5.905512809753418
+        },
+        "style": 2
+      },
+      {
+        "id": "222:95",
+        "name": "Vector",
+        "type": "VECTOR",
+        "parentId": "222:92",
+        "bounds": {
+          "x": 658.1182250976562,
+          "y": 1146.5131225585938,
+          "width": 4.497246742248535,
+          "height": 5.905512809753418
+        },
+        "style": 2
+      },
+      {
+        "id": "222:96",
+        "name": "Vector",
+        "type": "VECTOR",
+        "parentId": "222:92",
+        "bounds": {
+          "x": 631.4864501953125,
+          "y": 1112.7169494628906,
+          "width": 48.01813507080078,
+          "height": 58.99182891845703
+        },
+        "style": 2
+      },
+      {
+        "id": "222:97",
+        "name": "Vector",
+        "type": "VECTOR",
+        "parentId": "222:92",
+        "bounds": {
+          "x": 628,
+          "y": 1109,
+          "width": 55,
+          "height": 67
+        },
+        "style": 2
+      },
+      {
+        "id": "222:98",
+        "name": "Vector",
+        "type": "VECTOR",
+        "parentId": "222:92",
+        "bounds": {
+          "x": 650.0364990234375,
+          "y": 1126.6351623535156,
+          "width": 10.918069839477539,
+          "height": 15.867111206054688
+        },
+        "style": 2
+      },
+      {
+        "id": "161:186",
+        "name": "dostawa 1",
+        "type": "FRAME",
+        "parentId": "130:133",
+        "bounds": {
+          "x": 911,
+          "y": 1112,
+          "width": 100,
+          "height": 59
+        },
+        "style": 1
+      },
+      {
+        "id": "161:187",
+        "name": "Vector",
+        "type": "VECTOR",
+        "parentId": "161:186",
+        "bounds": {
+          "x": 931.274169921875,
+          "y": 1112,
+          "width": 79.71971893310547,
+          "height": 59
+        },
+        "style": 2
+      },
+      {
+        "id": "161:188",
+        "name": "Vector",
+        "type": "VECTOR",
+        "parentId": "161:186",
+        "bounds": {
+          "x": 918.722900390625,
+          "y": 1124.0845642089844,
+          "width": 33.51691818237305,
+          "height": 1.9463409185409546
+        },
+        "style": 2
+      },
+      {
+        "id": "161:189",
+        "name": "Vector",
+        "type": "VECTOR",
+        "parentId": "161:186",
+        "bounds": {
+          "x": 924.37744140625,
+          "y": 1134.6293029785156,
+          "width": 24.2763614654541,
+          "height": 1.9463409185409546
+        },
+        "style": 2
+      },
+      {
+        "id": "161:190",
+        "name": "Vector",
+        "type": "VECTOR",
+        "parentId": "161:186",
+        "bounds": {
+          "x": 918.722900390625,
+          "y": 1145.18017578125,
+          "width": 24.282482147216797,
+          "height": 1.9463409185409546
+        },
+        "style": 2
+      },
+      {
+        "id": "161:191",
+        "name": "Vector",
+        "type": "VECTOR",
+        "parentId": "161:186",
+        "bounds": {
+          "x": 911,
+          "y": 1145.1740112304688,
+          "width": 4.9690961837768555,
+          "height": 1.9463409185409546
+        },
+        "style": 2
+      },
+      {
+        "id": "161:192",
+        "name": "ceny 1",
+        "type": "FRAME",
+        "parentId": "130:133",
+        "bounds": {
+          "x": 1230,
+          "y": 1106,
+          "width": 69,
+          "height": 72
+        },
+        "style": 1
+      },
+      {
+        "id": "161:193",
+        "name": "Vector",
+        "type": "VECTOR",
+        "parentId": "161:192",
+        "bounds": {
+          "x": 1230.000732421875,
+          "y": 1105.9976806640625,
+          "width": 68.99817657470703,
+          "height": 72.00686645507812
+        },
+        "style": 2
+      },
+      {
+        "id": "161:194",
+        "name": "Vector",
+        "type": "VECTOR",
+        "parentId": "161:192",
+        "bounds": {
+          "x": 1246.048583984375,
+          "y": 1121.8836059570312,
+          "width": 8.549836158752441,
+          "height": 8.458086013793945
+        },
+        "style": 2
+      },
+      {
+        "id": "161:195",
+        "name": "Vector",
+        "type": "VECTOR",
+        "parentId": "161:192",
+        "bounds": {
+          "x": 1261.760009765625,
+          "y": 1128.9828491210938,
+          "width": 23.994619369506836,
+          "height": 23.74539566040039
+        },
+        "style": 2
+      },
+      {
+        "id": "161:196",
+        "name": "Vector",
+        "type": "VECTOR",
+        "parentId": "161:192",
+        "bounds": {
+          "x": 1257.965087890625,
+          "y": 1132.7431030273438,
+          "width": 19.91171646118164,
+          "height": 19.700115203857422
+        },
+        "style": 2
+      },
+      {
+        "id": "161:197",
+        "name": "Vector",
+        "type": "VECTOR",
+        "parentId": "161:192",
+        "bounds": {
+          "x": 1254.443115234375,
+          "y": 1136.2283630371094,
+          "width": 19.906665802001953,
+          "height": 19.700115203857422
+        },
+        "style": 2
+      },
+      {
+        "id": "161:198",
+        "name": "pakiety 1",
+        "type": "FRAME",
+        "parentId": "130:133",
+        "bounds": {
+          "x": 1531,
+          "y": 1106,
+          "width": 75,
+          "height": 72
+        },
+        "style": 1
+      },
+      {
+        "id": "161:199",
+        "name": "Vector",
+        "type": "VECTOR",
+        "parentId": "161:198",
+        "bounds": {
+          "x": 1531,
+          "y": 1106.0029602050781,
+          "width": 75,
+          "height": 71.99749755859375
+        },
+        "style": 3
+      },
+      {
+        "id": "102:112",
+        "name": "Oryginalne produkty",
+        "type": "TEXT",
+        "parentId": "130:133",
+        "bounds": {
+          "x": 240,
+          "y": 1210,
+          "width": 223,
+          "height": 71
+        },
+        "style": 4,
+        "characters": "Oryginalne\nprodukty",
+        "align": [
+          "CENTER",
+          "TOP"
+        ],
+        "segments": [
+          {
+            "characters": "Oryginalne\n",
+            "start": 0,
+            "end": 11,
+            "style": 5
+          },
+          {
+            "characters": "produkty",
+            "start": 11,
+            "end": 19,
+            "style": 6
+          }
+        ]
+      },
+      {
+        "id": "102:116",
+        "name": "Szybka dostawa",
+        "type": "TEXT",
+        "parentId": "130:133",
+        "bounds": {
+          "x": 849,
+          "y": 1210,
+          "width": 223,
+          "height": 71
+        },
+        "style": 4,
+        "characters": "Szybka\ndostawa",
+        "align": [
+          "CENTER",
+          "TOP"
+        ],
+        "segments": [
+          {
+            "characters": "Szybka\n",
+            "start": 0,
+            "end": 7,
+            "style": 5
+          },
+          {
+            "characters": "dostawa",
+            "start": 7,
+            "end": 14,
+            "style": 6
+          }
+        ]
+      },
+      {
+        "id": "102:118",
+        "name": "Korzystne ceny",
+        "type": "TEXT",
+        "parentId": "130:133",
+        "bounds": {
+          "x": 1153,
+          "y": 1210,
+          "width": 223,
+          "height": 71
+        },
+        "style": 4,
+        "characters": "Korzystne\nceny",
+        "align": [
+          "CENTER",
+          "TOP"
+        ],
+        "segments": [
+          {
+            "characters": "Korzystne\n",
+            "start": 0,
+            "end": 10,
+            "style": 5
+          },
+          {
+            "characters": "ceny",
+            "start": 10,
+            "end": 14,
+            "style": 6
+          }
+        ]
+      },
+      {
+        "id": "102:120",
+        "name": "Ta?sze pakiety produktowe",
+        "type": "TEXT",
+        "parentId": "130:133",
+        "bounds": {
+          "x": 1457,
+          "y": 1210,
+          "width": 223,
+          "height": 71
+        },
+        "style": 4,
+        "characters": "Ta?sze\npakiety produktowe",
+        "align": [
+          "CENTER",
+          "TOP"
+        ],
+        "segments": [
+          {
+            "characters": "Ta?sze\n",
+            "start": 0,
+            "end": 7,
+            "style": 5
+          },
+          {
+            "characters": "pakiety produktowe",
+            "start": 7,
+            "end": 25,
+            "style": 6
+          }
+        ]
+      },
+      {
+        "id": "102:113",
+        "name": "Do 5 lat gwarancji na produkty",
+        "type": "TEXT",
+        "parentId": "130:133",
+        "bounds": {
+          "x": 483,
+          "y": 1210,
+          "width": 345,
+          "height": 71
+        },
+        "style": 4,
+        "characters": "Do 5 lat\ngwarancji na produkty",
+        "align": [
+          "CENTER",
+          "TOP"
+        ],
+        "segments": [
+          {
+            "characters": "Do 5 lat\n",
+            "start": 0,
+            "end": 9,
+            "style": 5
+          },
+          {
+            "characters": "gwarancji na produkty",
+            "start": 9,
+            "end": 30,
+            "style": 6
+          }
+        ]
+      }
+    ],
+    "styles": [
+      {
+        "visible": true,
+        "opacity": 1,
+        "effects": [],
+        "isMask": false,
+        "blendMode": "PASS_THROUGH"
+      },
+      {
+        "visible": true,
+        "opacity": 1,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": false,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "effects": [],
+        "cornerRadius": 0,
+        "isMask": false,
+        "blendMode": "PASS_THROUGH",
+        "layoutMode": "NONE",
+        "itemSpacing": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0
+      },
+      {
+        "visible": true,
+        "opacity": 1,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "effects": [],
+        "cornerRadius": 0,
+        "isMask": false,
+        "blendMode": "PASS_THROUGH"
+      },
+      {
+        "visible": true,
+        "opacity": 1,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "effects": [],
+        "cornerRadius": 0,
+        "isMask": false,
+        "blendMode": "PASS_THROUGH"
+      },
+      {
+        "visible": true,
+        "opacity": 1,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 1,
+        "strokeAlign": "OUTSIDE",
+        "effects": [],
+        "isMask": false,
+        "blendMode": "PASS_THROUGH"
+      },
+      {
+        "fontSize": 24,
+        "fontName": {
+          "family": "DM Sans",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700,
+            "opsz": 14
+          }
+        },
+        "fontWeight": 700,
+        "textDecoration": "NONE",
+        "lineHeight": {
+          "unit": "AUTO"
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "boundVariables": {}
+          }
+        ],
+        "hyperlink": null
+      },
+      {
+        "fontSize": 24,
+        "fontName": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "fontWeight": 400,
+        "textDecoration": "NONE",
+        "lineHeight": {
+          "unit": "AUTO"
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "boundVariables": {}
+          }
+        ],
+        "hyperlink": null
+      }
+    ]
+  },
+  "typography": [
+    {
+      "nodeId": "102:112",
+      "segments": [
+        {
+          "characters": "Oryginalne\n",
+          "start": 0,
+          "end": 11,
+          "style": 5
+        },
+        {
+          "characters": "produkty",
+          "start": 11,
+          "end": 19,
+          "style": 6
+        }
+      ]
+    },
+    {
+      "nodeId": "102:116",
+      "segments": [
+        {
+          "characters": "Szybka\n",
+          "start": 0,
+          "end": 7,
+          "style": 5
+        },
+        {
+          "characters": "dostawa",
+          "start": 7,
+          "end": 14,
+          "style": 6
+        }
+      ]
+    },
+    {
+      "nodeId": "102:118",
+      "segments": [
+        {
+          "characters": "Korzystne\n",
+          "start": 0,
+          "end": 10,
+          "style": 5
+        },
+        {
+          "characters": "ceny",
+          "start": 10,
+          "end": 14,
+          "style": 6
+        }
+      ]
+    },
+    {
+      "nodeId": "102:120",
+      "segments": [
+        {
+          "characters": "Ta?sze\n",
+          "start": 0,
+          "end": 7,
+          "style": 5
+        },
+        {
+          "characters": "pakiety produktowe",
+          "start": 7,
+          "end": 25,
+          "style": 6
+        }
+      ]
+    },
+    {
+      "nodeId": "102:113",
+      "segments": [
+        {
+          "characters": "Do 5 lat\n",
+          "start": 0,
+          "end": 9,
+          "style": 5
+        },
+        {
+          "characters": "gwarancji na produkty",
+          "start": 9,
+          "end": 30,
+          "style": 6
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "sourceNodeId": "161:174",
+      "path": "assets/home/161-174-oryginalneprodukty1.svg",
+      "usage": "Exact source export; geometry and crop recorded in layout.nodes."
+    },
+    {
+      "sourceNodeId": "222:92",
+      "path": "assets/home/222-92-gwarancja2.svg",
+      "usage": "Exact source export; geometry and crop recorded in layout.nodes."
+    },
+    {
+      "sourceNodeId": "161:186",
+      "path": "assets/home/161-186-dostawa1.svg",
+      "usage": "Exact source export; geometry and crop recorded in layout.nodes."
+    },
+    {
+      "sourceNodeId": "161:192",
+      "path": "assets/home/161-192-ceny1.svg",
+      "usage": "Exact source export; geometry and crop recorded in layout.nodes."
+    },
+    {
+      "sourceNodeId": "161:198",
+      "path": "assets/home/161-198-pakiety1.svg",
+      "usage": "Exact source export; geometry and crop recorded in layout.nodes."
+    }
+  ],
+  "notes": [],
+  "liveFigmaRequired": false
+}

@@ -1,0 +1,316 @@
+{
+  "id": "product-expanded-description",
+  "name": "Expanded product description",
+  "order": 11,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "326:2735"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 362,
+    "y": 1227,
+    "width": 1196,
+    "height": 2977
+  },
+  "layout": {
+    "type": "rich-text",
+    "designContextRead": true
+  },
+  "typography": {
+    "styles": [
+      {
+        "fontSize": 16,
+        "fontName": {
+          "family": "DM Sans",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700,
+            "opsz": 14
+          }
+        },
+        "fontWeight": 700,
+        "lineHeight": {
+          "unit": "AUTO"
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "fills": [
+          {
+            "type": "GRADIENT_LINEAR",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "gradientStops": [
+              {
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                },
+                "position": 0,
+                "boundVariables": {}
+              },
+              {
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                },
+                "position": 1,
+                "boundVariables": {}
+              }
+            ],
+            "gradientTransform": [
+              [
+                6.123234262925839e-17,
+                1,
+                0
+              ],
+              [
+                -1,
+                6.123234262925839e-17,
+                1
+              ]
+            ]
+          }
+        ],
+        "hyperlink": null
+      },
+      {
+        "fontSize": 16,
+        "fontName": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "fontWeight": 400,
+        "lineHeight": {
+          "unit": "AUTO"
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "fills": [
+          {
+            "type": "GRADIENT_LINEAR",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "gradientStops": [
+              {
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                },
+                "position": 0,
+                "boundVariables": {}
+              },
+              {
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                },
+                "position": 1,
+                "boundVariables": {}
+              }
+            ],
+            "gradientTransform": [
+              [
+                6.123234262925839e-17,
+                1,
+                0
+              ],
+              [
+                -1,
+                6.123234262925839e-17,
+                1
+              ]
+            ]
+          }
+        ],
+        "hyperlink": null
+      }
+    ],
+    "runs": [
+      {
+        "start": 0,
+        "end": 21,
+        "styleIndex": 0
+      },
+      {
+        "start": 21,
+        "end": 968,
+        "styleIndex": 1
+      },
+      {
+        "start": 968,
+        "end": 1012,
+        "styleIndex": 0
+      },
+      {
+        "start": 1012,
+        "end": 1275,
+        "styleIndex": 1
+      },
+      {
+        "start": 1275,
+        "end": 1300,
+        "styleIndex": 0
+      },
+      {
+        "start": 1300,
+        "end": 1848,
+        "styleIndex": 1
+      },
+      {
+        "start": 1848,
+        "end": 1856,
+        "styleIndex": 0
+      },
+      {
+        "start": 1856,
+        "end": 2321,
+        "styleIndex": 1
+      },
+      {
+        "start": 2321,
+        "end": 2344,
+        "styleIndex": 0
+      },
+      {
+        "start": 2344,
+        "end": 2783,
+        "styleIndex": 1
+      },
+      {
+        "start": 2783,
+        "end": 2809,
+        "styleIndex": 0
+      },
+      {
+        "start": 2809,
+        "end": 4024,
+        "styleIndex": 1
+      },
+      {
+        "start": 4024,
+        "end": 4097,
+        "styleIndex": 0
+      },
+      {
+        "start": 4097,
+        "end": 4305,
+        "styleIndex": 1
+      },
+      {
+        "start": 4305,
+        "end": 4330,
+        "styleIndex": 0
+      },
+      {
+        "start": 4330,
+        "end": 4692,
+        "styleIndex": 1
+      },
+      {
+        "start": 4692,
+        "end": 4719,
+        "styleIndex": 0
+      },
+      {
+        "start": 4719,
+        "end": 5044,
+        "styleIndex": 1
+      },
+      {
+        "start": 5044,
+        "end": 5052,
+        "styleIndex": 0
+      },
+      {
+        "start": 5052,
+        "end": 5494,
+        "styleIndex": 1
+      },
+      {
+        "start": 5494,
+        "end": 5516,
+        "styleIndex": 0
+      },
+      {
+        "start": 5516,
+        "end": 5913,
+        "styleIndex": 1
+      },
+      {
+        "start": 5913,
+        "end": 6014,
+        "styleIndex": 0
+      },
+      {
+        "start": 6014,
+        "end": 6392,
+        "styleIndex": 1
+      },
+      {
+        "start": 6392,
+        "end": 6400,
+        "styleIndex": 0
+      },
+      {
+        "start": 6400,
+        "end": 7045,
+        "styleIndex": 1
+      },
+      {
+        "start": 7045,
+        "end": 7146,
+        "styleIndex": 0
+      },
+      {
+        "start": 7146,
+        "end": 7590,
+        "styleIndex": 1
+      },
+      {
+        "start": 7590,
+        "end": 7595,
+        "styleIndex": 0
+      },
+      {
+        "start": 7595,
+        "end": 7994,
+        "styleIndex": 1
+      },
+      {
+        "start": 7994,
+        "end": 8314,
+        "styleIndex": 0
+      },
+      {
+        "start": 8314,
+        "end": 8635,
+        "styleIndex": 1
+      }
+    ]
+  },
+  "notes": [
+    "Exact original text is in content-map. Styled runs index the deduplicated styles array.",
+    "Native product data, label files and other tab/state transitions still require source completion.",
+    "Visual source facts were reconfirmed against the assigned Figma node in detail-product discovery."
+  ],
+  "liveFigmaRequired": false
+}

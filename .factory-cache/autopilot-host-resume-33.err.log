@@ -1,0 +1,15 @@
+AUTOPILOT PAUSED: AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/052-build-product; {"message":"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at Sep 13th, 2026 2:00 AM."}
+t-reviews"><?php comments_template(); ?></div>
+      <div class="c-product__panel" data-product-panel="downloads" data-factory-section="product-files"><?php foreach ($downloads as $download) : if (!empty($download['label'])) : ?><p class="c-product__download"><?php if (!empty($download['file'])) : ?><a href="<?php echo esc_url(wp_get_attachment_url((int) $download['file'])); ?>"><?php endif; echo esc_html($download['label']); if (!empty($download['file'])) : ?></a><?php endif; ?></p><?php endif; endforeach; ?></div>
+      </div>
+    </section>
+2026-09-12T19:23:11.214341Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in C:\Users\HP\Local Sites\autopilot\app\public\wp-content\themes\slawinsky-boilerplate\single-product.php:
+        <?php if ($product && $product->is_purchasable()) : ?><form class="c-product__cart" method="post" action="<?php echo esc_url($product->add_to_cart_url()); ?>"><input type="number" name="quantity" value="1" min="1" aria-label="IloÅ›Ä‡"><button type="submit" class="button-primary"><?php echo esc_html($product->add_to_cart_text()); ?></button></form><?php endif; ?>
+2026-09-12T19:31:14.716807Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in C:\Users\HP\Local Sites\autopilot\app\public\wp-content\themes\slawinsky-boilerplate\docs\factory\project\STATUS.md:
+## Product continuation update â€” 2026-09-12
+2026-09-12T19:31:43.612650Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in C:\Users\HP\Local Sites\autopilot\app\public\wp-content\themes\slawinsky-boilerplate\docs\factory\project\STATUS.md:
+# Factory project status
+2026-09-12T19:32:57.555566Z ERROR codex_core::tools::router: error=exec_command failed: UnknownProcessId { process_id: 16388 }
+2026-09-12T19:32:57.590057Z ERROR codex_core::session: failed to record rollout items: thread 01a09708-19e2-75b3-b121-23215e95690a not found
+
+Report: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/REPORT.md

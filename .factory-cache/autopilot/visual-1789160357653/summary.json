@@ -1,0 +1,54 @@
+{
+  "capturedAt": "2026-09-11T20:59:34.361Z",
+  "implementationHash": "2fe15d630414daf734c7506d8d9fbc3d022b80c21dbb99b94d3ce61eea63acfe",
+  "sourceHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+  "thresholds": {
+    "channelTolerance": 24,
+    "maxDifferentPixelRatio": 0.05,
+    "geometryTolerancePx": 2
+  },
+  "acceptanceScope": "page",
+  "passed": false,
+  "pagePassed": false,
+  "routes": [
+    {
+      "id": "catalogues",
+      "passed": false,
+      "pagePassed": false,
+      "ownership": {
+        "header": {
+          "pixels": 372480,
+          "differentPixels": 21869,
+          "ratio": 0.05871187714776632
+        },
+        "footer": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "shared": {
+          "pixels": 316800,
+          "differentPixels": 69719,
+          "ratio": 0.220072601010101
+        },
+        "page": {
+          "pixels": 2862720,
+          "differentPixels": 1232951,
+          "ratio": 0.4306921389447798
+        }
+      },
+      "errors": [
+        "Full page dimensions differ",
+        "page pixel mismatch 43.069%",
+        "Section geometry differs: catalogues-downloads",
+        "header pixel mismatch 5.871%",
+        "shared pixel mismatch 22.007%",
+        "Shared component pixel mismatch page-banner: 22.007%",
+        "Section geometry differs: catalogues-heading",
+        "Section geometry differs: shared-shop-cta",
+        "Section geometry differs: shared-footer"
+      ],
+      "comparison": ".factory-cache/autopilot/visual-1789160357653/catalogues/comparison.json"
+    }
+  ]
+}

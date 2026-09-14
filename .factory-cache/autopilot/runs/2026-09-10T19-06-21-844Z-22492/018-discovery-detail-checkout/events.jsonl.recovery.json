@@ -1,0 +1,30 @@
+{
+  "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\018-discovery-detail-checkout\\events.jsonl",
+  "lines": 152,
+  "rejected": [
+    {
+      "line": 30,
+      "bytes": 2810,
+      "sha256": "e2113b6c91e58cef2587ecc457f9eb4228d9e961dea5250bdd11858e76af2dc8",
+      "error": "Unterminated string in JSON at position 2778 (line 1 column 2779)"
+    },
+    {
+      "line": 31,
+      "bytes": 17858,
+      "sha256": "a9c7e1f170e186315959102a5a42d424ba676d0697b5e09fddbf10dcd06d1dab",
+      "error": "Unexpected token 'i', \"i wyróżnie\"... is not valid JSON"
+    },
+    {
+      "line": 99,
+      "bytes": 2820,
+      "sha256": "c5f1d935a1a888c65fd6334f8707affa26c2164fc68be1dc63c3ed0834968db5",
+      "error": "Unterminated string in JSON at position 2791 (line 1 column 2792)"
+    },
+    {
+      "line": 100,
+      "bytes": 12774,
+      "sha256": "2eb69dbe23110e51b3825b2a0f39162fdd12c89c00943ba313528c3ed20b9b15",
+      "error": "Unexpected token 'i', \"i wyróżnie\"... is not valid JSON"
+    }
+  ]
+}

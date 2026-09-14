@@ -1,0 +1,80 @@
+{
+  "id": "30cb5cab0c0c32d05330",
+  "tool": "figma.use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "492:716"
+  ],
+  "description": "Read source content to identify native product or account state 492:716",
+  "recordedAt": "2026-09-10T19:30:16.886Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "id": "492:716",
+      "visible": true,
+      "texts": [
+        {
+          "id": "509:267",
+          "text": "Nazwisko*",
+          "link": null
+        },
+        {
+          "id": "491:668",
+          "text": "Ulica, numer budynku / numer lokalu*",
+          "link": null
+        },
+        {
+          "id": "491:676",
+          "text": "Kod pocztowy*",
+          "link": null
+        },
+        {
+          "id": "491:677",
+          "text": "Miasto*",
+          "link": null
+        },
+        {
+          "id": "491:681",
+          "text": "Numer telefonu*",
+          "link": null
+        },
+        {
+          "id": "491:682",
+          "text": "Adres e-mail*",
+          "link": null
+        },
+        {
+          "id": "492:685",
+          "text": "*Pola wymagane",
+          "link": null
+        },
+        {
+          "id": "492:688",
+          "text": "Chcę otrzymać dostawę na inny adres niż dane rozliczeniowe",
+          "link": null
+        },
+        {
+          "id": "489:657",
+          "text": "Dane osobowe",
+          "link": null
+        },
+        {
+          "id": "492:684",
+          "text": "Zamawiam jako: Osoba prywatna | Firma",
+          "link": null
+        },
+        {
+          "id": "509:264",
+          "text": "Imię*",
+          "link": null
+        },
+        {
+          "id": "509:270",
+          "text": "Polska",
+          "link": null
+        }
+      ],
+      "reactions": []
+    }
+  ]
+}

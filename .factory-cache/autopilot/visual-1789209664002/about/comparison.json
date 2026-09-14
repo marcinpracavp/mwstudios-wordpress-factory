@@ -1,0 +1,861 @@
+{
+  "id": "about",
+  "sourceNodeId": "326:2764",
+  "capturedAt": "2026-09-12T10:41:06.677Z",
+  "passed": false,
+  "errors": [
+    "page pixel mismatch 37.700%",
+    "Section geometry differs: about-agricultural-supply",
+    "Section geometry differs: about-grain-trade",
+    "Section geometry differs: about-insurance",
+    "shared pixel mismatch 48.242%",
+    "Shared component pixel mismatch shop-cta: 83.833%",
+    "Section geometry differs: shared-shop-cta"
+  ],
+  "responsive": [
+    {
+      "width": 1440,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/visual-1789209664002/about/responsive-1440.png"
+    },
+    {
+      "width": 1280,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/visual-1789209664002/about/responsive-1280.png"
+    },
+    {
+      "width": 1024,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/visual-1789209664002/about/responsive-1024.png"
+    },
+    {
+      "width": 768,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/visual-1789209664002/about/responsive-768.png"
+    },
+    {
+      "width": 390,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/visual-1789209664002/about/responsive-390.png"
+    },
+    {
+      "width": 375,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/visual-1789209664002/about/responsive-375.png"
+    }
+  ],
+  "measurementVersion": 2,
+  "acceptanceScope": "page",
+  "geometryHash": "9900aaa99a4ec50640dc158a497fe83b89c92ff98181580ad7423ecd79cedf58",
+  "geometryCorrection": {
+    "id": "about",
+    "frameNodeId": "326:2764",
+    "referenceHash": "1e9d5aec30c4675e1c21f164f3e1f2f7c7526b26c8548af43781ec8eae44f6bd",
+    "evidence": ".factory-cache/autopilot/about-source-geometry.json",
+    "evidenceHash": "1313e044d00ac4817c63795ad5549fb04b70e988a04bee82511fc211169f3f4c",
+    "sections": [
+      {
+        "id": "about-agricultural-supply",
+        "nodeId": "520:432",
+        "anchorNodeId": "520:432",
+        "before": {
+          "x": 160,
+          "y": 1397,
+          "width": 1600,
+          "height": 565
+        },
+        "after": {
+          "x": 160,
+          "y": 832,
+          "width": 1600,
+          "height": 565
+        }
+      },
+      {
+        "id": "about-grain-trade",
+        "nodeId": "521:452",
+        "anchorNodeId": "519:351",
+        "before": {
+          "x": 160,
+          "y": 2085,
+          "width": 1600,
+          "height": 631
+        },
+        "after": {
+          "x": 160,
+          "y": 1454,
+          "width": 1600,
+          "height": 631
+        }
+      },
+      {
+        "id": "about-insurance",
+        "nodeId": "521:454",
+        "anchorNodeId": "521:435",
+        "before": {
+          "x": 160,
+          "y": 2837,
+          "width": 1600,
+          "height": 695
+        },
+        "after": {
+          "x": 160,
+          "y": 2142,
+          "width": 1600,
+          "height": 695
+        }
+      }
+    ],
+    "reason": "Unique source background absolute bounds prove a bottom-versus-top extraction error."
+  },
+  "geometry": [
+    {
+      "id": "shared-topbar",
+      "owner": "header",
+      "component": "header",
+      "expected": {
+        "frameWidth": 1920,
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 40
+      },
+      "actual": {
+        "id": "shared-topbar",
+        "landmark": null,
+        "component": null,
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 40,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "700",
+          "fontSize": "14px",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "shared-secondary-navigation",
+      "owner": "header",
+      "component": "header",
+      "expected": {
+        "frameWidth": 1920,
+        "x": 239,
+        "y": 56,
+        "width": 1440.9998779296875,
+        "height": 42
+      },
+      "actual": {
+        "id": "shared-secondary-navigation",
+        "landmark": "header",
+        "component": null,
+        "x": 237,
+        "y": 56,
+        "width": 1442.8125,
+        "height": 42,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "14px",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "20px",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": -2,
+        "y": 0,
+        "width": 1.8126220703125,
+        "height": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "shared-primary-navigation",
+      "owner": "header",
+      "component": "header",
+      "expected": {
+        "frameWidth": 1920,
+        "x": 240,
+        "y": 115,
+        "width": 1440,
+        "height": 78.6761245727539
+      },
+      "actual": {
+        "id": "shared-primary-navigation",
+        "landmark": "header",
+        "component": null,
+        "x": 240,
+        "y": 115,
+        "width": 1440,
+        "height": 79,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0.32387542724609375
+      },
+      "passed": true
+    },
+    {
+      "id": "about-heading",
+      "owner": "shared",
+      "component": "page-banner",
+      "expected": {
+        "x": 240,
+        "y": 218,
+        "width": 1440,
+        "height": 220
+      },
+      "actual": {
+        "id": "about-heading",
+        "landmark": null,
+        "component": "page-banner",
+        "x": 240,
+        "y": 218,
+        "width": 1440,
+        "height": 220,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "about-introduction",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "x": 240,
+        "y": 471,
+        "width": 1440,
+        "height": 337
+      },
+      "actual": {
+        "id": "about-introduction",
+        "landmark": null,
+        "component": null,
+        "x": 240,
+        "y": 471,
+        "width": 1440,
+        "height": 336.421875,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "24px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": -0.578125
+      },
+      "passed": true
+    },
+    {
+      "id": "about-agricultural-supply",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "x": 160,
+        "y": 832,
+        "width": 1600,
+        "height": 565
+      },
+      "actual": {
+        "id": "about-agricultural-supply",
+        "landmark": null,
+        "component": null,
+        "x": 160,
+        "y": 1397.421875,
+        "width": 1600,
+        "height": 565,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(246, 246, 246)",
+          "borderRadius": "30px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 565.421875,
+        "width": 0,
+        "height": 0
+      },
+      "passed": false
+    },
+    {
+      "id": "about-grain-trade",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "x": 160,
+        "y": 1454,
+        "width": 1600,
+        "height": 631
+      },
+      "actual": {
+        "id": "about-grain-trade",
+        "landmark": null,
+        "component": null,
+        "x": 160,
+        "y": 2085.421875,
+        "width": 1600,
+        "height": 631,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(246, 246, 246)",
+          "borderRadius": "30px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 631.421875,
+        "width": 0,
+        "height": 0
+      },
+      "passed": false
+    },
+    {
+      "id": "about-insurance",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "x": 160,
+        "y": 2142,
+        "width": 1600,
+        "height": 695
+      },
+      "actual": {
+        "id": "about-insurance",
+        "landmark": null,
+        "component": null,
+        "x": 160,
+        "y": 2837.421875,
+        "width": 1600,
+        "height": 695,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(246, 246, 246)",
+          "borderRadius": "30px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 695.421875,
+        "width": 0,
+        "height": 0
+      },
+      "passed": false
+    },
+    {
+      "id": "shared-shop-cta",
+      "owner": "shared",
+      "component": "shop-cta",
+      "expected": {
+        "frameWidth": 1920,
+        "x": 36,
+        "y": 2919,
+        "width": 1840,
+        "height": 230,
+        "containerWidth": 1840
+      },
+      "actual": {
+        "id": "shared-shop-cta",
+        "landmark": null,
+        "component": "shop-cta",
+        "x": 40,
+        "y": 3674.421875,
+        "width": 1840,
+        "height": 230,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "30px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 4,
+        "y": 755.421875,
+        "width": 0,
+        "height": 0
+      },
+      "passed": false
+    },
+    {
+      "id": "shared-footer",
+      "owner": "footer",
+      "component": "footer",
+      "expected": {
+        "frameWidth": 1920,
+        "x": 0,
+        "y": 8363,
+        "width": 1920,
+        "height": 636
+      },
+      "actual": {
+        "id": "shared-footer",
+        "landmark": "footer",
+        "component": null,
+        "x": 0,
+        "y": 3944.421875,
+        "width": 1920,
+        "height": 636,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": -4418.578125,
+        "width": 0,
+        "height": 0
+      },
+      "passed": false
+    }
+  ],
+  "pixels": {
+    "width": 1920,
+    "height": 4581,
+    "differentPixels": 4767802,
+    "ratio": 0.542071645565015,
+    "ownership": {
+      "header": {
+        "pixels": 372480,
+        "differentPixels": 21869,
+        "ratio": 0.05871187714776632
+      },
+      "footer": {
+        "pixels": 0,
+        "differentPixels": 0,
+        "ratio": 0
+      },
+      "shared": {
+        "pixels": 740000,
+        "differentPixels": 356992,
+        "ratio": 0.4824216216216216
+      },
+      "page": {
+        "pixels": 4542720,
+        "differentPixels": 1712624,
+        "ratio": 0.3770040856579318
+      },
+      "outside": {
+        "pixels": 3140320,
+        "differentPixels": 2676317,
+        "ratio": 0.8522434019462984
+      }
+    },
+    "components": {
+      "header": {
+        "owner": "header",
+        "pixels": 372480,
+        "differentPixels": 21869,
+        "ratio": 0.05871187714776632
+      },
+      "page-banner": {
+        "owner": "shared",
+        "pixels": 316800,
+        "differentPixels": 2212,
+        "ratio": 0.006982323232323232
+      },
+      "shop-cta": {
+        "owner": "shared",
+        "pixels": 423200,
+        "differentPixels": 354780,
+        "ratio": 0.8383270321361058
+      }
+    },
+    "imageDiagnostics": {
+      "interiorPixels": 610368,
+      "interiorDifferentPixels": 598138,
+      "otherPixels": 3932352,
+      "otherDifferentPixels": 1114486,
+      "note": "Diagnostic only: confirm source asset, crop, geometry and border before accepting interior photo differences. No blanket image exemption."
+    },
+    "meanMaxChannelDelta": 102.62701363876155,
+    "referenceSize": {
+      "width": 1920,
+      "height": 3863
+    },
+    "renderedSize": {
+      "width": 1920,
+      "height": 4581
+    },
+    "crops": [
+      {
+        "id": "shared-topbar",
+        "owner": "header",
+        "component": "header",
+        "pixels": 76800,
+        "differentPixels": 1546,
+        "ratio": 0.020130208333333333
+      },
+      {
+        "id": "shared-secondary-navigation",
+        "owner": "header",
+        "component": "header",
+        "pixels": 60522,
+        "differentPixels": 9136,
+        "ratio": 0.15095337232741812
+      },
+      {
+        "id": "shared-primary-navigation",
+        "owner": "header",
+        "component": "header",
+        "pixels": 113760,
+        "differentPixels": 9367,
+        "ratio": 0.08234001406469761
+      },
+      {
+        "id": "about-heading",
+        "owner": "shared",
+        "component": "page-banner",
+        "pixels": 316800,
+        "differentPixels": 2212,
+        "ratio": 0.006982323232323232
+      },
+      {
+        "id": "about-introduction",
+        "owner": "page",
+        "component": null,
+        "pixels": 485280,
+        "differentPixels": 95382,
+        "ratio": 0.19655044510385758
+      },
+      {
+        "id": "about-agricultural-supply",
+        "owner": "page",
+        "component": null,
+        "pixels": 904000,
+        "differentPixels": 266357,
+        "ratio": 0.29464269911504426
+      },
+      {
+        "id": "about-grain-trade",
+        "owner": "page",
+        "component": null,
+        "pixels": 1009600,
+        "differentPixels": 534749,
+        "ratio": 0.5296642234548335
+      },
+      {
+        "id": "about-insurance",
+        "owner": "page",
+        "component": null,
+        "pixels": 1112000,
+        "differentPixels": 807827,
+        "ratio": 0.7264631294964029
+      },
+      {
+        "id": "shared-shop-cta",
+        "owner": "shared",
+        "component": "shop-cta",
+        "pixels": 423200,
+        "differentPixels": 354780,
+        "ratio": 0.8383270321361058
+      },
+      {
+        "id": "shared-footer",
+        "owner": "footer",
+        "component": "footer",
+        "pixels": 1920,
+        "differentPixels": 0,
+        "ratio": 0
+      }
+    ],
+    "worstRows": [
+      {
+        "y": 3863,
+        "count": 1920
+      },
+      {
+        "y": 3864,
+        "count": 1920
+      },
+      {
+        "y": 3865,
+        "count": 1920
+      },
+      {
+        "y": 3866,
+        "count": 1920
+      },
+      {
+        "y": 3867,
+        "count": 1920
+      },
+      {
+        "y": 3868,
+        "count": 1920
+      },
+      {
+        "y": 3869,
+        "count": 1920
+      },
+      {
+        "y": 3870,
+        "count": 1920
+      },
+      {
+        "y": 3871,
+        "count": 1920
+      },
+      {
+        "y": 3872,
+        "count": 1920
+      },
+      {
+        "y": 3873,
+        "count": 1920
+      },
+      {
+        "y": 3874,
+        "count": 1920
+      },
+      {
+        "y": 3875,
+        "count": 1920
+      },
+      {
+        "y": 3876,
+        "count": 1920
+      },
+      {
+        "y": 3877,
+        "count": 1920
+      },
+      {
+        "y": 3878,
+        "count": 1920
+      },
+      {
+        "y": 3879,
+        "count": 1920
+      },
+      {
+        "y": 3880,
+        "count": 1920
+      },
+      {
+        "y": 3881,
+        "count": 1920
+      },
+      {
+        "y": 3882,
+        "count": 1920
+      }
+    ]
+  },
+  "reference": {
+    "path": "references/full/frame-326-2764.png",
+    "width": 1920,
+    "height": 3863,
+    "sha256": "1e9d5aec30c4675e1c21f164f3e1f2f7c7526b26c8548af43781ec8eae44f6bd"
+  },
+  "rendered": {
+    "path": ".factory-cache/autopilot/visual-1789209664002/about/rendered.png",
+    "width": 1920,
+    "height": 4581,
+    "sha256": "6aae70403c9c80e61b90c0da13b18e8f46d65a867bcdaa05f2971830ef7fc8bd"
+  },
+  "acceptance": {
+    "threshold": 0.085,
+    "pagePassed": false,
+    "sharedPassed": null,
+    "pageErrors": [
+      "page pixel mismatch 37.700%",
+      "Section geometry differs: about-agricultural-supply",
+      "Section geometry differs: about-grain-trade",
+      "Section geometry differs: about-insurance"
+    ],
+    "sharedErrors": [
+      "shared pixel mismatch 48.242%",
+      "Shared component pixel mismatch shop-cta: 83.833%",
+      "Section geometry differs: shared-shop-cta"
+    ],
+    "skippedOwners": [
+      "header",
+      "footer"
+    ],
+    "note": "Page build readiness can defer shared visual issues. Final acceptance requires both plus independent visual audit. Section ratios remain diagnostics."
+  },
+  "chromeReview": {
+    "skippedOwners": [
+      "header",
+      "footer"
+    ],
+    "reason": "Deferred to representative final shared audit"
+  },
+  "progress": {
+    "deferred": false,
+    "samples": [
+      {
+        "file": "current capture",
+        "implementationHash": "c7f0e54f1e18231aeb95af57672d7042a7dc9c5d8b568ae1358fb9fa9b446ad3",
+        "capturedAt": "2026-09-12T10:41:06.677Z",
+        "ratio": 0.3770040856579318
+      }
+    ],
+    "improvement": 0,
+    "policy": {
+      "samples": 3,
+      "maxPageMismatch": 0.13,
+      "minImprovement": 0.03
+    },
+    "nonPixelErrors": [
+      "Section geometry differs: about-agricultural-supply",
+      "Section geometry differs: about-grain-trade",
+      "Section geometry differs: about-insurance"
+    ],
+    "reason": "Insufficient measured progress across distinct implementations; unresolved visual work belongs to final audit, not PASS."
+  }
+}

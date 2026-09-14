@@ -1,0 +1,215 @@
+{
+  "scope": "Source byte identity and dimensions only; not implementation visual fidelity",
+  "references": [
+    {
+      "route": "careers",
+      "nodeId": "349:1267",
+      "path": "references/full/frame-349-1267.png",
+      "width": 1920,
+      "height": 3802,
+      "dimensionsMatch": true,
+      "sha256MatchesSidecar": true,
+      "sourceNodeMatches": true
+    },
+    {
+      "route": "catalogues",
+      "nodeId": "347:1120",
+      "path": "references/full/frame-347-1120.png",
+      "width": 1920,
+      "height": 1850,
+      "dimensionsMatch": true,
+      "sha256MatchesSidecar": true,
+      "sourceNodeMatches": true
+    },
+    {
+      "route": "blog-article",
+      "nodeId": "327:3176",
+      "path": "references/full/frame-327-3176.png",
+      "width": 1920,
+      "height": 4010,
+      "dimensionsMatch": true,
+      "sha256MatchesSidecar": true,
+      "sourceNodeMatches": true
+    },
+    {
+      "route": "blog-archive",
+      "nodeId": "327:2986",
+      "path": "references/full/frame-327-2986.png",
+      "width": 1920,
+      "height": 3816,
+      "dimensionsMatch": true,
+      "sha256MatchesSidecar": true,
+      "sourceNodeMatches": true
+    },
+    {
+      "route": "contact",
+      "nodeId": "335:591",
+      "path": "references/full/frame-335-591.png",
+      "width": 1920,
+      "height": 2614,
+      "dimensionsMatch": true,
+      "sha256MatchesSidecar": true,
+      "sourceNodeMatches": true
+    },
+    {
+      "route": "about",
+      "nodeId": "326:2764",
+      "path": "references/full/frame-326-2764.png",
+      "width": 1920,
+      "height": 3863,
+      "dimensionsMatch": true,
+      "sha256MatchesSidecar": true,
+      "sourceNodeMatches": true
+    },
+    {
+      "route": "product-expanded",
+      "nodeId": "326:2526",
+      "path": "references/full/frame-326-2526.png",
+      "width": 1920,
+      "height": 6031,
+      "dimensionsMatch": true,
+      "sha256MatchesSidecar": true,
+      "sourceNodeMatches": true
+    },
+    {
+      "route": "product",
+      "nodeId": "318:1556",
+      "path": "references/full/frame-318-1556.png",
+      "width": 1920,
+      "height": 3316,
+      "dimensionsMatch": true,
+      "sha256MatchesSidecar": true,
+      "sourceNodeMatches": true
+    },
+    {
+      "route": "product-inquiry",
+      "nodeId": "423:263",
+      "path": "references/full/frame-423-263.png",
+      "width": 1920,
+      "height": 3397,
+      "dimensionsMatch": true,
+      "sha256MatchesSidecar": true,
+      "sourceNodeMatches": true
+    },
+    {
+      "route": "cart",
+      "nodeId": "438:151",
+      "path": "references/full/frame-438-151.png",
+      "width": 1920,
+      "height": 1644,
+      "dimensionsMatch": true,
+      "sha256MatchesSidecar": true,
+      "sourceNodeMatches": true
+    },
+    {
+      "route": "checkout",
+      "nodeId": "489:483",
+      "path": "references/full/frame-489-483.png",
+      "width": 1920,
+      "height": 2942,
+      "dimensionsMatch": true,
+      "sha256MatchesSidecar": true,
+      "sourceNodeMatches": true
+    },
+    {
+      "route": "order-confirmed",
+      "nodeId": "493:1094",
+      "path": "references/full/frame-493-1094.png",
+      "width": 1920,
+      "height": 2199,
+      "dimensionsMatch": true,
+      "sha256MatchesSidecar": true,
+      "sourceNodeMatches": true
+    },
+    {
+      "route": "checkout-login",
+      "nodeId": "492:775",
+      "path": "references/full/frame-492-775.png",
+      "width": 1920,
+      "height": 1799,
+      "dimensionsMatch": true,
+      "sha256MatchesSidecar": true,
+      "sourceNodeMatches": true
+    },
+    {
+      "route": "checkout-registration",
+      "nodeId": "495:1558",
+      "path": "references/full/frame-495-1558.png",
+      "width": 1920,
+      "height": 1818,
+      "dimensionsMatch": true,
+      "sha256MatchesSidecar": true,
+      "sourceNodeMatches": true
+    },
+    {
+      "route": "product-reviews-state",
+      "nodeId": "425:542",
+      "path": "references/full/frame-425-542.png",
+      "width": 1920,
+      "height": 3291,
+      "dimensionsMatch": true,
+      "sha256MatchesSidecar": true,
+      "sourceNodeMatches": true
+    },
+    {
+      "route": "product-files-state",
+      "nodeId": "586:711",
+      "path": "references/full/frame-586-711.png",
+      "width": 1920,
+      "height": 3111,
+      "dimensionsMatch": true,
+      "sha256MatchesSidecar": true,
+      "sourceNodeMatches": true
+    },
+    {
+      "route": "product-archive",
+      "nodeId": "294:3",
+      "path": "references/full/frame-294-3-bounds.png",
+      "width": 1920,
+      "height": 4919,
+      "dimensionsMatch": true,
+      "sha256MatchesSidecar": true,
+      "sourceNodeMatches": true
+    },
+    {
+      "route": "home-active",
+      "nodeId": "250:115",
+      "path": "references/full/frame-250-115.png",
+      "width": 1920,
+      "height": 8999,
+      "dimensionsMatch": true,
+      "sha256MatchesSidecar": true,
+      "sourceNodeMatches": true
+    },
+    {
+      "route": "home",
+      "nodeId": "12:2",
+      "path": "references/full/home.png",
+      "width": 1920,
+      "height": 8999,
+      "dimensionsMatch": true,
+      "sha256MatchesSidecar": true,
+      "sourceNodeMatches": true
+    },
+    {
+      "route": "product-bundle",
+      "nodeId": "586:1028",
+      "path": "references/full/frame-586-1028.png",
+      "width": 1920,
+      "height": 3624,
+      "dimensionsMatch": true,
+      "sha256MatchesSidecar": true,
+      "sourceNodeMatches": true
+    },
+    {
+      "route": "account",
+      "nodeId": "524:2",
+      "path": "references/full/frame-524-2.png",
+      "width": 1920,
+      "height": 1555,
+      "dimensionsMatch": true,
+      "sha256MatchesSidecar": true,
+      "sourceNodeMatches": true
+    }
+  ]
+}

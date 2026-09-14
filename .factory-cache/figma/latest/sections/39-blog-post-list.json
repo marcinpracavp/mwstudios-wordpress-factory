@@ -1,0 +1,176 @@
+{
+  "id": "blog-post-list",
+  "name": "Blog post list",
+  "order": 39,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "327:3103"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 200,
+    "y": 478,
+    "width": 1520,
+    "height": 2444,
+    "productionFrame": "327:2986",
+    "containerWidth": 1440,
+    "padding": {
+      "left": 240,
+      "right": 240
+    }
+  },
+  "layout": {
+    "type": "source-composition",
+    "productionFrame": "327:2986",
+    "designContextRead": true,
+    "nodes": [
+      {
+        "id": "327:3103",
+        "name": "Blog card row 1",
+        "type": "GROUP",
+        "parentId": null,
+        "bounds": {
+          "x": 240,
+          "y": 478,
+          "width": 1454,
+          "height": 545
+        },
+        "visible": true
+      },
+      {
+        "id": "327:3124",
+        "name": "Blog card row 2",
+        "type": "GROUP",
+        "parentId": null,
+        "bounds": {
+          "x": 240,
+          "y": 1098,
+          "width": 1454,
+          "height": 545
+        },
+        "visible": true
+      },
+      {
+        "id": "327:3141",
+        "name": "Blog card row 3",
+        "type": "GROUP",
+        "parentId": null,
+        "bounds": {
+          "x": 240,
+          "y": 1718,
+          "width": 1454,
+          "height": 584
+        },
+        "visible": true
+      },
+      {
+        "id": "327:3159",
+        "name": "Blog card row 4",
+        "type": "GROUP",
+        "parentId": null,
+        "bounds": {
+          "x": 240,
+          "y": 2377,
+          "width": 1454,
+          "height": 545
+        },
+        "visible": true
+      }
+    ]
+  },
+  "typography": [
+    {
+      "nodeId": "327:3104",
+      "fontFamily": "DM Sans",
+      "weight": 700,
+      "size": 32
+    },
+    {
+      "nodeId": "327:3105",
+      "fontFamily": "DM Sans",
+      "weight": 400,
+      "size": 16
+    },
+    {
+      "nodeId": "327:3108",
+      "fontFamily": "DM Sans",
+      "weight": 700,
+      "size": 18
+    }
+  ],
+  "colors": [
+    "#000000",
+    "#056839"
+  ],
+  "effects": [],
+  "contentFields": [
+    "posts"
+  ],
+  "assets": [
+    {
+      "sourceNodeId": "327:3116",
+      "path": "assets/blog/blog-archive-327-3116.png",
+      "usage": "Exact Figma MCP export; crop/geometry recorded in this section."
+    },
+    {
+      "sourceNodeId": "327:3117",
+      "path": "assets/blog/blog-archive-327-3117.png",
+      "usage": "Exact Figma MCP export; crop/geometry recorded in this section."
+    },
+    {
+      "sourceNodeId": "327:3118",
+      "path": "assets/blog/blog-archive-327-3118.png",
+      "usage": "Exact Figma MCP export; crop/geometry recorded in this section."
+    },
+    {
+      "sourceNodeId": "327:3137",
+      "path": "assets/blog/blog-archive-327-3137.png",
+      "usage": "Exact Figma MCP export; crop/geometry recorded in this section."
+    },
+    {
+      "sourceNodeId": "327:3138",
+      "path": "assets/blog/blog-archive-327-3138.png",
+      "usage": "Exact Figma MCP export; crop/geometry recorded in this section."
+    },
+    {
+      "sourceNodeId": "327:3139",
+      "path": "assets/blog/blog-archive-327-3139.png",
+      "usage": "Exact Figma MCP export; crop/geometry recorded in this section."
+    },
+    {
+      "sourceNodeId": "327:3154",
+      "path": "assets/blog/blog-archive-327-3154.png",
+      "usage": "Exact Figma MCP export; crop/geometry recorded in this section."
+    },
+    {
+      "sourceNodeId": "327:3155",
+      "path": "assets/blog/blog-archive-327-3155.png",
+      "usage": "Exact Figma MCP export; crop/geometry recorded in this section."
+    },
+    {
+      "sourceNodeId": "327:3156",
+      "path": "assets/blog/blog-archive-327-3156.png",
+      "usage": "Exact Figma MCP export; crop/geometry recorded in this section."
+    },
+    {
+      "sourceNodeId": "327:3172",
+      "path": "assets/blog/blog-archive-327-3172.png",
+      "usage": "Exact Figma MCP export; crop/geometry recorded in this section."
+    },
+    {
+      "sourceNodeId": "327:3173",
+      "path": "assets/blog/blog-archive-327-3173.png",
+      "usage": "Exact Figma MCP export; crop/geometry recorded in this section."
+    },
+    {
+      "sourceNodeId": "327:3174",
+      "path": "assets/blog/blog-archive-327-3174.png",
+      "usage": "Exact Figma MCP export; crop/geometry recorded in this section."
+    }
+  ],
+  "notes": [
+    "Exact full-frame crop: x=200,y=478,width=1520,height=2444 from references/full/frame-327-2986.png.",
+    "Desktop source is a 3-column 12-item card grid, 467px image height 315px and 30px corner radius."
+  ],
+  "liveFigmaRequired": false
+}

@@ -1,0 +1,35 @@
+{
+  "task": {
+    "id": "home"
+  },
+  "sourceContext": {
+    "version": 6,
+    "available": true,
+    "index": {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/068-build-home/source-context/index.json",
+      "bytes": 1391,
+      "sha256": "13be2417f54d3d930750ffaffce44619509e1b68ca8b449cb8812704c6ea88de"
+    }
+  },
+  "model": "gpt-5.6-terra",
+  "reasoningEffort": "high",
+  "continuation": "new task",
+  "previousExecution": null,
+  "previousResult": null,
+  "correctionFocus": [],
+  "currentPageVerification": {
+    "summary": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/resume-page-check-1789295789995/product-archive/summary.json",
+    "routes": [],
+    "instruction": "Current matching measurement. If pagePassed is true, do not repeat page corrections solely because shared owners fail. Complete reusable-component work if required, check regressions, and hand off shared findings for final audit."
+  },
+  "snapshot": ".factory-cache/figma/latest",
+  "observations": ".factory-cache/figma/latest/observations/index.json",
+  "plans": [
+    "docs/factory/project/PLAN.md",
+    "docs/factory/project/STATUS.md",
+    "docs/factory/project/SOURCE_CLARIFICATIONS.md",
+    "docs/factory/project/REUSABLE_COMPONENTS.md"
+  ],
+  "currentGate": null,
+  "instruction": "Inspect the current gate and finish only remaining assigned work. Reuse real saved source facts and assets."
+}

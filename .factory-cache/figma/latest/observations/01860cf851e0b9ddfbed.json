@@ -1,0 +1,301 @@
+{
+  "id": "01860cf851e0b9ddfbed",
+  "tool": "figma.use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "493:1094"
+  ],
+  "description": "Read compact page composition Podsumowanie 493:1094",
+  "recordedAt": "2026-09-10T19:30:16.858Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "id": "493:1094",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "grids": [
+        {
+          "pattern": "COLUMNS",
+          "visible": true,
+          "color": {
+            "r": 1,
+            "g": 0,
+            "b": 0,
+            "a": 0.10000000149011612
+          },
+          "gutterSize": 20,
+          "alignment": "STRETCH",
+          "count": 12,
+          "offset": 240,
+          "boundVariables": {}
+        }
+      ],
+      "children": [
+        {
+          "id": "493:1095",
+          "name": "Strona główna / Koszyk",
+          "type": "TEXT",
+          "x": 240,
+          "y": 189,
+          "width": 508,
+          "height": 70
+        },
+        {
+          "id": "493:1096",
+          "name": "© Rudnikagro.pl 2026 | Wszelkie prawa zastrzeżone",
+          "type": "TEXT",
+          "x": 240,
+          "y": 2146,
+          "width": 377,
+          "height": 34
+        },
+        {
+          "id": "493:1097",
+          "name": "Projekt i wykonanie: Virtual People",
+          "type": "TEXT",
+          "x": 1425,
+          "y": 2146,
+          "width": 259,
+          "height": 34
+        },
+        {
+          "id": "493:1098",
+          "name": "stopka",
+          "type": "GROUP",
+          "x": 40,
+          "y": 1573,
+          "width": 1840,
+          "height": 554
+        },
+        {
+          "id": "493:1135",
+          "name": "szczegóły",
+          "type": "GROUP",
+          "x": 240,
+          "y": 1048,
+          "width": 1440,
+          "height": 494
+        },
+        {
+          "id": "493:1154",
+          "name": "mega menu",
+          "type": "GROUP",
+          "x": 240,
+          "y": 115,
+          "width": 1440,
+          "height": 78.6761245727539
+        },
+        {
+          "id": "493:1193",
+          "name": "Line 1",
+          "type": "LINE",
+          "x": 240,
+          "y": 115,
+          "width": 1440,
+          "height": 0
+        },
+        {
+          "id": "493:1194",
+          "name": "secondary menu",
+          "type": "GROUP",
+          "x": 237,
+          "y": 56,
+          "width": 1442.8232421875,
+          "height": 42
+        },
+        {
+          "id": "493:1215",
+          "name": "topbar",
+          "type": "GROUP",
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 40
+        },
+        {
+          "id": "493:1223",
+          "name": "Podsumowanie",
+          "type": "TEXT",
+          "x": 237,
+          "y": 260,
+          "width": 467,
+          "height": 68
+        },
+        {
+          "id": "493:1251",
+          "name": "dane",
+          "type": "GROUP",
+          "x": 240,
+          "y": 576,
+          "width": 953,
+          "height": 824
+        },
+        {
+          "id": "493:1320",
+          "name": "image 11",
+          "type": "RECTANGLE",
+          "x": 282,
+          "y": 962,
+          "width": 171,
+          "height": 223
+        },
+        {
+          "id": "493:1321",
+          "name": "Aquatos 5L",
+          "type": "TEXT",
+          "x": 503,
+          "y": 956,
+          "width": 221,
+          "height": 240
+        },
+        {
+          "id": "493:1322",
+          "name": "411,00 zł",
+          "type": "TEXT",
+          "x": 853,
+          "y": 1053,
+          "width": 102,
+          "height": 46
+        },
+        {
+          "id": "493:1324",
+          "name": "Line 21",
+          "type": "LINE",
+          "x": 308,
+          "y": 1218,
+          "width": 832,
+          "height": 0
+        },
+        {
+          "id": "493:1325",
+          "name": "Line 22",
+          "type": "LINE",
+          "x": 308,
+          "y": 930,
+          "width": 832,
+          "height": 0
+        },
+        {
+          "id": "509:222",
+          "name": "koszyk",
+          "type": "GROUP",
+          "x": 1213,
+          "y": 364,
+          "width": 467,
+          "height": 473
+        },
+        {
+          "id": "611:220",
+          "name": "Ellipse 24",
+          "type": "ELLIPSE",
+          "x": 249,
+          "y": 376,
+          "width": 72,
+          "height": 72
+        },
+        {
+          "id": "611:221",
+          "name": "1",
+          "type": "TEXT",
+          "x": 249,
+          "y": 376,
+          "width": 72,
+          "height": 72
+        },
+        {
+          "id": "611:222",
+          "name": "Ellipse 25",
+          "type": "ELLIPSE",
+          "x": 614,
+          "y": 376,
+          "width": 72,
+          "height": 72
+        },
+        {
+          "id": "611:223",
+          "name": "2",
+          "type": "TEXT",
+          "x": 614,
+          "y": 376,
+          "width": 72,
+          "height": 72
+        },
+        {
+          "id": "611:224",
+          "name": "Ellipse 26",
+          "type": "ELLIPSE",
+          "x": 976,
+          "y": 376,
+          "width": 72,
+          "height": 72
+        },
+        {
+          "id": "611:225",
+          "name": "3",
+          "type": "TEXT",
+          "x": 976,
+          "y": 376,
+          "width": 72,
+          "height": 72
+        },
+        {
+          "id": "611:226",
+          "name": "Arrow 10",
+          "type": "VECTOR",
+          "x": 355,
+          "y": 412,
+          "width": 224,
+          "height": 0
+        },
+        {
+          "id": "611:227",
+          "name": "Arrow 11",
+          "type": "VECTOR",
+          "x": 720,
+          "y": 412,
+          "width": 224,
+          "height": 0
+        },
+        {
+          "id": "611:228",
+          "name": "Logowanie",
+          "type": "TEXT",
+          "x": 240,
+          "y": 459,
+          "width": 93,
+          "height": 23
+        },
+        {
+          "id": "611:229",
+          "name": "Dostawa i płatność",
+          "type": "TEXT",
+          "x": 564,
+          "y": 459,
+          "width": 168,
+          "height": 23
+        },
+        {
+          "id": "611:230",
+          "name": "Podsumowanie",
+          "type": "TEXT",
+          "x": 945,
+          "y": 459,
+          "width": 134,
+          "height": 23
+        }
+      ]
+    }
+  ]
+}

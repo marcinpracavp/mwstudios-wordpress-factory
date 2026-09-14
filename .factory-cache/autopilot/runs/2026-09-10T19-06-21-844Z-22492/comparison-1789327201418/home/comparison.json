@@ -1,0 +1,1029 @@
+{
+  "id": "home",
+  "sourceNodeId": "12:2",
+  "capturedAt": "2026-09-13T19:22:27.492Z",
+  "passed": false,
+  "errors": [
+    "Full page height differs",
+    "page pixel mismatch 12.234%"
+  ],
+  "responsive": [
+    {
+      "width": 1440,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789327201418/home/responsive-1440.png"
+    },
+    {
+      "width": 1280,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789327201418/home/responsive-1280.png"
+    },
+    {
+      "width": 1024,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789327201418/home/responsive-1024.png"
+    },
+    {
+      "width": 768,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789327201418/home/responsive-768.png"
+    },
+    {
+      "width": 390,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789327201418/home/responsive-390.png"
+    },
+    {
+      "width": 375,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789327201418/home/responsive-375.png"
+    }
+  ],
+  "measurementVersion": 4,
+  "acceptanceScope": "all",
+  "templatePlan": {
+    "family": "[\"home\",\"/\",\"pl\",1920]",
+    "baseRoute": "home",
+    "route": "home",
+    "reusedSections": [],
+    "focusSections": [
+      "shared-topbar",
+      "shared-secondary-navigation",
+      "shared-primary-navigation",
+      "home-hero",
+      "home-benefits",
+      "home-crop-selection",
+      "home-promotions",
+      "home-bundles",
+      "home-catalogues",
+      "home-recommended",
+      "home-about",
+      "home-blog",
+      "home-knowledge",
+      "shared-footer"
+    ]
+  },
+  "geometryHash": "b891092e7822ad6e91cc8a9fcaea3741f924ea94394d13e2456c0eb798448fe8",
+  "geometryCorrection": null,
+  "ownershipRegions": [],
+  "geometry": [
+    {
+      "id": "shared-topbar",
+      "owner": "header",
+      "component": "header",
+      "expected": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 40
+      },
+      "actual": {
+        "id": "shared-topbar",
+        "landmark": null,
+        "component": null,
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 40,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "700",
+          "fontSize": "14px",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "shared-secondary-navigation",
+      "owner": "header",
+      "component": "header",
+      "expected": {
+        "x": 239,
+        "y": 56,
+        "width": 1440.9998779296875,
+        "height": 42
+      },
+      "actual": {
+        "id": "shared-secondary-navigation",
+        "landmark": "header",
+        "component": null,
+        "x": 237,
+        "y": 56,
+        "width": 1442.8125,
+        "height": 42,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "14px",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "20px",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": -2,
+        "y": 0,
+        "width": 1.8126220703125,
+        "height": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "shared-primary-navigation",
+      "owner": "header",
+      "component": "header",
+      "expected": {
+        "x": 240,
+        "y": 115,
+        "width": 1440,
+        "height": 78.6761245727539
+      },
+      "actual": {
+        "id": "shared-primary-navigation",
+        "landmark": "header",
+        "component": null,
+        "x": 240,
+        "y": 115,
+        "width": 1440,
+        "height": 80,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 1.3238754272460938
+      },
+      "passed": true
+    },
+    {
+      "id": "home-hero",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "x": 40,
+        "y": 195,
+        "width": 1840,
+        "height": 800
+      },
+      "actual": {
+        "id": "home-hero",
+        "landmark": null,
+        "component": null,
+        "x": 40,
+        "y": 195,
+        "width": 1840,
+        "height": 800,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "26px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "passed": true,
+      "reused": null
+    },
+    {
+      "id": "home-benefits",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "x": 240,
+        "y": 1106,
+        "width": 1440,
+        "height": 175
+      },
+      "actual": {
+        "id": "home-benefits",
+        "landmark": null,
+        "component": null,
+        "x": 240,
+        "y": 1107,
+        "width": 1440,
+        "height": 175,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 1,
+        "width": 0,
+        "height": 0
+      },
+      "passed": true,
+      "reused": null
+    },
+    {
+      "id": "home-crop-selection",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "x": 0,
+        "y": 1383,
+        "width": 1920,
+        "height": 1033
+      },
+      "actual": {
+        "id": "home-crop-selection",
+        "landmark": null,
+        "component": null,
+        "x": 0,
+        "y": 1384,
+        "width": 1920,
+        "height": 1032.796875,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(247, 247, 245)",
+          "borderRadius": "0px",
+          "paddingTop": "85px",
+          "paddingRight": "0px",
+          "paddingBottom": "283px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 1,
+        "width": 0,
+        "height": -0.203125
+      },
+      "passed": true,
+      "reused": null
+    },
+    {
+      "id": "home-promotions",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "x": 174,
+        "y": 2504,
+        "width": 1574,
+        "height": 724
+      },
+      "actual": {
+        "id": "home-promotions",
+        "landmark": null,
+        "component": null,
+        "x": 174,
+        "y": 2504.796875,
+        "width": 1574,
+        "height": 724,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "60px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0.796875,
+        "width": 0,
+        "height": 0
+      },
+      "passed": true,
+      "reused": null
+    },
+    {
+      "id": "home-bundles",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "x": 174,
+        "y": 3316,
+        "width": 1574,
+        "height": 724
+      },
+      "actual": {
+        "id": "home-bundles",
+        "landmark": null,
+        "component": null,
+        "x": 174,
+        "y": 3316.796875,
+        "width": 1574,
+        "height": 724,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "60px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0.796875,
+        "width": 0,
+        "height": 0
+      },
+      "passed": true,
+      "reused": null
+    },
+    {
+      "id": "home-catalogues",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "x": 240,
+        "y": 4127,
+        "width": 1440,
+        "height": 384
+      },
+      "actual": {
+        "id": "home-catalogues",
+        "landmark": null,
+        "component": null,
+        "x": 240,
+        "y": 4127.796875,
+        "width": 1440,
+        "height": 384,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "30px",
+          "paddingTop": "65px",
+          "paddingRight": "80px",
+          "paddingBottom": "65px",
+          "paddingLeft": "80px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0.796875,
+        "width": 0,
+        "height": 0
+      },
+      "passed": true,
+      "reused": null
+    },
+    {
+      "id": "home-recommended",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "x": 173.00003051757812,
+        "y": 4578,
+        "width": 1574,
+        "height": 724
+      },
+      "actual": {
+        "id": "home-recommended",
+        "landmark": null,
+        "component": null,
+        "x": 174,
+        "y": 4578.796875,
+        "width": 1574,
+        "height": 724,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "60px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0.999969482421875,
+        "y": 0.796875,
+        "width": 0,
+        "height": 0
+      },
+      "passed": true,
+      "reused": null
+    },
+    {
+      "id": "home-about",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "x": 0,
+        "y": 5434,
+        "width": 1920,
+        "height": 850
+      },
+      "actual": {
+        "id": "home-about",
+        "landmark": null,
+        "component": null,
+        "x": 0,
+        "y": 5434.796875,
+        "width": 1920,
+        "height": 850,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(247, 247, 245)",
+          "borderRadius": "0px",
+          "paddingTop": "120px",
+          "paddingRight": "0px",
+          "paddingBottom": "145px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0.796875,
+        "width": 0,
+        "height": 0
+      },
+      "passed": true,
+      "reused": null
+    },
+    {
+      "id": "home-blog",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "x": 236,
+        "y": 6401,
+        "width": 1457,
+        "height": 668
+      },
+      "actual": {
+        "id": "home-blog",
+        "landmark": null,
+        "component": null,
+        "x": 236,
+        "y": 6401.796875,
+        "width": 1457,
+        "height": 668.09375,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "7px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0.796875,
+        "width": 0,
+        "height": 0.09375
+      },
+      "passed": true,
+      "reused": null
+    },
+    {
+      "id": "home-knowledge",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "x": 0,
+        "y": 7023,
+        "width": 1920,
+        "height": 1273
+      },
+      "actual": {
+        "id": "home-knowledge",
+        "landmark": null,
+        "component": null,
+        "x": 0,
+        "y": 7023.890625,
+        "width": 1920,
+        "height": 1273,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "827px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0.890625,
+        "width": 0,
+        "height": 0
+      },
+      "passed": true,
+      "reused": null
+    },
+    {
+      "id": "shared-footer",
+      "owner": "footer",
+      "component": "footer",
+      "expected": {
+        "x": 0,
+        "y": 8363,
+        "width": 1920,
+        "height": 636
+      },
+      "actual": {
+        "id": "shared-footer",
+        "landmark": "footer",
+        "component": null,
+        "x": 0,
+        "y": 8296.890625,
+        "width": 1920,
+        "height": 636,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": -66.109375,
+        "width": 0,
+        "height": 0
+      },
+      "passed": false
+    }
+  ],
+  "pixels": {
+    "width": 1920,
+    "height": 8999,
+    "differentPixels": 2349455,
+    "ratio": 0.13597893978960626,
+    "ownership": {
+      "header": {
+        "pixels": 372480,
+        "differentPixels": 23661,
+        "ratio": 0.0635228737113402
+      },
+      "footer": {
+        "pixels": 1221120,
+        "differentPixels": 407002,
+        "ratio": 0.333302214360587
+      },
+      "shared": {
+        "pixels": 0,
+        "differentPixels": 0,
+        "ratio": 0
+      },
+      "page": {
+        "pixels": 15684480,
+        "differentPixels": 1918792,
+        "ratio": 0.12233698535112417
+      },
+      "outside": {
+        "pixels": 0,
+        "differentPixels": 0,
+        "ratio": 0
+      },
+      "reused": {
+        "pixels": 0,
+        "differentPixels": 0,
+        "ratio": 0
+      }
+    },
+    "components": {
+      "header": {
+        "owner": "header",
+        "pixels": 372480,
+        "differentPixels": 23661,
+        "ratio": 0.0635228737113402
+      },
+      "footer": {
+        "owner": "footer",
+        "pixels": 1221120,
+        "differentPixels": 407002,
+        "ratio": 0.333302214360587
+      }
+    },
+    "imageDiagnostics": {
+      "interiorPixels": 1482430,
+      "interiorDifferentPixels": 795264,
+      "otherPixels": 14202050,
+      "otherDifferentPixels": 1123528,
+      "note": "Diagnostic only: confirm source asset, crop, geometry and border before accepting interior photo differences. No blanket image exemption."
+    },
+    "meanMaxChannelDelta": 21.457495682390636,
+    "referenceSize": {
+      "width": 1920,
+      "height": 8999
+    },
+    "renderedSize": {
+      "width": 1920,
+      "height": 8934
+    },
+    "crops": [
+      {
+        "id": "shared-topbar",
+        "owner": "header",
+        "component": "header",
+        "reused": null,
+        "pixels": 76800,
+        "differentPixels": 1546,
+        "ratio": 0.020130208333333333,
+        "signature": null
+      },
+      {
+        "id": "shared-secondary-navigation",
+        "owner": "header",
+        "component": "header",
+        "reused": null,
+        "pixels": 60522,
+        "differentPixels": 9114,
+        "ratio": 0.15058986814712005,
+        "signature": null
+      },
+      {
+        "id": "shared-primary-navigation",
+        "owner": "header",
+        "component": "header",
+        "reused": null,
+        "pixels": 113760,
+        "differentPixels": 11181,
+        "ratio": 0.09828586497890296,
+        "signature": null
+      },
+      {
+        "id": "home-hero",
+        "owner": "page",
+        "component": null,
+        "reused": null,
+        "pixels": 1472000,
+        "differentPixels": 59780,
+        "ratio": 0.04061141304347826,
+        "signature": "049affb7553d2f00f17f0ed73edd2ef7f7881eef96abc62265ac752883965d82"
+      },
+      {
+        "id": "home-benefits",
+        "owner": "page",
+        "component": null,
+        "reused": null,
+        "pixels": 252000,
+        "differentPixels": 26235,
+        "ratio": 0.10410714285714286,
+        "signature": "33ce00541f44e96b189e1be0b52ddf11c970eb989084155b0251fc5b1ba822eb"
+      },
+      {
+        "id": "home-crop-selection",
+        "owner": "page",
+        "component": null,
+        "reused": null,
+        "pixels": 1983360,
+        "differentPixels": 103345,
+        "ratio": 0.052106022103904484,
+        "signature": "b646ad3ce85f57a6be83a4d1828c850b70b37537d465d12d9e9f615ad8a8880e"
+      },
+      {
+        "id": "home-promotions",
+        "owner": "page",
+        "component": null,
+        "reused": null,
+        "pixels": 1139576,
+        "differentPixels": 118447,
+        "ratio": 0.10393953540615106,
+        "signature": "bd4c52f61da221644d59be7a4c1786c162e9f8f695acb2f3d768a3a5e8d65168"
+      },
+      {
+        "id": "home-bundles",
+        "owner": "page",
+        "component": null,
+        "reused": null,
+        "pixels": 1139576,
+        "differentPixels": 226209,
+        "ratio": 0.19850277647124895,
+        "signature": "a1c7dd891d5ddaace93bb1744824b4fe32ac13d1f8becdae6a126db3b19f58a6"
+      },
+      {
+        "id": "home-catalogues",
+        "owner": "page",
+        "component": null,
+        "reused": null,
+        "pixels": 552960,
+        "differentPixels": 226588,
+        "ratio": 0.40977285879629627,
+        "signature": "b12df7a544a4bee326ec93b356dc770053925c2802d1599b31fc89b75d95203a"
+      },
+      {
+        "id": "home-recommended",
+        "owner": "page",
+        "component": null,
+        "reused": null,
+        "pixels": 1139576,
+        "differentPixels": 93624,
+        "ratio": 0.08215687238060472,
+        "signature": "e6e6a5c5e76f417dfbf97d915a1687220f51f1b68e99899d11cd0b98339bbad4"
+      },
+      {
+        "id": "home-about",
+        "owner": "page",
+        "component": null,
+        "reused": null,
+        "pixels": 1632000,
+        "differentPixels": 345917,
+        "ratio": 0.21195894607843138,
+        "signature": "b0ffb212be3830db536126c7d369aaa97178036395d8922850a2b0acddb5484e"
+      },
+      {
+        "id": "home-blog",
+        "owner": "page",
+        "component": null,
+        "reused": null,
+        "pixels": 973276,
+        "differentPixels": 306166,
+        "ratio": 0.31457263921025486,
+        "signature": "1475e3cf66c988678427ff32043d910bc4fa7f42ece401263f2d2da0f8066667"
+      },
+      {
+        "id": "home-knowledge",
+        "owner": "page",
+        "component": null,
+        "reused": null,
+        "pixels": 2444160,
+        "differentPixels": 286998,
+        "ratio": 0.11742193637077769,
+        "signature": "9c45d40c70c04ca1583ed70214c1cb4d3915fb67065b68367f414ded75b92dcc"
+      },
+      {
+        "id": "shared-footer",
+        "owner": "footer",
+        "component": "footer",
+        "reused": null,
+        "pixels": 1221120,
+        "differentPixels": 407002,
+        "ratio": 0.333302214360587,
+        "signature": null
+      }
+    ],
+    "worstRows": [
+      {
+        "y": 8297,
+        "count": 1920
+      },
+      {
+        "y": 8298,
+        "count": 1920
+      },
+      {
+        "y": 8299,
+        "count": 1920
+      },
+      {
+        "y": 8300,
+        "count": 1920
+      },
+      {
+        "y": 8301,
+        "count": 1920
+      },
+      {
+        "y": 8302,
+        "count": 1920
+      },
+      {
+        "y": 8303,
+        "count": 1920
+      },
+      {
+        "y": 8304,
+        "count": 1920
+      },
+      {
+        "y": 8305,
+        "count": 1920
+      },
+      {
+        "y": 8306,
+        "count": 1920
+      },
+      {
+        "y": 8307,
+        "count": 1920
+      },
+      {
+        "y": 8308,
+        "count": 1920
+      },
+      {
+        "y": 8309,
+        "count": 1920
+      },
+      {
+        "y": 8310,
+        "count": 1920
+      },
+      {
+        "y": 8311,
+        "count": 1920
+      },
+      {
+        "y": 8312,
+        "count": 1920
+      },
+      {
+        "y": 8313,
+        "count": 1920
+      },
+      {
+        "y": 8314,
+        "count": 1920
+      },
+      {
+        "y": 8315,
+        "count": 1920
+      },
+      {
+        "y": 8316,
+        "count": 1920
+      }
+    ]
+  },
+  "reference": {
+    "path": "references/full/home.png",
+    "width": 1920,
+    "height": 8999,
+    "sha256": "ea09d2ddd01079948226b0a1e84c2e88eea823a24de1d53308a2ce1088245aca"
+  },
+  "rendered": {
+    "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789327201418/home/rendered.png",
+    "width": 1920,
+    "height": 8934,
+    "sha256": "741dc07cb901bb5fce6220a45c682b952c2c7e81d71159b8796cab59574900df"
+  },
+  "acceptance": {
+    "threshold": 0.085,
+    "pagePassed": false,
+    "sharedPassed": null,
+    "pageErrors": [
+      "Full page height differs",
+      "page pixel mismatch 12.234%"
+    ],
+    "sharedErrors": [],
+    "skippedOwners": [
+      "header",
+      "footer"
+    ],
+    "note": "Page build readiness can defer shared visual issues. Final acceptance requires both plus independent visual audit. Section ratios remain diagnostics."
+  },
+  "chromeReview": {
+    "skippedOwners": [
+      "header",
+      "footer"
+    ],
+    "reason": "One representative per shared section set and width"
+  }
+}

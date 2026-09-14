@@ -1,0 +1,836 @@
+{
+  "id": "checkout",
+  "sourceNodeId": "489:483",
+  "capturedAt": "2026-09-13T06:23:31.002Z",
+  "passed": false,
+  "errors": [
+    "Responsive render health 390",
+    "Responsive render health 375",
+    "Failed to load resource: the server responded with a status of 500 ()",
+    "Failed to load resource: the server responded with a status of 500 ()",
+    "page pixel mismatch 9.364%",
+    "Section geometry differs: checkout-steps",
+    "Section geometry differs: checkout-customer-details",
+    "Section geometry differs: checkout-payment",
+    "Section geometry differs: checkout-delivery",
+    "Section geometry differs: checkout-totals"
+  ],
+  "responsive": [
+    {
+      "width": 1440,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/visual-1789280605281/checkout/responsive-1440.png"
+    },
+    {
+      "width": 1280,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/visual-1789280605281/checkout/responsive-1280.png"
+    },
+    {
+      "width": 1024,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/visual-1789280605281/checkout/responsive-1024.png"
+    },
+    {
+      "width": 768,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/visual-1789280605281/checkout/responsive-768.png"
+    },
+    {
+      "width": 390,
+      "source": "derived",
+      "renderHealthy": false,
+      "screenshot": ".factory-cache/autopilot/visual-1789280605281/checkout/responsive-390.png"
+    },
+    {
+      "width": 375,
+      "source": "derived",
+      "renderHealthy": false,
+      "screenshot": ".factory-cache/autopilot/visual-1789280605281/checkout/responsive-375.png"
+    }
+  ],
+  "measurementVersion": 3,
+  "acceptanceScope": "page",
+  "templatePlan": {
+    "family": "[\"checkout\",\"/zamowienie/\",\"pl\",1920]",
+    "baseRoute": "checkout",
+    "route": "checkout",
+    "reusedSections": [],
+    "focusSections": [
+      "shared-topbar",
+      "shared-secondary-navigation",
+      "shared-primary-navigation",
+      "checkout-heading",
+      "checkout-steps",
+      "checkout-customer-details",
+      "checkout-payment",
+      "checkout-delivery",
+      "checkout-totals",
+      "shared-footer"
+    ]
+  },
+  "geometryHash": "679926a7107a3a394007ae250a5eae82a982b7c35d8da0c35fa32aa73d1c11d6",
+  "geometryCorrection": null,
+  "geometry": [
+    {
+      "id": "shared-topbar",
+      "owner": "header",
+      "component": "header",
+      "expected": {
+        "frameWidth": 1920,
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 40
+      },
+      "actual": {
+        "id": "shared-topbar",
+        "landmark": null,
+        "component": null,
+        "x": 643,
+        "y": 67,
+        "width": 634,
+        "height": 40,
+        "style": {
+          "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+          "fontWeight": "700",
+          "fontSize": "14px",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 643,
+        "y": 67,
+        "width": -1286,
+        "height": 0
+      },
+      "passed": false
+    },
+    {
+      "id": "shared-secondary-navigation",
+      "owner": "header",
+      "component": "header",
+      "expected": {
+        "frameWidth": 1920,
+        "x": 239,
+        "y": 56,
+        "width": 1440.9998779296875,
+        "height": 42
+      },
+      "actual": {
+        "id": "shared-secondary-navigation",
+        "landmark": "header",
+        "component": null,
+        "x": 660,
+        "y": 123,
+        "width": 600,
+        "height": 42,
+        "style": {
+          "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "14px",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "color": "rgb(68, 68, 68)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "20px",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 421,
+        "y": 67,
+        "width": -840.9998779296875,
+        "height": 0
+      },
+      "passed": false
+    },
+    {
+      "id": "shared-primary-navigation",
+      "owner": "header",
+      "component": "header",
+      "expected": {
+        "x": 240,
+        "y": 115,
+        "width": 1440,
+        "height": 78.6761245727539
+      },
+      "actual": {
+        "id": "shared-primary-navigation",
+        "landmark": "header",
+        "component": null,
+        "x": 663,
+        "y": 182,
+        "width": 594,
+        "height": 79,
+        "style": {
+          "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(68, 68, 68)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 423,
+        "y": 67,
+        "width": -846,
+        "height": 0.32387542724609375
+      },
+      "passed": false
+    },
+    {
+      "id": "checkout-heading",
+      "owner": "header",
+      "component": "header",
+      "expected": {
+        "frameWidth": 1920,
+        "x": 237,
+        "y": 260,
+        "width": 467,
+        "height": 68,
+        "containerWidth": 1440
+      },
+      "actual": {
+        "id": "checkout-heading",
+        "landmark": "header",
+        "component": null,
+        "x": 683,
+        "y": 442.796875,
+        "width": 554,
+        "height": 136.15625,
+        "style": {
+          "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(68, 68, 68)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "60px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 446,
+        "y": 182.796875,
+        "width": 87,
+        "height": 68.15625
+      },
+      "passed": false
+    },
+    {
+      "id": "checkout-steps",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "frameWidth": 1920,
+        "x": 249,
+        "y": 376,
+        "width": 951,
+        "height": 106,
+        "containerWidth": 1440
+      },
+      "actual": {
+        "id": "checkout-steps",
+        "landmark": null,
+        "component": null,
+        "x": 687,
+        "y": 578.953125,
+        "width": 550,
+        "height": 96,
+        "style": {
+          "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(68, 68, 68)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 438,
+        "y": 202.953125,
+        "width": -401,
+        "height": -10
+      },
+      "passed": false,
+      "reused": null
+    },
+    {
+      "id": "checkout-customer-details",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "frameWidth": 1920,
+        "x": 238,
+        "y": 576,
+        "width": 953,
+        "height": 578
+      },
+      "actual": {
+        "id": "checkout-customer-details",
+        "landmark": null,
+        "component": null,
+        "x": 683,
+        "y": 724.953125,
+        "width": 567,
+        "height": 720.796875,
+        "style": {
+          "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(68, 68, 68)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "28px",
+          "paddingTop": "40px",
+          "paddingRight": "67px",
+          "paddingBottom": "40px",
+          "paddingLeft": "67px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 445,
+        "y": 148.953125,
+        "width": -386,
+        "height": 142.796875
+      },
+      "passed": false,
+      "reused": null
+    },
+    {
+      "id": "checkout-payment",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "frameWidth": 1920,
+        "x": 240,
+        "y": 1215,
+        "width": 953,
+        "height": 648,
+        "containerWidth": 1440
+      },
+      "actual": {
+        "id": "checkout-payment",
+        "landmark": null,
+        "component": null,
+        "x": 683,
+        "y": 1506.75,
+        "width": 567,
+        "height": 648,
+        "style": {
+          "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(68, 68, 68)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "28px",
+          "paddingTop": "40px",
+          "paddingRight": "67px",
+          "paddingBottom": "40px",
+          "paddingLeft": "67px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 443,
+        "y": 291.75,
+        "width": -386,
+        "height": 0
+      },
+      "passed": false,
+      "reused": null
+    },
+    {
+      "id": "checkout-delivery",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "frameWidth": 1920,
+        "x": 240,
+        "y": 1926,
+        "width": 953,
+        "height": 216,
+        "containerWidth": 1440
+      },
+      "actual": {
+        "id": "checkout-delivery",
+        "landmark": null,
+        "component": null,
+        "x": 683,
+        "y": 2215.75,
+        "width": 567,
+        "height": 216,
+        "style": {
+          "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(68, 68, 68)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "28px",
+          "paddingTop": "40px",
+          "paddingRight": "67px",
+          "paddingBottom": "40px",
+          "paddingLeft": "67px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 443,
+        "y": 289.75,
+        "width": -386,
+        "height": 0
+      },
+      "passed": false,
+      "reused": null
+    },
+    {
+      "id": "checkout-totals",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "frameWidth": 1920,
+        "x": 1213,
+        "y": 364,
+        "width": 467,
+        "height": 473,
+        "containerWidth": 1440
+      },
+      "actual": {
+        "id": "checkout-totals",
+        "landmark": null,
+        "component": null,
+        "x": 770,
+        "y": 724.953125,
+        "width": 467,
+        "height": 1692.796875,
+        "style": {
+          "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(68, 68, 68)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "28px",
+          "paddingTop": "31px",
+          "paddingRight": "41px",
+          "paddingBottom": "21px",
+          "paddingLeft": "41px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": -443,
+        "y": 360.953125,
+        "width": 0,
+        "height": 1219.796875
+      },
+      "passed": false,
+      "reused": null
+    },
+    {
+      "id": "shared-footer",
+      "owner": "footer",
+      "component": "footer",
+      "expected": {
+        "frameWidth": 1920,
+        "x": 0,
+        "y": 8363,
+        "width": 1920,
+        "height": 636
+      },
+      "delta": {
+        "x": null,
+        "y": null,
+        "width": null,
+        "height": null
+      },
+      "passed": false
+    }
+  ],
+  "pixels": {
+    "width": 1920,
+    "height": 2942,
+    "differentPixels": 1656890,
+    "ratio": 0.2933254730342171,
+    "ownership": {
+      "header": {
+        "pixels": 629760,
+        "differentPixels": 135019,
+        "ratio": 0.2143975482723577
+      },
+      "footer": {
+        "pixels": 0,
+        "differentPixels": 0,
+        "ratio": 0
+      },
+      "shared": {
+        "pixels": 0,
+        "differentPixels": 0,
+        "ratio": 0
+      },
+      "page": {
+        "pixels": 3413760,
+        "differentPixels": 319671,
+        "ratio": 0.09364190804274465
+      },
+      "outside": {
+        "pixels": 1605120,
+        "differentPixels": 1202200,
+        "ratio": 0.74897826953748
+      },
+      "reused": {
+        "pixels": 0,
+        "differentPixels": 0,
+        "ratio": 0
+      }
+    },
+    "components": {
+      "header": {
+        "owner": "header",
+        "pixels": 629760,
+        "differentPixels": 135019,
+        "ratio": 0.2143975482723577
+      }
+    },
+    "imageDiagnostics": {
+      "interiorPixels": 0,
+      "interiorDifferentPixels": 0,
+      "otherPixels": 3413760,
+      "otherDifferentPixels": 319671,
+      "note": "Diagnostic only: confirm source asset, crop, geometry and border before accepting interior photo differences. No blanket image exemption."
+    },
+    "meanMaxChannelDelta": 64.6359879546227,
+    "referenceSize": {
+      "width": 1920,
+      "height": 2942
+    },
+    "renderedSize": {
+      "width": 1920,
+      "height": 2631
+    },
+    "crops": [
+      {
+        "id": "shared-topbar",
+        "owner": "header",
+        "component": "header",
+        "reused": null,
+        "pixels": 76800,
+        "differentPixels": 76558,
+        "ratio": 0.9968489583333333,
+        "signature": null
+      },
+      {
+        "id": "shared-secondary-navigation",
+        "owner": "header",
+        "component": "header",
+        "reused": null,
+        "pixels": 60522,
+        "differentPixels": 22934,
+        "ratio": 0.3789365850434553,
+        "signature": null
+      },
+      {
+        "id": "shared-primary-navigation",
+        "owner": "header",
+        "component": "header",
+        "reused": null,
+        "pixels": 113760,
+        "differentPixels": 13944,
+        "ratio": 0.12257383966244725,
+        "signature": null
+      },
+      {
+        "id": "checkout-heading",
+        "owner": "header",
+        "component": "header",
+        "reused": null,
+        "pixels": 31756,
+        "differentPixels": 6745,
+        "ratio": 0.21240080614686987,
+        "signature": null
+      },
+      {
+        "id": "checkout-steps",
+        "owner": "page",
+        "component": null,
+        "reused": null,
+        "pixels": 100806,
+        "differentPixels": 12390,
+        "ratio": 0.12290935063389084,
+        "signature": "0b681675048b8ce724303b8e14ed0235ed4467bc3c7d7085317a1a60991d997a"
+      },
+      {
+        "id": "checkout-customer-details",
+        "owner": "page",
+        "component": null,
+        "reused": null,
+        "pixels": 550834,
+        "differentPixels": 59386,
+        "ratio": 0.1078110646764724,
+        "signature": "39404a2d6c0f7cfc51d73981cb284d7a21217fa3446aa231d411737b6cacb150"
+      },
+      {
+        "id": "checkout-payment",
+        "owner": "page",
+        "component": null,
+        "reused": null,
+        "pixels": 617544,
+        "differentPixels": 78985,
+        "ratio": 0.1279018175223142,
+        "signature": "09bdc3ada85d23d4d82ab3cba363d630f5d904a2475b04415d408cf8b414a73c"
+      },
+      {
+        "id": "checkout-delivery",
+        "owner": "page",
+        "component": null,
+        "reused": null,
+        "pixels": 205848,
+        "differentPixels": 25045,
+        "ratio": 0.12166744393921729,
+        "signature": "66b5bce4276ecfc333fa699f3bed906bb6bd1cd5a2526d2297e8e8e0948b9f27"
+      },
+      {
+        "id": "checkout-totals",
+        "owner": "page",
+        "component": null,
+        "reused": null,
+        "pixels": 220891,
+        "differentPixels": 27811,
+        "ratio": 0.1259037262722338,
+        "signature": "58123d6dd9535f4c325b7bbd7041f6999d3b5f65172c04e85d64dcb2adeb62e8"
+      },
+      {
+        "id": "shared-footer",
+        "owner": "footer",
+        "component": "footer",
+        "reused": null,
+        "pixels": 1920,
+        "differentPixels": 0,
+        "ratio": 0,
+        "signature": null
+      }
+    ],
+    "worstRows": [
+      {
+        "y": 0,
+        "count": 1920
+      },
+      {
+        "y": 1,
+        "count": 1920
+      },
+      {
+        "y": 2,
+        "count": 1920
+      },
+      {
+        "y": 3,
+        "count": 1920
+      },
+      {
+        "y": 4,
+        "count": 1920
+      },
+      {
+        "y": 5,
+        "count": 1920
+      },
+      {
+        "y": 6,
+        "count": 1920
+      },
+      {
+        "y": 7,
+        "count": 1920
+      },
+      {
+        "y": 8,
+        "count": 1920
+      },
+      {
+        "y": 9,
+        "count": 1920
+      },
+      {
+        "y": 10,
+        "count": 1920
+      },
+      {
+        "y": 11,
+        "count": 1920
+      },
+      {
+        "y": 12,
+        "count": 1920
+      },
+      {
+        "y": 13,
+        "count": 1920
+      },
+      {
+        "y": 14,
+        "count": 1920
+      },
+      {
+        "y": 25,
+        "count": 1920
+      },
+      {
+        "y": 26,
+        "count": 1920
+      },
+      {
+        "y": 27,
+        "count": 1920
+      },
+      {
+        "y": 28,
+        "count": 1920
+      },
+      {
+        "y": 29,
+        "count": 1920
+      }
+    ]
+  },
+  "reference": {
+    "path": "references/full/frame-489-483.png",
+    "width": 1920,
+    "height": 2942,
+    "sha256": "369ca4fe830ae75a1a4309e584cd7249281a1662385804058485adcbd112a2ce"
+  },
+  "rendered": {
+    "path": ".factory-cache/autopilot/visual-1789280605281/checkout/rendered.png",
+    "width": 1920,
+    "height": 2631,
+    "sha256": "317005dc5451118c454c97c297b8e940dc9d394bc6133e21f620db35adcd548a"
+  },
+  "acceptance": {
+    "threshold": 0.085,
+    "pagePassed": false,
+    "sharedPassed": null,
+    "pageErrors": [
+      "Responsive render health 390",
+      "Responsive render health 375",
+      "Failed to load resource: the server responded with a status of 500 ()",
+      "Failed to load resource: the server responded with a status of 500 ()",
+      "page pixel mismatch 9.364%",
+      "Section geometry differs: checkout-steps",
+      "Section geometry differs: checkout-customer-details",
+      "Section geometry differs: checkout-payment",
+      "Section geometry differs: checkout-delivery",
+      "Section geometry differs: checkout-totals"
+    ],
+    "sharedErrors": [],
+    "skippedOwners": [
+      "header",
+      "footer"
+    ],
+    "note": "Page build readiness can defer shared visual issues. Final acceptance requires both plus independent visual audit. Section ratios remain diagnostics."
+  },
+  "chromeReview": {
+    "skippedOwners": [
+      "header",
+      "footer"
+    ],
+    "reason": "Deferred to representative final shared audit"
+  },
+  "progress": {
+    "deferred": false,
+    "samples": [
+      {
+        "file": "current capture",
+        "implementationHash": "b93c7e0b39d1a6942203386b3c9df0e74960c0ae58bd7e1a3f1488f241f59baa",
+        "capturedAt": "2026-09-13T06:23:31.002Z",
+        "ratio": 0.09364190804274465
+      },
+      {
+        "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789280403609\\summary.json",
+        "implementationHash": "c2de968383e9113566b7e0e9eece9e6eafce628efc80c6f9d0704e90cb1a1fe1",
+        "capturedAt": "2026-09-13T06:20:09.452Z",
+        "ratio": 0.46637304064824653
+      }
+    ],
+    "improvement": 0.3727311326055019,
+    "policy": {
+      "samples": 3,
+      "maxPageMismatch": 0.13,
+      "minImprovement": 0.03
+    },
+    "nonPixelErrors": [
+      "Responsive render health 390",
+      "Responsive render health 375",
+      "Failed to load resource: the server responded with a status of 500 ()",
+      "Failed to load resource: the server responded with a status of 500 ()",
+      "Section geometry differs: checkout-steps",
+      "Section geometry differs: checkout-customer-details",
+      "Section geometry differs: checkout-payment",
+      "Section geometry differs: checkout-delivery",
+      "Section geometry differs: checkout-totals"
+    ],
+    "reason": "Insufficient measured progress across distinct implementations; unresolved visual work belongs to final audit, not PASS."
+  }
+}

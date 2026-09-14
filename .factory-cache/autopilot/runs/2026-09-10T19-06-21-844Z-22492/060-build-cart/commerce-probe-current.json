@@ -1,0 +1,118 @@
+﻿{
+    "product": {
+        "id": 54,
+        "type": "variable",
+        "imageId": 114,
+        "categories": [
+            16
+        ]
+    },
+    "variations": [
+        {
+            "id": 118,
+            "attributes": {
+                "pojemnosc": "1 L"
+            },
+            "price": "82.20",
+            "provenance": {
+                "sourceNode": "496:1781",
+                "sourcePriceNode": "323:2087",
+                "provenance": "user-authorized-proportional",
+                "basePrice": 411,
+                "baseQuantity": "5 L",
+                "targetQuantity": "1 L",
+                "formula": "base price * target quantity \/ base quantity",
+                "taxBasis": "including 23% VAT, source node 502:3"
+            }
+        },
+        {
+            "id": 119,
+            "attributes": {
+                "pojemnosc": "5 L"
+            },
+            "price": "411.00",
+            "provenance": {
+                "sourceNode": "496:1787",
+                "sourcePriceNode": "323:2087",
+                "provenance": "figma-explicit",
+                "basePrice": 411,
+                "baseQuantity": "5 L",
+                "targetQuantity": "5 L",
+                "formula": null,
+                "taxBasis": "including 23% VAT, source node 502:3"
+            }
+        },
+        {
+            "id": 120,
+            "attributes": {
+                "pojemnosc": "20 L"
+            },
+            "price": "1644.00",
+            "provenance": {
+                "sourceNode": "496:1791",
+                "sourcePriceNode": "323:2087",
+                "provenance": "user-authorized-proportional",
+                "basePrice": 411,
+                "baseQuantity": "5 L",
+                "targetQuantity": "20 L",
+                "formula": "base price * target quantity \/ base quantity",
+                "taxBasis": "including 23% VAT, source node 502:3"
+            }
+        }
+    ],
+    "cards": [
+        {
+            "id": 121,
+            "title": "Stomp Aqua 455 CS&nbsp;1L",
+            "price": "45.99",
+            "imageId": 127,
+            "imageSource": "references\/sections\/product-related.png",
+            "sourceNode": "326:2271"
+        },
+        {
+            "id": 122,
+            "title": "Stomp Aqua 455 CS&nbsp;5L",
+            "price": "534.60",
+            "imageId": 128,
+            "imageSource": "references\/sections\/product-related.png",
+            "sourceNode": "326:2289"
+        }
+    ],
+    "reviewComments": [
+        {
+            "id": 2,
+            "author": "",
+            "date": "2026-07-30 12:00:00",
+            "rating": "5",
+            "sourceNode": "425:645",
+            "provenance": {
+                "bodyNode": "425:645",
+                "dateNode": "429:842",
+                "ratingNodes": [
+                    "429:836",
+                    "429:837",
+                    "429:838",
+                    "429:839",
+                    "429:840"
+                ],
+                "sourceDate": "30 lipca 2026",
+                "editorialNote": "Source placeholder body retained for editorial review."
+            }
+        }
+    ],
+    "categoryHierarchy": {
+        "childId": 16,
+        "parentId": 19
+    },
+    "icons": {
+        "favoriteIconMediaId": 123,
+        "downloadIconMediaId": 0,
+        "cartRemoveIconMediaId": 124,
+        "cartRemoveIconSourceNode": "rudnikagro_cart_remove_icon_486_96"
+    },
+    "cartLabels": {
+        "products": "Produkty",
+        "shipping": "Wysyłka",
+        "discount": "Rabat"
+    }
+}

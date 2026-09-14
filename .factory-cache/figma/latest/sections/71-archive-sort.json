@@ -1,0 +1,46 @@
+{
+  "id": "archive-sort",
+  "name": "product archive sorting",
+  "order": 76,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "303:1280"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 1457,
+    "y": 586,
+    "width": 223,
+    "height": 45,
+    "containerWidth": 223
+  },
+  "layout": {
+    "type": "native-select",
+    "borderRadius": 15,
+    "background": "#f6f6f6",
+    "border": "#c8c8c8"
+  },
+  "typography": [
+    {
+      "nodeId": "295:744",
+      "text": "Domyślnie",
+      "family": "DM Sans",
+      "style": "Regular",
+      "fontSize": 14
+    }
+  ],
+  "assets": [
+    {
+      "sourceNodeId": "295:746",
+      "path": "assets/product-archive/484f5a5f-f456-423a-b645-40d3a8b0f18e.svg",
+      "usage": "Exact select-chevron icon."
+    }
+  ],
+  "contentFields": [
+    "rudnikagro_archive_sort_295_744"
+  ],
+  "notes": [
+    "Exact 1x section reference; crop provenance: references/full/frame-294-3-bounds.png at x=1457, y=586, width=223, height=45."
+  ],
+  "liveFigmaRequired": false
+}

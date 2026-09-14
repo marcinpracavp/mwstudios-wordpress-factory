@@ -1,0 +1,75 @@
+{
+  "id": "b6616a7b94262ffbb86f",
+  "tool": "figma.use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "496:1722"
+  ],
+  "description": "Read source content to identify native product or account state 496:1722",
+  "recordedAt": "2026-09-10T19:30:16.879Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "id": "496:1722",
+      "visible": true,
+      "texts": [
+        {
+          "id": "509:246",
+          "text": "Imię*",
+          "link": null
+        },
+        {
+          "id": "509:249",
+          "text": "Nazwisko*",
+          "link": null
+        },
+        {
+          "id": "509:252",
+          "text": "Adres e-mail*",
+          "link": null
+        },
+        {
+          "id": "509:255",
+          "text": "Hasło*",
+          "link": null
+        },
+        {
+          "id": "509:258",
+          "text": "Powtórz hasło*",
+          "link": null
+        },
+        {
+          "id": "496:1728",
+          "text": "Zarejestruj się",
+          "link": null
+        },
+        {
+          "id": "496:1760",
+          "text": "*Pola wymagane",
+          "link": null
+        },
+        {
+          "id": "496:1758",
+          "text": "Uwaga: Hasło musi składać się z minimum 8 znaków, zawierać jedną wielka literę oraz cyfrę",
+          "link": null
+        },
+        {
+          "id": "496:1733",
+          "text": "Zarejestruj się",
+          "link": null
+        },
+        {
+          "id": "509:243",
+          "text": "Nazwa użytkownika*",
+          "link": null
+        },
+        {
+          "id": "509:261",
+          "text": "Oświadczam, że zapoznałem/am się z Regulaminem oraz Polityką prywatności i akceptuję je.",
+          "link": null
+        }
+      ],
+      "reactions": []
+    }
+  ]
+}

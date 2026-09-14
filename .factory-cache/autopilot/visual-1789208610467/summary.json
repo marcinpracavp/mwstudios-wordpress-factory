@@ -1,0 +1,55 @@
+{
+  "capturedAt": "2026-09-12T10:23:52.104Z",
+  "implementationHash": "53a3dc6e3737db1762f6fd74c8c20c8fa13d14546af99e5141d43939b1d94713",
+  "sourceHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+  "thresholds": {
+    "channelTolerance": 24,
+    "maxDifferentPixelRatio": 0.085,
+    "geometryTolerancePx": 2
+  },
+  "acceptanceScope": "page",
+  "buildReady": false,
+  "deferred": [],
+  "passed": false,
+  "pagePassed": false,
+  "routes": [
+    {
+      "id": "about",
+      "passed": false,
+      "pagePassed": false,
+      "ownership": {
+        "header": {
+          "pixels": 372480,
+          "differentPixels": 21869,
+          "ratio": 0.05871187714776632
+        },
+        "footer": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "shared": {
+          "pixels": 740000,
+          "differentPixels": 356795,
+          "ratio": 0.4821554054054054
+        },
+        "page": {
+          "pixels": 7604320,
+          "differentPixels": 4353589,
+          "ratio": 0.5725152281860837
+        }
+      },
+      "errors": [
+        "page pixel mismatch 57.252%",
+        "Section geometry differs: about-introduction",
+        "Section geometry differs: about-agricultural-supply",
+        "Section geometry differs: about-grain-trade",
+        "Section geometry differs: about-insurance",
+        "shared pixel mismatch 48.216%",
+        "Shared component pixel mismatch shop-cta: 83.786%",
+        "Section geometry differs: shared-shop-cta"
+      ],
+      "comparison": ".factory-cache/autopilot/visual-1789208610467/about/comparison.json"
+    }
+  ]
+}

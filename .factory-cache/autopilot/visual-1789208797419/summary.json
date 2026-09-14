@@ -1,0 +1,51 @@
+{
+  "capturedAt": "2026-09-12T10:26:57.508Z",
+  "implementationHash": "c7f0e54f1e18231aeb95af57672d7042a7dc9c5d8b568ae1358fb9fa9b446ad3",
+  "sourceHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+  "thresholds": {
+    "channelTolerance": 24,
+    "maxDifferentPixelRatio": 0.085,
+    "geometryTolerancePx": 2
+  },
+  "acceptanceScope": "page",
+  "buildReady": false,
+  "deferred": [],
+  "passed": false,
+  "pagePassed": false,
+  "routes": [
+    {
+      "id": "about",
+      "passed": false,
+      "pagePassed": false,
+      "ownership": {
+        "header": {
+          "pixels": 372480,
+          "differentPixels": 21869,
+          "ratio": 0.05871187714776632
+        },
+        "footer": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "shared": {
+          "pixels": 740000,
+          "differentPixels": 356992,
+          "ratio": 0.4824216216216216
+        },
+        "page": {
+          "pixels": 7683040,
+          "differentPixels": 4388941,
+          "ratio": 0.5712505726899769
+        }
+      },
+      "errors": [
+        "page pixel mismatch 57.125%",
+        "shared pixel mismatch 48.242%",
+        "Shared component pixel mismatch shop-cta: 83.833%",
+        "Section geometry differs: shared-shop-cta"
+      ],
+      "comparison": ".factory-cache/autopilot/visual-1789208797419/about/comparison.json"
+    }
+  ]
+}

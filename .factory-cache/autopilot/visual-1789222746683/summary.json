@@ -1,0 +1,26 @@
+{
+  "capturedAt": "2026-09-12T14:19:47.886Z",
+  "implementationHash": "275d6fbe73b842de82dd8761d86017a656c9c8134b22470e771e69659e445d42",
+  "sourceHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+  "thresholds": {
+    "channelTolerance": 24,
+    "maxDifferentPixelRatio": 0.085,
+    "geometryTolerancePx": 2
+  },
+  "acceptanceScope": "page",
+  "buildReady": false,
+  "deferred": [],
+  "passed": false,
+  "pagePassed": false,
+  "routes": [
+    {
+      "id": "product-expanded",
+      "passed": false,
+      "pagePassed": false,
+      "errors": [
+        "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[data-product-tab=\"description\"]')\u001b[22m\n"
+      ],
+      "comparison": ".factory-cache/autopilot/visual-1789222746683/product-expanded/comparison.json"
+    }
+  ]
+}

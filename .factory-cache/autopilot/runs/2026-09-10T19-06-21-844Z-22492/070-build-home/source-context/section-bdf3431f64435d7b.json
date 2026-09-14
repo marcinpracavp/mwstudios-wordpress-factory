@@ -1,0 +1,222 @@
+{
+  "id": "home-blog",
+  "manifestRecord": {
+    "id": "home-blog",
+    "name": "blog",
+    "order": 24,
+    "pageId": "0:1",
+    "snapshot": "sections/24-home-blog.json",
+    "desktopNodeId": "96:95",
+    "desktopReference": "references/sections/home-blog.png"
+  },
+  "contentFields": [
+    {
+      "section": "home-blog",
+      "nodeId": "91:11",
+      "fieldName": "rudnikagro_home_blog_91_11",
+      "type": "text",
+      "language": "pl",
+      "value": "Popularne nawozy potasowe\ni ich zastosowanie\nw uprawach",
+      "destination": "ACF front page / blog tab / heading and selected posts; native WordPress title, excerpt, featured image",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "91:11"
+      }
+    },
+    {
+      "section": "home-blog",
+      "nodeId": "96:7",
+      "fieldName": "rudnikagro_home_blog_96_7",
+      "type": "text",
+      "language": "pl",
+      "value": "10 lipca 2025",
+      "destination": "ACF front page / blog tab / heading and selected posts; native WordPress title, excerpt, featured image",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "96:7"
+      }
+    },
+    {
+      "section": "home-blog",
+      "nodeId": "96:9",
+      "fieldName": "rudnikagro_home_blog_96_9",
+      "type": "text",
+      "language": "pl",
+      "value": "10 lipca 2025",
+      "destination": "ACF front page / blog tab / heading and selected posts; native WordPress title, excerpt, featured image",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "96:9"
+      }
+    },
+    {
+      "section": "home-blog",
+      "nodeId": "96:11",
+      "fieldName": "rudnikagro_home_blog_96_11",
+      "type": "text",
+      "language": "pl",
+      "value": "23 czerwca 2025",
+      "destination": "ACF front page / blog tab / heading and selected posts; native WordPress title, excerpt, featured image",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "96:11"
+      }
+    },
+    {
+      "section": "home-blog",
+      "nodeId": "96:13",
+      "fieldName": "rudnikagro_home_blog_96_13",
+      "type": "text",
+      "language": "pl",
+      "value": "Czytaj caÅ‚oÅ›Ä‡",
+      "destination": "ACF front page / blog tab / heading and selected posts; native WordPress title, excerpt, featured image",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "96:13"
+      }
+    },
+    {
+      "section": "home-blog",
+      "nodeId": "96:14",
+      "fieldName": "rudnikagro_home_blog_96_14",
+      "type": "text",
+      "language": "pl",
+      "value": "Czytaj caÅ‚oÅ›Ä‡",
+      "destination": "ACF front page / blog tab / heading and selected posts; native WordPress title, excerpt, featured image",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "96:14"
+      }
+    },
+    {
+      "section": "home-blog",
+      "nodeId": "96:15",
+      "fieldName": "rudnikagro_home_blog_96_15",
+      "type": "text",
+      "language": "pl",
+      "value": "Czytaj caÅ‚oÅ›Ä‡",
+      "destination": "ACF front page / blog tab / heading and selected posts; native WordPress title, excerpt, featured image",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "96:15"
+      }
+    },
+    {
+      "section": "home-blog",
+      "nodeId": "91:18",
+      "fieldName": "rudnikagro_home_blog_91_18",
+      "type": "text",
+      "language": "pl",
+      "value": "Jak nawoziÄ‡ rzepak, kukurydzÄ™, buraki, warzywa?",
+      "destination": "ACF front page / blog tab / heading and selected posts; native WordPress title, excerpt, featured image",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "91:18"
+      }
+    },
+    {
+      "section": "home-blog",
+      "nodeId": "91:20",
+      "fieldName": "rudnikagro_home_blog_91_20",
+      "type": "text",
+      "language": "pl",
+      "value": "Nawozy dolistne, pod korzeÅ„\ni do fertygacji â€“ jak poprawiÄ‡ efektywnoÅ›Ä‡ nawoÅ¼enia?",
+      "destination": "ACF front page / blog tab / heading and selected posts; native WordPress title, excerpt, featured image",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "91:20"
+      }
+    },
+    {
+      "section": "home-blog",
+      "nodeId": "15:11",
+      "fieldName": "rudnikagro_home_blog_15_11",
+      "type": "text",
+      "language": "pl",
+      "value": "Blog",
+      "destination": "ACF front page / blog tab / heading and selected posts; native WordPress title, excerpt, featured image",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "15:11"
+      }
+    },
+    {
+      "section": "home-blog",
+      "nodeId": "115:37",
+      "fieldName": "rudnikagro_home_blog_115_37",
+      "type": "text",
+      "language": "pl",
+      "value": "Zobacz wszystkie wpisy",
+      "destination": "ACF front page / blog tab / heading and selected posts; native WordPress title, excerpt, featured image",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "115:37"
+      }
+    },
+    {
+      "section": "home-blog",
+      "nodeId": "91:5",
+      "fieldName": "rudnikagro_home_blog_media_91_5",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/91-5-rectangle5.png",
+      "destination": "ACF front page / blog tab / heading and selected posts; native WordPress title, excerpt, featured image / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "91:5"
+      }
+    },
+    {
+      "section": "home-blog",
+      "nodeId": "91:6",
+      "fieldName": "rudnikagro_home_blog_media_91_6",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/91-6-rectangle6.png",
+      "destination": "ACF front page / blog tab / heading and selected posts; native WordPress title, excerpt, featured image / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "91:6"
+      }
+    },
+    {
+      "section": "home-blog",
+      "nodeId": "91:8",
+      "fieldName": "rudnikagro_home_blog_media_91_8",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/91-8-rectangle7.png",
+      "destination": "ACF front page / blog tab / heading and selected posts; native WordPress title, excerpt, featured image / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "91:8"
+      }
+    },
+    {
+      "section": "home-blog",
+      "nodeId": "153:66",
+      "fieldName": "rudnikagro_home_blog_media_153_66",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/153-66-arrow2.svg",
+      "destination": "ACF front page / blog tab / heading and selected posts; native WordPress title, excerpt, featured image / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "153:66"
+      }
+    },
+    {
+      "section": "home-blog",
+      "nodeId": "118:32",
+      "fieldName": "rudnikagro_home_blog_media_118_32",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/118-32-arrow1.svg",
+      "destination": "ACF front page / blog tab / heading and selected posts; native WordPress title, excerpt, featured image / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "118:32"
+      }
+    }
+  ]
+}

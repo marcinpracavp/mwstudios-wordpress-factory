@@ -1,0 +1,157 @@
+{
+  "id": "home-hero",
+  "manifestRecord": {
+    "id": "home-hero",
+    "name": "slider",
+    "order": 2,
+    "pageId": "0:1",
+    "snapshot": "sections/02-home-hero.json",
+    "desktopNodeId": "112:6",
+    "desktopReference": "references/sections/home-hero.png"
+  },
+  "contentFields": [
+    {
+      "section": "home-hero",
+      "nodeId": "96:96",
+      "fieldName": "rudnikagro_home_hero_96_96",
+      "type": "text",
+      "language": "pl",
+      "value": "Kupuj nasze produkty bezpoÅ›rednio\nw najlepszych cenach",
+      "destination": "ACF front page / hero tab / single sourced heading, original photo and CTA label",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "96:96"
+      }
+    },
+    {
+      "section": "home-hero",
+      "nodeId": "135:158",
+      "fieldName": "rudnikagro_home_hero_135_158",
+      "type": "text",
+      "language": "pl",
+      "value": "SprawdÅº ofertÄ™",
+      "destination": "ACF front page / hero tab / single sourced heading, original photo and CTA label",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "135:158"
+      }
+    },
+    {
+      "section": "home-hero",
+      "nodeId": "12:3",
+      "fieldName": "rudnikagro_home_hero_media_12_3",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/12-3-rectangle1.png",
+      "destination": "ACF front page / hero tab / single sourced heading, original photo and CTA label / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "12:3"
+      }
+    },
+    {
+      "section": "home-hero",
+      "nodeId": "222:29",
+      "fieldName": "rudnikagro_home_hero_media_222_29",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/222-29-ellipse11.svg",
+      "destination": "ACF front page / hero tab / single sourced heading, original photo and CTA label / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "222:29"
+      }
+    },
+    {
+      "section": "home-hero",
+      "nodeId": "222:37",
+      "fieldName": "rudnikagro_home_hero_media_222_37",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/222-37-ellipse16.svg",
+      "destination": "ACF front page / hero tab / single sourced heading, original photo and CTA label / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "222:37"
+      }
+    },
+    {
+      "section": "home-hero",
+      "nodeId": "222:30",
+      "fieldName": "rudnikagro_home_hero_media_222_30",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/222-30-ellipse12.svg",
+      "destination": "ACF front page / hero tab / single sourced heading, original photo and CTA label / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "222:30"
+      }
+    },
+    {
+      "section": "home-hero",
+      "nodeId": "135:159",
+      "fieldName": "rudnikagro_home_hero_media_135_159",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/135-159-arrow1.svg",
+      "destination": "ACF front page / hero tab / single sourced heading, original photo and CTA label / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "135:159"
+      }
+    },
+    {
+      "section": "home-hero",
+      "nodeId": "222:99",
+      "fieldName": "rudnikagro_home_hero_media_222_99",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/222-99-ellipse4.svg",
+      "destination": "ACF front page / hero tab / single sourced heading, original photo and CTA label / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "222:99"
+      }
+    },
+    {
+      "section": "home-hero",
+      "nodeId": "222:100",
+      "fieldName": "rudnikagro_home_hero_media_222_100",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/222-100-vector7.svg",
+      "destination": "ACF front page / hero tab / single sourced heading, original photo and CTA label / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "222:100"
+      }
+    },
+    {
+      "section": "home-hero",
+      "nodeId": "222:101",
+      "fieldName": "rudnikagro_home_hero_media_222_101",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/222-101-ellipse5.svg",
+      "destination": "ACF front page / hero tab / single sourced heading, original photo and CTA label / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "222:101"
+      }
+    },
+    {
+      "section": "home-hero",
+      "nodeId": "222:102",
+      "fieldName": "rudnikagro_home_hero_media_222_102",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/222-102-vector8.svg",
+      "destination": "ACF front page / hero tab / single sourced heading, original photo and CTA label / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "222:102"
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+@use 'abstracts' as *;
+
+.c-contact { align-items: start; display: grid; gap: 21px; grid-template-columns: 467px minmax(0, 1fr); margin-bottom: 111px; }
+.c-contact-heading { margin-top: 24px; }
+.c-contact__details { display: grid; gap: 31px; margin-top: 47px; }
+.c-contact__main { display: grid; gap: 88px; padding-top: 81px; }
+
+.c-contact-card { background: #f6f6f6; border-radius: 31px; box-sizing: border-box; color: #000; padding: 51px 46px 31px 51px; }
+.c-contact-card--1 { min-height: 467px; }
+.c-contact-card--2 { min-height: 334px; }
+.c-contact-card--3 { min-height: 478px; }
+.c-contact-card h2 { font-size: 36px; font-weight: 700; line-height: 1.05; margin: 0 0 59px; }
+.c-contact-card__company { font-size: 18px; font-weight: 700; line-height: 24px; margin: 0 0 12px; }
+.c-contact-card__content { font-size: 18px; line-height: 24px; margin: 0; }
+.c-contact-card--2 h2 { margin-bottom: 43px; }
+.c-contact-card--2 .c-contact-card__company { margin-bottom: 51px; }
+.c-contact-card--3 { padding-top: 45px; }
+.c-contact-card__departments { display: grid; gap: 35px; }
+.c-contact-card__department h3 { font-size: 18px; font-weight: 700; line-height: 24px; margin: 0 0 12px; }
+.c-contact-card__department p { font-size: 18px; line-height: 24px; margin: 0; }
+.c-contact-card__email { color: #007d44; font-weight: 700; }
+
+.c-contact-form h2 { font-size: 36px; font-weight: 700; line-height: 24px; margin: 0 0 50px; text-align: right; }
+.c-contact-form .wpcf7 form { display: grid; gap: 42px 20px; grid-template-areas: 'fields message' 'submit privacy'; grid-template-columns: 345px minmax(0, 1fr); }
+.c-contact-form .wpcf7 p { margin: 0; }
+.c-contact-form .c-contact-form__fields { display: grid; gap: 15px; grid-area: fields; }
+.c-contact-form .c-contact-form__message { grid-area: message; }
+.c-contact-form .c-contact-form__submit { grid-area: submit; }
+.c-contact-form .c-contact-form__privacy { align-self: center; font-size: 12px; grid-area: privacy; line-height: 16px; margin: 0; }
+.c-contact-form input:not([type='submit']), .c-contact-form textarea { background: #fff; border: 1px solid #c8c8c8; box-sizing: border-box; color: #000; font: inherit; padding: 0 27px; text-align: left; width: 100%; }
+.c-contact-form input:not([type='submit']) { border-radius: 15px; height: 62px; }
+.c-contact-form textarea { border-radius: 31px; height: 215px; padding-block: 22px; resize: vertical; }
+.c-contact-form input:not([type='submit']), .c-contact-form textarea { display: block; }
+.c-contact-form input::placeholder, .c-contact-form textarea::placeholder { color: #aaa; opacity: 1; text-align: left; }
+.c-contact-form input[type='submit'] { background: #056838; border: 0; border-radius: 30px; color: #fff; cursor: pointer; font: inherit; font-weight: 700; height: 44px; width: 224px; }
+.c-contact-form .hidden-fields-container { display: none; }
+.c-contact-form .wpcf7-response-output { display: none; }
+
+.c-contact-map { border-radius: 30px; height: 568px; overflow: hidden; }
+.c-contact-map img { display: block; height: 100%; object-fit: cover; width: 100%; }
+
+@include media($breakpoint-lg) {
+  .c-contact { grid-template-columns: minmax(320px, 467px) minmax(0, 1fr); }
+  .c-contact-form .wpcf7 form { grid-template-columns: minmax(240px, 345px) minmax(0, 1fr); }
+}
+@include media($breakpoint-md) {
+  .c-contact { grid-template-columns: 1fr; margin-bottom: 80px; }
+  .c-contact__details { grid-template-columns: repeat(3, 1fr); }
+  .c-contact-card { min-height: 0; padding: 30px; }
+  .c-contact__main { padding-top: 0; }
+}
+@include media($breakpoint-sm) {
+  .c-contact { gap: 30px; margin-bottom: 50px; }
+  .c-contact__details { grid-template-columns: 1fr; }
+  .c-contact__main { gap: 40px; }
+  .c-contact-card h2, .c-contact-form h2 { font-size: 30px; }
+  .c-contact-form h2 { line-height: 1.1; text-align: left; }
+  .c-contact-form .wpcf7 form { gap: 20px; grid-template-areas: 'fields' 'message' 'privacy' 'submit'; grid-template-columns: 1fr; }
+  .c-contact-form input[type='submit'] { width: 100%; }
+  .c-contact-map { height: 300px; }
+}

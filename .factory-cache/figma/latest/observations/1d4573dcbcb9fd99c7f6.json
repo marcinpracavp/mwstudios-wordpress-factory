@@ -1,0 +1,113 @@
+{
+  "id": "1d4573dcbcb9fd99c7f6",
+  "tool": "use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "295:700"
+  ],
+  "description": "Read exact breadcrumb text styling and geometry",
+  "recordedAt": "2026-09-11T10:11:26.908Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "id": "295:700",
+      "name": "Strona główna / Środki ochrony Roślin / Fungicydy",
+      "x": 240,
+      "y": 189,
+      "width": 508,
+      "height": 70,
+      "text": "Strona główna  /  Środki ochrony Roślin  /  Fungicydy",
+      "fontName": {
+        "family": "DM Sans",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400,
+          "opsz": 14
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 34
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "segments": [
+        {
+          "start": 0,
+          "end": 44,
+          "text": "Strona główna  /  Środki ochrony Roślin  /  ",
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.6682692170143127,
+                "g": 0.6682692170143127,
+                "b": 0.6682692170143127
+              },
+              "boundVariables": {}
+            }
+          ],
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 34
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          }
+        },
+        {
+          "start": 44,
+          "end": 53,
+          "text": "Fungicydy",
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0.4000000059604645,
+                "b": 0.20000000298023224
+              },
+              "boundVariables": {}
+            }
+          ],
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 34
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          }
+        }
+      ]
+    }
+  ]
+}

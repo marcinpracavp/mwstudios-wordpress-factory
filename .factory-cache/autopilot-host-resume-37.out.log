@@ -1,0 +1,10 @@
+cart: PAGE FAIL page.evaluate: Target page, context or browser has been closed
+2026-09-13T05:50:56.812Z START build:cart [gpt-5.6-terra high] (.factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/060-build-cart)
+cart: PAGE PASS 
+2026-09-13T06:03:52.387Z BUILD READY build:cart; deferred issues retained: 1
+2026-09-13T06:03:52.791Z START build:checkout [gpt-5.6-terra high] (.factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/061-build-checkout)
+checkout: PAGE FAIL page pixel mismatch 91.092%; Section geometry differs: checkout-heading; Section geometry differs: checkout-steps
+order-confirmed: PAGE FAIL page pixel mismatch 86.542%; Section geometry differs: confirmation-heading; Section geometry differs: checkout-steps
+checkout-login: PAGE FAIL page pixel mismatch 77.749%; Section geometry differs: checkout-login-heading; Section geometry differs: checkout-steps
+checkout-registration: PAGE FAIL page pixel mismatch 83.663%; Section geometry differs: checkout-login-heading; Section geometry differs: checkout-steps
+2026-09-13T06:37:13.098Z START build:checkout [gpt-5.6-terra high] (.factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/062-build-checkout)

@@ -1,0 +1,1039 @@
+{
+  "id": "abe7d4977c8f86cc5038",
+  "tool": "use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "222:28",
+    "12:2"
+  ],
+  "description": "Capture exact home-promotions section source",
+  "recordedAt": "2026-09-11T00:45:21.656Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "id": "222:28",
+      "name": "promocje",
+      "frame": "12:2",
+      "total": 111,
+      "nodes": [
+        {
+          "id": "222:28",
+          "name": "promocje",
+          "type": "GROUP",
+          "parentId": "12:2",
+          "bounds": {
+            "x": 174,
+            "y": 2504,
+            "width": 1574,
+            "height": 724
+          },
+          "style": 0
+        },
+        {
+          "id": "130:104",
+          "name": "produkt4",
+          "type": "GROUP",
+          "parentId": "222:28",
+          "bounds": {
+            "x": 1336.0001220703125,
+            "y": 2677,
+            "width": 345,
+            "height": 464
+          },
+          "style": 0
+        },
+        {
+          "id": "125:52",
+          "name": "Rectangle 21",
+          "type": "RECTANGLE",
+          "parentId": "130:104",
+          "bounds": {
+            "x": 1336.0001220703125,
+            "y": 2677,
+            "width": 345,
+            "height": 464
+          },
+          "style": 1
+        },
+        {
+          "id": "140:354",
+          "name": "Rectangle 40",
+          "type": "VECTOR",
+          "parentId": "130:104",
+          "bounds": {
+            "x": 1336.0001220703125,
+            "y": 2730,
+            "width": 96,
+            "height": 30
+          },
+          "style": 2
+        },
+        {
+          "id": "140:355",
+          "name": "Promocja",
+          "type": "TEXT",
+          "parentId": "130:104",
+          "bounds": {
+            "x": 1346.0001220703125,
+            "y": 2734,
+            "width": 70,
+            "height": 21
+          },
+          "style": 3,
+          "characters": "Promocja",
+          "align": [
+            "CENTER",
+            "CENTER"
+          ],
+          "segments": [
+            {
+              "characters": "Promocja",
+              "start": 0,
+              "end": 8,
+              "style": 4
+            }
+          ]
+        },
+        {
+          "id": "130:85",
+          "name": "Rectangle 38",
+          "type": "RECTANGLE",
+          "parentId": "130:104",
+          "bounds": {
+            "x": 1355.0001220703125,
+            "y": 3076,
+            "width": 149,
+            "height": 44
+          },
+          "style": 5
+        },
+        {
+          "id": "130:86",
+          "name": "1",
+          "type": "TEXT",
+          "parentId": "130:104",
+          "bounds": {
+            "x": 1427.0001220703125,
+            "y": 3089,
+            "width": 6,
+            "height": 18
+          },
+          "style": 6,
+          "characters": "1",
+          "align": [
+            "CENTER",
+            "CENTER"
+          ],
+          "segments": [
+            {
+              "characters": "1",
+              "start": 0,
+              "end": 1,
+              "style": 7
+            }
+          ]
+        },
+        {
+          "id": "130:87",
+          "name": "-",
+          "type": "TEXT",
+          "parentId": "130:104",
+          "bounds": {
+            "x": 1371.0001220703125,
+            "y": 3089,
+            "width": 9,
+            "height": 18
+          },
+          "style": 6,
+          "characters": "-",
+          "align": [
+            "CENTER",
+            "CENTER"
+          ],
+          "segments": [
+            {
+              "characters": "-",
+              "start": 0,
+              "end": 1,
+              "style": 7
+            }
+          ]
+        },
+        {
+          "id": "130:88",
+          "name": "+",
+          "type": "TEXT",
+          "parentId": "130:104",
+          "bounds": {
+            "x": 1480.0001220703125,
+            "y": 3089,
+            "width": 9,
+            "height": 18
+          },
+          "style": 6,
+          "characters": "+",
+          "align": [
+            "CENTER",
+            "CENTER"
+          ],
+          "segments": [
+            {
+              "characters": "+",
+              "start": 0,
+              "end": 1,
+              "style": 7
+            }
+          ]
+        },
+        {
+          "id": "130:89",
+          "name": "Rectangle 39",
+          "type": "RECTANGLE",
+          "parentId": "130:104",
+          "bounds": {
+            "x": 1514.0001220703125,
+            "y": 3076,
+            "width": 149,
+            "height": 44
+          },
+          "style": 8
+        },
+        {
+          "id": "130:90",
+          "name": "koszyk 4",
+          "type": "FRAME",
+          "parentId": "130:104",
+          "bounds": {
+            "x": 1529.0001220703125,
+            "y": 3087,
+            "width": 23,
+            "height": 23
+          },
+          "style": 9
+        },
+        {
+          "id": "130:91",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "130:90",
+          "bounds": {
+            "x": 1529.0001220703125,
+            "y": 3086.9921875,
+            "width": 23.008108139038086,
+            "height": 18.17466163635254
+          },
+          "style": 10
+        },
+        {
+          "id": "130:92",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "130:90",
+          "bounds": {
+            "x": 1535.7154541015625,
+            "y": 3105.4931640625,
+            "width": 4.201574802398682,
+            "height": 4.506757736206055
+          },
+          "style": 10
+        },
+        {
+          "id": "130:93",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "130:90",
+          "bounds": {
+            "x": 1545.9150390625,
+            "y": 3105.4931640625,
+            "width": 4.201574802398682,
+            "height": 4.506757736206055
+          },
+          "style": 10
+        },
+        {
+          "id": "130:94",
+          "name": "Do koszyka",
+          "type": "TEXT",
+          "parentId": "130:104",
+          "bounds": {
+            "x": 1544.0001220703125,
+            "y": 3079,
+            "width": 119,
+            "height": 39
+          },
+          "style": 3,
+          "characters": "Do koszyka",
+          "align": [
+            "CENTER",
+            "CENTER"
+          ],
+          "segments": [
+            {
+              "characters": "Do koszyka",
+              "start": 0,
+              "end": 10,
+              "style": 11
+            }
+          ]
+        },
+        {
+          "id": "130:95",
+          "name": "Rzepak ozimy LG AUCKLAND",
+          "type": "TEXT",
+          "parentId": "130:104",
+          "bounds": {
+            "x": 1390.0001220703125,
+            "y": 2976,
+            "width": 238,
+            "height": 23
+          },
+          "style": 12,
+          "characters": "Rzepak ozimy LG AUCKLAND",
+          "align": [
+            "CENTER",
+            "CENTER"
+          ],
+          "segments": [
+            {
+              "characters": "Rzepak ozimy LG AUCKLAND",
+              "start": 0,
+              "end": 24,
+              "style": 13
+            }
+          ]
+        },
+        {
+          "id": "140:351",
+          "name": "1 545,00 zł",
+          "type": "TEXT",
+          "parentId": "130:104",
+          "bounds": {
+            "x": 1395,
+            "y": 3015,
+            "width": 124,
+            "height": 31
+          },
+          "style": 6,
+          "characters": "1 545,00 zł",
+          "align": [
+            "CENTER",
+            "CENTER"
+          ],
+          "segments": [
+            {
+              "characters": "1 545,00 zł",
+              "start": 0,
+              "end": 11,
+              "style": 14
+            }
+          ]
+        },
+        {
+          "id": "140:352",
+          "name": "1 631,00 zł",
+          "type": "TEXT",
+          "parentId": "130:104",
+          "bounds": {
+            "x": 1540,
+            "y": 3021,
+            "width": 83,
+            "height": 23
+          },
+          "style": 6,
+          "characters": "1 631,00 zł",
+          "align": [
+            "RIGHT",
+            "CENTER"
+          ],
+          "segments": [
+            {
+              "characters": "1 631,00 zł",
+              "start": 0,
+              "end": 11,
+              "style": 15
+            }
+          ]
+        },
+        {
+          "id": "222:111",
+          "name": "Najniższa cena z 30 dni przed obniżką: 1631,00 zł",
+          "type": "TEXT",
+          "parentId": "130:104",
+          "bounds": {
+            "x": 1374,
+            "y": 3047,
+            "width": 269,
+            "height": 16
+          },
+          "style": 6,
+          "characters": "Najniższa cena z 30 dni przed obniżką: 1631,00 zł",
+          "align": [
+            "LEFT",
+            "CENTER"
+          ],
+          "segments": [
+            {
+              "characters": "Najniższa cena z 30 dni przed obniżką: 1631,00 zł",
+              "start": 0,
+              "end": 49,
+              "style": 16
+            }
+          ]
+        },
+        {
+          "id": "140:349",
+          "name": "lg",
+          "type": "RECTANGLE",
+          "parentId": "130:104",
+          "bounds": {
+            "x": 1434.0001220703125,
+            "y": 2713,
+            "width": 143,
+            "height": 223
+          },
+          "style": 17
+        },
+        {
+          "id": "130:97",
+          "name": "Line 6",
+          "type": "LINE",
+          "parentId": "130:104",
+          "bounds": {
+            "x": 1365.0001220703125,
+            "y": 2954.999975346777,
+            "width": 282,
+            "height": 0.00002465322313582874
+          },
+          "style": 18
+        },
+        {
+          "id": "130:100",
+          "name": "produkt3",
+          "type": "GROUP",
+          "parentId": "222:28",
+          "bounds": {
+            "x": 971,
+            "y": 2677,
+            "width": 345,
+            "height": 464
+          },
+          "style": 0
+        },
+        {
+          "id": "125:50",
+          "name": "Rectangle 20",
+          "type": "RECTANGLE",
+          "parentId": "130:100",
+          "bounds": {
+            "x": 971,
+            "y": 2677,
+            "width": 345,
+            "height": 464
+          },
+          "style": 1
+        },
+        {
+          "id": "140:305",
+          "name": "Rectangle 40",
+          "type": "VECTOR",
+          "parentId": "130:100",
+          "bounds": {
+            "x": 972,
+            "y": 2730,
+            "width": 96,
+            "height": 30
+          },
+          "style": 2
+        },
+        {
+          "id": "140:306",
+          "name": "Promocja",
+          "type": "TEXT",
+          "parentId": "130:100",
+          "bounds": {
+            "x": 982,
+            "y": 2734,
+            "width": 70,
+            "height": 21
+          },
+          "style": 3,
+          "characters": "Promocja",
+          "align": [
+            "CENTER",
+            "CENTER"
+          ],
+          "segments": [
+            {
+              "characters": "Promocja",
+              "start": 0,
+              "end": 8,
+              "style": 4
+            }
+          ]
+        }
+      ],
+      "styles": [
+        {
+          "visible": true,
+          "opacity": 1,
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.7836538553237915,
+                "g": 0.7836538553237915,
+                "b": 0.7836538553237915
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 30,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9215686321258545,
+                "g": 0.40784314274787903,
+                "b": 0.20392157137393951
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "OUTSIDE",
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "fontSize": 16,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 400,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 30,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.11372549086809158,
+                "g": 0.11372549086809158,
+                "b": 0.10588235408067703
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "OUTSIDE",
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "fontSize": 14,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 700,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.11372549086809158,
+                "g": 0.11372549086809158,
+                "b": 0.10588235408067703
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.019607843831181526,
+                "g": 0.40784314274787903,
+                "b": 0.2235294133424759
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 30,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": false,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH",
+          "layoutMode": "NONE",
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "fontSize": 14,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 700,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.02856878750026226,
+                "g": 0.028846153989434242,
+                "b": 0.02871447429060936
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "OUTSIDE",
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "fontSize": 18,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 400,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.02856878750026226,
+                "g": 0.028846153989434242,
+                "b": 0.02871447429060936
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        },
+        {
+          "fontSize": 24,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 700,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.11372549086809158,
+                "g": 0.11372549086809158,
+                "b": 0.10588235408067703
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        },
+        {
+          "fontSize": 18,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 400,
+          "textDecoration": "STRIKETHROUGH",
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.11372549086809158,
+                "g": 0.11372549086809158,
+                "b": 0.10588235408067703
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        },
+        {
+          "fontSize": 12,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 400,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.11372549086809158,
+                "g": 0.11372549086809158,
+                "b": 0.10588235408067703
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "IMAGE",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "scaleMode": "FILL",
+              "scalingFactor": 0.5,
+              "rotation": 0,
+              "filters": {
+                "exposure": 0,
+                "contrast": 0,
+                "saturation": 0,
+                "temperature": 0,
+                "tint": 0,
+                "highlights": 0,
+                "shadows": 0
+              },
+              "imageTransform": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ]
+              ],
+              "imageHash": "8d97e839044ff92dbc16b38706001d658553441b"
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.6682692170143127,
+                "g": 0.6682692170143127,
+                "b": 0.6682692170143127
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokeWeight": 0.5,
+          "strokeAlign": "CENTER",
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        }
+      ]
+    }
+  ]
+}

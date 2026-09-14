@@ -1,0 +1,45 @@
+@use 'abstracts' as *;
+
+.c-account {
+  position: relative;
+  top: -6px;
+  padding-bottom: 126px;
+
+  &__breadcrumbs {
+    align-items: center;
+    display: flex;
+    width: 508px;
+    height: 70px;
+    font-size: 1.4rem;
+    line-height: 34px;
+
+    a { color: #aaa; text-decoration: none; }
+    span[aria-current='page'] { color: #006633; }
+  }
+
+  &__columns { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; margin-top: 72px; }
+  &__panel { box-sizing: border-box; min-height: 425px; padding: 31px 29px; border: 1px solid #d6d6d6; border-radius: 28px; }
+  &__panel h1, &__panel h2 { margin: 0 0 21px; color: #070707; font-size: 2.4rem; font-weight: 700; line-height: 1.2; }
+  &__login form { display: grid; gap: 20px; }
+  &__login .form-row { margin: 0; }
+  &__login label:not(.woocommerce-form__label-for-checkbox), &__registration form label { display: none; }
+  &__login input:not([type='checkbox']), &__registration input { box-sizing: border-box; width: 100%; height: 43px; padding: 0 14px; border: 1px solid #c8c8c8; border-radius: 14px; color: #070707; font: inherit; font-size: 1.4rem; }
+  &__remember { align-items: center; display: flex; height: 16px; }
+  &__remember label { align-items: center; display: flex; gap: 12px; font-size: 1.4rem; }
+  &__remember input { appearance: none; width: 16px; height: 16px; margin: 0; border: 1px solid #c8c8c8; border-radius: 4px; }
+  &__remember input:checked { background: #00753e; box-shadow: inset 0 0 0 3px #fff; }
+  &__actions { align-items: center; display: flex; gap: 17px; }
+  &__actions .button, &__registration-details summary, &__registration-details button { display: inline-flex; align-items: center; justify-content: center; height: 44px; padding: 0 24px; border: 0; border-radius: 23px; background: #00753e; color: #fff; font: inherit; font-size: 1.4rem; font-weight: 700; text-decoration: none; cursor: pointer; }
+  &__actions a { display: inline-flex; align-items: center; justify-content: center; height: 42px; padding: 0 24px; border: 1px solid #070707; border-radius: 23px; color: #070707; font-size: 1.4rem; font-weight: 700; text-decoration: none; }
+  &__benefits { font-size: 1.6rem; line-height: 28px; }
+  &__benefits p { margin: 0; font-weight: 700; }
+  &__benefits ul { margin: 0; padding-left: 21px; }
+  &__registration-details { margin-top: 39px; }
+  &__registration-details summary { width: max-content; list-style: none; }
+  &__registration-details summary::-webkit-details-marker { display: none; }
+  &__registration-details form { display: grid; gap: 16px; margin-top: 24px; }
+  &__registration-details form p { margin: 0; }
+
+  @include media($breakpoint-md) { &__breadcrumbs { width: 100%; } &__columns { grid-template-columns: 1fr; } }
+  @include media($breakpoint-sm) { padding-bottom: 70px; &__columns { margin-top: 34px; } &__panel { min-height: 0; padding: 28px 20px; } &__actions { flex-wrap: wrap; } }
+}

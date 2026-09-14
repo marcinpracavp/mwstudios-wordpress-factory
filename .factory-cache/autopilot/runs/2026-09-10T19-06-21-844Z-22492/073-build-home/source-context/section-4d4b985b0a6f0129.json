@@ -1,0 +1,92 @@
+{
+  "id": "home-knowledge",
+  "manifestRecord": {
+    "id": "home-knowledge",
+    "name": "accordeon rozwiniÄ™ty",
+    "order": 25,
+    "pageId": "0:1",
+    "snapshot": "sections/25-home-knowledge.json",
+    "desktopNodeId": "164:212",
+    "desktopReference": "references/sections/home-knowledge.png"
+  },
+  "contentFields": [
+    {
+      "section": "home-knowledge",
+      "nodeId": "164:204",
+      "fieldName": "rudnikagro_home_knowledge_164_204",
+      "type": "text",
+      "language": "pl",
+      "value": "Rudnikagro Sp. z o.o. to doÅ›wiadczony i wiarygodny rolniczy sklep internetowy, ktÃ³ry od 17 lat dostarcza najwyÅ¼szej jakoÅ›ci Å›rodki ochrony roÅ›lin, nawozy oraz materiaÅ‚ siewny. Oferujemy asortyment od najlepszych producentÃ³w dostÄ™pnych w Polsce, dbajÄ…c o wysokÄ… jakoÅ›Ä‡.\n\nW sklepie internetowym Rudnikagro znajdziesz szerokÄ… ofertÄ™ produktÃ³w dedykowanych zarÃ³wno profesjonalnym producentom rolnym, jak\ni firmom dystrybucyjnym. Nasz szeroki asortyment obejmuje wszystko, co niezbÄ™dne w nowoczesnym gospodarstwie. Gwarantujemy wysokÄ… jakoÅ›Ä‡, dostÄ™pnoÅ›Ä‡, przystÄ™pne ceny, szybkÄ… wysyÅ‚kÄ™ oraz wygodne i Å‚atwe zakupy online. Zapewniamy moÅ¼liwoÅ›Ä‡ dostawy pod drzwi oraz profesjonalne i fachowe doradztwo. Nasza oferta stale siÄ™ rozwija, by sprostaÄ‡ zmieniajÄ…cym siÄ™ potrzebom rynku i oczekiwaniom klientÃ³w.",
+      "destination": "ACF front page / knowledge tab / title and rich-text accordion rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "164:204"
+      }
+    },
+    {
+      "section": "home-knowledge",
+      "nodeId": "164:214",
+      "fieldName": "rudnikagro_home_knowledge_164_214",
+      "type": "text",
+      "language": "pl",
+      "value": "Rolniczy sklep internetowy RudnikAgro",
+      "destination": "ACF front page / knowledge tab / title and rich-text accordion rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "164:214"
+      }
+    },
+    {
+      "section": "home-knowledge",
+      "nodeId": "164:202",
+      "fieldName": "rudnikagro_home_knowledge_164_202",
+      "type": "text",
+      "language": "pl",
+      "value": "Najlepszy sklep dla rolnikÃ³w online - szybkie zakupy",
+      "destination": "ACF front page / knowledge tab / title and rich-text accordion rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "164:202"
+      }
+    },
+    {
+      "section": "home-knowledge",
+      "nodeId": "164:205",
+      "fieldName": "rudnikagro_home_knowledge_media_164_205",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/164-205-vector11.svg",
+      "destination": "ACF front page / knowledge tab / title and rich-text accordion rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "164:205"
+      }
+    },
+    {
+      "section": "home-knowledge",
+      "nodeId": "164:208",
+      "fieldName": "rudnikagro_home_knowledge_media_164_208",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/164-208-vector12.svg",
+      "destination": "ACF front page / knowledge tab / title and rich-text accordion rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "164:208"
+      }
+    },
+    {
+      "section": "home-knowledge",
+      "nodeId": "116:53",
+      "fieldName": "rudnikagro_home_knowledge_media_116_53",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/116-53-nawozenie1.png",
+      "destination": "ACF front page / knowledge tab / title and rich-text accordion rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "116:53"
+      }
+    }
+  ]
+}

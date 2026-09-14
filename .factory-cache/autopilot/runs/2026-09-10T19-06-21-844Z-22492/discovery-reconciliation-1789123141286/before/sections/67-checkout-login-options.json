@@ -1,0 +1,129 @@
+{
+  "id": "checkout-login-options",
+  "name": "checkout login options",
+  "order": 67,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "509:171"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 240,
+    "y": 552,
+    "width": 1439,
+    "height": 425,
+    "containerWidth": 1440
+  },
+  "layout": {
+    "type": "native-commerce-account-choice",
+    "designContextRead": true,
+    "columns": [
+      {
+        "nodeId": "509:171",
+        "x": 240,
+        "width": 467
+      },
+      {
+        "nodeId": "509:193",
+        "x": 728,
+        "width": 465
+      },
+      {
+        "nodeId": "509:186",
+        "x": 1214,
+        "width": 465
+      }
+    ],
+    "alignment": "left"
+  },
+  "typography": [
+    {
+      "nodeIds": [
+        "509:173",
+        "509:188",
+        "509:195"
+      ],
+      "fontFamily": "DM Sans",
+      "fontWeight": 700,
+      "fontSize": 24
+    },
+    {
+      "nodeIds": [
+        "509:174",
+        "509:183",
+        "509:185",
+        "509:189",
+        "509:196"
+      ],
+      "fontFamily": "DM Sans",
+      "fontWeight": 400,
+      "fontSize": 14
+    }
+  ],
+  "contentFields": [
+    {
+      "id": "509:173",
+      "text": "Zaloguj się",
+      "link": null
+    },
+    {
+      "id": "509:183",
+      "text": "E-mail",
+      "link": null
+    },
+    {
+      "id": "509:185",
+      "text": "Hasło",
+      "link": null
+    },
+    {
+      "id": "509:174",
+      "text": "Zapamiętaj mnie",
+      "link": null
+    },
+    {
+      "id": "509:181",
+      "text": "Zaloguj się",
+      "link": null
+    },
+    {
+      "id": "509:178",
+      "text": "Nie pamiętam hasła",
+      "link": null
+    },
+    {
+      "id": "509:195",
+      "text": "Kontynuuj bez logowania",
+      "link": null
+    },
+    {
+      "id": "509:196",
+      "text": "Jeśli się nie zalogujesz, nie będziesz miec dostępu do historii zamówień oraz rabatów, które dla Ciebie przygotowaliśmy.",
+      "link": null
+    },
+    {
+      "id": "509:199",
+      "text": "Kontynuuj jako gość",
+      "link": null
+    },
+    {
+      "id": "509:188",
+      "text": "Zarejestruj się",
+      "link": null
+    },
+    {
+      "id": "509:189",
+      "text": "Otrzymasz liczne dodatkowe korzyści:\npodgląd statusu realizacji zamówień\npodgląd historii zakupów\nbrak konieczności wprowadzania swoich danych przy kolejnych zakupach\nmożliwość otrzymania rabatów i kuponów promocyjnych",
+      "link": null
+    },
+    {
+      "id": "509:192",
+      "text": "Zarejestruj się",
+      "link": null
+    }
+  ],
+  "notes": [
+    "The three visible native account choices are source states; login, account registration, password recovery, and guest continuation require native WooCommerce/account configuration."
+  ],
+  "liveFigmaRequired": false
+}

@@ -1,0 +1,218 @@
+{
+  "id": "a938d38635c39b53028a",
+  "tool": "use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "164:213",
+    "12:2"
+  ],
+  "description": "Capture exact home-knowledge-collapsed section source",
+  "recordedAt": "2026-09-11T00:50:40.485Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "id": "164:213",
+      "name": "accordeon zwinięty",
+      "frame": "12:2",
+      "total": 4,
+      "nodes": [
+        {
+          "id": "164:213",
+          "name": "accordeon zwinięty",
+          "type": "GROUP",
+          "parentId": "12:2",
+          "bounds": {
+            "x": 240,
+            "y": 8197,
+            "width": 1440,
+            "height": 99
+          },
+          "style": 0
+        },
+        {
+          "id": "164:206",
+          "name": "Rectangle 46",
+          "type": "RECTANGLE",
+          "parentId": "164:213",
+          "bounds": {
+            "x": 240,
+            "y": 8197,
+            "width": 1440,
+            "height": 99
+          },
+          "style": 1
+        },
+        {
+          "id": "164:208",
+          "name": "Vector 12",
+          "type": "VECTOR",
+          "parentId": "164:213",
+          "bounds": {
+            "x": 1613.9999658465385,
+            "y": 8235.393242239952,
+            "width": 21.213203072547913,
+            "height": 21.213203072547913
+          },
+          "style": 2
+        },
+        {
+          "id": "164:202",
+          "name": "Najlepszy sklep dla rolników online - szybkie zakupy",
+          "type": "TEXT",
+          "parentId": "164:213",
+          "bounds": {
+            "x": 362,
+            "y": 8197,
+            "width": 1178,
+            "height": 99
+          },
+          "style": 3,
+          "characters": "Najlepszy sklep dla rolników online - szybkie zakupy",
+          "align": [
+            "LEFT",
+            "CENTER"
+          ],
+          "segments": [
+            {
+              "characters": "Najlepszy sklep dla rolników online - szybkie zakupy",
+              "start": 0,
+              "end": 52,
+              "style": 4
+            }
+          ]
+        }
+      ],
+      "styles": [
+        {
+          "visible": true,
+          "opacity": 1,
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": false,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.8509804010391235,
+                "g": 0.8509804010391235,
+                "b": 0.8509804010391235
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokeWeight": 2,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 30,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokeWeight": 3,
+          "strokeAlign": "CENTER",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "OUTSIDE",
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "fontSize": 48,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 700,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "blog-pagination",
+  "name": "Blog pagination",
+  "order": 40,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "422:25"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 700,
+    "y": 2940,
+    "width": 520,
+    "height": 100,
+    "productionFrame": "327:2986",
+    "containerWidth": 1440,
+    "padding": {
+      "left": 240,
+      "right": 240
+    }
+  },
+  "layout": {
+    "type": "source-composition",
+    "productionFrame": "327:2986",
+    "designContextRead": true,
+    "nodes": [
+      {
+        "id": "422:25",
+        "name": "Pagination",
+        "type": "GROUP",
+        "parentId": null,
+        "bounds": {
+          "x": 796,
+          "y": 2978,
+          "width": 348,
+          "height": 40
+        },
+        "visible": true
+      }
+    ]
+  },
+  "typography": [
+    {
+      "nodeId": "422:34",
+      "fontFamily": "DM Sans",
+      "weight": 400,
+      "size": 14,
+      "lineHeight": 34
+    }
+  ],
+  "colors": [
+    "#93c01f",
+    "#c8c8c8",
+    "#aaaaaa",
+    "#ffffff"
+  ],
+  "effects": [],
+  "contentFields": [
+    "current_page",
+    "page_labels",
+    "next_label"
+  ],
+  "assets": [
+    {
+      "sourceNodeId": "422:41",
+      "path": "assets/blog/blog-pagination-next-422-41.svg",
+      "usage": "Exact Figma MCP export; crop/geometry recorded in this section."
+    }
+  ],
+  "notes": [
+    "Exact full-frame crop: x=700,y=2940,width=520,height=100 from references/full/frame-327-2986.png.",
+    "Source shows pages 1–7 and a next-chevron; pagination destination/state behavior is not captured."
+  ],
+  "liveFigmaRequired": false
+}

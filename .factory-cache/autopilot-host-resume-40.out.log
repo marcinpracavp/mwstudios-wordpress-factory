@@ -1,0 +1,5 @@
+product-archive: PAGE FAIL HTTP 404; Failed to load resource: the server responded with a status of 404 (); page pixel mismatch 88.899%
+2026-09-13T09:57:06.635Z START build:product-archive [gpt-5.6-terra high] (.factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/066-build-product-archive)
+product-archive: PAGE FAIL page pixel mismatch 31.636%; Section geometry differs: archive-filters
+2026-09-13T10:16:47.764Z START build:product-archive [gpt-5.6-terra high] (.factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/067-build-product-archive)
+product-archive: PAGE FAIL page pixel mismatch 31.936%

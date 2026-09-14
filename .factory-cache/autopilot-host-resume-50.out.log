@@ -1,0 +1,22 @@
+careers: FAIL Full page height differs; footer pixel mismatch 9.783%; Section geometry differs: shared-footer
+catalogues: FAIL Full page height differs; Section geometry differs: shared-shop-cta
+blog-article: FAIL Full page height differs; page pixel mismatch 11.523%
+blog-archive: FAIL page pixel mismatch 9.774%
+contact: FAIL Full page height differs; page pixel mismatch 10.070%
+about: FAIL Full page height differs; Section geometry differs: shared-shop-cta
+product: FAIL Full page height differs; Responsive render health 375; page pixel mismatch 22.482%
+cart: FAIL Full page height differs; page pixel mismatch 30.722%
+checkout: FAIL Full page height differs; Section geometry differs: checkout-heading
+product-archive: FAIL Full page height differs
+home: FAIL Full page height differs; page pixel mismatch 12.234%
+product-bundle: FAIL Full page height differs; page pixel mismatch 27.683%; shared pixel mismatch 24.381%
+account: FAIL Full page height differs; page pixel mismatch 13.708%
+product-expanded: FAIL Full page height differs; Responsive render health 375; page pixel mismatch 15.277%
+product-inquiry: FAIL Full page height differs; Responsive render health 375; page pixel mismatch 15.942%
+order-confirmed: FAIL Full page height differs; page pixel mismatch 91.102%; Section geometry differs: confirmation-heading
+checkout-login: FAIL Full page height differs; page pixel mismatch 14.797%; shared pixel mismatch 19.432%
+checkout-registration: FAIL Full page height differs; page pixel mismatch 15.931%; shared pixel mismatch 19.432%
+product-reviews-state: FAIL Full page height differs; Responsive render health 375; page pixel mismatch 21.503%
+product-files-state: FAIL Full page height differs; Responsive render health 375; page pixel mismatch 31.525%
+home-active: FAIL Full page height differs; page pixel mismatch 12.796%
+2026-09-14T00:50:31.076Z START audit:round-0 [gpt-5.6-sol high] (.factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/081-audit-round-0)

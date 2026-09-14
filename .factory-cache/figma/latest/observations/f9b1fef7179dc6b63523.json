@@ -1,0 +1,379 @@
+{
+  "id": "f9b1fef7179dc6b63523",
+  "tool": "use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "303:1282"
+  ],
+  "description": "Extract first six product content records and media geometry",
+  "recordedAt": "2026-09-11T10:13:25.866Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    [
+      {
+        "id": "298:820",
+        "name": "produkt1",
+        "x": 605,
+        "y": 662,
+        "width": 345,
+        "height": 464,
+        "text": [
+          {
+            "id": "298:832",
+            "text": "Vivero 500 SC 1L",
+            "fontSize": 18,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400,
+                "opsz": 14
+              }
+            },
+            "x": 708,
+            "y": 981,
+            "width": 141,
+            "height": 23
+          },
+          {
+            "id": "298:833",
+            "text": "475,00 zł",
+            "fontSize": 24,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Bold",
+              "variationSettings": {
+                "wght": 700,
+                "opsz": 14
+              }
+            },
+            "x": 724,
+            "y": 1014,
+            "width": 107,
+            "height": 31
+          },
+          {
+            "id": "295:738",
+            "text": "Nowość",
+            "fontSize": 16,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400,
+                "opsz": 14
+              }
+            },
+            "x": 622,
+            "y": 719,
+            "width": 59,
+            "height": 21
+          }
+        ],
+        "media": [
+          {
+            "id": "298:835",
+            "name": "vivero",
+            "x": 642,
+            "y": 678,
+            "width": 272,
+            "height": 272,
+            "imageHash": "1ba958185b7eaaa8bb86b552af07698ed0b006e9"
+          }
+        ]
+      },
+      {
+        "id": "298:837",
+        "name": "produkt2",
+        "x": 970,
+        "y": 662,
+        "width": 345,
+        "height": 464,
+        "text": [
+          {
+            "id": "298:849",
+            "text": " Atrium-X 5L",
+            "fontSize": 18,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400,
+                "opsz": 14
+              }
+            },
+            "x": 1090,
+            "y": 981,
+            "width": 107,
+            "height": 23
+          },
+          {
+            "id": "298:850",
+            "text": " 1 069,00 zł",
+            "fontSize": 24,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Bold",
+              "variationSettings": {
+                "wght": 700,
+                "opsz": 14
+              }
+            },
+            "x": 1077,
+            "y": 1014,
+            "width": 131,
+            "height": 31
+          },
+          {
+            "id": "298:854",
+            "text": "Nowość",
+            "fontSize": 16,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400,
+                "opsz": 14
+              }
+            },
+            "x": 987,
+            "y": 719,
+            "width": 59,
+            "height": 21
+          }
+        ],
+        "media": [
+          {
+            "id": "299:856",
+            "name": "atrium-x 1",
+            "x": 987,
+            "y": 662,
+            "width": 299,
+            "height": 299,
+            "imageHash": "fd04049042fea2f70865760db862241ef9d298f6"
+          }
+        ]
+      },
+      {
+        "id": "299:857",
+        "name": "produkt3",
+        "x": 1335,
+        "y": 662,
+        "width": 345,
+        "height": 464,
+        "text": [
+          {
+            "id": "299:869",
+            "text": " Bounty 430 SC 5L",
+            "fontSize": 18,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400,
+                "opsz": 14
+              }
+            },
+            "x": 1430,
+            "y": 981,
+            "width": 157,
+            "height": 23
+          },
+          {
+            "id": "299:870",
+            "text": "265,00 zł",
+            "fontSize": 24,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Bold",
+              "variationSettings": {
+                "wght": 700,
+                "opsz": 14
+              }
+            },
+            "x": 1453,
+            "y": 1014,
+            "width": 108,
+            "height": 31
+          }
+        ],
+        "media": [
+          {
+            "id": "299:876",
+            "name": "bounty 1",
+            "x": 1355,
+            "y": 662,
+            "width": 299,
+            "height": 299,
+            "imageHash": "56bf4ad8628b4f5b6ff637bbeabf82f7089fc5e5"
+          }
+        ]
+      },
+      {
+        "id": "299:877",
+        "name": "produkt4",
+        "x": 605,
+        "y": 1146,
+        "width": 345,
+        "height": 464,
+        "text": [
+          {
+            "id": "299:889",
+            "text": " Zingaro Extra 250SC 5L",
+            "fontSize": 18,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400,
+                "opsz": 14
+              }
+            },
+            "x": 678,
+            "y": 1465,
+            "width": 201,
+            "height": 23
+          },
+          {
+            "id": "299:890",
+            "text": "295,00 zł",
+            "fontSize": 24,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Bold",
+              "variationSettings": {
+                "wght": 700,
+                "opsz": 14
+              }
+            },
+            "x": 723,
+            "y": 1498,
+            "width": 108,
+            "height": 31
+          }
+        ],
+        "media": [
+          {
+            "id": "299:931",
+            "name": "image 3",
+            "x": 677,
+            "y": 1174,
+            "width": 202,
+            "height": 270,
+            "imageHash": "1eaec3a2cb73f40bf95714d2ab8c65be37c91e74"
+          }
+        ]
+      },
+      {
+        "id": "299:895",
+        "name": "produkt5",
+        "x": 970,
+        "y": 1146,
+        "width": 345,
+        "height": 464,
+        "text": [
+          {
+            "id": "299:907",
+            "text": "Darcos 250 EW 5L",
+            "fontSize": 18,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400,
+                "opsz": 14
+              }
+            },
+            "x": 1066,
+            "y": 1465,
+            "width": 155,
+            "height": 23
+          },
+          {
+            "id": "299:908",
+            "text": "210,60 zł",
+            "fontSize": 24,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Bold",
+              "variationSettings": {
+                "wght": 700,
+                "opsz": 14
+              }
+            },
+            "x": 1092,
+            "y": 1498,
+            "width": 101,
+            "height": 31
+          }
+        ],
+        "media": [
+          {
+            "id": "299:934",
+            "name": "darcos",
+            "x": 1014,
+            "y": 1159,
+            "width": 271,
+            "height": 271,
+            "imageHash": "ce3899ed91216eb0b27a6d03b70dac9ba38b88f0"
+          }
+        ]
+      },
+      {
+        "id": "299:913",
+        "name": "produkt6",
+        "x": 1335,
+        "y": 1146,
+        "width": 345,
+        "height": 464,
+        "text": [
+          {
+            "id": "299:925",
+            "text": "Mepi Met Life 5L",
+            "fontSize": 18,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400,
+                "opsz": 14
+              }
+            },
+            "x": 1439,
+            "y": 1465,
+            "width": 138,
+            "height": 23
+          },
+          {
+            "id": "299:926",
+            "text": "460,00 zł",
+            "fontSize": 24,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Bold",
+              "variationSettings": {
+                "wght": 700,
+                "opsz": 14
+              }
+            },
+            "x": 1451,
+            "y": 1498,
+            "width": 112,
+            "height": 31
+          }
+        ],
+        "media": [
+          {
+            "id": "299:937",
+            "name": "image 4",
+            "x": 1406,
+            "y": 1146,
+            "width": 213,
+            "height": 284,
+            "imageHash": "c2ac71ad0b74de6f19faa9b4d4373c34db55e502"
+          }
+        ]
+      }
+    ]
+  ]
+}

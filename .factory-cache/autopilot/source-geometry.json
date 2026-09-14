@@ -1,0 +1,127 @@
+{
+  "manifestHash": "e2014b4e76e394d0da3b7b23be44f4880de813acaff8041a32017f5030e28d2d",
+  "routes": [
+    {
+      "id": "about",
+      "frameNodeId": "326:2764",
+      "referenceHash": "1e9d5aec30c4675e1c21f164f3e1f2f7c7526b26c8548af43781ec8eae44f6bd",
+      "evidence": ".factory-cache/autopilot/about-source-geometry.json",
+      "evidenceHash": "1313e044d00ac4817c63795ad5549fb04b70e988a04bee82511fc211169f3f4c",
+      "sections": [
+        {
+          "id": "about-agricultural-supply",
+          "nodeId": "520:432",
+          "anchorNodeId": "520:432",
+          "before": {
+            "x": 160,
+            "y": 1397,
+            "width": 1600,
+            "height": 565
+          },
+          "after": {
+            "x": 160,
+            "y": 832,
+            "width": 1600,
+            "height": 565
+          }
+        },
+        {
+          "id": "about-grain-trade",
+          "nodeId": "521:452",
+          "anchorNodeId": "519:351",
+          "before": {
+            "x": 160,
+            "y": 2085,
+            "width": 1600,
+            "height": 631
+          },
+          "after": {
+            "x": 160,
+            "y": 1454,
+            "width": 1600,
+            "height": 631
+          }
+        },
+        {
+          "id": "about-insurance",
+          "nodeId": "521:454",
+          "anchorNodeId": "521:435",
+          "before": {
+            "x": 160,
+            "y": 2837,
+            "width": 1600,
+            "height": 695
+          },
+          "after": {
+            "x": 160,
+            "y": 2142,
+            "width": 1600,
+            "height": 695
+          }
+        }
+      ],
+      "reason": "Unique source background absolute bounds prove a bottom-versus-top extraction error."
+    },
+    {
+      "id": "product-expanded",
+      "frameNodeId": "326:2526",
+      "referenceHash": "e7a3ca64f767557d01be5e359647d144abe83587794e8c4f00bd466958336170",
+      "evidence": ".factory-cache/autopilot/product-expanded-source-geometry.json",
+      "evidenceHash": "fdcf2a94a73202daaf5fba14a24e5b3dc4d48b89752d08b855544472a8f59db2",
+      "sections": [
+        {
+          "id": "product-related",
+          "nodeIds": [
+            "326:2567"
+          ],
+          "before": {
+            "frameWidth": 1920,
+            "x": 240,
+            "y": 1635,
+            "width": 710,
+            "height": 570
+          },
+          "after": {
+            "frameWidth": 1920,
+            "x": 240,
+            "y": 4348,
+            "width": 710,
+            "height": 570
+          }
+        },
+        {
+          "id": "product-legal-notices",
+          "nodeIds": [
+            "326:2730",
+            "326:2732"
+          ],
+          "before": {
+            "frameWidth": 1920,
+            "x": 240,
+            "y": 2263,
+            "width": 1440,
+            "height": 287
+          },
+          "after": {
+            "frameWidth": 1920,
+            "x": 240,
+            "y": 4976,
+            "width": 1440,
+            "height": 287
+          }
+        }
+      ],
+      "reason": "Explicit same-sized section mapping to retained source nodes in this route frame."
+    }
+  ],
+  "ownership": [
+    {
+      "routeId": "product-archive",
+      "owner": "footer",
+      "nodeId": "303:1369",
+      "observation": "observations/5ea250acb1158a8cb8a0.json",
+      "observationHash": "508479995d4d4cb5824de4e3ba4afa6eec328485061404de80a9c31b50dc5074",
+      "referenceHash": "06d686088f11b30995f9a98291d15c5d45750c26351ad3c2e6eac046d78e9180"
+    }
+  ]
+}

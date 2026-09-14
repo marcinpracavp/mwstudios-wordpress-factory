@@ -1,0 +1,48 @@
+{
+  "id": "archive-breadcrumbs",
+  "name": "breadcrumbs",
+  "order": 73,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "295:700"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 240,
+    "y": 189,
+    "width": 508,
+    "height": 70,
+    "containerWidth": 508
+  },
+  "layout": {
+    "type": "breadcrumb"
+  },
+  "typography": [
+    {
+      "nodeId": "295:700",
+      "text": "Strona główna  /  Środki ochrony Roślin  /  Fungicydy",
+      "family": "DM Sans",
+      "style": "Regular",
+      "fontSize": 14,
+      "lineHeight": 34,
+      "segments": [
+        {
+          "text": "Strona główna  /  Środki ochrony Roślin  /  ",
+          "color": "#aaaaaa"
+        },
+        {
+          "text": "Fungicydy",
+          "color": "#006633"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "contentFields": [
+    "rudnikagro_archive_breadcrumbs_295_700"
+  ],
+  "notes": [
+    "Exact 1x section reference; crop provenance: references/full/frame-294-3-bounds.png at x=240, y=189, width=508, height=70."
+  ],
+  "liveFigmaRequired": false
+}

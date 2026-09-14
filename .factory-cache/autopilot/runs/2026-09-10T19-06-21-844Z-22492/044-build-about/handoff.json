@@ -1,0 +1,78 @@
+{
+  "task": {
+    "id": "about"
+  },
+  "sourceContext": {
+    "version": 4,
+    "available": true,
+    "index": {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/044-build-about/source-context/index.json",
+      "bytes": 1398,
+      "sha256": "4f2d257088f78475d3f2883e6be64a35758179c5453bf8cd632c07d7d8d15219"
+    }
+  },
+  "model": "gpt-5.6-terra",
+  "reasoningEffort": "high",
+  "continuation": "same-model interrupted thread",
+  "previousExecution": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/043-build-about/execution.json",
+  "previousResult": null,
+  "correctionFocus": [],
+  "currentPageVerification": {
+    "summary": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/resume-page-check-1789220444546/about/summary.json",
+    "routes": [
+      {
+        "id": "about",
+        "passed": false,
+        "pagePassed": false,
+        "ownership": {
+          "header": {
+            "pixels": 372480,
+            "differentPixels": 21869,
+            "ratio": 0.05871187714776632
+          },
+          "footer": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "shared": {
+            "pixels": 740000,
+            "differentPixels": 356992,
+            "ratio": 0.4824216216216216
+          },
+          "page": {
+            "pixels": 4542720,
+            "differentPixels": 1712624,
+            "ratio": 0.3770040856579318
+          },
+          "outside": {
+            "pixels": 3140320,
+            "differentPixels": 2676317,
+            "ratio": 0.8522434019462984
+          }
+        },
+        "errors": [
+          "page pixel mismatch 37.700%",
+          "Section geometry differs: about-agricultural-supply",
+          "Section geometry differs: about-grain-trade",
+          "Section geometry differs: about-insurance",
+          "shared pixel mismatch 48.242%",
+          "Shared component pixel mismatch shop-cta: 83.833%",
+          "Section geometry differs: shared-shop-cta"
+        ],
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/resume-page-check-1789220444546/about/about/comparison.json"
+      }
+    ],
+    "instruction": "Current matching measurement. If pagePassed is true, do not repeat page corrections solely because shared owners fail. Complete reusable-component work if required, check regressions, and hand off shared findings for final audit."
+  },
+  "snapshot": ".factory-cache/figma/latest",
+  "observations": ".factory-cache/figma/latest/observations/index.json",
+  "plans": [
+    "docs/factory/project/PLAN.md",
+    "docs/factory/project/STATUS.md",
+    "docs/factory/project/SOURCE_CLARIFICATIONS.md",
+    "docs/factory/project/REUSABLE_COMPONENTS.md"
+  ],
+  "currentGate": null,
+  "instruction": "Inspect the current gate and finish only remaining assigned work. Reuse real saved source facts and assets."
+}

@@ -1,0 +1,194 @@
+{
+  "id": "checkout-totals",
+  "manifestRecord": {
+    "id": "checkout-totals",
+    "name": "koszyk",
+    "order": 66,
+    "pageId": "0:1",
+    "snapshot": "sections/61-checkout-totals.json",
+    "desktopNodeId": "509:203",
+    "desktopReference": "references/sections/checkout-totals.png"
+  },
+  "contentFields": [
+    {
+      "section": "checkout-totals",
+      "nodeId": "509:211",
+      "fieldName": "rudnikagro_checkout_totals_coupon_prompt",
+      "type": "text",
+      "language": "pl",
+      "value": "Masz kod rabatowy?",
+      "destination": "WooCommerce native order totals / editable checkout labels",
+      "linkEvidence": [
+        {
+          "characters": "Masz kod rabatowy?",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "509:211"
+      }
+    },
+    {
+      "section": "checkout-totals",
+      "nodeId": "509:209",
+      "fieldName": "rudnikagro_checkout_totals_coupon_placeholder",
+      "type": "text",
+      "language": "pl",
+      "value": "Wpisz kod",
+      "destination": "WooCommerce native order totals / editable checkout labels",
+      "linkEvidence": [
+        {
+          "characters": "Wpisz kod",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "509:209"
+      }
+    },
+    {
+      "section": "checkout-totals",
+      "nodeId": "509:207",
+      "fieldName": "rudnikagro_checkout_totals_coupon_submit_label",
+      "type": "text",
+      "language": "pl",
+      "value": "Dodaj kod",
+      "destination": "WooCommerce native order totals / editable checkout labels",
+      "linkEvidence": [
+        {
+          "characters": "Dodaj kod",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "509:207"
+      }
+    },
+    {
+      "section": "checkout-totals",
+      "nodeId": "509:210",
+      "fieldName": "rudnikagro_checkout_totals_summary_heading",
+      "type": "text",
+      "language": "pl",
+      "value": "Podsumowanie",
+      "destination": "WooCommerce native order totals / editable checkout labels",
+      "linkEvidence": [
+        {
+          "characters": "Podsumowanie",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "509:210"
+      }
+    },
+    {
+      "section": "checkout-totals",
+      "nodeId": "509:212",
+      "fieldName": "rudnikagro_checkout_totals_summary_labels",
+      "type": "text",
+      "language": "pl",
+      "value": "Produkty\n\nWysyłka\n\nRabat\nDodano kod BLACKFRIDAY",
+      "destination": "WooCommerce native order totals / editable checkout labels",
+      "linkEvidence": [
+        {
+          "characters": "Produkty\n\nWysyłka\n\nRabat\nDodano kod BLACKFRIDAY",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "509:212"
+      }
+    },
+    {
+      "section": "checkout-totals",
+      "nodeId": "509:213",
+      "fieldName": "rudnikagro_checkout_totals_summary_amounts",
+      "type": "text",
+      "language": "pl",
+      "value": "411,00 zł\n\n22,90 zł\n\n50 zł",
+      "destination": "WooCommerce native order totals / editable checkout labels",
+      "linkEvidence": [
+        {
+          "characters": "411,00 zł\n\n22,90 zł\n\n50 zł",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "509:213"
+      }
+    },
+    {
+      "section": "checkout-totals",
+      "nodeId": "509:214",
+      "fieldName": "rudnikagro_checkout_totals_total_label",
+      "type": "text",
+      "language": "pl",
+      "value": "Do zapłaty",
+      "destination": "WooCommerce native order totals / editable checkout labels",
+      "linkEvidence": [
+        {
+          "characters": "Do zapłaty",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "509:214"
+      }
+    },
+    {
+      "section": "checkout-totals",
+      "nodeId": "509:215",
+      "fieldName": "rudnikagro_checkout_totals_total_amount",
+      "type": "text",
+      "language": "pl",
+      "value": "383,90 zł",
+      "destination": "WooCommerce native order totals / editable checkout labels",
+      "linkEvidence": [
+        {
+          "characters": "383,90 zł",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "509:215"
+      }
+    },
+    {
+      "section": "checkout-totals",
+      "nodeId": "509:217",
+      "fieldName": "rudnikagro_checkout_totals_place_order_label",
+      "type": "text",
+      "language": "pl",
+      "value": "Realizuj zamówienie",
+      "destination": "WooCommerce native order totals / editable checkout labels",
+      "linkEvidence": [
+        {
+          "characters": "Realizuj zamówienie",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "509:217"
+      }
+    }
+  ]
+}

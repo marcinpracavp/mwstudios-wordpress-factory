@@ -1,0 +1,274 @@
+{
+  "id": "8975223ee92b8ebed956",
+  "tool": "figma.use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "349:1267"
+  ],
+  "description": "Read compact composition for kariera 349:1267",
+  "recordedAt": "2026-09-10T19:30:16.843Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "id": "349:1267",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "grids": [
+        {
+          "pattern": "COLUMNS",
+          "visible": true,
+          "color": {
+            "r": 1,
+            "g": 0,
+            "b": 0,
+            "a": 0.10000000149011612
+          },
+          "gutterSize": 20,
+          "alignment": "STRETCH",
+          "count": 12,
+          "offset": 240,
+          "boundVariables": {}
+        }
+      ],
+      "children": [
+        {
+          "id": "349:1268",
+          "name": "Strona główna / Kariera",
+          "type": "TEXT",
+          "x": 240,
+          "y": 368,
+          "width": 508,
+          "height": 70
+        },
+        {
+          "id": "349:1269",
+          "name": "© Rudnikagro.pl 2026 | Wszelkie prawa zastrzeżone",
+          "type": "TEXT",
+          "x": 240,
+          "y": 3755,
+          "width": 377,
+          "height": 34
+        },
+        {
+          "id": "349:1270",
+          "name": "Projekt i wykonanie: Virtual People",
+          "type": "TEXT",
+          "x": 1425,
+          "y": 3755,
+          "width": 259,
+          "height": 34
+        },
+        {
+          "id": "349:1271",
+          "name": "stopka",
+          "type": "GROUP",
+          "x": 36,
+          "y": 3188,
+          "width": 1840,
+          "height": 554
+        },
+        {
+          "id": "548:24",
+          "name": "przerywnik",
+          "type": "GROUP",
+          "x": 36,
+          "y": 2919,
+          "width": 1840,
+          "height": 230
+        },
+        {
+          "id": "349:1308",
+          "name": "mega menu",
+          "type": "GROUP",
+          "x": 240,
+          "y": 115,
+          "width": 1440,
+          "height": 78.6761245727539
+        },
+        {
+          "id": "349:1347",
+          "name": "Line 1",
+          "type": "LINE",
+          "x": 240,
+          "y": 115,
+          "width": 1440,
+          "height": 0
+        },
+        {
+          "id": "349:1348",
+          "name": "secondary menu",
+          "type": "GROUP",
+          "x": 237.00167846679688,
+          "y": 56,
+          "width": 1442.8232421875,
+          "height": 42
+        },
+        {
+          "id": "349:1369",
+          "name": "topbar",
+          "type": "GROUP",
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 40
+        },
+        {
+          "id": "349:1377",
+          "name": "Rectangle 111",
+          "type": "RECTANGLE",
+          "x": 240,
+          "y": 218,
+          "width": 1440,
+          "height": 150
+        },
+        {
+          "id": "349:1378",
+          "name": "Kariera",
+          "type": "TEXT",
+          "x": 848,
+          "y": 218,
+          "width": 224,
+          "height": 150
+        },
+        {
+          "id": "355:1423",
+          "name": "oferta1",
+          "type": "GROUP",
+          "x": 362,
+          "y": 486,
+          "width": 1196,
+          "height": 1615
+        },
+        {
+          "id": "355:1422",
+          "name": "oferta2",
+          "type": "GROUP",
+          "x": 362,
+          "y": 2126,
+          "width": 1196,
+          "height": 114
+        },
+        {
+          "id": "355:1424",
+          "name": "oferta2",
+          "type": "GROUP",
+          "x": 362,
+          "y": 2260,
+          "width": 1196,
+          "height": 114
+        },
+        {
+          "id": "355:1429",
+          "name": "oferta2",
+          "type": "GROUP",
+          "x": 362,
+          "y": 2394,
+          "width": 1196,
+          "height": 114
+        },
+        {
+          "id": "355:1433",
+          "name": "oferta2",
+          "type": "GROUP",
+          "x": 362,
+          "y": 2528,
+          "width": 1196,
+          "height": 114
+        },
+        {
+          "id": "355:1438",
+          "name": "oferta2",
+          "type": "GROUP",
+          "x": 362,
+          "y": 2662,
+          "width": 1196,
+          "height": 114
+        },
+        {
+          "id": "434:9",
+          "name": "Imię i nazwisko*",
+          "type": "TEXT",
+          "x": 483,
+          "y": 1695,
+          "width": 500,
+          "height": 64
+        },
+        {
+          "id": "434:10",
+          "name": "Adres e-mail*",
+          "type": "TEXT",
+          "x": 483,
+          "y": 1784,
+          "width": 466,
+          "height": 64
+        },
+        {
+          "id": "434:12",
+          "name": "Numer telefonu*",
+          "type": "TEXT",
+          "x": 986,
+          "y": 1784,
+          "width": 500,
+          "height": 64
+        },
+        {
+          "id": "435:16",
+          "name": "Rectangle 86",
+          "type": "RECTANGLE",
+          "x": 716,
+          "y": 1877,
+          "width": 15,
+          "height": 15
+        },
+        {
+          "id": "435:20",
+          "name": "Wyrażam zgodę na przetwarzanie moich danych osobowych p",
+          "type": "TEXT",
+          "x": 739,
+          "y": 1875,
+          "width": 736,
+          "height": 43
+        },
+        {
+          "id": "435:21",
+          "name": "Rectangle 112",
+          "type": "RECTANGLE",
+          "x": 716,
+          "y": 1943,
+          "width": 15,
+          "height": 15
+        },
+        {
+          "id": "435:22",
+          "name": "Wyrażam zgodę na przetwarzanie moich danych osobowych p",
+          "type": "TEXT",
+          "x": 739,
+          "y": 1941,
+          "width": 718,
+          "height": 43
+        },
+        {
+          "id": "496:2076",
+          "name": "download",
+          "type": "GROUP",
+          "x": 649,
+          "y": 1888,
+          "width": 16.76020050048828,
+          "height": 23.206430435180664
+        }
+      ]
+    }
+  ]
+}

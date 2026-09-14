@@ -1,0 +1,36 @@
+{
+  "task": {
+    "id": "detail-cart",
+    "scope": "group",
+    "buildGroup": "cart"
+  },
+  "sourceContext": {
+    "version": 1,
+    "available": true,
+    "index": {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/017-discovery-detail-cart/source-context/index.json",
+      "bytes": 1417,
+      "sha256": "1367be7ff6e54b49688ac9fb6086fda8b8f63c419adf4d2d54d643edcb25adbc"
+    }
+  },
+  "model": "gpt-5.6-terra",
+  "reasoningEffort": "high",
+  "continuation": "new task",
+  "previousExecution": null,
+  "snapshot": ".factory-cache/figma/latest",
+  "observations": ".factory-cache/figma/latest/observations/index.json",
+  "plans": [
+    "docs/factory/project/PLAN.md",
+    "docs/factory/project/SOURCE_CLARIFICATIONS.md"
+  ],
+  "currentGate": {
+    "passed": false,
+    "errors": [
+      "Missing section cart-heading",
+      "Missing section cart-lines",
+      "Missing section cart-totals"
+    ],
+    "group": "cart"
+  },
+  "instruction": "Inspect the current gate and finish only remaining assigned work. Reuse real saved source facts and assets."
+}

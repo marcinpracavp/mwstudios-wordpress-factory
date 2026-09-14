@@ -1,0 +1,92 @@
+{
+  "id": "careers-heading",
+  "name": "Kariera",
+  "order": 30,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "349:1377"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 240,
+    "y": 218,
+    "width": 1440,
+    "height": 220
+  },
+  "layout": {
+    "type": "page-banner-with-breadcrumb",
+    "titleNodeId": "349:1378",
+    "breadcrumbNodeId": "349:1268",
+    "imageFill": {
+      "scaleMode": "FILL",
+      "sourceNodeId": "349:1377",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ]
+    }
+  },
+  "typography": [
+    {
+      "nodeId": "349:1378",
+      "text": "Kariera",
+      "family": "DM Sans",
+      "style": "Bold",
+      "fontSize": 48,
+      "lineHeight": 24,
+      "color": "#ffffff",
+      "align": "center"
+    },
+    {
+      "nodeId": "349:1268",
+      "text": "Strona główna  / Kariera",
+      "sourceText": "Strona główna  / Kariera",
+      "destination": "native breadcrumb / page title"
+    }
+  ],
+  "colors": [
+    {
+      "nodeId": "349:1377",
+      "fill": "#006633",
+      "opacity": 0.7
+    },
+    {
+      "nodeId": "349:1377",
+      "gradient": "linear-gradient(-90deg, rgba(0,102,51,0) 0%, rgba(0,102,51,0.8) 100%)"
+    }
+  ],
+  "effects": [],
+  "contentFields": [
+    "rudnikagro_page_banner.title",
+    "rudnikagro_page_banner.image"
+  ],
+  "assets": [
+    {
+      "sourceNodeId": "349:1377",
+      "path": "assets/careers/349-1377-heading.png",
+      "usage": "Exact exported banner composition; editable native image uses the raw source image below."
+    },
+    {
+      "sourceNodeId": "349:1377",
+      "path": "assets/careers/349-1377-heading-raw-1.png",
+      "usage": "Exact source-returned raw image for native editable banner media."
+    },
+    {
+      "sourceNodeId": "349:1377",
+      "path": "assets/careers/349-1377-heading-raw-2.png",
+      "usage": "Second exact source-returned raw image; retain for source inspection."
+    }
+  ],
+  "notes": [
+    "Title and breadcrumb are source text. The background photo is source media with a #006633 overlay and horizontal green gradient."
+  ],
+  "liveFigmaRequired": false
+}

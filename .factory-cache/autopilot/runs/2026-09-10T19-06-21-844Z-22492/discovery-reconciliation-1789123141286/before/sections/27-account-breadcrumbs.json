@@ -1,0 +1,120 @@
+{
+  "id": "account-breadcrumbs",
+  "name": "breadcrumbs",
+  "order": 27,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "524:3"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 240,
+    "y": 189,
+    "width": 508,
+    "height": 70
+  },
+  "layout": {
+    "type": "breadcrumb",
+    "subnodes": [
+      {
+        "nodeId": "524:3",
+        "type": "TEXT",
+        "visible": true,
+        "geometry": {
+          "x": 240,
+          "y": 189,
+          "width": 508,
+          "height": 70
+        }
+      }
+    ],
+    "designContextRead": true
+  },
+  "typography": [
+    {
+      "nodeId": "524:3",
+      "value": "Strona główna  /  Logowanie/rejestracja",
+      "geometry": {
+        "x": 240,
+        "y": 189,
+        "width": 508,
+        "height": 70
+      },
+      "segments": [
+        {
+          "characters": "Strona główna  /  ",
+          "start": 0,
+          "end": 18,
+          "fontSize": 14,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 400,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 34
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.6666666667,
+                "g": 0.6666666667,
+                "b": 0.6666666667
+              }
+            }
+          ],
+          "hyperlink": null
+        },
+        {
+          "characters": "Logowanie/rejestracja",
+          "start": 18,
+          "end": 39,
+          "fontSize": 14,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 400,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 34
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0,
+                "g": 0.4,
+                "b": 0.2
+              }
+            }
+          ],
+          "hyperlink": null
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "notes": [
+    "No Figma hyperlink or reaction was captured for either breadcrumb destination."
+  ],
+  "liveFigmaRequired": false
+}

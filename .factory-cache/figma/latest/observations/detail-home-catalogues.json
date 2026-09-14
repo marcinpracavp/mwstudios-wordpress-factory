@@ -1,0 +1,456 @@
+{
+  "id": "detail-home-catalogues",
+  "tool": "figma.use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "140:261"
+  ],
+  "description": "Exact source section capture",
+  "recordedAt": "2026-09-11T00:46:58.306Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "id": "140:261",
+      "name": "katalogi",
+      "frame": "12:2",
+      "total": 12,
+      "nodes": [
+        {
+          "id": "140:261",
+          "name": "katalogi",
+          "type": "GROUP",
+          "parentId": "12:2",
+          "bounds": {
+            "x": 240,
+            "y": 4127,
+            "width": 1440,
+            "height": 384
+          },
+          "style": 0
+        },
+        {
+          "id": "116:57",
+          "name": "Rectangle 24",
+          "type": "RECTANGLE",
+          "parentId": "140:261",
+          "bounds": {
+            "x": 240,
+            "y": 4175,
+            "width": 1440,
+            "height": 336
+          },
+          "style": 1
+        },
+        {
+          "id": "138:164",
+          "name": "katalogi 1",
+          "type": "RECTANGLE",
+          "parentId": "140:261",
+          "bounds": {
+            "x": 1141,
+            "y": 4127,
+            "width": 422,
+            "height": 354
+          },
+          "style": 2
+        },
+        {
+          "id": "153:72",
+          "name": "Katalog rolniczy 2026",
+          "type": "TEXT",
+          "parentId": "140:261",
+          "bounds": {
+            "x": 395,
+            "y": 4337,
+            "width": 256,
+            "height": 31
+          },
+          "style": 3,
+          "characters": "Katalog rolniczy 2026",
+          "align": [
+            "LEFT",
+            "TOP"
+          ],
+          "segments": [
+            {
+              "characters": "Katalog rolniczy 2026",
+              "start": 0,
+              "end": 21,
+              "style": 4
+            }
+          ]
+        },
+        {
+          "id": "169:297",
+          "name": "download",
+          "type": "GROUP",
+          "parentId": "140:261",
+          "bounds": {
+            "x": 362.3058776855469,
+            "y": 4336,
+            "width": 19.388235092163086,
+            "height": 18.176349639892578
+          },
+          "style": 0
+        },
+        {
+          "id": "169:291",
+          "name": "Vector 16",
+          "type": "VECTOR",
+          "parentId": "169:297",
+          "bounds": {
+            "x": 362.3058776855469,
+            "y": 4346.90576171875,
+            "width": 19.388235092163086,
+            "height": 7.270588397979736
+          },
+          "style": 5
+        },
+        {
+          "id": "169:292",
+          "name": "Arrow 5",
+          "type": "VECTOR",
+          "parentId": "169:297",
+          "bounds": {
+            "x": 372,
+            "y": 4336,
+            "width": 6.79754919019615e-7,
+            "height": 13.329411506652832
+          },
+          "style": 6
+        },
+        {
+          "id": "153:74",
+          "name": "Katalog sadowniczy 2026",
+          "type": "TEXT",
+          "parentId": "140:261",
+          "bounds": {
+            "x": 395,
+            "y": 4407,
+            "width": 256,
+            "height": 31
+          },
+          "style": 3,
+          "characters": "Katalog sadowniczy 2026",
+          "align": [
+            "LEFT",
+            "TOP"
+          ],
+          "segments": [
+            {
+              "characters": "Katalog sadowniczy 2026",
+              "start": 0,
+              "end": 23,
+              "style": 4
+            }
+          ]
+        },
+        {
+          "id": "169:296",
+          "name": "download",
+          "type": "GROUP",
+          "parentId": "140:261",
+          "bounds": {
+            "x": 362.3058776855469,
+            "y": 4406,
+            "width": 19.388235092163086,
+            "height": 18.176593780517578
+          },
+          "style": 0
+        },
+        {
+          "id": "169:293",
+          "name": "Vector 17",
+          "type": "VECTOR",
+          "parentId": "169:296",
+          "bounds": {
+            "x": 362.3058776855469,
+            "y": 4416.906005859375,
+            "width": 19.388235092163086,
+            "height": 7.270588397979736
+          },
+          "style": 5
+        },
+        {
+          "id": "169:294",
+          "name": "Arrow 6",
+          "type": "VECTOR",
+          "parentId": "169:296",
+          "bounds": {
+            "x": 372,
+            "y": 4406,
+            "width": 6.79754919019615e-7,
+            "height": 13.329411506652832
+          },
+          "style": 6
+        },
+        {
+          "id": "140:165",
+          "name": "Pobierz katalog Rudnikagro 2026",
+          "type": "TEXT",
+          "parentId": "140:261",
+          "bounds": {
+            "x": 362,
+            "y": 4232,
+            "width": 735,
+            "height": 61
+          },
+          "style": 3,
+          "characters": "Pobierz katalog Rudnikagro 2026",
+          "align": [
+            "LEFT",
+            "TOP"
+          ],
+          "segments": [
+            {
+              "characters": "Pobierz katalog Rudnikagro 2026",
+              "start": 0,
+              "end": 31,
+              "style": 7
+            }
+          ]
+        }
+      ],
+      "styles": [
+        {
+          "visible": true,
+          "opacity": 1,
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "IMAGE",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "scaleMode": "CROP",
+              "scalingFactor": 0.5,
+              "filters": {
+                "exposure": 0,
+                "contrast": 0,
+                "saturation": 0,
+                "temperature": 0,
+                "tint": 0,
+                "highlights": 0,
+                "shadows": 0
+              },
+              "imageTransform": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0.47814205288887024,
+                  0.2153916209936142
+                ]
+              ],
+              "imageHash": "e652dc88790e8f19357c28322f8e59fbf2264558"
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 30,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "IMAGE",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "scaleMode": "FILL",
+              "scalingFactor": 0.5,
+              "rotation": 0,
+              "filters": {
+                "exposure": 0,
+                "contrast": 0,
+                "saturation": 0,
+                "temperature": 0,
+                "tint": 0,
+                "highlights": 0,
+                "shadows": 0
+              },
+              "imageTransform": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ]
+              ],
+              "imageHash": "87e41c79a36b3c5024bec0c066e42b91fdda5292"
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "OUTSIDE",
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "fontSize": 18,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 400,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokeWeight": 1.5,
+          "strokeAlign": "CENTER",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokeWeight": 1.5,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "fontSize": 48,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 700,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        }
+      ]
+    }
+  ]
+}

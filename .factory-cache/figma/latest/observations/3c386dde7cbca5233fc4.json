@@ -1,0 +1,670 @@
+{
+  "id": "3c386dde7cbca5233fc4",
+  "tool": "use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "250:728",
+    "250:115"
+  ],
+  "description": "Capture exact shared-primary-navigation-active section source nodes 25",
+  "recordedAt": "2026-09-11T00:42:48.253Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "id": "250:728",
+      "name": "mega menu",
+      "frame": "250:115",
+      "total": 40,
+      "nodes": [
+        {
+          "id": "250:753",
+          "name": "Rectangle 49",
+          "type": "RECTANGLE",
+          "parentId": "250:728",
+          "bounds": {
+            "x": 542,
+            "y": 226,
+            "width": 188,
+            "height": 36
+          },
+          "style": 0
+        },
+        {
+          "id": "250:754",
+          "name": "Herbicydy Fungicydy Insektycydy Regulatory Zaprawy Adiuwanty",
+          "type": "TEXT",
+          "parentId": "250:728",
+          "bounds": {
+            "x": 587,
+            "y": 220,
+            "width": 110,
+            "height": 246
+          },
+          "style": 1,
+          "characters": "Herbicydy\nFungicydy\nInsektycydy\nRegulatory\nZaprawy\nAdiuwanty",
+          "align": [
+            "LEFT",
+            "TOP"
+          ],
+          "segments": [
+            {
+              "characters": "Herbicydy\n",
+              "start": 0,
+              "end": 10,
+              "style": 2
+            },
+            {
+              "characters": "Fungicydy\nInsektycydy\nRegulatory\nZaprawy\nAdiuwanty",
+              "start": 10,
+              "end": 60,
+              "style": 3
+            }
+          ]
+        },
+        {
+          "id": "250:755",
+          "name": "Vector 1",
+          "type": "VECTOR",
+          "parentId": "250:728",
+          "bounds": {
+            "x": 690.1715726852417,
+            "y": 242.00000619888306,
+            "width": 5.656854152679443,
+            "height": 5.656854152679443
+          },
+          "style": 4
+        },
+        {
+          "id": "250:756",
+          "name": "Vector 2",
+          "type": "VECTOR",
+          "parentId": "250:728",
+          "bounds": {
+            "x": 690.1715726852417,
+            "y": 290.00000619888306,
+            "width": 5.656854152679443,
+            "height": 5.656854152679443
+          },
+          "style": 4
+        },
+        {
+          "id": "250:757",
+          "name": "Vector 3",
+          "type": "VECTOR",
+          "parentId": "250:728",
+          "bounds": {
+            "x": 690.1715726852417,
+            "y": 337.00000619888306,
+            "width": 5.656854152679443,
+            "height": 5.656854152679443
+          },
+          "style": 4
+        },
+        {
+          "id": "250:758",
+          "name": "Vector 4",
+          "type": "VECTOR",
+          "parentId": "250:728",
+          "bounds": {
+            "x": 690.1715726852417,
+            "y": 386.00000619888306,
+            "width": 5.656854152679443,
+            "height": 5.656854152679443
+          },
+          "style": 4
+        },
+        {
+          "id": "250:759",
+          "name": "Vector 5",
+          "type": "VECTOR",
+          "parentId": "250:728",
+          "bounds": {
+            "x": 690.1715726852417,
+            "y": 434.00000619888306,
+            "width": 5.656854152679443,
+            "height": 5.656854152679443
+          },
+          "style": 4
+        },
+        {
+          "id": "250:760",
+          "name": "Vector 6",
+          "type": "VECTOR",
+          "parentId": "250:728",
+          "bounds": {
+            "x": 690.1715726852417,
+            "y": 481.00000619888306,
+            "width": 5.656854152679443,
+            "height": 5.656854152679443
+          },
+          "style": 4
+        },
+        {
+          "id": "250:761",
+          "name": "Rectangle 50",
+          "type": "RECTANGLE",
+          "parentId": "250:728",
+          "bounds": {
+            "x": 730,
+            "y": 274,
+            "width": 188,
+            "height": 36
+          },
+          "style": 0
+        },
+        {
+          "id": "250:762",
+          "name": "Zboża Rzepak Kukurydza Buraki Ziemniaki Warzywa",
+          "type": "TEXT",
+          "parentId": "250:728",
+          "bounds": {
+            "x": 784,
+            "y": 220,
+            "width": 110,
+            "height": 288
+          },
+          "style": 1,
+          "characters": "Zboża\nRzepak\nKukurydza\nBuraki\nZiemniaki\nWarzywa",
+          "align": [
+            "LEFT",
+            "TOP"
+          ],
+          "segments": [
+            {
+              "characters": "Zboża\n",
+              "start": 0,
+              "end": 6,
+              "style": 3
+            },
+            {
+              "characters": "Rzepak\n",
+              "start": 6,
+              "end": 13,
+              "style": 2
+            },
+            {
+              "characters": "Kukurydza\nBuraki\nZiemniaki\nWarzywa",
+              "start": 13,
+              "end": 47,
+              "style": 3
+            }
+          ]
+        },
+        {
+          "id": "250:763",
+          "name": "Strączkowe Jagodniki Sady Owoce miękkie",
+          "type": "TEXT",
+          "parentId": "250:728",
+          "bounds": {
+            "x": 966,
+            "y": 220,
+            "width": 162,
+            "height": 246
+          },
+          "style": 5,
+          "characters": "Strączkowe\nJagodniki\nSady\nOwoce miękkie",
+          "align": [
+            "LEFT",
+            "TOP"
+          ],
+          "segments": [
+            {
+              "characters": "Strączkowe\nJagodniki\nSady\nOwoce miękkie",
+              "start": 0,
+              "end": 39,
+              "style": 3
+            }
+          ]
+        },
+        {
+          "id": "250:764",
+          "name": "Line 7",
+          "type": "LINE",
+          "parentId": "250:728",
+          "bounds": {
+            "x": 730,
+            "y": 195,
+            "width": 0.000014835958154435502,
+            "height": 337
+          },
+          "style": 6
+        },
+        {
+          "id": "250:765",
+          "name": "Rectangle 31",
+          "type": "VECTOR",
+          "parentId": "250:728",
+          "bounds": {
+            "x": 542,
+            "y": 190,
+            "width": 185,
+            "height": 5
+          },
+          "style": 7
+        },
+        {
+          "id": "574:5",
+          "name": "Środki ochrony roślin Zamienniki ŚOR Nawozy i dodatki Biostymulatory i produkty ekologiczne Nasiona Promocje Nowości Pakiety",
+          "type": "INSTANCE",
+          "parentId": "250:728",
+          "bounds": {
+            "x": 483,
+            "y": 115,
+            "width": 1197,
+            "height": 78.6761245727539
+          },
+          "style": 8
+        },
+        {
+          "id": "I574:5;93:29",
+          "name": "Środki ochrony roślin Handel równoległy – Zamienniki Nawozy i dodatki Biostymulatory Nasiona Promocje Nowości Pakiety",
+          "type": "TEXT",
+          "parentId": "574:5",
+          "bounds": {
+            "x": 483,
+            "y": 115,
+            "width": 1197,
+            "height": 78.6761245727539
+          },
+          "style": 9,
+          "characters": "Środki ochrony roślin     Handel równoległy – Zamienniki     Nawozy i dodatki     Biostymulatory      Nasiona     Promocje     Nowości     Pakiety",
+          "align": [
+            "RIGHT",
+            "CENTER"
+          ],
+          "segments": [
+            {
+              "characters": "Środki ochrony roślin     Handel równoległy – Zamienniki     Nawozy i dodatki     Biostymulatory      Nasiona    ",
+              "start": 0,
+              "end": 113,
+              "style": 10
+            },
+            {
+              "characters": " ",
+              "start": 113,
+              "end": 114,
+              "style": 11
+            },
+            {
+              "characters": "Promocje   ",
+              "start": 114,
+              "end": 125,
+              "style": 12
+            },
+            {
+              "characters": "  Nowości",
+              "start": 125,
+              "end": 134,
+              "style": 10
+            },
+            {
+              "characters": "   ",
+              "start": 134,
+              "end": 137,
+              "style": 12
+            },
+            {
+              "characters": "  Pakiety",
+              "start": 137,
+              "end": 146,
+              "style": 10
+            }
+          ]
+        }
+      ],
+      "styles": [
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9647058844566345,
+                "g": 0.9647058844566345,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "OUTSIDE",
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "fontSize": 16,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 700,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 48
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0.4000000059604645,
+                "b": 0.20000000298023224
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        },
+        {
+          "fontSize": 16,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 400,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 48
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.11372549086809158,
+                "g": 0.11372549086809158,
+                "b": 0.10588235408067703
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.6682692170143127,
+                "g": 0.6682692170143127,
+                "b": 0.6682692170143127
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokeWeight": 1,
+          "strokeAlign": "CENTER",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.11372549086809158,
+                "g": 0.11372549086809158,
+                "b": 0.10588235408067703
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "OUTSIDE",
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.6682692170143127,
+                "g": 0.6682692170143127,
+                "b": 0.6682692170143127
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokeWeight": 0.5,
+          "strokeAlign": "CENTER",
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.5764706134796143,
+                "g": 0.7529411911964417,
+                "b": 0.12156862765550613
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": false,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH",
+          "layoutMode": "NONE",
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "fontSize": 17,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 700,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.11372549086809158,
+                "g": 0.11372549086809158,
+                "b": 0.10588235408067703
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        },
+        {
+          "fontSize": 17,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 700,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.5528846383094788,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        },
+        {
+          "fontSize": 17,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 700,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        }
+      ]
+    }
+  ]
+}

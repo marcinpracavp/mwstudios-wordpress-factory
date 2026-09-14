@@ -1,0 +1,93 @@
+{
+    "id":  "contact-form",
+    "name":  "Contact form",
+    "order":  43,
+    "source":  {
+                   "pageId":  "0:1",
+                   "desktopNodeId":  "339:795"
+               },
+    "desktop":  {
+                    "frameWidth":  1920,
+                    "x":  728,
+                    "y":  519,
+                    "width":  953,
+                    "height":  376,
+                    "containerWidth":  953,
+                    "padding":  {
+                                    "top":  0,
+                                    "right":  0,
+                                    "bottom":  0,
+                                    "left":  0
+                                },
+                    "gap":  15
+                },
+    "layout":  {
+                   "type":  "two-column-contact-form",
+                   "productionFrame":  "335:591",
+                   "designContextRead":  true,
+                   "nodes":  [
+                                 "339:795",
+                                 "339:788",
+                                 "339:790",
+                                 "339:792",
+                                 "339:786",
+                                 "339:797",
+                                 "431:907"
+                             ],
+                   "columns":  [
+                                   {
+                                       "width":  345,
+                                       "fieldHeight":  62,
+                                       "gap":  15
+                                   },
+                                   {
+                                       "width":  588,
+                                       "textareaHeight":  215
+                                   }
+                               ],
+                   "rowGap":  15,
+                   "fieldRadius":  15,
+                   "textareaRadius":  31,
+                   "button":  {
+                                  "width":  224,
+                                  "height":  44,
+                                  "radius":  30,
+                                  "color":  "#056838"
+                              }
+               },
+    "typography":  [
+                       {
+                           "nodeId":  "339:795",
+                           "family":  "DM Sans",
+                           "weight":  700,
+                           "size":  36,
+                           "lineHeight":  24,
+                           "align":  "right"
+                       },
+                       {
+                           "nodeId":  "339:813",
+                           "family":  "DM Sans",
+                           "weight":  400,
+                           "size":  12
+                       },
+                       {
+                           "nodeId":  "339:803",
+                           "family":  "DM Sans",
+                           "weight":  700,
+                           "size":  16
+                       }
+                   ],
+    "contentFields":  [
+                          "339:795",
+                          "339:813",
+                          "339:807",
+                          "339:809",
+                          "339:805",
+                          "339:803",
+                          "431:907"
+                      ],
+    "notes":  [
+                  "Lossless 1x crop from references/full/frame-335-591.png: x=728,y=519,width=953,height=376. A visible form layout and labels are sourced; no native CF7 identity, recipient mailbox, privacy-policy destination or submission behavior is in Figma. No mobile source exists; responsive behavior is derived."
+              ],
+    "liveFigmaRequired":  false
+}

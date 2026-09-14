@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "kind": "missing-source-input",
+  "routeId": "product-reviews-state",
+  "missingInput": "An approved, real WooCommerce review record (including rating, author/date and body) for Aquatos 5L that corresponds to the captured aggregate/review display.",
+  "reason": "The source capture contains a placeholder Lorem ipsum review and aggregate rating, while the project-owned Aquatos product has no native WooCommerce comments. Creating a review, rating or aggregate would fabricate business data.",
+  "sourceEvidence": [
+    ".factory-cache/figma/latest/sections/07-product-reviews.json"
+  ],
+  "runtimeEvidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/049-build-product/product-reviews-state.runtime-probe.json"
+  ]
+}

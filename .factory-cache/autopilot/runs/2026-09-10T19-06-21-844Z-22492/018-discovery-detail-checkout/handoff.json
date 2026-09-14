@@ -1,0 +1,45 @@
+{
+  "task": {
+    "id": "detail-checkout",
+    "scope": "group",
+    "buildGroup": "checkout"
+  },
+  "sourceContext": {
+    "version": 1,
+    "available": true,
+    "index": {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/018-discovery-detail-checkout/source-context/index.json",
+      "bytes": 1667,
+      "sha256": "1009de671fa32730e41dd6e4a6bf7669173d832d9ff32d1a031ee4911afe3ae0"
+    }
+  },
+  "model": "gpt-5.6-terra",
+  "reasoningEffort": "high",
+  "continuation": "new task",
+  "previousExecution": null,
+  "snapshot": ".factory-cache/figma/latest",
+  "observations": ".factory-cache/figma/latest/observations/index.json",
+  "plans": [
+    "docs/factory/project/PLAN.md",
+    "docs/factory/project/SOURCE_CLARIFICATIONS.md"
+  ],
+  "currentGate": {
+    "passed": false,
+    "errors": [
+      "Missing section checkout-heading",
+      "Missing section checkout-steps",
+      "Missing visual source facts checkout-customer-details",
+      "Missing section checkout-payment",
+      "Missing section checkout-delivery",
+      "Missing section checkout-totals",
+      "Missing section confirmation-heading",
+      "Missing visual source facts checkout-order-confirmation",
+      "Missing section confirmation-line-items",
+      "Missing section checkout-login-heading",
+      "Missing section checkout-login-options",
+      "Missing visual source facts account-registration-dialog"
+    ],
+    "group": "checkout"
+  },
+  "instruction": "Inspect the current gate and finish only remaining assigned work. Reuse real saved source facts and assets."
+}

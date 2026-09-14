@@ -1,0 +1,35 @@
+{
+  "id": "product-gallery",
+  "name": "galeria produktu",
+  "order": 51,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "326:2218"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 240,
+    "y": 259,
+    "width": 710,
+    "height": 710
+  },
+  "layout": {
+    "type": "product-gallery",
+    "columns": [
+      6,
+      6
+    ]
+  },
+  "typography": [],
+  "assets": [
+    {
+      "sourceNodeId": "323:2091",
+      "path": "assets/product-aquatos-5l.png",
+      "usage": "Product gallery primary image"
+    }
+  ],
+  "notes": [
+    "Single visible primary product image; no source thumbnail interaction state was supplied."
+  ],
+  "liveFigmaRequired": false
+}

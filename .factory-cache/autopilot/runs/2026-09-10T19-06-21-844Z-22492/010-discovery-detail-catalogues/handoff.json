@@ -1,0 +1,49 @@
+{
+  "task": {
+    "id": "detail-catalogues",
+    "scope": "group",
+    "buildGroup": "catalogues",
+    "routes": [
+      {
+        "id": "catalogues",
+        "path": "/katalogi/",
+        "language": "pl",
+        "frameNodeId": "347:1120",
+        "reference": "references/full/frame-347-1120.png",
+        "width": 1920,
+        "height": 1850,
+        "sections": [
+          "shared-topbar",
+          "shared-secondary-navigation",
+          "shared-primary-navigation",
+          "catalogues-heading",
+          "catalogues-downloads",
+          "shared-shop-cta",
+          "shared-footer"
+        ],
+        "buildGroup": "catalogues",
+        "responsiveSource": "derived",
+        "notes": "Source frame titled katalogi contains two catalogue cards, PDF and online-reader actions. Planned local route path is an implementation decision inferred from source page identity, not a captured source hyperlink. Uncaptured section IDs remain explicit in this partial execution plan."
+      }
+    ]
+  },
+  "model": "gpt-5.6-terra",
+  "reasoningEffort": "high",
+  "continuation": "new task",
+  "previousExecution": null,
+  "snapshot": ".factory-cache/figma/latest",
+  "observations": ".factory-cache/figma/latest/observations/index.json",
+  "plans": [
+    "docs/factory/project/PLAN.md",
+    "docs/factory/project/SOURCE_CLARIFICATIONS.md"
+  ],
+  "currentGate": {
+    "passed": false,
+    "errors": [
+      "Missing section catalogues-heading",
+      "Missing visual source facts catalogues-downloads"
+    ],
+    "group": "catalogues"
+  },
+  "instruction": "Inspect the current gate and finish only remaining assigned work. Reuse real saved source facts and assets."
+}

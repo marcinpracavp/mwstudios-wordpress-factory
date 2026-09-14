@@ -1,0 +1,54 @@
+{
+  "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\011-discovery-detail-blog\\events.jsonl",
+  "lines": 95,
+  "rejected": [
+    {
+      "line": 45,
+      "bytes": 2817,
+      "sha256": "4e3b3219e4f6477677955b31e1d9b3744ba604ea29b790fd33083490589dbf50",
+      "error": "Unterminated string in JSON at position 2788 (line 1 column 2789)"
+    },
+    {
+      "line": 46,
+      "bytes": 15402,
+      "sha256": "6186dd232a770f4aff9a37ce82fb4434dbc0516e22ede01b3fd3d5a317ae9fd6",
+      "error": "Unexpected token 'i', \"i wyróżnie\"... is not valid JSON"
+    },
+    {
+      "line": 47,
+      "bytes": 2874,
+      "sha256": "ec9db98370377e577a564479c1ae12eda6bb57826ee2159a1a4a2bddff92fe50",
+      "error": "Unterminated string in JSON at position 2845 (line 1 column 2846)"
+    },
+    {
+      "line": 48,
+      "bytes": 7338,
+      "sha256": "ed3bbd495ada811b2b87b587daaf602bced48099db85912a22152f2252b070ed",
+      "error": "Unexpected token 'i', \"i wyróżnie\"... is not valid JSON"
+    },
+    {
+      "line": 49,
+      "bytes": 220,
+      "sha256": "7904d3e18792dcce4821871980765f3cf34d459fbe9c213129376fdfd4323aa4",
+      "error": "Unexpected token 'N', \"Nawóz wiel\"... is not valid JSON"
+    },
+    {
+      "line": 50,
+      "bytes": 203,
+      "sha256": "eda20048defeed56710160f27efaf42a0cb569e479bb2af5a4107dfbacbe243d",
+      "error": "Unexpected token 'K', \"Kompleksow\"... is not valid JSON"
+    },
+    {
+      "line": 51,
+      "bytes": 182,
+      "sha256": "c6d72d6f7e854e7e25f4637b4920c9d41149cde7916a571ffe9de5c8d32dcaf5",
+      "error": "Unexpected token 'S', \"Specjalist\"... is not valid JSON"
+    },
+    {
+      "line": 52,
+      "bytes": 4341,
+      "sha256": "04887c61689ba34b5056c5980c9ca3942d5be213d7e6f081b44f27f67499c85e",
+      "error": "Unexpected token 'N', \"Nawóz z wy\"... is not valid JSON"
+    }
+  ]
+}

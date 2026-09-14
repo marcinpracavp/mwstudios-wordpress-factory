@@ -1,0 +1,195 @@
+{
+  "id": "5ea250acb1158a8cb8a0",
+  "tool": "use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "294:3"
+  ],
+  "description": "Read product archive top-level node geometry to identify logical sections",
+  "recordedAt": "2026-09-11T10:09:31.624Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    [
+      {
+        "id": "295:700",
+        "name": "Strona główna / Środki ochrony Roślin / Fungicydy",
+        "type": "TEXT",
+        "x": 240,
+        "y": 189,
+        "width": 508,
+        "height": 70,
+        "visible": true
+      },
+      {
+        "id": "303:1367",
+        "name": "© Rudnikagro.pl 2026 | Wszelkie prawa zastrzeżone",
+        "type": "TEXT",
+        "x": 240,
+        "y": 4860,
+        "width": 377,
+        "height": 34,
+        "visible": true
+      },
+      {
+        "id": "303:1368",
+        "name": "Projekt i wykonanie: Virtual People",
+        "type": "TEXT",
+        "x": 1425,
+        "y": 4860,
+        "width": 259,
+        "height": 34,
+        "visible": true
+      },
+      {
+        "id": "303:1369",
+        "name": "stopka",
+        "type": "GROUP",
+        "x": 40,
+        "y": 4287,
+        "width": 1840,
+        "height": 554,
+        "visible": true
+      },
+      {
+        "id": "310:1554",
+        "name": "boczne menu",
+        "type": "GROUP",
+        "x": 240,
+        "y": 259,
+        "width": 345,
+        "height": 2066,
+        "visible": true
+      },
+      {
+        "id": "303:1281",
+        "name": "opis",
+        "type": "GROUP",
+        "x": 605,
+        "y": 259,
+        "width": 1075,
+        "height": 233,
+        "visible": true
+      },
+      {
+        "id": "303:1283",
+        "name": "sortowanie",
+        "type": "GROUP",
+        "x": 599,
+        "y": 586,
+        "width": 1081,
+        "height": 3551,
+        "visible": true
+      },
+      {
+        "id": "420:3",
+        "name": "Rectangle 34",
+        "type": "RECTANGLE",
+        "x": 599,
+        "y": 517,
+        "width": 149,
+        "height": 44,
+        "visible": true
+      },
+      {
+        "id": "420:4",
+        "name": "Rozwiń",
+        "type": "TEXT",
+        "x": 650,
+        "y": 530,
+        "width": 48,
+        "height": 18,
+        "visible": true
+      },
+      {
+        "id": "303:1277",
+        "name": "tekst",
+        "type": "GROUP",
+        "x": 605,
+        "y": 3667,
+        "width": 1075,
+        "height": 2242,
+        "visible": true
+      },
+      {
+        "id": "303:1322",
+        "name": "numeracja stron",
+        "type": "GROUP",
+        "x": 969,
+        "y": 3570,
+        "width": 348,
+        "height": 40,
+        "visible": true
+      },
+      {
+        "id": "303:1282",
+        "name": "lista produktów",
+        "type": "GROUP",
+        "x": 605,
+        "y": 662,
+        "width": 1075,
+        "height": 2884,
+        "visible": true
+      },
+      {
+        "id": "294:616",
+        "name": "mega menu",
+        "type": "GROUP",
+        "x": 240,
+        "y": 115,
+        "width": 1440,
+        "height": 78.6761245727539,
+        "visible": true
+      },
+      {
+        "id": "294:685",
+        "name": "Line 1",
+        "type": "LINE",
+        "x": 240,
+        "y": 115,
+        "width": 1440,
+        "height": 0,
+        "visible": true
+      },
+      {
+        "id": "294:655",
+        "name": "secondary menu",
+        "type": "GROUP",
+        "x": 237.99977111816406,
+        "y": 56,
+        "width": 1441.8232421875,
+        "height": 42,
+        "visible": true
+      },
+      {
+        "id": "294:677",
+        "name": "topbar",
+        "type": "GROUP",
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 40,
+        "visible": true
+      },
+      {
+        "id": "516:87",
+        "name": "image 12",
+        "type": "RECTANGLE",
+        "x": 1370,
+        "y": 4672,
+        "width": 188,
+        "height": 44,
+        "visible": true
+      },
+      {
+        "id": "516:88",
+        "name": "Nasze certyfikaty i wyróżnienia:",
+        "type": "TEXT",
+        "x": 1216,
+        "y": 4674,
+        "width": 129,
+        "height": 42,
+        "visible": true
+      }
+    ]
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "dc8e3db2622ed0c06530",
+  "tool": "figma.use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "294:3"
+  ],
+  "description": "Clarify measured full-reference mismatch for product archive frame only",
+  "recordedAt": "2026-09-10T19:49:32.731Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "id": "294:3",
+      "width": 1920,
+      "height": 4919,
+      "clipsContent": false,
+      "absoluteBoundingBox": {
+        "x": 4564,
+        "y": -680,
+        "width": 1920,
+        "height": 4919
+      },
+      "absoluteRenderBounds": {
+        "x": 4564,
+        "y": -680,
+        "width": 1920,
+        "height": 5874.9599609375
+      },
+      "overflowingChildren": [
+        {
+          "id": "303:1277",
+          "name": "tekst",
+          "visible": true,
+          "y": 3667,
+          "height": 2242,
+          "box": {
+            "x": 5169,
+            "y": 2987,
+            "width": 1075,
+            "height": 2242
+          },
+          "renderBounds": {
+            "x": 5168.49609375,
+            "y": 2987,
+            "width": 1075.50390625,
+            "height": 2242
+          }
+        }
+      ]
+    }
+  ]
+}

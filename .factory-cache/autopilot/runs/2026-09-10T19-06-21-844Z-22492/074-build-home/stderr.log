@@ -1,0 +1,3 @@
+2026-09-13T15:13:43.113592Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+2026-09-13T15:13:46.000483Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh
+2026-09-13T15:34:55.100196Z  WARN codex_core::tasks: failed to flush rollout after emitting terminal turn event: thread 01a09b40-b8e1-72f0-a4f7-cfeb79c86e57 not found

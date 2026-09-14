@@ -1,0 +1,34 @@
+{
+  "id": "checkout-login-heading",
+  "manifestRecord": {
+    "id": "checkout-login-heading",
+    "name": "Logowanie",
+    "order": 66,
+    "pageId": "0:1",
+    "snapshot": "sections/66-checkout-login-heading.json",
+    "desktopNodeId": "495:1687",
+    "desktopReference": "references/sections/checkout-login-heading.png"
+  },
+  "contentFields": [
+    {
+      "section": "checkout-login-heading",
+      "nodeId": "495:1687",
+      "fieldName": "rudnikagro_checkout_login_heading_heading",
+      "type": "text",
+      "language": "pl",
+      "value": "Logowanie",
+      "destination": "ACF Options / Checkout content tab",
+      "linkEvidence": [
+        {
+          "characters": "Logowanie",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "495:1687"
+      }
+    }
+  ]
+}

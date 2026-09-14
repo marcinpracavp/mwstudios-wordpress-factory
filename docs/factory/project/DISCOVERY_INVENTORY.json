@@ -1,0 +1,212 @@
+[
+  {
+    "id": "349:1267",
+    "name": "kariera",
+    "type": "FRAME",
+    "x": 17876,
+    "y": -680,
+    "width": 1920,
+    "height": 3802,
+    "visible": true
+  },
+  {
+    "id": "347:1120",
+    "name": "katalogi",
+    "type": "FRAME",
+    "x": 15684,
+    "y": -680,
+    "width": 1920,
+    "height": 1850,
+    "visible": true
+  },
+  {
+    "id": "327:3176",
+    "name": "blog wpis",
+    "type": "FRAME",
+    "x": 13460,
+    "y": 3408,
+    "width": 1920,
+    "height": 4010,
+    "visible": true
+  },
+  {
+    "id": "327:2986",
+    "name": "blog lista",
+    "type": "FRAME",
+    "x": 13460,
+    "y": -680,
+    "width": 1920,
+    "height": 3816,
+    "visible": true
+  },
+  {
+    "id": "335:591",
+    "name": "kontakt",
+    "type": "FRAME",
+    "x": 11236,
+    "y": 3408,
+    "width": 1920,
+    "height": 2614,
+    "visible": true
+  },
+  {
+    "id": "326:2764",
+    "name": "o firmie",
+    "type": "FRAME",
+    "x": 11236,
+    "y": -680,
+    "width": 1920,
+    "height": 3863,
+    "visible": true
+  },
+  {
+    "id": "326:2526",
+    "name": "szczególy produktu - rozwinięte",
+    "type": "FRAME",
+    "x": 6788,
+    "y": 6531,
+    "width": 1920,
+    "height": 6031,
+    "visible": true
+  },
+  {
+    "id": "318:1556",
+    "name": "szczególy produktu",
+    "type": "FRAME",
+    "x": 6788,
+    "y": -680,
+    "width": 1920,
+    "height": 3316,
+    "visible": true
+  },
+  {
+    "id": "423:263",
+    "name": "szczególy produktu",
+    "type": "FRAME",
+    "x": 6788,
+    "y": 2884,
+    "width": 1920,
+    "height": 3397,
+    "visible": true
+  },
+  {
+    "id": "438:151",
+    "name": "koszyk",
+    "type": "FRAME",
+    "x": 9012,
+    "y": -680,
+    "width": 1920,
+    "height": 1644,
+    "visible": true
+  },
+  {
+    "id": "489:483",
+    "name": "Dostawa i płatność",
+    "type": "FRAME",
+    "x": 9012,
+    "y": 5446,
+    "width": 1920,
+    "height": 2942,
+    "visible": true
+  },
+  {
+    "id": "493:1094",
+    "name": "Podsumowanie",
+    "type": "FRAME",
+    "x": 9012,
+    "y": 8577,
+    "width": 1920,
+    "height": 2199,
+    "visible": true
+  },
+  {
+    "id": "492:775",
+    "name": "Koszyk - logowanie/rejestracja",
+    "type": "FRAME",
+    "x": 9012,
+    "y": 1153,
+    "width": 1920,
+    "height": 1799,
+    "visible": true
+  },
+  {
+    "id": "495:1558",
+    "name": "Koszyk - logowanie/rejestracja popup",
+    "type": "FRAME",
+    "x": 9012,
+    "y": 3290,
+    "width": 1920,
+    "height": 1818,
+    "visible": true
+  },
+  {
+    "id": "425:542",
+    "name": "szczególy produktu",
+    "type": "FRAME",
+    "x": 6788,
+    "y": 12969,
+    "width": 1920,
+    "height": 3291,
+    "visible": true
+  },
+  {
+    "id": "586:711",
+    "name": "szczególy produktu",
+    "type": "FRAME",
+    "x": 6788,
+    "y": 16401,
+    "width": 1920,
+    "height": 3111,
+    "visible": true
+  },
+  {
+    "id": "294:3",
+    "name": "lista produktów",
+    "type": "FRAME",
+    "x": 4564,
+    "y": -680,
+    "width": 1920,
+    "height": 4919,
+    "visible": true
+  },
+  {
+    "id": "250:115",
+    "name": "strona główna - aktywne elementy",
+    "type": "FRAME",
+    "x": 2340,
+    "y": -680,
+    "width": 1920,
+    "height": 8999,
+    "visible": true
+  },
+  {
+    "id": "12:2",
+    "name": "strona główna",
+    "type": "FRAME",
+    "x": 116,
+    "y": -680,
+    "width": 1920,
+    "height": 8999,
+    "visible": true
+  },
+  {
+    "id": "586:1028",
+    "name": "Pakiety",
+    "type": "FRAME",
+    "x": 6788,
+    "y": 19770,
+    "width": 1920,
+    "height": 3624,
+    "visible": true
+  },
+  {
+    "id": "524:2",
+    "name": "logowanie/rejestracja",
+    "type": "FRAME",
+    "x": 9012,
+    "y": 11049,
+    "width": 1920,
+    "height": 1555,
+    "visible": true
+  }
+]

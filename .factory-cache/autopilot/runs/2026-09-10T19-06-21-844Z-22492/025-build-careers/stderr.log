@@ -1,0 +1,3 @@
+2026-09-11T15:28:23.567531Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+2026-09-11T15:28:28.191891Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh
+2026-09-11T15:43:36.385635Z ERROR codex_core::tools::router: error=unable to process image: invalid or unsupported image data

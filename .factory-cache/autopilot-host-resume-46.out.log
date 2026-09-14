@@ -1,0 +1,6 @@
+home: PAGE FAIL page pixel mismatch 13.124%; Section geometry differs: home-promotions; Section geometry differs: home-bundles
+home-active: PAGE FAIL page pixel mismatch 13.711%; Section geometry differs: home-promotions; Section geometry differs: home-bundles
+2026-09-13T15:13:42.783Z START build:home [gpt-5.6-terra high] (.factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/074-build-home)
+home: DEFERRED TO FINAL page pixel mismatch 11.533%
+home-active: PAGE FAIL page pixel mismatch 12.039%
+2026-09-13T15:36:16.896Z START build:home [gpt-5.6-terra high] (.factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/075-build-home)

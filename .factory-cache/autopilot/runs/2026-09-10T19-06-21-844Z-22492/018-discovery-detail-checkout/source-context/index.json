@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "stage": "discovery",
+  "group": "checkout",
+  "routes": [
+    {
+      "id": "checkout",
+      "frameNodeId": "489:483"
+    },
+    {
+      "id": "order-confirmed",
+      "frameNodeId": "493:1094"
+    },
+    {
+      "id": "checkout-login",
+      "frameNodeId": "492:775"
+    },
+    {
+      "id": "checkout-registration",
+      "frameNodeId": "495:1558"
+    }
+  ],
+  "sectionCount": 16,
+  "contentRecordCount": 70,
+  "relevantObservationCount": 19,
+  "sourceFiles": [
+    {
+      "path": ".factory-cache/figma/latest/manifest.json",
+      "bytes": 268192,
+      "sha256": "1b0a51e16c1aac3fe1a3985723d551f16ff8a23928720a1c67ce1d81dc0b30b5"
+    },
+    {
+      "path": ".factory-cache/figma/latest/content-map.json",
+      "bytes": 389949,
+      "sha256": "1ee388085840b742acefa578d3e90fe7f6c091a5e87185e4abb1251393d51e3d"
+    },
+    {
+      "path": ".factory-cache/figma/latest/observations/index.json",
+      "bytes": 28429,
+      "sha256": "48de0f7469838a33b688e5e34e1f0b837d3155dc13ababdd3f7409feb5fe5652"
+    }
+  ],
+  "scope": {
+    "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/018-discovery-detail-checkout/source-context/scope.json",
+    "bytes": 18684,
+    "sha256": "dfdafdfaf50a809cf1e3b278231a3869635835e9da5505ebdd4bd7bff14a4f64"
+  },
+  "read": "node scripts/factory/autopilot/source-context.js inspect .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/018-discovery-detail-checkout/source-context/scope.json /sections",
+  "rule": "Read this index first, then one section record and source snapshot at a time. Do not print full manifest/content-map/observation index. All source bytes remain on disk."
+}

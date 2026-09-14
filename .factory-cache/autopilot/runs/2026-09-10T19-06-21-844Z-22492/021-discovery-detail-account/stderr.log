@@ -1,0 +1,3 @@
+2026-09-11T10:23:54.795566Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+2026-09-11T10:23:54.818688Z ERROR codex_skills_extension::host_service: failed to install system skills: io error while remove existing system skills dir: Katalog nie jest pusty. (os error 145)
+2026-09-11T10:23:57.383292Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh

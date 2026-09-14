@@ -1,0 +1,20 @@
+﻿{
+  "oneL": {
+    "price": 82.2,
+    "provenance": "user-authorized-proportional",
+    "calculated": true,
+    "basePrice": 411,
+    "baseQuantity": "5 L",
+    "targetQuantity": "1 L",
+    "decimals": 2
+  },
+  "twentyL": {
+    "price": 1644,
+    "provenance": "user-authorized-proportional",
+    "calculated": true,
+    "basePrice": 411,
+    "baseQuantity": "5 L",
+    "targetQuantity": "20 L",
+    "decimals": 2
+  }
+}

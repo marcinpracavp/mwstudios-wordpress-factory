@@ -1,0 +1,345 @@
+{
+  "id": "a45143baf1f2dcaf7dcd",
+  "tool": "use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "303:1282"
+  ],
+  "description": "Extract final six product content records and media geometry",
+  "recordedAt": "2026-09-11T10:13:50.667Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    [
+      {
+        "id": "302:1157",
+        "name": "produkt13",
+        "x": 605,
+        "y": 2598,
+        "width": 345,
+        "height": 464,
+        "text": [
+          {
+            "id": "302:1169",
+            "text": " Belanty 5L",
+            "fontSize": 18,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400,
+                "opsz": 14
+              }
+            },
+            "x": 732,
+            "y": 2917,
+            "width": 93,
+            "height": 23
+          },
+          {
+            "id": "302:1170",
+            "text": "553,68 zł",
+            "fontSize": 24,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Bold",
+              "variationSettings": {
+                "wght": 700,
+                "opsz": 14
+              }
+            },
+            "x": 725,
+            "y": 2950,
+            "width": 105,
+            "height": 31
+          }
+        ],
+        "media": [
+          {
+            "id": "302:1257",
+            "name": "belanty 1",
+            "x": 693,
+            "y": 2626,
+            "width": 172,
+            "height": 255,
+            "imageHash": "f5a4226c8ba4ff752cd76000eaa220aa6ab6c8fc"
+          }
+        ]
+      },
+      {
+        "id": "302:1173",
+        "name": "produkt14",
+        "x": 970,
+        "y": 2598,
+        "width": 345,
+        "height": 464,
+        "text": [
+          {
+            "id": "302:1185",
+            "text": " Bellis 38 WG 1kg",
+            "fontSize": 18,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400,
+                "opsz": 14
+              }
+            },
+            "x": 1074,
+            "y": 2917,
+            "width": 139,
+            "height": 23
+          },
+          {
+            "id": "302:1186",
+            "text": "287,16 zł",
+            "fontSize": 24,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Bold",
+              "variationSettings": {
+                "wght": 700,
+                "opsz": 14
+              }
+            },
+            "x": 1095,
+            "y": 2950,
+            "width": 94,
+            "height": 31
+          }
+        ],
+        "media": [
+          {
+            "id": "303:1261",
+            "name": "bellis 1",
+            "x": 1022,
+            "y": 2609,
+            "width": 250,
+            "height": 280,
+            "imageHash": "b9823238407d99e41de2534e1202076455c7d3f3"
+          }
+        ]
+      },
+      {
+        "id": "302:1189",
+        "name": "produkt15",
+        "x": 1335,
+        "y": 2598,
+        "width": 345,
+        "height": 464,
+        "text": [
+          {
+            "id": "302:1201",
+            "text": " Bellis 38 WG 5kg",
+            "fontSize": 18,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400,
+                "opsz": 14
+              }
+            },
+            "x": 1436,
+            "y": 2917,
+            "width": 144,
+            "height": 23
+          },
+          {
+            "id": "302:1202",
+            "text": "1 380,51 zł",
+            "fontSize": 24,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Bold",
+              "variationSettings": {
+                "wght": 700,
+                "opsz": 14
+              }
+            },
+            "x": 1450,
+            "y": 2950,
+            "width": 114,
+            "height": 31
+          }
+        ],
+        "media": [
+          {
+            "id": "303:1263",
+            "name": "bellis-5l 1",
+            "x": 1388,
+            "y": 2616,
+            "width": 230,
+            "height": 281,
+            "imageHash": "b39ed3011a194ce011f85746d3be3c47b0756900"
+          }
+        ]
+      },
+      {
+        "id": "302:1205",
+        "name": "produkt16",
+        "x": 605,
+        "y": 3082,
+        "width": 345,
+        "height": 464,
+        "text": [
+          {
+            "id": "302:1217",
+            "text": " Boogie XPRO 400 EC 15L",
+            "fontSize": 18,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400,
+                "opsz": 14
+              }
+            },
+            "x": 673,
+            "y": 3401,
+            "width": 211,
+            "height": 23
+          },
+          {
+            "id": "302:1218",
+            "text": "2 754,00 zł",
+            "fontSize": 24,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Bold",
+              "variationSettings": {
+                "wght": 700,
+                "opsz": 14
+              }
+            },
+            "x": 714,
+            "y": 3434,
+            "width": 127,
+            "height": 31
+          }
+        ],
+        "media": [
+          {
+            "id": "303:1265",
+            "name": "image 9",
+            "x": 689,
+            "y": 3089,
+            "width": 194,
+            "height": 291,
+            "imageHash": "c41fa21bfaaa50636b4af947c92134ff8b11536c"
+          }
+        ]
+      },
+      {
+        "id": "302:1221",
+        "name": "produkt17",
+        "x": 970,
+        "y": 3082,
+        "width": 345,
+        "height": 464,
+        "text": [
+          {
+            "id": "302:1233",
+            "text": " Cabrio Duo 112 EC 10L",
+            "fontSize": 18,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400,
+                "opsz": 14
+              }
+            },
+            "x": 1051,
+            "y": 3401,
+            "width": 185,
+            "height": 23
+          },
+          {
+            "id": "302:1234",
+            "text": "981,68 zł",
+            "fontSize": 24,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Bold",
+              "variationSettings": {
+                "wght": 700,
+                "opsz": 14
+              }
+            },
+            "x": 1093,
+            "y": 3434,
+            "width": 99,
+            "height": 31
+          }
+        ],
+        "media": [
+          {
+            "id": "303:1270",
+            "name": "cabrio 1",
+            "x": 1034,
+            "y": 3101,
+            "width": 219,
+            "height": 267,
+            "imageHash": "01389ec496f14f6bbde38b3d2f176cd8a8841376"
+          }
+        ]
+      },
+      {
+        "id": "302:1237",
+        "name": "produkt12",
+        "x": 1335,
+        "y": 3082,
+        "width": 345,
+        "height": 464,
+        "text": [
+          {
+            "id": "302:1249",
+            "text": " Cabrio Duo 112 EC 1L",
+            "fontSize": 18,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400,
+                "opsz": 14
+              }
+            },
+            "x": 1422,
+            "y": 3401,
+            "width": 173,
+            "height": 23
+          },
+          {
+            "id": "302:1250",
+            "text": "99,76 zł",
+            "fontSize": 24,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Bold",
+              "variationSettings": {
+                "wght": 700,
+                "opsz": 14
+              }
+            },
+            "x": 1463,
+            "y": 3434,
+            "width": 89,
+            "height": 31
+          }
+        ],
+        "media": [
+          {
+            "id": "303:1275",
+            "name": "cabrio-1l 1",
+            "x": 1406,
+            "y": 3119,
+            "width": 189,
+            "height": 231,
+            "imageHash": "b6ef0af2d15af8af19991cf0dfa4508260ca9d65"
+          }
+        ]
+      }
+    ]
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "id": "4ab433279e74fe00a94f",
+  "tool": "figma.use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "326:2526"
+  ],
+  "description": "Read compact page composition szczególy produktu - rozwinięte 326:2526",
+  "recordedAt": "2026-09-10T19:30:16.853Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "id": "326:2526",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "grids": [
+        {
+          "pattern": "COLUMNS",
+          "visible": true,
+          "color": {
+            "r": 1,
+            "g": 0,
+            "b": 0,
+            "a": 0.10000000149011612
+          },
+          "gutterSize": 20,
+          "alignment": "STRETCH",
+          "count": 12,
+          "offset": 240,
+          "boundVariables": {}
+        }
+      ],
+      "children": [
+        {
+          "id": "326:2527",
+          "name": "Strona główna / Środki ochrony Roślin / Herbicydy / Aqu",
+          "type": "TEXT",
+          "x": 240,
+          "y": 189,
+          "width": 508,
+          "height": 70
+        },
+        {
+          "id": "326:2528",
+          "name": "© Rudnikagro.pl 2026 | Wszelkie prawa zastrzeżone",
+          "type": "TEXT",
+          "x": 240,
+          "y": 5977,
+          "width": 377,
+          "height": 34
+        },
+        {
+          "id": "326:2529",
+          "name": "Projekt i wykonanie: Virtual People",
+          "type": "TEXT",
+          "x": 1425,
+          "y": 5977,
+          "width": 259,
+          "height": 34
+        },
+        {
+          "id": "326:2530",
+          "name": "stopka",
+          "type": "GROUP",
+          "x": 40,
+          "y": 5404,
+          "width": 1840,
+          "height": 554
+        },
+        {
+          "id": "326:2567",
+          "name": "produkty powiązane",
+          "type": "GROUP",
+          "x": 240,
+          "y": 4348,
+          "width": 710,
+          "height": 570
+        },
+        {
+          "id": "326:2601",
+          "name": "szczegóły",
+          "type": "GROUP",
+          "x": 240,
+          "y": 1095,
+          "width": 1440,
+          "height": 3162
+        },
+        {
+          "id": "326:2736",
+          "name": "Opinie",
+          "type": "TEXT",
+          "x": 971,
+          "y": 1095,
+          "width": 223,
+          "height": 58
+        },
+        {
+          "id": "576:551",
+          "name": "Pliki do pobrania",
+          "type": "TEXT",
+          "x": 1214,
+          "y": 1095,
+          "width": 223,
+          "height": 58
+        },
+        {
+          "id": "326:2657",
+          "name": "zdjecie produktu",
+          "type": "GROUP",
+          "x": 240,
+          "y": 259,
+          "width": 710,
+          "height": 710
+        },
+        {
+          "id": "326:2660",
+          "name": "mega menu",
+          "type": "GROUP",
+          "x": 240,
+          "y": 115,
+          "width": 1440,
+          "height": 78.6761245727539
+        },
+        {
+          "id": "326:2699",
+          "name": "Line 1",
+          "type": "LINE",
+          "x": 240,
+          "y": 115,
+          "width": 1440,
+          "height": 0
+        },
+        {
+          "id": "326:2700",
+          "name": "secondary menu",
+          "type": "GROUP",
+          "x": 241,
+          "y": 56,
+          "width": 1438.8232421875,
+          "height": 42
+        },
+        {
+          "id": "326:2722",
+          "name": "topbar",
+          "type": "GROUP",
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 40
+        },
+        {
+          "id": "326:2730",
+          "name": "Rectangle 108",
+          "type": "RECTANGLE",
+          "x": 240,
+          "y": 4976,
+          "width": 1440,
+          "height": 149
+        },
+        {
+          "id": "326:2731",
+          "name": "Środki ochrony roślin mogą być nabywane wyłącznie przez",
+          "type": "TEXT",
+          "x": 362,
+          "y": 4977,
+          "width": 1196,
+          "height": 147
+        },
+        {
+          "id": "326:2732",
+          "name": "Rectangle 109",
+          "type": "RECTANGLE",
+          "x": 240,
+          "y": 5150,
+          "width": 1440,
+          "height": 113
+        },
+        {
+          "id": "326:2733",
+          "name": "PRODUKT PROFESJONALNY Numer wpisu do rejestru działalno",
+          "type": "TEXT",
+          "x": 362,
+          "y": 5151,
+          "width": 1196,
+          "height": 112
+        },
+        {
+          "id": "326:2735",
+          "name": "DZIAŁANIE NA CHWASTY AQUATOS jest pobierany przez korze",
+          "type": "TEXT",
+          "x": 362,
+          "y": 1227,
+          "width": 1196,
+          "height": 2977
+        },
+        {
+          "id": "496:1897",
+          "name": "dane produktu",
+          "type": "GROUP",
+          "x": 968,
+          "y": 259,
+          "width": 712,
+          "height": 710
+        },
+        {
+          "id": "425:501",
+          "name": "ocena, zapytaj o produkt",
+          "type": "GROUP",
+          "x": 970,
+          "y": 626,
+          "width": 346,
+          "height": 213
+        }
+      ]
+    }
+  ]
+}

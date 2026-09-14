@@ -1,0 +1,7 @@
+2026-09-11T09:48:04.317236Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+2026-09-11T09:48:06.736886Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh
+2026-09-11T10:03:40.242565Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in C:\Users\HP\Local Sites\autopilot\app\public\wp-content\themes\slawinsky-boilerplate\docs\factory\project\PLAN.md:
+<!-- factory-cart-source-mapping -->
+<!-- factory-cart-source-mapping -->
+2026-09-11T10:04:06.633704Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in C:\Users\HP\Local Sites\autopilot\app\public\wp-content\themes\slawinsky-boilerplate\docs\factory\project\PLAN.md:
+No ACF fields are created in discovery. The observed Aquatos 5L, BLACKFRIDAY, 411,00 zÅ‚, 22,90 zÅ‚, 50 zÅ‚ and 383,90 zÅ‚ values are source-state evidence and require real WooCommerce product, coupon, shipping and tax configuration before they can appear natively.

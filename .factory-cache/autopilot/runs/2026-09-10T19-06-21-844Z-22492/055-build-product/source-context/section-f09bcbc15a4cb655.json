@@ -1,0 +1,274 @@
+{
+  "id": "product-tabs",
+  "manifestRecord": {
+    "id": "product-tabs",
+    "name": "zakładki produktu",
+    "order": 52,
+    "pageId": "0:1",
+    "snapshot": "sections/47-product-tabs.json",
+    "desktopNodeId": "319:2072",
+    "desktopReference": "references/sections/product-tabs.png"
+  },
+  "contentFields": [
+    {
+      "section": "product-tabs",
+      "nodeId": "319:2072",
+      "fieldName": "rudnikagro_product_tabs_tab_1_319_2072",
+      "type": "text",
+      "language": "pl",
+      "value": "Dane techniczne",
+      "destination": "WooCommerce product tabs / ACF tab labels",
+      "linkEvidence": [
+        {
+          "characters": "Dane techniczne",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "319:2072"
+      }
+    },
+    {
+      "section": "product-tabs",
+      "nodeId": "319:2072",
+      "fieldName": "rudnikagro_product_tabs_tab_2_319_2072",
+      "type": "text",
+      "language": "pl",
+      "value": "Opis produktu",
+      "destination": "WooCommerce product tabs / ACF tab labels",
+      "linkEvidence": [
+        {
+          "characters": "Opis produktu",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "319:2072"
+      }
+    },
+    {
+      "section": "product-tabs",
+      "nodeId": "319:2072",
+      "fieldName": "rudnikagro_product_tabs_tab_3_319_2072",
+      "type": "text",
+      "language": "pl",
+      "value": "Stosowanie",
+      "destination": "WooCommerce product tabs / ACF tab labels",
+      "linkEvidence": [
+        {
+          "characters": "Stosowanie",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "319:2072"
+      }
+    },
+    {
+      "section": "product-tabs",
+      "nodeId": "319:2072",
+      "fieldName": "rudnikagro_product_tabs_tab_4_319_2072",
+      "type": "text",
+      "language": "pl",
+      "value": "Opinie",
+      "destination": "WooCommerce product tabs / ACF tab labels",
+      "linkEvidence": [
+        {
+          "characters": "Opinie",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "319:2072"
+      }
+    },
+    {
+      "section": "product-tabs",
+      "nodeId": "319:2072",
+      "fieldName": "rudnikagro_product_tabs_tab_5_319_2072",
+      "type": "text",
+      "language": "pl",
+      "value": "Pliki do pobrania",
+      "destination": "WooCommerce product tabs / ACF tab labels",
+      "linkEvidence": [
+        {
+          "characters": "Pliki do pobrania",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "319:2072"
+      }
+    },
+    {
+      "section": "product-tabs",
+      "nodeId": "319:2072",
+      "fieldName": "rudnikagro_product_tabs_roślina_chroniona_319_2072",
+      "type": "text",
+      "language": "pl",
+      "value": "Roślina chroniona",
+      "destination": "WooCommerce product technical-data repeater",
+      "linkEvidence": [
+        {
+          "characters": "Roślina chroniona",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "319:2072"
+      }
+    },
+    {
+      "section": "product-tabs",
+      "nodeId": "319:2072",
+      "fieldName": "rudnikagro_product_tabs_roślina_chroniona_treść_319_2072",
+      "type": "text",
+      "language": "pl",
+      "value": "truskawka, cebula, marchew, groch jadalny zielony, czosnek, słonecznik, seler listkowy, kolendra siewna, pietruszka naciowa, szczypiorek, roszponka, kminek, zwyczajny, kozieradka pospolita",
+      "destination": "WooCommerce product technical-data repeater",
+      "linkEvidence": [
+        {
+          "characters": "truskawka, cebula, marchew, groch jadalny zielony, czosnek, słonecznik, seler listkowy, kolendra siewna, pietruszka naciowa, szczypiorek, roszponka, kminek, zwyczajny, kozieradka pospolita",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "319:2072"
+      }
+    },
+    {
+      "section": "product-tabs",
+      "nodeId": "319:2072",
+      "fieldName": "rudnikagro_product_tabs_substancja_czynna_319_2072",
+      "type": "text",
+      "language": "pl",
+      "value": "Substancja czynna",
+      "destination": "WooCommerce product technical-data repeater",
+      "linkEvidence": [
+        {
+          "characters": "Substancja czynna",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "319:2072"
+      }
+    },
+    {
+      "section": "product-tabs",
+      "nodeId": "319:2072",
+      "fieldName": "rudnikagro_product_tabs_substancja_czynna_treść_319_2072",
+      "type": "text",
+      "language": "pl",
+      "value": "pendimetalina (związek z grupy dinitroanilin) – 455 g/l (39%)",
+      "destination": "WooCommerce product technical-data repeater",
+      "linkEvidence": [
+        {
+          "characters": "pendimetalina (związek z grupy dinitroanilin) – 455 g/l (39%)",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "319:2072"
+      }
+    },
+    {
+      "section": "product-tabs",
+      "nodeId": "319:2072",
+      "fieldName": "rudnikagro_product_tabs_zwalczana_choroba_319_2072",
+      "type": "text",
+      "language": "pl",
+      "value": "Zwalczana choroba / szkodnik",
+      "destination": "WooCommerce product technical-data repeater",
+      "linkEvidence": [
+        {
+          "characters": "Zwalczana choroba / szkodnik",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "319:2072"
+      }
+    },
+    {
+      "section": "product-tabs",
+      "nodeId": "319:2072",
+      "fieldName": "rudnikagro_product_tabs_zwalczana_choroba_treść_319_2072",
+      "type": "text",
+      "language": "pl",
+      "value": "Wrażliwe: chwastnica jednostronna, fiołek polny, fiolek trójbarwny, gwiazdnica pospolita, jasnota różowa, komosa biała, pokrzywa żegawka, przetacznik perski, rdest ptasi, rdest plamisty, rzodkiew świrzepa, rumian polny, tasznik pospolity, wiechlina roczna. Średniowrażliwe: bodziszek drobny, gorczyca polna, iglica pospolita, jasnota purpurowa, pokrzywa zwyczajna, poziewnik szorstki, przytulia czepna, rdestówka powojowata, rumianek pospolity, szarłat szorstki, tobołki polne. Odporne: maruna bezwonna, przymiotno kanadyjskie, starzec zwyczajny, szarota błotna, żółtlica drobnokwiatowa",
+      "destination": "WooCommerce product technical-data repeater",
+      "linkEvidence": [
+        {
+          "characters": "Wrażliwe: chwastnica jednostronna, fiołek polny, fiolek trójbarwny, gwiazdnica pospolita, jasnota różowa, komosa biała, pokrzywa żegawka, przetacznik perski, rdest ptasi, rdest plamisty, rzodkiew świrzepa, rumian polny, tasznik pospolity, wiechlina roczna. Średniowrażliwe: bodziszek drobny, gorczyca polna, iglica pospolita, jasnota purpurowa, pokrzywa zwyczajna, poziewnik szorstki, przytulia czepna, rdestówka powojowata, rumianek pospolity, szarłat szorstki, tobołki polne. Odporne: maruna bezwonna, przymiotno kanadyjskie, starzec zwyczajny, szarota błotna, żółtlica drobnokwiatowa",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "319:2072"
+      }
+    },
+    {
+      "section": "product-tabs",
+      "nodeId": "319:2072",
+      "fieldName": "rudnikagro_product_tabs_dawka_319_2072",
+      "type": "text",
+      "language": "pl",
+      "value": "Dawka",
+      "destination": "WooCommerce product technical-data repeater",
+      "linkEvidence": [
+        {
+          "characters": "Dawka",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "319:2072"
+      }
+    },
+    {
+      "section": "product-tabs",
+      "nodeId": "319:2072",
+      "fieldName": "rudnikagro_product_tabs_dawka_treść_319_2072",
+      "type": "text",
+      "language": "pl",
+      "value": "20-25 ml/100 m2",
+      "destination": "WooCommerce product technical-data repeater",
+      "linkEvidence": [
+        {
+          "characters": "20-25 ml/100 m2",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "319:2072"
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "1850d401c5bcc36e22a0",
+  "tool": "use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "140:263",
+    "12:2"
+  ],
+  "description": "Locate lower homepage knowledge content and background without whole-page rediscovery",
+  "recordedAt": "2026-09-11T00:49:01.168Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "id": "140:263",
+      "name": "tlo",
+      "children": [
+        {
+          "id": "116:53",
+          "name": "nawozenie 1",
+          "type": "RECTANGLE",
+          "bounds": {
+            "x": 0,
+            "y": 7023,
+            "width": 1920,
+            "height": 1280
+          },
+          "children": []
+        },
+        {
+          "id": "116:54",
+          "name": "Rectangle 22",
+          "type": "RECTANGLE",
+          "bounds": {
+            "x": 0,
+            "y": 7532,
+            "width": 1920,
+            "height": 1467
+          },
+          "children": []
+        },
+        {
+          "id": "168:280",
+          "name": "© Rudnikagro.pl 2026 | Wszelkie prawa zastrzeżone",
+          "type": "TEXT",
+          "bounds": {
+            "x": 240,
+            "y": 8936,
+            "width": 377,
+            "height": 34
+          },
+          "children": []
+        },
+        {
+          "id": "222:113",
+          "name": "Projekt i wykonanie: Virtual People",
+          "type": "TEXT",
+          "bounds": {
+            "x": 1425,
+            "y": 8936,
+            "width": 259,
+            "height": 34
+          },
+          "children": []
+        }
+      ]
+    }
+  ]
+}

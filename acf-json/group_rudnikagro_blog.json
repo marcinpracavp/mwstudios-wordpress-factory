@@ -1,0 +1,32 @@
+{
+  "key": "group_rudnikagro_blog",
+  "title": "RudnikAgro — Blog",
+  "fields": [
+    {"key":"field_ra_blog_tab_article_header","label":"Nagłówek artykułu","name":"rudnikagro_tab_blog_article_header","type":"tab","placement":"top"},
+    {"key":"field_ra_blog_article_header","label":"Nagłówek artykułu","name":"rudnikagro_blog_article_header","type":"group","layout":"block","sub_fields":[
+      {"key":"field_ra_blog_article_banner_label","label":"Etykieta baneru","name":"banner_label","type":"text"},
+      {"key":"field_ra_blog_article_breadcrumb","label":"Breadcrumb","name":"breadcrumb","type":"text"},
+      {"key":"field_ra_blog_article_banner","label":"Obraz baneru","name":"banner","type":"image","return_format":"id","library":"all"}
+    ]},
+    {"key":"field_ra_blog_tab_article_content","label":"Treść artykułu","name":"rudnikagro_tab_blog_article_content","type":"tab","placement":"top"},
+    {"key":"field_ra_blog_return_label","label":"Etykieta powrotu","name":"rudnikagro_blog_article_return_label","type":"text"},
+    {"key":"field_ra_blog_tab_related","label":"Powiązane wpisy","name":"rudnikagro_tab_blog_related","type":"tab","placement":"top"},
+    {"key":"field_ra_blog_related_heading","label":"Nagłówek sekcji","name":"rudnikagro_blog_related_heading","type":"text"},
+    {"key":"field_ra_blog_related_posts","label":"Powiązane wpisy","name":"rudnikagro_blog_related_posts","type":"repeater","layout":"table","button_label":"Dodaj wpis","sub_fields":[
+      {"key":"field_ra_blog_related_post","label":"Wpis","name":"post","type":"post_object","post_type":["post"],"return_format":"id","ui":1}
+    ]},
+    {"key":"field_ra_blog_tab_card","label":"Karta wpisu","name":"rudnikagro_tab_blog_card","type":"tab","placement":"top"},
+    {"key":"field_ra_blog_card_date","label":"Data karty","name":"rudnikagro_blog_card_date","type":"text"},
+    {"key":"field_ra_blog_card_label","label":"Etykieta linku","name":"rudnikagro_blog_card_label","type":"text"},
+    {"key":"field_ra_blog_card_image","label":"Obraz karty","name":"rudnikagro_blog_card_image","type":"image","return_format":"id","library":"all"}
+  ],
+  "location": [[{"param":"post_type","operator":"==","value":"post"}]],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "active": true,
+  "show_in_rest": 0,
+  "modified": 1781100000
+}

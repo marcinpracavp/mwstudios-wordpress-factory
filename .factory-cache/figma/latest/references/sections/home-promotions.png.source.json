@@ -1,0 +1,17 @@
+{
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeId": "222:28",
+  "productionFrame": "12:2",
+  "source": "references/full/home.png",
+  "crop": [
+    174,
+    2504,
+    1574,
+    724
+  ],
+  "scale": 1,
+  "transport": "unscaled-full-reference-crop",
+  "sourceSha256": "ea09d2ddd01079948226b0a1e84c2e88eea823a24de1d53308a2ce1088245aca",
+  "sha256": "d63cf592b26709b4b824977749f306d774637a096cc7ce1240c81640657fc396",
+  "capturedAt": "2026-09-11T00:45:54.603Z"
+}

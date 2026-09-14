@@ -1,0 +1,55 @@
+{
+  "id": "703fe9efa24ddd754f72",
+  "tool": "figma.use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "493:1251"
+  ],
+  "description": "Read source content to identify native product or account state 493:1251",
+  "recordedAt": "2026-09-10T19:30:16.889Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "id": "493:1251",
+      "visible": true,
+      "texts": [
+        {
+          "id": "493:1254",
+          "text": "Zamówione przedmioty",
+          "link": null
+        },
+        {
+          "id": "493:1258",
+          "text": "Kod produktu:\n\nMetoda płatności:\n\nDostawa:",
+          "link": null
+        },
+        {
+          "id": "493:1318",
+          "text": "98899\n\nPrzelewy24\n\nShoper Przesyłki Kurier",
+          "link": null
+        },
+        {
+          "id": "493:1274",
+          "text": "Twoje zamówienie zostało złożone",
+          "link": null
+        },
+        {
+          "id": "493:1275",
+          "text": "Potwierdzenie zamówienia zostało wysłane na maila",
+          "link": null
+        },
+        {
+          "id": "493:1327",
+          "text": "Koszt dostawy:\n\nRabat:\n\nKoszt całkowity:",
+          "link": null
+        },
+        {
+          "id": "493:1329",
+          "text": "22,90 zł\n\n50 zł\n\n383, 90 zł",
+          "link": null
+        }
+      ],
+      "reactions": []
+    }
+  ]
+}

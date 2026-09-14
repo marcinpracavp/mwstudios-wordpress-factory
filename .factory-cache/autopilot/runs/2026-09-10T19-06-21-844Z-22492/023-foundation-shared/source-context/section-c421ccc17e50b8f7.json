@@ -1,0 +1,105 @@
+{
+  "id": "archive-pagination",
+  "manifestRecord": {
+    "id": "archive-pagination",
+    "name": "archive pagination",
+    "order": 78,
+    "pageId": "0:1",
+    "snapshot": "sections/73-archive-pagination.json",
+    "desktopNodeId": "303:1322",
+    "desktopReference": "references/sections/archive-pagination.png"
+  },
+  "contentFields": [
+    {
+      "section": "archive-pagination",
+      "nodeId": "303:1305",
+      "fieldName": "rudnikagro_archive_pagination_303_1305",
+      "type": "text",
+      "language": "pl",
+      "value": "1",
+      "destination": "native WooCommerce pagination current page",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "303:1305"
+      }
+    },
+    {
+      "section": "archive-pagination",
+      "nodeId": "303:1306",
+      "fieldName": "rudnikagro_archive_pagination_303_1306",
+      "type": "text",
+      "language": "pl",
+      "value": "2",
+      "destination": "native WooCommerce pagination page label",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "303:1306"
+      }
+    },
+    {
+      "section": "archive-pagination",
+      "nodeId": "303:1308",
+      "fieldName": "rudnikagro_archive_pagination_303_1308",
+      "type": "text",
+      "language": "pl",
+      "value": "3",
+      "destination": "native WooCommerce pagination page label",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "303:1308"
+      }
+    },
+    {
+      "section": "archive-pagination",
+      "nodeId": "303:1310",
+      "fieldName": "rudnikagro_archive_pagination_303_1310",
+      "type": "text",
+      "language": "pl",
+      "value": "4",
+      "destination": "native WooCommerce pagination page label",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "303:1310"
+      }
+    },
+    {
+      "section": "archive-pagination",
+      "nodeId": "303:1312",
+      "fieldName": "rudnikagro_archive_pagination_303_1312",
+      "type": "text",
+      "language": "pl",
+      "value": "5",
+      "destination": "native WooCommerce pagination page label",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "303:1312"
+      }
+    },
+    {
+      "section": "archive-pagination",
+      "nodeId": "303:1314",
+      "fieldName": "rudnikagro_archive_pagination_303_1314",
+      "type": "text",
+      "language": "pl",
+      "value": "6",
+      "destination": "native WooCommerce pagination page label",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "303:1314"
+      }
+    },
+    {
+      "section": "archive-pagination",
+      "nodeId": "303:1315",
+      "fieldName": "rudnikagro_archive_pagination_303_1315",
+      "type": "text",
+      "language": "pl",
+      "value": "7",
+      "destination": "native WooCommerce pagination page label",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "303:1315"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "frameNodeId": "347:1120",
+  "transport": "lossless-1x-crop-of-original-figma-reference",
+  "source": "references/full/frame-347-1120.png",
+  "sourceSha256": "c624155f875fd4b067c9225bcd40618c1a738fad242875b05b0fc77a3da1f2c1",
+  "crop": {
+    "frameWidth": 1920,
+    "x": 240,
+    "y": 218,
+    "width": 1440,
+    "height": 220
+  },
+  "sha256": "f39992ec3e03e88490378c7c0fcc7632637761b27949d887a4f9acd49015acc3"
+}

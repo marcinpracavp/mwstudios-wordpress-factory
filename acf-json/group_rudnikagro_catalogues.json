@@ -1,0 +1,36 @@
+{
+  "key": "group_rudnikagro_catalogues",
+  "title": "RudnikAgro — Katalogi",
+  "fields": [
+    {"key":"field_ra_catalogues_tab_banner","label":"Baner","name":"rudnikagro_tab_catalogues_banner","type":"tab","placement":"top"},
+    {"key":"field_ra_catalogues_banner","label":"Baner strony","name":"rudnikagro_catalogues_banner","type":"group","layout":"block","sub_fields":[
+      {"key":"field_ra_catalogues_banner_title","label":"Tytuł","name":"title","type":"text"},
+      {"key":"field_ra_catalogues_banner_breadcrumb","label":"Breadcrumb","name":"breadcrumb","type":"text"},
+      {"key":"field_ra_catalogues_banner_image","label":"Obraz","name":"image","type":"image","return_format":"id","library":"all"}
+    ]},
+    {"key":"field_ra_catalogues_tab_cards","label":"Katalogi","name":"rudnikagro_tab_catalogues_cards","type":"tab","placement":"top"},
+    {"key":"field_ra_catalogues_cards","label":"Katalogi","name":"rudnikagro_catalogues","type":"repeater","layout":"block","button_label":"Dodaj katalog","sub_fields":[
+      {"key":"field_ra_catalogues_card_title","label":"Tytuł","name":"title","type":"text"},
+      {"key":"field_ra_catalogues_card_cover","label":"Okładka","name":"cover","type":"image","return_format":"id","library":"all"},
+      {"key":"field_ra_catalogues_card_background","label":"Tło","name":"background","type":"image","return_format":"id","library":"all"},
+      {"key":"field_ra_catalogues_card_pdf_label","label":"Etykieta PDF","name":"pdf_label","type":"textarea","new_lines":"br"},
+      {"key":"field_ra_catalogues_card_pdf","label":"Plik PDF","name":"pdf","type":"file","return_format":"id","library":"all","mime_types":"pdf"},
+      {"key":"field_ra_catalogues_card_online_label","label":"Etykieta czytnika","name":"online_label","type":"text"},
+      {"key":"field_ra_catalogues_card_online_url","label":"Adres czytnika","name":"online_url","type":"url"}
+    ]},
+    {"key":"field_ra_catalogues_tab_cta","label":"CTA sklepu","name":"rudnikagro_tab_catalogues_cta","type":"tab","placement":"top"},
+    {"key":"field_ra_catalogues_cta","label":"CTA sklepu","name":"rudnikagro_catalogues_shop_cta","type":"group","layout":"block","sub_fields":[
+      {"key":"field_ra_catalogues_cta_heading","label":"Nagłówek","name":"heading","type":"text"},
+      {"key":"field_ra_catalogues_cta_button","label":"Etykieta przycisku","name":"button_label","type":"text"}
+    ]}
+  ],
+  "location": [[{"param":"page_template","operator":"==","value":"page-catalogues.php"}]],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "active": true,
+  "show_in_rest": 0,
+  "modified": 1780000300
+}

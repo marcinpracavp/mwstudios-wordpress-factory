@@ -1,0 +1,50 @@
+{
+  "capturedAt": "2026-09-12T08:26:43.115Z",
+  "implementationHash": "264211b50c0c30465106c1bd9b72add0a131fecf3ad37a1e877edf81ae2c2905",
+  "sourceHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+  "thresholds": {
+    "channelTolerance": 24,
+    "maxDifferentPixelRatio": 0.05,
+    "geometryTolerancePx": 2
+  },
+  "acceptanceScope": "page",
+  "passed": false,
+  "pagePassed": false,
+  "routes": [
+    {
+      "id": "blog-article",
+      "passed": false,
+      "pagePassed": false,
+      "ownership": {
+        "header": {
+          "pixels": 372480,
+          "differentPixels": 21869,
+          "ratio": 0.05871187714776632
+        },
+        "footer": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "shared": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "page": {
+          "pixels": 7326720,
+          "differentPixels": 1313002,
+          "ratio": 0.179207339709993
+        }
+      },
+      "errors": [
+        "Full page dimensions differ",
+        "page pixel mismatch 17.921%",
+        "Section geometry differs: blog-related-posts",
+        "header pixel mismatch 5.871%",
+        "Section geometry differs: shared-footer"
+      ],
+      "comparison": ".factory-cache/autopilot/visual-1789201580539/blog-article/comparison.json"
+    }
+  ]
+}

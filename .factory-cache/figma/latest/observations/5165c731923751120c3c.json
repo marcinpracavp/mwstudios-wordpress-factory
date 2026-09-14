@@ -1,0 +1,1089 @@
+{
+  "id": "5165c731923751120c3c",
+  "tool": "use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "250:301",
+    "250:115"
+  ],
+  "description": "Capture exact home-promotions-active section source nodes 50",
+  "recordedAt": "2026-09-11T00:56:27.086Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "id": "250:301",
+      "name": "promocje",
+      "frame": "250:115",
+      "total": 111,
+      "nodes": [
+        {
+          "id": "250:351",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "250:349",
+          "bounds": {
+            "x": 440.71533203125,
+            "y": 3105.4931640625,
+            "width": 4.201574802398682,
+            "height": 4.506757736206055
+          },
+          "style": 0
+        },
+        {
+          "id": "250:352",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "250:349",
+          "bounds": {
+            "x": 450.9150390625,
+            "y": 3105.4931640625,
+            "width": 4.201574802398682,
+            "height": 4.506757736206055
+          },
+          "style": 0
+        },
+        {
+          "id": "250:353",
+          "name": "Do koszyka",
+          "type": "TEXT",
+          "parentId": "250:342",
+          "bounds": {
+            "x": 449,
+            "y": 3079,
+            "width": 119,
+            "height": 39
+          },
+          "style": 1,
+          "characters": "Do koszyka",
+          "align": [
+            "CENTER",
+            "CENTER"
+          ],
+          "segments": [
+            {
+              "characters": "Do koszyka",
+              "start": 0,
+              "end": 10,
+              "style": 2
+            }
+          ]
+        },
+        {
+          "id": "250:354",
+          "name": "Rzepak DK IMMORTAL CL",
+          "type": "TEXT",
+          "parentId": "250:342",
+          "bounds": {
+            "x": 296,
+            "y": 2994,
+            "width": 237,
+            "height": 26
+          },
+          "style": 3,
+          "characters": " Rzepak DK IMMORTAL CL",
+          "align": [
+            "CENTER",
+            "CENTER"
+          ],
+          "segments": [
+            {
+              "characters": " Rzepak DK IMMORTAL CL",
+              "start": 0,
+              "end": 22,
+              "style": 4
+            }
+          ]
+        },
+        {
+          "id": "250:355",
+          "name": "1 380,00 zł",
+          "type": "TEXT",
+          "parentId": "250:342",
+          "bounds": {
+            "x": 296,
+            "y": 3029,
+            "width": 125,
+            "height": 31
+          },
+          "style": 5,
+          "characters": "1 380,00 zł",
+          "align": [
+            "CENTER",
+            "CENTER"
+          ],
+          "segments": [
+            {
+              "characters": "1 380,00 zł",
+              "start": 0,
+              "end": 11,
+              "style": 6
+            }
+          ]
+        },
+        {
+          "id": "250:356",
+          "name": "1 430,00 zł",
+          "type": "TEXT",
+          "parentId": "250:342",
+          "bounds": {
+            "x": 441,
+            "y": 3037,
+            "width": 80,
+            "height": 21
+          },
+          "style": 5,
+          "characters": "1 430,00 zł",
+          "align": [
+            "CENTER",
+            "CENTER"
+          ],
+          "segments": [
+            {
+              "characters": "1 430,00 zł",
+              "start": 0,
+              "end": 11,
+              "style": 7
+            }
+          ]
+        },
+        {
+          "id": "250:357",
+          "name": "Line 3",
+          "type": "LINE",
+          "parentId": "250:342",
+          "bounds": {
+            "x": 270,
+            "y": 2975.999975346777,
+            "width": 282,
+            "height": 0.00002465322313582874
+          },
+          "style": 8
+        },
+        {
+          "id": "250:358",
+          "name": "rzepak",
+          "type": "RECTANGLE",
+          "parentId": "250:342",
+          "bounds": {
+            "x": 327,
+            "y": 2713,
+            "width": 179,
+            "height": 228
+          },
+          "style": 9
+        },
+        {
+          "id": "250:359",
+          "name": "najniższa cena z 30 dni przed obniżką",
+          "type": "TEXT",
+          "parentId": "250:342",
+          "bounds": {
+            "x": 292,
+            "y": 2951,
+            "width": 243,
+            "height": 18
+          },
+          "style": 10,
+          "characters": "najniższa cena z 30 dni przed obniżką",
+          "align": [
+            "CENTER",
+            "CENTER"
+          ],
+          "segments": [
+            {
+              "characters": "najniższa cena z 30 dni przed obniżką",
+              "start": 0,
+              "end": 37,
+              "style": 11
+            }
+          ]
+        },
+        {
+          "id": "250:360",
+          "name": "Rectangle 40",
+          "type": "VECTOR",
+          "parentId": "250:342",
+          "bounds": {
+            "x": 242,
+            "y": 2731,
+            "width": 96,
+            "height": 30
+          },
+          "style": 12
+        },
+        {
+          "id": "250:361",
+          "name": "Promocja",
+          "type": "TEXT",
+          "parentId": "250:342",
+          "bounds": {
+            "x": 252,
+            "y": 2735,
+            "width": 70,
+            "height": 21
+          },
+          "style": 1,
+          "characters": "Promocja",
+          "align": [
+            "CENTER",
+            "CENTER"
+          ],
+          "segments": [
+            {
+              "characters": "Promocja",
+              "start": 0,
+              "end": 8,
+              "style": 13
+            }
+          ]
+        },
+        {
+          "id": "250:362",
+          "name": "produkt2",
+          "type": "GROUP",
+          "parentId": "250:301",
+          "bounds": {
+            "x": 606,
+            "y": 2676,
+            "width": 345,
+            "height": 465
+          },
+          "style": 14
+        },
+        {
+          "id": "250:363",
+          "name": "Rectangle 19",
+          "type": "RECTANGLE",
+          "parentId": "250:362",
+          "bounds": {
+            "x": 606,
+            "y": 2677,
+            "width": 345,
+            "height": 464
+          },
+          "style": 15
+        },
+        {
+          "id": "250:364",
+          "name": "Rectangle 34",
+          "type": "RECTANGLE",
+          "parentId": "250:362",
+          "bounds": {
+            "x": 625,
+            "y": 3076,
+            "width": 149,
+            "height": 44
+          },
+          "style": 16
+        },
+        {
+          "id": "250:365",
+          "name": "1",
+          "type": "TEXT",
+          "parentId": "250:362",
+          "bounds": {
+            "x": 697,
+            "y": 3089,
+            "width": 6,
+            "height": 18
+          },
+          "style": 5,
+          "characters": "1",
+          "align": [
+            "CENTER",
+            "CENTER"
+          ],
+          "segments": [
+            {
+              "characters": "1",
+              "start": 0,
+              "end": 1,
+              "style": 17
+            }
+          ]
+        },
+        {
+          "id": "250:366",
+          "name": "-",
+          "type": "TEXT",
+          "parentId": "250:362",
+          "bounds": {
+            "x": 641,
+            "y": 3089,
+            "width": 9,
+            "height": 18
+          },
+          "style": 5,
+          "characters": "-",
+          "align": [
+            "CENTER",
+            "CENTER"
+          ],
+          "segments": [
+            {
+              "characters": "-",
+              "start": 0,
+              "end": 1,
+              "style": 17
+            }
+          ]
+        },
+        {
+          "id": "250:367",
+          "name": "+",
+          "type": "TEXT",
+          "parentId": "250:362",
+          "bounds": {
+            "x": 750,
+            "y": 3089,
+            "width": 9,
+            "height": 18
+          },
+          "style": 5,
+          "characters": "+",
+          "align": [
+            "CENTER",
+            "CENTER"
+          ],
+          "segments": [
+            {
+              "characters": "+",
+              "start": 0,
+              "end": 1,
+              "style": 17
+            }
+          ]
+        },
+        {
+          "id": "250:368",
+          "name": "Rectangle 35",
+          "type": "RECTANGLE",
+          "parentId": "250:362",
+          "bounds": {
+            "x": 784,
+            "y": 3076,
+            "width": 149,
+            "height": 44
+          },
+          "style": 18
+        },
+        {
+          "id": "250:369",
+          "name": "koszyk 2",
+          "type": "FRAME",
+          "parentId": "250:362",
+          "bounds": {
+            "x": 799,
+            "y": 3087,
+            "width": 23,
+            "height": 23
+          },
+          "style": 19
+        },
+        {
+          "id": "250:370",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "250:369",
+          "bounds": {
+            "x": 799,
+            "y": 3086.9921875,
+            "width": 23.008108139038086,
+            "height": 18.17466163635254
+          },
+          "style": 0
+        },
+        {
+          "id": "250:371",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "250:369",
+          "bounds": {
+            "x": 805.71533203125,
+            "y": 3105.4931640625,
+            "width": 4.201574802398682,
+            "height": 4.506757736206055
+          },
+          "style": 0
+        },
+        {
+          "id": "250:372",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "250:369",
+          "bounds": {
+            "x": 815.9150390625,
+            "y": 3105.4931640625,
+            "width": 4.201574802398682,
+            "height": 4.506757736206055
+          },
+          "style": 0
+        },
+        {
+          "id": "250:373",
+          "name": "Do koszyka",
+          "type": "TEXT",
+          "parentId": "250:362",
+          "bounds": {
+            "x": 814,
+            "y": 3079,
+            "width": 119,
+            "height": 39
+          },
+          "style": 1,
+          "characters": "Do koszyka",
+          "align": [
+            "CENTER",
+            "CENTER"
+          ],
+          "segments": [
+            {
+              "characters": "Do koszyka",
+              "start": 0,
+              "end": 10,
+              "style": 2
+            }
+          ]
+        },
+        {
+          "id": "250:374",
+          "name": "Rzepak ozimy DK EXCITED F1",
+          "type": "TEXT",
+          "parentId": "250:362",
+          "bounds": {
+            "x": 646,
+            "y": 2974,
+            "width": 267,
+            "height": 26
+          },
+          "style": 3,
+          "characters": " Rzepak ozimy DK EXCITED F1",
+          "align": [
+            "CENTER",
+            "CENTER"
+          ],
+          "segments": [
+            {
+              "characters": " Rzepak ozimy DK EXCITED F1",
+              "start": 0,
+              "end": 27,
+              "style": 4
+            }
+          ]
+        },
+        {
+          "id": "250:375",
+          "name": "1 390,00 zł",
+          "type": "TEXT",
+          "parentId": "250:362",
+          "bounds": {
+            "x": 663,
+            "y": 3013,
+            "width": 124,
+            "height": 31
+          },
+          "style": 5,
+          "characters": "1 390,00 zł",
+          "align": [
+            "CENTER",
+            "CENTER"
+          ],
+          "segments": [
+            {
+              "characters": "1 390,00 zł",
+              "start": 0,
+              "end": 11,
+              "style": 6
+            }
+          ]
+        }
+      ],
+      "styles": [
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "OUTSIDE",
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "fontSize": 14,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 700,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.02856878750026226,
+                "g": 0.028846153989434242,
+                "b": 0.02871447429060936
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "OUTSIDE",
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "fontSize": 20,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 400,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.02856878750026226,
+                "g": 0.028846153989434242,
+                "b": 0.02871447429060936
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.11372549086809158,
+                "g": 0.11372549086809158,
+                "b": 0.10588235408067703
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "OUTSIDE",
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "fontSize": 24,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 700,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.11372549086809158,
+                "g": 0.11372549086809158,
+                "b": 0.10588235408067703
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        },
+        {
+          "fontSize": 16,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 400,
+          "textDecoration": "STRIKETHROUGH",
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.11372549086809158,
+                "g": 0.11372549086809158,
+                "b": 0.10588235408067703
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.6682692170143127,
+                "g": 0.6682692170143127,
+                "b": 0.6682692170143127
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokeWeight": 0.5,
+          "strokeAlign": "CENTER",
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "IMAGE",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "scaleMode": "FILL",
+              "scalingFactor": 0.5,
+              "rotation": 0,
+              "filters": {
+                "exposure": 0,
+                "contrast": 0,
+                "saturation": 0,
+                "temperature": 0,
+                "tint": 0,
+                "highlights": 0,
+                "shadows": 0
+              },
+              "imageTransform": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ]
+              ],
+              "imageHash": "aab15ba5f1eadc700011083a1c8b953cd01d980b"
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "OUTSIDE",
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "fontSize": 14,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 400,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9215686321258545,
+                "g": 0.40784314274787903,
+                "b": 0.20392157137393951
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "fontSize": 16,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 400,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.7836538553237915,
+                "g": 0.7836538553237915,
+                "b": 0.7836538553237915
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 30,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 30,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "fontSize": 14,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 700,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.11372549086809158,
+                "g": 0.11372549086809158,
+                "b": 0.10588235408067703
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.019607843831181526,
+                "g": 0.40784314274787903,
+                "b": 0.2235294133424759
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 30,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": false,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH",
+          "layoutMode": "NONE",
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        }
+      ]
+    }
+  ]
+}

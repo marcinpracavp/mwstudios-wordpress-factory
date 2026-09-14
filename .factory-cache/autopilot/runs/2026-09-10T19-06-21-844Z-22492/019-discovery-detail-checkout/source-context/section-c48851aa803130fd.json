@@ -1,0 +1,234 @@
+{
+  "id": "checkout-payment",
+  "manifestRecord": {
+    "id": "checkout-payment",
+    "name": "płatność",
+    "order": 59,
+    "pageId": "0:1",
+    "snapshot": "sections/59-checkout-payment.json",
+    "desktopNodeId": "492:994",
+    "desktopReference": "references/sections/checkout-payment.png"
+  },
+  "contentFields": [
+    {
+      "section": "checkout-payment",
+      "nodeId": "492:712",
+      "fieldName": "rudnikagro_checkout_payment_payment_heading",
+      "type": "text",
+      "language": "pl",
+      "value": "Płatność",
+      "destination": "WooCommerce native payment-method labels / editable checkout content",
+      "linkEvidence": [
+        {
+          "characters": "Płatność",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "492:712"
+      }
+    },
+    {
+      "section": "checkout-payment",
+      "nodeId": "492:692",
+      "fieldName": "rudnikagro_checkout_payment_przelewy24_label",
+      "type": "text",
+      "language": "pl",
+      "value": "Przelewy24",
+      "destination": "WooCommerce native payment-method labels / editable checkout content",
+      "linkEvidence": [
+        {
+          "characters": "Przelewy24",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "492:692"
+      }
+    },
+    {
+      "section": "checkout-payment",
+      "nodeId": "492:740",
+      "fieldName": "rudnikagro_checkout_payment_przelewy24_bank_prompt",
+      "type": "text",
+      "language": "pl",
+      "value": "wybierz Twój Bank",
+      "destination": "WooCommerce native payment-method labels / editable checkout content",
+      "linkEvidence": [
+        {
+          "characters": "wybierz Twój Bank",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "492:740"
+      }
+    },
+    {
+      "section": "checkout-payment",
+      "nodeId": "492:696",
+      "fieldName": "rudnikagro_checkout_payment_card_label",
+      "type": "text",
+      "language": "pl",
+      "value": "Karta płatnicza",
+      "destination": "WooCommerce native payment-method labels / editable checkout content",
+      "linkEvidence": [
+        {
+          "characters": "Karta płatnicza",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "492:696"
+      }
+    },
+    {
+      "section": "checkout-payment",
+      "nodeId": "492:704",
+      "fieldName": "rudnikagro_checkout_payment_google_pay_label",
+      "type": "text",
+      "language": "pl",
+      "value": "Google Pay",
+      "destination": "WooCommerce native payment-method labels / editable checkout content",
+      "linkEvidence": [
+        {
+          "characters": "Google Pay",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "492:704"
+      }
+    },
+    {
+      "section": "checkout-payment",
+      "nodeId": "492:708",
+      "fieldName": "rudnikagro_checkout_payment_apple_pay_label",
+      "type": "text",
+      "language": "pl",
+      "value": "Apple Pay",
+      "destination": "WooCommerce native payment-method labels / editable checkout content",
+      "linkEvidence": [
+        {
+          "characters": "Apple Pay",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "492:708"
+      }
+    },
+    {
+      "section": "checkout-payment",
+      "nodeId": "492:726",
+      "fieldName": "rudnikagro_checkout_payment_blik_label",
+      "type": "text",
+      "language": "pl",
+      "value": "BLIK",
+      "destination": "WooCommerce native payment-method labels / editable checkout content",
+      "linkEvidence": [
+        {
+          "characters": "BLIK",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "492:726"
+      }
+    },
+    {
+      "section": "checkout-payment",
+      "nodeId": "492:728",
+      "fieldName": "rudnikagro_checkout_payment_bank_transfer_label",
+      "type": "text",
+      "language": "pl",
+      "value": "Przelew tradycyjny",
+      "destination": "WooCommerce native payment-method labels / editable checkout content",
+      "linkEvidence": [
+        {
+          "characters": "Przelew tradycyjny",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "492:728"
+      }
+    },
+    {
+      "section": "checkout-payment",
+      "nodeId": "492:729",
+      "fieldName": "rudnikagro_checkout_payment_postal_code_label",
+      "type": "text",
+      "language": "pl",
+      "value": "Kod pocztowy*",
+      "destination": "WooCommerce native payment-method labels / editable checkout content",
+      "linkEvidence": [
+        {
+          "characters": "Kod pocztowy*",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "492:729"
+      }
+    },
+    {
+      "section": "checkout-payment",
+      "nodeId": "492:731",
+      "fieldName": "rudnikagro_checkout_payment_cash_on_delivery_label",
+      "type": "text",
+      "language": "pl",
+      "value": "Pobranie",
+      "destination": "WooCommerce native payment-method labels / editable checkout content",
+      "linkEvidence": [
+        {
+          "characters": "Pobranie",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "492:731"
+      }
+    },
+    {
+      "section": "checkout-payment",
+      "nodeId": "492:742",
+      "fieldName": "rudnikagro_checkout_payment_cash_on_delivery_surcharge",
+      "type": "text",
+      "language": "pl",
+      "value": "+ 6,00 zł",
+      "destination": "WooCommerce native payment-method labels / editable checkout content",
+      "linkEvidence": [
+        {
+          "characters": "+ 6,00 zł",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "492:742"
+      }
+    }
+  ]
+}

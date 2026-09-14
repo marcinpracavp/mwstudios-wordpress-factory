@@ -1,0 +1,821 @@
+{
+  "id": "3843253cc96dc09ea469",
+  "tool": "use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "110:2",
+    "12:2"
+  ],
+  "description": "Capture exact home-crop-selection section source nodes 225",
+  "recordedAt": "2026-09-11T00:44:02.317Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "id": "110:2",
+      "name": "wybór wg uprawy",
+      "frame": "12:2",
+      "total": 269,
+      "nodes": [
+        {
+          "id": "222:50",
+          "name": "owies",
+          "type": "TEXT",
+          "parentId": "150:16",
+          "bounds": {
+            "x": 727,
+            "y": 1756.3431396484375,
+            "width": 101,
+            "height": 18.8137264251709
+          },
+          "style": 0,
+          "characters": "owies",
+          "align": [
+            "CENTER",
+            "TOP"
+          ],
+          "segments": [
+            {
+              "characters": "owies",
+              "start": 0,
+              "end": 5,
+              "style": 1
+            }
+          ]
+        },
+        {
+          "id": "222:51",
+          "name": "owies 2",
+          "type": "FRAME",
+          "parentId": "150:16",
+          "bounds": {
+            "x": 758,
+            "y": 1703,
+            "width": 34,
+            "height": 44
+          },
+          "style": 2
+        },
+        {
+          "id": "222:52",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "222:51",
+          "bounds": {
+            "x": 757.997802734375,
+            "y": 1703.0004272460938,
+            "width": 34.00595474243164,
+            "height": 43.999576568603516
+          },
+          "style": 3
+        },
+        {
+          "id": "222:53",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "222:51",
+          "bounds": {
+            "x": 780.5274658203125,
+            "y": 1732.9532470703125,
+            "width": 6.993253231048584,
+            "height": 13.29545783996582
+          },
+          "style": 3
+        },
+        {
+          "id": "158:108",
+          "name": "Rectangle 44",
+          "type": "RECTANGLE",
+          "parentId": "150:16",
+          "bounds": {
+            "x": 727,
+            "y": 1792,
+            "width": 140,
+            "height": 145
+          },
+          "style": 4
+        },
+        {
+          "id": "158:110",
+          "name": "Fungicyd Herbicyd Insektycyd Regulator Nawóz",
+          "type": "TEXT",
+          "parentId": "150:16",
+          "bounds": {
+            "x": 749,
+            "y": 1803,
+            "width": 84,
+            "height": 128
+          },
+          "style": 5,
+          "characters": "Fungicyd\nHerbicyd\nInsektycyd\nRegulator\nNawóz",
+          "align": [
+            "LEFT",
+            "TOP"
+          ],
+          "segments": [
+            {
+              "characters": "Fungicyd\n",
+              "start": 0,
+              "end": 9,
+              "style": 6
+            },
+            {
+              "characters": "Herbicyd\nInsektycyd\nRegulator\nNawóz",
+              "start": 9,
+              "end": 44,
+              "style": 7
+            }
+          ]
+        },
+        {
+          "id": "104:155",
+          "name": "żyto",
+          "type": "GROUP",
+          "parentId": "108:547",
+          "bounds": {
+            "x": 605,
+            "y": 1690,
+            "width": 102,
+            "height": 102
+          },
+          "style": 8
+        },
+        {
+          "id": "104:156",
+          "name": "Rectangle 3",
+          "type": "RECTANGLE",
+          "parentId": "104:155",
+          "bounds": {
+            "x": 605,
+            "y": 1690,
+            "width": 102,
+            "height": 102
+          },
+          "style": 9
+        },
+        {
+          "id": "104:159",
+          "name": "żyto",
+          "type": "TEXT",
+          "parentId": "104:155",
+          "bounds": {
+            "x": 606,
+            "y": 1756.3431396484375,
+            "width": 101,
+            "height": 18.8137264251709
+          },
+          "style": 10,
+          "characters": "żyto",
+          "align": [
+            "CENTER",
+            "TOP"
+          ],
+          "segments": [
+            {
+              "characters": "żyto",
+              "start": 0,
+              "end": 4,
+              "style": 11
+            }
+          ]
+        },
+        {
+          "id": "104:160",
+          "name": "Rectangle 2",
+          "type": "RECTANGLE",
+          "parentId": "104:155",
+          "bounds": {
+            "x": 606,
+            "y": 1780.1077880859375,
+            "width": 230.71568298339844,
+            "height": 178.23529052734375
+          },
+          "style": 12
+        },
+        {
+          "id": "104:161",
+          "name": "Rectangle 4",
+          "type": "RECTANGLE",
+          "parentId": "104:155",
+          "bounds": {
+            "x": 606,
+            "y": 1780.1077880859375,
+            "width": 230.71568298339844,
+            "height": 6.93137264251709
+          },
+          "style": 13
+        },
+        {
+          "id": "105:204",
+          "name": "zyto 1",
+          "type": "FRAME",
+          "parentId": "104:155",
+          "bounds": {
+            "x": 645,
+            "y": 1703,
+            "width": 21,
+            "height": 44
+          },
+          "style": 2
+        },
+        {
+          "id": "105:205",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "105:204",
+          "bounds": {
+            "x": 657.5161743164062,
+            "y": 1708.598876953125,
+            "width": 8.49984359741211,
+            "height": 38.40106964111328
+          },
+          "style": 14
+        },
+        {
+          "id": "105:206",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "105:204",
+          "bounds": {
+            "x": 645.0348510742188,
+            "y": 1703,
+            "width": 8.49984359741211,
+            "height": 38.40107345581055
+          },
+          "style": 14
+        },
+        {
+          "id": "104:147",
+          "name": "jęczmień",
+          "type": "GROUP",
+          "parentId": "108:547",
+          "bounds": {
+            "x": 483,
+            "y": 1690,
+            "width": 102,
+            "height": 102
+          },
+          "style": 8
+        },
+        {
+          "id": "104:148",
+          "name": "Rectangle 3",
+          "type": "RECTANGLE",
+          "parentId": "104:147",
+          "bounds": {
+            "x": 483,
+            "y": 1690,
+            "width": 102,
+            "height": 102
+          },
+          "style": 9
+        },
+        {
+          "id": "104:151",
+          "name": "jęczmień",
+          "type": "TEXT",
+          "parentId": "104:147",
+          "bounds": {
+            "x": 483,
+            "y": 1757,
+            "width": 102,
+            "height": 19
+          },
+          "style": 10,
+          "characters": "jęczmień",
+          "align": [
+            "CENTER",
+            "TOP"
+          ],
+          "segments": [
+            {
+              "characters": "jęczmień",
+              "start": 0,
+              "end": 8,
+              "style": 11
+            }
+          ]
+        },
+        {
+          "id": "105:194",
+          "name": "jeczmien 1",
+          "type": "FRAME",
+          "parentId": "104:147",
+          "bounds": {
+            "x": 518.3465576171875,
+            "y": 1703.1287231445312,
+            "width": 38.37623596191406,
+            "height": 44.43564224243164
+          },
+          "style": 2
+        },
+        {
+          "id": "105:195",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "105:194",
+          "bounds": {
+            "x": 519.6614990234375,
+            "y": 1704.246337890625,
+            "width": 14.26053237915039,
+            "height": 20.190805435180664
+          },
+          "style": 14
+        },
+        {
+          "id": "105:196",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "105:194",
+          "bounds": {
+            "x": 518.3400268554688,
+            "y": 1727.2744140625,
+            "width": 13.632729530334473,
+            "height": 19.245084762573242
+          },
+          "style": 14
+        },
+        {
+          "id": "105:197",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "105:194",
+          "bounds": {
+            "x": 520.6881713867188,
+            "y": 1730.966796875,
+            "width": 8.138336181640625,
+            "height": 10.777702331542969
+          },
+          "style": 14
+        },
+        {
+          "id": "105:198",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "105:194",
+          "bounds": {
+            "x": 532.7636108398438,
+            "y": 1719.5841064453125,
+            "width": 15.689339637756348,
+            "height": 18.94631004333496
+          },
+          "style": 14
+        },
+        {
+          "id": "105:199",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "105:194",
+          "bounds": {
+            "x": 535.8272705078125,
+            "y": 1726.3988037109375,
+            "width": 7.74301290512085,
+            "height": 9.248196601867676
+          },
+          "style": 14
+        },
+        {
+          "id": "105:200",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "105:194",
+          "bounds": {
+            "x": 536.5877075195312,
+            "y": 1703.1287231445312,
+            "width": 17.074996948242188,
+            "height": 12.664719581604004
+          },
+          "style": 14
+        },
+        {
+          "id": "105:201",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "105:194",
+          "bounds": {
+            "x": 539.2831420898438,
+            "y": 1706.5250244140625,
+            "width": 8.440011024475098,
+            "height": 6.431290626525879
+          },
+          "style": 14
+        }
+      ],
+      "styles": [
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "OUTSIDE",
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "fontSize": 14,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 400,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": false,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH",
+          "layoutMode": "NONE",
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.7836538553237915,
+                "g": 0.7836538553237915,
+                "b": 0.7836538553237915
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 15,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "OUTSIDE",
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "fontSize": 14,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 700,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 25
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.019607843831181526,
+                "g": 0.40784314274787903,
+                "b": 0.2235294133424759
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        },
+        {
+          "fontSize": 14,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 400,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 25
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.7836538553237915,
+                "g": 0.7836538553237915,
+                "b": 0.7836538553237915
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 13,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "OUTSIDE",
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "fontSize": 14,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 400,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        },
+        {
+          "visible": false,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": false,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.019607843831181526,
+                "g": 0.40784314274787903,
+                "b": 0.2235294133424759
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.11372549086809158,
+                "g": 0.11372549086809158,
+                "b": 0.10588235408067703
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        }
+      ]
+    }
+  ]
+}

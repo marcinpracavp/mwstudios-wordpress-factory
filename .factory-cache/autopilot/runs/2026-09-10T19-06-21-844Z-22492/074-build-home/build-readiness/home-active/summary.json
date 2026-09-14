@@ -1,0 +1,58 @@
+{
+  "capturedAt": "2026-09-13T15:36:16.249Z",
+  "implementationHash": "0387d5f99cb5457f9797b2680e48f98bfcb5567e5a62e36090fbac2b8d58006d",
+  "sourceHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+  "thresholds": {
+    "channelTolerance": 24,
+    "maxDifferentPixelRatio": 0.085,
+    "geometryTolerancePx": 2
+  },
+  "acceptanceScope": "page",
+  "buildReady": false,
+  "deferred": [],
+  "passed": false,
+  "pagePassed": false,
+  "routes": [
+    {
+      "id": "home-active",
+      "passed": false,
+      "pagePassed": false,
+      "ownership": {
+        "header": {
+          "pixels": 1021440,
+          "differentPixels": 279471,
+          "ratio": 0.2736049107142857
+        },
+        "footer": {
+          "pixels": 1221120,
+          "differentPixels": 408333,
+          "ratio": 0.334392197327044
+        },
+        "shared": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "page": {
+          "pixels": 14906880,
+          "differentPixels": 1794712,
+          "ratio": 0.12039487806972352
+        },
+        "outside": {
+          "pixels": 128640,
+          "differentPixels": 128640,
+          "ratio": 1
+        },
+        "reused": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        }
+      },
+      "errors": [
+        "page pixel mismatch 12.039%"
+      ],
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/074-build-home/build-readiness/home-active/home-active/comparison.json"
+    }
+  ]
+}

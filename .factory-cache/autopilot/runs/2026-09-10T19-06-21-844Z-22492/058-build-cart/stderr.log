@@ -1,0 +1,10 @@
+2026-09-13T04:49:04.161091Z  WARN sqlx::query: slow statement: execution time exceeded alert threshold summary="DELETE FROM logs WHERE …" db.statement="\n\nDELETE FROM logs WHERE ts < ?\n" rows_affected=13193 rows_returned=0 elapsed=1.0750452s elapsed_secs=1.0750452 slow_threshold=1s
+2026-09-13T04:49:04.235448Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+2026-09-13T04:49:06.669629Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh
+2026-09-13T04:49:44.805281Z ERROR codex_core::tools::router: error=unable to locate image at `C:\Users\HP\Local Sites\autopilot\app\public\wp-content\themes\slawinsky-boilerplate\.factory-cache\autopilot\runs\2026-09-10T19-06-21-844Z-22492\resume-page-check-1789274920461\cart\cart\current.png`: Nie można odnaleźć określonego pliku. (os error 2)
+2026-09-13T04:57:32.596676Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in C:\Users\HP\Local Sites\autopilot\app\public\wp-content\themes\slawinsky-boilerplate\docs\factory\project\SOURCE_CLARIFICATIONS.md:
+18. Cart source 438:151 visibly shows Aquatos 5L, coupon BLACKFRIDAY, shipping 22,90 zÅ‚, discount 50 zÅ‚ and total 383,90 zÅ‚. Figma does not supply the WooCommerce coupon rules, tax/shipping method configuration, or a native seeded cart state; retain the labels and visual source but do not fabricate configuration or cart data.
+2026-09-13T04:57:55.776807Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in C:\Users\HP\Local Sites\autopilot\app\public\wp-content\themes\slawinsky-boilerplate\docs\factory\project\STATUS.md:
+# RudnikAgro implementation status
+
+## Product state verification and commerce reconciliation â€” 2026-09-12

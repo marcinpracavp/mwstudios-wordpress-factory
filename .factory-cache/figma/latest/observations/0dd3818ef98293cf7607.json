@@ -1,0 +1,316 @@
+{
+  "id": "0dd3818ef98293cf7607",
+  "tool": "use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "130:133",
+    "12:2"
+  ],
+  "description": "Capture exact home-benefits section source nodes 25",
+  "recordedAt": "2026-09-11T00:43:11.407Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "id": "130:133",
+      "name": "pasek korzyści",
+      "frame": "12:2",
+      "total": 31,
+      "nodes": [
+        {
+          "id": "161:199",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "161:198",
+          "bounds": {
+            "x": 1531,
+            "y": 1106.0029602050781,
+            "width": 75,
+            "height": 71.99749755859375
+          },
+          "style": 0
+        },
+        {
+          "id": "102:112",
+          "name": "Oryginalne produkty",
+          "type": "TEXT",
+          "parentId": "130:133",
+          "bounds": {
+            "x": 240,
+            "y": 1210,
+            "width": 223,
+            "height": 71
+          },
+          "style": 1,
+          "characters": "Oryginalne\nprodukty",
+          "align": [
+            "CENTER",
+            "TOP"
+          ],
+          "segments": [
+            {
+              "characters": "Oryginalne\n",
+              "start": 0,
+              "end": 11,
+              "style": 2
+            },
+            {
+              "characters": "produkty",
+              "start": 11,
+              "end": 19,
+              "style": 3
+            }
+          ]
+        },
+        {
+          "id": "102:116",
+          "name": "Szybka dostawa",
+          "type": "TEXT",
+          "parentId": "130:133",
+          "bounds": {
+            "x": 849,
+            "y": 1210,
+            "width": 223,
+            "height": 71
+          },
+          "style": 1,
+          "characters": "Szybka\ndostawa",
+          "align": [
+            "CENTER",
+            "TOP"
+          ],
+          "segments": [
+            {
+              "characters": "Szybka\n",
+              "start": 0,
+              "end": 7,
+              "style": 2
+            },
+            {
+              "characters": "dostawa",
+              "start": 7,
+              "end": 14,
+              "style": 3
+            }
+          ]
+        },
+        {
+          "id": "102:118",
+          "name": "Korzystne ceny",
+          "type": "TEXT",
+          "parentId": "130:133",
+          "bounds": {
+            "x": 1153,
+            "y": 1210,
+            "width": 223,
+            "height": 71
+          },
+          "style": 1,
+          "characters": "Korzystne\nceny",
+          "align": [
+            "CENTER",
+            "TOP"
+          ],
+          "segments": [
+            {
+              "characters": "Korzystne\n",
+              "start": 0,
+              "end": 10,
+              "style": 2
+            },
+            {
+              "characters": "ceny",
+              "start": 10,
+              "end": 14,
+              "style": 3
+            }
+          ]
+        },
+        {
+          "id": "102:120",
+          "name": "Tańsze pakiety produktowe",
+          "type": "TEXT",
+          "parentId": "130:133",
+          "bounds": {
+            "x": 1457,
+            "y": 1210,
+            "width": 223,
+            "height": 71
+          },
+          "style": 1,
+          "characters": "Tańsze\npakiety produktowe",
+          "align": [
+            "CENTER",
+            "TOP"
+          ],
+          "segments": [
+            {
+              "characters": "Tańsze\n",
+              "start": 0,
+              "end": 7,
+              "style": 2
+            },
+            {
+              "characters": "pakiety produktowe",
+              "start": 7,
+              "end": 25,
+              "style": 3
+            }
+          ]
+        },
+        {
+          "id": "102:113",
+          "name": "Do 5 lat gwarancji na produkty",
+          "type": "TEXT",
+          "parentId": "130:133",
+          "bounds": {
+            "x": 483,
+            "y": 1210,
+            "width": 345,
+            "height": 71
+          },
+          "style": 1,
+          "characters": "Do 5 lat\ngwarancji na produkty",
+          "align": [
+            "CENTER",
+            "TOP"
+          ],
+          "segments": [
+            {
+              "characters": "Do 5 lat\n",
+              "start": 0,
+              "end": 9,
+              "style": 2
+            },
+            {
+              "characters": "gwarancji na produkty",
+              "start": 9,
+              "end": 30,
+              "style": 3
+            }
+          ]
+        }
+      ],
+      "styles": [
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "OUTSIDE",
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "fontSize": 24,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 700,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        },
+        {
+          "fontSize": 24,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 400,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        }
+      ]
+    }
+  ]
+}

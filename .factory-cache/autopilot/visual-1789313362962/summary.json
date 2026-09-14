@@ -1,0 +1,61 @@
+{
+  "capturedAt": "2026-09-13T15:29:59.258Z",
+  "implementationHash": "6ba4ae0331321d80e169ba926a9412395ec3bf974946093a56a7494f85475b1d",
+  "sourceHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+  "thresholds": {
+    "channelTolerance": 24,
+    "maxDifferentPixelRatio": 0.085,
+    "geometryTolerancePx": 2
+  },
+  "acceptanceScope": "page",
+  "buildReady": false,
+  "deferred": [],
+  "passed": false,
+  "pagePassed": false,
+  "routes": [
+    {
+      "id": "home",
+      "passed": false,
+      "pagePassed": false,
+      "ownership": {
+        "header": {
+          "pixels": 372480,
+          "differentPixels": 21847,
+          "ratio": 0.05865281357388316
+        },
+        "footer": {
+          "pixels": 1221120,
+          "differentPixels": 398958,
+          "ratio": 0.3267148191823899
+        },
+        "shared": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "page": {
+          "pixels": 15553920,
+          "differentPixels": 1904621,
+          "ratio": 0.12245279646545694
+        },
+        "outside": {
+          "pixels": 130560,
+          "differentPixels": 120340,
+          "ratio": 0.9217218137254902
+        },
+        "reused": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        }
+      },
+      "errors": [
+        "page pixel mismatch 12.245%",
+        "Section geometry differs: home-about",
+        "Section geometry differs: home-blog",
+        "Section geometry differs: home-knowledge"
+      ],
+      "comparison": ".factory-cache/autopilot/visual-1789313362962/home/comparison.json"
+    }
+  ]
+}

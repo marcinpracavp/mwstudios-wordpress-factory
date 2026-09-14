@@ -1,0 +1,61 @@
+{
+  "capturedAt": "2026-09-13T10:08:53.045Z",
+  "implementationHash": "c360c404f76b2b069639913b589d22e23386549c2acaa32c5acef7f56e77f4f4",
+  "sourceHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+  "thresholds": {
+    "channelTolerance": 24,
+    "maxDifferentPixelRatio": 0.085,
+    "geometryTolerancePx": 2
+  },
+  "acceptanceScope": "page",
+  "buildReady": false,
+  "deferred": [],
+  "passed": false,
+  "pagePassed": false,
+  "routes": [
+    {
+      "id": "product-archive",
+      "passed": false,
+      "pagePassed": false,
+      "ownership": {
+        "header": {
+          "pixels": 372480,
+          "differentPixels": 21852,
+          "ratio": 0.05866623711340206
+        },
+        "footer": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "shared": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "page": {
+          "pixels": 10972800,
+          "differentPixels": 3474351,
+          "ratio": 0.3166330380577428
+        },
+        "outside": {
+          "pixels": 1407360,
+          "differentPixels": 1407360,
+          "ratio": 1
+        },
+        "reused": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        }
+      },
+      "errors": [
+        "Responsive render health 390",
+        "Responsive render health 375",
+        "page pixel mismatch 31.663%",
+        "Section geometry differs: archive-filters"
+      ],
+      "comparison": ".factory-cache/autopilot/visual-1789294115653/product-archive/comparison.json"
+    }
+  ]
+}

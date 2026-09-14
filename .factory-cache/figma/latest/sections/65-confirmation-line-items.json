@@ -1,0 +1,64 @@
+{
+  "id": "confirmation-line-items",
+  "name": "confirmed order line item",
+  "order": 71,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "493:1320"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 282,
+    "y": 956,
+    "width": 673,
+    "height": 263,
+    "containerWidth": 1440
+  },
+  "layout": {
+    "type": "native-commerce-order-line-items",
+    "designContextRead": true,
+    "alignment": "left",
+    "itemImage": {
+      "nodeId": "493:1320",
+      "x": 282,
+      "y": 962,
+      "width": 171,
+      "height": 223
+    }
+  },
+  "typography": [
+    {
+      "nodeId": "493:1321",
+      "value": "Aquatos 5L",
+      "fontFamily": "DM Sans"
+    },
+    {
+      "nodeId": "493:1322",
+      "value": "411,00 zł",
+      "fontFamily": "DM Sans"
+    }
+  ],
+  "assets": [
+    {
+      "sourceNodeId": "493:1320",
+      "path": "assets/checkout/order-confirmation-product.png",
+      "usage": "order-line-item-product-image"
+    }
+  ],
+  "contentFields": [
+    {
+      "id": "493:1321",
+      "text": "Aquatos 5L",
+      "link": null
+    },
+    {
+      "id": "493:1322",
+      "text": "411,00 zł",
+      "link": null
+    }
+  ],
+  "notes": [
+    "Product name and price are exact completed-order design-state content, not an approved order fixture."
+  ],
+  "liveFigmaRequired": false
+}

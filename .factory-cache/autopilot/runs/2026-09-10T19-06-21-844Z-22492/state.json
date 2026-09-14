@@ -1,0 +1,2757 @@
+{
+  "id": "2026-09-10T19-06-21-844Z-22492",
+  "projectHash": "bf41d3389a933df4728a7419a0614c1f2c626795beb45264b14302ffe61ffeec",
+  "localUrl": "https://autopilot.local",
+  "status": "paused",
+  "done": [
+    "discovery:inventory",
+    "discovery:detail-home",
+    "discovery:detail-careers",
+    "discovery:detail-catalogues",
+    "discovery:detail-blog",
+    "discovery:detail-contact",
+    "discovery:detail-about",
+    "discovery:detail-product",
+    "discovery:detail-cart",
+    "discovery:detail-checkout",
+    "discovery:detail-product-archive",
+    "discovery:detail-account",
+    "foundation:shared",
+    "build:careers",
+    "build:catalogues",
+    "build:blog",
+    "build:contact",
+    "build:about",
+    "build:product",
+    "build:cart",
+    "build:checkout",
+    "build:product-archive",
+    "build:home",
+    "build:account"
+  ],
+  "attempts": [
+    {
+      "task": "discovery:snapshot",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\001-discovery-snapshot",
+      "status": "failed",
+      "startedAt": "2026-09-10T19:06:24.078Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/001-discovery-snapshot; {\"code\":2,\"signal\":null}",
+      "finishedAt": "2026-09-10T19:06:24.210Z",
+      "usageUnknown": true
+    },
+    {
+      "task": "discovery:snapshot",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\002-discovery-snapshot",
+      "status": "failed",
+      "startedAt": "2026-09-10T19:08:55.385Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/002-discovery-snapshot; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at Sep 11th, 2026 1:41 AM.\"}\n2026-09-10T19:08:56.390552Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n2026-09-10T19:09:00.315511Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh\n2026-09-10T19:13:29.204879Z ERROR codex_core::tools::router: error=unable to read image at `C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\figma\\latest\\references\\full\\home.png`: fs/readFile returned invalid base64 dataBase64: Invalid symbol 61, offset 5303512.\n",
+      "finishedAt": "2026-09-10T19:21:06.497Z",
+      "usageUnknown": true
+    },
+    {
+      "task": "discovery:snapshot",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\003-discovery-snapshot",
+      "status": "failed",
+      "startedAt": "2026-09-10T19:30:55.053Z",
+      "usage": {
+        "input_tokens": 5794319,
+        "cached_input_tokens": 5627264,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 37924,
+        "reasoning_output_tokens": 12452
+      },
+      "threadId": "01a08cb9-19c5-7e02-897b-c797df343c03",
+      "finishedAt": "2026-09-10T19:51:43.584Z",
+      "result": {
+        "status": "blocked",
+        "summary": "Zapisano 21 tras i referencji, 13 snapshotów sekcji oraz 124 rekordy treści. Snapshot pozostaje częściowy; WordPress bez zmian.",
+        "evidence": [
+          ".factory-cache/figma/latest/manifest.json",
+          "docs/factory/project/PLAN.md",
+          "docs/factory/project/SOURCE_CLARIFICATIONS.md",
+          "docs/factory/project/CAPTURE_REMAINING.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/snapshot-gate.json"
+        ],
+        "issues": [
+          "Brakuje katalogów PDF, adresów czytników online i etykiety produktu.",
+          "Opinie i opis pakietu zawierają źródłowe Lorem ipsum.",
+          "Nie ustalono dozwolonego natywnego stanu potwierdzenia zamówienia.",
+          "Pozostało 65 sekcji oraz zasoby i mapowania do uzupełnienia. Obie walidacje nie przeszły."
+        ]
+      },
+      "error": "WORKER_BLOCKED: Zapisano 21 tras i referencji, 13 snapshotów sekcji oraz 124 rekordy treści. Snapshot pozostaje częściowy; WordPress bez zmian.\nBrakuje katalogów PDF, adresów czytników online i etykiety produktu.\nOpinie i opis pakietu zawierają źródłowe Lorem ipsum.\nNie ustalono dozwolonego natywnego stanu potwierdzenia zamówienia.\nPozostało 65 sekcji oraz zasoby i mapowania do uzupełnienia. Obie walidacje nie przeszły.",
+      "usageUnknown": false
+    },
+    {
+      "task": "discovery:detail-home",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\004-discovery-detail-home",
+      "status": "failed",
+      "startedAt": "2026-09-10T19:58:29.893Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/004-discovery-detail-home; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at Sep 11th, 2026 2:25 AM.\"}\n2026-09-10T19:58:30.168558Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n2026-09-10T19:58:34.058051Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh\n2026-09-10T19:58:43.161673Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"This action was rejected due to unacceptable risk.\\\\nReason: Automatic approval review failed: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at Sep 11th, 2026 2:25 AM.\\\\nDo not bypass this rejection through a workaround or indirect execution. Continue with a safer alternative, or carry out checks to prove that the action is authorized or low risk before trying again. Complete unaffected work without asking for confirmation. Report anything that remains blocked, clarify why it was blocked by auto-review, inform the user of the risk and ask for approval.\\\")\" }\n2026-09-10T19:58:43.867311Z  WARN codex_core::tasks: failed to flush rollout after emitting terminal turn event: thread 01a08ce6-7ada-7100-bee8-7068869fda1d not found\n",
+      "finishedAt": "2026-09-10T19:58:44.541Z",
+      "threadId": "01a08ce6-7ada-7100-bee8-7068869fda1d",
+      "usageUnknown": true
+    },
+    {
+      "task": "discovery:detail-home",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\005-discovery-detail-home",
+      "status": "failed",
+      "startedAt": "2026-09-10T20:06:30.515Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/005-discovery-detail-home; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 10:41 PM.\"}\n2026-09-10T20:06:30.695153Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n2026-09-10T20:06:33.233377Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh\n2026-09-10T20:10:37.771041Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"This action was rejected due to unacceptable risk.\\\\nReason: Automatic approval review failed: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 10:41 PM.\\\\nDo not bypass this rejection through a workaround or indirect execution. Continue with a safer alternative, or carry out checks to prove that the action is authorized or low risk before trying again. Complete unaffected work without asking for confirmation. Report anything that remains blocked, clarify why it was blocked by auto-review, inform the user of the risk and ask for approval.\\\")\" }\n",
+      "finishedAt": "2026-09-10T20:10:39.052Z",
+      "threadId": "01a08ce6-7ada-7100-bee8-7068869fda1d",
+      "usageUnknown": true
+    },
+    {
+      "task": "discovery:detail-home",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\006-discovery-detail-home",
+      "status": "failed",
+      "startedAt": "2026-09-11T00:37:37.743Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/006-discovery-detail-home; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 7:37 AM.\"}\n2026-09-11T00:37:38.444152Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n2026-09-11T00:37:40.631017Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh\n2026-09-11T00:37:57.722008Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"`\\\\\\\"C:\\\\\\\\\\\\\\\\WINDOWS\\\\\\\\\\\\\\\\System32\\\\\\\\\\\\\\\\WindowsPowerShell\\\\\\\\\\\\\\\\v1.0\\\\\\\\\\\\\\\\powershell.exe\\\\\\\" -Command \\\\\\\"Get-Content -Encoding utf8 scripts/factory/autopilot/gates.js | Select-String -Pattern 'process.argv|group|writeFile|fs\\\\\\\\\\\\\\\\.write|mkdir|unlink|rename' -Context 2,3\\\\\\\"` rejected: blocked by policy\\\")\" }\n2026-09-11T00:44:09.848125Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"Failed to create unified exec process: Nazwa pliku lub jej rozszerzenie są za długie. (os error 206)\\\")\" }\n",
+      "finishedAt": "2026-09-11T00:57:08.756Z",
+      "threadId": "01a08ce6-7ada-7100-bee8-7068869fda1d",
+      "usageUnknown": true
+    },
+    {
+      "task": "discovery:detail-home",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\007-discovery-detail-home",
+      "status": "failed",
+      "startedAt": "2026-09-11T01:23:31.507Z",
+      "error": "MISSING_AGENT_EVIDENCE:  .factory-cache/figma/latest/manifest.json",
+      "finishedAt": "2026-09-11T01:24:44.522Z",
+      "usageUnknown": false,
+      "usage": {
+        "input_tokens": 306598,
+        "cached_input_tokens": 252160,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1901,
+        "reasoning_output_tokens": 355
+      }
+    },
+    {
+      "task": "discovery:detail-home",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\008-discovery-detail-home",
+      "status": "passed",
+      "startedAt": "2026-09-11T01:30:44.759Z",
+      "usage": {
+        "input_tokens": 217132,
+        "cached_input_tokens": 182272,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 918,
+        "reasoning_output_tokens": 171
+      },
+      "threadId": "01a08e10-1245-7fc0-b725-417a65c33b96",
+      "finishedAt": "2026-09-11T01:31:25.289Z",
+      "result": {
+        "status": "passed",
+        "summary": "Poprawiono kontrakt dowodów: wynik bramki home zapisano do istniejącego pliku uruchomienia. Bramka nadal przechodzi pomyślnie.",
+        "evidence": [
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/008-discovery-detail-home/gate-home.json",
+          ".factory-cache/figma/latest/manifest.json",
+          ".factory-cache/figma/latest/observations/index.json"
+        ],
+        "issues": []
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "discovery:detail-careers",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\009-discovery-detail-careers",
+      "status": "passed",
+      "startedAt": "2026-09-11T01:31:25.680Z",
+      "usage": {
+        "input_tokens": 5187761,
+        "cached_input_tokens": 4982784,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 20555,
+        "reasoning_output_tokens": 5657
+      },
+      "threadId": "01a08e17-4b65-7090-9aac-b36eb2b57c13",
+      "finishedAt": "2026-09-11T01:41:28.149Z",
+      "result": {
+        "status": "passed",
+        "summary": "Careers source discovery is complete; the careers group gate passes. Snapshot remains partial globally as required.",
+        "evidence": [
+          ".factory-cache/figma/latest/sections/30-careers-heading.json",
+          ".factory-cache/figma/latest/sections/31-careers-vacancies.json",
+          ".factory-cache/figma/latest/sections/32-careers-application.json",
+          ".factory-cache/figma/latest/sections/33-shared-shop-cta.json",
+          ".factory-cache/figma/latest/content-map.json",
+          ".factory-cache/figma/latest/manifest.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/009-discovery-detail-careers/careers-group-gate.json",
+          "docs/factory/project/SOURCE_CLARIFICATIONS.md"
+        ],
+        "issues": [
+          "Application recipient, CV retention policy, CF7 form identity, and privacy-policy destination remain downstream configuration gaps recorded in SOURCE_CLARIFICATIONS.md.",
+          "Source title “Magazynier/aprzedawca” is preserved verbatim and flagged for editorial review."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "discovery:detail-catalogues",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\010-discovery-detail-catalogues",
+      "status": "passed",
+      "startedAt": "2026-09-11T01:41:28.432Z",
+      "usage": {
+        "input_tokens": 6329980,
+        "cached_input_tokens": 6063360,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 15959,
+        "reasoning_output_tokens": 3885
+      },
+      "threadId": "01a08e20-7d8c-7923-8042-7663dd4eebe9",
+      "finishedAt": "2026-09-11T01:49:33.601Z",
+      "result": {
+        "status": "passed",
+        "summary": "Discovery grupy catalogues ukończony; bramka grupy przeszła. Nie wdrażano WordPressa.",
+        "evidence": [
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/010-discovery-detail-catalogues/gates-catalogues.log",
+          ".factory-cache/figma/latest/sections/34-catalogues-heading.json",
+          ".factory-cache/figma/latest/sections/04-catalogues-downloads.json",
+          ".factory-cache/figma/latest/content-map.json",
+          ".factory-cache/figma/latest/assets/catalogues/catalogues-heading-background.png",
+          ".factory-cache/figma/latest/references/sections/catalogues-heading.png",
+          "docs/factory/project/PLAN.md",
+          "docs/factory/project/SOURCE_CLARIFICATIONS.md"
+        ],
+        "issues": [
+          "Brakuje dwóch PDF-ów i zatwierdzonych URL-i czytników online.",
+          "Etykieta PDF na karcie sadowniczej powiela źródłowe „rolniczy”; zachowano ją verbatim do korekty redakcyjnej."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "discovery:detail-blog",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\011-discovery-detail-blog",
+      "status": "failed",
+      "startedAt": "2026-09-11T01:49:33.938Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/011-discovery-detail-blog; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 8:14 AM.\"}\n2026-09-11T01:49:34.754481Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n2026-09-11T01:49:37.131077Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh\n2026-09-11T01:49:47.980452Z ERROR codex_skills_extension::host_service: failed to install system skills: io error while remove existing system skills dir: Odmowa dostępu. (os error 5)\n2026-09-11T01:54:29.193112Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"This action was rejected due to unacceptable risk.\\\\nReason: Automatic approval review failed: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 8:14 AM.\\\\nThe agent must not attempt to achieve the same outcome via workaround, indirect execution, or policy circumvention. Proceed only with a materially safer alternative, or if the user explicitly approves the action after being informed of the risk. Otherwise, stop and request user input.\\\")\" }\n",
+      "finishedAt": "2026-09-11T01:54:30.290Z",
+      "threadId": "01a08e27-e5de-7922-9c18-5d002cd88ad8",
+      "usageUnknown": true
+    },
+    {
+      "task": "discovery:detail-blog",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\012-discovery-detail-blog",
+      "status": "passed",
+      "startedAt": "2026-09-11T08:30:05.250Z",
+      "usage": {
+        "input_tokens": 3380979,
+        "cached_input_tokens": 3227392,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 23308,
+        "reasoning_output_tokens": 6725
+      },
+      "threadId": "01a08f96-94f8-76e2-8585-3725b77abc94",
+      "finishedAt": "2026-09-11T08:42:06.369Z",
+      "result": {
+        "status": "passed",
+        "summary": "Discovery grupy blog ukończone. Zapisano sześć sekcji, cropy, 20 eksportów źródłowych, mapę treści oraz strukturę pól. Bramka `group blog` przechodzi; nie deklaruję gotowości wizualnej implementacji.",
+        "evidence": [
+          ".factory-cache/figma/latest/sections/35-blog-article-heading.json",
+          ".factory-cache/figma/latest/sections/36-blog-article-content.json",
+          ".factory-cache/figma/latest/sections/37-blog-related-posts.json",
+          ".factory-cache/figma/latest/sections/38-blog-archive-heading.json",
+          ".factory-cache/figma/latest/sections/39-blog-post-list.json",
+          ".factory-cache/figma/latest/sections/40-blog-pagination.json",
+          "docs/factory/project/PLAN.md",
+          "docs/factory/project/SOURCE_CLARIFICATIONS.md"
+        ],
+        "issues": [
+          "Pełna walidacja snapshotu pozostaje częściowa z powodu wcześniejszych braków w niezwiązanych grupach careers/shop-cta/catalogues.",
+          "Brak mobilnego źródła oraz adresów kart, breadcrumbów i paginacji jest zapisany jako konfiguracja/implementacja po stronie WordPressa."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "discovery:detail-contact",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\013-discovery-detail-contact",
+      "status": "passed",
+      "startedAt": "2026-09-11T08:42:06.759Z",
+      "usage": {
+        "input_tokens": 4065455,
+        "cached_input_tokens": 3917312,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 25488,
+        "reasoning_output_tokens": 8533
+      },
+      "threadId": "01a08fa1-9956-7222-ac68-f9bb379bc9e7",
+      "finishedAt": "2026-09-11T08:55:04.224Z",
+      "result": {
+        "status": "passed",
+        "summary": "Discovery grupy contact ukończone. Dodano cztery sekcje, 22 granularne rekordy źródłowej treści, assety/cropy 1x oraz geometrię trasy. Bramka contact przechodzi.",
+        "evidence": [
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/013-discovery-detail-contact/contact-gate.log",
+          ".factory-cache/figma/latest/sections/41-contact-heading.json",
+          ".factory-cache/figma/latest/sections/42-contact-details.json",
+          ".factory-cache/figma/latest/sections/43-contact-form.json",
+          ".factory-cache/figma/latest/sections/44-contact-map.json",
+          "docs/factory/project/PLAN.md",
+          "docs/factory/project/SOURCE_CLARIFICATIONS.md"
+        ],
+        "issues": [
+          "Brak ID formularza CF7 i skrzynki odbiorcy.",
+          "Brak źródłowego URL polityki prywatności.",
+          "Mapa nie ma w Figma linku ani reakcji; nie przypisano URL."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "discovery:detail-about",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\014-discovery-detail-about",
+      "status": "passed",
+      "startedAt": "2026-09-11T08:55:04.725Z",
+      "usage": {
+        "input_tokens": 2696628,
+        "cached_input_tokens": 2596480,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 20134,
+        "reasoning_output_tokens": 7153
+      },
+      "threadId": "01a08fad-7897-7020-94e7-615afc4d4753",
+      "finishedAt": "2026-09-11T09:05:18.466Z",
+      "result": {
+        "status": "passed",
+        "summary": "Discovery grupy About ukończony: zapisano pięć sekcji, exact 1× cropy, assety Figma, pola treści i geometrię trasy. Bramka grupy przechodzi.",
+        "evidence": [
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/014-discovery-detail-about/group-about-gate.json",
+          ".factory-cache/figma/latest/sections/34-about-heading.json",
+          ".factory-cache/figma/latest/sections/35-about-introduction.json",
+          ".factory-cache/figma/latest/sections/36-about-agricultural-supply.json",
+          ".factory-cache/figma/latest/sections/37-about-grain-trade.json",
+          ".factory-cache/figma/latest/sections/38-about-insurance.json",
+          ".factory-cache/figma/latest/content-map.json",
+          "docs/factory/project/PLAN.md",
+          "docs/factory/project/SOURCE_CLARIFICATIONS.md"
+        ],
+        "issues": [
+          "Widoczne etykiety breadcrumbu nie mają w Figma potwierdzonych docelowych URL-i; zapisano to jako nieblokującą lukę konfiguracji."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "discovery:detail-product",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\015-discovery-detail-product",
+      "status": "failed",
+      "startedAt": "2026-09-11T09:05:18.900Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/015-discovery-detail-product; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 3:26 PM.\"}\n2026-09-11T09:05:20.103330Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n2026-09-11T09:05:22.591333Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh\n",
+      "finishedAt": "2026-09-11T09:12:34.572Z",
+      "threadId": "01a08fb6-d84e-7910-9f6e-23f546ece4ee",
+      "usageUnknown": true
+    },
+    {
+      "task": "discovery:detail-product",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\016-discovery-detail-product",
+      "status": "passed",
+      "startedAt": "2026-09-11T09:23:23.310Z",
+      "usage": {
+        "input_tokens": 5485029,
+        "cached_input_tokens": 5173632,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 25243,
+        "reasoning_output_tokens": 8785
+      },
+      "threadId": "01a08fb6-d84e-7910-9f6e-23f546ece4ee",
+      "finishedAt": "2026-09-11T09:30:21.262Z",
+      "result": {
+        "status": "passed",
+        "summary": "Discovery dla grupy product ukończone. Zarejestrowano brakujące sekcje, geometrię tras, referencje PNG, assety i rekordy content-map; bramka product przechodzi. Nie wdrażano WordPressa.",
+        "evidence": [
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/016-discovery-detail-product/group-product-gate.log",
+          ".factory-cache/figma/latest/sections/45-product-breadcrumbs.json",
+          ".factory-cache/figma/latest/sections/51-product-inquiry-dialog.json",
+          ".factory-cache/figma/latest/sections/55-bundle-tabs.json",
+          ".factory-cache/figma/latest/assets/product-aquatos-5l.png",
+          ".factory-cache/figma/latest/assets/product-bundle-rapeseed.png",
+          "docs/factory/project/PLAN.md",
+          "docs/factory/project/SOURCE_CLARIFICATIONS.md"
+        ],
+        "issues": [
+          "Brakuje źródłowego pliku/docelowego URL dla „Pobierz etykietę”.",
+          "Brakuje konfiguracji CF7, wariantów pakietu, stanów magazynowych i cen 4/10 ha; tekst Spark Lorem ipsum wymaga późniejszej decyzji redakcyjnej."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "discovery:detail-cart",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\017-discovery-detail-cart",
+      "status": "passed",
+      "startedAt": "2026-09-11T09:37:50.893Z",
+      "usage": {
+        "input_tokens": 3286326,
+        "cached_input_tokens": 3158016,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 20928,
+        "reasoning_output_tokens": 8364
+      },
+      "threadId": "01a08fd4-9e31-7862-add3-ce6ef69bc3ab",
+      "finishedAt": "2026-09-11T09:48:03.550Z",
+      "result": {
+        "status": "passed",
+        "summary": "Cart discovery is complete; the cart group gate passes. No WordPress implementation was performed.",
+        "evidence": [
+          ".factory-cache/figma/latest/manifest.json",
+          ".factory-cache/figma/latest/sections/56-cart-heading.json",
+          ".factory-cache/figma/latest/sections/57-cart-lines.json",
+          ".factory-cache/figma/latest/sections/58-cart-totals.json",
+          ".factory-cache/figma/latest/content-map.json",
+          "docs/factory/project/PLAN.md",
+          "docs/factory/project/SOURCE_CLARIFICATIONS.md"
+        ],
+        "issues": [
+          "WooCommerce product, coupon BLACKFRIDAY, shipping/tax configuration, and native cart state remain implementation-time configuration gaps documented in SOURCE_CLARIFICATIONS.md."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "discovery:detail-checkout",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\018-discovery-detail-checkout",
+      "status": "needs_work",
+      "startedAt": "2026-09-11T09:48:03.787Z",
+      "usage": {
+        "input_tokens": 6740040,
+        "cached_input_tokens": 6394112,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 29587,
+        "reasoning_output_tokens": 8049
+      },
+      "threadId": "01a08fdd-f90f-7261-b17d-9a9d4d65f864",
+      "finishedAt": "2026-09-11T10:04:52.555Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Checkout source discovery is complete: the scoped checkout gate passes and exact section references/assets were captured. Rendered geometry verification remains for the later implementation/visual-QA stage.",
+        "evidence": [
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/018-discovery-detail-checkout/checkout-gate.log",
+          ".factory-cache/figma/latest/sections/59-checkout-payment.json",
+          ".factory-cache/figma/latest/sections/60-checkout-delivery.json",
+          ".factory-cache/figma/latest/sections/61-checkout-totals.json",
+          ".factory-cache/figma/latest/sections/63-checkout-steps.json",
+          ".factory-cache/figma/latest/sections/67-checkout-login-options.json",
+          "docs/factory/project/SOURCE_CLARIFICATIONS.md",
+          "docs/factory/project/PLAN.md"
+        ],
+        "issues": [
+          "Rendered checkout fidelity is not verifiable until the authorized implementation stage.",
+          "The broader snapshot validator still reports pre-existing non-checkout inventory/order/status defects; the checkout group gate passes."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "discovery:detail-checkout",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\019-discovery-detail-checkout",
+      "status": "passed",
+      "startedAt": "2026-09-11T10:04:52.653Z",
+      "usage": {
+        "input_tokens": 296556,
+        "cached_input_tokens": 230400,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3275,
+        "reasoning_output_tokens": 1460
+      },
+      "threadId": "01a08fed-5e8c-7413-bc12-f1844a65d172",
+      "finishedAt": "2026-09-11T10:06:44.445Z",
+      "result": {
+        "status": "passed",
+        "summary": "Checkout discovery is complete and remains structurally valid. All 16 scoped section records and snapshots exist; the checkout group gate passes. No WordPress implementation was performed.",
+        "evidence": [
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/019-discovery-detail-checkout/handoff.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/019-discovery-detail-checkout/source-context/index.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/018-discovery-detail-checkout/checkout-gate.log",
+          "docs/factory/project/PLAN.md",
+          "docs/factory/project/SOURCE_CLARIFICATIONS.md"
+        ],
+        "issues": [
+          "Native checkout gateways, shipping configuration, live pricing/coupon/tax data, and an approved existing order remain downstream configuration requirements for implementation and QA.",
+          "Rendered visual-fidelity verification belongs to the later implementation and visual-QA stages."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "discovery:detail-product-archive",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\020-discovery-detail-product-archive",
+      "status": "passed",
+      "startedAt": "2026-09-11T10:06:44.654Z",
+      "usage": {
+        "input_tokens": 6560843,
+        "cached_input_tokens": 6360832,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 30537,
+        "reasoning_output_tokens": 10444
+      },
+      "threadId": "01a08fef-135f-78b3-b300-cc579a9d7db1",
+      "finishedAt": "2026-09-11T10:23:53.474Z",
+      "result": {
+        "status": "passed",
+        "summary": "Discovery grupy product-archive ukończone; bramka grupy przechodzi.",
+        "evidence": [
+          ".factory-cache/figma/latest/manifest.json",
+          ".factory-cache/figma/latest/content-map.json",
+          ".factory-cache/figma/latest/sections/68-archive-breadcrumbs.json",
+          ".factory-cache/figma/latest/sections/69-archive-category-introduction.json",
+          ".factory-cache/figma/latest/sections/70-archive-filters.json",
+          ".factory-cache/figma/latest/sections/71-archive-sort.json",
+          ".factory-cache/figma/latest/sections/72-archive-product-grid.json",
+          ".factory-cache/figma/latest/sections/73-archive-pagination.json",
+          ".factory-cache/figma/latest/sections/74-archive-category-description.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/020-discovery-detail-product-archive/product-archive-group-gate.json",
+          "docs/factory/project/PLAN.md",
+          "docs/factory/project/SOURCE_CLARIFICATIONS.md"
+        ],
+        "issues": [
+          "Category introduction contains sourced Lorem ipsum flagged for editorial review.",
+          "Product metadata, stock, tax, attributes and filter relationships remain native WooCommerce configuration gaps."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "discovery:detail-account",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\021-discovery-detail-account",
+      "status": "passed",
+      "startedAt": "2026-09-11T10:23:53.738Z",
+      "usage": {
+        "input_tokens": 2634367,
+        "cached_input_tokens": 2519424,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 18370,
+        "reasoning_output_tokens": 6951
+      },
+      "threadId": "01a08ffe-c954-7222-a2cd-c497684c18fb",
+      "finishedAt": "2026-09-11T10:33:34.390Z",
+      "result": {
+        "status": "passed",
+        "summary": "Account discovery is complete. Captured breadcrumbs, verified login visuals, added registration source records/assets/crops, and the account group gate passes.",
+        "evidence": [
+          ".factory-cache/figma/latest/sections/27-account-breadcrumbs.json",
+          ".factory-cache/figma/latest/sections/13-account-login.json",
+          ".factory-cache/figma/latest/sections/28-account-registration.json",
+          ".factory-cache/figma/latest/references/sections/account-breadcrumbs.png",
+          ".factory-cache/figma/latest/references/sections/account-login.png",
+          ".factory-cache/figma/latest/references/sections/account-registration.png",
+          "docs/factory/project/PLAN.md",
+          "docs/factory/project/SOURCE_CLARIFICATIONS.md"
+        ],
+        "issues": []
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "foundation:shared",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\022-foundation-shared",
+      "status": "failed",
+      "startedAt": "2026-09-11T10:39:02.580Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/022-foundation-shared; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 5:00 PM.\"}\n2026-09-11T10:39:03.133287Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n2026-09-11T10:39:05.987148Z  WARN codex_core::session_startup_prewarm: startup websocket prewarm setup failed: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 5:00 PM.\n2026-09-11T10:39:06.299097Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh\n",
+      "finishedAt": "2026-09-11T10:39:08.435Z",
+      "threadId": "01a0900c-a584-7323-a394-cc358d693323",
+      "usageUnknown": true
+    },
+    {
+      "task": "foundation:shared",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\023-foundation-shared",
+      "status": "passed",
+      "startedAt": "2026-09-11T13:44:59.044Z",
+      "usage": {
+        "input_tokens": 6355724,
+        "cached_input_tokens": 6192768,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 43921,
+        "reasoning_output_tokens": 10758
+      },
+      "threadId": "01a0900c-a584-7323-a394-cc358d693323",
+      "finishedAt": "2026-09-11T14:09:46.659Z",
+      "result": {
+        "status": "passed",
+        "summary": "Shared foundation is implemented and active locally: ACF-backed sticky header/footer, DM Sans bundle, native menus/routes, WooCommerce, and idempotent snapshot importer. Build, PHP lint, and HTTP runtime checks passed.",
+        "evidence": [
+          "acf-json/group_rudnikagro_global.json",
+          "functions/rudnikagro.php",
+          "partials/header.php",
+          "partials/footer.php",
+          "scripts/factory/project/import-content.php",
+          "docs/factory/project/CONTENT_IMPORT_PLAN.md",
+          "docs/factory/project/STATUS.md"
+        ],
+        "issues": [
+          "Full page layouts are intentionally deferred to their route phases.",
+          "CF7 recipient/form configuration, WooCommerce payment/shipping/product data, legal/download destinations, and mobile source remain documented source gaps."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "build:careers",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\024-build-careers",
+      "status": "failed",
+      "startedAt": "2026-09-11T14:09:57.017Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/024-build-careers; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 8:44 PM.\"}\n2026-09-11T14:09:58.236682Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n2026-09-11T14:10:03.044002Z ERROR codex_models_manager::manager: failed to refresh available models: timeout waiting for child process to exit\n2026-09-11T14:10:09.016311Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh\n2026-09-11T14:16:17.681845Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\header.php:\n    <main>\n\t</main>\n2026-09-11T14:23:41.553291Z ERROR codex_models_manager::manager: failed to refresh available models: timeout waiting for child process to exit\n2026-09-11T14:24:44.837631Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"This action was rejected due to unacceptable risk.\\\\nReason: Automatic approval review failed: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 8:44 PM.\\\\nThe agent must not attempt to achieve the same outcome via workaround, indirect execution, or policy circumvention. Proceed only with a materially safer alternative, or if the user explicitly approves the action after being informed of the risk. Otherwise, stop and request user input.\\\")\" }\n2026-09-11T14:24:46.759685Z  WARN codex_core::tasks: failed to flush rollout after emitting terminal turn event: thread 01a090cd-bf2b-7f02-9bea-5d393ea04cde not found\n",
+      "finishedAt": "2026-09-11T14:24:48.167Z",
+      "threadId": "01a090cd-bf2b-7f02-9bea-5d393ea04cde",
+      "usageUnknown": true
+    },
+    {
+      "task": "build:careers",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\025-build-careers",
+      "status": "needs_work",
+      "startedAt": "2026-09-11T15:28:22.771Z",
+      "usage": {
+        "input_tokens": 12130843,
+        "cached_input_tokens": 11725952,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 59060,
+        "reasoning_output_tokens": 21981
+      },
+      "threadId": "01a090cd-bf2b-7f02-9bea-5d393ea04cde",
+      "finishedAt": "2026-09-11T15:46:41.443Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Implemented the RudnikAgro careers page with ACF-backed banner, vacancies, native CF7 application form, CTA, sticky shared header, and sourced media. Build succeeds. Final visual QA improved to 10.697% mismatch but does not meet the 1% gate.",
+        "evidence": [
+          "acf-json/group_rudnikagro_careers.json",
+          "page-careers.php",
+          "src/css/pages/_careers.scss",
+          "scripts/factory/project/import-content.php",
+          "docs/factory/project/STATUS.md",
+          "docs/factory/project/SOURCE_CLARIFICATIONS.md",
+          ".factory-cache/autopilot/visual-1789141554546/careers/comparison.json"
+        ],
+        "issues": [
+          "Visual QA remains failing: 10.697% pixel mismatch; careers body is 2.25px over geometry tolerance and full page is 3px taller.",
+          "CF7 recipient, upload-retention policy, and privacy-policy destination are not source-provided and remain unconfigured.",
+          "The sourced 'Magazynier/aprzedawca' typo is intentionally preserved pending editorial approval."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "build:careers",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\026-build-careers",
+      "status": "failed",
+      "startedAt": "2026-09-11T15:53:58.900Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/026-build-careers; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 10:27 PM.\"}\n2026-09-11T15:53:59.750072Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n2026-09-11T15:54:03.153301Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh\n",
+      "finishedAt": "2026-09-11T16:01:51.104Z",
+      "threadId": "01a0912c-fc46-7ad1-ba0f-2e10f1846d41",
+      "usageUnknown": true
+    },
+    {
+      "task": "build:careers",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\027-build-careers",
+      "status": "needs_work",
+      "startedAt": "2026-09-11T19:14:59.038Z",
+      "usage": {
+        "input_tokens": 6630907,
+        "cached_input_tokens": 6383488,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 30475,
+        "reasoning_output_tokens": 11858
+      },
+      "threadId": "01a0912c-fc46-7ad1-ba0f-2e10f1846d41",
+      "finishedAt": "2026-09-11T19:27:56.933Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Careers layout geometry and responsive health now pass, but visual QA remains above the 1% threshold at 5.138%.",
+        "evidence": [
+          "page-careers.php",
+          "acf-json/group_rudnikagro_careers.json",
+          "src/css/pages/_careers.scss",
+          "src/css/layouts/_footer.scss",
+          "scripts/factory/project/import-content.php",
+          "docs/factory/project/STATUS.md",
+          "docs/factory/project/SOURCE_CLARIFICATIONS.md",
+          ".factory-cache/autopilot/visual-1789154835932/careers/comparison.json"
+        ],
+        "issues": [
+          "Visual pixel mismatch is 5.138%; section pixel gate remains failing.",
+          "CF7 recipient, upload-retention policy, and privacy-policy destination are not source-provided."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "build:careers",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\028-build-careers",
+      "status": "needs_work",
+      "startedAt": "2026-09-11T19:27:57.477Z",
+      "usage": {
+        "input_tokens": 3689991,
+        "cached_input_tokens": 3518208,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 33775,
+        "reasoning_output_tokens": 16505
+      },
+      "threadId": "01a091f0-e238-7660-af44-008d56b196ad",
+      "finishedAt": "2026-09-11T19:42:51.017Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Careers visual refinements compiled successfully and responsive health is clean, but the scoped pixel gate still fails at 5.063% (threshold 1%).",
+        "evidence": [
+          "partials/footer.php",
+          "src/css/layouts/_footer.scss",
+          "src/css/pages/_careers.scss",
+          "docs/factory/project/STATUS.md",
+          ".factory-cache/autopilot/visual-1789155701699/careers/comparison.json"
+        ],
+        "issues": [
+          "Desktop visual pixel mismatch remains 5.063%; section pixel gate fails.",
+          "CF7 recipient, upload-retention policy, and privacy-policy destination are not source-provided."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "build:careers",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\029-build-careers",
+      "status": "failed",
+      "startedAt": "2026-09-11T19:44:31.935Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/029-build-careers; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at Sep 12th, 2026 2:14 AM.\"}\n2026-09-11T19:44:32.209865Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n2026-09-11T19:44:34.875230Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh\n2026-09-11T19:45:42.069027Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"This action was rejected due to unacceptable risk.\\\\nReason: Automatic approval review failed: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at Sep 12th, 2026 2:14 AM.\\\\nThe agent must not attempt to achieve the same outcome via workaround, indirect execution, or policy circumvention. Proceed only with a materially safer alternative, or if the user explicitly approves the action after being informed of the risk. Otherwise, stop and request user input.\\\")\" }\n",
+      "finishedAt": "2026-09-11T19:45:45.553Z",
+      "threadId": "01a09200-0d8d-7ca2-b1a3-91ecb6909551",
+      "usageUnknown": true
+    },
+    {
+      "task": "build:careers",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\030-build-careers",
+      "status": "passed",
+      "startedAt": "2026-09-11T20:42:14.444Z",
+      "usage": {
+        "input_tokens": 1038347,
+        "cached_input_tokens": 964480,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 13487,
+        "reasoning_output_tokens": 5509
+      },
+      "threadId": "01a09234-e586-78a0-b549-401197b00d74",
+      "finishedAt": "2026-09-11T20:49:23.917Z",
+      "result": {
+        "status": "passed",
+        "summary": "Extracted the editable careers banner/breadcrumb into a reusable component. Careers page-only QA passes at 4.977%.",
+        "evidence": [
+          "partials/page-banner.php",
+          "src/css/components/_page-banner.scss",
+          "page-careers.php",
+          "docs/factory/project/REUSABLE_COMPONENTS.md",
+          "docs/factory/project/STATUS.md",
+          ".factory-cache/autopilot/visual-1789159596760/summary.json"
+        ],
+        "issues": [
+          "Shared final-audit findings remain: header 5.849%, footer 5.859%, and shared-shop-cta 6.144%."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "build:catalogues",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\031-build-catalogues",
+      "status": "failed",
+      "startedAt": "2026-09-11T20:49:51.267Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/031-build-catalogues; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at Sep 12th, 2026 3:37 AM.\"}\n2026-09-11T20:49:52.104027Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n2026-09-11T20:49:54.160585Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh\n2026-09-11T21:06:41.881198Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (1/5 in 189ms)... turn_id=01a0923b-e12d-7971-ae5b-abc2c27effce retries=1 max_retries=5 sampling_error=stream disconnected before completion: WebSocket protocol error: Connection reset without closing handshake\n",
+      "finishedAt": "2026-09-11T21:08:06.723Z",
+      "threadId": "01a0923b-dd67-7f60-8251-653d78dce060",
+      "usageUnknown": true
+    },
+    {
+      "task": "build:catalogues",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\032-build-catalogues",
+      "status": "passed",
+      "startedAt": "2026-09-12T06:27:14.908Z",
+      "usage": {
+        "input_tokens": 11414937,
+        "cached_input_tokens": 10920192,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 48914,
+        "reasoning_output_tokens": 20000
+      },
+      "threadId": "01a0923b-dd67-7f60-8251-653d78dce060",
+      "finishedAt": "2026-09-12T06:36:24.315Z",
+      "result": {
+        "status": "passed",
+        "summary": "Catalogue route implemented and page-only visual QA passes: 4.784% page mismatch against the 5.0% threshold. Native ACF content, source media, and derived responsive renders are in place.",
+        "evidence": [
+          ".factory-cache/autopilot/visual-1789194920410/summary.json",
+          ".factory-cache/autopilot/visual-1789194920410/catalogues/comparison.json",
+          "page-catalogues.php",
+          "acf-json/group_rudnikagro_catalogues.json",
+          "docs/factory/project/STATUS.md"
+        ],
+        "issues": [
+          "Shared header mismatch is 5.871% and is deferred to final shared audit.",
+          "CTA/footer geometry records are careers-sized shared-source mappings and need final shared audit reconciliation.",
+          "Catalogue PDF and online-reader destinations remain blank pending approved source targets."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "build:blog",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\033-build-blog",
+      "status": "failed",
+      "startedAt": "2026-09-12T06:50:24.301Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/033-build-blog; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 1:24 PM.\"}\n2026-09-12T06:50:25.842548Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n2026-09-12T06:50:28.159764Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh\n2026-09-12T07:02:12.724537Z ERROR codex_core::session: failed to record rollout items: thread 01a09461-b215-7a81-bc26-0a89c23afb56 not found\n2026-09-12T07:02:12.724737Z ERROR codex_core::session: failed to record rollout items: thread 01a09461-b215-7a81-bc26-0a89c23afb56 not found\n",
+      "finishedAt": "2026-09-12T07:02:13.202Z",
+      "threadId": "01a09461-b215-7a81-bc26-0a89c23afb56",
+      "usageUnknown": true
+    },
+    {
+      "task": "build:blog",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\034-build-blog",
+      "status": "needs_work",
+      "startedAt": "2026-09-12T07:08:13.148Z",
+      "usage": {
+        "input_tokens": 13455063,
+        "cached_input_tokens": 13129344,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 52675,
+        "reasoning_output_tokens": 21468
+      },
+      "threadId": "01a09461-b215-7a81-bc26-0a89c23afb56",
+      "finishedAt": "2026-09-12T07:33:14.822Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Implemented native Blog archive/article templates, ACF groups, source importer, reusable banner mapping, and scoped styling. Build passes. Blog QA remains above the 5% page threshold; article content encoding cannot be safely overwritten without provenance confirmation.",
+        "evidence": [
+          "docs/factory/project/STATUS.md",
+          "docs/factory/project/CONTENT_IMPORT_PLAN.md",
+          "docs/factory/project/REUSABLE_COMPONENTS.md",
+          ".factory-cache/autopilot/visual-1789197678548/summary.json",
+          ".factory-cache/autopilot/visual-1789197989419/summary.json"
+        ],
+        "issues": [
+          "Blog archive page-owner mismatch: 7.585% (target ≤5%).",
+          "Blog article pre-correction page-owner mismatch: 40.482%.",
+          "Existing article body contains mojibake; safe automatic replacement is blocked because it may overwrite editor changes.",
+          "Shared header mismatch: 5.871%; shared footer source geometry is inconsistent in the blog frame."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "build:blog",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\035-build-blog",
+      "status": "failed",
+      "startedAt": "2026-09-12T07:33:16.822Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/035-build-blog; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 1:51 PM.\"}\n2026-09-12T07:33:18.881263Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n2026-09-12T07:33:23.576347Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh\n2026-09-12T07:36:18.693966Z ERROR codex_core::session: failed to record rollout items: thread 01a09488-f48a-7522-bd26-5a6cec16a8ab not found\n",
+      "finishedAt": "2026-09-12T07:36:19.070Z",
+      "threadId": "01a09488-f48a-7522-bd26-5a6cec16a8ab",
+      "usageUnknown": true
+    },
+    {
+      "task": "build:blog",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\036-build-blog",
+      "status": "needs_work",
+      "startedAt": "2026-09-12T08:15:49.389Z",
+      "usage": {
+        "input_tokens": 6095484,
+        "cached_input_tokens": 5906688,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 25133,
+        "reasoning_output_tokens": 12219
+      },
+      "threadId": "01a09488-f48a-7522-bd26-5a6cec16a8ab",
+      "finishedAt": "2026-09-12T08:33:09.466Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Blog geometry and sourced content repair are complete, but both routes remain above the 5% page threshold.",
+        "evidence": [
+          "docs/factory/project/STATUS.md",
+          "scripts/factory/project/import-content.php",
+          ".factory-cache/autopilot/visual-1789201872079/summary.json",
+          ".factory-cache/autopilot/visual-1789201744977/summary.json"
+        ],
+        "issues": [
+          "Blog article page-owner mismatch: 11.706% (target ≤5%).",
+          "Blog archive page-owner mismatch: 7.585% (target ≤5%).",
+          "Shared header mismatch: 5.871%; deferred to shared/final audit.",
+          "Frozen article footer geometry conflicts with its 4010px source frame; deferred to shared/final audit."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "build:blog",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\037-build-blog",
+      "status": "failed",
+      "startedAt": "2026-09-12T08:33:10.538Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/037-build-blog; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 3:14 PM.\"}\n2026-09-12T08:33:11.349086Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n2026-09-12T08:33:13.698452Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh\n2026-09-12T08:36:32.018862Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (1/1 in 187ms)... turn_id=01a094c2-d63e-79d3-ac41-a28762f112bd retries=1 max_retries=1 sampling_error=stream disconnected before completion: failed to send websocket request: Connection closed normally\n2026-09-12T08:44:24.995529Z ERROR codex_core::session: failed to record rollout items: thread 01a094bf-c61c-70d0-a83e-5c12b089d728 not found\n2026-09-12T08:44:24.998061Z ERROR codex_core::session: failed to record rollout items: thread 01a094bf-c61c-70d0-a83e-5c12b089d728 not found\n",
+      "finishedAt": "2026-09-12T08:44:25.423Z",
+      "threadId": "01a094bf-c61c-70d0-a83e-5c12b089d728",
+      "usageUnknown": true
+    },
+    {
+      "task": "build:blog",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\038-build-blog",
+      "status": "needs_work",
+      "startedAt": "2026-09-12T09:21:36.138Z",
+      "usage": {
+        "input_tokens": 2398006,
+        "cached_input_tokens": 2279680,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 14637,
+        "reasoning_output_tokens": 5960
+      },
+      "threadId": "01a094ec-1be6-7862-9e0b-c663770ebf90",
+      "finishedAt": "2026-09-12T09:29:42.058Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Blog source-visible list markers, indentation, and green emphasis were restored; build completed. Archive is deferred to final audit; article remains over page threshold.",
+        "evidence": [
+          "src/css/pages/_blog-article.scss",
+          "docs/factory/project/STATUS.md",
+          ".factory-cache/autopilot/visual-1789205177615/summary.json",
+          ".factory-cache/autopilot/visual-1789205194796/summary.json"
+        ],
+        "issues": [
+          "blog-article: 11.705% page mismatch and 45px full-frame height difference; final visual audit required.",
+          "blog-archive: 7.585% page mismatch; correctly DEFERRED TO FINAL after churn-stop condition."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "build:contact",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\039-build-contact",
+      "status": "failed",
+      "startedAt": "2026-09-12T09:33:47.571Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/039-build-contact; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 4:14 PM.\"}\n2026-09-12T09:33:48.080539Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n2026-09-12T09:33:50.202561Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh\n2026-09-12T09:37:32.407292Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"This action was rejected due to unacceptable risk.\\\\nReason: Automatic approval review failed: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 4:14 PM.\\\\nThe agent must not attempt to achieve the same outcome via workaround, indirect execution, or policy circumvention. Proceed only with a materially safer alternative, or if the user explicitly approves the action after being informed of the risk. Otherwise, stop and request user input.\\\")\" }\n",
+      "finishedAt": "2026-09-12T09:37:33.780Z",
+      "threadId": "01a094f7-446e-7972-8901-3fbce25781a3",
+      "usageUnknown": true
+    },
+    {
+      "task": "build:contact",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\040-build-contact",
+      "status": "failed",
+      "startedAt": "2026-09-12T09:50:41.343Z",
+      "usage": {
+        "input_tokens": 6983520,
+        "cached_input_tokens": 6735616,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 38062,
+        "reasoning_output_tokens": 14394
+      },
+      "threadId": "01a094f7-446e-7972-8901-3fbce25781a3",
+      "finishedAt": "2026-09-12T10:09:53.968Z",
+      "error": "ENGINE_CHANGED_BY_WORKER: review before continuing",
+      "usageUnknown": false
+    },
+    {
+      "task": "build:about",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\041-build-about",
+      "status": "needs_work",
+      "startedAt": "2026-09-12T10:12:57.312Z",
+      "usage": {
+        "input_tokens": 4710524,
+        "cached_input_tokens": 4451584,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 27036,
+        "reasoning_output_tokens": 8464
+      },
+      "threadId": "01a0951b-214c-7061-9cef-cecc63a72cbf",
+      "finishedAt": "2026-09-12T10:28:26.086Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Implemented the source-backed O nas page, ACF group, idempotent importer, dedicated SCSS, reusable banner/CTA mappings, and compiled assets. Page section geometry now matches the scoped desktop coordinates and derived responsive captures are healthy.",
+        "evidence": [
+          "page-about.php",
+          "acf-json/group_rudnikagro_about.json",
+          "src/css/pages/_about.scss",
+          "scripts/factory/project/import-content.php",
+          "docs/factory/project/STATUS.md",
+          ".factory-cache/autopilot/visual-1789208797419/summary.json",
+          ".factory-cache/autopilot/visual-1789208797419/about/comparison.json"
+        ],
+        "issues": [
+          "Page-only QA remains 57.125% above the 8.5% threshold because frozen per-section raster references are shifted: supply shows grain, grain shows insurance, and insurance shows CTA/footer. This is recorded in SOURCE_CLARIFICATIONS.md; source bytes were not changed.",
+          "Shared shop CTA mismatch (83.833%) is deferred to the final shared-component audit."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "build:about",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\042-build-about",
+      "status": "needs_work",
+      "startedAt": "2026-09-12T10:28:56.174Z",
+      "usage": {
+        "input_tokens": 642160,
+        "cached_input_tokens": 595200,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 6045,
+        "reasoning_output_tokens": 2299
+      },
+      "threadId": "01a09529-c1cb-7ee3-b363-da6fffaf7702",
+      "finishedAt": "2026-09-12T10:33:22.525Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "About rebuild completed and /o-nas/ returns HTTP 200. Fresh page-only QA remains 57.125% because frozen per-section raster references are shifted, while geometry and derived responsive renders are healthy.",
+        "evidence": [
+          "docs/factory/project/STATUS.md",
+          "docs/factory/project/SOURCE_CLARIFICATIONS.md",
+          ".factory-cache/autopilot/visual-1789209098081/summary.json",
+          ".factory-cache/autopilot/visual-1789209098081/about/comparison.json"
+        ],
+        "issues": [
+          "Page acceptance cannot pass until the frozen About per-section reference mapping is corrected; it conflicts with the scoped records and full-frame source.",
+          "Shared shop CTA mismatch (83.833%) remains for the final shared-component audit."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "build:about",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\043-build-about",
+      "status": "failed",
+      "startedAt": "2026-09-12T10:42:34.952Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/043-build-about; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 4:48 PM.\"}\n2026-09-12T10:42:35.841034Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n2026-09-12T10:42:39.098283Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh\n2026-09-12T10:43:38.875525Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"This action was rejected due to unacceptable risk.\\\\nReason: Automatic approval review failed: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 4:48 PM.\\\\nThe agent must not attempt to achieve the same outcome via workaround, indirect execution, or policy circumvention. Proceed only with a materially safer alternative, or if the user explicitly approves the action after being informed of the risk. Otherwise, stop and request user input.\\\")\" }\n2026-09-12T10:43:39.576463Z  WARN codex_core::tasks: failed to flush rollout after emitting terminal turn event: thread 01a09536-4034-72c3-9a71-7ff93e248639 not found\n",
+      "finishedAt": "2026-09-12T10:43:40.238Z",
+      "threadId": "01a09536-4034-72c3-9a71-7ff93e248639",
+      "usageUnknown": true
+    },
+    {
+      "task": "build:about",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\044-build-about",
+      "status": "needs_work",
+      "startedAt": "2026-09-12T13:41:03.990Z",
+      "usage": {
+        "input_tokens": 7167697,
+        "cached_input_tokens": 6963840,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 25537,
+        "reasoning_output_tokens": 11079
+      },
+      "threadId": "01a09536-4034-72c3-9a71-7ff93e248639",
+      "finishedAt": "2026-09-12T13:59:02.213Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "About geometry and card interiors were corrected. Build passed; page QA is formally DEFERRED TO FINAL at 9.831%.",
+        "evidence": [
+          "page-about.php",
+          "src/css/abstracts/_margins.scss",
+          "src/css/pages/_about.scss",
+          "docs/factory/project/SOURCE_CLARIFICATIONS.md",
+          "docs/factory/project/STATUS.md",
+          ".factory-cache/autopilot/visual-1789221449708/summary.json",
+          ".factory-cache/autopilot/visual-1789221449708/about/comparison.json"
+        ],
+        "issues": [
+          "Page visual mismatch remains 9.831% vs. 8.5% target; churn rule requires final audit.",
+          "Shared shop CTA geometry remains for the shared/final audit."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "build:product",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\045-build-product",
+      "status": "needs_work",
+      "startedAt": "2026-09-12T13:59:59.854Z",
+      "usage": {
+        "input_tokens": 8302231,
+        "cached_input_tokens": 8082560,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 34659,
+        "reasoning_output_tokens": 9126
+      },
+      "threadId": "01a095eb-00f5-7742-a10e-2ed6098c2854",
+      "finishedAt": "2026-09-12T14:23:45.506Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Implemented native WooCommerce product template, ACF fields/importer, product interactions, and QA state preparation. Default product route is geometry-healthy and deferred to final audit at 5.753% page mismatch; state variants remain unfinished.",
+        "evidence": [
+          "single-product.php",
+          "acf-json/group_rudnikagro_product.json",
+          "src/css/pages/_product.scss",
+          "src/js/product.js",
+          "scripts/factory/project/qa-state.js",
+          "docs/factory/project/STATUS.md",
+          ".factory-cache/autopilot/visual-1789222699090/summary.json",
+          ".factory-cache/autopilot/visual-1789222939012/summary.json",
+          ".factory-cache/autopilot/visual-1789222788735/summary.json"
+        ],
+        "issues": [
+          "Expanded-description state: 9.648% page mismatch with expanded-description, related-products, and legal-notices geometry differences.",
+          "Inquiry state: 30.953% page mismatch; inquiry overview/dialog geometry needs implementation correction.",
+          "Reviews, downloads, and bundle states still need scoped visual QA.",
+          "Shared gallery and tab components remain for final shared audit (17.311% and 12.945% on default product capture)."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "build:product",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\046-build-product",
+      "status": "failed",
+      "startedAt": "2026-09-12T14:27:22.907Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/046-build-product; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 8:40 PM.\"}\n2026-09-12T14:27:24.741115Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n2026-09-12T14:27:27.852536Z  WARN codex_core::session_startup_prewarm: startup websocket prewarm setup failed: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 8:40 PM.\n2026-09-12T14:27:27.991902Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh\n2026-09-12T14:27:30.013655Z  WARN codex_core::tasks: failed to flush rollout after emitting terminal turn event: thread 01a09604-133b-7f42-8c62-5eeefed82607 not found\n",
+      "finishedAt": "2026-09-12T14:27:30.352Z",
+      "threadId": "01a09604-133b-7f42-8c62-5eeefed82607",
+      "usageUnknown": true
+    },
+    {
+      "task": "build:product",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\047-build-product",
+      "status": "needs_work",
+      "startedAt": "2026-09-12T14:43:26.355Z",
+      "usage": {
+        "input_tokens": 7309565,
+        "cached_input_tokens": 7118848,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 36789,
+        "reasoning_output_tokens": 11032
+      },
+      "threadId": "01a09604-133b-7f42-8c62-5eeefed82607",
+      "finishedAt": "2026-09-12T15:08:12.083Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Implemented source-backed bundle and inquiry states. Bundle passes page acceptance at 6.076%; inquiry is 5.824% with exact overview/dialog geometry and healthy responsive renders. Build succeeds (warnings only).",
+        "evidence": [
+          "single-product.php",
+          "acf-json/group_rudnikagro_product.json",
+          "src/css/pages/_product.scss",
+          "src/js/product.js",
+          "scripts/factory/project/import-content.php",
+          "scripts/factory/project/qa-state.js",
+          "docs/factory/project/PLAN.md",
+          "docs/factory/project/STATUS.md",
+          ".factory-cache/autopilot/visual-1789224876928/summary.json",
+          ".factory-cache/autopilot/visual-1789225645263/summary.json"
+        ],
+        "issues": [
+          "Inquiry related-products and legal-notices geometry remain 68px low.",
+          "Expanded-description state remains 9.617% with expanded/related/notices geometry differences.",
+          "Reviews state retains reviews/related/notices geometry differences; downloads state remains 8.606% with product-files geometry difference.",
+          "Shared product-gallery and product-tabs differences remain for final shared-component audit."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "build:product",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\048-build-product",
+      "status": "needs_work",
+      "startedAt": "2026-09-12T15:09:36.137Z",
+      "usage": {
+        "input_tokens": 4373299,
+        "cached_input_tokens": 4240256,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 20023,
+        "reasoning_output_tokens": 7715
+      },
+      "threadId": "01a0962a-b5dd-7373-8b67-4944fb37b499",
+      "finishedAt": "2026-09-12T15:25:06.109Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Inquiry state now passes page ownership at 6.011%. Expanded, reviews, and downloads remain above/blocked by state geometry; build completes with existing size warnings only.",
+        "evidence": [
+          "src/css/pages/_product.scss",
+          "single-product.php",
+          "docs/factory/project/STATUS.md",
+          ".factory-cache/autopilot/visual-1789226054477/summary.json",
+          ".factory-cache/autopilot/visual-1789226218651/summary.json",
+          ".factory-cache/autopilot/visual-1789226360919/summary.json",
+          ".factory-cache/autopilot/visual-1789226618688/summary.json"
+        ],
+        "issues": [
+          "Expanded description: best page mismatch 8.751%; height remains 331px short. Further trial regressed and was deferred by churn policy.",
+          "Reviews: native WooCommerce empty-review form does not match captured aggregate/review display.",
+          "Downloads: page mismatch 8.606%; product-files geometry remains 55px low and 48px short.",
+          "Shared product-gallery and product-tabs differences remain for final shared-component audit."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "build:product",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\049-build-product",
+      "status": "needs_work",
+      "startedAt": "2026-09-12T15:39:46.391Z",
+      "usage": {
+        "input_tokens": 3416659,
+        "cached_input_tokens": 3274112,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 20726,
+        "reasoning_output_tokens": 6799
+      },
+      "threadId": "01a09646-5647-7953-ab38-b4f8ba6b0a81",
+      "finishedAt": "2026-09-12T15:53:38.726Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Panel plików został skorygowany i odroczony do finalnego audytu przy 8.527%. Rozwinięty opis pozostaje na 8.751% po wycofaniu regresji. Opinie wymagają prawdziwych danych WooCommerce; nie utworzono fikcyjnej recenzji.",
+        "evidence": [
+          "single-product.php",
+          "src/css/pages/_product.scss",
+          "src/js/product.js",
+          "docs/factory/project/STATUS.md",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/049-build-product/product-reviews-state.source-dependency.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/049-build-product/product-reviews-state.runtime-probe.json",
+          ".factory-cache/autopilot/visual-1789228249992/product-files-state/comparison.json",
+          ".factory-cache/autopilot/visual-1789228348813/product-expanded/comparison.json",
+          ".factory-cache/autopilot/visual-1789228326058/product-reviews-state/comparison.json"
+        ],
+        "issues": [
+          "product-expanded: 8.751% page mismatch; geometry opisu i dalszego przepływu pozostaje odroczona z powodu churn policy.",
+          "product-reviews-state: brak rzeczywistych komentarzy WooCommerce dla Aquatos 5L; wymagany zatwierdzony rekord opinii.",
+          "Shared product-gallery mismatch pozostaje do finalnego audytu komponentów współdzielonych."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "build:product",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\050-build-product",
+      "status": "needs_work",
+      "startedAt": "2026-09-12T15:55:16.949Z",
+      "usage": {
+        "input_tokens": 1304485,
+        "cached_input_tokens": 1216256,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 11137,
+        "reasoning_output_tokens": 3749
+      },
+      "threadId": "01a09654-8949-7fb1-ba89-a41d3f60d1c5",
+      "finishedAt": "2026-09-12T16:02:39.554Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Zweryfikowano oba przypisane warianty i zbudowano motyw bez błędów kompilacji. Nie wprowadzono fikcyjnej opinii WooCommerce ani dalszych zmian odroczonej geometrii opisu.",
+        "evidence": [
+          ".factory-cache/autopilot/visual-1789228631768/product-expanded/comparison.json",
+          ".factory-cache/autopilot/visual-1789228658033/product-reviews-state/comparison.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/050-build-product/product-reviews-state.source-dependency.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/050-build-product/product-reviews-state.runtime-probe.json",
+          "docs/factory/project/STATUS.md"
+        ],
+        "issues": [
+          "product-expanded: 8.751% page mismatch; expanded description remains 331px too short and is deferred to final audit under churn policy.",
+          "product-reviews-state: Aquatos 5L has no native WooCommerce comments; an approved real review with rating, author/date and body is required.",
+          "Shared product-gallery mismatch remains for the final shared-component audit."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "build:product",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\051-build-product",
+      "status": "failed",
+      "startedAt": "2026-09-12T16:10:51.333Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/051-build-product; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 10:32 PM.\"}\n2026-09-12T16:10:52.230592Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n2026-09-12T16:10:56.085553Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh\n2026-09-12T16:14:34.901396Z  WARN codex_core::tasks: failed to flush rollout after emitting terminal turn event: thread 01a09662-cb53-7b71-932e-53f227addb27 not found\n",
+      "finishedAt": "2026-09-12T16:14:35.308Z",
+      "threadId": "01a09662-cb53-7b71-932e-53f227addb27",
+      "usageUnknown": true
+    },
+    {
+      "task": "build:product",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\052-build-product",
+      "status": "failed",
+      "startedAt": "2026-09-12T19:11:24.549Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/052-build-product; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at Sep 13th, 2026 2:00 AM.\"}\nt-reviews\"><?php comments_template(); ?></div>\n      <div class=\"c-product__panel\" data-product-panel=\"downloads\" data-factory-section=\"product-files\"><?php foreach ($downloads as $download) : if (!empty($download['label'])) : ?><p class=\"c-product__download\"><?php if (!empty($download['file'])) : ?><a href=\"<?php echo esc_url(wp_get_attachment_url((int) $download['file'])); ?>\"><?php endif; echo esc_html($download['label']); if (!empty($download['file'])) : ?></a><?php endif; ?></p><?php endif; endforeach; ?></div>\n      </div>\n    </section>\n2026-09-12T19:23:11.214341Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\single-product.php:\n        <?php if ($product && $product->is_purchasable()) : ?><form class=\"c-product__cart\" method=\"post\" action=\"<?php echo esc_url($product->add_to_cart_url()); ?>\"><input type=\"number\" name=\"quantity\" value=\"1\" min=\"1\" aria-label=\"IloÅ›Ä‡\"><button type=\"submit\" class=\"button-primary\"><?php echo esc_html($product->add_to_cart_text()); ?></button></form><?php endif; ?>\n2026-09-12T19:31:14.716807Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\docs\\factory\\project\\STATUS.md:\n## Product continuation update â€” 2026-09-12\n2026-09-12T19:31:43.612650Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\docs\\factory\\project\\STATUS.md:\n# Factory project status\n2026-09-12T19:32:57.555566Z ERROR codex_core::tools::router: error=exec_command failed: UnknownProcessId { process_id: 16388 }\n2026-09-12T19:32:57.590057Z ERROR codex_core::session: failed to record rollout items: thread 01a09708-19e2-75b3-b121-23215e95690a not found\n",
+      "finishedAt": "2026-09-12T19:32:57.901Z",
+      "threadId": "01a09708-19e2-75b3-b121-23215e95690a",
+      "usageUnknown": true
+    },
+    {
+      "task": "build:product",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\053-build-product",
+      "status": "needs_work",
+      "startedAt": "2026-09-12T19:53:05.549Z",
+      "usage": {
+        "input_tokens": 11278718,
+        "cached_input_tokens": 10943872,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 47022,
+        "reasoning_output_tokens": 15942
+      },
+      "threadId": "01a09708-19e2-75b3-b121-23215e95690a",
+      "finishedAt": "2026-09-12T20:00:02.389Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Imported native Aquatos variations, related products, review, taxonomy, and editable SVG ACF fields. Canonical product page geometry passes and visual QA is formally deferred to final audit; shared gallery/tabs still exceed their final-audit thresholds. Exact source SVG for download and separable related-card images remain unavailable.",
+        "evidence": [
+          "acf-json/group_rudnikagro_product.json",
+          "scripts/factory/project/import-content.php",
+          "scripts/factory/project/commerce-probe.php",
+          "docs/factory/project/COMMERCE_IMPORT.md",
+          "docs/factory/project/COMMERCE_PROBE.json",
+          "docs/factory/project/SOURCE_CLARIFICATIONS.md",
+          "docs/factory/project/STATUS.md",
+          ".factory-cache/autopilot/visual-1789243051718/summary.json",
+          ".factory-cache/autopilot/visual-1789243051718/product/comparison.json"
+        ],
+        "issues": [
+          "Final audit: shared product-gallery mismatch is 17.311% and product-tabs mismatch is 11.932%; canonical page owner is 5.868% with healthy geometry and explicit visual deferral.",
+          "Missing source asset: Figma group 586:1022 has no retained exact SVG export, so download_icon remains empty rather than using a substitute.",
+          "Missing source assets: related-card products 121 and 122 have sourced title/price but no separable frozen image bytes; featured images remain empty."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "build:product",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\054-build-product",
+      "status": "failed",
+      "startedAt": "2026-09-12T20:01:52.857Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/054-build-product; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at Sep 13th, 2026 2:49 AM.\"}\n026-09-12T20:01:53.323390Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n2026-09-12T20:01:57.864296Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh\n2026-09-12T20:16:33.974104Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\src\\css\\pages\\_product.scss:\n.c-product__related { width: calc(50% - 10px); min-height: 570px; margin-top: 46px; }.c-product__related h2 { font-size: 34px; }.c-product__related .products { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; list-style: none; padding: 0; }.c-product__related li.product { border: 1px solid #ddd; border-radius: 20px; padding: 16px; }.c-product__related li.product img { width: 100%; height: 230px; object-fit: contain; }.c-product__related .woocommerce-loop-product__title { font-size: 16px; }.c-product__related .price { color: var(--product-green); font-weight: 700; }\n2026-09-12T20:22:35.324069Z ERROR codex_core::tools::router: error=This action was rejected due to unacceptable risk.\nReason: Automatic approval review failed: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at Sep 13th, 2026 2:49 AM.\nThe agent must not attempt to achieve the same outcome via workaround, indirect execution, or policy circumvention. Proceed only with a materially safer alternative, or if the user explicitly approves the action after being informed of the risk. Otherwise, stop and request user input.\n2026-09-12T20:22:35.914344Z  WARN codex_core::tasks: failed to flush rollout after emitting terminal turn event: thread 01a09736-4c1d-7ae0-8fa1-464666c3cf6b not found\n",
+      "finishedAt": "2026-09-12T20:22:36.261Z",
+      "threadId": "01a09736-4c1d-7ae0-8fa1-464666c3cf6b",
+      "usageUnknown": true
+    },
+    {
+      "task": "build:product",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\055-build-product",
+      "status": "needs_work",
+      "startedAt": "2026-09-12T20:42:49.847Z",
+      "usage": {
+        "input_tokens": 5138962,
+        "cached_input_tokens": 4962432,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 25386,
+        "reasoning_output_tokens": 10638
+      },
+      "threadId": "01a09736-4c1d-7ae0-8fa1-464666c3cf6b",
+      "finishedAt": "2026-09-12T20:49:00.087Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Product geometry is healthy for both assigned states, but neither meets page acceptance and visual deferral is not authorized. Further template edits are currently blocked by the environment usage limit.",
+        "evidence": [
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/055-build-product/handoff.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/055-build-product/source-context/index.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/resume-page-check-1789245662957/product-expanded/product-expanded/comparison.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/resume-page-check-1789245662957/product-files-state/product-files-state/comparison.json",
+          "docs/factory/project/COMMERCE_PROBE.json",
+          "docs/factory/project/SOURCE_CLARIFICATIONS.md"
+        ],
+        "issues": [
+          "product-expanded: page mismatch 8.826% exceeds 8.5%; product-tabs shared geometry/mismatch remains for final audit; progress.deferred is false.",
+          "product-files-state: page mismatch 8.664% exceeds 8.5%; progress.deferred is false.",
+          "Local HTML probe after the prior fix still lacked both native related-card titles, requiring a scoped template repair.",
+          "Exact download SVG export and separable related-card image assets remain unavailable; these are recorded in SOURCE_CLARIFICATIONS.md."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "build:product",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\056-build-product",
+      "status": "needs_work",
+      "startedAt": "2026-09-12T20:50:48.624Z",
+      "usage": {
+        "input_tokens": 2988052,
+        "cached_input_tokens": 2835456,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 16674,
+        "reasoning_output_tokens": 6095
+      },
+      "threadId": "01a09763-17ce-72a0-ad09-cc638cb9579c",
+      "finishedAt": "2026-09-12T21:01:09.544Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Product importer now preserves source rich-text emphasis and reconciles native WooCommerce products, variations, reviews, hierarchy, and editable favorite SVG. Both assigned routes are runtime-healthy and explicitly deferred to final audit under the visual-churn rule.",
+        "evidence": [
+          "scripts/factory/project/import-content.php",
+          "docs/factory/project/COMMERCE_IMPORT.md",
+          "docs/factory/project/COMMERCE_PROBE.json",
+          "docs/factory/project/SOURCE_CLARIFICATIONS.md",
+          "docs/factory/project/STATUS.md",
+          ".factory-cache/autopilot/visual-1789246683144/summary.json",
+          ".factory-cache/autopilot/visual-1789246683144/product-expanded/comparison.json",
+          ".factory-cache/autopilot/visual-1789246752553/summary.json",
+          ".factory-cache/autopilot/visual-1789246752553/product-files-state/comparison.json"
+        ],
+        "issues": [
+          "product-expanded: 8.921% page mismatch exceeds 8.5%, with comparison.progress.deferred=true; product-tabs remains a shared final-audit geometry/mismatch issue.",
+          "product-files-state: 8.664% page mismatch exceeds 8.5%, with comparison.progress.deferred=true; product-gallery remains a shared final-audit issue.",
+          "Exact product download SVG export and label-file destination are absent from the frozen source; the editable download_icon field remains empty. Related-card image assets are also unavailable."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "build:cart",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\057-build-cart",
+      "status": "failed",
+      "startedAt": "2026-09-12T21:02:52.350Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/057-build-cart; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at Sep 13th, 2026 3:39 AM.\"}\n2026-09-12T21:02:52.877267Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n2026-09-12T21:02:58.389832Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh\n2026-09-12T21:14:33.892943Z ERROR codex_core::tools::router: error=This action was rejected due to unacceptable risk.\nReason: Automatic approval review failed: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at Sep 13th, 2026 3:39 AM.\nThe agent must not attempt to achieve the same outcome via workaround, indirect execution, or policy circumvention. Proceed only with a materially safer alternative, or if the user explicitly approves the action after being informed of the risk. Otherwise, stop and request user input.\n",
+      "finishedAt": "2026-09-12T21:14:36.143Z",
+      "threadId": "01a0976e-234e-79e0-b7c8-05836eed15e7",
+      "usageUnknown": true
+    },
+    {
+      "task": "build:cart",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\058-build-cart",
+      "status": "needs_work",
+      "startedAt": "2026-09-13T04:49:02.780Z",
+      "usage": {
+        "input_tokens": 6559582,
+        "cached_input_tokens": 6283776,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 36784,
+        "reasoning_output_tokens": 13631
+      },
+      "threadId": "01a0976e-234e-79e0-b7c8-05836eed15e7",
+      "finishedAt": "2026-09-13T04:59:39.499Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Implemented native cart template, ACF cart fields/SVG, importer configuration, QA preparation, and commerce reconciliation. Build completed. Visual QA cannot capture the cart state because the host skips preparation for this state-less route.",
+        "evidence": [
+          "woocommerce/cart/cart.php",
+          "src/css/pages/_cart.scss",
+          "scripts/factory/project/import-content.php",
+          "scripts/factory/project/qa-state.js",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/058-build-cart/commerce-probe.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/058-build-cart/importer-rerun.json",
+          ".factory-cache/autopilot/visual-1789275241517/cart/comparison.json"
+        ],
+        "issues": [
+          "Page-only QA is 20.491% and has absent cart section geometry because it opens an anonymous empty cart.",
+          "visual.js invokes qa-state.prepare only for routes with a state; cart has no manifest state, so the real Aquatos/coupon preparation is skipped."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "build:cart",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\059-build-cart",
+      "status": "needs_work",
+      "startedAt": "2026-09-13T05:00:28.072Z",
+      "usage": {
+        "input_tokens": 8600530,
+        "cached_input_tokens": 8313344,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 40551,
+        "reasoning_output_tokens": 16355
+      },
+      "threadId": "01a09923-64be-7fc1-b069-c3c0bd8874a3",
+      "finishedAt": "2026-09-13T05:41:10.341Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Native cart state and source geometry are implemented and manually verified. Host visual QA still captures an empty cart because it does not invoke qa-state for this state-less manifest route.",
+        "evidence": [
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/059-build-cart/cart-prepared.metrics.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/059-build-cart/cart-prepared.png",
+          ".factory-cache/autopilot/visual-1789277989390/cart/comparison.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/058-build-cart/commerce-probe.json",
+          "docs/factory/project/STATUS.md"
+        ],
+        "issues": [
+          "Host page-only QA reports 84.917% because visual.js skips qa-state.prepare when cart has no manifest state, opening an anonymous empty cart and omitting cart-heading/cart-lines.",
+          "The prepared real cart is healthy and source-backed, but cannot receive a host acceptance score until that state-invocation defect is resolved."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "build:cart",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\060-build-cart",
+      "status": "needs_work",
+      "startedAt": "2026-09-13T05:50:56.778Z",
+      "usage": {
+        "input_tokens": 3923519,
+        "cached_input_tokens": 3750784,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 17733,
+        "reasoning_output_tokens": 6003
+      },
+      "threadId": "01a09951-99d3-7713-b83f-fba701f8108b",
+      "finishedAt": "2026-09-13T06:03:24.004Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Cart is functional and structurally verified; fresh page-only QA deferred its remaining visual work to the final audit under the churn rule.",
+        "evidence": [
+          ".factory-cache/autopilot/visual-1789279245819/cart/comparison.json",
+          ".factory-cache/autopilot/visual-1789279245819/cart/metrics.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/060-build-cart/commerce-probe-current.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/060-build-cart/price-policy.json",
+          "docs/factory/project/STATUS.md"
+        ],
+        "issues": [
+          "comparison.progress.deferred is true after three changed captures; page-owner mismatch is 6.393% with no non-pixel errors, so the remaining cart visual tuning is deferred to final audit.",
+          "Header/footer differences remain shared final-audit scope."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "build:checkout",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\061-build-checkout",
+      "status": "needs_work",
+      "startedAt": "2026-09-13T06:03:52.743Z",
+      "usage": {
+        "input_tokens": 10843305,
+        "cached_input_tokens": 10625792,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 47182,
+        "reasoning_output_tokens": 17265
+      },
+      "threadId": "01a0995d-7166-7691-abb9-f6d7ff7c48c9",
+      "finishedAt": "2026-09-13T06:35:32.366Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Checkout page-only QA passes at 3.560% with clean page geometry/runtime. Native commerce and icon probe passed; payment provider setup remains a source dependency.",
+        "evidence": [
+          ".factory-cache/autopilot/visual-1789281083498/checkout/comparison.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/061-build-checkout/checkout-native-probe.log",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/061-build-checkout/checkout.source-dependency.json",
+          "docs/factory/project/STATUS.md",
+          "acf-json/group_rudnikagro_checkout.json"
+        ],
+        "issues": [
+          "Przelewy24, card, Google Pay, Apple Pay, BLIK, and cash-on-delivery need approved local WooCommerce provider configuration/credentials."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "build:checkout",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\062-build-checkout",
+      "status": "failed",
+      "startedAt": "2026-09-13T06:37:13.014Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/062-build-checkout; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 12:50 PM.\"}\n2026-09-13T06:37:14.003530Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n2026-09-13T06:37:17.908210Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh\n2026-09-13T06:45:16.208792Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\docs\\factory\\project\\PLAN.md:\n### Checkout source-to-field mapping â€” no fields created\n",
+      "finishedAt": "2026-09-13T06:45:17.461Z",
+      "threadId": "01a0997b-f86b-70a2-a873-ef5e5c8a8412",
+      "usageUnknown": true
+    },
+    {
+      "task": "build:checkout",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\063-build-checkout",
+      "status": "needs_work",
+      "startedAt": "2026-09-13T08:56:23.425Z",
+      "usage": {
+        "input_tokens": 12628151,
+        "cached_input_tokens": 12287232,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 46211,
+        "reasoning_output_tokens": 15731
+      },
+      "threadId": "01a0997b-f86b-70a2-a873-ef5e5c8a8412",
+      "finishedAt": "2026-09-13T09:17:36.646Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Native checkout login/registration states are implemented and runtime-healthy; both visual checks are explicitly deferred to final audit. Order confirmation needs a real approved local order.",
+        "evidence": [
+          ".factory-cache/autopilot/visual-1789290600963/checkout-login/comparison.json",
+          ".factory-cache/autopilot/visual-1789290872495/checkout-registration/comparison.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/063-build-checkout/checkout-native-probe.log",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/063-build-checkout/price-policy.log",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/063-build-checkout/order-confirmed.source-dependency.json",
+          "docs/factory/project/STATUS.md",
+          "acf-json/group_rudnikagro_checkout.json"
+        ],
+        "issues": [
+          "order-confirmed requires an approved local WooCommerce order identity/access key; no fixture was created.",
+          "Payment provider credentials/configuration remain unavailable.",
+          "Login and registration visual differences are deferred to final audit."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "build:checkout",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\064-build-checkout",
+      "status": "needs_work",
+      "startedAt": "2026-09-13T09:18:47.762Z",
+      "usage": {
+        "input_tokens": 2533983,
+        "cached_input_tokens": 2414976,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 16898,
+        "reasoning_output_tokens": 5355
+      },
+      "threadId": "01a09a0f-e86f-7550-a71c-73eadf046526",
+      "finishedAt": "2026-09-13T09:29:51.770Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Checkout registration remains correctly deferred to final audit at 10.223% page mismatch; native commerce migration was reconciled and stale missing-review declarations removed.",
+        "evidence": [
+          ".factory-cache/autopilot/visual-1789291626866/checkout-registration/comparison.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/064-build-checkout/commerce-native-probe.log",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/064-build-checkout/commerce-price-policy.log",
+          "docs/factory/project/COMMERCE_IMPORT.md",
+          "docs/factory/project/STATUS.md"
+        ],
+        "issues": [
+          "Registration visual QA is explicitly DEFERRED TO FINAL after three samples; progress.deferred is true and nonPixelErrors is empty.",
+          "Final audit retains checkout-login-heading x=3px and shared-footer y=-7236px geometry findings.",
+          "Order confirmation still needs an approved existing local WooCommerce order identity/access key.",
+          "Product download_icon remains empty because no exact frozen SVG export exists."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "build:product-archive",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\065-build-product-archive",
+      "status": "failed",
+      "startedAt": "2026-09-13T09:41:00.696Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/065-build-product-archive; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 3:55 PM.\"}\n2026-09-13T09:41:02.037712Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n2026-09-13T09:41:10.887944Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh\n",
+      "finishedAt": "2026-09-13T09:43:15.634Z",
+      "threadId": "01a09a24-3eb6-7900-a0c0-ae70cc91e185",
+      "usageUnknown": true
+    },
+    {
+      "task": "build:product-archive",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\066-build-product-archive",
+      "status": "needs_work",
+      "startedAt": "2026-09-13T09:57:06.624Z",
+      "usage": {
+        "input_tokens": 7324935,
+        "cached_input_tokens": 7113856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 37487,
+        "reasoning_output_tokens": 9710
+      },
+      "threadId": "01a09a24-3eb6-7900-a0c0-ae70cc91e185",
+      "finishedAt": "2026-09-13T10:16:26.343Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Built the native WooCommerce Fungicydy archive, imported 18 source-backed cards and pagination SVG, and verified native category/variation/review data. Build succeeds; visual acceptance does not pass.",
+        "evidence": [
+          "taxonomy-product_cat.php",
+          "acf-json/group_rudnikagro_product_archive.json",
+          "scripts/factory/project/import-content.php",
+          "scripts/factory/project/commerce-probe.php",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/066-build-product-archive/commerce-probe.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/066-build-product-archive/import-repeat-verified.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/066-build-product-archive/build.log",
+          ".factory-cache/autopilot/visual-1789294203652/product-archive/comparison.json",
+          "docs/factory/project/SOURCE_CLARIFICATIONS.md",
+          "docs/factory/project/STATUS.md"
+        ],
+        "issues": [
+          "Page-only visual QA remains 31.636% mismatch; this exceeds acceptance and is not eligible for visual deferral.",
+          "archive-filters geometry remains 104.03px shorter than the source.",
+          "Frozen source context lacks exact text records for WYSIWYG nodes 295:741 and 303:1276; their editable fields remain empty rather than receiving invented copy."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "build:product-archive",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\067-build-product-archive",
+      "status": "needs_work",
+      "startedAt": "2026-09-13T10:16:47.753Z",
+      "usage": {
+        "input_tokens": 2346699,
+        "cached_input_tokens": 2225152,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 19754,
+        "reasoning_output_tokens": 8730
+      },
+      "threadId": "01a09a44-fe27-7fc1-b05d-51c63cad40f0",
+      "finishedAt": "2026-09-13T10:27:36.928Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Imported the source-backed archive description, added its collapsed expand behavior, repaired filter geometry, and reverified native WooCommerce products, variations, review, category and SVG icon data. Build passes, but visual acceptance does not.",
+        "evidence": [
+          "taxonomy-product_cat.php",
+          "src/css/pages/_product-archive.scss",
+          "src/js/_product-archive.js",
+          "scripts/factory/project/import-content.php",
+          "acf-json/group_rudnikagro_product_archive.json",
+          "docs/factory/project/SOURCE_CLARIFICATIONS.md",
+          "docs/factory/project/STATUS.md",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/067-build-product-archive/build.log",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/067-build-product-archive/commerce-probe.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/067-build-product-archive/import-repeat-verified.json",
+          ".factory-cache/autopilot/visual-1789295057176/product-archive/comparison.json"
+        ],
+        "issues": [
+          "Page-only mismatch is 31.936%, above the 8.5% acceptance threshold; comparison.progress.deferred is false.",
+          "The preserved reference visually overlaps the shared footer with overflowing description node 303:1277, while native document flow places the footer after the 2242px description. This retained source-coordinate conflict dominates the description mismatch."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "build:home",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\068-build-home",
+      "status": "failed",
+      "startedAt": "2026-09-13T10:36:53.127Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/068-build-home; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 4:56 PM.\"}\n2026-09-13T10:36:53.554817Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n2026-09-13T10:36:56.478966Z  WARN codex_core::session_startup_prewarm: startup websocket prewarm setup failed: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 4:56 PM.\n2026-09-13T10:36:56.576339Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh\n2026-09-13T10:36:58.259941Z  WARN codex_core::tasks: failed to flush rollout after emitting terminal turn event: thread 01a09a57-6326-7071-b7bd-ff6aa1ef10a6 not found\n",
+      "finishedAt": "2026-09-13T10:36:58.707Z",
+      "threadId": "01a09a57-6326-7071-b7bd-ff6aa1ef10a6",
+      "usageUnknown": true
+    },
+    {
+      "task": "build:home",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\069-build-home",
+      "status": "needs_work",
+      "startedAt": "2026-09-13T11:37:07.038Z",
+      "usage": {
+        "input_tokens": 6896756,
+        "cached_input_tokens": 6694016,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 44465,
+        "reasoning_output_tokens": 12072
+      },
+      "threadId": "01a09a57-6326-7071-b7bd-ff6aa1ef10a6",
+      "finishedAt": "2026-09-13T12:01:24.829Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Zaimplementowano natywną stronę główną RudnikAgro z ACF, produktami Woo i SVG. Kompilacja przechodzi, lecz ostatni pomiar strony nie spełnia progu wizualnego.",
+        "evidence": [
+          "front-page.php",
+          "src/css/pages/_home.scss",
+          "acf-json/group_rudnikagro_home.json",
+          "scripts/factory/project/import-content.php",
+          "docs/factory/project/STATUS.md",
+          ".factory-cache/autopilot/visual-1789300699627/summary.json",
+          ".factory-cache/autopilot/visual-1789300699627/home/comparison.json"
+        ],
+        "issues": [
+          "Page-only QA: 25.638% różnicy właściciela strony; wymagane jest maks. 8.5%.",
+          "Brak uprawnionego odroczenia: comparison.progress.deferred=false.",
+          "Pozostałe odchylenia geometrii: promotions, bundles, recommended, blog i knowledge.",
+          "Pole ACF home-about nadal wskazuje niewłaściwy asset 140-292-image2.png zamiast źródłowego 130-140-rectangle41.png.",
+          "Brak zaimportowanych komentarzy WooCommerce review; sonda wykazała tylko domyślny komentarz WordPress.",
+          "Końcowa korekta geometrii bloga została skompilowana, ale wymaga kolejnego scoped QA."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "build:home",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\070-build-home",
+      "status": "failed",
+      "startedAt": "2026-09-13T12:04:58.449Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/070-build-home; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 6:34 PM.\"}\n2026-09-13T12:04:58.975066Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n2026-09-13T12:05:02.343151Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh\n2026-09-13T12:14:18.025788Z ERROR codex_core::tools::router: error=This action was rejected due to unacceptable risk.\nReason: Automatic approval review failed: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 6:34 PM.\nThe agent must not attempt to achieve the same outcome via workaround, indirect execution, or policy circumvention. Proceed only with a materially safer alternative, or if the user explicitly approves the action after being informed of the risk. Otherwise, stop and request user input.\n",
+      "finishedAt": "2026-09-13T12:14:20.066Z",
+      "threadId": "01a09aa8-0996-7483-bf68-33cc51b14959",
+      "usageUnknown": true
+    },
+    {
+      "task": "build:home",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\071-build-home",
+      "status": "failed",
+      "startedAt": "2026-09-13T14:13:56.461Z",
+      "usage": {
+        "input_tokens": 3694869,
+        "cached_input_tokens": 3408640,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 15908,
+        "reasoning_output_tokens": 5088
+      },
+      "threadId": "01a09aa8-0996-7483-bf68-33cc51b14959",
+      "finishedAt": "2026-09-13T14:15:12.899Z",
+      "result": {
+        "status": "blocked",
+        "summary": "Nie mogę kontynuować implementacji, bo system odrzucił zapis plików z powodu limitu użycia konta. Analiza potwierdza wymagane naprawy strony głównej i istniejącą natywną opinię WooCommerce.",
+        "evidence": [
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/071-build-home/handoff.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/071-build-home/source-context/index.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/resume-page-check-1789308766344/home/home/comparison.json",
+          "docs/factory/project/COMMERCE_PROBE.json"
+        ],
+        "issues": [
+          "Zapisy zostały zablokowane przez limit użycia; wymaga odnowienia limitu lub dostępu do zapisu.",
+          "Świeży page-only wynik home to 19.235%, bez autoryzowanego odroczenia.",
+          "Niezgodna geometria: home-promotions, home-bundles, home-recommended i home-blog.",
+          "Karty produktów nadal korzystają z ogólnego zapytania zamiast źródłowych, edytowalnych relacji WooCommerce."
+        ]
+      },
+      "usageUnknown": false,
+      "error": "WORKER_BLOCKED: Nie mogę kontynuować implementacji, bo system odrzucił zapis plików z powodu limitu użycia konta. Analiza potwierdza wymagane naprawy strony głównej i istniejącą natywną opinię WooCommerce.\nZapisy zostały zablokowane przez limit użycia; wymaga odnowienia limitu lub dostępu do zapisu.\nŚwieży page-only wynik home to 19.235%, bez autoryzowanego odroczenia.\nNiezgodna geometria: home-promotions, home-bundles, home-recommended i home-blog.\nKarty produktów nadal korzystają z ogólnego zapytania zamiast źródłowych, edytowalnych relacji WooCommerce."
+    },
+    {
+      "task": "build:home",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\072-build-home",
+      "status": "needs_work",
+      "startedAt": "2026-09-13T14:22:07.375Z",
+      "usage": {
+        "input_tokens": 8415983,
+        "cached_input_tokens": 8056832,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 38730,
+        "reasoning_output_tokens": 12220
+      },
+      "threadId": "01a09b25-996b-76d1-9e5c-e8be03b5a740",
+      "finishedAt": "2026-09-13T14:50:24.311Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Home improved to 13.124% page mismatch, but remains above the 8.5% threshold and is not deferred. Corrected about media, native blog media rendering, knowledge accordion geometry, and editable SVG state icons.",
+        "evidence": [
+          "front-page.php",
+          "src/css/pages/_home.scss",
+          "acf-json/group_rudnikagro_home.json",
+          "scripts/factory/project/import-content.php",
+          "docs/factory/project/STATUS.md",
+          "docs/factory/project/COMMERCE_PROBE.json",
+          ".factory-cache/autopilot/visual-1789310913281/summary.json",
+          ".factory-cache/autopilot/visual-1789310913281/home/comparison.json"
+        ],
+        "issues": [
+          "Page-only mismatch is 13.124%; acceptance target is 8.5%.",
+          "home-promotions and home-bundles retain a 4.40625px height delta.",
+          "Homepage product cards still use a generic WooCommerce query instead of explicit source-backed native relationships.",
+          "comparison.progress.deferred is false."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "build:home",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\073-build-home",
+      "status": "failed",
+      "startedAt": "2026-09-13T14:51:44.695Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/073-build-home; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 9:10 PM.\"}\n2026-09-13T14:51:45.388168Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n2026-09-13T14:51:48.312644Z  WARN codex_core::session_startup_prewarm: startup websocket prewarm setup failed: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 9:10 PM.\n2026-09-13T14:51:48.909660Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh\n2026-09-13T14:51:53.530948Z  WARN codex_core::tasks: failed to flush rollout after emitting terminal turn event: thread 01a09b40-b8e1-72f0-a4f7-cfeb79c86e57 not found\n",
+      "finishedAt": "2026-09-13T14:51:53.806Z",
+      "threadId": "01a09b40-b8e1-72f0-a4f7-cfeb79c86e57",
+      "usageUnknown": true
+    },
+    {
+      "task": "build:home",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\074-build-home",
+      "status": "needs_work",
+      "startedAt": "2026-09-13T15:13:42.752Z",
+      "usage": {
+        "input_tokens": 6162337,
+        "cached_input_tokens": 5981696,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 36379,
+        "reasoning_output_tokens": 11519
+      },
+      "threadId": "01a09b40-b8e1-72f0-a4f7-cfeb79c86e57",
+      "finishedAt": "2026-09-13T15:34:56.000Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Home cards now use source-backed native Woo products and relationships. Geometry passes; visual QA is deferred to final audit at 11.529%.",
+        "evidence": [
+          "front-page.php",
+          "src/css/pages/_home.scss",
+          "acf-json/group_rudnikagro_home.json",
+          "acf-json/group_rudnikagro_product.json",
+          "scripts/factory/project/import-content.php",
+          "scripts/factory/project/commerce-probe.php",
+          "docs/factory/project/PLAN.md",
+          "docs/factory/project/STATUS.md",
+          "docs/factory/project/COMMERCE_PROBE.json",
+          ".factory-cache/autopilot/visual-1789313460517/summary.json",
+          ".factory-cache/autopilot/visual-1789313460517/home/comparison.json"
+        ],
+        "issues": [
+          "Page mismatch remains 11.529%, above 8.5%.",
+          "comparison.progress.deferred is true and section geometry has no remaining failures; final audit must address the deferred visual differences."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "build:home",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\075-build-home",
+      "status": "failed",
+      "startedAt": "2026-09-13T15:36:16.869Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/075-build-home; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 10:01 PM.\"}\n2026-09-13T15:36:17.548892Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n2026-09-13T15:36:20.092199Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh\n2026-09-13T15:40:41.154180Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: multiple operations target C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\scripts\\factory\\project\\import-content.php\n2026-09-13T15:45:42.256151Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"This action was rejected due to unacceptable risk.\\\\nReason: Automatic approval review failed: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 10:01 PM.\\\\nThe agent must not attempt to achieve the same outcome via workaround, indirect execution, or policy circumvention. Proceed only with a materially safer alternative, or if the user explicitly approves the action after being informed of the risk. Otherwise, stop and request user input.\\\")\" }\n2026-09-13T15:45:42.701027Z  WARN codex_core::tasks: failed to flush rollout after emitting terminal turn event: thread 01a09b69-7f0f-7c61-acca-565daf451451 not found\n",
+      "finishedAt": "2026-09-13T15:45:44.281Z",
+      "threadId": "01a09b69-7f0f-7c61-acca-565daf451451",
+      "usageUnknown": true
+    },
+    {
+      "task": "build:home",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\076-build-home",
+      "status": "needs_work",
+      "startedAt": "2026-09-13T16:38:07.138Z",
+      "usage": {
+        "input_tokens": 5305474,
+        "cached_input_tokens": 5074688,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 28136,
+        "reasoning_output_tokens": 9503
+      },
+      "threadId": "01a09b69-7f0f-7c61-acca-565daf451451",
+      "finishedAt": "2026-09-13T16:46:18.059Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Implemented and validated the real Home active-navigation state. Both Home routes are runtime-healthy and formally deferred to final visual audit under the approved churn rule.",
+        "evidence": [
+          "partials/header.php",
+          "src/css/layouts/_header.scss",
+          "src/js/_app.js",
+          "scripts/factory/project/qa-state.js",
+          "scripts/factory/project/import-content.php",
+          "acf-json/group_rudnikagro_global.json",
+          "docs/factory/project/PLAN.md",
+          "docs/factory/project/STATUS.md",
+          "docs/factory/project/COMMERCE_PROBE.json",
+          ".factory-cache/autopilot/visual-1789317757086/summary.json",
+          ".factory-cache/autopilot/visual-1789317757086/home-active/comparison.json",
+          ".factory-cache/autopilot/visual-1789317854832/summary.json",
+          ".factory-cache/autopilot/visual-1789317854832/home/comparison.json"
+        ],
+        "issues": [
+          "Home remains at 11.513% page-owner mismatch; comparison.progress.deferred is true with no non-pixel errors.",
+          "Home active remains at 12.047% page-owner mismatch; comparison.progress.deferred is true with no non-pixel errors.",
+          "Footer and remaining Home visual differences require the final shared/page audit."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "build:account",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\077-build-account",
+      "status": "passed",
+      "startedAt": "2026-09-13T16:47:33.789Z",
+      "usage": {
+        "input_tokens": 2969648,
+        "cached_input_tokens": 2833536,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 19020,
+        "reasoning_output_tokens": 5865
+      },
+      "threadId": "01a09baa-c0b3-79c3-a75e-5aad12738be3",
+      "finishedAt": "2026-09-13T16:59:06.413Z",
+      "result": {
+        "status": "passed",
+        "summary": "Zbudowano trasę `/moje-konto/` z natywnym logowaniem i rejestracją WooCommerce oraz edytowalną treścią ACF. Page-only QA przechodzi; kompilacja zakończona bez błędów.",
+        "evidence": [
+          ".factory-cache/autopilot/visual-1789318653655/summary.json",
+          ".factory-cache/autopilot/visual-1789318653655/account/comparison.json",
+          "partials/account-form.php",
+          "src/css/pages/_account.scss",
+          "acf-json/group_rudnikagro_account.json",
+          "docs/factory/project/STATUS.md"
+        ],
+        "issues": [
+          "Różnica page-owner 4.871% jest formalnie DEFERRED TO FINAL (comparison.progress.deferred=true).",
+          "Współdzielony nagłówek: 6.358% różnicy, do końcowego audytu współdzielonych komponentów."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "audit:round-0",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\078-audit-round-0",
+      "status": "failed",
+      "startedAt": "2026-09-13T17:04:41.647Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/078-audit-round-0; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 11:35 PM.\"}\n2026-09-13T17:04:42.173850Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n2026-09-13T17:04:46.017524Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh\n2026-09-13T17:09:18.194636Z ERROR codex_models_manager::manager: failed to refresh available models: timeout waiting for child process to exit\n2026-09-13T17:11:47.727003Z ERROR codex_core::session: failed to record rollout items: thread 01a09bba-7023-7432-a82f-4ce0fc7ff25c not found\n",
+      "finishedAt": "2026-09-13T17:11:48.310Z",
+      "threadId": "01a09bba-7023-7432-a82f-4ce0fc7ff25c",
+      "usageUnknown": true
+    },
+    {
+      "task": "audit:round-0",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\079-audit-round-0",
+      "status": "failed",
+      "startedAt": "2026-09-13T19:25:11.311Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/079-audit-round-0; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at Sep 14th, 2026 2:19 AM.\"}\nbc48-f35088f41e3c retries=1 max_retries=2 compact_error=stream disconnected before completion: websocket closed by server before response.completed\n2026-09-13T19:32:38.875311Z  WARN codex_core::responses_retry: remote compaction v2 stream failed; retrying request after delay turn_id=01a09c3b-16ed-7b13-bc48-f35088f41e3c retries=2 max_retries=2 compact_error=stream disconnected before completion: websocket closed by server before response.completed\n2026-09-13T19:32:51.484123Z  WARN codex_core::client: falling back to HTTP\n2026-09-13T19:34:53.221517Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (1/1 in 180ms)... turn_id=01a09c43-efa5-7262-b7d8-09428b1e41e1 retries=1 max_retries=1 sampling_error=stream disconnected before completion: failed to send websocket request: Connection closed normally\n2026-09-13T19:38:49.075188Z ERROR codex_models_manager::manager: failed to refresh available models: timeout waiting for child process to exit\n2026-09-13T19:48:33.708915Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (1/1 in 207ms)... turn_id=01a09c50-74cf-7730-af27-57469b0b0c1e retries=1 max_retries=1 sampling_error=stream disconnected before completion: failed to send websocket request: Connection closed normally\n2026-09-13T19:48:56.324857Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"This action was rejected due to unacceptable risk.\\\\nReason: Automatic approval review failed: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at Sep 14th, 2026 2:19 AM.\\\\nThe agent must not attempt to achieve the same outcome via workaround, indirect execution, or policy circumvention. Proceed only with a materially safer alternative, or if the user explicitly approves the action after being informed of the risk. Otherwise, stop and request user input.\\\")\" }\n",
+      "finishedAt": "2026-09-13T19:48:58.322Z",
+      "threadId": "01a09bba-7023-7432-a82f-4ce0fc7ff25c",
+      "usageUnknown": true
+    },
+    {
+      "task": "audit:round-0",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\080-audit-round-0",
+      "status": "failed",
+      "startedAt": "2026-09-13T20:17:49.963Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at Sep 19th, 2026 11:48 AM.\"}\n2026-09-13T20:17:50.846618Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n2026-09-13T20:17:51.668922Z  WARN codex_core::session::rollout_reconstruction: ignored world-state patch without a full snapshot\n2026-09-13T20:17:53.383834Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh\n2026-09-13T20:24:03.698225Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"This action was rejected due to unacceptable risk.\\\\nReason: Automatic approval review failed: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at Sep 19th, 2026 11:48 AM.\\\\nThe agent must not attempt to achieve the same outcome via workaround, indirect execution, or policy circumvention. Proceed only with a materially safer alternative, or if the user explicitly approves the action after being informed of the risk. Otherwise, stop and request user input.\\\")\" }\n",
+      "finishedAt": "2026-09-13T20:24:05.014Z",
+      "threadId": "01a09bba-7023-7432-a82f-4ce0fc7ff25c",
+      "usageUnknown": true
+    },
+    {
+      "task": "audit:round-0",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\081-audit-round-0",
+      "status": "failed",
+      "startedAt": "2026-09-14T00:50:30.982Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/081-audit-round-0; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at Sep 19th, 2026 11:14 AM.\"}\nodex_core::responses_retry: stream disconnected - retrying sampling request (3/5 in 819ms)... turn_id=01a09d64-f3b6-7fb0-9e8a-932f9c8aa8b0 retries=3 max_retries=5 sampling_error=stream disconnected before completion: websocket closed by server before response.completed\n2026-09-14T00:51:12.017959Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (4/5 in 1.651s)... turn_id=01a09d64-f3b6-7fb0-9e8a-932f9c8aa8b0 retries=4 max_retries=5 sampling_error=stream disconnected before completion: websocket closed by server before response.completed\n2026-09-14T00:51:20.111451Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (5/5 in 3.495s)... turn_id=01a09d64-f3b6-7fb0-9e8a-932f9c8aa8b0 retries=5 max_retries=5 sampling_error=stream disconnected before completion: websocket closed by server before response.completed\n2026-09-14T00:51:32.550604Z  WARN codex_core::client: falling back to HTTP\n2026-09-14T00:55:21.504789Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: multiple operations target C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\081-audit-round-0\\create-artifact-equivalence.js\n2026-09-14T00:56:17.275561Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"This action was rejected due to unacceptable risk.\\\\nReason: Automatic approval review failed: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at Sep 19th, 2026 11:14 AM.\\\\nThe agent must not attempt to achieve the same outcome via workaround, indirect execution, or policy circumvention. Proceed only with a materially safer alternative, or if the user explicitly approves the action after being informed of the risk. Otherwise, stop and request user input.\\\")\" }\n",
+      "finishedAt": "2026-09-14T00:56:25.321Z",
+      "threadId": "01a09bba-7023-7432-a82f-4ce0fc7ff25c",
+      "usageUnknown": true
+    },
+    {
+      "task": "audit:round-0-58751f426784b007e333-shared-components",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\082-audit-round-0-58751f426784b007e333-shared-components",
+      "status": "failed",
+      "startedAt": "2026-09-14T09:20:15.513Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/082-audit-round-0-58751f426784b007e333-shared-components; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at Sep 19th, 2026 10:14 AM.\"}\n2026-09-14T09:20:17.037766Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n2026-09-14T09:20:19.353995Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh\n2026-09-14T09:22:43.356007Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"This action was rejected due to unacceptable risk.\\\\nReason: Automatic approval review failed: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at Sep 19th, 2026 10:14 AM.\\\\nThe agent must not attempt to achieve the same outcome via workaround, indirect execution, or policy circumvention. Proceed only with a materially safer alternative, or if the user explicitly approves the action after being informed of the risk. Otherwise, stop and request user input.\\\")\" }\n",
+      "finishedAt": "2026-09-14T09:22:45.687Z",
+      "threadId": "01a09f37-9bfc-7433-9950-d1f0cd3702f1",
+      "usageUnknown": true
+    }
+  ],
+  "tokens": 11172904,
+  "round": 0,
+  "createdAt": "2026-09-10T19:06:21.846Z",
+  "updatedAt": "2026-09-14T09:22:45.763Z",
+  "activeTask": "audit:round-0-58751f426784b007e333-shared-components",
+  "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/082-audit-round-0-58751f426784b007e333-shared-components; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at Sep 19th, 2026 10:14 AM.\"}\n2026-09-14T09:20:17.037766Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n2026-09-14T09:20:19.353995Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh\n2026-09-14T09:22:43.356007Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"This action was rejected due to unacceptable risk.\\\\nReason: Automatic approval review failed: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at Sep 19th, 2026 10:14 AM.\\\\nThe agent must not attempt to achieve the same outcome via workaround, indirect execution, or policy circumvention. Proceed only with a materially safer alternative, or if the user explicitly approves the action after being informed of the risk. Otherwise, stop and request user input.\\\")\" }\n",
+  "activeModel": "gpt-5.6-sol",
+  "activeReasoningEffort": "high",
+  "snapshotHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+  "deferredVisual": [
+    {
+      "id": "blog-article",
+      "progress": {
+        "deferred": true,
+        "samples": [
+          {
+            "file": "current capture",
+            "implementationHash": "e2084a9c43ba057b5a036cf1b9064d1cf0149e72ac3fa84396557987dc4a385b",
+            "capturedAt": "2026-09-12T09:33:16.150Z",
+            "ratio": 0.11704637272886094
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789201872079\\summary.json",
+            "implementationHash": "00146e2455d9c760f48a33bae06412888b4370423df5b42fc679109e69dfc085",
+            "capturedAt": "2026-09-12T08:31:15.098Z",
+            "ratio": 0.11705701869322152
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789201690916\\summary.json",
+            "implementationHash": "5eb71b5bd70ca9715973d09eb56834fe4d65a88a9010534e048a466e083abeb5",
+            "capturedAt": "2026-09-12T08:28:13.931Z",
+            "ratio": 0.11695929419986023
+          }
+        ],
+        "improvement": 0.00009772449336128974,
+        "policy": {
+          "samples": 3,
+          "maxPageMismatch": 0.13,
+          "minImprovement": 0.03
+        },
+        "nonPixelErrors": [],
+        "reason": "Insufficient measured progress across distinct implementations; unresolved visual work belongs to final audit, not PASS."
+      },
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/resume-page-check-1789205594554/blog-article/blog-article/comparison.json"
+    },
+    {
+      "id": "blog-archive",
+      "progress": {
+        "deferred": true,
+        "samples": [
+          {
+            "file": "current capture",
+            "implementationHash": "e2084a9c43ba057b5a036cf1b9064d1cf0149e72ac3fa84396557987dc4a385b",
+            "capturedAt": "2026-09-12T09:33:31.867Z",
+            "ratio": 0.07584660271589426
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789204683892\\summary.json",
+            "implementationHash": "00146e2455d9c760f48a33bae06412888b4370423df5b42fc679109e69dfc085",
+            "capturedAt": "2026-09-12T09:18:05.704Z",
+            "ratio": 0.07584660271589426
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789201744977\\summary.json",
+            "implementationHash": "5eb71b5bd70ca9715973d09eb56834fe4d65a88a9010534e048a466e083abeb5",
+            "capturedAt": "2026-09-12T08:29:07.864Z",
+            "ratio": 0.09233798869182816
+          }
+        ],
+        "improvement": 0.0164913859759339,
+        "policy": {
+          "samples": 3,
+          "maxPageMismatch": 0.13,
+          "minImprovement": 0.03
+        },
+        "nonPixelErrors": [],
+        "reason": "Insufficient measured progress across distinct implementations; unresolved visual work belongs to final audit, not PASS."
+      },
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/resume-page-check-1789205594554/blog-archive/blog-archive/comparison.json"
+    },
+    {
+      "id": "contact",
+      "progress": {
+        "deferred": true,
+        "samples": [
+          {
+            "file": "current capture",
+            "implementationHash": "07f2965f9b964f093b594bed6415a5261022589fe0c784cb081d75bf38790f97",
+            "capturedAt": "2026-09-12T10:12:43.951Z",
+            "ratio": 0.10081462490761271
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789207705975\\summary.json",
+            "implementationHash": "1eeaa6e7f2a7f50f3751f8c9e88e706733976a0c7a597ef58e6a80627cca5832",
+            "capturedAt": "2026-09-12T10:08:28.688Z",
+            "ratio": 0.10081462490761271
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789207506571\\summary.json",
+            "implementationHash": "57d53834b50f3109291a4b13e717bc51b45f810b218eb36b0a80783685301960",
+            "capturedAt": "2026-09-12T10:05:09.721Z",
+            "ratio": 0.10242193274205469
+          }
+        ],
+        "improvement": 0.0016073078344419761,
+        "policy": {
+          "samples": 3,
+          "maxPageMismatch": 0.13,
+          "minImprovement": 0.03
+        },
+        "nonPixelErrors": [],
+        "reason": "Insufficient measured progress across distinct implementations; unresolved visual work belongs to final audit, not PASS."
+      },
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/resume-page-check-1789207960722/contact/contact/comparison.json"
+    },
+    {
+      "id": "about",
+      "progress": {
+        "deferred": true,
+        "samples": [
+          {
+            "file": "current capture",
+            "implementationHash": "029c9fc8463216d40d1c2f70eed503e9154b22f07d8267b19102ed715e42a216",
+            "capturedAt": "2026-09-12T13:59:25.036Z",
+            "ratio": 0.09848042582417582
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789221323199\\summary.json",
+            "implementationHash": "290ff4d8e6cdab6c201019ee8ca834487dd3b10da1a850709f432e02aa06cdff",
+            "capturedAt": "2026-09-12T13:55:25.441Z",
+            "ratio": 0.10107490666384897
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789221150943\\summary.json",
+            "implementationHash": "f7371e7b1c7a893c9ab6673f1a1bee39f76ebd06f7bca54a5f7c9a81c5c30967",
+            "capturedAt": "2026-09-12T13:52:33.187Z",
+            "ratio": 0.12388811108763031
+          }
+        ],
+        "improvement": 0.025407685263454494,
+        "policy": {
+          "samples": 3,
+          "maxPageMismatch": 0.13,
+          "minImprovement": 0.03
+        },
+        "nonPixelErrors": [],
+        "reason": "Insufficient measured progress across distinct implementations; unresolved visual work belongs to final audit, not PASS."
+      },
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/044-build-about/build-readiness/about/about/comparison.json"
+    },
+    {
+      "id": "product",
+      "progress": {
+        "deferred": true,
+        "samples": [
+          {
+            "file": "current capture",
+            "implementationHash": "9853c6d31101881cb7e25b7e1f80911a5f892258fd4399392e0dfb968c7540f3",
+            "capturedAt": "2026-09-12T21:01:19.994Z",
+            "ratio": 0.058676686638089996
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789243051718\\summary.json",
+            "implementationHash": "4c94424dafc32e1cb6deb443e6f72ac88ef53e10958b3004dd4dfcb766ffb09c",
+            "capturedAt": "2026-09-12T19:57:34.365Z",
+            "ratio": 0.058676686638089996
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789242953392\\summary.json",
+            "implementationHash": "d7fbcd02fea078a6a14c454570fe7bb1e4f7e3a38142fe5d145335e1db2ab9a0",
+            "capturedAt": "2026-09-12T19:55:56.544Z",
+            "ratio": 0.05868424393753439
+          }
+        ],
+        "improvement": 0.000007557299444391208,
+        "policy": {
+          "samples": 3,
+          "maxPageMismatch": 0.13,
+          "minImprovement": 0.03
+        },
+        "nonPixelErrors": [],
+        "reason": "Insufficient measured progress across distinct implementations; unresolved visual work belongs to final audit, not PASS."
+      },
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/056-build-product/build-readiness/product/product/comparison.json"
+    },
+    {
+      "id": "product-expanded",
+      "progress": {
+        "deferred": true,
+        "samples": [
+          {
+            "file": "current capture",
+            "implementationHash": "9853c6d31101881cb7e25b7e1f80911a5f892258fd4399392e0dfb968c7540f3",
+            "capturedAt": "2026-09-12T21:01:47.006Z",
+            "ratio": 0.0892067421027817
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789244260480\\summary.json",
+            "implementationHash": "195f83cac3265df1e6948122f133bde0f7de0e666340a0a044467c39b236a98b",
+            "capturedAt": "2026-09-12T20:17:43.091Z",
+            "ratio": 0.0882587223008015
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789244126847\\summary.json",
+            "implementationHash": "12b893366a0d61f7835ff6a36910c6de5308ac07fe734608e7991a34ab9444a3",
+            "capturedAt": "2026-09-12T20:15:29.415Z",
+            "ratio": 0.08897784064120698
+          }
+        ],
+        "improvement": 0.0009480198019801989,
+        "policy": {
+          "samples": 3,
+          "maxPageMismatch": 0.13,
+          "minImprovement": 0.03
+        },
+        "nonPixelErrors": [],
+        "reason": "Insufficient measured progress across distinct implementations; unresolved visual work belongs to final audit, not PASS."
+      },
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/056-build-product/build-readiness/product-expanded/product-expanded/comparison.json"
+    },
+    {
+      "id": "product-reviews-state",
+      "progress": {
+        "deferred": true,
+        "samples": [
+          {
+            "file": "current capture",
+            "implementationHash": "9853c6d31101881cb7e25b7e1f80911a5f892258fd4399392e0dfb968c7540f3",
+            "capturedAt": "2026-09-12T21:02:23.046Z",
+            "ratio": 0.07038756773028296
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789244301073\\summary.json",
+            "implementationHash": "195f83cac3265df1e6948122f133bde0f7de0e666340a0a044467c39b236a98b",
+            "capturedAt": "2026-09-12T20:18:23.613Z",
+            "ratio": 0.07038756773028296
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789243731431\\summary.json",
+            "implementationHash": "1ffca29ed1319f074f13a23fcd8d201c9272dfa3d461bcdc2d37e3f85f9a7c4e",
+            "capturedAt": "2026-09-12T20:08:54.081Z",
+            "ratio": 0.0704016154926751
+          }
+        ],
+        "improvement": 0.000014047762392138674,
+        "policy": {
+          "samples": 3,
+          "maxPageMismatch": 0.13,
+          "minImprovement": 0.03
+        },
+        "nonPixelErrors": [],
+        "reason": "Insufficient measured progress across distinct implementations; unresolved visual work belongs to final audit, not PASS."
+      },
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/056-build-product/build-readiness/product-reviews-state/product-reviews-state/comparison.json"
+    },
+    {
+      "id": "product-files-state",
+      "progress": {
+        "deferred": true,
+        "samples": [
+          {
+            "file": "current capture",
+            "implementationHash": "9853c6d31101881cb7e25b7e1f80911a5f892258fd4399392e0dfb968c7540f3",
+            "capturedAt": "2026-09-12T21:02:39.113Z",
+            "ratio": 0.08664183222958058
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789244331963\\summary.json",
+            "implementationHash": "195f83cac3265df1e6948122f133bde0f7de0e666340a0a044467c39b236a98b",
+            "capturedAt": "2026-09-12T20:18:54.506Z",
+            "ratio": 0.08664183222958058
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789243760219\\summary.json",
+            "implementationHash": "1ffca29ed1319f074f13a23fcd8d201c9272dfa3d461bcdc2d37e3f85f9a7c4e",
+            "capturedAt": "2026-09-12T20:09:22.933Z",
+            "ratio": 0.08664158137668071
+          }
+        ],
+        "improvement": 2.5085289986903625e-7,
+        "policy": {
+          "samples": 3,
+          "maxPageMismatch": 0.13,
+          "minImprovement": 0.03
+        },
+        "nonPixelErrors": [],
+        "reason": "Insufficient measured progress across distinct implementations; unresolved visual work belongs to final audit, not PASS."
+      },
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/056-build-product/build-readiness/product-files-state/product-files-state/comparison.json"
+    },
+    {
+      "id": "cart",
+      "progress": {
+        "deferred": true,
+        "samples": [
+          {
+            "file": "current capture",
+            "implementationHash": "680f02106b145d3d25d4a0f97b743a7ee08c6fef63487ae1e489c42aabc3a7e8",
+            "capturedAt": "2026-09-13T06:03:36.164Z",
+            "ratio": 0.06393251733102254
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789279162367\\summary.json",
+            "implementationHash": "e6c6c5272c473bc1f2835768a8d1cf739cd3c0aa0a24db34c5a5ab31b75fa883",
+            "capturedAt": "2026-09-13T05:59:24.960Z",
+            "ratio": 0.0644903596187175
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789278379299\\summary.json",
+            "implementationHash": "73e550c1b0b64ccc723519d99fb44355615afc0d6846a9687d2374cef112caee",
+            "capturedAt": "2026-09-13T05:46:20.651Z",
+            "ratio": 0.06307047949162334
+          }
+        ],
+        "improvement": 0.0014198801270941669,
+        "policy": {
+          "samples": 3,
+          "maxPageMismatch": 0.13,
+          "minImprovement": 0.03
+        },
+        "nonPixelErrors": [],
+        "reason": "Insufficient measured progress across distinct implementations; unresolved visual work belongs to final audit, not PASS."
+      },
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/060-build-cart/build-readiness/cart/cart/comparison.json"
+    },
+    {
+      "id": "checkout",
+      "progress": {
+        "deferred": true,
+        "samples": [
+          {
+            "file": "current capture",
+            "implementationHash": "40fbb11ec57fe27544fda6d4619279d96603615eeecc51146a1a698e7af53b12",
+            "capturedAt": "2026-09-13T09:39:17.040Z",
+            "ratio": 0.03560092097862767
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789281083498\\summary.json",
+            "implementationHash": "60276f1f88bb7be013fae26605475205e370cb6627bee8f9b15d9c59c08f1523",
+            "capturedAt": "2026-09-13T06:31:29.567Z",
+            "ratio": 0.03560092097862767
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789280949345\\summary.json",
+            "implementationHash": "ab3a6aeb2a3ec10e0a3cf8071fcc65523e506f962aa2bdd2942b5dc24c6b3763",
+            "capturedAt": "2026-09-13T06:29:15.395Z",
+            "ratio": 0.03758846550431196
+          }
+        ],
+        "improvement": 0.0019875445256842886,
+        "policy": {
+          "samples": 3,
+          "maxPageMismatch": 0.13,
+          "minImprovement": 0.03
+        },
+        "nonPixelErrors": [],
+        "reason": "Insufficient measured progress across distinct implementations; unresolved visual work belongs to final audit, not PASS."
+      },
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/resume-page-check-1789292350649/checkout/checkout/comparison.json"
+    },
+    {
+      "id": "checkout-login",
+      "progress": {
+        "deferred": true,
+        "samples": [
+          {
+            "file": "current capture",
+            "implementationHash": "40fbb11ec57fe27544fda6d4619279d96603615eeecc51146a1a698e7af53b12",
+            "capturedAt": "2026-09-13T09:40:16.992Z",
+            "ratio": 0.09506004901960784
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789290600963\\summary.json",
+            "implementationHash": "34897cd2aef0b972933c9557cbb2d4b4a0defce889ad62d5fca60ba97fc67b3e",
+            "capturedAt": "2026-09-13T09:10:08.989Z",
+            "ratio": 0.09549632352941176
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789290522588\\summary.json",
+            "implementationHash": "f4a3acb2d611fc91b6240021ec4612742d31162893eee795d4f6d4edb848cdec",
+            "capturedAt": "2026-09-13T09:08:43.885Z",
+            "ratio": 0.09549632352941176
+          }
+        ],
+        "improvement": 0.0004362745098039217,
+        "policy": {
+          "samples": 3,
+          "maxPageMismatch": 0.13,
+          "minImprovement": 0.03
+        },
+        "nonPixelErrors": [],
+        "reason": "Insufficient measured progress across distinct implementations; unresolved visual work belongs to final audit, not PASS."
+      },
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/resume-page-check-1789292350649/checkout-login/checkout-login/comparison.json"
+    },
+    {
+      "id": "checkout-registration",
+      "progress": {
+        "deferred": true,
+        "samples": [
+          {
+            "file": "current capture",
+            "implementationHash": "40fbb11ec57fe27544fda6d4619279d96603615eeecc51146a1a698e7af53b12",
+            "capturedAt": "2026-09-13T09:40:40.456Z",
+            "ratio": 0.10223362699468085
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789290872495\\summary.json",
+            "implementationHash": "6654c1b19983a2022265223b0d3de1bcaeb0374b5a31ca81742f13ab7f24bccb",
+            "capturedAt": "2026-09-13T09:14:35.242Z",
+            "ratio": 0.10223362699468085
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789290618661\\summary.json",
+            "implementationHash": "34897cd2aef0b972933c9557cbb2d4b4a0defce889ad62d5fca60ba97fc67b3e",
+            "capturedAt": "2026-09-13T09:10:20.318Z",
+            "ratio": 0.1145237699468085
+          }
+        ],
+        "improvement": 0.012290142952127658,
+        "policy": {
+          "samples": 3,
+          "maxPageMismatch": 0.13,
+          "minImprovement": 0.03
+        },
+        "nonPixelErrors": [],
+        "reason": "Insufficient measured progress across distinct implementations; unresolved visual work belongs to final audit, not PASS."
+      },
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/resume-page-check-1789292350649/checkout-registration/checkout-registration/comparison.json"
+    },
+    {
+      "id": "home",
+      "progress": {
+        "deferred": true,
+        "samples": [
+          {
+            "file": "current capture",
+            "implementationHash": "95cbd8f440c28fe630f5ea6c8385f46cc377c62a6fd8acddf20273a812c082d6",
+            "capturedAt": "2026-09-13T16:46:29.143Z",
+            "ratio": 0.11512711907994898
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789317854832\\summary.json",
+            "implementationHash": "fa864b85ff795d7bc7df9de7e79166ce6e1229b372812d6dbdebe13aa62b4397",
+            "capturedAt": "2026-09-13T16:44:17.598Z",
+            "ratio": 0.11512711907994898
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789313460517\\summary.json",
+            "implementationHash": "fc4960cc1a10ac42b5b6f980535486a13dedd2ca271baa6918d8fbecd51c5207",
+            "capturedAt": "2026-09-13T15:31:03.542Z",
+            "ratio": 0.11529145064395342
+          }
+        ],
+        "improvement": 0.00016433156400444404,
+        "policy": {
+          "samples": 3,
+          "maxPageMismatch": 0.13,
+          "minImprovement": 0.03
+        },
+        "nonPixelErrors": [],
+        "reason": "Insufficient measured progress across distinct implementations; unresolved visual work belongs to final audit, not PASS."
+      },
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/076-build-home/build-readiness/home/home/comparison.json"
+    },
+    {
+      "id": "home-active",
+      "progress": {
+        "deferred": true,
+        "samples": [
+          {
+            "file": "current capture",
+            "implementationHash": "95cbd8f440c28fe630f5ea6c8385f46cc377c62a6fd8acddf20273a812c082d6",
+            "capturedAt": "2026-09-13T16:47:03.262Z",
+            "ratio": 0.12046585200927357
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789317757086\\summary.json",
+            "implementationHash": "fa864b85ff795d7bc7df9de7e79166ce6e1229b372812d6dbdebe13aa62b4397",
+            "capturedAt": "2026-09-13T16:42:39.805Z",
+            "ratio": 0.12046585200927357
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789317609837\\summary.json",
+            "implementationHash": "f24baec9e700d25dfe79fc8054c9d9a9f61393f2563bef1ae4f3de62b2ba5dfa",
+            "capturedAt": "2026-09-13T16:40:12.846Z",
+            "ratio": 0.12070788790142538
+          }
+        ],
+        "improvement": 0.00024203589215181232,
+        "policy": {
+          "samples": 3,
+          "maxPageMismatch": 0.13,
+          "minImprovement": 0.03
+        },
+        "nonPixelErrors": [],
+        "reason": "Insufficient measured progress across distinct implementations; unresolved visual work belongs to final audit, not PASS."
+      },
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/076-build-home/build-readiness/home-active/home-active/comparison.json"
+    },
+    {
+      "id": "account",
+      "progress": {
+        "deferred": true,
+        "samples": [
+          {
+            "file": "current capture",
+            "implementationHash": "adb4e4d5116b9920d004e5a01de4fa4a8e6e45db57ffb166c4539d92421e8169",
+            "capturedAt": "2026-09-13T16:59:18.980Z",
+            "ratio": 0.04870903766310795
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789318598894\\summary.json",
+            "implementationHash": "2f03143a70839acd56ec49c0264a0fda19494a28e4ef420868c2e6dde5374b66",
+            "capturedAt": "2026-09-13T16:56:42.026Z",
+            "ratio": 0.04870903766310795
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789318522971\\summary.json",
+            "implementationHash": "9309a54868fbb2ed248b72ff56c7aecfedeed711bca44282d4847185d8c8a9bb",
+            "capturedAt": "2026-09-13T16:55:26.077Z",
+            "ratio": 0.05627038849347568
+          }
+        ],
+        "improvement": 0.007561350830367734,
+        "policy": {
+          "samples": 3,
+          "maxPageMismatch": 0.13,
+          "minImprovement": 0.03
+        },
+        "nonPixelErrors": [],
+        "reason": "Insufficient measured progress across distinct implementations; unresolved visual work belongs to final audit, not PASS."
+      },
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/077-build-account/build-readiness/account/account/comparison.json"
+    }
+  ],
+  "pendingSourceDependencies": [
+    {
+      "version": 1,
+      "kind": "missing-source-input",
+      "routeId": "checkout",
+      "missingInput": "Approved local WooCommerce provider configuration and credentials for Przelewy24, card payments, Google Pay, Apple Pay, BLIK and cash on delivery",
+      "reason": "The Figma checkout displays these real payment methods and provider marks, but the frozen source supplies no approved gateway credentials, provider setup, supported method mapping or surcharge configuration. Creating interactive substitutes would fabricate payment behavior.",
+      "sourceEvidence": [
+        ".factory-cache/figma/latest/sections/59-checkout-payment.json"
+      ],
+      "runtimeEvidence": [
+        ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/061-build-checkout/checkout-native-probe.log"
+      ],
+      "declaration": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/061-build-checkout/checkout.source-dependency.json",
+      "evidence": [
+        {
+          "kind": "source",
+          "path": ".factory-cache/figma/latest/sections/59-checkout-payment.json",
+          "sha256": "6fa13cc3393a12ccf9b0886261f77f0c91935255d6bc7d4c4d5f1e94ab2ddc42"
+        },
+        {
+          "kind": "runtime",
+          "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/061-build-checkout/checkout-native-probe.log",
+          "sha256": "e5238551d0d65b886b984162212ac1debe835b774c3a495fe97512a19ef6c91f"
+        }
+      ],
+      "status": "requires_source_input",
+      "visualPassed": false,
+      "task": "build:checkout"
+    },
+    {
+      "version": 1,
+      "kind": "missing-source-input",
+      "routeId": "order-confirmed",
+      "missingInput": "A real approved existing local WooCommerce order identity and its access key, with source-supported product, coupon, shipping and payment records",
+      "reason": "The Figma route is a completed-order confirmation. No approved real local order or access key was supplied, and creating a fixture or submitting checkout would fabricate a completed purchase.",
+      "sourceEvidence": [
+        ".factory-cache/figma/latest/sections/03-checkout-order-confirmation.json"
+      ],
+      "runtimeEvidence": [
+        ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/063-build-checkout/checkout-native-probe.log"
+      ],
+      "declaration": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/063-build-checkout/order-confirmed.source-dependency.json",
+      "evidence": [
+        {
+          "kind": "source",
+          "path": ".factory-cache/figma/latest/sections/03-checkout-order-confirmation.json",
+          "sha256": "1469d395ad6d8dcfb51bf14ba69bf867670568f9ac37fded1f3a791fe25b92d8"
+        },
+        {
+          "kind": "runtime",
+          "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/063-build-checkout/checkout-native-probe.log",
+          "sha256": "2d09a8457deef2ea116722f9b61ae7177c6e95d7490694a169e4db0c26eaf3bf"
+        }
+      ],
+      "status": "requires_source_input",
+      "visualPassed": false,
+      "task": "build:checkout"
+    }
+  ],
+  "sourceDependencies": [
+    {
+      "version": 1,
+      "kind": "missing-source-input",
+      "routeId": "order-confirmed",
+      "missingInput": "A real approved existing local WooCommerce order identity and its access key, with source-supported product, coupon, shipping and payment records",
+      "reason": "The Figma route is a completed-order confirmation. No approved real local order or access key was supplied, and creating a fixture or submitting checkout would fabricate a completed purchase.",
+      "sourceEvidence": [
+        ".factory-cache/figma/latest/sections/03-checkout-order-confirmation.json"
+      ],
+      "runtimeEvidence": [
+        ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/063-build-checkout/checkout-native-probe.log"
+      ],
+      "declaration": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/063-build-checkout/order-confirmed.source-dependency.json",
+      "evidence": [
+        {
+          "kind": "source",
+          "path": ".factory-cache/figma/latest/sections/03-checkout-order-confirmation.json",
+          "sha256": "1469d395ad6d8dcfb51bf14ba69bf867670568f9ac37fded1f3a791fe25b92d8"
+        },
+        {
+          "kind": "runtime",
+          "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/063-build-checkout/checkout-native-probe.log",
+          "sha256": "2d09a8457deef2ea116722f9b61ae7177c6e95d7490694a169e4db0c26eaf3bf"
+        }
+      ],
+      "status": "requires_source_input",
+      "visualPassed": false,
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/resume-page-check-1789292350649/order-confirmed/order-confirmed/comparison.json",
+      "task": "build:checkout"
+    }
+  ],
+  "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/summary.json"
+}

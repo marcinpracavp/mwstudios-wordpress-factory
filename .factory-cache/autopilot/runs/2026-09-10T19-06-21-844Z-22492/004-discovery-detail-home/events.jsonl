@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a08ce6-7ada-7100-bee8-7068869fda1d"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Sprawdzę kontrakt snapshotu i zapisane materiały grupy home, uzupełnię brakujące dane źródłowe i uruchomię bramkę tej grupy. Ten etap nie obejmuje implementacji WordPressa.\n"}}
+{"type":"item.started","item":{"id":"item_1","type":"command_execution","command":"\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command 'Get-Content AGENTS.md; Get-Content factory/project.json'","aggregated_output":"","exit_code":null,"status":"in_progress"}}
+{"type":"item.completed","item":{"id":"item_1","type":"command_execution","command":"\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command 'Get-Content AGENTS.md; Get-Content factory/project.json'","aggregated_output":"","exit_code":null,"status":"declined"}}
+{"type":"error","message":"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at Sep 11th, 2026 2:25 AM."}
+{"type":"turn.failed","error":{"message":"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at Sep 11th, 2026 2:25 AM."}}

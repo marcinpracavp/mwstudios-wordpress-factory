@@ -1,0 +1,22 @@
+{
+  "capturedAt": "2026-09-11T19:38:33.251Z",
+  "implementationHash": "bfd400997e48f109b3c6abd6ab4821062815702ed7c8de0686622956c86cab3f",
+  "sourceHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+  "thresholds": {
+    "channelTolerance": 24,
+    "maxDifferentPixelRatio": 0.01,
+    "geometryTolerancePx": 2
+  },
+  "passed": false,
+  "routes": [
+    {
+      "id": "careers",
+      "passed": false,
+      "errors": [
+        "Pixel mismatch 5.174%",
+        "Section pixel mismatch"
+      ],
+      "comparison": ".factory-cache/autopilot/visual-1789155500186/careers/comparison.json"
+    }
+  ]
+}

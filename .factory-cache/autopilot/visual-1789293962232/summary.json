@@ -1,0 +1,63 @@
+{
+  "capturedAt": "2026-09-13T10:06:18.827Z",
+  "implementationHash": "451465572f6abca2a2fb395016b084b21446004bf4ff8c469f6a849fe76118af",
+  "sourceHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+  "thresholds": {
+    "channelTolerance": 24,
+    "maxDifferentPixelRatio": 0.085,
+    "geometryTolerancePx": 2
+  },
+  "acceptanceScope": "page",
+  "buildReady": false,
+  "deferred": [],
+  "passed": false,
+  "pagePassed": false,
+  "routes": [
+    {
+      "id": "product-archive",
+      "passed": false,
+      "pagePassed": false,
+      "ownership": {
+        "header": {
+          "pixels": 372480,
+          "differentPixels": 21852,
+          "ratio": 0.05866623711340206
+        },
+        "footer": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "shared": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "page": {
+          "pixels": 10972800,
+          "differentPixels": 3492055,
+          "ratio": 0.318246482210557
+        },
+        "outside": {
+          "pixels": 1372800,
+          "differentPixels": 1372800,
+          "ratio": 1
+        },
+        "reused": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        }
+      },
+      "errors": [
+        "page pixel mismatch 31.825%",
+        "Section geometry differs: archive-breadcrumbs",
+        "Section geometry differs: archive-filters",
+        "Section geometry differs: archive-product-grid",
+        "Section geometry differs: archive-pagination",
+        "Section geometry differs: archive-category-description"
+      ],
+      "comparison": ".factory-cache/autopilot/visual-1789293962232/product-archive/comparison.json"
+    }
+  ]
+}

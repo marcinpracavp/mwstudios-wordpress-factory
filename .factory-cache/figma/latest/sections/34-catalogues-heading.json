@@ -1,0 +1,92 @@
+{
+  "id": "catalogues-heading",
+  "name": "Katalogi heading and breadcrumb",
+  "order": 34,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "347:1230"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 240,
+    "y": 218,
+    "width": 1440,
+    "height": 220
+  },
+  "layout": {
+    "type": "page-banner-with-breadcrumb",
+    "titleNodeId": "347:1231",
+    "breadcrumbNodeId": "347:1121",
+    "borderRadius": 30,
+    "imageFill": {
+      "scaleMode": "FILL",
+      "sourceNodeId": "347:1230",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ]
+    }
+  },
+  "typography": [
+    {
+      "nodeId": "347:1231",
+      "text": "Katalogi",
+      "family": "DM Sans",
+      "style": "Bold",
+      "fontSize": 48,
+      "lineHeight": 24,
+      "color": "#FFFFFF",
+      "align": "center"
+    },
+    {
+      "nodeId": "347:1121",
+      "text": "Strona główna  / Katalogi",
+      "runs": [
+        {
+          "value": "Strona główna  / ",
+          "color": "#AAAAAA"
+        },
+        {
+          "value": "Katalogi",
+          "color": "#006633"
+        }
+      ],
+      "family": "DM Sans",
+      "style": "Regular",
+      "fontSize": 14,
+      "lineHeight": 34
+    }
+  ],
+  "colors": [
+    {
+      "nodeId": "347:1230",
+      "image": "assets/catalogues/catalogues-heading-background.png"
+    }
+  ],
+  "effects": [],
+  "contentFields": [
+    "rudnikagro_page_banner.title",
+    "rudnikagro_page_banner.image"
+  ],
+  "assets": [
+    {
+      "sourceNodeId": "347:1230",
+      "path": "assets/catalogues/catalogues-heading-background.png",
+      "usage": "catalogues heading background image",
+      "sha256": "195df2a0bb519fc8483ba3373c67d90110b9420afc1792cfc75865991a65c1ec",
+      "transport": "figma-mcp-asset-export"
+    }
+  ],
+  "notes": [
+    "Only the final breadcrumb label is green. No click destination is captured in the source."
+  ],
+  "liveFigmaRequired": false
+}

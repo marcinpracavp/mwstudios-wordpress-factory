@@ -1,0 +1,14 @@
+{
+  "id": "product-expanded",
+  "sourceNodeId": "326:2526",
+  "capturedAt": "2026-09-12T14:19:08.982Z",
+  "passed": false,
+  "errors": [
+    "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[data-product-tab=\"description\"]')\u001b[22m\n"
+  ],
+  "responsive": [],
+  "measurementVersion": 2,
+  "acceptanceScope": "page",
+  "geometryHash": "2a9da17c81e24c9d05f2e5e03996f30b52c50657587392ff9bcec552fa669921",
+  "geometryCorrection": null
+}

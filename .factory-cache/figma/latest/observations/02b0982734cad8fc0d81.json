@@ -1,0 +1,50 @@
+{
+  "id": "02b0982734cad8fc0d81",
+  "tool": "figma.use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "524:195"
+  ],
+  "description": "Read source content to identify native product or account state 524:195",
+  "recordedAt": "2026-09-10T19:30:16.891Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "id": "524:195",
+      "visible": true,
+      "texts": [
+        {
+          "id": "524:197",
+          "text": "Zaloguj się",
+          "link": null
+        },
+        {
+          "id": "524:198",
+          "text": "Zapamiętaj mnie",
+          "link": null
+        },
+        {
+          "id": "524:202",
+          "text": "Nie pamiętam hasła",
+          "link": null
+        },
+        {
+          "id": "524:205",
+          "text": "Zaloguj się",
+          "link": null
+        },
+        {
+          "id": "524:207",
+          "text": "E-mail",
+          "link": null
+        },
+        {
+          "id": "524:209",
+          "text": "Hasło",
+          "link": null
+        }
+      ],
+      "reactions": []
+    }
+  ]
+}

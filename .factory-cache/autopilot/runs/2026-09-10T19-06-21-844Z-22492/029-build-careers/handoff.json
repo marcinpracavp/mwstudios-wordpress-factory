@@ -1,0 +1,91 @@
+{
+  "task": {
+    "id": "careers"
+  },
+  "sourceContext": {
+    "version": 1,
+    "available": true,
+    "index": {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/029-build-careers/source-context/index.json",
+      "bytes": 1405,
+      "sha256": "1dc12c50c0d27d3332cb109c1a04e57d8bb00d6839da5e3a944db78ae2b19efe"
+    }
+  },
+  "model": "gpt-5.6-terra",
+  "reasoningEffort": "high",
+  "continuation": "fresh session using persisted artifacts; do not load historical conversation",
+  "previousExecution": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/028-build-careers/execution.json",
+  "previousResult": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/028-build-careers/result.json",
+  "correctionFocus": [
+    {
+      "evidence": {
+        "path": ".factory-cache/autopilot/visual-1789155701699/careers/comparison.json",
+        "bytes": 11858,
+        "sha256": "d98690e5d2e364a16d350f27eb851f1d8291217f869e0f738fd0df4d71bfcda9"
+      },
+      "route": "careers",
+      "capturedAt": "2026-09-11T19:41:43.169Z",
+      "fullMismatch": 0.05062642431413796,
+      "sections": [
+        {
+          "id": "careers-vacancies",
+          "pixelMismatch": 0.0910071417096289,
+          "geometryPassed": true,
+          "approximateDifferentPixels": 249254
+        },
+        {
+          "id": "shared-footer",
+          "pixelMismatch": 0.057055001357220414,
+          "geometryPassed": true,
+          "approximateDifferentPixels": 67261
+        },
+        {
+          "id": "careers-application",
+          "pixelMismatch": 0.08763854805131366,
+          "geometryPassed": true,
+          "approximateDifferentPixels": 30141
+        },
+        {
+          "id": "shared-shop-cta",
+          "pixelMismatch": 0.06143667296786389,
+          "geometryPassed": true,
+          "approximateDifferentPixels": 26000
+        },
+        {
+          "id": "shared-primary-navigation",
+          "pixelMismatch": 0.08234001406469761,
+          "geometryPassed": true,
+          "approximateDifferentPixels": 9367
+        },
+        {
+          "id": "shared-secondary-navigation",
+          "pixelMismatch": 0.14962214962214962,
+          "geometryPassed": true,
+          "approximateDifferentPixels": 9068
+        },
+        {
+          "id": "careers-heading",
+          "pixelMismatch": 0.01086489898989899,
+          "geometryPassed": true,
+          "approximateDifferentPixels": 3442
+        },
+        {
+          "id": "shared-topbar",
+          "pixelMismatch": 0.020130208333333333,
+          "geometryPassed": true,
+          "approximateDifferentPixels": 1546
+        }
+      ],
+      "instruction": "Historical priority only: confirm current screenshots first. Start with the section contributing the most different pixels, inspect its exact pair/crops and internal element typography/borders/images, then correct and recapture. Passing outer geometry does not prove matching inner content. Nested section counts overlap; do not sum them. Keep source references and acceptance thresholds unchanged."
+    }
+  ],
+  "snapshot": ".factory-cache/figma/latest",
+  "observations": ".factory-cache/figma/latest/observations/index.json",
+  "plans": [
+    "docs/factory/project/PLAN.md",
+    "docs/factory/project/STATUS.md",
+    "docs/factory/project/SOURCE_CLARIFICATIONS.md"
+  ],
+  "currentGate": null,
+  "instruction": "Inspect the current gate and finish only remaining assigned work. Reuse real saved source facts and assets."
+}

@@ -1,0 +1,696 @@
+{
+  "id": "c92124f5ce4b367fcdbf",
+  "tool": "use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "310:1554"
+  ],
+  "description": "Read exact filter labels, controls, and geometry",
+  "recordedAt": "2026-09-11T10:12:05.934Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "root": {
+        "id": "310:1554",
+        "x": 240,
+        "y": 259,
+        "width": 345,
+        "height": 2066
+      },
+      "texts": [
+        {
+          "id": "344:928",
+          "text": "od",
+          "x": 264,
+          "y": 2250,
+          "width": 129,
+          "height": 43,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontSize": 16,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 34
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.7836538553237915,
+                "g": 0.7836538553237915,
+                "b": 0.7836538553237915
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "344:951",
+          "text": "do",
+          "x": 433,
+          "y": 2250,
+          "width": 129,
+          "height": 43,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontSize": 16,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 34
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.7836538553237915,
+                "g": 0.7836538553237915,
+                "b": 0.7836538553237915
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "344:953",
+          "text": "-",
+          "x": 393,
+          "y": 2250,
+          "width": 40,
+          "height": 43,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontSize": 16,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 34
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "344:929",
+          "text": "Cena",
+          "x": 273,
+          "y": 2164,
+          "width": 288,
+          "height": 57,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontSize": 20,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 34
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "305:1493",
+          "text": "Producent",
+          "x": 273,
+          "y": 2091,
+          "width": 288,
+          "height": 57,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontSize": 20,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 34
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "306:1505",
+          "text": "Zboża\nRzepak\nKukurydza\nBuraki\nZiemniaki\nWarzywa\nStrączkowe\nJagodniki\nSady\nOwoce miękkie",
+          "x": 300,
+          "y": 1275,
+          "width": 130,
+          "height": 354,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontSize": 16,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 34
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "305:1490",
+          "text": "Uprawa",
+          "x": 273,
+          "y": 1209,
+          "width": 288,
+          "height": 57,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontSize": 20,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 34
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "574:530",
+          "text": "Etofumesat Fenazachina Fenheksamid Fenmedifam Fenpiroksymat Flonikamid Florasulam Fluazyfop-P-butylowy Fluazynam Fludioksonil",
+          "x": 300.00008726119995,
+          "y": 1716,
+          "width": 183,
+          "height": 354,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontSize": 16,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 34
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "574:531",
+          "text": "Substancje czynne",
+          "x": 273.00008726119995,
+          "y": 1650,
+          "width": 288,
+          "height": 57,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontSize": 20,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 34
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "304:1407",
+          "text": "Środki ochrony roślin\nHerbicydy\nFungicydy\n             Zboża            Rzepak            Kukurydza            Buraki            Ziemniaki            Warzywa            Strączkowe            Jagodniki            Sady            Owoce miękkie\nInsektycydy\nRegulatory\nZaprawy\nAdiuwanty\nHandel równoległy - zamienniki\nNawozy i dodatki\nBiostymulatory\nNasiona\nWyprzedaż\nPromocje\nNowości\nPakiety",
+          "x": 273,
+          "y": 321,
+          "width": 246,
+          "height": 850,
+          "fontSize": 16,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 34
+          }
+        },
+        {
+          "id": "305:1486",
+          "text": "Kategorie",
+          "x": 273,
+          "y": 272,
+          "width": 288,
+          "height": 34,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontSize": 20,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 34
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ]
+        }
+      ],
+      "controlBoxes": [
+        {
+          "id": "344:926",
+          "x": 240,
+          "y": 2325,
+          "width": 345,
+          "height": 161,
+          "cornerRadius": 30,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.7836538553237915,
+                "g": 0.7836538553237915,
+                "b": 0.7836538553237915
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokeWeight": 1
+        },
+        {
+          "id": "344:945",
+          "x": 264,
+          "y": 2250,
+          "width": 129,
+          "height": 43,
+          "cornerRadius": 15,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.7836538553237915,
+                "g": 0.7836538553237915,
+                "b": 0.7836538553237915
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokeWeight": 1
+        },
+        {
+          "id": "344:949",
+          "x": 433,
+          "y": 2250,
+          "width": 129,
+          "height": 43,
+          "cornerRadius": 15,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.7836538553237915,
+                "g": 0.7836538553237915,
+                "b": 0.7836538553237915
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokeWeight": 1
+        },
+        {
+          "id": "305:1492",
+          "x": 240,
+          "y": 2148,
+          "width": 345,
+          "height": 57,
+          "cornerRadius": 30,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9647058844566345,
+                "g": 0.9647058844566345,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.7836538553237915,
+                "g": 0.7836538553237915,
+                "b": 0.7836538553237915
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokeWeight": 1
+        },
+        {
+          "id": "305:1488",
+          "x": 240,
+          "y": 1634,
+          "width": 345,
+          "height": 425,
+          "cornerRadius": 30,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.7836538553237915,
+                "g": 0.7836538553237915,
+                "b": 0.7836538553237915
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokeWeight": 1
+        },
+        {
+          "id": "574:528",
+          "x": 240.00008726119995,
+          "y": 2075,
+          "width": 345,
+          "height": 425,
+          "cornerRadius": 30,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.7836538553237915,
+                "g": 0.7836538553237915,
+                "b": 0.7836538553237915
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokeWeight": 1
+        },
+        {
+          "id": "574:544",
+          "x": 558,
+          "y": 1720,
+          "width": 326,
+          "height": 4.999985694885254,
+          "cornerRadius": 15,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.8509804010391235,
+                "g": 0.8509804010391235,
+                "b": 0.8509804010391235
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1
+        },
+        {
+          "id": "295:701",
+          "x": 240,
+          "y": 259,
+          "width": 345,
+          "height": 937,
+          "cornerRadius": 30,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.7836538553237915,
+                "g": 0.7836538553237915,
+                "b": 0.7836538553237915
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokeWeight": 1
+        },
+        {
+          "id": "305:1481",
+          "x": 241,
+          "y": 389,
+          "width": 343,
+          "height": 34,
+          "cornerRadius": 0,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9647058844566345,
+                "g": 0.9647058844566345,
+                "b": 0.9647058844566345
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1
+        }
+      ]
+    }
+  ]
+}

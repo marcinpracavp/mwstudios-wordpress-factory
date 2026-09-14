@@ -1,0 +1,5 @@
+cart: PAGE FAIL page pixel mismatch 16.962%; Section geometry differs: cart-heading; Section geometry differs: cart-lines
+2026-09-13T04:49:02.825Z START build:cart [gpt-5.6-terra high] (.factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/058-build-cart)
+cart: PAGE FAIL page pixel mismatch 20.491%; Section geometry differs: cart-heading; Section geometry differs: cart-lines
+2026-09-13T05:00:28.188Z START build:cart [gpt-5.6-terra high] (.factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/059-build-cart)
+cart: PAGE FAIL page pixel mismatch 84.917%; Section geometry differs: cart-heading; Section geometry differs: cart-lines

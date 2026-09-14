@@ -1,0 +1,14 @@
+{
+  "components": [
+    {
+      "id": "shared-primary-navigation",
+      "nodeId": "140:262",
+      "name": "Primary navigation",
+      "type": "navigation",
+      "sections": [
+        "shared-primary-navigation"
+      ],
+      "status": "partial"
+    }
+  ]
+}

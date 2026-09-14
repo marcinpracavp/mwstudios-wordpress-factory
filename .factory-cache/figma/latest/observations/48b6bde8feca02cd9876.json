@@ -1,0 +1,368 @@
+{
+  "id": "48b6bde8feca02cd9876",
+  "tool": "figma.use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "586:805",
+    "586:711"
+  ],
+  "description": "Capture logical section product-files for immediate snapshot persistence",
+  "recordedAt": "2026-09-10T19:41:22.775Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "nodeId": "586:805",
+      "name": "szczegóły",
+      "type": "GROUP",
+      "desktop": {
+        "x": 240,
+        "y": 1097,
+        "width": 1440,
+        "height": 265
+      },
+      "children": [
+        {
+          "nodeId": "586:806",
+          "type": "VECTOR",
+          "visible": true,
+          "geometry": {
+            "x": 240,
+            "y": 1173,
+            "width": 1440,
+            "height": 189
+          }
+        },
+        {
+          "nodeId": "586:807",
+          "type": "GROUP",
+          "visible": true,
+          "geometry": {
+            "x": 240,
+            "y": 1097,
+            "width": 1440,
+            "height": 58
+          }
+        },
+        {
+          "nodeId": "586:1021",
+          "type": "TEXT",
+          "visible": true,
+          "geometry": {
+            "x": 404,
+            "y": 1247,
+            "width": 248,
+            "height": 36
+          }
+        },
+        {
+          "nodeId": "586:1022",
+          "type": "GROUP",
+          "visible": true,
+          "geometry": {
+            "x": 362,
+            "y": 1247,
+            "width": 26,
+            "height": 36
+          }
+        }
+      ],
+      "texts": [
+        {
+          "nodeId": "586:809",
+          "value": "Opis produktu",
+          "geometry": {
+            "x": 484,
+            "y": 1097,
+            "width": 223,
+            "height": 58
+          },
+          "segments": [
+            {
+              "characters": "Opis produktu",
+              "start": 0,
+              "end": 13,
+              "fontSize": 18,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 700,
+              "lineHeight": {
+                "unit": "AUTO"
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            }
+          ]
+        },
+        {
+          "nodeId": "586:810",
+          "value": "Opinie",
+          "geometry": {
+            "x": 970,
+            "y": 1097,
+            "width": 223,
+            "height": 58
+          },
+          "segments": [
+            {
+              "characters": "Opinie",
+              "start": 0,
+              "end": 6,
+              "fontSize": 18,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 700,
+              "lineHeight": {
+                "unit": "AUTO"
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            }
+          ]
+        },
+        {
+          "nodeId": "586:811",
+          "value": "Dane techniczne",
+          "geometry": {
+            "x": 240,
+            "y": 1100,
+            "width": 223,
+            "height": 55
+          },
+          "segments": [
+            {
+              "characters": "Dane techniczne",
+              "start": 0,
+              "end": 15,
+              "fontSize": 18,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 700,
+              "lineHeight": {
+                "unit": "AUTO"
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            }
+          ]
+        },
+        {
+          "nodeId": "586:812",
+          "value": "Stosowanie",
+          "geometry": {
+            "x": 727,
+            "y": 1097,
+            "width": 223,
+            "height": 58
+          },
+          "segments": [
+            {
+              "characters": "Stosowanie",
+              "start": 0,
+              "end": 10,
+              "fontSize": 18,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 700,
+              "lineHeight": {
+                "unit": "AUTO"
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            }
+          ]
+        },
+        {
+          "nodeId": "586:813",
+          "value": "Pliki do pobrania",
+          "geometry": {
+            "x": 1214,
+            "y": 1097,
+            "width": 223,
+            "height": 58
+          },
+          "segments": [
+            {
+              "characters": "Pliki do pobrania",
+              "start": 0,
+              "end": 17,
+              "fontSize": 18,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 700,
+              "lineHeight": {
+                "unit": "AUTO"
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            }
+          ]
+        },
+        {
+          "nodeId": "586:1021",
+          "value": "Pobierz etykietę",
+          "geometry": {
+            "x": 404,
+            "y": 1247,
+            "width": 248,
+            "height": 36
+          },
+          "segments": [
+            {
+              "characters": "Pobierz etykietę",
+              "start": 0,
+              "end": 16,
+              "fontSize": 16,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 700,
+              "lineHeight": {
+                "unit": "PIXELS",
+                "value": 24
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

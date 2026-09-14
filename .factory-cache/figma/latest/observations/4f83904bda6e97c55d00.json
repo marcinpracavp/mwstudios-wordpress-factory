@@ -1,0 +1,203 @@
+{
+  "id": "4f83904bda6e97c55d00",
+  "tool": "figma.use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "327:2986"
+  ],
+  "description": "Capture exact frame-relative bounds and ungrouped source text blog lista",
+  "recordedAt": "2026-09-10T19:30:16.894Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "id": "327:2986",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "grids": [
+        {
+          "pattern": "COLUMNS",
+          "visible": true,
+          "color": {
+            "r": 1,
+            "g": 0,
+            "b": 0,
+            "a": 0.10000000149011612
+          },
+          "gutterSize": 20,
+          "alignment": "STRETCH",
+          "count": 12,
+          "offset": 240,
+          "boundVariables": {}
+        }
+      ],
+      "children": [
+        {
+          "id": "327:2987",
+          "name": "Strona główna / Blog",
+          "type": "TEXT",
+          "visible": true,
+          "x": 240,
+          "y": 369,
+          "width": 508,
+          "height": 70,
+          "text": "Strona główna  /  Blog"
+        },
+        {
+          "id": "327:2988",
+          "name": "© Rudnikagro.pl 2026 | Wszelkie prawa zastrzeżone",
+          "type": "TEXT",
+          "visible": true,
+          "x": 240,
+          "y": 3753,
+          "width": 377,
+          "height": 34,
+          "text": "© Rudnikagro.pl 2026 | Wszelkie prawa zastrzeżone "
+        },
+        {
+          "id": "327:2989",
+          "name": "Projekt i wykonanie: Virtual People",
+          "type": "TEXT",
+          "visible": true,
+          "x": 1425,
+          "y": 3753,
+          "width": 259,
+          "height": 34,
+          "text": "Projekt i wykonanie: Virtual People"
+        },
+        {
+          "id": "327:2990",
+          "name": "stopka",
+          "type": "GROUP",
+          "visible": true,
+          "x": 40,
+          "y": 3180,
+          "width": 1840,
+          "height": 554
+        },
+        {
+          "id": "327:3103",
+          "name": "blog",
+          "type": "GROUP",
+          "visible": true,
+          "x": 240,
+          "y": 478,
+          "width": 1454,
+          "height": 545
+        },
+        {
+          "id": "327:3124",
+          "name": "blog",
+          "type": "GROUP",
+          "visible": true,
+          "x": 240,
+          "y": 1098,
+          "width": 1454,
+          "height": 545
+        },
+        {
+          "id": "327:3141",
+          "name": "blog",
+          "type": "GROUP",
+          "visible": true,
+          "x": 240,
+          "y": 1718,
+          "width": 1454,
+          "height": 584
+        },
+        {
+          "id": "327:3159",
+          "name": "blog",
+          "type": "GROUP",
+          "visible": true,
+          "x": 240,
+          "y": 2377,
+          "width": 1454,
+          "height": 545
+        },
+        {
+          "id": "327:3027",
+          "name": "mega menu",
+          "type": "GROUP",
+          "visible": true,
+          "x": 240,
+          "y": 115,
+          "width": 1440,
+          "height": 78.6761245727539
+        },
+        {
+          "id": "327:3066",
+          "name": "Line 1",
+          "type": "LINE",
+          "visible": true,
+          "x": 240,
+          "y": 115,
+          "width": 1440,
+          "height": 0
+        },
+        {
+          "id": "327:3067",
+          "name": "secondary menu",
+          "type": "GROUP",
+          "visible": true,
+          "x": 237,
+          "y": 56,
+          "width": 1442.8232421875,
+          "height": 42
+        },
+        {
+          "id": "327:3089",
+          "name": "topbar",
+          "type": "GROUP",
+          "visible": true,
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 40
+        },
+        {
+          "id": "327:3097",
+          "name": "Rectangle 111",
+          "type": "RECTANGLE",
+          "visible": true,
+          "x": 240,
+          "y": 219,
+          "width": 1440,
+          "height": 150
+        },
+        {
+          "id": "327:3098",
+          "name": "Blog",
+          "type": "TEXT",
+          "visible": true,
+          "x": 898,
+          "y": 219,
+          "width": 123,
+          "height": 150,
+          "text": "Blog"
+        },
+        {
+          "id": "422:25",
+          "name": "numeracja stron",
+          "type": "GROUP",
+          "visible": true,
+          "x": 796,
+          "y": 2978,
+          "width": 348,
+          "height": 40
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+checkout: PAGE PASS 
+order-confirmed: PAGE FAIL page pixel mismatch 86.542%; Section geometry differs: confirmation-heading; Section geometry differs: checkout-steps
+checkout-login: DEFERRED TO FINAL page pixel mismatch 9.506%
+checkout-registration: DEFERRED TO FINAL page pixel mismatch 10.223%
+2026-09-13T09:40:59.855Z BUILD READY build:checkout; deferred issues retained: 3
+2026-09-13T09:41:00.742Z START build:product-archive [gpt-5.6-terra high] (.factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/065-build-product-archive)

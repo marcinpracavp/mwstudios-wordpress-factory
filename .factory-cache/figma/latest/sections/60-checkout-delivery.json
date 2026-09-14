@@ -1,0 +1,102 @@
+{
+  "id": "checkout-delivery",
+  "name": "dostawa",
+  "order": 65,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "492:995"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 240,
+    "y": 1926,
+    "width": 953,
+    "height": 216,
+    "containerWidth": 1440
+  },
+  "layout": {
+    "type": "native-commerce-shipping-methods",
+    "designContextRead": true,
+    "columns": [
+      {
+        "x": 308,
+        "width": 399,
+        "role": "shipping-method-list"
+      }
+    ],
+    "alignment": "left",
+    "controls": {
+      "rowHeight": 44,
+      "border": "#c8c8c8",
+      "borderRadius": 15,
+      "radioOuter": 17,
+      "radioInner": 11
+    }
+  },
+  "typography": [
+    {
+      "nodeId": "492:755",
+      "value": "Dostawa",
+      "fontFamily": "DM Sans",
+      "fontWeight": 700,
+      "fontSize": 24,
+      "color": "#070707"
+    },
+    {
+      "nodeId": "492:746",
+      "value": "Shoper Przesyłki Kurier",
+      "fontFamily": "DM Sans",
+      "fontWeight": 400,
+      "fontSize": 16,
+      "color": "#000000"
+    },
+    {
+      "nodeId": "492:747",
+      "value": "22,90 zł",
+      "fontFamily": "DM Sans",
+      "fontWeight": 700,
+      "fontSize": 14,
+      "color": "#006633",
+      "alignment": "right"
+    }
+  ],
+  "assets": [
+    {
+      "sourceNodeId": "492:744",
+      "path": "assets/checkout/checkout-delivery-card.svg",
+      "usage": "delivery-card-background"
+    },
+    {
+      "sourceNodeId": "492:756",
+      "path": "assets/checkout/checkout-delivery-radio.svg",
+      "usage": "delivery-radio"
+    },
+    {
+      "sourceNodeId": "492:760",
+      "path": "assets/checkout/checkout-delivery-radio-active.svg",
+      "usage": "selected-delivery-radio"
+    }
+  ],
+  "contentFields": [
+    {
+      "id": "492:755",
+      "text": "Dostawa",
+      "link": null
+    },
+    {
+      "id": "492:746",
+      "text": "Shoper Przesyłki Kurier",
+      "link": null
+    },
+    {
+      "id": "492:747",
+      "text": "22,90 zł",
+      "link": null
+    }
+  ],
+  "notes": [
+    "The delivery method label and price are exact Figma source content only; the configured WooCommerce shipping method is a downstream requirement.",
+    "The source displays the single shipping method as selected; no shipment or order was created."
+  ],
+  "liveFigmaRequired": false
+}

@@ -1,0 +1,220 @@
+{
+  "id": "b1ee1afd187160fa3595",
+  "tool": "figma.use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "327:3176"
+  ],
+  "description": "Read compact composition for blog wpis 327:3176",
+  "recordedAt": "2026-09-10T19:30:16.845Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "id": "327:3176",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "grids": [
+        {
+          "pattern": "COLUMNS",
+          "visible": true,
+          "color": {
+            "r": 1,
+            "g": 0,
+            "b": 0,
+            "a": 0.10000000149011612
+          },
+          "gutterSize": 20,
+          "alignment": "STRETCH",
+          "count": 12,
+          "offset": 240,
+          "boundVariables": {}
+        }
+      ],
+      "children": [
+        {
+          "id": "327:3177",
+          "name": "Strona główna / Blog / Popularne nawozy potasowe i ich ",
+          "type": "TEXT",
+          "x": 240,
+          "y": 369,
+          "width": 634,
+          "height": 70
+        },
+        {
+          "id": "327:3178",
+          "name": "© Rudnikagro.pl 2026 | Wszelkie prawa zastrzeżone",
+          "type": "TEXT",
+          "x": 240,
+          "y": 3957,
+          "width": 377,
+          "height": 34
+        },
+        {
+          "id": "327:3179",
+          "name": "Projekt i wykonanie: Virtual People",
+          "type": "TEXT",
+          "x": 1425,
+          "y": 3957,
+          "width": 259,
+          "height": 34
+        },
+        {
+          "id": "327:3180",
+          "name": "stopka",
+          "type": "GROUP",
+          "x": 40,
+          "y": 3384,
+          "width": 1840,
+          "height": 554
+        },
+        {
+          "id": "327:3217",
+          "name": "mega menu",
+          "type": "GROUP",
+          "x": 240,
+          "y": 115,
+          "width": 1440,
+          "height": 78.6761245727539
+        },
+        {
+          "id": "327:3256",
+          "name": "Line 1",
+          "type": "LINE",
+          "x": 240,
+          "y": 115,
+          "width": 1440,
+          "height": 0
+        },
+        {
+          "id": "327:3257",
+          "name": "secondary menu",
+          "type": "GROUP",
+          "x": 236.99981689453125,
+          "y": 56,
+          "width": 1442.8232421875,
+          "height": 42
+        },
+        {
+          "id": "327:3279",
+          "name": "topbar",
+          "type": "GROUP",
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 40
+        },
+        {
+          "id": "327:3287",
+          "name": "Rectangle 111",
+          "type": "RECTANGLE",
+          "x": 240,
+          "y": 219,
+          "width": 1440,
+          "height": 150
+        },
+        {
+          "id": "327:3288",
+          "name": "Blog",
+          "type": "TEXT",
+          "x": 898,
+          "y": 219,
+          "width": 123,
+          "height": 150
+        },
+        {
+          "id": "327:3357",
+          "name": "Popularne nawozy potasowe i ich zastosowanie w uprawach",
+          "type": "TEXT",
+          "x": 240,
+          "y": 456,
+          "width": 1434,
+          "height": 121
+        },
+        {
+          "id": "327:3358",
+          "name": "Potas jest jednym z najważniejszych składników odżywczy",
+          "type": "TEXT",
+          "x": 240,
+          "y": 1333,
+          "width": 1440,
+          "height": 1025
+        },
+        {
+          "id": "327:3359",
+          "name": "Rectangle 113",
+          "type": "RECTANGLE",
+          "x": 240,
+          "y": 610,
+          "width": 1440,
+          "height": 641
+        },
+        {
+          "id": "327:3371",
+          "name": "10 lipca 2025",
+          "type": "TEXT",
+          "x": 240,
+          "y": 1251,
+          "width": 149,
+          "height": 87
+        },
+        {
+          "id": "327:3356",
+          "name": "Group 6",
+          "type": "GROUP",
+          "x": 240,
+          "y": 2610,
+          "width": 467,
+          "height": 545
+        },
+        {
+          "id": "327:3355",
+          "name": "Group 5",
+          "type": "GROUP",
+          "x": 727,
+          "y": 2610,
+          "width": 467,
+          "height": 545
+        },
+        {
+          "id": "327:3289",
+          "name": "blog",
+          "type": "GROUP",
+          "x": 1213,
+          "y": 2610,
+          "width": 481,
+          "height": 545
+        },
+        {
+          "id": "327:3367",
+          "name": "Pozostałe wpisy",
+          "type": "TEXT",
+          "x": 240,
+          "y": 2532,
+          "width": 467,
+          "height": 55
+        },
+        {
+          "id": "431:929",
+          "name": "koszyk",
+          "type": "GROUP",
+          "x": 240,
+          "y": 2379,
+          "width": 286,
+          "height": 44
+        }
+      ]
+    }
+  ]
+}

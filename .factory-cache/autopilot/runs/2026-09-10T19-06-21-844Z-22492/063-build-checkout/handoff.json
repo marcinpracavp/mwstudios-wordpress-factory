@@ -1,0 +1,209 @@
+{
+  "task": {
+    "id": "checkout"
+  },
+  "sourceContext": {
+    "version": 6,
+    "available": true,
+    "index": {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/063-build-checkout/source-context/index.json",
+      "bytes": 1573,
+      "sha256": "a632fc43d19834f557999861b88acc13eacaff7e9d2bc29b1e2f78454983bcf7"
+    }
+  },
+  "model": "gpt-5.6-terra",
+  "reasoningEffort": "high",
+  "continuation": "same-model interrupted thread",
+  "previousExecution": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/062-build-checkout/execution.json",
+  "previousResult": null,
+  "correctionFocus": [],
+  "currentPageVerification": {
+    "routes": [
+      {
+        "id": "checkout",
+        "passed": false,
+        "pagePassed": true,
+        "ownership": {
+          "header": {
+            "pixels": 629760,
+            "differentPixels": 29127,
+            "ratio": 0.04625095274390244
+          },
+          "footer": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "shared": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "page": {
+            "pixels": 3413760,
+            "differentPixels": 121533,
+            "ratio": 0.03560092097862767
+          },
+          "outside": {
+            "pixels": 1605120,
+            "differentPixels": 216173,
+            "ratio": 0.1346771580940989
+          },
+          "reused": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          }
+        },
+        "errors": [],
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/resume-page-check-1789289745941/checkout/checkout/comparison.json"
+      },
+      {
+        "id": "order-confirmed",
+        "passed": false,
+        "pagePassed": false,
+        "ownership": {
+          "header": {
+            "pixels": 372480,
+            "differentPixels": 21868,
+            "ratio": 0.05870919243986254
+          },
+          "footer": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "shared": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "page": {
+            "pixels": 2188800,
+            "differentPixels": 1894241,
+            "ratio": 0.8654244334795321
+          },
+          "outside": {
+            "pixels": 1660800,
+            "differentPixels": 1612969,
+            "ratio": 0.9712000240847785
+          },
+          "reused": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          }
+        },
+        "errors": [
+          "page pixel mismatch 86.542%",
+          "Section geometry differs: confirmation-heading",
+          "Section geometry differs: checkout-steps",
+          "Section geometry differs: checkout-order-confirmation",
+          "Section geometry differs: confirmation-line-items",
+          "Section geometry differs: checkout-totals"
+        ],
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/resume-page-check-1789289745941/order-confirmed/order-confirmed/comparison.json"
+      },
+      {
+        "id": "checkout-login",
+        "passed": false,
+        "pagePassed": false,
+        "ownership": {
+          "header": {
+            "pixels": 372480,
+            "differentPixels": 21549,
+            "ratio": 0.057852770618556704
+          },
+          "footer": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "shared": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "page": {
+            "pixels": 1376640,
+            "differentPixels": 1070325,
+            "ratio": 0.7774908472803347
+          },
+          "outside": {
+            "pixels": 1704960,
+            "differentPixels": 1586059,
+            "ratio": 0.9302617070195195
+          },
+          "reused": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          }
+        },
+        "errors": [
+          "page pixel mismatch 77.749%",
+          "Section geometry differs: checkout-login-heading",
+          "Section geometry differs: checkout-steps",
+          "Section geometry differs: checkout-login-options"
+        ],
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/resume-page-check-1789289745941/checkout-login/checkout-login/comparison.json"
+      },
+      {
+        "id": "checkout-registration",
+        "passed": false,
+        "pagePassed": false,
+        "ownership": {
+          "header": {
+            "pixels": 372480,
+            "differentPixels": 21549,
+            "ratio": 0.057852770618556704
+          },
+          "footer": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "shared": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "page": {
+            "pixels": 1885440,
+            "differentPixels": 1577419,
+            "ratio": 0.8366317676510523
+          },
+          "outside": {
+            "pixels": 1232640,
+            "differentPixels": 1113638,
+            "ratio": 0.9034576194184839
+          },
+          "reused": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          }
+        },
+        "errors": [
+          "page pixel mismatch 83.663%",
+          "Section geometry differs: checkout-login-heading",
+          "Section geometry differs: checkout-steps",
+          "Section geometry differs: checkout-login-options",
+          "Section geometry differs: account-registration-dialog"
+        ],
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/resume-page-check-1789289745941/checkout-registration/checkout-registration/comparison.json"
+      }
+    ],
+    "instruction": "Fresh host checks for all sibling routes. Repair only failed assigned routes."
+  },
+  "snapshot": ".factory-cache/figma/latest",
+  "observations": ".factory-cache/figma/latest/observations/index.json",
+  "plans": [
+    "docs/factory/project/PLAN.md",
+    "docs/factory/project/STATUS.md",
+    "docs/factory/project/SOURCE_CLARIFICATIONS.md",
+    "docs/factory/project/REUSABLE_COMPONENTS.md"
+  ],
+  "currentGate": null,
+  "instruction": "Inspect the current gate and finish only remaining assigned work. Reuse real saved source facts and assets."
+}

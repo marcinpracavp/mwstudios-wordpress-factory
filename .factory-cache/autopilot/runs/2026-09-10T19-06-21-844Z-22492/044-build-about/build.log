@@ -1,0 +1,61 @@
+[dotenv@17.2.1] injecting env (1) from .env.production -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+🔧 Webpack mode: production
+📦 NODE_ENV: production
+assets by path fonts/ 1.07 MiB
+  assets by path fonts/*.woff2 342 KiB 8 assets
+  assets by path fonts/*.ttf 699 KiB 4 assets
+  assets by path fonts/*.woff 55.9 KiB 4 assets
+assets by path *.css 1 MiB
+  assets by status 899 KiB [big]
+    asset combined-style.css 458 KiB [emitted] [big] (name: combined)
+    asset build-style.css 441 KiB [emitted] [big] (name: main)
+  asset editor-styles.css 109 KiB [emitted] (name: editor-styles)
+  asset libs.css 16.4 KiB [emitted] (name: libs)
+assets by path *.js 321 KiB
+  asset build-combined.js 160 KiB [emitted] [minimized] (name: combined) 1 related asset
+  asset build-libs.js 135 KiB [emitted] [minimized] (name: libs) 1 related asset
+  asset build-js.js 26.3 KiB [emitted] [minimized] (name: main)
+  asset editor-styles.js 322 bytes [emitted] [minimized] (name: editor-styles)
+Entrypoint main [big] 468 KiB = build-style.css 441 KiB build-js.js 26.3 KiB
+Entrypoint editor-styles 109 KiB (98 KiB) = editor-styles.css 109 KiB editor-styles.js 322 bytes 8 auxiliary assets
+Entrypoint libs 151 KiB = libs.css 16.4 KiB build-libs.js 135 KiB
+Entrypoint combined [big] 618 KiB = combined-style.css 458 KiB build-combined.js 160 KiB
+orphan modules 956 KiB (javascript) 1.07 MiB (asset) 6.16 KiB (runtime) [orphan] 99 modules
+runtime modules 3.19 KiB 13 modules
+built modules 497 KiB (javascript) 568 KiB (css/mini-extract) [built]
+  modules by path ./src/ 483 KiB (javascript) 413 KiB (css/mini-extract)
+    modules by path ./src/js/ 482 KiB 14 modules
+    modules by path ./src/css/*.scss 50 bytes (javascript) 413 KiB (css/mini-extract)
+      ./src/css/editor-styles.scss 50 bytes [built] [code generated]
+      css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./src/css/editor-styles.scss 105 KiB [built] [code generated]
+      css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./src/css/style.scss 308 KiB [built] [code generated]
+  modules by path ./node_modules/ 154 KiB (css/mini-extract) 14.3 KiB (javascript)
+    modules by path ./node_modules/@fontsource/dm-sans/ 4.74 KiB 4 modules
+    modules by path ./node_modules/swiper/ 16.4 KiB 3 modules
+    modules by path ./node_modules/aos/dist/ 14.3 KiB (javascript) 27.9 KiB (css/mini-extract) 2 modules
+    css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/@fortawesome/fontawesome-free/css/all.css 105 KiB [built] [code generated]
+
+WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets: 
+  fonts/fa-solid-900.ttf (416 KiB)
+  build-style.css (441 KiB)
+  combined-style.css (458 KiB)
+
+WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  main (468 KiB)
+      build-style.css
+      build-js.js
+  combined (618 KiB)
+      combined-style.css
+      build-combined.js
+
+WARNING in webpack performance recommendations: 
+You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+For more info visit https://webpack.js.org/guides/code-splitting/
+
+webpack 5.100.2 compiled with 3 warnings in 16870 ms
+Browserslist: browsers data (caniuse-lite) is 15 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme

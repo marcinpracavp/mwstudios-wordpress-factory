@@ -1,0 +1,30 @@
+{
+  "9ed16b8721f5a5b9a6cad8b1260bc3a8fe6a707911b6fd911ad9b16120aa4031": {
+    "signature": "afb99a94f81da0b51a47a12a1a501b1e77cc221bf5733d3df361dea7774a2fa6",
+    "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/056-build-product/build-readiness/product/product/comparison.json",
+    "section": "product-breadcrumbs",
+    "evidenceHash": "5684530f53db470cab432afa603de8b07c64ab5e47a475085361c5fa8573dfac",
+    "sourceRoute": "product"
+  },
+  "aad2bd988410d92169158c23b8cb2137603341f0b4d97cd40245bc5e34bd5187": {
+    "signature": "97672d175b8671214429499726e4dcfb01eea4637db837e26e3a3af6f428a5fa",
+    "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/resume-page-check-1789292350649/checkout/checkout/comparison.json",
+    "section": "checkout-customer-details",
+    "evidenceHash": "a3c4755e944db9415e51701c06eab6905bf7a236216d5785bf2b233886b696d9",
+    "sourceRoute": "checkout"
+  },
+  "3a57ee518efb0ef93e26886a4c8a69201c76f4272dbc85a93d0e739cfd79801c": {
+    "signature": "075ce7c1cbc65fc2e32a52f988711ce8e724523584f25773a1eebc7f3a81446a",
+    "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/resume-page-check-1789292350649/checkout/checkout/comparison.json",
+    "section": "checkout-payment",
+    "evidenceHash": "a3c4755e944db9415e51701c06eab6905bf7a236216d5785bf2b233886b696d9",
+    "sourceRoute": "checkout"
+  },
+  "abb301f96e46d739eae43b4711cbd655d6bc46bad457cec75ad85c2713788bd8": {
+    "signature": "927159a269089f8a4485437a2284f55978313e04435faa0ab5da9c10b96744af",
+    "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/resume-page-check-1789292350649/checkout/checkout/comparison.json",
+    "section": "checkout-delivery",
+    "evidenceHash": "a3c4755e944db9415e51701c06eab6905bf7a236216d5785bf2b233886b696d9",
+    "sourceRoute": "checkout"
+  }
+}

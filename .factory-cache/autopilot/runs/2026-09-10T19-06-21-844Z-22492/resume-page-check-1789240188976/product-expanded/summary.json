@@ -1,0 +1,65 @@
+{
+  "capturedAt": "2026-09-12T19:10:41.330Z",
+  "implementationHash": "552e663a6b3e8b2fc17b94d02d836fc627688a99e94fa9395659c9fd236dec1d",
+  "sourceHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+  "thresholds": {
+    "channelTolerance": 24,
+    "maxDifferentPixelRatio": 0.085,
+    "geometryTolerancePx": 2
+  },
+  "acceptanceScope": "page",
+  "buildReady": false,
+  "deferred": [],
+  "passed": false,
+  "pagePassed": false,
+  "routes": [
+    {
+      "id": "product-expanded",
+      "passed": false,
+      "pagePassed": false,
+      "ownership": {
+        "header": {
+          "pixels": 369940,
+          "differentPixels": 21865,
+          "ratio": 0.05910417905606315
+        },
+        "footer": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "shared": {
+          "pixels": 1215460,
+          "differentPixels": 196312,
+          "ratio": 0.16151251378079082
+        },
+        "page": {
+          "pixels": 8484000,
+          "differentPixels": 1109522,
+          "ratio": 0.13077817067421027
+        },
+        "outside": {
+          "pixels": 1474560,
+          "differentPixels": 1185028,
+          "ratio": 0.8036485460069445
+        },
+        "reused": {
+          "pixels": 35560,
+          "differentPixels": 2665,
+          "ratio": 0.0749437570303712
+        }
+      },
+      "errors": [
+        "page pixel mismatch 13.078%",
+        "Section geometry differs: product-expanded-description",
+        "Section geometry differs: product-related",
+        "Section geometry differs: product-legal-notices",
+        "shared pixel mismatch 16.151%",
+        "Shared component pixel mismatch product-gallery: 17.311%",
+        "Shared component pixel mismatch product-tabs: 15.330%",
+        "Section geometry differs: product-tabs"
+      ],
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/resume-page-check-1789240188976/product-expanded/product-expanded/comparison.json"
+    }
+  ]
+}

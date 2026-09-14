@@ -1,0 +1,40 @@
+{
+  "id": "archive-category-description",
+  "name": "category description",
+  "order": 79,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "303:1277"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 605,
+    "y": 3667,
+    "width": 1076,
+    "height": 2242,
+    "containerWidth": 1076
+  },
+  "layout": {
+    "type": "category-wysiwyg-description",
+    "contentNodeId": "303:1276",
+    "width": 1075,
+    "sourceOverflow": "extends below archive frame; an exact exported section reference is retained"
+  },
+  "typography": [
+    {
+      "nodeId": "303:1276",
+      "family": "DM Sans",
+      "headingStyle": "Bold 24px",
+      "bodyStyle": "Regular 18px",
+      "effect": "vertical black-to-transparent fade",
+      "text": "Source WYSIWYG retained in Figma node 303:1276; body extraction has a dedicated exact source record pending plan-level field mapping."
+    }
+  ],
+  "assets": [],
+  "contentFields": [],
+  "notes": [
+    "Exact 1x section reference; crop provenance: references/full/frame-294-3-bounds.png at x=605, y=3667, width=1076, height=2242.",
+    "Reference provenance is the exact Figma node screenshot, not a resized full-frame crop."
+  ],
+  "liveFigmaRequired": false
+}

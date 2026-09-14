@@ -1,0 +1,10 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="21" height="26" viewBox="0 0 21 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 9">
+<line id="Line 15" x1="0.75" y1="3.25" x2="20.25" y2="3.25" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+<path id="Rectangle 148" d="M9 0.75H12C12.6904 0.75 13.25 1.30964 13.25 2V3.25H7.75V2C7.75 1.30964 8.30964 0.75 9 0.75Z" stroke="black" stroke-width="1.5"/>
+<line id="Line 16" x1="10.25" y1="20.25" x2="10.25" y2="7.75" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+<line id="Line 18" x1="15.25" y1="20.25" x2="15.25" y2="7.75" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+<line id="Line 19" x1="5.25" y1="20.25" x2="5.25" y2="7.75" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+<path id="Rectangle 147" d="M19.25 3.75V22C19.25 23.7949 17.7949 25.25 16 25.25H5C3.20507 25.25 1.75 23.7949 1.75 22V3.75H19.25Z" stroke="black" stroke-width="1.5"/>
+</g>
+</svg>

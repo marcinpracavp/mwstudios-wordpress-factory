@@ -1,0 +1,376 @@
+{
+  "source": {
+    "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+    "figmaUrl": "https://www.figma.com/design/OwiDXrKMVcaHKB9ryYF6mY/Rudnik-Agro?m=dev"
+  },
+  "status": "complete",
+  "routes": [
+    {
+      "id": "contact",
+      "path": "/kontakt/",
+      "language": "pl",
+      "frameNodeId": "335:591",
+      "reference": "references/full/frame-335-591.png",
+      "width": 1920,
+      "height": 2614,
+      "sections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "shared-primary-navigation",
+        "contact-heading",
+        "contact-details",
+        "contact-form",
+        "contact-map",
+        "shared-footer"
+      ],
+      "buildGroup": "contact",
+      "responsiveSource": "derived",
+      "notes": "Source frame titled kontakt contains contact/branch details, a contact form and map image. Planned local route path is an implementation decision inferred from source page identity, not a captured source hyperlink. Uncaptured section IDs remain explicit in this partial execution plan.",
+      "sectionGeometry": {
+        "shared-primary-navigation": {
+          "x": 240,
+          "y": 115,
+          "width": 1440,
+          "height": 78.6761245727539
+        },
+        "contact-heading": {
+          "x": 240,
+          "y": 218,
+          "width": 1440,
+          "height": 220
+        },
+        "contact-details": {
+          "x": 240,
+          "y": 485,
+          "width": 467,
+          "height": 1341
+        },
+        "contact-form": {
+          "x": 728,
+          "y": 519,
+          "width": 953,
+          "height": 376
+        },
+        "contact-map": {
+          "x": 728,
+          "y": 983,
+          "width": 953,
+          "height": 568
+        }
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "shared-topbar",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/14-shared-topbar.json",
+      "contentRecords": 6,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/040-build-contact/source-context/section-91484042cce6815e.json",
+        "bytes": 2751,
+        "sha256": "d2f9e73eba0b32222284737dc8ee1f1a8f58ab2b85545831f54fdbf1256eaa5f"
+      }
+    },
+    {
+      "id": "shared-secondary-navigation",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/15-shared-secondary-navigation.json",
+      "contentRecords": 13,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/040-build-contact/source-context/section-f64d32808e6ea46d.json",
+        "bytes": 6535,
+        "sha256": "860eb7d970c300c199119e8ae18a3514e8705ab2557992a3d2f573846dc447d7"
+      }
+    },
+    {
+      "id": "shared-primary-navigation",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/01-shared-primary-navigation.json",
+      "contentRecords": 5,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/040-build-contact/source-context/section-8de8ed9bbbe57bf3.json",
+        "bytes": 2587,
+        "sha256": "46046e4e7b17b0533fe94b9f43b28de71033d1948b0984c7c137a33d206cc098"
+      }
+    },
+    {
+      "id": "contact-heading",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/41-contact-heading.json",
+      "contentRecords": 3,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/040-build-contact/source-context/section-47eb5a4ce749e874.json",
+        "bytes": 1518,
+        "sha256": "4c336dd884e424330fd13ff69eb93d76ec242026dfd55d2f592db642abc2bdae"
+      }
+    },
+    {
+      "id": "contact-details",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/42-contact-details.json",
+      "contentRecords": 11,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/040-build-contact/source-context/section-d525cbf2e7e68b63.json",
+        "bytes": 5112,
+        "sha256": "8fabb4294cf215d422e7e5f2715293773707e446fd0201e5b3e65cb2c0b89e40"
+      }
+    },
+    {
+      "id": "contact-form",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/43-contact-form.json",
+      "contentRecords": 7,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/040-build-contact/source-context/section-8d9be2fa67161204.json",
+        "bytes": 3107,
+        "sha256": "ed10c620f64ab3f219280c74f77338f7186634ed085adaaaa7d1c3424df771af"
+      }
+    },
+    {
+      "id": "contact-map",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/44-contact-map.json",
+      "contentRecords": 1,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/040-build-contact/source-context/section-b8a20fe1c702511e.json",
+        "bytes": 715,
+        "sha256": "75d6959404be4a7ba8c42f9ab878774f5b3baedd6d471d180fed4954261aa2b2"
+      }
+    },
+    {
+      "id": "shared-footer",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/26-shared-footer.json",
+      "contentRecords": 16,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/040-build-contact/source-context/section-61ba1faa466eb680.json",
+        "bytes": 7941,
+        "sha256": "17696d0bef8eb6c6512ee31448fe8b70d275e5fe6f11dd775cdc28ca68afc9af"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "id": "237d29a9449cf569b662",
+      "nodeIds": [
+        "335:591"
+      ],
+      "description": "Read compact composition for kontakt 335:591",
+      "path": "observations/237d29a9449cf569b662.json"
+    },
+    {
+      "id": "de204fffdc79c21460e6",
+      "nodeIds": [
+        "335:591"
+      ],
+      "description": "Capture exact frame-relative bounds and ungrouped source text kontakt",
+      "path": "observations/de204fffdc79c21460e6.json"
+    },
+    {
+      "id": "ba86239566720ac727d2",
+      "nodeIds": [
+        "140:262",
+        "12:2"
+      ],
+      "description": "Capture shared primary navigation geometry and text styles",
+      "path": "observations/ba86239566720ac727d2.json"
+    },
+    {
+      "id": "93994dfaa5c6b60a4b37",
+      "nodeIds": [
+        "112:7",
+        "12:2"
+      ],
+      "description": "Read exact topbar bounds, styled text and icon geometry without changing source",
+      "path": "observations/93994dfaa5c6b60a4b37.json"
+    },
+    {
+      "id": "76dbf979f194f7f139e5",
+      "nodeIds": [
+        "112:7",
+        "12:2"
+      ],
+      "description": "Capture topbar source data for immediate persistence",
+      "path": "observations/76dbf979f194f7f139e5.json"
+    },
+    {
+      "id": "detail-shared-topbar",
+      "nodeIds": [
+        "112:7"
+      ],
+      "description": "Exact source section capture",
+      "path": "observations/detail-shared-topbar.json"
+    },
+    {
+      "id": "e85f04bc857cc3e8c516",
+      "nodeIds": [
+        "140:260",
+        "12:2"
+      ],
+      "description": "Capture exact secondary navigation section",
+      "path": "observations/e85f04bc857cc3e8c516.json"
+    },
+    {
+      "id": "detail-shared-secondary-navigation",
+      "nodeIds": [
+        "140:260"
+      ],
+      "description": "Exact source section capture",
+      "path": "observations/detail-shared-secondary-navigation.json"
+    },
+    {
+      "id": "1f35a8b8aca7f971542c",
+      "nodeIds": [
+        "140:262",
+        "12:2"
+      ],
+      "description": "Capture default primary navigation with deduplicated styles to avoid truncation",
+      "path": "observations/1f35a8b8aca7f971542c.json"
+    },
+    {
+      "id": "detail-shared-primary-navigation",
+      "nodeIds": [
+        "140:262"
+      ],
+      "description": "Exact source section capture",
+      "path": "observations/detail-shared-primary-navigation.json"
+    },
+    {
+      "id": "053b78308ad646a28ad7",
+      "nodeIds": [
+        "222:62",
+        "12:2"
+      ],
+      "description": "Capture exact shared-footer section source",
+      "path": "observations/053b78308ad646a28ad7.json"
+    },
+    {
+      "id": "7891ec52f6816ff9beb4",
+      "nodeIds": [
+        "222:62",
+        "12:2"
+      ],
+      "description": "Capture exact shared-footer section source nodes 25",
+      "path": "observations/7891ec52f6816ff9beb4.json"
+    },
+    {
+      "id": "detail-shared-footer",
+      "nodeIds": [
+        "222:62"
+      ],
+      "description": "Exact source section capture",
+      "path": "observations/detail-shared-footer.json"
+    },
+    {
+      "id": "234f510c61b3d6944b9f",
+      "nodeIds": [],
+      "description": "Read only the exact source nodes for the contact heading section and their visual properties.",
+      "path": "observations/234f510c61b3d6944b9f.json"
+    },
+    {
+      "id": "a6c28275dd28f25dd610",
+      "nodeIds": [],
+      "description": "Read only the source nodes that compose the contact-details cards, their styles, and their exact editable text.",
+      "path": "observations/a6c28275dd28f25dd610.json"
+    },
+    {
+      "id": "9456d6a89050c25620ef",
+      "nodeIds": [],
+      "description": "Read only the source nodes that compose the contact form section, including visual styling and exact editable labels.",
+      "path": "observations/9456d6a89050c25620ef.json"
+    },
+    {
+      "id": "2c8ac4d8400aad7c2da1",
+      "nodeIds": [],
+      "description": "Read only the submit control descendants and map source node for the contact form and map sections.",
+      "path": "observations/2c8ac4d8400aad7c2da1.json"
+    },
+    {
+      "id": "f5b49583f5d701e7bc65",
+      "nodeIds": [
+        "431:924",
+        "431:907"
+      ],
+      "description": "Verify whether the sourced contact map or privacy notice supplies an external destination.",
+      "path": "observations/f5b49583f5d701e7bc65.json"
+    }
+  ],
+  "frames": [
+    {
+      "nodeId": "335:591",
+      "name": "kontakt",
+      "pageId": "0:1",
+      "type": "FRAME",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "140:262",
+      "name": "mega menu",
+      "pageId": "0:1",
+      "type": "GROUP"
+    },
+    {
+      "nodeId": "112:7",
+      "name": "topbar",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "140:260",
+      "name": "secondary menu",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "222:62",
+      "name": "stopka",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "335:702",
+      "name": "Rectangle 111",
+      "type": "RECTANGLE",
+      "pageId": "0:1"
+    },
+    {
+      "nodeId": "335:710",
+      "name": "Rectangle 115",
+      "type": "VECTOR",
+      "pageId": "0:1"
+    },
+    {
+      "nodeId": "339:795",
+      "name": "Formularz kontaktowy",
+      "type": "TEXT",
+      "pageId": "0:1"
+    },
+    {
+      "nodeId": "431:924",
+      "name": "Rectangle 142",
+      "type": "RECTANGLE",
+      "pageId": "0:1"
+    }
+  ],
+  "globalFiles": [
+    {
+      "path": ".factory-cache/figma/latest/design-system.json",
+      "bytes": 8294,
+      "sha256": "5086e8f74a4d3aee56055467846c3f49e9f2791c2a30a873ea30c5a5a87b3863"
+    },
+    {
+      "path": ".factory-cache/figma/latest/components.json",
+      "bytes": 261,
+      "sha256": "fb651cb0bc38b89b71ffa0e6a8b92ec6acbe3bdff6ab7d30ea9c2e39ed12fec5"
+    }
+  ],
+  "lookup": "Observation matches are an index, not a completeness claim. Use targeted rg or inspect JSON pointers for missing node IDs. Never dump the full source files."
+}

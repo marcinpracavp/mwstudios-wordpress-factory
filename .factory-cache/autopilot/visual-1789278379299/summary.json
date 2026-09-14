@@ -1,0 +1,58 @@
+{
+  "capturedAt": "2026-09-13T05:46:33.611Z",
+  "implementationHash": "73e550c1b0b64ccc723519d99fb44355615afc0d6846a9687d2374cef112caee",
+  "sourceHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+  "thresholds": {
+    "channelTolerance": 24,
+    "maxDifferentPixelRatio": 0.085,
+    "geometryTolerancePx": 2
+  },
+  "acceptanceScope": "page",
+  "buildReady": false,
+  "deferred": [],
+  "passed": false,
+  "pagePassed": false,
+  "routes": [
+    {
+      "id": "cart",
+      "passed": false,
+      "pagePassed": false,
+      "ownership": {
+        "header": {
+          "pixels": 372480,
+          "differentPixels": 21869,
+          "ratio": 0.05871187714776632
+        },
+        "footer": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "shared": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "page": {
+          "pixels": 1107840,
+          "differentPixels": 69872,
+          "ratio": 0.06307047949162334
+        },
+        "outside": {
+          "pixels": 2019840,
+          "differentPixels": 885169,
+          "ratio": 0.438237187103929
+        },
+        "reused": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        }
+      },
+      "errors": [
+        "Section geometry differs: cart-heading"
+      ],
+      "comparison": ".factory-cache/autopilot/visual-1789278379299/cart/comparison.json"
+    }
+  ]
+}

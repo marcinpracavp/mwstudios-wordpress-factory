@@ -1,0 +1,721 @@
+{
+  "id": "d896186ebda403e6e122",
+  "tool": "use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "110:2",
+    "12:2"
+  ],
+  "description": "Capture exact home-crop-selection section source nodes 200",
+  "recordedAt": "2026-09-11T00:43:57.577Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "id": "110:2",
+      "name": "wybór wg uprawy",
+      "frame": "12:2",
+      "total": 269,
+      "nodes": [
+        {
+          "id": "222:43",
+          "name": "Line 9",
+          "type": "LINE",
+          "parentId": "108:546",
+          "bounds": {
+            "x": 240,
+            "y": 1882,
+            "width": 1439,
+            "height": 0
+          },
+          "style": 0
+        },
+        {
+          "id": "222:44",
+          "name": "Rectangle 48",
+          "type": "VECTOR",
+          "parentId": "108:546",
+          "bounds": {
+            "x": 240,
+            "y": 1840,
+            "width": 170,
+            "height": 41
+          },
+          "style": 1
+        },
+        {
+          "id": "119:35",
+          "name": "Warzywa",
+          "type": "TEXT",
+          "parentId": "108:546",
+          "bounds": {
+            "x": 240,
+            "y": 1840,
+            "width": 170,
+            "height": 42
+          },
+          "style": 2,
+          "characters": "Warzywa",
+          "align": [
+            "CENTER",
+            "CENTER"
+          ],
+          "segments": [
+            {
+              "characters": "Warzywa",
+              "start": 0,
+              "end": 7,
+              "style": 3
+            }
+          ]
+        },
+        {
+          "id": "108:547",
+          "name": "zboża",
+          "type": "GROUP",
+          "parentId": "110:2",
+          "bounds": {
+            "x": 240,
+            "y": 1631,
+            "width": 832,
+            "height": 161
+          },
+          "style": 4
+        },
+        {
+          "id": "104:177",
+          "name": "łubin",
+          "type": "GROUP",
+          "parentId": "108:547",
+          "bounds": {
+            "x": 970,
+            "y": 1690,
+            "width": 102,
+            "height": 102
+          },
+          "style": 4
+        },
+        {
+          "id": "104:178",
+          "name": "Rectangle 3",
+          "type": "RECTANGLE",
+          "parentId": "104:177",
+          "bounds": {
+            "x": 970,
+            "y": 1690,
+            "width": 102,
+            "height": 102
+          },
+          "style": 5
+        },
+        {
+          "id": "104:181",
+          "name": "łubin",
+          "type": "TEXT",
+          "parentId": "104:177",
+          "bounds": {
+            "x": 971,
+            "y": 1756.3431396484375,
+            "width": 101,
+            "height": 18.8137264251709
+          },
+          "style": 6,
+          "characters": "łubin",
+          "align": [
+            "CENTER",
+            "TOP"
+          ],
+          "segments": [
+            {
+              "characters": "łubin",
+              "start": 0,
+              "end": 5,
+              "style": 7
+            }
+          ]
+        },
+        {
+          "id": "105:210",
+          "name": "łubin 1",
+          "type": "FRAME",
+          "parentId": "104:177",
+          "bounds": {
+            "x": 995,
+            "y": 1707,
+            "width": 51,
+            "height": 40
+          },
+          "style": 8
+        },
+        {
+          "id": "105:211",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "105:210",
+          "bounds": {
+            "x": 1013.8970947265625,
+            "y": 1720.7357177734375,
+            "width": 13.258366584777832,
+            "height": 7.2175493240356445
+          },
+          "style": 9
+        },
+        {
+          "id": "105:212",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "105:210",
+          "bounds": {
+            "x": 1017.737548828125,
+            "y": 1707,
+            "width": 5.585742950439453,
+            "height": 7.765132904052734
+          },
+          "style": 9
+        },
+        {
+          "id": "105:213",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "105:210",
+          "bounds": {
+            "x": 1015.453369140625,
+            "y": 1713.7952880859375,
+            "width": 10.145746231079102,
+            "height": 7.138380527496338
+          },
+          "style": 9
+        },
+        {
+          "id": "105:214",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "105:210",
+          "bounds": {
+            "x": 995.006591796875,
+            "y": 1725.9609375,
+            "width": 50.99344253540039,
+            "height": 21.05228614807129
+          },
+          "style": 9
+        },
+        {
+          "id": "104:170",
+          "name": "rzepak",
+          "type": "GROUP",
+          "parentId": "108:547",
+          "bounds": {
+            "x": 848,
+            "y": 1690,
+            "width": 102,
+            "height": 102
+          },
+          "style": 4
+        },
+        {
+          "id": "104:171",
+          "name": "Rectangle 3",
+          "type": "RECTANGLE",
+          "parentId": "104:170",
+          "bounds": {
+            "x": 848,
+            "y": 1690,
+            "width": 102,
+            "height": 102
+          },
+          "style": 5
+        },
+        {
+          "id": "104:174",
+          "name": "rzepak",
+          "type": "TEXT",
+          "parentId": "104:170",
+          "bounds": {
+            "x": 848,
+            "y": 1756.3431396484375,
+            "width": 101,
+            "height": 18.8137264251709
+          },
+          "style": 6,
+          "characters": "rzepak",
+          "align": [
+            "CENTER",
+            "TOP"
+          ],
+          "segments": [
+            {
+              "characters": "rzepak",
+              "start": 0,
+              "end": 6,
+              "style": 7
+            }
+          ]
+        },
+        {
+          "id": "106:215",
+          "name": "rzepak 1",
+          "type": "FRAME",
+          "parentId": "104:170",
+          "bounds": {
+            "x": 885,
+            "y": 1703,
+            "width": 27,
+            "height": 46
+          },
+          "style": 8
+        },
+        {
+          "id": "106:216",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "106:215",
+          "bounds": {
+            "x": 884.9852294921875,
+            "y": 1703.022216796875,
+            "width": 27.0295352935791,
+            "height": 46.02450942993164
+          },
+          "style": 9
+        },
+        {
+          "id": "104:162",
+          "name": "owies",
+          "type": "GROUP",
+          "parentId": "108:547",
+          "bounds": {
+            "x": 727,
+            "y": 1690,
+            "width": 101,
+            "height": 101
+          },
+          "style": 4
+        },
+        {
+          "id": "104:163",
+          "name": "Rectangle 3",
+          "type": "RECTANGLE",
+          "parentId": "104:162",
+          "bounds": {
+            "x": 727,
+            "y": 1690,
+            "width": 101,
+            "height": 101
+          },
+          "style": 5
+        },
+        {
+          "id": "104:166",
+          "name": "owies",
+          "type": "TEXT",
+          "parentId": "104:162",
+          "bounds": {
+            "x": 727,
+            "y": 1756.3431396484375,
+            "width": 101,
+            "height": 18.8137264251709
+          },
+          "style": 6,
+          "characters": "owies",
+          "align": [
+            "CENTER",
+            "TOP"
+          ],
+          "segments": [
+            {
+              "characters": "owies",
+              "start": 0,
+              "end": 5,
+              "style": 7
+            }
+          ]
+        },
+        {
+          "id": "105:207",
+          "name": "owies 1",
+          "type": "FRAME",
+          "parentId": "104:162",
+          "bounds": {
+            "x": 758,
+            "y": 1703,
+            "width": 34,
+            "height": 44
+          },
+          "style": 8
+        },
+        {
+          "id": "105:208",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "105:207",
+          "bounds": {
+            "x": 757.997802734375,
+            "y": 1703.0004272460938,
+            "width": 34.00595474243164,
+            "height": 43.999576568603516
+          },
+          "style": 9
+        },
+        {
+          "id": "105:209",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "105:207",
+          "bounds": {
+            "x": 780.5274658203125,
+            "y": 1732.9532470703125,
+            "width": 6.993253231048584,
+            "height": 13.29545783996582
+          },
+          "style": 9
+        },
+        {
+          "id": "150:16",
+          "name": "pszenica otwarty",
+          "type": "GROUP",
+          "parentId": "108:547",
+          "bounds": {
+            "x": 727,
+            "y": 1690,
+            "width": 140,
+            "height": 247
+          },
+          "style": 10
+        },
+        {
+          "id": "150:17",
+          "name": "Rectangle 3",
+          "type": "RECTANGLE",
+          "parentId": "150:16",
+          "bounds": {
+            "x": 727,
+            "y": 1690,
+            "width": 102,
+            "height": 102
+          },
+          "style": 11
+        }
+      ],
+      "styles": [
+        {
+          "visible": false,
+          "opacity": 1,
+          "fills": [],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.7836538553237915,
+                "g": 0.7836538553237915,
+                "b": 0.7836538553237915
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokeWeight": 1,
+          "strokeAlign": "CENTER",
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0.4000000059604645,
+                "b": 0.20000000298023224
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 15,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "OUTSIDE",
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "fontSize": 24,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 700,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.7836538553237915,
+                "g": 0.7836538553237915,
+                "b": 0.7836538553237915
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 13,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "OUTSIDE",
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "fontSize": 14,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 400,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": false,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH",
+          "layoutMode": "NONE",
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.11372549086809158,
+                "g": 0.11372549086809158,
+                "b": 0.10588235408067703
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": false,
+          "opacity": 1,
+          "effects": [
+            {
+              "type": "DROP_SHADOW",
+              "visible": false,
+              "radius": 4,
+              "boundVariables": {},
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0.25
+              },
+              "offset": {
+                "x": 0,
+                "y": 4
+              },
+              "spread": 0,
+              "blendMode": "NORMAL",
+              "showShadowBehindNode": false
+            }
+          ],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9215686321258545,
+                "g": 0.40784314274787903,
+                "b": 0.20392157137393951
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 13,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        }
+      ]
+    }
+  ]
+}

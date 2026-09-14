@@ -1,0 +1,634 @@
+{
+  "source": {
+    "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+    "figmaUrl": "https://www.figma.com/design/OwiDXrKMVcaHKB9ryYF6mY/Rudnik-Agro?m=dev"
+  },
+  "status": "partial",
+  "routes": [
+    {
+      "id": "checkout",
+      "path": "/zamowienie/",
+      "language": "pl",
+      "frameNodeId": "489:483",
+      "reference": "references/full/frame-489-483.png",
+      "width": 1920,
+      "height": 2942,
+      "sections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "shared-primary-navigation",
+        "checkout-heading",
+        "checkout-steps",
+        "checkout-customer-details",
+        "checkout-payment",
+        "checkout-delivery",
+        "checkout-totals",
+        "shared-footer"
+      ],
+      "buildGroup": "checkout",
+      "responsiveSource": "derived",
+      "notes": "Source frame contains customer fields, payment choices and delivery controls. Planned local route path is an implementation decision inferred from source page identity, not a captured source hyperlink. Uncaptured section IDs remain explicit in this partial execution plan.",
+      "sectionGeometry": {
+        "shared-primary-navigation": {
+          "x": 240,
+          "y": 115,
+          "width": 1440,
+          "height": 78.6761245727539
+        }
+      }
+    },
+    {
+      "id": "order-confirmed",
+      "path": "/zamowienie/order-received/",
+      "language": "pl",
+      "frameNodeId": "493:1094",
+      "reference": "references/full/frame-493-1094.png",
+      "width": 1920,
+      "height": 2199,
+      "sections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "shared-primary-navigation",
+        "confirmation-heading",
+        "checkout-steps",
+        "checkout-order-confirmation",
+        "confirmation-line-items",
+        "checkout-totals",
+        "shared-footer"
+      ],
+      "buildGroup": "checkout",
+      "responsiveSource": "derived",
+      "notes": "Source says the order has already been placed and email sent. A real approved existing native order is required; route lacks its order identity. Planned local route path is an implementation decision inferred from source page identity, not a captured source hyperlink. Uncaptured section IDs remain explicit in this partial execution plan.",
+      "state": "order-confirmed",
+      "sectionGeometry": {
+        "shared-primary-navigation": {
+          "x": 240,
+          "y": 115,
+          "width": 1440,
+          "height": 78.6761245727539
+        }
+      }
+    },
+    {
+      "id": "checkout-login",
+      "path": "/zamowienie/",
+      "language": "pl",
+      "frameNodeId": "492:775",
+      "reference": "references/full/frame-492-775.png",
+      "width": 1920,
+      "height": 1799,
+      "sections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "shared-primary-navigation",
+        "checkout-login-heading",
+        "checkout-steps",
+        "checkout-login-options",
+        "shared-footer"
+      ],
+      "buildGroup": "checkout",
+      "responsiveSource": "derived",
+      "notes": "Source has login, registration and guest choices plus the three-step checkout indicator. Planned local route path is an implementation decision inferred from source page identity, not a captured source hyperlink. Uncaptured section IDs remain explicit in this partial execution plan.",
+      "state": "login-step"
+    },
+    {
+      "id": "checkout-registration",
+      "path": "/zamowienie/",
+      "language": "pl",
+      "frameNodeId": "495:1558",
+      "reference": "references/full/frame-495-1558.png",
+      "width": 1920,
+      "height": 1818,
+      "sections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "shared-primary-navigation",
+        "checkout-login-heading",
+        "checkout-steps",
+        "checkout-login-options",
+        "account-registration-dialog",
+        "shared-footer"
+      ],
+      "buildGroup": "checkout",
+      "responsiveSource": "derived",
+      "notes": "Source explicitly names a registration popup and includes node 496:1722 with required registration fields. Planned local route path is an implementation decision inferred from source page identity, not a captured source hyperlink. Uncaptured section IDs remain explicit in this partial execution plan.",
+      "state": "registration-dialog-open",
+      "sectionGeometry": {
+        "shared-primary-navigation": {
+          "x": 240,
+          "y": 115,
+          "width": 1440,
+          "height": 78.6761245727539
+        }
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "shared-topbar",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/14-shared-topbar.json",
+      "contentRecords": 6,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/019-discovery-detail-checkout/source-context/section-91484042cce6815e.json",
+        "bytes": 2751,
+        "sha256": "d2f9e73eba0b32222284737dc8ee1f1a8f58ab2b85545831f54fdbf1256eaa5f"
+      }
+    },
+    {
+      "id": "shared-secondary-navigation",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/15-shared-secondary-navigation.json",
+      "contentRecords": 13,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/019-discovery-detail-checkout/source-context/section-f64d32808e6ea46d.json",
+        "bytes": 6535,
+        "sha256": "860eb7d970c300c199119e8ae18a3514e8705ab2557992a3d2f573846dc447d7"
+      }
+    },
+    {
+      "id": "shared-primary-navigation",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/01-shared-primary-navigation.json",
+      "contentRecords": 5,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/019-discovery-detail-checkout/source-context/section-8de8ed9bbbe57bf3.json",
+        "bytes": 2587,
+        "sha256": "46046e4e7b17b0533fe94b9f43b28de71033d1948b0984c7c137a33d206cc098"
+      }
+    },
+    {
+      "id": "checkout-heading",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/62-checkout-heading.json",
+      "contentRecords": 1,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/019-discovery-detail-checkout/source-context/section-65971b69b7f1e2a4.json",
+        "bytes": 909,
+        "sha256": "c26dbade4566ebad7bb9f78395ede135d540af7cc13e708c3222e64ae067defe"
+      }
+    },
+    {
+      "id": "checkout-steps",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/63-checkout-steps.json",
+      "contentRecords": 6,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/019-discovery-detail-checkout/source-context/section-9705096daabd0357.json",
+        "bytes": 3560,
+        "sha256": "e1d8f050b2a811247cf2b8eceabdaa21528e73a09d2199359daae53bb362942a"
+      }
+    },
+    {
+      "id": "checkout-customer-details",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/10-checkout-customer-details.json",
+      "contentRecords": 12,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/019-discovery-detail-checkout/source-context/section-b1b497d6cb440659.json",
+        "bytes": 7740,
+        "sha256": "eff301384af03dedd95d4c9cb1ef7bbf5ec3a2f553627921673dd9813cbba157"
+      }
+    },
+    {
+      "id": "checkout-payment",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/59-checkout-payment.json",
+      "contentRecords": 11,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/019-discovery-detail-checkout/source-context/section-c48851aa803130fd.json",
+        "bytes": 6844,
+        "sha256": "1b29d2db303bd8f59de029c43e42ce386c98a03963ad9a562850767eb53c3fde"
+      }
+    },
+    {
+      "id": "checkout-delivery",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/60-checkout-delivery.json",
+      "contentRecords": 3,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/019-discovery-detail-checkout/source-context/section-45d73474fae22ee7.json",
+        "bytes": 2117,
+        "sha256": "2b39e47db39b498854790d6f5c7a6385e60b938b2f63c121d788d3132ebd6ce6"
+      }
+    },
+    {
+      "id": "checkout-totals",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/61-checkout-totals.json",
+      "contentRecords": 9,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/019-discovery-detail-checkout/source-context/section-09dff63cf4cdbe9b.json",
+        "bytes": 5665,
+        "sha256": "a7a03fb20d8b264fd74d692ab332d886a46f6becb4b510ccdf8d27102044641a"
+      }
+    },
+    {
+      "id": "shared-footer",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/26-shared-footer.json",
+      "contentRecords": 16,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/019-discovery-detail-checkout/source-context/section-61ba1faa466eb680.json",
+        "bytes": 7941,
+        "sha256": "17696d0bef8eb6c6512ee31448fe8b70d275e5fe6f11dd775cdc28ca68afc9af"
+      }
+    },
+    {
+      "id": "confirmation-heading",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/64-confirmation-heading.json",
+      "contentRecords": 1,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/019-discovery-detail-checkout/source-context/section-5dd81c5574b30e24.json",
+        "bytes": 907,
+        "sha256": "9231079a90e7c978f57d3e8d45624dc188fc71633370bfb76a43860233ec1fcb"
+      }
+    },
+    {
+      "id": "checkout-order-confirmation",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/03-checkout-order-confirmation.json",
+      "contentRecords": 7,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/019-discovery-detail-checkout/source-context/section-bb080320e2bb06fc.json",
+        "bytes": 4660,
+        "sha256": "278799ea2bfadcd51e6a1db60fccc2e3460c2009d33ede1f5f362c4ae47f850b"
+      }
+    },
+    {
+      "id": "confirmation-line-items",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/65-confirmation-line-items.json",
+      "contentRecords": 2,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/019-discovery-detail-checkout/source-context/section-477387eb318cab7b.json",
+        "bytes": 1508,
+        "sha256": "39ecee19a705c250f969c8892fafc1f81092fadc35b1ac1148894763e1a20b35"
+      }
+    },
+    {
+      "id": "checkout-login-heading",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/66-checkout-login-heading.json",
+      "contentRecords": 1,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/019-discovery-detail-checkout/source-context/section-da9c553a8de31235.json",
+        "bytes": 910,
+        "sha256": "10bbfb596c5265f7597d00f30cea9ecc94bbf214386bbe0c2c9cbba0e962c2ba"
+      }
+    },
+    {
+      "id": "checkout-login-options",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/67-checkout-login-options.json",
+      "contentRecords": 12,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/019-discovery-detail-checkout/source-context/section-df5f40df52bca83d.json",
+        "bytes": 7914,
+        "sha256": "6e27e46df18eb03bf56495452ed634fa40c8e78fa9c9e56e338c7d0d4ad627e3"
+      }
+    },
+    {
+      "id": "account-registration-dialog",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/12-account-registration-dialog.json",
+      "contentRecords": 11,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/019-discovery-detail-checkout/source-context/section-8ef56b24464b1698.json",
+        "bytes": 7531,
+        "sha256": "13d50adad58d6696787e77049ce23d738ee21f18b338fe50be9617a6b962a381"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "id": "6852f77540fbfef41422",
+      "nodeIds": [
+        "489:483"
+      ],
+      "description": "Read compact page composition Dostawa i płatność 489:483",
+      "path": "observations/6852f77540fbfef41422.json"
+    },
+    {
+      "id": "01860cf851e0b9ddfbed",
+      "nodeIds": [
+        "493:1094"
+      ],
+      "description": "Read compact page composition Podsumowanie 493:1094",
+      "path": "observations/01860cf851e0b9ddfbed.json"
+    },
+    {
+      "id": "03e5ed0235fa273456fa",
+      "nodeIds": [
+        "495:1558"
+      ],
+      "description": "Read compact page composition Koszyk - logowanie/rejestracja popup 495:1558",
+      "path": "observations/03e5ed0235fa273456fa.json"
+    },
+    {
+      "id": "b6616a7b94262ffbb86f",
+      "nodeIds": [
+        "496:1722"
+      ],
+      "description": "Read source content to identify native product or account state 496:1722",
+      "path": "observations/b6616a7b94262ffbb86f.json"
+    },
+    {
+      "id": "30cb5cab0c0c32d05330",
+      "nodeIds": [
+        "492:716"
+      ],
+      "description": "Read source content to identify native product or account state 492:716",
+      "path": "observations/30cb5cab0c0c32d05330.json"
+    },
+    {
+      "id": "703fe9efa24ddd754f72",
+      "nodeIds": [
+        "493:1251"
+      ],
+      "description": "Read source content to identify native product or account state 493:1251",
+      "path": "observations/703fe9efa24ddd754f72.json"
+    },
+    {
+      "id": "ba86239566720ac727d2",
+      "nodeIds": [
+        "140:262",
+        "12:2"
+      ],
+      "description": "Capture shared primary navigation geometry and text styles",
+      "path": "observations/ba86239566720ac727d2.json"
+    },
+    {
+      "id": "ae34d27f3f3e4e83ffc7",
+      "nodeIds": [
+        "492:716",
+        "489:483"
+      ],
+      "description": "Capture logical section checkout-customer-details for immediate snapshot persistence",
+      "path": "observations/ae34d27f3f3e4e83ffc7.json"
+    },
+    {
+      "id": "42223d06b343dd2f8741",
+      "nodeIds": [
+        "496:1722",
+        "495:1558"
+      ],
+      "description": "Capture logical section account-registration-dialog for immediate snapshot persistence",
+      "path": "observations/42223d06b343dd2f8741.json"
+    },
+    {
+      "id": "93994dfaa5c6b60a4b37",
+      "nodeIds": [
+        "112:7",
+        "12:2"
+      ],
+      "description": "Read exact topbar bounds, styled text and icon geometry without changing source",
+      "path": "observations/93994dfaa5c6b60a4b37.json"
+    },
+    {
+      "id": "76dbf979f194f7f139e5",
+      "nodeIds": [
+        "112:7",
+        "12:2"
+      ],
+      "description": "Capture topbar source data for immediate persistence",
+      "path": "observations/76dbf979f194f7f139e5.json"
+    },
+    {
+      "id": "detail-shared-topbar",
+      "nodeIds": [
+        "112:7"
+      ],
+      "description": "Exact source section capture",
+      "path": "observations/detail-shared-topbar.json"
+    },
+    {
+      "id": "e85f04bc857cc3e8c516",
+      "nodeIds": [
+        "140:260",
+        "12:2"
+      ],
+      "description": "Capture exact secondary navigation section",
+      "path": "observations/e85f04bc857cc3e8c516.json"
+    },
+    {
+      "id": "detail-shared-secondary-navigation",
+      "nodeIds": [
+        "140:260"
+      ],
+      "description": "Exact source section capture",
+      "path": "observations/detail-shared-secondary-navigation.json"
+    },
+    {
+      "id": "1f35a8b8aca7f971542c",
+      "nodeIds": [
+        "140:262",
+        "12:2"
+      ],
+      "description": "Capture default primary navigation with deduplicated styles to avoid truncation",
+      "path": "observations/1f35a8b8aca7f971542c.json"
+    },
+    {
+      "id": "detail-shared-primary-navigation",
+      "nodeIds": [
+        "140:262"
+      ],
+      "description": "Exact source section capture",
+      "path": "observations/detail-shared-primary-navigation.json"
+    },
+    {
+      "id": "053b78308ad646a28ad7",
+      "nodeIds": [
+        "222:62",
+        "12:2"
+      ],
+      "description": "Capture exact shared-footer section source",
+      "path": "observations/053b78308ad646a28ad7.json"
+    },
+    {
+      "id": "7891ec52f6816ff9beb4",
+      "nodeIds": [
+        "222:62",
+        "12:2"
+      ],
+      "description": "Capture exact shared-footer section source nodes 25",
+      "path": "observations/7891ec52f6816ff9beb4.json"
+    },
+    {
+      "id": "detail-shared-footer",
+      "nodeIds": [
+        "222:62"
+      ],
+      "description": "Exact source section capture",
+      "path": "observations/detail-shared-footer.json"
+    }
+  ],
+  "frames": [
+    {
+      "nodeId": "489:483",
+      "name": "Dostawa i pÅ‚atnoÅ›Ä‡",
+      "pageId": "0:1",
+      "type": "FRAME",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "493:1094",
+      "name": "Podsumowanie",
+      "pageId": "0:1",
+      "type": "FRAME",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "492:775",
+      "name": "Koszyk - logowanie/rejestracja",
+      "pageId": "0:1",
+      "type": "FRAME",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "495:1558",
+      "name": "Koszyk - logowanie/rejestracja popup",
+      "pageId": "0:1",
+      "type": "FRAME",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "140:262",
+      "name": "mega menu",
+      "pageId": "0:1",
+      "type": "GROUP"
+    },
+    {
+      "nodeId": "493:1251",
+      "name": "dane",
+      "pageId": "0:1",
+      "type": "GROUP"
+    },
+    {
+      "nodeId": "492:716",
+      "name": "dane",
+      "pageId": "0:1",
+      "type": "GROUP"
+    },
+    {
+      "nodeId": "496:1722",
+      "name": "popup",
+      "pageId": "0:1",
+      "type": "GROUP"
+    },
+    {
+      "nodeId": "112:7",
+      "name": "topbar",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "140:260",
+      "name": "secondary menu",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "222:62",
+      "name": "stopka",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "492:994",
+      "name": "płatność",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "492:995",
+      "name": "dostawa",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "509:203",
+      "name": "koszyk",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "489:612",
+      "name": "Dostawa i płatność",
+      "pageId": "0:1",
+      "type": "TEXT",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "611:196",
+      "name": "checkout steps",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "493:1223",
+      "name": "Podsumowanie",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "495:1687",
+      "name": "Logowanie",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "493:1320",
+      "name": "confirmed order line item",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "509:171",
+      "name": "checkout login options",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    }
+  ],
+  "globalFiles": [
+    {
+      "path": ".factory-cache/figma/latest/design-system.json",
+      "bytes": 8294,
+      "sha256": "5086e8f74a4d3aee56055467846c3f49e9f2791c2a30a873ea30c5a5a87b3863"
+    },
+    {
+      "path": ".factory-cache/figma/latest/components.json",
+      "bytes": 261,
+      "sha256": "fb651cb0bc38b89b71ffa0e6a8b92ec6acbe3bdff6ab7d30ea9c2e39ed12fec5"
+    }
+  ],
+  "lookup": "Observation matches are an index, not a completeness claim. Use targeted rg or inspect JSON pointers for missing node IDs. Never dump the full source files."
+}

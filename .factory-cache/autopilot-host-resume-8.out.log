@@ -1,0 +1,7 @@
+2026-09-11T01:30:44.769Z START discovery:detail-home [gpt-5.6-terra high] (.factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/008-discovery-detail-home)
+2026-09-11T01:31:25.620Z DONE discovery:detail-home
+2026-09-11T01:31:25.691Z START discovery:detail-careers [gpt-5.6-terra high] (.factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/009-discovery-detail-careers)
+2026-09-11T01:41:28.383Z DONE discovery:detail-careers
+2026-09-11T01:41:28.440Z START discovery:detail-catalogues [gpt-5.6-terra high] (.factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/010-discovery-detail-catalogues)
+2026-09-11T01:49:33.890Z DONE discovery:detail-catalogues
+2026-09-11T01:49:33.949Z START discovery:detail-blog [gpt-5.6-terra high] (.factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/011-discovery-detail-blog)

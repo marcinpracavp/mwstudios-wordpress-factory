@@ -1,0 +1,220 @@
+{
+  "id": "cc724d58da52ad207fcb",
+  "tool": "figma.use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "250:115"
+  ],
+  "description": "Read compact page composition strona główna - aktywne elementy 250:115",
+  "recordedAt": "2026-09-10T19:30:16.863Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "id": "250:115",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "grids": [
+        {
+          "pattern": "COLUMNS",
+          "visible": true,
+          "color": {
+            "r": 1,
+            "g": 0,
+            "b": 0,
+            "a": 0.10000000149011612
+          },
+          "gutterSize": 20,
+          "alignment": "STRETCH",
+          "count": 12,
+          "offset": 240,
+          "boundVariables": {}
+        }
+      ],
+      "children": [
+        {
+          "id": "250:301",
+          "name": "promocje",
+          "type": "GROUP",
+          "x": 174,
+          "y": 2504,
+          "width": 1574,
+          "height": 724
+        },
+        {
+          "id": "250:412",
+          "name": "wybór wg uprawy",
+          "type": "GROUP",
+          "x": 0,
+          "y": 1383,
+          "width": 1920,
+          "height": 1033
+        },
+        {
+          "id": "250:681",
+          "name": "pasek korzyści",
+          "type": "GROUP",
+          "x": 240,
+          "y": 1106,
+          "width": 1440,
+          "height": 175
+        },
+        {
+          "id": "250:712",
+          "name": "slider",
+          "type": "GROUP",
+          "x": 40,
+          "y": 195,
+          "width": 1840,
+          "height": 800
+        },
+        {
+          "id": "250:728",
+          "name": "mega menu",
+          "type": "GROUP",
+          "x": 240,
+          "y": 115,
+          "width": 1440,
+          "height": 417
+        },
+        {
+          "id": "250:767",
+          "name": "secondary menu",
+          "type": "GROUP",
+          "x": 238.99981689453125,
+          "y": 56,
+          "width": 1441,
+          "height": 42
+        },
+        {
+          "id": "250:789",
+          "name": "topbar",
+          "type": "GROUP",
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 40
+        },
+        {
+          "id": "250:797",
+          "name": "Line 1",
+          "type": "LINE",
+          "x": 240,
+          "y": 115,
+          "width": 1440,
+          "height": 0
+        },
+        {
+          "id": "574:239",
+          "name": "tlo",
+          "type": "GROUP",
+          "x": 0,
+          "y": 7023,
+          "width": 1920,
+          "height": 1976
+        },
+        {
+          "id": "574:244",
+          "name": "stopka",
+          "type": "GROUP",
+          "x": 40,
+          "y": 8363,
+          "width": 1840,
+          "height": 554
+        },
+        {
+          "id": "574:281",
+          "name": "accordeon rozwinięty",
+          "type": "GROUP",
+          "x": 240,
+          "y": 7850,
+          "width": 1440,
+          "height": 323
+        },
+        {
+          "id": "574:286",
+          "name": "accordeon zwinięty",
+          "type": "GROUP",
+          "x": 240,
+          "y": 8197,
+          "width": 1440,
+          "height": 99
+        },
+        {
+          "id": "574:290",
+          "name": "blog",
+          "type": "GROUP",
+          "x": 236,
+          "y": 6401,
+          "width": 1457,
+          "height": 668
+        },
+        {
+          "id": "574:310",
+          "name": "o nas",
+          "type": "GROUP",
+          "x": 0,
+          "y": 5434,
+          "width": 1920,
+          "height": 850
+        },
+        {
+          "id": "574:319",
+          "name": "polecane produkty",
+          "type": "GROUP",
+          "x": 173,
+          "y": 4578,
+          "width": 1574,
+          "height": 724
+        },
+        {
+          "id": "574:414",
+          "name": "katalogi",
+          "type": "GROUP",
+          "x": 240,
+          "y": 4127,
+          "width": 1440,
+          "height": 384
+        },
+        {
+          "id": "574:426",
+          "name": "pakiety",
+          "type": "GROUP",
+          "x": 174,
+          "y": 3316,
+          "width": 1574,
+          "height": 724
+        },
+        {
+          "id": "574:517",
+          "name": "Kupujący musi być pełnoletni oraz posiadać ważne kwalif",
+          "type": "TEXT",
+          "x": 240,
+          "y": 8829,
+          "width": 1440,
+          "height": 88
+        },
+        {
+          "id": "574:518",
+          "name": "Line 10",
+          "type": "LINE",
+          "x": 240,
+          "y": 8829,
+          "width": 1440,
+          "height": 0
+        }
+      ]
+    }
+  ]
+}

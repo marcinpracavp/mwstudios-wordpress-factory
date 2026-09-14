@@ -1,0 +1,363 @@
+{
+  "status": "partial",
+  "sourceFileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "capturedSections": 13,
+  "remainingSectionCount": 65,
+  "remainingSectionIds": [
+    "shared-topbar",
+    "shared-secondary-navigation",
+    "careers-heading",
+    "careers-vacancies",
+    "careers-application",
+    "shared-shop-cta",
+    "shared-footer",
+    "catalogues-heading",
+    "blog-article-heading",
+    "blog-article-content",
+    "blog-related-posts",
+    "blog-archive-heading",
+    "blog-post-list",
+    "blog-pagination",
+    "contact-heading",
+    "contact-details",
+    "contact-form",
+    "contact-map",
+    "about-heading",
+    "about-introduction",
+    "about-agricultural-supply",
+    "about-grain-trade",
+    "about-insurance",
+    "product-breadcrumbs",
+    "product-gallery",
+    "product-tabs",
+    "product-related",
+    "product-legal-notices",
+    "product-benefits",
+    "product-inquiry-dialog",
+    "cart-heading",
+    "cart-lines",
+    "cart-totals",
+    "checkout-heading",
+    "checkout-steps",
+    "checkout-payment",
+    "checkout-delivery",
+    "checkout-totals",
+    "confirmation-heading",
+    "confirmation-line-items",
+    "checkout-login-heading",
+    "checkout-login-options",
+    "archive-breadcrumbs",
+    "archive-category-introduction",
+    "archive-filters",
+    "archive-sort",
+    "archive-product-grid",
+    "archive-pagination",
+    "archive-category-description",
+    "shared-primary-navigation-active",
+    "home-benefits",
+    "home-crop-selection",
+    "home-promotions",
+    "home-bundles",
+    "home-catalogues",
+    "home-recommended",
+    "home-about",
+    "home-blog",
+    "home-knowledge",
+    "bundle-breadcrumbs",
+    "bundle-gallery",
+    "bundle-benefits",
+    "bundle-tabs",
+    "account-breadcrumbs",
+    "account-registration"
+  ],
+  "routes": [
+    {
+      "route": "careers",
+      "frameNodeId": "349:1267",
+      "missingSections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "careers-heading",
+        "careers-vacancies",
+        "careers-application",
+        "shared-shop-cta",
+        "shared-footer"
+      ]
+    },
+    {
+      "route": "catalogues",
+      "frameNodeId": "347:1120",
+      "missingSections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "catalogues-heading",
+        "shared-shop-cta",
+        "shared-footer"
+      ]
+    },
+    {
+      "route": "blog-article",
+      "frameNodeId": "327:3176",
+      "missingSections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "blog-article-heading",
+        "blog-article-content",
+        "blog-related-posts",
+        "shared-footer"
+      ]
+    },
+    {
+      "route": "blog-archive",
+      "frameNodeId": "327:2986",
+      "missingSections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "blog-archive-heading",
+        "blog-post-list",
+        "blog-pagination",
+        "shared-footer"
+      ]
+    },
+    {
+      "route": "contact",
+      "frameNodeId": "335:591",
+      "missingSections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "contact-heading",
+        "contact-details",
+        "contact-form",
+        "contact-map",
+        "shared-footer"
+      ]
+    },
+    {
+      "route": "about",
+      "frameNodeId": "326:2764",
+      "missingSections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "about-heading",
+        "about-introduction",
+        "about-agricultural-supply",
+        "about-grain-trade",
+        "about-insurance",
+        "shared-shop-cta",
+        "shared-footer"
+      ]
+    },
+    {
+      "route": "product-expanded",
+      "frameNodeId": "326:2526",
+      "missingSections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "product-breadcrumbs",
+        "product-gallery",
+        "product-tabs",
+        "product-related",
+        "product-legal-notices",
+        "shared-footer"
+      ]
+    },
+    {
+      "route": "product",
+      "frameNodeId": "318:1556",
+      "missingSections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "product-breadcrumbs",
+        "product-gallery",
+        "product-benefits",
+        "product-tabs",
+        "product-related",
+        "product-legal-notices",
+        "shared-footer"
+      ]
+    },
+    {
+      "route": "product-inquiry",
+      "frameNodeId": "423:263",
+      "missingSections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "product-breadcrumbs",
+        "product-gallery",
+        "product-tabs",
+        "product-inquiry-dialog",
+        "product-related",
+        "product-legal-notices",
+        "shared-footer"
+      ]
+    },
+    {
+      "route": "cart",
+      "frameNodeId": "438:151",
+      "missingSections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "cart-heading",
+        "cart-lines",
+        "cart-totals",
+        "shared-footer"
+      ]
+    },
+    {
+      "route": "checkout",
+      "frameNodeId": "489:483",
+      "missingSections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "checkout-heading",
+        "checkout-steps",
+        "checkout-payment",
+        "checkout-delivery",
+        "checkout-totals",
+        "shared-footer"
+      ]
+    },
+    {
+      "route": "order-confirmed",
+      "frameNodeId": "493:1094",
+      "missingSections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "confirmation-heading",
+        "checkout-steps",
+        "confirmation-line-items",
+        "checkout-totals",
+        "shared-footer"
+      ]
+    },
+    {
+      "route": "checkout-login",
+      "frameNodeId": "492:775",
+      "missingSections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "checkout-login-heading",
+        "checkout-steps",
+        "checkout-login-options",
+        "shared-footer"
+      ]
+    },
+    {
+      "route": "checkout-registration",
+      "frameNodeId": "495:1558",
+      "missingSections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "checkout-login-heading",
+        "checkout-steps",
+        "checkout-login-options",
+        "shared-footer"
+      ]
+    },
+    {
+      "route": "product-reviews-state",
+      "frameNodeId": "425:542",
+      "missingSections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "product-breadcrumbs",
+        "product-gallery",
+        "product-related",
+        "product-legal-notices",
+        "shared-footer"
+      ]
+    },
+    {
+      "route": "product-files-state",
+      "frameNodeId": "586:711",
+      "missingSections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "product-breadcrumbs",
+        "product-gallery",
+        "product-related",
+        "product-legal-notices",
+        "shared-footer"
+      ]
+    },
+    {
+      "route": "product-archive",
+      "frameNodeId": "294:3",
+      "missingSections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "archive-breadcrumbs",
+        "archive-category-introduction",
+        "archive-filters",
+        "archive-sort",
+        "archive-product-grid",
+        "archive-pagination",
+        "archive-category-description",
+        "shared-footer"
+      ]
+    },
+    {
+      "route": "home-active",
+      "frameNodeId": "250:115",
+      "missingSections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "shared-primary-navigation-active",
+        "home-benefits",
+        "home-crop-selection",
+        "home-promotions",
+        "home-bundles",
+        "home-catalogues",
+        "home-recommended",
+        "home-about",
+        "home-blog",
+        "home-knowledge",
+        "shared-footer"
+      ]
+    },
+    {
+      "route": "home",
+      "frameNodeId": "12:2",
+      "missingSections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "home-benefits",
+        "home-crop-selection",
+        "home-promotions",
+        "home-bundles",
+        "home-catalogues",
+        "home-recommended",
+        "home-about",
+        "home-blog",
+        "home-knowledge",
+        "shared-footer"
+      ]
+    },
+    {
+      "route": "product-bundle",
+      "frameNodeId": "586:1028",
+      "missingSections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "bundle-breadcrumbs",
+        "bundle-gallery",
+        "bundle-benefits",
+        "bundle-tabs",
+        "product-related",
+        "product-legal-notices",
+        "shared-footer"
+      ]
+    },
+    {
+      "route": "account",
+      "frameNodeId": "524:2",
+      "missingSections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "account-breadcrumbs",
+        "account-registration",
+        "shared-footer"
+      ]
+    }
+  ]
+}

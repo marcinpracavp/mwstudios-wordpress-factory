@@ -1,0 +1,12 @@
+{
+  "startedModel": "gpt-6-astra",
+  "threadId": null,
+  "usage": null,
+  "exit": {
+    "code": 2,
+    "signal": null
+  },
+  "failure": null,
+  "completed": false,
+  "finishedAt": "2026-09-10T19:06:24.207Z"
+}

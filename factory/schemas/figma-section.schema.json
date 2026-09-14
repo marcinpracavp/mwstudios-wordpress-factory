@@ -4,7 +4,7 @@
   "title": "MWStudios Website Factory Figma section snapshot",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "name", "order", "source", "desktop", "mobile", "layout", "liveFigmaRequired"],
+  "required": ["id", "name", "order", "source", "desktop", "layout", "liveFigmaRequired"],
   "properties": {
     "id": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" },
     "name": { "type": "string", "minLength": 1 },
@@ -12,7 +12,7 @@
     "source": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["pageId", "desktopNodeId", "mobileNodeId"],
+      "required": ["pageId", "desktopNodeId"],
       "properties": {
         "pageId": { "type": "string", "minLength": 1 },
         "desktopNodeId": { "type": "string", "minLength": 1 },
@@ -50,9 +50,9 @@
         "frameWidth": { "type": "integer", "minimum": 1 },
         "x": { "type": "number" },
         "y": { "type": "number" },
-        "width": { "type": "integer", "minimum": 1 },
-        "height": { "type": "integer", "minimum": 1 },
-        "containerWidth": { "type": ["integer", "null"], "minimum": 1 },
+        "width": { "type": "number", "minimum": 1 },
+        "height": { "type": "number", "minimum": 1 },
+        "containerWidth": { "type": ["number", "null"], "minimum": 1 },
         "padding": { "type": "object" },
         "gap": { "type": ["number", "null"] }
       }

@@ -1,0 +1,91 @@
+{
+  "capturedAt": "2026-09-12T14:18:50.141Z",
+  "implementationHash": "275d6fbe73b842de82dd8761d86017a656c9c8134b22470e771e69659e445d42",
+  "sourceHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+  "thresholds": {
+    "channelTolerance": 24,
+    "maxDifferentPixelRatio": 0.085,
+    "geometryTolerancePx": 2
+  },
+  "acceptanceScope": "page",
+  "buildReady": true,
+  "deferred": [
+    {
+      "id": "product",
+      "progress": {
+        "deferred": true,
+        "samples": [
+          {
+            "file": "current capture",
+            "implementationHash": "275d6fbe73b842de82dd8761d86017a656c9c8134b22470e771e69659e445d42",
+            "capturedAt": "2026-09-12T14:18:21.354Z",
+            "ratio": 0.057533116086165306
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789222611972\\summary.json",
+            "implementationHash": "8de9b91869c44ca1b8cae22b7502a8b4c495008f7c57c0bb29f505e6fd9d7679",
+            "capturedAt": "2026-09-12T14:16:54.279Z",
+            "ratio": 0.058765560479555994
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789222516628\\summary.json",
+            "implementationHash": "7e009b1ddad4a5c8a5772ecec3c1d476d791d5765340f7dae130efcb257726be",
+            "capturedAt": "2026-09-12T14:15:18.963Z",
+            "ratio": 0.05626258290357491
+          }
+        ],
+        "improvement": 0.0025029775759810857,
+        "policy": {
+          "samples": 3,
+          "maxPageMismatch": 0.13,
+          "minImprovement": 0.03
+        },
+        "nonPixelErrors": [],
+        "reason": "Insufficient measured progress across distinct implementations; unresolved visual work belongs to final audit, not PASS."
+      },
+      "comparison": ".factory-cache/autopilot/visual-1789222699090/product/comparison.json"
+    }
+  ],
+  "passed": false,
+  "pagePassed": true,
+  "routes": [
+    {
+      "id": "product",
+      "passed": false,
+      "pagePassed": true,
+      "ownership": {
+        "header": {
+          "pixels": 372480,
+          "differentPixels": 21869,
+          "ratio": 0.05871187714776632
+        },
+        "footer": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "shared": {
+          "pixels": 1215460,
+          "differentPixels": 179350,
+          "ratio": 0.14755730340776332
+        },
+        "page": {
+          "pixels": 3308060,
+          "differentPixels": 190323,
+          "ratio": 0.057533116086165306
+        },
+        "outside": {
+          "pixels": 1493760,
+          "differentPixels": 110781,
+          "ratio": 0.07416251606683805
+        }
+      },
+      "errors": [
+        "shared pixel mismatch 14.756%",
+        "Shared component pixel mismatch product-gallery: 17.311%",
+        "Shared component pixel mismatch product-tabs: 12.945%"
+      ],
+      "comparison": ".factory-cache/autopilot/visual-1789222699090/product/comparison.json"
+    }
+  ]
+}

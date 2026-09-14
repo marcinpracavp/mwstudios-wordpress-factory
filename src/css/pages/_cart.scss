@@ -1,0 +1,59 @@
+@use 'abstracts' as *;
+
+.c-cart {
+  padding-bottom: 150px;
+
+  &__heading-section { width: 467px; height: 68px; transform: translate(-3px, -4px); }
+  &__heading { margin: 0; font-size: 4.8rem; font-weight: 700; line-height: 68px; }
+  &__layout { display: grid; grid-template-columns: minmax(0, 1fr) 467px; gap: 20px; align-items: start; }
+  &__lines, &__totals { border: 1px solid #d6d6d6; border-radius: 28px; }
+  &__line { min-height: 240px; display: grid; grid-template-columns: 221px minmax(0, 1fr) 102px 102px 42px; gap: 20px; align-items: center; padding: 6px 39px 6px 21px; }
+  &__image { align-self: stretch; display: flex; align-items: center; justify-content: center;
+    img { width: 171px; height: 223px; object-fit: contain; }
+  }
+  &__name, &__price { font-size: 2.4rem; font-weight: 700; line-height: 1.2;
+    a { color: inherit; text-decoration: none; }
+  }
+  &__price { color: #006633; white-space: nowrap; }
+  &__quantity { display: flex; align-items: center; width: 102px; height: 44px; border: 1px solid #070707; border-radius: 24px; overflow: hidden;
+    input.qty { width: 34px; min-width: 0; border: 0; padding: 0; text-align: center; font: inherit; font-weight: 700; appearance: textfield; }
+    input::-webkit-inner-spin-button, input::-webkit-outer-spin-button { appearance: none; margin: 0; }
+  }
+  &__quantity-button { width: 34px; height: 42px; border: 0; background: transparent; font: inherit; cursor: pointer; }
+  &__remove { text-align: right;
+    a { display: inline-flex; width: 21px; height: 26px; align-items: center; }
+    img { width: 21px; height: 26px; object-fit: contain; }
+  }
+  &__form > input[name='update_cart'] { position: absolute; opacity: 0; pointer-events: none; }
+  &__totals { min-height: 473px; padding: 31px 41px 21px;
+    h2 { margin: 0 0 18px; font-size: 2.4rem; line-height: 1.2; }
+  }
+  &__coupon { margin-bottom: 24px;
+    h2 { margin-bottom: 4px; }
+    input { width: 174px; height: 43px; border: 1px solid #cfcfcf; border-radius: 15px; padding: 0 13px; font: inherit; font-size: 1.2rem; }
+    button { border: 0; border-radius: 22px; background: #00753e; color: #fff; font: inherit; font-weight: 700; cursor: pointer; }
+    button { width: 110px; height: 43px; margin-left: 5px; }
+  }
+  &__summary { margin: 0;
+    > div { display: flex; justify-content: space-between; gap: 20px; margin: 0 0 7px; font-size: 1.8rem; font-weight: 700; line-height: 1; }
+    dt, dd { margin: 0; }
+    dd { white-space: nowrap; }
+    small { display: block; margin-top: 3px; font-size: 1.2rem; font-weight: 400; white-space: nowrap; }
+  }
+  &__order-total { margin-top: 18px !important; padding-top: 15px; border-top: 1px solid #d6d6d6; align-items: center;
+    dd { font-size: 3.2rem; }
+  }
+  &__checkout { display: flex; width: 164px; height: 44px; margin: 25px 0 0 auto; align-items: center; justify-content: center; border-radius: 22px; background: #00753e; color: #fff; font-weight: 700; text-decoration: none; }
+  &__continue { display: flex; width: 223px; height: 44px; margin-top: 157px; align-items: center; justify-content: center; border: 1px solid #070707; border-radius: 24px; color: #070707; font-weight: 700; text-decoration: none; }
+
+  @include media($breakpoint-md) { &__layout { grid-template-columns: 1fr; } &__totals { width: min(100%, 467px); } }
+  @include media($breakpoint-sm) {
+    padding-bottom: 70px;
+    &__heading-section { width: auto; height: auto; }
+    &__heading { font-size: 3.4rem; line-height: 1.2; }
+    &__line { min-height: 0; grid-template-columns: 100px 1fr; gap: 14px; padding: 16px; }
+    &__image { grid-row: span 2; img { width: 90px; height: 130px; } }
+    &__name, &__price { font-size: 1.8rem; } &__quantity { width: 96px; } &__remove { grid-column: 2; }
+    &__coupon input { width: calc(100% - 116px); } &__continue { margin-top: 35px; }
+  }
+}

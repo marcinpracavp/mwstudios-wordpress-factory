@@ -1,0 +1,60 @@
+{
+  "capturedAt": "2026-09-12T14:09:31.572Z",
+  "implementationHash": "933e18c1aba40789f5dfb00d287bfbe9a6fc50f8f3c9825bacf96aa4ad1e883f",
+  "sourceHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+  "thresholds": {
+    "channelTolerance": 24,
+    "maxDifferentPixelRatio": 0.085,
+    "geometryTolerancePx": 2
+  },
+  "acceptanceScope": "page",
+  "buildReady": false,
+  "deferred": [],
+  "passed": false,
+  "pagePassed": false,
+  "routes": [
+    {
+      "id": "product",
+      "passed": false,
+      "pagePassed": false,
+      "ownership": {
+        "header": {
+          "pixels": 372480,
+          "differentPixels": 21869,
+          "ratio": 0.05871187714776632
+        },
+        "footer": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "shared": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "page": {
+          "pixels": 4523520,
+          "differentPixels": 3770126,
+          "ratio": 0.8334496144595359
+        },
+        "outside": {
+          "pixels": 1470720,
+          "differentPixels": 1470720,
+          "ratio": 1
+        }
+      },
+      "errors": [
+        "page pixel mismatch 83.345%",
+        "Section geometry differs: product-breadcrumbs",
+        "Section geometry differs: product-gallery",
+        "Section geometry differs: product-overview",
+        "Section geometry differs: product-benefits",
+        "Section geometry differs: product-tabs",
+        "Section geometry differs: product-related",
+        "Section geometry differs: product-legal-notices"
+      ],
+      "comparison": ".factory-cache/autopilot/visual-1789222150951/product/comparison.json"
+    }
+  ]
+}

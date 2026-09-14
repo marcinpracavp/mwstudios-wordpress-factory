@@ -1,0 +1,60 @@
+{
+  "capturedAt": "2026-09-12T14:54:49.747Z",
+  "implementationHash": "06745c71fb9b6ffbfbc507a40cb5bc2202fd8e2fe35d4a103ede47506f495763",
+  "sourceHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+  "thresholds": {
+    "channelTolerance": 24,
+    "maxDifferentPixelRatio": 0.085,
+    "geometryTolerancePx": 2
+  },
+  "acceptanceScope": "page",
+  "buildReady": false,
+  "deferred": [],
+  "passed": false,
+  "pagePassed": false,
+  "routes": [
+    {
+      "id": "product-bundle",
+      "passed": false,
+      "pagePassed": false,
+      "ownership": {
+        "header": {
+          "pixels": 372480,
+          "differentPixels": 21869,
+          "ratio": 0.05871187714776632
+        },
+        "footer": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "shared": {
+          "pixels": 1007160,
+          "differentPixels": 248487,
+          "ratio": 0.24672048135350888
+        },
+        "page": {
+          "pixels": 3516360,
+          "differentPixels": 213664,
+          "ratio": 0.0607628342945546
+        },
+        "outside": {
+          "pixels": 2062080,
+          "differentPixels": 1321277,
+          "ratio": 0.6407496314400993
+        }
+      },
+      "errors": [
+        "Section geometry differs: product-bundle-overview",
+        "Section geometry differs: bundle-benefits",
+        "Section geometry differs: product-related",
+        "Section geometry differs: product-legal-notices",
+        "shared pixel mismatch 24.672%",
+        "Shared component pixel mismatch product-gallery: 53.377%",
+        "Shared component pixel mismatch product-tabs: 12.736%",
+        "Section geometry differs: bundle-tabs"
+      ],
+      "comparison": ".factory-cache/autopilot/visual-1789224876928/product-bundle/comparison.json"
+    }
+  ]
+}

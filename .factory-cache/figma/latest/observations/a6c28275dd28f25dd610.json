@@ -1,0 +1,770 @@
+{
+  "id": "a6c28275dd28f25dd610",
+  "tool": "use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [],
+  "description": "Read only the source nodes that compose the contact-details cards, their styles, and their exact editable text.",
+  "recordedAt": "2026-09-11T08:46:09.835Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    [
+      {
+        "id": "335:710",
+        "name": "Rectangle 115",
+        "type": "VECTOR",
+        "bounds": {
+          "x": 11476,
+          "y": 3893,
+          "width": 467,
+          "height": 467
+        },
+        "visible": true,
+        "opacity": 1,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.9647058844566345,
+              "g": 0.9647058844566345,
+              "b": 0.9647058844566345
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 1,
+        "effects": [],
+        "cornerRadius": 31,
+        "characters": null,
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "lineHeight": null,
+        "letterSpacing": null,
+        "textAlignHorizontal": null
+      },
+      {
+        "id": "335:714",
+        "name": "Siedziba firmy",
+        "type": "TEXT",
+        "bounds": {
+          "x": 11526.865234375,
+          "y": 3927,
+          "width": 286,
+          "height": 64
+        },
+        "visible": true,
+        "opacity": 1,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 1,
+        "effects": [],
+        "cornerRadius": null,
+        "characters": "Siedziba firmy",
+        "fontName": {
+          "family": "DM Sans",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700,
+            "opsz": 14
+          }
+        },
+        "fontSize": 36,
+        "fontWeight": 700,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 24
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "textAlignHorizontal": "LEFT"
+      },
+      {
+        "id": "335:719",
+        "name": "Rudnikagro Sp. z o.o.",
+        "type": "TEXT",
+        "bounds": {
+          "x": 11526.865234375,
+          "y": 4019,
+          "width": 345,
+          "height": 64
+        },
+        "visible": true,
+        "opacity": 1,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 1,
+        "effects": [],
+        "cornerRadius": null,
+        "characters": "Rudnikagro Sp. z o.o.",
+        "fontName": {
+          "family": "DM Sans",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700,
+            "opsz": 14
+          }
+        },
+        "fontSize": 18,
+        "fontWeight": 700,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 24
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "textAlignHorizontal": "LEFT"
+      },
+      {
+        "id": "335:716",
+        "name": "ul. Stargardzka 8, 74-200 Pyrzyce NIP: 499 03 49 671 +48 535 500 612 od poniedziałku do piątku, w godzinach 8:00-16:00 sklep@rudnikagro.pl",
+        "type": "TEXT",
+        "bounds": {
+          "x": 11552.990234375,
+          "y": 4074,
+          "width": 344,
+          "height": 255
+        },
+        "visible": true,
+        "opacity": 1,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 1,
+        "effects": [],
+        "cornerRadius": null,
+        "characters": "ul. Stargardzka 8,\n74-200 Pyrzyce\n\nNIP: 499 03 49 671\n\n+48 535 500 612\nod poniedziałku do piątku, w godzinach 8:00-16:00\n\nsklep@rudnikagro.pl",
+        "fontName": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "fontWeight": 400,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "textAlignHorizontal": "LEFT"
+      },
+      {
+        "id": "335:771",
+        "name": "Group 7",
+        "type": "GROUP",
+        "bounds": {
+          "x": 11524.00390625,
+          "y": 4074,
+          "width": 19.875539779663086,
+          "height": 19.875539779663086
+        },
+        "visible": true,
+        "opacity": 1,
+        "fills": null,
+        "strokes": null,
+        "strokeWeight": null,
+        "effects": [],
+        "cornerRadius": null,
+        "characters": null,
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "lineHeight": null,
+        "letterSpacing": null,
+        "textAlignHorizontal": null
+      },
+      {
+        "id": "335:764",
+        "name": "Vector 20",
+        "type": "VECTOR",
+        "bounds": {
+          "x": 11525.101126190131,
+          "y": 4196,
+          "width": 17.82748373792674,
+          "height": 17.82748373792674
+        },
+        "visible": true,
+        "opacity": 1,
+        "fills": [],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0.4000000059604645,
+              "b": 0.20000000298023224
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokeWeight": 1.5,
+        "effects": [],
+        "characters": null,
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "lineHeight": null,
+        "letterSpacing": null,
+        "textAlignHorizontal": null
+      },
+      {
+        "id": "335:769",
+        "name": "Vector 21",
+        "type": "VECTOR",
+        "bounds": {
+          "x": 11525.990234375,
+          "y": 4265,
+          "width": 15,
+          "height": 16
+        },
+        "visible": true,
+        "opacity": 1,
+        "fills": [],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0.4000000059604645,
+              "b": 0.20000000298023224
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokeWeight": 1.5,
+        "effects": [],
+        "characters": null,
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "lineHeight": null,
+        "letterSpacing": null,
+        "textAlignHorizontal": null
+      },
+      {
+        "id": "431:897",
+        "name": "Rectangle 122",
+        "type": "VECTOR",
+        "bounds": {
+          "x": 11476,
+          "y": 4391,
+          "width": 467,
+          "height": 334
+        },
+        "visible": true,
+        "opacity": 1,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.9647058844566345,
+              "g": 0.9647058844566345,
+              "b": 0.9647058844566345
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 1,
+        "effects": [],
+        "cornerRadius": 31,
+        "characters": null,
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "lineHeight": null,
+        "letterSpacing": null,
+        "textAlignHorizontal": null
+      },
+      {
+        "id": "431:898",
+        "name": "Oddział Lipiany sklep i magazyn",
+        "type": "TEXT",
+        "bounds": {
+          "x": 11526.865234375,
+          "y": 4444,
+          "width": 286,
+          "height": 64
+        },
+        "visible": true,
+        "opacity": 1,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 1,
+        "effects": [],
+        "cornerRadius": null,
+        "characters": "Oddział Lipiany\nsklep i magazyn",
+        "fontName": {
+          "family": "DM Sans",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700,
+            "opsz": 14
+          }
+        },
+        "fontWeight": 700,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "textAlignHorizontal": "LEFT"
+      },
+      {
+        "id": "431:899",
+        "name": "ul. Myśliborska 5a, 74-240 Lipiany tel. (+48) 91 579 31 63 fax. (+48) 91 564 53 06",
+        "type": "TEXT",
+        "bounds": {
+          "x": 11553,
+          "y": 4554,
+          "width": 344,
+          "height": 143
+        },
+        "visible": true,
+        "opacity": 1,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 1,
+        "effects": [],
+        "cornerRadius": null,
+        "characters": "ul. Myśliborska 5a,\n74-240 Lipiany\n\ntel. (+48) 91 579 31 63\nfax. (+48) 91 564 53 06",
+        "fontName": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "fontSize": 18,
+        "fontWeight": 400,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 24
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "textAlignHorizontal": "LEFT"
+      },
+      {
+        "id": "431:901",
+        "name": "Group 8",
+        "type": "GROUP",
+        "bounds": {
+          "x": 11524.0048828125,
+          "y": 4554,
+          "width": 19.875539779663086,
+          "height": 19.875539779663086
+        },
+        "visible": true,
+        "opacity": 1,
+        "fills": null,
+        "strokes": null,
+        "strokeWeight": null,
+        "effects": [],
+        "cornerRadius": null,
+        "characters": null,
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "lineHeight": null,
+        "letterSpacing": null,
+        "textAlignHorizontal": null
+      },
+      {
+        "id": "431:904",
+        "name": "Vector 22",
+        "type": "VECTOR",
+        "bounds": {
+          "x": 11525.101126190131,
+          "y": 4631,
+          "width": 17.82748373792674,
+          "height": 17.82748373792674
+        },
+        "visible": true,
+        "opacity": 1,
+        "fills": [],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0.4000000059604645,
+              "b": 0.20000000298023224
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokeWeight": 1.5,
+        "effects": [],
+        "characters": null,
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "lineHeight": null,
+        "letterSpacing": null,
+        "textAlignHorizontal": null
+      },
+      {
+        "id": "431:908",
+        "name": "Rectangle 123",
+        "type": "VECTOR",
+        "bounds": {
+          "x": 11476,
+          "y": 4756,
+          "width": 467,
+          "height": 478
+        },
+        "visible": true,
+        "opacity": 1,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.9647058844566345,
+              "g": 0.9647058844566345,
+              "b": 0.9647058844566345
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 1,
+        "effects": [],
+        "cornerRadius": 31,
+        "characters": null,
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "lineHeight": null,
+        "letterSpacing": null,
+        "textAlignHorizontal": null
+      },
+      {
+        "id": "431:911",
+        "name": "Przedstawiciele handlowi: ",
+        "type": "TEXT",
+        "bounds": {
+          "x": 11526.865234375,
+          "y": 4777,
+          "width": 345,
+          "height": 64
+        },
+        "visible": true,
+        "opacity": 1,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 1,
+        "effects": [],
+        "cornerRadius": null,
+        "characters": "Przedstawiciele handlowi: ",
+        "fontName": {
+          "family": "DM Sans",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700,
+            "opsz": 14
+          }
+        },
+        "fontSize": 18,
+        "fontWeight": 700,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 24
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "textAlignHorizontal": "LEFT"
+      },
+      {
+        "id": "431:910",
+        "name": "Mateusz Świątek, tel. +48 781 600 023 m.swiatek@rudnikagro.pl",
+        "type": "TEXT",
+        "bounds": {
+          "x": 11527,
+          "y": 4832,
+          "width": 370,
+          "height": 71
+        },
+        "visible": true,
+        "opacity": 1,
+        "strokes": [],
+        "strokeWeight": 1,
+        "effects": [],
+        "cornerRadius": null,
+        "characters": "Mateusz Świątek,\ntel. +48 781 600 023\nm.swiatek@rudnikagro.pl",
+        "fontSize": 18,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 24
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "textAlignHorizontal": "LEFT"
+      },
+      {
+        "id": "431:919",
+        "name": "Dział ubezpieczeń: ",
+        "type": "TEXT",
+        "bounds": {
+          "x": 11526.865234375,
+          "y": 4919,
+          "width": 345,
+          "height": 64
+        },
+        "visible": true,
+        "opacity": 1,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 1,
+        "effects": [],
+        "cornerRadius": null,
+        "characters": "Dział ubezpieczeń: ",
+        "fontName": {
+          "family": "DM Sans",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700,
+            "opsz": 14
+          }
+        },
+        "fontSize": 18,
+        "fontWeight": 700,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 24
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "textAlignHorizontal": "LEFT"
+      },
+      {
+        "id": "431:918",
+        "name": "Monika Zielińska, tel. +48 532 402 999 m.zielinska@rudnikagro.pl",
+        "type": "TEXT",
+        "bounds": {
+          "x": 11527,
+          "y": 4974,
+          "width": 370,
+          "height": 71
+        },
+        "visible": true,
+        "opacity": 1,
+        "strokes": [],
+        "strokeWeight": 1,
+        "effects": [],
+        "cornerRadius": null,
+        "characters": "Monika Zielińska,\ntel. +48 532 402 999\nm.zielinska@rudnikagro.pl",
+        "fontSize": 18,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 24
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "textAlignHorizontal": "LEFT"
+      },
+      {
+        "id": "431:922",
+        "name": "Dział środków ochrony roślin: ",
+        "type": "TEXT",
+        "bounds": {
+          "x": 11526.865234375,
+          "y": 5061,
+          "width": 345,
+          "height": 64
+        },
+        "visible": true,
+        "opacity": 1,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 1,
+        "effects": [],
+        "cornerRadius": null,
+        "characters": "Dział środków ochrony roślin: ",
+        "fontName": {
+          "family": "DM Sans",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700,
+            "opsz": 14
+          }
+        },
+        "fontSize": 18,
+        "fontWeight": 700,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 24
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "textAlignHorizontal": "LEFT"
+      },
+      {
+        "id": "431:921",
+        "name": "Mariusz Rudnicki, tel. +48 91 461 25 64 m.rudnicki@rudnikagro.pl",
+        "type": "TEXT",
+        "bounds": {
+          "x": 11527,
+          "y": 5116,
+          "width": 370,
+          "height": 71
+        },
+        "visible": true,
+        "opacity": 1,
+        "strokes": [],
+        "strokeWeight": 1,
+        "effects": [],
+        "cornerRadius": null,
+        "characters": "Mariusz Rudnicki,\ntel. +48 91 461 25 64\nm.rudnicki@rudnikagro.pl",
+        "fontSize": 18,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 24
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "textAlignHorizontal": "LEFT"
+      }
+    ]
+  ]
+}

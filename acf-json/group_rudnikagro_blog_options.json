@@ -1,0 +1,21 @@
+{
+  "key": "group_rudnikagro_blog_options",
+  "title": "RudnikAgro — Blog / Archiwum",
+  "fields": [
+    {"key":"field_ra_blog_options_tab_archive","label":"Nagłówek archiwum","name":"rudnikagro_tab_blog_archive_header","type":"tab","placement":"top"},
+    {"key":"field_ra_blog_archive_header","label":"Nagłówek archiwum","name":"rudnikagro_blog_archive_header","type":"group","layout":"block","sub_fields":[
+      {"key":"field_ra_blog_archive_banner_label","label":"Etykieta baneru","name":"banner_label","type":"text"},
+      {"key":"field_ra_blog_archive_breadcrumb","label":"Breadcrumb","name":"breadcrumb","type":"text"},
+      {"key":"field_ra_blog_archive_banner","label":"Obraz baneru","name":"banner","type":"image","return_format":"id","library":"all"}
+    ]}
+  ],
+  "location": [[{"param":"options_page","operator":"==","value":"rudnikagro"}]],
+  "menu_order": 1,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "active": true,
+  "show_in_rest": 0,
+  "modified": 1781100000
+}

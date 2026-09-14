@@ -24,4 +24,4 @@
     ?>
     <?php get_template_part('partials/header'); ?>
 
-    <main>
+    <main id="main-content">

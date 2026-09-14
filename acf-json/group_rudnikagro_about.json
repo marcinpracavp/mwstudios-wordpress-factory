@@ -1,0 +1,62 @@
+{
+  "key": "group_rudnikagro_about",
+  "title": "RudnikAgro — O nas",
+  "fields": [
+    {"key":"field_ra_about_tab_banner","label":"Baner","name":"rudnikagro_tab_about_banner","type":"tab","placement":"top"},
+    {"key":"field_ra_about_banner","label":"Baner strony","name":"rudnikagro_about_banner","type":"group","layout":"block","sub_fields":[
+      {"key":"field_ra_about_banner_title","label":"Tytuł","name":"title","type":"text"},
+      {"key":"field_ra_about_banner_breadcrumb","label":"Breadcrumb","name":"breadcrumb","type":"text"},
+      {"key":"field_ra_about_banner_image","label":"Obraz","name":"image","type":"image","return_format":"id","library":"all"}
+    ]},
+    {"key":"field_ra_about_tab_intro","label":"Poznaj nas","name":"rudnikagro_tab_about_intro","type":"tab","placement":"top"},
+    {"key":"field_ra_about_intro","label":"Wprowadzenie","name":"rudnikagro_about_introduction","type":"group","layout":"block","sub_fields":[
+      {"key":"field_ra_about_intro_heading","label":"Nagłówek","name":"heading","type":"text"},
+      {"key":"field_ra_about_intro_content","label":"Treść","name":"content","type":"wysiwyg","tabs":"all","toolbar":"full","media_upload":0}
+    ]},
+    {"key":"field_ra_about_tab_supply","label":"Zaopatrzenie rolnictwa","name":"rudnikagro_tab_about_supply","type":"tab","placement":"top"},
+    {"key":"field_ra_about_supply","label":"Kompleksowe zaopatrzenie rolnictwa","name":"rudnikagro_about_supply","type":"group","layout":"block","sub_fields":[
+      {"key":"field_ra_about_supply_heading","label":"Nagłówek","name":"heading","type":"text"},
+      {"key":"field_ra_about_supply_intro","label":"Wprowadzenie","name":"introduction","type":"textarea","new_lines":"br"},
+      {"key":"field_ra_about_supply_items","label":"Pozycje","name":"items","type":"repeater","layout":"table","button_label":"Dodaj pozycję","sub_fields":[
+        {"key":"field_ra_about_supply_item_title","label":"Tytuł","name":"title","type":"text"},
+        {"key":"field_ra_about_supply_item_icon","label":"Ikona","name":"icon","type":"image","return_format":"id","library":"all"}
+      ]},
+      {"key":"field_ra_about_supply_image","label":"Zdjęcie","name":"image","type":"image","return_format":"id","library":"all"},
+      {"key":"field_ra_about_supply_surface","label":"Tło karty","name":"surface","type":"image","return_format":"id","library":"all"}
+    ]},
+    {"key":"field_ra_about_tab_grain","label":"Skup i obrót","name":"rudnikagro_tab_about_grain","type":"tab","placement":"top"},
+    {"key":"field_ra_about_grain","label":"Skup i obrót płodami rolnymi","name":"rudnikagro_about_grain_trade","type":"group","layout":"block","sub_fields":[
+      {"key":"field_ra_about_grain_heading","label":"Nagłówek","name":"heading","type":"text"},
+      {"key":"field_ra_about_grain_content","label":"Treść","name":"content","type":"wysiwyg","tabs":"all","toolbar":"full","media_upload":0},
+      {"key":"field_ra_about_grain_image","label":"Zdjęcie","name":"image","type":"image","return_format":"id","library":"all"},
+      {"key":"field_ra_about_grain_surface","label":"Tło karty","name":"surface","type":"image","return_format":"id","library":"all"}
+    ]},
+    {"key":"field_ra_about_tab_insurance","label":"Ubezpieczenia","name":"rudnikagro_tab_about_insurance","type":"tab","placement":"top"},
+    {"key":"field_ra_about_insurance","label":"Ubezpieczenia dla rolnictwa","name":"rudnikagro_about_insurance","type":"group","layout":"block","sub_fields":[
+      {"key":"field_ra_about_insurance_heading","label":"Nagłówek","name":"heading","type":"text"},
+      {"key":"field_ra_about_insurance_content","label":"Treść","name":"content","type":"wysiwyg","tabs":"all","toolbar":"full","media_upload":0},
+      {"key":"field_ra_about_insurance_expert","label":"Ekspert","name":"expert","type":"group","layout":"table","sub_fields":[
+        {"key":"field_ra_about_insurance_expert_role","label":"Rola","name":"role","type":"text"},
+        {"key":"field_ra_about_insurance_expert_name","label":"Imię i nazwisko","name":"name","type":"text"},
+        {"key":"field_ra_about_insurance_expert_phone","label":"Telefon","name":"telephone","type":"text"},
+        {"key":"field_ra_about_insurance_expert_email","label":"E-mail","name":"email","type":"email"}
+      ]},
+      {"key":"field_ra_about_insurance_image","label":"Zdjęcie","name":"image","type":"image","return_format":"id","library":"all"},
+      {"key":"field_ra_about_insurance_surface","label":"Tło karty","name":"surface","type":"image","return_format":"id","library":"all"}
+    ]},
+    {"key":"field_ra_about_tab_cta","label":"CTA sklepu","name":"rudnikagro_tab_about_cta","type":"tab","placement":"top"},
+    {"key":"field_ra_about_cta","label":"CTA sklepu","name":"rudnikagro_about_shop_cta","type":"group","layout":"block","sub_fields":[
+      {"key":"field_ra_about_cta_heading","label":"Nagłówek","name":"heading","type":"text"},
+      {"key":"field_ra_about_cta_button","label":"Etykieta przycisku","name":"button_label","type":"text"}
+    ]}
+  ],
+  "location": [[{"param":"page_template","operator":"==","value":"page-about.php"}]],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "active": true,
+  "show_in_rest": 0,
+  "modified": 1789200000
+}

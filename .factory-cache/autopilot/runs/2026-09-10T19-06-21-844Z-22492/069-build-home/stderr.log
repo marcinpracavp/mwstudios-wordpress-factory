@@ -1,0 +1,4 @@
+2026-09-13T11:37:07.757061Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+2026-09-13T11:37:10.319534Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh
+2026-09-13T11:38:37.164780Z  WARN codex_analytics::client: failed to send events request: error sending request for url (https://chatgpt.com/backend-api/codex/analytics-events/events)
+2026-09-13T12:01:24.162011Z  WARN codex_core::tasks: failed to flush rollout after emitting terminal turn event: thread 01a09a57-6326-7071-b7bd-ff6aa1ef10a6 not found

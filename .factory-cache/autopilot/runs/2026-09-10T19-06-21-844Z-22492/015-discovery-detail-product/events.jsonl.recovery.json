@@ -1,0 +1,60 @@
+{
+  "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\015-discovery-detail-product\\events.jsonl",
+  "lines": 89,
+  "rejected": [
+    {
+      "line": 44,
+      "bytes": 14546,
+      "sha256": "8976f6cd7abf15d8581ea11dfda298159d5c41929d27413ffc52e7c0e512d25e",
+      "error": "Unterminated string in JSON at position 14459 (line 1 column 14460)"
+    },
+    {
+      "line": 45,
+      "bytes": 5516,
+      "sha256": "6cdaed07d47179b9f2263b6e18fc8ede2f5f7a58fb78a4fd109ae6a7c5ef1542",
+      "error": "Unexpected token 'Z', \"Ze środków\"... is not valid JSON"
+    },
+    {
+      "line": 46,
+      "bytes": 20389,
+      "sha256": "8a7421399b729f32697f112ab15efeaeb6553520ccca19001ac4779a7171f420",
+      "error": "Unexpected token 'i', \"i wyróżnie\"... is not valid JSON"
+    },
+    {
+      "line": 63,
+      "bytes": 14372,
+      "sha256": "d9ce1d7218191b7843f2d47be9948ee37fbc20bef0f0c8caca0fcb97d22f8668",
+      "error": "Unterminated string in JSON at position 14286 (line 1 column 14287)"
+    },
+    {
+      "line": 64,
+      "bytes": 7086,
+      "sha256": "6500965e2d1969cdc6cd2a36ae34c3c499c2d3f0f9b18d1ae938db05e0a474fc",
+      "error": "Unexpected token 'Z', \"Ze środków\"... is not valid JSON"
+    },
+    {
+      "line": 65,
+      "bytes": 20507,
+      "sha256": "390903fc8a98b8dd9542afca9e725c1af0ce55c10b80a5ada9ace74a36f7f67d",
+      "error": "Unexpected token 'i', \"i wyróżnie\"... is not valid JSON"
+    },
+    {
+      "line": 75,
+      "bytes": 2867,
+      "sha256": "a0deaa6536c059306891046d04508d253bc009d195b133db2f55fba32670e3cb",
+      "error": "Unterminated string in JSON at position 2835 (line 1 column 2836)"
+    },
+    {
+      "line": 76,
+      "bytes": 15250,
+      "sha256": "6d3c2888b6ecfbbf8016e3adc99e19606c3e3d61a5874b609947af08aa6cac2a",
+      "error": "Unexpected token 'i', \"i wyróżnie\"... is not valid JSON"
+    },
+    {
+      "line": 77,
+      "bytes": 27607,
+      "sha256": "91237f9d4ab2c07c47de3313889e57db60b119fefe8d2389b34ec18039cb876a",
+      "error": "Unexpected token 'Z', \"Ze środków\"... is not valid JSON"
+    }
+  ]
+}

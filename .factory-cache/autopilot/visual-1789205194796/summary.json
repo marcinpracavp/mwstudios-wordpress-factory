@@ -1,0 +1,84 @@
+{
+  "capturedAt": "2026-09-12T09:26:51.388Z",
+  "implementationHash": "e2084a9c43ba057b5a036cf1b9064d1cf0149e72ac3fa84396557987dc4a385b",
+  "sourceHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+  "thresholds": {
+    "channelTolerance": 24,
+    "maxDifferentPixelRatio": 0.05,
+    "geometryTolerancePx": 2
+  },
+  "acceptanceScope": "page",
+  "buildReady": true,
+  "deferred": [
+    {
+      "id": "blog-archive",
+      "progress": {
+        "deferred": true,
+        "samples": [
+          {
+            "file": "current capture",
+            "implementationHash": "e2084a9c43ba057b5a036cf1b9064d1cf0149e72ac3fa84396557987dc4a385b",
+            "capturedAt": "2026-09-12T09:26:36.350Z",
+            "ratio": 0.07584660271589426
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789204683892\\summary.json",
+            "implementationHash": "00146e2455d9c760f48a33bae06412888b4370423df5b42fc679109e69dfc085",
+            "capturedAt": "2026-09-12T09:18:05.704Z",
+            "ratio": 0.07584660271589426
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789201744977\\summary.json",
+            "implementationHash": "5eb71b5bd70ca9715973d09eb56834fe4d65a88a9010534e048a466e083abeb5",
+            "capturedAt": "2026-09-12T08:29:07.864Z",
+            "ratio": 0.09233798869182816
+          }
+        ],
+        "improvement": 0.0164913859759339,
+        "policy": {
+          "samples": 3,
+          "maxPageMismatch": 0.13,
+          "minImprovement": 0.03
+        },
+        "nonPixelErrors": [],
+        "reason": "Insufficient measured progress across distinct implementations; unresolved visual work belongs to final audit, not PASS."
+      },
+      "comparison": ".factory-cache/autopilot/visual-1789205194796/blog-archive/comparison.json"
+    }
+  ],
+  "passed": false,
+  "pagePassed": false,
+  "routes": [
+    {
+      "id": "blog-archive",
+      "passed": false,
+      "pagePassed": false,
+      "ownership": {
+        "header": {
+          "pixels": 372480,
+          "differentPixels": 21869,
+          "ratio": 0.05871187714776632
+        },
+        "footer": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "shared": {
+          "pixels": 334400,
+          "differentPixels": 4263,
+          "ratio": 0.012748205741626795
+        },
+        "page": {
+          "pixels": 6621760,
+          "differentPixels": 502238,
+          "ratio": 0.07584660271589426
+        }
+      },
+      "errors": [
+        "page pixel mismatch 7.585%"
+      ],
+      "comparison": ".factory-cache/autopilot/visual-1789205194796/blog-archive/comparison.json"
+    }
+  ]
+}

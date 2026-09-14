@@ -1,0 +1,48 @@
+{
+  "capturedAt": "2026-09-12T10:05:23.086Z",
+  "implementationHash": "57d53834b50f3109291a4b13e717bc51b45f810b218eb36b0a80783685301960",
+  "sourceHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+  "thresholds": {
+    "channelTolerance": 24,
+    "maxDifferentPixelRatio": 0.085,
+    "geometryTolerancePx": 2
+  },
+  "acceptanceScope": "page",
+  "buildReady": false,
+  "deferred": [],
+  "passed": false,
+  "pagePassed": false,
+  "routes": [
+    {
+      "id": "contact",
+      "passed": false,
+      "pagePassed": false,
+      "ownership": {
+        "header": {
+          "pixels": 372480,
+          "differentPixels": 21869,
+          "ratio": 0.05871187714776632
+        },
+        "footer": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "shared": {
+          "pixels": 316800,
+          "differentPixels": 4228,
+          "ratio": 0.013345959595959595
+        },
+        "page": {
+          "pixels": 4329600,
+          "differentPixels": 443446,
+          "ratio": 0.10242193274205469
+        }
+      },
+      "errors": [
+        "page pixel mismatch 10.242%"
+      ],
+      "comparison": ".factory-cache/autopilot/visual-1789207506571/contact/comparison.json"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "task": {
+    "id": "detail-about",
+    "scope": "group",
+    "buildGroup": "about"
+  },
+  "sourceContext": {
+    "version": 1,
+    "available": true,
+    "index": {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/014-discovery-detail-about/source-context/index.json",
+      "bytes": 1423,
+      "sha256": "d468c06516194c776f892193f06c3e790da7bb5ff8c966382caaff10795f81b2"
+    }
+  },
+  "model": "gpt-5.6-terra",
+  "reasoningEffort": "high",
+  "continuation": "new task",
+  "previousExecution": null,
+  "snapshot": ".factory-cache/figma/latest",
+  "observations": ".factory-cache/figma/latest/observations/index.json",
+  "plans": [
+    "docs/factory/project/PLAN.md",
+    "docs/factory/project/SOURCE_CLARIFICATIONS.md"
+  ],
+  "currentGate": {
+    "passed": false,
+    "errors": [
+      "Missing section about-heading",
+      "Missing section about-introduction",
+      "Missing section about-agricultural-supply",
+      "Missing section about-grain-trade",
+      "Missing section about-insurance"
+    ],
+    "group": "about"
+  },
+  "instruction": "Inspect the current gate and finish only remaining assigned work. Reuse real saved source facts and assets."
+}

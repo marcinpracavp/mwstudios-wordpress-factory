@@ -33,6 +33,7 @@ function readRequiredJson(filePath, label, errors) {
 }
 
 function validateSnapshot({
+  allowPartial = false,
   project: providedProject,
   figmaConfig: providedFigmaConfig,
   paths: providedPaths
@@ -58,7 +59,7 @@ function validateSnapshot({
     errors.push(...formatSchemaErrors('manifest', validateManifestSchema.errors));
   }
 
-  if (manifest.status !== 'complete') {
+  if (manifest.status !== 'complete' && !(allowPartial && manifest.status === 'partial')) {
     errors.push(`manifest status must be "complete" for validation (current: "${manifest.status || 'missing'}")`);
   }
 
@@ -121,17 +122,20 @@ function validateSnapshot({
       errors.push(`section "${section.id}" references unknown page id "${section.pageId}"`);
     }
     ['desktopNodeId', 'mobileNodeId'].forEach((key) => {
-      if (!section[key]) {
+      if (!section[key] && key === 'desktopNodeId') {
         errors.push(`section "${section.id}" is missing ${key}`);
-      } else if (!frameNodeIdSet.has(section[key])) {
+      } else if (section[key] && !frameNodeIdSet.has(section[key])) {
         errors.push(`section "${section.id}" ${key} "${section[key]}" is not present in manifest frames`);
       }
     });
     ['desktopReference', 'mobileReference'].forEach((key) => {
-      if (!section[key]) {
+      if (!section[key] && (key === 'desktopReference' || section.mobileNodeId)) {
         errors.push(`section "${section.id}" is missing ${key}`);
       }
     });
+    if (Boolean(section.mobileNodeId) !== Boolean(section.mobileReference)) {
+      errors.push(`section "${section.id}" mobile node and reference must be declared together`);
+    }
     Object.entries(section.variants || {}).forEach(([language, variant]) => {
       if (!expectedLanguages.includes(language)) {
         errors.push(`section "${section.id}" uses language variant "${language}" outside project languages`);

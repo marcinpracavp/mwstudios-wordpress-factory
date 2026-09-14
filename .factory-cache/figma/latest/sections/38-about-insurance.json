@@ -1,0 +1,102 @@
+{
+  "id": "about-insurance",
+  "name": "Agricultural insurance card",
+  "order": 49,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "521:435"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 160,
+    "y": 2837,
+    "width": 1600,
+    "height": 695,
+    "containerWidth": 1440,
+    "padding": {
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "gap": 20
+  },
+  "layout": {
+    "type": "two-column-card-with-rich-text-and-contact",
+    "columns": [
+      {
+        "x": 240,
+        "width": 588
+      },
+      {
+        "x": 848,
+        "width": 832
+      }
+    ],
+    "alignment": "center"
+  },
+  "typography": [
+    {
+      "nodeId": "521:436",
+      "family": "DM Sans",
+      "style": "Bold",
+      "fontSize": 32,
+      "lineHeight": 24,
+      "color": "#000000"
+    },
+    {
+      "nodeId": "521:435",
+      "family": "DM Sans",
+      "style": "Regular/Bold",
+      "fontSize": 24,
+      "lineHeight": "normal",
+      "color": "#000000"
+    },
+    {
+      "nodeId": "521:439",
+      "family": "DM Sans",
+      "style": "Regular/Bold",
+      "fontSize": 24,
+      "lineHeight": "normal",
+      "color": "#ffffff"
+    }
+  ],
+  "colors": [
+    {
+      "nodeId": "521:454",
+      "sourceVector": true
+    },
+    {
+      "nodeId": "521:434",
+      "cornerRadius": 30
+    }
+  ],
+  "effects": [
+    {
+      "nodeId": "521:434",
+      "shadow": "0px 4px 10px rgba(0,0,0,0.25)"
+    }
+  ],
+  "contentFields": [
+    "rudnikagro_about.insurance.heading",
+    "rudnikagro_about.insurance.content",
+    "rudnikagro_about.insurance.expert"
+  ],
+  "assets": [
+    {
+      "sourceNodeId": "521:454",
+      "path": "assets/about/521-454-insurance-card.svg",
+      "usage": "Exact source card background vector."
+    },
+    {
+      "sourceNodeId": "521:434",
+      "path": "assets/about/521-434-insurance-photo.png",
+      "usage": "Exact source card image with the recorded crop."
+    }
+  ],
+  "notes": [
+    "Expert contact is visible source content; no external mail or telephone action is asserted.",
+    "Desktop source only; mobile behavior must be derived."
+  ],
+  "liveFigmaRequired": false
+}

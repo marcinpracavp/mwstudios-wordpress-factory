@@ -1,0 +1,134 @@
+{
+  "id": "account-login",
+  "manifestRecord": {
+    "id": "account-login",
+    "name": "logowanie",
+    "order": 13,
+    "pageId": "0:1",
+    "snapshot": "sections/13-account-login.json",
+    "desktopNodeId": "524:195",
+    "desktopReference": "references/sections/account-login.png"
+  },
+  "contentFields": [
+    {
+      "section": "account-login",
+      "nodeId": "524:197",
+      "fieldName": "rudnikagro_account_login_524_197",
+      "type": "text",
+      "language": "pl",
+      "value": "Zaloguj siÄ™",
+      "destination": "Native WooCommerce My Account login; editable display labels",
+      "linkEvidence": [
+        {
+          "characters": "Zaloguj siÄ™",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "524:197"
+      }
+    },
+    {
+      "section": "account-login",
+      "nodeId": "524:198",
+      "fieldName": "rudnikagro_account_login_524_198",
+      "type": "text",
+      "language": "pl",
+      "value": "ZapamiÄ™taj mnie",
+      "destination": "Native WooCommerce My Account login; editable display labels",
+      "linkEvidence": [
+        {
+          "characters": "ZapamiÄ™taj mnie",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "524:198"
+      }
+    },
+    {
+      "section": "account-login",
+      "nodeId": "524:202",
+      "fieldName": "rudnikagro_account_login_524_202",
+      "type": "text",
+      "language": "pl",
+      "value": "Nie pamiÄ™tam hasÅ‚a",
+      "destination": "Native WooCommerce My Account login; editable display labels",
+      "linkEvidence": [
+        {
+          "characters": "Nie pamiÄ™tam hasÅ‚a",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "524:202"
+      }
+    },
+    {
+      "section": "account-login",
+      "nodeId": "524:205",
+      "fieldName": "rudnikagro_account_login_524_205",
+      "type": "text",
+      "language": "pl",
+      "value": "Zaloguj siÄ™",
+      "destination": "Native WooCommerce My Account login; editable display labels",
+      "linkEvidence": [
+        {
+          "characters": "Zaloguj siÄ™",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "524:205"
+      }
+    },
+    {
+      "section": "account-login",
+      "nodeId": "524:207",
+      "fieldName": "rudnikagro_account_login_524_207",
+      "type": "text",
+      "language": "pl",
+      "value": "E-mail",
+      "destination": "Native WooCommerce My Account login; editable display labels",
+      "linkEvidence": [
+        {
+          "characters": "E-mail",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "524:207"
+      }
+    },
+    {
+      "section": "account-login",
+      "nodeId": "524:209",
+      "fieldName": "rudnikagro_account_login_524_209",
+      "type": "text",
+      "language": "pl",
+      "value": "HasÅ‚o",
+      "destination": "Native WooCommerce My Account login; editable display labels",
+      "linkEvidence": [
+        {
+          "characters": "HasÅ‚o",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "524:209"
+      }
+    }
+  ]
+}

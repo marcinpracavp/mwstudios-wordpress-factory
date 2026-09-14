@@ -1,0 +1,674 @@
+{
+  "id": "contact",
+  "sourceNodeId": "335:591",
+  "capturedAt": "2026-09-12T10:05:09.721Z",
+  "passed": false,
+  "errors": [
+    "page pixel mismatch 10.242%"
+  ],
+  "responsive": [
+    {
+      "width": 1440,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/visual-1789207506571/contact/responsive-1440.png"
+    },
+    {
+      "width": 1280,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/visual-1789207506571/contact/responsive-1280.png"
+    },
+    {
+      "width": 1024,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/visual-1789207506571/contact/responsive-1024.png"
+    },
+    {
+      "width": 768,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/visual-1789207506571/contact/responsive-768.png"
+    },
+    {
+      "width": 390,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/visual-1789207506571/contact/responsive-390.png"
+    },
+    {
+      "width": 375,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/visual-1789207506571/contact/responsive-375.png"
+    }
+  ],
+  "geometry": [
+    {
+      "id": "shared-topbar",
+      "owner": "header",
+      "component": "header",
+      "expected": {
+        "frameWidth": 1920,
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 40
+      },
+      "actual": {
+        "id": "shared-topbar",
+        "landmark": null,
+        "component": null,
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 40,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "700",
+          "fontSize": "14px",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "shared-secondary-navigation",
+      "owner": "header",
+      "component": "header",
+      "expected": {
+        "frameWidth": 1920,
+        "x": 239,
+        "y": 56,
+        "width": 1440.9998779296875,
+        "height": 42
+      },
+      "actual": {
+        "id": "shared-secondary-navigation",
+        "landmark": "header",
+        "component": null,
+        "x": 237,
+        "y": 56,
+        "width": 1442.8125,
+        "height": 42,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "14px",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "20px",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": -2,
+        "y": 0,
+        "width": 1.8126220703125,
+        "height": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "shared-primary-navigation",
+      "owner": "header",
+      "component": "header",
+      "expected": {
+        "x": 240,
+        "y": 115,
+        "width": 1440,
+        "height": 78.6761245727539
+      },
+      "actual": {
+        "id": "shared-primary-navigation",
+        "landmark": "header",
+        "component": null,
+        "x": 240,
+        "y": 115,
+        "width": 1440,
+        "height": 79,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0.32387542724609375
+      },
+      "passed": true
+    },
+    {
+      "id": "contact-heading",
+      "owner": "shared",
+      "component": "page-banner",
+      "expected": {
+        "x": 240,
+        "y": 218,
+        "width": 1440,
+        "height": 220
+      },
+      "actual": {
+        "id": "contact-heading",
+        "landmark": null,
+        "component": "page-banner",
+        "x": 240,
+        "y": 218,
+        "width": 1440,
+        "height": 220,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "contact-details",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "x": 240,
+        "y": 485,
+        "width": 467,
+        "height": 1341
+      },
+      "actual": {
+        "id": "contact-details",
+        "landmark": null,
+        "component": null,
+        "x": 240,
+        "y": 485,
+        "width": 467,
+        "height": 1341,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "31px",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "contact-form",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "x": 728,
+        "y": 519,
+        "width": 953,
+        "height": 376
+      },
+      "actual": {
+        "id": "contact-form",
+        "landmark": null,
+        "component": null,
+        "x": 728,
+        "y": 519,
+        "width": 952,
+        "height": 376,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": -1,
+        "height": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "contact-map",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "x": 728,
+        "y": 983,
+        "width": 953,
+        "height": 568
+      },
+      "actual": {
+        "id": "contact-map",
+        "landmark": null,
+        "component": null,
+        "x": 728,
+        "y": 983,
+        "width": 952,
+        "height": 568,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "30px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": -1,
+        "height": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "shared-footer",
+      "owner": "footer",
+      "component": "footer",
+      "expected": {
+        "frameWidth": 1920,
+        "x": 0,
+        "y": 8363,
+        "width": 1920,
+        "height": 636
+      },
+      "actual": {
+        "id": "shared-footer",
+        "landmark": "footer",
+        "component": null,
+        "x": 0,
+        "y": 1937,
+        "width": 1920,
+        "height": 636,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": -6426,
+        "width": 0,
+        "height": 0
+      },
+      "passed": false
+    }
+  ],
+  "pixels": {
+    "width": 1920,
+    "height": 2614,
+    "differentPixels": 469543,
+    "ratio": 0.09355533505483295,
+    "ownership": {
+      "header": {
+        "pixels": 372480,
+        "differentPixels": 21869,
+        "ratio": 0.05871187714776632
+      },
+      "footer": {
+        "pixels": 0,
+        "differentPixels": 0,
+        "ratio": 0
+      },
+      "shared": {
+        "pixels": 316800,
+        "differentPixels": 4228,
+        "ratio": 0.013345959595959595
+      },
+      "page": {
+        "pixels": 4329600,
+        "differentPixels": 443446,
+        "ratio": 0.10242193274205469
+      }
+    },
+    "components": {
+      "header": {
+        "owner": "header",
+        "pixels": 372480,
+        "differentPixels": 21869,
+        "ratio": 0.05871187714776632
+      },
+      "page-banner": {
+        "owner": "shared",
+        "pixels": 316800,
+        "differentPixels": 4228,
+        "ratio": 0.013345959595959595
+      }
+    },
+    "imageDiagnostics": {
+      "interiorPixels": 550841,
+      "interiorDifferentPixels": 9211,
+      "otherPixels": 3778759,
+      "otherDifferentPixels": 434235,
+      "note": "Diagnostic only: confirm source asset, crop, geometry and border before accepting interior photo differences. No blanket image exemption."
+    },
+    "meanMaxChannelDelta": 16.29045862821984,
+    "referenceSize": {
+      "width": 1920,
+      "height": 2614
+    },
+    "renderedSize": {
+      "width": 1920,
+      "height": 2574
+    },
+    "crops": [
+      {
+        "id": "shared-topbar",
+        "owner": "header",
+        "component": "header",
+        "pixels": 76800,
+        "differentPixels": 1546,
+        "ratio": 0.020130208333333333
+      },
+      {
+        "id": "shared-secondary-navigation",
+        "owner": "header",
+        "component": "header",
+        "pixels": 60522,
+        "differentPixels": 9136,
+        "ratio": 0.15095337232741812
+      },
+      {
+        "id": "shared-primary-navigation",
+        "owner": "header",
+        "component": "header",
+        "pixels": 113760,
+        "differentPixels": 9367,
+        "ratio": 0.08234001406469761
+      },
+      {
+        "id": "contact-heading",
+        "owner": "shared",
+        "component": "page-banner",
+        "pixels": 316800,
+        "differentPixels": 4228,
+        "ratio": 0.013345959595959595
+      },
+      {
+        "id": "contact-details",
+        "owner": "page",
+        "component": null,
+        "pixels": 626247,
+        "differentPixels": 64184,
+        "ratio": 0.10248991212732357
+      },
+      {
+        "id": "contact-form",
+        "owner": "page",
+        "component": null,
+        "pixels": 358328,
+        "differentPixels": 21772,
+        "ratio": 0.060759974101940124
+      },
+      {
+        "id": "contact-map",
+        "owner": "page",
+        "component": null,
+        "pixels": 541304,
+        "differentPixels": 7731,
+        "ratio": 0.014282177852001832
+      },
+      {
+        "id": "shared-footer",
+        "owner": "footer",
+        "component": "footer",
+        "pixels": 1920,
+        "differentPixels": 0,
+        "ratio": 0
+      }
+    ],
+    "worstRows": [
+      {
+        "y": 2574,
+        "count": 1920
+      },
+      {
+        "y": 2575,
+        "count": 1920
+      },
+      {
+        "y": 2576,
+        "count": 1920
+      },
+      {
+        "y": 2577,
+        "count": 1920
+      },
+      {
+        "y": 2578,
+        "count": 1920
+      },
+      {
+        "y": 2579,
+        "count": 1920
+      },
+      {
+        "y": 2580,
+        "count": 1920
+      },
+      {
+        "y": 2581,
+        "count": 1920
+      },
+      {
+        "y": 2582,
+        "count": 1920
+      },
+      {
+        "y": 2583,
+        "count": 1920
+      },
+      {
+        "y": 2584,
+        "count": 1920
+      },
+      {
+        "y": 2585,
+        "count": 1920
+      },
+      {
+        "y": 2586,
+        "count": 1920
+      },
+      {
+        "y": 2587,
+        "count": 1920
+      },
+      {
+        "y": 2588,
+        "count": 1920
+      },
+      {
+        "y": 2589,
+        "count": 1920
+      },
+      {
+        "y": 2590,
+        "count": 1920
+      },
+      {
+        "y": 2591,
+        "count": 1920
+      },
+      {
+        "y": 2592,
+        "count": 1920
+      },
+      {
+        "y": 2593,
+        "count": 1920
+      }
+    ]
+  },
+  "reference": {
+    "path": "references/full/frame-335-591.png",
+    "width": 1920,
+    "height": 2614,
+    "sha256": "b59e9a1ef198557c287a912c1a1fe02cbab29693a20a7e03aafea7cfbe019281"
+  },
+  "rendered": {
+    "path": ".factory-cache/autopilot/visual-1789207506571/contact/rendered.png",
+    "width": 1920,
+    "height": 2574,
+    "sha256": "c971f7177781cf9e423a7e56c07e5e7e3c6ecabdedd2218d4430331988dfe2b2"
+  },
+  "acceptance": {
+    "threshold": 0.085,
+    "pagePassed": false,
+    "sharedPassed": null,
+    "pageErrors": [
+      "page pixel mismatch 10.242%"
+    ],
+    "sharedErrors": [],
+    "skippedOwners": [
+      "header",
+      "footer"
+    ],
+    "note": "Page build readiness can defer shared visual issues. Final acceptance requires both plus independent visual audit. Section ratios remain diagnostics."
+  },
+  "chromeReview": {
+    "skippedOwners": [
+      "header",
+      "footer"
+    ],
+    "reason": "Deferred to representative final shared audit"
+  },
+  "progress": {
+    "deferred": false,
+    "samples": [
+      {
+        "file": "current capture",
+        "implementationHash": "57d53834b50f3109291a4b13e717bc51b45f810b218eb36b0a80783685301960",
+        "capturedAt": "2026-09-12T10:05:09.721Z",
+        "ratio": 0.10242193274205469
+      },
+      {
+        "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789207415677\\summary.json",
+        "implementationHash": "bd70c71c0bb6d05c74b1f0f5524726acfea0f4e08b6f62d71d0f95ca5ff44adf",
+        "capturedAt": "2026-09-12T10:03:38.835Z",
+        "ratio": 0.10242193274205469
+      },
+      {
+        "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789207098532\\summary.json",
+        "implementationHash": "3f9bd392deb6cdd6df6bab7b1a79dc0335df7c9487b5b8aa74376962337ce461",
+        "capturedAt": "2026-09-12T09:58:21.453Z",
+        "ratio": 0.20032243163340724
+      }
+    ],
+    "improvement": 0.09790049889135255,
+    "policy": {
+      "samples": 3,
+      "maxPageMismatch": 0.13,
+      "minImprovement": 0.03
+    },
+    "nonPixelErrors": [],
+    "reason": "Insufficient measured progress across distinct implementations; unresolved visual work belongs to final audit, not PASS."
+  }
+}

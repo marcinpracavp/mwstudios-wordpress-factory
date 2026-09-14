@@ -1,0 +1,20 @@
+product-expanded: PAGE FAIL page pixel mismatch 8.751%; Section geometry differs: product-expanded-description; Section geometry differs: product-related
+product: PAGE PASS 
+product-inquiry: PAGE PASS 
+product-reviews-state: PAGE FAIL Section geometry differs: product-reviews; Section geometry differs: product-related; Section geometry differs: product-legal-notices
+product-files-state: PAGE FAIL page pixel mismatch 8.606%; Section geometry differs: product-files
+product-bundle: PAGE PASS 
+2026-09-12T15:39:46.417Z START build:product [gpt-5.6-terra high] (.factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/049-build-product)
+product-expanded: PAGE FAIL page pixel mismatch 8.751%; Section geometry differs: product-expanded-description; Section geometry differs: product-related
+product: PAGE PASS 
+product-inquiry: PAGE PASS 
+product-reviews-state: PAGE FAIL Section geometry differs: product-reviews; Section geometry differs: product-related; Section geometry differs: product-legal-notices
+product-files-state: DEFERRED TO FINAL page pixel mismatch 8.527%
+product-bundle: PAGE PASS 
+2026-09-12T15:55:16.971Z START build:product [gpt-5.6-terra high] (.factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/050-build-product)
+product-expanded: PAGE FAIL page pixel mismatch 8.751%; Section geometry differs: product-expanded-description; Section geometry differs: product-related
+product: PAGE PASS 
+product-inquiry: PAGE PASS 
+product-reviews-state: PAGE FAIL Section geometry differs: product-reviews; Section geometry differs: product-related; Section geometry differs: product-legal-notices
+product-files-state: DEFERRED TO FINAL page pixel mismatch 8.527%
+product-bundle: PAGE PASS 

@@ -1,0 +1,5 @@
+blog-article: PAGE FAIL Full page dimensions differ; page pixel mismatch 11.706%
+blog-archive: DEFERRED TO FINAL page pixel mismatch 7.585%
+2026-09-12T09:21:36.156Z START build:blog [gpt-5.6-terra high] (.factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/038-build-blog)
+blog-article: PAGE FAIL Full page dimensions differ; page pixel mismatch 11.705%
+blog-archive: DEFERRED TO FINAL page pixel mismatch 7.585%

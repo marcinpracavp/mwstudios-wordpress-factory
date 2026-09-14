@@ -1,0 +1,27 @@
+{
+  "id": "archive-breadcrumbs",
+  "manifestRecord": {
+    "id": "archive-breadcrumbs",
+    "name": "breadcrumbs",
+    "order": 73,
+    "pageId": "0:1",
+    "snapshot": "sections/68-archive-breadcrumbs.json",
+    "desktopNodeId": "295:700",
+    "desktopReference": "references/sections/archive-breadcrumbs.png"
+  },
+  "contentFields": [
+    {
+      "section": "archive-breadcrumbs",
+      "nodeId": "295:700",
+      "fieldName": "rudnikagro_archive_breadcrumbs_295_700",
+      "type": "text",
+      "language": "pl",
+      "value": "Strona główna  /  Środki ochrony Roślin  /  Fungicydy",
+      "destination": "native breadcrumb / WooCommerce category archive",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "295:700"
+      }
+    }
+  ]
+}

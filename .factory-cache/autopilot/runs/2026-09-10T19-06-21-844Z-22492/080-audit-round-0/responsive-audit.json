@@ -1,0 +1,1119 @@
+{
+  "comparison": "comparison-1789330359034",
+  "generatedAt": "2026-09-13T20:22:29.030Z",
+  "routes": [
+    {
+      "id": "careers",
+      "widths": {
+        "375": {
+          "viewportWidth": 375,
+          "documentHeight": 5271,
+          "overflowPx": 1,
+          "fontsReady": true,
+          "title": "Kariera – Safegold",
+          "url": "https://autopilot.local/kariera/"
+        },
+        "390": {
+          "viewportWidth": 390,
+          "documentHeight": 5170,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Kariera – Safegold",
+          "url": "https://autopilot.local/kariera/"
+        },
+        "768": {
+          "viewportWidth": 768,
+          "documentHeight": 4450,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Kariera – Safegold",
+          "url": "https://autopilot.local/kariera/"
+        },
+        "1024": {
+          "viewportWidth": 1024,
+          "documentHeight": 4117,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Kariera – Safegold",
+          "url": "https://autopilot.local/kariera/"
+        },
+        "1280": {
+          "viewportWidth": 1280,
+          "documentHeight": 3845,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Kariera – Safegold",
+          "url": "https://autopilot.local/kariera/"
+        },
+        "1440": {
+          "viewportWidth": 1440,
+          "documentHeight": 3826,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Kariera – Safegold",
+          "url": "https://autopilot.local/kariera/"
+        }
+      }
+    },
+    {
+      "id": "catalogues",
+      "widths": {
+        "375": {
+          "viewportWidth": 375,
+          "documentHeight": 2668,
+          "overflowPx": 1,
+          "fontsReady": true,
+          "title": "Katalogi – Safegold",
+          "url": "https://autopilot.local/katalogi/"
+        },
+        "390": {
+          "viewportWidth": 390,
+          "documentHeight": 2625,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Katalogi – Safegold",
+          "url": "https://autopilot.local/katalogi/"
+        },
+        "768": {
+          "viewportWidth": 768,
+          "documentHeight": 2469,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Katalogi – Safegold",
+          "url": "https://autopilot.local/katalogi/"
+        },
+        "1024": {
+          "viewportWidth": 1024,
+          "documentHeight": 1885,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Katalogi – Safegold",
+          "url": "https://autopilot.local/katalogi/"
+        },
+        "1280": {
+          "viewportWidth": 1280,
+          "documentHeight": 1862,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Katalogi – Safegold",
+          "url": "https://autopilot.local/katalogi/"
+        },
+        "1440": {
+          "viewportWidth": 1440,
+          "documentHeight": 1862,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Katalogi – Safegold",
+          "url": "https://autopilot.local/katalogi/"
+        }
+      }
+    },
+    {
+      "id": "blog-article",
+      "widths": {
+        "375": {
+          "viewportWidth": 375,
+          "documentHeight": 6108,
+          "overflowPx": 1,
+          "fontsReady": true,
+          "title": "Popularne nawozy potasowe i ich zastosowanie w uprawach – Safegold",
+          "url": "https://autopilot.local/popularne-nawozy-potasowe-i-ich-zastosowanie-w-uprawach/"
+        },
+        "390": {
+          "viewportWidth": 390,
+          "documentHeight": 6034,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Popularne nawozy potasowe i ich zastosowanie w uprawach – Safegold",
+          "url": "https://autopilot.local/popularne-nawozy-potasowe-i-ich-zastosowanie-w-uprawach/"
+        },
+        "768": {
+          "viewportWidth": 768,
+          "documentHeight": 5542,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Popularne nawozy potasowe i ich zastosowanie w uprawach – Safegold",
+          "url": "https://autopilot.local/popularne-nawozy-potasowe-i-ich-zastosowanie-w-uprawach/"
+        },
+        "1024": {
+          "viewportWidth": 1024,
+          "documentHeight": 4276,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Popularne nawozy potasowe i ich zastosowanie w uprawach – Safegold",
+          "url": "https://autopilot.local/popularne-nawozy-potasowe-i-ich-zastosowanie-w-uprawach/"
+        },
+        "1280": {
+          "viewportWidth": 1280,
+          "documentHeight": 4065,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Popularne nawozy potasowe i ich zastosowanie w uprawach – Safegold",
+          "url": "https://autopilot.local/popularne-nawozy-potasowe-i-ich-zastosowanie-w-uprawach/"
+        },
+        "1440": {
+          "viewportWidth": 1440,
+          "documentHeight": 3929,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Popularne nawozy potasowe i ich zastosowanie w uprawach – Safegold",
+          "url": "https://autopilot.local/popularne-nawozy-potasowe-i-ich-zastosowanie-w-uprawach/"
+        }
+      }
+    },
+    {
+      "id": "blog-archive",
+      "widths": {
+        "375": {
+          "viewportWidth": 375,
+          "documentHeight": 7806,
+          "overflowPx": 1,
+          "fontsReady": true,
+          "title": "Blog – Safegold",
+          "url": "https://autopilot.local/blog/"
+        },
+        "390": {
+          "viewportWidth": 390,
+          "documentHeight": 7757,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Blog – Safegold",
+          "url": "https://autopilot.local/blog/"
+        },
+        "768": {
+          "viewportWidth": 768,
+          "documentHeight": 10030,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Blog – Safegold",
+          "url": "https://autopilot.local/blog/"
+        },
+        "1024": {
+          "viewportWidth": 1024,
+          "documentHeight": 3777,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Blog – Safegold",
+          "url": "https://autopilot.local/blog/"
+        },
+        "1280": {
+          "viewportWidth": 1280,
+          "documentHeight": 3778,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Blog – Safegold",
+          "url": "https://autopilot.local/blog/"
+        },
+        "1440": {
+          "viewportWidth": 1440,
+          "documentHeight": 3778,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Blog – Safegold",
+          "url": "https://autopilot.local/blog/"
+        }
+      }
+    },
+    {
+      "id": "contact",
+      "widths": {
+        "375": {
+          "viewportWidth": 375,
+          "documentHeight": 3896,
+          "overflowPx": 1,
+          "fontsReady": true,
+          "title": "Kontakt – Safegold",
+          "url": "https://autopilot.local/kontakt/"
+        },
+        "390": {
+          "viewportWidth": 390,
+          "documentHeight": 3896,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Kontakt – Safegold",
+          "url": "https://autopilot.local/kontakt/"
+        },
+        "768": {
+          "viewportWidth": 768,
+          "documentHeight": 3739,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Kontakt – Safegold",
+          "url": "https://autopilot.local/kontakt/"
+        },
+        "1024": {
+          "viewportWidth": 1024,
+          "documentHeight": 2574,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Kontakt – Safegold",
+          "url": "https://autopilot.local/kontakt/"
+        },
+        "1280": {
+          "viewportWidth": 1280,
+          "documentHeight": 2575,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Kontakt – Safegold",
+          "url": "https://autopilot.local/kontakt/"
+        },
+        "1440": {
+          "viewportWidth": 1440,
+          "documentHeight": 2575,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Kontakt – Safegold",
+          "url": "https://autopilot.local/kontakt/"
+        }
+      }
+    },
+    {
+      "id": "about",
+      "widths": {
+        "375": {
+          "viewportWidth": 375,
+          "documentHeight": 6138,
+          "overflowPx": 1,
+          "fontsReady": true,
+          "title": "O nas – Safegold",
+          "url": "https://autopilot.local/o-nas/"
+        },
+        "390": {
+          "viewportWidth": 390,
+          "documentHeight": 5924,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "O nas – Safegold",
+          "url": "https://autopilot.local/o-nas/"
+        },
+        "768": {
+          "viewportWidth": 768,
+          "documentHeight": 4698,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "O nas – Safegold",
+          "url": "https://autopilot.local/o-nas/"
+        },
+        "1024": {
+          "viewportWidth": 1024,
+          "documentHeight": 4231,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "O nas – Safegold",
+          "url": "https://autopilot.local/o-nas/"
+        },
+        "1280": {
+          "viewportWidth": 1280,
+          "documentHeight": 3842,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "O nas – Safegold",
+          "url": "https://autopilot.local/o-nas/"
+        },
+        "1440": {
+          "viewportWidth": 1440,
+          "documentHeight": 3842,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "O nas – Safegold",
+          "url": "https://autopilot.local/o-nas/"
+        }
+      }
+    },
+    {
+      "id": "product",
+      "widths": {
+        "375": {
+          "viewportWidth": 375,
+          "documentHeight": 4852,
+          "overflowPx": 14,
+          "fontsReady": true,
+          "title": "Aquatos 5L – Safegold",
+          "url": "https://autopilot.local/product/aquatos-5l/"
+        },
+        "390": {
+          "viewportWidth": 390,
+          "documentHeight": 4843,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Aquatos 5L – Safegold",
+          "url": "https://autopilot.local/product/aquatos-5l/"
+        },
+        "768": {
+          "viewportWidth": 768,
+          "documentHeight": 4296,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Aquatos 5L – Safegold",
+          "url": "https://autopilot.local/product/aquatos-5l/"
+        },
+        "1024": {
+          "viewportWidth": 1024,
+          "documentHeight": 3605,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Aquatos 5L – Safegold",
+          "url": "https://autopilot.local/product/aquatos-5l/"
+        },
+        "1280": {
+          "viewportWidth": 1280,
+          "documentHeight": 3503,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Aquatos 5L – Safegold",
+          "url": "https://autopilot.local/product/aquatos-5l/"
+        },
+        "1440": {
+          "viewportWidth": 1440,
+          "documentHeight": 3522,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Aquatos 5L – Safegold",
+          "url": "https://autopilot.local/product/aquatos-5l/"
+        }
+      }
+    },
+    {
+      "id": "cart",
+      "widths": {
+        "375": {
+          "viewportWidth": 375,
+          "documentHeight": 2189,
+          "overflowPx": 1,
+          "fontsReady": true,
+          "title": "Cart – Safegold",
+          "url": "https://autopilot.local/koszyk/"
+        },
+        "390": {
+          "viewportWidth": 390,
+          "documentHeight": 2189,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Cart – Safegold",
+          "url": "https://autopilot.local/koszyk/"
+        },
+        "768": {
+          "viewportWidth": 768,
+          "documentHeight": 2120,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Cart – Safegold",
+          "url": "https://autopilot.local/koszyk/"
+        },
+        "1024": {
+          "viewportWidth": 1024,
+          "documentHeight": 1803,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Cart – Safegold",
+          "url": "https://autopilot.local/koszyk/"
+        },
+        "1280": {
+          "viewportWidth": 1280,
+          "documentHeight": 1804,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Cart – Safegold",
+          "url": "https://autopilot.local/koszyk/"
+        },
+        "1440": {
+          "viewportWidth": 1440,
+          "documentHeight": 1804,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Cart – Safegold",
+          "url": "https://autopilot.local/koszyk/"
+        }
+      }
+    },
+    {
+      "id": "checkout",
+      "widths": {
+        "375": {
+          "viewportWidth": 375,
+          "documentHeight": 3836,
+          "overflowPx": 1,
+          "fontsReady": true,
+          "title": "Checkout – Safegold",
+          "url": "https://autopilot.local/zamowienie/"
+        },
+        "390": {
+          "viewportWidth": 390,
+          "documentHeight": 3836,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Checkout – Safegold",
+          "url": "https://autopilot.local/zamowienie/"
+        },
+        "768": {
+          "viewportWidth": 768,
+          "documentHeight": 3742,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Checkout – Safegold",
+          "url": "https://autopilot.local/zamowienie/"
+        },
+        "1024": {
+          "viewportWidth": 1024,
+          "documentHeight": 2885,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Checkout – Safegold",
+          "url": "https://autopilot.local/zamowienie/"
+        },
+        "1280": {
+          "viewportWidth": 1280,
+          "documentHeight": 2886,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Checkout – Safegold",
+          "url": "https://autopilot.local/zamowienie/"
+        },
+        "1440": {
+          "viewportWidth": 1440,
+          "documentHeight": 2886,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Checkout – Safegold",
+          "url": "https://autopilot.local/zamowienie/"
+        }
+      }
+    },
+    {
+      "id": "product-archive",
+      "widths": {
+        "375": {
+          "viewportWidth": 375,
+          "documentHeight": 10814,
+          "overflowPx": 1,
+          "fontsReady": true,
+          "title": "Fungicydy – Safegold",
+          "url": "https://autopilot.local/kategoria-produktu/fungicydy/"
+        },
+        "390": {
+          "viewportWidth": 390,
+          "documentHeight": 10814,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Fungicydy – Safegold",
+          "url": "https://autopilot.local/kategoria-produktu/fungicydy/"
+        },
+        "768": {
+          "viewportWidth": 768,
+          "documentHeight": 10744,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Fungicydy – Safegold",
+          "url": "https://autopilot.local/kategoria-produktu/fungicydy/"
+        },
+        "1024": {
+          "viewportWidth": 1024,
+          "documentHeight": 6642,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Fungicydy – Safegold",
+          "url": "https://autopilot.local/kategoria-produktu/fungicydy/"
+        },
+        "1280": {
+          "viewportWidth": 1280,
+          "documentHeight": 6643,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Fungicydy – Safegold",
+          "url": "https://autopilot.local/kategoria-produktu/fungicydy/"
+        },
+        "1440": {
+          "viewportWidth": 1440,
+          "documentHeight": 6643,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Fungicydy – Safegold",
+          "url": "https://autopilot.local/kategoria-produktu/fungicydy/"
+        }
+      }
+    },
+    {
+      "id": "home",
+      "widths": {
+        "375": {
+          "viewportWidth": 375,
+          "documentHeight": 10873,
+          "overflowPx": 1,
+          "fontsReady": true,
+          "title": "Safegold",
+          "url": "https://autopilot.local/"
+        },
+        "390": {
+          "viewportWidth": 390,
+          "documentHeight": 10837,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Safegold",
+          "url": "https://autopilot.local/"
+        },
+        "768": {
+          "viewportWidth": 768,
+          "documentHeight": 10079,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Safegold",
+          "url": "https://autopilot.local/"
+        },
+        "1024": {
+          "viewportWidth": 1024,
+          "documentHeight": 9006,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Safegold",
+          "url": "https://autopilot.local/"
+        },
+        "1280": {
+          "viewportWidth": 1280,
+          "documentHeight": 8948,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Safegold",
+          "url": "https://autopilot.local/"
+        },
+        "1440": {
+          "viewportWidth": 1440,
+          "documentHeight": 8934,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Safegold",
+          "url": "https://autopilot.local/"
+        }
+      }
+    },
+    {
+      "id": "product-bundle",
+      "widths": {
+        "375": {
+          "viewportWidth": 375,
+          "documentHeight": 4855,
+          "overflowPx": 1,
+          "fontsReady": true,
+          "title": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L – Safegold",
+          "url": "https://autopilot.local/product/pakiet-ochronny-rzepaku-ozimego-12-ha/"
+        },
+        "390": {
+          "viewportWidth": 390,
+          "documentHeight": 4834,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L – Safegold",
+          "url": "https://autopilot.local/product/pakiet-ochronny-rzepaku-ozimego-12-ha/"
+        },
+        "768": {
+          "viewportWidth": 768,
+          "documentHeight": 3914,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L – Safegold",
+          "url": "https://autopilot.local/product/pakiet-ochronny-rzepaku-ozimego-12-ha/"
+        },
+        "1024": {
+          "viewportWidth": 1024,
+          "documentHeight": 3461,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L – Safegold",
+          "url": "https://autopilot.local/product/pakiet-ochronny-rzepaku-ozimego-12-ha/"
+        },
+        "1280": {
+          "viewportWidth": 1280,
+          "documentHeight": 3328,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L – Safegold",
+          "url": "https://autopilot.local/product/pakiet-ochronny-rzepaku-ozimego-12-ha/"
+        },
+        "1440": {
+          "viewportWidth": 1440,
+          "documentHeight": 3328,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L – Safegold",
+          "url": "https://autopilot.local/product/pakiet-ochronny-rzepaku-ozimego-12-ha/"
+        }
+      }
+    },
+    {
+      "id": "account",
+      "widths": {
+        "375": {
+          "viewportWidth": 375,
+          "documentHeight": 2302,
+          "overflowPx": 1,
+          "fontsReady": true,
+          "title": "My account – Safegold",
+          "url": "https://autopilot.local/moje-konto/"
+        },
+        "390": {
+          "viewportWidth": 390,
+          "documentHeight": 2274,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "My account – Safegold",
+          "url": "https://autopilot.local/moje-konto/"
+        },
+        "768": {
+          "viewportWidth": 768,
+          "documentHeight": 2061,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "My account – Safegold",
+          "url": "https://autopilot.local/moje-konto/"
+        },
+        "1024": {
+          "viewportWidth": 1024,
+          "documentHeight": 1524,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "My account – Safegold",
+          "url": "https://autopilot.local/moje-konto/"
+        },
+        "1280": {
+          "viewportWidth": 1280,
+          "documentHeight": 1525,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "My account – Safegold",
+          "url": "https://autopilot.local/moje-konto/"
+        },
+        "1440": {
+          "viewportWidth": 1440,
+          "documentHeight": 1525,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "My account – Safegold",
+          "url": "https://autopilot.local/moje-konto/"
+        }
+      }
+    },
+    {
+      "id": "product-expanded",
+      "widths": {
+        "375": {
+          "viewportWidth": 375,
+          "documentHeight": 14175,
+          "overflowPx": 14,
+          "fontsReady": true,
+          "title": "Aquatos 5L – Safegold",
+          "url": "https://autopilot.local/product/aquatos-5l/#use"
+        },
+        "390": {
+          "viewportWidth": 390,
+          "documentHeight": 13389,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Aquatos 5L – Safegold",
+          "url": "https://autopilot.local/product/aquatos-5l/#use"
+        },
+        "768": {
+          "viewportWidth": 768,
+          "documentHeight": 7629,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Aquatos 5L – Safegold",
+          "url": "https://autopilot.local/product/aquatos-5l/#use"
+        },
+        "1024": {
+          "viewportWidth": 1024,
+          "documentHeight": 6805,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Aquatos 5L – Safegold",
+          "url": "https://autopilot.local/product/aquatos-5l/#use"
+        },
+        "1280": {
+          "viewportWidth": 1280,
+          "documentHeight": 6338,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Aquatos 5L – Safegold",
+          "url": "https://autopilot.local/product/aquatos-5l/#use"
+        },
+        "1440": {
+          "viewportWidth": 1440,
+          "documentHeight": 6210,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Aquatos 5L – Safegold",
+          "url": "https://autopilot.local/product/aquatos-5l/#use"
+        }
+      }
+    },
+    {
+      "id": "product-inquiry",
+      "widths": {
+        "375": {
+          "viewportWidth": 375,
+          "documentHeight": 4899,
+          "overflowPx": 14,
+          "fontsReady": true,
+          "title": "Aquatos 5L – Safegold",
+          "url": "https://autopilot.local/product/aquatos-5l/"
+        },
+        "390": {
+          "viewportWidth": 390,
+          "documentHeight": 4890,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Aquatos 5L – Safegold",
+          "url": "https://autopilot.local/product/aquatos-5l/"
+        },
+        "768": {
+          "viewportWidth": 768,
+          "documentHeight": 4295,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Aquatos 5L – Safegold",
+          "url": "https://autopilot.local/product/aquatos-5l/"
+        },
+        "1024": {
+          "viewportWidth": 1024,
+          "documentHeight": 3630,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Aquatos 5L – Safegold",
+          "url": "https://autopilot.local/product/aquatos-5l/"
+        },
+        "1280": {
+          "viewportWidth": 1280,
+          "documentHeight": 3479,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Aquatos 5L – Safegold",
+          "url": "https://autopilot.local/product/aquatos-5l/"
+        },
+        "1440": {
+          "viewportWidth": 1440,
+          "documentHeight": 3474,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Aquatos 5L – Safegold",
+          "url": "https://autopilot.local/product/aquatos-5l/"
+        }
+      }
+    },
+    {
+      "id": "order-confirmed",
+      "widths": {
+        "375": {
+          "viewportWidth": 375,
+          "documentHeight": 1268,
+          "overflowPx": 1,
+          "fontsReady": true,
+          "title": "Zamówienie otrzymane – Safegold",
+          "url": "https://autopilot.local/zamowienie/order-received/"
+        },
+        "390": {
+          "viewportWidth": 390,
+          "documentHeight": 1268,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Zamówienie otrzymane – Safegold",
+          "url": "https://autopilot.local/zamowienie/order-received/"
+        },
+        "768": {
+          "viewportWidth": 768,
+          "documentHeight": 1199,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Zamówienie otrzymane – Safegold",
+          "url": "https://autopilot.local/zamowienie/order-received/"
+        },
+        "1024": {
+          "viewportWidth": 1024,
+          "documentHeight": 900,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Zamówienie otrzymane – Safegold",
+          "url": "https://autopilot.local/zamowienie/order-received/"
+        },
+        "1280": {
+          "viewportWidth": 1280,
+          "documentHeight": 900,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Zamówienie otrzymane – Safegold",
+          "url": "https://autopilot.local/zamowienie/order-received/"
+        },
+        "1440": {
+          "viewportWidth": 1440,
+          "documentHeight": 900,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Zamówienie otrzymane – Safegold",
+          "url": "https://autopilot.local/zamowienie/order-received/"
+        }
+      }
+    },
+    {
+      "id": "checkout-login",
+      "widths": {
+        "375": {
+          "viewportWidth": 375,
+          "documentHeight": 2486,
+          "overflowPx": 1,
+          "fontsReady": true,
+          "title": "Checkout – Safegold",
+          "url": "https://autopilot.local/zamowienie/"
+        },
+        "390": {
+          "viewportWidth": 390,
+          "documentHeight": 2486,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Checkout – Safegold",
+          "url": "https://autopilot.local/zamowienie/"
+        },
+        "768": {
+          "viewportWidth": 768,
+          "documentHeight": 2347,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Checkout – Safegold",
+          "url": "https://autopilot.local/zamowienie/"
+        },
+        "1024": {
+          "viewportWidth": 1024,
+          "documentHeight": 1737,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Checkout – Safegold",
+          "url": "https://autopilot.local/zamowienie/"
+        },
+        "1280": {
+          "viewportWidth": 1280,
+          "documentHeight": 1738,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Checkout – Safegold",
+          "url": "https://autopilot.local/zamowienie/"
+        },
+        "1440": {
+          "viewportWidth": 1440,
+          "documentHeight": 1738,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Checkout – Safegold",
+          "url": "https://autopilot.local/zamowienie/"
+        }
+      }
+    },
+    {
+      "id": "checkout-registration",
+      "widths": {
+        "375": {
+          "viewportWidth": 375,
+          "documentHeight": 2486,
+          "overflowPx": 1,
+          "fontsReady": true,
+          "title": "Checkout – Safegold",
+          "url": "https://autopilot.local/zamowienie/"
+        },
+        "390": {
+          "viewportWidth": 390,
+          "documentHeight": 2486,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Checkout – Safegold",
+          "url": "https://autopilot.local/zamowienie/"
+        },
+        "768": {
+          "viewportWidth": 768,
+          "documentHeight": 2347,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Checkout – Safegold",
+          "url": "https://autopilot.local/zamowienie/"
+        },
+        "1024": {
+          "viewportWidth": 1024,
+          "documentHeight": 1737,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Checkout – Safegold",
+          "url": "https://autopilot.local/zamowienie/"
+        },
+        "1280": {
+          "viewportWidth": 1280,
+          "documentHeight": 1738,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Checkout – Safegold",
+          "url": "https://autopilot.local/zamowienie/"
+        },
+        "1440": {
+          "viewportWidth": 1440,
+          "documentHeight": 1738,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Checkout – Safegold",
+          "url": "https://autopilot.local/zamowienie/"
+        }
+      }
+    },
+    {
+      "id": "product-reviews-state",
+      "widths": {
+        "375": {
+          "viewportWidth": 375,
+          "documentHeight": 4489,
+          "overflowPx": 14,
+          "fontsReady": true,
+          "title": "Aquatos 5L – Safegold",
+          "url": "https://autopilot.local/product/aquatos-5l/#reviews"
+        },
+        "390": {
+          "viewportWidth": 390,
+          "documentHeight": 4458,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Aquatos 5L – Safegold",
+          "url": "https://autopilot.local/product/aquatos-5l/#reviews"
+        },
+        "768": {
+          "viewportWidth": 768,
+          "documentHeight": 4154,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Aquatos 5L – Safegold",
+          "url": "https://autopilot.local/product/aquatos-5l/#reviews"
+        },
+        "1024": {
+          "viewportWidth": 1024,
+          "documentHeight": 3985,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Aquatos 5L – Safegold",
+          "url": "https://autopilot.local/product/aquatos-5l/#reviews"
+        },
+        "1280": {
+          "viewportWidth": 1280,
+          "documentHeight": 3527,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Aquatos 5L – Safegold",
+          "url": "https://autopilot.local/product/aquatos-5l/#reviews"
+        },
+        "1440": {
+          "viewportWidth": 1440,
+          "documentHeight": 3522,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Aquatos 5L – Safegold",
+          "url": "https://autopilot.local/product/aquatos-5l/#reviews"
+        }
+      }
+    },
+    {
+      "id": "product-files-state",
+      "widths": {
+        "375": {
+          "viewportWidth": 375,
+          "documentHeight": 4105,
+          "overflowPx": 14,
+          "fontsReady": true,
+          "title": "Aquatos 5L – Safegold",
+          "url": "https://autopilot.local/product/aquatos-5l/#downloads"
+        },
+        "390": {
+          "viewportWidth": 390,
+          "documentHeight": 4096,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Aquatos 5L – Safegold",
+          "url": "https://autopilot.local/product/aquatos-5l/#downloads"
+        },
+        "768": {
+          "viewportWidth": 768,
+          "documentHeight": 3932,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Aquatos 5L – Safegold",
+          "url": "https://autopilot.local/product/aquatos-5l/#downloads"
+        },
+        "1024": {
+          "viewportWidth": 1024,
+          "documentHeight": 3544,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Aquatos 5L – Safegold",
+          "url": "https://autopilot.local/product/aquatos-5l/#downloads"
+        },
+        "1280": {
+          "viewportWidth": 1280,
+          "documentHeight": 3503,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Aquatos 5L – Safegold",
+          "url": "https://autopilot.local/product/aquatos-5l/#downloads"
+        },
+        "1440": {
+          "viewportWidth": 1440,
+          "documentHeight": 3522,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Aquatos 5L – Safegold",
+          "url": "https://autopilot.local/product/aquatos-5l/#downloads"
+        }
+      }
+    },
+    {
+      "id": "home-active",
+      "widths": {
+        "375": {
+          "viewportWidth": 375,
+          "documentHeight": 10873,
+          "overflowPx": 1,
+          "fontsReady": true,
+          "title": "Safegold",
+          "url": "https://autopilot.local/"
+        },
+        "390": {
+          "viewportWidth": 390,
+          "documentHeight": 10837,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Safegold",
+          "url": "https://autopilot.local/"
+        },
+        "768": {
+          "viewportWidth": 768,
+          "documentHeight": 10079,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Safegold",
+          "url": "https://autopilot.local/"
+        },
+        "1024": {
+          "viewportWidth": 1024,
+          "documentHeight": 9006,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Safegold",
+          "url": "https://autopilot.local/"
+        },
+        "1280": {
+          "viewportWidth": 1280,
+          "documentHeight": 8948,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Safegold",
+          "url": "https://autopilot.local/"
+        },
+        "1440": {
+          "viewportWidth": 1440,
+          "documentHeight": 8934,
+          "overflowPx": 0,
+          "fontsReady": true,
+          "title": "Safegold",
+          "url": "https://autopilot.local/"
+        }
+      }
+    }
+  ]
+}

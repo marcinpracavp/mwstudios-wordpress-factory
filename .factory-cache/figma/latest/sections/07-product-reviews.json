@@ -1,0 +1,608 @@
+{
+  "id": "product-reviews",
+  "name": "szczegóły",
+  "order": 7,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "425:636"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 240,
+    "y": 1097,
+    "width": 1440,
+    "height": 446
+  },
+  "layout": {
+    "type": "native-commerce",
+    "subnodes": [
+      {
+        "nodeId": "425:637",
+        "type": "VECTOR",
+        "visible": true,
+        "geometry": {
+          "x": 240,
+          "y": 1173,
+          "width": 1440,
+          "height": 370
+        }
+      },
+      {
+        "nodeId": "425:638",
+        "type": "GROUP",
+        "visible": true,
+        "geometry": {
+          "x": 240,
+          "y": 1097,
+          "width": 1440,
+          "height": 58
+        }
+      },
+      {
+        "nodeId": "425:645",
+        "type": "TEXT",
+        "visible": true,
+        "geometry": {
+          "x": 970,
+          "y": 1173,
+          "width": 588,
+          "height": 370
+        }
+      },
+      {
+        "nodeId": "429:842",
+        "type": "TEXT",
+        "visible": true,
+        "geometry": {
+          "x": 1092,
+          "y": 1173,
+          "width": 466,
+          "height": 174
+        }
+      },
+      {
+        "nodeId": "429:836",
+        "type": "STAR",
+        "visible": true,
+        "geometry": {
+          "x": 968,
+          "y": 1248,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "nodeId": "429:837",
+        "type": "STAR",
+        "visible": true,
+        "geometry": {
+          "x": 988,
+          "y": 1248,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "nodeId": "429:838",
+        "type": "STAR",
+        "visible": true,
+        "geometry": {
+          "x": 1008,
+          "y": 1248,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "nodeId": "429:839",
+        "type": "STAR",
+        "visible": true,
+        "geometry": {
+          "x": 1028,
+          "y": 1248,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "nodeId": "429:840",
+        "type": "STAR",
+        "visible": true,
+        "geometry": {
+          "x": 1048,
+          "y": 1248,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "nodeId": "428:835",
+        "type": "TEXT",
+        "visible": true,
+        "geometry": {
+          "x": 362,
+          "y": 1235,
+          "width": 81,
+          "height": 67
+        }
+      }
+    ],
+    "designContextRead": true
+  },
+  "typography": [
+    {
+      "nodeId": "425:640",
+      "value": "Opis produktu",
+      "geometry": {
+        "x": 484,
+        "y": 1097,
+        "width": 223,
+        "height": 58
+      },
+      "segments": [
+        {
+          "characters": "Opis produktu",
+          "start": 0,
+          "end": 13,
+          "fontSize": 18,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 700,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "nodeId": "425:641",
+      "value": "Opinie",
+      "geometry": {
+        "x": 970,
+        "y": 1097,
+        "width": 223,
+        "height": 58
+      },
+      "segments": [
+        {
+          "characters": "Opinie",
+          "start": 0,
+          "end": 6,
+          "fontSize": 18,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 700,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "nodeId": "425:642",
+      "value": "Dane techniczne",
+      "geometry": {
+        "x": 240,
+        "y": 1100,
+        "width": 223,
+        "height": 55
+      },
+      "segments": [
+        {
+          "characters": "Dane techniczne",
+          "start": 0,
+          "end": 15,
+          "fontSize": 18,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 700,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "nodeId": "425:643",
+      "value": "Stosowanie",
+      "geometry": {
+        "x": 727,
+        "y": 1097,
+        "width": 223,
+        "height": 58
+      },
+      "segments": [
+        {
+          "characters": "Stosowanie",
+          "start": 0,
+          "end": 10,
+          "fontSize": 18,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 700,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "nodeId": "576:553",
+      "value": "Pliki do pobrania",
+      "geometry": {
+        "x": 1214,
+        "y": 1097,
+        "width": 223,
+        "height": 58
+      },
+      "segments": [
+        {
+          "characters": "Pliki do pobrania",
+          "start": 0,
+          "end": 17,
+          "fontSize": 18,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 700,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "nodeId": "425:645",
+      "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat. Duis aute irure dolor in reprehenderit in voluptate  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint  occaecat cupidatat non proident, sunt in culpa qui officia deserunt  mollit anim id est laborum.",
+      "geometry": {
+        "x": 970,
+        "y": 1173,
+        "width": 588,
+        "height": 370
+      },
+      "segments": [
+        {
+          "characters": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat. Duis aute irure dolor in reprehenderit in voluptate  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint  occaecat cupidatat non proident, sunt in culpa qui officia deserunt  mollit anim id est laborum.",
+          "start": 0,
+          "end": 451,
+          "fontSize": 16,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 400,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "nodeId": "429:842",
+      "value": "30 lipca 2026",
+      "geometry": {
+        "x": 1092,
+        "y": 1173,
+        "width": 466,
+        "height": 174
+      },
+      "segments": [
+        {
+          "characters": "30 lipca 2026",
+          "start": 0,
+          "end": 13,
+          "fontSize": 14,
+          "fontName": {
+            "family": "Inter",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "slnt": 0
+            }
+          },
+          "fontWeight": 400,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "nodeId": "428:835",
+      "value": "4,41 / 5\n(190 ocen)",
+      "geometry": {
+        "x": 362,
+        "y": 1235,
+        "width": 81,
+        "height": 67
+      },
+      "segments": [
+        {
+          "characters": "4,41",
+          "start": 0,
+          "end": 4,
+          "fontSize": 32,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 400,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        },
+        {
+          "characters": " / 5\n",
+          "start": 4,
+          "end": 9,
+          "fontSize": 18,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 400,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        },
+        {
+          "characters": "(190 ocen)",
+          "start": 9,
+          "end": 19,
+          "fontSize": 14,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 400,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 26
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "notes": [
+    "Node 425:645 contains Lorem ipsum. Do not import it as a real customer review or invent review authors and ratings.",
+    "Remaining local image/icon bytes and their exact source mapping require capture before offline handoff.",
+    "Visual source facts were reconfirmed against the assigned Figma node in detail-product discovery."
+  ],
+  "liveFigmaRequired": false
+}

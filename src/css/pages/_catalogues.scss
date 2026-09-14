@@ -1,0 +1,81 @@
+@use 'abstracts' as *;
+
+.c-catalogues-downloads__grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+@include media($breakpoint-xl, min) {
+  .c-catalogues-downloads {
+    margin-left: calc((100% - 1440px) / 2);
+    margin-right: 0;
+    max-width: calc(100% - 40px);
+    width: 1444px;
+  }
+
+  .c-catalogues-downloads__grid { max-width: 1440px; }
+}
+
+.c-catalogue-card {
+  color: $white;
+  height: 357px;
+  overflow: visible;
+  position: relative;
+
+  &::before {
+    background-color: #006633;
+    background-image: linear-gradient(180deg, rgba(0, 102, 51, 0), rgba(0, 102, 51, .8)), linear-gradient(rgba(0, 102, 51, .85), rgba(0, 102, 51, .85)), var(--catalogue-background);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    content: '';
+    inset: 37px 0 0;
+    position: absolute;
+  }
+
+  &:nth-child(even)::before {
+    background-color: #eb682f;
+    background-image: linear-gradient(180deg, rgba(235, 104, 47, 0), rgba(235, 104, 47, .8)), linear-gradient(rgba(235, 104, 47, .85), rgba(235, 104, 47, .85)), var(--catalogue-background);
+  }
+
+  &__content { padding: 97px 69px; position: relative; z-index: 1; }
+  h2 { font-size: 36px; font-weight: 700; line-height: 1; margin: 0 0 26px; }
+  &__action { align-items: center; color: inherit; display: flex; font-size: 18px; font-weight: 700; gap: 20px; line-height: 24px; margin-top: 35px; text-decoration: none; }
+  &__action + &__action { margin-top: 36px; }
+  &__action i { flex: 0 0 26px; font-size: 0; height: 32px; position: relative; width: 26px; }
+  &__action .fa-file-arrow-down { border: 2px solid currentColor; border-radius: 1px; height: 30px; width: 23px; }
+  &__action .fa-file-arrow-down::before { border: solid currentColor; border-width: 0 2px 2px 0; content: ''; height: 7px; left: 7px; position: absolute; top: 11px; transform: rotate(45deg); width: 7px; }
+  &__action .fa-file-arrow-down::after { background: currentColor; content: ''; height: 13px; left: 11px; position: absolute; top: 5px; width: 2px; }
+  &__action .fa-book-open::before, &__action .fa-book-open::after { border: 2px solid currentColor; content: ''; height: 25px; position: absolute; top: 3px; width: 12px; }
+  &__action .fa-book-open::before { border-radius: 1px 0 0 1px; left: 0; transform: skewY(-10deg); }
+  &__action .fa-book-open::after { border-left: 0; border-radius: 0 1px 1px 0; right: 0; transform: skewY(10deg); }
+  &__cover { height: 347px; position: absolute; right: 7px; top: 1px; width: 299px; z-index: 2; }
+  &__cover img { display: block; height: 100%; object-fit: contain; width: 100%; }
+
+  &:nth-child(even) &__cover { height: 343px; right: 3px; top: 0; width: 293px; }
+}
+
+.c-shop-cta { background: linear-gradient(100deg, #006633 0%, #087735 52%, #a5d20f 100%); border-radius: 30px; color: $white; margin: 142px auto 40px; max-width: 1840px; min-height: 230px; width: calc(100% - 72px); }
+.c-shop-cta__inner { align-items: center; display: flex; justify-content: space-between; min-height: 230px; padding: 30px 0 30px 7px; }
+.c-shop-cta h2 { font-size: 48px; font-weight: 700; line-height: 1.35; margin: 0; max-width: 780px; }
+.c-shop-cta__button { align-items: center; border: 1px solid currentColor; border-radius: 30px; color: inherit; display: inline-flex; font-size: 16px; font-weight: 700; justify-content: center; min-height: 44px; min-width: 224px; padding: 0 24px; text-decoration: none; }
+
+@include media($breakpoint-lg) {
+  .c-catalogue-card__content { padding-inline: 42px; }
+  .c-catalogue-card__cover { opacity: .62; right: 0; }
+  .c-shop-cta__inner { padding-inline: 80px; }
+}
+
+@include media($breakpoint-sm) {
+  .c-catalogues-downloads__grid { grid-template-columns: 1fr; }
+  .c-catalogue-card { height: 330px; }
+  .c-catalogue-card::before { inset-block-start: 22px; }
+  .c-catalogue-card__content { padding: 46px 30px; }
+  .c-catalogue-card h2 { font-size: 30px; }
+  .c-catalogue-card__action { font-size: 16px; margin-top: 16px; }
+  .c-catalogue-card__cover { height: 310px; opacity: .42; width: 267px; }
+  .c-shop-cta { border-radius: 20px; margin-top: 50px; width: calc(100% - 40px); }
+  .c-shop-cta__inner { align-items: flex-start; flex-direction: column; gap: 30px; min-height: 0; padding: 44px 30px; }
+  .c-shop-cta h2 { font-size: 32px; }
+}

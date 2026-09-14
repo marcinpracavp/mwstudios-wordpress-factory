@@ -1,0 +1,27 @@
+{
+  "task": {
+    "id": "careers"
+  },
+  "sourceContext": {
+    "version": 1,
+    "available": true,
+    "index": {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/024-build-careers/source-context/index.json",
+      "bytes": 1405,
+      "sha256": "79b86c5d29aede3f648ffc74e1ae0bd40e7bbd243d367b618bb7de6364292370"
+    }
+  },
+  "model": "gpt-5.6-terra",
+  "reasoningEffort": "high",
+  "continuation": "new task",
+  "previousExecution": null,
+  "snapshot": ".factory-cache/figma/latest",
+  "observations": ".factory-cache/figma/latest/observations/index.json",
+  "plans": [
+    "docs/factory/project/PLAN.md",
+    "docs/factory/project/STATUS.md",
+    "docs/factory/project/SOURCE_CLARIFICATIONS.md"
+  ],
+  "currentGate": null,
+  "instruction": "Inspect the current gate and finish only remaining assigned work. Reuse real saved source facts and assets."
+}

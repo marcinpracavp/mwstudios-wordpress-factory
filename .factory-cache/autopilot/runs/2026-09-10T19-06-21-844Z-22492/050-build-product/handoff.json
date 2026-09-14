@@ -1,0 +1,571 @@
+{
+  "task": {
+    "id": "product"
+  },
+  "sourceContext": {
+    "version": 5,
+    "available": true,
+    "index": {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/050-build-product/source-context/index.json",
+      "bytes": 1496,
+      "sha256": "306883bb4aa6b2e5383d0c15a32555ecdc05961ddd1a6f6793967f503825ab42"
+    }
+  },
+  "model": "gpt-5.6-terra",
+  "reasoningEffort": "high",
+  "continuation": "fresh session using persisted artifacts; do not load historical conversation",
+  "previousExecution": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/049-build-product/execution.json",
+  "previousResult": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/049-build-product/result.json",
+  "correctionFocus": [
+    {
+      "evidence": {
+        "path": ".factory-cache/autopilot/visual-1789228249992/product-files-state/comparison.json",
+        "bytes": 20130,
+        "sha256": "d70ce7fb9ca787c9c30217fa6f2458a25a9d6dc310891142f963829553eea11d"
+      },
+      "route": "product-files-state",
+      "capturedAt": "2026-09-12T15:50:52.407Z",
+      "ownership": {
+        "header": {
+          "pixels": 372480,
+          "differentPixels": 21869,
+          "ratio": 0.05871187714776632
+        },
+        "footer": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "shared": {
+          "pixels": 504100,
+          "differentPixels": 87263,
+          "ratio": 0.1731065264828407
+        },
+        "page": {
+          "pixels": 4019420,
+          "differentPixels": 342739,
+          "ratio": 0.08527076045797652
+        },
+        "outside": {
+          "pixels": 1493760,
+          "differentPixels": 870761,
+          "ratio": 0.5829323318337618
+        }
+      },
+      "fullMismatch": 0.20699243790064104,
+      "sections": [
+        {
+          "id": "product-legal-notices",
+          "pixelMismatch": 0.304408633372048,
+          "geometryPassed": true,
+          "geometryDelta": {
+            "x": 0,
+            "y": 0.75,
+            "width": 0,
+            "height": 0
+          },
+          "approximateDifferentPixels": 125806
+        },
+        {
+          "id": "product-overview",
+          "pixelMismatch": 0.15168785296837797,
+          "geometryPassed": true,
+          "geometryDelta": {
+            "x": 2,
+            "y": 0,
+            "width": -2,
+            "height": 0
+          },
+          "approximateDifferentPixels": 61669
+        },
+        {
+          "id": "product-related",
+          "pixelMismatch": 0.14362490733876945,
+          "geometryPassed": true,
+          "geometryDelta": {
+            "x": 0,
+            "y": 0.75,
+            "width": 0,
+            "height": 0
+          },
+          "approximateDifferentPixels": 58125
+        },
+        {
+          "id": "product-files",
+          "pixelMismatch": 0.0854979035639413,
+          "geometryPassed": true,
+          "geometryDelta": {
+            "x": 0,
+            "y": -1.25,
+            "width": 0,
+            "height": 1
+          },
+          "approximateDifferentPixels": 32626
+        },
+        {
+          "id": "product-breadcrumbs",
+          "pixelMismatch": 0.0749437570303712,
+          "geometryPassed": true,
+          "geometryDelta": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "approximateDifferentPixels": 2665
+        }
+      ],
+      "instruction": "Historical priority only: confirm current screenshots first. Start with the section contributing the most different pixels, inspect its exact pair/crops and internal element typography/borders/images, then correct and recapture. Passing outer geometry does not prove matching inner content. Nested section counts overlap; do not sum them. Keep source references and acceptance thresholds unchanged."
+    },
+    {
+      "evidence": {
+        "path": ".factory-cache/autopilot/visual-1789228348813/product-expanded/comparison.json",
+        "bytes": 22376,
+        "sha256": "ab92032bbe74387aa5b70971d7287f3cfa5342c687e43abc32e661ce237b683a"
+      },
+      "route": "product-expanded",
+      "capturedAt": "2026-09-12T15:52:31.349Z",
+      "ownership": {
+        "header": {
+          "pixels": 372480,
+          "differentPixels": 21865,
+          "ratio": 0.0587011383161512
+        },
+        "footer": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "shared": {
+          "pixels": 1215460,
+          "differentPixels": 196312,
+          "ratio": 0.16151251378079082
+        },
+        "page": {
+          "pixels": 6483740,
+          "differentPixels": 567386,
+          "ratio": 0.08750906112829941
+        },
+        "outside": {
+          "pixels": 3507840,
+          "differentPixels": 1729829,
+          "ratio": 0.4931322409231892
+        }
+      },
+      "fullMismatch": 0.21722765710495773,
+      "sections": [
+        {
+          "id": "product-expanded-description",
+          "pixelMismatch": 0.1596386117424221,
+          "geometryPassed": false,
+          "geometryDelta": {
+            "x": 0,
+            "y": -0.25,
+            "width": 0,
+            "height": -331
+          },
+          "approximateDifferentPixels": 568392
+        },
+        {
+          "id": "product-related",
+          "pixelMismatch": 0.21176921176179886,
+          "geometryPassed": false,
+          "geometryDelta": {
+            "x": 0,
+            "y": 2316.75,
+            "width": 0,
+            "height": 0
+          },
+          "approximateDifferentPixels": 85703
+        },
+        {
+          "id": "product-overview",
+          "pixelMismatch": 0.1635510340620634,
+          "geometryPassed": true,
+          "geometryDelta": {
+            "x": 2,
+            "y": 0,
+            "width": -2,
+            "height": 0
+          },
+          "approximateDifferentPixels": 66492
+        },
+        {
+          "id": "product-legal-notices",
+          "pixelMismatch": 0.15082510646535036,
+          "geometryPassed": false,
+          "geometryDelta": {
+            "x": 0,
+            "y": 2316.75,
+            "width": 0,
+            "height": 0
+          },
+          "approximateDifferentPixels": 62333
+        },
+        {
+          "id": "product-breadcrumbs",
+          "pixelMismatch": 0.0749437570303712,
+          "geometryPassed": true,
+          "geometryDelta": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "approximateDifferentPixels": 2665
+        }
+      ],
+      "instruction": "Historical priority only: confirm current screenshots first. Start with the section contributing the most different pixels, inspect its exact pair/crops and internal element typography/borders/images, then correct and recapture. Passing outer geometry does not prove matching inner content. Nested section counts overlap; do not sum them. Keep source references and acceptance thresholds unchanged."
+    },
+    {
+      "evidence": {
+        "path": ".factory-cache/autopilot/visual-1789228326058/product-reviews-state/comparison.json",
+        "bytes": 20599,
+        "sha256": "e6f482dc7ee0abd8f01dbb6416f3d943be76273cbdf18d1453865fc878b23e84"
+      },
+      "route": "product-reviews-state",
+      "capturedAt": "2026-09-12T15:52:08.426Z",
+      "ownership": {
+        "header": {
+          "pixels": 372480,
+          "differentPixels": 21869,
+          "ratio": 0.05871187714776632
+        },
+        "footer": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "shared": {
+          "pixels": 504100,
+          "differentPixels": 87263,
+          "ratio": 0.1731065264828407
+        },
+        "page": {
+          "pixels": 4019420,
+          "differentPixels": 277654,
+          "ratio": 0.06907812569972782
+        },
+        "outside": {
+          "pixels": 1946880,
+          "differentPixels": 1191744,
+          "ratio": 0.6121301775147929
+        }
+      },
+      "fullMismatch": 0.230682110456416,
+      "sections": [
+        {
+          "id": "product-reviews",
+          "pixelMismatch": 0.13008065520677628,
+          "geometryPassed": false,
+          "geometryDelta": {
+            "x": 0,
+            "y": 54.75,
+            "width": 0,
+            "height": 227.90625
+          },
+          "approximateDifferentPixels": 83543
+        },
+        {
+          "id": "product-related",
+          "pixelMismatch": 0.16917716827279466,
+          "geometryPassed": false,
+          "geometryDelta": {
+            "x": 0,
+            "y": 236.65625,
+            "width": 0,
+            "height": 0
+          },
+          "approximateDifferentPixels": 68466
+        },
+        {
+          "id": "product-overview",
+          "pixelMismatch": 0.15168785296837797,
+          "geometryPassed": true,
+          "geometryDelta": {
+            "x": 2,
+            "y": 0,
+            "width": -2,
+            "height": 0
+          },
+          "approximateDifferentPixels": 61669
+        },
+        {
+          "id": "product-legal-notices",
+          "pixelMismatch": 0.09664634146341464,
+          "geometryPassed": false,
+          "geometryDelta": {
+            "x": 0,
+            "y": 236.65625,
+            "width": 0,
+            "height": 0
+          },
+          "approximateDifferentPixels": 39942
+        },
+        {
+          "id": "product-breadcrumbs",
+          "pixelMismatch": 0.0749437570303712,
+          "geometryPassed": true,
+          "geometryDelta": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "approximateDifferentPixels": 2665
+        }
+      ],
+      "instruction": "Historical priority only: confirm current screenshots first. Start with the section contributing the most different pixels, inspect its exact pair/crops and internal element typography/borders/images, then correct and recapture. Passing outer geometry does not prove matching inner content. Nested section counts overlap; do not sum them. Keep source references and acceptance thresholds unchanged."
+    }
+  ],
+  "currentPageVerification": {
+    "routes": [
+      {
+        "id": "product-expanded",
+        "passed": false,
+        "pagePassed": false,
+        "ownership": {
+          "header": {
+            "pixels": 372480,
+            "differentPixels": 21865,
+            "ratio": 0.0587011383161512
+          },
+          "footer": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "shared": {
+            "pixels": 1215460,
+            "differentPixels": 196312,
+            "ratio": 0.16151251378079082
+          },
+          "page": {
+            "pixels": 6483740,
+            "differentPixels": 567386,
+            "ratio": 0.08750906112829941
+          },
+          "outside": {
+            "pixels": 3507840,
+            "differentPixels": 1729829,
+            "ratio": 0.4931322409231892
+          }
+        },
+        "errors": [
+          "page pixel mismatch 8.751%",
+          "Section geometry differs: product-expanded-description",
+          "Section geometry differs: product-related",
+          "Section geometry differs: product-legal-notices",
+          "shared pixel mismatch 16.151%",
+          "Shared component pixel mismatch product-gallery: 17.311%",
+          "Shared component pixel mismatch product-tabs: 15.330%",
+          "Section geometry differs: product-tabs"
+        ],
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/049-build-product/build-readiness/product-expanded/product-expanded/comparison.json"
+      },
+      {
+        "id": "product",
+        "passed": false,
+        "pagePassed": true,
+        "ownership": {
+          "header": {
+            "pixels": 372480,
+            "differentPixels": 21869,
+            "ratio": 0.05871187714776632
+          },
+          "footer": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "shared": {
+            "pixels": 1215460,
+            "differentPixels": 172140,
+            "ratio": 0.14162539285537987
+          },
+          "page": {
+            "pixels": 3308060,
+            "differentPixels": 188999,
+            "ratio": 0.05713288150759055
+          },
+          "outside": {
+            "pixels": 1493760,
+            "differentPixels": 110781,
+            "ratio": 0.07416251606683805
+          }
+        },
+        "errors": [
+          "shared pixel mismatch 14.163%",
+          "Shared component pixel mismatch product-gallery: 17.311%",
+          "Shared component pixel mismatch product-tabs: 11.932%"
+        ],
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/049-build-product/build-readiness/product/product/comparison.json"
+      },
+      {
+        "id": "product-inquiry",
+        "passed": false,
+        "pagePassed": true,
+        "ownership": {
+          "header": {
+            "pixels": 372480,
+            "differentPixels": 21869,
+            "ratio": 0.05871187714776632
+          },
+          "footer": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "shared": {
+            "pixels": 1215460,
+            "differentPixels": 223513,
+            "ratio": 0.18389169532522667
+          },
+          "page": {
+            "pixels": 3308060,
+            "differentPixels": 198832,
+            "ratio": 0.06010531852505698
+          },
+          "outside": {
+            "pixels": 1626240,
+            "differentPixels": 510857,
+            "ratio": 0.31413383018496654
+          }
+        },
+        "errors": [
+          "shared pixel mismatch 18.389%",
+          "Shared component pixel mismatch product-gallery: 17.334%",
+          "Shared component pixel mismatch product-tabs: 19.137%"
+        ],
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/049-build-product/build-readiness/product-inquiry/product-inquiry/comparison.json"
+      },
+      {
+        "id": "product-reviews-state",
+        "passed": false,
+        "pagePassed": false,
+        "ownership": {
+          "header": {
+            "pixels": 372480,
+            "differentPixels": 21869,
+            "ratio": 0.05871187714776632
+          },
+          "footer": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "shared": {
+            "pixels": 504100,
+            "differentPixels": 87263,
+            "ratio": 0.1731065264828407
+          },
+          "page": {
+            "pixels": 4019420,
+            "differentPixels": 277654,
+            "ratio": 0.06907812569972782
+          },
+          "outside": {
+            "pixels": 1946880,
+            "differentPixels": 1191744,
+            "ratio": 0.6121301775147929
+          }
+        },
+        "errors": [
+          "Section geometry differs: product-reviews",
+          "Section geometry differs: product-related",
+          "Section geometry differs: product-legal-notices",
+          "shared pixel mismatch 17.311%",
+          "Shared component pixel mismatch product-gallery: 17.311%"
+        ],
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/049-build-product/build-readiness/product-reviews-state/product-reviews-state/comparison.json"
+      },
+      {
+        "id": "product-files-state",
+        "passed": false,
+        "pagePassed": false,
+        "ownership": {
+          "header": {
+            "pixels": 372480,
+            "differentPixels": 21869,
+            "ratio": 0.05871187714776632
+          },
+          "footer": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "shared": {
+            "pixels": 504100,
+            "differentPixels": 87263,
+            "ratio": 0.1731065264828407
+          },
+          "page": {
+            "pixels": 4019420,
+            "differentPixels": 342739,
+            "ratio": 0.08527076045797652
+          },
+          "outside": {
+            "pixels": 1493760,
+            "differentPixels": 870761,
+            "ratio": 0.5829323318337618
+          }
+        },
+        "errors": [
+          "page pixel mismatch 8.527%",
+          "shared pixel mismatch 17.311%",
+          "Shared component pixel mismatch product-gallery: 17.311%"
+        ],
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/049-build-product/build-readiness/product-files-state/product-files-state/comparison.json"
+      },
+      {
+        "id": "product-bundle",
+        "passed": false,
+        "pagePassed": true,
+        "ownership": {
+          "header": {
+            "pixels": 372480,
+            "differentPixels": 21869,
+            "ratio": 0.05871187714776632
+          },
+          "footer": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "shared": {
+            "pixels": 1007160,
+            "differentPixels": 245494,
+            "ratio": 0.24374875888637357
+          },
+          "page": {
+            "pixels": 3516360,
+            "differentPixels": 211589,
+            "ratio": 0.06017273544233241
+          },
+          "outside": {
+            "pixels": 2062080,
+            "differentPixels": 1335643,
+            "ratio": 0.6477163834574798
+          }
+        },
+        "errors": [
+          "shared pixel mismatch 24.375%",
+          "Shared component pixel mismatch product-gallery: 53.377%",
+          "Shared component pixel mismatch product-tabs: 12.315%"
+        ],
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/049-build-product/build-readiness/product-bundle/product-bundle/comparison.json"
+      }
+    ],
+    "instruction": "Fresh host checks for all sibling routes. Repair only failed assigned routes."
+  },
+  "snapshot": ".factory-cache/figma/latest",
+  "observations": ".factory-cache/figma/latest/observations/index.json",
+  "plans": [
+    "docs/factory/project/PLAN.md",
+    "docs/factory/project/STATUS.md",
+    "docs/factory/project/SOURCE_CLARIFICATIONS.md",
+    "docs/factory/project/REUSABLE_COMPONENTS.md"
+  ],
+  "currentGate": null,
+  "instruction": "Inspect the current gate and finish only remaining assigned work. Reuse real saved source facts and assets."
+}

@@ -1,0 +1,3601 @@
+{
+  "capturedAt": "2026-09-13T20:17:49.458Z",
+  "implementationHash": "adb4e4d5116b9920d004e5a01de4fa4a8e6e45db57ffb166c4539d92421e8169",
+  "sourceHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+  "thresholdPercent": 8.5,
+  "geometryTolerancePx": 2,
+  "buildReady": false,
+  "passed": false,
+  "deferred": [],
+  "routeCount": 21,
+  "routes": [
+    {
+      "id": "careers",
+      "passed": false,
+      "fullRatioPercent": 5.937,
+      "ownership": {
+        "header": 6.336,
+        "footer": 9.783,
+        "shared": 4.697,
+        "page": 5.15,
+        "outside": 0,
+        "reused": 0
+      },
+      "reference": {
+        "path": "references/full/frame-349-1267.png",
+        "width": 1920,
+        "height": 3802,
+        "sha256": "cd1098f6b1466ddddbc98ef25463b2a499317c8ac3566768478d3b91cf6b0f05"
+      },
+      "rendered": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/careers/rendered.png",
+        "width": 1920,
+        "height": 3826,
+        "sha256": "34c042e34bb8e935ae682132849c9b427850c5d935ad4a8fb002adf1b93fa27c"
+      },
+      "heightDelta": 24,
+      "errors": [
+        "Full page height differs",
+        "footer pixel mismatch 9.783%",
+        "Section geometry differs: shared-footer"
+      ],
+      "unhealthyResponsiveWidths": [],
+      "geometryFailures": [
+        {
+          "section": "shared-footer",
+          "expected": {
+            "x": 0,
+            "y": 3188,
+            "width": 1920,
+            "height": 614
+          },
+          "actual": {
+            "id": "shared-footer",
+            "landmark": "footer",
+            "component": null,
+            "x": 0,
+            "y": 3189,
+            "width": 1920,
+            "height": 636,
+            "style": {
+              "fontFamily": "\"DM Sans\", sans-serif",
+              "fontWeight": "400",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "borderRadius": "0px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "normal",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%"
+            }
+          },
+          "delta": {
+            "x": 0,
+            "y": 1,
+            "width": 0,
+            "height": 22
+          }
+        }
+      ],
+      "crops": [
+        {
+          "id": "shared-topbar",
+          "owner": "header",
+          "ratioPercent": 2.013
+        },
+        {
+          "id": "shared-secondary-navigation",
+          "owner": "header",
+          "ratioPercent": 14.962
+        },
+        {
+          "id": "shared-primary-navigation",
+          "owner": "header",
+          "ratioPercent": 9.829
+        },
+        {
+          "id": "careers-heading",
+          "owner": "shared",
+          "ratioPercent": 2.112
+        },
+        {
+          "id": "careers-vacancies",
+          "owner": "page",
+          "ratioPercent": 9.35
+        },
+        {
+          "id": "careers-application",
+          "owner": "page",
+          "ratioPercent": 8.317
+        },
+        {
+          "id": "shared-shop-cta",
+          "owner": "shared",
+          "ratioPercent": 6.632
+        },
+        {
+          "id": "shared-footer",
+          "owner": "footer",
+          "ratioPercent": 6.256
+        }
+      ],
+      "evidence": {
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/careers/comparison.json",
+        "rendered": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/careers/rendered.png",
+        "diff": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/careers/diff.png",
+        "fullSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/full-careers.png",
+        "sectionSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/sections-careers.png",
+        "responsiveSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/responsive-careers.png"
+      }
+    },
+    {
+      "id": "catalogues",
+      "passed": false,
+      "fullRatioPercent": 6.847,
+      "ownership": {
+        "header": 6.358,
+        "footer": 0,
+        "shared": 2.662,
+        "page": 7.365,
+        "outside": 0,
+        "reused": 0
+      },
+      "reference": {
+        "path": "references/full/frame-347-1120.png",
+        "width": 1920,
+        "height": 1850,
+        "sha256": "c624155f875fd4b067c9225bcd40618c1a738fad242875b05b0fc77a3da1f2c1"
+      },
+      "rendered": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/catalogues/rendered.png",
+        "width": 1920,
+        "height": 1873,
+        "sha256": "b790b7643bbdf737e0c9bad426d10f21b2f669c827e0b1d7bdafdf77e34c4fd8"
+      },
+      "heightDelta": 23,
+      "errors": [
+        "Full page height differs",
+        "Section geometry differs: shared-shop-cta"
+      ],
+      "unhealthyResponsiveWidths": [],
+      "geometryFailures": [
+        {
+          "section": "shared-shop-cta",
+          "expected": {
+            "frameWidth": 1920,
+            "x": 36,
+            "y": 2919,
+            "width": 1840,
+            "height": 230,
+            "containerWidth": 1840
+          },
+          "actual": {
+            "id": "shared-shop-cta",
+            "landmark": null,
+            "component": "shop-cta",
+            "x": 40,
+            "y": 966,
+            "width": 1840,
+            "height": 230,
+            "style": {
+              "fontFamily": "\"DM Sans\", sans-serif",
+              "fontWeight": "400",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "color": "rgb(255, 255, 255)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "borderRadius": "30px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "normal",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%"
+            }
+          },
+          "delta": {
+            "x": 4,
+            "y": -1953,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "section": "shared-footer",
+          "expected": {
+            "frameWidth": 1920,
+            "x": 0,
+            "y": 8363,
+            "width": 1920,
+            "height": 636
+          },
+          "actual": {
+            "id": "shared-footer",
+            "landmark": "footer",
+            "component": null,
+            "x": 0,
+            "y": 1236,
+            "width": 1920,
+            "height": 636,
+            "style": {
+              "fontFamily": "\"DM Sans\", sans-serif",
+              "fontWeight": "400",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "borderRadius": "0px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "normal",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%"
+            }
+          },
+          "delta": {
+            "x": 0,
+            "y": -7127,
+            "width": 0,
+            "height": 0
+          }
+        }
+      ],
+      "crops": [
+        {
+          "id": "shared-topbar",
+          "owner": "header",
+          "ratioPercent": 2.013
+        },
+        {
+          "id": "shared-secondary-navigation",
+          "owner": "header",
+          "ratioPercent": 15.095
+        },
+        {
+          "id": "shared-primary-navigation",
+          "owner": "header",
+          "ratioPercent": 9.829
+        },
+        {
+          "id": "catalogues-heading",
+          "owner": "shared",
+          "ratioPercent": 2.662
+        },
+        {
+          "id": "catalogues-downloads",
+          "owner": "page",
+          "ratioPercent": 10.933
+        },
+        {
+          "id": "shared-shop-cta",
+          "owner": "shared",
+          "ratioPercent": 0
+        },
+        {
+          "id": "shared-footer",
+          "owner": "footer",
+          "ratioPercent": 0
+        }
+      ],
+      "evidence": {
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/catalogues/comparison.json",
+        "rendered": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/catalogues/rendered.png",
+        "diff": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/catalogues/diff.png",
+        "fullSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/full-catalogues.png",
+        "sectionSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/sections-catalogues.png",
+        "responsiveSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/responsive-catalogues.png"
+      }
+    },
+    {
+      "id": "blog-article",
+      "passed": false,
+      "fullRatioPercent": 11.273,
+      "ownership": {
+        "header": 6.358,
+        "footer": 0,
+        "shared": 0,
+        "page": 11.523,
+        "outside": 0,
+        "reused": 0
+      },
+      "reference": {
+        "path": "references/full/frame-327-3176.png",
+        "width": 1920,
+        "height": 4010,
+        "sha256": "e42748a44d3dc2224c7d6972e0ee7b1eb28d50f7fc2d3e6b2954127040cc9bc0"
+      },
+      "rendered": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/blog-article/rendered.png",
+        "width": 1920,
+        "height": 3966,
+        "sha256": "cecf50cf53c0ba36be80c6d09c509292d896e7fb2d116784b810e20d3b8c25ed"
+      },
+      "heightDelta": -44,
+      "errors": [
+        "Full page height differs",
+        "page pixel mismatch 11.523%"
+      ],
+      "unhealthyResponsiveWidths": [],
+      "geometryFailures": [
+        {
+          "section": "shared-footer",
+          "expected": {
+            "frameWidth": 1920,
+            "x": 0,
+            "y": 8363,
+            "width": 1920,
+            "height": 636
+          },
+          "actual": {
+            "id": "shared-footer",
+            "landmark": "footer",
+            "component": null,
+            "x": 0,
+            "y": 3328.84375,
+            "width": 1920,
+            "height": 636,
+            "style": {
+              "fontFamily": "\"DM Sans\", sans-serif",
+              "fontWeight": "400",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "borderRadius": "0px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "normal",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%"
+            }
+          },
+          "delta": {
+            "x": 0,
+            "y": -5034.15625,
+            "width": 0,
+            "height": 0
+          }
+        }
+      ],
+      "crops": [
+        {
+          "id": "shared-topbar",
+          "owner": "header",
+          "ratioPercent": 2.013
+        },
+        {
+          "id": "shared-secondary-navigation",
+          "owner": "header",
+          "ratioPercent": 15.095
+        },
+        {
+          "id": "shared-primary-navigation",
+          "owner": "header",
+          "ratioPercent": 9.829
+        },
+        {
+          "id": "blog-article-heading",
+          "owner": "page",
+          "ratioPercent": 2.761
+        },
+        {
+          "id": "blog-article-content",
+          "owner": "page",
+          "ratioPercent": 18.016
+        },
+        {
+          "id": "blog-related-posts",
+          "owner": "page",
+          "ratioPercent": 12.063
+        },
+        {
+          "id": "shared-footer",
+          "owner": "footer",
+          "ratioPercent": 0
+        }
+      ],
+      "evidence": {
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/blog-article/comparison.json",
+        "rendered": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/blog-article/rendered.png",
+        "diff": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/blog-article/diff.png",
+        "fullSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/full-blog-article.png",
+        "sectionSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/sections-blog-article.png",
+        "responsiveSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/responsive-blog-article.png"
+      }
+    },
+    {
+      "id": "blog-archive",
+      "passed": false,
+      "fullRatioPercent": 9.182,
+      "ownership": {
+        "header": 6.358,
+        "footer": 0,
+        "shared": 0.594,
+        "page": 9.774,
+        "outside": 0,
+        "reused": 0
+      },
+      "reference": {
+        "path": "references/full/frame-327-2986.png",
+        "width": 1920,
+        "height": 3816,
+        "sha256": "130c07a010faed23ddeac6fc599603d70ae67a09b6e5d420c643c7ef73584442"
+      },
+      "rendered": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/blog-archive/rendered.png",
+        "width": 1920,
+        "height": 3818,
+        "sha256": "916a4e7c033ea320d9c2b98e5452770d3e7750122eff82b4e7df3f549d96bc1c"
+      },
+      "heightDelta": 2,
+      "errors": [
+        "page pixel mismatch 9.774%"
+      ],
+      "unhealthyResponsiveWidths": [],
+      "geometryFailures": [
+        {
+          "section": "shared-footer",
+          "expected": {
+            "frameWidth": 1920,
+            "x": 0,
+            "y": 8363,
+            "width": 1920,
+            "height": 636
+          },
+          "actual": {
+            "id": "shared-footer",
+            "landmark": "footer",
+            "component": null,
+            "x": 0,
+            "y": 3181,
+            "width": 1920,
+            "height": 636,
+            "style": {
+              "fontFamily": "\"DM Sans\", sans-serif",
+              "fontWeight": "400",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "borderRadius": "0px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "normal",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%"
+            }
+          },
+          "delta": {
+            "x": 0,
+            "y": -5182,
+            "width": 0,
+            "height": 0
+          }
+        }
+      ],
+      "crops": [
+        {
+          "id": "shared-topbar",
+          "owner": "header",
+          "ratioPercent": 2.013
+        },
+        {
+          "id": "shared-secondary-navigation",
+          "owner": "header",
+          "ratioPercent": 15.095
+        },
+        {
+          "id": "shared-primary-navigation",
+          "owner": "header",
+          "ratioPercent": 9.829
+        },
+        {
+          "id": "blog-archive-heading",
+          "owner": "shared",
+          "ratioPercent": 0.594
+        },
+        {
+          "id": "blog-post-list",
+          "owner": "page",
+          "ratioPercent": 14.864
+        },
+        {
+          "id": "blog-pagination",
+          "owner": "page",
+          "ratioPercent": 8.581
+        },
+        {
+          "id": "shared-footer",
+          "owner": "footer",
+          "ratioPercent": 0
+        }
+      ],
+      "evidence": {
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/blog-archive/comparison.json",
+        "rendered": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/blog-archive/rendered.png",
+        "diff": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/blog-archive/diff.png",
+        "fullSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/full-blog-archive.png",
+        "sectionSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/sections-blog-archive.png",
+        "responsiveSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/responsive-blog-archive.png"
+      }
+    },
+    {
+      "id": "contact",
+      "passed": false,
+      "fullRatioPercent": 9.306,
+      "ownership": {
+        "header": 6.358,
+        "footer": 0,
+        "shared": 2.333,
+        "page": 10.07,
+        "outside": 0,
+        "reused": 0
+      },
+      "reference": {
+        "path": "references/full/frame-335-591.png",
+        "width": 1920,
+        "height": 2614,
+        "sha256": "b59e9a1ef198557c287a912c1a1fe02cbab29693a20a7e03aafea7cfbe019281"
+      },
+      "rendered": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/contact/rendered.png",
+        "width": 1920,
+        "height": 2575,
+        "sha256": "a4df59d6aaff357ded720849ba477676ba8b5210fefee055ccfbe6b3ec9badb6"
+      },
+      "heightDelta": -39,
+      "errors": [
+        "Full page height differs",
+        "page pixel mismatch 10.070%"
+      ],
+      "unhealthyResponsiveWidths": [],
+      "geometryFailures": [
+        {
+          "section": "shared-footer",
+          "expected": {
+            "frameWidth": 1920,
+            "x": 0,
+            "y": 8363,
+            "width": 1920,
+            "height": 636
+          },
+          "actual": {
+            "id": "shared-footer",
+            "landmark": "footer",
+            "component": null,
+            "x": 0,
+            "y": 1938,
+            "width": 1920,
+            "height": 636,
+            "style": {
+              "fontFamily": "\"DM Sans\", sans-serif",
+              "fontWeight": "400",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "borderRadius": "0px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "normal",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%"
+            }
+          },
+          "delta": {
+            "x": 0,
+            "y": -6425,
+            "width": 0,
+            "height": 0
+          }
+        }
+      ],
+      "crops": [
+        {
+          "id": "shared-topbar",
+          "owner": "header",
+          "ratioPercent": 2.013
+        },
+        {
+          "id": "shared-secondary-navigation",
+          "owner": "header",
+          "ratioPercent": 15.095
+        },
+        {
+          "id": "shared-primary-navigation",
+          "owner": "header",
+          "ratioPercent": 9.829
+        },
+        {
+          "id": "contact-heading",
+          "owner": "shared",
+          "ratioPercent": 2.333
+        },
+        {
+          "id": "contact-details",
+          "owner": "page",
+          "ratioPercent": 9.426
+        },
+        {
+          "id": "contact-form",
+          "owner": "page",
+          "ratioPercent": 5.204
+        },
+        {
+          "id": "contact-map",
+          "owner": "page",
+          "ratioPercent": 2.586
+        },
+        {
+          "id": "shared-footer",
+          "owner": "footer",
+          "ratioPercent": 0
+        }
+      ],
+      "evidence": {
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/contact/comparison.json",
+        "rendered": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/contact/rendered.png",
+        "diff": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/contact/diff.png",
+        "fullSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/full-contact.png",
+        "sectionSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/sections-contact.png",
+        "responsiveSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/responsive-contact.png"
+      }
+    },
+    {
+      "id": "about",
+      "passed": false,
+      "fullRatioPercent": 7.576,
+      "ownership": {
+        "header": 6.358,
+        "footer": 0,
+        "shared": 4.711,
+        "page": 7.982,
+        "outside": 0,
+        "reused": 0
+      },
+      "reference": {
+        "path": "references/full/frame-326-2764.png",
+        "width": 1920,
+        "height": 3863,
+        "sha256": "1e9d5aec30c4675e1c21f164f3e1f2f7c7526b26c8548af43781ec8eae44f6bd"
+      },
+      "rendered": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/about/rendered.png",
+        "width": 1920,
+        "height": 3886,
+        "sha256": "816a5e4d3f75eb4b3284552dfc26ebe0f24066972bcbdeaac264e7ea011c50d7"
+      },
+      "heightDelta": 23,
+      "errors": [
+        "Full page height differs",
+        "Section geometry differs: shared-shop-cta"
+      ],
+      "unhealthyResponsiveWidths": [],
+      "geometryFailures": [
+        {
+          "section": "shared-shop-cta",
+          "expected": {
+            "frameWidth": 1920,
+            "x": 36,
+            "y": 2919,
+            "width": 1840,
+            "height": 230,
+            "containerWidth": 1840
+          },
+          "actual": {
+            "id": "shared-shop-cta",
+            "landmark": null,
+            "component": "shop-cta",
+            "x": 40,
+            "y": 2979.421875,
+            "width": 1840,
+            "height": 230,
+            "style": {
+              "fontFamily": "\"DM Sans\", sans-serif",
+              "fontWeight": "400",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "color": "rgb(255, 255, 255)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "borderRadius": "30px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "normal",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%"
+            }
+          },
+          "delta": {
+            "x": 4,
+            "y": 60.421875,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "section": "shared-footer",
+          "expected": {
+            "frameWidth": 1920,
+            "x": 0,
+            "y": 8363,
+            "width": 1920,
+            "height": 636
+          },
+          "actual": {
+            "id": "shared-footer",
+            "landmark": "footer",
+            "component": null,
+            "x": 0,
+            "y": 3249.421875,
+            "width": 1920,
+            "height": 636,
+            "style": {
+              "fontFamily": "\"DM Sans\", sans-serif",
+              "fontWeight": "400",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "borderRadius": "0px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "normal",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%"
+            }
+          },
+          "delta": {
+            "x": 0,
+            "y": -5113.578125,
+            "width": 0,
+            "height": 0
+          }
+        }
+      ],
+      "crops": [
+        {
+          "id": "shared-topbar",
+          "owner": "header",
+          "ratioPercent": 2.013
+        },
+        {
+          "id": "shared-secondary-navigation",
+          "owner": "header",
+          "ratioPercent": 15.095
+        },
+        {
+          "id": "shared-primary-navigation",
+          "owner": "header",
+          "ratioPercent": 9.829
+        },
+        {
+          "id": "about-heading",
+          "owner": "shared",
+          "ratioPercent": 1.701
+        },
+        {
+          "id": "about-introduction",
+          "owner": "page",
+          "ratioPercent": 19.79
+        },
+        {
+          "id": "about-agricultural-supply",
+          "owner": "page",
+          "ratioPercent": 6.404
+        },
+        {
+          "id": "about-grain-trade",
+          "owner": "page",
+          "ratioPercent": 8.336
+        },
+        {
+          "id": "about-insurance",
+          "owner": "page",
+          "ratioPercent": 13.115
+        },
+        {
+          "id": "shared-shop-cta",
+          "owner": "shared",
+          "ratioPercent": 6.965
+        },
+        {
+          "id": "shared-footer",
+          "owner": "footer",
+          "ratioPercent": 0
+        }
+      ],
+      "evidence": {
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/about/comparison.json",
+        "rendered": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/about/rendered.png",
+        "diff": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/about/diff.png",
+        "fullSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/full-about.png",
+        "sectionSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/sections-about.png",
+        "responsiveSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/responsive-about.png"
+      }
+    },
+    {
+      "id": "product",
+      "passed": false,
+      "fullRatioPercent": 19.094,
+      "ownership": {
+        "header": 6.358,
+        "footer": 0,
+        "shared": 14.475,
+        "page": 21.11,
+        "outside": 0,
+        "reused": 0
+      },
+      "reference": {
+        "path": "references/full/frame-318-1556.png",
+        "width": 1920,
+        "height": 3316,
+        "sha256": "f293bde391e880510f32740eb51c48989ee9dcf464a51c1cbf5b16a1afd84f34"
+      },
+      "rendered": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/product/rendered.png",
+        "width": 1920,
+        "height": 3503,
+        "sha256": "c2ebb69d355ae4cbe7ee644ea442871b1b72918f545014140c917ecd1e99676e"
+      },
+      "heightDelta": 187,
+      "errors": [
+        "Full page height differs",
+        "Responsive render health 375",
+        "page pixel mismatch 21.110%",
+        "Section geometry differs: product-related",
+        "Section geometry differs: product-legal-notices",
+        "shared pixel mismatch 14.475%",
+        "Shared component pixel mismatch product-gallery: 17.983%",
+        "Shared component pixel mismatch product-tabs: 11.989%"
+      ],
+      "unhealthyResponsiveWidths": [
+        375
+      ],
+      "geometryFailures": [
+        {
+          "section": "product-related",
+          "expected": {
+            "x": 240,
+            "y": 1635,
+            "width": 710,
+            "height": 570
+          },
+          "actual": {
+            "id": "product-related",
+            "landmark": null,
+            "component": null,
+            "x": 240,
+            "y": 1636.75,
+            "width": 710,
+            "height": 743.9375,
+            "style": {
+              "fontFamily": "\"DM Sans\", sans-serif",
+              "fontWeight": "400",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "color": "rgb(17, 17, 17)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "borderRadius": "0px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "normal",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%"
+            }
+          },
+          "delta": {
+            "x": 0,
+            "y": 1.75,
+            "width": 0,
+            "height": 173.9375
+          }
+        },
+        {
+          "section": "product-legal-notices",
+          "expected": {
+            "x": 240,
+            "y": 2263,
+            "width": 1440,
+            "height": 287
+          },
+          "actual": {
+            "id": "product-legal-notices",
+            "landmark": null,
+            "component": null,
+            "x": 240,
+            "y": 2438.6875,
+            "width": 1440,
+            "height": 287,
+            "style": {
+              "fontFamily": "\"DM Sans\", sans-serif",
+              "fontWeight": "400",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "color": "rgb(17, 17, 17)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "borderRadius": "0px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "normal",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%"
+            }
+          },
+          "delta": {
+            "x": 0,
+            "y": 175.6875,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "section": "shared-footer",
+          "expected": {
+            "frameWidth": 1920,
+            "x": 0,
+            "y": 8363,
+            "width": 1920,
+            "height": 636
+          },
+          "actual": {
+            "id": "shared-footer",
+            "landmark": "footer",
+            "component": null,
+            "x": 0,
+            "y": 2865.6875,
+            "width": 1920,
+            "height": 636,
+            "style": {
+              "fontFamily": "\"DM Sans\", sans-serif",
+              "fontWeight": "400",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "borderRadius": "0px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "normal",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%"
+            }
+          },
+          "delta": {
+            "x": 0,
+            "y": -5497.3125,
+            "width": 0,
+            "height": 0
+          }
+        }
+      ],
+      "crops": [
+        {
+          "id": "shared-topbar",
+          "owner": "header",
+          "ratioPercent": 2.013
+        },
+        {
+          "id": "shared-secondary-navigation",
+          "owner": "header",
+          "ratioPercent": 15.095
+        },
+        {
+          "id": "shared-primary-navigation",
+          "owner": "header",
+          "ratioPercent": 9.829
+        },
+        {
+          "id": "product-breadcrumbs",
+          "owner": "page",
+          "ratioPercent": 7.494
+        },
+        {
+          "id": "product-gallery",
+          "owner": "shared",
+          "ratioPercent": 17.983
+        },
+        {
+          "id": "product-overview",
+          "owner": "page",
+          "ratioPercent": 16.343
+        },
+        {
+          "id": "product-benefits",
+          "owner": "page",
+          "ratioPercent": 11.595
+        },
+        {
+          "id": "product-tabs",
+          "owner": "shared",
+          "ratioPercent": 11.989
+        },
+        {
+          "id": "product-related",
+          "owner": "page",
+          "ratioPercent": 18.284
+        },
+        {
+          "id": "product-legal-notices",
+          "owner": "page",
+          "ratioPercent": 13.085
+        },
+        {
+          "id": "shared-footer",
+          "owner": "footer",
+          "ratioPercent": 0
+        }
+      ],
+      "evidence": {
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/product/comparison.json",
+        "rendered": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/product/rendered.png",
+        "diff": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/product/diff.png",
+        "fullSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/full-product.png",
+        "sectionSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/sections-product.png",
+        "responsiveSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/responsive-product.png"
+      }
+    },
+    {
+      "id": "cart",
+      "passed": false,
+      "fullRatioPercent": 28.131,
+      "ownership": {
+        "header": 6.358,
+        "footer": 0,
+        "shared": 0,
+        "page": 30.722,
+        "outside": 0,
+        "reused": 0
+      },
+      "reference": {
+        "path": "references/full/frame-438-151.png",
+        "width": 1920,
+        "height": 1644,
+        "sha256": "791b16439624adfd485c7a4b41cd75348d60325f0fcdf04cd461f3723916dc32"
+      },
+      "rendered": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/cart/rendered.png",
+        "width": 1920,
+        "height": 1824,
+        "sha256": "ed790de908194b52d57ff20195eaf008dddce79f08aab7905431a0346f4ef7d0"
+      },
+      "heightDelta": 180,
+      "errors": [
+        "Full page height differs",
+        "page pixel mismatch 30.722%"
+      ],
+      "unhealthyResponsiveWidths": [],
+      "geometryFailures": [
+        {
+          "section": "shared-footer",
+          "expected": {
+            "frameWidth": 1920,
+            "x": 0,
+            "y": 8363,
+            "width": 1920,
+            "height": 636
+          },
+          "actual": {
+            "id": "shared-footer",
+            "landmark": "footer",
+            "component": null,
+            "x": 0,
+            "y": 1187,
+            "width": 1920,
+            "height": 636,
+            "style": {
+              "fontFamily": "\"DM Sans\", sans-serif",
+              "fontWeight": "400",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "borderRadius": "0px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "normal",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%"
+            }
+          },
+          "delta": {
+            "x": 0,
+            "y": -7176,
+            "width": 0,
+            "height": 0
+          }
+        }
+      ],
+      "crops": [
+        {
+          "id": "shared-topbar",
+          "owner": "header",
+          "ratioPercent": 2.013
+        },
+        {
+          "id": "shared-secondary-navigation",
+          "owner": "header",
+          "ratioPercent": 15.095
+        },
+        {
+          "id": "shared-primary-navigation",
+          "owner": "header",
+          "ratioPercent": 9.829
+        },
+        {
+          "id": "cart-heading",
+          "owner": "page",
+          "ratioPercent": 10.203
+        },
+        {
+          "id": "cart-lines",
+          "owner": "page",
+          "ratioPercent": 10.194
+        },
+        {
+          "id": "cart-totals",
+          "owner": "page",
+          "ratioPercent": 10.013
+        },
+        {
+          "id": "shared-footer",
+          "owner": "footer",
+          "ratioPercent": 0
+        }
+      ],
+      "evidence": {
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/cart/comparison.json",
+        "rendered": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/cart/rendered.png",
+        "diff": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/cart/diff.png",
+        "fullSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/full-cart.png",
+        "sectionSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/sections-cart.png",
+        "responsiveSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/responsive-cart.png"
+      }
+    },
+    {
+      "id": "checkout",
+      "passed": false,
+      "fullRatioPercent": 6.615,
+      "ownership": {
+        "header": 4.913,
+        "footer": 0,
+        "shared": 0,
+        "page": 6.829,
+        "outside": 0,
+        "reused": 0
+      },
+      "reference": {
+        "path": "references/full/frame-489-483.png",
+        "width": 1920,
+        "height": 2942,
+        "sha256": "369ca4fe830ae75a1a4309e584cd7249281a1662385804058485adcbd112a2ce"
+      },
+      "rendered": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/checkout/rendered.png",
+        "width": 1920,
+        "height": 2930,
+        "sha256": "40ac9e47c07f791ba8823e6ae29537d826e5a5ec9ec59ab9f3156f0ed8d4ccda"
+      },
+      "heightDelta": -12,
+      "errors": [
+        "Full page height differs",
+        "Section geometry differs: checkout-heading"
+      ],
+      "unhealthyResponsiveWidths": [],
+      "geometryFailures": [
+        {
+          "section": "checkout-heading",
+          "expected": {
+            "frameWidth": 1920,
+            "x": 237,
+            "y": 260,
+            "width": 467,
+            "height": 68,
+            "containerWidth": 1440
+          },
+          "actual": {
+            "id": "checkout-heading",
+            "landmark": "header",
+            "component": null,
+            "x": 240,
+            "y": 195,
+            "width": 1440,
+            "height": 194.15625,
+            "style": {
+              "fontFamily": "\"DM Sans\", sans-serif",
+              "fontWeight": "400",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "borderRadius": "0px",
+              "paddingTop": "126px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "normal",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%"
+            }
+          },
+          "delta": {
+            "x": 3,
+            "y": -65,
+            "width": 973,
+            "height": 126.15625
+          }
+        },
+        {
+          "section": "shared-footer",
+          "expected": {
+            "frameWidth": 1920,
+            "x": 0,
+            "y": 8363,
+            "width": 1920,
+            "height": 636
+          },
+          "actual": {
+            "id": "shared-footer",
+            "landmark": "footer",
+            "component": null,
+            "x": 0,
+            "y": 2293.15625,
+            "width": 1920,
+            "height": 636,
+            "style": {
+              "fontFamily": "\"DM Sans\", sans-serif",
+              "fontWeight": "400",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "borderRadius": "0px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "normal",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%"
+            }
+          },
+          "delta": {
+            "x": 0,
+            "y": -6069.84375,
+            "width": 0,
+            "height": 0
+          }
+        }
+      ],
+      "crops": [
+        {
+          "id": "shared-topbar",
+          "owner": "header",
+          "ratioPercent": 2.013
+        },
+        {
+          "id": "shared-secondary-navigation",
+          "owner": "header",
+          "ratioPercent": 15.095
+        },
+        {
+          "id": "shared-primary-navigation",
+          "owner": "header",
+          "ratioPercent": 9.829
+        },
+        {
+          "id": "checkout-heading",
+          "owner": "header",
+          "ratioPercent": 21.089
+        },
+        {
+          "id": "checkout-steps",
+          "owner": "page",
+          "ratioPercent": 19.439
+        },
+        {
+          "id": "checkout-customer-details",
+          "owner": "page",
+          "ratioPercent": 5.831
+        },
+        {
+          "id": "checkout-payment",
+          "owner": "page",
+          "ratioPercent": 2.916
+        },
+        {
+          "id": "checkout-delivery",
+          "owner": "page",
+          "ratioPercent": 4.251
+        },
+        {
+          "id": "checkout-totals",
+          "owner": "page",
+          "ratioPercent": 22.091
+        },
+        {
+          "id": "shared-footer",
+          "owner": "footer",
+          "ratioPercent": 0
+        }
+      ],
+      "evidence": {
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/checkout/comparison.json",
+        "rendered": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/checkout/rendered.png",
+        "diff": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/checkout/diff.png",
+        "fullSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/full-checkout.png",
+        "sectionSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/sections-checkout.png",
+        "responsiveSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/responsive-checkout.png"
+      }
+    },
+    {
+      "id": "product-archive",
+      "passed": false,
+      "fullRatioPercent": 38.978,
+      "ownership": {
+        "header": 6.354,
+        "footer": 95.486,
+        "shared": 0,
+        "page": 7.997,
+        "outside": 0,
+        "reused": 0
+      },
+      "reference": {
+        "path": "references/full/frame-294-3-bounds.png",
+        "width": 1920,
+        "height": 4919,
+        "sha256": "06d686088f11b30995f9a98291d15c5d45750c26351ad3c2e6eac046d78e9180"
+      },
+      "rendered": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/product-archive/rendered.png",
+        "width": 1920,
+        "height": 6643,
+        "sha256": "dd3d3839b2a0e58eed86e8deacbf384791cc286042e4fa75c2e30bc79b08ff02"
+      },
+      "heightDelta": 1724,
+      "errors": [
+        "Full page height differs"
+      ],
+      "unhealthyResponsiveWidths": [],
+      "geometryFailures": [
+        {
+          "section": "shared-footer",
+          "expected": {
+            "frameWidth": 1920,
+            "x": 0,
+            "y": 8363,
+            "width": 1920,
+            "height": 636
+          },
+          "actual": {
+            "id": "shared-footer",
+            "landmark": "footer",
+            "component": null,
+            "x": 0,
+            "y": 6006,
+            "width": 1920,
+            "height": 636,
+            "style": {
+              "fontFamily": "\"DM Sans\", sans-serif",
+              "fontWeight": "400",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "borderRadius": "0px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "normal",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%"
+            }
+          },
+          "delta": {
+            "x": 0,
+            "y": -2357,
+            "width": 0,
+            "height": 0
+          }
+        }
+      ],
+      "crops": [
+        {
+          "id": "shared-topbar",
+          "owner": "header",
+          "ratioPercent": 2.013
+        },
+        {
+          "id": "shared-secondary-navigation",
+          "owner": "header",
+          "ratioPercent": 15.067
+        },
+        {
+          "id": "shared-primary-navigation",
+          "owner": "header",
+          "ratioPercent": 9.829
+        },
+        {
+          "id": "archive-breadcrumbs",
+          "owner": "page",
+          "ratioPercent": 7.708
+        },
+        {
+          "id": "archive-category-introduction",
+          "owner": "page",
+          "ratioPercent": 11.583
+        },
+        {
+          "id": "archive-filters",
+          "owner": "page",
+          "ratioPercent": 7.66
+        },
+        {
+          "id": "archive-sort",
+          "owner": "page",
+          "ratioPercent": 11.719
+        },
+        {
+          "id": "archive-product-grid",
+          "owner": "page",
+          "ratioPercent": 13.886
+        },
+        {
+          "id": "archive-pagination",
+          "owner": "page",
+          "ratioPercent": 9.842
+        },
+        {
+          "id": "archive-category-description",
+          "owner": "page",
+          "ratioPercent": 72.627
+        },
+        {
+          "id": "shared-footer",
+          "owner": "footer",
+          "ratioPercent": 0
+        }
+      ],
+      "evidence": {
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/product-archive/comparison.json",
+        "rendered": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/product-archive/rendered.png",
+        "diff": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/product-archive/diff.png",
+        "fullSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/full-product-archive.png",
+        "sectionSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/sections-product-archive.png",
+        "responsiveSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/responsive-product-archive.png"
+      }
+    },
+    {
+      "id": "home",
+      "passed": false,
+      "fullRatioPercent": 13.598,
+      "ownership": {
+        "header": 6.352,
+        "footer": 33.33,
+        "shared": 0,
+        "page": 12.234,
+        "outside": 0,
+        "reused": 0
+      },
+      "reference": {
+        "path": "references/full/home.png",
+        "width": 1920,
+        "height": 8999,
+        "sha256": "ea09d2ddd01079948226b0a1e84c2e88eea823a24de1d53308a2ce1088245aca"
+      },
+      "rendered": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/home/rendered.png",
+        "width": 1920,
+        "height": 8934,
+        "sha256": "741dc07cb901bb5fce6220a45c682b952c2c7e81d71159b8796cab59574900df"
+      },
+      "heightDelta": -65,
+      "errors": [
+        "Full page height differs",
+        "page pixel mismatch 12.234%"
+      ],
+      "unhealthyResponsiveWidths": [],
+      "geometryFailures": [
+        {
+          "section": "shared-footer",
+          "expected": {
+            "x": 0,
+            "y": 8363,
+            "width": 1920,
+            "height": 636
+          },
+          "actual": {
+            "id": "shared-footer",
+            "landmark": "footer",
+            "component": null,
+            "x": 0,
+            "y": 8296.890625,
+            "width": 1920,
+            "height": 636,
+            "style": {
+              "fontFamily": "\"DM Sans\", sans-serif",
+              "fontWeight": "400",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "borderRadius": "0px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "normal",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%"
+            }
+          },
+          "delta": {
+            "x": 0,
+            "y": -66.109375,
+            "width": 0,
+            "height": 0
+          }
+        }
+      ],
+      "crops": [
+        {
+          "id": "shared-topbar",
+          "owner": "header",
+          "ratioPercent": 2.013
+        },
+        {
+          "id": "shared-secondary-navigation",
+          "owner": "header",
+          "ratioPercent": 15.059
+        },
+        {
+          "id": "shared-primary-navigation",
+          "owner": "header",
+          "ratioPercent": 9.829
+        },
+        {
+          "id": "home-hero",
+          "owner": "page",
+          "ratioPercent": 4.061
+        },
+        {
+          "id": "home-benefits",
+          "owner": "page",
+          "ratioPercent": 10.411
+        },
+        {
+          "id": "home-crop-selection",
+          "owner": "page",
+          "ratioPercent": 5.211
+        },
+        {
+          "id": "home-promotions",
+          "owner": "page",
+          "ratioPercent": 10.394
+        },
+        {
+          "id": "home-bundles",
+          "owner": "page",
+          "ratioPercent": 19.85
+        },
+        {
+          "id": "home-catalogues",
+          "owner": "page",
+          "ratioPercent": 40.977
+        },
+        {
+          "id": "home-recommended",
+          "owner": "page",
+          "ratioPercent": 8.216
+        },
+        {
+          "id": "home-about",
+          "owner": "page",
+          "ratioPercent": 21.196
+        },
+        {
+          "id": "home-blog",
+          "owner": "page",
+          "ratioPercent": 31.457
+        },
+        {
+          "id": "home-knowledge",
+          "owner": "page",
+          "ratioPercent": 11.742
+        },
+        {
+          "id": "shared-footer",
+          "owner": "footer",
+          "ratioPercent": 33.33
+        }
+      ],
+      "evidence": {
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/home/comparison.json",
+        "rendered": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/home/rendered.png",
+        "diff": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/home/diff.png",
+        "fullSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/full-home.png",
+        "sectionSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/sections-home.png",
+        "responsiveSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/responsive-home.png"
+      }
+    },
+    {
+      "id": "product-bundle",
+      "passed": false,
+      "fullRatioPercent": 26.064,
+      "ownership": {
+        "header": 6.358,
+        "footer": 0,
+        "shared": 24.381,
+        "page": 27.683,
+        "outside": 0,
+        "reused": 0
+      },
+      "reference": {
+        "path": "references/full/frame-586-1028.png",
+        "width": 1920,
+        "height": 3624,
+        "sha256": "19b394c313d9d6ed1d8b0f3f111c6e234898956a3640482012d22f7c2ef98d14"
+      },
+      "rendered": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/product-bundle/rendered.png",
+        "width": 1920,
+        "height": 3328,
+        "sha256": "43afc096da8830119e93459a093dca7e3ff52ea0055261b6f1dae6069d881c91"
+      },
+      "heightDelta": -296,
+      "errors": [
+        "Full page height differs",
+        "page pixel mismatch 27.683%",
+        "shared pixel mismatch 24.381%",
+        "Shared component pixel mismatch product-gallery: 53.261%",
+        "Shared component pixel mismatch product-tabs: 12.372%"
+      ],
+      "unhealthyResponsiveWidths": [],
+      "geometryFailures": [
+        {
+          "section": "shared-footer",
+          "expected": {
+            "frameWidth": 1920,
+            "x": 0,
+            "y": 8363,
+            "width": 1920,
+            "height": 636
+          },
+          "actual": {
+            "id": "shared-footer",
+            "landmark": "footer",
+            "component": null,
+            "x": 0,
+            "y": 2690.75,
+            "width": 1920,
+            "height": 636,
+            "style": {
+              "fontFamily": "\"DM Sans\", sans-serif",
+              "fontWeight": "400",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "borderRadius": "0px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "normal",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%"
+            }
+          },
+          "delta": {
+            "x": 0,
+            "y": -5672.25,
+            "width": 0,
+            "height": 0
+          }
+        }
+      ],
+      "crops": [
+        {
+          "id": "shared-topbar",
+          "owner": "header",
+          "ratioPercent": 2.013
+        },
+        {
+          "id": "shared-secondary-navigation",
+          "owner": "header",
+          "ratioPercent": 15.095
+        },
+        {
+          "id": "shared-primary-navigation",
+          "owner": "header",
+          "ratioPercent": 9.829
+        },
+        {
+          "id": "bundle-breadcrumbs",
+          "owner": "page",
+          "ratioPercent": 12.452
+        },
+        {
+          "id": "bundle-gallery",
+          "owner": "shared",
+          "ratioPercent": 53.261
+        },
+        {
+          "id": "product-bundle-overview",
+          "owner": "page",
+          "ratioPercent": 14.87
+        },
+        {
+          "id": "bundle-benefits",
+          "owner": "page",
+          "ratioPercent": 11.521
+        },
+        {
+          "id": "bundle-tabs",
+          "owner": "shared",
+          "ratioPercent": 12.372
+        },
+        {
+          "id": "product-related",
+          "owner": "page",
+          "ratioPercent": 12.583
+        },
+        {
+          "id": "product-legal-notices",
+          "owner": "page",
+          "ratioPercent": 12.584
+        },
+        {
+          "id": "shared-footer",
+          "owner": "footer",
+          "ratioPercent": 0
+        }
+      ],
+      "evidence": {
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/product-bundle/comparison.json",
+        "rendered": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/product-bundle/rendered.png",
+        "diff": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/product-bundle/diff.png",
+        "fullSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/full-product-bundle.png",
+        "sectionSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/sections-product-bundle.png",
+        "responsiveSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/responsive-product-bundle.png"
+      }
+    },
+    {
+      "id": "account",
+      "passed": false,
+      "fullRatioPercent": 12.791,
+      "ownership": {
+        "header": 6.358,
+        "footer": 0,
+        "shared": 0,
+        "page": 13.708,
+        "outside": 0,
+        "reused": 0
+      },
+      "reference": {
+        "path": "references/full/frame-524-2.png",
+        "width": 1920,
+        "height": 1555,
+        "sha256": "f485b41c26cdb49a9827d0bce309fa49fd524c032e11130dd85f4d930c175f93"
+      },
+      "rendered": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/account/rendered.png",
+        "width": 1920,
+        "height": 1525,
+        "sha256": "37461d82e834d748ec14caa94d0829518fc8b4121cd7e19f9e73a37460f38066"
+      },
+      "heightDelta": -30,
+      "errors": [
+        "Full page height differs",
+        "page pixel mismatch 13.708%"
+      ],
+      "unhealthyResponsiveWidths": [],
+      "geometryFailures": [
+        {
+          "section": "shared-footer",
+          "expected": {
+            "frameWidth": 1920,
+            "x": 0,
+            "y": 8363,
+            "width": 1920,
+            "height": 636
+          },
+          "actual": {
+            "id": "shared-footer",
+            "landmark": "footer",
+            "component": null,
+            "x": 0,
+            "y": 888,
+            "width": 1920,
+            "height": 636,
+            "style": {
+              "fontFamily": "\"DM Sans\", sans-serif",
+              "fontWeight": "400",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "borderRadius": "0px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "normal",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%"
+            }
+          },
+          "delta": {
+            "x": 0,
+            "y": -7475,
+            "width": 0,
+            "height": 0
+          }
+        }
+      ],
+      "crops": [
+        {
+          "id": "shared-topbar",
+          "owner": "header",
+          "ratioPercent": 2.013
+        },
+        {
+          "id": "shared-secondary-navigation",
+          "owner": "header",
+          "ratioPercent": 15.095
+        },
+        {
+          "id": "shared-primary-navigation",
+          "owner": "header",
+          "ratioPercent": 9.829
+        },
+        {
+          "id": "account-breadcrumbs",
+          "owner": "page",
+          "ratioPercent": 3.833
+        },
+        {
+          "id": "account-login",
+          "owner": "page",
+          "ratioPercent": 6.778
+        },
+        {
+          "id": "account-registration",
+          "owner": "page",
+          "ratioPercent": 10.077
+        },
+        {
+          "id": "shared-footer",
+          "owner": "footer",
+          "ratioPercent": 0
+        }
+      ],
+      "evidence": {
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/account/comparison.json",
+        "rendered": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/account/rendered.png",
+        "diff": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/account/diff.png",
+        "fullSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/full-account.png",
+        "sectionSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/sections-account.png",
+        "responsiveSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/responsive-account.png"
+      }
+    },
+    {
+      "id": "product-expanded",
+      "passed": false,
+      "fullRatioPercent": 15.038,
+      "ownership": {
+        "header": 6.357,
+        "footer": 0,
+        "shared": 15.712,
+        "page": 15.272,
+        "outside": 0,
+        "reused": 0
+      },
+      "reference": {
+        "path": "references/full/frame-326-2526.png",
+        "width": 1920,
+        "height": 6031,
+        "sha256": "e7a3ca64f767557d01be5e359647d144abe83587794e8c4f00bd466958336170"
+      },
+      "rendered": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/product-expanded/rendered.png",
+        "width": 1920,
+        "height": 6191,
+        "sha256": "5ca9fd09e614ded81ff6b67b02349274d1b858a35628b0df133875151dc9f119"
+      },
+      "heightDelta": 160,
+      "errors": [
+        "Full page height differs",
+        "Responsive render health 375",
+        "page pixel mismatch 15.272%",
+        "Section geometry differs: product-related",
+        "Section geometry differs: product-legal-notices",
+        "shared pixel mismatch 15.712%",
+        "Shared component pixel mismatch product-gallery: 17.983%",
+        "Shared component pixel mismatch product-tabs: 14.102%",
+        "Section geometry differs: product-tabs"
+      ],
+      "unhealthyResponsiveWidths": [
+        375
+      ],
+      "geometryFailures": [
+        {
+          "section": "product-tabs",
+          "expected": {
+            "frameWidth": 1920,
+            "x": 240,
+            "y": 1096,
+            "width": 1440,
+            "height": 494
+          },
+          "actual": {
+            "id": "product-tabs",
+            "landmark": null,
+            "component": "product-tabs",
+            "x": 240,
+            "y": 1096.75,
+            "width": 1440,
+            "height": 3162,
+            "style": {
+              "fontFamily": "\"DM Sans\", sans-serif",
+              "fontWeight": "400",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "color": "rgb(17, 17, 17)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "borderRadius": "0px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "normal",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%"
+            }
+          },
+          "delta": {
+            "x": 0,
+            "y": 0.75,
+            "width": 0,
+            "height": 2668
+          }
+        },
+        {
+          "section": "product-related",
+          "expected": {
+            "frameWidth": 1920,
+            "x": 240,
+            "y": 4348,
+            "width": 710,
+            "height": 570
+          },
+          "actual": {
+            "id": "product-related",
+            "landmark": null,
+            "component": null,
+            "x": 240,
+            "y": 4348.75,
+            "width": 710,
+            "height": 719.9375,
+            "style": {
+              "fontFamily": "\"DM Sans\", sans-serif",
+              "fontWeight": "400",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "color": "rgb(17, 17, 17)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "borderRadius": "0px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "normal",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%"
+            }
+          },
+          "delta": {
+            "x": 0,
+            "y": 0.75,
+            "width": 0,
+            "height": 149.9375
+          }
+        },
+        {
+          "section": "product-legal-notices",
+          "expected": {
+            "frameWidth": 1920,
+            "x": 240,
+            "y": 4976,
+            "width": 1440,
+            "height": 287
+          },
+          "actual": {
+            "id": "product-legal-notices",
+            "landmark": null,
+            "component": null,
+            "x": 240,
+            "y": 5126.6875,
+            "width": 1440,
+            "height": 287,
+            "style": {
+              "fontFamily": "\"DM Sans\", sans-serif",
+              "fontWeight": "400",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "color": "rgb(17, 17, 17)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "borderRadius": "0px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "normal",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%"
+            }
+          },
+          "delta": {
+            "x": 0,
+            "y": 150.6875,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "section": "shared-footer",
+          "expected": {
+            "frameWidth": 1920,
+            "x": 0,
+            "y": 8363,
+            "width": 1920,
+            "height": 636
+          },
+          "actual": {
+            "id": "shared-footer",
+            "landmark": "footer",
+            "component": null,
+            "x": 0,
+            "y": 5553.6875,
+            "width": 1920,
+            "height": 636,
+            "style": {
+              "fontFamily": "\"DM Sans\", sans-serif",
+              "fontWeight": "400",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "borderRadius": "0px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "normal",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%"
+            }
+          },
+          "delta": {
+            "x": 0,
+            "y": -2809.3125,
+            "width": 0,
+            "height": 0
+          }
+        }
+      ],
+      "crops": [
+        {
+          "id": "shared-topbar",
+          "owner": "header",
+          "ratioPercent": 2.013
+        },
+        {
+          "id": "shared-secondary-navigation",
+          "owner": "header",
+          "ratioPercent": 15.089
+        },
+        {
+          "id": "shared-primary-navigation",
+          "owner": "header",
+          "ratioPercent": 9.829
+        },
+        {
+          "id": "product-breadcrumbs",
+          "owner": "page",
+          "ratioPercent": 7.494
+        },
+        {
+          "id": "product-gallery",
+          "owner": "shared",
+          "ratioPercent": 17.983
+        },
+        {
+          "id": "product-overview",
+          "owner": "page",
+          "ratioPercent": 17.509
+        },
+        {
+          "id": "product-tabs",
+          "owner": "shared",
+          "ratioPercent": 14.102
+        },
+        {
+          "id": "product-expanded-description",
+          "owner": "page",
+          "ratioPercent": 17.944
+        },
+        {
+          "id": "product-related",
+          "owner": "page",
+          "ratioPercent": 18.249
+        },
+        {
+          "id": "product-legal-notices",
+          "owner": "page",
+          "ratioPercent": 13.047
+        },
+        {
+          "id": "shared-footer",
+          "owner": "footer",
+          "ratioPercent": 0
+        }
+      ],
+      "evidence": {
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/product-expanded/comparison.json",
+        "rendered": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/product-expanded/rendered.png",
+        "diff": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/product-expanded/diff.png",
+        "fullSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/full-product-expanded.png",
+        "sectionSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/sections-product-expanded.png",
+        "responsiveSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/responsive-product-expanded.png"
+      }
+    },
+    {
+      "id": "product-inquiry",
+      "passed": false,
+      "fullRatioPercent": 14.753,
+      "ownership": {
+        "header": 6.358,
+        "footer": 0,
+        "shared": 18.634,
+        "page": 14.44,
+        "outside": 0,
+        "reused": 0
+      },
+      "reference": {
+        "path": "references/full/frame-423-263.png",
+        "width": 1920,
+        "height": 3397,
+        "sha256": "696818ffb0100153c1c8c8091909840a71d216224b3d644c405bcde3e36d9ef7"
+      },
+      "rendered": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/product-inquiry/rendered.png",
+        "width": 1920,
+        "height": 3479,
+        "sha256": "b0e717695826b6ccb1a3d47b024b2184a923b5fb2e609682766f53d7273a26ec"
+      },
+      "heightDelta": 82,
+      "errors": [
+        "Full page height differs",
+        "Responsive render health 375",
+        "page pixel mismatch 14.440%",
+        "Section geometry differs: product-related",
+        "Section geometry differs: product-legal-notices",
+        "shared pixel mismatch 18.634%",
+        "Shared component pixel mismatch product-gallery: 17.930%",
+        "Shared component pixel mismatch product-tabs: 19.133%"
+      ],
+      "unhealthyResponsiveWidths": [
+        375
+      ],
+      "geometryFailures": [
+        {
+          "section": "product-related",
+          "expected": {
+            "frameWidth": 1920,
+            "x": 240,
+            "y": 1635,
+            "width": 710,
+            "height": 570
+          },
+          "actual": {
+            "id": "product-related",
+            "landmark": null,
+            "component": null,
+            "x": 240,
+            "y": 1637,
+            "width": 710,
+            "height": 719.9375,
+            "style": {
+              "fontFamily": "\"DM Sans\", sans-serif",
+              "fontWeight": "400",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "color": "rgb(17, 17, 17)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "borderRadius": "0px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "normal",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%"
+            }
+          },
+          "delta": {
+            "x": 0,
+            "y": 2,
+            "width": 0,
+            "height": 149.9375
+          }
+        },
+        {
+          "section": "product-legal-notices",
+          "expected": {
+            "frameWidth": 1920,
+            "x": 240,
+            "y": 2263,
+            "width": 1440,
+            "height": 287
+          },
+          "actual": {
+            "id": "product-legal-notices",
+            "landmark": null,
+            "component": null,
+            "x": 240,
+            "y": 2414.9375,
+            "width": 1440,
+            "height": 287,
+            "style": {
+              "fontFamily": "\"DM Sans\", sans-serif",
+              "fontWeight": "400",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "color": "rgb(17, 17, 17)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "borderRadius": "0px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "normal",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%"
+            }
+          },
+          "delta": {
+            "x": 0,
+            "y": 151.9375,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "section": "shared-footer",
+          "expected": {
+            "frameWidth": 1920,
+            "x": 0,
+            "y": 8363,
+            "width": 1920,
+            "height": 636
+          },
+          "actual": {
+            "id": "shared-footer",
+            "landmark": "footer",
+            "component": null,
+            "x": 0,
+            "y": 2841.9375,
+            "width": 1920,
+            "height": 636,
+            "style": {
+              "fontFamily": "\"DM Sans\", sans-serif",
+              "fontWeight": "400",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "borderRadius": "0px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "normal",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%"
+            }
+          },
+          "delta": {
+            "x": 0,
+            "y": -5521.0625,
+            "width": 0,
+            "height": 0
+          }
+        }
+      ],
+      "crops": [
+        {
+          "id": "shared-topbar",
+          "owner": "header",
+          "ratioPercent": 2.013
+        },
+        {
+          "id": "shared-secondary-navigation",
+          "owner": "header",
+          "ratioPercent": 15.095
+        },
+        {
+          "id": "shared-primary-navigation",
+          "owner": "header",
+          "ratioPercent": 9.829
+        },
+        {
+          "id": "product-breadcrumbs",
+          "owner": "page",
+          "ratioPercent": 7.494
+        },
+        {
+          "id": "product-gallery",
+          "owner": "shared",
+          "ratioPercent": 17.93
+        },
+        {
+          "id": "product-inquiry-overview",
+          "owner": "page",
+          "ratioPercent": 14.561
+        },
+        {
+          "id": "product-tabs",
+          "owner": "shared",
+          "ratioPercent": 19.133
+        },
+        {
+          "id": "product-inquiry-dialog",
+          "owner": "page",
+          "ratioPercent": 11.136
+        },
+        {
+          "id": "product-related",
+          "owner": "page",
+          "ratioPercent": 15.427
+        },
+        {
+          "id": "product-legal-notices",
+          "owner": "page",
+          "ratioPercent": 11.117
+        },
+        {
+          "id": "shared-footer",
+          "owner": "footer",
+          "ratioPercent": 0
+        }
+      ],
+      "evidence": {
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/product-inquiry/comparison.json",
+        "rendered": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/product-inquiry/rendered.png",
+        "diff": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/product-inquiry/diff.png",
+        "fullSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/full-product-inquiry.png",
+        "sectionSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/sections-product-inquiry.png",
+        "responsiveSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/responsive-product-inquiry.png"
+      }
+    },
+    {
+      "id": "order-confirmed",
+      "passed": false,
+      "fullRatioPercent": 83.626,
+      "ownership": {
+        "header": 6.358,
+        "footer": 0,
+        "shared": 0,
+        "page": 91.102,
+        "outside": 0,
+        "reused": 0
+      },
+      "reference": {
+        "path": "references/full/frame-493-1094.png",
+        "width": 1920,
+        "height": 2199,
+        "sha256": "064be6483f55576e845040c2fa2902905544fd0a6d056eb3b43f2f169092fc58"
+      },
+      "rendered": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/order-confirmed/rendered.png",
+        "width": 1920,
+        "height": 900,
+        "sha256": "1a54d5f4740478ddd4885540c427a2d10f231c1a88d613d7980c81502d059a96"
+      },
+      "heightDelta": -1299,
+      "errors": [
+        "Full page height differs",
+        "page pixel mismatch 91.102%",
+        "Section geometry differs: confirmation-heading",
+        "Section geometry differs: checkout-steps",
+        "Section geometry differs: checkout-order-confirmation",
+        "Section geometry differs: confirmation-line-items",
+        "Section geometry differs: checkout-totals"
+      ],
+      "unhealthyResponsiveWidths": [],
+      "geometryFailures": [
+        {
+          "section": "confirmation-heading",
+          "expected": {
+            "frameWidth": 1920,
+            "x": 237,
+            "y": 260,
+            "width": 467,
+            "height": 68,
+            "containerWidth": 1440
+          },
+          "actual": null,
+          "delta": {
+            "x": null,
+            "y": null,
+            "width": null,
+            "height": null
+          }
+        },
+        {
+          "section": "checkout-steps",
+          "expected": {
+            "frameWidth": 1920,
+            "x": 249,
+            "y": 376,
+            "width": 951,
+            "height": 106,
+            "containerWidth": 1440
+          },
+          "actual": null,
+          "delta": {
+            "x": null,
+            "y": null,
+            "width": null,
+            "height": null
+          }
+        },
+        {
+          "section": "checkout-order-confirmation",
+          "expected": {
+            "frameWidth": 1920,
+            "x": 240,
+            "y": 576,
+            "width": 953,
+            "height": 824
+          },
+          "actual": null,
+          "delta": {
+            "x": null,
+            "y": null,
+            "width": null,
+            "height": null
+          }
+        },
+        {
+          "section": "confirmation-line-items",
+          "expected": {
+            "frameWidth": 1920,
+            "x": 282,
+            "y": 956,
+            "width": 673,
+            "height": 263,
+            "containerWidth": 1440
+          },
+          "actual": null,
+          "delta": {
+            "x": null,
+            "y": null,
+            "width": null,
+            "height": null
+          }
+        },
+        {
+          "section": "checkout-totals",
+          "expected": {
+            "frameWidth": 1920,
+            "x": 1213,
+            "y": 364,
+            "width": 467,
+            "height": 473,
+            "containerWidth": 1440
+          },
+          "actual": null,
+          "delta": {
+            "x": null,
+            "y": null,
+            "width": null,
+            "height": null
+          }
+        },
+        {
+          "section": "shared-footer",
+          "expected": {
+            "frameWidth": 1920,
+            "x": 0,
+            "y": 8363,
+            "width": 1920,
+            "height": 636
+          },
+          "actual": {
+            "id": "shared-footer",
+            "landmark": "footer",
+            "component": null,
+            "x": 0,
+            "y": 219,
+            "width": 1920,
+            "height": 636,
+            "style": {
+              "fontFamily": "\"DM Sans\", sans-serif",
+              "fontWeight": "400",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "borderRadius": "0px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "normal",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%"
+            }
+          },
+          "delta": {
+            "x": 0,
+            "y": -8144,
+            "width": 0,
+            "height": 0
+          }
+        }
+      ],
+      "crops": [
+        {
+          "id": "shared-topbar",
+          "owner": "header",
+          "ratioPercent": 2.013
+        },
+        {
+          "id": "shared-secondary-navigation",
+          "owner": "header",
+          "ratioPercent": 15.095
+        },
+        {
+          "id": "shared-primary-navigation",
+          "owner": "header",
+          "ratioPercent": 9.828
+        },
+        {
+          "id": "confirmation-heading",
+          "owner": "page",
+          "ratioPercent": 86.881
+        },
+        {
+          "id": "checkout-steps",
+          "owner": "page",
+          "ratioPercent": 98.582
+        },
+        {
+          "id": "checkout-order-confirmation",
+          "owner": "page",
+          "ratioPercent": 84.415
+        },
+        {
+          "id": "confirmation-line-items",
+          "owner": "page",
+          "ratioPercent": 100
+        },
+        {
+          "id": "checkout-totals",
+          "owner": "page",
+          "ratioPercent": 87.048
+        },
+        {
+          "id": "shared-footer",
+          "owner": "footer",
+          "ratioPercent": 0
+        }
+      ],
+      "evidence": {
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/order-confirmed/comparison.json",
+        "rendered": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/order-confirmed/rendered.png",
+        "diff": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/order-confirmed/diff.png",
+        "fullSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/full-order-confirmed.png",
+        "sectionSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/sections-order-confirmed.png",
+        "responsiveSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/responsive-order-confirmed.png"
+      }
+    },
+    {
+      "id": "checkout-login",
+      "passed": false,
+      "fullRatioPercent": 13.079,
+      "ownership": {
+        "header": 4.634,
+        "footer": 0,
+        "shared": 19.432,
+        "page": 14.797,
+        "outside": 0,
+        "reused": 0
+      },
+      "reference": {
+        "path": "references/full/frame-492-775.png",
+        "width": 1920,
+        "height": 1799,
+        "sha256": "d3c65ad7f3459060077e22adcc66287a29af406cd2c516d073194ea8e1cf173e"
+      },
+      "rendered": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/checkout-login/rendered.png",
+        "width": 1920,
+        "height": 1765,
+        "sha256": "0a820ec0f9c8e30af90ee13affa01843e2b2d720e7c0289aead7a29984e9f202"
+      },
+      "heightDelta": -34,
+      "errors": [
+        "Full page height differs",
+        "page pixel mismatch 14.797%",
+        "shared pixel mismatch 19.432%",
+        "Shared component pixel mismatch checkout-steps: 19.432%",
+        "Section geometry differs: checkout-login-heading"
+      ],
+      "unhealthyResponsiveWidths": [],
+      "geometryFailures": [
+        {
+          "section": "checkout-login-heading",
+          "expected": {
+            "frameWidth": 1920,
+            "x": 237,
+            "y": 260,
+            "width": 467,
+            "height": 68,
+            "containerWidth": 1440
+          },
+          "actual": {
+            "id": "checkout-login-heading",
+            "landmark": "header",
+            "component": null,
+            "x": 240,
+            "y": 261,
+            "width": 467,
+            "height": 68,
+            "style": {
+              "fontFamily": "\"DM Sans\", sans-serif",
+              "fontWeight": "400",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "borderRadius": "0px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "normal",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%"
+            }
+          },
+          "delta": {
+            "x": 3,
+            "y": 1,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "section": "shared-footer",
+          "expected": {
+            "frameWidth": 1920,
+            "x": 0,
+            "y": 8363,
+            "width": 1920,
+            "height": 636
+          },
+          "actual": {
+            "id": "shared-footer",
+            "landmark": "footer",
+            "component": null,
+            "x": 0,
+            "y": 1128,
+            "width": 1920,
+            "height": 636,
+            "style": {
+              "fontFamily": "\"DM Sans\", sans-serif",
+              "fontWeight": "400",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "borderRadius": "0px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "normal",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%"
+            }
+          },
+          "delta": {
+            "x": 0,
+            "y": -7235,
+            "width": 0,
+            "height": 0
+          }
+        }
+      ],
+      "crops": [
+        {
+          "id": "shared-topbar",
+          "owner": "header",
+          "ratioPercent": 1.596
+        },
+        {
+          "id": "shared-secondary-navigation",
+          "owner": "header",
+          "ratioPercent": 15.095
+        },
+        {
+          "id": "shared-primary-navigation",
+          "owner": "header",
+          "ratioPercent": 9.829
+        },
+        {
+          "id": "checkout-login-heading",
+          "owner": "header",
+          "ratioPercent": 16.164
+        },
+        {
+          "id": "checkout-steps",
+          "owner": "shared",
+          "ratioPercent": 19.432
+        },
+        {
+          "id": "checkout-login-options",
+          "owner": "page",
+          "ratioPercent": 13.129
+        },
+        {
+          "id": "shared-footer",
+          "owner": "footer",
+          "ratioPercent": 0
+        }
+      ],
+      "evidence": {
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/checkout-login/comparison.json",
+        "rendered": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/checkout-login/rendered.png",
+        "diff": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/checkout-login/diff.png",
+        "fullSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/full-checkout-login.png",
+        "sectionSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/sections-checkout-login.png",
+        "responsiveSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/responsive-checkout-login.png"
+      }
+    },
+    {
+      "id": "checkout-registration",
+      "passed": false,
+      "fullRatioPercent": 13.99,
+      "ownership": {
+        "header": 4.614,
+        "footer": 0,
+        "shared": 19.432,
+        "page": 15.931,
+        "outside": 0,
+        "reused": 0
+      },
+      "reference": {
+        "path": "references/full/frame-495-1558.png",
+        "width": 1920,
+        "height": 1818,
+        "sha256": "04953750d9bd21e9f668f52ecef996fb274b769f2dbc41ce5e507a46bbdc8b63"
+      },
+      "rendered": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/checkout-registration/rendered.png",
+        "width": 1920,
+        "height": 1765,
+        "sha256": "76df40d120e096408f17b00d42cfc56f725ad0a46c8944cbbaa35a4648a0d7c8"
+      },
+      "heightDelta": -53,
+      "errors": [
+        "Full page height differs",
+        "page pixel mismatch 15.931%",
+        "shared pixel mismatch 19.432%",
+        "Shared component pixel mismatch checkout-steps: 19.432%"
+      ],
+      "unhealthyResponsiveWidths": [],
+      "geometryFailures": [
+        {
+          "section": "checkout-login-heading",
+          "expected": {
+            "frameWidth": 1920,
+            "x": 237,
+            "y": 260,
+            "width": 467,
+            "height": 68,
+            "containerWidth": 1440
+          },
+          "actual": {
+            "id": "checkout-login-heading",
+            "landmark": "header",
+            "component": null,
+            "x": 240,
+            "y": 261,
+            "width": 467,
+            "height": 68,
+            "style": {
+              "fontFamily": "\"DM Sans\", sans-serif",
+              "fontWeight": "400",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "borderRadius": "0px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "normal",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%"
+            }
+          },
+          "delta": {
+            "x": 3,
+            "y": 1,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "section": "shared-footer",
+          "expected": {
+            "frameWidth": 1920,
+            "x": 0,
+            "y": 8363,
+            "width": 1920,
+            "height": 636
+          },
+          "actual": {
+            "id": "shared-footer",
+            "landmark": "footer",
+            "component": null,
+            "x": 0,
+            "y": 1128,
+            "width": 1920,
+            "height": 636,
+            "style": {
+              "fontFamily": "\"DM Sans\", sans-serif",
+              "fontWeight": "400",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "borderRadius": "0px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "normal",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%"
+            }
+          },
+          "delta": {
+            "x": 0,
+            "y": -7235,
+            "width": 0,
+            "height": 0
+          }
+        }
+      ],
+      "crops": [
+        {
+          "id": "shared-topbar",
+          "owner": "header",
+          "ratioPercent": 1.596
+        },
+        {
+          "id": "shared-secondary-navigation",
+          "owner": "header",
+          "ratioPercent": 15.095
+        },
+        {
+          "id": "shared-primary-navigation",
+          "owner": "header",
+          "ratioPercent": 9.829
+        },
+        {
+          "id": "checkout-login-heading",
+          "owner": "header",
+          "ratioPercent": 16.164
+        },
+        {
+          "id": "checkout-steps",
+          "owner": "shared",
+          "ratioPercent": 19.432
+        },
+        {
+          "id": "checkout-login-options",
+          "owner": "page",
+          "ratioPercent": 7.962
+        },
+        {
+          "id": "account-registration-dialog",
+          "owner": "page",
+          "ratioPercent": 6.04
+        },
+        {
+          "id": "shared-footer",
+          "owner": "footer",
+          "ratioPercent": 0
+        }
+      ],
+      "evidence": {
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/checkout-registration/comparison.json",
+        "rendered": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/checkout-registration/rendered.png",
+        "diff": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/checkout-registration/diff.png",
+        "fullSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/full-checkout-registration.png",
+        "sectionSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/sections-checkout-registration.png",
+        "responsiveSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/responsive-checkout-registration.png"
+      }
+    },
+    {
+      "id": "product-reviews-state",
+      "passed": false,
+      "fullRatioPercent": 20.448,
+      "ownership": {
+        "header": 6.358,
+        "footer": 0,
+        "shared": 17.983,
+        "page": 21.557,
+        "outside": 0,
+        "reused": 0
+      },
+      "reference": {
+        "path": "references/full/frame-425-542.png",
+        "width": 1920,
+        "height": 3291,
+        "sha256": "40aa55996eb5e408899af7e2a1a5ea6673bd807ff0f196f678393784d524294f"
+      },
+      "rendered": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/product-reviews-state/rendered.png",
+        "width": 1920,
+        "height": 3503,
+        "sha256": "6bbcd5c9a2e141659ff5f47f9386322259c15e8af925dcf947718300482383a6"
+      },
+      "heightDelta": 212,
+      "errors": [
+        "Full page height differs",
+        "Responsive render health 375",
+        "page pixel mismatch 21.557%",
+        "Section geometry differs: product-related",
+        "Section geometry differs: product-legal-notices",
+        "shared pixel mismatch 17.983%",
+        "Shared component pixel mismatch product-gallery: 17.983%"
+      ],
+      "unhealthyResponsiveWidths": [
+        375
+      ],
+      "geometryFailures": [
+        {
+          "section": "product-related",
+          "expected": {
+            "frameWidth": 1920,
+            "x": 240,
+            "y": 1635,
+            "width": 710,
+            "height": 570
+          },
+          "actual": {
+            "id": "product-related",
+            "landmark": null,
+            "component": null,
+            "x": 240,
+            "y": 1636.75,
+            "width": 710,
+            "height": 743.9375,
+            "style": {
+              "fontFamily": "\"DM Sans\", sans-serif",
+              "fontWeight": "400",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "color": "rgb(17, 17, 17)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "borderRadius": "0px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "normal",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%"
+            }
+          },
+          "delta": {
+            "x": 0,
+            "y": 1.75,
+            "width": 0,
+            "height": 173.9375
+          }
+        },
+        {
+          "section": "product-legal-notices",
+          "expected": {
+            "frameWidth": 1920,
+            "x": 240,
+            "y": 2263,
+            "width": 1440,
+            "height": 287
+          },
+          "actual": {
+            "id": "product-legal-notices",
+            "landmark": null,
+            "component": null,
+            "x": 240,
+            "y": 2438.6875,
+            "width": 1440,
+            "height": 287,
+            "style": {
+              "fontFamily": "\"DM Sans\", sans-serif",
+              "fontWeight": "400",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "color": "rgb(17, 17, 17)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "borderRadius": "0px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "normal",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%"
+            }
+          },
+          "delta": {
+            "x": 0,
+            "y": 175.6875,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "section": "shared-footer",
+          "expected": {
+            "frameWidth": 1920,
+            "x": 0,
+            "y": 8363,
+            "width": 1920,
+            "height": 636
+          },
+          "actual": {
+            "id": "shared-footer",
+            "landmark": "footer",
+            "component": null,
+            "x": 0,
+            "y": 2865.6875,
+            "width": 1920,
+            "height": 636,
+            "style": {
+              "fontFamily": "\"DM Sans\", sans-serif",
+              "fontWeight": "400",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "borderRadius": "0px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "normal",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%"
+            }
+          },
+          "delta": {
+            "x": 0,
+            "y": -5497.3125,
+            "width": 0,
+            "height": 0
+          }
+        }
+      ],
+      "crops": [
+        {
+          "id": "shared-topbar",
+          "owner": "header",
+          "ratioPercent": 2.013
+        },
+        {
+          "id": "shared-secondary-navigation",
+          "owner": "header",
+          "ratioPercent": 15.095
+        },
+        {
+          "id": "shared-primary-navigation",
+          "owner": "header",
+          "ratioPercent": 9.829
+        },
+        {
+          "id": "product-breadcrumbs",
+          "owner": "page",
+          "ratioPercent": 7.494
+        },
+        {
+          "id": "product-gallery",
+          "owner": "shared",
+          "ratioPercent": 17.983
+        },
+        {
+          "id": "product-overview",
+          "owner": "page",
+          "ratioPercent": 16.325
+        },
+        {
+          "id": "product-reviews",
+          "owner": "page",
+          "ratioPercent": 13.283
+        },
+        {
+          "id": "product-related",
+          "owner": "page",
+          "ratioPercent": 18.048
+        },
+        {
+          "id": "product-legal-notices",
+          "owner": "page",
+          "ratioPercent": 13.222
+        },
+        {
+          "id": "shared-footer",
+          "owner": "footer",
+          "ratioPercent": 0
+        }
+      ],
+      "evidence": {
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/product-reviews-state/comparison.json",
+        "rendered": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/product-reviews-state/rendered.png",
+        "diff": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/product-reviews-state/diff.png",
+        "fullSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/full-product-reviews-state.png",
+        "sectionSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/sections-product-reviews-state.png",
+        "responsiveSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/responsive-product-reviews-state.png"
+      }
+    },
+    {
+      "id": "product-files-state",
+      "passed": false,
+      "fullRatioPercent": 30.073,
+      "ownership": {
+        "header": 6.358,
+        "footer": 0,
+        "shared": 17.983,
+        "page": 32.605,
+        "outside": 0,
+        "reused": 0
+      },
+      "reference": {
+        "path": "references/full/frame-586-711.png",
+        "width": 1920,
+        "height": 3111,
+        "sha256": "a7e1e957b0586be6ef12a56258f54676840c132cb6788e25d14fc9370a16123d"
+      },
+      "rendered": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/product-files-state/rendered.png",
+        "width": 1920,
+        "height": 3527,
+        "sha256": "072572ea6ff6a25f31eb9052db33166c8ecd69ff7dba09c486b2fc123265b32a"
+      },
+      "heightDelta": 416,
+      "errors": [
+        "Full page height differs",
+        "Responsive render health 375",
+        "page pixel mismatch 32.605%",
+        "Section geometry differs: product-related",
+        "Section geometry differs: product-legal-notices",
+        "shared pixel mismatch 17.983%",
+        "Shared component pixel mismatch product-gallery: 17.983%"
+      ],
+      "unhealthyResponsiveWidths": [
+        375
+      ],
+      "geometryFailures": [
+        {
+          "section": "product-related",
+          "expected": {
+            "frameWidth": 1920,
+            "x": 240,
+            "y": 1635,
+            "width": 710,
+            "height": 570
+          },
+          "actual": {
+            "id": "product-related",
+            "landmark": null,
+            "component": null,
+            "x": 240,
+            "y": 1636.75,
+            "width": 710,
+            "height": 767.9375,
+            "style": {
+              "fontFamily": "\"DM Sans\", sans-serif",
+              "fontWeight": "400",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "color": "rgb(17, 17, 17)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "borderRadius": "0px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "normal",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%"
+            }
+          },
+          "delta": {
+            "x": 0,
+            "y": 1.75,
+            "width": 0,
+            "height": 197.9375
+          }
+        },
+        {
+          "section": "product-legal-notices",
+          "expected": {
+            "frameWidth": 1920,
+            "x": 240,
+            "y": 2263,
+            "width": 1440,
+            "height": 287
+          },
+          "actual": {
+            "id": "product-legal-notices",
+            "landmark": null,
+            "component": null,
+            "x": 240,
+            "y": 2462.6875,
+            "width": 1440,
+            "height": 287,
+            "style": {
+              "fontFamily": "\"DM Sans\", sans-serif",
+              "fontWeight": "400",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "color": "rgb(17, 17, 17)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "borderRadius": "0px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "normal",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%"
+            }
+          },
+          "delta": {
+            "x": 0,
+            "y": 199.6875,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "section": "shared-footer",
+          "expected": {
+            "frameWidth": 1920,
+            "x": 0,
+            "y": 8363,
+            "width": 1920,
+            "height": 636
+          },
+          "actual": {
+            "id": "shared-footer",
+            "landmark": "footer",
+            "component": null,
+            "x": 0,
+            "y": 2889.6875,
+            "width": 1920,
+            "height": 636,
+            "style": {
+              "fontFamily": "\"DM Sans\", sans-serif",
+              "fontWeight": "400",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "borderRadius": "0px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "normal",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%"
+            }
+          },
+          "delta": {
+            "x": 0,
+            "y": -5473.3125,
+            "width": 0,
+            "height": 0
+          }
+        }
+      ],
+      "crops": [
+        {
+          "id": "shared-topbar",
+          "owner": "header",
+          "ratioPercent": 2.013
+        },
+        {
+          "id": "shared-secondary-navigation",
+          "owner": "header",
+          "ratioPercent": 15.095
+        },
+        {
+          "id": "shared-primary-navigation",
+          "owner": "header",
+          "ratioPercent": 9.829
+        },
+        {
+          "id": "product-breadcrumbs",
+          "owner": "page",
+          "ratioPercent": 7.494
+        },
+        {
+          "id": "product-gallery",
+          "owner": "shared",
+          "ratioPercent": 17.983
+        },
+        {
+          "id": "product-overview",
+          "owner": "page",
+          "ratioPercent": 16.325
+        },
+        {
+          "id": "product-files",
+          "owner": "page",
+          "ratioPercent": 9.001
+        },
+        {
+          "id": "product-related",
+          "owner": "page",
+          "ratioPercent": 16.752
+        },
+        {
+          "id": "product-legal-notices",
+          "owner": "page",
+          "ratioPercent": 25.615
+        },
+        {
+          "id": "shared-footer",
+          "owner": "footer",
+          "ratioPercent": 0
+        }
+      ],
+      "evidence": {
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/product-files-state/comparison.json",
+        "rendered": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/product-files-state/rendered.png",
+        "diff": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/product-files-state/diff.png",
+        "fullSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/full-product-files-state.png",
+        "sectionSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/sections-product-files-state.png",
+        "responsiveSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/responsive-product-files-state.png"
+      }
+    },
+    {
+      "id": "home-active",
+      "passed": false,
+      "fullRatioPercent": 13.798,
+      "ownership": {
+        "header": 5.2,
+        "footer": 33.33,
+        "shared": 0,
+        "page": 12.796,
+        "outside": 0,
+        "reused": 0
+      },
+      "reference": {
+        "path": "references/full/frame-250-115.png",
+        "width": 1920,
+        "height": 8999,
+        "sha256": "a9797afcf07dad3662901f1520d4ac056c4a1875c78ff7e87dc37ac21feedadd"
+      },
+      "rendered": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/home-active/rendered.png",
+        "width": 1920,
+        "height": 8934,
+        "sha256": "e20654508e32c47c22c019218c47c8987fbd1ca2561caf383d85db3e4fb50966"
+      },
+      "heightDelta": -65,
+      "errors": [
+        "Full page height differs",
+        "page pixel mismatch 12.796%"
+      ],
+      "unhealthyResponsiveWidths": [],
+      "geometryFailures": [
+        {
+          "section": "shared-footer",
+          "expected": {
+            "frameWidth": 1920,
+            "x": 0,
+            "y": 8363,
+            "width": 1920,
+            "height": 636
+          },
+          "actual": {
+            "id": "shared-footer",
+            "landmark": "footer",
+            "component": null,
+            "x": 0,
+            "y": 8296.890625,
+            "width": 1920,
+            "height": 636,
+            "style": {
+              "fontFamily": "\"DM Sans\", sans-serif",
+              "fontWeight": "400",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "borderRadius": "0px",
+              "paddingTop": "0px",
+              "paddingRight": "0px",
+              "paddingBottom": "0px",
+              "paddingLeft": "0px",
+              "gap": "normal",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%"
+            }
+          },
+          "delta": {
+            "x": 0,
+            "y": -66.109375,
+            "width": 0,
+            "height": 0
+          }
+        }
+      ],
+      "crops": [
+        {
+          "id": "shared-topbar",
+          "owner": "header",
+          "ratioPercent": 2.013
+        },
+        {
+          "id": "shared-secondary-navigation",
+          "owner": "header",
+          "ratioPercent": 15.072
+        },
+        {
+          "id": "shared-primary-navigation-active",
+          "owner": "header",
+          "ratioPercent": 6.287
+        },
+        {
+          "id": "home-hero",
+          "owner": "page",
+          "ratioPercent": 4.387
+        },
+        {
+          "id": "home-benefits",
+          "owner": "page",
+          "ratioPercent": 10.411
+        },
+        {
+          "id": "home-crop-selection",
+          "owner": "page",
+          "ratioPercent": 6.224
+        },
+        {
+          "id": "home-promotions",
+          "owner": "page",
+          "ratioPercent": 10.606
+        },
+        {
+          "id": "home-bundles",
+          "owner": "page",
+          "ratioPercent": 20.329
+        },
+        {
+          "id": "home-catalogues",
+          "owner": "page",
+          "ratioPercent": 40.977
+        },
+        {
+          "id": "home-recommended",
+          "owner": "page",
+          "ratioPercent": 8.216
+        },
+        {
+          "id": "home-about",
+          "owner": "page",
+          "ratioPercent": 21.196
+        },
+        {
+          "id": "home-blog",
+          "owner": "page",
+          "ratioPercent": 31.457
+        },
+        {
+          "id": "home-knowledge",
+          "owner": "page",
+          "ratioPercent": 11.742
+        },
+        {
+          "id": "shared-footer",
+          "owner": "footer",
+          "ratioPercent": 33.33
+        }
+      ],
+      "evidence": {
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/home-active/comparison.json",
+        "rendered": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/home-active/rendered.png",
+        "diff": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789330359034/home-active/diff.png",
+        "fullSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/full-home-active.png",
+        "sectionSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/sections-home-active.png",
+        "responsiveSheet": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/visual-sheets/responsive-home-active.png"
+      }
+    }
+  ]
+}

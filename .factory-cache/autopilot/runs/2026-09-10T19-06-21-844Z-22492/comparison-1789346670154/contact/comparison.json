@@ -1,0 +1,677 @@
+{
+  "id": "contact",
+  "sourceNodeId": "335:591",
+  "capturedAt": "2026-09-14T00:45:35.196Z",
+  "passed": false,
+  "errors": [
+    "Full page height differs",
+    "page pixel mismatch 10.070%"
+  ],
+  "responsive": [
+    {
+      "width": 1440,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/contact/responsive-1440.png"
+    },
+    {
+      "width": 1280,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/contact/responsive-1280.png"
+    },
+    {
+      "width": 1024,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/contact/responsive-1024.png"
+    },
+    {
+      "width": 768,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/contact/responsive-768.png"
+    },
+    {
+      "width": 390,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/contact/responsive-390.png"
+    },
+    {
+      "width": 375,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/contact/responsive-375.png"
+    }
+  ],
+  "measurementVersion": 4,
+  "acceptanceScope": "all",
+  "templatePlan": null,
+  "geometryHash": "58bdefffa407665693498d00a41dc4f823ffde083feb7859a9829a8d24b88aec",
+  "geometryCorrection": null,
+  "ownershipRegions": [],
+  "geometry": [
+    {
+      "id": "shared-topbar",
+      "owner": "header",
+      "component": "header",
+      "expected": {
+        "frameWidth": 1920,
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 40
+      },
+      "actual": {
+        "id": "shared-topbar",
+        "landmark": null,
+        "component": null,
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 40,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "700",
+          "fontSize": "14px",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "shared-secondary-navigation",
+      "owner": "header",
+      "component": "header",
+      "expected": {
+        "frameWidth": 1920,
+        "x": 239,
+        "y": 56,
+        "width": 1440.9998779296875,
+        "height": 42
+      },
+      "actual": {
+        "id": "shared-secondary-navigation",
+        "landmark": "header",
+        "component": null,
+        "x": 237,
+        "y": 56,
+        "width": 1442.8125,
+        "height": 42,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "14px",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "20px",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": -2,
+        "y": 0,
+        "width": 1.8126220703125,
+        "height": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "shared-primary-navigation",
+      "owner": "header",
+      "component": "header",
+      "expected": {
+        "x": 240,
+        "y": 115,
+        "width": 1440,
+        "height": 78.6761245727539
+      },
+      "actual": {
+        "id": "shared-primary-navigation",
+        "landmark": "header",
+        "component": null,
+        "x": 240,
+        "y": 115,
+        "width": 1440,
+        "height": 80,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 1.3238754272460938
+      },
+      "passed": true
+    },
+    {
+      "id": "contact-heading",
+      "owner": "shared",
+      "component": "page-banner",
+      "expected": {
+        "x": 240,
+        "y": 218,
+        "width": 1440,
+        "height": 220
+      },
+      "actual": {
+        "id": "contact-heading",
+        "landmark": null,
+        "component": "page-banner",
+        "x": 240,
+        "y": 219,
+        "width": 1440,
+        "height": 220,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 1,
+        "width": 0,
+        "height": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "contact-details",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "x": 240,
+        "y": 485,
+        "width": 467,
+        "height": 1341
+      },
+      "actual": {
+        "id": "contact-details",
+        "landmark": null,
+        "component": null,
+        "x": 240,
+        "y": 486,
+        "width": 467,
+        "height": 1341,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "31px",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 1,
+        "width": 0,
+        "height": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "contact-form",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "x": 728,
+        "y": 519,
+        "width": 953,
+        "height": 376
+      },
+      "actual": {
+        "id": "contact-form",
+        "landmark": null,
+        "component": null,
+        "x": 728,
+        "y": 520,
+        "width": 952,
+        "height": 376,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 1,
+        "width": -1,
+        "height": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "contact-map",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "x": 728,
+        "y": 983,
+        "width": 953,
+        "height": 568
+      },
+      "actual": {
+        "id": "contact-map",
+        "landmark": null,
+        "component": null,
+        "x": 728,
+        "y": 984,
+        "width": 952,
+        "height": 568,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "30px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 1,
+        "width": -1,
+        "height": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "shared-footer",
+      "owner": "footer",
+      "component": "footer",
+      "expected": {
+        "frameWidth": 1920,
+        "x": 0,
+        "y": 8363,
+        "width": 1920,
+        "height": 636
+      },
+      "actual": {
+        "id": "shared-footer",
+        "landmark": "footer",
+        "component": null,
+        "x": 0,
+        "y": 1938,
+        "width": 1920,
+        "height": 636,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": -6425,
+        "width": 0,
+        "height": 0
+      },
+      "passed": false
+    }
+  ],
+  "pixels": {
+    "width": 1920,
+    "height": 2614,
+    "differentPixels": 467062,
+    "ratio": 0.09306100165774037,
+    "ownership": {
+      "header": {
+        "pixels": 372480,
+        "differentPixels": 23683,
+        "ratio": 0.06358193728522336
+      },
+      "footer": {
+        "pixels": 0,
+        "differentPixels": 0,
+        "ratio": 0
+      },
+      "shared": {
+        "pixels": 316800,
+        "differentPixels": 7392,
+        "ratio": 0.023333333333333334
+      },
+      "page": {
+        "pixels": 4329600,
+        "differentPixels": 435987,
+        "ratio": 0.10069914079822616
+      },
+      "outside": {
+        "pixels": 0,
+        "differentPixels": 0,
+        "ratio": 0
+      },
+      "reused": {
+        "pixels": 0,
+        "differentPixels": 0,
+        "ratio": 0
+      }
+    },
+    "components": {
+      "header": {
+        "owner": "header",
+        "pixels": 372480,
+        "differentPixels": 23683,
+        "ratio": 0.06358193728522336
+      },
+      "page-banner": {
+        "owner": "shared",
+        "pixels": 316800,
+        "differentPixels": 7392,
+        "ratio": 0.023333333333333334
+      }
+    },
+    "imageDiagnostics": {
+      "interiorPixels": 550841,
+      "interiorDifferentPixels": 14621,
+      "otherPixels": 3778759,
+      "otherDifferentPixels": 421366,
+      "note": "Diagnostic only: confirm source asset, crop, geometry and border before accepting interior photo differences. No blanket image exemption."
+    },
+    "meanMaxChannelDelta": 16.160043475835245,
+    "referenceSize": {
+      "width": 1920,
+      "height": 2614
+    },
+    "renderedSize": {
+      "width": 1920,
+      "height": 2575
+    },
+    "crops": [
+      {
+        "id": "shared-topbar",
+        "owner": "header",
+        "component": "header",
+        "reused": null,
+        "pixels": 76800,
+        "differentPixels": 1546,
+        "ratio": 0.020130208333333333,
+        "signature": null
+      },
+      {
+        "id": "shared-secondary-navigation",
+        "owner": "header",
+        "component": "header",
+        "reused": null,
+        "pixels": 60522,
+        "differentPixels": 9136,
+        "ratio": 0.15095337232741812,
+        "signature": null
+      },
+      {
+        "id": "shared-primary-navigation",
+        "owner": "header",
+        "component": "header",
+        "reused": null,
+        "pixels": 113760,
+        "differentPixels": 11181,
+        "ratio": 0.09828586497890296,
+        "signature": null
+      },
+      {
+        "id": "contact-heading",
+        "owner": "shared",
+        "component": "page-banner",
+        "reused": null,
+        "pixels": 316800,
+        "differentPixels": 7392,
+        "ratio": 0.023333333333333334,
+        "signature": null
+      },
+      {
+        "id": "contact-details",
+        "owner": "page",
+        "component": null,
+        "reused": null,
+        "pixels": 626247,
+        "differentPixels": 59031,
+        "ratio": 0.09426152939654801,
+        "signature": null
+      },
+      {
+        "id": "contact-form",
+        "owner": "page",
+        "component": null,
+        "reused": null,
+        "pixels": 358328,
+        "differentPixels": 18648,
+        "ratio": 0.052041704806769215,
+        "signature": null
+      },
+      {
+        "id": "contact-map",
+        "owner": "page",
+        "component": null,
+        "reused": null,
+        "pixels": 541304,
+        "differentPixels": 13998,
+        "ratio": 0.02585977565286789,
+        "signature": null
+      },
+      {
+        "id": "shared-footer",
+        "owner": "footer",
+        "component": "footer",
+        "reused": null,
+        "pixels": 1920,
+        "differentPixels": 0,
+        "ratio": 0,
+        "signature": null
+      }
+    ],
+    "worstRows": [
+      {
+        "y": 2575,
+        "count": 1920
+      },
+      {
+        "y": 2576,
+        "count": 1920
+      },
+      {
+        "y": 2577,
+        "count": 1920
+      },
+      {
+        "y": 2578,
+        "count": 1920
+      },
+      {
+        "y": 2579,
+        "count": 1920
+      },
+      {
+        "y": 2580,
+        "count": 1920
+      },
+      {
+        "y": 2581,
+        "count": 1920
+      },
+      {
+        "y": 2582,
+        "count": 1920
+      },
+      {
+        "y": 2583,
+        "count": 1920
+      },
+      {
+        "y": 2584,
+        "count": 1920
+      },
+      {
+        "y": 2585,
+        "count": 1920
+      },
+      {
+        "y": 2586,
+        "count": 1920
+      },
+      {
+        "y": 2587,
+        "count": 1920
+      },
+      {
+        "y": 2588,
+        "count": 1920
+      },
+      {
+        "y": 2589,
+        "count": 1920
+      },
+      {
+        "y": 2590,
+        "count": 1920
+      },
+      {
+        "y": 2591,
+        "count": 1920
+      },
+      {
+        "y": 2592,
+        "count": 1920
+      },
+      {
+        "y": 2593,
+        "count": 1920
+      },
+      {
+        "y": 2594,
+        "count": 1920
+      }
+    ]
+  },
+  "reference": {
+    "path": "references/full/frame-335-591.png",
+    "width": 1920,
+    "height": 2614,
+    "sha256": "b59e9a1ef198557c287a912c1a1fe02cbab29693a20a7e03aafea7cfbe019281"
+  },
+  "rendered": {
+    "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/contact/rendered.png",
+    "width": 1920,
+    "height": 2575,
+    "sha256": "a4df59d6aaff357ded720849ba477676ba8b5210fefee055ccfbe6b3ec9badb6"
+  },
+  "acceptance": {
+    "threshold": 0.085,
+    "pagePassed": false,
+    "sharedPassed": null,
+    "pageErrors": [
+      "Full page height differs",
+      "page pixel mismatch 10.070%"
+    ],
+    "sharedErrors": [],
+    "skippedOwners": [
+      "header",
+      "footer"
+    ],
+    "note": "Page build readiness can defer shared visual issues. Final acceptance requires both plus independent visual audit. Section ratios remain diagnostics."
+  },
+  "chromeReview": {
+    "skippedOwners": [
+      "header",
+      "footer"
+    ],
+    "reason": "One representative per shared section set and width"
+  }
+}

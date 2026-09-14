@@ -1,0 +1,354 @@
+﻿{
+    "product": {
+        "id": 54,
+        "type": "variable",
+        "imageId": 114,
+        "categories": [
+            16
+        ]
+    },
+    "variations": [
+        {
+            "id": 118,
+            "attributes": {
+                "pojemnosc": "1 L"
+            },
+            "price": "82.20",
+            "provenance": {
+                "sourceNode": "496:1781",
+                "sourcePriceNode": "323:2087",
+                "provenance": "user-authorized-proportional",
+                "basePrice": 411,
+                "baseQuantity": "5 L",
+                "targetQuantity": "1 L",
+                "formula": "base price * target quantity \/ base quantity",
+                "taxBasis": "including 23% VAT, source node 502:3"
+            }
+        },
+        {
+            "id": 119,
+            "attributes": {
+                "pojemnosc": "5 L"
+            },
+            "price": "411.00",
+            "provenance": {
+                "sourceNode": "496:1787",
+                "sourcePriceNode": "323:2087",
+                "provenance": "figma-explicit",
+                "basePrice": 411,
+                "baseQuantity": "5 L",
+                "targetQuantity": "5 L",
+                "formula": null,
+                "taxBasis": "including 23% VAT, source node 502:3"
+            }
+        },
+        {
+            "id": 120,
+            "attributes": {
+                "pojemnosc": "20 L"
+            },
+            "price": "1644.00",
+            "provenance": {
+                "sourceNode": "496:1791",
+                "sourcePriceNode": "323:2087",
+                "provenance": "user-authorized-proportional",
+                "basePrice": 411,
+                "baseQuantity": "5 L",
+                "targetQuantity": "20 L",
+                "formula": "base price * target quantity \/ base quantity",
+                "taxBasis": "including 23% VAT, source node 502:3"
+            }
+        }
+    ],
+    "cards": [
+        {
+            "id": 121,
+            "title": "Stomp Aqua 455 CS&nbsp;1L",
+            "price": "45.99",
+            "imageId": 127,
+            "imageSource": "references\/sections\/product-related.png",
+            "sourceNode": "326:2271"
+        },
+        {
+            "id": 122,
+            "title": "Stomp Aqua 455 CS&nbsp;5L",
+            "price": "534.60",
+            "imageId": 128,
+            "imageSource": "references\/sections\/product-related.png",
+            "sourceNode": "326:2289"
+        }
+    ],
+    "archiveCards": [
+        {
+            "id": 143,
+            "title": "Vivero 500 SC&nbsp;1L",
+            "price": "475.00",
+            "imageId": 144,
+            "imageSource": "assets\/product-archive\/fd65e899-135e-4f7c-b3b0-ef306c3db68e.png",
+            "sourceNode": "298:832"
+        },
+        {
+            "id": 145,
+            "title": "Atrium-X 5L",
+            "price": "1069.00",
+            "imageId": 146,
+            "imageSource": "assets\/product-archive\/962f3534-04e3-49e4-8fb8-08742b4b15db.png",
+            "sourceNode": "298:849"
+        },
+        {
+            "id": 147,
+            "title": "Bounty 430 SC&nbsp;5L",
+            "price": "265.00",
+            "imageId": 148,
+            "imageSource": "assets\/product-archive\/22efc351-e34d-41e5-81d8-c280e42f775f.png",
+            "sourceNode": "299:869"
+        },
+        {
+            "id": 149,
+            "title": "Zingaro Extra 250SC 5L",
+            "price": "295.00",
+            "imageId": 150,
+            "imageSource": "assets\/product-archive\/2dcf28f7-a4ee-4779-b171-1fcd4bc818c0.png",
+            "sourceNode": "299:889"
+        },
+        {
+            "id": 151,
+            "title": "Darcos 250 EW&nbsp;5L",
+            "price": "210.60",
+            "imageId": 152,
+            "imageSource": "assets\/product-archive\/1812f6e2-eabf-4c52-85d0-a35435642180.png",
+            "sourceNode": "299:907"
+        },
+        {
+            "id": 153,
+            "title": "Mepi Met Life 5L",
+            "price": "460.00",
+            "imageId": 154,
+            "imageSource": "assets\/product-archive\/d0962b82-012e-46e4-9654-a8e384b78f91.png",
+            "sourceNode": "299:925"
+        },
+        {
+            "id": 155,
+            "title": "Tavares 250 SE&nbsp;5L",
+            "price": "1135.00",
+            "imageId": 156,
+            "imageSource": "assets\/product-archive\/001037f1-77a9-4395-a2fe-1ede41eddae6.png",
+            "sourceNode": "299:1052"
+        },
+        {
+            "id": 157,
+            "title": "Allstar  5L",
+            "price": "3185.63",
+            "imageId": 158,
+            "imageSource": "assets\/product-archive\/eade290d-51fb-4669-8f79-4399c63be831.png",
+            "sourceNode": "299:1070"
+        },
+        {
+            "id": 159,
+            "title": "Andros 750 EC 5L",
+            "price": "723.60",
+            "imageId": 160,
+            "imageSource": "assets\/product-archive\/a3ca8574-638c-4d7c-96e6-ea004800c1a6.png",
+            "sourceNode": "299:1088"
+        },
+        {
+            "id": 161,
+            "title": "Ascra XPRO 260 EC 5L",
+            "price": "1162.40",
+            "imageId": 162,
+            "imageSource": "assets\/product-archive\/f9eb8608-652d-4dae-936c-835b76cf7097.png",
+            "sourceNode": "299:1104"
+        },
+        {
+            "id": 163,
+            "title": "Aviator XPRO 225 EC 5L",
+            "price": "1240.70",
+            "imageId": 164,
+            "imageSource": "assets\/product-archive\/c625bc7e-655c-4500-bf47-fe37db513fc6.png",
+            "sourceNode": "299:1120"
+        },
+        {
+            "id": 165,
+            "title": "Bantux 500 SC&nbsp;5L",
+            "price": "540.00",
+            "imageId": 166,
+            "imageSource": "assets\/product-archive\/d0962b82-012e-46e4-9654-a8e384b78f91.png",
+            "sourceNode": "299:1136"
+        },
+        {
+            "id": 167,
+            "title": "Belanty 5L",
+            "price": "553.68",
+            "imageId": 168,
+            "imageSource": "assets\/product-archive\/467273e2-7bb8-49fe-b397-91ede4d864e4.png",
+            "sourceNode": "302:1169"
+        },
+        {
+            "id": 169,
+            "title": "Bellis 38 WG&nbsp;1kg",
+            "price": "287.16",
+            "imageId": 170,
+            "imageSource": "assets\/product-archive\/d3761d23-87f2-4184-99f5-a0f433c7b2a2.png",
+            "sourceNode": "302:1185"
+        },
+        {
+            "id": 171,
+            "title": "Bellis 38 WG&nbsp;5kg",
+            "price": "1380.51",
+            "imageId": 172,
+            "imageSource": "assets\/product-archive\/6bfc72e3-a6b5-4a2f-83f4-64338511b986.png",
+            "sourceNode": "302:1201"
+        },
+        {
+            "id": 173,
+            "title": "Boogie XPRO 400 EC 15L",
+            "price": "2754.00",
+            "imageId": 174,
+            "imageSource": "assets\/product-archive\/ef3dca02-6501-4cfc-989a-c6f80d199df1.png",
+            "sourceNode": "302:1217"
+        },
+        {
+            "id": 175,
+            "title": "Cabrio Duo 112 EC 10L",
+            "price": "981.68",
+            "imageId": 176,
+            "imageSource": "assets\/product-archive\/07f819fe-7efa-4dcd-ad20-99bb28fc4393.png",
+            "sourceNode": "302:1233"
+        },
+        {
+            "id": 177,
+            "title": "Cabrio Duo 112 EC 1L",
+            "price": "99.76",
+            "imageId": 178,
+            "imageSource": "assets\/product-archive\/55e7ebb5-aa7d-48a4-8524-1644b1c903a8.png",
+            "sourceNode": "302:1249"
+        }
+    ],
+    "archiveOptions": {
+        "breadcrumbs": "Strona główna  \/  Środki ochrony Roślin  \/  Fungicydy",
+        "expand_label": "Rozwiń",
+        "sort_label": "Domyślnie",
+        "filter_category_label": "Kategorie",
+        "filter_categories": "Środki ochrony roślin<br \/>\nHerbicydy<br \/>\nFungicydy<br \/>\n             Zboża\u2028           Rzepak\u2028           Kukurydza\u2028           Buraki\u2028           Ziemniaki\u2028           Warzywa\u2028           Strączkowe\u2028           Jagodniki\u2028           Sady\u2028           Owoce miękkie<br \/>\nInsektycydy<br \/>\nRegulatory<br \/>\nZaprawy<br \/>\nAdiuwanty<br \/>\nHandel równoległy - zamienniki<br \/>\nNawozy i dodatki<br \/>\nBiostymulatory<br \/>\nNasiona<br \/>\nWyprzedaż<br \/>\nPromocje<br \/>\nNowości<br \/>\nPakiety",
+        "filter_crops_label": "Uprawa",
+        "filter_crops": "Zboża<br \/>\nRzepak<br \/>\nKukurydza<br \/>\nBuraki<br \/>\nZiemniaki<br \/>\nWarzywa<br \/>\nStrączkowe<br \/>\nJagodniki<br \/>\nSady<br \/>\nOwoce miękkie",
+        "filter_substances_label": "Substancje czynne",
+        "filter_substances": "Etofumesat\u2028Fenazachina\u2028Fenheksamid\u2028Fenmedifam\u2028Fenpiroksymat\u2028Flonikamid\u2028Florasulam\u2028Fluazyfop-P-butylowy\u2028Fluazynam\u2028Fludioksonil",
+        "filter_producer_label": "Producent",
+        "filter_price_label": "Cena",
+        "price_from": "od",
+        "price_to": "do",
+        "add_to_cart_label": "Do koszyka",
+        "quantity_label": "Ilość",
+        "pagination_label": "Strony",
+        "pagination": "1<br \/>\n2<br \/>\n3<br \/>\n4<br \/>\n5<br \/>\n6<br \/>\n7",
+        "pagination_next_icon": 142
+    },
+    "archiveLastImported": {
+        "breadcrumbs": "Strona główna  \/  Środki ochrony Roślin  \/  Fungicydy",
+        "expand_label": "Rozwiń",
+        "sort_label": "Domyślnie",
+        "filter_categories": "Środki ochrony roślin\nHerbicydy\nFungicydy\n             Zboża\u2028           Rzepak\u2028           Kukurydza\u2028           Buraki\u2028           Ziemniaki\u2028           Warzywa\u2028           Strączkowe\u2028           Jagodniki\u2028           Sady\u2028           Owoce miękkie\nInsektycydy\nRegulatory\nZaprawy\nAdiuwanty\nHandel równoległy - zamienniki\nNawozy i dodatki\nBiostymulatory\nNasiona\nWyprzedaż\nPromocje\nNowości\nPakiety",
+        "filter_crops": "Zboża\nRzepak\nKukurydza\nBuraki\nZiemniaki\nWarzywa\nStrączkowe\nJagodniki\nSady\nOwoce miękkie",
+        "filter_substances": "Etofumesat\u2028Fenazachina\u2028Fenheksamid\u2028Fenmedifam\u2028Fenpiroksymat\u2028Flonikamid\u2028Florasulam\u2028Fluazyfop-P-butylowy\u2028Fluazynam\u2028Fludioksonil",
+        "price_from": "od",
+        "price_to": "do",
+        "pagination": "1\n2\n3\n4\n5\n6\n7",
+        "filter_category_label": "Kategorie",
+        "filter_crops_label": "Uprawa",
+        "filter_substances_label": "Substancje czynne",
+        "filter_price_label": "Cena",
+        "filter_producer_label": "Producent",
+        "add_to_cart_label": "Do koszyka",
+        "quantity_label": "Ilość",
+        "pagination_label": "Strony",
+        "pagination_next_icon": 142
+    },
+    "reviewComments": [
+        {
+            "id": 2,
+            "author": "",
+            "date": "2026-07-30 12:00:00",
+            "rating": "5",
+            "sourceNode": "425:645",
+            "provenance": {
+                "bodyNode": "425:645",
+                "dateNode": "429:842",
+                "ratingNodes": [
+                    "429:836",
+                    "429:837",
+                    "429:838",
+                    "429:839",
+                    "429:840"
+                ],
+                "sourceDate": "30 lipca 2026",
+                "editorialNote": "Source placeholder body retained for editorial review."
+            }
+        }
+    ],
+    "categoryHierarchy": {
+        "childId": 16,
+        "parentId": 19
+    },
+    "icons": {
+        "favoriteIconMediaId": 123,
+        "downloadIconMediaId": 0,
+        "archivePaginationNextMediaId": 142,
+        "cartRemoveIconMediaId": 124,
+        "cartRemoveIconSourceNode": "rudnikagro_cart_remove_icon_486_96",
+        "registrationDialogBackgroundMediaId": 141,
+        "registrationDialogBackgroundSourceNode": "rudnikagro_account_registration_dialog_background",
+        "checkout": {
+            "paymentCard": {
+                "field": "rudnikagro_checkout_icon_payment_card",
+                "mediaId": 131,
+                "sourceField": "rudnikagro_checkout_icon_payment_card"
+            },
+            "googlePay": {
+                "field": "rudnikagro_checkout_icon_google_pay",
+                "mediaId": 132,
+                "sourceField": "rudnikagro_checkout_icon_google_pay"
+            },
+            "applePay": {
+                "field": "rudnikagro_checkout_icon_apple_pay",
+                "mediaId": 133,
+                "sourceField": "rudnikagro_checkout_icon_apple_pay"
+            },
+            "blik": {
+                "field": "rudnikagro_checkout_icon_blik",
+                "mediaId": 134,
+                "sourceField": "rudnikagro_checkout_icon_blik"
+            },
+            "bankTransfer": {
+                "field": "rudnikagro_checkout_icon_bank_transfer",
+                "mediaId": 135,
+                "sourceField": "rudnikagro_checkout_icon_bank_transfer"
+            },
+            "paymentRadio": {
+                "field": "rudnikagro_checkout_icon_payment_radio",
+                "mediaId": 136,
+                "sourceField": "rudnikagro_checkout_icon_payment_radio"
+            },
+            "paymentRadioActive": {
+                "field": "rudnikagro_checkout_icon_payment_radio_active",
+                "mediaId": 137,
+                "sourceField": "rudnikagro_checkout_icon_payment_radio_active"
+            },
+            "deliveryRadio": {
+                "field": "rudnikagro_checkout_icon_delivery_radio",
+                "mediaId": 138,
+                "sourceField": "rudnikagro_checkout_icon_delivery_radio"
+            },
+            "deliveryRadioActive": {
+                "field": "rudnikagro_checkout_icon_delivery_radio_active",
+                "mediaId": 139,
+                "sourceField": "rudnikagro_checkout_icon_delivery_radio_active"
+            }
+        }
+    },
+    "cartLabels": {
+        "products": "Produkty",
+        "shipping": "Wysyłka",
+        "discount": "Rabat"
+    }
+}

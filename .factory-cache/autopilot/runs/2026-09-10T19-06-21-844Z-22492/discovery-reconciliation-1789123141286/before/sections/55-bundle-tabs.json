@@ -1,0 +1,24 @@
+{
+  "id": "bundle-tabs",
+  "name": "zakładki pakietu",
+  "order": 55,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "586:1103"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 240,
+    "y": 1392,
+    "width": 1440,
+    "height": 494
+  },
+  "layout": {
+    "type": "product-tabs",
+    "alignment": "technical-data active"
+  },
+  "typography": [],
+  "assets": [],
+  "notes": [],
+  "liveFigmaRequired": false
+}

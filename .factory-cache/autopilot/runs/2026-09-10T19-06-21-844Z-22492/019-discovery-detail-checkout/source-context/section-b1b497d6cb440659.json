@@ -1,0 +1,258 @@
+{
+  "id": "checkout-customer-details",
+  "manifestRecord": {
+    "id": "checkout-customer-details",
+    "name": "dane",
+    "order": 10,
+    "pageId": "0:1",
+    "snapshot": "sections/10-checkout-customer-details.json",
+    "desktopNodeId": "492:716",
+    "desktopReference": "references/sections/checkout-customer-details.png"
+  },
+  "contentFields": [
+    {
+      "section": "checkout-customer-details",
+      "nodeId": "509:267",
+      "fieldName": "rudnikagro_checkout_customer_details_509_267",
+      "type": "text",
+      "language": "pl",
+      "value": "Nazwisko*",
+      "destination": "WooCommerce native checkout fields; editable display labels",
+      "linkEvidence": [
+        {
+          "characters": "Nazwisko*",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "509:267"
+      }
+    },
+    {
+      "section": "checkout-customer-details",
+      "nodeId": "491:668",
+      "fieldName": "rudnikagro_checkout_customer_details_491_668",
+      "type": "text",
+      "language": "pl",
+      "value": "Ulica, numer budynku / numer lokalu*",
+      "destination": "WooCommerce native checkout fields; editable display labels",
+      "linkEvidence": [
+        {
+          "characters": "Ulica, numer budynku / numer lokalu*",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "491:668"
+      }
+    },
+    {
+      "section": "checkout-customer-details",
+      "nodeId": "491:676",
+      "fieldName": "rudnikagro_checkout_customer_details_491_676",
+      "type": "text",
+      "language": "pl",
+      "value": "Kod pocztowy*",
+      "destination": "WooCommerce native checkout fields; editable display labels",
+      "linkEvidence": [
+        {
+          "characters": "Kod pocztowy*",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "491:676"
+      }
+    },
+    {
+      "section": "checkout-customer-details",
+      "nodeId": "491:677",
+      "fieldName": "rudnikagro_checkout_customer_details_491_677",
+      "type": "text",
+      "language": "pl",
+      "value": "Miasto*",
+      "destination": "WooCommerce native checkout fields; editable display labels",
+      "linkEvidence": [
+        {
+          "characters": "Miasto*",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "491:677"
+      }
+    },
+    {
+      "section": "checkout-customer-details",
+      "nodeId": "491:681",
+      "fieldName": "rudnikagro_checkout_customer_details_491_681",
+      "type": "text",
+      "language": "pl",
+      "value": "Numer telefonu*",
+      "destination": "WooCommerce native checkout fields; editable display labels",
+      "linkEvidence": [
+        {
+          "characters": "Numer telefonu*",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "491:681"
+      }
+    },
+    {
+      "section": "checkout-customer-details",
+      "nodeId": "491:682",
+      "fieldName": "rudnikagro_checkout_customer_details_491_682",
+      "type": "text",
+      "language": "pl",
+      "value": "Adres e-mail*",
+      "destination": "WooCommerce native checkout fields; editable display labels",
+      "linkEvidence": [
+        {
+          "characters": "Adres e-mail*",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "491:682"
+      }
+    },
+    {
+      "section": "checkout-customer-details",
+      "nodeId": "492:685",
+      "fieldName": "rudnikagro_checkout_customer_details_492_685",
+      "type": "text",
+      "language": "pl",
+      "value": "*Pola wymagane",
+      "destination": "WooCommerce native checkout fields; editable display labels",
+      "linkEvidence": [
+        {
+          "characters": "*Pola wymagane",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "492:685"
+      }
+    },
+    {
+      "section": "checkout-customer-details",
+      "nodeId": "492:688",
+      "fieldName": "rudnikagro_checkout_customer_details_492_688",
+      "type": "text",
+      "language": "pl",
+      "value": "ChcÄ™ otrzymaÄ‡ dostawÄ™ na inny adres niÅ¼ dane rozliczeniowe",
+      "destination": "WooCommerce native checkout fields; editable display labels",
+      "linkEvidence": [
+        {
+          "characters": "ChcÄ™ otrzymaÄ‡ dostawÄ™ na inny adres niÅ¼ dane rozliczeniowe",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "492:688"
+      }
+    },
+    {
+      "section": "checkout-customer-details",
+      "nodeId": "489:657",
+      "fieldName": "rudnikagro_checkout_customer_details_489_657",
+      "type": "text",
+      "language": "pl",
+      "value": "Dane osobowe",
+      "destination": "WooCommerce native checkout fields; editable display labels",
+      "linkEvidence": [
+        {
+          "characters": "Dane osobowe",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "489:657"
+      }
+    },
+    {
+      "section": "checkout-customer-details",
+      "nodeId": "492:684",
+      "fieldName": "rudnikagro_checkout_customer_details_492_684",
+      "type": "text",
+      "language": "pl",
+      "value": "Zamawiam jako: Osoba prywatna | Firma",
+      "destination": "WooCommerce native checkout fields; editable display labels",
+      "linkEvidence": [
+        {
+          "characters": "Zamawiam jako: Osoba prywatna | ",
+          "hyperlink": null
+        },
+        {
+          "characters": "Firma",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "492:684"
+      }
+    },
+    {
+      "section": "checkout-customer-details",
+      "nodeId": "509:264",
+      "fieldName": "rudnikagro_checkout_customer_details_509_264",
+      "type": "text",
+      "language": "pl",
+      "value": "ImiÄ™*",
+      "destination": "WooCommerce native checkout fields; editable display labels",
+      "linkEvidence": [
+        {
+          "characters": "ImiÄ™*",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "509:264"
+      }
+    },
+    {
+      "section": "checkout-customer-details",
+      "nodeId": "509:270",
+      "fieldName": "rudnikagro_checkout_customer_details_509_270",
+      "type": "text",
+      "language": "pl",
+      "value": "Polska",
+      "destination": "WooCommerce native checkout fields; editable display labels",
+      "linkEvidence": [
+        {
+          "characters": "Polska",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "509:270"
+      }
+    }
+  ]
+}

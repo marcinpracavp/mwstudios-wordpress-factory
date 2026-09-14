@@ -1,0 +1,804 @@
+{
+  "source": {
+    "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+    "figmaUrl": "https://www.figma.com/design/OwiDXrKMVcaHKB9ryYF6mY/Rudnik-Agro?m=dev"
+  },
+  "status": "complete",
+  "routes": [
+    {
+      "id": "home-active",
+      "path": "/",
+      "language": "pl",
+      "frameNodeId": "250:115",
+      "reference": "references/full/frame-250-115.png",
+      "width": 1920,
+      "height": 8999,
+      "sections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "shared-primary-navigation-active",
+        "home-hero",
+        "home-benefits",
+        "home-crop-selection",
+        "home-promotions",
+        "home-bundles",
+        "home-catalogues",
+        "home-recommended",
+        "home-about",
+        "home-blog",
+        "home-knowledge",
+        "shared-footer"
+      ],
+      "buildGroup": "home",
+      "responsiveSource": "derived",
+      "notes": "Source explicitly names active elements and the primary menu group extends from 78.676 to 417 px. Planned local route path is an implementation decision inferred from source page identity, not a captured source hyperlink. Uncaptured section IDs remain explicit in this partial execution plan.",
+      "state": "active-elements",
+      "sectionGeometry": {
+        "shared-primary-navigation-active": {
+          "x": 240,
+          "y": 115,
+          "width": 1440,
+          "height": 417
+        },
+        "home-hero-active": {
+          "x": 40,
+          "y": 195,
+          "width": 1840,
+          "height": 800
+        },
+        "home-crop-selection-active": {
+          "x": 0,
+          "y": 1383,
+          "width": 1920,
+          "height": 1033
+        },
+        "home-promotions-active": {
+          "x": 174,
+          "y": 2504,
+          "width": 1574,
+          "height": 724
+        }
+      }
+    }
+  ],
+  "stateFamilies": [
+    {
+      "family": "[\"home\",\"/\",\"pl\",1920]",
+      "baseRoute": "home",
+      "route": "home-active",
+      "reusedSections": [
+        "shared-topbar",
+        "home-benefits",
+        "home-catalogues",
+        "home-recommended",
+        "home-about",
+        "home-blog",
+        "home-knowledge",
+        "shared-footer"
+      ],
+      "focusSections": [
+        "shared-secondary-navigation",
+        "shared-primary-navigation-active",
+        "home-hero",
+        "home-crop-selection",
+        "home-promotions",
+        "home-bundles"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "shared-secondary-navigation",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/15-shared-secondary-navigation.json",
+      "contentRecords": 13,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/075-build-home/source-context/section-f64d32808e6ea46d.json",
+        "bytes": 6535,
+        "sha256": "860eb7d970c300c199119e8ae18a3514e8705ab2557992a3d2f573846dc447d7"
+      }
+    },
+    {
+      "id": "shared-primary-navigation-active",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/16-shared-primary-navigation-active.json",
+      "contentRecords": 9,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/075-build-home/source-context/section-c4e6a8fe1ea8daf9.json",
+        "bytes": 4616,
+        "sha256": "4b758f2d4f9b2080ebecf770eda40c01053035d3648666ec7f1c349887315ada"
+      }
+    },
+    {
+      "id": "home-hero",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/02-home-hero.json",
+      "contentRecords": 11,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/075-build-home/source-context/section-3251a05a3790280a.json",
+        "bytes": 5147,
+        "sha256": "dd8daa372e7004fee7f5ab78768c4d1dedbabb810703910f5fcac43405d4e98b"
+      }
+    },
+    {
+      "id": "home-crop-selection",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/18-home-crop-selection.json",
+      "contentRecords": 74,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/075-build-home/source-context/section-11b7752df4ed3e33.json",
+        "bytes": 32821,
+        "sha256": "77b2972c7a6e094fd2e1e122da1614c69096c554b093b3ae62820efe79ed0bc5"
+      }
+    },
+    {
+      "id": "home-promotions",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/19-home-promotions.json",
+      "contentRecords": 58,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/075-build-home/source-context/section-312f0f7bba28cab6.json",
+        "bytes": 25112,
+        "sha256": "244f835305e8384966ef7af54eb169579e8cc4e9ece2275f56c02e95459127f0"
+      }
+    },
+    {
+      "id": "home-bundles",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/20-home-bundles.json",
+      "contentRecords": 43,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/075-build-home/source-context/section-b1230c8038e4dbe9.json",
+        "bytes": 18849,
+        "sha256": "8b99801c46970182894c59f1fedffda3e05a1f74620dd9e57a200b450ace8123"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "id": "ab067430c0c93ee50fde",
+      "nodeIds": [
+        "12:2"
+      ],
+      "description": "Read homepage composition, background, section bounds and source text styles",
+      "path": "observations/ab067430c0c93ee50fde.json"
+    },
+    {
+      "id": "ce1aedfdc90fcf1c93b2",
+      "nodeIds": [
+        "112:6"
+      ],
+      "description": "Read exact hero source geometry, styled text and image crop",
+      "path": "observations/ce1aedfdc90fcf1c93b2.json"
+    },
+    {
+      "id": "cc724d58da52ad207fcb",
+      "nodeIds": [
+        "250:115"
+      ],
+      "description": "Read compact page composition strona główna - aktywne elementy 250:115",
+      "path": "observations/cc724d58da52ad207fcb.json"
+    },
+    {
+      "id": "e85f04bc857cc3e8c516",
+      "nodeIds": [
+        "140:260",
+        "12:2"
+      ],
+      "description": "Capture exact secondary navigation section",
+      "path": "observations/e85f04bc857cc3e8c516.json"
+    },
+    {
+      "id": "detail-shared-secondary-navigation",
+      "nodeIds": [
+        "140:260"
+      ],
+      "description": "Exact source section capture",
+      "path": "observations/detail-shared-secondary-navigation.json"
+    },
+    {
+      "id": "55213b122672e599a880",
+      "nodeIds": [
+        "250:728",
+        "250:115"
+      ],
+      "description": "Capture exact shared-primary-navigation-active section source",
+      "path": "observations/55213b122672e599a880.json"
+    },
+    {
+      "id": "3c386dde7cbca5233fc4",
+      "nodeIds": [
+        "250:728",
+        "250:115"
+      ],
+      "description": "Capture exact shared-primary-navigation-active section source nodes 25",
+      "path": "observations/3c386dde7cbca5233fc4.json"
+    },
+    {
+      "id": "detail-shared-primary-navigation-active",
+      "nodeIds": [
+        "250:728"
+      ],
+      "description": "Exact source section capture",
+      "path": "observations/detail-shared-primary-navigation-active.json"
+    },
+    {
+      "id": "a630d4d1eeb916299f02",
+      "nodeIds": [
+        "130:133",
+        "12:2"
+      ],
+      "description": "Capture exact home-benefits section source",
+      "path": "observations/a630d4d1eeb916299f02.json"
+    },
+    {
+      "id": "0dd3818ef98293cf7607",
+      "nodeIds": [
+        "130:133",
+        "12:2"
+      ],
+      "description": "Capture exact home-benefits section source nodes 25",
+      "path": "observations/0dd3818ef98293cf7607.json"
+    },
+    {
+      "id": "172cde4b988a292f1e6a",
+      "nodeIds": [
+        "110:2",
+        "12:2"
+      ],
+      "description": "Capture exact home-crop-selection section source",
+      "path": "observations/172cde4b988a292f1e6a.json"
+    },
+    {
+      "id": "46f98460a428ff7acbae",
+      "nodeIds": [
+        "110:2",
+        "12:2"
+      ],
+      "description": "Capture exact home-crop-selection section source nodes 25",
+      "path": "observations/46f98460a428ff7acbae.json"
+    },
+    {
+      "id": "b509350fabbf4b15031a",
+      "nodeIds": [
+        "110:2",
+        "12:2"
+      ],
+      "description": "Capture exact home-crop-selection section source nodes 50",
+      "path": "observations/b509350fabbf4b15031a.json"
+    },
+    {
+      "id": "ad973ae65e42bc30832d",
+      "nodeIds": [
+        "110:2",
+        "12:2"
+      ],
+      "description": "Capture exact home-crop-selection section source nodes 75",
+      "path": "observations/ad973ae65e42bc30832d.json"
+    },
+    {
+      "id": "32bc18be9f8e971a8493",
+      "nodeIds": [
+        "110:2",
+        "12:2"
+      ],
+      "description": "Capture exact home-crop-selection section source nodes 100",
+      "path": "observations/32bc18be9f8e971a8493.json"
+    },
+    {
+      "id": "5f6e3a5e51aef89017ae",
+      "nodeIds": [
+        "110:2",
+        "12:2"
+      ],
+      "description": "Capture exact home-crop-selection section source nodes 125",
+      "path": "observations/5f6e3a5e51aef89017ae.json"
+    },
+    {
+      "id": "14fc2342bbb386c551fa",
+      "nodeIds": [
+        "110:2",
+        "12:2"
+      ],
+      "description": "Capture exact home-crop-selection section source nodes 150",
+      "path": "observations/14fc2342bbb386c551fa.json"
+    },
+    {
+      "id": "f5b4c962ce09cc1bc8aa",
+      "nodeIds": [
+        "110:2",
+        "12:2"
+      ],
+      "description": "Capture exact home-crop-selection section source nodes 175",
+      "path": "observations/f5b4c962ce09cc1bc8aa.json"
+    },
+    {
+      "id": "d896186ebda403e6e122",
+      "nodeIds": [
+        "110:2",
+        "12:2"
+      ],
+      "description": "Capture exact home-crop-selection section source nodes 200",
+      "path": "observations/d896186ebda403e6e122.json"
+    },
+    {
+      "id": "3843253cc96dc09ea469",
+      "nodeIds": [
+        "110:2",
+        "12:2"
+      ],
+      "description": "Capture exact home-crop-selection section source nodes 225",
+      "path": "observations/3843253cc96dc09ea469.json"
+    },
+    {
+      "id": "3831f439c4426ec7d6be",
+      "nodeIds": [
+        "110:2",
+        "12:2"
+      ],
+      "description": "Capture exact home-crop-selection section source nodes 250",
+      "path": "observations/3831f439c4426ec7d6be.json"
+    },
+    {
+      "id": "detail-home-crop-selection",
+      "nodeIds": [
+        "110:2"
+      ],
+      "description": "Exact source section capture",
+      "path": "observations/detail-home-crop-selection.json"
+    },
+    {
+      "id": "abe7d4977c8f86cc5038",
+      "nodeIds": [
+        "222:28",
+        "12:2"
+      ],
+      "description": "Capture exact home-promotions section source",
+      "path": "observations/abe7d4977c8f86cc5038.json"
+    },
+    {
+      "id": "fb88c0381947039464b2",
+      "nodeIds": [
+        "222:28",
+        "12:2"
+      ],
+      "description": "Capture exact home-promotions section source nodes 25",
+      "path": "observations/fb88c0381947039464b2.json"
+    },
+    {
+      "id": "6d99270d06112fc68620",
+      "nodeIds": [
+        "222:28",
+        "12:2"
+      ],
+      "description": "Capture exact home-promotions section source nodes 50",
+      "path": "observations/6d99270d06112fc68620.json"
+    },
+    {
+      "id": "cdc79e1553e525dca868",
+      "nodeIds": [
+        "222:28",
+        "12:2"
+      ],
+      "description": "Capture exact home-promotions section source nodes 75",
+      "path": "observations/cdc79e1553e525dca868.json"
+    },
+    {
+      "id": "0f3ce6bca45e083a6b87",
+      "nodeIds": [
+        "222:28",
+        "12:2"
+      ],
+      "description": "Capture exact home-promotions section source nodes 100",
+      "path": "observations/0f3ce6bca45e083a6b87.json"
+    },
+    {
+      "id": "detail-home-promotions",
+      "nodeIds": [
+        "222:28"
+      ],
+      "description": "Exact source section capture",
+      "path": "observations/detail-home-promotions.json"
+    },
+    {
+      "id": "24d3ba35f3fc182fab0e",
+      "nodeIds": [
+        "574:59",
+        "12:2"
+      ],
+      "description": "Capture exact home-bundles section source",
+      "path": "observations/24d3ba35f3fc182fab0e.json"
+    },
+    {
+      "id": "4e2d9bfac4406ae938f2",
+      "nodeIds": [
+        "574:59",
+        "12:2"
+      ],
+      "description": "Capture exact home-bundles section source nodes 25",
+      "path": "observations/4e2d9bfac4406ae938f2.json"
+    },
+    {
+      "id": "165723ea544a8869f11b",
+      "nodeIds": [
+        "574:59",
+        "12:2"
+      ],
+      "description": "Capture exact home-bundles section source nodes 50",
+      "path": "observations/165723ea544a8869f11b.json"
+    },
+    {
+      "id": "01e2a436562c4d28d573",
+      "nodeIds": [
+        "574:59",
+        "12:2"
+      ],
+      "description": "Capture exact home-bundles section source nodes 75",
+      "path": "observations/01e2a436562c4d28d573.json"
+    },
+    {
+      "id": "detail-home-bundles",
+      "nodeIds": [
+        "574:59"
+      ],
+      "description": "Exact source section capture",
+      "path": "observations/detail-home-bundles.json"
+    },
+    {
+      "id": "6e5dc1b4c8af505d107f",
+      "nodeIds": [
+        "140:261",
+        "12:2"
+      ],
+      "description": "Capture exact home-catalogues section source",
+      "path": "observations/6e5dc1b4c8af505d107f.json"
+    },
+    {
+      "id": "c5b86e1a962315c7ac84",
+      "nodeIds": [
+        "140:167",
+        "12:2"
+      ],
+      "description": "Capture exact home-recommended section source",
+      "path": "observations/c5b86e1a962315c7ac84.json"
+    },
+    {
+      "id": "b6d7436e8dcbce10cbf4",
+      "nodeIds": [
+        "140:167",
+        "12:2"
+      ],
+      "description": "Capture exact home-recommended section source nodes 25",
+      "path": "observations/b6d7436e8dcbce10cbf4.json"
+    },
+    {
+      "id": "fc99b9c1b1dd23f6f3ec",
+      "nodeIds": [
+        "140:167",
+        "12:2"
+      ],
+      "description": "Capture exact home-recommended section source nodes 50",
+      "path": "observations/fc99b9c1b1dd23f6f3ec.json"
+    },
+    {
+      "id": "8f290a6ad29246131f41",
+      "nodeIds": [
+        "140:167",
+        "12:2"
+      ],
+      "description": "Capture exact home-recommended section source nodes 75",
+      "path": "observations/8f290a6ad29246131f41.json"
+    },
+    {
+      "id": "5ab2aacb73efd682159e",
+      "nodeIds": [
+        "130:136",
+        "12:2"
+      ],
+      "description": "Capture exact home-about section source",
+      "path": "observations/5ab2aacb73efd682159e.json"
+    },
+    {
+      "id": "d60be22671d294088867",
+      "nodeIds": [
+        "96:95",
+        "12:2"
+      ],
+      "description": "Capture exact home-blog section source",
+      "path": "observations/d60be22671d294088867.json"
+    },
+    {
+      "id": "1850d401c5bcc36e22a0",
+      "nodeIds": [
+        "140:263",
+        "12:2"
+      ],
+      "description": "Locate lower homepage knowledge content and background without whole-page rediscovery",
+      "path": "observations/1850d401c5bcc36e22a0.json"
+    },
+    {
+      "id": "6927c2589d04d5d1ee55",
+      "nodeIds": [
+        "140:263",
+        "12:2"
+      ],
+      "description": "Capture exact home-lower-background section source",
+      "path": "observations/6927c2589d04d5d1ee55.json"
+    },
+    {
+      "id": "e099e5d3daacc59868ed",
+      "nodeIds": [
+        "164:212",
+        "12:2"
+      ],
+      "description": "Capture exact home-knowledge section source",
+      "path": "observations/e099e5d3daacc59868ed.json"
+    },
+    {
+      "id": "a938d38635c39b53028a",
+      "nodeIds": [
+        "164:213",
+        "12:2"
+      ],
+      "description": "Capture exact home-knowledge-collapsed section source",
+      "path": "observations/a938d38635c39b53028a.json"
+    },
+    {
+      "id": "ab27d42797535ad60399",
+      "nodeIds": [
+        "112:6",
+        "12:2"
+      ],
+      "description": "Capture exact home-hero section source",
+      "path": "observations/ab27d42797535ad60399.json"
+    },
+    {
+      "id": "detail-home-hero",
+      "nodeIds": [
+        "112:6"
+      ],
+      "description": "Exact source section capture",
+      "path": "observations/detail-home-hero.json"
+    },
+    {
+      "id": "8c076e93f418e7faec4c",
+      "nodeIds": [
+        "250:712",
+        "250:115"
+      ],
+      "description": "Capture exact home-hero-active section source",
+      "path": "observations/8c076e93f418e7faec4c.json"
+    },
+    {
+      "id": "f70ae8ce5441fc3f761a",
+      "nodeIds": [
+        "250:412",
+        "250:115"
+      ],
+      "description": "Capture exact home-crop-selection-active section source",
+      "path": "observations/f70ae8ce5441fc3f761a.json"
+    },
+    {
+      "id": "b43cb9e73421d1122160",
+      "nodeIds": [
+        "250:412",
+        "250:115"
+      ],
+      "description": "Capture exact home-crop-selection-active section source nodes 25",
+      "path": "observations/b43cb9e73421d1122160.json"
+    },
+    {
+      "id": "05b7ea40cba8e663c6cb",
+      "nodeIds": [
+        "250:412",
+        "250:115"
+      ],
+      "description": "Capture exact home-crop-selection-active section source nodes 50",
+      "path": "observations/05b7ea40cba8e663c6cb.json"
+    },
+    {
+      "id": "8571e230d1971232fdd2",
+      "nodeIds": [
+        "250:412",
+        "250:115"
+      ],
+      "description": "Capture exact home-crop-selection-active section source nodes 75",
+      "path": "observations/8571e230d1971232fdd2.json"
+    },
+    {
+      "id": "d8da524da6d59076c570",
+      "nodeIds": [
+        "250:412",
+        "250:115"
+      ],
+      "description": "Capture exact home-crop-selection-active section source nodes 100",
+      "path": "observations/d8da524da6d59076c570.json"
+    },
+    {
+      "id": "ce77c00f6f945f9dba0c",
+      "nodeIds": [
+        "250:412",
+        "250:115"
+      ],
+      "description": "Capture exact home-crop-selection-active section source nodes 125",
+      "path": "observations/ce77c00f6f945f9dba0c.json"
+    },
+    {
+      "id": "9dea296dd4e6e2dfff8c",
+      "nodeIds": [
+        "250:412",
+        "250:115"
+      ],
+      "description": "Capture exact home-crop-selection-active section source nodes 150",
+      "path": "observations/9dea296dd4e6e2dfff8c.json"
+    },
+    {
+      "id": "f520b600059c7a270284",
+      "nodeIds": [
+        "250:412",
+        "250:115"
+      ],
+      "description": "Capture exact home-crop-selection-active section source nodes 175",
+      "path": "observations/f520b600059c7a270284.json"
+    },
+    {
+      "id": "1c20a9b3d326f92e73f7",
+      "nodeIds": [
+        "250:412",
+        "250:115"
+      ],
+      "description": "Capture exact home-crop-selection-active section source nodes 200",
+      "path": "observations/1c20a9b3d326f92e73f7.json"
+    },
+    {
+      "id": "cde398f7aa56933cbb81",
+      "nodeIds": [
+        "250:412",
+        "250:115"
+      ],
+      "description": "Capture exact home-crop-selection-active section source nodes 225",
+      "path": "observations/cde398f7aa56933cbb81.json"
+    },
+    {
+      "id": "3e4b44e417cc93a94341",
+      "nodeIds": [
+        "250:412",
+        "250:115"
+      ],
+      "description": "Capture exact home-crop-selection-active section source nodes 250",
+      "path": "observations/3e4b44e417cc93a94341.json"
+    },
+    {
+      "id": "9457afee508a64493918",
+      "nodeIds": [
+        "250:412",
+        "250:115"
+      ],
+      "description": "Capture exact home-crop-selection-active section source nodes 275",
+      "path": "observations/9457afee508a64493918.json"
+    },
+    {
+      "id": "b3a3c18925eb69ad6521",
+      "nodeIds": [
+        "250:301",
+        "250:115"
+      ],
+      "description": "Capture exact home-promotions-active section source",
+      "path": "observations/b3a3c18925eb69ad6521.json"
+    },
+    {
+      "id": "fda4833a32974cc95acc",
+      "nodeIds": [
+        "250:301",
+        "250:115"
+      ],
+      "description": "Capture exact home-promotions-active section source nodes 25",
+      "path": "observations/fda4833a32974cc95acc.json"
+    },
+    {
+      "id": "5165c731923751120c3c",
+      "nodeIds": [
+        "250:301",
+        "250:115"
+      ],
+      "description": "Capture exact home-promotions-active section source nodes 50",
+      "path": "observations/5165c731923751120c3c.json"
+    },
+    {
+      "id": "996c479a9d18240fd566",
+      "nodeIds": [
+        "250:301",
+        "250:115"
+      ],
+      "description": "Capture exact home-promotions-active section source nodes 75",
+      "path": "observations/996c479a9d18240fd566.json"
+    },
+    {
+      "id": "6b72a01684d1291d14e0",
+      "nodeIds": [
+        "250:301",
+        "250:115"
+      ],
+      "description": "Capture exact home-promotions-active section source nodes 100",
+      "path": "observations/6b72a01684d1291d14e0.json"
+    },
+    {
+      "id": "147bd63be14c6c7da9d4",
+      "nodeIds": [
+        "574:426",
+        "250:115"
+      ],
+      "description": "Capture exact home-bundles-active section source",
+      "path": "observations/147bd63be14c6c7da9d4.json"
+    }
+  ],
+  "frames": [
+    {
+      "nodeId": "250:115",
+      "name": "strona gÅ‚Ã³wna - aktywne elementy",
+      "pageId": "0:1",
+      "type": "FRAME",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "112:6",
+      "name": "slider",
+      "pageId": "0:1",
+      "type": "GROUP"
+    },
+    {
+      "nodeId": "140:260",
+      "name": "secondary menu",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "250:728",
+      "name": "mega menu",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "110:2",
+      "name": "wybÃ³r wg uprawy",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "222:28",
+      "name": "promocje",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "574:59",
+      "name": "pakiety",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    }
+  ],
+  "globalFiles": [
+    {
+      "path": ".factory-cache/figma/latest/design-system.json",
+      "bytes": 8294,
+      "sha256": "5086e8f74a4d3aee56055467846c3f49e9f2791c2a30a873ea30c5a5a87b3863"
+    },
+    {
+      "path": ".factory-cache/figma/latest/components.json",
+      "bytes": 261,
+      "sha256": "fb651cb0bc38b89b71ffa0e6a8b92ec6acbe3bdff6ab7d30ea9c2e39ed12fec5"
+    }
+  ],
+  "lookup": "Observation matches are an index, not a completeness claim. Use targeted rg or inspect JSON pointers for missing node IDs. Never dump the full source files."
+}

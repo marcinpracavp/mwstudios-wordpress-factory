@@ -1,0 +1,222 @@
+{
+  "id": "shared-footer",
+  "manifestRecord": {
+    "id": "shared-footer",
+    "name": "stopka",
+    "order": 26,
+    "pageId": "0:1",
+    "snapshot": "sections/26-shared-footer.json",
+    "desktopNodeId": "222:62",
+    "desktopReference": "references/sections/shared-footer.png"
+  },
+  "contentFields": [
+    {
+      "section": "shared-footer",
+      "nodeId": "168:216",
+      "fieldName": "rudnikagro_shared_footer_168_216",
+      "type": "text",
+      "language": "pl",
+      "value": "Kontakt\n\ntelefon:\n(+48) 535 500 612\nod poniedziałku do piątku, w godzinach 8:00-16:00\n\ne-mail:\nsklep@rudnikagro.pl\n\nSocial media:",
+      "destination": "ACF options / footer tab / contact, columns, social, certificates and legal notice",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "168:216"
+      }
+    },
+    {
+      "section": "shared-footer",
+      "nodeId": "168:270",
+      "fieldName": "rudnikagro_shared_footer_168_270",
+      "type": "text",
+      "language": "pl",
+      "value": "Konto\nZamówienia\nUstawienia konta\nSchowek",
+      "destination": "ACF options / footer tab / contact, columns, social, certificates and legal notice",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "168:270"
+      }
+    },
+    {
+      "section": "shared-footer",
+      "nodeId": "168:274",
+      "fieldName": "rudnikagro_shared_footer_168_274",
+      "type": "text",
+      "language": "pl",
+      "value": "Informacje\nPolityka prywatności\nWpis do rejestru podmiotów obrotu ŚOR\nRegulamin sklepu\nCzas i koszty dostawy\nZwroty i reklamacje",
+      "destination": "ACF options / footer tab / contact, columns, social, certificates and legal notice",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "168:274"
+      }
+    },
+    {
+      "section": "shared-footer",
+      "nodeId": "168:276",
+      "fieldName": "rudnikagro_shared_footer_168_276",
+      "type": "text",
+      "language": "pl",
+      "value": "Mapa strony\nO nas\nAktualności\nPoradnik dla rolnika Kariera Katalogi  Kontakt",
+      "destination": "ACF options / footer tab / contact, columns, social, certificates and legal notice",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "168:276"
+      }
+    },
+    {
+      "section": "shared-footer",
+      "nodeId": "515:80",
+      "fieldName": "rudnikagro_shared_footer_515_80",
+      "type": "text",
+      "language": "pl",
+      "value": "Nasze certyfikaty i wyróżnienia:",
+      "destination": "ACF options / footer tab / contact, columns, social, certificates and legal notice",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "515:80"
+      }
+    },
+    {
+      "section": "shared-footer",
+      "nodeId": "222:60",
+      "fieldName": "rudnikagro_shared_footer_222_60",
+      "type": "text",
+      "language": "pl",
+      "value": "Kupujący musi być pełnoletni oraz posiadać ważne kwalifikacje wymagane od osób nabywających środki ochrony roślin określone w art. 28 Ustawy z dnia 08.03.2013r. o środkach ochrony roślin (Dz.U.z 2024 poz.630 z późn.zm.).",
+      "destination": "ACF options / footer tab / contact, columns, social, certificates and legal notice",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "222:60"
+      }
+    },
+    {
+      "section": "shared-footer",
+      "nodeId": "168:280",
+      "fieldName": "rudnikagro_shared_footer_168_280",
+      "type": "text",
+      "language": "pl",
+      "value": "© Rudnikagro.pl 2026 | Wszelkie prawa zastrzeżone ",
+      "destination": "ACF options / footer tab / contact, columns, social, certificates and legal notice",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "168:280"
+      }
+    },
+    {
+      "section": "shared-footer",
+      "nodeId": "222:113",
+      "fieldName": "rudnikagro_shared_footer_222_113",
+      "type": "text",
+      "language": "pl",
+      "value": "Projekt i wykonanie: Virtual People",
+      "destination": "ACF options / footer tab / contact, columns, social, certificates and legal notice",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "222:113"
+      }
+    },
+    {
+      "section": "shared-footer",
+      "nodeId": "515:79",
+      "fieldName": "rudnikagro_shared_footer_media_515_79",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/515-79-image12.png",
+      "destination": "ACF options / footer tab / contact, columns, social, certificates and legal notice / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "515:79"
+      }
+    },
+    {
+      "section": "shared-footer",
+      "nodeId": "110:3",
+      "fieldName": "rudnikagro_shared_footer_media_110_3",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/110-3-rectangle17.svg",
+      "destination": "ACF options / footer tab / contact, columns, social, certificates and legal notice / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "110:3"
+      }
+    },
+    {
+      "section": "shared-footer",
+      "nodeId": "222:87",
+      "fieldName": "rudnikagro_shared_footer_media_222_87",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/222-87-vector.svg",
+      "destination": "ACF options / footer tab / contact, columns, social, certificates and legal notice / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "222:87"
+      }
+    },
+    {
+      "section": "shared-footer",
+      "nodeId": "222:88",
+      "fieldName": "rudnikagro_shared_footer_media_222_88",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/222-88-vector1.svg",
+      "destination": "ACF options / footer tab / contact, columns, social, certificates and legal notice / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "222:88"
+      }
+    },
+    {
+      "section": "shared-footer",
+      "nodeId": "222:89",
+      "fieldName": "rudnikagro_shared_footer_media_222_89",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/222-89-vector2.svg",
+      "destination": "ACF options / footer tab / contact, columns, social, certificates and legal notice / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "222:89"
+      }
+    },
+    {
+      "section": "shared-footer",
+      "nodeId": "222:90",
+      "fieldName": "rudnikagro_shared_footer_media_222_90",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/222-90-vector3.svg",
+      "destination": "ACF options / footer tab / contact, columns, social, certificates and legal notice / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "222:90"
+      }
+    },
+    {
+      "section": "shared-footer",
+      "nodeId": "222:58",
+      "fieldName": "rudnikagro_shared_footer_media_222_58",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/222-58-fb1.svg",
+      "destination": "ACF options / footer tab / contact, columns, social, certificates and legal notice / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "222:58"
+      }
+    },
+    {
+      "section": "shared-footer",
+      "nodeId": "140:264",
+      "fieldName": "rudnikagro_shared_footer_media_140_264",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/140-264-logo1.svg",
+      "destination": "ACF options / footer tab / contact, columns, social, certificates and legal notice / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:264"
+      }
+    }
+  ]
+}

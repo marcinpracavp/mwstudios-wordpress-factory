@@ -1,0 +1,54 @@
+{
+  "capturedAt": "2026-09-12T09:58:34.719Z",
+  "implementationHash": "3f9bd392deb6cdd6df6bab7b1a79dc0335df7c9487b5b8aa74376962337ce461",
+  "sourceHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+  "thresholds": {
+    "channelTolerance": 24,
+    "maxDifferentPixelRatio": 0.085,
+    "geometryTolerancePx": 2
+  },
+  "acceptanceScope": "page",
+  "buildReady": false,
+  "deferred": [],
+  "passed": false,
+  "pagePassed": false,
+  "routes": [
+    {
+      "id": "contact",
+      "passed": false,
+      "pagePassed": false,
+      "ownership": {
+        "header": {
+          "pixels": 372480,
+          "differentPixels": 21869,
+          "ratio": 0.05871187714776632
+        },
+        "footer": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "shared": {
+          "pixels": 316800,
+          "differentPixels": 43513,
+          "ratio": 0.1373516414141414
+        },
+        "page": {
+          "pixels": 4329600,
+          "differentPixels": 867316,
+          "ratio": 0.20032243163340724
+        }
+      },
+      "errors": [
+        "page pixel mismatch 20.032%",
+        "Section geometry differs: contact-details",
+        "Section geometry differs: contact-form",
+        "Section geometry differs: contact-map",
+        "shared pixel mismatch 13.735%",
+        "Shared component pixel mismatch page-banner: 13.735%",
+        "Section geometry differs: contact-heading"
+      ],
+      "comparison": ".factory-cache/autopilot/visual-1789207098532/contact/comparison.json"
+    }
+  ]
+}

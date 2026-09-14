@@ -1,0 +1,19 @@
+{
+  "startedModel": "gpt-6-astra",
+  "threadId": "01a08cb9-19c5-7e02-897b-c797df343c03",
+  "resumedFrom": "01a08cb9-19c5-7e02-897b-c797df343c03",
+  "usage": {
+    "input_tokens": 5794319,
+    "cached_input_tokens": 5627264,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 37924,
+    "reasoning_output_tokens": 12452
+  },
+  "exit": {
+    "code": 0,
+    "signal": null
+  },
+  "failure": null,
+  "completed": true,
+  "finishedAt": "2026-09-10T19:51:43.552Z"
+}

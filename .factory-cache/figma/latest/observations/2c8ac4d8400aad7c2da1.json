@@ -1,0 +1,153 @@
+{
+  "id": "2c8ac4d8400aad7c2da1",
+  "tool": "use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [],
+  "description": "Read only the submit control descendants and map source node for the contact form and map sections.",
+  "recordedAt": "2026-09-11T08:47:27.228Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    [
+      {
+        "id": "339:797",
+        "name": "koszyk",
+        "type": "GROUP",
+        "bounds": {
+          "x": 11964,
+          "y": 4259,
+          "width": 224,
+          "height": 44
+        },
+        "fills": null,
+        "strokes": null,
+        "effects": [],
+        "cornerRadius": null,
+        "children": [
+          {
+            "id": "339:798",
+            "name": "Rectangle 35",
+            "type": "RECTANGLE",
+            "bounds": {
+              "x": 11964,
+              "y": 4259,
+              "width": 224,
+              "height": 44
+            },
+            "characters": null,
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.019607843831181526,
+                  "g": 0.40784314274787903,
+                  "b": 0.2235294133424759
+                },
+                "boundVariables": {}
+              }
+            ],
+            "strokes": [],
+            "cornerRadius": 30,
+            "fontName": null,
+            "fontSize": null,
+            "fontWeight": null,
+            "lineHeight": null,
+            "textAlignHorizontal": null
+          },
+          {
+            "id": "339:803",
+            "name": "Wyślij",
+            "type": "TEXT",
+            "bounds": {
+              "x": 11965,
+              "y": 4259,
+              "width": 223,
+              "height": 44
+            },
+            "characters": "Wyślij",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {}
+              }
+            ],
+            "strokes": [],
+            "cornerRadius": null,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Bold",
+              "variationSettings": {
+                "wght": 700,
+                "opsz": 14
+              }
+            },
+            "fontSize": 16,
+            "fontWeight": 700,
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "textAlignHorizontal": "CENTER"
+          }
+        ]
+      },
+      {
+        "id": "431:924",
+        "name": "Rectangle 142",
+        "type": "RECTANGLE",
+        "bounds": {
+          "x": 11964,
+          "y": 4391,
+          "width": 953,
+          "height": 568
+        },
+        "fills": [
+          {
+            "type": "IMAGE",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "scaleMode": "FILL",
+            "scalingFactor": 0.5,
+            "rotation": 0,
+            "filters": {
+              "exposure": 0,
+              "contrast": 0,
+              "saturation": 0,
+              "temperature": 0,
+              "tint": 0,
+              "highlights": 0,
+              "shadows": 0
+            },
+            "imageTransform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "imageHash": "aac892a6737d5096d39ca89bfe1e8d60e5ae17ce"
+          }
+        ],
+        "strokes": [],
+        "effects": [],
+        "cornerRadius": 30,
+        "children": []
+      }
+    ]
+  ]
+}

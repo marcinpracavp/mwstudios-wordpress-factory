@@ -1,0 +1,103 @@
+{
+    "id":  "contact-details",
+    "name":  "Contact offices and department details",
+    "order":  42,
+    "source":  {
+                   "pageId":  "0:1",
+                   "desktopNodeId":  "335:710"
+               },
+    "desktop":  {
+                    "frameWidth":  1920,
+                    "x":  240,
+                    "y":  485,
+                    "width":  467,
+                    "height":  1341,
+                    "containerWidth":  467,
+                    "padding":  {
+                                    "left":  51,
+                                    "right":  46
+                                },
+                    "gap":  31
+                },
+    "layout":  {
+                   "type":  "stacked-contact-cards",
+                   "productionFrame":  "335:591",
+                   "designContextRead":  true,
+                   "nodes":  [
+                                 "335:710",
+                                 "431:897",
+                                 "431:908"
+                             ],
+                   "cardWidths":  [
+                                      467,
+                                      467,
+                                      467
+                                  ],
+                   "cardHeights":  [
+                                       467,
+                                       334,
+                                       478
+                                   ],
+                   "verticalGaps":  [
+                                        31,
+                                        31
+                                    ],
+                   "fill":  "#f6f6f6",
+                   "radius":  31
+               },
+    "typography":  [
+                       {
+                           "family":  "DM Sans",
+                           "weights":  [
+                                           400,
+                                           700
+                                       ],
+                           "textSize":  18,
+                           "lineHeight":  24
+                       },
+                       {
+                           "nodeId":  "335:714",
+                           "family":  "DM Sans",
+                           "weight":  700,
+                           "size":  36,
+                           "lineHeight":  24
+                       }
+                   ],
+    "assets":  [
+                   {
+                       "sourceNodeId":  "335:771",
+                       "path":  "assets/contact/contact-icon-address-335-771.svg",
+                       "kind":  "svg",
+                       "role":  "address icon"
+                   },
+                   {
+                       "sourceNodeId":  "335:764",
+                       "path":  "assets/contact/contact-icon-phone-335-764.svg",
+                       "kind":  "svg",
+                       "role":  "phone icon"
+                   },
+                   {
+                       "sourceNodeId":  "335:769",
+                       "path":  "assets/contact/contact-icon-email-335-769.svg",
+                       "kind":  "svg",
+                       "role":  "email icon"
+                   }
+               ],
+    "contentFields":  [
+                          "335:714",
+                          "335:719",
+                          "335:716",
+                          "431:898",
+                          "431:899",
+                          "431:911",
+                          "431:910",
+                          "431:919",
+                          "431:918",
+                          "431:922",
+                          "431:921"
+                      ],
+    "notes":  [
+                  "Lossless 1x crop from references/full/frame-335-591.png: x=240,y=485,width=467,height=1341. Green address/phone/email icons are source vectors; their presentation is retained in the reference crop and requires exact export when implementing the icon component. No mobile source exists; responsive behavior is derived."
+              ],
+    "liveFigmaRequired":  false
+}

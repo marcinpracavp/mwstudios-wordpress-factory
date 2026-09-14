@@ -1,0 +1,109 @@
+{
+  "id": "9457afee508a64493918",
+  "tool": "use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "250:412",
+    "250:115"
+  ],
+  "description": "Capture exact home-crop-selection-active section source nodes 275",
+  "recordedAt": "2026-09-11T00:55:41.286Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "id": "250:412",
+      "name": "wybór wg uprawy",
+      "frame": "250:115",
+      "total": 276,
+      "nodes": [
+        {
+          "id": "250:680",
+          "name": "Wybór uprawy",
+          "type": "TEXT",
+          "parentId": "250:412",
+          "bounds": {
+            "x": 241,
+            "y": 1464,
+            "width": 472,
+            "height": 96
+          },
+          "style": 0,
+          "characters": "Wybór uprawy",
+          "align": [
+            "LEFT",
+            "TOP"
+          ],
+          "segments": [
+            {
+              "characters": "Wybór uprawy",
+              "start": 0,
+              "end": 12,
+              "style": 1
+            }
+          ]
+        }
+      ],
+      "styles": [
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.02856878750026226,
+                "g": 0.028846153989434242,
+                "b": 0.02871447429060936
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "OUTSIDE",
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "fontSize": 64,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 700,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.02856878750026226,
+                "g": 0.028846153989434242,
+                "b": 0.02871447429060936
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        }
+      ]
+    }
+  ]
+}

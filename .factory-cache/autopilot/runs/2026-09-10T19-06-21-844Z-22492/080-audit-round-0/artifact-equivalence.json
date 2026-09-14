@@ -1,0 +1,312 @@
+{
+  "previous": {
+    "id": "comparison-1789327201418",
+    "capturedAt": "2026-09-13T19:25:10.750Z",
+    "implementationHash": "adb4e4d5116b9920d004e5a01de4fa4a8e6e45db57ffb166c4539d92421e8169",
+    "sourceHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12"
+  },
+  "current": {
+    "id": "comparison-1789330359034",
+    "capturedAt": "2026-09-13T20:17:49.458Z",
+    "implementationHash": "adb4e4d5116b9920d004e5a01de4fa4a8e6e45db57ffb166c4539d92421e8169",
+    "sourceHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12"
+  },
+  "sameImplementationHash": true,
+  "sameSourceHash": true,
+  "routes": [
+    {
+      "id": "careers",
+      "referenceShaSame": true,
+      "renderedShaSame": true,
+      "diffPngSame": true,
+      "responsivePngSame": {
+        "375": true,
+        "390": true,
+        "768": true,
+        "1024": true,
+        "1280": true,
+        "1440": true
+      }
+    },
+    {
+      "id": "catalogues",
+      "referenceShaSame": true,
+      "renderedShaSame": true,
+      "diffPngSame": true,
+      "responsivePngSame": {
+        "375": true,
+        "390": true,
+        "768": true,
+        "1024": true,
+        "1280": true,
+        "1440": true
+      }
+    },
+    {
+      "id": "blog-article",
+      "referenceShaSame": true,
+      "renderedShaSame": true,
+      "diffPngSame": true,
+      "responsivePngSame": {
+        "375": true,
+        "390": true,
+        "768": true,
+        "1024": true,
+        "1280": true,
+        "1440": true
+      }
+    },
+    {
+      "id": "blog-archive",
+      "referenceShaSame": true,
+      "renderedShaSame": true,
+      "diffPngSame": true,
+      "responsivePngSame": {
+        "375": true,
+        "390": true,
+        "768": true,
+        "1024": false,
+        "1280": true,
+        "1440": false
+      }
+    },
+    {
+      "id": "contact",
+      "referenceShaSame": true,
+      "renderedShaSame": true,
+      "diffPngSame": true,
+      "responsivePngSame": {
+        "375": true,
+        "390": true,
+        "768": true,
+        "1024": true,
+        "1280": true,
+        "1440": true
+      }
+    },
+    {
+      "id": "about",
+      "referenceShaSame": true,
+      "renderedShaSame": true,
+      "diffPngSame": true,
+      "responsivePngSame": {
+        "375": true,
+        "390": true,
+        "768": true,
+        "1024": true,
+        "1280": true,
+        "1440": true
+      }
+    },
+    {
+      "id": "product",
+      "referenceShaSame": true,
+      "renderedShaSame": false,
+      "diffPngSame": false,
+      "responsivePngSame": {
+        "375": false,
+        "390": false,
+        "768": false,
+        "1024": false,
+        "1280": false,
+        "1440": false
+      }
+    },
+    {
+      "id": "cart",
+      "referenceShaSame": true,
+      "renderedShaSame": true,
+      "diffPngSame": true,
+      "responsivePngSame": {
+        "375": true,
+        "390": true,
+        "768": true,
+        "1024": true,
+        "1280": true,
+        "1440": true
+      }
+    },
+    {
+      "id": "checkout",
+      "referenceShaSame": true,
+      "renderedShaSame": true,
+      "diffPngSame": true,
+      "responsivePngSame": {
+        "375": true,
+        "390": true,
+        "768": true,
+        "1024": false,
+        "1280": true,
+        "1440": true
+      }
+    },
+    {
+      "id": "product-archive",
+      "referenceShaSame": true,
+      "renderedShaSame": true,
+      "diffPngSame": true,
+      "responsivePngSame": {
+        "375": true,
+        "390": true,
+        "768": true,
+        "1024": true,
+        "1280": true,
+        "1440": true
+      }
+    },
+    {
+      "id": "home",
+      "referenceShaSame": true,
+      "renderedShaSame": true,
+      "diffPngSame": true,
+      "responsivePngSame": {
+        "375": false,
+        "390": false,
+        "768": true,
+        "1024": false,
+        "1280": true,
+        "1440": true
+      }
+    },
+    {
+      "id": "product-bundle",
+      "referenceShaSame": true,
+      "renderedShaSame": true,
+      "diffPngSame": true,
+      "responsivePngSame": {
+        "375": true,
+        "390": true,
+        "768": true,
+        "1024": true,
+        "1280": true,
+        "1440": true
+      }
+    },
+    {
+      "id": "account",
+      "referenceShaSame": true,
+      "renderedShaSame": true,
+      "diffPngSame": true,
+      "responsivePngSame": {
+        "375": true,
+        "390": true,
+        "768": true,
+        "1024": true,
+        "1280": true,
+        "1440": true
+      }
+    },
+    {
+      "id": "product-expanded",
+      "referenceShaSame": true,
+      "renderedShaSame": false,
+      "diffPngSame": false,
+      "responsivePngSame": {
+        "375": false,
+        "390": false,
+        "768": false,
+        "1024": false,
+        "1280": false,
+        "1440": false
+      }
+    },
+    {
+      "id": "product-inquiry",
+      "referenceShaSame": true,
+      "renderedShaSame": false,
+      "diffPngSame": false,
+      "responsivePngSame": {
+        "375": false,
+        "390": false,
+        "768": false,
+        "1024": false,
+        "1280": false,
+        "1440": false
+      }
+    },
+    {
+      "id": "order-confirmed",
+      "referenceShaSame": true,
+      "renderedShaSame": true,
+      "diffPngSame": true,
+      "responsivePngSame": {
+        "375": true,
+        "390": true,
+        "768": true,
+        "1024": true,
+        "1280": true,
+        "1440": true
+      }
+    },
+    {
+      "id": "checkout-login",
+      "referenceShaSame": true,
+      "renderedShaSame": true,
+      "diffPngSame": true,
+      "responsivePngSame": {
+        "375": true,
+        "390": true,
+        "768": true,
+        "1024": true,
+        "1280": true,
+        "1440": true
+      }
+    },
+    {
+      "id": "checkout-registration",
+      "referenceShaSame": true,
+      "renderedShaSame": true,
+      "diffPngSame": true,
+      "responsivePngSame": {
+        "375": true,
+        "390": true,
+        "768": true,
+        "1024": true,
+        "1280": true,
+        "1440": true
+      }
+    },
+    {
+      "id": "product-reviews-state",
+      "referenceShaSame": true,
+      "renderedShaSame": false,
+      "diffPngSame": false,
+      "responsivePngSame": {
+        "375": false,
+        "390": false,
+        "768": false,
+        "1024": false,
+        "1280": false,
+        "1440": false
+      }
+    },
+    {
+      "id": "product-files-state",
+      "referenceShaSame": true,
+      "renderedShaSame": false,
+      "diffPngSame": false,
+      "responsivePngSame": {
+        "375": false,
+        "390": false,
+        "768": false,
+        "1024": false,
+        "1280": false,
+        "1440": false
+      }
+    },
+    {
+      "id": "home-active",
+      "referenceShaSame": true,
+      "renderedShaSame": true,
+      "diffPngSame": true,
+      "responsivePngSame": {
+        "375": false,
+        "390": false,
+        "768": true,
+        "1024": false,
+        "1280": true,
+        "1440": true
+      }
+    }
+  ]
+}

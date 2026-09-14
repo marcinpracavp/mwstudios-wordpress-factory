@@ -1,0 +1,422 @@
+{
+  "id": "93994dfaa5c6b60a4b37",
+  "tool": "use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "112:7",
+    "12:2"
+  ],
+  "description": "Read exact topbar bounds, styled text and icon geometry without changing source",
+  "recordedAt": "2026-09-10T20:08:44.412Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "id": "112:7",
+      "name": "topbar",
+      "frame": "12:2",
+      "nodes": [
+        {
+          "id": "112:7",
+          "name": "topbar",
+          "type": "GROUP",
+          "parentId": "12:2",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 40
+          },
+          "visible": true,
+          "opacity": 1,
+          "effects": [],
+          "relativeTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH",
+          "reactions": []
+        },
+        {
+          "id": "92:22",
+          "name": "Rectangle 9",
+          "type": "RECTANGLE",
+          "parentId": "112:7",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 40
+          },
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "effects": [],
+          "cornerRadius": 0,
+          "relativeTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              -1,
+              40
+            ]
+          ],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH",
+          "reactions": []
+        },
+        {
+          "id": "169:282",
+          "name": "Vector 13",
+          "type": "VECTOR",
+          "parentId": "112:7",
+          "bounds": {
+            "x": 1671,
+            "y": 16,
+            "width": 8,
+            "height": 8
+          },
+          "visible": true,
+          "opacity": 1,
+          "fills": [],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokeWeight": 1.5,
+          "effects": [],
+          "cornerRadius": 0,
+          "relativeTransform": [
+            [
+              1,
+              0,
+              1671
+            ],
+            [
+              0,
+              1,
+              16
+            ]
+          ],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH",
+          "reactions": []
+        },
+        {
+          "id": "169:287",
+          "name": "Ellipse 8",
+          "type": "ELLIPSE",
+          "parentId": "112:7",
+          "bounds": {
+            "x": 1055,
+            "y": 11,
+            "width": 17,
+            "height": 17
+          },
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.20000000298023224,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "effects": [],
+          "cornerRadius": 0,
+          "relativeTransform": [
+            [
+              1,
+              0,
+              1055
+            ],
+            [
+              0,
+              1,
+              11
+            ]
+          ],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH",
+          "reactions": []
+        },
+        {
+          "id": "169:284",
+          "name": "Vector 14",
+          "type": "VECTOR",
+          "parentId": "112:7",
+          "bounds": {
+            "x": 1058,
+            "y": 16.140624949025437,
+            "width": 7.7187501019491265,
+            "height": 7.7187501019491265
+          },
+          "visible": true,
+          "opacity": 1,
+          "fills": [],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokeWeight": 1.5,
+          "effects": [],
+          "cornerRadius": 0,
+          "relativeTransform": [
+            [
+              0.7071067690849304,
+              0.7071067690849304,
+              1058
+            ],
+            [
+              -0.7071067690849304,
+              0.7071067690849304,
+              20
+            ]
+          ],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH",
+          "reactions": []
+        },
+        {
+          "id": "169:288",
+          "name": "Ellipse 9",
+          "type": "ELLIPSE",
+          "parentId": "112:7",
+          "bounds": {
+            "x": 848,
+            "y": 10.999998513812784,
+            "width": 17.000001486187216,
+            "height": 17.000001486187216
+          },
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.20000000298023224,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "effects": [],
+          "cornerRadius": 0,
+          "relativeTransform": [
+            [
+              -1,
+              8.742277657347586e-8,
+              865
+            ],
+            [
+              -8.742277657347586e-8,
+              -1,
+              28
+            ]
+          ],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH",
+          "reactions": []
+        },
+        {
+          "id": "169:289",
+          "name": "Vector 15",
+          "type": "VECTOR",
+          "parentId": "112:7",
+          "bounds": {
+            "x": 854.2812498980509,
+            "y": 15.140624623704412,
+            "width": 7.7187501019491265,
+            "height": 7.71875010194924
+          },
+          "visible": true,
+          "opacity": 1,
+          "fills": [],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokeWeight": 1.5,
+          "effects": [],
+          "cornerRadius": 0,
+          "relativeTransform": [
+            [
+              -0.7071068286895752,
+              -0.7071067094802856,
+              862
+            ],
+            [
+              0.7071067094802856,
+              -0.7071068286895752,
+              19
+            ]
+          ],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH",
+          "reactions": []
+        },
+        {
+          "id": "93:26",
+          "name": "-30% z kodem BLACK",
+          "type": "TEXT",
+          "parentId": "112:7",
+          "bounds": {
+            "x": 0,
+            "y": 11,
+            "width": 1920,
+            "height": 20
+          },
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "effects": [],
+          "relativeTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              11
+            ]
+          ],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH",
+          "characters": "-30% z kodem BLACK",
+          "textAlignHorizontal": "CENTER",
+          "textAlignVertical": "TOP",
+          "segments": [
+            {
+              "characters": "-30% z kodem BLACK",
+              "start": 0,
+              "end": 18,
+              "fontSize": 14,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 400,
+              "textDecoration": "NONE",
+              "lineHeight": {
+                "unit": "AUTO"
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            }
+          ],
+          "reactions": []
+        }
+      ]
+    }
+  ]
+}

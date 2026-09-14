@@ -1,0 +1,126 @@
+{
+  "id": "checkout-steps",
+  "name": "checkout steps",
+  "order": 63,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "611:196"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 249,
+    "y": 376,
+    "width": 951,
+    "height": 106,
+    "containerWidth": 1440
+  },
+  "layout": {
+    "type": "checkout-progress-indicator",
+    "designContextRead": true,
+    "alignment": "left",
+    "components": [
+      {
+        "nodeId": "611:196",
+        "geometry": {
+          "x": 249,
+          "y": 376,
+          "width": 72,
+          "height": 72
+        }
+      },
+      {
+        "nodeId": "611:198",
+        "geometry": {
+          "x": 614,
+          "y": 376,
+          "width": 72,
+          "height": 72
+        }
+      },
+      {
+        "nodeId": "611:200",
+        "geometry": {
+          "x": 976,
+          "y": 376,
+          "width": 72,
+          "height": 72
+        }
+      }
+    ],
+    "arrows": [
+      {
+        "nodeId": "611:202",
+        "width": 224
+      },
+      {
+        "nodeId": "611:203",
+        "width": 224
+      }
+    ]
+  },
+  "typography": [
+    {
+      "nodeIds": [
+        "611:197",
+        "611:199",
+        "611:201"
+      ],
+      "fontFamily": "DM Sans",
+      "fontWeight": 700,
+      "fontSize": 32
+    },
+    {
+      "nodeIds": [
+        "611:204",
+        "611:205",
+        "611:206"
+      ],
+      "fontFamily": "DM Sans",
+      "fontWeight": 700,
+      "fontSize": 18
+    }
+  ],
+  "assets": [
+    {
+      "sourceNodeId": "611:196",
+      "path": "assets/checkout/checkout-step-active.svg",
+      "usage": "active-step-circle"
+    }
+  ],
+  "contentFields": [
+    {
+      "id": "611:197",
+      "text": "1",
+      "link": null
+    },
+    {
+      "id": "611:199",
+      "text": "2",
+      "link": null
+    },
+    {
+      "id": "611:201",
+      "text": "3",
+      "link": null
+    },
+    {
+      "id": "611:204",
+      "text": "Logowanie",
+      "link": null
+    },
+    {
+      "id": "611:205",
+      "text": "Dostawa i płatność",
+      "link": null
+    },
+    {
+      "id": "611:206",
+      "text": "Podsumowanie",
+      "link": null
+    }
+  ],
+  "notes": [
+    "Step geometry and labels are from the real checkout state. The source has no containing step frame; desktop bounds cover the measured indicator elements."
+  ],
+  "liveFigmaRequired": false
+}

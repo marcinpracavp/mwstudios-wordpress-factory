@@ -1,0 +1,4 @@
+blog-article: DEFERRED TO FINAL page pixel mismatch 11.705%
+blog-archive: DEFERRED TO FINAL page pixel mismatch 7.585%
+2026-09-12T09:33:47.526Z BUILD READY build:blog; deferred issues retained: 2
+2026-09-12T09:33:47.591Z START build:contact [gpt-5.6-terra high] (.factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/039-build-contact)

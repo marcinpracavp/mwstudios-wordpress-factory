@@ -1,0 +1,452 @@
+{
+  "source": {
+    "fileKey": "OwiDXrKMVcaHKB9ryYF6mY"
+  },
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1920,
+      "height": 900
+    }
+  ],
+  "containers": [
+    {
+      "sourceNodeId": "12:2",
+      "width": 1440,
+      "outerFrameWidth": 1920,
+      "offset": 240
+    }
+  ],
+  "grid": [
+    {
+      "pattern": "COLUMNS",
+      "visible": true,
+      "color": {
+        "r": 1,
+        "g": 0,
+        "b": 0,
+        "a": 0.10000000149011612
+      },
+      "gutterSize": 20,
+      "alignment": "STRETCH",
+      "count": 12,
+      "offset": 240,
+      "boundVariables": {}
+    }
+  ],
+  "typography": [
+    {
+      "font": {
+        "family": "DM Sans",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400,
+          "opsz": 14
+        }
+      },
+      "size": 16,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 34
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    },
+    {
+      "size": 16,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 34
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    },
+    {
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    },
+    {
+      "size": 16,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    },
+    {
+      "font": {
+        "family": "DM Sans",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400,
+          "opsz": 14
+        }
+      },
+      "size": 16,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    },
+    {
+      "size": 18,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    },
+    {
+      "font": {
+        "family": "DM Sans",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "opsz": 14
+        }
+      },
+      "size": 48,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    },
+    {
+      "font": {
+        "family": "DM Sans",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "opsz": 14
+        }
+      },
+      "size": 32,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    },
+    {
+      "font": {
+        "family": "DM Sans",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "opsz": 14
+        }
+      },
+      "size": 18,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    },
+    {
+      "font": {
+        "family": "DM Sans",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "opsz": 14
+        }
+      },
+      "size": 64,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    },
+    {
+      "font": {
+        "family": "DM Sans",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "opsz": 14
+        }
+      },
+      "size": 24,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    },
+    {
+      "font": {
+        "family": "DM Sans",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400,
+          "opsz": 14
+        }
+      },
+      "size": 18,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    },
+    {
+      "font": {
+        "family": "DM Sans",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "opsz": 14
+        }
+      },
+      "size": 14,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    },
+    {
+      "font": {
+        "family": "DM Sans",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400,
+          "opsz": 14
+        }
+      },
+      "size": 24,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    },
+    {
+      "font": {
+        "family": "DM Sans",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400,
+          "opsz": 14
+        }
+      },
+      "size": 12,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    },
+    {
+      "font": {
+        "family": "DM Sans",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400,
+          "opsz": 14
+        }
+      },
+      "size": 20,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    },
+    {
+      "font": {
+        "family": "DM Sans",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400,
+          "opsz": 14
+        }
+      },
+      "size": 14,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    },
+    {
+      "font": {
+        "family": "DM Sans",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400,
+          "opsz": 14
+        }
+      },
+      "size": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 15
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    },
+    {
+      "size": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 25
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    },
+    {
+      "size": 24,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    },
+    {
+      "size": 16,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 48
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    },
+    {
+      "font": {
+        "family": "DM Sans",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400,
+          "opsz": 14
+        }
+      },
+      "size": 16,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 48
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    },
+    {
+      "font": {
+        "family": "DM Sans",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "opsz": 14
+        }
+      },
+      "size": 17,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    },
+    {
+      "font": {
+        "family": "DM Sans",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "opsz": 14
+        }
+      },
+      "size": 9,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    },
+    {
+      "font": {
+        "family": "DM Sans",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "opsz": 14
+        }
+      },
+      "size": 16,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 22
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    }
+  ],
+  "spacing": {
+    "source": "Measured per section; extend existing $xl-min-values generator only after exact section spacing is established."
+  },
+  "breakpoints": {
+    "source": "derived from existing theme; no mobile Figma frame",
+    "xxs": 480,
+    "xs": 576,
+    "sm": 768,
+    "md": 992,
+    "lg": 1200,
+    "xl": 1560
+  },
+  "effects": [
+    {
+      "sourceNodeId": "140:263",
+      "description": "Continuous lower-page background starts y=7023 and ends y=8999; exact gradient and constituent bounds pending."
+    }
+  ],
+  "status": "partial"
+}

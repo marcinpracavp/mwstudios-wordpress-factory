@@ -1,0 +1,199 @@
+{
+  "id": "archive-product-grid",
+  "name": "product card grid",
+  "order": 72,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "303:1282"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 605,
+    "y": 662,
+    "width": 1075,
+    "height": 2884,
+    "containerWidth": 1075
+  },
+  "layout": {
+    "type": "woocommerce-product-grid",
+    "columns": [
+      {
+        "count": 3,
+        "width": 345
+      }
+    ],
+    "rowGap": 20,
+    "columnGap": 20,
+    "cardHeight": 464,
+    "cardRadius": 30,
+    "quantityControl": {
+      "width": 149,
+      "height": 44
+    },
+    "addToCartControl": {
+      "width": 149,
+      "height": 44
+    },
+    "cardTypography": {
+      "title": {
+        "family": "DM Sans",
+        "style": "Regular",
+        "fontSize": 18
+      },
+      "price": {
+        "family": "DM Sans",
+        "style": "Bold",
+        "fontSize": 24
+      },
+      "action": {
+        "family": "DM Sans",
+        "style": "Bold",
+        "fontSize": 14
+      }
+    }
+  },
+  "typography": [
+    {
+      "nodeId": "298:832",
+      "text": "Vivero 500 SC 1L",
+      "family": "DM Sans",
+      "style": "Regular",
+      "fontSize": 18
+    },
+    {
+      "nodeId": "298:833",
+      "text": "475,00 zł",
+      "family": "DM Sans",
+      "style": "Bold",
+      "fontSize": 24
+    },
+    {
+      "nodeId": "298:831",
+      "text": "Do koszyka",
+      "family": "DM Sans",
+      "style": "Bold",
+      "fontSize": 14
+    }
+  ],
+  "assets": [
+    {
+      "sourceNodeId": "298:835",
+      "path": "assets/product-archive/fd65e899-135e-4f7c-b3b0-ef306c3db68e.png",
+      "usage": "Exact Figma-exported product media for vivero."
+    },
+    {
+      "sourceNodeId": "299:856",
+      "path": "assets/product-archive/962f3534-04e3-49e4-8fb8-08742b4b15db.png",
+      "usage": "Exact Figma-exported product media for atrium-x."
+    },
+    {
+      "sourceNodeId": "299:876",
+      "path": "assets/product-archive/22efc351-e34d-41e5-81d8-c280e42f775f.png",
+      "usage": "Exact Figma-exported product media for bounty."
+    },
+    {
+      "sourceNodeId": "299:931",
+      "path": "assets/product-archive/2dcf28f7-a4ee-4779-b171-1fcd4bc818c0.png",
+      "usage": "Exact Figma-exported product media for zingaro."
+    },
+    {
+      "sourceNodeId": "299:934",
+      "path": "assets/product-archive/1812f6e2-eabf-4c52-85d0-a35435642180.png",
+      "usage": "Exact Figma-exported product media for darcos."
+    },
+    {
+      "sourceNodeId": "299:937",
+      "path": "assets/product-archive/d0962b82-012e-46e4-9654-a8e384b78f91.png",
+      "usage": "Exact Figma-exported product media for mepi."
+    },
+    {
+      "sourceNodeId": "299:1142",
+      "path": "assets/product-archive/001037f1-77a9-4395-a2fe-1ede41eddae6.png",
+      "usage": "Exact Figma-exported product media for tavares."
+    },
+    {
+      "sourceNodeId": "302:1147",
+      "path": "assets/product-archive/eade290d-51fb-4669-8f79-4399c63be831.png",
+      "usage": "Exact Figma-exported product media for allstar."
+    },
+    {
+      "sourceNodeId": "302:1149",
+      "path": "assets/product-archive/a3ca8574-638c-4d7c-96e6-ea004800c1a6.png",
+      "usage": "Exact Figma-exported product media for andros."
+    },
+    {
+      "sourceNodeId": "302:1152",
+      "path": "assets/product-archive/f9eb8608-652d-4dae-936c-835b76cf7097.png",
+      "usage": "Exact Figma-exported product media for ascra."
+    },
+    {
+      "sourceNodeId": "302:1155",
+      "path": "assets/product-archive/c625bc7e-655c-4500-bf47-fe37db513fc6.png",
+      "usage": "Exact Figma-exported product media for aviator."
+    },
+    {
+      "sourceNodeId": "299:1139",
+      "path": "assets/product-archive/d0962b82-012e-46e4-9654-a8e384b78f91.png",
+      "usage": "Exact Figma-exported product media for bantux."
+    },
+    {
+      "sourceNodeId": "302:1257",
+      "path": "assets/product-archive/467273e2-7bb8-49fe-b397-91ede4d864e4.png",
+      "usage": "Exact Figma-exported product media for belanty."
+    },
+    {
+      "sourceNodeId": "303:1261",
+      "path": "assets/product-archive/d3761d23-87f2-4184-99f5-a0f433c7b2a2.png",
+      "usage": "Exact Figma-exported product media for bellis-1kg."
+    },
+    {
+      "sourceNodeId": "303:1263",
+      "path": "assets/product-archive/6bfc72e3-a6b5-4a2f-83f4-64338511b986.png",
+      "usage": "Exact Figma-exported product media for bellis-5kg."
+    },
+    {
+      "sourceNodeId": "303:1265",
+      "path": "assets/product-archive/ef3dca02-6501-4cfc-989a-c6f80d199df1.png",
+      "usage": "Exact Figma-exported product media for boogie."
+    },
+    {
+      "sourceNodeId": "303:1270",
+      "path": "assets/product-archive/07f819fe-7efa-4dcd-ad20-99bb28fc4393.png",
+      "usage": "Exact Figma-exported product media for cabrio-10l."
+    },
+    {
+      "sourceNodeId": "303:1275",
+      "path": "assets/product-archive/55e7ebb5-aa7d-48a4-8524-1644b1c903a8.png",
+      "usage": "Exact Figma-exported product media for cabrio-1l."
+    },
+    {
+      "sourceNodeId": "298:827",
+      "path": "assets/product-archive/9c91fe9c-b200-4804-8ed1-3f44f4550ddb.svg",
+      "usage": "Exact cart icon used by every add-to-cart control."
+    }
+  ],
+  "contentFields": [
+    "rudnikagro_archive_product_298_832",
+    "rudnikagro_archive_product_298_849",
+    "rudnikagro_archive_product_299_869",
+    "rudnikagro_archive_product_299_889",
+    "rudnikagro_archive_product_299_907",
+    "rudnikagro_archive_product_299_925",
+    "rudnikagro_archive_product_299_1052",
+    "rudnikagro_archive_product_299_1070",
+    "rudnikagro_archive_product_299_1088",
+    "rudnikagro_archive_product_299_1104",
+    "rudnikagro_archive_product_299_1120",
+    "rudnikagro_archive_product_299_1136",
+    "rudnikagro_archive_product_302_1169",
+    "rudnikagro_archive_product_302_1185",
+    "rudnikagro_archive_product_302_1201",
+    "rudnikagro_archive_product_302_1217",
+    "rudnikagro_archive_product_302_1233",
+    "rudnikagro_archive_product_302_1249"
+  ],
+  "notes": [
+    "Exact 1x section reference; crop provenance: references/full/frame-294-3-bounds.png at x=605, y=662, width=1075, height=2884."
+  ],
+  "liveFigmaRequired": false
+}

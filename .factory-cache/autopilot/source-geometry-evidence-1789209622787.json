@@ -1,0 +1,61 @@
+{
+  "id": "about",
+  "frameNodeId": "326:2764",
+  "referenceHash": "1e9d5aec30c4675e1c21f164f3e1f2f7c7526b26c8548af43781ec8eae44f6bd",
+  "evidence": ".factory-cache/autopilot/about-source-geometry.json",
+  "evidenceHash": "1313e044d00ac4817c63795ad5549fb04b70e988a04bee82511fc211169f3f4c",
+  "sections": [
+    {
+      "id": "about-agricultural-supply",
+      "nodeId": "520:432",
+      "anchorNodeId": "520:432",
+      "before": {
+        "x": 160,
+        "y": 1397,
+        "width": 1600,
+        "height": 565
+      },
+      "after": {
+        "x": 160,
+        "y": 832,
+        "width": 1600,
+        "height": 565
+      }
+    },
+    {
+      "id": "about-grain-trade",
+      "nodeId": "521:452",
+      "anchorNodeId": "519:351",
+      "before": {
+        "x": 160,
+        "y": 2085,
+        "width": 1600,
+        "height": 631
+      },
+      "after": {
+        "x": 160,
+        "y": 1454,
+        "width": 1600,
+        "height": 631
+      }
+    },
+    {
+      "id": "about-insurance",
+      "nodeId": "521:454",
+      "anchorNodeId": "521:435",
+      "before": {
+        "x": 160,
+        "y": 2837,
+        "width": 1600,
+        "height": 695
+      },
+      "after": {
+        "x": 160,
+        "y": 2142,
+        "width": 1600,
+        "height": 695
+      }
+    }
+  ],
+  "reason": "Unique source background absolute bounds prove a bottom-versus-top extraction error."
+}

@@ -1,0 +1,133 @@
+{
+  "id": "checkout-order-confirmation",
+  "manifestRecord": {
+    "id": "checkout-order-confirmation",
+    "name": "dane",
+    "order": 3,
+    "pageId": "0:1",
+    "snapshot": "sections/03-checkout-order-confirmation.json",
+    "desktopNodeId": "493:1251",
+    "desktopReference": "references/sections/checkout-order-confirmation.png"
+  },
+  "contentFields": [
+    {
+      "section": "checkout-order-confirmation",
+      "nodeId": "493:1254",
+      "fieldName": "rudnikagro_confirmation_493_1254",
+      "type": "text",
+      "language": "pl",
+      "value": "ZamÃ³wione przedmioty",
+      "destination": "WooCommerce native order confirmation; source price and service data are reference-only until approved native order exists",
+      "linkEvidence": {
+        "hyperlink": null
+      },
+      "importStatus": "blocked-native-order-evidence",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "493:1254"
+      }
+    },
+    {
+      "section": "checkout-order-confirmation",
+      "nodeId": "493:1258",
+      "fieldName": "rudnikagro_confirmation_493_1258",
+      "type": "text",
+      "language": "pl",
+      "value": "Kod produktu:\n\nMetoda pÅ‚atnoÅ›ci:\n\nDostawa:",
+      "destination": "WooCommerce native order confirmation; source price and service data are reference-only until approved native order exists",
+      "linkEvidence": {
+        "hyperlink": null
+      },
+      "importStatus": "blocked-native-order-evidence",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "493:1258"
+      }
+    },
+    {
+      "section": "checkout-order-confirmation",
+      "nodeId": "493:1318",
+      "fieldName": "rudnikagro_confirmation_493_1318",
+      "type": "text",
+      "language": "pl",
+      "value": "98899\n\nPrzelewy24\n\nShoper PrzesyÅ‚ki Kurier",
+      "destination": "WooCommerce native order confirmation; source price and service data are reference-only until approved native order exists",
+      "linkEvidence": {
+        "hyperlink": null
+      },
+      "importStatus": "blocked-native-order-evidence",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "493:1318"
+      }
+    },
+    {
+      "section": "checkout-order-confirmation",
+      "nodeId": "493:1274",
+      "fieldName": "rudnikagro_confirmation_493_1274",
+      "type": "text",
+      "language": "pl",
+      "value": "Twoje zamÃ³wienie zostaÅ‚o zÅ‚oÅ¼one",
+      "destination": "WooCommerce native order confirmation; source price and service data are reference-only until approved native order exists",
+      "linkEvidence": {
+        "hyperlink": null
+      },
+      "importStatus": "blocked-native-order-evidence",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "493:1274"
+      }
+    },
+    {
+      "section": "checkout-order-confirmation",
+      "nodeId": "493:1275",
+      "fieldName": "rudnikagro_confirmation_493_1275",
+      "type": "text",
+      "language": "pl",
+      "value": "Potwierdzenie zamÃ³wienia zostaÅ‚o wysÅ‚ane na maila",
+      "destination": "WooCommerce native order confirmation; source price and service data are reference-only until approved native order exists",
+      "linkEvidence": {
+        "hyperlink": null
+      },
+      "importStatus": "blocked-native-order-evidence",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "493:1275"
+      }
+    },
+    {
+      "section": "checkout-order-confirmation",
+      "nodeId": "493:1327",
+      "fieldName": "rudnikagro_confirmation_493_1327",
+      "type": "text",
+      "language": "pl",
+      "value": "Koszt dostawy:\n\nRabat:\n\nKoszt caÅ‚kowity:",
+      "destination": "WooCommerce native order confirmation; source price and service data are reference-only until approved native order exists",
+      "linkEvidence": {
+        "hyperlink": null
+      },
+      "importStatus": "blocked-native-order-evidence",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "493:1327"
+      }
+    },
+    {
+      "section": "checkout-order-confirmation",
+      "nodeId": "493:1329",
+      "fieldName": "rudnikagro_confirmation_493_1329",
+      "type": "text",
+      "language": "pl",
+      "value": "22,90 zÅ‚\n\n50 zÅ‚\n\n383, 90 zÅ‚",
+      "destination": "WooCommerce native order confirmation; source price and service data are reference-only until approved native order exists",
+      "linkEvidence": {
+        "hyperlink": null
+      },
+      "importStatus": "blocked-native-order-evidence",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "493:1329"
+      }
+    }
+  ]
+}

@@ -1,0 +1,984 @@
+{
+  "id": "product-expanded",
+  "sourceNodeId": "326:2526",
+  "capturedAt": "2026-09-12T20:15:29.415Z",
+  "passed": false,
+  "errors": [
+    "page pixel mismatch 8.898%",
+    "Section geometry differs: product-related",
+    "Section geometry differs: product-legal-notices",
+    "shared pixel mismatch 14.850%",
+    "Shared component pixel mismatch product-gallery: 17.311%",
+    "Shared component pixel mismatch product-tabs: 13.107%",
+    "Section geometry differs: product-tabs"
+  ],
+  "responsive": [
+    {
+      "width": 1440,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/visual-1789244126847/product-expanded/responsive-1440.png"
+    },
+    {
+      "width": 1280,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/visual-1789244126847/product-expanded/responsive-1280.png"
+    },
+    {
+      "width": 1024,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/visual-1789244126847/product-expanded/responsive-1024.png"
+    },
+    {
+      "width": 768,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/visual-1789244126847/product-expanded/responsive-768.png"
+    },
+    {
+      "width": 390,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/visual-1789244126847/product-expanded/responsive-390.png"
+    },
+    {
+      "width": 375,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/visual-1789244126847/product-expanded/responsive-375.png"
+    }
+  ],
+  "measurementVersion": 3,
+  "acceptanceScope": "page",
+  "templatePlan": {
+    "family": "[\"product\",\"/produkt/aquatos-5l/\",\"pl\",1920]",
+    "baseRoute": "product",
+    "route": "product-expanded",
+    "reusedSections": [
+      "shared-topbar",
+      "shared-primary-navigation",
+      "product-breadcrumbs",
+      "product-gallery"
+    ],
+    "focusSections": [
+      "shared-secondary-navigation",
+      "product-overview",
+      "product-tabs",
+      "product-expanded-description",
+      "product-related",
+      "product-legal-notices",
+      "shared-footer"
+    ]
+  },
+  "geometryHash": "30b9a653e7581bcfac0e0ce52931aaeaaab0d11d6590752c839a93ff9154c733",
+  "geometryCorrection": {
+    "id": "product-expanded",
+    "frameNodeId": "326:2526",
+    "referenceHash": "e7a3ca64f767557d01be5e359647d144abe83587794e8c4f00bd466958336170",
+    "evidence": ".factory-cache/autopilot/product-expanded-source-geometry.json",
+    "evidenceHash": "fdcf2a94a73202daaf5fba14a24e5b3dc4d48b89752d08b855544472a8f59db2",
+    "sections": [
+      {
+        "id": "product-related",
+        "nodeIds": [
+          "326:2567"
+        ],
+        "before": {
+          "frameWidth": 1920,
+          "x": 240,
+          "y": 1635,
+          "width": 710,
+          "height": 570
+        },
+        "after": {
+          "frameWidth": 1920,
+          "x": 240,
+          "y": 4348,
+          "width": 710,
+          "height": 570
+        }
+      },
+      {
+        "id": "product-legal-notices",
+        "nodeIds": [
+          "326:2730",
+          "326:2732"
+        ],
+        "before": {
+          "frameWidth": 1920,
+          "x": 240,
+          "y": 2263,
+          "width": 1440,
+          "height": 287
+        },
+        "after": {
+          "frameWidth": 1920,
+          "x": 240,
+          "y": 4976,
+          "width": 1440,
+          "height": 287
+        }
+      }
+    ],
+    "reason": "Explicit same-sized section mapping to retained source nodes in this route frame."
+  },
+  "geometry": [
+    {
+      "id": "shared-topbar",
+      "owner": "header",
+      "component": "header",
+      "expected": {
+        "frameWidth": 1920,
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 40
+      },
+      "actual": {
+        "id": "shared-topbar",
+        "landmark": null,
+        "component": null,
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 40,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "700",
+          "fontSize": "14px",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "shared-secondary-navigation",
+      "owner": "header",
+      "component": "header",
+      "expected": {
+        "frameWidth": 1920,
+        "x": 239,
+        "y": 56,
+        "width": 1440.9998779296875,
+        "height": 42
+      },
+      "actual": {
+        "id": "shared-secondary-navigation",
+        "landmark": "header",
+        "component": null,
+        "x": 237,
+        "y": 56,
+        "width": 1442.8125,
+        "height": 42,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "14px",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "20px",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": -2,
+        "y": 0,
+        "width": 1.8126220703125,
+        "height": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "shared-primary-navigation",
+      "owner": "header",
+      "component": "header",
+      "expected": {
+        "x": 240,
+        "y": 115,
+        "width": 1440,
+        "height": 78.6761245727539
+      },
+      "actual": {
+        "id": "shared-primary-navigation",
+        "landmark": "header",
+        "component": null,
+        "x": 240,
+        "y": 115,
+        "width": 1440,
+        "height": 79,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0.32387542724609375
+      },
+      "passed": true
+    },
+    {
+      "id": "product-breadcrumbs",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "frameWidth": 1920,
+        "x": 240,
+        "y": 189,
+        "width": 508,
+        "height": 70
+      },
+      "actual": {
+        "id": "product-breadcrumbs",
+        "landmark": null,
+        "component": null,
+        "x": 240,
+        "y": 189,
+        "width": 508,
+        "height": 70,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "12px",
+          "lineHeight": "18px",
+          "letterSpacing": "normal",
+          "color": "rgb(119, 119, 119)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "8px",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "passed": true,
+      "reused": {
+        "signature": "afb99a94f81da0b51a47a12a1a501b1e77cc221bf5733d3df361dea7774a2fa6",
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/053-build-product/build-readiness/product/product/comparison.json",
+        "section": "product-breadcrumbs",
+        "evidenceHash": "2dd28ab8b24488769f4a6e9909b028359eb15341d0ff7097bb8f0f84fe3cf49a",
+        "sourceRoute": "product"
+      }
+    },
+    {
+      "id": "product-gallery",
+      "owner": "shared",
+      "component": "product-gallery",
+      "expected": {
+        "frameWidth": 1920,
+        "x": 240,
+        "y": 259,
+        "width": 710,
+        "height": 710
+      },
+      "actual": {
+        "id": "product-gallery",
+        "landmark": null,
+        "component": "product-gallery",
+        "x": 240,
+        "y": 259,
+        "width": 710,
+        "height": 710,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(17, 17, 17)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "22px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "passed": true,
+      "reused": null
+    },
+    {
+      "id": "product-overview",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "frameWidth": 1920,
+        "x": 968,
+        "y": 260,
+        "width": 712,
+        "height": 571
+      },
+      "actual": {
+        "id": "product-overview",
+        "landmark": null,
+        "component": null,
+        "x": 970,
+        "y": 260,
+        "width": 710,
+        "height": 571,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(17, 17, 17)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 2,
+        "y": 0,
+        "width": -2,
+        "height": 0
+      },
+      "passed": true,
+      "reused": null
+    },
+    {
+      "id": "product-tabs",
+      "owner": "shared",
+      "component": "product-tabs",
+      "expected": {
+        "frameWidth": 1920,
+        "x": 240,
+        "y": 1096,
+        "width": 1440,
+        "height": 494
+      },
+      "actual": {
+        "id": "product-tabs",
+        "landmark": null,
+        "component": "product-tabs",
+        "x": 240,
+        "y": 1095.75,
+        "width": 1440,
+        "height": 3162,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(17, 17, 17)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": -0.25,
+        "width": 0,
+        "height": 2668
+      },
+      "passed": false,
+      "reused": null
+    },
+    {
+      "id": "product-expanded-description",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "frameWidth": 1920,
+        "x": 362,
+        "y": 1227,
+        "width": 1196,
+        "height": 2977
+      },
+      "actual": {
+        "id": "product-expanded-description",
+        "landmark": null,
+        "component": null,
+        "x": 362,
+        "y": 1226.75,
+        "width": 1196,
+        "height": 2976,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(17, 17, 17)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": -0.25,
+        "width": 0,
+        "height": -1
+      },
+      "passed": true,
+      "reused": null
+    },
+    {
+      "id": "product-related",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "frameWidth": 1920,
+        "x": 240,
+        "y": 4348,
+        "width": 710,
+        "height": 570
+      },
+      "actual": {
+        "id": "product-related",
+        "landmark": null,
+        "component": null,
+        "x": 240,
+        "y": 4303.75,
+        "width": 710,
+        "height": 570,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(17, 17, 17)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": -44.25,
+        "width": 0,
+        "height": 0
+      },
+      "passed": false,
+      "reused": null
+    },
+    {
+      "id": "product-legal-notices",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "frameWidth": 1920,
+        "x": 240,
+        "y": 4976,
+        "width": 1440,
+        "height": 287
+      },
+      "actual": {
+        "id": "product-legal-notices",
+        "landmark": null,
+        "component": null,
+        "x": 240,
+        "y": 4931.75,
+        "width": 1440,
+        "height": 287,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(17, 17, 17)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": -44.25,
+        "width": 0,
+        "height": 0
+      },
+      "passed": false,
+      "reused": null
+    },
+    {
+      "id": "shared-footer",
+      "owner": "footer",
+      "component": "footer",
+      "expected": {
+        "frameWidth": 1920,
+        "x": 0,
+        "y": 8363,
+        "width": 1920,
+        "height": 636
+      },
+      "actual": {
+        "id": "shared-footer",
+        "landmark": "footer",
+        "component": null,
+        "x": 0,
+        "y": 5358.75,
+        "width": 1920,
+        "height": 636,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": -3004.25,
+        "width": 0,
+        "height": 0
+      },
+      "passed": false
+    }
+  ],
+  "pixels": {
+    "width": 1920,
+    "height": 6031,
+    "differentPixels": 1293823,
+    "ratio": 0.11173373334991434,
+    "ownership": {
+      "header": {
+        "pixels": 369940,
+        "differentPixels": 21865,
+        "ratio": 0.05910417905606315
+      },
+      "footer": {
+        "pixels": 0,
+        "differentPixels": 0,
+        "ratio": 0
+      },
+      "shared": {
+        "pixels": 1215460,
+        "differentPixels": 180500,
+        "ratio": 0.14850344725453737
+      },
+      "page": {
+        "pixels": 8484000,
+        "differentPixels": 754888,
+        "ratio": 0.08897784064120698
+      },
+      "outside": {
+        "pixels": 1474560,
+        "differentPixels": 333905,
+        "ratio": 0.2264438205295139
+      },
+      "reused": {
+        "pixels": 35560,
+        "differentPixels": 2665,
+        "ratio": 0.0749437570303712
+      }
+    },
+    "components": {
+      "header": {
+        "owner": "header",
+        "pixels": 369940,
+        "differentPixels": 21865,
+        "ratio": 0.05910417905606315
+      },
+      "product-gallery": {
+        "owner": "shared",
+        "pixels": 504100,
+        "differentPixels": 87263,
+        "ratio": 0.1731065264828407
+      },
+      "product-tabs": {
+        "owner": "shared",
+        "pixels": 711360,
+        "differentPixels": 93237,
+        "ratio": 0.13106865721997302
+      }
+    },
+    "imageDiagnostics": {
+      "interiorPixels": 0,
+      "interiorDifferentPixels": 0,
+      "otherPixels": 8484000,
+      "otherDifferentPixels": 754888,
+      "note": "Diagnostic only: confirm source asset, crop, geometry and border before accepting interior photo differences. No blanket image exemption."
+    },
+    "meanMaxChannelDelta": 18.785581008539214,
+    "referenceSize": {
+      "width": 1920,
+      "height": 6031
+    },
+    "renderedSize": {
+      "width": 1920,
+      "height": 5996
+    },
+    "crops": [
+      {
+        "id": "shared-topbar",
+        "owner": "header",
+        "component": "header",
+        "reused": null,
+        "pixels": 76800,
+        "differentPixels": 1546,
+        "ratio": 0.020130208333333333,
+        "signature": null
+      },
+      {
+        "id": "shared-secondary-navigation",
+        "owner": "header",
+        "component": "header",
+        "reused": null,
+        "pixels": 60522,
+        "differentPixels": 9132,
+        "ratio": 0.15088728065827303,
+        "signature": null
+      },
+      {
+        "id": "shared-primary-navigation",
+        "owner": "header",
+        "component": "header",
+        "reused": null,
+        "pixels": 113760,
+        "differentPixels": 9367,
+        "ratio": 0.08234001406469761,
+        "signature": null
+      },
+      {
+        "id": "product-breadcrumbs",
+        "owner": "page",
+        "component": null,
+        "reused": {
+          "signature": "afb99a94f81da0b51a47a12a1a501b1e77cc221bf5733d3df361dea7774a2fa6",
+          "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/053-build-product/build-readiness/product/product/comparison.json",
+          "section": "product-breadcrumbs",
+          "evidenceHash": "2dd28ab8b24488769f4a6e9909b028359eb15341d0ff7097bb8f0f84fe3cf49a",
+          "sourceRoute": "product"
+        },
+        "pixels": 35560,
+        "differentPixels": 2665,
+        "ratio": 0.0749437570303712,
+        "signature": "afb99a94f81da0b51a47a12a1a501b1e77cc221bf5733d3df361dea7774a2fa6"
+      },
+      {
+        "id": "product-gallery",
+        "owner": "shared",
+        "component": "product-gallery",
+        "reused": null,
+        "pixels": 504100,
+        "differentPixels": 87263,
+        "ratio": 0.1731065264828407,
+        "signature": "7e1b7e4dd842750c5beea1b191bd0b6ab93ba0119c29f38f4b2339cc48949be5"
+      },
+      {
+        "id": "product-overview",
+        "owner": "page",
+        "component": null,
+        "reused": null,
+        "pixels": 406552,
+        "differentPixels": 71443,
+        "ratio": 0.17572905802947716,
+        "signature": "25ae742265f2d19eb838be646e6050437bef01767769f7deb6ec1f14859aa43b"
+      },
+      {
+        "id": "product-tabs",
+        "owner": "shared",
+        "component": "product-tabs",
+        "reused": null,
+        "pixels": 711360,
+        "differentPixels": 93237,
+        "ratio": 0.13106865721997302,
+        "signature": "1904afd0ca9de36472f75fb778b74d22f8d50db3dc953363cccb5b6a6fcccab7"
+      },
+      {
+        "id": "product-expanded-description",
+        "owner": "page",
+        "component": null,
+        "reused": null,
+        "pixels": 3560492,
+        "differentPixels": 616655,
+        "ratio": 0.17319376086226285,
+        "signature": "ae75021fd8ed68b17930ac894c2ef5150c530d4f15395e3adf0344e10c0efc4c"
+      },
+      {
+        "id": "product-related",
+        "owner": "page",
+        "component": null,
+        "reused": null,
+        "pixels": 404700,
+        "differentPixels": 58667,
+        "ratio": 0.14496417099085743,
+        "signature": "949632e2d5aac410c4c4921e25ce0c851fffe022c6836108d41fb5f87b88a610"
+      },
+      {
+        "id": "product-legal-notices",
+        "owner": "page",
+        "component": null,
+        "reused": null,
+        "pixels": 413280,
+        "differentPixels": 54089,
+        "ratio": 0.13087737127371274,
+        "signature": "20d8c657d2581ff429eddbc5e295fa2905cb515407632b52581dce3d416489ab"
+      },
+      {
+        "id": "shared-footer",
+        "owner": "footer",
+        "component": "footer",
+        "reused": null,
+        "pixels": 1920,
+        "differentPixels": 0,
+        "ratio": 0,
+        "signature": null
+      }
+    ],
+    "worstRows": [
+      {
+        "y": 5996,
+        "count": 1920
+      },
+      {
+        "y": 5997,
+        "count": 1920
+      },
+      {
+        "y": 5998,
+        "count": 1920
+      },
+      {
+        "y": 5999,
+        "count": 1920
+      },
+      {
+        "y": 6000,
+        "count": 1920
+      },
+      {
+        "y": 6001,
+        "count": 1920
+      },
+      {
+        "y": 6002,
+        "count": 1920
+      },
+      {
+        "y": 6003,
+        "count": 1920
+      },
+      {
+        "y": 6004,
+        "count": 1920
+      },
+      {
+        "y": 6005,
+        "count": 1920
+      },
+      {
+        "y": 6006,
+        "count": 1920
+      },
+      {
+        "y": 6007,
+        "count": 1920
+      },
+      {
+        "y": 6008,
+        "count": 1920
+      },
+      {
+        "y": 6009,
+        "count": 1920
+      },
+      {
+        "y": 6010,
+        "count": 1920
+      },
+      {
+        "y": 6011,
+        "count": 1920
+      },
+      {
+        "y": 6012,
+        "count": 1920
+      },
+      {
+        "y": 6013,
+        "count": 1920
+      },
+      {
+        "y": 6014,
+        "count": 1920
+      },
+      {
+        "y": 6015,
+        "count": 1920
+      }
+    ]
+  },
+  "reference": {
+    "path": "references/full/frame-326-2526.png",
+    "width": 1920,
+    "height": 6031,
+    "sha256": "e7a3ca64f767557d01be5e359647d144abe83587794e8c4f00bd466958336170"
+  },
+  "rendered": {
+    "path": ".factory-cache/autopilot/visual-1789244126847/product-expanded/rendered.png",
+    "width": 1920,
+    "height": 5996,
+    "sha256": "dc2eaff134779f00acd046151cb9099e90510e1c4fce6377c493c856330ecffb"
+  },
+  "acceptance": {
+    "threshold": 0.085,
+    "pagePassed": false,
+    "sharedPassed": null,
+    "pageErrors": [
+      "page pixel mismatch 8.898%",
+      "Section geometry differs: product-related",
+      "Section geometry differs: product-legal-notices"
+    ],
+    "sharedErrors": [
+      "shared pixel mismatch 14.850%",
+      "Shared component pixel mismatch product-gallery: 17.311%",
+      "Shared component pixel mismatch product-tabs: 13.107%",
+      "Section geometry differs: product-tabs"
+    ],
+    "skippedOwners": [
+      "header",
+      "footer"
+    ],
+    "note": "Page build readiness can defer shared visual issues. Final acceptance requires both plus independent visual audit. Section ratios remain diagnostics."
+  },
+  "chromeReview": {
+    "skippedOwners": [
+      "header",
+      "footer"
+    ],
+    "reason": "Deferred to representative final shared audit"
+  },
+  "progress": {
+    "deferred": false,
+    "samples": [
+      {
+        "file": "current capture",
+        "implementationHash": "12b893366a0d61f7835ff6a36910c6de5308ac07fe734608e7991a34ab9444a3",
+        "capturedAt": "2026-09-12T20:15:29.415Z",
+        "ratio": 0.08897784064120698
+      },
+      {
+        "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789243946945\\summary.json",
+        "implementationHash": "bd4833af8d9b18fb93fdb837284a3a72d04e886784975eba8d69aa104ba0e3aa",
+        "capturedAt": "2026-09-12T20:12:29.548Z",
+        "ratio": 0.13137234794908062
+      },
+      {
+        "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789243517093\\summary.json",
+        "implementationHash": "1ffca29ed1319f074f13a23fcd8d201c9272dfa3d461bcdc2d37e3f85f9a7c4e",
+        "capturedAt": "2026-09-12T20:05:19.686Z",
+        "ratio": 0.08853253182461103
+      }
+    ],
+    "improvement": 0.04283981612446959,
+    "policy": {
+      "samples": 3,
+      "maxPageMismatch": 0.13,
+      "minImprovement": 0.03
+    },
+    "nonPixelErrors": [
+      "Section geometry differs: product-related",
+      "Section geometry differs: product-legal-notices"
+    ],
+    "reason": "Insufficient measured progress across distinct implementations; unresolved visual work belongs to final audit, not PASS."
+  }
+}

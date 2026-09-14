@@ -1,0 +1,110 @@
+{
+  "id": "ba25edbc7a1352242743",
+  "tool": "use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "222:60",
+    "12:2"
+  ],
+  "description": "Capture footer legal notice source text and line as actual sibling nodes",
+  "recordedAt": "2026-09-11T00:51:51.799Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "id": "222:60",
+      "name": "Kupujący musi być pełnoletni oraz posiadać ważne kwalifikacje wymagane od osób nabywających środki ochrony roślin określone w art. 28 Ustawy z dnia 08.03.2013r. o środkach ochrony roślin (Dz.U.z 2024 poz.630 z późn.zm.).",
+      "frame": "12:2",
+      "total": 1,
+      "nodes": [
+        {
+          "id": "222:60",
+          "name": "Kupujący musi być pełnoletni oraz posiadać ważne kwalifikacje wymagane od osób nabywających środki ochrony roślin określone w art. 28 Ustawy z dnia 08.03.2013r. o środkach ochrony roślin (Dz.U.z 2024 poz.630 z późn.zm.).",
+          "type": "TEXT",
+          "parentId": "12:2",
+          "bounds": {
+            "x": 240,
+            "y": 8829,
+            "width": 1440,
+            "height": 88
+          },
+          "style": 0,
+          "characters": "Kupujący musi być pełnoletni oraz posiadać ważne kwalifikacje wymagane od osób nabywających środki ochrony roślin określone w art. 28 Ustawy z dnia 08.03.2013r. o środkach ochrony roślin (Dz.U.z 2024 poz.630 z późn.zm.).",
+          "align": [
+            "LEFT",
+            "CENTER"
+          ],
+          "segments": [
+            {
+              "characters": "Kupujący musi być pełnoletni oraz posiadać ważne kwalifikacje wymagane od osób nabywających środki ochrony roślin określone w art. 28 Ustawy z dnia 08.03.2013r. o środkach ochrony roślin (Dz.U.z 2024 poz.630 z późn.zm.).",
+              "start": 0,
+              "end": 220,
+              "style": 1
+            }
+          ]
+        }
+      ],
+      "styles": [
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "OUTSIDE",
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "fontSize": 16,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 700,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        }
+      ]
+    }
+  ]
+}

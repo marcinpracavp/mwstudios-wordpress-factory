@@ -1,0 +1,355 @@
+{
+  "id": "037eef4160bdd1f1a0dc",
+  "tool": "figma.use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "347:1120"
+  ],
+  "description": "Check actual catalogue link evidence and geometry without changing the design",
+  "recordedAt": "2026-09-10T19:30:16.868Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "links": [
+        {
+          "id": "349:1253",
+          "text": "Pobierz katalog rolniczy\nw formacie PDF",
+          "hyperlink": null,
+          "reactions": [],
+          "segments": [
+            {
+              "characters": "Pobierz katalog rolniczy\nw formacie PDF",
+              "start": 0,
+              "end": 39,
+              "hyperlink": null
+            }
+          ]
+        },
+        {
+          "id": "349:1255",
+          "text": "Pobierz katalog rolniczy\nw formacie PDF",
+          "hyperlink": null,
+          "reactions": [],
+          "segments": [
+            {
+              "characters": "Pobierz katalog rolniczy\nw formacie PDF",
+              "start": 0,
+              "end": 39,
+              "hyperlink": null
+            }
+          ]
+        },
+        {
+          "id": "431:933",
+          "text": "Czytaj online",
+          "hyperlink": null,
+          "reactions": [],
+          "segments": [
+            {
+              "characters": "Czytaj online",
+              "start": 0,
+              "end": 13,
+              "hyperlink": null
+            }
+          ]
+        },
+        {
+          "id": "431:938",
+          "text": "Czytaj online",
+          "hyperlink": null,
+          "reactions": [],
+          "segments": [
+            {
+              "characters": "Czytaj online",
+              "start": 0,
+              "end": 13,
+              "hyperlink": null
+            }
+          ]
+        }
+      ],
+      "backgrounds": [
+        {
+          "id": "347:1236",
+          "x": 240,
+          "y": 503,
+          "box": {
+            "x": 15924,
+            "y": -177,
+            "width": 710,
+            "height": 320
+          },
+          "transform": [
+            [
+              1,
+              0,
+              240
+            ],
+            [
+              0,
+              1,
+              503
+            ]
+          ],
+          "fills": [
+            {
+              "type": "IMAGE",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "scaleMode": "FILL",
+              "scalingFactor": 0.5,
+              "rotation": 0,
+              "filters": {
+                "exposure": 0,
+                "contrast": 0,
+                "saturation": 0,
+                "temperature": 0,
+                "tint": 0,
+                "highlights": 0,
+                "shadows": 0
+              },
+              "imageTransform": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ]
+              ],
+              "imageHash": "cce7c19ba2c7d9b8dbba408779fbfbff599c5360"
+            },
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.8500000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0.4000000059604645,
+                "b": 0.20000000298023224
+              },
+              "boundVariables": {}
+            },
+            {
+              "type": "GRADIENT_LINEAR",
+              "visible": true,
+              "opacity": 0.800000011920929,
+              "blendMode": "NORMAL",
+              "gradientStops": [
+                {
+                  "color": {
+                    "r": 0,
+                    "g": 0.4000000059604645,
+                    "b": 0.20000000298023224,
+                    "a": 0
+                  },
+                  "position": 0,
+                  "boundVariables": {}
+                },
+                {
+                  "color": {
+                    "r": 0,
+                    "g": 0.4000000059604645,
+                    "b": 0.20000000298023224,
+                    "a": 1
+                  },
+                  "position": 1,
+                  "boundVariables": {}
+                }
+              ],
+              "gradientTransform": [
+                [
+                  1,
+                  6.395458385100028e-9,
+                  -3.49241391361943e-9
+                ],
+                [
+                  4.955750305597577e-18,
+                  0.2570918798446655,
+                  0.359607994556427
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "347:1237",
+          "x": 970,
+          "y": 503,
+          "box": {
+            "x": 16654,
+            "y": -177,
+            "width": 714,
+            "height": 320
+          },
+          "transform": [
+            [
+              1,
+              0,
+              970
+            ],
+            [
+              0,
+              1,
+              503
+            ]
+          ],
+          "fills": [
+            {
+              "type": "IMAGE",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "DARKEN",
+              "scaleMode": "CROP",
+              "scalingFactor": 0.5,
+              "filters": {
+                "exposure": 0,
+                "contrast": 0,
+                "saturation": 0,
+                "temperature": 0,
+                "tint": 0,
+                "highlights": 0,
+                "shadows": 0
+              },
+              "imageTransform": [
+                [
+                  0.7727273106575012,
+                  0,
+                  0.011904762126505375
+                ],
+                [
+                  0,
+                  0.7142857313156128,
+                  0.1488095074892044
+                ]
+              ],
+              "imageHash": "4c4ca2eaf0ec7c6c01dc063c87b881d780d12ac2"
+            },
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.8500000238418579,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9215686321258545,
+                "g": 0.40784314274787903,
+                "b": 0.20392157137393951
+              },
+              "boundVariables": {}
+            },
+            {
+              "type": "GRADIENT_LINEAR",
+              "visible": true,
+              "opacity": 0.800000011920929,
+              "blendMode": "NORMAL",
+              "gradientStops": [
+                {
+                  "color": {
+                    "r": 0.9215686321258545,
+                    "g": 0.40784314274787903,
+                    "b": 0.20392157137393951,
+                    "a": 1
+                  },
+                  "position": 0,
+                  "boundVariables": {}
+                },
+                {
+                  "color": {
+                    "r": 0.9215686321258545,
+                    "g": 0.40784314274787903,
+                    "b": 0.20392157137393951,
+                    "a": 0
+                  },
+                  "position": 1,
+                  "boundVariables": {}
+                }
+              ],
+              "gradientTransform": [
+                [
+                  -1.0070521831512451,
+                  1.2715808961338837e-10,
+                  1.0070521831512451
+                ],
+                [
+                  -9.015160916551671e-17,
+                  -0.25601211190223694,
+                  0.6884534358978271
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "611:320",
+          "x": 40,
+          "y": 1196,
+          "box": {
+            "x": 15724,
+            "y": 286,
+            "width": 1840,
+            "height": 230
+          },
+          "transform": [
+            [
+              1,
+              3.469446951953614e-18,
+              40
+            ],
+            [
+              3.469446951953614e-18,
+              -1,
+              1196
+            ]
+          ],
+          "fills": [
+            {
+              "type": "GRADIENT_LINEAR",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "gradientStops": [
+                {
+                  "color": {
+                    "r": 0.5764706134796143,
+                    "g": 0.7529411911964417,
+                    "b": 0.12156862765550613,
+                    "a": 1
+                  },
+                  "position": 0,
+                  "boundVariables": {}
+                },
+                {
+                  "color": {
+                    "r": 0,
+                    "g": 0.4000000059604645,
+                    "b": 0.20000000298023224,
+                    "a": 1
+                  },
+                  "position": 0.571529746055603,
+                  "boundVariables": {}
+                }
+              ],
+              "gradientTransform": [
+                [
+                  -0.9797542691230774,
+                  -0.02024570293724537,
+                  1
+                ],
+                [
+                  0.9797542691230774,
+                  -0.9797542691230774,
+                  0.5
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

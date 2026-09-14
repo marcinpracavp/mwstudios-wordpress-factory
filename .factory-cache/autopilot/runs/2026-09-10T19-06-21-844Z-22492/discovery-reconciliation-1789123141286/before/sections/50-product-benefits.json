@@ -1,0 +1,24 @@
+{
+  "id": "product-benefits",
+  "name": "korzyści produktu",
+  "order": 50,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "548:150"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 970,
+    "y": 842,
+    "width": 479,
+    "height": 128
+  },
+  "layout": {
+    "type": "benefit-list",
+    "alignment": "vertical"
+  },
+  "typography": [],
+  "assets": [],
+  "notes": [],
+  "liveFigmaRequired": false
+}

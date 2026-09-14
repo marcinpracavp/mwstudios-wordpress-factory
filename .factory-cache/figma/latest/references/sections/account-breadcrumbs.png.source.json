@@ -1,0 +1,17 @@
+{
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "pageId": "0:1",
+  "nodeId": "524:2",
+  "path": "references/sections/account-breadcrumbs.png",
+  "crop": {
+    "x": 240,
+    "y": 189,
+    "width": 508,
+    "height": 70
+  },
+  "sourceReference": "references/full/frame-524-2.png",
+  "scale": 1,
+  "transport": "unscaled-1x-crop",
+  "capturedAt": "2026-09-11T10:32:48.890Z",
+  "sha256": "cdc3a9c054112cd55ea3d138af2028a1bd67bf902279f0b204b38e0df04b8090"
+}

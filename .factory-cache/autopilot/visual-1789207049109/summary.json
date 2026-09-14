@@ -1,0 +1,52 @@
+{
+  "capturedAt": "2026-09-12T09:57:42.839Z",
+  "implementationHash": "3f9bd392deb6cdd6df6bab7b1a79dc0335df7c9487b5b8aa74376962337ce461",
+  "sourceHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+  "thresholds": {
+    "channelTolerance": 24,
+    "maxDifferentPixelRatio": 0.085,
+    "geometryTolerancePx": 2
+  },
+  "acceptanceScope": "page",
+  "buildReady": false,
+  "deferred": [],
+  "passed": false,
+  "pagePassed": false,
+  "routes": [
+    {
+      "id": "contact",
+      "passed": false,
+      "pagePassed": false,
+      "ownership": {
+        "header": {
+          "pixels": 372480,
+          "differentPixels": 21868,
+          "ratio": 0.05870919243986254
+        },
+        "footer": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "shared": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "page": {
+          "pixels": 4646400,
+          "differentPixels": 4318952,
+          "ratio": 0.9295265151515152
+        }
+      },
+      "errors": [
+        "page pixel mismatch 92.953%",
+        "Section geometry differs: contact-heading",
+        "Section geometry differs: contact-details",
+        "Section geometry differs: contact-form",
+        "Section geometry differs: contact-map"
+      ],
+      "comparison": ".factory-cache/autopilot/visual-1789207049109/contact/comparison.json"
+    }
+  ]
+}

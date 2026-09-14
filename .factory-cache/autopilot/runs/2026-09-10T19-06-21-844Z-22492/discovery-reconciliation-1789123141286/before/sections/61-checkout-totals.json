@@ -1,0 +1,159 @@
+{
+  "id": "checkout-totals",
+  "name": "koszyk",
+  "order": 61,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "509:203"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 1213,
+    "y": 364,
+    "width": 467,
+    "height": 473,
+    "containerWidth": 1440
+  },
+  "layout": {
+    "type": "native-commerce-order-totals",
+    "designContextRead": true,
+    "alignment": "right",
+    "controls": {
+      "couponInput": {
+        "width": 238,
+        "height": 43,
+        "border": "#c8c8c8",
+        "borderRadius": 15
+      },
+      "couponButton": {
+        "width": 151,
+        "height": 44
+      },
+      "submitButton": {
+        "width": 224,
+        "height": 44,
+        "borderRadius": 30,
+        "fill": "#056839"
+      },
+      "dividerWidth": 395
+    }
+  },
+  "typography": [
+    {
+      "nodeIds": [
+        "509:210",
+        "509:211"
+      ],
+      "fontFamily": "DM Sans",
+      "fontWeight": 700,
+      "fontSize": 24,
+      "color": "#070707"
+    },
+    {
+      "nodeId": "509:209",
+      "fontFamily": "DM Sans",
+      "fontWeight": 400,
+      "fontSize": 14,
+      "color": "#c8c8c8"
+    },
+    {
+      "nodeIds": [
+        "509:207",
+        "509:217"
+      ],
+      "fontFamily": "DM Sans",
+      "fontWeight": 700,
+      "fontSize": 16,
+      "color": "#ffffff",
+      "alignment": "center"
+    },
+    {
+      "nodeIds": [
+        "509:212",
+        "509:213",
+        "509:214"
+      ],
+      "fontFamily": "DM Sans",
+      "fontWeight": 700,
+      "fontSize": 18,
+      "color": "#070707"
+    },
+    {
+      "nodeId": "509:215",
+      "fontFamily": "DM Sans",
+      "fontWeight": 700,
+      "fontSize": 32,
+      "color": "#070707",
+      "alignment": "right"
+    }
+  ],
+  "assets": [
+    {
+      "sourceNodeId": "509:204",
+      "path": "assets/checkout/checkout-totals-card.svg",
+      "usage": "totals-card-background"
+    },
+    {
+      "sourceNodeId": "509:205",
+      "path": "assets/checkout/checkout-totals-divider.svg",
+      "usage": "totals-divider"
+    },
+    {
+      "sourceNodeId": "509:206",
+      "path": "assets/checkout/checkout-coupon-button.svg",
+      "usage": "coupon-submit-background"
+    }
+  ],
+  "contentFields": [
+    {
+      "id": "509:211",
+      "text": "Masz kod rabatowy?",
+      "link": null
+    },
+    {
+      "id": "509:209",
+      "text": "Wpisz kod",
+      "link": null
+    },
+    {
+      "id": "509:207",
+      "text": "Dodaj kod",
+      "link": null
+    },
+    {
+      "id": "509:210",
+      "text": "Podsumowanie",
+      "link": null
+    },
+    {
+      "id": "509:212",
+      "text": "Produkty\n\nWysyłka\n\nRabat\nDodano kod BLACKFRIDAY",
+      "link": null
+    },
+    {
+      "id": "509:213",
+      "text": "411,00 zł\n\n22,90 zł\n\n50 zł",
+      "link": null
+    },
+    {
+      "id": "509:214",
+      "text": "Do zapłaty",
+      "link": null
+    },
+    {
+      "id": "509:215",
+      "text": "383,90 zł",
+      "link": null
+    },
+    {
+      "id": "509:217",
+      "text": "Realizuj zamówienie",
+      "link": null
+    }
+  ],
+  "notes": [
+    "All displayed figures and the BLACKFRIDAY code are exact design-state data, not product/order fixtures. Native WooCommerce totals and coupons must provide live values.",
+    "The source action label is captured without a destination URL; submitting an order is not part of discovery."
+  ],
+  "liveFigmaRequired": false
+}

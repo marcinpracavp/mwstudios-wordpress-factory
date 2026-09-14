@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "stage": "discovery",
+  "group": "contact",
+  "routes": [
+    {
+      "id": "contact",
+      "frameNodeId": "335:591"
+    }
+  ],
+  "sectionCount": 8,
+  "contentRecordCount": 40,
+  "relevantObservationCount": 13,
+  "sourceFiles": [
+    {
+      "path": ".factory-cache/figma/latest/manifest.json",
+      "bytes": 255609,
+      "sha256": "870a39707855df4d1ae93531b6258eae402616f13ff0e7fb6d1e46722094edd9"
+    },
+    {
+      "path": ".factory-cache/figma/latest/content-map.json",
+      "bytes": 328025,
+      "sha256": "c30b487135b5170d25605d31dfa6ca5c71835e4cf35eae06bd100d0fb3bc0997"
+    },
+    {
+      "path": ".factory-cache/figma/latest/observations/index.json",
+      "bytes": 27191,
+      "sha256": "689c53224e8304b522871edbf1bd15e0b549248f4ef251e7ce5ca26955a2ad14"
+    }
+  ],
+  "scope": {
+    "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/013-discovery-detail-contact/source-context/scope.json",
+    "bytes": 9289,
+    "sha256": "d659bc3793697b3a9e95089775b39f794be008b6265841172985e58aa23c56d3"
+  },
+  "read": "node scripts/factory/autopilot/source-context.js inspect .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/013-discovery-detail-contact/source-context/scope.json /sections",
+  "rule": "Read this index first, then one section record and source snapshot at a time. Do not print full manifest/content-map/observation index. All source bytes remain on disk."
+}

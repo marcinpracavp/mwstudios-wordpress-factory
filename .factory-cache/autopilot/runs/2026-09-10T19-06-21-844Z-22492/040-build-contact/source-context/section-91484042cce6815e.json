@@ -1,0 +1,92 @@
+{
+  "id": "shared-topbar",
+  "manifestRecord": {
+    "id": "shared-topbar",
+    "name": "topbar",
+    "order": 14,
+    "pageId": "0:1",
+    "snapshot": "sections/14-shared-topbar.json",
+    "desktopNodeId": "112:7",
+    "desktopReference": "references/sections/shared-topbar.png"
+  },
+  "contentFields": [
+    {
+      "section": "shared-topbar",
+      "nodeId": "93:26",
+      "fieldName": "rudnikagro_topbar_promotion",
+      "type": "text",
+      "language": "pl",
+      "value": "-30% z kodem BLACK",
+      "destination": "ACF options / topbar tab / promotion text",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "93:26"
+      }
+    },
+    {
+      "section": "shared-topbar",
+      "nodeId": "169:282",
+      "fieldName": "rudnikagro_shared_topbar_media_169_282",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/169-282-source.svg",
+      "destination": "ACF options / topbar tab / promotion text / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "169:282"
+      }
+    },
+    {
+      "section": "shared-topbar",
+      "nodeId": "169:287",
+      "fieldName": "rudnikagro_shared_topbar_media_169_287",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/169-287-source.svg",
+      "destination": "ACF options / topbar tab / promotion text / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "169:287"
+      }
+    },
+    {
+      "section": "shared-topbar",
+      "nodeId": "169:284",
+      "fieldName": "rudnikagro_shared_topbar_media_169_284",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/169-284-source.svg",
+      "destination": "ACF options / topbar tab / promotion text / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "169:284"
+      }
+    },
+    {
+      "section": "shared-topbar",
+      "nodeId": "169:288",
+      "fieldName": "rudnikagro_shared_topbar_media_169_288",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/169-288-source.svg",
+      "destination": "ACF options / topbar tab / promotion text / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "169:288"
+      }
+    },
+    {
+      "section": "shared-topbar",
+      "nodeId": "169:289",
+      "fieldName": "rudnikagro_shared_topbar_media_169_289",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/169-289-source.svg",
+      "destination": "ACF options / topbar tab / promotion text / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "169:289"
+      }
+    }
+  ]
+}

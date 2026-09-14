@@ -1,0 +1,6 @@
+AUTOPILOT PAUSED: AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/002-discovery-snapshot; {"message":"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at Sep 11th, 2026 1:41 AM."}
+2026-09-10T19:08:56.390552Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+2026-09-10T19:09:00.315511Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh
+2026-09-10T19:13:29.204879Z ERROR codex_core::tools::router: error=unable to read image at `C:\Users\HP\Local Sites\autopilot\app\public\wp-content\themes\slawinsky-boilerplate\.factory-cache\figma\latest\references\full\home.png`: fs/readFile returned invalid base64 dataBase64: Invalid symbol 61, offset 5303512.
+
+Report: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/REPORT.md

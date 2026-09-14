@@ -1,0 +1,105 @@
+{
+  "id": "home-catalogues",
+  "manifestRecord": {
+    "id": "home-catalogues",
+    "name": "katalogi",
+    "order": 21,
+    "pageId": "0:1",
+    "snapshot": "sections/21-home-catalogues.json",
+    "desktopNodeId": "140:261",
+    "desktopReference": "references/sections/home-catalogues.png"
+  },
+  "contentFields": [
+    {
+      "section": "home-catalogues",
+      "nodeId": "153:72",
+      "fieldName": "rudnikagro_home_catalogues_153_72",
+      "type": "text",
+      "language": "pl",
+      "value": "Katalog rolniczy 2026",
+      "destination": "ACF front page / catalogues tab / catalogue title, cover, background, PDF label, file and online label, URL rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "153:72"
+      }
+    },
+    {
+      "section": "home-catalogues",
+      "nodeId": "153:74",
+      "fieldName": "rudnikagro_home_catalogues_153_74",
+      "type": "text",
+      "language": "pl",
+      "value": "Katalog sadowniczy 2026",
+      "destination": "ACF front page / catalogues tab / catalogue title, cover, background, PDF label, file and online label, URL rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "153:74"
+      }
+    },
+    {
+      "section": "home-catalogues",
+      "nodeId": "140:165",
+      "fieldName": "rudnikagro_home_catalogues_140_165",
+      "type": "text",
+      "language": "pl",
+      "value": "Pobierz katalog Rudnikagro 2026",
+      "destination": "ACF front page / catalogues tab / catalogue title, cover, background, PDF label, file and online label, URL rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:165"
+      }
+    },
+    {
+      "section": "home-catalogues",
+      "nodeId": "116:57",
+      "fieldName": "rudnikagro_home_catalogues_media_116_57",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/116-57-rectangle24.png",
+      "destination": "ACF front page / catalogues tab / catalogue title, cover, background, PDF label, file and online label, URL rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "116:57"
+      }
+    },
+    {
+      "section": "home-catalogues",
+      "nodeId": "138:164",
+      "fieldName": "rudnikagro_home_catalogues_media_138_164",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/138-164-katalogi1.png",
+      "destination": "ACF front page / catalogues tab / catalogue title, cover, background, PDF label, file and online label, URL rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "138:164"
+      }
+    },
+    {
+      "section": "home-catalogues",
+      "nodeId": "169:297",
+      "fieldName": "rudnikagro_home_catalogues_media_169_297",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/169-297-download.svg",
+      "destination": "ACF front page / catalogues tab / catalogue title, cover, background, PDF label, file and online label, URL rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "169:297"
+      }
+    },
+    {
+      "section": "home-catalogues",
+      "nodeId": "169:296",
+      "fieldName": "rudnikagro_home_catalogues_media_169_296",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/169-296-download1.svg",
+      "destination": "ACF front page / catalogues tab / catalogue title, cover, background, PDF label, file and online label, URL rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "169:296"
+      }
+    }
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "source": {
+    "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+    "figmaUrl": "https://www.figma.com/design/OwiDXrKMVcaHKB9ryYF6mY/Rudnik-Agro?m=dev"
+  },
+  "status": "complete",
+  "routes": [
+    {
+      "id": "careers",
+      "path": "/kariera/",
+      "language": "pl",
+      "frameNodeId": "349:1267",
+      "reference": "references/full/frame-349-1267.png",
+      "width": 1920,
+      "height": 3802,
+      "sections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "shared-primary-navigation",
+        "careers-heading",
+        "careers-vacancies",
+        "careers-application",
+        "shared-shop-cta",
+        "shared-footer"
+      ],
+      "buildGroup": "careers",
+      "responsiveSource": "derived",
+      "notes": "Source frame titled kariera contains an expanded job offer, five collapsed offers and an application form. Planned local route path is an implementation decision inferred from source page identity, not a captured source hyperlink. Uncaptured section IDs remain explicit in this partial execution plan.",
+      "sectionGeometry": {
+        "shared-primary-navigation": {
+          "x": 240,
+          "y": 115,
+          "width": 1440,
+          "height": 78.6761245727539
+        },
+        "shared-topbar": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 40
+        },
+        "shared-secondary-navigation": {
+          "x": 237.001953125,
+          "y": 56,
+          "width": 1442.8232421875,
+          "height": 42
+        },
+        "careers-heading": {
+          "x": 240,
+          "y": 218,
+          "width": 1440,
+          "height": 220
+        },
+        "careers-vacancies": {
+          "x": 362,
+          "y": 486,
+          "width": 1196,
+          "height": 2290
+        },
+        "careers-application": {
+          "x": 463,
+          "y": 1695,
+          "width": 994,
+          "height": 346
+        },
+        "shared-shop-cta": {
+          "x": 36,
+          "y": 2919,
+          "width": 1840,
+          "height": 230
+        },
+        "shared-footer": {
+          "x": 0,
+          "y": 3188,
+          "width": 1920,
+          "height": 614
+        }
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "shared-topbar",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/14-shared-topbar.json",
+      "contentRecords": 6,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/030-build-careers/source-context/section-91484042cce6815e.json",
+        "bytes": 2751,
+        "sha256": "d2f9e73eba0b32222284737dc8ee1f1a8f58ab2b85545831f54fdbf1256eaa5f"
+      }
+    },
+    {
+      "id": "shared-secondary-navigation",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/15-shared-secondary-navigation.json",
+      "contentRecords": 13,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/030-build-careers/source-context/section-f64d32808e6ea46d.json",
+        "bytes": 6535,
+        "sha256": "860eb7d970c300c199119e8ae18a3514e8705ab2557992a3d2f573846dc447d7"
+      }
+    },
+    {
+      "id": "shared-primary-navigation",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/01-shared-primary-navigation.json",
+      "contentRecords": 5,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/030-build-careers/source-context/section-8de8ed9bbbe57bf3.json",
+        "bytes": 2587,
+        "sha256": "46046e4e7b17b0533fe94b9f43b28de71033d1948b0984c7c137a33d206cc098"
+      }
+    },
+    {
+      "id": "careers-heading",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/30-careers-heading.json",
+      "contentRecords": 3,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/030-build-careers/source-context/section-4b34ddf15baac992.json",
+        "bytes": 1463,
+        "sha256": "13e8e3c02de24dbd614a2169f6500d92e219d98a21dbdbdf18b8983b2affd761"
+      }
+    },
+    {
+      "id": "careers-vacancies",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/31-careers-vacancies.json",
+      "contentRecords": 7,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/030-build-careers/source-context/section-a3a9391568cd0a49.json",
+        "bytes": 5800,
+        "sha256": "c6800cbf12f721227874e8fd5a685bd96fcd32cc50ec1c4bb4f38cab351950c1"
+      }
+    },
+    {
+      "id": "careers-application",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/32-careers-application.json",
+      "contentRecords": 7,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/030-build-careers/source-context/section-125c6e774e5df42c.json",
+        "bytes": 3459,
+        "sha256": "a08cac6c1eacefa84aaf19bcac71055e4ad34f61dddbb5218b572394801ed902"
+      }
+    },
+    {
+      "id": "shared-shop-cta",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/33-shared-shop-cta.json",
+      "contentRecords": 2,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/030-build-careers/source-context/section-b8c63381d0b0c21d.json",
+        "bytes": 1097,
+        "sha256": "4e5356abcaf8883d7942fef11adc0d96be7a3a41297a9f7825d454e536fd018e"
+      }
+    },
+    {
+      "id": "shared-footer",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/26-shared-footer.json",
+      "contentRecords": 16,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/030-build-careers/source-context/section-61ba1faa466eb680.json",
+        "bytes": 7941,
+        "sha256": "17696d0bef8eb6c6512ee31448fe8b70d275e5fe6f11dd775cdc28ca68afc9af"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "id": "8975223ee92b8ebed956",
+      "nodeIds": [
+        "349:1267"
+      ],
+      "description": "Read compact composition for kariera 349:1267",
+      "path": "observations/8975223ee92b8ebed956.json"
+    },
+    {
+      "id": "bca19728fa2d41218adf",
+      "nodeIds": [
+        "349:1267"
+      ],
+      "description": "Capture exact frame-relative bounds and ungrouped source text kariera",
+      "path": "observations/bca19728fa2d41218adf.json"
+    },
+    {
+      "id": "ba86239566720ac727d2",
+      "nodeIds": [
+        "140:262",
+        "12:2"
+      ],
+      "description": "Capture shared primary navigation geometry and text styles",
+      "path": "observations/ba86239566720ac727d2.json"
+    },
+    {
+      "id": "93994dfaa5c6b60a4b37",
+      "nodeIds": [
+        "112:7",
+        "12:2"
+      ],
+      "description": "Read exact topbar bounds, styled text and icon geometry without changing source",
+      "path": "observations/93994dfaa5c6b60a4b37.json"
+    },
+    {
+      "id": "76dbf979f194f7f139e5",
+      "nodeIds": [
+        "112:7",
+        "12:2"
+      ],
+      "description": "Capture topbar source data for immediate persistence",
+      "path": "observations/76dbf979f194f7f139e5.json"
+    },
+    {
+      "id": "detail-shared-topbar",
+      "nodeIds": [
+        "112:7"
+      ],
+      "description": "Exact source section capture",
+      "path": "observations/detail-shared-topbar.json"
+    },
+    {
+      "id": "e85f04bc857cc3e8c516",
+      "nodeIds": [
+        "140:260",
+        "12:2"
+      ],
+      "description": "Capture exact secondary navigation section",
+      "path": "observations/e85f04bc857cc3e8c516.json"
+    },
+    {
+      "id": "detail-shared-secondary-navigation",
+      "nodeIds": [
+        "140:260"
+      ],
+      "description": "Exact source section capture",
+      "path": "observations/detail-shared-secondary-navigation.json"
+    },
+    {
+      "id": "1f35a8b8aca7f971542c",
+      "nodeIds": [
+        "140:262",
+        "12:2"
+      ],
+      "description": "Capture default primary navigation with deduplicated styles to avoid truncation",
+      "path": "observations/1f35a8b8aca7f971542c.json"
+    },
+    {
+      "id": "detail-shared-primary-navigation",
+      "nodeIds": [
+        "140:262"
+      ],
+      "description": "Exact source section capture",
+      "path": "observations/detail-shared-primary-navigation.json"
+    },
+    {
+      "id": "053b78308ad646a28ad7",
+      "nodeIds": [
+        "222:62",
+        "12:2"
+      ],
+      "description": "Capture exact shared-footer section source",
+      "path": "observations/053b78308ad646a28ad7.json"
+    },
+    {
+      "id": "7891ec52f6816ff9beb4",
+      "nodeIds": [
+        "222:62",
+        "12:2"
+      ],
+      "description": "Capture exact shared-footer section source nodes 25",
+      "path": "observations/7891ec52f6816ff9beb4.json"
+    },
+    {
+      "id": "detail-shared-footer",
+      "nodeIds": [
+        "222:62"
+      ],
+      "description": "Exact source section capture",
+      "path": "observations/detail-shared-footer.json"
+    }
+  ],
+  "frames": [
+    {
+      "nodeId": "349:1267",
+      "name": "kariera",
+      "pageId": "0:1",
+      "type": "FRAME",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "140:262",
+      "name": "mega menu",
+      "pageId": "0:1",
+      "type": "GROUP"
+    },
+    {
+      "nodeId": "112:7",
+      "name": "topbar",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "140:260",
+      "name": "secondary menu",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "222:62",
+      "name": "stopka",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "349:1377",
+      "name": "Rectangle 111",
+      "type": "RECTANGLE",
+      "pageId": "0:1"
+    },
+    {
+      "nodeId": "355:1423",
+      "name": "oferta1",
+      "type": "GROUP",
+      "pageId": "0:1"
+    },
+    {
+      "nodeId": "548:24",
+      "name": "przerywnik",
+      "type": "GROUP",
+      "pageId": "0:1"
+    }
+  ],
+  "globalFiles": [
+    {
+      "path": ".factory-cache/figma/latest/design-system.json",
+      "bytes": 8294,
+      "sha256": "5086e8f74a4d3aee56055467846c3f49e9f2791c2a30a873ea30c5a5a87b3863"
+    },
+    {
+      "path": ".factory-cache/figma/latest/components.json",
+      "bytes": 261,
+      "sha256": "fb651cb0bc38b89b71ffa0e6a8b92ec6acbe3bdff6ab7d30ea9c2e39ed12fec5"
+    }
+  ],
+  "lookup": "Observation matches are an index, not a completeness claim. Use targeted rg or inspect JSON pointers for missing node IDs. Never dump the full source files."
+}

@@ -1,0 +1,298 @@
+{
+  "ledger": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/ledger.json",
+  "key": "58751f426784b007e333",
+  "unit": "shared-components",
+  "routes": [
+    "careers",
+    "catalogues",
+    "blog-archive",
+    "contact",
+    "about",
+    "product",
+    "checkout",
+    "product-bundle",
+    "product-expanded",
+    "product-inquiry",
+    "checkout-login",
+    "checkout-registration",
+    "home-active"
+  ],
+  "pending": [
+    {
+      "id": "shared:3a66fea7b33f3800",
+      "kind": "visual",
+      "section": "shared-topbar",
+      "route": "careers",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/comparison.json",
+      "owner": "header"
+    },
+    {
+      "id": "shared:82fd540877f76ce8",
+      "kind": "visual",
+      "section": "shared-secondary-navigation",
+      "route": "careers",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/comparison.json",
+      "owner": "header"
+    },
+    {
+      "id": "shared:25483810be2bd408",
+      "kind": "visual",
+      "section": "shared-primary-navigation",
+      "route": "careers",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/comparison.json",
+      "owner": "header"
+    },
+    {
+      "id": "shared:59e248cb484e9b4e",
+      "kind": "visual",
+      "section": "careers-heading",
+      "route": "careers",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/comparison.json",
+      "owner": "shared"
+    },
+    {
+      "id": "shared:79facc6f461b4b66",
+      "kind": "visual",
+      "section": "shared-shop-cta",
+      "route": "careers",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/comparison.json",
+      "owner": "shared"
+    },
+    {
+      "id": "shared:1c7d6451600b1169",
+      "kind": "visual",
+      "section": "shared-footer",
+      "route": "careers",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/comparison.json",
+      "owner": "footer"
+    },
+    {
+      "id": "shared:98f8fa0cf14b0316",
+      "kind": "visual",
+      "section": "shared-topbar",
+      "route": "catalogues",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/catalogues/comparison.json",
+      "owner": "header"
+    },
+    {
+      "id": "shared:4721d153bc67693e",
+      "kind": "visual",
+      "section": "shared-secondary-navigation",
+      "route": "catalogues",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/catalogues/comparison.json",
+      "owner": "header"
+    },
+    {
+      "id": "shared:850490aa9fa9af13",
+      "kind": "visual",
+      "section": "shared-primary-navigation",
+      "route": "catalogues",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/catalogues/comparison.json",
+      "owner": "header"
+    },
+    {
+      "id": "shared:f9a0bb1d90d41c63",
+      "kind": "visual",
+      "section": "catalogues-heading",
+      "route": "catalogues",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/catalogues/comparison.json",
+      "owner": "shared"
+    },
+    {
+      "id": "shared:3c7623aaabbc97a5",
+      "kind": "visual",
+      "section": "shared-shop-cta",
+      "route": "catalogues",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/catalogues/comparison.json",
+      "owner": "shared"
+    },
+    {
+      "id": "shared:d50b12dcf427b0da",
+      "kind": "visual",
+      "section": "shared-footer",
+      "route": "catalogues",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/catalogues/comparison.json",
+      "owner": "footer"
+    },
+    {
+      "id": "shared:16fc1d3865fd84c1",
+      "kind": "visual",
+      "section": "blog-archive-heading",
+      "route": "blog-archive",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/blog-archive/comparison.json",
+      "owner": "shared"
+    },
+    {
+      "id": "shared:d03216575df0e7df",
+      "kind": "visual",
+      "section": "contact-heading",
+      "route": "contact",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/contact/comparison.json",
+      "owner": "shared"
+    },
+    {
+      "id": "shared:1e42d13708633d5a",
+      "kind": "visual",
+      "section": "about-heading",
+      "route": "about",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/about/comparison.json",
+      "owner": "shared"
+    },
+    {
+      "id": "shared:c04b615488545f9f",
+      "kind": "visual",
+      "section": "shared-shop-cta",
+      "route": "about",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/about/comparison.json",
+      "owner": "shared"
+    },
+    {
+      "id": "shared:8abe0db4ef12cad5",
+      "kind": "visual",
+      "section": "product-gallery",
+      "route": "product",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product/comparison.json",
+      "owner": "shared"
+    },
+    {
+      "id": "shared:bd56b5600953cc32",
+      "kind": "visual",
+      "section": "product-tabs",
+      "route": "product",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product/comparison.json",
+      "owner": "shared"
+    },
+    {
+      "id": "shared:7b58d16d87996b0a",
+      "kind": "visual",
+      "section": "shared-secondary-navigation",
+      "route": "checkout",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/comparison.json",
+      "owner": "header"
+    },
+    {
+      "id": "shared:ce41484ed1cab3bf",
+      "kind": "visual",
+      "section": "shared-primary-navigation",
+      "route": "checkout",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/comparison.json",
+      "owner": "header"
+    },
+    {
+      "id": "shared:155ea8b2023fe377",
+      "kind": "visual",
+      "section": "checkout-heading",
+      "route": "checkout",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/comparison.json",
+      "owner": "header"
+    },
+    {
+      "id": "shared:e32d97bcc06706dc",
+      "kind": "visual",
+      "section": "bundle-gallery",
+      "route": "product-bundle",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-bundle/comparison.json",
+      "owner": "shared"
+    },
+    {
+      "id": "shared:29b2da2f00d6959e",
+      "kind": "visual",
+      "section": "bundle-tabs",
+      "route": "product-bundle",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-bundle/comparison.json",
+      "owner": "shared"
+    },
+    {
+      "id": "shared:ba5862fdb1bcad9a",
+      "kind": "visual",
+      "section": "product-tabs",
+      "route": "product-expanded",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-expanded/comparison.json",
+      "owner": "shared"
+    },
+    {
+      "id": "shared:4c9be2221b9e15dc",
+      "kind": "visual",
+      "section": "product-tabs",
+      "route": "product-inquiry",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-inquiry/comparison.json",
+      "owner": "shared"
+    },
+    {
+      "id": "shared:6e9c4ea17376a628",
+      "kind": "visual",
+      "section": "shared-topbar",
+      "route": "checkout-login",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/comparison.json",
+      "owner": "header"
+    },
+    {
+      "id": "shared:2f3ff56ab3fda76c",
+      "kind": "visual",
+      "section": "shared-secondary-navigation",
+      "route": "checkout-login",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/comparison.json",
+      "owner": "header"
+    },
+    {
+      "id": "shared:d990894fbde011ff",
+      "kind": "visual",
+      "section": "checkout-login-heading",
+      "route": "checkout-login",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/comparison.json",
+      "owner": "header"
+    },
+    {
+      "id": "shared:ca6bb2ccbb26a5a7",
+      "kind": "visual",
+      "section": "checkout-steps",
+      "route": "checkout-login",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/comparison.json",
+      "owner": "shared"
+    },
+    {
+      "id": "shared:9a04b1c8c5bd653d",
+      "kind": "visual",
+      "section": "checkout-login-heading",
+      "route": "checkout-registration",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-registration/comparison.json",
+      "owner": "header"
+    },
+    {
+      "id": "shared:bc42542dbbe85ccb",
+      "kind": "visual",
+      "section": "shared-secondary-navigation",
+      "route": "home-active",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/comparison.json",
+      "owner": "header"
+    },
+    {
+      "id": "shared:f83a5d931578405e",
+      "kind": "visual",
+      "section": "shared-primary-navigation-active",
+      "route": "home-active",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/comparison.json",
+      "owner": "header"
+    }
+  ],
+  "completed": [],
+  "legacyEvidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/081-audit-round-0/audit-metrics.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/cart-interaction-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/interaction-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/native-commerce-icons-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/responsive-audit.json"
+  ],
+  "checkpointCommand": "node scripts/factory/autopilot/audit-progress.js record .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/ledger.json shared-components <item-id> <input-json>",
+  "recordSchema": {
+    "status": "passed|needs_work|blocked",
+    "summary": "What was actually checked",
+    "issues": [
+      "Concrete finding or untestable limitation"
+    ],
+    "evidence": [
+      "Existing theme-relative FILE paths; include the assigned comparison for route checks"
+    ]
+  },
+  "instruction": "Check ONLY pending items. Save an atomic checkpoint immediately after each item, before starting the next. Existing completed items must not be reread or repeated. Earlier partial evidence is a candidate: inspect only relevant records and verify applicability; never assume old PASS. Missing genuine inputs are recorded blocked with evidence, then continue other items."
+}

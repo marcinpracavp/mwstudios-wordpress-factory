@@ -1,0 +1,76 @@
+{
+  "id": "shared-shop-cta",
+  "name": "Przerywnik",
+  "order": 33,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "548:24"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 36,
+    "y": 2919,
+    "width": 1840,
+    "height": 230,
+    "containerWidth": 1840
+  },
+  "layout": {
+    "type": "full-width-careers-cta",
+    "backgroundNodeId": "548:25",
+    "headingNodeId": "548:26",
+    "buttonNodeId": "548:27"
+  },
+  "typography": [
+    {
+      "nodeId": "548:26",
+      "text": "Nie znalazłeś oferty dla siebie? Odezwij się do nas!",
+      "family": "DM Sans",
+      "style": "Bold",
+      "fontSize": 48,
+      "lineHeight": "normal",
+      "color": "#ffffff"
+    },
+    {
+      "nodeId": "548:29",
+      "text": "Wyślij CV",
+      "family": "DM Sans",
+      "style": "Bold",
+      "fontSize": 16,
+      "lineHeight": "normal",
+      "color": "#ffffff"
+    }
+  ],
+  "colors": [
+    {
+      "nodeId": "548:25",
+      "sourceVector": true
+    },
+    {
+      "nodeId": "548:28",
+      "stroke": "#ffffff",
+      "cornerRadius": 30
+    }
+  ],
+  "effects": [],
+  "contentFields": [
+    "rudnikagro_careers_cta.heading",
+    "rudnikagro_careers_cta.button_label",
+    "rudnikagro_careers_cta.background"
+  ],
+  "assets": [
+    {
+      "sourceNodeId": "548:24",
+      "path": "assets/careers/548-24-shop-cta.png",
+      "usage": "Exact exported CTA composition."
+    },
+    {
+      "sourceNodeId": "548:25",
+      "path": "assets/careers/548-24-background.svg",
+      "usage": "Exact CTA background vector."
+    }
+  ],
+  "notes": [
+    "The visible CTA preserves source label; its destination is a same-page application interaction decision, not a captured external URL."
+  ],
+  "liveFigmaRequired": false
+}

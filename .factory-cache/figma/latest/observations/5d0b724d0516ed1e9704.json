@@ -1,0 +1,105 @@
+{
+  "id": "5d0b724d0516ed1e9704",
+  "tool": "figma.use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "496:1821"
+  ],
+  "description": "Read source content to identify native product or account state 496:1821",
+  "recordedAt": "2026-09-10T19:30:16.875Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "id": "496:1821",
+      "visible": true,
+      "texts": [
+        {
+          "id": "323:2086",
+          "text": "Kod produktu: 98899\nProducent: Rudnikagro",
+          "link": null
+        },
+        {
+          "id": "325:2195",
+          "text": "Dodaj do ulubionych",
+          "link": null
+        },
+        {
+          "id": "325:2193",
+          "text": "Chcesz poznać cenę hurtową dla tego produktu? Skontaktuj się!",
+          "link": null
+        },
+        {
+          "id": "325:2178",
+          "text": "Ocena:",
+          "link": null
+        },
+        {
+          "id": "325:2172",
+          "text": "Zamienniki",
+          "link": null
+        },
+        {
+          "id": "324:2167",
+          "text": "Dodaj do koszyka",
+          "link": null
+        },
+        {
+          "id": "324:2159",
+          "text": "1",
+          "link": null
+        },
+        {
+          "id": "324:2160",
+          "text": "-",
+          "link": null
+        },
+        {
+          "id": "324:2161",
+          "text": "+",
+          "link": null
+        },
+        {
+          "id": "496:1781",
+          "text": "1 L",
+          "link": null
+        },
+        {
+          "id": "496:1787",
+          "text": "5 L",
+          "link": null
+        },
+        {
+          "id": "496:1791",
+          "text": "20 L",
+          "link": null
+        },
+        {
+          "id": "323:2087",
+          "text": "Cena: 411,00 zł",
+          "link": null
+        },
+        {
+          "id": "323:2084",
+          "text": "Aquatos 5L",
+          "link": null
+        },
+        {
+          "id": "422:254",
+          "text": "Najniższa cena z 30 dni przed obniżką: 530,00 zł",
+          "link": null
+        },
+        {
+          "id": "422:255",
+          "text": "530,00 zł",
+          "link": null
+        },
+        {
+          "id": "502:3",
+          "text": "(w tym 23% VAT)",
+          "link": null
+        }
+      ],
+      "reactions": []
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "task": {
+    "id": "detail-blog",
+    "scope": "group",
+    "buildGroup": "blog"
+  },
+  "sourceContext": {
+    "version": 1,
+    "available": true,
+    "index": {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/012-discovery-detail-blog/source-context/index.json",
+      "bytes": 1501,
+      "sha256": "58feacb3359a98d339d18fb1057344407d51422d2e9dfc91bd56774d6c1d659e"
+    }
+  },
+  "model": "gpt-5.6-terra",
+  "reasoningEffort": "high",
+  "continuation": "fresh session using persisted artifacts; do not load historical conversation",
+  "previousExecution": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/011-discovery-detail-blog/execution.json",
+  "snapshot": ".factory-cache/figma/latest",
+  "observations": ".factory-cache/figma/latest/observations/index.json",
+  "plans": [
+    "docs/factory/project/PLAN.md",
+    "docs/factory/project/SOURCE_CLARIFICATIONS.md"
+  ],
+  "currentGate": {
+    "passed": false,
+    "errors": [
+      "Missing section blog-article-heading",
+      "Missing section blog-article-content",
+      "Missing section blog-related-posts",
+      "Missing section blog-archive-heading",
+      "Missing section blog-post-list",
+      "Missing section blog-pagination"
+    ],
+    "group": "blog"
+  },
+  "instruction": "Inspect the current gate and finish only remaining assigned work. Reuse real saved source facts and assets."
+}

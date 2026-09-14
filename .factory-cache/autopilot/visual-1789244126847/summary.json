@@ -1,0 +1,64 @@
+{
+  "capturedAt": "2026-09-12T20:15:52.622Z",
+  "implementationHash": "12b893366a0d61f7835ff6a36910c6de5308ac07fe734608e7991a34ab9444a3",
+  "sourceHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+  "thresholds": {
+    "channelTolerance": 24,
+    "maxDifferentPixelRatio": 0.085,
+    "geometryTolerancePx": 2
+  },
+  "acceptanceScope": "page",
+  "buildReady": false,
+  "deferred": [],
+  "passed": false,
+  "pagePassed": false,
+  "routes": [
+    {
+      "id": "product-expanded",
+      "passed": false,
+      "pagePassed": false,
+      "ownership": {
+        "header": {
+          "pixels": 369940,
+          "differentPixels": 21865,
+          "ratio": 0.05910417905606315
+        },
+        "footer": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "shared": {
+          "pixels": 1215460,
+          "differentPixels": 180500,
+          "ratio": 0.14850344725453737
+        },
+        "page": {
+          "pixels": 8484000,
+          "differentPixels": 754888,
+          "ratio": 0.08897784064120698
+        },
+        "outside": {
+          "pixels": 1474560,
+          "differentPixels": 333905,
+          "ratio": 0.2264438205295139
+        },
+        "reused": {
+          "pixels": 35560,
+          "differentPixels": 2665,
+          "ratio": 0.0749437570303712
+        }
+      },
+      "errors": [
+        "page pixel mismatch 8.898%",
+        "Section geometry differs: product-related",
+        "Section geometry differs: product-legal-notices",
+        "shared pixel mismatch 14.850%",
+        "Shared component pixel mismatch product-gallery: 17.311%",
+        "Shared component pixel mismatch product-tabs: 13.107%",
+        "Section geometry differs: product-tabs"
+      ],
+      "comparison": ".factory-cache/autopilot/visual-1789244126847/product-expanded/comparison.json"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "sourceNodeId": "12:3",
+  "transport": "figma-mcp-original-image",
+  "capturedAt": "2026-09-10T19:34:32.838Z",
+  "sha256": "91208f195ee03a32426395f0b038f556e28e27a5d17453be65ea2e2d64eb4e0b",
+  "note": "Additional lower-resolution image returned for source node 12:3; original Figma hash is not asserted for these bytes."
+}

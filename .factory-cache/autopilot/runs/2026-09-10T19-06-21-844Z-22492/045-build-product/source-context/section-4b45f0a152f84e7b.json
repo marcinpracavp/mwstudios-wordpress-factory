@@ -1,0 +1,34 @@
+{
+  "id": "product-breadcrumbs",
+  "manifestRecord": {
+    "id": "product-breadcrumbs",
+    "name": "breadcrumb produktu",
+    "order": 50,
+    "pageId": "0:1",
+    "snapshot": "sections/45-product-breadcrumbs.json",
+    "desktopNodeId": "318:1557",
+    "desktopReference": "references/sections/product-breadcrumbs.png"
+  },
+  "contentFields": [
+    {
+      "section": "product-breadcrumbs",
+      "nodeId": "318:1557",
+      "fieldName": "rudnikagro_product_breadcrumbs_trail_318_1557",
+      "type": "text",
+      "language": "pl",
+      "value": "Strona główna / Środki ochrony Roślin / Herbicydy / Aquatos 5L",
+      "destination": "WooCommerce product breadcrumb labels",
+      "linkEvidence": [
+        {
+          "characters": "Strona główna / Środki ochrony Roślin / Herbicydy / Aquatos 5L",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "318:1557"
+      }
+    }
+  ]
+}

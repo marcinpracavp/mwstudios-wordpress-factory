@@ -1,0 +1,17 @@
+{
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "pageId": "0:1",
+  "nodeId": "524:2",
+  "path": "references/sections/account-login.png",
+  "crop": {
+    "x": 240,
+    "y": 331,
+    "width": 710,
+    "height": 425
+  },
+  "sourceReference": "references/full/frame-524-2.png",
+  "scale": 1,
+  "transport": "unscaled-1x-crop",
+  "capturedAt": "2026-09-11T10:32:48.890Z",
+  "sha256": "cf0006938ea5cd96f3ec92ed70c38f954f80b627954a549e498c616e33aac767"
+}

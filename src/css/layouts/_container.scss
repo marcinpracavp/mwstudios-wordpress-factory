@@ -2,7 +2,7 @@
 
 
 .l-container {
-  width: 96%;
+  width: min(calc(100% - 40px), #{$page-width});
   max-width: $page-width;
   margin: 0 auto;
 

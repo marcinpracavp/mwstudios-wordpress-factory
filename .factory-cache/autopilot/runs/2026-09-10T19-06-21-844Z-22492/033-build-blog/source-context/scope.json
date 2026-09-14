@@ -1,0 +1,454 @@
+{
+  "source": {
+    "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+    "figmaUrl": "https://www.figma.com/design/OwiDXrKMVcaHKB9ryYF6mY/Rudnik-Agro?m=dev"
+  },
+  "status": "complete",
+  "routes": [
+    {
+      "id": "blog-article",
+      "path": "/blog/popularne-nawozy-potasowe-i-ich-zastosowanie-w-uprawach/",
+      "language": "pl",
+      "frameNodeId": "327:3176",
+      "reference": "references/full/frame-327-3176.png",
+      "width": 1920,
+      "height": 4010,
+      "sections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "shared-primary-navigation",
+        "blog-article-heading",
+        "blog-article-content",
+        "blog-related-posts",
+        "shared-footer"
+      ],
+      "buildGroup": "blog",
+      "responsiveSource": "derived",
+      "notes": "Source includes a complete titled article, dated 10 lipca 2025, and related posts. Planned local route path is an implementation decision inferred from source page identity, not a captured source hyperlink. Uncaptured section IDs remain explicit in this partial execution plan.",
+      "sectionGeometry": {
+        "shared-primary-navigation": {
+          "x": 240,
+          "y": 115,
+          "width": 1440,
+          "height": 78.6761245727539
+        },
+        "blog-article-heading": {
+          "x": 200,
+          "y": 219,
+          "width": 1520,
+          "height": 1114
+        },
+        "blog-article-content": {
+          "x": 200,
+          "y": 1333,
+          "width": 1520,
+          "height": 1090
+        },
+        "blog-related-posts": {
+          "x": 200,
+          "y": 2532,
+          "width": 1520,
+          "height": 645
+        }
+      }
+    },
+    {
+      "id": "blog-archive",
+      "path": "/blog/",
+      "language": "pl",
+      "frameNodeId": "327:2986",
+      "reference": "references/full/frame-327-2986.png",
+      "width": 1920,
+      "height": 3816,
+      "sections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "shared-primary-navigation",
+        "blog-archive-heading",
+        "blog-post-list",
+        "blog-pagination",
+        "shared-footer"
+      ],
+      "buildGroup": "blog",
+      "responsiveSource": "derived",
+      "notes": "Source frame titled blog lista contains four post rows and pagination. Planned local route path is an implementation decision inferred from source page identity, not a captured source hyperlink. Uncaptured section IDs remain explicit in this partial execution plan.",
+      "sectionGeometry": {
+        "shared-primary-navigation": {
+          "x": 240,
+          "y": 115,
+          "width": 1440,
+          "height": 78.6761245727539
+        },
+        "blog-archive-heading": {
+          "x": 200,
+          "y": 219,
+          "width": 1520,
+          "height": 220
+        },
+        "blog-post-list": {
+          "x": 200,
+          "y": 478,
+          "width": 1520,
+          "height": 2444
+        },
+        "blog-pagination": {
+          "x": 700,
+          "y": 2940,
+          "width": 520,
+          "height": 100
+        }
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "shared-topbar",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/14-shared-topbar.json",
+      "contentRecords": 6,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/033-build-blog/source-context/section-91484042cce6815e.json",
+        "bytes": 2751,
+        "sha256": "d2f9e73eba0b32222284737dc8ee1f1a8f58ab2b85545831f54fdbf1256eaa5f"
+      }
+    },
+    {
+      "id": "shared-secondary-navigation",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/15-shared-secondary-navigation.json",
+      "contentRecords": 13,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/033-build-blog/source-context/section-f64d32808e6ea46d.json",
+        "bytes": 6535,
+        "sha256": "860eb7d970c300c199119e8ae18a3514e8705ab2557992a3d2f573846dc447d7"
+      }
+    },
+    {
+      "id": "shared-primary-navigation",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/01-shared-primary-navigation.json",
+      "contentRecords": 5,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/033-build-blog/source-context/section-8de8ed9bbbe57bf3.json",
+        "bytes": 2587,
+        "sha256": "46046e4e7b17b0533fe94b9f43b28de71033d1948b0984c7c137a33d206cc098"
+      }
+    },
+    {
+      "id": "blog-article-heading",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/35-blog-article-heading.json",
+      "contentRecords": 5,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/033-build-blog/source-context/section-0a95d4cf0d174ab1.json",
+        "bytes": 2363,
+        "sha256": "656e5e3e16ed5e0021eb22e369f8efe067a4cddebe0c4dc2b86b22ae5bfcda26"
+      }
+    },
+    {
+      "id": "blog-article-content",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/36-blog-article-content.json",
+      "contentRecords": 2,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/033-build-blog/source-context/section-8350c8124667ca98.json",
+        "bytes": 5555,
+        "sha256": "f5434c9be52dabfeab586676aa85f3931581e43d57905aee20d050c81ecfe7f9"
+      }
+    },
+    {
+      "id": "blog-related-posts",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/37-blog-related-posts.json",
+      "contentRecords": 2,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/033-build-blog/source-context/section-8389274c44e685f6.json",
+        "bytes": 1962,
+        "sha256": "c2418aaa105b66e4f52aa28be1d56b4ff6e025d5486ea0114097f993cdf8d894"
+      }
+    },
+    {
+      "id": "shared-footer",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/26-shared-footer.json",
+      "contentRecords": 16,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/033-build-blog/source-context/section-61ba1faa466eb680.json",
+        "bytes": 7941,
+        "sha256": "17696d0bef8eb6c6512ee31448fe8b70d275e5fe6f11dd775cdc28ca68afc9af"
+      }
+    },
+    {
+      "id": "blog-archive-heading",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/38-blog-archive-heading.json",
+      "contentRecords": 2,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/033-build-blog/source-context/section-7662fc441d1109b9.json",
+        "bytes": 1131,
+        "sha256": "a2bf0019e8fdf0c153d5901fe8825b777404e66fcaac55f3112f49ab950aa88a"
+      }
+    },
+    {
+      "id": "blog-post-list",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/39-blog-post-list.json",
+      "contentRecords": 1,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/033-build-blog/source-context/section-d454ca031a87a554.json",
+        "bytes": 4757,
+        "sha256": "63170d8543832d89ae20ec35ea83e0f040c88a1ac293f3eb4a7def61192d64a2"
+      }
+    },
+    {
+      "id": "blog-pagination",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/40-blog-pagination.json",
+      "contentRecords": 1,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/033-build-blog/source-context/section-b118f51169bcff9d.json",
+        "bytes": 857,
+        "sha256": "091dc4314d130a5c02be8dcb5ac00636abdcf1cb871e112daedaf49aec409bb8"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "id": "b1ee1afd187160fa3595",
+      "nodeIds": [
+        "327:3176"
+      ],
+      "description": "Read compact composition for blog wpis 327:3176",
+      "path": "observations/b1ee1afd187160fa3595.json"
+    },
+    {
+      "id": "1385168cce7b00a2ca2b",
+      "nodeIds": [
+        "327:2986"
+      ],
+      "description": "Read compact composition for blog lista 327:2986",
+      "path": "observations/1385168cce7b00a2ca2b.json"
+    },
+    {
+      "id": "4f83904bda6e97c55d00",
+      "nodeIds": [
+        "327:2986"
+      ],
+      "description": "Capture exact frame-relative bounds and ungrouped source text blog lista",
+      "path": "observations/4f83904bda6e97c55d00.json"
+    },
+    {
+      "id": "ba86239566720ac727d2",
+      "nodeIds": [
+        "140:262",
+        "12:2"
+      ],
+      "description": "Capture shared primary navigation geometry and text styles",
+      "path": "observations/ba86239566720ac727d2.json"
+    },
+    {
+      "id": "93994dfaa5c6b60a4b37",
+      "nodeIds": [
+        "112:7",
+        "12:2"
+      ],
+      "description": "Read exact topbar bounds, styled text and icon geometry without changing source",
+      "path": "observations/93994dfaa5c6b60a4b37.json"
+    },
+    {
+      "id": "76dbf979f194f7f139e5",
+      "nodeIds": [
+        "112:7",
+        "12:2"
+      ],
+      "description": "Capture topbar source data for immediate persistence",
+      "path": "observations/76dbf979f194f7f139e5.json"
+    },
+    {
+      "id": "detail-shared-topbar",
+      "nodeIds": [
+        "112:7"
+      ],
+      "description": "Exact source section capture",
+      "path": "observations/detail-shared-topbar.json"
+    },
+    {
+      "id": "e85f04bc857cc3e8c516",
+      "nodeIds": [
+        "140:260",
+        "12:2"
+      ],
+      "description": "Capture exact secondary navigation section",
+      "path": "observations/e85f04bc857cc3e8c516.json"
+    },
+    {
+      "id": "detail-shared-secondary-navigation",
+      "nodeIds": [
+        "140:260"
+      ],
+      "description": "Exact source section capture",
+      "path": "observations/detail-shared-secondary-navigation.json"
+    },
+    {
+      "id": "1f35a8b8aca7f971542c",
+      "nodeIds": [
+        "140:262",
+        "12:2"
+      ],
+      "description": "Capture default primary navigation with deduplicated styles to avoid truncation",
+      "path": "observations/1f35a8b8aca7f971542c.json"
+    },
+    {
+      "id": "detail-shared-primary-navigation",
+      "nodeIds": [
+        "140:262"
+      ],
+      "description": "Exact source section capture",
+      "path": "observations/detail-shared-primary-navigation.json"
+    },
+    {
+      "id": "d60be22671d294088867",
+      "nodeIds": [
+        "96:95",
+        "12:2"
+      ],
+      "description": "Capture exact home-blog section source",
+      "path": "observations/d60be22671d294088867.json"
+    },
+    {
+      "id": "053b78308ad646a28ad7",
+      "nodeIds": [
+        "222:62",
+        "12:2"
+      ],
+      "description": "Capture exact shared-footer section source",
+      "path": "observations/053b78308ad646a28ad7.json"
+    },
+    {
+      "id": "7891ec52f6816ff9beb4",
+      "nodeIds": [
+        "222:62",
+        "12:2"
+      ],
+      "description": "Capture exact shared-footer section source nodes 25",
+      "path": "observations/7891ec52f6816ff9beb4.json"
+    },
+    {
+      "id": "detail-shared-footer",
+      "nodeIds": [
+        "222:62"
+      ],
+      "description": "Exact source section capture",
+      "path": "observations/detail-shared-footer.json"
+    }
+  ],
+  "frames": [
+    {
+      "nodeId": "327:3176",
+      "name": "blog wpis",
+      "pageId": "0:1",
+      "type": "FRAME",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "327:2986",
+      "name": "blog lista",
+      "pageId": "0:1",
+      "type": "FRAME",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "140:262",
+      "name": "mega menu",
+      "pageId": "0:1",
+      "type": "GROUP"
+    },
+    {
+      "nodeId": "112:7",
+      "name": "topbar",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "140:260",
+      "name": "secondary menu",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "222:62",
+      "name": "stopka",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "327:3357",
+      "name": "Article heading",
+      "pageId": "0:1",
+      "type": "RECTANGLE",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "327:3358",
+      "name": "Article content",
+      "pageId": "0:1",
+      "type": "TEXT",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "327:3356",
+      "name": "Related posts",
+      "pageId": "0:1",
+      "type": "TEXT",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "327:3098",
+      "name": "Blog archive heading",
+      "pageId": "0:1",
+      "type": "RECTANGLE",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "327:3103",
+      "name": "Blog post list",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "422:25",
+      "name": "Blog pagination",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    }
+  ],
+  "globalFiles": [
+    {
+      "path": ".factory-cache/figma/latest/design-system.json",
+      "bytes": 8294,
+      "sha256": "5086e8f74a4d3aee56055467846c3f49e9f2791c2a30a873ea30c5a5a87b3863"
+    },
+    {
+      "path": ".factory-cache/figma/latest/components.json",
+      "bytes": 261,
+      "sha256": "fb651cb0bc38b89b71ffa0e6a8b92ec6acbe3bdff6ab7d30ea9c2e39ed12fec5"
+    }
+  ],
+  "lookup": "Observation matches are an index, not a completeness claim. Use targeted rg or inspect JSON pointers for missing node IDs. Never dump the full source files."
+}

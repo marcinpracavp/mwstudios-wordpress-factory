@@ -1,0 +1,33 @@
+{
+  "key":"group_rudnikagro_product_archive",
+  "title":"RudnikAgro — archiwum produktów",
+  "fields":[
+    {"key":"field_ra_archive_tab_intro","label":"Wprowadzenie kategorii","name":"rudnikagro_archive_tab_intro","type":"tab","placement":"top"},
+    {"key":"field_ra_archive_intro_title","label":"Tytuł","name":"rudnikagro_archive_category_introduction_title","type":"text"},
+    {"key":"field_ra_archive_intro_body","label":"Treść wprowadzenia","name":"rudnikagro_archive_category_introduction_body","type":"wysiwyg","tabs":"visual"},
+    {"key":"field_ra_archive_description","label":"Opis kategorii","name":"rudnikagro_archive_category_description","type":"wysiwyg","tabs":"visual"},
+    {"key":"field_ra_archive_tab_labels","label":"Kontrolki archiwum","name":"rudnikagro_archive_tab_labels","type":"tab","placement":"top"},
+    {"key":"field_ra_archive_group","label":"Treści archiwum","name":"rudnikagro_product_archive","type":"group","layout":"block","sub_fields":[
+      {"key":"field_ra_archive_breadcrumbs","label":"Breadcrumb","name":"breadcrumbs","type":"text"},
+      {"key":"field_ra_archive_expand","label":"Rozwiń","name":"expand_label","type":"text"},
+      {"key":"field_ra_archive_sort","label":"Sortowanie","name":"sort_label","type":"text"},
+      {"key":"field_ra_archive_category_label","label":"Etykieta kategorii","name":"filter_category_label","type":"text"},
+      {"key":"field_ra_archive_categories","label":"Kategorie","name":"filter_categories","type":"textarea","new_lines":"br"},
+      {"key":"field_ra_archive_crops_label","label":"Etykieta upraw","name":"filter_crops_label","type":"text"},
+      {"key":"field_ra_archive_crops","label":"Uprawy","name":"filter_crops","type":"textarea","new_lines":"br"},
+      {"key":"field_ra_archive_substances_label","label":"Etykieta substancji","name":"filter_substances_label","type":"text"},
+      {"key":"field_ra_archive_substances","label":"Substancje czynne","name":"filter_substances","type":"textarea","new_lines":"br"},
+      {"key":"field_ra_archive_producer_label","label":"Etykieta producenta","name":"filter_producer_label","type":"text"},
+      {"key":"field_ra_archive_price_label","label":"Etykieta ceny","name":"filter_price_label","type":"text"},
+      {"key":"field_ra_archive_price_from","label":"Cena od","name":"price_from","type":"text"},
+      {"key":"field_ra_archive_price_to","label":"Cena do","name":"price_to","type":"text"},
+      {"key":"field_ra_archive_add","label":"Dodaj do koszyka","name":"add_to_cart_label","type":"text"},
+      {"key":"field_ra_archive_quantity","label":"Ilość","name":"quantity_label","type":"text"},
+      {"key":"field_ra_archive_pagination_label","label":"Etykieta paginacji","name":"pagination_label","type":"text"},
+      {"key":"field_ra_archive_pagination","label":"Strony paginacji","name":"pagination","type":"textarea","new_lines":"br"},
+      {"key":"field_ra_archive_pagination_icon","label":"Ikona następnej strony","name":"pagination_next_icon","type":"file","return_format":"id","library":"all","mime_types":"svg"}
+    ]}
+  ],
+  "location":[[{"param":"taxonomy","operator":"==","value":"product_cat"}],[{"param":"options_page","operator":"==","value":"acf-options-rudnikagro"}]],
+  "menu_order":0,"position":"normal","style":"default","label_placement":"top","instruction_placement":"label","active":true,"show_in_rest":0,"modified":1789459200
+}

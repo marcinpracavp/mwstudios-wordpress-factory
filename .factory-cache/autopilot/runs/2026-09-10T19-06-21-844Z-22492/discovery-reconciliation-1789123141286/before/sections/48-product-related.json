@@ -1,0 +1,27 @@
+{
+  "id": "product-related",
+  "name": "produkty powiązane",
+  "order": 48,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "326:2515"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 240,
+    "y": 1635,
+    "width": 710,
+    "height": 570
+  },
+  "layout": {
+    "type": "related-products",
+    "columns": [
+      3,
+      3
+    ]
+  },
+  "typography": [],
+  "assets": [],
+  "notes": [],
+  "liveFigmaRequired": false
+}

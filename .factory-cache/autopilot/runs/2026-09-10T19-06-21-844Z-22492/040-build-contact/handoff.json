@@ -1,0 +1,71 @@
+{
+  "task": {
+    "id": "contact"
+  },
+  "sourceContext": {
+    "version": 3,
+    "available": true,
+    "index": {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/040-build-contact/source-context/index.json",
+      "bytes": 1404,
+      "sha256": "2df030aede3d0cda6ed2eb4ffe17eed176bf354caa9850358cf4cea79dbb06d7"
+    }
+  },
+  "model": "gpt-5.6-terra",
+  "reasoningEffort": "high",
+  "continuation": "same-model interrupted thread",
+  "previousExecution": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/039-build-contact/execution.json",
+  "previousResult": null,
+  "correctionFocus": [],
+  "currentPageVerification": {
+    "summary": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/resume-page-check-1789206626012/contact/summary.json",
+    "routes": [
+      {
+        "id": "contact",
+        "passed": false,
+        "pagePassed": false,
+        "ownership": {
+          "header": {
+            "pixels": 372480,
+            "differentPixels": 21868,
+            "ratio": 0.05870919243986254
+          },
+          "footer": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "shared": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "page": {
+            "pixels": 4646400,
+            "differentPixels": 4318952,
+            "ratio": 0.9295265151515152
+          }
+        },
+        "errors": [
+          "page pixel mismatch 92.953%",
+          "Section geometry differs: contact-heading",
+          "Section geometry differs: contact-details",
+          "Section geometry differs: contact-form",
+          "Section geometry differs: contact-map"
+        ],
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/resume-page-check-1789206626012/contact/contact/comparison.json"
+      }
+    ],
+    "instruction": "Current matching measurement. If pagePassed is true, do not repeat page corrections solely because shared owners fail. Complete reusable-component work if required, check regressions, and hand off shared findings for final audit."
+  },
+  "snapshot": ".factory-cache/figma/latest",
+  "observations": ".factory-cache/figma/latest/observations/index.json",
+  "plans": [
+    "docs/factory/project/PLAN.md",
+    "docs/factory/project/STATUS.md",
+    "docs/factory/project/SOURCE_CLARIFICATIONS.md",
+    "docs/factory/project/REUSABLE_COMPONENTS.md"
+  ],
+  "currentGate": null,
+  "instruction": "Inspect the current gate and finish only remaining assigned work. Reuse real saved source facts and assets."
+}

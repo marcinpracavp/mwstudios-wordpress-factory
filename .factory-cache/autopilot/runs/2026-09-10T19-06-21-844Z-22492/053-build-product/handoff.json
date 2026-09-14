@@ -1,0 +1,307 @@
+{
+  "task": {
+    "id": "product"
+  },
+  "sourceContext": {
+    "version": 6,
+    "available": true,
+    "index": {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/053-build-product/source-context/index.json",
+      "bytes": 1406,
+      "sha256": "d322fbcee374fbad879b5ea1f3a441962bba2f0144ebecf77a7016b68a3eb979"
+    }
+  },
+  "model": "gpt-5.6-terra",
+  "reasoningEffort": "high",
+  "continuation": "same-model interrupted thread",
+  "previousExecution": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/052-build-product/execution.json",
+  "previousResult": null,
+  "correctionFocus": [],
+  "currentPageVerification": {
+    "routes": [
+      {
+        "id": "product",
+        "passed": false,
+        "pagePassed": false,
+        "ownership": {
+          "header": {
+            "pixels": 372480,
+            "differentPixels": 21869,
+            "ratio": 0.05871187714776632
+          },
+          "footer": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "shared": {
+            "pixels": 1215460,
+            "differentPixels": 173051,
+            "ratio": 0.14237490332878086
+          },
+          "page": {
+            "pixels": 3308060,
+            "differentPixels": 196796,
+            "ratio": 0.05948985205830608
+          },
+          "outside": {
+            "pixels": 1528320,
+            "differentPixels": 221681,
+            "ratio": 0.1450488117671692
+          },
+          "reused": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          }
+        },
+        "errors": [
+          "Section geometry differs: product-benefits",
+          "Section geometry differs: product-related",
+          "Section geometry differs: product-legal-notices",
+          "shared pixel mismatch 14.237%",
+          "Shared component pixel mismatch product-gallery: 17.311%",
+          "Shared component pixel mismatch product-tabs: 12.060%",
+          "Section geometry differs: product-tabs"
+        ],
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/resume-page-check-1789242681243/product/product/comparison.json"
+      },
+      {
+        "id": "product-bundle",
+        "passed": false,
+        "pagePassed": true,
+        "ownership": {
+          "header": {
+            "pixels": 372480,
+            "differentPixels": 21869,
+            "ratio": 0.05871187714776632
+          },
+          "footer": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "shared": {
+            "pixels": 1007160,
+            "differentPixels": 245494,
+            "ratio": 0.24374875888637357
+          },
+          "page": {
+            "pixels": 3516360,
+            "differentPixels": 211589,
+            "ratio": 0.06017273544233241
+          },
+          "outside": {
+            "pixels": 2062080,
+            "differentPixels": 1335643,
+            "ratio": 0.6477163834574798
+          },
+          "reused": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          }
+        },
+        "errors": [
+          "shared pixel mismatch 24.375%",
+          "Shared component pixel mismatch product-gallery: 53.377%",
+          "Shared component pixel mismatch product-tabs: 12.315%"
+        ],
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/resume-page-check-1789242681243/product-bundle/product-bundle/comparison.json"
+      },
+      {
+        "id": "product-expanded",
+        "passed": false,
+        "pagePassed": false,
+        "ownership": {
+          "header": {
+            "pixels": 369940,
+            "differentPixels": 21865,
+            "ratio": 0.05910417905606315
+          },
+          "footer": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "shared": {
+            "pixels": 1215460,
+            "differentPixels": 211894,
+            "ratio": 0.17433235153768945
+          },
+          "page": {
+            "pixels": 8484000,
+            "differentPixels": 746445,
+            "ratio": 0.08798267326732673
+          },
+          "outside": {
+            "pixels": 1474560,
+            "differentPixels": 322673,
+            "ratio": 0.21882663302951388
+          },
+          "reused": {
+            "pixels": 35560,
+            "differentPixels": 2665,
+            "ratio": 0.0749437570303712
+          }
+        },
+        "errors": [
+          "page pixel mismatch 8.798%",
+          "Section geometry differs: product-expanded-description",
+          "Section geometry differs: product-related",
+          "Section geometry differs: product-legal-notices",
+          "shared pixel mismatch 17.433%",
+          "Shared component pixel mismatch product-gallery: 17.311%",
+          "Shared component pixel mismatch product-tabs: 17.520%",
+          "Section geometry differs: product-tabs"
+        ],
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/resume-page-check-1789242681243/product-expanded/product-expanded/comparison.json"
+      },
+      {
+        "id": "product-inquiry",
+        "passed": false,
+        "pagePassed": true,
+        "ownership": {
+          "header": {
+            "pixels": 369940,
+            "differentPixels": 21869,
+            "ratio": 0.05911499162026274
+          },
+          "footer": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "shared": {
+            "pixels": 1215460,
+            "differentPixels": 223513,
+            "ratio": 0.18389169532522667
+          },
+          "page": {
+            "pixels": 3275040,
+            "differentPixels": 201592,
+            "ratio": 0.06155405735502467
+          },
+          "outside": {
+            "pixels": 1626240,
+            "differentPixels": 510857,
+            "ratio": 0.31413383018496654
+          },
+          "reused": {
+            "pixels": 35560,
+            "differentPixels": 2665,
+            "ratio": 0.0749437570303712
+          }
+        },
+        "errors": [
+          "shared pixel mismatch 18.389%",
+          "Shared component pixel mismatch product-gallery: 17.334%",
+          "Shared component pixel mismatch product-tabs: 19.137%"
+        ],
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/resume-page-check-1789242681243/product-inquiry/product-inquiry/comparison.json"
+      },
+      {
+        "id": "product-reviews-state",
+        "passed": false,
+        "pagePassed": false,
+        "ownership": {
+          "header": {
+            "pixels": 369940,
+            "differentPixels": 21869,
+            "ratio": 0.05911499162026274
+          },
+          "footer": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "shared": {
+            "pixels": 504100,
+            "differentPixels": 87263,
+            "ratio": 0.1731065264828407
+          },
+          "page": {
+            "pixels": 3986400,
+            "differentPixels": 281467,
+            "ratio": 0.07060681316476018
+          },
+          "outside": {
+            "pixels": 1528320,
+            "differentPixels": 363370,
+            "ratio": 0.23775779941373534
+          },
+          "reused": {
+            "pixels": 35560,
+            "differentPixels": 2665,
+            "ratio": 0.0749437570303712
+          }
+        },
+        "errors": [
+          "Section geometry differs: product-reviews",
+          "Section geometry differs: product-related",
+          "Section geometry differs: product-legal-notices",
+          "shared pixel mismatch 17.311%",
+          "Shared component pixel mismatch product-gallery: 17.311%"
+        ],
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/resume-page-check-1789242681243/product-reviews-state/product-reviews-state/comparison.json"
+      },
+      {
+        "id": "product-files-state",
+        "passed": false,
+        "pagePassed": false,
+        "ownership": {
+          "header": {
+            "pixels": 369940,
+            "differentPixels": 21869,
+            "ratio": 0.05911499162026274
+          },
+          "footer": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "shared": {
+            "pixels": 504100,
+            "differentPixels": 87263,
+            "ratio": 0.1731065264828407
+          },
+          "page": {
+            "pixels": 3986400,
+            "differentPixels": 349305,
+            "ratio": 0.08762417218543046
+          },
+          "outside": {
+            "pixels": 1528320,
+            "differentPixels": 932826,
+            "ratio": 0.6103603957286432
+          },
+          "reused": {
+            "pixels": 35560,
+            "differentPixels": 2665,
+            "ratio": 0.0749437570303712
+          }
+        },
+        "errors": [
+          "page pixel mismatch 8.762%",
+          "Section geometry differs: product-files",
+          "Section geometry differs: product-related",
+          "Section geometry differs: product-legal-notices",
+          "shared pixel mismatch 17.311%",
+          "Shared component pixel mismatch product-gallery: 17.311%"
+        ],
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/resume-page-check-1789242681243/product-files-state/product-files-state/comparison.json"
+      }
+    ],
+    "instruction": "Fresh host checks for all sibling routes. Repair only failed assigned routes."
+  },
+  "snapshot": ".factory-cache/figma/latest",
+  "observations": ".factory-cache/figma/latest/observations/index.json",
+  "plans": [
+    "docs/factory/project/PLAN.md",
+    "docs/factory/project/STATUS.md",
+    "docs/factory/project/SOURCE_CLARIFICATIONS.md",
+    "docs/factory/project/REUSABLE_COMPONENTS.md"
+  ],
+  "currentGate": null,
+  "instruction": "Inspect the current gate and finish only remaining assigned work. Reuse real saved source facts and assets."
+}

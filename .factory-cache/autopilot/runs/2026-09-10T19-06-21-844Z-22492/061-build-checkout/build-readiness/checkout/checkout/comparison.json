@@ -1,0 +1,701 @@
+{
+  "id": "checkout",
+  "sourceNodeId": "489:483",
+  "capturedAt": "2026-09-13T06:36:02.295Z",
+  "passed": false,
+  "errors": [
+    "page pixel mismatch 91.092%",
+    "Section geometry differs: checkout-heading",
+    "Section geometry differs: checkout-steps",
+    "Section geometry differs: checkout-customer-details",
+    "Section geometry differs: checkout-payment",
+    "Section geometry differs: checkout-delivery",
+    "Section geometry differs: checkout-totals"
+  ],
+  "responsive": [
+    {
+      "width": 1440,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/061-build-checkout/build-readiness/checkout/checkout/responsive-1440.png"
+    },
+    {
+      "width": 1280,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/061-build-checkout/build-readiness/checkout/checkout/responsive-1280.png"
+    },
+    {
+      "width": 1024,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/061-build-checkout/build-readiness/checkout/checkout/responsive-1024.png"
+    },
+    {
+      "width": 768,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/061-build-checkout/build-readiness/checkout/checkout/responsive-768.png"
+    },
+    {
+      "width": 390,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/061-build-checkout/build-readiness/checkout/checkout/responsive-390.png"
+    },
+    {
+      "width": 375,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/061-build-checkout/build-readiness/checkout/checkout/responsive-375.png"
+    }
+  ],
+  "measurementVersion": 3,
+  "acceptanceScope": "page",
+  "templatePlan": {
+    "family": "[\"checkout\",\"/zamowienie/\",\"pl\",1920]",
+    "baseRoute": "checkout",
+    "route": "checkout",
+    "reusedSections": [],
+    "focusSections": [
+      "shared-topbar",
+      "shared-secondary-navigation",
+      "shared-primary-navigation",
+      "checkout-heading",
+      "checkout-steps",
+      "checkout-customer-details",
+      "checkout-payment",
+      "checkout-delivery",
+      "checkout-totals",
+      "shared-footer"
+    ]
+  },
+  "geometryHash": "679926a7107a3a394007ae250a5eae82a982b7c35d8da0c35fa32aa73d1c11d6",
+  "geometryCorrection": null,
+  "geometry": [
+    {
+      "id": "shared-topbar",
+      "owner": "header",
+      "component": "header",
+      "expected": {
+        "frameWidth": 1920,
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 40
+      },
+      "actual": {
+        "id": "shared-topbar",
+        "landmark": null,
+        "component": null,
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 40,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "700",
+          "fontSize": "14px",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "shared-secondary-navigation",
+      "owner": "header",
+      "component": "header",
+      "expected": {
+        "frameWidth": 1920,
+        "x": 239,
+        "y": 56,
+        "width": 1440.9998779296875,
+        "height": 42
+      },
+      "actual": {
+        "id": "shared-secondary-navigation",
+        "landmark": "header",
+        "component": null,
+        "x": 237,
+        "y": 56,
+        "width": 1442.8125,
+        "height": 42,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "14px",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "20px",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": -2,
+        "y": 0,
+        "width": 1.8126220703125,
+        "height": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "shared-primary-navigation",
+      "owner": "header",
+      "component": "header",
+      "expected": {
+        "x": 240,
+        "y": 115,
+        "width": 1440,
+        "height": 78.6761245727539
+      },
+      "actual": {
+        "id": "shared-primary-navigation",
+        "landmark": "header",
+        "component": null,
+        "x": 240,
+        "y": 115,
+        "width": 1440,
+        "height": 79,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0.32387542724609375
+      },
+      "passed": true
+    },
+    {
+      "id": "checkout-heading",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "frameWidth": 1920,
+        "x": 237,
+        "y": 260,
+        "width": 467,
+        "height": 68,
+        "containerWidth": 1440
+      },
+      "delta": {
+        "x": null,
+        "y": null,
+        "width": null,
+        "height": null
+      },
+      "passed": false,
+      "reused": null
+    },
+    {
+      "id": "checkout-steps",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "frameWidth": 1920,
+        "x": 249,
+        "y": 376,
+        "width": 951,
+        "height": 106,
+        "containerWidth": 1440
+      },
+      "delta": {
+        "x": null,
+        "y": null,
+        "width": null,
+        "height": null
+      },
+      "passed": false,
+      "reused": null
+    },
+    {
+      "id": "checkout-customer-details",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "frameWidth": 1920,
+        "x": 238,
+        "y": 576,
+        "width": 953,
+        "height": 578
+      },
+      "delta": {
+        "x": null,
+        "y": null,
+        "width": null,
+        "height": null
+      },
+      "passed": false
+    },
+    {
+      "id": "checkout-payment",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "frameWidth": 1920,
+        "x": 240,
+        "y": 1215,
+        "width": 953,
+        "height": 648,
+        "containerWidth": 1440
+      },
+      "delta": {
+        "x": null,
+        "y": null,
+        "width": null,
+        "height": null
+      },
+      "passed": false
+    },
+    {
+      "id": "checkout-delivery",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "frameWidth": 1920,
+        "x": 240,
+        "y": 1926,
+        "width": 953,
+        "height": 216,
+        "containerWidth": 1440
+      },
+      "delta": {
+        "x": null,
+        "y": null,
+        "width": null,
+        "height": null
+      },
+      "passed": false
+    },
+    {
+      "id": "checkout-totals",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "frameWidth": 1920,
+        "x": 1213,
+        "y": 364,
+        "width": 467,
+        "height": 473,
+        "containerWidth": 1440
+      },
+      "delta": {
+        "x": null,
+        "y": null,
+        "width": null,
+        "height": null
+      },
+      "passed": false,
+      "reused": null
+    },
+    {
+      "id": "shared-footer",
+      "owner": "footer",
+      "component": "footer",
+      "expected": {
+        "frameWidth": 1920,
+        "x": 0,
+        "y": 8363,
+        "width": 1920,
+        "height": 636
+      },
+      "actual": {
+        "id": "shared-footer",
+        "landmark": "footer",
+        "component": null,
+        "x": 0,
+        "y": 320.75,
+        "width": 1920,
+        "height": 636,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": -8042.25,
+        "width": 0,
+        "height": 0
+      },
+      "passed": false
+    }
+  ],
+  "pixels": {
+    "width": 1920,
+    "height": 2942,
+    "differentPixels": 4857138,
+    "ratio": 0.8598774218218899,
+    "ownership": {
+      "header": {
+        "pixels": 372480,
+        "differentPixels": 21869,
+        "ratio": 0.05871187714776632
+      },
+      "footer": {
+        "pixels": 0,
+        "differentPixels": 0,
+        "ratio": 0
+      },
+      "shared": {
+        "pixels": 0,
+        "differentPixels": 0,
+        "ratio": 0
+      },
+      "page": {
+        "pixels": 3613440,
+        "differentPixels": 3291551,
+        "ratio": 0.9109189581119377
+      },
+      "outside": {
+        "pixels": 1662720,
+        "differentPixels": 1543718,
+        "ratio": 0.9284293206312548
+      },
+      "reused": {
+        "pixels": 0,
+        "differentPixels": 0,
+        "ratio": 0
+      }
+    },
+    "components": {
+      "header": {
+        "owner": "header",
+        "pixels": 372480,
+        "differentPixels": 21869,
+        "ratio": 0.05871187714776632
+      }
+    },
+    "imageDiagnostics": {
+      "interiorPixels": 21903,
+      "interiorDifferentPixels": 21903,
+      "otherPixels": 3591537,
+      "otherDifferentPixels": 3269648,
+      "note": "Diagnostic only: confirm source asset, crop, geometry and border before accepting interior photo differences. No blanket image exemption."
+    },
+    "meanMaxChannelDelta": 90.5613252039429,
+    "referenceSize": {
+      "width": 1920,
+      "height": 2942
+    },
+    "renderedSize": {
+      "width": 1920,
+      "height": 958
+    },
+    "crops": [
+      {
+        "id": "shared-topbar",
+        "owner": "header",
+        "component": "header",
+        "reused": null,
+        "pixels": 76800,
+        "differentPixels": 1546,
+        "ratio": 0.020130208333333333,
+        "signature": null
+      },
+      {
+        "id": "shared-secondary-navigation",
+        "owner": "header",
+        "component": "header",
+        "reused": null,
+        "pixels": 60522,
+        "differentPixels": 9136,
+        "ratio": 0.15095337232741812,
+        "signature": null
+      },
+      {
+        "id": "shared-primary-navigation",
+        "owner": "header",
+        "component": "header",
+        "reused": null,
+        "pixels": 113760,
+        "differentPixels": 9367,
+        "ratio": 0.08234001406469761,
+        "signature": null
+      },
+      {
+        "id": "checkout-heading",
+        "owner": "page",
+        "component": null,
+        "reused": null,
+        "pixels": 31756,
+        "differentPixels": 9966,
+        "ratio": 0.3138304572364278,
+        "signature": "fb7bc66e426fa0a35619e74d12db842607cb3a256bad418f26e58decaf3e6226"
+      },
+      {
+        "id": "checkout-steps",
+        "owner": "page",
+        "component": null,
+        "reused": null,
+        "pixels": 100806,
+        "differentPixels": 96386,
+        "ratio": 0.956153403567248,
+        "signature": "b98936967d546ec132f09f718bda1c9776302d33a4251ef574b0afb6ce6b66b9"
+      },
+      {
+        "id": "checkout-customer-details",
+        "owner": "page",
+        "component": null,
+        "reused": null,
+        "pixels": 550834,
+        "differentPixels": 470605,
+        "ratio": 0.8543499493495318,
+        "signature": null
+      },
+      {
+        "id": "checkout-payment",
+        "owner": "page",
+        "component": null,
+        "reused": null,
+        "pixels": 617544,
+        "differentPixels": 617544,
+        "ratio": 1,
+        "signature": null
+      },
+      {
+        "id": "checkout-delivery",
+        "owner": "page",
+        "component": null,
+        "reused": null,
+        "pixels": 205848,
+        "differentPixels": 205848,
+        "ratio": 1,
+        "signature": null
+      },
+      {
+        "id": "checkout-totals",
+        "owner": "page",
+        "component": null,
+        "reused": null,
+        "pixels": 220891,
+        "differentPixels": 213445,
+        "ratio": 0.966291066634675,
+        "signature": "52ce9586eb7c669c92f8b2d5681d7878313199ef07833f0e20d6748e3ff1dc71"
+      },
+      {
+        "id": "shared-footer",
+        "owner": "footer",
+        "component": "footer",
+        "reused": null,
+        "pixels": 1920,
+        "differentPixels": 0,
+        "ratio": 0,
+        "signature": null
+      }
+    ],
+    "worstRows": [
+      {
+        "y": 194,
+        "count": 1920
+      },
+      {
+        "y": 195,
+        "count": 1920
+      },
+      {
+        "y": 196,
+        "count": 1920
+      },
+      {
+        "y": 958,
+        "count": 1920
+      },
+      {
+        "y": 959,
+        "count": 1920
+      },
+      {
+        "y": 960,
+        "count": 1920
+      },
+      {
+        "y": 961,
+        "count": 1920
+      },
+      {
+        "y": 962,
+        "count": 1920
+      },
+      {
+        "y": 963,
+        "count": 1920
+      },
+      {
+        "y": 964,
+        "count": 1920
+      },
+      {
+        "y": 965,
+        "count": 1920
+      },
+      {
+        "y": 966,
+        "count": 1920
+      },
+      {
+        "y": 967,
+        "count": 1920
+      },
+      {
+        "y": 968,
+        "count": 1920
+      },
+      {
+        "y": 969,
+        "count": 1920
+      },
+      {
+        "y": 970,
+        "count": 1920
+      },
+      {
+        "y": 971,
+        "count": 1920
+      },
+      {
+        "y": 972,
+        "count": 1920
+      },
+      {
+        "y": 973,
+        "count": 1920
+      },
+      {
+        "y": 974,
+        "count": 1920
+      }
+    ]
+  },
+  "reference": {
+    "path": "references/full/frame-489-483.png",
+    "width": 1920,
+    "height": 2942,
+    "sha256": "369ca4fe830ae75a1a4309e584cd7249281a1662385804058485adcbd112a2ce"
+  },
+  "rendered": {
+    "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/061-build-checkout/build-readiness/checkout/checkout/rendered.png",
+    "width": 1920,
+    "height": 958,
+    "sha256": "bf5aa1a48734621e34443183c55223b06567b85a8d505adbb7f280d6c34f522a"
+  },
+  "acceptance": {
+    "threshold": 0.085,
+    "pagePassed": false,
+    "sharedPassed": null,
+    "pageErrors": [
+      "page pixel mismatch 91.092%",
+      "Section geometry differs: checkout-heading",
+      "Section geometry differs: checkout-steps",
+      "Section geometry differs: checkout-customer-details",
+      "Section geometry differs: checkout-payment",
+      "Section geometry differs: checkout-delivery",
+      "Section geometry differs: checkout-totals"
+    ],
+    "sharedErrors": [],
+    "skippedOwners": [
+      "header",
+      "footer"
+    ],
+    "note": "Page build readiness can defer shared visual issues. Final acceptance requires both plus independent visual audit. Section ratios remain diagnostics."
+  },
+  "chromeReview": {
+    "skippedOwners": [
+      "header",
+      "footer"
+    ],
+    "reason": "Deferred to representative final shared audit"
+  },
+  "progress": {
+    "deferred": false,
+    "samples": [
+      {
+        "file": "current capture",
+        "implementationHash": "60276f1f88bb7be013fae26605475205e370cb6627bee8f9b15d9c59c08f1523",
+        "capturedAt": "2026-09-13T06:36:02.295Z",
+        "ratio": 0.9109189581119377
+      },
+      {
+        "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789280949345\\summary.json",
+        "implementationHash": "ab3a6aeb2a3ec10e0a3cf8071fcc65523e506f962aa2bdd2942b5dc24c6b3763",
+        "capturedAt": "2026-09-13T06:29:15.395Z",
+        "ratio": 0.03758846550431196
+      },
+      {
+        "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789280776170\\summary.json",
+        "implementationHash": "d724187c9b2b5f53af4027981a9f06ddcd4f6ce53b4ec7dc144a40e5a3926cde",
+        "capturedAt": "2026-09-13T06:26:21.933Z",
+        "ratio": 0.039687031308586425
+      }
+    ],
+    "improvement": 0.8733304926076257,
+    "policy": {
+      "samples": 3,
+      "maxPageMismatch": 0.13,
+      "minImprovement": 0.03
+    },
+    "nonPixelErrors": [
+      "Section geometry differs: checkout-heading",
+      "Section geometry differs: checkout-steps",
+      "Section geometry differs: checkout-customer-details",
+      "Section geometry differs: checkout-payment",
+      "Section geometry differs: checkout-delivery",
+      "Section geometry differs: checkout-totals"
+    ],
+    "reason": "Insufficient measured progress across distinct implementations; unresolved visual work belongs to final audit, not PASS."
+  }
+}

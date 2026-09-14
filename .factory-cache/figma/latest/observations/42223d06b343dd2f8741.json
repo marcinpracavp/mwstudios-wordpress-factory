@@ -1,0 +1,777 @@
+{
+  "id": "42223d06b343dd2f8741",
+  "tool": "figma.use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "496:1722",
+    "495:1558"
+  ],
+  "description": "Capture logical section account-registration-dialog for immediate snapshot persistence",
+  "recordedAt": "2026-09-10T19:43:12.329Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "nodeId": "496:1722",
+      "name": "popup",
+      "type": "GROUP",
+      "desktop": {
+        "x": 970,
+        "y": 490,
+        "width": 802,
+        "height": 752
+      },
+      "children": [
+        {
+          "nodeId": "496:1723",
+          "type": "VECTOR",
+          "visible": true,
+          "geometry": {
+            "x": 970,
+            "y": 490,
+            "width": 710,
+            "height": 752
+          }
+        },
+        {
+          "nodeId": "509:245",
+          "type": "RECTANGLE",
+          "visible": true,
+          "geometry": {
+            "x": 1013,
+            "y": 669,
+            "width": 631,
+            "height": 43
+          }
+        },
+        {
+          "nodeId": "509:246",
+          "type": "TEXT",
+          "visible": true,
+          "geometry": {
+            "x": 1028,
+            "y": 669,
+            "width": 309,
+            "height": 43
+          }
+        },
+        {
+          "nodeId": "509:248",
+          "type": "RECTANGLE",
+          "visible": true,
+          "geometry": {
+            "x": 1013,
+            "y": 741,
+            "width": 631,
+            "height": 43
+          }
+        },
+        {
+          "nodeId": "509:249",
+          "type": "TEXT",
+          "visible": true,
+          "geometry": {
+            "x": 1028,
+            "y": 741,
+            "width": 309,
+            "height": 43
+          }
+        },
+        {
+          "nodeId": "509:251",
+          "type": "RECTANGLE",
+          "visible": true,
+          "geometry": {
+            "x": 1013,
+            "y": 813,
+            "width": 631,
+            "height": 43
+          }
+        },
+        {
+          "nodeId": "509:252",
+          "type": "TEXT",
+          "visible": true,
+          "geometry": {
+            "x": 1028,
+            "y": 813,
+            "width": 309,
+            "height": 43
+          }
+        },
+        {
+          "nodeId": "509:254",
+          "type": "RECTANGLE",
+          "visible": true,
+          "geometry": {
+            "x": 1013,
+            "y": 885,
+            "width": 631,
+            "height": 43
+          }
+        },
+        {
+          "nodeId": "509:255",
+          "type": "TEXT",
+          "visible": true,
+          "geometry": {
+            "x": 1028,
+            "y": 885,
+            "width": 309,
+            "height": 43
+          }
+        },
+        {
+          "nodeId": "509:257",
+          "type": "RECTANGLE",
+          "visible": true,
+          "geometry": {
+            "x": 1013,
+            "y": 957,
+            "width": 631,
+            "height": 43
+          }
+        },
+        {
+          "nodeId": "509:258",
+          "type": "TEXT",
+          "visible": true,
+          "geometry": {
+            "x": 1028,
+            "y": 957,
+            "width": 309,
+            "height": 43
+          }
+        },
+        {
+          "nodeId": "496:1728",
+          "type": "TEXT",
+          "visible": true,
+          "geometry": {
+            "x": 1012.5654296875,
+            "y": 521,
+            "width": 287.39971923828125,
+            "height": 38.05292510986328
+          }
+        },
+        {
+          "nodeId": "496:1760",
+          "type": "TEXT",
+          "visible": true,
+          "geometry": {
+            "x": 1013,
+            "y": 1047,
+            "width": 631,
+            "height": 35
+          }
+        },
+        {
+          "nodeId": "496:1758",
+          "type": "TEXT",
+          "visible": true,
+          "geometry": {
+            "x": 1012.5654296875,
+            "y": 1000.71044921875,
+            "width": 596.830078125,
+            "height": 39.054317474365234
+          }
+        },
+        {
+          "nodeId": "496:1731",
+          "type": "GROUP",
+          "visible": true,
+          "geometry": {
+            "x": 1012.5654296875,
+            "y": 1148,
+            "width": 223.31057739257812,
+            "height": 44.061283111572266
+          }
+        },
+        {
+          "nodeId": "509:242",
+          "type": "RECTANGLE",
+          "visible": true,
+          "geometry": {
+            "x": 1013,
+            "y": 597,
+            "width": 631,
+            "height": 43
+          }
+        },
+        {
+          "nodeId": "509:243",
+          "type": "TEXT",
+          "visible": true,
+          "geometry": {
+            "x": 1028,
+            "y": 597,
+            "width": 309,
+            "height": 43
+          }
+        },
+        {
+          "nodeId": "509:260",
+          "type": "RECTANGLE",
+          "visible": true,
+          "geometry": {
+            "x": 1013,
+            "y": 1098,
+            "width": 15,
+            "height": 15
+          }
+        },
+        {
+          "nodeId": "509:261",
+          "type": "TEXT",
+          "visible": true,
+          "geometry": {
+            "x": 1036,
+            "y": 1095,
+            "width": 736,
+            "height": 21
+          }
+        }
+      ],
+      "texts": [
+        {
+          "nodeId": "509:246",
+          "value": "Imię*",
+          "geometry": {
+            "x": 1028,
+            "y": 669,
+            "width": 309,
+            "height": 43
+          },
+          "segments": [
+            {
+              "characters": "Imię*",
+              "start": 0,
+              "end": 5,
+              "fontSize": 14,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 400,
+              "lineHeight": {
+                "unit": "AUTO"
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.7836538553237915,
+                    "g": 0.7836538553237915,
+                    "b": 0.7836538553237915
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            }
+          ]
+        },
+        {
+          "nodeId": "509:249",
+          "value": "Nazwisko*",
+          "geometry": {
+            "x": 1028,
+            "y": 741,
+            "width": 309,
+            "height": 43
+          },
+          "segments": [
+            {
+              "characters": "Nazwisko*",
+              "start": 0,
+              "end": 9,
+              "fontSize": 14,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 400,
+              "lineHeight": {
+                "unit": "AUTO"
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.7836538553237915,
+                    "g": 0.7836538553237915,
+                    "b": 0.7836538553237915
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            }
+          ]
+        },
+        {
+          "nodeId": "509:252",
+          "value": "Adres e-mail*",
+          "geometry": {
+            "x": 1028,
+            "y": 813,
+            "width": 309,
+            "height": 43
+          },
+          "segments": [
+            {
+              "characters": "Adres e-mail*",
+              "start": 0,
+              "end": 13,
+              "fontSize": 14,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 400,
+              "lineHeight": {
+                "unit": "AUTO"
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.7836538553237915,
+                    "g": 0.7836538553237915,
+                    "b": 0.7836538553237915
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            }
+          ]
+        },
+        {
+          "nodeId": "509:255",
+          "value": "Hasło*",
+          "geometry": {
+            "x": 1028,
+            "y": 885,
+            "width": 309,
+            "height": 43
+          },
+          "segments": [
+            {
+              "characters": "Hasło*",
+              "start": 0,
+              "end": 6,
+              "fontSize": 14,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 400,
+              "lineHeight": {
+                "unit": "AUTO"
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.7836538553237915,
+                    "g": 0.7836538553237915,
+                    "b": 0.7836538553237915
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            }
+          ]
+        },
+        {
+          "nodeId": "509:258",
+          "value": "Powtórz hasło*",
+          "geometry": {
+            "x": 1028,
+            "y": 957,
+            "width": 309,
+            "height": 43
+          },
+          "segments": [
+            {
+              "characters": "Powtórz hasło*",
+              "start": 0,
+              "end": 14,
+              "fontSize": 14,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 400,
+              "lineHeight": {
+                "unit": "AUTO"
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.7836538553237915,
+                    "g": 0.7836538553237915,
+                    "b": 0.7836538553237915
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            }
+          ]
+        },
+        {
+          "nodeId": "496:1728",
+          "value": "Zarejestruj się",
+          "geometry": {
+            "x": 1012.5654296875,
+            "y": 521,
+            "width": 287.39971923828125,
+            "height": 38.05292510986328
+          },
+          "segments": [
+            {
+              "characters": "Zarejestruj się",
+              "start": 0,
+              "end": 15,
+              "fontSize": 24,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 700,
+              "lineHeight": {
+                "unit": "AUTO"
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.02856878750026226,
+                    "g": 0.028846153989434242,
+                    "b": 0.02871447429060936
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            }
+          ]
+        },
+        {
+          "nodeId": "496:1760",
+          "value": "*Pola wymagane",
+          "geometry": {
+            "x": 1013,
+            "y": 1047,
+            "width": 631,
+            "height": 35
+          },
+          "segments": [
+            {
+              "characters": "*Pola wymagane",
+              "start": 0,
+              "end": 14,
+              "fontSize": 14,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 400,
+              "lineHeight": {
+                "unit": "AUTO"
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            }
+          ]
+        },
+        {
+          "nodeId": "496:1758",
+          "value": "Uwaga: Hasło musi składać się z minimum 8 znaków, zawierać jedną wielka literę oraz cyfrę",
+          "geometry": {
+            "x": 1012.5654296875,
+            "y": 1000.71044921875,
+            "width": 596.830078125,
+            "height": 39.054317474365234
+          },
+          "segments": [
+            {
+              "characters": "Uwaga: Hasło musi składać się z minimum 8 znaków, zawierać jedną wielka literę oraz cyfrę",
+              "start": 0,
+              "end": 89,
+              "fontSize": 12,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 400,
+              "lineHeight": {
+                "unit": "AUTO"
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.6682692170143127,
+                    "g": 0.6682692170143127,
+                    "b": 0.6682692170143127
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            }
+          ]
+        },
+        {
+          "nodeId": "496:1733",
+          "value": "Zarejestruj się",
+          "geometry": {
+            "x": 1034.595703125,
+            "y": 1148,
+            "width": 180.25070190429688,
+            "height": 44.061283111572266
+          },
+          "segments": [
+            {
+              "characters": "Zarejestruj się",
+              "start": 0,
+              "end": 15,
+              "fontSize": 16,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 700,
+              "lineHeight": {
+                "unit": "AUTO"
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            }
+          ]
+        },
+        {
+          "nodeId": "509:243",
+          "value": "Nazwa użytkownika*",
+          "geometry": {
+            "x": 1028,
+            "y": 597,
+            "width": 309,
+            "height": 43
+          },
+          "segments": [
+            {
+              "characters": "Nazwa użytkownika*",
+              "start": 0,
+              "end": 18,
+              "fontSize": 14,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 400,
+              "lineHeight": {
+                "unit": "AUTO"
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.7836538553237915,
+                    "g": 0.7836538553237915,
+                    "b": 0.7836538553237915
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            }
+          ]
+        },
+        {
+          "nodeId": "509:261",
+          "value": "Oświadczam, że zapoznałem/am się z Regulaminem oraz Polityką prywatności i akceptuję je.",
+          "geometry": {
+            "x": 1036,
+            "y": 1095,
+            "width": 736,
+            "height": 21
+          },
+          "segments": [
+            {
+              "characters": "Oświadczam, że zapoznałem/am się z Regulaminem oraz Polityką prywatności i akceptuję je.",
+              "start": 0,
+              "end": 88,
+              "fontSize": 14,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 400,
+              "lineHeight": {
+                "unit": "AUTO"
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

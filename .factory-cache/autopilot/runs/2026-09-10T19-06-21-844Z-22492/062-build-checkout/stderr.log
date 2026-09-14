@@ -1,0 +1,4 @@
+2026-09-13T06:37:14.003530Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+2026-09-13T06:37:17.908210Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh
+2026-09-13T06:45:16.208792Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in C:\Users\HP\Local Sites\autopilot\app\public\wp-content\themes\slawinsky-boilerplate\docs\factory\project\PLAN.md:
+### Checkout source-to-field mapping â€” no fields created

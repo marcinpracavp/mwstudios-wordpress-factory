@@ -1,0 +1,18 @@
+{
+  "id": "3517d0fef7d04a84e32b",
+  "tool": "figma.use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [],
+  "description": "Resolve which downloaded hero image has the exact source image dimensions",
+  "recordedAt": "2026-09-10T19:38:56.590Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "imageHash": "401c80707ee6caba0e9ff5d58a8eebef1435d029",
+      "size": {
+        "width": 1448,
+        "height": 720
+      }
+    }
+  ]
+}

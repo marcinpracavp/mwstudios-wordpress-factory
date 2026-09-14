@@ -1,0 +1,1039 @@
+{
+  "id": "147bd63be14c6c7da9d4",
+  "tool": "use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "574:426",
+    "250:115"
+  ],
+  "description": "Capture exact home-bundles-active section source",
+  "recordedAt": "2026-09-11T00:57:03.663Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "id": "574:426",
+      "name": "pakiety",
+      "frame": "250:115",
+      "total": 91,
+      "nodes": [
+        {
+          "id": "574:426",
+          "name": "pakiety",
+          "type": "GROUP",
+          "parentId": "250:115",
+          "bounds": {
+            "x": 174,
+            "y": 3316,
+            "width": 1574,
+            "height": 724
+          },
+          "style": 0
+        },
+        {
+          "id": "574:427",
+          "name": "produkt1",
+          "type": "GROUP",
+          "parentId": "574:426",
+          "bounds": {
+            "x": 241,
+            "y": 3490,
+            "width": 345,
+            "height": 464
+          },
+          "style": 0
+        },
+        {
+          "id": "574:428",
+          "name": "Rectangle 18",
+          "type": "RECTANGLE",
+          "parentId": "574:427",
+          "bounds": {
+            "x": 241,
+            "y": 3490,
+            "width": 345,
+            "height": 464
+          },
+          "style": 1
+        },
+        {
+          "id": "574:429",
+          "name": "Najniższa cena z 30 dni przed obniżką: 3365,00 zł",
+          "type": "TEXT",
+          "parentId": "574:427",
+          "bounds": {
+            "x": 277,
+            "y": 3860,
+            "width": 276,
+            "height": 16
+          },
+          "style": 2,
+          "characters": "Najniższa cena z 30 dni przed obniżką: 3365,00 zł",
+          "align": [
+            "LEFT",
+            "CENTER"
+          ],
+          "segments": [
+            {
+              "characters": "Najniższa cena z 30 dni przed obniżką: 3365,00 zł",
+              "start": 0,
+              "end": 49,
+              "style": 3
+            }
+          ]
+        },
+        {
+          "id": "574:430",
+          "name": "Rectangle 32",
+          "type": "RECTANGLE",
+          "parentId": "574:427",
+          "bounds": {
+            "x": 260,
+            "y": 3888,
+            "width": 149,
+            "height": 44
+          },
+          "style": 4
+        },
+        {
+          "id": "574:431",
+          "name": "1",
+          "type": "TEXT",
+          "parentId": "574:427",
+          "bounds": {
+            "x": 332,
+            "y": 3901,
+            "width": 6,
+            "height": 18
+          },
+          "style": 2,
+          "characters": "1",
+          "align": [
+            "CENTER",
+            "CENTER"
+          ],
+          "segments": [
+            {
+              "characters": "1",
+              "start": 0,
+              "end": 1,
+              "style": 5
+            }
+          ]
+        },
+        {
+          "id": "574:432",
+          "name": "-",
+          "type": "TEXT",
+          "parentId": "574:427",
+          "bounds": {
+            "x": 276,
+            "y": 3901,
+            "width": 9,
+            "height": 18
+          },
+          "style": 2,
+          "characters": "-",
+          "align": [
+            "CENTER",
+            "CENTER"
+          ],
+          "segments": [
+            {
+              "characters": "-",
+              "start": 0,
+              "end": 1,
+              "style": 5
+            }
+          ]
+        },
+        {
+          "id": "574:433",
+          "name": "+",
+          "type": "TEXT",
+          "parentId": "574:427",
+          "bounds": {
+            "x": 385,
+            "y": 3901,
+            "width": 9,
+            "height": 18
+          },
+          "style": 2,
+          "characters": "+",
+          "align": [
+            "CENTER",
+            "CENTER"
+          ],
+          "segments": [
+            {
+              "characters": "+",
+              "start": 0,
+              "end": 1,
+              "style": 5
+            }
+          ]
+        },
+        {
+          "id": "574:434",
+          "name": "Rectangle 33",
+          "type": "RECTANGLE",
+          "parentId": "574:427",
+          "bounds": {
+            "x": 419,
+            "y": 3888,
+            "width": 149,
+            "height": 44
+          },
+          "style": 6
+        },
+        {
+          "id": "574:435",
+          "name": "koszyk 1",
+          "type": "FRAME",
+          "parentId": "574:427",
+          "bounds": {
+            "x": 434,
+            "y": 3899,
+            "width": 23,
+            "height": 23
+          },
+          "style": 7
+        },
+        {
+          "id": "574:436",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "574:435",
+          "bounds": {
+            "x": 434,
+            "y": 3898.9921875,
+            "width": 23.008108139038086,
+            "height": 18.17466163635254
+          },
+          "style": 8
+        },
+        {
+          "id": "574:437",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "574:435",
+          "bounds": {
+            "x": 440.71533203125,
+            "y": 3917.4931640625,
+            "width": 4.201574802398682,
+            "height": 4.506757736206055
+          },
+          "style": 8
+        },
+        {
+          "id": "574:438",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "574:435",
+          "bounds": {
+            "x": 450.9150390625,
+            "y": 3917.4931640625,
+            "width": 4.201574802398682,
+            "height": 4.506757736206055
+          },
+          "style": 8
+        },
+        {
+          "id": "574:439",
+          "name": "Do koszyka",
+          "type": "TEXT",
+          "parentId": "574:427",
+          "bounds": {
+            "x": 449,
+            "y": 3891,
+            "width": 119,
+            "height": 39
+          },
+          "style": 9,
+          "characters": "Do koszyka",
+          "align": [
+            "CENTER",
+            "CENTER"
+          ],
+          "segments": [
+            {
+              "characters": "Do koszyka",
+              "start": 0,
+              "end": 10,
+              "style": 10
+            }
+          ]
+        },
+        {
+          "id": "574:440",
+          "name": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L",
+          "type": "TEXT",
+          "parentId": "574:427",
+          "bounds": {
+            "x": 256,
+            "y": 3767,
+            "width": 317,
+            "height": 65
+          },
+          "style": 11,
+          "characters": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L",
+          "align": [
+            "CENTER",
+            "CENTER"
+          ],
+          "segments": [
+            {
+              "characters": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L",
+              "start": 0,
+              "end": 72,
+              "style": 12
+            }
+          ]
+        },
+        {
+          "id": "574:441",
+          "name": "2 965,00 zł",
+          "type": "TEXT",
+          "parentId": "574:427",
+          "bounds": {
+            "x": 296,
+            "y": 3825,
+            "width": 129,
+            "height": 31
+          },
+          "style": 2,
+          "characters": "2 965,00 zł",
+          "align": [
+            "CENTER",
+            "CENTER"
+          ],
+          "segments": [
+            {
+              "characters": "2 965,00 zł",
+              "start": 0,
+              "end": 11,
+              "style": 13
+            }
+          ]
+        },
+        {
+          "id": "574:442",
+          "name": "3365,00 zł",
+          "type": "TEXT",
+          "parentId": "574:427",
+          "bounds": {
+            "x": 440,
+            "y": 3831,
+            "width": 89,
+            "height": 23
+          },
+          "style": 2,
+          "characters": "3365,00 zł",
+          "align": [
+            "RIGHT",
+            "CENTER"
+          ],
+          "segments": [
+            {
+              "characters": "3365,00 zł",
+              "start": 0,
+              "end": 10,
+              "style": 14
+            }
+          ]
+        },
+        {
+          "id": "574:443",
+          "name": "Line 3",
+          "type": "LINE",
+          "parentId": "574:427",
+          "bounds": {
+            "x": 270,
+            "y": 3766.999975346777,
+            "width": 282,
+            "height": 0.00002465322313582874
+          },
+          "style": 15
+        },
+        {
+          "id": "574:444",
+          "name": "Rectangle 40",
+          "type": "VECTOR",
+          "parentId": "574:427",
+          "bounds": {
+            "x": 242,
+            "y": 3543,
+            "width": 166,
+            "height": 30
+          },
+          "style": 16
+        },
+        {
+          "id": "574:445",
+          "name": "Oszczędzasz 400 zł",
+          "type": "TEXT",
+          "parentId": "574:427",
+          "bounds": {
+            "x": 250,
+            "y": 3547,
+            "width": 147,
+            "height": 21
+          },
+          "style": 9,
+          "characters": "Oszczędzasz 400 zł",
+          "align": [
+            "LEFT",
+            "CENTER"
+          ],
+          "segments": [
+            {
+              "characters": "Oszczędzasz 400 zł",
+              "start": 0,
+              "end": 18,
+              "style": 17
+            }
+          ]
+        },
+        {
+          "id": "574:446",
+          "name": "Rectangle 175",
+          "type": "RECTANGLE",
+          "parentId": "574:427",
+          "bounds": {
+            "x": 270,
+            "y": 3573,
+            "width": 292,
+            "height": 177
+          },
+          "style": 18
+        },
+        {
+          "id": "574:447",
+          "name": "produkt1",
+          "type": "GROUP",
+          "parentId": "574:426",
+          "bounds": {
+            "x": 605,
+            "y": 3490,
+            "width": 1075,
+            "height": 464
+          },
+          "style": 0
+        },
+        {
+          "id": "574:448",
+          "name": "Rectangle 18",
+          "type": "RECTANGLE",
+          "parentId": "574:447",
+          "bounds": {
+            "x": 605,
+            "y": 3490,
+            "width": 345,
+            "height": 464
+          },
+          "style": 1
+        },
+        {
+          "id": "574:449",
+          "name": "Najniższa cena z 30 dni przed obniżką: 3365,00 zł",
+          "type": "TEXT",
+          "parentId": "574:447",
+          "bounds": {
+            "x": 641,
+            "y": 3860,
+            "width": 276,
+            "height": 16
+          },
+          "style": 2,
+          "characters": "Najniższa cena z 30 dni przed obniżką: 3365,00 zł",
+          "align": [
+            "LEFT",
+            "CENTER"
+          ],
+          "segments": [
+            {
+              "characters": "Najniższa cena z 30 dni przed obniżką: 3365,00 zł",
+              "start": 0,
+              "end": 49,
+              "style": 3
+            }
+          ]
+        },
+        {
+          "id": "574:450",
+          "name": "Rectangle 32",
+          "type": "RECTANGLE",
+          "parentId": "574:447",
+          "bounds": {
+            "x": 624,
+            "y": 3888,
+            "width": 149,
+            "height": 44
+          },
+          "style": 4
+        }
+      ],
+      "styles": [
+        {
+          "visible": true,
+          "opacity": 1,
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.7836538553237915,
+                "g": 0.7836538553237915,
+                "b": 0.7836538553237915
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 30,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.11372549086809158,
+                "g": 0.11372549086809158,
+                "b": 0.10588235408067703
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "OUTSIDE",
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "fontSize": 12,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 400,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.11372549086809158,
+                "g": 0.11372549086809158,
+                "b": 0.10588235408067703
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 30,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "fontSize": 14,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 700,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.11372549086809158,
+                "g": 0.11372549086809158,
+                "b": 0.10588235408067703
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0.4000000059604645,
+                "b": 0.20000000298023224
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 30,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": false,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH",
+          "layoutMode": "NONE",
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "OUTSIDE",
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "fontSize": 14,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 700,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.02856878750026226,
+                "g": 0.028846153989434242,
+                "b": 0.02871447429060936
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "OUTSIDE",
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "fontSize": 18,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 400,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.02856878750026226,
+                "g": 0.028846153989434242,
+                "b": 0.02871447429060936
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        },
+        {
+          "fontSize": 24,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 700,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.11372549086809158,
+                "g": 0.11372549086809158,
+                "b": 0.10588235408067703
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        },
+        {
+          "fontSize": 18,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 400,
+          "textDecoration": "STRIKETHROUGH",
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.11372549086809158,
+                "g": 0.11372549086809158,
+                "b": 0.10588235408067703
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.6682692170143127,
+                "g": 0.6682692170143127,
+                "b": 0.6682692170143127
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokeWeight": 0.5,
+          "strokeAlign": "CENTER",
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9215686321258545,
+                "g": 0.40784314274787903,
+                "b": 0.20392157137393951
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "fontSize": 16,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 400,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "IMAGE",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "scaleMode": "FIT",
+              "scalingFactor": 0.5,
+              "rotation": 0,
+              "filters": {
+                "exposure": 0,
+                "contrast": 0,
+                "saturation": 0,
+                "temperature": 0,
+                "tint": 0,
+                "highlights": 0,
+                "shadows": 0
+              },
+              "imageTransform": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0.696045994758606,
+                  0.15197698771953583
+                ]
+              ],
+              "imageHash": "d295588b5b50f287cbaef2962e51570a699dc663"
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        }
+      ]
+    }
+  ]
+}

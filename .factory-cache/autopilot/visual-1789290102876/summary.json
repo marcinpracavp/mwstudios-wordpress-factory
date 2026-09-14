@@ -1,0 +1,61 @@
+{
+  "capturedAt": "2026-09-13T09:01:52.326Z",
+  "implementationHash": "1eedf7af71e93aef8cb9b7233f5fd78b5878996b6c44f4438b84c1fa5632b5f6",
+  "sourceHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+  "thresholds": {
+    "channelTolerance": 24,
+    "maxDifferentPixelRatio": 0.085,
+    "geometryTolerancePx": 2
+  },
+  "acceptanceScope": "page",
+  "buildReady": false,
+  "deferred": [],
+  "passed": false,
+  "pagePassed": false,
+  "routes": [
+    {
+      "id": "checkout-login",
+      "passed": false,
+      "pagePassed": false,
+      "ownership": {
+        "header": {
+          "pixels": 372480,
+          "differentPixels": 21549,
+          "ratio": 0.057852770618556704
+        },
+        "footer": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "shared": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "page": {
+          "pixels": 1376640,
+          "differentPixels": 1070325,
+          "ratio": 0.7774908472803347
+        },
+        "outside": {
+          "pixels": 1704960,
+          "differentPixels": 1586059,
+          "ratio": 0.9302617070195195
+        },
+        "reused": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        }
+      },
+      "errors": [
+        "page pixel mismatch 77.749%",
+        "Section geometry differs: checkout-login-heading",
+        "Section geometry differs: checkout-steps",
+        "Section geometry differs: checkout-login-options"
+      ],
+      "comparison": ".factory-cache/autopilot/visual-1789290102876/checkout-login/comparison.json"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "blog-archive-heading",
+  "name": "Blog archive heading",
+  "order": 38,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "327:3098"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 200,
+    "y": 219,
+    "width": 1520,
+    "height": 220,
+    "productionFrame": "327:2986",
+    "containerWidth": 1440,
+    "padding": {
+      "left": 240,
+      "right": 240
+    }
+  },
+  "layout": {
+    "type": "source-composition",
+    "productionFrame": "327:2986",
+    "designContextRead": true,
+    "nodes": [
+      {
+        "id": "327:3097",
+        "name": "Banner",
+        "type": "RECTANGLE",
+        "parentId": null,
+        "bounds": {
+          "x": 240,
+          "y": 219,
+          "width": 1440,
+          "height": 150
+        },
+        "visible": true
+      },
+      {
+        "id": "327:3098",
+        "name": "Blog",
+        "type": "TEXT",
+        "parentId": null,
+        "bounds": {
+          "x": 898,
+          "y": 219,
+          "width": 123,
+          "height": 150
+        },
+        "visible": true
+      },
+      {
+        "id": "327:2987",
+        "name": "Breadcrumb",
+        "type": "TEXT",
+        "parentId": null,
+        "bounds": {
+          "x": 240,
+          "y": 369,
+          "width": 508,
+          "height": 70
+        },
+        "visible": true
+      }
+    ]
+  },
+  "typography": [
+    {
+      "nodeId": "327:3098",
+      "fontFamily": "DM Sans",
+      "weight": 700,
+      "size": 48,
+      "lineHeight": 24
+    }
+  ],
+  "colors": [
+    "#056839"
+  ],
+  "effects": [],
+  "contentFields": [
+    "banner_label",
+    "breadcrumb"
+  ],
+  "assets": [
+    {
+      "sourceNodeId": "327:3097",
+      "path": "assets/blog/blog-archive-banner-327-3097.png",
+      "usage": "Exact Figma MCP export; crop/geometry recorded in this section."
+    }
+  ],
+  "notes": [
+    "Exact full-frame crop: x=200,y=219,width=1520,height=220 from references/full/frame-327-2986.png.",
+    "Breadcrumb destination URLs are absent from source."
+  ],
+  "liveFigmaRequired": false
+}

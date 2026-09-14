@@ -2,7 +2,7 @@
 @use 'mixins' as *;
 
 // Lista wartości
-$xl-min-values: (210, 150, 140, 130, 120, 110, 100, 90, 80, 70, 60, 50, 40, 30);
+$xl-min-values: (590, 580, 210, 150, 140, 130, 126, 123, 121, 120, 110, 104, 100, 94, 90, 80, 70, 66, 60, 57, 50, 40, 33, 30, 28, 24, 23, 22, 18);
 $scale-factors: (
     xl-max: calc(1 / 1.25),
     // 75% wartości poprzedniej
@@ -225,6 +225,11 @@ $spacing-values: ();
   }
   .mr-#{$size} {
     @extend %margin-right-#{$size};
+  }
+  // The container layout resets margins later in the cascade. Keep responsive
+  // spacing utilities effective when a section is also a layout container.
+  .l-container.mt-#{$size} {
+    @extend %margin-top-#{$size};
   }
 }
 

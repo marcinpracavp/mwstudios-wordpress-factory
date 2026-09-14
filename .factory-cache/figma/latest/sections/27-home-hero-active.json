@@ -1,0 +1,758 @@
+{
+  "id": "home-hero-active",
+  "name": "slider",
+  "order": 27,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "250:712"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 40,
+    "y": 195,
+    "width": 1840,
+    "height": 800
+  },
+  "layout": {
+    "type": "source-composition",
+    "productionFrame": "250:115",
+    "designContextRead": true,
+    "nodes": [
+      {
+        "id": "250:712",
+        "name": "slider",
+        "type": "GROUP",
+        "parentId": "250:115",
+        "bounds": {
+          "x": 40,
+          "y": 195,
+          "width": 1840,
+          "height": 800
+        },
+        "style": 0
+      },
+      {
+        "id": "250:713",
+        "name": "Rectangle 1",
+        "type": "VECTOR",
+        "parentId": "250:712",
+        "bounds": {
+          "x": 40,
+          "y": 195,
+          "width": 1840,
+          "height": 800
+        },
+        "style": 1
+      },
+      {
+        "id": "250:714",
+        "name": "Ellipse 11",
+        "type": "ELLIPSE",
+        "parentId": "250:712",
+        "bounds": {
+          "x": 827,
+          "y": 923,
+          "width": 25,
+          "height": 25
+        },
+        "style": 2
+      },
+      {
+        "id": "250:715",
+        "name": "Ellipse 16",
+        "type": "ELLIPSE",
+        "parentId": "250:712",
+        "bounds": {
+          "x": 822,
+          "y": 918,
+          "width": 35,
+          "height": 35
+        },
+        "style": 3
+      },
+      {
+        "id": "250:716",
+        "name": "Ellipse 12",
+        "type": "ELLIPSE",
+        "parentId": "250:712",
+        "bounds": {
+          "x": 888,
+          "y": 923,
+          "width": 25,
+          "height": 25
+        },
+        "style": 4
+      },
+      {
+        "id": "250:717",
+        "name": "Ellipse 13",
+        "type": "ELLIPSE",
+        "parentId": "250:712",
+        "bounds": {
+          "x": 949,
+          "y": 923,
+          "width": 25,
+          "height": 25
+        },
+        "style": 4
+      },
+      {
+        "id": "250:718",
+        "name": "Ellipse 14",
+        "type": "ELLIPSE",
+        "parentId": "250:712",
+        "bounds": {
+          "x": 1010,
+          "y": 923,
+          "width": 25,
+          "height": 25
+        },
+        "style": 4
+      },
+      {
+        "id": "250:719",
+        "name": "Ellipse 15",
+        "type": "ELLIPSE",
+        "parentId": "250:712",
+        "bounds": {
+          "x": 1071,
+          "y": 923,
+          "width": 25,
+          "height": 25
+        },
+        "style": 4
+      },
+      {
+        "id": "250:720",
+        "name": "Kupuj nasze produkty bezpośrednio w najlepszych cenach",
+        "type": "TEXT",
+        "parentId": "250:712",
+        "bounds": {
+          "x": 237,
+          "y": 427,
+          "width": 832,
+          "height": 248
+        },
+        "style": 5,
+        "characters": "Kupuj nasze produkty bezpośrednio\nw najlepszych cenach",
+        "align": [
+          "LEFT",
+          "TOP"
+        ],
+        "segments": [
+          {
+            "characters": "Kupuj nasze produkty bezpośrednio\nw najlepszych cenach",
+            "start": 0,
+            "end": 54,
+            "style": 6
+          }
+        ]
+      },
+      {
+        "id": "250:721",
+        "name": "Rectangle 8",
+        "type": "RECTANGLE",
+        "parentId": "250:712",
+        "bounds": {
+          "x": 239,
+          "y": 736,
+          "width": 224,
+          "height": 55
+        },
+        "style": 7
+      },
+      {
+        "id": "250:722",
+        "name": "Sprawdź ofertę",
+        "type": "TEXT",
+        "parentId": "250:712",
+        "bounds": {
+          "x": 242,
+          "y": 736,
+          "width": 182,
+          "height": 55
+        },
+        "style": 5,
+        "characters": "Sprawdź ofertę",
+        "align": [
+          "CENTER",
+          "CENTER"
+        ],
+        "segments": [
+          {
+            "characters": "Sprawdź ofertę",
+            "start": 0,
+            "end": 14,
+            "style": 8
+          }
+        ]
+      },
+      {
+        "id": "250:723",
+        "name": "Arrow 1",
+        "type": "VECTOR",
+        "parentId": "250:712",
+        "bounds": {
+          "x": 424,
+          "y": 763.999997901853,
+          "width": 20,
+          "height": 0.000002098147007245643
+        },
+        "style": 9
+      },
+      {
+        "id": "250:724",
+        "name": "Ellipse 4",
+        "type": "ELLIPSE",
+        "parentId": "250:712",
+        "bounds": {
+          "x": 112,
+          "y": 569,
+          "width": 54,
+          "height": 52
+        },
+        "style": 10
+      },
+      {
+        "id": "250:725",
+        "name": "Vector 7",
+        "type": "VECTOR",
+        "parentId": "250:712",
+        "bounds": {
+          "x": 134.68124670569478,
+          "y": 587.4396362304688,
+          "width": 15.27422533861045,
+          "height": 15.274225338610222
+        },
+        "style": 11
+      },
+      {
+        "id": "250:726",
+        "name": "Ellipse 5",
+        "type": "ELLIPSE",
+        "parentId": "250:712",
+        "bounds": {
+          "x": 1757.9999992687126,
+          "y": 568.9999961853027,
+          "width": 54.0000007312874,
+          "height": 52.00000853552687
+        },
+        "style": 12
+      },
+      {
+        "id": "250:727",
+        "name": "Vector 8",
+        "type": "VECTOR",
+        "parentId": "250:712",
+        "bounds": {
+          "x": 1774.0445273119349,
+          "y": 587.286138430921,
+          "width": 15.27422533860954,
+          "height": 15.274225338610222
+        },
+        "style": 13
+      }
+    ],
+    "styles": [
+      {
+        "visible": true,
+        "opacity": 1,
+        "effects": [],
+        "isMask": false,
+        "blendMode": "PASS_THROUGH"
+      },
+      {
+        "visible": true,
+        "opacity": 1,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "scaleMode": "CROP",
+            "scalingFactor": 0.5,
+            "filters": {
+              "exposure": 0,
+              "contrast": 0,
+              "saturation": 0,
+              "temperature": 0,
+              "tint": 0,
+              "highlights": 0,
+              "shadows": 0
+            },
+            "imageTransform": [
+              [
+                0.9506042003631592,
+                0,
+                0.04681265354156494
+              ],
+              [
+                0,
+                0.8312046527862549,
+                0.11844665557146072
+              ]
+            ],
+            "imageHash": "401c80707ee6caba0e9ff5d58a8eebef1435d029"
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "effects": [],
+        "cornerRadius": 30,
+        "isMask": false,
+        "blendMode": "PASS_THROUGH"
+      },
+      {
+        "visible": true,
+        "opacity": 1,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.5764706134796143,
+              "g": 0.7529411911964417,
+              "b": 0.12156862765550613
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "effects": [],
+        "cornerRadius": 0,
+        "isMask": false,
+        "blendMode": "PASS_THROUGH"
+      },
+      {
+        "visible": true,
+        "opacity": 1,
+        "fills": [],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.5764706134796143,
+              "g": 0.7529411911964417,
+              "b": 0.12156862765550613
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokeWeight": 2,
+        "strokeAlign": "INSIDE",
+        "effects": [],
+        "cornerRadius": 0,
+        "isMask": false,
+        "blendMode": "PASS_THROUGH"
+      },
+      {
+        "visible": true,
+        "opacity": 1,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "effects": [],
+        "cornerRadius": 0,
+        "isMask": false,
+        "blendMode": "PASS_THROUGH"
+      },
+      {
+        "visible": true,
+        "opacity": 1,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 1,
+        "strokeAlign": "OUTSIDE",
+        "effects": [],
+        "isMask": false,
+        "blendMode": "PASS_THROUGH"
+      },
+      {
+        "fontSize": 64,
+        "fontName": {
+          "family": "DM Sans",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700,
+            "opsz": 14
+          }
+        },
+        "fontWeight": 700,
+        "textDecoration": "NONE",
+        "lineHeight": {
+          "unit": "AUTO"
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "hyperlink": null
+      },
+      {
+        "visible": true,
+        "opacity": 1,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 0,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.4156862795352936,
+              "g": 0.7411764860153198,
+              "b": 0.2705882489681244
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokeWeight": 2,
+        "strokeAlign": "INSIDE",
+        "effects": [],
+        "cornerRadius": 49.5,
+        "isMask": false,
+        "blendMode": "PASS_THROUGH"
+      },
+      {
+        "fontSize": 18,
+        "fontName": {
+          "family": "DM Sans",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700,
+            "opsz": 14
+          }
+        },
+        "fontWeight": 700,
+        "textDecoration": "NONE",
+        "lineHeight": {
+          "unit": "AUTO"
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "hyperlink": null
+      },
+      {
+        "visible": true,
+        "opacity": 1,
+        "fills": [],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokeWeight": 1.5,
+        "strokeAlign": "INSIDE",
+        "effects": [],
+        "cornerRadius": 0,
+        "isMask": false,
+        "blendMode": "PASS_THROUGH"
+      },
+      {
+        "visible": true,
+        "opacity": 1,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.9647058844566345,
+              "g": 0.9647058844566345,
+              "b": 0.9647058844566345
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "effects": [],
+        "cornerRadius": 0,
+        "isMask": false,
+        "blendMode": "PASS_THROUGH"
+      },
+      {
+        "visible": true,
+        "opacity": 1,
+        "fills": [],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokeWeight": 2,
+        "strokeAlign": "CENTER",
+        "effects": [],
+        "cornerRadius": 0,
+        "isMask": false,
+        "blendMode": "PASS_THROUGH"
+      },
+      {
+        "visible": true,
+        "opacity": 1,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.5764706134796143,
+              "g": 0.7529411911964417,
+              "b": 0.12156862765550613
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "effects": [],
+        "cornerRadius": 0,
+        "isMask": false,
+        "blendMode": "PASS_THROUGH"
+      },
+      {
+        "visible": true,
+        "opacity": 1,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0.4000000059604645,
+              "b": 0.20000000298023224
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokeWeight": 2,
+        "strokeAlign": "CENTER",
+        "effects": [],
+        "cornerRadius": 0,
+        "isMask": false,
+        "blendMode": "PASS_THROUGH"
+      }
+    ]
+  },
+  "typography": [
+    {
+      "nodeId": "250:720",
+      "segments": [
+        {
+          "characters": "Kupuj nasze produkty bezpośrednio\nw najlepszych cenach",
+          "start": 0,
+          "end": 54,
+          "style": 6
+        }
+      ]
+    },
+    {
+      "nodeId": "250:722",
+      "segments": [
+        {
+          "characters": "Sprawdź ofertę",
+          "start": 0,
+          "end": 14,
+          "style": 8
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "sourceNodeId": "250:713",
+      "path": "assets/home/250-713-rectangle1.png",
+      "usage": "Exact source export; geometry and crop recorded in layout.nodes."
+    },
+    {
+      "sourceNodeId": "250:714",
+      "path": "assets/home/250-714-ellipse11.svg",
+      "usage": "Exact source export; geometry and crop recorded in layout.nodes."
+    },
+    {
+      "sourceNodeId": "250:715",
+      "path": "assets/home/250-715-ellipse16.svg",
+      "usage": "Exact source export; geometry and crop recorded in layout.nodes."
+    },
+    {
+      "sourceNodeId": "250:716",
+      "path": "assets/home/250-716-ellipse12.svg",
+      "usage": "Exact source export; geometry and crop recorded in layout.nodes."
+    },
+    {
+      "sourceNodeId": "250:717",
+      "path": "assets/home/250-717-ellipse12.svg",
+      "usage": "Exact source export; geometry and crop recorded in layout.nodes."
+    },
+    {
+      "sourceNodeId": "250:718",
+      "path": "assets/home/250-718-ellipse12.svg",
+      "usage": "Exact source export; geometry and crop recorded in layout.nodes."
+    },
+    {
+      "sourceNodeId": "250:719",
+      "path": "assets/home/250-719-ellipse12.svg",
+      "usage": "Exact source export; geometry and crop recorded in layout.nodes."
+    },
+    {
+      "sourceNodeId": "250:723",
+      "path": "assets/home/250-723-arrow1.svg",
+      "usage": "Exact source export; geometry and crop recorded in layout.nodes."
+    },
+    {
+      "sourceNodeId": "250:724",
+      "path": "assets/home/250-724-ellipse4.svg",
+      "usage": "Exact source export; geometry and crop recorded in layout.nodes."
+    },
+    {
+      "sourceNodeId": "250:725",
+      "path": "assets/home/250-725-vector7.svg",
+      "usage": "Exact source export; geometry and crop recorded in layout.nodes."
+    },
+    {
+      "sourceNodeId": "250:726",
+      "path": "assets/home/250-726-ellipse5.svg",
+      "usage": "Exact source export; geometry and crop recorded in layout.nodes."
+    },
+    {
+      "sourceNodeId": "250:727",
+      "path": "assets/home/250-727-vector8.svg",
+      "usage": "Exact source export; geometry and crop recorded in layout.nodes."
+    }
+  ],
+  "notes": [
+    "The active full-frame crop includes the expanded menu overlay; underlying slide position remains x40 y195.",
+    "Same sourced single slide; active arrow appearance is captured as a UI state."
+  ],
+  "liveFigmaRequired": false
+}

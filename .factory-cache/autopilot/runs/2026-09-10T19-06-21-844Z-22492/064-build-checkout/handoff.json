@@ -1,0 +1,334 @@
+{
+  "task": {
+    "id": "checkout"
+  },
+  "sourceContext": {
+    "version": 6,
+    "available": true,
+    "index": {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/064-build-checkout/source-context/index.json",
+      "bytes": 1421,
+      "sha256": "7c9ddc054b1cdde0a42a99f180f256980477e204768cd7f71a0028ac2ad66fc4"
+    }
+  },
+  "model": "gpt-5.6-terra",
+  "reasoningEffort": "high",
+  "continuation": "fresh session using persisted artifacts; do not load historical conversation",
+  "previousExecution": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/063-build-checkout/execution.json",
+  "previousResult": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/063-build-checkout/result.json",
+  "correctionFocus": [
+    {
+      "evidence": {
+        "path": ".factory-cache/autopilot/visual-1789290600963/checkout-login/comparison.json",
+        "bytes": 17308,
+        "sha256": "11ad5794112b24cbf25fb3a4a9cacd8090d8aeb1c66cd3ed7cc111cabfa5d320"
+      },
+      "route": "checkout-login",
+      "capturedAt": "2026-09-13T09:10:08.989Z",
+      "ownership": {
+        "header": {
+          "pixels": 629760,
+          "differentPixels": 27245,
+          "ratio": 0.043262512703252036
+        },
+        "footer": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "shared": {
+          "pixels": 100806,
+          "differentPixels": 19764,
+          "ratio": 0.1960597583477174
+        },
+        "page": {
+          "pixels": 816000,
+          "differentPixels": 77925,
+          "ratio": 0.09549632352941176
+        },
+        "outside": {
+          "pixels": 1907514,
+          "differentPixels": 326565,
+          "ratio": 0.17119926773800873
+        },
+        "reused": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        }
+      },
+      "fullMismatch": 0.13071469103205485,
+      "sections": [
+        {
+          "id": "checkout-login-options",
+          "pixelMismatch": 0.12679720394064506,
+          "geometryPassed": true,
+          "geometryDelta": {
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 0
+          },
+          "approximateDifferentPixels": 77546
+        }
+      ],
+      "instruction": "Historical priority only: confirm current screenshots first. Start with the section contributing the most different pixels, inspect its exact pair/crops and internal element typography/borders/images, then correct and recapture. Passing outer geometry does not prove matching inner content. Nested section counts overlap; do not sum them. Keep source references and acceptance thresholds unchanged."
+    },
+    {
+      "evidence": {
+        "path": ".factory-cache/autopilot/visual-1789290872495/checkout-registration/comparison.json",
+        "bytes": 18887,
+        "sha256": "2c5466d13469e1be0140a37af690b45984db41a6ff4a99ef5cd7f93f0f694be5"
+      },
+      "route": "checkout-registration",
+      "capturedAt": "2026-09-13T09:14:35.242Z",
+      "ownership": {
+        "header": {
+          "pixels": 629760,
+          "differentPixels": 27118,
+          "ratio": 0.04306084857723577
+        },
+        "footer": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "shared": {
+          "pixels": 100806,
+          "differentPixels": 19764,
+          "ratio": 0.1960597583477174
+        },
+        "page": {
+          "pixels": 1443840,
+          "differentPixels": 147609,
+          "ratio": 0.10223362699468085
+        },
+        "outside": {
+          "pixels": 1316154,
+          "differentPixels": 294410,
+          "ratio": 0.22368962902517486
+        },
+        "reused": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        }
+      },
+      "fullMismatch": 0.14006377200220022,
+      "sections": [
+        {
+          "id": "checkout-login-options",
+          "pixelMismatch": 0.07695376691329764,
+          "geometryPassed": true,
+          "geometryDelta": {
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 0
+          },
+          "approximateDifferentPixels": 47063
+        },
+        {
+          "id": "account-registration-dialog",
+          "pixelMismatch": 0.06054511328062822,
+          "geometryPassed": true,
+          "geometryDelta": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "approximateDifferentPixels": 36515
+        }
+      ],
+      "instruction": "Historical priority only: confirm current screenshots first. Start with the section contributing the most different pixels, inspect its exact pair/crops and internal element typography/borders/images, then correct and recapture. Passing outer geometry does not prove matching inner content. Nested section counts overlap; do not sum them. Keep source references and acceptance thresholds unchanged."
+    }
+  ],
+  "currentPageVerification": {
+    "routes": [
+      {
+        "id": "checkout",
+        "passed": false,
+        "pagePassed": true,
+        "ownership": {
+          "header": {
+            "pixels": 629760,
+            "differentPixels": 29127,
+            "ratio": 0.04625095274390244
+          },
+          "footer": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "shared": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "page": {
+            "pixels": 3413760,
+            "differentPixels": 121533,
+            "ratio": 0.03560092097862767
+          },
+          "outside": {
+            "pixels": 1605120,
+            "differentPixels": 216173,
+            "ratio": 0.1346771580940989
+          },
+          "reused": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          }
+        },
+        "errors": [],
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/063-build-checkout/build-readiness/checkout/checkout/comparison.json"
+      },
+      {
+        "id": "order-confirmed",
+        "passed": false,
+        "pagePassed": false,
+        "ownership": {
+          "header": {
+            "pixels": 372480,
+            "differentPixels": 21868,
+            "ratio": 0.05870919243986254
+          },
+          "footer": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "shared": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "page": {
+            "pixels": 2188800,
+            "differentPixels": 1894241,
+            "ratio": 0.8654244334795321
+          },
+          "outside": {
+            "pixels": 1660800,
+            "differentPixels": 1612969,
+            "ratio": 0.9712000240847785
+          },
+          "reused": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          }
+        },
+        "errors": [
+          "page pixel mismatch 86.542%",
+          "Section geometry differs: confirmation-heading",
+          "Section geometry differs: checkout-steps",
+          "Section geometry differs: checkout-order-confirmation",
+          "Section geometry differs: confirmation-line-items",
+          "Section geometry differs: checkout-totals"
+        ],
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/063-build-checkout/build-readiness/order-confirmed/order-confirmed/comparison.json"
+      },
+      {
+        "id": "checkout-login",
+        "passed": false,
+        "pagePassed": false,
+        "ownership": {
+          "header": {
+            "pixels": 629760,
+            "differentPixels": 27245,
+            "ratio": 0.043262512703252036
+          },
+          "footer": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "shared": {
+            "pixels": 100806,
+            "differentPixels": 19764,
+            "ratio": 0.1960597583477174
+          },
+          "page": {
+            "pixels": 816000,
+            "differentPixels": 77569,
+            "ratio": 0.09506004901960784
+          },
+          "outside": {
+            "pixels": 1907514,
+            "differentPixels": 326565,
+            "ratio": 0.17119926773800873
+          },
+          "reused": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          }
+        },
+        "errors": [
+          "page pixel mismatch 9.506%",
+          "shared pixel mismatch 19.606%",
+          "Shared component pixel mismatch checkout-steps: 19.606%"
+        ],
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/063-build-checkout/build-readiness/checkout-login/checkout-login/comparison.json"
+      },
+      {
+        "id": "checkout-registration",
+        "passed": false,
+        "pagePassed": false,
+        "ownership": {
+          "header": {
+            "pixels": 629760,
+            "differentPixels": 27118,
+            "ratio": 0.04306084857723577
+          },
+          "footer": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "shared": {
+            "pixels": 100806,
+            "differentPixels": 19764,
+            "ratio": 0.1960597583477174
+          },
+          "page": {
+            "pixels": 1443840,
+            "differentPixels": 233135,
+            "ratio": 0.1614687222960993
+          },
+          "outside": {
+            "pixels": 1316154,
+            "differentPixels": 294410,
+            "ratio": 0.22368962902517486
+          },
+          "reused": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          }
+        },
+        "errors": [
+          "page pixel mismatch 16.147%",
+          "Section geometry differs: account-registration-dialog",
+          "shared pixel mismatch 19.606%",
+          "Shared component pixel mismatch checkout-steps: 19.606%"
+        ],
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/063-build-checkout/build-readiness/checkout-registration/checkout-registration/comparison.json"
+      }
+    ],
+    "instruction": "Fresh host checks for all sibling routes. Repair only failed assigned routes."
+  },
+  "snapshot": ".factory-cache/figma/latest",
+  "observations": ".factory-cache/figma/latest/observations/index.json",
+  "plans": [
+    "docs/factory/project/PLAN.md",
+    "docs/factory/project/STATUS.md",
+    "docs/factory/project/SOURCE_CLARIFICATIONS.md",
+    "docs/factory/project/REUSABLE_COMPONENTS.md"
+  ],
+  "currentGate": null,
+  "instruction": "Inspect the current gate and finish only remaining assigned work. Reuse real saved source facts and assets."
+}

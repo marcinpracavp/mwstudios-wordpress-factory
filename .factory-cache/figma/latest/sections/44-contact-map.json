@@ -1,0 +1,48 @@
+{
+    "id":  "contact-map",
+    "name":  "Contact location map",
+    "order":  44,
+    "source":  {
+                   "pageId":  "0:1",
+                   "desktopNodeId":  "431:924"
+               },
+    "desktop":  {
+                    "frameWidth":  1920,
+                    "x":  728,
+                    "y":  983,
+                    "width":  953,
+                    "height":  568,
+                    "containerWidth":  953,
+                    "padding":  {
+                                    "left":  0,
+                                    "right":  0
+                                },
+                    "gap":  0
+                },
+    "layout":  {
+                   "type":  "map-image",
+                   "productionFrame":  "335:591",
+                   "designContextRead":  true,
+                   "nodes":  [
+                                 "431:924"
+                             ],
+                   "radius":  30,
+                   "objectFit":  "cover",
+                   "reactions":  [
+
+                                 ]
+               },
+    "assets":  [
+                   {
+                       "sourceNodeId":  "431:924",
+                       "path":  "assets/contact/contact-map-431-924.png",
+                       "kind":  "image",
+                       "fillHash":  "aac892a6737d5096d39ca89bfe1e8d60e5ae17ce",
+                       "role":  "location map"
+                   }
+               ],
+    "notes":  [
+                  "Lossless 1x crop from references/full/frame-335-591.png: x=728,y=983,width=953,height=568. Node 431:924 has no Figma reactions or hyperlink, so no map destination is inferred. No mobile source exists; responsive behavior is derived."
+              ],
+    "liveFigmaRequired":  false
+}

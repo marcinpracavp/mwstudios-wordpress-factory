@@ -1,0 +1,224 @@
+{
+  "id": "account-registration",
+  "name": "rejestracja",
+  "order": 28,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "524:243"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 970,
+    "y": 331,
+    "width": 709,
+    "height": 425
+  },
+  "layout": {
+    "type": "native-commerce",
+    "subnodes": [
+      {
+        "nodeId": "524:244",
+        "type": "VECTOR",
+        "visible": true,
+        "geometry": {
+          "x": 970,
+          "y": 331,
+          "width": 709,
+          "height": 425
+        }
+      },
+      {
+        "nodeId": "524:245",
+        "type": "TEXT",
+        "visible": true,
+        "geometry": {
+          "x": 998.2021484375,
+          "y": 376,
+          "width": 188.2299041748047,
+          "height": 38
+        }
+      },
+      {
+        "nodeId": "524:246",
+        "type": "TEXT",
+        "visible": true,
+        "geometry": {
+          "x": 998,
+          "y": 420,
+          "width": 632,
+          "height": 192
+        }
+      },
+      {
+        "nodeId": "524:247",
+        "type": "GROUP",
+        "visible": true,
+        "geometry": {
+          "x": 998.2021484375,
+          "y": 655,
+          "width": 144.94358825683594,
+          "height": 44
+        }
+      }
+    ],
+    "designContextRead": true
+  },
+  "typography": [
+    {
+      "nodeId": "524:245",
+      "value": "Zarejestruj się",
+      "geometry": {
+        "x": 998.2021484375,
+        "y": 376,
+        "width": 188.2299041748047,
+        "height": 38
+      },
+      "segments": [
+        {
+          "characters": "Zarejestruj się",
+          "fontSize": 24,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 700,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.0274509804,
+                "g": 0.0274509804,
+                "b": 0.0274509804
+              }
+            }
+          ],
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "nodeId": "524:246",
+      "value": "Otrzymasz liczne dodatkowe korzyści:\npodgląd statusu realizacji zamówień\npodgląd historii zakupów\nbrak konieczności wprowadzania swoich danych przy kolejnych zakupach\nmożliwość otrzymania rabatów i kuponów promocyjnych",
+      "geometry": {
+        "x": 998,
+        "y": 420,
+        "width": 632,
+        "height": 192
+      },
+      "segments": [
+        {
+          "characters": "Otrzymasz liczne dodatkowe korzyści:",
+          "fontSize": 16,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 700,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              }
+            }
+          ]
+        },
+        {
+          "characters": "podgląd statusu realizacji zamówień\npodgląd historii zakupów\nbrak konieczności wprowadzania swoich danych przy kolejnych zakupach\nmożliwość otrzymania rabatów i kuponów promocyjnych",
+          "fontSize": 16,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 400,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 28
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              }
+            }
+          ]
+        }
+      ],
+      "hyperlink": null
+    },
+    {
+      "nodeId": "524:249",
+      "value": "Zarejestruj się",
+      "geometry": {
+        "x": 999.001953125,
+        "y": 655,
+        "width": 144.14279174804688,
+        "height": 44
+      },
+      "segments": [
+        {
+          "characters": "Zarejestruj się",
+          "fontSize": 16,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 700,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              }
+            }
+          ],
+          "hyperlink": null
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "sourceNodeId": "524:244",
+      "path": "assets/account/account-registration-panel.svg",
+      "usage": "registration panel surface",
+      "sha256": "197d1988cd7ecd2edb48bb19dd351a60b0831bec5f384e70e8623413d24a4b75"
+    }
+  ],
+  "notes": [
+    "Native WooCommerce registration state. No Figma hyperlink or reaction was captured for the registration action."
+  ],
+  "liveFigmaRequired": false
+}

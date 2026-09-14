@@ -1,0 +1,15 @@
+{
+  "startedModel": "gpt-6-astra",
+  "threadId": "01a08ce6-7ada-7100-bee8-7068869fda1d",
+  "resumedFrom": null,
+  "usage": null,
+  "exit": {
+    "code": 1,
+    "signal": null
+  },
+  "failure": {
+    "message": "You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at Sep 11th, 2026 2:25 AM."
+  },
+  "completed": false,
+  "finishedAt": "2026-09-10T19:58:44.539Z"
+}

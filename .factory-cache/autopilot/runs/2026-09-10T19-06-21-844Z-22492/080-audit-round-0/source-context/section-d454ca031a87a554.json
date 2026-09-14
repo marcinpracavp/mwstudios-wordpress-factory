@@ -1,0 +1,124 @@
+{
+  "id": "blog-post-list",
+  "manifestRecord": {
+    "id": "blog-post-list",
+    "name": "Blog post list",
+    "order": 39,
+    "pageId": "0:1",
+    "snapshot": "sections/39-blog-post-list.json",
+    "desktopNodeId": "327:3103",
+    "desktopReference": "references/sections/blog-post-list.png"
+  },
+  "contentFields": [
+    {
+      "section": "blog-post-list",
+      "nodeId": "327:3103",
+      "fieldName": "rudnikagro_blog_post_list_items",
+      "type": "repeater",
+      "language": "pl",
+      "value": [
+        {
+          "nodeId": "327:3116",
+          "title": "Popularne nawozy potasowe i ich zastosowanie w uprawach",
+          "date": "10 lipca 2025",
+          "label": "Czytaj caÅ‚oÅ›Ä‡",
+          "image": "assets/blog/blog-archive-327-3116.png",
+          "destination": null
+        },
+        {
+          "nodeId": "327:3117",
+          "title": "Jak nawoziÄ‡ rzepak, kukurydzÄ™, buraki, warzywa?",
+          "date": "10 lipca 2025",
+          "label": "Czytaj caÅ‚oÅ›Ä‡",
+          "image": "assets/blog/blog-archive-327-3117.png",
+          "destination": null
+        },
+        {
+          "nodeId": "327:3118",
+          "title": "Nawozy dolistne, pod korzeÅ„ i do fertygacji â€“ jak poprawiÄ‡ efektywnoÅ›Ä‡ nawoÅ¼enia?",
+          "date": "23 czerwca 2025",
+          "label": "Czytaj caÅ‚oÅ›Ä‡",
+          "image": "assets/blog/blog-archive-327-3118.png",
+          "destination": null
+        },
+        {
+          "nodeId": "327:3137",
+          "title": "Nawozy otoczkowane i dÅ‚ugo dziaÅ‚ajÄ…ce â€“ innowacje w nawoÅ¼eniu roÅ›lin",
+          "date": "26 czerwca 2025",
+          "label": "Czytaj caÅ‚oÅ›Ä‡",
+          "image": "assets/blog/blog-archive-327-3137.png",
+          "destination": null
+        },
+        {
+          "nodeId": "327:3138",
+          "title": "Nawozy NPK, PK i azotowe â€“ jak wybraÄ‡ odpowiedni nawÃ³z dla Twoich upraw?",
+          "date": "27 maja 2025",
+          "label": "Czytaj caÅ‚oÅ›Ä‡",
+          "image": "assets/blog/blog-archive-327-3138.png",
+          "destination": null
+        },
+        {
+          "nodeId": "327:3139",
+          "title": "Skracanie pszenicy â€“ kiedy warto wykonaÄ‡ zabieg i jakie sÄ… jego korzyÅ›ci?",
+          "date": "27 maja 2025",
+          "label": "Czytaj caÅ‚oÅ›Ä‡",
+          "image": "assets/blog/blog-archive-327-3139.png",
+          "destination": null
+        },
+        {
+          "nodeId": "327:3154",
+          "title": "Ochrona pszenicy ozimej przed chwastami â€“ jak skutecznie walczyÄ‡ z miotÅ‚Ä… zboÅ¼owÄ…?",
+          "date": "15 kwietnia 2025",
+          "label": "Czytaj caÅ‚oÅ›Ä‡",
+          "image": "assets/blog/blog-archive-327-3154.png",
+          "destination": null
+        },
+        {
+          "nodeId": "327:3155",
+          "title": "Jakie fungicydy sÄ… najbardziej efektywne w ochronie rzepaku przed grzybami?",
+          "date": "15 kwietnia 2025",
+          "label": "Czytaj caÅ‚oÅ›Ä‡",
+          "image": "assets/blog/blog-archive-327-3155.png",
+          "destination": null
+        },
+        {
+          "nodeId": "327:3156",
+          "title": "Zaprawy nasienne â€“ kluczowe czynniki wpÅ‚ywajÄ…ce na zdrowy wzrost roÅ›lin",
+          "date": "27 marca 2025",
+          "label": "Czytaj caÅ‚oÅ›Ä‡",
+          "image": "assets/blog/blog-archive-327-3156.png",
+          "destination": null
+        },
+        {
+          "nodeId": "327:3172",
+          "title": "Opryski herbicydowe â€“ wpÅ‚yw warunkÃ³w atmosferycznych na skutecznoÅ›Ä‡ zabiegÃ³w",
+          "date": "15 kwietnia 2025",
+          "label": "Czytaj caÅ‚oÅ›Ä‡",
+          "image": "assets/blog/blog-archive-327-3172.png",
+          "destination": null
+        },
+        {
+          "nodeId": "327:3173",
+          "title": "Jak poprawnie stosowaÄ‡ regulatory wzrostu w rzepaku?",
+          "date": "10 lipca 2025",
+          "label": "Czytaj caÅ‚oÅ›Ä‡",
+          "image": "assets/blog/blog-archive-327-3173.png",
+          "destination": null
+        },
+        {
+          "nodeId": "327:3174",
+          "title": "Insektycydy â€“ czy moÅ¼na mieszaÄ‡ je z innymi Å›rodkami ochrony roÅ›lin?",
+          "date": "23 czerwca 2025",
+          "label": "Czytaj caÅ‚oÅ›Ä‡",
+          "image": "assets/blog/blog-archive-327-3174.png",
+          "destination": null
+        }
+      ],
+      "destination": "Native WordPress posts (title, date, featured image; source card destinations unavailable)",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "327:3103"
+      }
+    }
+  ]
+}

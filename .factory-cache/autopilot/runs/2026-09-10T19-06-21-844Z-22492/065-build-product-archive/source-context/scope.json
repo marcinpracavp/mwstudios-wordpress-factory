@@ -1,0 +1,472 @@
+{
+  "source": {
+    "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+    "figmaUrl": "https://www.figma.com/design/OwiDXrKMVcaHKB9ryYF6mY/Rudnik-Agro?m=dev"
+  },
+  "status": "complete",
+  "routes": [
+    {
+      "id": "product-archive",
+      "path": "/kategoria-produktu/fungicydy/",
+      "language": "pl",
+      "frameNodeId": "294:3",
+      "reference": "references/full/frame-294-3-bounds.png",
+      "width": 1920,
+      "height": 4919,
+      "sections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "shared-primary-navigation",
+        "archive-breadcrumbs",
+        "archive-category-introduction",
+        "archive-filters",
+        "archive-sort",
+        "archive-product-grid",
+        "archive-pagination",
+        "archive-category-description",
+        "shared-footer"
+      ],
+      "buildGroup": "product-archive",
+      "responsiveSource": "derived",
+      "notes": "Source breadcrumbs identify Fungicydy; composition includes sidebar filters, sorting, product grid and pagination. Planned local route path is an implementation decision inferred from source page identity, not a captured source hyperlink. Uncaptured section IDs remain explicit in this partial execution plan. Source clipsContent=false extends the original render beyond frame bounds. Reference is an unscaled exact-frame crop; uncropped original and provenance are retained.",
+      "sectionGeometry": {
+        "archive-breadcrumbs": {
+          "x": 240,
+          "y": 189,
+          "width": 508,
+          "height": 70
+        },
+        "archive-category-introduction": {
+          "x": 605,
+          "y": 259,
+          "width": 1075,
+          "height": 302
+        },
+        "archive-filters": {
+          "x": 240,
+          "y": 259,
+          "width": 345,
+          "height": 2227
+        },
+        "archive-sort": {
+          "x": 1457,
+          "y": 586,
+          "width": 223,
+          "height": 45
+        },
+        "archive-product-grid": {
+          "x": 605,
+          "y": 662,
+          "width": 1075,
+          "height": 2884
+        },
+        "archive-pagination": {
+          "x": 969,
+          "y": 3570,
+          "width": 348,
+          "height": 40
+        },
+        "archive-category-description": {
+          "x": 605,
+          "y": 3667,
+          "width": 1076,
+          "height": 2242
+        }
+      }
+    }
+  ],
+  "stateFamilies": [],
+  "sections": [
+    {
+      "id": "shared-topbar",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/14-shared-topbar.json",
+      "contentRecords": 6,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/065-build-product-archive/source-context/section-91484042cce6815e.json",
+        "bytes": 2751,
+        "sha256": "d2f9e73eba0b32222284737dc8ee1f1a8f58ab2b85545831f54fdbf1256eaa5f"
+      }
+    },
+    {
+      "id": "shared-secondary-navigation",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/15-shared-secondary-navigation.json",
+      "contentRecords": 13,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/065-build-product-archive/source-context/section-f64d32808e6ea46d.json",
+        "bytes": 6535,
+        "sha256": "860eb7d970c300c199119e8ae18a3514e8705ab2557992a3d2f573846dc447d7"
+      }
+    },
+    {
+      "id": "shared-primary-navigation",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/01-shared-primary-navigation.json",
+      "contentRecords": 5,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/065-build-product-archive/source-context/section-8de8ed9bbbe57bf3.json",
+        "bytes": 2587,
+        "sha256": "46046e4e7b17b0533fe94b9f43b28de71033d1948b0984c7c137a33d206cc098"
+      }
+    },
+    {
+      "id": "archive-breadcrumbs",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/68-archive-breadcrumbs.json",
+      "contentRecords": 1,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/065-build-product-archive/source-context/section-cdaebdd9f4cc9818.json",
+        "bytes": 774,
+        "sha256": "d0432d77eef6208771eb0a679332a30fab3b75b8733ba57c6cb1e23a78fd2345"
+      }
+    },
+    {
+      "id": "archive-category-introduction",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/69-archive-category-introduction.json",
+      "contentRecords": 2,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/065-build-product-archive/source-context/section-45b86c739f06d95a.json",
+        "bytes": 1174,
+        "sha256": "49479ea65d44e00d9bb7621bc560632197e7da7473b6253d20172dc727803f36"
+      }
+    },
+    {
+      "id": "archive-filters",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/70-archive-filters.json",
+      "contentRecords": 5,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/065-build-product-archive/source-context/section-cf3635788e567c2a.json",
+        "bytes": 2859,
+        "sha256": "d7bfb88cde09dab257dbc1da65899bef66ad0b34b3ee670d2e380b7316afd6f0"
+      }
+    },
+    {
+      "id": "archive-sort",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/71-archive-sort.json",
+      "contentRecords": 1,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/065-build-product-archive/source-context/section-0ad6b6d82056ea48.json",
+        "bytes": 692,
+        "sha256": "5c9fb18be80a966786498e68b4515ef00377d83f1a506e7e20b1605798c80a22"
+      }
+    },
+    {
+      "id": "archive-product-grid",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/72-archive-product-grid.json",
+      "contentRecords": 18,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/065-build-product-archive/source-context/section-fbedf06f3685bae0.json",
+        "bytes": 12060,
+        "sha256": "b43aa040884288ffb7f640e75aa4f07c631872d0b5e1d52dfbca27377ba20bcb"
+      }
+    },
+    {
+      "id": "archive-pagination",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/73-archive-pagination.json",
+      "contentRecords": 7,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/065-build-product-archive/source-context/section-c421ccc17e50b8f7.json",
+        "bytes": 2931,
+        "sha256": "0bb12d5de0a4c9d334b94568e3c4c1c83f3237f929c6aab86ae6da50bfa87de0"
+      }
+    },
+    {
+      "id": "archive-category-description",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/74-archive-category-description.json",
+      "contentRecords": 0,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/065-build-product-archive/source-context/section-cf986bb95ab1317c.json",
+        "bytes": 386,
+        "sha256": "d7943ec49b8336673bd6c2865977b58d73d6d88916578be3f19b23b9e6feadca"
+      }
+    },
+    {
+      "id": "shared-footer",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/26-shared-footer.json",
+      "contentRecords": 16,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/065-build-product-archive/source-context/section-61ba1faa466eb680.json",
+        "bytes": 7941,
+        "sha256": "17696d0bef8eb6c6512ee31448fe8b70d275e5fe6f11dd775cdc28ca68afc9af"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "id": "ba86239566720ac727d2",
+      "nodeIds": [
+        "140:262",
+        "12:2"
+      ],
+      "description": "Capture shared primary navigation geometry and text styles",
+      "path": "observations/ba86239566720ac727d2.json"
+    },
+    {
+      "id": "dc8e3db2622ed0c06530",
+      "nodeIds": [
+        "294:3"
+      ],
+      "description": "Clarify measured full-reference mismatch for product archive frame only",
+      "path": "observations/dc8e3db2622ed0c06530.json"
+    },
+    {
+      "id": "93994dfaa5c6b60a4b37",
+      "nodeIds": [
+        "112:7",
+        "12:2"
+      ],
+      "description": "Read exact topbar bounds, styled text and icon geometry without changing source",
+      "path": "observations/93994dfaa5c6b60a4b37.json"
+    },
+    {
+      "id": "76dbf979f194f7f139e5",
+      "nodeIds": [
+        "112:7",
+        "12:2"
+      ],
+      "description": "Capture topbar source data for immediate persistence",
+      "path": "observations/76dbf979f194f7f139e5.json"
+    },
+    {
+      "id": "detail-shared-topbar",
+      "nodeIds": [
+        "112:7"
+      ],
+      "description": "Exact source section capture",
+      "path": "observations/detail-shared-topbar.json"
+    },
+    {
+      "id": "e85f04bc857cc3e8c516",
+      "nodeIds": [
+        "140:260",
+        "12:2"
+      ],
+      "description": "Capture exact secondary navigation section",
+      "path": "observations/e85f04bc857cc3e8c516.json"
+    },
+    {
+      "id": "detail-shared-secondary-navigation",
+      "nodeIds": [
+        "140:260"
+      ],
+      "description": "Exact source section capture",
+      "path": "observations/detail-shared-secondary-navigation.json"
+    },
+    {
+      "id": "1f35a8b8aca7f971542c",
+      "nodeIds": [
+        "140:262",
+        "12:2"
+      ],
+      "description": "Capture default primary navigation with deduplicated styles to avoid truncation",
+      "path": "observations/1f35a8b8aca7f971542c.json"
+    },
+    {
+      "id": "detail-shared-primary-navigation",
+      "nodeIds": [
+        "140:262"
+      ],
+      "description": "Exact source section capture",
+      "path": "observations/detail-shared-primary-navigation.json"
+    },
+    {
+      "id": "053b78308ad646a28ad7",
+      "nodeIds": [
+        "222:62",
+        "12:2"
+      ],
+      "description": "Capture exact shared-footer section source",
+      "path": "observations/053b78308ad646a28ad7.json"
+    },
+    {
+      "id": "7891ec52f6816ff9beb4",
+      "nodeIds": [
+        "222:62",
+        "12:2"
+      ],
+      "description": "Capture exact shared-footer section source nodes 25",
+      "path": "observations/7891ec52f6816ff9beb4.json"
+    },
+    {
+      "id": "detail-shared-footer",
+      "nodeIds": [
+        "222:62"
+      ],
+      "description": "Exact source section capture",
+      "path": "observations/detail-shared-footer.json"
+    },
+    {
+      "id": "5ea250acb1158a8cb8a0",
+      "nodeIds": [
+        "294:3"
+      ],
+      "description": "Read product archive top-level node geometry to identify logical sections",
+      "path": "observations/5ea250acb1158a8cb8a0.json"
+    },
+    {
+      "id": "1d4573dcbcb9fd99c7f6",
+      "nodeIds": [
+        "295:700"
+      ],
+      "description": "Read exact breadcrumb text styling and geometry",
+      "path": "observations/1d4573dcbcb9fd99c7f6.json"
+    },
+    {
+      "id": "9185f9b528da3c02b783",
+      "nodeIds": [
+        "303:1281"
+      ],
+      "description": "Read exact category introduction copy, styles, and geometry",
+      "path": "observations/9185f9b528da3c02b783.json"
+    },
+    {
+      "id": "c92124f5ce4b367fcdbf",
+      "nodeIds": [
+        "310:1554"
+      ],
+      "description": "Read exact filter labels, controls, and geometry",
+      "path": "observations/c92124f5ce4b367fcdbf.json"
+    },
+    {
+      "id": "f9b1fef7179dc6b63523",
+      "nodeIds": [
+        "303:1282"
+      ],
+      "description": "Extract first six product content records and media geometry",
+      "path": "observations/f9b1fef7179dc6b63523.json"
+    },
+    {
+      "id": "9fc5266243c88c097b8d",
+      "nodeIds": [
+        "303:1282"
+      ],
+      "description": "Extract middle six product content records and media geometry",
+      "path": "observations/9fc5266243c88c097b8d.json"
+    },
+    {
+      "id": "a45143baf1f2dcaf7dcd",
+      "nodeIds": [
+        "303:1282"
+      ],
+      "description": "Extract final six product content records and media geometry",
+      "path": "observations/a45143baf1f2dcaf7dcd.json"
+    }
+  ],
+  "frames": [
+    {
+      "nodeId": "294:3",
+      "name": "lista produktÃ³w",
+      "pageId": "0:1",
+      "type": "FRAME",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "140:262",
+      "name": "mega menu",
+      "pageId": "0:1",
+      "type": "GROUP"
+    },
+    {
+      "nodeId": "112:7",
+      "name": "topbar",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "140:260",
+      "name": "secondary menu",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "222:62",
+      "name": "stopka",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "295:700",
+      "name": "breadcrumbs",
+      "pageId": "0:1",
+      "type": "TEXT",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "303:1281",
+      "name": "category introduction",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "310:1554",
+      "name": "product archive filters",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "303:1280",
+      "name": "product archive sorting",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "303:1282",
+      "name": "product card grid",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "303:1322",
+      "name": "archive pagination",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "303:1277",
+      "name": "category description",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    }
+  ],
+  "globalFiles": [
+    {
+      "path": ".factory-cache/figma/latest/design-system.json",
+      "bytes": 8294,
+      "sha256": "5086e8f74a4d3aee56055467846c3f49e9f2791c2a30a873ea30c5a5a87b3863"
+    },
+    {
+      "path": ".factory-cache/figma/latest/components.json",
+      "bytes": 261,
+      "sha256": "fb651cb0bc38b89b71ffa0e6a8b92ec6acbe3bdff6ab7d30ea9c2e39ed12fec5"
+    }
+  ],
+  "lookup": "Observation matches are an index, not a completeness claim. Use targeted rg or inspect JSON pointers for missing node IDs. Never dump the full source files."
+}

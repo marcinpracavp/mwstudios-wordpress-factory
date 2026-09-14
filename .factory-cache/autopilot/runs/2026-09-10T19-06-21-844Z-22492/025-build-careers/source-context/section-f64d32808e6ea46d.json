@@ -1,0 +1,183 @@
+{
+  "id": "shared-secondary-navigation",
+  "manifestRecord": {
+    "id": "shared-secondary-navigation",
+    "name": "secondary menu",
+    "order": 15,
+    "pageId": "0:1",
+    "snapshot": "sections/15-shared-secondary-navigation.json",
+    "desktopNodeId": "140:260",
+    "desktopReference": "references/sections/shared-secondary-navigation.png"
+  },
+  "contentFields": [
+    {
+      "section": "shared-secondary-navigation",
+      "nodeId": "93:28",
+      "fieldName": "rudnikagro_shared_secondary_navigation_93_28",
+      "type": "text",
+      "language": "pl",
+      "value": "O nas      Aktualno?ci      Poradnik dla rolnika      Kariera      Katalogi       Kontakt",
+      "destination": "ACF options / secondary navigation tab / navigation, contact and search labels",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "93:28"
+      }
+    },
+    {
+      "section": "shared-secondary-navigation",
+      "nodeId": "93:31",
+      "fieldName": "rudnikagro_shared_secondary_navigation_93_31",
+      "type": "text",
+      "language": "pl",
+      "value": "sklep@rudnikagro.pl",
+      "destination": "ACF options / secondary navigation tab / navigation, contact and search labels",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "93:31"
+      }
+    },
+    {
+      "section": "shared-secondary-navigation",
+      "nodeId": "156:92",
+      "fieldName": "rudnikagro_shared_secondary_navigation_156_92",
+      "type": "text",
+      "language": "pl",
+      "value": "(+48) 535 500 612",
+      "destination": "ACF options / secondary navigation tab / navigation, contact and search labels",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "156:92"
+      }
+    },
+    {
+      "section": "shared-secondary-navigation",
+      "nodeId": "153:76",
+      "fieldName": "rudnikagro_shared_secondary_navigation_153_76",
+      "type": "text",
+      "language": "pl",
+      "value": "Szukaj po nazwie, chorobie, substancji aktywnej lub uprawie",
+      "destination": "ACF options / secondary navigation tab / navigation, contact and search labels",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "153:76"
+      }
+    },
+    {
+      "section": "shared-secondary-navigation",
+      "nodeId": "222:3",
+      "fieldName": "rudnikagro_shared_secondary_navigation_222_3",
+      "type": "text",
+      "language": "pl",
+      "value": "1",
+      "destination": "ACF options / secondary navigation tab / navigation, contact and search labels",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "222:3"
+      }
+    },
+    {
+      "section": "shared-secondary-navigation",
+      "nodeId": "I625:179;586:588",
+      "fieldName": "rudnikagro_shared_secondary_navigation_I625_179;586:588",
+      "type": "text",
+      "language": "pl",
+      "value": "1",
+      "destination": "ACF options / secondary navigation tab / navigation, contact and search labels",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "I625:179;586:588"
+      }
+    },
+    {
+      "section": "shared-secondary-navigation",
+      "nodeId": "I625:179;586:555",
+      "fieldName": "rudnikagro_shared_secondary_navigation_media_I625_179;586_555",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/I625-179;586-555-ulubione.svg",
+      "destination": "ACF options / secondary navigation tab / navigation, contact and search labels / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "I625:179;586:555"
+      }
+    },
+    {
+      "section": "shared-secondary-navigation",
+      "nodeId": "I625:179;586:587",
+      "fieldName": "rudnikagro_shared_secondary_navigation_media_I625_179;586_587",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/I625-179;586-587-ellipse12.svg",
+      "destination": "ACF options / secondary navigation tab / navigation, contact and search labels / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "I625:179;586:587"
+      }
+    },
+    {
+      "section": "shared-secondary-navigation",
+      "nodeId": "153:63",
+      "fieldName": "rudnikagro_shared_secondary_navigation_media_153_63",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/153-63-lupa1.svg",
+      "destination": "ACF options / secondary navigation tab / navigation, contact and search labels / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "153:63"
+      }
+    },
+    {
+      "section": "shared-secondary-navigation",
+      "nodeId": "347:961",
+      "fieldName": "rudnikagro_shared_secondary_navigation_media_347_961",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/347-961-logowanie.svg",
+      "destination": "ACF options / secondary navigation tab / navigation, contact and search labels / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "347:961"
+      }
+    },
+    {
+      "section": "shared-secondary-navigation",
+      "nodeId": "347:972",
+      "fieldName": "rudnikagro_shared_secondary_navigation_media_347_972",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/347-972-koszyk.svg",
+      "destination": "ACF options / secondary navigation tab / navigation, contact and search labels / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "347:972"
+      }
+    },
+    {
+      "section": "shared-secondary-navigation",
+      "nodeId": "347:1078",
+      "fieldName": "rudnikagro_shared_secondary_navigation_media_347_1078",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/347-1078-mail.svg",
+      "destination": "ACF options / secondary navigation tab / navigation, contact and search labels / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "347:1078"
+      }
+    },
+    {
+      "section": "shared-secondary-navigation",
+      "nodeId": "347:1077",
+      "fieldName": "rudnikagro_shared_secondary_navigation_media_347_1077",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/347-1077-vector20.svg",
+      "destination": "ACF options / secondary navigation tab / navigation, contact and search labels / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "347:1077"
+      }
+    }
+  ]
+}

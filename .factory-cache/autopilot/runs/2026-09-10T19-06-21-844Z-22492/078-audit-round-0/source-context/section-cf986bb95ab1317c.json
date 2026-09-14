@@ -1,0 +1,13 @@
+{
+  "id": "archive-category-description",
+  "manifestRecord": {
+    "id": "archive-category-description",
+    "name": "category description",
+    "order": 79,
+    "pageId": "0:1",
+    "snapshot": "sections/74-archive-category-description.json",
+    "desktopNodeId": "303:1277",
+    "desktopReference": "references/sections/archive-category-description.png"
+  },
+  "contentFields": []
+}

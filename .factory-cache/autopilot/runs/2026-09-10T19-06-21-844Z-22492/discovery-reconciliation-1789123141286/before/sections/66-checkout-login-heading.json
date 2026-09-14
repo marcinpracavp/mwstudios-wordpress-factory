@@ -1,0 +1,43 @@
+{
+  "id": "checkout-login-heading",
+  "name": "Logowanie",
+  "order": 66,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "495:1687"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 237,
+    "y": 260,
+    "width": 467,
+    "height": 68,
+    "containerWidth": 1440
+  },
+  "layout": {
+    "type": "page-heading",
+    "designContextRead": true,
+    "alignment": "left"
+  },
+  "typography": [
+    {
+      "nodeId": "495:1687",
+      "value": "Logowanie",
+      "fontFamily": "DM Sans",
+      "fontWeight": 700,
+      "fontSize": 48,
+      "color": "#070707"
+    }
+  ],
+  "contentFields": [
+    {
+      "id": "495:1687",
+      "text": "Logowanie",
+      "link": null
+    }
+  ],
+  "notes": [
+    "Exact Figma heading text."
+  ],
+  "liveFigmaRequired": false
+}

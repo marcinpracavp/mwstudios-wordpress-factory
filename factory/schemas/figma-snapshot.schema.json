@@ -62,7 +62,41 @@
         }
       }
     },
-    "warnings": { "type": "array", "items": { "type": "string" } }
+    "warnings": { "type": "array", "items": { "type": "string" } },
+    "productionFrames": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["nodeId", "name", "classification", "reason"],
+        "properties": {
+          "nodeId": {"type": "string"}, "name": {"type": "string"},
+          "classification": {"enum": ["production", "state", "archive", "research", "component"]},
+          "reason": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "routes": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["id", "path", "language", "frameNodeId", "reference", "width", "height", "sections", "buildGroup", "responsiveSource"],
+        "properties": {
+          "id": {"$ref": "#/definitions/id"},
+          "path": {"type": "string", "pattern": "^/(?!/)"},
+          "language": {"$ref": "#/definitions/language"},
+          "frameNodeId": {"type": "string", "minLength": 1},
+          "reference": {"$ref": "#/definitions/referencePath"},
+          "width": {"type": "integer", "minimum": 1},
+          "height": {"type": "integer", "minimum": 1},
+          "sections": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"$ref": "#/definitions/id"}},
+          "buildGroup": {"$ref": "#/definitions/id"},
+          "responsiveSource": {"enum": ["figma", "derived"]},
+          "state": {"type": "string"},
+          "notes": {"type": "string"},
+          "sectionGeometry": {"type": "object", "additionalProperties": {"type": "object", "required": ["x", "y", "width", "height"], "properties": {"x": {"type": "number"}, "y": {"type": "number"}, "width": {"type": "number"}, "height": {"type": "number"}}}}
+        }
+      }
+    }
   },
   "definitions": {
     "id": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" },

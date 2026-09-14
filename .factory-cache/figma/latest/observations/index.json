@@ -1,0 +1,1143 @@
+[
+  {
+    "id": "b8c2bd144f7ec4f649e1",
+    "nodeIds": [],
+    "description": "Read-only enumeration of every RudnikAgro PAGE node",
+    "path": "observations/b8c2bd144f7ec4f649e1.json"
+  },
+  {
+    "id": "8ac411a031a8d022cea5",
+    "nodeIds": [
+      "0:1"
+    ],
+    "description": "Compact complete top-level frame inventory without descendants",
+    "path": "observations/8ac411a031a8d022cea5.json"
+  },
+  {
+    "id": "ab067430c0c93ee50fde",
+    "nodeIds": [
+      "12:2"
+    ],
+    "description": "Read homepage composition, background, section bounds and source text styles",
+    "path": "observations/ab067430c0c93ee50fde.json"
+  },
+  {
+    "id": "ce1aedfdc90fcf1c93b2",
+    "nodeIds": [
+      "112:6"
+    ],
+    "description": "Read exact hero source geometry, styled text and image crop",
+    "path": "observations/ce1aedfdc90fcf1c93b2.json"
+  },
+  {
+    "id": "8975223ee92b8ebed956",
+    "nodeIds": [
+      "349:1267"
+    ],
+    "description": "Read compact composition for kariera 349:1267",
+    "path": "observations/8975223ee92b8ebed956.json"
+  },
+  {
+    "id": "b1ee1afd187160fa3595",
+    "nodeIds": [
+      "327:3176"
+    ],
+    "description": "Read compact composition for blog wpis 327:3176",
+    "path": "observations/b1ee1afd187160fa3595.json"
+  },
+  {
+    "id": "1385168cce7b00a2ca2b",
+    "nodeIds": [
+      "327:2986"
+    ],
+    "description": "Read compact composition for blog lista 327:2986",
+    "path": "observations/1385168cce7b00a2ca2b.json"
+  },
+  {
+    "id": "237d29a9449cf569b662",
+    "nodeIds": [
+      "335:591"
+    ],
+    "description": "Read compact composition for kontakt 335:591",
+    "path": "observations/237d29a9449cf569b662.json"
+  },
+  {
+    "id": "4ab433279e74fe00a94f",
+    "nodeIds": [
+      "326:2526"
+    ],
+    "description": "Read compact page composition szczególy produktu - rozwinięte 326:2526",
+    "path": "observations/4ab433279e74fe00a94f.json"
+  },
+  {
+    "id": "6852f77540fbfef41422",
+    "nodeIds": [
+      "489:483"
+    ],
+    "description": "Read compact page composition Dostawa i płatność 489:483",
+    "path": "observations/6852f77540fbfef41422.json"
+  },
+  {
+    "id": "01860cf851e0b9ddfbed",
+    "nodeIds": [
+      "493:1094"
+    ],
+    "description": "Read compact page composition Podsumowanie 493:1094",
+    "path": "observations/01860cf851e0b9ddfbed.json"
+  },
+  {
+    "id": "03e5ed0235fa273456fa",
+    "nodeIds": [
+      "495:1558"
+    ],
+    "description": "Read compact page composition Koszyk - logowanie/rejestracja popup 495:1558",
+    "path": "observations/03e5ed0235fa273456fa.json"
+  },
+  {
+    "id": "cc724d58da52ad207fcb",
+    "nodeIds": [
+      "250:115"
+    ],
+    "description": "Read compact page composition strona główna - aktywne elementy 250:115",
+    "path": "observations/cc724d58da52ad207fcb.json"
+  },
+  {
+    "id": "c756eb170f71b048e7d5",
+    "nodeIds": [
+      "524:2"
+    ],
+    "description": "Read compact page composition logowanie/rejestracja 524:2",
+    "path": "observations/c756eb170f71b048e7d5.json"
+  },
+  {
+    "id": "037eef4160bdd1f1a0dc",
+    "nodeIds": [
+      "347:1120"
+    ],
+    "description": "Check actual catalogue link evidence and geometry without changing the design",
+    "path": "observations/037eef4160bdd1f1a0dc.json"
+  },
+  {
+    "id": "6aca56f487c87e42bdea",
+    "nodeIds": [
+      "496:1825"
+    ],
+    "description": "Read source content to identify native product or account state 496:1825",
+    "path": "observations/6aca56f487c87e42bdea.json"
+  },
+  {
+    "id": "88576a8d78befa6aac98",
+    "nodeIds": [
+      "326:2601"
+    ],
+    "description": "Read source content to identify native product or account state 326:2601",
+    "path": "observations/88576a8d78befa6aac98.json"
+  },
+  {
+    "id": "5d0b724d0516ed1e9704",
+    "nodeIds": [
+      "496:1821"
+    ],
+    "description": "Read source content to identify native product or account state 496:1821",
+    "path": "observations/5d0b724d0516ed1e9704.json"
+  },
+  {
+    "id": "998f61ab8be9e67ca9f5",
+    "nodeIds": [
+      "425:636"
+    ],
+    "description": "Read source content to identify native product or account state 425:636",
+    "path": "observations/998f61ab8be9e67ca9f5.json"
+  },
+  {
+    "id": "b6616a7b94262ffbb86f",
+    "nodeIds": [
+      "496:1722"
+    ],
+    "description": "Read source content to identify native product or account state 496:1722",
+    "path": "observations/b6616a7b94262ffbb86f.json"
+  },
+  {
+    "id": "add0963ab5328ef31073",
+    "nodeIds": [
+      "586:805"
+    ],
+    "description": "Read source content to identify native product or account state 586:805",
+    "path": "observations/add0963ab5328ef31073.json"
+  },
+  {
+    "id": "60287a9a8ff40db60511",
+    "nodeIds": [
+      "586:1200"
+    ],
+    "description": "Read source content to identify native product or account state 586:1200",
+    "path": "observations/60287a9a8ff40db60511.json"
+  },
+  {
+    "id": "30cb5cab0c0c32d05330",
+    "nodeIds": [
+      "492:716"
+    ],
+    "description": "Read source content to identify native product or account state 492:716",
+    "path": "observations/30cb5cab0c0c32d05330.json"
+  },
+  {
+    "id": "703fe9efa24ddd754f72",
+    "nodeIds": [
+      "493:1251"
+    ],
+    "description": "Read source content to identify native product or account state 493:1251",
+    "path": "observations/703fe9efa24ddd754f72.json"
+  },
+  {
+    "id": "02b0982734cad8fc0d81",
+    "nodeIds": [
+      "524:195"
+    ],
+    "description": "Read source content to identify native product or account state 524:195",
+    "path": "observations/02b0982734cad8fc0d81.json"
+  },
+  {
+    "id": "4f83904bda6e97c55d00",
+    "nodeIds": [
+      "327:2986"
+    ],
+    "description": "Capture exact frame-relative bounds and ungrouped source text blog lista",
+    "path": "observations/4f83904bda6e97c55d00.json"
+  },
+  {
+    "id": "bca19728fa2d41218adf",
+    "nodeIds": [
+      "349:1267"
+    ],
+    "description": "Capture exact frame-relative bounds and ungrouped source text kariera",
+    "path": "observations/bca19728fa2d41218adf.json"
+  },
+  {
+    "id": "de204fffdc79c21460e6",
+    "nodeIds": [
+      "335:591"
+    ],
+    "description": "Capture exact frame-relative bounds and ungrouped source text kontakt",
+    "path": "observations/de204fffdc79c21460e6.json"
+  },
+  {
+    "id": "ba86239566720ac727d2",
+    "nodeIds": [
+      "140:262",
+      "12:2"
+    ],
+    "description": "Capture shared primary navigation geometry and text styles",
+    "path": "observations/ba86239566720ac727d2.json"
+  },
+  {
+    "id": "c298810ac7e4cc6b7f2c",
+    "nodeIds": [
+      "347:1120"
+    ],
+    "description": "Capture both catalogue cards as one logical section including actual link and crop facts",
+    "path": "observations/c298810ac7e4cc6b7f2c.json"
+  },
+  {
+    "id": "3517d0fef7d04a84e32b",
+    "nodeIds": [],
+    "description": "Resolve which downloaded hero image has the exact source image dimensions",
+    "path": "observations/3517d0fef7d04a84e32b.json"
+  },
+  {
+    "id": "c861e9b1ac80564e8d79",
+    "nodeIds": [
+      "496:1821",
+      "318:1556"
+    ],
+    "description": "Capture logical section product-overview for immediate snapshot persistence",
+    "path": "observations/c861e9b1ac80564e8d79.json"
+  },
+  {
+    "id": "2426d11a0d8b2e6ceaa4",
+    "nodeIds": [
+      "496:1825",
+      "423:263"
+    ],
+    "description": "Capture logical section product-inquiry-overview for immediate snapshot persistence",
+    "path": "observations/2426d11a0d8b2e6ceaa4.json"
+  },
+  {
+    "id": "53fcc643295a4bae6a4e",
+    "nodeIds": [
+      "425:636",
+      "425:542"
+    ],
+    "description": "Capture logical section product-reviews for immediate snapshot persistence",
+    "path": "observations/53fcc643295a4bae6a4e.json"
+  },
+  {
+    "id": "48b6bde8feca02cd9876",
+    "nodeIds": [
+      "586:805",
+      "586:711"
+    ],
+    "description": "Capture logical section product-files for immediate snapshot persistence",
+    "path": "observations/48b6bde8feca02cd9876.json"
+  },
+  {
+    "id": "d402930cc2cf5ec43613",
+    "nodeIds": [
+      "586:1200",
+      "586:1028"
+    ],
+    "description": "Capture logical section product-bundle-overview for immediate snapshot persistence",
+    "path": "observations/d402930cc2cf5ec43613.json"
+  },
+  {
+    "id": "ae34d27f3f3e4e83ffc7",
+    "nodeIds": [
+      "492:716",
+      "489:483"
+    ],
+    "description": "Capture logical section checkout-customer-details for immediate snapshot persistence",
+    "path": "observations/ae34d27f3f3e4e83ffc7.json"
+  },
+  {
+    "id": "d2080d3319934f13a113",
+    "nodeIds": [
+      "326:2735",
+      "326:2526"
+    ],
+    "description": "Capture expanded product description with deduplicated text styles to avoid truncation",
+    "path": "observations/d2080d3319934f13a113.json"
+  },
+  {
+    "id": "42223d06b343dd2f8741",
+    "nodeIds": [
+      "496:1722",
+      "495:1558"
+    ],
+    "description": "Capture logical section account-registration-dialog for immediate snapshot persistence",
+    "path": "observations/42223d06b343dd2f8741.json"
+  },
+  {
+    "id": "2ee61187f6062ee4bcb7",
+    "nodeIds": [
+      "524:195",
+      "524:2"
+    ],
+    "description": "Capture logical section account-login for immediate snapshot persistence",
+    "path": "observations/2ee61187f6062ee4bcb7.json"
+  },
+  {
+    "id": "dc8e3db2622ed0c06530",
+    "nodeIds": [
+      "294:3"
+    ],
+    "description": "Clarify measured full-reference mismatch for product archive frame only",
+    "path": "observations/dc8e3db2622ed0c06530.json"
+  },
+  {
+    "id": "93994dfaa5c6b60a4b37",
+    "nodeIds": [
+      "112:7",
+      "12:2"
+    ],
+    "description": "Read exact topbar bounds, styled text and icon geometry without changing source",
+    "path": "observations/93994dfaa5c6b60a4b37.json"
+  },
+  {
+    "id": "76dbf979f194f7f139e5",
+    "nodeIds": [
+      "112:7",
+      "12:2"
+    ],
+    "description": "Capture topbar source data for immediate persistence",
+    "path": "observations/76dbf979f194f7f139e5.json"
+  },
+  {
+    "id": "detail-shared-topbar",
+    "nodeIds": [
+      "112:7"
+    ],
+    "description": "Exact source section capture",
+    "path": "observations/detail-shared-topbar.json"
+  },
+  {
+    "id": "e85f04bc857cc3e8c516",
+    "nodeIds": [
+      "140:260",
+      "12:2"
+    ],
+    "description": "Capture exact secondary navigation section",
+    "path": "observations/e85f04bc857cc3e8c516.json"
+  },
+  {
+    "id": "detail-shared-secondary-navigation",
+    "nodeIds": [
+      "140:260"
+    ],
+    "description": "Exact source section capture",
+    "path": "observations/detail-shared-secondary-navigation.json"
+  },
+  {
+    "id": "1f35a8b8aca7f971542c",
+    "nodeIds": [
+      "140:262",
+      "12:2"
+    ],
+    "description": "Capture default primary navigation with deduplicated styles to avoid truncation",
+    "path": "observations/1f35a8b8aca7f971542c.json"
+  },
+  {
+    "id": "detail-shared-primary-navigation",
+    "nodeIds": [
+      "140:262"
+    ],
+    "description": "Exact source section capture",
+    "path": "observations/detail-shared-primary-navigation.json"
+  },
+  {
+    "id": "55213b122672e599a880",
+    "nodeIds": [
+      "250:728",
+      "250:115"
+    ],
+    "description": "Capture exact shared-primary-navigation-active section source",
+    "path": "observations/55213b122672e599a880.json"
+  },
+  {
+    "id": "3c386dde7cbca5233fc4",
+    "nodeIds": [
+      "250:728",
+      "250:115"
+    ],
+    "description": "Capture exact shared-primary-navigation-active section source nodes 25",
+    "path": "observations/3c386dde7cbca5233fc4.json"
+  },
+  {
+    "id": "detail-shared-primary-navigation-active",
+    "nodeIds": [
+      "250:728"
+    ],
+    "description": "Exact source section capture",
+    "path": "observations/detail-shared-primary-navigation-active.json"
+  },
+  {
+    "id": "a630d4d1eeb916299f02",
+    "nodeIds": [
+      "130:133",
+      "12:2"
+    ],
+    "description": "Capture exact home-benefits section source",
+    "path": "observations/a630d4d1eeb916299f02.json"
+  },
+  {
+    "id": "0dd3818ef98293cf7607",
+    "nodeIds": [
+      "130:133",
+      "12:2"
+    ],
+    "description": "Capture exact home-benefits section source nodes 25",
+    "path": "observations/0dd3818ef98293cf7607.json"
+  },
+  {
+    "id": "detail-home-benefits",
+    "nodeIds": [
+      "130:133"
+    ],
+    "description": "Exact source section capture",
+    "path": "observations/detail-home-benefits.json"
+  },
+  {
+    "id": "172cde4b988a292f1e6a",
+    "nodeIds": [
+      "110:2",
+      "12:2"
+    ],
+    "description": "Capture exact home-crop-selection section source",
+    "path": "observations/172cde4b988a292f1e6a.json"
+  },
+  {
+    "id": "46f98460a428ff7acbae",
+    "nodeIds": [
+      "110:2",
+      "12:2"
+    ],
+    "description": "Capture exact home-crop-selection section source nodes 25",
+    "path": "observations/46f98460a428ff7acbae.json"
+  },
+  {
+    "id": "b509350fabbf4b15031a",
+    "nodeIds": [
+      "110:2",
+      "12:2"
+    ],
+    "description": "Capture exact home-crop-selection section source nodes 50",
+    "path": "observations/b509350fabbf4b15031a.json"
+  },
+  {
+    "id": "ad973ae65e42bc30832d",
+    "nodeIds": [
+      "110:2",
+      "12:2"
+    ],
+    "description": "Capture exact home-crop-selection section source nodes 75",
+    "path": "observations/ad973ae65e42bc30832d.json"
+  },
+  {
+    "id": "32bc18be9f8e971a8493",
+    "nodeIds": [
+      "110:2",
+      "12:2"
+    ],
+    "description": "Capture exact home-crop-selection section source nodes 100",
+    "path": "observations/32bc18be9f8e971a8493.json"
+  },
+  {
+    "id": "5f6e3a5e51aef89017ae",
+    "nodeIds": [
+      "110:2",
+      "12:2"
+    ],
+    "description": "Capture exact home-crop-selection section source nodes 125",
+    "path": "observations/5f6e3a5e51aef89017ae.json"
+  },
+  {
+    "id": "14fc2342bbb386c551fa",
+    "nodeIds": [
+      "110:2",
+      "12:2"
+    ],
+    "description": "Capture exact home-crop-selection section source nodes 150",
+    "path": "observations/14fc2342bbb386c551fa.json"
+  },
+  {
+    "id": "f5b4c962ce09cc1bc8aa",
+    "nodeIds": [
+      "110:2",
+      "12:2"
+    ],
+    "description": "Capture exact home-crop-selection section source nodes 175",
+    "path": "observations/f5b4c962ce09cc1bc8aa.json"
+  },
+  {
+    "id": "d896186ebda403e6e122",
+    "nodeIds": [
+      "110:2",
+      "12:2"
+    ],
+    "description": "Capture exact home-crop-selection section source nodes 200",
+    "path": "observations/d896186ebda403e6e122.json"
+  },
+  {
+    "id": "3843253cc96dc09ea469",
+    "nodeIds": [
+      "110:2",
+      "12:2"
+    ],
+    "description": "Capture exact home-crop-selection section source nodes 225",
+    "path": "observations/3843253cc96dc09ea469.json"
+  },
+  {
+    "id": "3831f439c4426ec7d6be",
+    "nodeIds": [
+      "110:2",
+      "12:2"
+    ],
+    "description": "Capture exact home-crop-selection section source nodes 250",
+    "path": "observations/3831f439c4426ec7d6be.json"
+  },
+  {
+    "id": "detail-home-crop-selection",
+    "nodeIds": [
+      "110:2"
+    ],
+    "description": "Exact source section capture",
+    "path": "observations/detail-home-crop-selection.json"
+  },
+  {
+    "id": "abe7d4977c8f86cc5038",
+    "nodeIds": [
+      "222:28",
+      "12:2"
+    ],
+    "description": "Capture exact home-promotions section source",
+    "path": "observations/abe7d4977c8f86cc5038.json"
+  },
+  {
+    "id": "fb88c0381947039464b2",
+    "nodeIds": [
+      "222:28",
+      "12:2"
+    ],
+    "description": "Capture exact home-promotions section source nodes 25",
+    "path": "observations/fb88c0381947039464b2.json"
+  },
+  {
+    "id": "6d99270d06112fc68620",
+    "nodeIds": [
+      "222:28",
+      "12:2"
+    ],
+    "description": "Capture exact home-promotions section source nodes 50",
+    "path": "observations/6d99270d06112fc68620.json"
+  },
+  {
+    "id": "cdc79e1553e525dca868",
+    "nodeIds": [
+      "222:28",
+      "12:2"
+    ],
+    "description": "Capture exact home-promotions section source nodes 75",
+    "path": "observations/cdc79e1553e525dca868.json"
+  },
+  {
+    "id": "0f3ce6bca45e083a6b87",
+    "nodeIds": [
+      "222:28",
+      "12:2"
+    ],
+    "description": "Capture exact home-promotions section source nodes 100",
+    "path": "observations/0f3ce6bca45e083a6b87.json"
+  },
+  {
+    "id": "detail-home-promotions",
+    "nodeIds": [
+      "222:28"
+    ],
+    "description": "Exact source section capture",
+    "path": "observations/detail-home-promotions.json"
+  },
+  {
+    "id": "24d3ba35f3fc182fab0e",
+    "nodeIds": [
+      "574:59",
+      "12:2"
+    ],
+    "description": "Capture exact home-bundles section source",
+    "path": "observations/24d3ba35f3fc182fab0e.json"
+  },
+  {
+    "id": "4e2d9bfac4406ae938f2",
+    "nodeIds": [
+      "574:59",
+      "12:2"
+    ],
+    "description": "Capture exact home-bundles section source nodes 25",
+    "path": "observations/4e2d9bfac4406ae938f2.json"
+  },
+  {
+    "id": "165723ea544a8869f11b",
+    "nodeIds": [
+      "574:59",
+      "12:2"
+    ],
+    "description": "Capture exact home-bundles section source nodes 50",
+    "path": "observations/165723ea544a8869f11b.json"
+  },
+  {
+    "id": "01e2a436562c4d28d573",
+    "nodeIds": [
+      "574:59",
+      "12:2"
+    ],
+    "description": "Capture exact home-bundles section source nodes 75",
+    "path": "observations/01e2a436562c4d28d573.json"
+  },
+  {
+    "id": "detail-home-bundles",
+    "nodeIds": [
+      "574:59"
+    ],
+    "description": "Exact source section capture",
+    "path": "observations/detail-home-bundles.json"
+  },
+  {
+    "id": "6e5dc1b4c8af505d107f",
+    "nodeIds": [
+      "140:261",
+      "12:2"
+    ],
+    "description": "Capture exact home-catalogues section source",
+    "path": "observations/6e5dc1b4c8af505d107f.json"
+  },
+  {
+    "id": "detail-home-catalogues",
+    "nodeIds": [
+      "140:261"
+    ],
+    "description": "Exact source section capture",
+    "path": "observations/detail-home-catalogues.json"
+  },
+  {
+    "id": "c5b86e1a962315c7ac84",
+    "nodeIds": [
+      "140:167",
+      "12:2"
+    ],
+    "description": "Capture exact home-recommended section source",
+    "path": "observations/c5b86e1a962315c7ac84.json"
+  },
+  {
+    "id": "b6d7436e8dcbce10cbf4",
+    "nodeIds": [
+      "140:167",
+      "12:2"
+    ],
+    "description": "Capture exact home-recommended section source nodes 25",
+    "path": "observations/b6d7436e8dcbce10cbf4.json"
+  },
+  {
+    "id": "fc99b9c1b1dd23f6f3ec",
+    "nodeIds": [
+      "140:167",
+      "12:2"
+    ],
+    "description": "Capture exact home-recommended section source nodes 50",
+    "path": "observations/fc99b9c1b1dd23f6f3ec.json"
+  },
+  {
+    "id": "8f290a6ad29246131f41",
+    "nodeIds": [
+      "140:167",
+      "12:2"
+    ],
+    "description": "Capture exact home-recommended section source nodes 75",
+    "path": "observations/8f290a6ad29246131f41.json"
+  },
+  {
+    "id": "detail-home-recommended",
+    "nodeIds": [
+      "140:167"
+    ],
+    "description": "Exact source section capture",
+    "path": "observations/detail-home-recommended.json"
+  },
+  {
+    "id": "5ab2aacb73efd682159e",
+    "nodeIds": [
+      "130:136",
+      "12:2"
+    ],
+    "description": "Capture exact home-about section source",
+    "path": "observations/5ab2aacb73efd682159e.json"
+  },
+  {
+    "id": "detail-home-about",
+    "nodeIds": [
+      "130:136"
+    ],
+    "description": "Exact source section capture",
+    "path": "observations/detail-home-about.json"
+  },
+  {
+    "id": "d60be22671d294088867",
+    "nodeIds": [
+      "96:95",
+      "12:2"
+    ],
+    "description": "Capture exact home-blog section source",
+    "path": "observations/d60be22671d294088867.json"
+  },
+  {
+    "id": "detail-home-blog",
+    "nodeIds": [
+      "96:95"
+    ],
+    "description": "Exact source section capture",
+    "path": "observations/detail-home-blog.json"
+  },
+  {
+    "id": "1850d401c5bcc36e22a0",
+    "nodeIds": [
+      "140:263",
+      "12:2"
+    ],
+    "description": "Locate lower homepage knowledge content and background without whole-page rediscovery",
+    "path": "observations/1850d401c5bcc36e22a0.json"
+  },
+  {
+    "id": "6927c2589d04d5d1ee55",
+    "nodeIds": [
+      "140:263",
+      "12:2"
+    ],
+    "description": "Capture exact home-lower-background section source",
+    "path": "observations/6927c2589d04d5d1ee55.json"
+  },
+  {
+    "id": "e099e5d3daacc59868ed",
+    "nodeIds": [
+      "164:212",
+      "12:2"
+    ],
+    "description": "Capture exact home-knowledge section source",
+    "path": "observations/e099e5d3daacc59868ed.json"
+  },
+  {
+    "id": "a938d38635c39b53028a",
+    "nodeIds": [
+      "164:213",
+      "12:2"
+    ],
+    "description": "Capture exact home-knowledge-collapsed section source",
+    "path": "observations/a938d38635c39b53028a.json"
+  },
+  {
+    "id": "detail-home-knowledge",
+    "nodeIds": [
+      "164:212"
+    ],
+    "description": "Exact source section capture",
+    "path": "observations/detail-home-knowledge.json"
+  },
+  {
+    "id": "053b78308ad646a28ad7",
+    "nodeIds": [
+      "222:62",
+      "12:2"
+    ],
+    "description": "Capture exact shared-footer section source",
+    "path": "observations/053b78308ad646a28ad7.json"
+  },
+  {
+    "id": "7891ec52f6816ff9beb4",
+    "nodeIds": [
+      "222:62",
+      "12:2"
+    ],
+    "description": "Capture exact shared-footer section source nodes 25",
+    "path": "observations/7891ec52f6816ff9beb4.json"
+  },
+  {
+    "id": "ba25edbc7a1352242743",
+    "nodeIds": [
+      "222:60",
+      "12:2"
+    ],
+    "description": "Capture footer legal notice source text and line as actual sibling nodes",
+    "path": "observations/ba25edbc7a1352242743.json"
+  },
+  {
+    "id": "detail-shared-footer",
+    "nodeIds": [
+      "222:62"
+    ],
+    "description": "Exact source section capture",
+    "path": "observations/detail-shared-footer.json"
+  },
+  {
+    "id": "ab27d42797535ad60399",
+    "nodeIds": [
+      "112:6",
+      "12:2"
+    ],
+    "description": "Capture exact home-hero section source",
+    "path": "observations/ab27d42797535ad60399.json"
+  },
+  {
+    "id": "detail-home-hero",
+    "nodeIds": [
+      "112:6"
+    ],
+    "description": "Exact source section capture",
+    "path": "observations/detail-home-hero.json"
+  },
+  {
+    "id": "8c076e93f418e7faec4c",
+    "nodeIds": [
+      "250:712",
+      "250:115"
+    ],
+    "description": "Capture exact home-hero-active section source",
+    "path": "observations/8c076e93f418e7faec4c.json"
+  },
+  {
+    "id": "detail-home-hero-active",
+    "nodeIds": [
+      "250:712"
+    ],
+    "description": "Exact source section capture",
+    "path": "observations/detail-home-hero-active.json"
+  },
+  {
+    "id": "f70ae8ce5441fc3f761a",
+    "nodeIds": [
+      "250:412",
+      "250:115"
+    ],
+    "description": "Capture exact home-crop-selection-active section source",
+    "path": "observations/f70ae8ce5441fc3f761a.json"
+  },
+  {
+    "id": "b43cb9e73421d1122160",
+    "nodeIds": [
+      "250:412",
+      "250:115"
+    ],
+    "description": "Capture exact home-crop-selection-active section source nodes 25",
+    "path": "observations/b43cb9e73421d1122160.json"
+  },
+  {
+    "id": "05b7ea40cba8e663c6cb",
+    "nodeIds": [
+      "250:412",
+      "250:115"
+    ],
+    "description": "Capture exact home-crop-selection-active section source nodes 50",
+    "path": "observations/05b7ea40cba8e663c6cb.json"
+  },
+  {
+    "id": "8571e230d1971232fdd2",
+    "nodeIds": [
+      "250:412",
+      "250:115"
+    ],
+    "description": "Capture exact home-crop-selection-active section source nodes 75",
+    "path": "observations/8571e230d1971232fdd2.json"
+  },
+  {
+    "id": "d8da524da6d59076c570",
+    "nodeIds": [
+      "250:412",
+      "250:115"
+    ],
+    "description": "Capture exact home-crop-selection-active section source nodes 100",
+    "path": "observations/d8da524da6d59076c570.json"
+  },
+  {
+    "id": "ce77c00f6f945f9dba0c",
+    "nodeIds": [
+      "250:412",
+      "250:115"
+    ],
+    "description": "Capture exact home-crop-selection-active section source nodes 125",
+    "path": "observations/ce77c00f6f945f9dba0c.json"
+  },
+  {
+    "id": "9dea296dd4e6e2dfff8c",
+    "nodeIds": [
+      "250:412",
+      "250:115"
+    ],
+    "description": "Capture exact home-crop-selection-active section source nodes 150",
+    "path": "observations/9dea296dd4e6e2dfff8c.json"
+  },
+  {
+    "id": "f520b600059c7a270284",
+    "nodeIds": [
+      "250:412",
+      "250:115"
+    ],
+    "description": "Capture exact home-crop-selection-active section source nodes 175",
+    "path": "observations/f520b600059c7a270284.json"
+  },
+  {
+    "id": "1c20a9b3d326f92e73f7",
+    "nodeIds": [
+      "250:412",
+      "250:115"
+    ],
+    "description": "Capture exact home-crop-selection-active section source nodes 200",
+    "path": "observations/1c20a9b3d326f92e73f7.json"
+  },
+  {
+    "id": "cde398f7aa56933cbb81",
+    "nodeIds": [
+      "250:412",
+      "250:115"
+    ],
+    "description": "Capture exact home-crop-selection-active section source nodes 225",
+    "path": "observations/cde398f7aa56933cbb81.json"
+  },
+  {
+    "id": "3e4b44e417cc93a94341",
+    "nodeIds": [
+      "250:412",
+      "250:115"
+    ],
+    "description": "Capture exact home-crop-selection-active section source nodes 250",
+    "path": "observations/3e4b44e417cc93a94341.json"
+  },
+  {
+    "id": "9457afee508a64493918",
+    "nodeIds": [
+      "250:412",
+      "250:115"
+    ],
+    "description": "Capture exact home-crop-selection-active section source nodes 275",
+    "path": "observations/9457afee508a64493918.json"
+  },
+  {
+    "id": "detail-home-crop-selection-active",
+    "nodeIds": [
+      "250:412"
+    ],
+    "description": "Exact source section capture",
+    "path": "observations/detail-home-crop-selection-active.json"
+  },
+  {
+    "id": "b3a3c18925eb69ad6521",
+    "nodeIds": [
+      "250:301",
+      "250:115"
+    ],
+    "description": "Capture exact home-promotions-active section source",
+    "path": "observations/b3a3c18925eb69ad6521.json"
+  },
+  {
+    "id": "fda4833a32974cc95acc",
+    "nodeIds": [
+      "250:301",
+      "250:115"
+    ],
+    "description": "Capture exact home-promotions-active section source nodes 25",
+    "path": "observations/fda4833a32974cc95acc.json"
+  },
+  {
+    "id": "5165c731923751120c3c",
+    "nodeIds": [
+      "250:301",
+      "250:115"
+    ],
+    "description": "Capture exact home-promotions-active section source nodes 50",
+    "path": "observations/5165c731923751120c3c.json"
+  },
+  {
+    "id": "996c479a9d18240fd566",
+    "nodeIds": [
+      "250:301",
+      "250:115"
+    ],
+    "description": "Capture exact home-promotions-active section source nodes 75",
+    "path": "observations/996c479a9d18240fd566.json"
+  },
+  {
+    "id": "6b72a01684d1291d14e0",
+    "nodeIds": [
+      "250:301",
+      "250:115"
+    ],
+    "description": "Capture exact home-promotions-active section source nodes 100",
+    "path": "observations/6b72a01684d1291d14e0.json"
+  },
+  {
+    "id": "detail-home-promotions-active",
+    "nodeIds": [
+      "250:301"
+    ],
+    "description": "Exact source section capture",
+    "path": "observations/detail-home-promotions-active.json"
+  },
+  {
+    "id": "147bd63be14c6c7da9d4",
+    "nodeIds": [
+      "574:426",
+      "250:115"
+    ],
+    "description": "Capture exact home-bundles-active section source",
+    "path": "observations/147bd63be14c6c7da9d4.json"
+  },
+  {
+    "id": "234f510c61b3d6944b9f",
+    "nodeIds": [],
+    "description": "Read only the exact source nodes for the contact heading section and their visual properties.",
+    "path": "observations/234f510c61b3d6944b9f.json"
+  },
+  {
+    "id": "a6c28275dd28f25dd610",
+    "nodeIds": [],
+    "description": "Read only the source nodes that compose the contact-details cards, their styles, and their exact editable text.",
+    "path": "observations/a6c28275dd28f25dd610.json"
+  },
+  {
+    "id": "9456d6a89050c25620ef",
+    "nodeIds": [],
+    "description": "Read only the source nodes that compose the contact form section, including visual styling and exact editable labels.",
+    "path": "observations/9456d6a89050c25620ef.json"
+  },
+  {
+    "id": "2c8ac4d8400aad7c2da1",
+    "nodeIds": [],
+    "description": "Read only the submit control descendants and map source node for the contact form and map sections.",
+    "path": "observations/2c8ac4d8400aad7c2da1.json"
+  },
+  {
+    "id": "f5b49583f5d701e7bc65",
+    "nodeIds": [
+      "431:924",
+      "431:907"
+    ],
+    "description": "Verify whether the sourced contact map or privacy notice supplies an external destination.",
+    "path": "observations/f5b49583f5d701e7bc65.json"
+  },
+  {
+    "id": "5ea250acb1158a8cb8a0",
+    "nodeIds": [
+      "294:3"
+    ],
+    "description": "Read product archive top-level node geometry to identify logical sections",
+    "path": "observations/5ea250acb1158a8cb8a0.json"
+  },
+  {
+    "id": "1d4573dcbcb9fd99c7f6",
+    "nodeIds": [
+      "295:700"
+    ],
+    "description": "Read exact breadcrumb text styling and geometry",
+    "path": "observations/1d4573dcbcb9fd99c7f6.json"
+  },
+  {
+    "id": "9185f9b528da3c02b783",
+    "nodeIds": [
+      "303:1281"
+    ],
+    "description": "Read exact category introduction copy, styles, and geometry",
+    "path": "observations/9185f9b528da3c02b783.json"
+  },
+  {
+    "id": "c92124f5ce4b367fcdbf",
+    "nodeIds": [
+      "310:1554"
+    ],
+    "description": "Read exact filter labels, controls, and geometry",
+    "path": "observations/c92124f5ce4b367fcdbf.json"
+  },
+  {
+    "id": "bd8ded7cf3081605a9b9",
+    "nodeIds": [
+      "303:1283"
+    ],
+    "description": "Identify the archive sort control separately from the product list",
+    "path": "observations/bd8ded7cf3081605a9b9.json"
+  },
+  {
+    "id": "f9b1fef7179dc6b63523",
+    "nodeIds": [
+      "303:1282"
+    ],
+    "description": "Extract first six product content records and media geometry",
+    "path": "observations/f9b1fef7179dc6b63523.json"
+  },
+  {
+    "id": "9fc5266243c88c097b8d",
+    "nodeIds": [
+      "303:1282"
+    ],
+    "description": "Extract middle six product content records and media geometry",
+    "path": "observations/9fc5266243c88c097b8d.json"
+  },
+  {
+    "id": "a45143baf1f2dcaf7dcd",
+    "nodeIds": [
+      "303:1282"
+    ],
+    "description": "Extract final six product content records and media geometry",
+    "path": "observations/a45143baf1f2dcaf7dcd.json"
+  },
+  {
+    "id": "3335d08f61e55e848aad",
+    "nodeIds": [
+      "303:1276"
+    ],
+    "description": "Measure category-description source text for exact content recording",
+    "path": "observations/3335d08f61e55e848aad.json"
+  }
+]

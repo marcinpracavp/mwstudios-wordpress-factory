@@ -1,0 +1,37 @@
+{
+  "task": {
+    "id": "detail-contact",
+    "scope": "group",
+    "buildGroup": "contact"
+  },
+  "sourceContext": {
+    "version": 1,
+    "available": true,
+    "index": {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/013-discovery-detail-contact/source-context/index.json",
+      "bytes": 1429,
+      "sha256": "9da357d569fc2d1afd5dd42c26ed8f6ed7456461ecd049fa6efd930e0fba9aa2"
+    }
+  },
+  "model": "gpt-5.6-terra",
+  "reasoningEffort": "high",
+  "continuation": "new task",
+  "previousExecution": null,
+  "snapshot": ".factory-cache/figma/latest",
+  "observations": ".factory-cache/figma/latest/observations/index.json",
+  "plans": [
+    "docs/factory/project/PLAN.md",
+    "docs/factory/project/SOURCE_CLARIFICATIONS.md"
+  ],
+  "currentGate": {
+    "passed": false,
+    "errors": [
+      "Missing section contact-heading",
+      "Missing section contact-details",
+      "Missing section contact-form",
+      "Missing section contact-map"
+    ],
+    "group": "contact"
+  },
+  "instruction": "Inspect the current gate and finish only remaining assigned work. Reuse real saved source facts and assets."
+}

@@ -1,0 +1,18 @@
+{
+  "id": "b8c2bd144f7ec4f649e1",
+  "tool": "figma.use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [],
+  "description": "Read-only enumeration of every RudnikAgro PAGE node",
+  "recordedAt": "2026-09-10T19:28:25.092Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    [
+      {
+        "id": "0:1",
+        "name": "Page 1",
+        "type": "PAGE"
+      }
+    ]
+  ]
+}

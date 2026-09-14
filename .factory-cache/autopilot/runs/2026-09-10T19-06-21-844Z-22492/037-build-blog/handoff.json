@@ -1,0 +1,69 @@
+{
+  "task": {
+    "id": "blog"
+  },
+  "sourceContext": {
+    "version": 2,
+    "available": true,
+    "index": {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/037-build-blog/source-context/index.json",
+      "bytes": 1475,
+      "sha256": "bb431710ed5ac50e17bf49b8b5029d63e4e3a02c07638d8ddc0caf5cc4eef73e"
+    }
+  },
+  "model": "gpt-5.6-terra",
+  "reasoningEffort": "high",
+  "continuation": "fresh session using persisted artifacts; do not load historical conversation",
+  "previousExecution": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/036-build-blog/execution.json",
+  "previousResult": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/036-build-blog/result.json",
+  "correctionFocus": [],
+  "currentPageVerification": {
+    "summary": ".factory-cache/autopilot/visual-1789201927830/summary.json",
+    "routes": [
+      {
+        "id": "blog-archive",
+        "passed": false,
+        "pagePassed": false,
+        "ownership": {
+          "header": {
+            "pixels": 372480,
+            "differentPixels": 21869,
+            "ratio": 0.05871187714776632
+          },
+          "footer": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "shared": {
+            "pixels": 334400,
+            "differentPixels": 4263,
+            "ratio": 0.012748205741626795
+          },
+          "page": {
+            "pixels": 6621760,
+            "differentPixels": 502238,
+            "ratio": 0.07584660271589426
+          }
+        },
+        "errors": [
+          "page pixel mismatch 7.585%",
+          "header pixel mismatch 5.871%",
+          "Section geometry differs: shared-footer"
+        ],
+        "comparison": ".factory-cache/autopilot/visual-1789201927830/blog-archive/comparison.json"
+      }
+    ],
+    "instruction": "Current matching measurement. If pagePassed is true, do not repeat page corrections solely because shared owners fail. Complete reusable-component work if required, check regressions, and hand off shared findings for final audit."
+  },
+  "snapshot": ".factory-cache/figma/latest",
+  "observations": ".factory-cache/figma/latest/observations/index.json",
+  "plans": [
+    "docs/factory/project/PLAN.md",
+    "docs/factory/project/STATUS.md",
+    "docs/factory/project/SOURCE_CLARIFICATIONS.md",
+    "docs/factory/project/REUSABLE_COMPONENTS.md"
+  ],
+  "currentGate": null,
+  "instruction": "Inspect the current gate and finish only remaining assigned work. Reuse real saved source facts and assets."
+}

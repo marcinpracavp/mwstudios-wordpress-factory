@@ -1,0 +1,33 @@
+{
+  "task": {
+    "id": "round-0-58751f426784b007e333-shared-components",
+    "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/summary.json"
+  },
+  "sourceContext": {
+    "version": 6,
+    "available": true,
+    "index": {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/082-audit-round-0-58751f426784b007e333-shared-components/source-context/index.json",
+      "bytes": 2346,
+      "sha256": "ed85402ab41f689053cfc06ba85abc95b0b1a2e2a86f0872e4dfd5249a559ba0"
+    }
+  },
+  "model": "gpt-5.6-sol",
+  "reasoningEffort": "high",
+  "continuation": "new task",
+  "previousExecution": null,
+  "previousResult": null,
+  "correctionFocus": [],
+  "currentPageVerification": null,
+  "auditCheckpoint": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/packet-shared-components.json",
+  "snapshot": ".factory-cache/figma/latest",
+  "observations": ".factory-cache/figma/latest/observations/index.json",
+  "plans": [
+    "docs/factory/project/PLAN.md",
+    "docs/factory/project/STATUS.md",
+    "docs/factory/project/SOURCE_CLARIFICATIONS.md",
+    "docs/factory/project/REUSABLE_COMPONENTS.md"
+  ],
+  "currentGate": null,
+  "instruction": "Inspect the current gate and finish only remaining assigned work. Reuse real saved source facts and assets."
+}

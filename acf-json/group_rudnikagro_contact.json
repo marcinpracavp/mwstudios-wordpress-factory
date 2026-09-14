@@ -1,0 +1,44 @@
+{
+  "key": "group_rudnikagro_contact",
+  "title": "RudnikAgro — Kontakt",
+  "fields": [
+    {"key":"field_ra_contact_tab_heading","label":"Nagłówek","name":"rudnikagro_tab_contact_heading","type":"tab","placement":"top"},
+    {"key":"field_ra_contact_heading","label":"Baner strony","name":"rudnikagro_contact_heading","type":"group","layout":"block","sub_fields":[
+      {"key":"field_ra_contact_heading_title","label":"Tytuł","name":"title","type":"text"},
+      {"key":"field_ra_contact_heading_breadcrumb","label":"Breadcrumb","name":"breadcrumb","type":"text"},
+      {"key":"field_ra_contact_heading_image","label":"Obraz","name":"image","type":"image","return_format":"id","library":"all"}
+    ]},
+    {"key":"field_ra_contact_tab_details","label":"Dane kontaktowe","name":"rudnikagro_tab_contact_details","type":"tab","placement":"top"},
+    {"key":"field_ra_contact_blocks","label":"Karty kontaktowe","name":"rudnikagro_contact_blocks","type":"repeater","layout":"block","button_label":"Dodaj kartę","sub_fields":[
+      {"key":"field_ra_contact_block_heading","label":"Nagłówek","name":"heading","type":"text"},
+      {"key":"field_ra_contact_block_company","label":"Podtytuł / firma","name":"company","type":"text"},
+      {"key":"field_ra_contact_block_content","label":"Dane","name":"content","type":"textarea","rows":8},
+      {"key":"field_ra_contact_block_contacts","label":"Działy","name":"contacts","type":"repeater","layout":"block","button_label":"Dodaj dział","sub_fields":[
+        {"key":"field_ra_contact_department_heading","label":"Nagłówek","name":"heading","type":"text"},
+        {"key":"field_ra_contact_department_content","label":"Dane","name":"content","type":"textarea","rows":4}
+      ]}
+    ]},
+    {"key":"field_ra_contact_tab_form","label":"Formularz","name":"rudnikagro_tab_contact_form","type":"tab","placement":"top"},
+    {"key":"field_ra_contact_form_presentation","label":"Treść formularza","name":"rudnikagro_contact_form_presentation","type":"group","layout":"block","sub_fields":[
+      {"key":"field_ra_contact_form_heading","label":"Nagłówek","name":"heading","type":"text"},
+      {"key":"field_ra_contact_form_name","label":"Etykieta imienia","name":"name_label","type":"text"},
+      {"key":"field_ra_contact_form_email","label":"Etykieta e-mail","name":"email_label","type":"text"},
+      {"key":"field_ra_contact_form_phone","label":"Etykieta telefonu","name":"phone_label","type":"text"},
+      {"key":"field_ra_contact_form_message","label":"Etykieta wiadomości","name":"message_label","type":"text"},
+      {"key":"field_ra_contact_form_submit","label":"Etykieta przycisku","name":"submit_label","type":"text"},
+      {"key":"field_ra_contact_form_privacy","label":"Informacja prywatności","name":"privacy_notice","type":"textarea","rows":3}
+    ]},
+    {"key":"field_ra_contact_form","label":"Formularz Contact Form 7","name":"rudnikagro_contact_form","type":"post_object","post_type":["wpcf7_contact_form"],"return_format":"id","ui":1},
+    {"key":"field_ra_contact_tab_map","label":"Mapa","name":"rudnikagro_tab_contact_map","type":"tab","placement":"top"},
+    {"key":"field_ra_contact_map","label":"Obraz mapy","name":"rudnikagro_contact_map_image","type":"image","return_format":"id","library":"all"}
+  ],
+  "location": [[{"param":"page_template","operator":"==","value":"template-contact.php"}]],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "active": true,
+  "show_in_rest": 0,
+  "modified": 1789207000
+}

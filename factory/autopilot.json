@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "stageModels": {
+    "discovery": "gpt-5.6-terra",
+    "foundation": "gpt-5.6-terra",
+    "build": "gpt-5.6-terra",
+    "correct": "gpt-5.6-terra",
+    "audit": "gpt-5.6-sol",
+    "final": "gpt-5.6-sol"
+  },
+  "reasoningEffort": "high",
+  "toolOutputTokenLimit": 3000,
+  "stageTimeoutMinutes": 180,
+  "maxRepairPasses": 4,
+  "maxStageAttempts": 2,
+  "maxUncachedTokens": 13000000,
+  "contentPolicy": {
+    "importFigmaCardProducts": true,
+    "importFigmaReviews": true,
+    "variationPricing": "source-price-else-proportional",
+    "preserveManualOverrides": true,
+    "iconFormat": "svg",
+    "iconEditor": "acf-attachment"
+  },
+  "visualDeferral": { "samples": 3, "maxPageMismatch": 0.13, "minImprovement": 0.03 },
+  "figmaMcpUrl": "https://mcp.figma.com/mcp",
+  "visual": {
+    "channelTolerance": 24,
+    "maxDifferentPixelRatio": 0.085,
+    "geometryTolerancePx": 2
+  },
+  "responsiveWidths": [1440, 1280, 1024, 768, 390, 375]
+}

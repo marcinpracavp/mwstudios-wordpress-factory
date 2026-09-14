@@ -1,0 +1,31 @@
+{
+  "key": "group_rudnikagro_account",
+  "title": "RudnikAgro — Konto",
+  "fields": [
+    {"key":"field_ra_account_breadcrumb_tab","label":"Breadcrumb","name":"","type":"tab","placement":"top"},
+    {"key":"field_ra_account_breadcrumb","label":"Elementy breadcrumb","name":"rudnikagro_account_breadcrumb","type":"repeater","layout":"table","button_label":"Dodaj element","sub_fields":[
+      {"key":"field_ra_account_breadcrumb_label","label":"Etykieta","name":"label","type":"text"},
+      {"key":"field_ra_account_breadcrumb_current","label":"Bieżąca strona","name":"current","type":"true_false","ui":1}
+    ]},
+    {"key":"field_ra_account_login_tab","label":"Logowanie","name":"","type":"tab","placement":"top"},
+    {"key":"field_ra_account_login_title","label":"Tytuł","name":"rudnikagro_account_login_title","type":"text"},
+    {"key":"field_ra_account_login_email","label":"Etykieta e-mail","name":"rudnikagro_account_login_email_label","type":"text"},
+    {"key":"field_ra_account_login_password","label":"Etykieta hasła","name":"rudnikagro_account_login_password_label","type":"text"},
+    {"key":"field_ra_account_login_remember","label":"Zapamiętanie logowania","name":"rudnikagro_account_login_remember_label","type":"text"},
+    {"key":"field_ra_account_login_submit","label":"Przycisk logowania","name":"rudnikagro_account_login_submit_label","type":"text"},
+    {"key":"field_ra_account_login_reset","label":"Reset hasła","name":"rudnikagro_account_login_reset_label","type":"text"},
+    {"key":"field_ra_account_registration_tab","label":"Rejestracja","name":"","type":"tab","placement":"top"},
+    {"key":"field_ra_account_registration_title","label":"Tytuł","name":"rudnikagro_account_registration_title","type":"text"},
+    {"key":"field_ra_account_registration_benefits","label":"Korzyści","name":"rudnikagro_account_registration_benefits","type":"wysiwyg","tabs":"visual","toolbar":"basic","media_upload":0},
+    {"key":"field_ra_account_registration_submit","label":"Przycisk rejestracji","name":"rudnikagro_account_registration_submit_label","type":"text"}
+  ],
+  "location": [[{"param":"options_page","operator":"==","value":"acf-options-rudnikagro"}]],
+  "menu_order": 2,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "active": true,
+  "show_in_rest": 0,
+  "modified": 1789319000
+}

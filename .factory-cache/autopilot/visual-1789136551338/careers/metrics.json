@@ -1,0 +1,461 @@
+{
+  "url": "https://autopilot.local/kariera/",
+  "title": "Kariera – Safegold",
+  "width": 1920,
+  "height": 900,
+  "overflow": 0,
+  "fontsReady": true,
+  "sections": [
+    {
+      "id": "shared-topbar",
+      "x": 643,
+      "y": 67,
+      "width": 634,
+      "height": 34,
+      "style": {
+        "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(0, 125, 68)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "id": "shared-secondary-navigation",
+      "x": 663,
+      "y": 101,
+      "width": 594,
+      "height": 56,
+      "style": {
+        "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "letterSpacing": "normal",
+        "color": "rgb(68, 68, 68)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "20px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "id": "shared-primary-navigation",
+      "x": 663,
+      "y": 157,
+      "width": 594,
+      "height": 79,
+      "style": {
+        "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(68, 68, 68)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "id": "careers-heading",
+      "x": 643,
+      "y": 236,
+      "width": 634,
+      "height": 391,
+      "style": {
+        "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(0, 102, 51)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    }
+  ],
+  "texts": [
+    {
+      "text": "Szukaj",
+      "x": 953.890625,
+      "y": 108.5,
+      "width": 1,
+      "height": 1,
+      "style": {
+        "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "letterSpacing": "normal",
+        "color": "rgb(68, 68, 68)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "",
+      "x": 985.890625,
+      "y": 108.5,
+      "width": 40,
+      "height": 41,
+      "style": {
+        "fontFamily": "Arial",
+        "fontWeight": "400",
+        "fontSize": "13.3333px",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "color": "rgb(68, 68, 68)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "10px",
+        "paddingRight": "10px",
+        "paddingBottom": "10px",
+        "paddingLeft": "10px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "",
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0,
+      "style": {
+        "fontFamily": "Arial",
+        "fontWeight": "400",
+        "fontSize": "13.3333px",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "color": "rgb(68, 68, 68)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "Fatal error:  Uncaught Error: Call to undefined function rudnikagro_breadcrumb() in C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\page-careers.php:22\nStack trace:\n#0 C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-includes\\template-loader.php(132): include()\n#1 C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-blog-header.php(19): require_once('C:\\\\Users\\\\HP\\\\Loc...')\n#2 C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\index.php(17): require('C:\\\\Users\\\\HP\\\\Loc...')\n#3 {main}\n  thrown in C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\page-careers.php on line 22\n\n\n\n\t\n\t\n\t\t\n\tWordPress › Błąd\n\t\n\t\thtml {\n\t\t\tbackground: #f1f1f1;\n\t\t}\n\t\tbody {\n\t\t\tbackground: #fff;\n\t\t\tborder: 1px solid #ccd0d4;\n\t\t\tcolor: #444;\n\t\t\tfont-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif;\n\t\t\tmargin: 2em auto;\n\t\t\tpadding: 1em 2em;\n\t\t\tmax-width: 700px;\n\t\t\t-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .04);\n\t\t\tbox-shadow: 0 1px 1px rgba(0, 0, 0, .04);\n\t\t}\n\t\th1 {\n\t\t\tborder-bottom: 1px solid #dadada;\n\t\t\tclear: both;\n\t\t\tcolor: #666;\n\t\t\tfont-size: 24px;\n\t\t\tmargin: 30px 0 0 0;\n\t\t\tpadding: 0;\n\t\t\tpadding-bottom: 7px;\n\t\t}\n\t\t#error-page {\n\t\t\tmargin-top: 50px;\n\t\t}\n\t\t#error-page p,\n\t\t#error-page .wp-die-message {\n\t\t\tfont-size: 14px;\n\t\t\tline-height: 1.5;\n\t\t\tmargin: 25px 0 20px;\n\t\t}\n\t\t#error-page code {\n\t\t\tfont-family: Consolas, Monaco, monospace;\n\t\t}\n\t\tul li {\n\t\t\tmargin-bottom: 10px;\n\t\t\tfont-size: 14px ;\n\t\t}\n\t\ta {\n\t\t\tcolor: #3858e9;\n\t\t}\n\t\ta:hover,\n\t\ta:active {\n\t\t\tcolor: #183ad6;\n\t\t}\n\t\ta:focus {\n\t\t\tcolor: #183ad6;\n\t\t\tbox-shadow: 0 0 0 var(--wp-admin-border-width-focus, 1.5px) var(--wp-admin-theme-color, #3858e9);\n\t\t\toutline: 2px solid transparent;\n\t\t}\n\t\t.button {\n\t\t\tbackground: #f3f5f6;\n\t\t\tborder: 1px solid #016087;\n\t\t\tcolor: #016087;\n\t\t\tdisplay: inline-block;\n\t\t\ttext-decoration: none;\n\t\t\tfont-size: 13px;\n\t\t\tline-height: 2;\n\t\t\theight: 28px;\n\t\t\tmargin: 0;\n\t\t\tpadding: 0 10px 1px;\n\t\t\tcursor: pointer;\n\t\t\t-webkit-border-radius: 3px;\n\t\t\t-webkit-appearance: none;\n\t\t\tborder-radius: 3px;\n\t\t\twhite-space: nowrap;\n\t\t\t-webkit-box-sizing: border-box;\n\t\t\t-moz-box-sizing:    border-box;\n\t\t\tbox-sizing:         border-box;\n\n\t\t\tvertical-align: top;\n\t\t}\n\n\t\t.button.button-large {\n\t\t\tline-height: 2.30769231;\n\t\t\tmin-height: 32px;\n\t\t\tpadding: 0 12px;\n\t\t}\n\n\t\t.button:hover,\n\t\t.button:focus {\n\t\t\tbackground: #f1f1f1;\n\t\t}\n\n\t\t.button:focus {\n\t\t\tbackground: #f3f5f6;\n\t\t\tborder-color: #007cba;\n\t\t\t-webkit-box-shadow: 0 0 0 1px #007cba;\n\t\t\tbox-shadow: 0 0 0 1px #007cba;\n\t\t\tcolor: #016087;\n\t\t\toutline: 2px solid transparent;\n\t\t\toutline-offset: 0;\n\t\t}\n\n\t\t.button:active {\n\t\t\tbackground: #f3f5f6;\n\t\t\tborder-color: #7e8993;\n\t\t\t-webkit-box-shadow: none;\n\t\t\tbox-shadow: none;\n\t\t}",
+      "x": 663,
+      "y": 261,
+      "width": 594,
+      "height": 189,
+      "style": {
+        "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "W witrynie wystąpił błąd krytyczny.",
+      "x": 761.0625,
+      "y": 520,
+      "width": 397.875,
+      "height": 21,
+      "style": {
+        "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "Dowiedz się więcej o rozwiązywaniu problemów z WordPressem.",
+      "x": 761.0625,
+      "y": 566,
+      "width": 397.875,
+      "height": 21,
+      "style": {
+        "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "https://autopilot.local/wp-content/uploads/2026/09/153-63-lupa1.svg",
+      "loaded": true,
+      "x": 995.890625,
+      "y": 119,
+      "width": 20,
+      "height": 20,
+      "style": {
+        "fontFamily": "Arial",
+        "fontWeight": "400",
+        "fontSize": "13.3333px",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "color": "rgb(68, 68, 68)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "src": "https://autopilot.local/wp-content/uploads/2026/09/I625-179586-555-ulubione.svg",
+      "loaded": true,
+      "x": 1182.59375,
+      "y": 119.890625,
+      "width": 18.1875,
+      "height": 18.1875,
+      "style": {
+        "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "letterSpacing": "normal",
+        "color": "rgb(68, 68, 68)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "src": "https://autopilot.local/wp-content/uploads/2026/09/347-961-logowanie.svg",
+      "loaded": true,
+      "x": 1220.78125,
+      "y": 119.125,
+      "width": 17.125,
+      "height": 19.734375,
+      "style": {
+        "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "letterSpacing": "normal",
+        "color": "rgb(56, 88, 233)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "src": "https://autopilot.local/wp-content/uploads/2026/09/347-972-koszyk.svg",
+      "loaded": true,
+      "x": 1257.90625,
+      "y": 119.25,
+      "width": 21.15625,
+      "height": 19.484375,
+      "style": {
+        "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "letterSpacing": "normal",
+        "color": "rgb(56, 88, 233)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "src": "https://autopilot.local/wp-content/uploads/2026/09/118-6-logo1.svg",
+      "loaded": true,
+      "x": 663,
+      "y": 178,
+      "width": 223.640625,
+      "height": 38,
+      "style": {
+        "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(56, 88, 233)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    }
+  ],
+  "links": [
+    {
+      "text": "O nas",
+      "href": "https://autopilot.local/o-nas/"
+    },
+    {
+      "text": "Kariera",
+      "href": "https://autopilot.local/kariera/"
+    },
+    {
+      "text": "Kontakt",
+      "href": "https://autopilot.local/kontakt/"
+    },
+    {
+      "text": "",
+      "href": "https://autopilot.local/moje-konto/"
+    },
+    {
+      "text": "",
+      "href": "https://autopilot.local/koszyk/"
+    },
+    {
+      "text": "",
+      "href": "https://autopilot.local/"
+    },
+    {
+      "text": "O nas",
+      "href": "https://autopilot.local/o-nas/"
+    },
+    {
+      "text": "Kariera",
+      "href": "https://autopilot.local/kariera/"
+    },
+    {
+      "text": "Kontakt",
+      "href": "https://autopilot.local/kontakt/"
+    },
+    {
+      "text": "Blog",
+      "href": "https://autopilot.local/blog/"
+    },
+    {
+      "text": "Cart",
+      "href": "https://autopilot.local/koszyk/"
+    },
+    {
+      "text": "Checkout",
+      "href": "https://autopilot.local/zamowienie/"
+    },
+    {
+      "text": "Kariera",
+      "href": "https://autopilot.local/kariera/"
+    },
+    {
+      "text": "Kontakt",
+      "href": "https://autopilot.local/kontakt/"
+    },
+    {
+      "text": "Kupuj nasze produkty bezpoÅ›rednio\nw najlepszych cenach",
+      "href": "https://autopilot.local/"
+    },
+    {
+      "text": "My account",
+      "href": "https://autopilot.local/moje-konto/"
+    },
+    {
+      "text": "O nas",
+      "href": "https://autopilot.local/o-nas/"
+    },
+    {
+      "text": "Sample Page",
+      "href": "https://autopilot.local/sample-page/"
+    },
+    {
+      "text": "Shop",
+      "href": "https://autopilot.local/shop/"
+    },
+    {
+      "text": "Dowiedz się więcej o rozwiązywaniu problemów z WordPressem.",
+      "href": "https://wordpress.org/documentation/article/faq-troubleshooting/"
+    }
+  ]
+}

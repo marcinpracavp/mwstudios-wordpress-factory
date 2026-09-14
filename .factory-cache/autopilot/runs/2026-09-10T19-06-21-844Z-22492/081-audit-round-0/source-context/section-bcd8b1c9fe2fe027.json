@@ -1,0 +1,134 @@
+{
+  "id": "product-files",
+  "manifestRecord": {
+    "id": "product-files",
+    "name": "szczegÃ³Å‚y",
+    "order": 8,
+    "pageId": "0:1",
+    "snapshot": "sections/08-product-files.json",
+    "desktopNodeId": "586:805",
+    "desktopReference": "references/sections/product-files.png"
+  },
+  "contentFields": [
+    {
+      "section": "product-files",
+      "nodeId": "586:809",
+      "fieldName": "rudnikagro_product_files_586_809",
+      "type": "text",
+      "language": "pl",
+      "value": "Opis produktu",
+      "destination": "WooCommerce product attachments / ACF downloads repeater",
+      "linkEvidence": [
+        {
+          "characters": "Opis produktu",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "586:809"
+      }
+    },
+    {
+      "section": "product-files",
+      "nodeId": "586:810",
+      "fieldName": "rudnikagro_product_files_586_810",
+      "type": "text",
+      "language": "pl",
+      "value": "Opinie",
+      "destination": "WooCommerce product attachments / ACF downloads repeater",
+      "linkEvidence": [
+        {
+          "characters": "Opinie",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "586:810"
+      }
+    },
+    {
+      "section": "product-files",
+      "nodeId": "586:811",
+      "fieldName": "rudnikagro_product_files_586_811",
+      "type": "text",
+      "language": "pl",
+      "value": "Dane techniczne",
+      "destination": "WooCommerce product attachments / ACF downloads repeater",
+      "linkEvidence": [
+        {
+          "characters": "Dane techniczne",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "586:811"
+      }
+    },
+    {
+      "section": "product-files",
+      "nodeId": "586:812",
+      "fieldName": "rudnikagro_product_files_586_812",
+      "type": "text",
+      "language": "pl",
+      "value": "Stosowanie",
+      "destination": "WooCommerce product attachments / ACF downloads repeater",
+      "linkEvidence": [
+        {
+          "characters": "Stosowanie",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "586:812"
+      }
+    },
+    {
+      "section": "product-files",
+      "nodeId": "586:813",
+      "fieldName": "rudnikagro_product_files_586_813",
+      "type": "text",
+      "language": "pl",
+      "value": "Pliki do pobrania",
+      "destination": "WooCommerce product attachments / ACF downloads repeater",
+      "linkEvidence": [
+        {
+          "characters": "Pliki do pobrania",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "586:813"
+      }
+    },
+    {
+      "section": "product-files",
+      "nodeId": "586:1021",
+      "fieldName": "rudnikagro_product_files_586_1021",
+      "type": "text",
+      "language": "pl",
+      "value": "Pobierz etykietÄ™",
+      "destination": "WooCommerce product attachments / ACF downloads repeater",
+      "linkEvidence": [
+        {
+          "characters": "Pobierz etykietÄ™",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "586:1021"
+      }
+    }
+  ]
+}

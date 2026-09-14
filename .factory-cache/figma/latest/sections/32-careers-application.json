@@ -1,0 +1,116 @@
+{
+  "id": "careers-application",
+  "name": "Formularz aplikacyjny",
+  "order": 32,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "355:1423"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 463,
+    "y": 1695,
+    "width": 994,
+    "height": 346,
+    "containerWidth": 994,
+    "gap": 26
+  },
+  "layout": {
+    "type": "native-application-form-inside-expanded-vacancy",
+    "parentNodeId": "355:1423",
+    "fields": [
+      {
+        "nodeId": "434:2",
+        "labelNodeId": "434:9",
+        "label": "Imię i nazwisko*",
+        "x": 463,
+        "y": 1696,
+        "width": 994,
+        "height": 62
+      },
+      {
+        "nodeId": "434:4",
+        "labelNodeId": "434:10",
+        "label": "Adres e-mail*",
+        "x": 463,
+        "y": 1784,
+        "width": 486,
+        "height": 64
+      },
+      {
+        "nodeId": "434:6",
+        "labelNodeId": "434:12",
+        "label": "Numer telefonu*",
+        "x": 970,
+        "y": 1784,
+        "width": 487,
+        "height": 64
+      }
+    ],
+    "upload": {
+      "nodeId": "496:2072",
+      "labelNodeId": "496:2074",
+      "label": "Załącz CV",
+      "x": 463,
+      "y": 1878,
+      "width": 223,
+      "height": 44
+    },
+    "submit": {
+      "nodeId": "496:2068",
+      "labelNodeId": "496:2070",
+      "label": "Wyślij",
+      "x": 1236,
+      "y": 1997,
+      "width": 221,
+      "height": 44
+    },
+    "consents": [
+      {
+        "checkboxNodeId": "435:16",
+        "textNodeId": "435:20"
+      },
+      {
+        "checkboxNodeId": "435:21",
+        "textNodeId": "435:22"
+      }
+    ]
+  },
+  "typography": [
+    {
+      "family": "DM Sans",
+      "style": "Regular",
+      "fontSize": 18,
+      "lineHeight": "normal",
+      "color": "#11111b"
+    },
+    {
+      "family": "DM Sans",
+      "style": "Bold",
+      "fontSize": 16,
+      "lineHeight": "normal"
+    }
+  ],
+  "colors": [
+    {
+      "fill": "#ffffff",
+      "stroke": "#c8c8c8",
+      "cornerRadius": 15
+    },
+    {
+      "nodeId": "496:2069",
+      "fill": "#056839",
+      "cornerRadius": 30
+    }
+  ],
+  "effects": [],
+  "contentFields": [
+    "rudnikagro_vacancies.application_form",
+    "rudnikagro_application_form"
+  ],
+  "assets": [],
+  "notes": [
+    "Visible source establishes labels and consent copy only; render as real CF7/native application form and do not simulate submission."
+  ],
+  "liveFigmaRequired": false
+}

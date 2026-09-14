@@ -1,0 +1,287 @@
+{
+  "task": {
+    "id": "home"
+  },
+  "sourceContext": {
+    "version": 6,
+    "available": true,
+    "index": {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/073-build-home/source-context/index.json",
+      "bytes": 1391,
+      "sha256": "236c934016f21c825f118e2711a68bf8787459cdc5039adc3697790ea1daa4af"
+    }
+  },
+  "model": "gpt-5.6-terra",
+  "reasoningEffort": "high",
+  "continuation": "fresh session using persisted artifacts; do not load historical conversation",
+  "previousExecution": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/072-build-home/execution.json",
+  "previousResult": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/072-build-home/result.json",
+  "correctionFocus": [
+    {
+      "evidence": {
+        "path": ".factory-cache/autopilot/visual-1789310913281/home/comparison.json",
+        "bytes": 27232,
+        "sha256": "9f72e65909d89e39b1b9c98f664decd70e968a0c09938f594ae983cf0e889bb5"
+      },
+      "route": "home",
+      "capturedAt": "2026-09-13T14:48:36.254Z",
+      "ownership": {
+        "header": {
+          "pixels": 372480,
+          "differentPixels": 21847,
+          "ratio": 0.05865281357388316
+        },
+        "footer": {
+          "pixels": 1221120,
+          "differentPixels": 408113,
+          "ratio": 0.33421203485324946
+        },
+        "shared": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "page": {
+          "pixels": 15553920,
+          "differentPixels": 2041219,
+          "ratio": 0.13123501985351602
+        },
+        "outside": {
+          "pixels": 130560,
+          "differentPixels": 130436,
+          "ratio": 0.9990502450980392
+        },
+        "reused": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        }
+      },
+      "fullMismatch": 0.15057315396155127,
+      "sections": [
+        {
+          "id": "home-about",
+          "pixelMismatch": 0.20177267156862744,
+          "geometryPassed": true,
+          "geometryDelta": {
+            "x": 0,
+            "y": -0.421875,
+            "width": 0,
+            "height": 0
+          },
+          "approximateDifferentPixels": 329293
+        },
+        {
+          "id": "home-blog",
+          "pixelMismatch": 0.32399237215342824,
+          "geometryPassed": true,
+          "geometryDelta": {
+            "x": 0,
+            "y": -0.421875,
+            "width": 0,
+            "height": 0.09375
+          },
+          "approximateDifferentPixels": 315334
+        },
+        {
+          "id": "home-bundles",
+          "pixelMismatch": 0.2218298735670109,
+          "geometryPassed": false,
+          "geometryDelta": {
+            "x": 0,
+            "y": -4.609375,
+            "width": 0,
+            "height": -4.40625
+          },
+          "approximateDifferentPixels": 252792
+        },
+        {
+          "id": "home-promotions",
+          "pixelMismatch": 0.2129362148729001,
+          "geometryPassed": false,
+          "geometryDelta": {
+            "x": 0,
+            "y": -0.203125,
+            "width": 0,
+            "height": -4.40625
+          },
+          "approximateDifferentPixels": 242657
+        },
+        {
+          "id": "home-knowledge",
+          "pixelMismatch": 0.09396029719821943,
+          "geometryPassed": true,
+          "geometryDelta": {
+            "x": 0,
+            "y": -0.328125,
+            "width": 0,
+            "height": 0
+          },
+          "approximateDifferentPixels": 229654
+        },
+        {
+          "id": "home-catalogues",
+          "pixelMismatch": 0.41371346932870373,
+          "geometryPassed": true,
+          "geometryDelta": {
+            "x": 0,
+            "y": -0.015625,
+            "width": 0,
+            "height": 0
+          },
+          "approximateDifferentPixels": 228767
+        },
+        {
+          "id": "home-recommended",
+          "pixelMismatch": 0.1790946808286591,
+          "geometryPassed": true,
+          "geometryDelta": {
+            "x": 0.999969482421875,
+            "y": -0.015625,
+            "width": 0,
+            "height": -0.40625
+          },
+          "approximateDifferentPixels": 204092
+        },
+        {
+          "id": "home-hero",
+          "pixelMismatch": 0.07619157608695652,
+          "geometryPassed": true,
+          "geometryDelta": {
+            "x": 0,
+            "y": -1,
+            "width": 0,
+            "height": 0
+          },
+          "approximateDifferentPixels": 112154
+        },
+        {
+          "id": "home-crop-selection",
+          "pixelMismatch": 0.05229307841239109,
+          "geometryPassed": true,
+          "geometryDelta": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": -0.203125
+          },
+          "approximateDifferentPixels": 103716
+        },
+        {
+          "id": "home-benefits",
+          "pixelMismatch": 0.10376984126984128,
+          "geometryPassed": true,
+          "geometryDelta": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "approximateDifferentPixels": 26150
+        }
+      ],
+      "instruction": "Historical priority only: confirm current screenshots first. Start with the section contributing the most different pixels, inspect its exact pair/crops and internal element typography/borders/images, then correct and recapture. Passing outer geometry does not prove matching inner content. Nested section counts overlap; do not sum them. Keep source references and acceptance thresholds unchanged."
+    }
+  ],
+  "currentPageVerification": {
+    "routes": [
+      {
+        "id": "home",
+        "passed": false,
+        "pagePassed": false,
+        "ownership": {
+          "header": {
+            "pixels": 372480,
+            "differentPixels": 21847,
+            "ratio": 0.05865281357388316
+          },
+          "footer": {
+            "pixels": 1221120,
+            "differentPixels": 408113,
+            "ratio": 0.33421203485324946
+          },
+          "shared": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "page": {
+            "pixels": 15553920,
+            "differentPixels": 2041219,
+            "ratio": 0.13123501985351602
+          },
+          "outside": {
+            "pixels": 130560,
+            "differentPixels": 130436,
+            "ratio": 0.9990502450980392
+          },
+          "reused": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          }
+        },
+        "errors": [
+          "page pixel mismatch 13.124%",
+          "Section geometry differs: home-promotions",
+          "Section geometry differs: home-bundles"
+        ],
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/072-build-home/build-readiness/home/home/comparison.json"
+      },
+      {
+        "id": "home-active",
+        "passed": false,
+        "pagePassed": false,
+        "ownership": {
+          "header": {
+            "pixels": 1021440,
+            "differentPixels": 279471,
+            "ratio": 0.2736049107142857
+          },
+          "footer": {
+            "pixels": 1221120,
+            "differentPixels": 408113,
+            "ratio": 0.33421203485324946
+          },
+          "shared": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "page": {
+            "pixels": 14906880,
+            "differentPixels": 2043890,
+            "ratio": 0.13711051541301736
+          },
+          "outside": {
+            "pixels": 128640,
+            "differentPixels": 128640,
+            "ratio": 1
+          },
+          "reused": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          }
+        },
+        "errors": [
+          "page pixel mismatch 13.711%",
+          "Section geometry differs: home-promotions",
+          "Section geometry differs: home-bundles"
+        ],
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/072-build-home/build-readiness/home-active/home-active/comparison.json"
+      }
+    ],
+    "instruction": "Fresh host checks for all sibling routes. Repair only failed assigned routes."
+  },
+  "snapshot": ".factory-cache/figma/latest",
+  "observations": ".factory-cache/figma/latest/observations/index.json",
+  "plans": [
+    "docs/factory/project/PLAN.md",
+    "docs/factory/project/STATUS.md",
+    "docs/factory/project/SOURCE_CLARIFICATIONS.md",
+    "docs/factory/project/REUSABLE_COMPONENTS.md"
+  ],
+  "currentGate": null,
+  "instruction": "Inspect the current gate and finish only remaining assigned work. Reuse real saved source facts and assets."
+}

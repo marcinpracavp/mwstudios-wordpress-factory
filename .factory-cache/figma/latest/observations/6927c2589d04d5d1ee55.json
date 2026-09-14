@@ -1,0 +1,321 @@
+{
+  "id": "6927c2589d04d5d1ee55",
+  "tool": "use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "140:263",
+    "12:2"
+  ],
+  "description": "Capture exact home-lower-background section source",
+  "recordedAt": "2026-09-11T00:50:08.324Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "id": "140:263",
+      "name": "tlo",
+      "frame": "12:2",
+      "total": 5,
+      "nodes": [
+        {
+          "id": "140:263",
+          "name": "tlo",
+          "type": "GROUP",
+          "parentId": "12:2",
+          "bounds": {
+            "x": 0,
+            "y": 7023,
+            "width": 1920,
+            "height": 1976
+          },
+          "style": 0
+        },
+        {
+          "id": "116:53",
+          "name": "nawozenie 1",
+          "type": "RECTANGLE",
+          "parentId": "140:263",
+          "bounds": {
+            "x": 0,
+            "y": 7023,
+            "width": 1920,
+            "height": 1280
+          },
+          "style": 1
+        },
+        {
+          "id": "116:54",
+          "name": "Rectangle 22",
+          "type": "RECTANGLE",
+          "parentId": "140:263",
+          "bounds": {
+            "x": 0,
+            "y": 7532,
+            "width": 1920,
+            "height": 1467
+          },
+          "style": 2
+        },
+        {
+          "id": "168:280",
+          "name": "© Rudnikagro.pl 2026 | Wszelkie prawa zastrzeżone",
+          "type": "TEXT",
+          "parentId": "140:263",
+          "bounds": {
+            "x": 240,
+            "y": 8936,
+            "width": 377,
+            "height": 34
+          },
+          "style": 3,
+          "characters": "© Rudnikagro.pl 2026 | Wszelkie prawa zastrzeżone ",
+          "align": [
+            "CENTER",
+            "TOP"
+          ],
+          "segments": [
+            {
+              "characters": "© Rudnikagro.pl 2026 | Wszelkie prawa zastrzeżone ",
+              "start": 0,
+              "end": 50,
+              "style": 4
+            }
+          ]
+        },
+        {
+          "id": "222:113",
+          "name": "Projekt i wykonanie: Virtual People",
+          "type": "TEXT",
+          "parentId": "140:263",
+          "bounds": {
+            "x": 1425,
+            "y": 8936,
+            "width": 259,
+            "height": 34
+          },
+          "style": 3,
+          "characters": "Projekt i wykonanie: Virtual People",
+          "align": [
+            "CENTER",
+            "TOP"
+          ],
+          "segments": [
+            {
+              "characters": "Projekt i wykonanie: ",
+              "start": 0,
+              "end": 21,
+              "style": 4
+            },
+            {
+              "characters": "Virtual People",
+              "start": 21,
+              "end": 35,
+              "style": 5
+            }
+          ]
+        }
+      ],
+      "styles": [
+        {
+          "visible": true,
+          "opacity": 1,
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "IMAGE",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "scaleMode": "FILL",
+              "scalingFactor": 0.5,
+              "rotation": 0,
+              "filters": {
+                "exposure": 0,
+                "contrast": 0,
+                "saturation": 0,
+                "temperature": 0,
+                "tint": 0,
+                "highlights": 0,
+                "shadows": 0
+              },
+              "imageTransform": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ]
+              ],
+              "imageHash": "0be458e45bceb5e079e7876e83665cec8c436ac1"
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "GRADIENT_LINEAR",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "gradientStops": [
+                {
+                  "color": {
+                    "r": 0.019607843831181526,
+                    "g": 0.40784314274787903,
+                    "b": 0.2235294133424759,
+                    "a": 0
+                  },
+                  "position": 0,
+                  "boundVariables": {}
+                },
+                {
+                  "color": {
+                    "r": 0.019607843831181526,
+                    "g": 0.40784314274787903,
+                    "b": 0.2235294133424759,
+                    "a": 1
+                  },
+                  "position": 0.20000000298023224,
+                  "boundVariables": {}
+                }
+              ],
+              "gradientTransform": [
+                [
+                  6.166174201140202e-17,
+                  1.0070126056671143,
+                  -0.007012622896581888
+                ],
+                [
+                  -1.0070126056671143,
+                  6.166174201140202e-17,
+                  1.0035063028335571
+                ]
+              ]
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "OUTSIDE",
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "fontSize": 16,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 400,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 34
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        },
+        {
+          "fontSize": 16,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 700,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 34
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        }
+      ]
+    }
+  ]
+}

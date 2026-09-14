@@ -1,0 +1,180 @@
+{
+  "id": "checkout-payment",
+  "name": "płatność",
+  "order": 64,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "492:994"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 240,
+    "y": 1215,
+    "width": 953,
+    "height": 648,
+    "containerWidth": 1440
+  },
+  "layout": {
+    "type": "native-commerce-payment-methods",
+    "designContextRead": true,
+    "columns": [
+      {
+        "x": 308,
+        "width": 399,
+        "role": "payment-method-list"
+      }
+    ],
+    "alignment": "left",
+    "controls": {
+      "rowHeight": 44,
+      "rowGap": 28,
+      "border": "#c8c8c8",
+      "borderRadius": 15,
+      "radioOuter": 17,
+      "radioInner": 11
+    }
+  },
+  "typography": [
+    {
+      "nodeId": "492:712",
+      "value": "Płatność",
+      "fontFamily": "DM Sans",
+      "fontWeight": 700,
+      "fontSize": 24,
+      "color": "#070707"
+    },
+    {
+      "nodeIds": [
+        "492:692",
+        "492:740",
+        "492:696",
+        "492:704",
+        "492:708",
+        "492:726",
+        "492:728",
+        "492:729",
+        "492:731",
+        "492:742"
+      ],
+      "fontFamily": "DM Sans",
+      "fontWeight": 400,
+      "fontSize": 16,
+      "color": "#000000"
+    },
+    {
+      "nodeIds": [
+        "492:740",
+        "492:742"
+      ],
+      "fontFamily": "DM Sans",
+      "fontWeight": 700,
+      "fontSize": 14,
+      "color": "#006633",
+      "alignment": "right"
+    }
+  ],
+  "assets": [
+    {
+      "sourceNodeId": "492:690",
+      "path": "assets/checkout/checkout-payment-card.svg",
+      "usage": "payment-card-background"
+    },
+    {
+      "sourceNodeId": "524:186",
+      "path": "assets/checkout/checkout-google-pay.svg",
+      "usage": "google-pay-mark"
+    },
+    {
+      "sourceNodeId": "519:284",
+      "path": "assets/checkout/checkout-blik-logo.png",
+      "usage": "blik-mark"
+    },
+    {
+      "sourceNodeId": "492:717",
+      "path": "assets/checkout/checkout-radio.svg",
+      "usage": "unselected-payment-radio"
+    },
+    {
+      "sourceNodeId": "492:718",
+      "path": "assets/checkout/checkout-radio-active.svg",
+      "usage": "selected-payment-radio"
+    },
+    {
+      "sourceNodeId": "519:342",
+      "path": "assets/checkout/checkout-card.svg",
+      "usage": "payment-card-mark"
+    },
+    {
+      "sourceNodeId": "524:175",
+      "path": "assets/checkout/checkout-apple-pay.svg",
+      "usage": "apple-pay-mark"
+    },
+    {
+      "sourceNodeId": "519:328",
+      "path": "assets/checkout/checkout-bank-transfer.svg",
+      "usage": "bank-transfer-mark"
+    }
+  ],
+  "contentFields": [
+    {
+      "id": "492:712",
+      "text": "Płatność",
+      "link": null
+    },
+    {
+      "id": "492:692",
+      "text": "Przelewy24",
+      "link": null
+    },
+    {
+      "id": "492:740",
+      "text": "wybierz Twój Bank",
+      "link": null
+    },
+    {
+      "id": "492:696",
+      "text": "Karta płatnicza",
+      "link": null
+    },
+    {
+      "id": "492:704",
+      "text": "Google Pay",
+      "link": null
+    },
+    {
+      "id": "492:708",
+      "text": "Apple Pay",
+      "link": null
+    },
+    {
+      "id": "492:726",
+      "text": "BLIK",
+      "link": null
+    },
+    {
+      "id": "492:728",
+      "text": "Przelew tradycyjny",
+      "link": null
+    },
+    {
+      "id": "492:729",
+      "text": "Kod pocztowy*",
+      "link": null
+    },
+    {
+      "id": "492:731",
+      "text": "Pobranie",
+      "link": null
+    },
+    {
+      "id": "492:742",
+      "text": "+ 6,00 zł",
+      "link": null
+    }
+  ],
+  "notes": [
+    "Payment method labels and provider marks are exact Figma source content only; their WooCommerce gateway configuration is a downstream configuration requirement.",
+    "The source displays a selected Przelewy24 radio control and listed payment methods; no payment attempt was made."
+  ],
+  "liveFigmaRequired": false
+}

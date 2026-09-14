@@ -1,0 +1,76 @@
+@use 'abstracts' as *;
+
+.c-about-introduction { text-align: center; }
+.c-about-introduction__inner { margin: 0 auto; max-width: 1196px; }
+.c-about-introduction h2,
+.c-about-card h2 { font-size: 32px; font-weight: 700; line-height: 1.2; margin: 0; }
+.c-about-introduction__content { font-size: 24px; line-height: 1.28; margin-top: 25px; }
+.c-about-introduction__content p { margin: 0; }
+.c-about-introduction__content p + p { margin-top: 34px; }
+
+.c-about-card {
+  background: #f6f6f6 var(--about-card-surface) center / 100% 100% no-repeat;
+  border-radius: 30px;
+  margin-inline: auto;
+  max-width: 1600px;
+  min-height: 565px;
+  overflow: hidden;
+  width: calc(100% - 40px);
+}
+
+.c-about-card__inner { align-items: center; display: grid; gap: 20px; grid-template-columns: 588fr 832fr; height: 100%; margin: 0 auto; max-width: 1440px; min-height: 0; }
+.c-about-card__media { border-radius: 30px; box-shadow: 0 4px 10px rgb(0 0 0 / 25%); min-height: 0; overflow: hidden; position: relative; }
+.c-about-card__media img { border-radius: inherit; display: block; height: 100%; object-fit: cover; width: 100%; }
+.c-about-card__content { font-size: 24px; line-height: 1.32; }
+.c-about-card__content > p { margin: 25px 0 0; }
+.c-about-card__rich-text { margin-top: 25px; }
+.c-about-card__rich-text > :first-child { margin-top: 0; }
+.c-about-card__rich-text > :last-child { margin-bottom: 0; }
+.c-about-card__rich-text ul { margin: 29px 0 0; padding-left: 35px; }
+.c-about-card__rich-text li + li { margin-top: 4px; }
+.c-about-card--supply { height: 565px; }
+.c-about-card--grain { height: 631px; }
+.c-about-card--insurance { height: 695px; }
+.c-about-card--supply .c-about-card__media { height: 395px; }
+.c-about-card--grain .c-about-card__media { height: 450px; }
+.c-about-card--insurance .c-about-card__media { height: 535px; }
+.c-about-card--grain .c-about-card__inner { grid-template-columns: 832fr 588fr; }
+
+// These source exports have fixed Figma crops rather than a generic cover crop.
+.c-about-card--supply .c-about-card__media img { height: 113.92%; left: -18.3%; max-width: none; position: absolute; top: -6.84%; width: 136.59%; }
+.c-about-card--insurance .c-about-card__media img { height: 100%; left: -31.69%; max-width: none; position: absolute; top: 0; width: 166.5%; }
+
+.c-about-supply-items { display: grid; gap: 20px; grid-template-columns: repeat(3, 1fr); margin-top: 36px; }
+.c-about-supply-item { text-align: center; }
+.c-about-supply-item img { height: 64px; object-fit: contain; width: 64px; }
+.c-about-supply-item h3 { font-size: 24px; font-weight: 700; line-height: 1.06; margin: 18px auto 0; max-width: 190px; }
+
+.c-about-expert { align-items: center; background: #f2652d; border-radius: 30px; color: $white; display: flex; flex-direction: column; font-size: 24px; line-height: 1.18; margin-top: 24px; min-height: 136px; justify-content: center; padding: 15px 30px; text-align: center; }
+.c-about-expert strong { font-weight: 700; }
+
+@include media($breakpoint-lg) {
+  .c-about-card { height: auto; min-height: 0; }
+  .c-about-card__inner { padding: 60px; }
+  .c-about-card--grain .c-about-card__media,
+  .c-about-card--insurance .c-about-card__media,
+  .c-about-card--supply .c-about-card__media { height: auto; }
+  .c-about-card__media img { aspect-ratio: 1.35; height: auto; }
+  .c-about-card--supply .c-about-card__media img,
+  .c-about-card--insurance .c-about-card__media img { left: auto; max-width: 100%; position: static; top: auto; width: 100%; }
+}
+
+@include media($breakpoint-sm) {
+  .c-about-introduction__content,
+  .c-about-card__content { font-size: 18px; }
+  .c-about-introduction h2,
+  .c-about-card h2 { font-size: 28px; }
+  .c-about-card { border-radius: 20px; width: calc(100% - 40px); }
+  .c-about-card__inner { gap: 30px; grid-template-columns: 1fr; padding: 35px 30px; }
+  .c-about-card--grain .c-about-card__content { order: 1; }
+  .c-about-card--grain .c-about-card__media { order: 2; }
+  .c-about-card__media { border-radius: 20px; }
+  .c-about-supply-items { gap: 25px 12px; }
+  .c-about-supply-item h3 { font-size: 16px; }
+  .c-about-supply-item img { height: 48px; width: 48px; }
+  .c-about-expert { font-size: 18px; min-height: 120px; }
+}

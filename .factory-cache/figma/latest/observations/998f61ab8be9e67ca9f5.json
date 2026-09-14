@@ -1,0 +1,60 @@
+{
+  "id": "998f61ab8be9e67ca9f5",
+  "tool": "figma.use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "425:636"
+  ],
+  "description": "Read source content to identify native product or account state 425:636",
+  "recordedAt": "2026-09-10T19:30:16.877Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "id": "425:636",
+      "visible": true,
+      "texts": [
+        {
+          "id": "425:640",
+          "text": "Opis produktu",
+          "link": null
+        },
+        {
+          "id": "425:641",
+          "text": "Opinie",
+          "link": null
+        },
+        {
+          "id": "425:642",
+          "text": "Dane techniczne",
+          "link": null
+        },
+        {
+          "id": "425:643",
+          "text": "Stosowanie",
+          "link": null
+        },
+        {
+          "id": "576:553",
+          "text": "Pliki do pobrania",
+          "link": null
+        },
+        {
+          "id": "425:645",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat. Duis aute irure dolor in reprehenderit in voluptate  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint  occaecat cupidatat non proident, sunt in culpa qui officia deserunt  mollit anim id est laborum.",
+          "link": null
+        },
+        {
+          "id": "429:842",
+          "text": "30 lipca 2026",
+          "link": null
+        },
+        {
+          "id": "428:835",
+          "text": "4,41 / 5\n(190 ocen)",
+          "link": null
+        }
+      ],
+      "reactions": []
+    }
+  ]
+}

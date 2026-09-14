@@ -1,0 +1,6 @@
+2026-09-12T09:21:36.812033Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+2026-09-12T09:21:38.764383Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh
+2026-09-12T09:23:29.390609Z ERROR codex_core::tools::router: error=unable to process image: invalid or unsupported image data
+2026-09-12T09:23:29.404012Z ERROR codex_core::tools::router: error=unable to process image: invalid or unsupported image data
+2026-09-12T09:28:59.195162Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in C:\Users\HP\Local Sites\autopilot\app\public\wp-content\themes\slawinsky-boilerplate\docs\factory\project\STATUS.md:
+## Blog build â€” needs correction

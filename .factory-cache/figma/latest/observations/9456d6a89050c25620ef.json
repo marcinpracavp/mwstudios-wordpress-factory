@@ -1,0 +1,554 @@
+{
+  "id": "9456d6a89050c25620ef",
+  "tool": "use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [],
+  "description": "Read only the source nodes that compose the contact form section, including visual styling and exact editable labels.",
+  "recordedAt": "2026-09-11T08:46:48.844Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    [
+      {
+        "id": "339:795",
+        "name": "Formularz kontaktowy",
+        "type": "TEXT",
+        "bounds": {
+          "x": 12548,
+          "y": 3927,
+          "width": 369,
+          "height": 64
+        },
+        "visible": true,
+        "opacity": 1,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 1,
+        "effects": [],
+        "cornerRadius": null,
+        "characters": "Formularz kontaktowy",
+        "fontName": {
+          "family": "DM Sans",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700,
+            "opsz": 14
+          }
+        },
+        "fontSize": 36,
+        "fontWeight": 700,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 24
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "textAlignHorizontal": "RIGHT",
+        "textAlignVertical": "CENTER"
+      },
+      {
+        "id": "339:788",
+        "name": "Rectangle 118",
+        "type": "VECTOR",
+        "bounds": {
+          "x": 11964,
+          "y": 4002,
+          "width": 345,
+          "height": 62
+        },
+        "visible": true,
+        "opacity": 1,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.7836538553237915,
+              "g": 0.7836538553237915,
+              "b": 0.7836538553237915
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokeWeight": 1,
+        "effects": [],
+        "cornerRadius": 15,
+        "characters": null,
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "lineHeight": null,
+        "letterSpacing": null,
+        "textAlignHorizontal": null,
+        "textAlignVertical": null
+      },
+      {
+        "id": "339:813",
+        "name": "Imię",
+        "type": "TEXT",
+        "bounds": {
+          "x": 11991,
+          "y": 4002,
+          "width": 317,
+          "height": 62
+        },
+        "visible": true,
+        "opacity": 1,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.6682692170143127,
+              "g": 0.6682692170143127,
+              "b": 0.6682692170143127
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 1,
+        "effects": [],
+        "cornerRadius": null,
+        "characters": "Imię",
+        "fontName": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "fontSize": 12,
+        "fontWeight": 400,
+        "lineHeight": {
+          "unit": "AUTO"
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "textAlignHorizontal": "LEFT",
+        "textAlignVertical": "CENTER"
+      },
+      {
+        "id": "339:790",
+        "name": "Rectangle 119",
+        "type": "VECTOR",
+        "bounds": {
+          "x": 11964,
+          "y": 4079,
+          "width": 345,
+          "height": 62
+        },
+        "visible": true,
+        "opacity": 1,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.7836538553237915,
+              "g": 0.7836538553237915,
+              "b": 0.7836538553237915
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokeWeight": 1,
+        "effects": [],
+        "cornerRadius": 15,
+        "characters": null,
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "lineHeight": null,
+        "letterSpacing": null,
+        "textAlignHorizontal": null,
+        "textAlignVertical": null
+      },
+      {
+        "id": "339:807",
+        "name": "Adres e-mail",
+        "type": "TEXT",
+        "bounds": {
+          "x": 11992,
+          "y": 4079,
+          "width": 317,
+          "height": 62
+        },
+        "visible": true,
+        "opacity": 1,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.6682692170143127,
+              "g": 0.6682692170143127,
+              "b": 0.6682692170143127
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 1,
+        "effects": [],
+        "cornerRadius": null,
+        "characters": "Adres e-mail",
+        "fontName": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "fontSize": 12,
+        "fontWeight": 400,
+        "lineHeight": {
+          "unit": "AUTO"
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "textAlignHorizontal": "LEFT",
+        "textAlignVertical": "CENTER"
+      },
+      {
+        "id": "339:792",
+        "name": "Rectangle 120",
+        "type": "VECTOR",
+        "bounds": {
+          "x": 11964,
+          "y": 4155,
+          "width": 345,
+          "height": 62
+        },
+        "visible": true,
+        "opacity": 1,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.7836538553237915,
+              "g": 0.7836538553237915,
+              "b": 0.7836538553237915
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokeWeight": 1,
+        "effects": [],
+        "cornerRadius": 15,
+        "characters": null,
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "lineHeight": null,
+        "letterSpacing": null,
+        "textAlignHorizontal": null,
+        "textAlignVertical": null
+      },
+      {
+        "id": "339:809",
+        "name": "Numer telefonu",
+        "type": "TEXT",
+        "bounds": {
+          "x": 11992,
+          "y": 4155,
+          "width": 317,
+          "height": 62
+        },
+        "visible": true,
+        "opacity": 1,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.6682692170143127,
+              "g": 0.6682692170143127,
+              "b": 0.6682692170143127
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 1,
+        "effects": [],
+        "cornerRadius": null,
+        "characters": "Numer telefonu",
+        "fontName": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "fontSize": 12,
+        "fontWeight": 400,
+        "lineHeight": {
+          "unit": "AUTO"
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "textAlignHorizontal": "LEFT",
+        "textAlignVertical": "CENTER"
+      },
+      {
+        "id": "339:786",
+        "name": "Rectangle 117",
+        "type": "VECTOR",
+        "bounds": {
+          "x": 12329,
+          "y": 4002,
+          "width": 588,
+          "height": 215
+        },
+        "visible": true,
+        "opacity": 1,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.7836538553237915,
+              "g": 0.7836538553237915,
+              "b": 0.7836538553237915
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokeWeight": 1,
+        "effects": [],
+        "cornerRadius": 31,
+        "characters": null,
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "lineHeight": null,
+        "letterSpacing": null,
+        "textAlignHorizontal": null,
+        "textAlignVertical": null
+      },
+      {
+        "id": "339:805",
+        "name": "Treść wiadomości",
+        "type": "TEXT",
+        "bounds": {
+          "x": 12360,
+          "y": 4002,
+          "width": 326,
+          "height": 62
+        },
+        "visible": true,
+        "opacity": 1,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.6682692170143127,
+              "g": 0.6682692170143127,
+              "b": 0.6682692170143127
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 1,
+        "effects": [],
+        "cornerRadius": null,
+        "characters": "Treść wiadomości",
+        "fontName": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "fontSize": 12,
+        "fontWeight": 400,
+        "lineHeight": {
+          "unit": "AUTO"
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "textAlignHorizontal": "LEFT",
+        "textAlignVertical": "CENTER"
+      },
+      {
+        "id": "339:797",
+        "name": "koszyk",
+        "type": "GROUP",
+        "bounds": {
+          "x": 11964,
+          "y": 4259,
+          "width": 224,
+          "height": 44
+        },
+        "visible": true,
+        "opacity": 1,
+        "fills": null,
+        "strokes": null,
+        "strokeWeight": null,
+        "effects": [],
+        "cornerRadius": null,
+        "characters": null,
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "lineHeight": null,
+        "letterSpacing": null,
+        "textAlignHorizontal": null,
+        "textAlignVertical": null
+      },
+      {
+        "id": "431:907",
+        "name": "Podanie danych zawartych w formularzu jest dobrowolne, ale niezbędne do przetworzenia zapytania. Szczegóły związane z przetwarzaniem danych przez administratorów zawarte są w Polityce Prywatności.",
+        "type": "TEXT",
+        "bounds": {
+          "x": 12207,
+          "y": 4260,
+          "width": 710,
+          "height": 43
+        },
+        "visible": true,
+        "opacity": 1,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 1,
+        "effects": [],
+        "cornerRadius": null,
+        "characters": "Podanie danych zawartych w formularzu jest dobrowolne, ale niezbędne do przetworzenia zapytania. Szczegóły związane z przetwarzaniem danych przez administratorów zawarte są w Polityce Prywatności.",
+        "fontName": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "fontSize": 12,
+        "fontWeight": 400,
+        "lineHeight": {
+          "unit": "AUTO"
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "textAlignHorizontal": "LEFT",
+        "textAlignVertical": "CENTER"
+      }
+    ]
+  ]
+}

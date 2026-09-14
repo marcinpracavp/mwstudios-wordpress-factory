@@ -1,0 +1,314 @@
+{
+  "id": "cart-totals",
+  "manifestRecord": {
+    "id": "cart-totals",
+    "name": "Podsumowanie koszyka",
+    "order": 63,
+    "pageId": "0:1",
+    "snapshot": "sections/58-cart-totals.json",
+    "desktopNodeId": "486:44",
+    "desktopReference": "references/sections/cart-totals.png"
+  },
+  "contentFields": [
+    {
+      "section": "cart-totals",
+      "nodeId": "502:10",
+      "fieldName": "rudnikagro_cart_continue_shopping_label",
+      "type": "text",
+      "language": "pl",
+      "value": "Kontynuuj zakupy",
+      "destination": "ACF Options / Cart content tab / continue shopping label",
+      "linkEvidence": [
+        {
+          "characters": "Kontynuuj zakupy",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "502:10"
+      }
+    },
+    {
+      "section": "cart-totals",
+      "nodeId": "487:122",
+      "fieldName": "rudnikagro_cart_coupon_heading",
+      "type": "text",
+      "language": "pl",
+      "value": "Masz kod rabatowy?",
+      "destination": "ACF Options / Cart content tab / coupon heading",
+      "linkEvidence": [
+        {
+          "characters": "Masz kod rabatowy?",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "487:122"
+      }
+    },
+    {
+      "section": "cart-totals",
+      "nodeId": "487:135",
+      "fieldName": "rudnikagro_cart_coupon_placeholder",
+      "type": "text",
+      "language": "pl",
+      "value": "Wpisz kod",
+      "destination": "ACF Options / Cart content tab / coupon placeholder",
+      "linkEvidence": [
+        {
+          "characters": "Wpisz kod",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "487:135"
+      }
+    },
+    {
+      "section": "cart-totals",
+      "nodeId": "487:128",
+      "fieldName": "rudnikagro_cart_apply_coupon_label",
+      "type": "text",
+      "language": "pl",
+      "value": "Dodaj kod",
+      "destination": "ACF Options / Cart content tab / apply coupon label",
+      "linkEvidence": [
+        {
+          "characters": "Dodaj kod",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "487:128"
+      }
+    },
+    {
+      "section": "cart-totals",
+      "nodeId": "486:50",
+      "fieldName": "rudnikagro_cart_summary_heading",
+      "type": "text",
+      "language": "pl",
+      "value": "Podsumowanie",
+      "destination": "ACF Options / Cart content tab / summary heading",
+      "linkEvidence": [
+        {
+          "characters": "Podsumowanie",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "486:50"
+      }
+    },
+    {
+      "section": "cart-totals",
+      "nodeId": "486:52",
+      "fieldName": "rudnikagro_cart_products_label",
+      "type": "text",
+      "language": "pl",
+      "value": "Produkty",
+      "destination": "ACF Options / Cart content tab / products label",
+      "linkEvidence": [
+        {
+          "characters": "Produkty",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "486:52"
+      }
+    },
+    {
+      "section": "cart-totals",
+      "nodeId": "486:52",
+      "fieldName": "rudnikagro_cart_shipping_label",
+      "type": "text",
+      "language": "pl",
+      "value": "Wysyłka",
+      "destination": "ACF Options / Cart content tab / shipping label",
+      "linkEvidence": [
+        {
+          "characters": "Wysyłka",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "486:52"
+      }
+    },
+    {
+      "section": "cart-totals",
+      "nodeId": "486:52",
+      "fieldName": "rudnikagro_cart_discount_label",
+      "type": "text",
+      "language": "pl",
+      "value": "Rabat",
+      "destination": "ACF Options / Cart content tab / discount label",
+      "linkEvidence": [
+        {
+          "characters": "Rabat",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "486:52"
+      }
+    },
+    {
+      "section": "cart-totals",
+      "nodeId": "486:52",
+      "fieldName": "rudnikagro_cart_coupon_applied_notice",
+      "type": "dynamic-native",
+      "language": "pl",
+      "value": "Dodano kod BLACKFRIDAY",
+      "destination": "WooCommerce applied-coupon notice; coupon configuration required",
+      "linkEvidence": [
+        {
+          "characters": "Dodano kod BLACKFRIDAY",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "486:52"
+      }
+    },
+    {
+      "section": "cart-totals",
+      "nodeId": "486:54",
+      "fieldName": "rudnikagro_cart_products_total",
+      "type": "dynamic-native",
+      "language": "pl",
+      "value": "411,00 zł",
+      "destination": "WooCommerce cart subtotal",
+      "linkEvidence": [
+        {
+          "characters": "411,00 zł",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "486:54"
+      }
+    },
+    {
+      "section": "cart-totals",
+      "nodeId": "486:54",
+      "fieldName": "rudnikagro_cart_shipping_total",
+      "type": "dynamic-native",
+      "language": "pl",
+      "value": "22,90 zł",
+      "destination": "WooCommerce shipping total",
+      "linkEvidence": [
+        {
+          "characters": "22,90 zł",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "486:54"
+      }
+    },
+    {
+      "section": "cart-totals",
+      "nodeId": "486:54",
+      "fieldName": "rudnikagro_cart_discount_total",
+      "type": "dynamic-native",
+      "language": "pl",
+      "value": "50 zł",
+      "destination": "WooCommerce discount total",
+      "linkEvidence": [
+        {
+          "characters": "50 zł",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "486:54"
+      }
+    },
+    {
+      "section": "cart-totals",
+      "nodeId": "486:105",
+      "fieldName": "rudnikagro_cart_total_label",
+      "type": "text",
+      "language": "pl",
+      "value": "Do zapłaty",
+      "destination": "ACF Options / Cart content tab / total label",
+      "linkEvidence": [
+        {
+          "characters": "Do zapłaty",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "486:105"
+      }
+    },
+    {
+      "section": "cart-totals",
+      "nodeId": "486:106",
+      "fieldName": "rudnikagro_cart_total",
+      "type": "dynamic-native",
+      "language": "pl",
+      "value": "383,90 zł",
+      "destination": "WooCommerce order total",
+      "linkEvidence": [
+        {
+          "characters": "383,90 zł",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "486:106"
+      }
+    },
+    {
+      "section": "cart-totals",
+      "nodeId": "486:115",
+      "fieldName": "rudnikagro_cart_checkout_label",
+      "type": "text",
+      "language": "pl",
+      "value": "Realizuj zamówienie",
+      "destination": "ACF Options / Cart content tab / checkout label",
+      "linkEvidence": [
+        {
+          "characters": "Realizuj zamówienie",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "486:115"
+      }
+    }
+  ]
+}

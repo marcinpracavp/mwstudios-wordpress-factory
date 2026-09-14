@@ -1,0 +1,1929 @@
+{
+  "url": "https://autopilot.local/blog/",
+  "title": "Blog – Safegold",
+  "width": 1280,
+  "height": 3370,
+  "overflow": 0,
+  "fontsReady": true,
+  "sections": [
+    {
+      "id": "shared-topbar",
+      "landmark": null,
+      "component": null,
+      "x": 0,
+      "y": 0,
+      "width": 1280,
+      "height": 40,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "id": "shared-secondary-navigation",
+      "landmark": "header",
+      "component": null,
+      "x": 17,
+      "y": 56,
+      "width": 1246,
+      "height": 42,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "20px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "id": "shared-primary-navigation",
+      "landmark": "header",
+      "component": null,
+      "x": 20,
+      "y": 115,
+      "width": 1240,
+      "height": 79,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "id": "blog-archive-heading",
+      "landmark": null,
+      "component": "page-banner",
+      "x": 20,
+      "y": 218,
+      "width": 1240,
+      "height": 220,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "id": "blog-post-list",
+      "landmark": null,
+      "component": null,
+      "x": 20,
+      "y": 470,
+      "width": 1240,
+      "height": 2233.25,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "id": "blog-pagination",
+      "landmark": null,
+      "component": null,
+      "x": 20,
+      "y": 2727.25,
+      "width": 1240,
+      "height": 28,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "id": "shared-footer",
+      "landmark": "footer",
+      "component": null,
+      "x": 0,
+      "y": 2755.25,
+      "width": 1280,
+      "height": 614,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    }
+  ],
+  "texts": [
+    {
+      "text": "Szukaj",
+      "x": 391.734375,
+      "y": 56.5,
+      "width": 1,
+      "height": 1,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "",
+      "x": 749.734375,
+      "y": 56.5,
+      "width": 40,
+      "height": 41,
+      "style": {
+        "fontFamily": "Arial",
+        "fontWeight": "400",
+        "fontSize": "13.3333px",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "10px",
+        "paddingRight": "10px",
+        "paddingBottom": "10px",
+        "paddingLeft": "10px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "",
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0,
+      "style": {
+        "fontFamily": "Arial",
+        "fontWeight": "400",
+        "fontSize": "13.3333px",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "Blog",
+      "x": 590.09375,
+      "y": 269,
+      "width": 99.796875,
+      "height": 48,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "48px",
+        "lineHeight": "48px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "Strona główna / Blog",
+      "x": 20,
+      "y": 368,
+      "width": 1240,
+      "height": 70,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "Popularne nawozy potasowe i ich zastosowanie w uprawach",
+      "x": 20,
+      "y": 825,
+      "width": 400,
+      "height": 143.3125,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "32px",
+        "lineHeight": "35.84px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "Jak nawozić rzepak, kukurydzę, buraki, warzywa?",
+      "x": 440,
+      "y": 825,
+      "width": 400,
+      "height": 107.484375,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "32px",
+        "lineHeight": "35.84px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "Jak poprawnie stosować regulatory wzrostu w rzepaku?",
+      "x": 860,
+      "y": 825,
+      "width": 400,
+      "height": 107.484375,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "32px",
+        "lineHeight": "35.84px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "Nawozy otoczkowane i długo działające – innowacje w nawożeniu roślin",
+      "x": 20,
+      "y": 1388.3125,
+      "width": 400,
+      "height": 143.3125,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "32px",
+        "lineHeight": "35.84px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "Nawozy dolistne, pod korzeń i do fertygacji – jak poprawić efektywność nawożenia?",
+      "x": 440,
+      "y": 1388.3125,
+      "width": 400,
+      "height": 143.3125,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "32px",
+        "lineHeight": "35.84px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "Insektycydy – czy można mieszać je z innymi środkami ochrony roślin?",
+      "x": 860,
+      "y": 1388.3125,
+      "width": 400,
+      "height": 107.484375,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "32px",
+        "lineHeight": "35.84px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "Nawozy NPK, PK i azotowe – jak wybrać odpowiedni nawóz dla Twoich upraw?",
+      "x": 20,
+      "y": 1951.625,
+      "width": 400,
+      "height": 143.3125,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "32px",
+        "lineHeight": "35.84px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "Skracanie pszenicy – kiedy warto wykonać zabieg i jakie są jego korzyści?",
+      "x": 440,
+      "y": 1951.625,
+      "width": 400,
+      "height": 143.3125,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "32px",
+        "lineHeight": "35.84px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "Ochrona pszenicy ozimej przed chwastami – jak skutecznie walczyć z miotłą zbożową?",
+      "x": 860,
+      "y": 1951.625,
+      "width": 400,
+      "height": 143.3125,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "32px",
+        "lineHeight": "35.84px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "Jakie fungicydy są najbardziej efektywne w ochronie rzepaku przed grzybami?",
+      "x": 20,
+      "y": 2514.9375,
+      "width": 400,
+      "height": 143.3125,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "32px",
+        "lineHeight": "35.84px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "Opryski herbicydowe – wpływ warunków atmosferycznych na skuteczność zabiegów",
+      "x": 440,
+      "y": 2514.9375,
+      "width": 400,
+      "height": 143.3125,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "32px",
+        "lineHeight": "35.84px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "Kontakt",
+      "x": 236,
+      "y": 2872.953125,
+      "width": 253.328125,
+      "height": 28.796875,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "24px",
+        "lineHeight": "28.8px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "telefon:",
+      "x": 236,
+      "y": 2919.75,
+      "width": 253.328125,
+      "height": 21.59375,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "16px",
+        "lineHeight": "21.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "(+48) 535 500 612",
+      "x": 236,
+      "y": 2955.34375,
+      "width": 253.328125,
+      "height": 72,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "36px",
+        "lineHeight": "36px",
+        "letterSpacing": "-1.08px",
+        "color": "rgb(255, 90, 23)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "od poniedziałku do piątku, w godzinach 8:00-16:00",
+      "x": 236,
+      "y": 3022.34375,
+      "width": 253.328125,
+      "height": 43.1875,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "21.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(179, 179, 179)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "e-mail:",
+      "x": 236,
+      "y": 3086.53125,
+      "width": 253.328125,
+      "height": 21.59375,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "16px",
+        "lineHeight": "21.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "sklep@rudnikagro.pl",
+      "x": 236,
+      "y": 3118.125,
+      "width": 253.328125,
+      "height": 36,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "36px",
+        "lineHeight": "36px",
+        "letterSpacing": "-1.08px",
+        "color": "rgb(255, 90, 23)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "Social media:",
+      "x": 236,
+      "y": 3175.125,
+      "width": 253.328125,
+      "height": 21.59375,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "16px",
+        "lineHeight": "21.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "Konto",
+      "x": 645.984375,
+      "y": 2803.25,
+      "width": 116.671875,
+      "height": 21.59375,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "16px",
+        "lineHeight": "21.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "Zamówienia",
+      "x": 645.984375,
+      "y": 2838.84375,
+      "width": 116.671875,
+      "height": 21.59375,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "21.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "Ustawienia konta",
+      "x": 645.984375,
+      "y": 2874.4375,
+      "width": 116.671875,
+      "height": 43.1875,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "21.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "Schowek",
+      "x": 645.984375,
+      "y": 2931.625,
+      "width": 116.671875,
+      "height": 21.59375,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "21.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "Informacje",
+      "x": 782.65625,
+      "y": 2803.25,
+      "width": 116.671875,
+      "height": 21.59375,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "16px",
+        "lineHeight": "21.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "Polityka prywatności",
+      "x": 782.65625,
+      "y": 2838.84375,
+      "width": 116.671875,
+      "height": 43.1875,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "21.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "Wpis do rejestru podmiotów obrotu ŚOR",
+      "x": 782.65625,
+      "y": 2896.03125,
+      "width": 116.671875,
+      "height": 86.375,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "21.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "Regulamin sklepu",
+      "x": 782.65625,
+      "y": 2996.40625,
+      "width": 116.671875,
+      "height": 43.1875,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "21.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "Czas i koszty dostawy",
+      "x": 782.65625,
+      "y": 3053.59375,
+      "width": 116.671875,
+      "height": 43.1875,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "21.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "Zwroty i reklamacje",
+      "x": 782.65625,
+      "y": 3110.78125,
+      "width": 116.671875,
+      "height": 43.1875,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "21.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "Mapa strony",
+      "x": 919.328125,
+      "y": 2803.25,
+      "width": 48.328125,
+      "height": 43.1875,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "16px",
+        "lineHeight": "21.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "O nas",
+      "x": 919.328125,
+      "y": 2860.4375,
+      "width": 48.328125,
+      "height": 21.59375,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "21.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "Aktualności",
+      "x": 919.328125,
+      "y": 2896.03125,
+      "width": 48.328125,
+      "height": 21.59375,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "21.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "Poradnik dla rolnika Kariera Katalogi  Kontakt",
+      "x": 919.328125,
+      "y": 2931.625,
+      "width": 48.328125,
+      "height": 129.5625,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "21.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "Nasze certyfikaty i wyróżnienia:",
+      "x": 805.546875,
+      "y": 3119.46875,
+      "width": 129,
+      "height": 64.78125,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "16px",
+        "lineHeight": "21.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "text": "Kupujący musi być pełnoletni oraz posiadać ważne kwalifikacje wymagane od osób nabywających środki ochrony roślin określone w art. 28 Ustawy z dnia 08.03.2013r. o środkach ochrony roślin (Dz.U.z 2024 poz.630 z późn.zm.).",
+      "x": 236,
+      "y": 3196.6875,
+      "width": 800,
+      "height": 88.5625,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "16px",
+        "lineHeight": "23.2px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "18px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "https://autopilot.local/wp-content/uploads/2026/09/153-63-lupa1.svg",
+      "loaded": true,
+      "x": 759.734375,
+      "y": 67,
+      "width": 20,
+      "height": 20,
+      "style": {
+        "fontFamily": "Arial",
+        "fontWeight": "400",
+        "fontSize": "13.3333px",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "src": "https://autopilot.local/wp-content/uploads/2026/09/I625-179586-555-ulubione.svg",
+      "loaded": true,
+      "x": 1166.53125,
+      "y": 67.890625,
+      "width": 18.1875,
+      "height": 18.1875,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "src": "https://autopilot.local/wp-content/uploads/2026/09/347-961-logowanie.svg",
+      "loaded": true,
+      "x": 1204.71875,
+      "y": 67.125,
+      "width": 17.125,
+      "height": 19.734375,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "src": "https://autopilot.local/wp-content/uploads/2026/09/347-972-koszyk.svg",
+      "loaded": true,
+      "x": 1241.84375,
+      "y": 67.25,
+      "width": 21.15625,
+      "height": 19.484375,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "src": "https://autopilot.local/wp-content/uploads/2026/09/118-6-logo1.svg",
+      "loaded": true,
+      "x": 20,
+      "y": 135.5,
+      "width": 223.640625,
+      "height": 38,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "src": "https://autopilot.local/wp-content/uploads/2026/09/blog-archive-327-3116-600x377.png",
+      "loaded": true,
+      "x": 20,
+      "y": 470,
+      "width": 400,
+      "height": 315,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "src": "https://autopilot.local/wp-content/uploads/2026/09/blog-archive-327-3117-600x400.png",
+      "loaded": true,
+      "x": 440,
+      "y": 470,
+      "width": 400,
+      "height": 315,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "src": "https://autopilot.local/wp-content/uploads/2026/09/blog-archive-327-3173-600x327.png",
+      "loaded": true,
+      "x": 860,
+      "y": 470,
+      "width": 400,
+      "height": 315,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "src": "https://autopilot.local/wp-content/uploads/2026/09/blog-archive-327-3137-600x436.png",
+      "loaded": true,
+      "x": 20,
+      "y": 1033.3125,
+      "width": 400,
+      "height": 315,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "src": "https://autopilot.local/wp-content/uploads/2026/09/blog-archive-327-3118-600x402.png",
+      "loaded": true,
+      "x": 440,
+      "y": 1033.3125,
+      "width": 400,
+      "height": 315,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "src": "https://autopilot.local/wp-content/uploads/2026/09/blog-archive-327-3174-600x335.png",
+      "loaded": true,
+      "x": 860,
+      "y": 1033.3125,
+      "width": 400,
+      "height": 315,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "src": "https://autopilot.local/wp-content/uploads/2026/09/blog-archive-327-3138-600x328.png",
+      "loaded": true,
+      "x": 20,
+      "y": 1596.625,
+      "width": 400,
+      "height": 315,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "src": "https://autopilot.local/wp-content/uploads/2026/09/blog-archive-327-3139-600x400.png",
+      "loaded": true,
+      "x": 440,
+      "y": 1596.625,
+      "width": 400,
+      "height": 315,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "src": "https://autopilot.local/wp-content/uploads/2026/09/blog-archive-327-3154-600x448.png",
+      "loaded": true,
+      "x": 860,
+      "y": 1596.625,
+      "width": 400,
+      "height": 315,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "src": "https://autopilot.local/wp-content/uploads/2026/09/blog-archive-327-3155-600x450.png",
+      "loaded": true,
+      "x": 20,
+      "y": 2159.9375,
+      "width": 400,
+      "height": 315,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "src": "https://autopilot.local/wp-content/uploads/2026/09/blog-archive-327-3172-600x327.png",
+      "loaded": true,
+      "x": 440,
+      "y": 2159.9375,
+      "width": 400,
+      "height": 315,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "src": "https://autopilot.local/wp-content/uploads/2026/09/140-264-logo1.svg",
+      "loaded": true,
+      "x": 236,
+      "y": 2807.25,
+      "width": 224,
+      "height": 38.703125,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "src": "https://autopilot.local/wp-content/uploads/2026/09/222-58-fb1.svg",
+      "loaded": true,
+      "x": 236,
+      "y": 3210.71875,
+      "width": 32,
+      "height": 32,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "src": "https://autopilot.local/wp-content/uploads/2026/09/515-79-image12.png",
+      "loaded": true,
+      "x": 959.546875,
+      "y": 3129.859375,
+      "width": 188,
+      "height": 44,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "contain",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "src": "https://autopilot.local/wp-content/uploads/2026/09/222-88-vector1.svg",
+      "loaded": true,
+      "x": 1045,
+      "y": 3063.25,
+      "width": 82,
+      "height": 83,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "src": "https://autopilot.local/wp-content/uploads/2026/09/222-87-vector.svg",
+      "loaded": true,
+      "x": 1127,
+      "y": 3063.25,
+      "width": 83,
+      "height": 83,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "src": "https://autopilot.local/wp-content/uploads/2026/09/222-89-vector2.svg",
+      "loaded": true,
+      "x": 1045,
+      "y": 3146.25,
+      "width": 82,
+      "height": 82,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    },
+    {
+      "src": "https://autopilot.local/wp-content/uploads/2026/09/222-90-vector3.svg",
+      "loaded": true,
+      "x": 1127,
+      "y": 3146.25,
+      "width": 83,
+      "height": 82,
+      "style": {
+        "fontFamily": "\"DM Sans\", sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "gap": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%"
+      }
+    }
+  ],
+  "links": [
+    {
+      "text": "O nas",
+      "href": "https://autopilot.local/o-nas/"
+    },
+    {
+      "text": "Kariera",
+      "href": "https://autopilot.local/kariera/"
+    },
+    {
+      "text": "Kontakt",
+      "href": "https://autopilot.local/kontakt/"
+    },
+    {
+      "text": "",
+      "href": "https://autopilot.local/moje-konto/"
+    },
+    {
+      "text": "",
+      "href": "https://autopilot.local/koszyk/"
+    },
+    {
+      "text": "",
+      "href": "https://autopilot.local/"
+    },
+    {
+      "text": "O nas",
+      "href": "https://autopilot.local/o-nas/"
+    },
+    {
+      "text": "Kariera",
+      "href": "https://autopilot.local/kariera/"
+    },
+    {
+      "text": "Kontakt",
+      "href": "https://autopilot.local/kontakt/"
+    },
+    {
+      "text": "Blog",
+      "href": "https://autopilot.local/blog/"
+    },
+    {
+      "text": "Cart",
+      "href": "https://autopilot.local/koszyk/"
+    },
+    {
+      "text": "Checkout",
+      "href": "https://autopilot.local/zamowienie/"
+    },
+    {
+      "text": "Kariera",
+      "href": "https://autopilot.local/kariera/"
+    },
+    {
+      "text": "Katalogi",
+      "href": "https://autopilot.local/katalogi/"
+    },
+    {
+      "text": "Kontakt",
+      "href": "https://autopilot.local/kontakt/"
+    },
+    {
+      "text": "Kupuj nasze produkty bezpoÅ›rednio\nw najlepszych cenach",
+      "href": "https://autopilot.local/"
+    },
+    {
+      "text": "My account",
+      "href": "https://autopilot.local/moje-konto/"
+    },
+    {
+      "text": "O nas",
+      "href": "https://autopilot.local/o-nas/"
+    },
+    {
+      "text": "Sample Page",
+      "href": "https://autopilot.local/sample-page/"
+    },
+    {
+      "text": "Shop",
+      "href": "https://autopilot.local/shop/"
+    },
+    {
+      "text": "",
+      "href": "https://autopilot.local/popularne-nawozy-potasowe-i-ich-zastosowanie-w-uprawach/"
+    },
+    {
+      "text": "Popularne nawozy potasowe i ich zastosowanie w uprawach",
+      "href": "https://autopilot.local/popularne-nawozy-potasowe-i-ich-zastosowanie-w-uprawach/"
+    },
+    {
+      "text": "Czytaj całość →",
+      "href": "https://autopilot.local/popularne-nawozy-potasowe-i-ich-zastosowanie-w-uprawach/"
+    },
+    {
+      "text": "",
+      "href": "https://autopilot.local/jak-nawozic-rzepak-kukurydze-buraki-warzywa/"
+    },
+    {
+      "text": "Jak nawozić rzepak, kukurydzę, buraki, warzywa?",
+      "href": "https://autopilot.local/jak-nawozic-rzepak-kukurydze-buraki-warzywa/"
+    },
+    {
+      "text": "Czytaj całość →",
+      "href": "https://autopilot.local/jak-nawozic-rzepak-kukurydze-buraki-warzywa/"
+    },
+    {
+      "text": "",
+      "href": "https://autopilot.local/jak-poprawnie-stosowac-regulatory-wzrostu-w-rzepaku/"
+    },
+    {
+      "text": "Jak poprawnie stosować regulatory wzrostu w rzepaku?",
+      "href": "https://autopilot.local/jak-poprawnie-stosowac-regulatory-wzrostu-w-rzepaku/"
+    },
+    {
+      "text": "Czytaj całość →",
+      "href": "https://autopilot.local/jak-poprawnie-stosowac-regulatory-wzrostu-w-rzepaku/"
+    },
+    {
+      "text": "",
+      "href": "https://autopilot.local/nawozy-otoczkowane-i-dlugo-dzialajace-innowacje-w-nawozeniu-roslin/"
+    },
+    {
+      "text": "Nawozy otoczkowane i długo działające – innowacje w nawożeniu roślin",
+      "href": "https://autopilot.local/nawozy-otoczkowane-i-dlugo-dzialajace-innowacje-w-nawozeniu-roslin/"
+    },
+    {
+      "text": "Czytaj całość →",
+      "href": "https://autopilot.local/nawozy-otoczkowane-i-dlugo-dzialajace-innowacje-w-nawozeniu-roslin/"
+    },
+    {
+      "text": "",
+      "href": "https://autopilot.local/nawozy-dolistne-pod-korzen-i-do-fertygacji-jak-poprawic-efektywnosc-nawozenia/"
+    },
+    {
+      "text": "Nawozy dolistne, pod korzeń i do fertygacji – jak poprawić efektywność nawożenia?",
+      "href": "https://autopilot.local/nawozy-dolistne-pod-korzen-i-do-fertygacji-jak-poprawic-efektywnosc-nawozenia/"
+    },
+    {
+      "text": "Czytaj całość →",
+      "href": "https://autopilot.local/nawozy-dolistne-pod-korzen-i-do-fertygacji-jak-poprawic-efektywnosc-nawozenia/"
+    },
+    {
+      "text": "",
+      "href": "https://autopilot.local/insektycydy-czy-mozna-mieszac-je-z-innymi-srodkami-ochrony-roslin/"
+    },
+    {
+      "text": "Insektycydy – czy można mieszać je z innymi środkami ochrony roślin?",
+      "href": "https://autopilot.local/insektycydy-czy-mozna-mieszac-je-z-innymi-srodkami-ochrony-roslin/"
+    },
+    {
+      "text": "Czytaj całość →",
+      "href": "https://autopilot.local/insektycydy-czy-mozna-mieszac-je-z-innymi-srodkami-ochrony-roslin/"
+    },
+    {
+      "text": "",
+      "href": "https://autopilot.local/nawozy-npk-pk-i-azotowe-jak-wybrac-odpowiedni-nawoz-dla-twoich-upraw/"
+    },
+    {
+      "text": "Nawozy NPK, PK i azotowe – jak wybrać odpowiedni nawóz dla Twoich upraw?",
+      "href": "https://autopilot.local/nawozy-npk-pk-i-azotowe-jak-wybrac-odpowiedni-nawoz-dla-twoich-upraw/"
+    },
+    {
+      "text": "Czytaj całość →",
+      "href": "https://autopilot.local/nawozy-npk-pk-i-azotowe-jak-wybrac-odpowiedni-nawoz-dla-twoich-upraw/"
+    },
+    {
+      "text": "",
+      "href": "https://autopilot.local/skracanie-pszenicy-kiedy-warto-wykonac-zabieg-i-jakie-sa-jego-korzysci/"
+    },
+    {
+      "text": "Skracanie pszenicy – kiedy warto wykonać zabieg i jakie są jego korzyści?",
+      "href": "https://autopilot.local/skracanie-pszenicy-kiedy-warto-wykonac-zabieg-i-jakie-sa-jego-korzysci/"
+    },
+    {
+      "text": "Czytaj całość →",
+      "href": "https://autopilot.local/skracanie-pszenicy-kiedy-warto-wykonac-zabieg-i-jakie-sa-jego-korzysci/"
+    },
+    {
+      "text": "",
+      "href": "https://autopilot.local/ochrona-pszenicy-ozimej-przed-chwastami-jak-skutecznie-walczyc-z-miotla-zbozowa/"
+    },
+    {
+      "text": "Ochrona pszenicy ozimej przed chwastami – jak skutecznie walczyć z miotłą zbożową?",
+      "href": "https://autopilot.local/ochrona-pszenicy-ozimej-przed-chwastami-jak-skutecznie-walczyc-z-miotla-zbozowa/"
+    },
+    {
+      "text": "Czytaj całość →",
+      "href": "https://autopilot.local/ochrona-pszenicy-ozimej-przed-chwastami-jak-skutecznie-walczyc-z-miotla-zbozowa/"
+    },
+    {
+      "text": "",
+      "href": "https://autopilot.local/jakie-fungicydy-sa-najbardziej-efektywne-w-ochronie-rzepaku-przed-grzybami/"
+    },
+    {
+      "text": "Jakie fungicydy są najbardziej efektywne w ochronie rzepaku przed grzybami?",
+      "href": "https://autopilot.local/jakie-fungicydy-sa-najbardziej-efektywne-w-ochronie-rzepaku-przed-grzybami/"
+    },
+    {
+      "text": "Czytaj całość →",
+      "href": "https://autopilot.local/jakie-fungicydy-sa-najbardziej-efektywne-w-ochronie-rzepaku-przed-grzybami/"
+    },
+    {
+      "text": "",
+      "href": "https://autopilot.local/opryski-herbicydowe-wplyw-warunkow-atmosferycznych-na-skutecznosc-zabiegow/"
+    },
+    {
+      "text": "Opryski herbicydowe – wpływ warunków atmosferycznych na skuteczność zabiegów",
+      "href": "https://autopilot.local/opryski-herbicydowe-wplyw-warunkow-atmosferycznych-na-skutecznosc-zabiegow/"
+    },
+    {
+      "text": "Czytaj całość →",
+      "href": "https://autopilot.local/opryski-herbicydowe-wplyw-warunkow-atmosferycznych-na-skutecznosc-zabiegow/"
+    },
+    {
+      "text": "2",
+      "href": "https://autopilot.local/blog/page/2/"
+    },
+    {
+      "text": "→",
+      "href": "https://autopilot.local/blog/page/2/"
+    }
+  ]
+}

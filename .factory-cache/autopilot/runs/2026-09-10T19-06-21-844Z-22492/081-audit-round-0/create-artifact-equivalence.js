@@ -1,0 +1,8 @@
+const fs=require('fs'),path=require('path');
+const root=path.resolve(__dirname,'..'),previousId='comparison-1789330359034',currentId='comparison-1789346670154';
+const previousRoot=path.join(root,previousId),currentRoot=path.join(root,currentId),a=JSON.parse(fs.readFileSync(path.join(previousRoot,'summary.json'),'utf8')),b=JSON.parse(fs.readFileSync(path.join(currentRoot,'summary.json'),'utf8'));
+const eq=(x,y)=>fs.readFileSync(x).equals(fs.readFileSync(y));
+const routes=b.routes.map(({id})=>{const p=JSON.parse(fs.readFileSync(path.join(previousRoot,id,'comparison.json'),'utf8')),q=JSON.parse(fs.readFileSync(path.join(currentRoot,id,'comparison.json'),'utf8'));return{id,referenceShaSame:p.reference.sha256===q.reference.sha256,renderedShaSame:p.rendered.sha256===q.rendered.sha256,diffPngSame:eq(path.join(previousRoot,id,'diff.png'),path.join(currentRoot,id,'diff.png')),responsivePngSame:Object.fromEntries([1440,1280,1024,768,390,375].map(w=>[w,eq(path.join(previousRoot,id,`responsive-${w}.png`),path.join(currentRoot,id,`responsive-${w}.png`)]))};});
+const out={previous:{id:previousId,capturedAt:a.capturedAt,implementationHash:a.implementationHash,sourceHash:a.sourceHash},current:{id:currentId,capturedAt:b.capturedAt,implementationHash:b.implementationHash,sourceHash:b.sourceHash},sameImplementationHash:a.implementationHash===b.implementationHash,sameSourceHash:a.sourceHash===b.sourceHash,routes};
+fs.writeFileSync(path.join(__dirname,'artifact-equivalence.json'),JSON.stringify(out,null,2)+'\n');
+console.log(JSON.stringify({desktopChanged:routes.filter(x=>!x.renderedShaSame).map(x=>x.id),responsiveChanged:routes.filter(x=>Object.values(x.responsivePngSame).some(v=>!v)).map(x=>x.id)}));

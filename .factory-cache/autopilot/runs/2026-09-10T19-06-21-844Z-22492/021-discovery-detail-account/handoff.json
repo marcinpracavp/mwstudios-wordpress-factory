@@ -1,0 +1,36 @@
+{
+  "task": {
+    "id": "detail-account",
+    "scope": "group",
+    "buildGroup": "account"
+  },
+  "sourceContext": {
+    "version": 1,
+    "available": true,
+    "index": {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/021-discovery-detail-account/source-context/index.json",
+      "bytes": 1428,
+      "sha256": "03ea3ab2274ee4275126553d39b5630af8b6528aba3171729373c8884b0e05b3"
+    }
+  },
+  "model": "gpt-5.6-terra",
+  "reasoningEffort": "high",
+  "continuation": "new task",
+  "previousExecution": null,
+  "snapshot": ".factory-cache/figma/latest",
+  "observations": ".factory-cache/figma/latest/observations/index.json",
+  "plans": [
+    "docs/factory/project/PLAN.md",
+    "docs/factory/project/SOURCE_CLARIFICATIONS.md"
+  ],
+  "currentGate": {
+    "passed": false,
+    "errors": [
+      "Missing section account-breadcrumbs",
+      "Missing visual source facts account-login",
+      "Missing section account-registration"
+    ],
+    "group": "account"
+  },
+  "instruction": "Inspect the current gate and finish only remaining assigned work. Reuse real saved source facts and assets."
+}

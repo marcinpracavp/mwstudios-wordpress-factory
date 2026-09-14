@@ -1,0 +1,328 @@
+{
+  "id": "7891ec52f6816ff9beb4",
+  "tool": "use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "222:62",
+    "12:2"
+  ],
+  "description": "Capture exact shared-footer section source nodes 25",
+  "recordedAt": "2026-09-11T00:51:44.886Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "id": "222:62",
+      "name": "stopka",
+      "frame": "12:2",
+      "total": 37,
+      "nodes": [
+        {
+          "id": "140:277",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "140:276",
+          "bounds": {
+            "x": 271.6499938964844,
+            "y": 8416.490234375,
+            "width": 17.76999855041504,
+            "height": 17.770000457763672
+          },
+          "style": 0
+        },
+        {
+          "id": "140:278",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "140:276",
+          "bounds": {
+            "x": 281.22998046875,
+            "y": 8425.39013671875,
+            "width": 3.279998779296875,
+            "height": 4.09999942779541
+          },
+          "style": 0
+        },
+        {
+          "id": "140:279",
+          "name": "Group",
+          "type": "GROUP",
+          "parentId": "140:264",
+          "bounds": {
+            "x": 290.3599853515625,
+            "y": 8416.4599609375,
+            "width": 17.790000915527344,
+            "height": 17.790000915527344
+          },
+          "style": 1
+        },
+        {
+          "id": "140:280",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "140:279",
+          "bounds": {
+            "x": 295.8599853515625,
+            "y": 8421.18994140625,
+            "width": 3.6899986267089844,
+            "height": 4.919999599456787
+          },
+          "style": 0
+        },
+        {
+          "id": "140:281",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "140:279",
+          "bounds": {
+            "x": 290.3599853515625,
+            "y": 8416.4599609375,
+            "width": 17.790000915527344,
+            "height": 17.790000915527344
+          },
+          "style": 0
+        },
+        {
+          "id": "140:282",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "140:279",
+          "bounds": {
+            "x": 294.8399963378906,
+            "y": 8429.60009765625,
+            "width": 6.020000457763672,
+            "height": 3.479999542236328
+          },
+          "style": 0
+        },
+        {
+          "id": "140:283",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "140:264",
+          "bounds": {
+            "x": 271.6300048828125,
+            "y": 8435.2001953125,
+            "width": 17.78999900817871,
+            "height": 17.790000915527344
+          },
+          "style": 0
+        },
+        {
+          "id": "140:284",
+          "name": "Group",
+          "type": "GROUP",
+          "parentId": "140:264",
+          "bounds": {
+            "x": 290.3599853515625,
+            "y": 8435.2001953125,
+            "width": 17.769996643066406,
+            "height": 17.770000457763672
+          },
+          "style": 1
+        },
+        {
+          "id": "140:285",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "140:284",
+          "bounds": {
+            "x": 290.3599853515625,
+            "y": 8435.2001953125,
+            "width": 17.769996643066406,
+            "height": 17.770000457763672
+          },
+          "style": 0
+        },
+        {
+          "id": "140:286",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "140:284",
+          "bounds": {
+            "x": 295.15997314453125,
+            "y": 8440.77001953125,
+            "width": 4.439998626708984,
+            "height": 7.560001373291016
+          },
+          "style": 0
+        },
+        {
+          "id": "515:79",
+          "name": "image 12",
+          "type": "RECTANGLE",
+          "parentId": "222:62",
+          "bounds": {
+            "x": 1370,
+            "y": 8748,
+            "width": 188,
+            "height": 44
+          },
+          "style": 2
+        },
+        {
+          "id": "515:80",
+          "name": "Nasze certyfikaty i wyróżnienia:",
+          "type": "TEXT",
+          "parentId": "222:62",
+          "bounds": {
+            "x": 1216,
+            "y": 8750,
+            "width": 129,
+            "height": 42
+          },
+          "style": 3,
+          "characters": "Nasze certyfikaty i wyróżnienia:",
+          "align": [
+            "LEFT",
+            "TOP"
+          ],
+          "segments": [
+            {
+              "characters": "Nasze certyfikaty i wyróżnienia:",
+              "start": 0,
+              "end": 32,
+              "style": 4
+            }
+          ]
+        }
+      ],
+      "styles": [
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "IMAGE",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "scaleMode": "FILL",
+              "scalingFactor": 0.5,
+              "rotation": 0,
+              "filters": {
+                "exposure": 0,
+                "contrast": 0,
+                "saturation": 0,
+                "temperature": 0,
+                "tint": 0,
+                "highlights": 0,
+                "shadows": 0
+              },
+              "imageTransform": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ]
+              ],
+              "imageHash": "5b089817f5660f88085c4ecc8cddc935348bb3b5"
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "OUTSIDE",
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "fontSize": 16,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 400,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        }
+      ]
+    }
+  ]
+}

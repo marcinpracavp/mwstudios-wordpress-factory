@@ -1,0 +1,204 @@
+{
+  "id": "catalogues-downloads",
+  "manifestRecord": {
+    "id": "catalogues-downloads",
+    "name": "Katalogi",
+    "order": 4,
+    "pageId": "0:1",
+    "snapshot": "sections/04-catalogues-downloads.json",
+    "desktopNodeId": "347:1236",
+    "desktopReference": "references/sections/catalogues-downloads.png"
+  },
+  "contentFields": [
+    {
+      "section": "catalogues-downloads",
+      "nodeId": "349:1240",
+      "fieldName": "rudnikagro_catalogues_349_1240",
+      "type": "text",
+      "language": "pl",
+      "value": "Katalog rolniczy",
+      "destination": "ACF catalogues page / Catalogues tab / cards repeater",
+      "linkEvidence": {
+        "reactions": [],
+        "segments": [
+          {
+            "characters": "Katalog rolniczy",
+            "hyperlink": null
+          }
+        ]
+      },
+      "importStatus": "blocked-missing-catalogue-targets",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "349:1240"
+      }
+    },
+    {
+      "section": "catalogues-downloads",
+      "nodeId": "349:1253",
+      "fieldName": "rudnikagro_catalogues_349_1253",
+      "type": "text",
+      "language": "pl",
+      "value": "Pobierz katalog rolniczy\nw formacie PDF",
+      "destination": "ACF catalogues page / Catalogues tab / cards repeater",
+      "linkEvidence": {
+        "reactions": [],
+        "segments": [
+          {
+            "characters": "Pobierz katalog rolniczy\nw formacie PDF",
+            "hyperlink": null
+          }
+        ]
+      },
+      "importStatus": "blocked-missing-catalogue-targets",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "349:1253"
+      }
+    },
+    {
+      "section": "catalogues-downloads",
+      "nodeId": "349:1242",
+      "fieldName": "rudnikagro_catalogues_349_1242",
+      "type": "text",
+      "language": "pl",
+      "value": "Katalog sadowniczy",
+      "destination": "ACF catalogues page / Catalogues tab / cards repeater",
+      "linkEvidence": {
+        "reactions": [],
+        "segments": [
+          {
+            "characters": "Katalog sadowniczy",
+            "hyperlink": null
+          }
+        ]
+      },
+      "importStatus": "blocked-missing-catalogue-targets",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "349:1242"
+      }
+    },
+    {
+      "section": "catalogues-downloads",
+      "nodeId": "349:1255",
+      "fieldName": "rudnikagro_catalogues_349_1255",
+      "type": "text",
+      "language": "pl",
+      "value": "Pobierz katalog rolniczy\nw formacie PDF",
+      "destination": "ACF catalogues page / Catalogues tab / cards repeater",
+      "linkEvidence": {
+        "reactions": [],
+        "segments": [
+          {
+            "characters": "Pobierz katalog rolniczy\nw formacie PDF",
+            "hyperlink": null
+          }
+        ]
+      },
+      "importStatus": "blocked-missing-catalogue-targets",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "349:1255"
+      }
+    },
+    {
+      "section": "catalogues-downloads",
+      "nodeId": "431:933",
+      "fieldName": "rudnikagro_catalogues_431_933",
+      "type": "text",
+      "language": "pl",
+      "value": "Czytaj online",
+      "destination": "ACF catalogues page / Catalogues tab / cards repeater",
+      "linkEvidence": {
+        "reactions": [],
+        "segments": [
+          {
+            "characters": "Czytaj online",
+            "hyperlink": null
+          }
+        ]
+      },
+      "importStatus": "blocked-missing-catalogue-targets",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "431:933"
+      }
+    },
+    {
+      "section": "catalogues-downloads",
+      "nodeId": "431:938",
+      "fieldName": "rudnikagro_catalogues_431_938",
+      "type": "text",
+      "language": "pl",
+      "value": "Czytaj online",
+      "destination": "ACF catalogues page / Catalogues tab / cards repeater",
+      "linkEvidence": {
+        "reactions": [],
+        "segments": [
+          {
+            "characters": "Czytaj online",
+            "hyperlink": null
+          }
+        ]
+      },
+      "importStatus": "blocked-missing-catalogue-targets",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "431:938"
+      }
+    },
+    {
+      "section": "catalogues-downloads",
+      "nodeId": "347:1236",
+      "fieldName": "rudnikagro_catalogues_media_347_1236",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/catalogues/catalogues-agriculture-background.png",
+      "destination": "ACF catalogues page / Catalogues tab / cards repeater / background attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "347:1236"
+      }
+    },
+    {
+      "section": "catalogues-downloads",
+      "nodeId": "347:1237",
+      "fieldName": "rudnikagro_catalogues_media_347_1237",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/catalogues/catalogues-orchard-background.png",
+      "destination": "ACF catalogues page / Catalogues tab / cards repeater / background attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "347:1237"
+      }
+    },
+    {
+      "section": "catalogues-downloads",
+      "nodeId": "349:1262",
+      "fieldName": "rudnikagro_catalogues_media_349_1262",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/catalogues/catalogue-agriculture-cover.png",
+      "destination": "ACF catalogues page / Catalogues tab / cards repeater / cover attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "349:1262"
+      }
+    },
+    {
+      "section": "catalogues-downloads",
+      "nodeId": "349:1263",
+      "fieldName": "rudnikagro_catalogues_media_349_1263",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/catalogues/catalogue-orchard-cover.png",
+      "destination": "ACF catalogues page / Catalogues tab / cards repeater / cover attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "349:1263"
+      }
+    }
+  ]
+}

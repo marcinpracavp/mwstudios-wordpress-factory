@@ -1,0 +1,62 @@
+{
+  "id": "blog-related-posts",
+  "manifestRecord": {
+    "id": "blog-related-posts",
+    "name": "Related posts",
+    "order": 37,
+    "pageId": "0:1",
+    "snapshot": "sections/37-blog-related-posts.json",
+    "desktopNodeId": "327:3356",
+    "desktopReference": "references/sections/blog-related-posts.png"
+  },
+  "contentFields": [
+    {
+      "section": "blog-related-posts",
+      "nodeId": "327:3367",
+      "fieldName": "rudnikagro_blog_related_posts_heading",
+      "type": "text",
+      "language": "pl",
+      "value": "PozostaÅ‚e wpisy",
+      "destination": "ACF post fields / Related posts tab",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "327:3367"
+      }
+    },
+    {
+      "section": "blog-related-posts",
+      "nodeId": "327:3356",
+      "fieldName": "rudnikagro_blog_related_posts_items",
+      "type": "repeater",
+      "language": "pl",
+      "value": [
+        {
+          "title": "Popularne nawozy potasowe i ich zastosowanie w uprawach",
+          "date": "10 lipca 2025",
+          "label": "Czytaj caÅ‚oÅ›Ä‡",
+          "image": "assets/blog/blog-related-327-3302.png",
+          "destination": null
+        },
+        {
+          "title": "Jak nawoziÄ‡ rzepak, kukurydzÄ™, buraki, warzywa?",
+          "date": "10 lipca 2025",
+          "label": "Czytaj caÅ‚oÅ›Ä‡",
+          "image": "assets/blog/blog-related-327-3303.png",
+          "destination": null
+        },
+        {
+          "title": "Nawozy dolistne, pod korzeÅ„ i do fertygacji â€“ jak poprawiÄ‡ efektywnoÅ›Ä‡ nawoÅ¼enia?",
+          "date": "23 czerwca 2025",
+          "label": "Czytaj caÅ‚oÅ›Ä‡",
+          "image": "assets/blog/blog-related-327-3304.png",
+          "destination": null
+        }
+      ],
+      "destination": "ACF post fields / Related posts tab",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "327:3356"
+      }
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "applied": true,
+  "sections": 81,
+  "facts": [
+    {
+      "nodeId": "335:702",
+      "name": "Rectangle 111",
+      "type": "RECTANGLE",
+      "evidence": {
+        "file": ".factory-cache/figma/latest/observations/de204fffdc79c21460e6.json",
+        "sha256": "41ee4c0d33a188982fd4a1a68db7074cb1f4441e1606f3ed270610f8d3ab4c82"
+      }
+    },
+    {
+      "nodeId": "335:710",
+      "name": "Rectangle 115",
+      "type": "VECTOR",
+      "evidence": {
+        "file": ".factory-cache/figma/latest/observations/de204fffdc79c21460e6.json",
+        "sha256": "41ee4c0d33a188982fd4a1a68db7074cb1f4441e1606f3ed270610f8d3ab4c82"
+      }
+    },
+    {
+      "nodeId": "339:795",
+      "name": "Formularz kontaktowy",
+      "type": "TEXT",
+      "evidence": {
+        "file": ".factory-cache/figma/latest/observations/de204fffdc79c21460e6.json",
+        "sha256": "41ee4c0d33a188982fd4a1a68db7074cb1f4441e1606f3ed270610f8d3ab4c82"
+      }
+    },
+    {
+      "nodeId": "431:924",
+      "name": "Rectangle 142",
+      "type": "RECTANGLE",
+      "evidence": {
+        "file": ".factory-cache/figma/latest/observations/de204fffdc79c21460e6.json",
+        "sha256": "41ee4c0d33a188982fd4a1a68db7074cb1f4441e1606f3ed270610f8d3ab4c82"
+      }
+    },
+    {
+      "nodeId": "548:24",
+      "name": "przerywnik",
+      "type": "GROUP",
+      "evidence": {
+        "file": ".factory-cache/figma/latest/observations/bca19728fa2d41218adf.json",
+        "sha256": "2981d6d7fe0c7afefc57984c43016fe44acbfcd358ecfd8228e4fc78394ae3af"
+      }
+    },
+    {
+      "nodeId": "349:1377",
+      "name": "Rectangle 111",
+      "type": "RECTANGLE",
+      "evidence": {
+        "file": ".factory-cache/figma/latest/observations/bca19728fa2d41218adf.json",
+        "sha256": "2981d6d7fe0c7afefc57984c43016fe44acbfcd358ecfd8228e4fc78394ae3af"
+      }
+    },
+    {
+      "nodeId": "355:1423",
+      "name": "oferta1",
+      "type": "GROUP",
+      "evidence": {
+        "file": ".factory-cache/figma/latest/observations/bca19728fa2d41218adf.json",
+        "sha256": "2981d6d7fe0c7afefc57984c43016fe44acbfcd358ecfd8228e4fc78394ae3af"
+      }
+    },
+    {
+      "nodeId": "347:1230",
+      "name": "Rectangle 111",
+      "type": "rounded-rectangle",
+      "evidence": {
+        "file": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/010-discovery-detail-catalogues/events.jsonl",
+        "line": 23,
+        "sha256": "3474725194b5742f864ad56d7f8e6f491df794ade5a9c8d8fcebcdc0ac3d5c01",
+        "format": "original metadata XML tag"
+      }
+    },
+    {
+      "nodeId": "520:432",
+      "name": "Rectangle 17",
+      "type": "vector",
+      "evidence": {
+        "file": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/014-discovery-detail-about/events.jsonl",
+        "line": 23,
+        "sha256": "3b11c9323df2327290ce9696794376265292cc933f40a402db6a538902163b5e",
+        "format": "original metadata XML tag"
+      }
+    },
+    {
+      "nodeId": "326:2977",
+      "name": "Rectangle 111",
+      "type": "rounded-rectangle",
+      "evidence": {
+        "file": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/014-discovery-detail-about/events.jsonl",
+        "line": 23,
+        "sha256": "3b11c9323df2327290ce9696794376265292cc933f40a402db6a538902163b5e",
+        "format": "original metadata XML tag"
+      }
+    },
+    {
+      "nodeId": "326:2980",
+      "name": "Rudnikagro Sp. z o.o. oferuje kompleksowe wsparcie rolnictwa oraz zapewnia najwyższy standard obsługi. Od siedemnastu lat jesteśmy stabilnym i wiarygodnym partnerem dla firm dystrybucyjnych oraz producentów rolnych. Dokładamy wszelkich starań, aby nasi Klienci w możliwie najkrótszym czasie mieli dostęp do najbardziej efektywnych rozwiązań agrotechnicznych. Chętnie dzielimy się wiedzą i doświadczeniem. Nasza oferta produktowa z biegiem czasu stale się powiększa, ponieważ w kompleksowy sposób zaspokajamy rosnące potrzeby i oczekiwania rynku.",
+      "type": "text",
+      "evidence": {
+        "file": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/014-discovery-detail-about/events.jsonl",
+        "line": 23,
+        "sha256": "3b11c9323df2327290ce9696794376265292cc933f40a402db6a538902163b5e",
+        "format": "original metadata XML tag"
+      }
+    },
+    {
+      "nodeId": "519:351",
+      "name": "Od początku istnienia firmy przykładamy szczególną wagę do obrotu płodami rolnymi – zarówno na rynku krajowym, jak i europejskim. Współpracujemy z największymi odbiorcami zbóż i rzepaku. Posiadamy certyfikaty REDcert oraz GMP+, a także wyróżnienie Diamenty Forbesa. Co skupujemy: Regularnie nabywamy m.in. pszenicę, pszenżyto, jęczmień, żyto, owies, kukurydzę, rzepak, łubin i inne surowce rolne. Logistyka: Zapewniamy sprawny odbiór i transport płodów rolnych przez cały rok. Korzyści dla rolnika: Oferujemy atrakcyjne ceny, terminowe rozliczenia oraz dogodną wymianę handlową (np. płody rolne w zamian za środki ochrony roślin czy nawozy).",
+      "type": "text",
+      "evidence": {
+        "file": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/014-discovery-detail-about/events.jsonl",
+        "line": 23,
+        "sha256": "3b11c9323df2327290ce9696794376265292cc933f40a402db6a538902163b5e",
+        "format": "original metadata XML tag"
+      }
+    },
+    {
+      "nodeId": "521:435",
+      "name": "Uprawy rolne: Do 65% dopłaty do składki z budżetu państwa (odpowiedzialność już od 8%). Ochrona przed: wymarznięciem, ogniem, przymrozkami wiosennymi, gradem, deszczem nawalnym, huraganem. Maszyny rolnicze: Bardzo szeroki zakres ochrony (w tym Agro Casco). Ubezpieczenia od wszystkich ryzyk (kradzież, zniszczenie, ogień i inne zdarzenia losowe). Dostępne umowy krótkoterminowe, roczne i wieloletnie. Budynki i OC: Ochrona majątku (budynki i budowle, silosy, magazyny płaskie, wagi najazdowe) od ognia i zdarzeń losowych. Zabezpieczenie towarów (ziemiopłodów) w magazynach oraz polisy OC dla przedsiębiorstw rolnych.",
+      "type": "text",
+      "evidence": {
+        "file": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/014-discovery-detail-about/events.jsonl",
+        "line": 23,
+        "sha256": "3b11c9323df2327290ce9696794376265292cc933f40a402db6a538902163b5e",
+        "format": "original metadata XML tag"
+      }
+    }
+  ],
+  "changes": [
+    {
+      "file": ".factory-cache/figma/latest/sections/34-about-heading.json",
+      "before": "c60efe691dff2b45672c35435ded534bf557aa39568e21a1099501581b1b7fed",
+      "after": "41fe3dd456c01c2f862da53a9dcb8ba098f9ac1b5865c917aa3cdbbf1c394734"
+    },
+    {
+      "file": ".factory-cache/figma/latest/sections/35-about-introduction.json",
+      "before": "2a9f86fb80783fab2ca4b65cb6521f1232c2a7c3caa744368e9d5ae8050fef25",
+      "after": "9af3183eeecb94316c5828a6c0b32e43ba8aea97eee75b3bcf5a5b52399ef5bd"
+    },
+    {
+      "file": ".factory-cache/figma/latest/sections/36-about-agricultural-supply.json",
+      "before": "36bbcd5a4f0405a93f5f3be44eb96580799bd88b8b1b75ee9ca3e9002433eb5a",
+      "after": "0dd71be29cfbb04775f86f0c1c825b3c90b88c386c1ad1b7996a39b9f770acba"
+    },
+    {
+      "file": ".factory-cache/figma/latest/sections/37-about-grain-trade.json",
+      "before": "3ff92b25cb9de70b0eb43b489229e22f1ad048e2e26a8c3e414df779472ccd37",
+      "after": "1d6efa32a1c6288a18b0fd0db0193f2f7e1d9480d8a7268cc6ab02e817a9b6ee"
+    },
+    {
+      "file": ".factory-cache/figma/latest/sections/38-about-insurance.json",
+      "before": "2860de73d8fc59e5ad4c5b800d0af5a36d662845c0c12a5b36537f9c94842e8c",
+      "after": "a361183d5ebd1de46bc905fed5c3b00672cb3a45599c5017c8fe904bb6ac4371"
+    },
+    {
+      "file": ".factory-cache/figma/latest/sections/45-product-breadcrumbs.json",
+      "before": "847ae1f1d05184e5c4a0d5fc3fbf78c6a022c51e000829acbabf5ddc4d7d1d21",
+      "after": "8d659df3fc3351bca867c36eebc36fce3f4c5b26b02a44ca59e169c1887b2c26"
+    },
+    {
+      "file": ".factory-cache/figma/latest/sections/46-product-gallery.json",
+      "before": "76c81fc8eb45850d8e4e8fc20efca810e44cdf71386f3cdb20984ca169cf6b08",
+      "after": "2a2855f93ad6c7230b212c74dfa9637722ce4a1a1e85843a39fe380b41175e05"
+    },
+    {
+      "file": ".factory-cache/figma/latest/sections/47-product-tabs.json",
+      "before": "e9e80251318b0cc1b8fa7785c5737a31f594e76205ad758d2772e4a0e4d93921",
+      "after": "681e4b6215539be77a6f7123cc79b339c7c461cec9c9c4592b53e6306b9e4dfe"
+    },
+    {
+      "file": ".factory-cache/figma/latest/sections/48-product-related.json",
+      "before": "f590dc584c24e1548893a0c47bee33ac5e43b87132bc40da8a952ba78677ee54",
+      "after": "bf76812a6c738c1860d795245a457c7c89df5aa5047556dd8bcb23edc465a3bc"
+    },
+    {
+      "file": ".factory-cache/figma/latest/sections/49-product-legal-notices.json",
+      "before": "8ca6f4239e5a2d712c39702c089898cf1395640e989af2be74aaa59a5c74e945",
+      "after": "d296a6cd49fb69563c8e444eccb95317c1b49f2cb2458463bbcb817bec960a02"
+    },
+    {
+      "file": ".factory-cache/figma/latest/sections/50-product-benefits.json",
+      "before": "5ef0c877f3a386c3bcffb2f27864f721e2a25055eaa37b0adecca4fe5aa579ff",
+      "after": "5f1fbf25e39419aaac21b011d29e2c142fcff7e22efa2ed00985cf479d0e6ed5"
+    },
+    {
+      "file": ".factory-cache/figma/latest/sections/51-product-inquiry-dialog.json",
+      "before": "e44025d1605054ec49a7646a2d452e5b0f8fba65334b8607efb36450569f51b2",
+      "after": "a2596937e19a03adff9f71ea03f7ea002cb78ec133c16288c8e9d4aabc523cc3"
+    },
+    {
+      "file": ".factory-cache/figma/latest/sections/52-bundle-breadcrumbs.json",
+      "before": "789bf8577c00095e3d2d2fd8bd9362cd92593614dd6ef1ff943da04efe1ca2de",
+      "after": "3ffcf68f21a870e15b0a4fc0b29290159de7a80273baa29fd21a7635eb35f982"
+    },
+    {
+      "file": ".factory-cache/figma/latest/sections/53-bundle-gallery.json",
+      "before": "2ec16191c57da3303778450ea1f5580bffcb9e12645069c111a938cc8a281853",
+      "after": "e8267edf78c939d42c2fc8ef8be5e3133fb909144379dfe1b0abd520c080b47f"
+    },
+    {
+      "file": ".factory-cache/figma/latest/sections/54-bundle-benefits.json",
+      "before": "3fd99c9855b478c90bc1775429854a88fed409603c121d84bd8a466cdae520f1",
+      "after": "094e3b082cce60efd980bda3dcf869f8862b8834d01354ce90f7045066786445"
+    },
+    {
+      "file": ".factory-cache/figma/latest/sections/55-bundle-tabs.json",
+      "before": "4f383b0f9737faa86da6f985ee17d31191cc7e059a20efaccd9c8a493fddc3e1",
+      "after": "380af041df0a4f5471bf278a225c5076ee509786e1b8e86c3c884b7f0bc53243"
+    },
+    {
+      "file": ".factory-cache/figma/latest/sections/56-cart-heading.json",
+      "before": "89f8d326af0caf1ceece9e3becd2237133bc154dcb90057cedc4f9b0077e0604",
+      "after": "7a3c275423fa7ca27e9173aea336fe70a215bea87977b43224aba57cf59f69e0"
+    },
+    {
+      "file": ".factory-cache/figma/latest/sections/57-cart-lines.json",
+      "before": "68ab4e9eecaefce9efe1ef4c23baabba3ca5269ca5684416c5daea355e966743",
+      "after": "0c11650673aabd13b6d43b51c4d2fca345e28c1dab6fd68047e8600bd96bbaad"
+    },
+    {
+      "file": ".factory-cache/figma/latest/sections/58-cart-totals.json",
+      "before": "f16354ace3469fe320b53cedc6eae04f3da2daf85e23378ad8f2fa9d32f605e1",
+      "after": "773b7236b2fbe2f7c4ab42c7094714ed70240d0bbcd1f63aa02884ddaa299bc9"
+    },
+    {
+      "file": ".factory-cache/figma/latest/sections/59-checkout-payment.json",
+      "before": "8b493de26207aecb7b5be76c78cb9fea9ad21c0c35b18b018b27a4f1f7071de7",
+      "after": "6fa13cc3393a12ccf9b0886261f77f0c91935255d6bc7d4c4d5f1e94ab2ddc42"
+    },
+    {
+      "file": ".factory-cache/figma/latest/sections/60-checkout-delivery.json",
+      "before": "70dfbaa6ac388de03ce7f8367d3f684b75821edf44add2b4b9c0bcfb8902b78a",
+      "after": "b4664e2e0f17278a384dc780ee3e0c85055346c4344386670f05b43ab4f0a344"
+    },
+    {
+      "file": ".factory-cache/figma/latest/sections/61-checkout-totals.json",
+      "before": "9ff6ce98d214870d88248649eb525325ff16f9069fc312bf0d34e5d2be21aec5",
+      "after": "fffc1b85f7b9fa22e57663121695c2d0bc486cdca1791ad09daf23abdd5536f3"
+    },
+    {
+      "file": ".factory-cache/figma/latest/sections/62-checkout-heading.json",
+      "before": "5d7d664f7d3d7f9c87b957910c82b7609eff3e55f59a262cd65825d49ac7f217",
+      "after": "92183363d43374fde77a00c8f709784a91b83f900c84272685e7c125fa5ac8e3"
+    },
+    {
+      "file": ".factory-cache/figma/latest/sections/63-checkout-steps.json",
+      "before": "33e715f6422819bcfacb3e3e381e3c6e3a6665bed6a80f45e69902ab51996533",
+      "after": "c326271c58cbcdb0f463dbdd0348f250be8a8009c6506a8ec3d32584f4afed53"
+    },
+    {
+      "file": ".factory-cache/figma/latest/sections/64-confirmation-heading.json",
+      "before": "b236906d51f9662d1482afadd4d0ccbaa50a96d67ea0d16a3a1de689b27cfe1a",
+      "after": "3b100f27eca74b9c114e51bf1fd253541e6fc58b21282d63002858dcde4170e1"
+    },
+    {
+      "file": ".factory-cache/figma/latest/sections/66-checkout-login-heading.json",
+      "before": "625609421a48a2e4ac44cd5e698a5f079ac3a383f275b501cdb464b05565b131",
+      "after": "9c2197f2205502eaebea8a3a98ad06a7134cadcca3550d16b1b2631992eed77f"
+    },
+    {
+      "file": ".factory-cache/figma/latest/sections/65-confirmation-line-items.json",
+      "before": "9ac992bb7adf6a4eaf9d5913da34cbc502cddd3c0d847ac9c3d8f456ddd1791c",
+      "after": "4208df6b8b39f7ef42bad5efeca1c7f551b94518a6517d24aefe6ff3e8c42ccd"
+    },
+    {
+      "file": ".factory-cache/figma/latest/sections/67-checkout-login-options.json",
+      "before": "a667ee1d5cc69c52e6ae5a2e2ca0f6bc72f020f71c712e0ace7227f91a1d76f6",
+      "after": "11e8e8472f83e1276c8aa0ed9025a90ce3399124748018519ad71b42c3602286"
+    },
+    {
+      "file": ".factory-cache/figma/latest/sections/68-archive-breadcrumbs.json",
+      "before": "e04659674b3ee17e003ff2a3dfe88f1427d485d56255ba5bd966a7b4cfa6401e",
+      "after": "17910726d3ac737f0c15e8c28a0889ad49a6ba17806156e878a455296af18ed5"
+    },
+    {
+      "file": ".factory-cache/figma/latest/sections/69-archive-category-introduction.json",
+      "before": "cd069cb086fa0302e76a354e1cab01214f048a8bdc627373bd97f3e0540aceff",
+      "after": "9bb141acf95641faab31226511f47bb584cfa6faf2286b94967133e84f22c3b7"
+    },
+    {
+      "file": ".factory-cache/figma/latest/sections/70-archive-filters.json",
+      "before": "1f91be79555690d6ef4b27b5235d9cd4ff04635b3a0a88298047e0aa555423f0",
+      "after": "51192b58a8486283ab11a348798f3ddb62111a810d33904cd1b6a72f795ea617"
+    },
+    {
+      "file": ".factory-cache/figma/latest/sections/71-archive-sort.json",
+      "before": "2df35963b435abd0df7b79821ac1f91834fe83f28af24ca858eeee945dd9db0d",
+      "after": "d87c3ccf4bba52e03a6ba5415b88da2d1b940063e9ea2435e663f13e16f8419f"
+    },
+    {
+      "file": ".factory-cache/figma/latest/sections/72-archive-product-grid.json",
+      "before": "dd815d26bf522ca4c16d9f4090268ad9e8271dfac5fc05b0b113a6a68bd4d1a8",
+      "after": "15b2fb34afdfcf599759df4abbfaef2d918589bdc20bf2b57ccd1e22fbbc1143"
+    },
+    {
+      "file": ".factory-cache/figma/latest/sections/73-archive-pagination.json",
+      "before": "14256a2208c4346c6e0e24db5d591bef2dfb7f5f36ed52905987a014c150fdcc",
+      "after": "540dcffb41f2268c312f2c8636d50001ab062f3b700554091e44045c53aa98cd"
+    },
+    {
+      "file": ".factory-cache/figma/latest/sections/74-archive-category-description.json",
+      "before": "5852ece8bbc35db8b668ecef87b124bb04cdcf704d1363801ce968f0172ba959",
+      "after": "3a297573b209a5ec4377882456097cad57fe101a35080bd3dfc32944cff993d5"
+    },
+    {
+      "file": ".factory-cache/figma/latest/sections/27-account-breadcrumbs.json",
+      "before": "30f0e1390592f2b37d9494ee1298987fd8ada95d90e23122d19ad642c8ffa038",
+      "after": "e558e890b8cec25a3ae66e536ce264583e6f5178f6f08a08bf5b57a717c86a6a"
+    },
+    {
+      "file": ".factory-cache/figma/latest/sections/28-account-registration.json",
+      "before": "80197e86898702864e5bec7b09321c65390df508d4e11cc0d061a21c3be7fa16",
+      "after": "9f9448ce8c2ae9f2631633d6f3ddb9f94afd6750a2b49c6bd94a36c57686c688"
+    },
+    {
+      "file": ".factory-cache/figma/latest/manifest.json",
+      "before": "6ec079c4b8fa27c5cdae38509dc0ba04d191bc524accb382df53b03530470da3",
+      "after": "8042403751fe8fcbd088a5486e6fe1ac2fa0343f152bff69b06b73afc9de57ef"
+    }
+  ]
+}

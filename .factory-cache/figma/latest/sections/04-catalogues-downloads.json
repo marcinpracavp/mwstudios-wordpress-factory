@@ -1,0 +1,1143 @@
+{
+  "id": "catalogues-downloads",
+  "name": "Katalogi",
+  "order": 4,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "347:1236"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 240,
+    "y": 466,
+    "width": 1444,
+    "height": 357
+  },
+  "layout": {
+    "type": "two-column-catalogue-downloads",
+    "subnodes": [
+      {
+        "nodeId": "347:1236",
+        "name": "Rectangle 126",
+        "type": "RECTANGLE",
+        "visible": true,
+        "geometry": {
+          "x": 240,
+          "y": 503,
+          "width": 710,
+          "height": 320
+        },
+        "fills": [
+          {
+            "type": "IMAGE",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "scaleMode": "FILL",
+            "scalingFactor": 0.5,
+            "rotation": 0,
+            "filters": {
+              "exposure": 0,
+              "contrast": 0,
+              "saturation": 0,
+              "temperature": 0,
+              "tint": 0,
+              "highlights": 0,
+              "shadows": 0
+            },
+            "imageTransform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "imageHash": "cce7c19ba2c7d9b8dbba408779fbfbff599c5360"
+          },
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 0.8500000238418579,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0.4000000059604645,
+              "b": 0.20000000298023224
+            },
+            "boundVariables": {}
+          },
+          {
+            "type": "GRADIENT_LINEAR",
+            "visible": true,
+            "opacity": 0.800000011920929,
+            "blendMode": "NORMAL",
+            "gradientStops": [
+              {
+                "color": {
+                  "r": 0,
+                  "g": 0.4000000059604645,
+                  "b": 0.20000000298023224,
+                  "a": 0
+                },
+                "position": 0,
+                "boundVariables": {}
+              },
+              {
+                "color": {
+                  "r": 0,
+                  "g": 0.4000000059604645,
+                  "b": 0.20000000298023224,
+                  "a": 1
+                },
+                "position": 1,
+                "boundVariables": {}
+              }
+            ],
+            "gradientTransform": [
+              [
+                1,
+                6.395458385100028e-9,
+                -3.49241391361943e-9
+              ],
+              [
+                4.955750305597577e-18,
+                0.2570918798446655,
+                0.359607994556427
+              ]
+            ]
+          }
+        ],
+        "effects": [],
+        "reactions": []
+      },
+      {
+        "nodeId": "349:1262",
+        "name": "rolniczy 1",
+        "type": "RECTANGLE",
+        "visible": true,
+        "geometry": {
+          "x": 644,
+          "y": 467,
+          "width": 299,
+          "height": 347
+        },
+        "fills": [
+          {
+            "type": "IMAGE",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "scaleMode": "FILL",
+            "scalingFactor": 0.5,
+            "rotation": 0,
+            "filters": {
+              "exposure": 0,
+              "contrast": 0,
+              "saturation": 0,
+              "temperature": 0,
+              "tint": 0,
+              "highlights": 0,
+              "shadows": 0
+            },
+            "imageTransform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "imageHash": "932b7b3392d00775d6f00baa01b5ad88a232af24"
+          }
+        ],
+        "effects": [],
+        "reactions": []
+      },
+      {
+        "nodeId": "349:1240",
+        "name": "Katalog rolniczy",
+        "type": "TEXT",
+        "visible": true,
+        "geometry": {
+          "x": 309,
+          "y": 503,
+          "width": 294,
+          "height": 158
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "effects": [],
+        "text": [
+          {
+            "characters": "Katalog rolniczy",
+            "start": 0,
+            "end": 16,
+            "fontSize": 36,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Bold",
+              "variationSettings": {
+                "wght": 700,
+                "opsz": 14
+              }
+            },
+            "fontWeight": 700,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 24
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {}
+              }
+            ],
+            "hyperlink": null
+          }
+        ],
+        "reactions": []
+      },
+      {
+        "nodeId": "349:1253",
+        "name": "Pobierz katalog rolniczy w formacie PDF",
+        "type": "TEXT",
+        "visible": true,
+        "geometry": {
+          "x": 355,
+          "y": 640,
+          "width": 248,
+          "height": 36
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "effects": [],
+        "text": [
+          {
+            "characters": "Pobierz katalog rolniczy\nw formacie PDF",
+            "start": 0,
+            "end": 39,
+            "fontSize": 18,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Bold",
+              "variationSettings": {
+                "wght": 700,
+                "opsz": 14
+              }
+            },
+            "fontWeight": 700,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 24
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {}
+              }
+            ],
+            "hyperlink": null
+          }
+        ],
+        "reactions": []
+      },
+      {
+        "nodeId": "349:1252",
+        "name": "download",
+        "type": "GROUP",
+        "visible": true,
+        "geometry": {
+          "x": 309,
+          "y": 640,
+          "width": 26,
+          "height": 36
+        },
+        "effects": [],
+        "reactions": []
+      },
+      {
+        "nodeId": "347:1237",
+        "name": "Rectangle 127",
+        "type": "RECTANGLE",
+        "visible": true,
+        "geometry": {
+          "x": 970,
+          "y": 503,
+          "width": 714,
+          "height": 320
+        },
+        "fills": [
+          {
+            "type": "IMAGE",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "DARKEN",
+            "scaleMode": "CROP",
+            "scalingFactor": 0.5,
+            "filters": {
+              "exposure": 0,
+              "contrast": 0,
+              "saturation": 0,
+              "temperature": 0,
+              "tint": 0,
+              "highlights": 0,
+              "shadows": 0
+            },
+            "imageTransform": [
+              [
+                0.7727273106575012,
+                0,
+                0.011904762126505375
+              ],
+              [
+                0,
+                0.7142857313156128,
+                0.1488095074892044
+              ]
+            ],
+            "imageHash": "4c4ca2eaf0ec7c6c01dc063c87b881d780d12ac2"
+          },
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 0.8500000238418579,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.9215686321258545,
+              "g": 0.40784314274787903,
+              "b": 0.20392157137393951
+            },
+            "boundVariables": {}
+          },
+          {
+            "type": "GRADIENT_LINEAR",
+            "visible": true,
+            "opacity": 0.800000011920929,
+            "blendMode": "NORMAL",
+            "gradientStops": [
+              {
+                "color": {
+                  "r": 0.9215686321258545,
+                  "g": 0.40784314274787903,
+                  "b": 0.20392157137393951,
+                  "a": 1
+                },
+                "position": 0,
+                "boundVariables": {}
+              },
+              {
+                "color": {
+                  "r": 0.9215686321258545,
+                  "g": 0.40784314274787903,
+                  "b": 0.20392157137393951,
+                  "a": 0
+                },
+                "position": 1,
+                "boundVariables": {}
+              }
+            ],
+            "gradientTransform": [
+              [
+                -1.0070521831512451,
+                1.2715808961338837e-10,
+                1.0070521831512451
+              ],
+              [
+                -9.015160916551671e-17,
+                -0.25601211190223694,
+                0.6884534358978271
+              ]
+            ]
+          }
+        ],
+        "effects": [],
+        "reactions": []
+      },
+      {
+        "nodeId": "349:1263",
+        "name": "sadowniczy 1",
+        "type": "RECTANGLE",
+        "visible": true,
+        "geometry": {
+          "x": 1384,
+          "y": 466,
+          "width": 293,
+          "height": 343
+        },
+        "fills": [
+          {
+            "type": "IMAGE",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "scaleMode": "FILL",
+            "scalingFactor": 0.5,
+            "rotation": 0,
+            "filters": {
+              "exposure": 0,
+              "contrast": 0,
+              "saturation": 0,
+              "temperature": 0,
+              "tint": 0,
+              "highlights": 0,
+              "shadows": 0
+            },
+            "imageTransform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "imageHash": "f471f5ab5b890386c5cf01bb872eacde3d240b5b"
+          }
+        ],
+        "effects": [],
+        "reactions": []
+      },
+      {
+        "nodeId": "349:1242",
+        "name": "Katalog sadowniczy",
+        "type": "TEXT",
+        "visible": true,
+        "geometry": {
+          "x": 1039,
+          "y": 503,
+          "width": 345,
+          "height": 158
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "effects": [],
+        "text": [
+          {
+            "characters": "Katalog sadowniczy",
+            "start": 0,
+            "end": 18,
+            "fontSize": 36,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Bold",
+              "variationSettings": {
+                "wght": 700,
+                "opsz": 14
+              }
+            },
+            "fontWeight": 700,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 24
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {}
+              }
+            ],
+            "hyperlink": null
+          }
+        ],
+        "reactions": []
+      },
+      {
+        "nodeId": "349:1255",
+        "name": "Pobierz katalog rolniczy w formacie PDF",
+        "type": "TEXT",
+        "visible": true,
+        "geometry": {
+          "x": 1085,
+          "y": 640,
+          "width": 248,
+          "height": 36
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "effects": [],
+        "text": [
+          {
+            "characters": "Pobierz katalog rolniczy\nw formacie PDF",
+            "start": 0,
+            "end": 39,
+            "fontSize": 18,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Bold",
+              "variationSettings": {
+                "wght": 700,
+                "opsz": 14
+              }
+            },
+            "fontWeight": 700,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 24
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {}
+              }
+            ],
+            "hyperlink": null
+          }
+        ],
+        "reactions": []
+      },
+      {
+        "nodeId": "349:1256",
+        "name": "download",
+        "type": "GROUP",
+        "visible": true,
+        "geometry": {
+          "x": 1039,
+          "y": 640,
+          "width": 26,
+          "height": 36
+        },
+        "effects": [],
+        "reactions": []
+      },
+      {
+        "nodeId": "431:933",
+        "name": "Czytaj online",
+        "type": "TEXT",
+        "visible": true,
+        "geometry": {
+          "x": 355,
+          "y": 718,
+          "width": 248,
+          "height": 36
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "effects": [],
+        "text": [
+          {
+            "characters": "Czytaj online",
+            "start": 0,
+            "end": 13,
+            "fontSize": 18,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Bold",
+              "variationSettings": {
+                "wght": 700,
+                "opsz": 14
+              }
+            },
+            "fontWeight": 700,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 24
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {}
+              }
+            ],
+            "hyperlink": null
+          }
+        ],
+        "reactions": []
+      },
+      {
+        "nodeId": "431:938",
+        "name": "Czytaj online",
+        "type": "TEXT",
+        "visible": true,
+        "geometry": {
+          "x": 1085,
+          "y": 718,
+          "width": 248,
+          "height": 36
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "effects": [],
+        "text": [
+          {
+            "characters": "Czytaj online",
+            "start": 0,
+            "end": 13,
+            "fontSize": 18,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Bold",
+              "variationSettings": {
+                "wght": 700,
+                "opsz": 14
+              }
+            },
+            "fontWeight": 700,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 24
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {}
+              }
+            ],
+            "hyperlink": null
+          }
+        ],
+        "reactions": []
+      },
+      {
+        "nodeId": "431:981",
+        "name": "Rectangle 143",
+        "type": "VECTOR",
+        "visible": true,
+        "geometry": {
+          "x": 322,
+          "y": 718,
+          "width": 17,
+          "height": 33.5
+        },
+        "fills": [],
+        "effects": [],
+        "reactions": []
+      },
+      {
+        "nodeId": "431:983",
+        "name": "Rectangle 144",
+        "type": "RECTANGLE",
+        "visible": true,
+        "geometry": {
+          "x": 305,
+          "y": 723.5,
+          "width": 17,
+          "height": 28
+        },
+        "fills": [],
+        "effects": [],
+        "reactions": []
+      },
+      {
+        "nodeId": "431:989",
+        "name": "Vector 29",
+        "type": "VECTOR",
+        "visible": true,
+        "geometry": {
+          "x": 322,
+          "y": 746,
+          "width": 16,
+          "height": 5.5
+        },
+        "fills": [],
+        "effects": [],
+        "reactions": []
+      },
+      {
+        "nodeId": "431:990",
+        "name": "Rectangle 145",
+        "type": "VECTOR",
+        "visible": true,
+        "geometry": {
+          "x": 1052,
+          "y": 718,
+          "width": 17,
+          "height": 33.5
+        },
+        "fills": [],
+        "effects": [],
+        "reactions": []
+      },
+      {
+        "nodeId": "431:991",
+        "name": "Rectangle 146",
+        "type": "RECTANGLE",
+        "visible": true,
+        "geometry": {
+          "x": 1035,
+          "y": 723.5,
+          "width": 17,
+          "height": 28
+        },
+        "fills": [],
+        "effects": [],
+        "reactions": []
+      },
+      {
+        "nodeId": "431:992",
+        "name": "Vector 30",
+        "type": "VECTOR",
+        "visible": true,
+        "geometry": {
+          "x": 1052,
+          "y": 746,
+          "width": 16,
+          "height": 5.5
+        },
+        "fills": [],
+        "effects": [],
+        "reactions": []
+      }
+    ],
+    "designContextReadFor": [
+      "347:1236",
+      "347:1237",
+      "349:1262",
+      "349:1263"
+    ],
+    "remainingContextNodes": []
+  },
+  "typography": [
+    {
+      "nodeId": "349:1240",
+      "segments": [
+        {
+          "characters": "Katalog rolniczy",
+          "start": 0,
+          "end": 16,
+          "fontSize": 36,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 700,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 24
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "nodeId": "349:1253",
+      "segments": [
+        {
+          "characters": "Pobierz katalog rolniczy\nw formacie PDF",
+          "start": 0,
+          "end": 39,
+          "fontSize": 18,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 700,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 24
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "nodeId": "349:1242",
+      "segments": [
+        {
+          "characters": "Katalog sadowniczy",
+          "start": 0,
+          "end": 18,
+          "fontSize": 36,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 700,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 24
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "nodeId": "349:1255",
+      "segments": [
+        {
+          "characters": "Pobierz katalog rolniczy\nw formacie PDF",
+          "start": 0,
+          "end": 39,
+          "fontSize": 18,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 700,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 24
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "nodeId": "431:933",
+      "segments": [
+        {
+          "characters": "Czytaj online",
+          "start": 0,
+          "end": 13,
+          "fontSize": 18,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 700,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 24
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "nodeId": "431:938",
+      "segments": [
+        {
+          "characters": "Czytaj online",
+          "start": 0,
+          "end": 13,
+          "fontSize": 18,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 700,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 24
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "sourceNodeId": "347:1236",
+      "path": "assets/catalogues/catalogues-agriculture-background.png",
+      "usage": "agricultural catalogue card background image",
+      "sha256": "533d9418b4607a3f61cf6f9de84ba87fc76667e2024ca67e615178600f61d05a",
+      "transport": "figma-mcp-asset-export"
+    },
+    {
+      "sourceNodeId": "347:1237",
+      "path": "assets/catalogues/catalogues-orchard-background.png",
+      "usage": "orchard catalogue card background image",
+      "sha256": "5ba4cbf0147fc45c5a6459cb9d3ea5d252af003592245f6c10b560f3338828a8",
+      "transport": "figma-mcp-asset-export"
+    },
+    {
+      "sourceNodeId": "349:1262",
+      "path": "assets/catalogues/catalogue-agriculture-cover.png",
+      "usage": "agricultural catalogue cover image",
+      "sha256": "aef0e9dcdf3b2f6938d434824c43317e91c2a3d957521445e970c8c9ded4dc30",
+      "transport": "figma-mcp-asset-export"
+    },
+    {
+      "sourceNodeId": "349:1263",
+      "path": "assets/catalogues/catalogue-orchard-cover.png",
+      "usage": "orchard catalogue cover image",
+      "sha256": "456c6d0815509ffebc23e10fa2b8946070feff731c207300cadfcc4954125846",
+      "transport": "figma-mcp-asset-export"
+    }
+  ],
+  "notes": [
+    "Composite section bounds are the union of the actual listed source nodes, not the bounds of just the first background.",
+    "Both PDF and online-reader targets are absent: null hyperlinks and empty reactions. No PDFs in this WordPress media library.",
+    "The orchard card repeats the agricultural download label in the source. Preserve exact source in the snapshot; request approved correction before content import.",
+    "Background and catalogue-cover source bytes were captured from Figma MCP assets. Icons remain represented in the exact section reference; their visible source geometry is retained.",
+    "Background and catalogue-cover source bytes were captured from Figma MCP assets. Icons remain represented in the exact section reference; their visible source geometry is retained."
+  ],
+  "liveFigmaRequired": false
+}

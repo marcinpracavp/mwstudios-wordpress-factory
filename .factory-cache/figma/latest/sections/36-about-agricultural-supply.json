@@ -1,0 +1,116 @@
+{
+  "id": "about-agricultural-supply",
+  "name": "Agricultural supply card",
+  "order": 47,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "520:432"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 160,
+    "y": 1397,
+    "width": 1600,
+    "height": 565,
+    "containerWidth": 1440,
+    "padding": {
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "gap": 20
+  },
+  "layout": {
+    "type": "two-column-card-with-three-item-list",
+    "columns": [
+      {
+        "x": 240,
+        "width": 588
+      },
+      {
+        "x": 848,
+        "width": 832
+      }
+    ],
+    "alignment": "center"
+  },
+  "typography": [
+    {
+      "nodeId": "519:346",
+      "family": "DM Sans",
+      "style": "Bold",
+      "fontSize": 32,
+      "lineHeight": 24,
+      "color": "#000000"
+    },
+    {
+      "nodeId": "519:345",
+      "family": "DM Sans",
+      "style": "Regular",
+      "fontSize": 24,
+      "lineHeight": "normal",
+      "color": "#000000"
+    },
+    {
+      "nodeId": "520:386",
+      "family": "DM Sans",
+      "style": "Bold",
+      "fontSize": 24,
+      "color": "#000000"
+    }
+  ],
+  "colors": [
+    {
+      "nodeId": "520:432",
+      "sourceVector": true
+    },
+    {
+      "nodeId": "519:348",
+      "cornerRadius": 30
+    }
+  ],
+  "effects": [
+    {
+      "nodeId": "519:348",
+      "shadow": "0px 4px 10px rgba(0,0,0,0.25)"
+    }
+  ],
+  "contentFields": [
+    "rudnikagro_about.supply.heading",
+    "rudnikagro_about.supply.introduction",
+    "rudnikagro_about.supply.items",
+    "rudnikagro_about.supply.image"
+  ],
+  "assets": [
+    {
+      "sourceNodeId": "520:432",
+      "path": "assets/about/520-432-supply-card.svg",
+      "usage": "Exact source card background vector."
+    },
+    {
+      "sourceNodeId": "519:348",
+      "path": "assets/about/519-348-supply-photo.png",
+      "usage": "Exact source card image with the recorded crop."
+    },
+    {
+      "sourceNodeId": "520:364",
+      "path": "assets/about/520-364-crop-protection.svg",
+      "usage": "First sourced supply icon."
+    },
+    {
+      "sourceNodeId": "520:366",
+      "path": "assets/about/520-366-fertilizer.svg",
+      "usage": "Second sourced supply icon."
+    },
+    {
+      "sourceNodeId": "520:374",
+      "path": "assets/about/520-374-seeds.svg",
+      "usage": "Third sourced supply icon."
+    }
+  ],
+  "notes": [
+    "Desktop source only; mobile behavior must be derived."
+  ],
+  "liveFigmaRequired": false
+}

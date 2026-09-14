@@ -1,0 +1,210 @@
+{
+  "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\002-discovery-snapshot\\events.jsonl",
+  "lines": 165,
+  "rejected": [
+    {
+      "line": 22,
+      "bytes": 9795,
+      "sha256": "46fda5b5638e36a77bcdf2a18b41d234d6fc96a9a8d44ec4a2a6329d9a8ba615",
+      "error": "Unterminated string in JSON at position 9750 (line 1 column 9751)"
+    },
+    {
+      "line": 23,
+      "bytes": 3843,
+      "sha256": "b0cabec4ece04f0acae2ee0bacd9ad1fd5bf789f328191675acfbed4613012a6",
+      "error": "Unexpected token 'i', \"i wyróżnie\"... is not valid JSON"
+    },
+    {
+      "line": 24,
+      "bytes": 220,
+      "sha256": "7904d3e18792dcce4821871980765f3cf34d459fbe9c213129376fdfd4323aa4",
+      "error": "Unexpected token 'N', \"Nawóz wiel\"... is not valid JSON"
+    },
+    {
+      "line": 25,
+      "bytes": 203,
+      "sha256": "eda20048defeed56710160f27efaf42a0cb569e479bb2af5a4107dfbacbe243d",
+      "error": "Unexpected token 'K', \"Kompleksow\"... is not valid JSON"
+    },
+    {
+      "line": 26,
+      "bytes": 182,
+      "sha256": "c6d72d6f7e854e7e25f4637b4920c9d41149cde7916a571ffe9de5c8d32dcaf5",
+      "error": "Unexpected token 'S', \"Specjalist\"... is not valid JSON"
+    },
+    {
+      "line": 27,
+      "bytes": 29365,
+      "sha256": "38071f9646ff909a1e90e39fdc65ba073b2bcfd3cc95b5686f9a33b882f3ac52",
+      "error": "Unexpected token 'N', \"Nawóz z wy\"... is not valid JSON"
+    },
+    {
+      "line": 51,
+      "bytes": 6073,
+      "sha256": "45a44b914fd0b7147902cc2a17f43185f401f5806790bbb1fdc69c28b113ce51",
+      "error": "Unterminated string in JSON at position 6059 (line 1 column 6060)"
+    },
+    {
+      "line": 52,
+      "bytes": 19858,
+      "sha256": "509ddaa8701ae1247a8d8ddfe3df11d73259d4a95e0d5cfc1933a95de2351442",
+      "error": "Unexpected token 'i', \"i wyróżnie\"... is not valid JSON"
+    },
+    {
+      "line": 63,
+      "bytes": 3215,
+      "sha256": "66618524be826196bf2abc7e36403d795b12ae4dfc8b04677580804f598dfa95",
+      "error": "Unterminated string in JSON at position 3201 (line 1 column 3202)"
+    },
+    {
+      "line": 64,
+      "bytes": 23466,
+      "sha256": "98945689a28fefea002dd15ee57a24e5bfce767060f82421ce719e31afb8420f",
+      "error": "Unexpected token 'i', \"i wyróżnie\"... is not valid JSON"
+    },
+    {
+      "line": 68,
+      "bytes": 3194,
+      "sha256": "955abced846943cacb99eec93c610e4bffc202fb358a801d40e10c6e60f4e3a6",
+      "error": "Unterminated string in JSON at position 3177 (line 1 column 3178)"
+    },
+    {
+      "line": 69,
+      "bytes": 19591,
+      "sha256": "c5010ea8f1e79da0120cc14b65e2475cf6a35e18b0b9370dd3cea5bc6e9d1d56",
+      "error": "Unexpected token 'i', \"i wyróżnie\"... is not valid JSON"
+    },
+    {
+      "line": 71,
+      "bytes": 1652,
+      "sha256": "180570dab69c688faa15ac80f409abd9f1ec37b3e2aeae4b76e9d4fed8261af2",
+      "error": "Unterminated string in JSON at position 1645 (line 1 column 1646)"
+    },
+    {
+      "line": 72,
+      "bytes": 21347,
+      "sha256": "581d939a7890306a1f4ebbbec597c29836fdb2f0c5b99fc90911df5d1a167e02",
+      "error": "Unexpected token 'i', \"i wyróżnie\"... is not valid JSON"
+    },
+    {
+      "line": 74,
+      "bytes": 2641,
+      "sha256": "1a2503ddb7aca2b70ead896251cd4089f48030546de4c7f3f91526a66d9eb083",
+      "error": "Unterminated string in JSON at position 2631 (line 1 column 2632)"
+    },
+    {
+      "line": 75,
+      "bytes": 19479,
+      "sha256": "964e01b3ac646b8a51d711d9fd658ea8ad82eae6a4ebbce6bcee255c422be890",
+      "error": "Unexpected token 'i', \"i wyróżnie\"... is not valid JSON"
+    },
+    {
+      "line": 81,
+      "bytes": 3406,
+      "sha256": "b248d887a6935b6f8334e77ed38bf1e9a31b2e4b98318116490a472bfab635a7",
+      "error": "Unterminated string in JSON at position 3387 (line 1 column 3388)"
+    },
+    {
+      "line": 82,
+      "bytes": 19479,
+      "sha256": "144495de6d9c98f32a74464d6a9908e74fdea9900c61ff3f071ae606e2e125bb",
+      "error": "Unexpected token 'i', \"i wyróżnie\"... is not valid JSON"
+    },
+    {
+      "line": 84,
+      "bytes": 3866,
+      "sha256": "302b4c973bcada3a9f64f0885c3f6cfc681a5ca8c36ef052cc6b7ecf668f0f11",
+      "error": "Unterminated string in JSON at position 3857 (line 1 column 3858)"
+    },
+    {
+      "line": 85,
+      "bytes": 19479,
+      "sha256": "c5f97c1024b0fa1639b088bf9c9a923ed0fa619c523479ee02bae9bc30b4c5ef",
+      "error": "Unexpected token 'i', \"i wyróżnie\"... is not valid JSON"
+    },
+    {
+      "line": 89,
+      "bytes": 3295,
+      "sha256": "0a405260948be38025e096e2917b14041b9f3d7bb092ea793d534315b75180c8",
+      "error": "Unterminated string in JSON at position 3276 (line 1 column 3277)"
+    },
+    {
+      "line": 90,
+      "bytes": 19479,
+      "sha256": "f5dce235defa5dfd589bb0719b1b9bedbcaf2abd813dc709468335df17b4b1ed",
+      "error": "Unexpected token 'i', \"i wyróżnie\"... is not valid JSON"
+    },
+    {
+      "line": 92,
+      "bytes": 3035,
+      "sha256": "2339168b3d1c78c5c8437538eee5c24639ad9958022f5b3d8b7b5358d35ee895",
+      "error": "Unterminated string in JSON at position 3026 (line 1 column 3027)"
+    },
+    {
+      "line": 93,
+      "bytes": 19479,
+      "sha256": "10025520d00b36c0690cde8f343ec597307ed148a019066adcf2193eac1d71be",
+      "error": "Unexpected token 'i', \"i wyróżnie\"... is not valid JSON"
+    },
+    {
+      "line": 99,
+      "bytes": 3186,
+      "sha256": "2743c656ae9df1e81054aea6a2a9cff3ffa6d365d709faf110dadf371994e5e5",
+      "error": "Unterminated string in JSON at position 3170 (line 1 column 3171)"
+    },
+    {
+      "line": 100,
+      "bytes": 19707,
+      "sha256": "5bcaddcb29d09a6011c23dffc918ce5170bded1fd475098fde350feb31a89528",
+      "error": "Unexpected token 'i', \"i wyróżnie\"... is not valid JSON"
+    },
+    {
+      "line": 137,
+      "bytes": 4973,
+      "sha256": "6bb5da8e81949deb1e277c4236f26196506cd41d42a01d90bfea91785243780b",
+      "error": "Unterminated string in JSON at position 4870 (line 1 column 4871)"
+    },
+    {
+      "line": 138,
+      "bytes": 224,
+      "sha256": "64d8defac24d0adc6d1591f0c83e727da3e82f2ad5d2aa5546f9d983dce62d91",
+      "error": "Unexpected token 'N', \"Nawóz wiel\"... is not valid JSON"
+    },
+    {
+      "line": 139,
+      "bytes": 207,
+      "sha256": "20d37d1375bb6c1835f33247c5fbc91efcf49a2e99584158284296c6f3fcc6a0",
+      "error": "Unexpected token 'K', \"Kompleksow\"... is not valid JSON"
+    },
+    {
+      "line": 140,
+      "bytes": 185,
+      "sha256": "aaf133e6b290daa377dcf1782bbc9ec75727d009e892b6e134696390d15b3884",
+      "error": "Unexpected token 'S', \"Specjalist\"... is not valid JSON"
+    },
+    {
+      "line": 141,
+      "bytes": 21372,
+      "sha256": "93c53bad64393972efb573a05d8c50604910309f5763076828397742842a5fdb",
+      "error": "Unexpected token 'N', \"Nawóz z wy\"... is not valid JSON"
+    },
+    {
+      "line": 147,
+      "bytes": 8049,
+      "sha256": "2b70b93419a63c4871a68c012c9f727b8b9af5aeb03caa1013ec259051360e8f",
+      "error": "Unterminated string in JSON at position 8006 (line 1 column 8007)"
+    },
+    {
+      "line": 148,
+      "bytes": 132,
+      "sha256": "4ee9fbadff9c7242b9daab1092b81c3e29499e698d68e95dfc5f48633b161ef0",
+      "error": "Unexpected token 'i', \"i wyróżnie\"... is not valid JSON"
+    },
+    {
+      "line": 149,
+      "bytes": 19905,
+      "sha256": "e4cd936d38352e99133c8ce4a99e6a9db38ad30db1bdb10a94ab7f5d179624dc",
+      "error": "Unexpected token 'i', \"i wyróżnie\"... is not valid JSON"
+    }
+  ]
+}

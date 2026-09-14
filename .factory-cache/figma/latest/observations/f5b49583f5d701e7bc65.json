@@ -1,0 +1,32 @@
+{
+  "id": "f5b49583f5d701e7bc65",
+  "tool": "use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "431:924",
+    "431:907"
+  ],
+  "description": "Verify whether the sourced contact map or privacy notice supplies an external destination.",
+  "recordedAt": "2026-09-11T08:48:58.890Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "map": {
+        "id": "431:924",
+        "reactions": [],
+        "hyperlink": null
+      },
+      "notice": {
+        "id": "431:907",
+        "reactions": [],
+        "hyperlink": null,
+        "segments": [
+          {
+            "text": "Podanie danych zawartych w formularzu jest dobrowolne, ale niezbędne do przetworzenia zapytania. Szczegóły związane z przetwarzaniem danych przez administratorów zawarte są w Polityce Prywatności.",
+            "hyperlink": null
+          }
+        ]
+      }
+    }
+  ]
+}

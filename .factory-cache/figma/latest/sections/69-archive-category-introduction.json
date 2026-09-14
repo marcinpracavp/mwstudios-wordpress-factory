@@ -1,0 +1,59 @@
+{
+  "id": "archive-category-introduction",
+  "name": "category introduction",
+  "order": 74,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "303:1281"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 605,
+    "y": 259,
+    "width": 1075,
+    "height": 302,
+    "containerWidth": 1075
+  },
+  "layout": {
+    "type": "category-heading-and-collapsible-introduction",
+    "titleNodeId": "295:740",
+    "bodyNodeId": "295:741",
+    "expandControl": {
+      "nodeId": "420:4",
+      "label": "Rozwiń",
+      "x": 599,
+      "y": 517,
+      "width": 149,
+      "height": 44
+    }
+  },
+  "typography": [
+    {
+      "nodeId": "295:740",
+      "text": "Fungicydy",
+      "family": "DM Sans",
+      "style": "Bold",
+      "fontSize": 48,
+      "color": "#070707"
+    },
+    {
+      "nodeId": "295:741",
+      "family": "DM Sans",
+      "style": "Regular",
+      "fontSize": 18,
+      "width": 1075,
+      "height": 160,
+      "effect": "vertical black-to-transparent fade; source body contains Lorem ipsum and is editorial-review content"
+    }
+  ],
+  "assets": [],
+  "contentFields": [
+    "rudnikagro_archive_category_introduction_295_740",
+    "rudnikagro_archive_category_introduction_420_4"
+  ],
+  "notes": [
+    "Exact 1x section reference; crop provenance: references/full/frame-294-3-bounds.png at x=605, y=259, width=1075, height=302.",
+    "Source body includes Lorem ipsum exactly as supplied and needs editorial review."
+  ],
+  "liveFigmaRequired": false
+}

@@ -1,0 +1,73 @@
+{
+  "id": "archive-filters",
+  "name": "product archive filters",
+  "order": 75,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "310:1554"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 240,
+    "y": 259,
+    "width": 345,
+    "height": 2227,
+    "containerWidth": 345
+  },
+  "layout": {
+    "type": "category-navigation-and-accordion-filters",
+    "columnWidth": 345,
+    "cardRadius": 30,
+    "headerHeight": 57,
+    "checkboxSize": 15
+  },
+  "typography": [
+    {
+      "nodeId": "305:1486",
+      "text": "Kategorie",
+      "family": "DM Sans",
+      "style": "Bold",
+      "fontSize": 20
+    },
+    {
+      "nodeId": "305:1490",
+      "text": "Uprawa",
+      "family": "DM Sans",
+      "style": "Bold",
+      "fontSize": 20
+    },
+    {
+      "nodeId": "574:531",
+      "text": "Substancje czynne",
+      "family": "DM Sans",
+      "style": "Bold",
+      "fontSize": 20
+    },
+    {
+      "nodeId": "305:1493",
+      "text": "Producent",
+      "family": "DM Sans",
+      "style": "Bold",
+      "fontSize": 20
+    },
+    {
+      "nodeId": "344:929",
+      "text": "Cena",
+      "family": "DM Sans",
+      "style": "Bold",
+      "fontSize": 20
+    }
+  ],
+  "assets": [],
+  "contentFields": [
+    "rudnikagro_archive_filters_304_1407",
+    "rudnikagro_archive_filters_306_1505",
+    "rudnikagro_archive_filters_574_530",
+    "rudnikagro_archive_filters_344_928",
+    "rudnikagro_archive_filters_344_951"
+  ],
+  "notes": [
+    "Exact 1x section reference; crop provenance: references/full/frame-294-3-bounds.png at x=240, y=259, width=345, height=2227."
+  ],
+  "liveFigmaRequired": false
+}

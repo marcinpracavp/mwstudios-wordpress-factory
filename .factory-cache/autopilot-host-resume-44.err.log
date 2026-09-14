@@ -1,0 +1,6 @@
+AUTOPILOT PAUSED: WORKER_BLOCKED: Nie mogę kontynuować implementacji, bo system odrzucił zapis plików z powodu limitu użycia konta. Analiza potwierdza wymagane naprawy strony głównej i istniejącą natywną opinię WooCommerce.
+Zapisy zostały zablokowane przez limit użycia; wymaga odnowienia limitu lub dostępu do zapisu.
+Świeży page-only wynik home to 19.235%, bez autoryzowanego odroczenia.
+Niezgodna geometria: home-promotions, home-bundles, home-recommended i home-blog.
+Karty produktów nadal korzystają z ogólnego zapytania zamiast źródłowych, edytowalnych relacji WooCommerce.
+Report: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/REPORT.md

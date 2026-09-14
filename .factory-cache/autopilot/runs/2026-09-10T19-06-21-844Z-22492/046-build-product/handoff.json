@@ -1,0 +1,81 @@
+{
+  "task": {
+    "id": "product"
+  },
+  "sourceContext": {
+    "version": 4,
+    "available": true,
+    "index": {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/046-build-product/source-context/index.json",
+      "bytes": 1794,
+      "sha256": "1a2b28e30013c658b8490d692bff6868c5a868f066dbe3c8705023681b0dd0d8"
+    }
+  },
+  "model": "gpt-5.6-terra",
+  "reasoningEffort": "high",
+  "continuation": "fresh session using persisted artifacts; do not load historical conversation",
+  "previousExecution": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/045-build-product/execution.json",
+  "previousResult": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/045-build-product/result.json",
+  "correctionFocus": [],
+  "currentPageVerification": {
+    "summary": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/045-build-product/build-readiness/product-bundle/summary.json",
+    "routes": [
+      {
+        "id": "product-bundle",
+        "passed": false,
+        "pagePassed": false,
+        "ownership": {
+          "header": {
+            "pixels": 372480,
+            "differentPixels": 21869,
+            "ratio": 0.05871187714776632
+          },
+          "footer": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "shared": {
+            "pixels": 1007160,
+            "differentPixels": 164320,
+            "ratio": 0.1631518328766035
+          },
+          "page": {
+            "pixels": 3516360,
+            "differentPixels": 1038894,
+            "ratio": 0.2954458587857898
+          },
+          "outside": {
+            "pixels": 2062080,
+            "differentPixels": 1904775,
+            "ratio": 0.9237153747672253
+          }
+        },
+        "errors": [
+          "page pixel mismatch 29.545%",
+          "Section geometry differs: product-bundle-overview",
+          "Section geometry differs: bundle-benefits",
+          "Section geometry differs: product-related",
+          "Section geometry differs: product-legal-notices",
+          "shared pixel mismatch 16.315%",
+          "Shared component pixel mismatch product-gallery: 25.933%",
+          "Shared component pixel mismatch product-tabs: 12.316%",
+          "Section geometry differs: bundle-gallery",
+          "Section geometry differs: bundle-tabs"
+        ],
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/045-build-product/build-readiness/product-bundle/product-bundle/comparison.json"
+      }
+    ],
+    "instruction": "Current matching measurement. If pagePassed is true, do not repeat page corrections solely because shared owners fail. Complete reusable-component work if required, check regressions, and hand off shared findings for final audit."
+  },
+  "snapshot": ".factory-cache/figma/latest",
+  "observations": ".factory-cache/figma/latest/observations/index.json",
+  "plans": [
+    "docs/factory/project/PLAN.md",
+    "docs/factory/project/STATUS.md",
+    "docs/factory/project/SOURCE_CLARIFICATIONS.md",
+    "docs/factory/project/REUSABLE_COMPONENTS.md"
+  ],
+  "currentGate": null,
+  "instruction": "Inspect the current gate and finish only remaining assigned work. Reuse real saved source facts and assets."
+}

@@ -1,0 +1,1330 @@
+{
+  "generatedAt": "2026-09-13T19:42:36.951Z",
+  "native": {
+    "site": "http://autopilot.local/",
+    "siteTitle": "Safegold",
+    "plugins": {
+      "woocommerce": true,
+      "acfPro": true,
+      "contactForm7": true
+    },
+    "products": [
+      {
+        "id": 54,
+        "name": "Aquatos 5L",
+        "status": "publish",
+        "type": "variable",
+        "price": "82.20",
+        "regularPrice": "",
+        "salePrice": "",
+        "imageId": "114",
+        "categoryIds": [
+          16
+        ],
+        "owned": "",
+        "sourceNode": "",
+        "priceProvenance": "",
+        "lastImportedRegularPrice": "",
+        "attributes": [
+          {
+            "name": "Pojemność",
+            "options": [
+              "1 L",
+              "5 L",
+              "20 L"
+            ],
+            "variation": true
+          }
+        ],
+        "variations": [
+          {
+            "id": 118,
+            "attributes": {
+              "pojemnosc": "1 L"
+            },
+            "price": "82.20",
+            "regularPrice": "82.20",
+            "owned": "1",
+            "priceProvenance": "{\"sourceNode\":\"496:1781\",\"sourcePriceNode\":\"323:2087\",\"provenance\":\"user-authorized-proportional\",\"basePrice\":411,\"baseQuantity\":\"5 L\",\"targetQuantity\":\"1 L\",\"formula\":\"base price * target quantity / base quantity\",\"taxBasis\":\"including 23% VAT, source node 502:3\"}",
+            "lastImportedRegularPrice": "82.20"
+          },
+          {
+            "id": 119,
+            "attributes": {
+              "pojemnosc": "5 L"
+            },
+            "price": "411.00",
+            "regularPrice": "411.00",
+            "owned": "1",
+            "priceProvenance": "{\"sourceNode\":\"496:1787\",\"sourcePriceNode\":\"323:2087\",\"provenance\":\"figma-explicit\",\"basePrice\":411,\"baseQuantity\":\"5 L\",\"targetQuantity\":\"5 L\",\"formula\":null,\"taxBasis\":\"including 23% VAT, source node 502:3\"}",
+            "lastImportedRegularPrice": "411.00"
+          },
+          {
+            "id": 120,
+            "attributes": {
+              "pojemnosc": "20 L"
+            },
+            "price": "1644.00",
+            "regularPrice": "1644.00",
+            "owned": "1",
+            "priceProvenance": "{\"sourceNode\":\"496:1791\",\"sourcePriceNode\":\"323:2087\",\"provenance\":\"user-authorized-proportional\",\"basePrice\":411,\"baseQuantity\":\"5 L\",\"targetQuantity\":\"20 L\",\"formula\":\"base price * target quantity / base quantity\",\"taxBasis\":\"including 23% VAT, source node 502:3\"}",
+            "lastImportedRegularPrice": "1644.00"
+          }
+        ]
+      },
+      {
+        "id": 55,
+        "name": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L",
+        "status": "publish",
+        "type": "simple",
+        "price": "2965.00",
+        "regularPrice": "3365",
+        "salePrice": "2965.00",
+        "imageId": "115",
+        "categoryIds": [],
+        "owned": "",
+        "sourceNode": "",
+        "priceProvenance": "{\"sourceNode\":\"574:155\",\"provenance\":\"figma-explicit\"}",
+        "lastImportedRegularPrice": "",
+        "attributes": []
+      },
+      {
+        "id": 121,
+        "name": "Stomp Aqua 455 CS 1L",
+        "status": "publish",
+        "type": "simple",
+        "price": "45.99",
+        "regularPrice": "45.99",
+        "salePrice": "",
+        "imageId": "127",
+        "categoryIds": [
+          16
+        ],
+        "owned": "1",
+        "sourceNode": "326:2271",
+        "priceProvenance": "{\"sourceNode\":\"326:2272\",\"provenance\":\"figma-explicit\"}",
+        "lastImportedRegularPrice": "45.99",
+        "attributes": []
+      },
+      {
+        "id": 122,
+        "name": "Stomp Aqua 455 CS 5L",
+        "status": "publish",
+        "type": "simple",
+        "price": "534.60",
+        "regularPrice": "534.60",
+        "salePrice": "",
+        "imageId": "128",
+        "categoryIds": [
+          16
+        ],
+        "owned": "1",
+        "sourceNode": "326:2289",
+        "priceProvenance": "{\"sourceNode\":\"326:2290\",\"provenance\":\"figma-explicit\"}",
+        "lastImportedRegularPrice": "534.60",
+        "attributes": []
+      },
+      {
+        "id": 143,
+        "name": "Vivero 500 SC 1L",
+        "status": "publish",
+        "type": "simple",
+        "price": "475.00",
+        "regularPrice": "475.00",
+        "salePrice": "",
+        "imageId": "144",
+        "categoryIds": [
+          16
+        ],
+        "owned": "1",
+        "sourceNode": "298:832",
+        "priceProvenance": "{\"sourceNode\":\"298:832\",\"sourcePrice\":\"475,00 zł\",\"provenance\":\"figma-explicit\"}",
+        "lastImportedRegularPrice": "475.00",
+        "attributes": []
+      },
+      {
+        "id": 145,
+        "name": "Atrium-X 5L",
+        "status": "publish",
+        "type": "simple",
+        "price": "1069.00",
+        "regularPrice": "1069.00",
+        "salePrice": "",
+        "imageId": "146",
+        "categoryIds": [
+          16
+        ],
+        "owned": "1",
+        "sourceNode": "298:849",
+        "priceProvenance": "{\"sourceNode\":\"298:849\",\"sourcePrice\":\" 1 069,00 zł\",\"provenance\":\"figma-explicit\"}",
+        "lastImportedRegularPrice": "1069.00",
+        "attributes": []
+      },
+      {
+        "id": 147,
+        "name": "Bounty 430 SC 5L",
+        "status": "publish",
+        "type": "simple",
+        "price": "265.00",
+        "regularPrice": "265.00",
+        "salePrice": "",
+        "imageId": "148",
+        "categoryIds": [
+          16
+        ],
+        "owned": "1",
+        "sourceNode": "299:869",
+        "priceProvenance": "{\"sourceNode\":\"299:869\",\"sourcePrice\":\"265,00 zł\",\"provenance\":\"figma-explicit\"}",
+        "lastImportedRegularPrice": "265.00",
+        "attributes": []
+      },
+      {
+        "id": 149,
+        "name": "Zingaro Extra 250SC 5L",
+        "status": "publish",
+        "type": "simple",
+        "price": "295.00",
+        "regularPrice": "295.00",
+        "salePrice": "",
+        "imageId": "150",
+        "categoryIds": [
+          16
+        ],
+        "owned": "1",
+        "sourceNode": "299:889",
+        "priceProvenance": "{\"sourceNode\":\"299:889\",\"sourcePrice\":\"295,00 zł\",\"provenance\":\"figma-explicit\"}",
+        "lastImportedRegularPrice": "295.00",
+        "attributes": []
+      },
+      {
+        "id": 151,
+        "name": "Darcos 250 EW 5L",
+        "status": "publish",
+        "type": "simple",
+        "price": "210.60",
+        "regularPrice": "210.60",
+        "salePrice": "",
+        "imageId": "152",
+        "categoryIds": [
+          16
+        ],
+        "owned": "1",
+        "sourceNode": "299:907",
+        "priceProvenance": "{\"sourceNode\":\"299:907\",\"sourcePrice\":\"210,60 zł\",\"provenance\":\"figma-explicit\"}",
+        "lastImportedRegularPrice": "210.60",
+        "attributes": []
+      },
+      {
+        "id": 153,
+        "name": "Mepi Met Life 5L",
+        "status": "publish",
+        "type": "simple",
+        "price": "460.00",
+        "regularPrice": "460.00",
+        "salePrice": "",
+        "imageId": "154",
+        "categoryIds": [
+          16
+        ],
+        "owned": "1",
+        "sourceNode": "299:925",
+        "priceProvenance": "{\"sourceNode\":\"299:925\",\"sourcePrice\":\"460,00 zł\",\"provenance\":\"figma-explicit\"}",
+        "lastImportedRegularPrice": "460.00",
+        "attributes": []
+      },
+      {
+        "id": 155,
+        "name": "Tavares 250 SE 5L",
+        "status": "publish",
+        "type": "simple",
+        "price": "1135.00",
+        "regularPrice": "1135.00",
+        "salePrice": "",
+        "imageId": "156",
+        "categoryIds": [
+          16
+        ],
+        "owned": "1",
+        "sourceNode": "299:1052",
+        "priceProvenance": "{\"sourceNode\":\"299:1052\",\"sourcePrice\":\"1135,00 zł\",\"provenance\":\"figma-explicit\"}",
+        "lastImportedRegularPrice": "1135.00",
+        "attributes": []
+      },
+      {
+        "id": 157,
+        "name": "Allstar  5L",
+        "status": "publish",
+        "type": "simple",
+        "price": "3185.63",
+        "regularPrice": "3185.63",
+        "salePrice": "",
+        "imageId": "158",
+        "categoryIds": [
+          16
+        ],
+        "owned": "1",
+        "sourceNode": "299:1070",
+        "priceProvenance": "{\"sourceNode\":\"299:1070\",\"sourcePrice\":\"3 185,63 zł\",\"provenance\":\"figma-explicit\"}",
+        "lastImportedRegularPrice": "3185.63",
+        "attributes": []
+      },
+      {
+        "id": 159,
+        "name": "Andros 750 EC 5L",
+        "status": "publish",
+        "type": "simple",
+        "price": "723.60",
+        "regularPrice": "723.60",
+        "salePrice": "",
+        "imageId": "160",
+        "categoryIds": [
+          16
+        ],
+        "owned": "1",
+        "sourceNode": "299:1088",
+        "priceProvenance": "{\"sourceNode\":\"299:1088\",\"sourcePrice\":\"723,60 zł\",\"provenance\":\"figma-explicit\"}",
+        "lastImportedRegularPrice": "723.60",
+        "attributes": []
+      },
+      {
+        "id": 161,
+        "name": "Ascra XPRO 260 EC 5L",
+        "status": "publish",
+        "type": "simple",
+        "price": "1162.40",
+        "regularPrice": "1162.40",
+        "salePrice": "",
+        "imageId": "162",
+        "categoryIds": [
+          16
+        ],
+        "owned": "1",
+        "sourceNode": "299:1104",
+        "priceProvenance": "{\"sourceNode\":\"299:1104\",\"sourcePrice\":\"1 162,40 zł\",\"provenance\":\"figma-explicit\"}",
+        "lastImportedRegularPrice": "1162.40",
+        "attributes": []
+      },
+      {
+        "id": 163,
+        "name": "Aviator XPRO 225 EC 5L",
+        "status": "publish",
+        "type": "simple",
+        "price": "1240.70",
+        "regularPrice": "1240.70",
+        "salePrice": "",
+        "imageId": "164",
+        "categoryIds": [
+          16
+        ],
+        "owned": "1",
+        "sourceNode": "299:1120",
+        "priceProvenance": "{\"sourceNode\":\"299:1120\",\"sourcePrice\":\"1 240,70 zł\",\"provenance\":\"figma-explicit\"}",
+        "lastImportedRegularPrice": "1240.70",
+        "attributes": []
+      },
+      {
+        "id": 165,
+        "name": "Bantux 500 SC 5L",
+        "status": "publish",
+        "type": "simple",
+        "price": "540.00",
+        "regularPrice": "540.00",
+        "salePrice": "",
+        "imageId": "166",
+        "categoryIds": [
+          16
+        ],
+        "owned": "1",
+        "sourceNode": "299:1136",
+        "priceProvenance": "{\"sourceNode\":\"299:1136\",\"sourcePrice\":\"540,00 zł\",\"provenance\":\"figma-explicit\"}",
+        "lastImportedRegularPrice": "540.00",
+        "attributes": []
+      },
+      {
+        "id": 167,
+        "name": "Belanty 5L",
+        "status": "publish",
+        "type": "simple",
+        "price": "553.68",
+        "regularPrice": "553.68",
+        "salePrice": "",
+        "imageId": "168",
+        "categoryIds": [
+          16
+        ],
+        "owned": "1",
+        "sourceNode": "302:1169",
+        "priceProvenance": "{\"sourceNode\":\"302:1169\",\"sourcePrice\":\"553,68 zł\",\"provenance\":\"figma-explicit\"}",
+        "lastImportedRegularPrice": "553.68",
+        "attributes": []
+      },
+      {
+        "id": 169,
+        "name": "Bellis 38 WG 1kg",
+        "status": "publish",
+        "type": "simple",
+        "price": "287.16",
+        "regularPrice": "287.16",
+        "salePrice": "",
+        "imageId": "170",
+        "categoryIds": [
+          16
+        ],
+        "owned": "1",
+        "sourceNode": "302:1185",
+        "priceProvenance": "{\"sourceNode\":\"302:1185\",\"sourcePrice\":\"287,16 zł\",\"provenance\":\"figma-explicit\"}",
+        "lastImportedRegularPrice": "287.16",
+        "attributes": []
+      },
+      {
+        "id": 171,
+        "name": "Bellis 38 WG 5kg",
+        "status": "publish",
+        "type": "simple",
+        "price": "1380.51",
+        "regularPrice": "1380.51",
+        "salePrice": "",
+        "imageId": "172",
+        "categoryIds": [
+          16
+        ],
+        "owned": "1",
+        "sourceNode": "302:1201",
+        "priceProvenance": "{\"sourceNode\":\"302:1201\",\"sourcePrice\":\"1 380,51 zł\",\"provenance\":\"figma-explicit\"}",
+        "lastImportedRegularPrice": "1380.51",
+        "attributes": []
+      },
+      {
+        "id": 173,
+        "name": "Boogie XPRO 400 EC 15L",
+        "status": "publish",
+        "type": "simple",
+        "price": "2754.00",
+        "regularPrice": "2754.00",
+        "salePrice": "",
+        "imageId": "174",
+        "categoryIds": [
+          16
+        ],
+        "owned": "1",
+        "sourceNode": "302:1217",
+        "priceProvenance": "{\"sourceNode\":\"302:1217\",\"sourcePrice\":\"2 754,00 zł\",\"provenance\":\"figma-explicit\"}",
+        "lastImportedRegularPrice": "2754.00",
+        "attributes": []
+      },
+      {
+        "id": 175,
+        "name": "Cabrio Duo 112 EC 10L",
+        "status": "publish",
+        "type": "simple",
+        "price": "981.68",
+        "regularPrice": "981.68",
+        "salePrice": "",
+        "imageId": "176",
+        "categoryIds": [
+          16
+        ],
+        "owned": "1",
+        "sourceNode": "302:1233",
+        "priceProvenance": "{\"sourceNode\":\"302:1233\",\"sourcePrice\":\"981,68 zł\",\"provenance\":\"figma-explicit\"}",
+        "lastImportedRegularPrice": "981.68",
+        "attributes": []
+      },
+      {
+        "id": 177,
+        "name": "Cabrio Duo 112 EC 1L",
+        "status": "publish",
+        "type": "simple",
+        "price": "99.76",
+        "regularPrice": "99.76",
+        "salePrice": "",
+        "imageId": "178",
+        "categoryIds": [
+          16
+        ],
+        "owned": "1",
+        "sourceNode": "302:1249",
+        "priceProvenance": "{\"sourceNode\":\"302:1249\",\"sourcePrice\":\"99,76 zł\",\"provenance\":\"figma-explicit\"}",
+        "lastImportedRegularPrice": "99.76",
+        "attributes": []
+      },
+      {
+        "id": 217,
+        "name": "Rzepak DK IMMORTAL CL",
+        "status": "publish",
+        "type": "simple",
+        "price": "1380.00",
+        "regularPrice": "1430.00",
+        "salePrice": "1380.00",
+        "imageId": "218",
+        "categoryIds": [],
+        "owned": "1",
+        "sourceNode": "130:69",
+        "priceProvenance": "{\"sourceNode\":\"128:8\",\"provenance\":\"figma-explicit\"}",
+        "lastImportedRegularPrice": "1430.00",
+        "attributes": []
+      },
+      {
+        "id": 219,
+        "name": "Rzepak ozimy DK EXCITED F1",
+        "status": "publish",
+        "type": "simple",
+        "price": "1390.00",
+        "regularPrice": "1430.00",
+        "salePrice": "1390.00",
+        "imageId": "220",
+        "categoryIds": [],
+        "owned": "1",
+        "sourceNode": "130:84",
+        "priceProvenance": "{\"sourceNode\":\"130:66\",\"provenance\":\"figma-explicit\"}",
+        "lastImportedRegularPrice": "1430.00",
+        "attributes": []
+      },
+      {
+        "id": 221,
+        "name": "Rzepak ozimy LG AMBASSADOR",
+        "status": "publish",
+        "type": "simple",
+        "price": "1290.00",
+        "regularPrice": "1460.00",
+        "salePrice": "1290.00",
+        "imageId": "222",
+        "categoryIds": [],
+        "owned": "1",
+        "sourceNode": "130:100",
+        "priceProvenance": "{\"sourceNode\":\"140:296\",\"provenance\":\"figma-explicit\"}",
+        "lastImportedRegularPrice": "1460.00",
+        "attributes": []
+      },
+      {
+        "id": 223,
+        "name": "Rzepak ozimy LG AUCKLAND",
+        "status": "publish",
+        "type": "simple",
+        "price": "1545.00",
+        "regularPrice": "1631.00",
+        "salePrice": "1545.00",
+        "imageId": "224",
+        "categoryIds": [],
+        "owned": "1",
+        "sourceNode": "130:104",
+        "priceProvenance": "{\"sourceNode\":\"140:351\",\"provenance\":\"figma-explicit\"}",
+        "lastImportedRegularPrice": "1631.00",
+        "attributes": []
+      },
+      {
+        "id": 225,
+        "name": "Modivo 60 CS",
+        "status": "publish",
+        "type": "simple",
+        "price": "203.52",
+        "regularPrice": "203.52",
+        "salePrice": "",
+        "imageId": "226",
+        "categoryIds": [],
+        "owned": "1",
+        "sourceNode": "140:216",
+        "priceProvenance": "{\"sourceNode\":\"140:229\",\"provenance\":\"figma-explicit\"}",
+        "lastImportedRegularPrice": "203.52",
+        "attributes": []
+      },
+      {
+        "id": 227,
+        "name": "Vivero 500 SC 1l",
+        "status": "publish",
+        "type": "simple",
+        "price": "475.00",
+        "regularPrice": "475.00",
+        "salePrice": "",
+        "imageId": "228",
+        "categoryIds": [],
+        "owned": "1",
+        "sourceNode": "140:200",
+        "priceProvenance": "{\"sourceNode\":\"140:213\",\"provenance\":\"figma-explicit\"}",
+        "lastImportedRegularPrice": "475.00",
+        "attributes": []
+      },
+      {
+        "id": 229,
+        "name": "Goliat Trio 060 FS",
+        "status": "publish",
+        "type": "simple",
+        "price": "525.00",
+        "regularPrice": "525.00",
+        "salePrice": "",
+        "imageId": "230",
+        "categoryIds": [],
+        "owned": "1",
+        "sourceNode": "140:184",
+        "priceProvenance": "{\"sourceNode\":\"140:197\",\"provenance\":\"figma-explicit\"}",
+        "lastImportedRegularPrice": "525.00",
+        "attributes": []
+      },
+      {
+        "id": 231,
+        "name": "Tavares 250 SE 5 L",
+        "status": "publish",
+        "type": "simple",
+        "price": "1135.00",
+        "regularPrice": "1135.00",
+        "salePrice": "",
+        "imageId": "232",
+        "categoryIds": [],
+        "owned": "1",
+        "sourceNode": "140:168",
+        "priceProvenance": "{\"sourceNode\":\"140:181\",\"provenance\":\"figma-explicit\"}",
+        "lastImportedRegularPrice": "1135.00",
+        "attributes": []
+      }
+    ],
+    "categories": [
+      {
+        "id": 16,
+        "name": "Fungicydy",
+        "parent": 19,
+        "count": 21
+      },
+      {
+        "id": 19,
+        "name": "Środki ochrony roślin",
+        "parent": 0,
+        "count": 21
+      },
+      {
+        "id": 15,
+        "name": "Uncategorized",
+        "parent": 0,
+        "count": 0
+      }
+    ],
+    "reviews": [
+      {
+        "id": "2",
+        "productId": "54",
+        "rating": "5",
+        "date": "2026-07-30 12:00:00",
+        "author": "",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat. Duis aute irure dolor in reprehenderit in voluptate  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint  occaecat cupidatat non proident, sunt in culpa qui officia deserunt  mollit anim id est laborum.",
+        "provenance": "{\"bodyNode\":\"425:645\",\"dateNode\":\"429:842\",\"ratingNodes\":[\"429:836\",\"429:837\",\"429:838\",\"429:839\",\"429:840\"],\"sourceDate\":\"30 lipca 2026\",\"editorialNote\":\"Source placeholder body retained for editorial review.\"}"
+      }
+    ],
+    "svgAttachments": [
+      {
+        "id": 20,
+        "title": "169-282-source",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/169-282-source.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 21,
+        "title": "169-287-source",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/169-287-source.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 22,
+        "title": "169-284-source",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/169-284-source.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 23,
+        "title": "169-288-source",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/169-288-source.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 24,
+        "title": "169-289-source",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/169-289-source.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 25,
+        "title": "I625-179586-555-ulubione",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/I625-179586-555-ulubione.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 26,
+        "title": "I625-179586-587-ellipse12",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/I625-179586-587-ellipse12.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 27,
+        "title": "153-63-lupa1",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/153-63-lupa1.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 28,
+        "title": "347-961-logowanie",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/347-961-logowanie.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 29,
+        "title": "347-972-koszyk",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/347-972-koszyk.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 30,
+        "title": "347-1078-mail",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/347-1078-mail.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 31,
+        "title": "347-1077-vector20",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/347-1077-vector20.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 32,
+        "title": "118-6-logo1",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/118-6-logo1.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 33,
+        "title": "250-729-logo1",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/250-729-logo1.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 34,
+        "title": "250-752-rectangle43",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/250-752-rectangle43.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 35,
+        "title": "250-755-vector1",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/250-755-vector1.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 36,
+        "title": "250-764-line7",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/250-764-line7.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 37,
+        "title": "250-765-rectangle31",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/250-765-rectangle31.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 39,
+        "title": "110-3-rectangle17",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/110-3-rectangle17.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 40,
+        "title": "222-87-vector",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/222-87-vector.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 41,
+        "title": "222-88-vector1",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/222-88-vector1.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 42,
+        "title": "222-89-vector2",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/222-89-vector2.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 43,
+        "title": "222-90-vector3",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/222-90-vector3.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 44,
+        "title": "222-58-fb1",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/222-58-fb1.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 45,
+        "title": "140-264-logo1",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/140-264-logo1.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 66,
+        "title": "548-24-background",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/548-24-background.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 105,
+        "title": "520-364-crop-protection",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/520-364-crop-protection.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 106,
+        "title": "520-366-fertilizer",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/520-366-fertilizer.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 107,
+        "title": "520-374-seeds",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/520-374-seeds.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 109,
+        "title": "520-432-supply-card",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/520-432-supply-card.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 111,
+        "title": "521-452-grain-card",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/521-452-grain-card.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 113,
+        "title": "521-454-insurance-card",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/521-454-insurance-card.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 123,
+        "title": "I625-179586-555-ulubione",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/I625-179586-555-ulubione-1.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 124,
+        "title": "cart-remove-item",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/cart-remove-item.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 131,
+        "title": "checkout-card",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/checkout-card.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 132,
+        "title": "checkout-google-pay",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/checkout-google-pay.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 133,
+        "title": "checkout-apple-pay",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/checkout-apple-pay.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 135,
+        "title": "checkout-bank-transfer",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/checkout-bank-transfer.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 136,
+        "title": "checkout-radio",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/checkout-radio.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 137,
+        "title": "checkout-radio-active",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/checkout-radio-active.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 138,
+        "title": "checkout-delivery-radio",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/checkout-delivery-radio.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 139,
+        "title": "checkout-delivery-radio-active",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/checkout-delivery-radio-active.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 141,
+        "title": "account-registration-dialog",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/account-registration-dialog.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 142,
+        "title": "a910008d-459f-4404-bc5c-37a2f08170d2",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/a910008d-459f-4404-bc5c-37a2f08170d2.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 179,
+        "title": "105-188-pszenica1",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/105-188-pszenica1.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 180,
+        "title": "105-191-kukurydza1",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/105-191-kukurydza1.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 181,
+        "title": "105-194-jeczmien1",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/105-194-jeczmien1.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 182,
+        "title": "105-204-zyto1",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/105-204-zyto1.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 183,
+        "title": "105-207-owies1",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/105-207-owies1.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 184,
+        "title": "106-215-rzepak1",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/106-215-rzepak1.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 185,
+        "title": "105-210-lubin1",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/105-210-lubin1.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 186,
+        "title": "106-234-brokul1",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/106-234-brokul1.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 187,
+        "title": "106-245-burak1",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/106-245-burak1.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 188,
+        "title": "106-242-cebula1",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/106-242-cebula1.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 189,
+        "title": "106-268-fasola1",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/106-268-fasola1.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 190,
+        "title": "106-284-kalafior1",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/106-284-kalafior1.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 191,
+        "title": "106-293-kapusta1",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/106-293-kapusta1.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 192,
+        "title": "106-377-pomidor1",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/106-377-pomidor1.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 193,
+        "title": "106-433-ziemniak1",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/106-433-ziemniak1.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 194,
+        "title": "107-459-borowka1",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/107-459-borowka1.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 195,
+        "title": "107-472-grusza1",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/107-472-grusza1.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 196,
+        "title": "107-475-jablon1",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/107-475-jablon1.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 197,
+        "title": "107-483-malina1",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/107-483-malina1.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 198,
+        "title": "108-491-sliwa1",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/108-491-sliwa1.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 199,
+        "title": "108-517-truskawka1",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/108-517-truskawka1.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 200,
+        "title": "108-538-winorosl1",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/108-538-winorosl1.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 201,
+        "title": "108-541-wisnia1",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/108-541-wisnia1.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 203,
+        "title": "161-174-oryginalneprodukty1",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/161-174-oryginalneprodukty1.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 204,
+        "title": "161-186-dostawa1",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/161-186-dostawa1.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 205,
+        "title": "161-186-dostawa1",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/161-186-dostawa1-1.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 206,
+        "title": "161-192-ceny1",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/161-192-ceny1.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 207,
+        "title": "161-198-pakiety1",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/161-198-pakiety1.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 210,
+        "title": "169-296-download1",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/169-296-download1.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 211,
+        "title": "169-297-download",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/169-297-download.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 215,
+        "title": "164-205-vector11",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/164-205-vector11.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 216,
+        "title": "164-208-vector12",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/164-208-vector12.svg",
+        "owned": "",
+        "sourceNode": ""
+      },
+      {
+        "id": 234,
+        "title": "130-90-koszyk4",
+        "url": "http://autopilot.local/wp-content/uploads/2026/09/130-90-koszyk4.svg",
+        "owned": "",
+        "sourceNode": ""
+      }
+    ],
+    "acfAttachmentMappings": [
+      {
+        "path": "option.rudnikagro_shared_topbar_media_169_282",
+        "attachmentId": 20
+      },
+      {
+        "path": "option.rudnikagro_shared_topbar_media_169_287",
+        "attachmentId": 21
+      },
+      {
+        "path": "option.rudnikagro_shared_topbar_media_169_284",
+        "attachmentId": 22
+      },
+      {
+        "path": "option.rudnikagro_shared_topbar_media_169_288",
+        "attachmentId": 23
+      },
+      {
+        "path": "option.rudnikagro_shared_topbar_media_169_289",
+        "attachmentId": 24
+      },
+      {
+        "path": "option.rudnikagro_shared_secondary_navigation_media_I625_179;586_555",
+        "attachmentId": 25
+      },
+      {
+        "path": "option.rudnikagro_shared_secondary_navigation_media_153_63",
+        "attachmentId": 27
+      },
+      {
+        "path": "option.rudnikagro_shared_secondary_navigation_media_347_961",
+        "attachmentId": 28
+      },
+      {
+        "path": "option.rudnikagro_shared_secondary_navigation_media_347_972",
+        "attachmentId": 29
+      },
+      {
+        "path": "option.rudnikagro_shared_secondary_navigation_media_347_1078",
+        "attachmentId": 30
+      },
+      {
+        "path": "option.rudnikagro_shared_primary_navigation_media_118_6",
+        "attachmentId": 32
+      },
+      {
+        "path": "option.rudnikagro_shared_footer_media_515_79",
+        "attachmentId": 38
+      },
+      {
+        "path": "option.rudnikagro_shared_footer_media_222_87",
+        "attachmentId": 40
+      },
+      {
+        "path": "option.rudnikagro_shared_footer_media_222_88",
+        "attachmentId": 41
+      },
+      {
+        "path": "option.rudnikagro_shared_footer_media_222_89",
+        "attachmentId": 42
+      },
+      {
+        "path": "option.rudnikagro_shared_footer_media_222_90",
+        "attachmentId": 43
+      },
+      {
+        "path": "option.rudnikagro_shared_footer_media_222_58",
+        "attachmentId": 44
+      },
+      {
+        "path": "option.rudnikagro_shared_footer_media_140_264",
+        "attachmentId": 45
+      },
+      {
+        "path": "option.rudnikagro_cart_remove_icon_486_96",
+        "attachmentId": 124
+      },
+      {
+        "path": "option.rudnikagro_checkout_icon_payment_card",
+        "attachmentId": 131
+      },
+      {
+        "path": "option.rudnikagro_checkout_icon_google_pay",
+        "attachmentId": 132
+      },
+      {
+        "path": "option.rudnikagro_checkout_icon_apple_pay",
+        "attachmentId": 133
+      },
+      {
+        "path": "option.rudnikagro_checkout_icon_blik",
+        "attachmentId": 134
+      },
+      {
+        "path": "option.rudnikagro_checkout_icon_bank_transfer",
+        "attachmentId": 135
+      },
+      {
+        "path": "option.rudnikagro_checkout_icon_payment_radio",
+        "attachmentId": 136
+      },
+      {
+        "path": "option.rudnikagro_checkout_icon_payment_radio_active",
+        "attachmentId": 137
+      },
+      {
+        "path": "option.rudnikagro_checkout_icon_delivery_radio",
+        "attachmentId": 138
+      },
+      {
+        "path": "option.rudnikagro_checkout_icon_delivery_radio_active",
+        "attachmentId": 139
+      },
+      {
+        "path": "option.rudnikagro_product_archive.pagination_next_icon",
+        "attachmentId": 142
+      },
+      {
+        "path": "product.54.rudnikagro_product_icons.favorite_icon",
+        "attachmentId": 123
+      }
+    ],
+    "paymentGateways": [
+      {
+        "id": "bacs",
+        "title": "Przelew tradycyjny",
+        "enabled": "yes"
+      },
+      {
+        "id": "cheque",
+        "title": "Płatność czekiem",
+        "enabled": "no"
+      },
+      {
+        "id": "cod",
+        "title": "Za pobraniem",
+        "enabled": "no"
+      }
+    ]
+  },
+  "pricePolicyVerification": {
+    "expected": {
+      "oneLitre": {
+        "price": 82.2,
+        "provenance": "user-authorized-proportional",
+        "calculated": true,
+        "basePrice": 411,
+        "baseQuantity": "5 L",
+        "targetQuantity": "1 L",
+        "decimals": 2
+      },
+      "fiveLitres": {
+        "price": 411,
+        "provenance": "figma-explicit",
+        "calculated": false
+      },
+      "twentyLitres": {
+        "price": 1644,
+        "provenance": "user-authorized-proportional",
+        "calculated": true,
+        "basePrice": 411,
+        "baseQuantity": "5 L",
+        "targetQuantity": "20 L",
+        "decimals": 2
+      }
+    },
+    "stored": {
+      "1 L": 82.2,
+      "5 L": 411,
+      "20 L": 1644
+    },
+    "passed": true,
+    "manualOverrideRuleExamples": {
+      "unchangedOwned": true,
+      "editedOwned": false,
+      "unowned": false
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "id": "60287a9a8ff40db60511",
+  "tool": "figma.use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "586:1200"
+  ],
+  "description": "Read source content to identify native product or account state 586:1200",
+  "recordedAt": "2026-09-10T19:30:16.884Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "id": "586:1200",
+      "visible": true,
+      "texts": [
+        {
+          "id": "586:1201",
+          "text": "Kod produktu: 99299\nProducent: Rudnikagro",
+          "link": null
+        },
+        {
+          "id": "586:1245",
+          "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L",
+          "link": null
+        },
+        {
+          "id": "586:1205",
+          "text": "Dodaj do ulubionych",
+          "link": null
+        },
+        {
+          "id": "586:1209",
+          "text": "Chcesz poznać cenę hurtową dla tego produktu? Skontaktuj się!",
+          "link": null
+        },
+        {
+          "id": "586:1213",
+          "text": "Ocena:",
+          "link": null
+        },
+        {
+          "id": "586:1229",
+          "text": "Dodaj do koszyka",
+          "link": null
+        },
+        {
+          "id": "586:1232",
+          "text": "1",
+          "link": null
+        },
+        {
+          "id": "586:1233",
+          "text": "-",
+          "link": null
+        },
+        {
+          "id": "586:1234",
+          "text": "+",
+          "link": null
+        },
+        {
+          "id": "586:1237",
+          "text": "4 ha",
+          "link": null
+        },
+        {
+          "id": "586:1240",
+          "text": "10 ha",
+          "link": null
+        },
+        {
+          "id": "586:1243",
+          "text": "12 ha",
+          "link": null
+        },
+        {
+          "id": "586:1244",
+          "text": "Cena: 2 965,00 zł",
+          "link": null
+        },
+        {
+          "id": "586:1247",
+          "text": "3365,00 zł",
+          "link": null
+        },
+        {
+          "id": "586:1248",
+          "text": "(w tym 23% VAT)",
+          "link": null
+        },
+        {
+          "id": "591:1283",
+          "text": "1 500,00 zł\n 1 690,00 zł",
+          "link": null
+        },
+        {
+          "id": "592:1292",
+          "text": " 1 465,00 zł\n 1 675,00 zł",
+          "link": null
+        },
+        {
+          "id": "592:1286",
+          "text": "1 szt.",
+          "link": null
+        },
+        {
+          "id": "592:1288",
+          "text": "3 szt.",
+          "link": null
+        },
+        {
+          "id": "592:1285",
+          "text": "Pixafen 3L HERBICYD selektywny o działaniu układowym, stosowany nalistnie w postaci koncentratu do sporządzania emulsji wodnej (EC). ",
+          "link": null
+        },
+        {
+          "id": "592:1322",
+          "text": "Pakiet zawiera",
+          "link": null
+        },
+        {
+          "id": "592:1290",
+          "text": "Spark Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+          "link": null
+        },
+        {
+          "id": "592:1319",
+          "text": "Oszczędzasz 400,00 zł",
+          "link": null
+        },
+        {
+          "id": "592:1320",
+          "text": "Cena pojedynczych produktów: 3 365,00 zł",
+          "link": null
+        },
+        {
+          "id": "593:117",
+          "text": "Cena za hektar: 247,08 zł",
+          "link": null
+        }
+      ],
+      "reactions": []
+    }
+  ]
+}

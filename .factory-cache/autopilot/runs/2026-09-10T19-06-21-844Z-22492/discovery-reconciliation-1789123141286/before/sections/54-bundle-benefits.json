@@ -1,0 +1,24 @@
+{
+  "id": "bundle-benefits",
+  "name": "korzyści pakietu",
+  "order": 54,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "586:1251"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 970,
+    "y": 1183,
+    "width": 479,
+    "height": 128
+  },
+  "layout": {
+    "type": "benefit-list",
+    "alignment": "vertical"
+  },
+  "typography": [],
+  "assets": [],
+  "notes": [],
+  "liveFigmaRequired": false
+}

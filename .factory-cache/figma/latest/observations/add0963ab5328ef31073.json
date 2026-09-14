@@ -1,0 +1,50 @@
+{
+  "id": "add0963ab5328ef31073",
+  "tool": "figma.use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "586:805"
+  ],
+  "description": "Read source content to identify native product or account state 586:805",
+  "recordedAt": "2026-09-10T19:30:16.882Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "id": "586:805",
+      "visible": true,
+      "texts": [
+        {
+          "id": "586:809",
+          "text": "Opis produktu",
+          "link": null
+        },
+        {
+          "id": "586:810",
+          "text": "Opinie",
+          "link": null
+        },
+        {
+          "id": "586:811",
+          "text": "Dane techniczne",
+          "link": null
+        },
+        {
+          "id": "586:812",
+          "text": "Stosowanie",
+          "link": null
+        },
+        {
+          "id": "586:813",
+          "text": "Pliki do pobrania",
+          "link": null
+        },
+        {
+          "id": "586:1021",
+          "text": "Pobierz etykietę",
+          "link": null
+        }
+      ],
+      "reactions": []
+    }
+  ]
+}

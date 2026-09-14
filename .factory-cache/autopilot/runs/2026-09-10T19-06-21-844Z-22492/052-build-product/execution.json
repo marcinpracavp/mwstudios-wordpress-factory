@@ -1,0 +1,16 @@
+{
+  "startedModel": "gpt-5.6-terra",
+  "reasoningEffort": "high",
+  "threadId": "01a09708-19e2-75b3-b121-23215e95690a",
+  "resumedFrom": null,
+  "usage": null,
+  "exit": {
+    "code": 1,
+    "signal": null
+  },
+  "failure": {
+    "message": "You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at Sep 13th, 2026 2:00 AM."
+  },
+  "completed": false,
+  "finishedAt": "2026-09-12T19:32:57.894Z"
+}

@@ -1,0 +1,18 @@
+{
+  "snapshotVersion": "1.0",
+  "status": "prepared",
+  "source": {
+    "fileKey": "QEacINzY4CYASPo4V8viQx",
+    "figmaUrl": "https://www.figma.com/design/QEacINzY4CYASPo4V8viQx/Beauty?node-id=108-4&m=dev"
+  },
+  "capturedAt": "2026-08-31T19:23:52.782Z",
+  "pages": [],
+  "frames": [],
+  "sections": [],
+  "languages": [],
+  "viewports": [],
+  "globalEffects": [],
+  "warnings": [
+    "Prepared by Factory. Populate this cache through Codex using Figma MCP; Node scripts do not read Figma."
+  ]
+}

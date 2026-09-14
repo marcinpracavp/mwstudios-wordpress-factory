@@ -1,0 +1,60 @@
+{
+  "capturedAt": "2026-09-13T14:41:26.399Z",
+  "implementationHash": "e176f564f1f5fd361097598694d1eefdc66fcf9758cb7c1136a11de6631d74f2",
+  "sourceHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+  "thresholds": {
+    "channelTolerance": 24,
+    "maxDifferentPixelRatio": 0.085,
+    "geometryTolerancePx": 2
+  },
+  "acceptanceScope": "page",
+  "buildReady": false,
+  "deferred": [],
+  "passed": false,
+  "pagePassed": false,
+  "routes": [
+    {
+      "id": "home",
+      "passed": false,
+      "pagePassed": false,
+      "ownership": {
+        "header": {
+          "pixels": 372480,
+          "differentPixels": 21847,
+          "ratio": 0.05865281357388316
+        },
+        "footer": {
+          "pixels": 1221120,
+          "differentPixels": 408113,
+          "ratio": 0.33421203485324946
+        },
+        "shared": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "page": {
+          "pixels": 15553920,
+          "differentPixels": 2041028,
+          "ratio": 0.1312227399909476
+        },
+        "outside": {
+          "pixels": 130560,
+          "differentPixels": 130436,
+          "ratio": 0.9990502450980392
+        },
+        "reused": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        }
+      },
+      "errors": [
+        "page pixel mismatch 13.122%",
+        "Section geometry differs: home-promotions",
+        "Section geometry differs: home-bundles"
+      ],
+      "comparison": ".factory-cache/autopilot/visual-1789310448026/home/comparison.json"
+    }
+  ]
+}

@@ -1,0 +1,616 @@
+{
+  "id": "ab067430c0c93ee50fde",
+  "tool": "figma.use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "12:2"
+  ],
+  "description": "Read homepage composition, background, section bounds and source text styles",
+  "recordedAt": "2026-09-10T19:30:16.837Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "id": "12:2",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "grids": [
+        {
+          "pattern": "COLUMNS",
+          "visible": true,
+          "color": {
+            "r": 1,
+            "g": 0,
+            "b": 0,
+            "a": 0.10000000149011612
+          },
+          "gutterSize": 20,
+          "alignment": "STRETCH",
+          "count": 12,
+          "offset": 240,
+          "boundVariables": {}
+        }
+      ],
+      "children": [
+        {
+          "id": "140:263",
+          "name": "tlo",
+          "type": "GROUP",
+          "x": 0,
+          "y": 7023,
+          "width": 1920,
+          "height": 1976
+        },
+        {
+          "id": "222:62",
+          "name": "stopka",
+          "type": "GROUP",
+          "x": 40,
+          "y": 8363,
+          "width": 1840,
+          "height": 554
+        },
+        {
+          "id": "164:212",
+          "name": "accordeon rozwinięty",
+          "type": "GROUP",
+          "x": 240,
+          "y": 7850,
+          "width": 1440,
+          "height": 323
+        },
+        {
+          "id": "164:213",
+          "name": "accordeon zwinięty",
+          "type": "GROUP",
+          "x": 240,
+          "y": 8197,
+          "width": 1440,
+          "height": 99
+        },
+        {
+          "id": "96:95",
+          "name": "blog",
+          "type": "GROUP",
+          "x": 236,
+          "y": 6401,
+          "width": 1457,
+          "height": 668
+        },
+        {
+          "id": "130:136",
+          "name": "o nas",
+          "type": "GROUP",
+          "x": 0,
+          "y": 5434,
+          "width": 1920,
+          "height": 850
+        },
+        {
+          "id": "140:167",
+          "name": "polecane produkty",
+          "type": "GROUP",
+          "x": 173.00003051757812,
+          "y": 4578,
+          "width": 1574,
+          "height": 724
+        },
+        {
+          "id": "140:261",
+          "name": "katalogi",
+          "type": "GROUP",
+          "x": 240,
+          "y": 4127,
+          "width": 1440,
+          "height": 384
+        },
+        {
+          "id": "222:28",
+          "name": "promocje",
+          "type": "GROUP",
+          "x": 174,
+          "y": 2504,
+          "width": 1574,
+          "height": 724
+        },
+        {
+          "id": "574:59",
+          "name": "pakiety",
+          "type": "GROUP",
+          "x": 174,
+          "y": 3316,
+          "width": 1574,
+          "height": 724
+        },
+        {
+          "id": "110:2",
+          "name": "wybór wg uprawy",
+          "type": "GROUP",
+          "x": 0,
+          "y": 1383,
+          "width": 1920,
+          "height": 1033
+        },
+        {
+          "id": "130:133",
+          "name": "pasek korzyści",
+          "type": "GROUP",
+          "x": 240,
+          "y": 1106,
+          "width": 1440,
+          "height": 175
+        },
+        {
+          "id": "112:6",
+          "name": "slider",
+          "type": "GROUP",
+          "x": 40,
+          "y": 195,
+          "width": 1840,
+          "height": 800
+        },
+        {
+          "id": "140:262",
+          "name": "mega menu",
+          "type": "GROUP",
+          "x": 240,
+          "y": 115,
+          "width": 1440,
+          "height": 78.6761245727539
+        },
+        {
+          "id": "140:260",
+          "name": "secondary menu",
+          "type": "GROUP",
+          "x": 239.00001525878906,
+          "y": 56,
+          "width": 1440.9998779296875,
+          "height": 42
+        },
+        {
+          "id": "112:7",
+          "name": "topbar",
+          "type": "GROUP",
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 40
+        },
+        {
+          "id": "96:2",
+          "name": "Line 1",
+          "type": "LINE",
+          "x": 240,
+          "y": 115,
+          "width": 1440,
+          "height": 0
+        },
+        {
+          "id": "222:60",
+          "name": "Kupujący musi być pełnoletni oraz posiadać ważne kwalifikacje wymagane od osób n",
+          "type": "TEXT",
+          "x": 240,
+          "y": 8829,
+          "width": 1440,
+          "height": 88
+        },
+        {
+          "id": "222:61",
+          "name": "Line 10",
+          "type": "LINE",
+          "x": 240,
+          "y": 8829,
+          "width": 1440,
+          "height": 0
+        }
+      ],
+      "fonts": [
+        {
+          "font": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "size": 16,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 34
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          }
+        },
+        {
+          "size": 16,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 34
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          }
+        },
+        {
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          }
+        },
+        {
+          "size": 16,
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          }
+        },
+        {
+          "font": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "size": 16,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          }
+        },
+        {
+          "size": 18,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          }
+        },
+        {
+          "font": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "size": 48,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          }
+        },
+        {
+          "font": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "size": 32,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          }
+        },
+        {
+          "font": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "size": 18,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          }
+        },
+        {
+          "font": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "size": 64,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          }
+        },
+        {
+          "font": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "size": 24,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          }
+        },
+        {
+          "font": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "size": 18,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          }
+        },
+        {
+          "font": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "size": 14,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          }
+        },
+        {
+          "font": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "size": 24,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          }
+        },
+        {
+          "font": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "size": 12,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          }
+        },
+        {
+          "font": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "size": 20,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          }
+        },
+        {
+          "font": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "size": 14,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          }
+        },
+        {
+          "font": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "size": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 15
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          }
+        },
+        {
+          "size": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 25
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          }
+        },
+        {
+          "size": 24,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          }
+        },
+        {
+          "size": 16,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 48
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          }
+        },
+        {
+          "font": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "size": 16,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 48
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          }
+        },
+        {
+          "font": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "size": 17,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          }
+        },
+        {
+          "font": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "size": 9,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          }
+        },
+        {
+          "font": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "size": 16,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          }
+        }
+      ]
+    }
+  ]
+}

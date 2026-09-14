@@ -1,0 +1,40 @@
+{
+  "task": {
+    "id": "detail-product-archive",
+    "scope": "group",
+    "buildGroup": "product-archive"
+  },
+  "sourceContext": {
+    "version": 1,
+    "available": true,
+    "index": {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/020-discovery-detail-product-archive/source-context/index.json",
+      "bytes": 1461,
+      "sha256": "f4329a5f06acbc68916bc780a5c77798b0fd02d723e8941792189d491aaa5dab"
+    }
+  },
+  "model": "gpt-5.6-terra",
+  "reasoningEffort": "high",
+  "continuation": "new task",
+  "previousExecution": null,
+  "snapshot": ".factory-cache/figma/latest",
+  "observations": ".factory-cache/figma/latest/observations/index.json",
+  "plans": [
+    "docs/factory/project/PLAN.md",
+    "docs/factory/project/SOURCE_CLARIFICATIONS.md"
+  ],
+  "currentGate": {
+    "passed": false,
+    "errors": [
+      "Missing section archive-breadcrumbs",
+      "Missing section archive-category-introduction",
+      "Missing section archive-filters",
+      "Missing section archive-sort",
+      "Missing section archive-product-grid",
+      "Missing section archive-pagination",
+      "Missing section archive-category-description"
+    ],
+    "group": "product-archive"
+  },
+  "instruction": "Inspect the current gate and finish only remaining assigned work. Reuse real saved source facts and assets."
+}

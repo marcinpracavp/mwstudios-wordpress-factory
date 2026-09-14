@@ -1,0 +1,62 @@
+{
+  "id": "archive-pagination",
+  "name": "archive pagination",
+  "order": 78,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "303:1322"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 969,
+    "y": 3570,
+    "width": 348,
+    "height": 40,
+    "containerWidth": 348
+  },
+  "layout": {
+    "type": "native-pagination",
+    "itemSize": 40,
+    "gap": 4,
+    "borderRadius": 15,
+    "activeBackground": "#93c01f"
+  },
+  "typography": [
+    {
+      "nodeId": "303:1305",
+      "text": "1",
+      "family": "DM Sans",
+      "style": "Regular",
+      "fontSize": 14,
+      "color": "#ffffff"
+    },
+    {
+      "nodeId": "303:1306",
+      "text": "2",
+      "family": "DM Sans",
+      "style": "Regular",
+      "fontSize": 14,
+      "color": "#aaaaaa"
+    }
+  ],
+  "assets": [
+    {
+      "sourceNodeId": "303:1318",
+      "path": "assets/product-archive/a910008d-459f-4404-bc5c-37a2f08170d2.svg",
+      "usage": "Exact pagination-next icon."
+    }
+  ],
+  "contentFields": [
+    "rudnikagro_archive_pagination_303_1305",
+    "rudnikagro_archive_pagination_303_1306",
+    "rudnikagro_archive_pagination_303_1308",
+    "rudnikagro_archive_pagination_303_1310",
+    "rudnikagro_archive_pagination_303_1312",
+    "rudnikagro_archive_pagination_303_1314",
+    "rudnikagro_archive_pagination_303_1315"
+  ],
+  "notes": [
+    "Exact 1x section reference; crop provenance: references/full/frame-294-3-bounds.png at x=969, y=3570, width=348, height=40."
+  ],
+  "liveFigmaRequired": false
+}

@@ -1,0 +1,34 @@
+{
+  "id": "confirmation-heading",
+  "manifestRecord": {
+    "id": "confirmation-heading",
+    "name": "Podsumowanie",
+    "order": 64,
+    "pageId": "0:1",
+    "snapshot": "sections/64-confirmation-heading.json",
+    "desktopNodeId": "493:1223",
+    "desktopReference": "references/sections/confirmation-heading.png"
+  },
+  "contentFields": [
+    {
+      "section": "confirmation-heading",
+      "nodeId": "493:1223",
+      "fieldName": "rudnikagro_confirmation_heading_heading",
+      "type": "text",
+      "language": "pl",
+      "value": "Podsumowanie",
+      "destination": "ACF Options / Checkout content tab",
+      "linkEvidence": [
+        {
+          "characters": "Podsumowanie",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "493:1223"
+      }
+    }
+  ]
+}

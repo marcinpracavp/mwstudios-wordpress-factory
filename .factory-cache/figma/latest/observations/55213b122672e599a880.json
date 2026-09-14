@@ -1,0 +1,865 @@
+{
+  "id": "55213b122672e599a880",
+  "tool": "use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "250:728",
+    "250:115"
+  ],
+  "description": "Capture exact shared-primary-navigation-active section source",
+  "recordedAt": "2026-09-11T00:42:44.032Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "id": "250:728",
+      "name": "mega menu",
+      "frame": "250:115",
+      "total": 40,
+      "nodes": [
+        {
+          "id": "250:728",
+          "name": "mega menu",
+          "type": "GROUP",
+          "parentId": "250:115",
+          "bounds": {
+            "x": 240,
+            "y": 115,
+            "width": 1440,
+            "height": 417
+          },
+          "style": 0
+        },
+        {
+          "id": "250:729",
+          "name": "logo 1",
+          "type": "FRAME",
+          "parentId": "250:728",
+          "bounds": {
+            "x": 240,
+            "y": 133.68560791015625,
+            "width": 223.72999572753906,
+            "height": 38.030067443847656
+          },
+          "style": 1
+        },
+        {
+          "id": "250:730",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "250:729",
+          "bounds": {
+            "x": 317.260009765625,
+            "y": 135.1214599609375,
+            "width": 26.509994506835938,
+            "height": 35.92548370361328
+          },
+          "style": 2
+        },
+        {
+          "id": "250:731",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "250:729",
+          "bounds": {
+            "x": 344.2900390625,
+            "y": 144.20855712890625,
+            "width": 23.790000915527344,
+            "height": 27.50713539123535
+          },
+          "style": 2
+        },
+        {
+          "id": "250:732",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "250:729",
+          "bounds": {
+            "x": 370.7900390625,
+            "y": 133.9412841796875,
+            "width": 28.240005493164062,
+            "height": 37.77437210083008
+          },
+          "style": 2
+        },
+        {
+          "id": "250:733",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "250:729",
+          "bounds": {
+            "x": 402.06005859375,
+            "y": 143.539794921875,
+            "width": 23.800003051757812,
+            "height": 27.507139205932617
+          },
+          "style": 2
+        },
+        {
+          "id": "250:734",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "250:729",
+          "bounds": {
+            "x": 428.070068359375,
+            "y": 133.68560791015625,
+            "width": 8.399993896484375,
+            "height": 8.103639602661133
+          },
+          "style": 3
+        },
+        {
+          "id": "250:735",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "250:729",
+          "bounds": {
+            "x": 428.669921875,
+            "y": 144.20855712890625,
+            "width": 7.1999969482421875,
+            "height": 26.83839225769043
+          },
+          "style": 2
+        },
+        {
+          "id": "250:736",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "250:729",
+          "bounds": {
+            "x": 438.949951171875,
+            "y": 133.9412841796875,
+            "width": 24.790008544921875,
+            "height": 37.105628967285156
+          },
+          "style": 2
+        },
+        {
+          "id": "250:737",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "250:729",
+          "bounds": {
+            "x": 254.360107421875,
+            "y": 143.73651123046875,
+            "width": 13.40000057220459,
+            "height": 13.178250312805176
+          },
+          "style": 3
+        },
+        {
+          "id": "250:738",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "250:729",
+          "bounds": {
+            "x": 240,
+            "y": 143.716796875,
+            "width": 13.420000076293945,
+            "height": 13.197919845581055
+          },
+          "style": 4
+        },
+        {
+          "id": "250:739",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "250:729",
+          "bounds": {
+            "x": 240.02001953125,
+            "y": 157.83917236328125,
+            "width": 13.399999618530273,
+            "height": 13.17824935913086
+          },
+          "style": 3
+        },
+        {
+          "id": "250:740",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "250:729",
+          "bounds": {
+            "x": 254.360107421875,
+            "y": 157.83917236328125,
+            "width": 13.420001029968262,
+            "height": 13.207756042480469
+          },
+          "style": 5
+        },
+        {
+          "id": "250:741",
+          "name": "Group",
+          "type": "GROUP",
+          "parentId": "250:729",
+          "bounds": {
+            "x": 271.64990234375,
+            "y": 135.15093994140625,
+            "width": 17.76999855041504,
+            "height": 17.475933074951172
+          },
+          "style": 0
+        },
+        {
+          "id": "250:742",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "250:741",
+          "bounds": {
+            "x": 271.64990234375,
+            "y": 135.15093994140625,
+            "width": 17.76999855041504,
+            "height": 17.475933074951172
+          },
+          "style": 6
+        },
+        {
+          "id": "250:743",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "250:741",
+          "bounds": {
+            "x": 281.22998046875,
+            "y": 143.9036865234375,
+            "width": 3.279998779296875,
+            "height": 4.032150745391846
+          },
+          "style": 7
+        },
+        {
+          "id": "250:744",
+          "name": "Group",
+          "type": "GROUP",
+          "parentId": "250:729",
+          "bounds": {
+            "x": 290.360107421875,
+            "y": 135.1214599609375,
+            "width": 17.790000915527344,
+            "height": 17.495603561401367
+          },
+          "style": 0
+        },
+        {
+          "id": "250:745",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "250:744",
+          "bounds": {
+            "x": 295.860107421875,
+            "y": 139.773193359375,
+            "width": 3.6899986267089844,
+            "height": 4.838581085205078
+          },
+          "style": 3
+        },
+        {
+          "id": "250:746",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "250:744",
+          "bounds": {
+            "x": 290.360107421875,
+            "y": 135.1214599609375,
+            "width": 17.790000915527344,
+            "height": 17.495603561401367
+          },
+          "style": 3
+        },
+        {
+          "id": "250:747",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "250:744",
+          "bounds": {
+            "x": 294.840087890625,
+            "y": 148.04400634765625,
+            "width": 6.020000457763672,
+            "height": 3.422410726547241
+          },
+          "style": 3
+        },
+        {
+          "id": "250:748",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "250:729",
+          "bounds": {
+            "x": 271.6298828125,
+            "y": 153.55133056640625,
+            "width": 17.78999900817871,
+            "height": 17.495603561401367
+          },
+          "style": 8
+        },
+        {
+          "id": "250:749",
+          "name": "Group",
+          "type": "GROUP",
+          "parentId": "250:729",
+          "bounds": {
+            "x": 290.360107421875,
+            "y": 153.55133056640625,
+            "width": 17.769996643066406,
+            "height": 17.475933074951172
+          },
+          "style": 0
+        },
+        {
+          "id": "250:750",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "250:749",
+          "bounds": {
+            "x": 290.360107421875,
+            "y": 153.55133056640625,
+            "width": 17.769996643066406,
+            "height": 17.475933074951172
+          },
+          "style": 9
+        },
+        {
+          "id": "250:751",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "250:749",
+          "bounds": {
+            "x": 295.16015625,
+            "y": 159.0291748046875,
+            "width": 4.439998626708984,
+            "height": 7.434894561767578
+          },
+          "style": 10
+        },
+        {
+          "id": "250:752",
+          "name": "Rectangle 43",
+          "type": "VECTOR",
+          "parentId": "250:728",
+          "bounds": {
+            "x": 542,
+            "y": 195,
+            "width": 708,
+            "height": 337
+          },
+          "style": 11
+        }
+      ],
+      "styles": [
+        {
+          "visible": true,
+          "opacity": 1,
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": false,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH",
+          "layoutMode": "NONE",
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0.4000000059604645,
+                "b": 0.20000000298023224
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9215686321258545,
+                "g": 0.40784314274787903,
+                "b": 0.20392157137393951
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "GRADIENT_LINEAR",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "gradientStops": [
+                {
+                  "color": {
+                    "r": 0,
+                    "g": 0.5529412031173706,
+                    "b": 0.21176470816135406,
+                    "a": 1
+                  },
+                  "position": 0,
+                  "boundVariables": {}
+                },
+                {
+                  "color": {
+                    "r": 0,
+                    "g": 0.4000000059604645,
+                    "b": 0.20000000298023224,
+                    "a": 1
+                  },
+                  "position": 1,
+                  "boundVariables": {}
+                }
+              ],
+              "gradientTransform": [
+                [
+                  0.4813486337661743,
+                  -0.4813486337661743,
+                  0.5
+                ],
+                [
+                  0.4813486337661743,
+                  0.4813486337661743,
+                  0.018651362508535385
+                ]
+              ]
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "GRADIENT_LINEAR",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "gradientStops": [
+                {
+                  "color": {
+                    "r": 0.5764706134796143,
+                    "g": 0.7529411911964417,
+                    "b": 0.12156862765550613,
+                    "a": 1
+                  },
+                  "position": 0,
+                  "boundVariables": {}
+                },
+                {
+                  "color": {
+                    "r": 0.3960784375667572,
+                    "g": 0.6980392336845398,
+                    "b": 0.18039216101169586,
+                    "a": 1
+                  },
+                  "position": 1,
+                  "boundVariables": {}
+                }
+              ],
+              "gradientTransform": [
+                [
+                  0.9633883833885193,
+                  0,
+                  0.03445800393819809
+                ],
+                [
+                  0,
+                  0.9641062617301941,
+                  0.017587939277291298
+                ]
+              ]
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "GRADIENT_LINEAR",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "gradientStops": [
+                {
+                  "color": {
+                    "r": 0.5764706134796143,
+                    "g": 0.7529411911964417,
+                    "b": 0.12156862765550613,
+                    "a": 1
+                  },
+                  "position": 0,
+                  "boundVariables": {}
+                },
+                {
+                  "color": {
+                    "r": 0.3960784375667572,
+                    "g": 0.6980392336845398,
+                    "b": 0.18039216101169586,
+                    "a": 1
+                  },
+                  "position": 1,
+                  "boundVariables": {}
+                }
+              ],
+              "gradientTransform": [
+                [
+                  0.4864494800567627,
+                  0,
+                  0.0008212428074330091
+                ],
+                [
+                  0,
+                  0.4864494800567627,
+                  0.25691211223602295
+                ]
+              ]
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "GRADIENT_LINEAR",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "gradientStops": [
+                {
+                  "color": {
+                    "r": 0.5764706134796143,
+                    "g": 0.7529411911964417,
+                    "b": 0.12156862765550613,
+                    "a": 1
+                  },
+                  "position": 0,
+                  "boundVariables": {}
+                },
+                {
+                  "color": {
+                    "r": 0.3960784375667572,
+                    "g": 0.6980392336845398,
+                    "b": 0.18039216101169586,
+                    "a": 1
+                  },
+                  "position": 1,
+                  "boundVariables": {}
+                }
+              ],
+              "gradientTransform": [
+                [
+                  0.4866468906402588,
+                  0,
+                  0.0014836795162409544
+                ],
+                [
+                  0,
+                  0.6083086133003235,
+                  0.19584569334983826
+                ]
+              ]
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "GRADIENT_LINEAR",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "gradientStops": [
+                {
+                  "color": {
+                    "r": 0,
+                    "g": 0.5529412031173706,
+                    "b": 0.21176470816135406,
+                    "a": 1
+                  },
+                  "position": 0,
+                  "boundVariables": {}
+                },
+                {
+                  "color": {
+                    "r": 0,
+                    "g": 0.4000000059604645,
+                    "b": 0.20000000298023224,
+                    "a": 1
+                  },
+                  "position": 1,
+                  "boundVariables": {}
+                }
+              ],
+              "gradientTransform": [
+                [
+                  0.4858001172542572,
+                  0.4858001172542572,
+                  0.014472965151071548
+                ],
+                [
+                  -0.4858001172542572,
+                  0.4858001172542572,
+                  0.49972692131996155
+                ]
+              ]
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "GRADIENT_LINEAR",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "gradientStops": [
+                {
+                  "color": {
+                    "r": 0.5764706134796143,
+                    "g": 0.7529411911964417,
+                    "b": 0.12156862765550613,
+                    "a": 1
+                  },
+                  "position": 0,
+                  "boundVariables": {}
+                },
+                {
+                  "color": {
+                    "r": 0.3960784375667572,
+                    "g": 0.6980392336845398,
+                    "b": 0.18039216101169586,
+                    "a": 1
+                  },
+                  "position": 1,
+                  "boundVariables": {}
+                }
+              ],
+              "gradientTransform": [
+                [
+                  0.4864494800567627,
+                  0,
+                  0.5130029916763306
+                ],
+                [
+                  0,
+                  0.4864494800567627,
+                  0.25691211223602295
+                ]
+              ]
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "GRADIENT_LINEAR",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "gradientStops": [
+                {
+                  "color": {
+                    "r": 0.5764706134796143,
+                    "g": 0.7529411911964417,
+                    "b": 0.12156862765550613,
+                    "a": 1
+                  },
+                  "position": 0,
+                  "boundVariables": {}
+                },
+                {
+                  "color": {
+                    "r": 0.3960784375667572,
+                    "g": 0.6980392336845398,
+                    "b": 0.18039216101169586,
+                    "a": 1
+                  },
+                  "position": 1,
+                  "boundVariables": {}
+                }
+              ],
+              "gradientTransform": [
+                [
+                  0.4868420958518982,
+                  0,
+                  0.5131579041481018
+                ],
+                [
+                  0,
+                  0.8289473652839661,
+                  0.08552631735801697
+                ]
+              ]
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.6682692170143127,
+                "g": 0.6682692170143127,
+                "b": 0.6682692170143127
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokeWeight": 0.5,
+          "strokeAlign": "INSIDE",
+          "effects": [
+            {
+              "type": "DROP_SHADOW",
+              "visible": true,
+              "radius": 10,
+              "boundVariables": {},
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0.20000000298023224
+              },
+              "offset": {
+                "x": 0,
+                "y": 10
+              },
+              "spread": 0,
+              "blendMode": "NORMAL",
+              "showShadowBehindNode": false
+            }
+          ],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "probe": "node scripts/factory/autopilot/wp.js comment list --post_id=54 --fields=comment_ID,comment_author,comment_date,comment_content,comment_approved --format=json",
+  "mode": "read-only",
+  "post": {
+    "id": 54,
+    "title": "Aquatos 5L"
+  },
+  "result": []
+}

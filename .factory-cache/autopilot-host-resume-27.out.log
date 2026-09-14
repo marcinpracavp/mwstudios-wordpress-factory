@@ -1,0 +1,6 @@
+contact: DEFERRED TO FINAL page pixel mismatch 10.081%
+2026-09-12T10:12:57.195Z BUILD READY build:contact; deferred issues retained: 1
+2026-09-12T10:12:57.352Z START build:about [gpt-5.6-terra high] (.factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/041-build-about)
+about: PAGE FAIL page pixel mismatch 57.125%
+2026-09-12T10:28:56.213Z START build:about [gpt-5.6-terra high] (.factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/042-build-about)
+about: PAGE FAIL page pixel mismatch 57.125%

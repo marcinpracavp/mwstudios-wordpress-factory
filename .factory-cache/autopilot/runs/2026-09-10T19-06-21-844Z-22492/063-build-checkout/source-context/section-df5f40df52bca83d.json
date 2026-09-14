@@ -1,0 +1,254 @@
+{
+  "id": "checkout-login-options",
+  "manifestRecord": {
+    "id": "checkout-login-options",
+    "name": "checkout login options",
+    "order": 72,
+    "pageId": "0:1",
+    "snapshot": "sections/67-checkout-login-options.json",
+    "desktopNodeId": "509:171",
+    "desktopReference": "references/sections/checkout-login-options.png"
+  },
+  "contentFields": [
+    {
+      "section": "checkout-login-options",
+      "nodeId": "509:173",
+      "fieldName": "rudnikagro_checkout_login_options_login_title",
+      "type": "text",
+      "language": "pl",
+      "value": "Zaloguj się",
+      "destination": "ACF Options / Checkout content tab",
+      "linkEvidence": [
+        {
+          "characters": "Zaloguj się",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "509:173"
+      }
+    },
+    {
+      "section": "checkout-login-options",
+      "nodeId": "509:183",
+      "fieldName": "rudnikagro_checkout_login_options_email_placeholder",
+      "type": "text",
+      "language": "pl",
+      "value": "E-mail",
+      "destination": "ACF Options / Checkout content tab",
+      "linkEvidence": [
+        {
+          "characters": "E-mail",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "509:183"
+      }
+    },
+    {
+      "section": "checkout-login-options",
+      "nodeId": "509:185",
+      "fieldName": "rudnikagro_checkout_login_options_password_placeholder",
+      "type": "text",
+      "language": "pl",
+      "value": "Hasło",
+      "destination": "ACF Options / Checkout content tab",
+      "linkEvidence": [
+        {
+          "characters": "Hasło",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "509:185"
+      }
+    },
+    {
+      "section": "checkout-login-options",
+      "nodeId": "509:174",
+      "fieldName": "rudnikagro_checkout_login_options_remember_me",
+      "type": "text",
+      "language": "pl",
+      "value": "Zapamiętaj mnie",
+      "destination": "ACF Options / Checkout content tab",
+      "linkEvidence": [
+        {
+          "characters": "Zapamiętaj mnie",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "509:174"
+      }
+    },
+    {
+      "section": "checkout-login-options",
+      "nodeId": "509:181",
+      "fieldName": "rudnikagro_checkout_login_options_login_submit",
+      "type": "text",
+      "language": "pl",
+      "value": "Zaloguj się",
+      "destination": "ACF Options / Checkout content tab",
+      "linkEvidence": [
+        {
+          "characters": "Zaloguj się",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "509:181"
+      }
+    },
+    {
+      "section": "checkout-login-options",
+      "nodeId": "509:178",
+      "fieldName": "rudnikagro_checkout_login_options_forgot_password",
+      "type": "text",
+      "language": "pl",
+      "value": "Nie pamiętam hasła",
+      "destination": "ACF Options / Checkout content tab",
+      "linkEvidence": [
+        {
+          "characters": "Nie pamiętam hasła",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "509:178"
+      }
+    },
+    {
+      "section": "checkout-login-options",
+      "nodeId": "509:195",
+      "fieldName": "rudnikagro_checkout_login_options_guest_title",
+      "type": "text",
+      "language": "pl",
+      "value": "Kontynuuj bez logowania",
+      "destination": "ACF Options / Checkout content tab",
+      "linkEvidence": [
+        {
+          "characters": "Kontynuuj bez logowania",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "509:195"
+      }
+    },
+    {
+      "section": "checkout-login-options",
+      "nodeId": "509:196",
+      "fieldName": "rudnikagro_checkout_login_options_guest_copy",
+      "type": "text",
+      "language": "pl",
+      "value": "Jeśli się nie zalogujesz, nie będziesz miec dostępu do historii zamówień oraz rabatów, które dla Ciebie przygotowaliśmy.",
+      "destination": "ACF Options / Checkout content tab",
+      "linkEvidence": [
+        {
+          "characters": "Jeśli się nie zalogujesz, nie będziesz miec dostępu do historii zamówień oraz rabatów, które dla Ciebie przygotowaliśmy.",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "509:196"
+      }
+    },
+    {
+      "section": "checkout-login-options",
+      "nodeId": "509:199",
+      "fieldName": "rudnikagro_checkout_login_options_guest_submit",
+      "type": "text",
+      "language": "pl",
+      "value": "Kontynuuj jako gość",
+      "destination": "ACF Options / Checkout content tab",
+      "linkEvidence": [
+        {
+          "characters": "Kontynuuj jako gość",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "509:199"
+      }
+    },
+    {
+      "section": "checkout-login-options",
+      "nodeId": "509:188",
+      "fieldName": "rudnikagro_checkout_login_options_register_title",
+      "type": "text",
+      "language": "pl",
+      "value": "Zarejestruj się",
+      "destination": "ACF Options / Checkout content tab",
+      "linkEvidence": [
+        {
+          "characters": "Zarejestruj się",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "509:188"
+      }
+    },
+    {
+      "section": "checkout-login-options",
+      "nodeId": "509:189",
+      "fieldName": "rudnikagro_checkout_login_options_register_benefits",
+      "type": "text",
+      "language": "pl",
+      "value": "Otrzymasz liczne dodatkowe korzyści:\npodgląd statusu realizacji zamówień\npodgląd historii zakupów\nbrak konieczności wprowadzania swoich danych przy kolejnych zakupach\nmożliwość otrzymania rabatów i kuponów promocyjnych",
+      "destination": "ACF Options / Checkout content tab",
+      "linkEvidence": [
+        {
+          "characters": "Otrzymasz liczne dodatkowe korzyści:\npodgląd statusu realizacji zamówień\npodgląd historii zakupów\nbrak konieczności wprowadzania swoich danych przy kolejnych zakupach\nmożliwość otrzymania rabatów i kuponów promocyjnych",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "509:189"
+      }
+    },
+    {
+      "section": "checkout-login-options",
+      "nodeId": "509:192",
+      "fieldName": "rudnikagro_checkout_login_options_register_submit",
+      "type": "text",
+      "language": "pl",
+      "value": "Zarejestruj się",
+      "destination": "ACF Options / Checkout content tab",
+      "linkEvidence": [
+        {
+          "characters": "Zarejestruj się",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "509:192"
+      }
+    }
+  ]
+}

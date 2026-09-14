@@ -1,0 +1,137 @@
+﻿{
+    "kind": "read-only-native-home-commerce-probe",
+    "homeId": 62,
+    "collections": {
+        "promoted": [
+            {
+                "id": 217,
+                "title": "Rzepak DK IMMORTAL CL",
+                "imageId": 218,
+                "regularPrice": "1430.00",
+                "salePrice": "1380.00",
+                "sourceNode": "130:69",
+                "priceProvenance": {
+                    "sourceNode": "128:8",
+                    "provenance": "figma-explicit"
+                },
+                "reviews": []
+            },
+            {
+                "id": 219,
+                "title": "Rzepak ozimy DK EXCITED F1",
+                "imageId": 220,
+                "regularPrice": "1430.00",
+                "salePrice": "1390.00",
+                "sourceNode": "130:84",
+                "priceProvenance": {
+                    "sourceNode": "130:66",
+                    "provenance": "figma-explicit"
+                },
+                "reviews": []
+            },
+            {
+                "id": 221,
+                "title": "Rzepak ozimy LG AMBASSADOR",
+                "imageId": 222,
+                "regularPrice": "1460.00",
+                "salePrice": "1290.00",
+                "sourceNode": "130:100",
+                "priceProvenance": {
+                    "sourceNode": "140:296",
+                    "provenance": "figma-explicit"
+                },
+                "reviews": []
+            },
+            {
+                "id": 223,
+                "title": "Rzepak ozimy LG AUCKLAND",
+                "imageId": 224,
+                "regularPrice": "1631.00",
+                "salePrice": "1545.00",
+                "sourceNode": "130:104",
+                "priceProvenance": {
+                    "sourceNode": "140:351",
+                    "provenance": "figma-explicit"
+                },
+                "reviews": []
+            }
+        ],
+        "bundle": [
+            {
+                "id": 55,
+                "title": "Pakiet ochronny rzepaku ozimego na&nbsp;12 ha: PIXAFEN 3L + SPARK PAK 3 x&nbsp;3 L",
+                "imageId": 115,
+                "regularPrice": "3365",
+                "salePrice": "2965.00",
+                "sourceNode": "",
+                "priceProvenance": {
+                    "sourceNode": "574:155",
+                    "provenance": "figma-explicit"
+                },
+                "reviews": []
+            }
+        ],
+        "recommended": [
+            {
+                "id": 225,
+                "title": "Modivo 60 CS",
+                "imageId": 226,
+                "regularPrice": "203.52",
+                "salePrice": "",
+                "sourceNode": "140:216",
+                "priceProvenance": {
+                    "sourceNode": "140:229",
+                    "provenance": "figma-explicit"
+                },
+                "reviews": []
+            },
+            {
+                "id": 227,
+                "title": "Vivero 500 SC&nbsp;1l",
+                "imageId": 228,
+                "regularPrice": "475.00",
+                "salePrice": "",
+                "sourceNode": "140:200",
+                "priceProvenance": {
+                    "sourceNode": "140:213",
+                    "provenance": "figma-explicit"
+                },
+                "reviews": []
+            },
+            {
+                "id": 229,
+                "title": "Goliat Trio 060 FS",
+                "imageId": 230,
+                "regularPrice": "525.00",
+                "salePrice": "",
+                "sourceNode": "140:184",
+                "priceProvenance": {
+                    "sourceNode": "140:197",
+                    "provenance": "figma-explicit"
+                },
+                "reviews": []
+            },
+            {
+                "id": 231,
+                "title": "Tavares 250 SE&nbsp;5 L",
+                "imageId": 232,
+                "regularPrice": "1135.00",
+                "salePrice": "",
+                "sourceNode": "140:168",
+                "priceProvenance": {
+                    "sourceNode": "140:181",
+                    "provenance": "figma-explicit"
+                },
+                "reviews": []
+            }
+        ]
+    },
+    "sourceReviews": [
+        {
+            "id": 2,
+            "productId": 54,
+            "rating": "5",
+            "sourceNode": "425:645"
+        }
+    ]
+}

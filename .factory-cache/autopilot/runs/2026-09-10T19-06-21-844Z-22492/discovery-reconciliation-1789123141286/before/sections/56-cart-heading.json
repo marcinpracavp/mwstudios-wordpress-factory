@@ -1,0 +1,42 @@
+{
+  "id": "cart-heading",
+  "name": "Koszyk",
+  "order": 56,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "482:5"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 237,
+    "y": 260,
+    "width": 467,
+    "height": 68
+  },
+  "layout": {
+    "type": "native-commerce-cart-heading",
+    "designContextRead": true
+  },
+  "typography": [
+    {
+      "nodeId": "482:5",
+      "family": "DM Sans",
+      "weight": 700,
+      "size": 48,
+      "lineHeight": "AUTO",
+      "color": "#070707"
+    }
+  ],
+  "assets": [],
+  "contentFields": [
+    {
+      "id": "482:5",
+      "text": "Koszyk",
+      "link": null
+    }
+  ],
+  "notes": [
+    "No mobile source was provided; responsive behavior is derived."
+  ],
+  "liveFigmaRequired": false
+}

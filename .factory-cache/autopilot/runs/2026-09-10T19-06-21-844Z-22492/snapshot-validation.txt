@@ -1,0 +1,9 @@
+
+> slawinsky-boilerplate@1.0.0 factory:figma:validate
+> node scripts/factory/figma/validate-snapshot.js
+
+Figma snapshot validation
+
+- manifest status must be "complete" for validation (current: "partial")
+
+FIGMA SNAPSHOT INVALID

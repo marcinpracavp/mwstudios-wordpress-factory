@@ -1,0 +1,7 @@
+product: PAGE PASS 
+product-bundle: PAGE PASS 
+product-expanded: PAGE FAIL page pixel mismatch 13.078%; Section geometry differs: product-expanded-description; Section geometry differs: product-related
+product-inquiry: PAGE PASS 
+product-reviews-state: PAGE FAIL Section geometry differs: product-reviews; Section geometry differs: product-related; Section geometry differs: product-legal-notices
+product-files-state: PAGE FAIL page pixel mismatch 8.531%
+2026-09-12T19:11:24.575Z START build:product [gpt-5.6-terra high] (.factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/052-build-product)

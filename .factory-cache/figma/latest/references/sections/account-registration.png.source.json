@@ -1,0 +1,17 @@
+{
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "pageId": "0:1",
+  "nodeId": "524:2",
+  "path": "references/sections/account-registration.png",
+  "crop": {
+    "x": 970,
+    "y": 331,
+    "width": 709,
+    "height": 425
+  },
+  "sourceReference": "references/full/frame-524-2.png",
+  "scale": 1,
+  "transport": "unscaled-1x-crop",
+  "capturedAt": "2026-09-11T10:32:48.890Z",
+  "sha256": "33a6383509b228abe21282da71add2f159167064698a2f84590baec857c9a422"
+}

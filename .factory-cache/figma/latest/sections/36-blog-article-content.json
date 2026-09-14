@@ -1,0 +1,80 @@
+{
+  "id": "blog-article-content",
+  "name": "Article content",
+  "order": 36,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "327:3358"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 200,
+    "y": 1333,
+    "width": 1520,
+    "height": 1090,
+    "productionFrame": "327:3176",
+    "containerWidth": 1440,
+    "padding": {
+      "left": 240,
+      "right": 240
+    }
+  },
+  "layout": {
+    "type": "source-composition",
+    "productionFrame": "327:3176",
+    "designContextRead": true,
+    "nodes": [
+      {
+        "id": "327:3358",
+        "name": "Article WYSIWYG",
+        "type": "TEXT",
+        "parentId": null,
+        "bounds": {
+          "x": 240,
+          "y": 1333,
+          "width": 1440,
+          "height": 1025
+        },
+        "visible": true
+      },
+      {
+        "id": "431:929",
+        "name": "Return button",
+        "type": "GROUP",
+        "parentId": null,
+        "bounds": {
+          "x": 240,
+          "y": 2379,
+          "width": 286,
+          "height": 44
+        },
+        "visible": true
+      }
+    ]
+  },
+  "typography": [
+    {
+      "nodeId": "327:3358",
+      "fontFamily": "DM Sans",
+      "bodySize": 18,
+      "bodyLineHeight": 24,
+      "headingSize": 24,
+      "weight": "400/700"
+    }
+  ],
+  "colors": [
+    "#000000",
+    "#056839"
+  ],
+  "effects": [],
+  "contentFields": [
+    "content",
+    "return_label"
+  ],
+  "assets": [],
+  "notes": [
+    "Exact full-frame crop: x=200,y=1333,width=1520,height=1090 from references/full/frame-327-3176.png.",
+    "Four product links are sourced directly in WYSIWYG content."
+  ],
+  "liveFigmaRequired": false
+}

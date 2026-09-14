@@ -1,0 +1,182 @@
+{
+  "id": "product-reviews",
+  "manifestRecord": {
+    "id": "product-reviews",
+    "name": "szczegÃ³Å‚y",
+    "order": 7,
+    "pageId": "0:1",
+    "snapshot": "sections/07-product-reviews.json",
+    "desktopNodeId": "425:636",
+    "desktopReference": "references/sections/product-reviews.png"
+  },
+  "contentFields": [
+    {
+      "section": "product-reviews",
+      "nodeId": "425:640",
+      "fieldName": "rudnikagro_product_reviews_425_640",
+      "type": "text",
+      "language": "pl",
+      "value": "Opis produktu",
+      "destination": "Native WooCommerce reviews; ACF section labels",
+      "linkEvidence": [
+        {
+          "characters": "Opis produktu",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "425:640"
+      }
+    },
+    {
+      "section": "product-reviews",
+      "nodeId": "425:641",
+      "fieldName": "rudnikagro_product_reviews_425_641",
+      "type": "text",
+      "language": "pl",
+      "value": "Opinie",
+      "destination": "Native WooCommerce reviews; ACF section labels",
+      "linkEvidence": [
+        {
+          "characters": "Opinie",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "425:641"
+      }
+    },
+    {
+      "section": "product-reviews",
+      "nodeId": "425:642",
+      "fieldName": "rudnikagro_product_reviews_425_642",
+      "type": "text",
+      "language": "pl",
+      "value": "Dane techniczne",
+      "destination": "Native WooCommerce reviews; ACF section labels",
+      "linkEvidence": [
+        {
+          "characters": "Dane techniczne",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "425:642"
+      }
+    },
+    {
+      "section": "product-reviews",
+      "nodeId": "425:643",
+      "fieldName": "rudnikagro_product_reviews_425_643",
+      "type": "text",
+      "language": "pl",
+      "value": "Stosowanie",
+      "destination": "Native WooCommerce reviews; ACF section labels",
+      "linkEvidence": [
+        {
+          "characters": "Stosowanie",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "425:643"
+      }
+    },
+    {
+      "section": "product-reviews",
+      "nodeId": "576:553",
+      "fieldName": "rudnikagro_product_reviews_576_553",
+      "type": "text",
+      "language": "pl",
+      "value": "Pliki do pobrania",
+      "destination": "Native WooCommerce reviews; ACF section labels",
+      "linkEvidence": [
+        {
+          "characters": "Pliki do pobrania",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "576:553"
+      }
+    },
+    {
+      "section": "product-reviews",
+      "nodeId": "425:645",
+      "fieldName": "rudnikagro_product_reviews_425_645",
+      "type": "text",
+      "language": "pl",
+      "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat. Duis aute irure dolor in reprehenderit in voluptate  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint  occaecat cupidatat non proident, sunt in culpa qui officia deserunt  mollit anim id est laborum.",
+      "destination": "Native WooCommerce reviews; ACF section labels",
+      "linkEvidence": [
+        {
+          "characters": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat. Duis aute irure dolor in reprehenderit in voluptate  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint  occaecat cupidatat non proident, sunt in culpa qui officia deserunt  mollit anim id est laborum.",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "blocked-source-placeholder",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "425:645"
+      }
+    },
+    {
+      "section": "product-reviews",
+      "nodeId": "429:842",
+      "fieldName": "rudnikagro_product_reviews_429_842",
+      "type": "text",
+      "language": "pl",
+      "value": "30 lipca 2026",
+      "destination": "Native WooCommerce reviews; ACF section labels",
+      "linkEvidence": [
+        {
+          "characters": "30 lipca 2026",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "429:842"
+      }
+    },
+    {
+      "section": "product-reviews",
+      "nodeId": "428:835",
+      "fieldName": "rudnikagro_product_reviews_428_835",
+      "type": "text",
+      "language": "pl",
+      "value": "4,41 / 5\n(190 ocen)",
+      "destination": "Native WooCommerce reviews; ACF section labels",
+      "linkEvidence": [
+        {
+          "characters": "4,41",
+          "hyperlink": null
+        },
+        {
+          "characters": " / 5\n",
+          "hyperlink": null
+        },
+        {
+          "characters": "(190 ocen)",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "428:835"
+      }
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "id": "blog-article-heading",
+  "name": "Article heading",
+  "order": 35,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "327:3357"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 200,
+    "y": 219,
+    "width": 1520,
+    "height": 1114,
+    "productionFrame": "327:3176",
+    "containerWidth": 1440,
+    "padding": {
+      "left": 240,
+      "right": 240
+    }
+  },
+  "layout": {
+    "type": "source-composition",
+    "productionFrame": "327:3176",
+    "designContextRead": true,
+    "nodes": [
+      {
+        "id": "327:3287",
+        "name": "Banner",
+        "type": "RECTANGLE",
+        "parentId": null,
+        "bounds": {
+          "x": 240,
+          "y": 219,
+          "width": 1440,
+          "height": 150
+        },
+        "visible": true
+      },
+      {
+        "id": "327:3288",
+        "name": "Blog",
+        "type": "TEXT",
+        "parentId": null,
+        "bounds": {
+          "x": 898,
+          "y": 219,
+          "width": 123,
+          "height": 150
+        },
+        "visible": true
+      },
+      {
+        "id": "327:3177",
+        "name": "Breadcrumb",
+        "type": "TEXT",
+        "parentId": null,
+        "bounds": {
+          "x": 240,
+          "y": 369,
+          "width": 634,
+          "height": 70
+        },
+        "visible": true
+      },
+      {
+        "id": "327:3357",
+        "name": "Article title",
+        "type": "TEXT",
+        "parentId": null,
+        "bounds": {
+          "x": 240,
+          "y": 456,
+          "width": 1434,
+          "height": 121
+        },
+        "visible": true
+      },
+      {
+        "id": "327:3359",
+        "name": "Hero image",
+        "type": "RECTANGLE",
+        "parentId": null,
+        "bounds": {
+          "x": 240,
+          "y": 610,
+          "width": 1440,
+          "height": 641
+        },
+        "visible": true
+      },
+      {
+        "id": "327:3371",
+        "name": "Publication date",
+        "type": "TEXT",
+        "parentId": null,
+        "bounds": {
+          "x": 240,
+          "y": 1251,
+          "width": 149,
+          "height": 87
+        },
+        "visible": true
+      }
+    ]
+  },
+  "typography": [
+    {
+      "nodeId": "327:3357",
+      "fontFamily": "DM Sans",
+      "weight": 700,
+      "size": 48,
+      "lineHeight": 55
+    },
+    {
+      "nodeId": "327:3288",
+      "fontFamily": "DM Sans",
+      "weight": 700,
+      "size": 48,
+      "lineHeight": 24
+    }
+  ],
+  "colors": [
+    "#056839"
+  ],
+  "effects": [],
+  "contentFields": [
+    "breadcrumb",
+    "banner_label",
+    "title",
+    "featured_image",
+    "publication_date"
+  ],
+  "assets": [
+    {
+      "sourceNodeId": "327:3287",
+      "path": "assets/blog/blog-article-banner-327-3287.png",
+      "usage": "Exact Figma MCP export; crop/geometry recorded in this section."
+    },
+    {
+      "sourceNodeId": "327:3359",
+      "path": "assets/blog/blog-article-hero-327-3359.png",
+      "usage": "Exact Figma MCP export; crop/geometry recorded in this section."
+    }
+  ],
+  "notes": [
+    "Exact full-frame crop: x=200,y=219,width=1520,height=1114 from references/full/frame-327-3176.png.",
+    "Breadcrumb destination URLs are absent from source."
+  ],
+  "liveFigmaRequired": false
+}

@@ -1,0 +1,61 @@
+{
+  "capturedAt": "2026-09-13T16:37:30.265Z",
+  "implementationHash": "7c8ae50f6a6b5c8af2cec287c88116d6f91ca371f0aab1d846a820fd8bb16864",
+  "sourceHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+  "thresholds": {
+    "channelTolerance": 24,
+    "maxDifferentPixelRatio": 0.085,
+    "geometryTolerancePx": 2
+  },
+  "acceptanceScope": "page",
+  "buildReady": false,
+  "deferred": [],
+  "passed": false,
+  "pagePassed": false,
+  "routes": [
+    {
+      "id": "home",
+      "passed": false,
+      "pagePassed": false,
+      "ownership": {
+        "header": {
+          "pixels": 372480,
+          "differentPixels": 23661,
+          "ratio": 0.0635228737113402
+        },
+        "footer": {
+          "pixels": 1221120,
+          "differentPixels": 407002,
+          "ratio": 0.333302214360587
+        },
+        "shared": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "page": {
+          "pixels": 15553920,
+          "differentPixels": 1790678,
+          "ratio": 0.11512711907994898
+        },
+        "outside": {
+          "pixels": 130560,
+          "differentPixels": 128114,
+          "ratio": 0.981265318627451
+        },
+        "reused": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        }
+      },
+      "errors": [
+        "Responsive render health 768",
+        "Responsive render health 390",
+        "Responsive render health 375",
+        "page pixel mismatch 11.513%"
+      ],
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/resume-page-check-1789317413218/home/home/comparison.json"
+    }
+  ]
+}

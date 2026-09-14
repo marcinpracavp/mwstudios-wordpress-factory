@@ -1,0 +1,135 @@
+{
+  "browser": "Google Chrome",
+  "generatedAt": "2026-09-13T20:22:55.116Z",
+  "results": [
+    {
+      "id": "INT-01",
+      "route": "home",
+      "passed": true,
+      "evidence": {
+        "hidden": false,
+        "bodyOpen": true,
+        "expanded": "true"
+      }
+    },
+    {
+      "id": "INT-02",
+      "route": "home-active",
+      "passed": true,
+      "evidence": {
+        "selectedCategories": 1,
+        "pressedCrops": 1
+      }
+    },
+    {
+      "id": "INT-03",
+      "route": "home",
+      "passed": true,
+      "evidence": {
+        "hidden": true,
+        "expanded": "false"
+      }
+    },
+    {
+      "id": "INT-04",
+      "route": "home@390",
+      "passed": true,
+      "evidence": {
+        "active": true,
+        "togglerOpen": true,
+        "bodyOverflow": "hidden"
+      }
+    },
+    {
+      "id": "INT-05",
+      "route": "home@390",
+      "passed": true,
+      "evidence": {
+        "active": false,
+        "bodyOverflow": "auto"
+      }
+    },
+    {
+      "id": "INT-06",
+      "route": "careers",
+      "passed": true,
+      "evidence": {
+        "count": 6,
+        "open": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "id": "INT-07",
+      "route": "product-reviews-state",
+      "passed": true,
+      "evidence": {
+        "selected": "true",
+        "active": true,
+        "hash": "#reviews"
+      }
+    },
+    {
+      "id": "INT-08",
+      "route": "product-expanded",
+      "passed": true,
+      "evidence": {
+        "open": true,
+        "triggerHidden": true
+      }
+    },
+    {
+      "id": "INT-09",
+      "route": "product-inquiry",
+      "passed": true,
+      "evidence": {
+        "open": {
+          "open": true,
+          "ariaHidden": "false"
+        },
+        "closed": {
+          "open": false,
+          "ariaHidden": "true"
+        }
+      }
+    },
+    {
+      "id": "INT-10",
+      "route": "product-files-state",
+      "passed": true,
+      "evidence": {
+        "selected": "true",
+        "active": true
+      }
+    },
+    {
+      "id": "INT-11",
+      "route": "checkout-registration",
+      "passed": true,
+      "evidence": {
+        "open": {
+          "hidden": false,
+          "expanded": "true"
+        },
+        "closed": {
+          "hidden": true,
+          "expanded": "false"
+        }
+      }
+    },
+    {
+      "id": "INT-12",
+      "route": "runtime",
+      "passed": true,
+      "evidence": {
+        "pageErrors": []
+      }
+    }
+  ]
+}

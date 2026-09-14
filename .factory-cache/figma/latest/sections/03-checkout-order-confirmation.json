@@ -1,0 +1,86 @@
+{
+  "id": "checkout-order-confirmation",
+  "name": "dane",
+  "order": 3,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "493:1251"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 240,
+    "y": 576,
+    "width": 953,
+    "height": 824
+  },
+  "layout": {
+    "type": "native-order-confirmation",
+    "designContextRead": true
+  },
+  "contentFields": [
+    {
+      "id": "493:1254",
+      "text": "Zamówione przedmioty",
+      "link": null
+    },
+    {
+      "id": "493:1258",
+      "text": "Kod produktu:\n\nMetoda płatności:\n\nDostawa:",
+      "link": null
+    },
+    {
+      "id": "493:1318",
+      "text": "98899\n\nPrzelewy24\n\nShoper Przesyłki Kurier",
+      "link": null
+    },
+    {
+      "id": "493:1274",
+      "text": "Twoje zamówienie zostało złożone",
+      "link": null
+    },
+    {
+      "id": "493:1275",
+      "text": "Potwierdzenie zamówienia zostało wysłane na maila",
+      "link": null
+    },
+    {
+      "id": "493:1327",
+      "text": "Koszt dostawy:\n\nRabat:\n\nKoszt całkowity:",
+      "link": null
+    },
+    {
+      "id": "493:1329",
+      "text": "22,90 zł\n\n50 zł\n\n383, 90 zł",
+      "link": null
+    }
+  ],
+  "notes": [
+    "This is a completed-order confirmation, not a pre-submit review. Source says the order was placed and email sent.",
+    "Source labels Przelewy24 and Shoper Przesylki Kurier are evidence of the design only, not configured WooCommerce services."
+  ],
+  "liveFigmaRequired": false,
+  "typography": [
+    {
+      "nodeId": "493:1274",
+      "fontFamily": "DM Sans",
+      "fontWeight": 700,
+      "fontSize": 24
+    },
+    {
+      "nodeIds": [
+        "493:1254",
+        "493:1258",
+        "493:1327",
+        "493:1329"
+      ],
+      "fontFamily": "DM Sans"
+    }
+  ],
+  "assets": [
+    {
+      "sourceNodeId": "493:1252",
+      "path": "assets/checkout/order-confirmation-card.svg",
+      "usage": "order-confirmation-card-background"
+    }
+  ]
+}

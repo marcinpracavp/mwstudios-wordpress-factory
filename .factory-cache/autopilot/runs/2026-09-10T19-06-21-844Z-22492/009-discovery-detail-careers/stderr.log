@@ -1,0 +1,15 @@
+2026-09-11T01:31:26.584274Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+2026-09-11T01:31:29.302877Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh
+2026-09-11T01:31:43.004817Z ERROR codex_skills_extension::host_service: failed to install system skills: io error while remove existing system skills dir: Odmowa dostępu. (os error 5)
+2026-09-11T01:31:43.006389Z ERROR codex_skills_extension::host_service: failed to install system skills: io error while remove existing system skills dir: Odmowa dostępu. (os error 5)
+2026-09-11T01:31:43.059652Z ERROR codex_skills_extension::host_service: failed to install system skills: io error while remove existing system skills dir: Odmowa dostępu. (os error 5)
+2026-09-11T01:31:43.059796Z ERROR codex_skills_extension::host_service: failed to install system skills: io error while remove existing system skills dir: Odmowa dostępu. (os error 5)
+2026-09-11T01:31:43.060748Z ERROR codex_skills_extension::host_service: failed to install system skills: io error while remove existing system skills dir: Odmowa dostępu. (os error 5)
+2026-09-11T01:31:43.078272Z ERROR codex_skills_extension::host_service: failed to install system skills: io error while write system skill file: System nie może odnaleźć określonej ścieżki. (os error 3)
+2026-09-11T01:37:52.821512Z  WARN codex_analytics::client: events failed with status 503 Service Unavailable: upstream connect error or disconnect/reset before headers. retried and the latest reset reason: connection timeout
+2026-09-11T01:40:28.757864Z ERROR codex_core::tools::router: error=Exit code: 1
+Wall time: 0 seconds
+Output:
+Failed to delete file C:\Users\HP\Local Sites\autopilot\app\public\wp-content\themes\slawinsky-boilerplate\scripts\factory\project\capture-careers-source.js
+
+2026-09-11T01:40:59.505372Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (1/1 in 213ms)... turn_id=01a08e20-097d-7733-bd34-eb562007607c retries=1 max_retries=1 sampling_error=stream disconnected before completion: failed to send websocket request: Connection closed normally

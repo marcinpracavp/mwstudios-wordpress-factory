@@ -1,0 +1,79 @@
+{
+  "id": "bd8ded7cf3081605a9b9",
+  "tool": "use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "303:1283"
+  ],
+  "description": "Identify the archive sort control separately from the product list",
+  "recordedAt": "2026-09-11T10:12:17.318Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    [
+      {
+        "id": "420:6",
+        "name": "Rectangle 35",
+        "type": "RECTANGLE",
+        "x": 599,
+        "y": 4093,
+        "width": 149,
+        "height": 44,
+        "visible": true,
+        "children": []
+      },
+      {
+        "id": "420:7",
+        "name": "Rozwiń",
+        "type": "TEXT",
+        "x": 650,
+        "y": 4106,
+        "width": 48,
+        "height": 18,
+        "visible": true,
+        "children": []
+      },
+      {
+        "id": "303:1280",
+        "name": "sortowanie",
+        "type": "GROUP",
+        "x": 1457,
+        "y": 586,
+        "width": 223,
+        "height": 45,
+        "visible": true,
+        "children": [
+          {
+            "id": "295:743",
+            "name": "sortowanie",
+            "type": "RECTANGLE",
+            "x": 1457,
+            "y": 586,
+            "width": 223,
+            "height": 45,
+            "visible": true
+          },
+          {
+            "id": "295:746",
+            "name": "Vector 3",
+            "type": "VECTOR",
+            "x": 1658,
+            "y": 607.2426147460938,
+            "width": 6,
+            "height": 6,
+            "visible": true
+          },
+          {
+            "id": "295:744",
+            "name": "Domyślnie",
+            "type": "TEXT",
+            "x": 1477,
+            "y": 586,
+            "width": 203,
+            "height": 45,
+            "visible": true
+          }
+        ]
+      }
+    ]
+  ]
+}

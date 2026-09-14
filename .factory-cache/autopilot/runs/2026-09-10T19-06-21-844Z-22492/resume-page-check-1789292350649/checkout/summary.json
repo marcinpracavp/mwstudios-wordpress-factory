@@ -1,0 +1,92 @@
+{
+  "capturedAt": "2026-09-13T09:39:53.756Z",
+  "implementationHash": "40fbb11ec57fe27544fda6d4619279d96603615eeecc51146a1a698e7af53b12",
+  "sourceHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+  "thresholds": {
+    "channelTolerance": 24,
+    "maxDifferentPixelRatio": 0.085,
+    "geometryTolerancePx": 2
+  },
+  "acceptanceScope": "page",
+  "buildReady": true,
+  "deferred": [
+    {
+      "id": "checkout",
+      "progress": {
+        "deferred": true,
+        "samples": [
+          {
+            "file": "current capture",
+            "implementationHash": "40fbb11ec57fe27544fda6d4619279d96603615eeecc51146a1a698e7af53b12",
+            "capturedAt": "2026-09-13T09:39:17.040Z",
+            "ratio": 0.03560092097862767
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789281083498\\summary.json",
+            "implementationHash": "60276f1f88bb7be013fae26605475205e370cb6627bee8f9b15d9c59c08f1523",
+            "capturedAt": "2026-09-13T06:31:29.567Z",
+            "ratio": 0.03560092097862767
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789280949345\\summary.json",
+            "implementationHash": "ab3a6aeb2a3ec10e0a3cf8071fcc65523e506f962aa2bdd2942b5dc24c6b3763",
+            "capturedAt": "2026-09-13T06:29:15.395Z",
+            "ratio": 0.03758846550431196
+          }
+        ],
+        "improvement": 0.0019875445256842886,
+        "policy": {
+          "samples": 3,
+          "maxPageMismatch": 0.13,
+          "minImprovement": 0.03
+        },
+        "nonPixelErrors": [],
+        "reason": "Insufficient measured progress across distinct implementations; unresolved visual work belongs to final audit, not PASS."
+      },
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/resume-page-check-1789292350649/checkout/checkout/comparison.json"
+    }
+  ],
+  "passed": false,
+  "pagePassed": true,
+  "routes": [
+    {
+      "id": "checkout",
+      "passed": false,
+      "pagePassed": true,
+      "ownership": {
+        "header": {
+          "pixels": 629760,
+          "differentPixels": 29127,
+          "ratio": 0.04625095274390244
+        },
+        "footer": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "shared": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "page": {
+          "pixels": 3413760,
+          "differentPixels": 121533,
+          "ratio": 0.03560092097862767
+        },
+        "outside": {
+          "pixels": 1605120,
+          "differentPixels": 216173,
+          "ratio": 0.1346771580940989
+        },
+        "reused": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        }
+      },
+      "errors": [],
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/resume-page-check-1789292350649/checkout/checkout/comparison.json"
+    }
+  ]
+}

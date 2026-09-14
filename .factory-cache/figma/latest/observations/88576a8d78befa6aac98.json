@@ -1,0 +1,35 @@
+{
+  "id": "88576a8d78befa6aac98",
+  "tool": "figma.use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "326:2601"
+  ],
+  "description": "Read source content to identify native product or account state 326:2601",
+  "recordedAt": "2026-09-10T19:30:16.873Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "id": "326:2601",
+      "visible": true,
+      "texts": [
+        {
+          "id": "326:2614",
+          "text": "Opis produktu",
+          "link": null
+        },
+        {
+          "id": "326:2616",
+          "text": "Dane techniczne",
+          "link": null
+        },
+        {
+          "id": "326:2617",
+          "text": "Stosowanie",
+          "link": null
+        }
+      ],
+      "reactions": []
+    }
+  ]
+}

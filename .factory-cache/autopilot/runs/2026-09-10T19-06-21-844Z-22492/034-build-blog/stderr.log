@@ -1,0 +1,15 @@
+2026-09-12T07:08:14.644275Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+2026-09-12T07:08:16.981287Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh
+2026-09-12T07:20:30.428364Z ERROR codex_core::tools::router: error=unable to locate image at `C:\Users\HP\Local Sites\autopilot\app\repositories\slawinsky-boilerplate\.factory-cache\autopilot\previews\archive-pagination-rendered.png`: System nie może odnaleźć określonej ścieżki. (os error 3)
+2026-09-12T07:29:24.828010Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in C:\Users\HP\Local Sites\autopilot\app\public\wp-content\themes\slawinsky-boilerplate\scripts\factory\project\import-content.php:
+function ra_repair_source_encoding(string $value): string {
+    if ($value === '' || !preg_match('/[ÃƒÃ…Ã„Ã¢]/u', $value) || !function_exists('iconv')) { return $value; }
+    $bytes = iconv('UTF-8', 'Windows-1252//IGNORE', $value);
+    $fixed = is_string($bytes) ? iconv('UTF-8', 'UTF-8//IGNORE', $bytes) : false;
+    return is_string($fixed) && $fixed !== '' ? $fixed : $value;
+2026-09-12T07:30:17.790057Z ERROR codex_core::tools::router: error=This action was rejected due to unacceptable risk.
+Reason: The importer would unconditionally overwrite the article’s existing post content when the marker is absent, conflicting with the explicit requirement to preserve subsequent editor changes.
+The agent must not attempt to achieve the same outcome via workaround, indirect execution, or policy circumvention. Proceed only with a materially safer alternative, or if the user explicitly approves the action after being informed of the risk. Otherwise, stop and request user input.
+2026-09-12T07:32:43.027616Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in C:\Users\HP\Local Sites\autopilot\app\public\wp-content\themes\slawinsky-boilerplate\docs\factory\project\STATUS.md:
+## Catalogues build â€” in progress
+2026-09-12T07:33:14.117900Z  WARN codex_core::tasks: failed to flush rollout after emitting terminal turn event: thread 01a09461-b215-7a81-bc26-0a89c23afb56 not found

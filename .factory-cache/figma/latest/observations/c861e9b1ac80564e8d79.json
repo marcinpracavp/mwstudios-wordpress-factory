@@ -1,0 +1,1160 @@
+{
+  "id": "c861e9b1ac80564e8d79",
+  "tool": "figma.use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "496:1821",
+    "318:1556"
+  ],
+  "description": "Capture logical section product-overview for immediate snapshot persistence",
+  "recordedAt": "2026-09-10T19:40:00.993Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "nodeId": "496:1821",
+      "name": "dane produktu",
+      "type": "GROUP",
+      "desktop": {
+        "x": 968,
+        "y": 260,
+        "width": 712,
+        "height": 571
+      },
+      "children": [
+        {
+          "nodeId": "323:2086",
+          "type": "TEXT",
+          "visible": true,
+          "geometry": {
+            "x": 970,
+            "y": 327,
+            "width": 173,
+            "height": 64
+          }
+        },
+        {
+          "nodeId": "326:2217",
+          "type": "GROUP",
+          "visible": true,
+          "geometry": {
+            "x": 968,
+            "y": 713,
+            "width": 712,
+            "height": 118
+          }
+        },
+        {
+          "nodeId": "326:2219",
+          "type": "GROUP",
+          "visible": true,
+          "geometry": {
+            "x": 970,
+            "y": 636,
+            "width": 346,
+            "height": 44
+          }
+        },
+        {
+          "nodeId": "326:2216",
+          "type": "GROUP",
+          "visible": true,
+          "geometry": {
+            "x": 1092,
+            "y": 490,
+            "width": 224,
+            "height": 44
+          }
+        },
+        {
+          "nodeId": "326:2215",
+          "type": "GROUP",
+          "visible": true,
+          "geometry": {
+            "x": 970,
+            "y": 490,
+            "width": 102,
+            "height": 44
+          }
+        },
+        {
+          "nodeId": "496:1779",
+          "type": "GROUP",
+          "visible": true,
+          "geometry": {
+            "x": 970,
+            "y": 562,
+            "width": 60,
+            "height": 44
+          }
+        },
+        {
+          "nodeId": "496:1785",
+          "type": "GROUP",
+          "visible": true,
+          "geometry": {
+            "x": 1042,
+            "y": 562,
+            "width": 60,
+            "height": 44
+          }
+        },
+        {
+          "nodeId": "496:1789",
+          "type": "GROUP",
+          "visible": true,
+          "geometry": {
+            "x": 1114,
+            "y": 562,
+            "width": 60,
+            "height": 44
+          }
+        },
+        {
+          "nodeId": "323:2087",
+          "type": "TEXT",
+          "visible": true,
+          "geometry": {
+            "x": 968,
+            "y": 398,
+            "width": 252,
+            "height": 62
+          }
+        },
+        {
+          "nodeId": "323:2084",
+          "type": "TEXT",
+          "visible": true,
+          "geometry": {
+            "x": 970,
+            "y": 260,
+            "width": 467,
+            "height": 68
+          }
+        },
+        {
+          "nodeId": "422:254",
+          "type": "TEXT",
+          "visible": true,
+          "geometry": {
+            "x": 970,
+            "y": 456,
+            "width": 269,
+            "height": 16
+          }
+        },
+        {
+          "nodeId": "422:255",
+          "type": "TEXT",
+          "visible": true,
+          "geometry": {
+            "x": 1220,
+            "y": 421,
+            "width": 106,
+            "height": 31
+          }
+        },
+        {
+          "nodeId": "502:3",
+          "type": "TEXT",
+          "visible": true,
+          "geometry": {
+            "x": 1341,
+            "y": 425,
+            "width": 165,
+            "height": 26
+          }
+        }
+      ],
+      "texts": [
+        {
+          "nodeId": "323:2086",
+          "value": "Kod produktu: 98899\nProducent: Rudnikagro",
+          "geometry": {
+            "x": 970,
+            "y": 327,
+            "width": 173,
+            "height": 64
+          },
+          "segments": [
+            {
+              "characters": "Kod produktu: ",
+              "start": 0,
+              "end": 14,
+              "fontSize": 16,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 700,
+              "lineHeight": {
+                "unit": "PIXELS",
+                "value": 32
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            },
+            {
+              "characters": "98899\n",
+              "start": 14,
+              "end": 20,
+              "fontSize": 16,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 400,
+              "lineHeight": {
+                "unit": "PIXELS",
+                "value": 32
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            },
+            {
+              "characters": "Producent: ",
+              "start": 20,
+              "end": 31,
+              "fontSize": 16,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 700,
+              "lineHeight": {
+                "unit": "PIXELS",
+                "value": 32
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            },
+            {
+              "characters": "Rudnikagro",
+              "start": 31,
+              "end": 41,
+              "fontSize": 16,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 400,
+              "lineHeight": {
+                "unit": "PIXELS",
+                "value": 32
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            }
+          ]
+        },
+        {
+          "nodeId": "325:2195",
+          "value": "Dodaj do ulubionych",
+          "geometry": {
+            "x": 992,
+            "y": 783,
+            "width": 152,
+            "height": 32
+          },
+          "segments": [
+            {
+              "characters": "Dodaj do ulubionych",
+              "start": 0,
+              "end": 19,
+              "fontSize": 16,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 400,
+              "lineHeight": {
+                "unit": "PIXELS",
+                "value": 32
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            }
+          ]
+        },
+        {
+          "nodeId": "325:2193",
+          "value": "Chcesz poznać cenę hurtową dla tego produktu? Skontaktuj się!",
+          "geometry": {
+            "x": 992,
+            "y": 748,
+            "width": 473,
+            "height": 32
+          },
+          "segments": [
+            {
+              "characters": "Chcesz poznać cenę hurtową dla tego produktu? Skontaktuj się!",
+              "start": 0,
+              "end": 61,
+              "fontSize": 16,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 400,
+              "lineHeight": {
+                "unit": "PIXELS",
+                "value": 32
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            }
+          ]
+        },
+        {
+          "nodeId": "325:2178",
+          "value": "Ocena:",
+          "geometry": {
+            "x": 969,
+            "y": 713,
+            "width": 52,
+            "height": 32
+          },
+          "segments": [
+            {
+              "characters": "Ocena:",
+              "start": 0,
+              "end": 6,
+              "fontSize": 16,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 400,
+              "lineHeight": {
+                "unit": "PIXELS",
+                "value": 32
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            }
+          ]
+        },
+        {
+          "nodeId": "325:2172",
+          "value": "Zamienniki",
+          "geometry": {
+            "x": 990,
+            "y": 636,
+            "width": 308,
+            "height": 44
+          },
+          "segments": [
+            {
+              "characters": "Zamienniki",
+              "start": 0,
+              "end": 10,
+              "fontSize": 16,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 700,
+              "lineHeight": {
+                "unit": "AUTO"
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            }
+          ]
+        },
+        {
+          "nodeId": "324:2167",
+          "value": "Dodaj do koszyka",
+          "geometry": {
+            "x": 1142,
+            "y": 490,
+            "width": 156,
+            "height": 44
+          },
+          "segments": [
+            {
+              "characters": "Dodaj do koszyka",
+              "start": 0,
+              "end": 16,
+              "fontSize": 16,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 700,
+              "lineHeight": {
+                "unit": "AUTO"
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            }
+          ]
+        },
+        {
+          "nodeId": "324:2159",
+          "value": "1",
+          "geometry": {
+            "x": 1018,
+            "y": 502,
+            "width": 6,
+            "height": 21
+          },
+          "segments": [
+            {
+              "characters": "1",
+              "start": 0,
+              "end": 1,
+              "fontSize": 16,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 700,
+              "lineHeight": {
+                "unit": "AUTO"
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.11372549086809158,
+                    "g": 0.11372549086809158,
+                    "b": 0.10588235408067703
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            }
+          ]
+        },
+        {
+          "nodeId": "324:2160",
+          "value": "-",
+          "geometry": {
+            "x": 986,
+            "y": 503,
+            "width": 9,
+            "height": 18
+          },
+          "segments": [
+            {
+              "characters": "-",
+              "start": 0,
+              "end": 1,
+              "fontSize": 14,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 700,
+              "lineHeight": {
+                "unit": "AUTO"
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.11372549086809158,
+                    "g": 0.11372549086809158,
+                    "b": 0.10588235408067703
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            }
+          ]
+        },
+        {
+          "nodeId": "324:2161",
+          "value": "+",
+          "geometry": {
+            "x": 1048,
+            "y": 503,
+            "width": 9,
+            "height": 18
+          },
+          "segments": [
+            {
+              "characters": "+",
+              "start": 0,
+              "end": 1,
+              "fontSize": 14,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 700,
+              "lineHeight": {
+                "unit": "AUTO"
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.11372549086809158,
+                    "g": 0.11372549086809158,
+                    "b": 0.10588235408067703
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            }
+          ]
+        },
+        {
+          "nodeId": "496:1781",
+          "value": "1 L",
+          "geometry": {
+            "x": 970,
+            "y": 574,
+            "width": 60,
+            "height": 21
+          },
+          "segments": [
+            {
+              "characters": "1 L",
+              "start": 0,
+              "end": 3,
+              "fontSize": 16,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 700,
+              "lineHeight": {
+                "unit": "AUTO"
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.11372549086809158,
+                    "g": 0.11372549086809158,
+                    "b": 0.10588235408067703
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            }
+          ]
+        },
+        {
+          "nodeId": "496:1787",
+          "value": "5 L",
+          "geometry": {
+            "x": 1042,
+            "y": 574,
+            "width": 60,
+            "height": 21
+          },
+          "segments": [
+            {
+              "characters": "5 L",
+              "start": 0,
+              "end": 3,
+              "fontSize": 16,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 700,
+              "lineHeight": {
+                "unit": "AUTO"
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            }
+          ]
+        },
+        {
+          "nodeId": "496:1791",
+          "value": "20 L",
+          "geometry": {
+            "x": 1114,
+            "y": 574,
+            "width": 60,
+            "height": 21
+          },
+          "segments": [
+            {
+              "characters": "20 L",
+              "start": 0,
+              "end": 4,
+              "fontSize": 16,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 700,
+              "lineHeight": {
+                "unit": "AUTO"
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.11372549086809158,
+                    "g": 0.11372549086809158,
+                    "b": 0.10588235408067703
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            }
+          ]
+        },
+        {
+          "nodeId": "323:2087",
+          "value": "Cena: 411,00 zł",
+          "geometry": {
+            "x": 968,
+            "y": 398,
+            "width": 252,
+            "height": 62
+          },
+          "segments": [
+            {
+              "characters": "Cena: ",
+              "start": 0,
+              "end": 6,
+              "fontSize": 18,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 400,
+              "lineHeight": {
+                "unit": "AUTO"
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.11372549086809158,
+                    "g": 0.11372549086809158,
+                    "b": 0.10588235408067703
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            },
+            {
+              "characters": "411,00 zł",
+              "start": 6,
+              "end": 15,
+              "fontSize": 48,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 700,
+              "lineHeight": {
+                "unit": "AUTO"
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0,
+                    "g": 0.4000000059604645,
+                    "b": 0.20000000298023224
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            }
+          ]
+        },
+        {
+          "nodeId": "323:2084",
+          "value": "Aquatos 5L",
+          "geometry": {
+            "x": 970,
+            "y": 260,
+            "width": 467,
+            "height": 68
+          },
+          "segments": [
+            {
+              "characters": "Aquatos 5L",
+              "start": 0,
+              "end": 10,
+              "fontSize": 48,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 700,
+              "lineHeight": {
+                "unit": "AUTO"
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.02856878750026226,
+                    "g": 0.028846153989434242,
+                    "b": 0.02871447429060936
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            }
+          ]
+        },
+        {
+          "nodeId": "422:254",
+          "value": "Najniższa cena z 30 dni przed obniżką: 530,00 zł",
+          "geometry": {
+            "x": 970,
+            "y": 456,
+            "width": 269,
+            "height": 16
+          },
+          "segments": [
+            {
+              "characters": "Najniższa cena z 30 dni przed obniżką: 530,00 zł",
+              "start": 0,
+              "end": 48,
+              "fontSize": 12,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 400,
+              "lineHeight": {
+                "unit": "AUTO"
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.11372549086809158,
+                    "g": 0.11372549086809158,
+                    "b": 0.10588235408067703
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            }
+          ]
+        },
+        {
+          "nodeId": "422:255",
+          "value": "530,00 zł",
+          "geometry": {
+            "x": 1220,
+            "y": 421,
+            "width": 106,
+            "height": 31
+          },
+          "segments": [
+            {
+              "characters": "530,00 zł",
+              "start": 0,
+              "end": 9,
+              "fontSize": 24,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 400,
+              "lineHeight": {
+                "unit": "AUTO"
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.11372549086809158,
+                    "g": 0.11372549086809158,
+                    "b": 0.10588235408067703
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            }
+          ]
+        },
+        {
+          "nodeId": "502:3",
+          "value": "(w tym 23% VAT)",
+          "geometry": {
+            "x": 1341,
+            "y": 425,
+            "width": 165,
+            "height": 26
+          },
+          "segments": [
+            {
+              "characters": "(w tym 23% VAT)",
+              "start": 0,
+              "end": 15,
+              "fontSize": 20,
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700,
+                  "opsz": 14
+                }
+              },
+              "fontWeight": 700,
+              "lineHeight": {
+                "unit": "AUTO"
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "hyperlink": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

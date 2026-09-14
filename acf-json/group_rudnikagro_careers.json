@@ -1,0 +1,35 @@
+{
+  "key": "group_rudnikagro_careers",
+  "title": "RudnikAgro — Kariera",
+  "fields": [
+    {"key":"field_ra_careers_tab_banner","label":"Baner","name":"rudnikagro_tab_careers_banner","type":"tab","placement":"top"},
+    {"key":"field_ra_careers_banner","label":"Baner strony","name":"rudnikagro_page_banner","type":"group","layout":"block","sub_fields":[
+      {"key":"field_ra_careers_banner_title","label":"Tytuł","name":"title","type":"text"},
+      {"key":"field_ra_careers_banner_breadcrumb","label":"Breadcrumb","name":"breadcrumb","type":"text"},
+      {"key":"field_ra_careers_banner_image","label":"Obraz","name":"image","type":"image","return_format":"id","library":"all"}
+    ]},
+    {"key":"field_ra_careers_tab_vacancies","label":"Oferty pracy","name":"rudnikagro_tab_careers_vacancies","type":"tab","placement":"top"},
+    {"key":"field_ra_careers_vacancies","label":"Oferty pracy","name":"rudnikagro_vacancies","type":"repeater","layout":"block","button_label":"Dodaj ofertę","sub_fields":[
+      {"key":"field_ra_careers_vacancy_title","label":"Tytuł","name":"title","type":"text"},
+      {"key":"field_ra_careers_vacancy_description","label":"Opis","name":"description","type":"wysiwyg","tabs":"all","toolbar":"full","media_upload":0},
+      {"key":"field_ra_careers_vacancy_form","label":"Formularz aplikacyjny","name":"application_form","type":"post_object","post_type":["wpcf7_contact_form"],"return_format":"id","ui":1}
+    ]},
+    {"key":"field_ra_careers_tab_application","label":"Formularz aplikacyjny","name":"rudnikagro_tab_careers_application","type":"tab","placement":"top"},
+    {"key":"field_ra_careers_application","label":"Formularz aplikacyjny","name":"rudnikagro_application_form","type":"post_object","post_type":["wpcf7_contact_form"],"return_format":"id","ui":1},
+    {"key":"field_ra_careers_tab_cta","label":"CTA","name":"rudnikagro_tab_careers_cta","type":"tab","placement":"top"},
+    {"key":"field_ra_careers_cta","label":"CTA Kariera","name":"rudnikagro_careers_cta","type":"group","layout":"block","sub_fields":[
+      {"key":"field_ra_careers_cta_heading","label":"Nagłówek","name":"heading","type":"text"},
+      {"key":"field_ra_careers_cta_button","label":"Etykieta przycisku","name":"button_label","type":"text"},
+      {"key":"field_ra_careers_cta_background","label":"Tło","name":"background","type":"image","return_format":"id","library":"all"}
+    ]}
+  ],
+  "location": [[{"param":"page_template","operator":"==","value":"page-careers.php"}]],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "active": true,
+  "show_in_rest": 0,
+  "modified": 1780000200
+}

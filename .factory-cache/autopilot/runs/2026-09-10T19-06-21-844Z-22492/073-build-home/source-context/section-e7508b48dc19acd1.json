@@ -1,0 +1,144 @@
+{
+  "id": "home-benefits",
+  "manifestRecord": {
+    "id": "home-benefits",
+    "name": "pasek korzy?ci",
+    "order": 17,
+    "pageId": "0:1",
+    "snapshot": "sections/17-home-benefits.json",
+    "desktopNodeId": "130:133",
+    "desktopReference": "references/sections/home-benefits.png"
+  },
+  "contentFields": [
+    {
+      "section": "home-benefits",
+      "nodeId": "102:112",
+      "fieldName": "rudnikagro_home_benefits_102_112",
+      "type": "text",
+      "language": "pl",
+      "value": "Oryginalne\nprodukty",
+      "destination": "ACF front page / benefits tab / benefit title, description and icon rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "102:112"
+      }
+    },
+    {
+      "section": "home-benefits",
+      "nodeId": "102:116",
+      "fieldName": "rudnikagro_home_benefits_102_116",
+      "type": "text",
+      "language": "pl",
+      "value": "Szybka\ndostawa",
+      "destination": "ACF front page / benefits tab / benefit title, description and icon rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "102:116"
+      }
+    },
+    {
+      "section": "home-benefits",
+      "nodeId": "102:118",
+      "fieldName": "rudnikagro_home_benefits_102_118",
+      "type": "text",
+      "language": "pl",
+      "value": "Korzystne\nceny",
+      "destination": "ACF front page / benefits tab / benefit title, description and icon rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "102:118"
+      }
+    },
+    {
+      "section": "home-benefits",
+      "nodeId": "102:120",
+      "fieldName": "rudnikagro_home_benefits_102_120",
+      "type": "text",
+      "language": "pl",
+      "value": "Ta?sze\npakiety produktowe",
+      "destination": "ACF front page / benefits tab / benefit title, description and icon rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "102:120"
+      }
+    },
+    {
+      "section": "home-benefits",
+      "nodeId": "102:113",
+      "fieldName": "rudnikagro_home_benefits_102_113",
+      "type": "text",
+      "language": "pl",
+      "value": "Do 5 lat\ngwarancji na produkty",
+      "destination": "ACF front page / benefits tab / benefit title, description and icon rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "102:113"
+      }
+    },
+    {
+      "section": "home-benefits",
+      "nodeId": "161:174",
+      "fieldName": "rudnikagro_home_benefits_media_161_174",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/161-174-oryginalneprodukty1.svg",
+      "destination": "ACF front page / benefits tab / benefit title, description and icon rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "161:174"
+      }
+    },
+    {
+      "section": "home-benefits",
+      "nodeId": "222:92",
+      "fieldName": "rudnikagro_home_benefits_media_222_92",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/222-92-gwarancja2.svg",
+      "destination": "ACF front page / benefits tab / benefit title, description and icon rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "222:92"
+      }
+    },
+    {
+      "section": "home-benefits",
+      "nodeId": "161:186",
+      "fieldName": "rudnikagro_home_benefits_media_161_186",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/161-186-dostawa1.svg",
+      "destination": "ACF front page / benefits tab / benefit title, description and icon rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "161:186"
+      }
+    },
+    {
+      "section": "home-benefits",
+      "nodeId": "161:192",
+      "fieldName": "rudnikagro_home_benefits_media_161_192",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/161-192-ceny1.svg",
+      "destination": "ACF front page / benefits tab / benefit title, description and icon rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "161:192"
+      }
+    },
+    {
+      "section": "home-benefits",
+      "nodeId": "161:198",
+      "fieldName": "rudnikagro_home_benefits_media_161_198",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/161-198-pakiety1.svg",
+      "destination": "ACF front page / benefits tab / benefit title, description and icon rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "161:198"
+      }
+    }
+  ]
+}

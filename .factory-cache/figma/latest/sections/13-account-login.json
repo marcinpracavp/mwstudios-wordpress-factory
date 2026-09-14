@@ -1,0 +1,441 @@
+{
+  "id": "account-login",
+  "name": "logowanie",
+  "order": 13,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "524:195"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 240,
+    "y": 331,
+    "width": 710,
+    "height": 425
+  },
+  "layout": {
+    "type": "native-commerce",
+    "subnodes": [
+      {
+        "nodeId": "524:196",
+        "type": "VECTOR",
+        "visible": true,
+        "geometry": {
+          "x": 240,
+          "y": 331,
+          "width": 710,
+          "height": 425
+        }
+      },
+      {
+        "nodeId": "524:197",
+        "type": "TEXT",
+        "visible": true,
+        "geometry": {
+          "x": 280,
+          "y": 376,
+          "width": 287,
+          "height": 38
+        }
+      },
+      {
+        "nodeId": "524:198",
+        "type": "TEXT",
+        "visible": true,
+        "geometry": {
+          "x": 319,
+          "y": 577,
+          "width": 360,
+          "height": 35
+        }
+      },
+      {
+        "nodeId": "524:199",
+        "type": "RECTANGLE",
+        "visible": true,
+        "geometry": {
+          "x": 280,
+          "y": 581,
+          "width": 25,
+          "height": 25
+        }
+      },
+      {
+        "nodeId": "524:200",
+        "type": "GROUP",
+        "visible": true,
+        "geometry": {
+          "x": 448,
+          "y": 655,
+          "width": 223,
+          "height": 44
+        }
+      },
+      {
+        "nodeId": "524:203",
+        "type": "GROUP",
+        "visible": true,
+        "geometry": {
+          "x": 280,
+          "y": 655,
+          "width": 144.94358825683594,
+          "height": 44
+        }
+      },
+      {
+        "nodeId": "524:206",
+        "type": "RECTANGLE",
+        "visible": true,
+        "geometry": {
+          "x": 281,
+          "y": 438,
+          "width": 588,
+          "height": 43
+        }
+      },
+      {
+        "nodeId": "524:207",
+        "type": "TEXT",
+        "visible": true,
+        "geometry": {
+          "x": 296,
+          "y": 438,
+          "width": 309,
+          "height": 43
+        }
+      },
+      {
+        "nodeId": "524:208",
+        "type": "RECTANGLE",
+        "visible": true,
+        "geometry": {
+          "x": 281,
+          "y": 509,
+          "width": 588,
+          "height": 43
+        }
+      },
+      {
+        "nodeId": "524:209",
+        "type": "TEXT",
+        "visible": true,
+        "geometry": {
+          "x": 296,
+          "y": 509,
+          "width": 309,
+          "height": 43
+        }
+      }
+    ],
+    "designContextRead": true
+  },
+  "typography": [
+    {
+      "nodeId": "524:197",
+      "value": "Zaloguj się",
+      "geometry": {
+        "x": 280,
+        "y": 376,
+        "width": 287,
+        "height": 38
+      },
+      "segments": [
+        {
+          "characters": "Zaloguj się",
+          "start": 0,
+          "end": 11,
+          "fontSize": 24,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 700,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.02856878750026226,
+                "g": 0.028846153989434242,
+                "b": 0.02871447429060936
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "nodeId": "524:198",
+      "value": "Zapamiętaj mnie",
+      "geometry": {
+        "x": 319,
+        "y": 577,
+        "width": 360,
+        "height": 35
+      },
+      "segments": [
+        {
+          "characters": "Zapamiętaj mnie",
+          "start": 0,
+          "end": 15,
+          "fontSize": 14,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 400,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "nodeId": "524:202",
+      "value": "Nie pamiętam hasła",
+      "geometry": {
+        "x": 448.9951171875,
+        "y": 655,
+        "width": 222.0044708251953,
+        "height": 44
+      },
+      "segments": [
+        {
+          "characters": "Nie pamiętam hasła",
+          "start": 0,
+          "end": 18,
+          "fontSize": 16,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 700,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "nodeId": "524:205",
+      "value": "Zaloguj się",
+      "geometry": {
+        "x": 280.7998046875,
+        "y": 655,
+        "width": 144.14279174804688,
+        "height": 44
+      },
+      "segments": [
+        {
+          "characters": "Zaloguj się",
+          "start": 0,
+          "end": 11,
+          "fontSize": 16,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 700,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "nodeId": "524:207",
+      "value": "E-mail",
+      "geometry": {
+        "x": 296,
+        "y": 438,
+        "width": 309,
+        "height": 43
+      },
+      "segments": [
+        {
+          "characters": "E-mail",
+          "start": 0,
+          "end": 6,
+          "fontSize": 14,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 400,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.7836538553237915,
+                "g": 0.7836538553237915,
+                "b": 0.7836538553237915
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "nodeId": "524:209",
+      "value": "Hasło",
+      "geometry": {
+        "x": 296,
+        "y": 509,
+        "width": 309,
+        "height": 43
+      },
+      "segments": [
+        {
+          "characters": "Hasło",
+          "start": 0,
+          "end": 5,
+          "fontSize": 14,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 400,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.7836538553237915,
+                "g": 0.7836538553237915,
+                "b": 0.7836538553237915
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "sourceNodeId": "524:196",
+      "path": "assets/account/account-login-panel.svg",
+      "usage": "login panel surface",
+      "sha256": "019f3d32aaac633e8b96c3b875897bbe66ca1dfcba111930f2644a66266c3095"
+    }
+  ],
+  "notes": [
+    "Native WooCommerce login state; password-reset destination was not captured as a Figma hyperlink or reaction.",
+    "Figma MCP design context and actual panel SVG bytes are preserved for offline implementation."
+  ],
+  "liveFigmaRequired": false
+}

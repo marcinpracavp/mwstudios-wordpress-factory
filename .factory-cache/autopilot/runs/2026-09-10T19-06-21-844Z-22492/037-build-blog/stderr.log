@@ -1,0 +1,5 @@
+2026-09-12T08:33:11.349086Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+2026-09-12T08:33:13.698452Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh
+2026-09-12T08:36:32.018862Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (1/1 in 187ms)... turn_id=01a094c2-d63e-79d3-ac41-a28762f112bd retries=1 max_retries=1 sampling_error=stream disconnected before completion: failed to send websocket request: Connection closed normally
+2026-09-12T08:44:24.995529Z ERROR codex_core::session: failed to record rollout items: thread 01a094bf-c61c-70d0-a83e-5c12b089d728 not found
+2026-09-12T08:44:24.998061Z ERROR codex_core::session: failed to record rollout items: thread 01a094bf-c61c-70d0-a83e-5c12b089d728 not found

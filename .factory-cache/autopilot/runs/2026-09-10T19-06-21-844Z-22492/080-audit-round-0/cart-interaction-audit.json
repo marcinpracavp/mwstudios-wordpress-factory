@@ -1,0 +1,17 @@
+{
+  "browser": "Google Chrome",
+  "generatedAt": "2026-09-13T20:23:11.466Z",
+  "sessionOnly": true,
+  "submittedCartUpdate": false,
+  "placedOrder": false,
+  "result": {
+    "id": "INT-13",
+    "route": "cart",
+    "passed": true,
+    "evidence": {
+      "before": 1,
+      "increased": 2,
+      "restored": 1
+    }
+  }
+}

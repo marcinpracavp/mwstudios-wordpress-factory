@@ -1,0 +1,131 @@
+{
+  "id": "shared-primary-navigation-active",
+  "manifestRecord": {
+    "id": "shared-primary-navigation-active",
+    "name": "mega menu",
+    "order": 16,
+    "pageId": "0:1",
+    "snapshot": "sections/16-shared-primary-navigation-active.json",
+    "desktopNodeId": "250:728",
+    "desktopReference": "references/sections/shared-primary-navigation-active.png"
+  },
+  "contentFields": [
+    {
+      "section": "shared-primary-navigation-active",
+      "nodeId": "250:754",
+      "fieldName": "rudnikagro_shared_primary_navigation_active_250_754",
+      "type": "text",
+      "language": "pl",
+      "value": "Herbicydy\nFungicydy\nInsektycydy\nRegulatory\nZaprawy\nAdiuwanty",
+      "destination": "ACF options / primary navigation / submenu rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "250:754"
+      }
+    },
+    {
+      "section": "shared-primary-navigation-active",
+      "nodeId": "250:762",
+      "fieldName": "rudnikagro_shared_primary_navigation_active_250_762",
+      "type": "text",
+      "language": "pl",
+      "value": "Zbo?a\nRzepak\nKukurydza\nBuraki\nZiemniaki\nWarzywa",
+      "destination": "ACF options / primary navigation / submenu rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "250:762"
+      }
+    },
+    {
+      "section": "shared-primary-navigation-active",
+      "nodeId": "250:763",
+      "fieldName": "rudnikagro_shared_primary_navigation_active_250_763",
+      "type": "text",
+      "language": "pl",
+      "value": "Str?czkowe\nJagodniki\nSady\nOwoce mi?kkie",
+      "destination": "ACF options / primary navigation / submenu rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "250:763"
+      }
+    },
+    {
+      "section": "shared-primary-navigation-active",
+      "nodeId": "I574:5;93:29",
+      "fieldName": "rudnikagro_shared_primary_navigation_active_I574_5;93:29",
+      "type": "text",
+      "language": "pl",
+      "value": "?rodki ochrony ro?lin     Handel r?wnoleg?y ? Zamienniki     Nawozy i dodatki     Biostymulatory      Nasiona     Promocje     Nowo?ci     Pakiety",
+      "destination": "ACF options / primary navigation / submenu rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "I574:5;93:29"
+      }
+    },
+    {
+      "section": "shared-primary-navigation-active",
+      "nodeId": "250:729",
+      "fieldName": "rudnikagro_shared_primary_navigation_active_media_250_729",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/250-729-logo1.svg",
+      "destination": "ACF options / primary navigation / submenu rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "250:729"
+      }
+    },
+    {
+      "section": "shared-primary-navigation-active",
+      "nodeId": "250:752",
+      "fieldName": "rudnikagro_shared_primary_navigation_active_media_250_752",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/250-752-rectangle43.svg",
+      "destination": "ACF options / primary navigation / submenu rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "250:752"
+      }
+    },
+    {
+      "section": "shared-primary-navigation-active",
+      "nodeId": "250:755",
+      "fieldName": "rudnikagro_shared_primary_navigation_active_media_250_755",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/250-755-vector1.svg",
+      "destination": "ACF options / primary navigation / submenu rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "250:755"
+      }
+    },
+    {
+      "section": "shared-primary-navigation-active",
+      "nodeId": "250:764",
+      "fieldName": "rudnikagro_shared_primary_navigation_active_media_250_764",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/250-764-line7.svg",
+      "destination": "ACF options / primary navigation / submenu rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "250:764"
+      }
+    },
+    {
+      "section": "shared-primary-navigation-active",
+      "nodeId": "250:765",
+      "fieldName": "rudnikagro_shared_primary_navigation_active_media_250_765",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/250-765-rectangle31.svg",
+      "destination": "ACF options / primary navigation / submenu rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "250:765"
+      }
+    }
+  ]
+}

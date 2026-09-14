@@ -78,6 +78,35 @@ class App {
             });
         }
     }
+
+    initPrimaryMenu() {
+        const toggle = document.querySelector('[data-primary-menu-toggle]');
+        const menu = document.querySelector('#primary-mega-menu');
+        if (!toggle || !menu) return;
+        const close = () => {
+            menu.hidden = true;
+            toggle.setAttribute('aria-expanded', 'false');
+            document.body.classList.remove('primary-menu-open');
+        };
+        const open = () => {
+            menu.hidden = false;
+            toggle.setAttribute('aria-expanded', 'true');
+            document.body.classList.add('primary-menu-open');
+        };
+        toggle.addEventListener('click', () => menu.hidden ? open() : close());
+        document.addEventListener('keydown', (event) => { if (event.key === 'Escape') close(); });
+        document.addEventListener('click', (event) => {
+            if (!menu.hidden && !menu.contains(event.target) && !toggle.contains(event.target)) close();
+        });
+        menu.querySelectorAll('[data-mega-category]').forEach((item) => item.addEventListener('click', () => {
+            menu.querySelectorAll('[data-mega-category]').forEach((button) => { button.setAttribute('aria-selected', 'false'); button.tabIndex = -1; });
+            item.setAttribute('aria-selected', 'true'); item.tabIndex = 0;
+        }));
+        menu.querySelectorAll('[data-mega-crop]').forEach((item) => item.addEventListener('click', () => {
+            menu.querySelectorAll('[data-mega-crop]').forEach((button) => button.setAttribute('aria-pressed', 'false'));
+            item.setAttribute('aria-pressed', 'true');
+        }));
+    }
     
     /**
      * Execute on page ready
@@ -96,6 +125,7 @@ class App {
         this.initHeadroom();
         this.initViewer();
         this.activeClassToggler();
+        this.initPrimaryMenu();
         this.pageReady();
     }
 }
@@ -113,4 +143,3 @@ function requireAll(r) {
 
 // Import wszystkich plików JS z aktualnego folderu (oprócz lib/ i _app.js)
 requireAll(require.context('./', false, /^(?!.*\/_app\.js$).*\.js$/));
- 

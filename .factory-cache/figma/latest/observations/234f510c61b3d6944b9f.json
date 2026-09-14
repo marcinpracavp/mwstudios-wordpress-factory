@@ -1,0 +1,170 @@
+{
+  "id": "234f510c61b3d6944b9f",
+  "tool": "use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [],
+  "description": "Read only the exact source nodes for the contact heading section and their visual properties.",
+  "recordedAt": "2026-09-11T08:44:47.194Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    [
+      {
+        "id": "335:702",
+        "name": "Rectangle 111",
+        "type": "RECTANGLE",
+        "parent": {
+          "id": "335:591",
+          "name": "kontakt",
+          "type": "FRAME"
+        },
+        "bounds": {
+          "x": 11476,
+          "y": 3626,
+          "width": 1440,
+          "height": 150
+        },
+        "fills": [
+          {
+            "type": "IMAGE",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "scaleMode": "FILL",
+            "scalingFactor": 0.5,
+            "rotation": 0,
+            "filters": {
+              "exposure": 0,
+              "contrast": 0,
+              "saturation": 0,
+              "temperature": 0,
+              "tint": 0,
+              "highlights": 0,
+              "shadows": 0
+            },
+            "imageTransform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "imageHash": "f370ec4cc703e9a97bca17d78a8445bf3e6c2926"
+          }
+        ],
+        "strokes": [],
+        "effects": [],
+        "opacity": 1,
+        "cornerRadius": 30,
+        "characters": null,
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "lineHeight": null,
+        "letterSpacing": null,
+        "textAlignHorizontal": null,
+        "textAlignVertical": null
+      },
+      {
+        "id": "335:703",
+        "name": "Kontakt",
+        "type": "TEXT",
+        "parent": {
+          "id": "335:591",
+          "name": "kontakt",
+          "type": "FRAME"
+        },
+        "bounds": {
+          "x": 12084,
+          "y": 3626,
+          "width": 224,
+          "height": 150
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [],
+        "effects": [],
+        "opacity": 1,
+        "cornerRadius": null,
+        "characters": "Kontakt",
+        "fontName": {
+          "family": "DM Sans",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700,
+            "opsz": 14
+          }
+        },
+        "fontSize": 48,
+        "fontWeight": 700,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 24
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "CENTER"
+      },
+      {
+        "id": "335:592",
+        "name": "Strona główna / Kontakt",
+        "type": "TEXT",
+        "parent": {
+          "id": "335:591",
+          "name": "kontakt",
+          "type": "FRAME"
+        },
+        "bounds": {
+          "x": 11476,
+          "y": 3776,
+          "width": 508,
+          "height": 70
+        },
+        "strokes": [],
+        "effects": [],
+        "opacity": 1,
+        "cornerRadius": null,
+        "characters": "Strona główna  /  Kontakt",
+        "fontName": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 34
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "textAlignHorizontal": "LEFT",
+        "textAlignVertical": "CENTER"
+      }
+    ]
+  ]
+}

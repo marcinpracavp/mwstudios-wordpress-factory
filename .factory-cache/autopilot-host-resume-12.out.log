@@ -1,0 +1,9 @@
+2026-09-11T09:37:50.902Z START discovery:detail-cart [gpt-5.6-terra high] (.factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/017-discovery-detail-cart)
+2026-09-11T09:48:03.713Z DONE discovery:detail-cart
+2026-09-11T09:48:03.798Z START discovery:detail-checkout [gpt-5.6-terra high] (.factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/018-discovery-detail-checkout)
+2026-09-11T10:04:52.663Z START discovery:detail-checkout [gpt-5.6-terra high] (.factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/019-discovery-detail-checkout)
+2026-09-11T10:06:44.607Z DONE discovery:detail-checkout
+2026-09-11T10:06:44.665Z START discovery:detail-product-archive [gpt-5.6-terra high] (.factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/020-discovery-detail-product-archive)
+2026-09-11T10:23:53.695Z DONE discovery:detail-product-archive
+2026-09-11T10:23:53.749Z START discovery:detail-account [gpt-5.6-terra high] (.factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/021-discovery-detail-account)
+2026-09-11T10:33:34.554Z DONE discovery:detail-account

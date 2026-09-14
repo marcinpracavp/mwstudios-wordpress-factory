@@ -1,0 +1,161 @@
+{
+  "task": {
+    "id": "cart"
+  },
+  "sourceContext": {
+    "version": 6,
+    "available": true,
+    "index": {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/059-build-cart/source-context/index.json",
+      "bytes": 1391,
+      "sha256": "24843ea2249483c04959e65399d416ec5454634083b47ddb8749cf5166c1978c"
+    }
+  },
+  "model": "gpt-5.6-terra",
+  "reasoningEffort": "high",
+  "continuation": "fresh session using persisted artifacts; do not load historical conversation",
+  "previousExecution": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/058-build-cart/execution.json",
+  "previousResult": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/058-build-cart/result.json",
+  "correctionFocus": [
+    {
+      "evidence": {
+        "path": ".factory-cache/autopilot/visual-1789275241517/cart/comparison.json",
+        "bytes": 13451,
+        "sha256": "b4f6dbc9719c0d0175e09720fdc7bacc9db1406686fa43b2033a719b9bb65daa"
+      },
+      "route": "cart",
+      "capturedAt": "2026-09-13T04:54:07.523Z",
+      "ownership": {
+        "header": {
+          "pixels": 372480,
+          "differentPixels": 21869,
+          "ratio": 0.05871187714776632
+        },
+        "footer": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "shared": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "page": {
+          "pixels": 1107840,
+          "differentPixels": 227002,
+          "ratio": 0.20490504043905258
+        },
+        "outside": {
+          "pixels": 1676160,
+          "differentPixels": 660008,
+          "ratio": 0.39376193203512794
+        },
+        "reused": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        }
+      },
+      "fullMismatch": 0.2879406807583131,
+      "sections": [
+        {
+          "id": "cart-totals",
+          "pixelMismatch": 0.3270877378435518,
+          "geometryPassed": false,
+          "geometryDelta": {
+            "x": null,
+            "y": null,
+            "width": null,
+            "height": null
+          },
+          "approximateDifferentPixels": 222786
+        },
+        {
+          "id": "cart-lines",
+          "pixelMismatch": 0.3205753760055964,
+          "geometryPassed": false,
+          "geometryDelta": {
+            "x": null,
+            "y": null,
+            "width": null,
+            "height": null
+          },
+          "approximateDifferentPixels": 73322
+        },
+        {
+          "id": "cart-heading",
+          "pixelMismatch": 0.11207330898097997,
+          "geometryPassed": false,
+          "geometryDelta": {
+            "x": null,
+            "y": null,
+            "width": null,
+            "height": null
+          },
+          "approximateDifferentPixels": 3559
+        }
+      ],
+      "instruction": "Historical priority only: confirm current screenshots first. Start with the section contributing the most different pixels, inspect its exact pair/crops and internal element typography/borders/images, then correct and recapture. Passing outer geometry does not prove matching inner content. Nested section counts overlap; do not sum them. Keep source references and acceptance thresholds unchanged."
+    }
+  ],
+  "currentPageVerification": {
+    "routes": [
+      {
+        "id": "cart",
+        "passed": false,
+        "pagePassed": false,
+        "ownership": {
+          "header": {
+            "pixels": 372480,
+            "differentPixels": 21869,
+            "ratio": 0.05871187714776632
+          },
+          "footer": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "shared": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "page": {
+            "pixels": 1107840,
+            "differentPixels": 227002,
+            "ratio": 0.20490504043905258
+          },
+          "outside": {
+            "pixels": 1676160,
+            "differentPixels": 660008,
+            "ratio": 0.39376193203512794
+          },
+          "reused": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          }
+        },
+        "errors": [
+          "page pixel mismatch 20.491%",
+          "Section geometry differs: cart-heading",
+          "Section geometry differs: cart-lines",
+          "Section geometry differs: cart-totals"
+        ],
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/058-build-cart/build-readiness/cart/cart/comparison.json"
+      }
+    ],
+    "instruction": "Fresh host checks for all sibling routes. Repair only failed assigned routes."
+  },
+  "snapshot": ".factory-cache/figma/latest",
+  "observations": ".factory-cache/figma/latest/observations/index.json",
+  "plans": [
+    "docs/factory/project/PLAN.md",
+    "docs/factory/project/STATUS.md",
+    "docs/factory/project/SOURCE_CLARIFICATIONS.md",
+    "docs/factory/project/REUSABLE_COMPONENTS.md"
+  ],
+  "currentGate": null,
+  "instruction": "Inspect the current gate and finish only remaining assigned work. Reuse real saved source facts and assets."
+}

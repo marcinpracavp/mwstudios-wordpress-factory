@@ -1,0 +1,234 @@
+{
+  "id": "account-registration-dialog",
+  "manifestRecord": {
+    "id": "account-registration-dialog",
+    "name": "popup",
+    "order": 12,
+    "pageId": "0:1",
+    "snapshot": "sections/12-account-registration-dialog.json",
+    "desktopNodeId": "496:1722",
+    "desktopReference": "references/sections/account-registration-dialog.png"
+  },
+  "contentFields": [
+    {
+      "section": "account-registration-dialog",
+      "nodeId": "509:246",
+      "fieldName": "rudnikagro_account_registration_dialog_509_246",
+      "type": "text",
+      "language": "pl",
+      "value": "ImiÄ™*",
+      "destination": "Native WooCommerce customer registration with approved consent fields",
+      "linkEvidence": [
+        {
+          "characters": "ImiÄ™*",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "509:246"
+      }
+    },
+    {
+      "section": "account-registration-dialog",
+      "nodeId": "509:249",
+      "fieldName": "rudnikagro_account_registration_dialog_509_249",
+      "type": "text",
+      "language": "pl",
+      "value": "Nazwisko*",
+      "destination": "Native WooCommerce customer registration with approved consent fields",
+      "linkEvidence": [
+        {
+          "characters": "Nazwisko*",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "509:249"
+      }
+    },
+    {
+      "section": "account-registration-dialog",
+      "nodeId": "509:252",
+      "fieldName": "rudnikagro_account_registration_dialog_509_252",
+      "type": "text",
+      "language": "pl",
+      "value": "Adres e-mail*",
+      "destination": "Native WooCommerce customer registration with approved consent fields",
+      "linkEvidence": [
+        {
+          "characters": "Adres e-mail*",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "509:252"
+      }
+    },
+    {
+      "section": "account-registration-dialog",
+      "nodeId": "509:255",
+      "fieldName": "rudnikagro_account_registration_dialog_509_255",
+      "type": "text",
+      "language": "pl",
+      "value": "HasÅ‚o*",
+      "destination": "Native WooCommerce customer registration with approved consent fields",
+      "linkEvidence": [
+        {
+          "characters": "HasÅ‚o*",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "509:255"
+      }
+    },
+    {
+      "section": "account-registration-dialog",
+      "nodeId": "509:258",
+      "fieldName": "rudnikagro_account_registration_dialog_509_258",
+      "type": "text",
+      "language": "pl",
+      "value": "PowtÃ³rz hasÅ‚o*",
+      "destination": "Native WooCommerce customer registration with approved consent fields",
+      "linkEvidence": [
+        {
+          "characters": "PowtÃ³rz hasÅ‚o*",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "509:258"
+      }
+    },
+    {
+      "section": "account-registration-dialog",
+      "nodeId": "496:1728",
+      "fieldName": "rudnikagro_account_registration_dialog_496_1728",
+      "type": "text",
+      "language": "pl",
+      "value": "Zarejestruj siÄ™",
+      "destination": "Native WooCommerce customer registration with approved consent fields",
+      "linkEvidence": [
+        {
+          "characters": "Zarejestruj siÄ™",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "496:1728"
+      }
+    },
+    {
+      "section": "account-registration-dialog",
+      "nodeId": "496:1760",
+      "fieldName": "rudnikagro_account_registration_dialog_496_1760",
+      "type": "text",
+      "language": "pl",
+      "value": "*Pola wymagane",
+      "destination": "Native WooCommerce customer registration with approved consent fields",
+      "linkEvidence": [
+        {
+          "characters": "*Pola wymagane",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "496:1760"
+      }
+    },
+    {
+      "section": "account-registration-dialog",
+      "nodeId": "496:1758",
+      "fieldName": "rudnikagro_account_registration_dialog_496_1758",
+      "type": "text",
+      "language": "pl",
+      "value": "Uwaga: HasÅ‚o musi skÅ‚adaÄ‡ siÄ™ z minimum 8 znakÃ³w, zawieraÄ‡ jednÄ… wielka literÄ™ oraz cyfrÄ™",
+      "destination": "Native WooCommerce customer registration with approved consent fields",
+      "linkEvidence": [
+        {
+          "characters": "Uwaga: HasÅ‚o musi skÅ‚adaÄ‡ siÄ™ z minimum 8 znakÃ³w, zawieraÄ‡ jednÄ… wielka literÄ™ oraz cyfrÄ™",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "496:1758"
+      }
+    },
+    {
+      "section": "account-registration-dialog",
+      "nodeId": "496:1733",
+      "fieldName": "rudnikagro_account_registration_dialog_496_1733",
+      "type": "text",
+      "language": "pl",
+      "value": "Zarejestruj siÄ™",
+      "destination": "Native WooCommerce customer registration with approved consent fields",
+      "linkEvidence": [
+        {
+          "characters": "Zarejestruj siÄ™",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "496:1733"
+      }
+    },
+    {
+      "section": "account-registration-dialog",
+      "nodeId": "509:243",
+      "fieldName": "rudnikagro_account_registration_dialog_509_243",
+      "type": "text",
+      "language": "pl",
+      "value": "Nazwa uÅ¼ytkownika*",
+      "destination": "Native WooCommerce customer registration with approved consent fields",
+      "linkEvidence": [
+        {
+          "characters": "Nazwa uÅ¼ytkownika*",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "509:243"
+      }
+    },
+    {
+      "section": "account-registration-dialog",
+      "nodeId": "509:261",
+      "fieldName": "rudnikagro_account_registration_dialog_509_261",
+      "type": "text",
+      "language": "pl",
+      "value": "OÅ›wiadczam, Å¼e zapoznaÅ‚em/am siÄ™ z Regulaminem oraz PolitykÄ… prywatnoÅ›ci i akceptujÄ™ je.",
+      "destination": "Native WooCommerce customer registration with approved consent fields",
+      "linkEvidence": [
+        {
+          "characters": "OÅ›wiadczam, Å¼e zapoznaÅ‚em/am siÄ™ z Regulaminem oraz PolitykÄ… prywatnoÅ›ci i akceptujÄ™ je.",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "509:261"
+      }
+    }
+  ]
+}

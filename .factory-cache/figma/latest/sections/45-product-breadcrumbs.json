@@ -1,0 +1,23 @@
+{
+  "id": "product-breadcrumbs",
+  "name": "breadcrumb produktu",
+  "order": 50,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "318:1557"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 240,
+    "y": 189,
+    "width": 508,
+    "height": 70
+  },
+  "layout": {
+    "type": "breadcrumb"
+  },
+  "typography": [],
+  "assets": [],
+  "notes": [],
+  "liveFigmaRequired": false
+}

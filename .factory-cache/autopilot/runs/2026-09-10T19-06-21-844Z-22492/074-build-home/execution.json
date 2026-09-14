@@ -1,0 +1,20 @@
+{
+  "startedModel": "gpt-5.6-terra",
+  "reasoningEffort": "high",
+  "threadId": "01a09b40-b8e1-72f0-a4f7-cfeb79c86e57",
+  "resumedFrom": "01a09b40-b8e1-72f0-a4f7-cfeb79c86e57",
+  "usage": {
+    "input_tokens": 6162337,
+    "cached_input_tokens": 5981696,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 36379,
+    "reasoning_output_tokens": 11519
+  },
+  "exit": {
+    "code": 0,
+    "signal": null
+  },
+  "failure": null,
+  "completed": true,
+  "finishedAt": "2026-09-13T15:34:55.971Z"
+}

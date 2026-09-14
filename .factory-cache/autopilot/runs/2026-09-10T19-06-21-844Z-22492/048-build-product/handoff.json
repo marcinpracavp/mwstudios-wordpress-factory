@@ -1,0 +1,74 @@
+{
+  "task": {
+    "id": "product"
+  },
+  "sourceContext": {
+    "version": 4,
+    "available": true,
+    "index": {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/048-build-product/source-context/index.json",
+      "bytes": 1794,
+      "sha256": "c3f4e008d6047068477b34dea29d35a1a3a728cdd36714c9ba85b81c4433c352"
+    }
+  },
+  "model": "gpt-5.6-terra",
+  "reasoningEffort": "high",
+  "continuation": "fresh session using persisted artifacts; do not load historical conversation",
+  "previousExecution": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/047-build-product/execution.json",
+  "previousResult": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/047-build-product/result.json",
+  "correctionFocus": [],
+  "currentPageVerification": {
+    "summary": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/047-build-product/build-readiness/product-bundle/summary.json",
+    "routes": [
+      {
+        "id": "product-bundle",
+        "passed": false,
+        "pagePassed": true,
+        "ownership": {
+          "header": {
+            "pixels": 372480,
+            "differentPixels": 21869,
+            "ratio": 0.05871187714776632
+          },
+          "footer": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "shared": {
+            "pixels": 1007160,
+            "differentPixels": 245494,
+            "ratio": 0.24374875888637357
+          },
+          "page": {
+            "pixels": 3516360,
+            "differentPixels": 211589,
+            "ratio": 0.06017273544233241
+          },
+          "outside": {
+            "pixels": 2062080,
+            "differentPixels": 1335643,
+            "ratio": 0.6477163834574798
+          }
+        },
+        "errors": [
+          "shared pixel mismatch 24.375%",
+          "Shared component pixel mismatch product-gallery: 53.377%",
+          "Shared component pixel mismatch product-tabs: 12.315%"
+        ],
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/047-build-product/build-readiness/product-bundle/product-bundle/comparison.json"
+      }
+    ],
+    "instruction": "Current matching measurement. If pagePassed is true, do not repeat page corrections solely because shared owners fail. Complete reusable-component work if required, check regressions, and hand off shared findings for final audit."
+  },
+  "snapshot": ".factory-cache/figma/latest",
+  "observations": ".factory-cache/figma/latest/observations/index.json",
+  "plans": [
+    "docs/factory/project/PLAN.md",
+    "docs/factory/project/STATUS.md",
+    "docs/factory/project/SOURCE_CLARIFICATIONS.md",
+    "docs/factory/project/REUSABLE_COMPONENTS.md"
+  ],
+  "currentGate": null,
+  "instruction": "Inspect the current gate and finish only remaining assigned work. Reuse real saved source facts and assets."
+}

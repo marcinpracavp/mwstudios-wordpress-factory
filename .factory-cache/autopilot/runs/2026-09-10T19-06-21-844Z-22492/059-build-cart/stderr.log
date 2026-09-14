@@ -1,0 +1,13 @@
+2026-09-13T05:00:29.002848Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+2026-09-13T05:00:33.153179Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh
+2026-09-13T05:26:36.856243Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in C:\Users\HP\Local Sites\autopilot\app\public\wp-content\themes\slawinsky-boilerplate\index.php:
+<?php get_header();
+the_post(); ?>
+
+<div class="l-container">
+    <?php the_content(); ?>
+</div>
+
+<?php get_footer(); ?>
+2026-09-13T05:33:42.989153Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (1/5 in 190ms)... turn_id=01a09923-6ea1-7db1-a3b0-e215253cb3f4 retries=1 max_retries=5 sampling_error=stream disconnected before completion: IO error: Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta. (os error 10054)
+2026-09-13T05:34:42.590592Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (1/1 in 213ms)... turn_id=01a09942-7031-78d1-9419-f8c1a6ec3a6a retries=1 max_retries=1 sampling_error=stream disconnected before completion: IO error: Istniejące połączenie zostało gwałtownie zamknięte przez zdalnego hosta. (os error 10054)

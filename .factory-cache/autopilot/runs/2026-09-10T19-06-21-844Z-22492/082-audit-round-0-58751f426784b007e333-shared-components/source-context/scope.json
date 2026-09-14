@@ -1,0 +1,1753 @@
+{
+  "source": {
+    "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+    "figmaUrl": "https://www.figma.com/design/OwiDXrKMVcaHKB9ryYF6mY/Rudnik-Agro?m=dev"
+  },
+  "status": "complete",
+  "routes": [
+    {
+      "id": "careers",
+      "path": "/kariera/",
+      "language": "pl",
+      "frameNodeId": "349:1267",
+      "reference": "references/full/frame-349-1267.png",
+      "width": 1920,
+      "height": 3802,
+      "sections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "shared-primary-navigation",
+        "careers-heading",
+        "careers-vacancies",
+        "careers-application",
+        "shared-shop-cta",
+        "shared-footer"
+      ],
+      "buildGroup": "careers",
+      "responsiveSource": "derived",
+      "notes": "Source frame titled kariera contains an expanded job offer, five collapsed offers and an application form. Planned local route path is an implementation decision inferred from source page identity, not a captured source hyperlink. Uncaptured section IDs remain explicit in this partial execution plan.",
+      "sectionGeometry": {
+        "shared-primary-navigation": {
+          "x": 240,
+          "y": 115,
+          "width": 1440,
+          "height": 78.6761245727539
+        },
+        "shared-topbar": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 40
+        },
+        "shared-secondary-navigation": {
+          "x": 237.001953125,
+          "y": 56,
+          "width": 1442.8232421875,
+          "height": 42
+        },
+        "careers-heading": {
+          "x": 240,
+          "y": 218,
+          "width": 1440,
+          "height": 220
+        },
+        "careers-vacancies": {
+          "x": 362,
+          "y": 486,
+          "width": 1196,
+          "height": 2290
+        },
+        "careers-application": {
+          "x": 463,
+          "y": 1695,
+          "width": 994,
+          "height": 346
+        },
+        "shared-shop-cta": {
+          "x": 36,
+          "y": 2919,
+          "width": 1840,
+          "height": 230
+        },
+        "shared-footer": {
+          "x": 0,
+          "y": 3188,
+          "width": 1920,
+          "height": 614
+        }
+      }
+    },
+    {
+      "id": "catalogues",
+      "path": "/katalogi/",
+      "language": "pl",
+      "frameNodeId": "347:1120",
+      "reference": "references/full/frame-347-1120.png",
+      "width": 1920,
+      "height": 1850,
+      "sections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "shared-primary-navigation",
+        "catalogues-heading",
+        "catalogues-downloads",
+        "shared-shop-cta",
+        "shared-footer"
+      ],
+      "buildGroup": "catalogues",
+      "responsiveSource": "derived",
+      "notes": "Source frame titled katalogi contains two catalogue cards, PDF and online-reader actions. Planned local route path is an implementation decision inferred from source page identity, not a captured source hyperlink. Uncaptured section IDs remain explicit in this partial execution plan.",
+      "sectionGeometry": {
+        "catalogues-heading": {
+          "frameWidth": 1920,
+          "x": 240,
+          "y": 218,
+          "width": 1440,
+          "height": 220
+        },
+        "catalogues-downloads": {
+          "frameNodeId": "347:1120",
+          "x": 240,
+          "y": 466,
+          "width": 1444,
+          "height": 357
+        }
+      }
+    },
+    {
+      "id": "blog-archive",
+      "path": "/blog/",
+      "language": "pl",
+      "frameNodeId": "327:2986",
+      "reference": "references/full/frame-327-2986.png",
+      "width": 1920,
+      "height": 3816,
+      "sections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "shared-primary-navigation",
+        "blog-archive-heading",
+        "blog-post-list",
+        "blog-pagination",
+        "shared-footer"
+      ],
+      "buildGroup": "blog",
+      "responsiveSource": "derived",
+      "notes": "Source frame titled blog lista contains four post rows and pagination. Planned local route path is an implementation decision inferred from source page identity, not a captured source hyperlink. Uncaptured section IDs remain explicit in this partial execution plan.",
+      "sectionGeometry": {
+        "shared-primary-navigation": {
+          "x": 240,
+          "y": 115,
+          "width": 1440,
+          "height": 78.6761245727539
+        },
+        "blog-archive-heading": {
+          "x": 200,
+          "y": 219,
+          "width": 1520,
+          "height": 220
+        },
+        "blog-post-list": {
+          "x": 200,
+          "y": 478,
+          "width": 1520,
+          "height": 2444
+        },
+        "blog-pagination": {
+          "x": 700,
+          "y": 2940,
+          "width": 520,
+          "height": 100
+        }
+      }
+    },
+    {
+      "id": "contact",
+      "path": "/kontakt/",
+      "language": "pl",
+      "frameNodeId": "335:591",
+      "reference": "references/full/frame-335-591.png",
+      "width": 1920,
+      "height": 2614,
+      "sections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "shared-primary-navigation",
+        "contact-heading",
+        "contact-details",
+        "contact-form",
+        "contact-map",
+        "shared-footer"
+      ],
+      "buildGroup": "contact",
+      "responsiveSource": "derived",
+      "notes": "Source frame titled kontakt contains contact/branch details, a contact form and map image. Planned local route path is an implementation decision inferred from source page identity, not a captured source hyperlink. Uncaptured section IDs remain explicit in this partial execution plan.",
+      "sectionGeometry": {
+        "shared-primary-navigation": {
+          "x": 240,
+          "y": 115,
+          "width": 1440,
+          "height": 78.6761245727539
+        },
+        "contact-heading": {
+          "x": 240,
+          "y": 218,
+          "width": 1440,
+          "height": 220
+        },
+        "contact-details": {
+          "x": 240,
+          "y": 485,
+          "width": 467,
+          "height": 1341
+        },
+        "contact-form": {
+          "x": 728,
+          "y": 519,
+          "width": 953,
+          "height": 376
+        },
+        "contact-map": {
+          "x": 728,
+          "y": 983,
+          "width": 953,
+          "height": 568
+        }
+      }
+    },
+    {
+      "id": "about",
+      "path": "/o-nas/",
+      "language": "pl",
+      "frameNodeId": "326:2764",
+      "reference": "references/full/frame-326-2764.png",
+      "width": 1920,
+      "height": 3863,
+      "sections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "shared-primary-navigation",
+        "about-heading",
+        "about-introduction",
+        "about-agricultural-supply",
+        "about-grain-trade",
+        "about-insurance",
+        "shared-shop-cta",
+        "shared-footer"
+      ],
+      "buildGroup": "about",
+      "responsiveSource": "derived",
+      "notes": "Source frame titled o firmie contains company introduction and agricultural supply, trade and insurance sections. Planned local route path is an implementation decision inferred from source page identity, not a captured source hyperlink. Uncaptured section IDs remain explicit in this partial execution plan.",
+      "sectionGeometry": {
+        "about-heading": {
+          "x": 240,
+          "y": 218,
+          "width": 1440,
+          "height": 220
+        },
+        "about-introduction": {
+          "x": 240,
+          "y": 471,
+          "width": 1440,
+          "height": 337
+        },
+        "about-agricultural-supply": {
+          "x": 160,
+          "y": 832,
+          "width": 1600,
+          "height": 565
+        },
+        "about-grain-trade": {
+          "x": 160,
+          "y": 1454,
+          "width": 1600,
+          "height": 631
+        },
+        "about-insurance": {
+          "x": 160,
+          "y": 2142,
+          "width": 1600,
+          "height": 695
+        }
+      },
+      "geometryCorrection": {
+        "id": "about",
+        "frameNodeId": "326:2764",
+        "referenceHash": "1e9d5aec30c4675e1c21f164f3e1f2f7c7526b26c8548af43781ec8eae44f6bd",
+        "evidence": ".factory-cache/autopilot/about-source-geometry.json",
+        "evidenceHash": "1313e044d00ac4817c63795ad5549fb04b70e988a04bee82511fc211169f3f4c",
+        "sections": [
+          {
+            "id": "about-agricultural-supply",
+            "nodeId": "520:432",
+            "anchorNodeId": "520:432",
+            "before": {
+              "x": 160,
+              "y": 1397,
+              "width": 1600,
+              "height": 565
+            },
+            "after": {
+              "x": 160,
+              "y": 832,
+              "width": 1600,
+              "height": 565
+            }
+          },
+          {
+            "id": "about-grain-trade",
+            "nodeId": "521:452",
+            "anchorNodeId": "519:351",
+            "before": {
+              "x": 160,
+              "y": 2085,
+              "width": 1600,
+              "height": 631
+            },
+            "after": {
+              "x": 160,
+              "y": 1454,
+              "width": 1600,
+              "height": 631
+            }
+          },
+          {
+            "id": "about-insurance",
+            "nodeId": "521:454",
+            "anchorNodeId": "521:435",
+            "before": {
+              "x": 160,
+              "y": 2837,
+              "width": 1600,
+              "height": 695
+            },
+            "after": {
+              "x": 160,
+              "y": 2142,
+              "width": 1600,
+              "height": 695
+            }
+          }
+        ],
+        "reason": "Unique source background absolute bounds prove a bottom-versus-top extraction error."
+      }
+    },
+    {
+      "id": "product-expanded",
+      "path": "/produkt/aquatos-5l/",
+      "language": "pl",
+      "frameNodeId": "326:2526",
+      "reference": "references/full/frame-326-2526.png",
+      "width": 1920,
+      "height": 6031,
+      "sections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "shared-primary-navigation",
+        "product-breadcrumbs",
+        "product-gallery",
+        "product-overview",
+        "product-tabs",
+        "product-expanded-description",
+        "product-related",
+        "product-legal-notices",
+        "shared-footer"
+      ],
+      "buildGroup": "product",
+      "responsiveSource": "derived",
+      "notes": "Source frame explicitly named expanded; node 326:2735 contains the full expanded product-use description. Planned local route path is an implementation decision inferred from source page identity, not a captured source hyperlink. Uncaptured section IDs remain explicit in this partial execution plan.",
+      "state": "expanded-description",
+      "sectionGeometry": {
+        "shared-primary-navigation": {
+          "x": 240,
+          "y": 115,
+          "width": 1440,
+          "height": 78.6761245727539
+        },
+        "product-related": {
+          "frameWidth": 1920,
+          "x": 240,
+          "y": 4348,
+          "width": 710,
+          "height": 570
+        },
+        "product-legal-notices": {
+          "frameWidth": 1920,
+          "x": 240,
+          "y": 4976,
+          "width": 1440,
+          "height": 287
+        }
+      },
+      "geometryCorrection": {
+        "id": "product-expanded",
+        "frameNodeId": "326:2526",
+        "referenceHash": "e7a3ca64f767557d01be5e359647d144abe83587794e8c4f00bd466958336170",
+        "evidence": ".factory-cache/autopilot/product-expanded-source-geometry.json",
+        "evidenceHash": "fdcf2a94a73202daaf5fba14a24e5b3dc4d48b89752d08b855544472a8f59db2",
+        "sections": [
+          {
+            "id": "product-related",
+            "nodeIds": [
+              "326:2567"
+            ],
+            "before": {
+              "frameWidth": 1920,
+              "x": 240,
+              "y": 1635,
+              "width": 710,
+              "height": 570
+            },
+            "after": {
+              "frameWidth": 1920,
+              "x": 240,
+              "y": 4348,
+              "width": 710,
+              "height": 570
+            }
+          },
+          {
+            "id": "product-legal-notices",
+            "nodeIds": [
+              "326:2730",
+              "326:2732"
+            ],
+            "before": {
+              "frameWidth": 1920,
+              "x": 240,
+              "y": 2263,
+              "width": 1440,
+              "height": 287
+            },
+            "after": {
+              "frameWidth": 1920,
+              "x": 240,
+              "y": 4976,
+              "width": 1440,
+              "height": 287
+            }
+          }
+        ],
+        "reason": "Explicit same-sized section mapping to retained source nodes in this route frame."
+      }
+    },
+    {
+      "id": "product",
+      "path": "/produkt/aquatos-5l/",
+      "language": "pl",
+      "frameNodeId": "318:1556",
+      "reference": "references/full/frame-318-1556.png",
+      "width": 1920,
+      "height": 3316,
+      "sections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "shared-primary-navigation",
+        "product-breadcrumbs",
+        "product-gallery",
+        "product-overview",
+        "product-benefits",
+        "product-tabs",
+        "product-related",
+        "product-legal-notices",
+        "shared-footer"
+      ],
+      "buildGroup": "product",
+      "responsiveSource": "derived",
+      "notes": "Source identifies Aquatos 5L, product code 98899 and the default product detail composition. Planned local route path is an implementation decision inferred from source page identity, not a captured source hyperlink. Uncaptured section IDs remain explicit in this partial execution plan.",
+      "sectionGeometry": {
+        "product-breadcrumbs": {
+          "x": 240,
+          "y": 189,
+          "width": 508,
+          "height": 70
+        },
+        "product-gallery": {
+          "x": 240,
+          "y": 259,
+          "width": 710,
+          "height": 710
+        },
+        "product-benefits": {
+          "x": 970,
+          "y": 842,
+          "width": 479,
+          "height": 128
+        },
+        "product-tabs": {
+          "x": 240,
+          "y": 1096,
+          "width": 1440,
+          "height": 494
+        },
+        "product-related": {
+          "x": 240,
+          "y": 1635,
+          "width": 710,
+          "height": 570
+        },
+        "product-legal-notices": {
+          "x": 240,
+          "y": 2263,
+          "width": 1440,
+          "height": 287
+        }
+      }
+    },
+    {
+      "id": "product-inquiry",
+      "path": "/produkt/aquatos-5l/",
+      "language": "pl",
+      "frameNodeId": "423:263",
+      "reference": "references/full/frame-423-263.png",
+      "width": 1920,
+      "height": 3397,
+      "sections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "shared-primary-navigation",
+        "product-breadcrumbs",
+        "product-gallery",
+        "product-inquiry-overview",
+        "product-tabs",
+        "product-inquiry-dialog",
+        "product-related",
+        "product-legal-notices",
+        "shared-footer"
+      ],
+      "buildGroup": "product",
+      "responsiveSource": "derived",
+      "notes": "Alternate product frame has an additional popup node 431:876 and expanded overview; exact popup visibility and trigger remain unresolved. Planned local route path is an implementation decision inferred from source page identity, not a captured source hyperlink. Uncaptured section IDs remain explicit in this partial execution plan.",
+      "state": "inquiry",
+      "sectionGeometry": {
+        "product-inquiry-dialog": {
+          "x": 970,
+          "y": 711,
+          "width": 467,
+          "height": 702
+        }
+      }
+    },
+    {
+      "id": "checkout",
+      "path": "/zamowienie/",
+      "language": "pl",
+      "frameNodeId": "489:483",
+      "reference": "references/full/frame-489-483.png",
+      "width": 1920,
+      "height": 2942,
+      "sections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "shared-primary-navigation",
+        "checkout-heading",
+        "checkout-steps",
+        "checkout-customer-details",
+        "checkout-payment",
+        "checkout-delivery",
+        "checkout-totals",
+        "shared-footer"
+      ],
+      "buildGroup": "checkout",
+      "responsiveSource": "derived",
+      "notes": "Source frame contains customer fields, payment choices and delivery controls. Planned local route path is an implementation decision inferred from source page identity, not a captured source hyperlink. Uncaptured section IDs remain explicit in this partial execution plan.",
+      "sectionGeometry": {
+        "shared-primary-navigation": {
+          "x": 240,
+          "y": 115,
+          "width": 1440,
+          "height": 78.6761245727539
+        }
+      }
+    },
+    {
+      "id": "checkout-login",
+      "path": "/zamowienie/",
+      "language": "pl",
+      "frameNodeId": "492:775",
+      "reference": "references/full/frame-492-775.png",
+      "width": 1920,
+      "height": 1799,
+      "sections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "shared-primary-navigation",
+        "checkout-login-heading",
+        "checkout-steps",
+        "checkout-login-options",
+        "shared-footer"
+      ],
+      "buildGroup": "checkout",
+      "responsiveSource": "derived",
+      "notes": "Source has login, registration and guest choices plus the three-step checkout indicator. Planned local route path is an implementation decision inferred from source page identity, not a captured source hyperlink. Uncaptured section IDs remain explicit in this partial execution plan.",
+      "state": "login-step"
+    },
+    {
+      "id": "checkout-registration",
+      "path": "/zamowienie/",
+      "language": "pl",
+      "frameNodeId": "495:1558",
+      "reference": "references/full/frame-495-1558.png",
+      "width": 1920,
+      "height": 1818,
+      "sections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "shared-primary-navigation",
+        "checkout-login-heading",
+        "checkout-steps",
+        "checkout-login-options",
+        "account-registration-dialog",
+        "shared-footer"
+      ],
+      "buildGroup": "checkout",
+      "responsiveSource": "derived",
+      "notes": "Source explicitly names a registration popup and includes node 496:1722 with required registration fields. Planned local route path is an implementation decision inferred from source page identity, not a captured source hyperlink. Uncaptured section IDs remain explicit in this partial execution plan.",
+      "state": "registration-dialog-open",
+      "sectionGeometry": {
+        "shared-primary-navigation": {
+          "x": 240,
+          "y": 115,
+          "width": 1440,
+          "height": 78.6761245727539
+        }
+      }
+    },
+    {
+      "id": "home-active",
+      "path": "/",
+      "language": "pl",
+      "frameNodeId": "250:115",
+      "reference": "references/full/frame-250-115.png",
+      "width": 1920,
+      "height": 8999,
+      "sections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "shared-primary-navigation-active",
+        "home-hero",
+        "home-benefits",
+        "home-crop-selection",
+        "home-promotions",
+        "home-bundles",
+        "home-catalogues",
+        "home-recommended",
+        "home-about",
+        "home-blog",
+        "home-knowledge",
+        "shared-footer"
+      ],
+      "buildGroup": "home",
+      "responsiveSource": "derived",
+      "notes": "Source explicitly names active elements and the primary menu group extends from 78.676 to 417 px. Planned local route path is an implementation decision inferred from source page identity, not a captured source hyperlink. Uncaptured section IDs remain explicit in this partial execution plan.",
+      "state": "active-elements",
+      "sectionGeometry": {
+        "shared-primary-navigation-active": {
+          "x": 240,
+          "y": 115,
+          "width": 1440,
+          "height": 417
+        },
+        "home-hero-active": {
+          "x": 40,
+          "y": 195,
+          "width": 1840,
+          "height": 800
+        },
+        "home-crop-selection-active": {
+          "x": 0,
+          "y": 1383,
+          "width": 1920,
+          "height": 1033
+        },
+        "home-promotions-active": {
+          "x": 174,
+          "y": 2504,
+          "width": 1574,
+          "height": 724
+        }
+      }
+    },
+    {
+      "id": "product-bundle",
+      "path": "/produkt/pakiet-ochronny-rzepaku-ozimego-12-ha/",
+      "language": "pl",
+      "frameNodeId": "586:1028",
+      "reference": "references/full/frame-586-1028.png",
+      "width": 1920,
+      "height": 3624,
+      "sections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "shared-primary-navigation",
+        "bundle-breadcrumbs",
+        "bundle-gallery",
+        "product-bundle-overview",
+        "bundle-benefits",
+        "bundle-tabs",
+        "product-related",
+        "product-legal-notices",
+        "shared-footer"
+      ],
+      "buildGroup": "product",
+      "responsiveSource": "derived",
+      "notes": "Source Pakiety identifies a distinct package, code 99299, components and a 12 ha price; Spark description includes placeholder text. Planned local route path is an implementation decision inferred from source page identity, not a captured source hyperlink. Uncaptured section IDs remain explicit in this partial execution plan.",
+      "sectionGeometry": {
+        "bundle-breadcrumbs": {
+          "x": 240,
+          "y": 189,
+          "width": 508,
+          "height": 70
+        },
+        "bundle-gallery": {
+          "x": 300,
+          "y": 367,
+          "width": 600,
+          "height": 493
+        },
+        "bundle-benefits": {
+          "x": 970,
+          "y": 1183,
+          "width": 479,
+          "height": 128
+        },
+        "bundle-tabs": {
+          "x": 240,
+          "y": 1392,
+          "width": 1440,
+          "height": 494
+        }
+      }
+    }
+  ],
+  "stateFamilies": [
+    {
+      "family": "[\"product\",\"/produkt/aquatos-5l/\",\"pl\",1920]",
+      "baseRoute": "product",
+      "route": "product-expanded",
+      "reusedSections": [
+        "shared-topbar",
+        "shared-primary-navigation",
+        "product-breadcrumbs",
+        "product-gallery"
+      ],
+      "focusSections": [
+        "shared-secondary-navigation",
+        "product-overview",
+        "product-tabs",
+        "product-expanded-description",
+        "product-related",
+        "product-legal-notices",
+        "shared-footer"
+      ]
+    },
+    {
+      "family": "[\"product\",\"/produkt/aquatos-5l/\",\"pl\",1920]",
+      "baseRoute": "product",
+      "route": "product",
+      "reusedSections": [],
+      "focusSections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "shared-primary-navigation",
+        "product-breadcrumbs",
+        "product-gallery",
+        "product-overview",
+        "product-benefits",
+        "product-tabs",
+        "product-related",
+        "product-legal-notices",
+        "shared-footer"
+      ]
+    },
+    {
+      "family": "[\"product\",\"/produkt/aquatos-5l/\",\"pl\",1920]",
+      "baseRoute": "product",
+      "route": "product-inquiry",
+      "reusedSections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "product-breadcrumbs",
+        "product-gallery"
+      ],
+      "focusSections": [
+        "shared-primary-navigation",
+        "product-inquiry-overview",
+        "product-tabs",
+        "product-inquiry-dialog",
+        "product-related",
+        "product-legal-notices",
+        "shared-footer"
+      ]
+    },
+    {
+      "family": "[\"checkout\",\"/zamowienie/\",\"pl\",1920]",
+      "baseRoute": "checkout",
+      "route": "checkout",
+      "reusedSections": [],
+      "focusSections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "shared-primary-navigation",
+        "checkout-heading",
+        "checkout-steps",
+        "checkout-customer-details",
+        "checkout-payment",
+        "checkout-delivery",
+        "checkout-totals",
+        "shared-footer"
+      ]
+    },
+    {
+      "family": "[\"checkout\",\"/zamowienie/\",\"pl\",1920]",
+      "baseRoute": "checkout",
+      "route": "checkout-login",
+      "reusedSections": [
+        "shared-primary-navigation"
+      ],
+      "focusSections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "checkout-login-heading",
+        "checkout-steps",
+        "checkout-login-options",
+        "shared-footer"
+      ]
+    },
+    {
+      "family": "[\"checkout\",\"/zamowienie/\",\"pl\",1920]",
+      "baseRoute": "checkout",
+      "route": "checkout-registration",
+      "reusedSections": [
+        "shared-secondary-navigation",
+        "shared-primary-navigation"
+      ],
+      "focusSections": [
+        "shared-topbar",
+        "checkout-login-heading",
+        "checkout-steps",
+        "checkout-login-options",
+        "account-registration-dialog",
+        "shared-footer"
+      ]
+    },
+    {
+      "family": "[\"home\",\"/\",\"pl\",1920]",
+      "baseRoute": "home",
+      "route": "home-active",
+      "reusedSections": [
+        "shared-topbar",
+        "home-benefits",
+        "home-catalogues",
+        "home-recommended",
+        "home-about",
+        "home-blog",
+        "home-knowledge",
+        "shared-footer"
+      ],
+      "focusSections": [
+        "shared-secondary-navigation",
+        "shared-primary-navigation-active",
+        "home-hero",
+        "home-crop-selection",
+        "home-promotions",
+        "home-bundles"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "shared-topbar",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/14-shared-topbar.json",
+      "contentRecords": 6,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/082-audit-round-0-58751f426784b007e333-shared-components/source-context/section-91484042cce6815e.json",
+        "bytes": 2751,
+        "sha256": "d2f9e73eba0b32222284737dc8ee1f1a8f58ab2b85545831f54fdbf1256eaa5f"
+      }
+    },
+    {
+      "id": "shared-secondary-navigation",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/15-shared-secondary-navigation.json",
+      "contentRecords": 13,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/082-audit-round-0-58751f426784b007e333-shared-components/source-context/section-f64d32808e6ea46d.json",
+        "bytes": 6535,
+        "sha256": "860eb7d970c300c199119e8ae18a3514e8705ab2557992a3d2f573846dc447d7"
+      }
+    },
+    {
+      "id": "shared-primary-navigation",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/01-shared-primary-navigation.json",
+      "contentRecords": 5,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/082-audit-round-0-58751f426784b007e333-shared-components/source-context/section-8de8ed9bbbe57bf3.json",
+        "bytes": 2587,
+        "sha256": "46046e4e7b17b0533fe94b9f43b28de71033d1948b0984c7c137a33d206cc098"
+      }
+    },
+    {
+      "id": "careers-heading",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/30-careers-heading.json",
+      "contentRecords": 3,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/082-audit-round-0-58751f426784b007e333-shared-components/source-context/section-4b34ddf15baac992.json",
+        "bytes": 1463,
+        "sha256": "13e8e3c02de24dbd614a2169f6500d92e219d98a21dbdbdf18b8983b2affd761"
+      }
+    },
+    {
+      "id": "shared-shop-cta",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/33-shared-shop-cta.json",
+      "contentRecords": 2,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/082-audit-round-0-58751f426784b007e333-shared-components/source-context/section-b8c63381d0b0c21d.json",
+        "bytes": 1097,
+        "sha256": "4e5356abcaf8883d7942fef11adc0d96be7a3a41297a9f7825d454e536fd018e"
+      }
+    },
+    {
+      "id": "shared-footer",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/26-shared-footer.json",
+      "contentRecords": 16,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/082-audit-round-0-58751f426784b007e333-shared-components/source-context/section-61ba1faa466eb680.json",
+        "bytes": 7941,
+        "sha256": "17696d0bef8eb6c6512ee31448fe8b70d275e5fe6f11dd775cdc28ca68afc9af"
+      }
+    },
+    {
+      "id": "catalogues-heading",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/34-catalogues-heading.json",
+      "contentRecords": 3,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/082-audit-round-0-58751f426784b007e333-shared-components/source-context/section-2218f13fc3443c5a.json",
+        "bytes": 1728,
+        "sha256": "9c18de95a7c75521ff59d4f520816c108f6c901ce072cb09a8317655286788b1"
+      }
+    },
+    {
+      "id": "blog-archive-heading",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/38-blog-archive-heading.json",
+      "contentRecords": 2,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/082-audit-round-0-58751f426784b007e333-shared-components/source-context/section-7662fc441d1109b9.json",
+        "bytes": 1131,
+        "sha256": "a2bf0019e8fdf0c153d5901fe8825b777404e66fcaac55f3112f49ab950aa88a"
+      }
+    },
+    {
+      "id": "contact-heading",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/41-contact-heading.json",
+      "contentRecords": 3,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/082-audit-round-0-58751f426784b007e333-shared-components/source-context/section-47eb5a4ce749e874.json",
+        "bytes": 1518,
+        "sha256": "4c336dd884e424330fd13ff69eb93d76ec242026dfd55d2f592db642abc2bdae"
+      }
+    },
+    {
+      "id": "about-heading",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/34-about-heading.json",
+      "contentRecords": 3,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/082-audit-round-0-58751f426784b007e333-shared-components/source-context/section-c6781ddec733e048.json",
+        "bytes": 1071,
+        "sha256": "325629c04b6125d473b69866c5a5398ad6bb9b8cb36edcd24689c7c25ab735f5"
+      }
+    },
+    {
+      "id": "product-gallery",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/46-product-gallery.json",
+      "contentRecords": 0,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/082-audit-round-0-58751f426784b007e333-shared-components/source-context/section-2d240b8faf258ca1.json",
+        "bytes": 330,
+        "sha256": "5c82c5333eaf639c4746004fbe6cee69af243ce7a8c583f623897257aac71ac0"
+      }
+    },
+    {
+      "id": "product-tabs",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/47-product-tabs.json",
+      "contentRecords": 13,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/082-audit-round-0-58751f426784b007e333-shared-components/source-context/section-f09bcbc15a4cb655.json",
+        "bytes": 9373,
+        "sha256": "8c658b687ffaedbe05a1046275c2a9f8b12a44c16ff9bc4926dd4e1def26574c"
+      }
+    },
+    {
+      "id": "checkout-heading",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/62-checkout-heading.json",
+      "contentRecords": 1,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/082-audit-round-0-58751f426784b007e333-shared-components/source-context/section-65971b69b7f1e2a4.json",
+        "bytes": 909,
+        "sha256": "012506b9310c86560dd74e7018dd65a631a9f9cb951d2a66230bfcb51ad21c6b"
+      }
+    },
+    {
+      "id": "checkout-steps",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/63-checkout-steps.json",
+      "contentRecords": 6,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/082-audit-round-0-58751f426784b007e333-shared-components/source-context/section-9705096daabd0357.json",
+        "bytes": 3560,
+        "sha256": "a8f7c0f14214d64f81a61da3880bc1e5522134010fa4215832820479d83274e8"
+      }
+    },
+    {
+      "id": "checkout-login-heading",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/66-checkout-login-heading.json",
+      "contentRecords": 1,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/082-audit-round-0-58751f426784b007e333-shared-components/source-context/section-da9c553a8de31235.json",
+        "bytes": 910,
+        "sha256": "d6767142667ff984cd770bb09124c8bbe308073fba5b5239468f221313a49c78"
+      }
+    },
+    {
+      "id": "shared-primary-navigation-active",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/16-shared-primary-navigation-active.json",
+      "contentRecords": 9,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/082-audit-round-0-58751f426784b007e333-shared-components/source-context/section-c4e6a8fe1ea8daf9.json",
+        "bytes": 4616,
+        "sha256": "4b758f2d4f9b2080ebecf770eda40c01053035d3648666ec7f1c349887315ada"
+      }
+    },
+    {
+      "id": "bundle-gallery",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/53-bundle-gallery.json",
+      "contentRecords": 0,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/082-audit-round-0-58751f426784b007e333-shared-components/source-context/section-8775b268e9954cba.json",
+        "bytes": 325,
+        "sha256": "18d3cd86815d7f8e9a57b1633eff78ca355c139956242e68db67eef40dfffdd7"
+      }
+    },
+    {
+      "id": "bundle-tabs",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/55-bundle-tabs.json",
+      "contentRecords": 13,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/082-audit-round-0-58751f426784b007e333-shared-components/source-context/section-0cf7fc8c0e1a14ea.json",
+        "bytes": 9342,
+        "sha256": "3cf703235d6dcd96f961d8b92786e74f4b57215a570af7ccbd6dbc7e8b74dbb5"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "id": "8975223ee92b8ebed956",
+      "nodeIds": [
+        "349:1267"
+      ],
+      "description": "Read compact composition for kariera 349:1267",
+      "path": "observations/8975223ee92b8ebed956.json"
+    },
+    {
+      "id": "1385168cce7b00a2ca2b",
+      "nodeIds": [
+        "327:2986"
+      ],
+      "description": "Read compact composition for blog lista 327:2986",
+      "path": "observations/1385168cce7b00a2ca2b.json"
+    },
+    {
+      "id": "237d29a9449cf569b662",
+      "nodeIds": [
+        "335:591"
+      ],
+      "description": "Read compact composition for kontakt 335:591",
+      "path": "observations/237d29a9449cf569b662.json"
+    },
+    {
+      "id": "4ab433279e74fe00a94f",
+      "nodeIds": [
+        "326:2526"
+      ],
+      "description": "Read compact page composition szczególy produktu - rozwinięte 326:2526",
+      "path": "observations/4ab433279e74fe00a94f.json"
+    },
+    {
+      "id": "6852f77540fbfef41422",
+      "nodeIds": [
+        "489:483"
+      ],
+      "description": "Read compact page composition Dostawa i płatność 489:483",
+      "path": "observations/6852f77540fbfef41422.json"
+    },
+    {
+      "id": "03e5ed0235fa273456fa",
+      "nodeIds": [
+        "495:1558"
+      ],
+      "description": "Read compact page composition Koszyk - logowanie/rejestracja popup 495:1558",
+      "path": "observations/03e5ed0235fa273456fa.json"
+    },
+    {
+      "id": "cc724d58da52ad207fcb",
+      "nodeIds": [
+        "250:115"
+      ],
+      "description": "Read compact page composition strona główna - aktywne elementy 250:115",
+      "path": "observations/cc724d58da52ad207fcb.json"
+    },
+    {
+      "id": "037eef4160bdd1f1a0dc",
+      "nodeIds": [
+        "347:1120"
+      ],
+      "description": "Check actual catalogue link evidence and geometry without changing the design",
+      "path": "observations/037eef4160bdd1f1a0dc.json"
+    },
+    {
+      "id": "4f83904bda6e97c55d00",
+      "nodeIds": [
+        "327:2986"
+      ],
+      "description": "Capture exact frame-relative bounds and ungrouped source text blog lista",
+      "path": "observations/4f83904bda6e97c55d00.json"
+    },
+    {
+      "id": "bca19728fa2d41218adf",
+      "nodeIds": [
+        "349:1267"
+      ],
+      "description": "Capture exact frame-relative bounds and ungrouped source text kariera",
+      "path": "observations/bca19728fa2d41218adf.json"
+    },
+    {
+      "id": "de204fffdc79c21460e6",
+      "nodeIds": [
+        "335:591"
+      ],
+      "description": "Capture exact frame-relative bounds and ungrouped source text kontakt",
+      "path": "observations/de204fffdc79c21460e6.json"
+    },
+    {
+      "id": "ba86239566720ac727d2",
+      "nodeIds": [
+        "140:262",
+        "12:2"
+      ],
+      "description": "Capture shared primary navigation geometry and text styles",
+      "path": "observations/ba86239566720ac727d2.json"
+    },
+    {
+      "id": "c298810ac7e4cc6b7f2c",
+      "nodeIds": [
+        "347:1120"
+      ],
+      "description": "Capture both catalogue cards as one logical section including actual link and crop facts",
+      "path": "observations/c298810ac7e4cc6b7f2c.json"
+    },
+    {
+      "id": "c861e9b1ac80564e8d79",
+      "nodeIds": [
+        "496:1821",
+        "318:1556"
+      ],
+      "description": "Capture logical section product-overview for immediate snapshot persistence",
+      "path": "observations/c861e9b1ac80564e8d79.json"
+    },
+    {
+      "id": "2426d11a0d8b2e6ceaa4",
+      "nodeIds": [
+        "496:1825",
+        "423:263"
+      ],
+      "description": "Capture logical section product-inquiry-overview for immediate snapshot persistence",
+      "path": "observations/2426d11a0d8b2e6ceaa4.json"
+    },
+    {
+      "id": "d402930cc2cf5ec43613",
+      "nodeIds": [
+        "586:1200",
+        "586:1028"
+      ],
+      "description": "Capture logical section product-bundle-overview for immediate snapshot persistence",
+      "path": "observations/d402930cc2cf5ec43613.json"
+    },
+    {
+      "id": "ae34d27f3f3e4e83ffc7",
+      "nodeIds": [
+        "492:716",
+        "489:483"
+      ],
+      "description": "Capture logical section checkout-customer-details for immediate snapshot persistence",
+      "path": "observations/ae34d27f3f3e4e83ffc7.json"
+    },
+    {
+      "id": "d2080d3319934f13a113",
+      "nodeIds": [
+        "326:2735",
+        "326:2526"
+      ],
+      "description": "Capture expanded product description with deduplicated text styles to avoid truncation",
+      "path": "observations/d2080d3319934f13a113.json"
+    },
+    {
+      "id": "42223d06b343dd2f8741",
+      "nodeIds": [
+        "496:1722",
+        "495:1558"
+      ],
+      "description": "Capture logical section account-registration-dialog for immediate snapshot persistence",
+      "path": "observations/42223d06b343dd2f8741.json"
+    },
+    {
+      "id": "93994dfaa5c6b60a4b37",
+      "nodeIds": [
+        "112:7",
+        "12:2"
+      ],
+      "description": "Read exact topbar bounds, styled text and icon geometry without changing source",
+      "path": "observations/93994dfaa5c6b60a4b37.json"
+    },
+    {
+      "id": "76dbf979f194f7f139e5",
+      "nodeIds": [
+        "112:7",
+        "12:2"
+      ],
+      "description": "Capture topbar source data for immediate persistence",
+      "path": "observations/76dbf979f194f7f139e5.json"
+    },
+    {
+      "id": "detail-shared-topbar",
+      "nodeIds": [
+        "112:7"
+      ],
+      "description": "Exact source section capture",
+      "path": "observations/detail-shared-topbar.json"
+    },
+    {
+      "id": "e85f04bc857cc3e8c516",
+      "nodeIds": [
+        "140:260",
+        "12:2"
+      ],
+      "description": "Capture exact secondary navigation section",
+      "path": "observations/e85f04bc857cc3e8c516.json"
+    },
+    {
+      "id": "detail-shared-secondary-navigation",
+      "nodeIds": [
+        "140:260"
+      ],
+      "description": "Exact source section capture",
+      "path": "observations/detail-shared-secondary-navigation.json"
+    },
+    {
+      "id": "1f35a8b8aca7f971542c",
+      "nodeIds": [
+        "140:262",
+        "12:2"
+      ],
+      "description": "Capture default primary navigation with deduplicated styles to avoid truncation",
+      "path": "observations/1f35a8b8aca7f971542c.json"
+    },
+    {
+      "id": "detail-shared-primary-navigation",
+      "nodeIds": [
+        "140:262"
+      ],
+      "description": "Exact source section capture",
+      "path": "observations/detail-shared-primary-navigation.json"
+    },
+    {
+      "id": "55213b122672e599a880",
+      "nodeIds": [
+        "250:728",
+        "250:115"
+      ],
+      "description": "Capture exact shared-primary-navigation-active section source",
+      "path": "observations/55213b122672e599a880.json"
+    },
+    {
+      "id": "3c386dde7cbca5233fc4",
+      "nodeIds": [
+        "250:728",
+        "250:115"
+      ],
+      "description": "Capture exact shared-primary-navigation-active section source nodes 25",
+      "path": "observations/3c386dde7cbca5233fc4.json"
+    },
+    {
+      "id": "detail-shared-primary-navigation-active",
+      "nodeIds": [
+        "250:728"
+      ],
+      "description": "Exact source section capture",
+      "path": "observations/detail-shared-primary-navigation-active.json"
+    },
+    {
+      "id": "053b78308ad646a28ad7",
+      "nodeIds": [
+        "222:62",
+        "12:2"
+      ],
+      "description": "Capture exact shared-footer section source",
+      "path": "observations/053b78308ad646a28ad7.json"
+    },
+    {
+      "id": "7891ec52f6816ff9beb4",
+      "nodeIds": [
+        "222:62",
+        "12:2"
+      ],
+      "description": "Capture exact shared-footer section source nodes 25",
+      "path": "observations/7891ec52f6816ff9beb4.json"
+    },
+    {
+      "id": "detail-shared-footer",
+      "nodeIds": [
+        "222:62"
+      ],
+      "description": "Exact source section capture",
+      "path": "observations/detail-shared-footer.json"
+    },
+    {
+      "id": "8c076e93f418e7faec4c",
+      "nodeIds": [
+        "250:712",
+        "250:115"
+      ],
+      "description": "Capture exact home-hero-active section source",
+      "path": "observations/8c076e93f418e7faec4c.json"
+    },
+    {
+      "id": "f70ae8ce5441fc3f761a",
+      "nodeIds": [
+        "250:412",
+        "250:115"
+      ],
+      "description": "Capture exact home-crop-selection-active section source",
+      "path": "observations/f70ae8ce5441fc3f761a.json"
+    },
+    {
+      "id": "b43cb9e73421d1122160",
+      "nodeIds": [
+        "250:412",
+        "250:115"
+      ],
+      "description": "Capture exact home-crop-selection-active section source nodes 25",
+      "path": "observations/b43cb9e73421d1122160.json"
+    },
+    {
+      "id": "05b7ea40cba8e663c6cb",
+      "nodeIds": [
+        "250:412",
+        "250:115"
+      ],
+      "description": "Capture exact home-crop-selection-active section source nodes 50",
+      "path": "observations/05b7ea40cba8e663c6cb.json"
+    },
+    {
+      "id": "8571e230d1971232fdd2",
+      "nodeIds": [
+        "250:412",
+        "250:115"
+      ],
+      "description": "Capture exact home-crop-selection-active section source nodes 75",
+      "path": "observations/8571e230d1971232fdd2.json"
+    },
+    {
+      "id": "d8da524da6d59076c570",
+      "nodeIds": [
+        "250:412",
+        "250:115"
+      ],
+      "description": "Capture exact home-crop-selection-active section source nodes 100",
+      "path": "observations/d8da524da6d59076c570.json"
+    },
+    {
+      "id": "ce77c00f6f945f9dba0c",
+      "nodeIds": [
+        "250:412",
+        "250:115"
+      ],
+      "description": "Capture exact home-crop-selection-active section source nodes 125",
+      "path": "observations/ce77c00f6f945f9dba0c.json"
+    },
+    {
+      "id": "9dea296dd4e6e2dfff8c",
+      "nodeIds": [
+        "250:412",
+        "250:115"
+      ],
+      "description": "Capture exact home-crop-selection-active section source nodes 150",
+      "path": "observations/9dea296dd4e6e2dfff8c.json"
+    },
+    {
+      "id": "f520b600059c7a270284",
+      "nodeIds": [
+        "250:412",
+        "250:115"
+      ],
+      "description": "Capture exact home-crop-selection-active section source nodes 175",
+      "path": "observations/f520b600059c7a270284.json"
+    },
+    {
+      "id": "1c20a9b3d326f92e73f7",
+      "nodeIds": [
+        "250:412",
+        "250:115"
+      ],
+      "description": "Capture exact home-crop-selection-active section source nodes 200",
+      "path": "observations/1c20a9b3d326f92e73f7.json"
+    },
+    {
+      "id": "cde398f7aa56933cbb81",
+      "nodeIds": [
+        "250:412",
+        "250:115"
+      ],
+      "description": "Capture exact home-crop-selection-active section source nodes 225",
+      "path": "observations/cde398f7aa56933cbb81.json"
+    },
+    {
+      "id": "3e4b44e417cc93a94341",
+      "nodeIds": [
+        "250:412",
+        "250:115"
+      ],
+      "description": "Capture exact home-crop-selection-active section source nodes 250",
+      "path": "observations/3e4b44e417cc93a94341.json"
+    },
+    {
+      "id": "9457afee508a64493918",
+      "nodeIds": [
+        "250:412",
+        "250:115"
+      ],
+      "description": "Capture exact home-crop-selection-active section source nodes 275",
+      "path": "observations/9457afee508a64493918.json"
+    },
+    {
+      "id": "b3a3c18925eb69ad6521",
+      "nodeIds": [
+        "250:301",
+        "250:115"
+      ],
+      "description": "Capture exact home-promotions-active section source",
+      "path": "observations/b3a3c18925eb69ad6521.json"
+    },
+    {
+      "id": "fda4833a32974cc95acc",
+      "nodeIds": [
+        "250:301",
+        "250:115"
+      ],
+      "description": "Capture exact home-promotions-active section source nodes 25",
+      "path": "observations/fda4833a32974cc95acc.json"
+    },
+    {
+      "id": "5165c731923751120c3c",
+      "nodeIds": [
+        "250:301",
+        "250:115"
+      ],
+      "description": "Capture exact home-promotions-active section source nodes 50",
+      "path": "observations/5165c731923751120c3c.json"
+    },
+    {
+      "id": "996c479a9d18240fd566",
+      "nodeIds": [
+        "250:301",
+        "250:115"
+      ],
+      "description": "Capture exact home-promotions-active section source nodes 75",
+      "path": "observations/996c479a9d18240fd566.json"
+    },
+    {
+      "id": "6b72a01684d1291d14e0",
+      "nodeIds": [
+        "250:301",
+        "250:115"
+      ],
+      "description": "Capture exact home-promotions-active section source nodes 100",
+      "path": "observations/6b72a01684d1291d14e0.json"
+    },
+    {
+      "id": "147bd63be14c6c7da9d4",
+      "nodeIds": [
+        "574:426",
+        "250:115"
+      ],
+      "description": "Capture exact home-bundles-active section source",
+      "path": "observations/147bd63be14c6c7da9d4.json"
+    }
+  ],
+  "frames": [
+    {
+      "nodeId": "349:1267",
+      "name": "kariera",
+      "pageId": "0:1",
+      "type": "FRAME",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "347:1120",
+      "name": "katalogi",
+      "pageId": "0:1",
+      "type": "FRAME",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "327:2986",
+      "name": "blog lista",
+      "pageId": "0:1",
+      "type": "FRAME",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "335:591",
+      "name": "kontakt",
+      "pageId": "0:1",
+      "type": "FRAME",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "326:2764",
+      "name": "o firmie",
+      "pageId": "0:1",
+      "type": "FRAME",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "326:2526",
+      "name": "szczegÃ³ly produktu - rozwiniÄ™te",
+      "pageId": "0:1",
+      "type": "FRAME",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "318:1556",
+      "name": "szczegÃ³ly produktu",
+      "pageId": "0:1",
+      "type": "FRAME",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "423:263",
+      "name": "szczegÃ³ly produktu",
+      "pageId": "0:1",
+      "type": "FRAME",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "489:483",
+      "name": "Dostawa i pÅ‚atnoÅ›Ä‡",
+      "pageId": "0:1",
+      "type": "FRAME",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "492:775",
+      "name": "Koszyk - logowanie/rejestracja",
+      "pageId": "0:1",
+      "type": "FRAME",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "495:1558",
+      "name": "Koszyk - logowanie/rejestracja popup",
+      "pageId": "0:1",
+      "type": "FRAME",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "250:115",
+      "name": "strona gÅ‚Ã³wna - aktywne elementy",
+      "pageId": "0:1",
+      "type": "FRAME",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "586:1028",
+      "name": "Pakiety",
+      "pageId": "0:1",
+      "type": "FRAME",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "140:262",
+      "name": "mega menu",
+      "pageId": "0:1",
+      "type": "GROUP"
+    },
+    {
+      "nodeId": "112:7",
+      "name": "topbar",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "140:260",
+      "name": "secondary menu",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "250:728",
+      "name": "mega menu",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "222:62",
+      "name": "stopka",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "327:3098",
+      "name": "Blog archive heading",
+      "pageId": "0:1",
+      "type": "RECTANGLE",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "326:2218",
+      "name": "zdjecie produktu",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "319:2072",
+      "name": "szczegóły",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "586:1276",
+      "name": "paka 1",
+      "pageId": "0:1",
+      "type": "RECTANGLE",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "586:1103",
+      "name": "szczegóły",
+      "pageId": "0:1",
+      "type": "FRAME",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "489:612",
+      "name": "Dostawa i płatność",
+      "pageId": "0:1",
+      "type": "TEXT",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "611:196",
+      "name": "checkout steps",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "495:1687",
+      "name": "Logowanie",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "349:1377",
+      "name": "Rectangle 111",
+      "type": "RECTANGLE",
+      "pageId": "0:1"
+    },
+    {
+      "nodeId": "548:24",
+      "name": "przerywnik",
+      "type": "GROUP",
+      "pageId": "0:1"
+    },
+    {
+      "nodeId": "347:1230",
+      "name": "Rectangle 111",
+      "type": "rounded-rectangle",
+      "pageId": "0:1"
+    },
+    {
+      "nodeId": "335:702",
+      "name": "Rectangle 111",
+      "type": "RECTANGLE",
+      "pageId": "0:1"
+    },
+    {
+      "nodeId": "326:2977",
+      "name": "Rectangle 111",
+      "type": "rounded-rectangle",
+      "pageId": "0:1"
+    }
+  ],
+  "globalFiles": [
+    {
+      "path": ".factory-cache/figma/latest/design-system.json",
+      "bytes": 8294,
+      "sha256": "5086e8f74a4d3aee56055467846c3f49e9f2791c2a30a873ea30c5a5a87b3863"
+    },
+    {
+      "path": ".factory-cache/figma/latest/components.json",
+      "bytes": 261,
+      "sha256": "fb651cb0bc38b89b71ffa0e6a8b92ec6acbe3bdff6ab7d30ea9c2e39ed12fec5"
+    }
+  ],
+  "lookup": "Observation matches are an index, not a completeness claim. Use targeted rg or inspect JSON pointers for missing node IDs. Never dump the full source files."
+}

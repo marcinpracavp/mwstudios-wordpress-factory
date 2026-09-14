@@ -1,0 +1,53 @@
+{
+  "id": "contact-heading",
+  "manifestRecord": {
+    "id": "contact-heading",
+    "name": "Kontakt heading and breadcrumb",
+    "order": 41,
+    "pageId": "0:1",
+    "snapshot": "sections/41-contact-heading.json",
+    "desktopNodeId": "335:702",
+    "desktopReference": "references/sections/contact-heading.png"
+  },
+  "contentFields": [
+    {
+      "section": "contact-heading",
+      "nodeId": "335:703",
+      "fieldName": "rudnikagro_contact_heading_title",
+      "type": "text",
+      "language": "pl",
+      "value": "Kontakt",
+      "destination": "ACF contact page / heading tab / title",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "335:703"
+      }
+    },
+    {
+      "section": "contact-heading",
+      "nodeId": "335:592",
+      "fieldName": "rudnikagro_contact_heading_breadcrumb",
+      "type": "text",
+      "language": "pl",
+      "value": "Strona główna  /  Kontakt",
+      "destination": "ACF contact page / heading tab / breadcrumb",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "335:592"
+      }
+    },
+    {
+      "section": "contact-heading",
+      "nodeId": "335:702",
+      "fieldName": "rudnikagro_contact_heading_image",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/contact/contact-heading-335-702.png",
+      "destination": "ACF contact page / heading tab / banner image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "335:702"
+      }
+    }
+  ]
+}

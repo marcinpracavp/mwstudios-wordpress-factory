@@ -1,0 +1,85 @@
+{
+  "task": {
+    "id": "product-archive"
+  },
+  "sourceContext": {
+    "version": 6,
+    "available": true,
+    "index": {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/066-build-product-archive/source-context/index.json",
+      "bytes": 1435,
+      "sha256": "b9a9bd8a0dc1752a9f44b1ace30cbb5b0f8fc7472a6ca21f834786a85e329847"
+    }
+  },
+  "model": "gpt-5.6-terra",
+  "reasoningEffort": "high",
+  "continuation": "same-model interrupted thread",
+  "previousExecution": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/065-build-product-archive/execution.json",
+  "previousResult": null,
+  "correctionFocus": [],
+  "currentPageVerification": {
+    "routes": [
+      {
+        "id": "product-archive",
+        "passed": false,
+        "pagePassed": false,
+        "ownership": {
+          "header": {
+            "pixels": 372480,
+            "differentPixels": 21852,
+            "ratio": 0.05866623711340206
+          },
+          "footer": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "shared": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "page": {
+            "pixels": 9072000,
+            "differentPixels": 8064956,
+            "ratio": 0.8889942680776014
+          },
+          "outside": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "reused": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          }
+        },
+        "errors": [
+          "HTTP 404",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "page pixel mismatch 88.899%",
+          "Section geometry differs: archive-breadcrumbs",
+          "Section geometry differs: archive-category-introduction",
+          "Section geometry differs: archive-filters",
+          "Section geometry differs: archive-sort",
+          "Section geometry differs: archive-product-grid",
+          "Section geometry differs: archive-pagination",
+          "Section geometry differs: archive-category-description"
+        ],
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/resume-page-check-1789293417237/product-archive/product-archive/comparison.json"
+      }
+    ],
+    "instruction": "Fresh host checks for all sibling routes. Repair only failed assigned routes."
+  },
+  "snapshot": ".factory-cache/figma/latest",
+  "observations": ".factory-cache/figma/latest/observations/index.json",
+  "plans": [
+    "docs/factory/project/PLAN.md",
+    "docs/factory/project/STATUS.md",
+    "docs/factory/project/SOURCE_CLARIFICATIONS.md",
+    "docs/factory/project/REUSABLE_COMPONENTS.md"
+  ],
+  "currentGate": null,
+  "instruction": "Inspect the current gate and finish only remaining assigned work. Reuse real saved source facts and assets."
+}

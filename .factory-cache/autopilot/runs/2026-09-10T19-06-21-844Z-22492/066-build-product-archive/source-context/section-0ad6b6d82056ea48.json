@@ -1,0 +1,27 @@
+{
+  "id": "archive-sort",
+  "manifestRecord": {
+    "id": "archive-sort",
+    "name": "product archive sorting",
+    "order": 76,
+    "pageId": "0:1",
+    "snapshot": "sections/71-archive-sort.json",
+    "desktopNodeId": "303:1280",
+    "desktopReference": "references/sections/archive-sort.png"
+  },
+  "contentFields": [
+    {
+      "section": "archive-sort",
+      "nodeId": "295:744",
+      "fieldName": "rudnikagro_archive_sort_295_744",
+      "type": "text",
+      "language": "pl",
+      "value": "Domyślnie",
+      "destination": "WooCommerce catalog ordering default label",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "295:744"
+      }
+    }
+  ]
+}

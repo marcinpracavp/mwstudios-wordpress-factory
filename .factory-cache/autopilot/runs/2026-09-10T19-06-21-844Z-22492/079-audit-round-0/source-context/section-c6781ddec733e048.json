@@ -1,0 +1,45 @@
+{
+  "id": "about-heading",
+  "manifestRecord": {
+    "id": "about-heading",
+    "order": 45,
+    "snapshot": "sections/34-about-heading.json",
+    "desktopReference": "references/sections/about-heading.png",
+    "name": "About page banner and breadcrumb",
+    "pageId": "0:1",
+    "desktopNodeId": "326:2977"
+  },
+  "contentFields": [
+    {
+      "section": "about-heading",
+      "nodeId": "326:2984",
+      "fieldName": "rudnikagro_about.banner.title",
+      "type": "text",
+      "language": "pl",
+      "value": "O nas"
+    },
+    {
+      "section": "about-heading",
+      "nodeId": "326:2765",
+      "fieldName": "rudnikagro_about.breadcrumb",
+      "type": "repeater",
+      "language": "pl",
+      "value": [
+        {
+          "label": "Strona główna"
+        },
+        {
+          "label": "O nas"
+        }
+      ]
+    },
+    {
+      "section": "about-heading",
+      "nodeId": "326:2977",
+      "fieldName": "rudnikagro_about.banner.image",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/about/326-2977-about-banner.png"
+    }
+  ]
+}

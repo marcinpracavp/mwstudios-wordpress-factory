@@ -1,0 +1,636 @@
+{
+  "id": "order-confirmed",
+  "sourceNodeId": "493:1094",
+  "capturedAt": "2026-09-13T06:36:24.065Z",
+  "passed": false,
+  "errors": [
+    "page pixel mismatch 86.542%",
+    "Section geometry differs: confirmation-heading",
+    "Section geometry differs: checkout-steps",
+    "Section geometry differs: checkout-order-confirmation",
+    "Section geometry differs: confirmation-line-items",
+    "Section geometry differs: checkout-totals"
+  ],
+  "responsive": [
+    {
+      "width": 1440,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/061-build-checkout/build-readiness/order-confirmed/order-confirmed/responsive-1440.png"
+    },
+    {
+      "width": 1280,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/061-build-checkout/build-readiness/order-confirmed/order-confirmed/responsive-1280.png"
+    },
+    {
+      "width": 1024,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/061-build-checkout/build-readiness/order-confirmed/order-confirmed/responsive-1024.png"
+    },
+    {
+      "width": 768,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/061-build-checkout/build-readiness/order-confirmed/order-confirmed/responsive-768.png"
+    },
+    {
+      "width": 390,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/061-build-checkout/build-readiness/order-confirmed/order-confirmed/responsive-390.png"
+    },
+    {
+      "width": 375,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/061-build-checkout/build-readiness/order-confirmed/order-confirmed/responsive-375.png"
+    }
+  ],
+  "measurementVersion": 3,
+  "acceptanceScope": "page",
+  "templatePlan": null,
+  "geometryHash": "679926a7107a3a394007ae250a5eae82a982b7c35d8da0c35fa32aa73d1c11d6",
+  "geometryCorrection": null,
+  "geometry": [
+    {
+      "id": "shared-topbar",
+      "owner": "header",
+      "component": "header",
+      "expected": {
+        "frameWidth": 1920,
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 40
+      },
+      "actual": {
+        "id": "shared-topbar",
+        "landmark": null,
+        "component": null,
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 40,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "700",
+          "fontSize": "14px",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "shared-secondary-navigation",
+      "owner": "header",
+      "component": "header",
+      "expected": {
+        "frameWidth": 1920,
+        "x": 239,
+        "y": 56,
+        "width": 1440.9998779296875,
+        "height": 42
+      },
+      "actual": {
+        "id": "shared-secondary-navigation",
+        "landmark": "header",
+        "component": null,
+        "x": 237,
+        "y": 56,
+        "width": 1442.8125,
+        "height": 42,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "14px",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "20px",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": -2,
+        "y": 0,
+        "width": 1.8126220703125,
+        "height": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "shared-primary-navigation",
+      "owner": "header",
+      "component": "header",
+      "expected": {
+        "x": 240,
+        "y": 115,
+        "width": 1440,
+        "height": 78.6761245727539
+      },
+      "actual": {
+        "id": "shared-primary-navigation",
+        "landmark": "header",
+        "component": null,
+        "x": 240,
+        "y": 115,
+        "width": 1440,
+        "height": 79,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0.32387542724609375
+      },
+      "passed": true
+    },
+    {
+      "id": "confirmation-heading",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "frameWidth": 1920,
+        "x": 237,
+        "y": 260,
+        "width": 467,
+        "height": 68,
+        "containerWidth": 1440
+      },
+      "delta": {
+        "x": null,
+        "y": null,
+        "width": null,
+        "height": null
+      },
+      "passed": false
+    },
+    {
+      "id": "checkout-steps",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "frameWidth": 1920,
+        "x": 249,
+        "y": 376,
+        "width": 951,
+        "height": 106,
+        "containerWidth": 1440
+      },
+      "delta": {
+        "x": null,
+        "y": null,
+        "width": null,
+        "height": null
+      },
+      "passed": false
+    },
+    {
+      "id": "checkout-order-confirmation",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "frameWidth": 1920,
+        "x": 240,
+        "y": 576,
+        "width": 953,
+        "height": 824
+      },
+      "delta": {
+        "x": null,
+        "y": null,
+        "width": null,
+        "height": null
+      },
+      "passed": false
+    },
+    {
+      "id": "confirmation-line-items",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "frameWidth": 1920,
+        "x": 282,
+        "y": 956,
+        "width": 673,
+        "height": 263,
+        "containerWidth": 1440
+      },
+      "delta": {
+        "x": null,
+        "y": null,
+        "width": null,
+        "height": null
+      },
+      "passed": false
+    },
+    {
+      "id": "checkout-totals",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "frameWidth": 1920,
+        "x": 1213,
+        "y": 364,
+        "width": 467,
+        "height": 473,
+        "containerWidth": 1440
+      },
+      "delta": {
+        "x": null,
+        "y": null,
+        "width": null,
+        "height": null
+      },
+      "passed": false
+    },
+    {
+      "id": "shared-footer",
+      "owner": "footer",
+      "component": "footer",
+      "expected": {
+        "frameWidth": 1920,
+        "x": 0,
+        "y": 8363,
+        "width": 1920,
+        "height": 636
+      },
+      "actual": {
+        "id": "shared-footer",
+        "landmark": "footer",
+        "component": null,
+        "x": 0,
+        "y": 218,
+        "width": 1920,
+        "height": 636,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": -8145,
+        "width": 0,
+        "height": 0
+      },
+      "passed": false
+    }
+  ],
+  "pixels": {
+    "width": 1920,
+    "height": 2199,
+    "differentPixels": 3529078,
+    "ratio": 0.8358624185235713,
+    "ownership": {
+      "header": {
+        "pixels": 372480,
+        "differentPixels": 21868,
+        "ratio": 0.05870919243986254
+      },
+      "footer": {
+        "pixels": 0,
+        "differentPixels": 0,
+        "ratio": 0
+      },
+      "shared": {
+        "pixels": 0,
+        "differentPixels": 0,
+        "ratio": 0
+      },
+      "page": {
+        "pixels": 2188800,
+        "differentPixels": 1894241,
+        "ratio": 0.8654244334795321
+      },
+      "outside": {
+        "pixels": 1660800,
+        "differentPixels": 1612969,
+        "ratio": 0.9712000240847785
+      },
+      "reused": {
+        "pixels": 0,
+        "differentPixels": 0,
+        "ratio": 0
+      }
+    },
+    "components": {
+      "header": {
+        "owner": "header",
+        "pixels": 372480,
+        "differentPixels": 21868,
+        "ratio": 0.05870919243986254
+      }
+    },
+    "imageDiagnostics": {
+      "interiorPixels": 22201,
+      "interiorDifferentPixels": 22201,
+      "otherPixels": 2166599,
+      "otherDifferentPixels": 1872040,
+      "note": "Diagnostic only: confirm source asset, crop, geometry and border before accepting interior photo differences. No blanket image exemption."
+    },
+    "meanMaxChannelDelta": 120.97548198991966,
+    "referenceSize": {
+      "width": 1920,
+      "height": 2199
+    },
+    "renderedSize": {
+      "width": 1920,
+      "height": 900
+    },
+    "crops": [
+      {
+        "id": "shared-topbar",
+        "owner": "header",
+        "component": "header",
+        "reused": null,
+        "pixels": 76800,
+        "differentPixels": 1546,
+        "ratio": 0.020130208333333333,
+        "signature": null
+      },
+      {
+        "id": "shared-secondary-navigation",
+        "owner": "header",
+        "component": "header",
+        "reused": null,
+        "pixels": 60522,
+        "differentPixels": 9136,
+        "ratio": 0.15095337232741812,
+        "signature": null
+      },
+      {
+        "id": "shared-primary-navigation",
+        "owner": "header",
+        "component": "header",
+        "reused": null,
+        "pixels": 113760,
+        "differentPixels": 9366,
+        "ratio": 0.08233122362869198,
+        "signature": null
+      },
+      {
+        "id": "confirmation-heading",
+        "owner": "page",
+        "component": null,
+        "reused": null,
+        "pixels": 31756,
+        "differentPixels": 27597,
+        "ratio": 0.8690326237561405,
+        "signature": null
+      },
+      {
+        "id": "checkout-steps",
+        "owner": "page",
+        "component": null,
+        "reused": null,
+        "pixels": 100806,
+        "differentPixels": 99373,
+        "ratio": 0.9857845763149019,
+        "signature": null
+      },
+      {
+        "id": "checkout-order-confirmation",
+        "owner": "page",
+        "component": null,
+        "reused": null,
+        "pixels": 785272,
+        "differentPixels": 661809,
+        "ratio": 0.8427767703419962,
+        "signature": null
+      },
+      {
+        "id": "confirmation-line-items",
+        "owner": "page",
+        "component": null,
+        "reused": null,
+        "pixels": 176999,
+        "differentPixels": 176999,
+        "ratio": 1,
+        "signature": null
+      },
+      {
+        "id": "checkout-totals",
+        "owner": "page",
+        "component": null,
+        "reused": null,
+        "pixels": 220891,
+        "differentPixels": 192072,
+        "ratio": 0.8695329370594547,
+        "signature": null
+      },
+      {
+        "id": "shared-footer",
+        "owner": "footer",
+        "component": "footer",
+        "reused": null,
+        "pixels": 1920,
+        "differentPixels": 0,
+        "ratio": 0,
+        "signature": null
+      }
+    ],
+    "worstRows": [
+      {
+        "y": 900,
+        "count": 1920
+      },
+      {
+        "y": 901,
+        "count": 1920
+      },
+      {
+        "y": 902,
+        "count": 1920
+      },
+      {
+        "y": 903,
+        "count": 1920
+      },
+      {
+        "y": 904,
+        "count": 1920
+      },
+      {
+        "y": 905,
+        "count": 1920
+      },
+      {
+        "y": 906,
+        "count": 1920
+      },
+      {
+        "y": 907,
+        "count": 1920
+      },
+      {
+        "y": 908,
+        "count": 1920
+      },
+      {
+        "y": 909,
+        "count": 1920
+      },
+      {
+        "y": 910,
+        "count": 1920
+      },
+      {
+        "y": 911,
+        "count": 1920
+      },
+      {
+        "y": 912,
+        "count": 1920
+      },
+      {
+        "y": 913,
+        "count": 1920
+      },
+      {
+        "y": 914,
+        "count": 1920
+      },
+      {
+        "y": 915,
+        "count": 1920
+      },
+      {
+        "y": 916,
+        "count": 1920
+      },
+      {
+        "y": 917,
+        "count": 1920
+      },
+      {
+        "y": 918,
+        "count": 1920
+      },
+      {
+        "y": 919,
+        "count": 1920
+      }
+    ]
+  },
+  "reference": {
+    "path": "references/full/frame-493-1094.png",
+    "width": 1920,
+    "height": 2199,
+    "sha256": "064be6483f55576e845040c2fa2902905544fd0a6d056eb3b43f2f169092fc58"
+  },
+  "rendered": {
+    "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/061-build-checkout/build-readiness/order-confirmed/order-confirmed/rendered.png",
+    "width": 1920,
+    "height": 900,
+    "sha256": "5ba364ef715940fdca2195ae9d557bef76223886a726881840b8e6ca2446aa81"
+  },
+  "acceptance": {
+    "threshold": 0.085,
+    "pagePassed": false,
+    "sharedPassed": null,
+    "pageErrors": [
+      "page pixel mismatch 86.542%",
+      "Section geometry differs: confirmation-heading",
+      "Section geometry differs: checkout-steps",
+      "Section geometry differs: checkout-order-confirmation",
+      "Section geometry differs: confirmation-line-items",
+      "Section geometry differs: checkout-totals"
+    ],
+    "sharedErrors": [],
+    "skippedOwners": [
+      "header",
+      "footer"
+    ],
+    "note": "Page build readiness can defer shared visual issues. Final acceptance requires both plus independent visual audit. Section ratios remain diagnostics."
+  },
+  "chromeReview": {
+    "skippedOwners": [
+      "header",
+      "footer"
+    ],
+    "reason": "Deferred to representative final shared audit"
+  },
+  "progress": {
+    "deferred": false,
+    "samples": [
+      {
+        "file": "current capture",
+        "implementationHash": "60276f1f88bb7be013fae26605475205e370cb6627bee8f9b15d9c59c08f1523",
+        "capturedAt": "2026-09-13T06:36:24.065Z",
+        "ratio": 0.8654244334795321
+      }
+    ],
+    "improvement": 0,
+    "policy": {
+      "samples": 3,
+      "maxPageMismatch": 0.13,
+      "minImprovement": 0.03
+    },
+    "nonPixelErrors": [
+      "Section geometry differs: confirmation-heading",
+      "Section geometry differs: checkout-steps",
+      "Section geometry differs: checkout-order-confirmation",
+      "Section geometry differs: confirmation-line-items",
+      "Section geometry differs: checkout-totals"
+    ],
+    "reason": "Insufficient measured progress across distinct implementations; unresolved visual work belongs to final audit, not PASS."
+  }
+}

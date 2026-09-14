@@ -1,0 +1,48 @@
+{
+  "capturedAt": "2026-09-12T06:36:40.600Z",
+  "implementationHash": "8aedabf14c4b99a3f597a9b64b96fbfad42d96fb10a7136505dbec7dd5be93bc",
+  "sourceHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+  "thresholds": {
+    "channelTolerance": 24,
+    "maxDifferentPixelRatio": 0.05,
+    "geometryTolerancePx": 2
+  },
+  "acceptanceScope": "page",
+  "passed": false,
+  "pagePassed": true,
+  "routes": [
+    {
+      "id": "catalogues",
+      "passed": false,
+      "pagePassed": true,
+      "ownership": {
+        "header": {
+          "pixels": 372480,
+          "differentPixels": 21869,
+          "ratio": 0.05871187714776632
+        },
+        "footer": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "shared": {
+          "pixels": 316800,
+          "differentPixels": 5164,
+          "ratio": 0.01630050505050505
+        },
+        "page": {
+          "pixels": 2862720,
+          "differentPixels": 136951,
+          "ratio": 0.04783946735971384
+        }
+      },
+      "errors": [
+        "header pixel mismatch 5.871%",
+        "Section geometry differs: shared-shop-cta",
+        "Section geometry differs: shared-footer"
+      ],
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/032-build-catalogues/page-verification-catalogues/catalogues/comparison.json"
+    }
+  ]
+}

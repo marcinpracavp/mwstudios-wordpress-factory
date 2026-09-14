@@ -1,0 +1,194 @@
+{
+  "id": "cart-totals",
+  "name": "Podsumowanie koszyka",
+  "order": 63,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "486:44"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 240,
+    "y": 364,
+    "width": 1440,
+    "height": 473
+  },
+  "layout": {
+    "type": "native-commerce-cart-totals",
+    "designContextRead": true,
+    "subnodes": [
+      {
+        "nodeId": "502:8",
+        "type": "FRAME",
+        "geometry": {
+          "x": 240,
+          "y": 762,
+          "width": 223,
+          "height": 44
+        }
+      },
+      {
+        "nodeId": "486:109",
+        "type": "FRAME",
+        "geometry": {
+          "x": 1213,
+          "y": 364,
+          "width": 467,
+          "height": 473
+        }
+      },
+      {
+        "nodeId": "507:20",
+        "type": "RECTANGLE",
+        "geometry": {
+          "x": 1255,
+          "y": 430,
+          "width": 238,
+          "height": 43
+        }
+      },
+      {
+        "nodeId": "486:50",
+        "type": "TEXT",
+        "geometry": {
+          "x": 1255,
+          "y": 505,
+          "width": 221,
+          "height": 38
+        }
+      },
+      {
+        "nodeId": "486:52",
+        "type": "TEXT",
+        "geometry": {
+          "x": 1255,
+          "y": 562,
+          "width": 170,
+          "height": 126
+        }
+      },
+      {
+        "nodeId": "486:54",
+        "type": "TEXT",
+        "geometry": {
+          "x": 1552,
+          "y": 562,
+          "width": 98,
+          "height": 98
+        }
+      },
+      {
+        "nodeId": "486:105",
+        "type": "TEXT",
+        "geometry": {
+          "x": 1255,
+          "y": 704,
+          "width": 98,
+          "height": 47
+        }
+      },
+      {
+        "nodeId": "486:106",
+        "type": "TEXT",
+        "geometry": {
+          "x": 1476,
+          "y": 704,
+          "width": 174,
+          "height": 47
+        }
+      }
+    ]
+  },
+  "typography": [
+    {
+      "nodeId": "487:122",
+      "family": "DM Sans",
+      "weight": 700,
+      "size": 24,
+      "lineHeight": "AUTO",
+      "color": "#070707"
+    },
+    {
+      "nodeId": "486:50",
+      "family": "DM Sans",
+      "weight": 700,
+      "size": 24,
+      "lineHeight": "AUTO",
+      "color": "#070707"
+    },
+    {
+      "nodeId": "486:52",
+      "family": "DM Sans",
+      "weight": 700,
+      "size": 18,
+      "lineHeight": 16,
+      "color": "#070707"
+    },
+    {
+      "nodeId": "486:106",
+      "family": "DM Sans",
+      "weight": 700,
+      "size": 32,
+      "lineHeight": 16,
+      "color": "#070707"
+    }
+  ],
+  "assets": [],
+  "contentFields": [
+    {
+      "id": "502:10",
+      "text": "Kontynuuj zakupy",
+      "link": null
+    },
+    {
+      "id": "487:122",
+      "text": "Masz kod rabatowy?",
+      "link": null
+    },
+    {
+      "id": "487:135",
+      "text": "Wpisz kod",
+      "link": null
+    },
+    {
+      "id": "487:128",
+      "text": "Dodaj kod",
+      "link": null
+    },
+    {
+      "id": "486:50",
+      "text": "Podsumowanie",
+      "link": null
+    },
+    {
+      "id": "486:52",
+      "text": "Produkty\nWysyłka\nRabat\nDodano kod BLACKFRIDAY",
+      "link": null
+    },
+    {
+      "id": "486:54",
+      "text": "411,00 zł\n22,90 zł\n50 zł",
+      "link": null
+    },
+    {
+      "id": "486:105",
+      "text": "Do zapłaty",
+      "link": null
+    },
+    {
+      "id": "486:106",
+      "text": "383,90 zł",
+      "link": null
+    },
+    {
+      "id": "486:115",
+      "text": "Realizuj zamówienie",
+      "link": null
+    }
+  ],
+  "notes": [
+    "Coupon, shipping, discount and total amounts are an observed WooCommerce cart state. They are not approved values to seed into native commerce.",
+    "No mobile source was provided; responsive behavior is derived."
+  ],
+  "liveFigmaRequired": false
+}

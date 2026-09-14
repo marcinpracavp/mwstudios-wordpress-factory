@@ -1,0 +1,32 @@
+{
+  "task": {
+    "id": "detail-checkout",
+    "scope": "group",
+    "buildGroup": "checkout"
+  },
+  "sourceContext": {
+    "version": 1,
+    "available": true,
+    "index": {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/019-discovery-detail-checkout/source-context/index.json",
+      "bytes": 1668,
+      "sha256": "865ad15e049f192d5944154aa3d6a759f7f9919117d8e2504560125ce9f09afd"
+    }
+  },
+  "model": "gpt-5.6-terra",
+  "reasoningEffort": "high",
+  "continuation": "fresh session using persisted artifacts; do not load historical conversation",
+  "previousExecution": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/018-discovery-detail-checkout/execution.json",
+  "snapshot": ".factory-cache/figma/latest",
+  "observations": ".factory-cache/figma/latest/observations/index.json",
+  "plans": [
+    "docs/factory/project/PLAN.md",
+    "docs/factory/project/SOURCE_CLARIFICATIONS.md"
+  ],
+  "currentGate": {
+    "passed": true,
+    "errors": [],
+    "group": "checkout"
+  },
+  "instruction": "The current structural gate already passes. Verify source completeness only for this assigned group, finish its documentation and return. Do not repeat completed discovery."
+}

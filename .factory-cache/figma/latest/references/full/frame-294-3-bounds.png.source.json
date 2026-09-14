@@ -1,0 +1,18 @@
+{
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeId": "294:3",
+  "format": "png",
+  "scale": 1,
+  "capturedAt": "2026-09-10T19:50:09.595Z",
+  "transport": "lossless-source-frame-bounds-crop",
+  "source": "references/full/frame-294-3.png",
+  "sourceSha256": "470c80456ddc15ad6b2e727f9734ec5abc51568bb832925ec78fc2d6849b6500",
+  "crop": {
+    "x": 0,
+    "y": 0,
+    "width": 1920,
+    "height": 4919
+  },
+  "reason": "Figma clipsContent=false caused render bounds to exceed actual production frame; retain full export unchanged and capture exact source frame bounds.",
+  "sha256": "06d686088f11b30995f9a98291d15c5d45750c26351ad3c2e6eac046d78e9180"
+}

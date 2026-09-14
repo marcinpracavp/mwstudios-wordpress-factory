@@ -1,0 +1,33 @@
+{
+  "critical": false,
+  "overflow": 0,
+  "notices": "",
+  "sections": [
+    {
+      "id": "cart-heading",
+      "x": 240,
+      "y": 264,
+      "width": 467,
+      "height": 68
+    },
+    {
+      "id": "cart-totals",
+      "x": 240,
+      "y": 362,
+      "width": 1440,
+      "height": 473
+    },
+    {
+      "id": "cart-lines",
+      "x": 240,
+      "y": 362,
+      "width": 953,
+      "height": 242
+    }
+  ],
+  "line": "Aquatos 5L",
+  "price": "411,00 zł",
+  "coupon": "Dodano kod BLACKFRIDAY",
+  "discount": "50,00 zł",
+  "total": "383,90 zł"
+}

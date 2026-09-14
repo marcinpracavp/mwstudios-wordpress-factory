@@ -1,0 +1,79 @@
+{
+  "id": "shared-primary-navigation",
+  "manifestRecord": {
+    "id": "shared-primary-navigation",
+    "name": "mega menu",
+    "order": 1,
+    "pageId": "0:1",
+    "snapshot": "sections/01-shared-primary-navigation.json",
+    "desktopNodeId": "140:262",
+    "desktopReference": "references/sections/shared-primary-navigation.png"
+  },
+  "contentFields": [
+    {
+      "section": "shared-primary-navigation",
+      "nodeId": "140:313",
+      "fieldName": "rudnikagro_shared_primary_navigation_140_313",
+      "type": "text",
+      "language": "pl",
+      "value": "Herbicydy\nFungicydy\nInsektycydy\nRegulatory\nZaprawy\nAdiuwanty",
+      "destination": "ACF options / primary navigation tab",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:313"
+      }
+    },
+    {
+      "section": "shared-primary-navigation",
+      "nodeId": "140:315",
+      "fieldName": "rudnikagro_shared_primary_navigation_140_315",
+      "type": "text",
+      "language": "pl",
+      "value": "Zbo?a\nRzepak\nKukurydza\nBuraki\nZiemniaki\nWarzywa",
+      "destination": "ACF options / primary navigation tab",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:315"
+      }
+    },
+    {
+      "section": "shared-primary-navigation",
+      "nodeId": "140:317",
+      "fieldName": "rudnikagro_shared_primary_navigation_140_317",
+      "type": "text",
+      "language": "pl",
+      "value": "Str?czkowe\nJagodniki\nSady\nOwoce mi?kkie",
+      "destination": "ACF options / primary navigation tab",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:317"
+      }
+    },
+    {
+      "section": "shared-primary-navigation",
+      "nodeId": "93:29",
+      "fieldName": "rudnikagro_shared_primary_navigation_93_29",
+      "type": "text",
+      "language": "pl",
+      "value": "?rodki ochrony ro?lin     Handel r?wnoleg?y ? Zamienniki     Nawozy i dodatki     Biostymulatory      Nasiona     Promocje     Nowo?ci     Pakiety",
+      "destination": "ACF options / primary navigation tab",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "93:29"
+      }
+    },
+    {
+      "section": "shared-primary-navigation",
+      "nodeId": "118:6",
+      "fieldName": "rudnikagro_shared_primary_navigation_media_118_6",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/118-6-logo1.svg",
+      "destination": "ACF options / primary navigation tab / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "118:6"
+      }
+    }
+  ]
+}

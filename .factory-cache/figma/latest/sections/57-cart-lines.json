@@ -1,0 +1,154 @@
+{
+  "id": "cart-lines",
+  "name": "Pozycja koszyka",
+  "order": 62,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "483:7"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 240,
+    "y": 364,
+    "width": 953,
+    "height": 240
+  },
+  "layout": {
+    "type": "native-commerce-cart-line",
+    "designContextRead": true,
+    "subnodes": [
+      {
+        "nodeId": "483:8",
+        "type": "VECTOR",
+        "geometry": {
+          "x": 240,
+          "y": 364,
+          "width": 953,
+          "height": 240
+        }
+      },
+      {
+        "nodeId": "483:27",
+        "type": "RECTANGLE",
+        "geometry": {
+          "x": 262,
+          "y": 370,
+          "width": 171,
+          "height": 223
+        }
+      },
+      {
+        "nodeId": "483:29",
+        "type": "TEXT",
+        "geometry": {
+          "x": 483,
+          "y": 364,
+          "width": 221,
+          "height": 240
+        }
+      },
+      {
+        "nodeId": "484:31",
+        "type": "FRAME",
+        "geometry": {
+          "x": 784,
+          "y": 459,
+          "width": 102,
+          "height": 44
+        }
+      },
+      {
+        "nodeId": "484:42",
+        "type": "TEXT",
+        "geometry": {
+          "x": 970,
+          "y": 461,
+          "width": 102,
+          "height": 46
+        }
+      },
+      {
+        "nodeId": "486:96",
+        "type": "FRAME",
+        "geometry": {
+          "x": 1131,
+          "y": 470,
+          "width": 21,
+          "height": 26
+        }
+      }
+    ]
+  },
+  "typography": [
+    {
+      "nodeId": "483:29",
+      "family": "DM Sans",
+      "weight": 700,
+      "size": 24,
+      "lineHeight": "AUTO",
+      "color": "#070707"
+    },
+    {
+      "nodeId": "484:42",
+      "family": "DM Sans",
+      "weight": 700,
+      "size": 24,
+      "lineHeight": "AUTO",
+      "color": "#006633"
+    },
+    {
+      "nodeId": "484:33",
+      "family": "DM Sans",
+      "weight": 700,
+      "size": 16,
+      "lineHeight": "AUTO",
+      "color": "#1d1d1b"
+    }
+  ],
+  "assets": [
+    {
+      "sourceNodeId": "486:96",
+      "path": "assets/cart/cart-remove-item.svg",
+      "usage": "cart item remove control",
+      "sha256": "879d3b7d8250820a573e2c3f7d2f0eda74ce06cb7c275d64eb8678104685a030"
+    },
+    {
+      "sourceNodeId": "483:27",
+      "path": "assets/product-aquatos-5l.png",
+      "usage": "cart item product image; existing exact Figma export",
+      "sha256": "f9694de7acc0bf4a330eb44a9e5748643f28d00085df58faff26063c4a83816f"
+    }
+  ],
+  "contentFields": [
+    {
+      "id": "483:29",
+      "text": "Aquatos 5L",
+      "link": null
+    },
+    {
+      "id": "484:42",
+      "text": "411,00 zł",
+      "link": null
+    },
+    {
+      "id": "484:33",
+      "text": "1",
+      "link": null
+    },
+    {
+      "id": "484:34",
+      "text": "-",
+      "link": null
+    },
+    {
+      "id": "484:35",
+      "text": "+",
+      "link": null
+    }
+  ],
+  "notes": [
+    "The product, unit price and quantity are shown as a native WooCommerce cart state, not static imported cart data.",
+    "No mobile source was provided; responsive behavior is derived."
+  ],
+  "liveFigmaRequired": false
+}

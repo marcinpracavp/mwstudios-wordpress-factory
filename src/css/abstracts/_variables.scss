@@ -7,6 +7,10 @@
 
 $black: #000000;
 $white: #fff;
+$rudnik-green: #007d44;
+$rudnik-green-dark: #005b34;
+$rudnik-orange: #ff5a17;
+$rudnik-light: #f7f7f5;
 
 $gray-1: #8D8D8D;
 $accent: #FF5064;
@@ -22,8 +26,8 @@ $base-background-colour: $white;
 /**
  * Typography
  */
-$poppins-font-family: "Poppins", sans-serif;
-$geist-font-family: "GeistMono", sans-serif;
+$poppins-font-family: "DM Sans", sans-serif;
+$geist-font-family: "DM Sans", sans-serif;
 
 $base-font-family: $poppins-font-family;
 $heading-font-family: $geist-font-family;
@@ -47,8 +51,8 @@ $transition: all 0.2s $timing;
 $base-border-radius: 26px;
 $shadow: 30px 30px 60px rgba($black, .15);
 
-$page-width: 1870px;
-$page-gap: 16px;
+$page-width: 1440px;
+$page-gap: 20px;
 
 $grid-columns: 12; // liczba kolumn w gridzie
 /* Test change ptk 11 lip 14:36:51 2025 CEST */

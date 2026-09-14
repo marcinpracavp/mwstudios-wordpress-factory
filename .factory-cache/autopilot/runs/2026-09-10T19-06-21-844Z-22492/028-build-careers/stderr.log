@@ -1,0 +1,12 @@
+2026-09-11T19:27:58.080524Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+2026-09-11T19:28:01.365360Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh
+2026-09-11T19:29:20.518300Z ERROR codex_skills_extension::host_service: failed to install system skills: io error while remove existing system skills dir: Odmowa dostępu. (os error 5)
+2026-09-11T19:29:20.518544Z ERROR codex_skills_extension::host_service: failed to install system skills: io error while remove existing system skills dir: Odmowa dostępu. (os error 5)
+2026-09-11T19:29:20.519050Z ERROR codex_skills_extension::host_service: failed to install system skills: io error while remove existing system skills dir: Odmowa dostępu. (os error 5)
+2026-09-11T19:29:20.571121Z ERROR codex_skills_extension::host_service: failed to install system skills: io error while remove existing system skills dir: Odmowa dostępu. (os error 5)
+2026-09-11T19:29:20.571389Z ERROR codex_skills_extension::host_service: failed to install system skills: io error while remove existing system skills dir: Odmowa dostępu. (os error 5)
+2026-09-11T19:29:20.571475Z ERROR codex_skills_extension::host_service: failed to install system skills: io error while remove existing system skills dir: Odmowa dostępu. (os error 5)
+2026-09-11T19:29:20.571371Z ERROR codex_skills_extension::host_service: failed to install system skills: io error while remove existing system skills dir: Odmowa dostępu. (os error 5)
+2026-09-11T19:29:20.572350Z ERROR codex_skills_extension::host_service: failed to install system skills: io error while remove existing system skills dir: Odmowa dostępu. (os error 5)
+2026-09-11T19:29:20.577820Z ERROR codex_skills_extension::host_service: failed to install system skills: io error while remove existing system skills dir: Odmowa dostępu. (os error 5)
+2026-09-11T19:29:20.581159Z ERROR codex_skills_extension::host_service: failed to install system skills: io error while remove existing system skills dir: Odmowa dostępu. (os error 5)

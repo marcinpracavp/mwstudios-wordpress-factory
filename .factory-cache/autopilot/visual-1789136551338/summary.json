@@ -1,0 +1,26 @@
+{
+  "capturedAt": "2026-09-11T14:22:48.492Z",
+  "implementationHash": "1ba4f178488bfc1ecb25af410f6fec363abe4a7805a6b52c23886bbd5de147f0",
+  "sourceHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+  "thresholds": {
+    "channelTolerance": 24,
+    "maxDifferentPixelRatio": 0.01,
+    "geometryTolerancePx": 2
+  },
+  "passed": false,
+  "routes": [
+    {
+      "id": "careers",
+      "passed": false,
+      "errors": [
+        "HTTP 500",
+        "Pixel mismatch 84.347%",
+        "Full page dimensions differ",
+        "Section geometry differs",
+        "Section pixel mismatch",
+        "Failed to load resource: the server responded with a status of 500 ()"
+      ],
+      "comparison": ".factory-cache/autopilot/visual-1789136551338/careers/comparison.json"
+    }
+  ]
+}

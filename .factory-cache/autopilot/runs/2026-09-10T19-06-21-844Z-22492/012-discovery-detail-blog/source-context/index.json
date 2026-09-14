@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "stage": "discovery",
+  "group": "blog",
+  "routes": [
+    {
+      "id": "blog-article",
+      "frameNodeId": "327:3176"
+    },
+    {
+      "id": "blog-archive",
+      "frameNodeId": "327:2986"
+    }
+  ],
+  "sectionCount": 10,
+  "contentRecordCount": 40,
+  "relevantObservationCount": 15,
+  "sourceFiles": [
+    {
+      "path": ".factory-cache/figma/latest/manifest.json",
+      "bytes": 252068,
+      "sha256": "62b14e79dd3f65f4eca1798b380838c1de7b669c4b2e4f62af6d0a8a1b9995a9"
+    },
+    {
+      "path": ".factory-cache/figma/latest/content-map.json",
+      "bytes": 314215,
+      "sha256": "c7fef15d40a174b58a77f65256b1bdeee4801d51824a38bc708262606e90ee67"
+    },
+    {
+      "path": ".factory-cache/figma/latest/observations/index.json",
+      "bytes": 27191,
+      "sha256": "689c53224e8304b522871edbf1bd15e0b549248f4ef251e7ce5ca26955a2ad14"
+    }
+  ],
+  "scope": {
+    "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/012-discovery-detail-blog/source-context/scope.json",
+    "bytes": 11790,
+    "sha256": "0d5697999b4866527568ab5d500bd33d70321649402438d36d00fbbe5a841377"
+  },
+  "read": "node scripts/factory/autopilot/source-context.js inspect .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/012-discovery-detail-blog/source-context/scope.json /sections",
+  "rule": "Read this index first, then one section record and source snapshot at a time. Do not print full manifest/content-map/observation index. All source bytes remain on disk."
+}

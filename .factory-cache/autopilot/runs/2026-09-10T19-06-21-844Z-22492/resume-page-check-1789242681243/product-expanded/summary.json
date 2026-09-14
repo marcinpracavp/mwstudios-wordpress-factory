@@ -1,0 +1,65 @@
+{
+  "capturedAt": "2026-09-12T19:52:18.512Z",
+  "implementationHash": "28916f359e7570e57711d22f563ff2c3e3e9b01e7d25a36021a361eaab0e35a9",
+  "sourceHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+  "thresholds": {
+    "channelTolerance": 24,
+    "maxDifferentPixelRatio": 0.085,
+    "geometryTolerancePx": 2
+  },
+  "acceptanceScope": "page",
+  "buildReady": false,
+  "deferred": [],
+  "passed": false,
+  "pagePassed": false,
+  "routes": [
+    {
+      "id": "product-expanded",
+      "passed": false,
+      "pagePassed": false,
+      "ownership": {
+        "header": {
+          "pixels": 369940,
+          "differentPixels": 21865,
+          "ratio": 0.05910417905606315
+        },
+        "footer": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "shared": {
+          "pixels": 1215460,
+          "differentPixels": 211894,
+          "ratio": 0.17433235153768945
+        },
+        "page": {
+          "pixels": 8484000,
+          "differentPixels": 746445,
+          "ratio": 0.08798267326732673
+        },
+        "outside": {
+          "pixels": 1474560,
+          "differentPixels": 322673,
+          "ratio": 0.21882663302951388
+        },
+        "reused": {
+          "pixels": 35560,
+          "differentPixels": 2665,
+          "ratio": 0.0749437570303712
+        }
+      },
+      "errors": [
+        "page pixel mismatch 8.798%",
+        "Section geometry differs: product-expanded-description",
+        "Section geometry differs: product-related",
+        "Section geometry differs: product-legal-notices",
+        "shared pixel mismatch 17.433%",
+        "Shared component pixel mismatch product-gallery: 17.311%",
+        "Shared component pixel mismatch product-tabs: 17.520%",
+        "Section geometry differs: product-tabs"
+      ],
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/resume-page-check-1789242681243/product-expanded/product-expanded/comparison.json"
+    }
+  ]
+}

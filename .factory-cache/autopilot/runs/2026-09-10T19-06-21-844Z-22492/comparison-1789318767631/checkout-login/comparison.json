@@ -1,0 +1,652 @@
+{
+  "id": "checkout-login",
+  "sourceNodeId": "492:775",
+  "capturedAt": "2026-09-13T17:03:26.077Z",
+  "passed": false,
+  "errors": [
+    "Full page height differs",
+    "page pixel mismatch 14.797%",
+    "shared pixel mismatch 19.432%",
+    "Shared component pixel mismatch checkout-steps: 19.432%",
+    "Section geometry differs: checkout-login-heading"
+  ],
+  "responsive": [
+    {
+      "width": 1440,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789318767631/checkout-login/responsive-1440.png"
+    },
+    {
+      "width": 1280,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789318767631/checkout-login/responsive-1280.png"
+    },
+    {
+      "width": 1024,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789318767631/checkout-login/responsive-1024.png"
+    },
+    {
+      "width": 768,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789318767631/checkout-login/responsive-768.png"
+    },
+    {
+      "width": 390,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789318767631/checkout-login/responsive-390.png"
+    },
+    {
+      "width": 375,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789318767631/checkout-login/responsive-375.png"
+    }
+  ],
+  "measurementVersion": 4,
+  "acceptanceScope": "all",
+  "templatePlan": {
+    "family": "[\"checkout\",\"/zamowienie/\",\"pl\",1920]",
+    "baseRoute": "checkout",
+    "route": "checkout-login",
+    "reusedSections": [
+      "shared-primary-navigation"
+    ],
+    "focusSections": [
+      "shared-topbar",
+      "shared-secondary-navigation",
+      "checkout-login-heading",
+      "checkout-steps",
+      "checkout-login-options",
+      "shared-footer"
+    ]
+  },
+  "geometryHash": "395941a85baaaeb1cc51326e3260be44469842625033e7a928a2da28f83b718c",
+  "geometryCorrection": null,
+  "ownershipRegions": [],
+  "geometry": [
+    {
+      "id": "shared-topbar",
+      "owner": "header",
+      "component": "header",
+      "expected": {
+        "frameWidth": 1920,
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 40
+      },
+      "actual": {
+        "id": "shared-topbar",
+        "landmark": null,
+        "component": null,
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 40,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "700",
+          "fontSize": "14px",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "shared-secondary-navigation",
+      "owner": "header",
+      "component": "header",
+      "expected": {
+        "frameWidth": 1920,
+        "x": 239,
+        "y": 56,
+        "width": 1440.9998779296875,
+        "height": 42
+      },
+      "actual": {
+        "id": "shared-secondary-navigation",
+        "landmark": "header",
+        "component": null,
+        "x": 237,
+        "y": 56,
+        "width": 1442.8125,
+        "height": 42,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "14px",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "20px",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": -2,
+        "y": 0,
+        "width": 1.8126220703125,
+        "height": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "shared-primary-navigation",
+      "owner": "header",
+      "component": "header",
+      "expected": {
+        "frameWidth": 1920,
+        "x": 240,
+        "y": 115,
+        "width": 1440,
+        "height": 78.6761245727539
+      },
+      "actual": {
+        "id": "shared-primary-navigation",
+        "landmark": "header",
+        "component": null,
+        "x": 240,
+        "y": 115,
+        "width": 1440,
+        "height": 80,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 1.3238754272460938
+      },
+      "passed": true
+    },
+    {
+      "id": "checkout-login-heading",
+      "owner": "header",
+      "component": "header",
+      "expected": {
+        "frameWidth": 1920,
+        "x": 237,
+        "y": 260,
+        "width": 467,
+        "height": 68,
+        "containerWidth": 1440
+      },
+      "actual": {
+        "id": "checkout-login-heading",
+        "landmark": "header",
+        "component": null,
+        "x": 240,
+        "y": 261,
+        "width": 467,
+        "height": 68,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 3,
+        "y": 1,
+        "width": 0,
+        "height": 0
+      },
+      "passed": false
+    },
+    {
+      "id": "checkout-steps",
+      "owner": "shared",
+      "component": "checkout-steps",
+      "expected": {
+        "frameWidth": 1920,
+        "x": 249,
+        "y": 376,
+        "width": 951,
+        "height": 106,
+        "containerWidth": 1440
+      },
+      "actual": {
+        "id": "checkout-steps",
+        "landmark": null,
+        "component": "checkout-steps",
+        "x": 249,
+        "y": 377,
+        "width": 951,
+        "height": 106,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 1,
+        "width": 0,
+        "height": 0
+      },
+      "passed": true,
+      "reused": null
+    },
+    {
+      "id": "checkout-login-options",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "frameWidth": 1920,
+        "x": 240,
+        "y": 552,
+        "width": 1439,
+        "height": 425,
+        "containerWidth": 1440
+      },
+      "actual": {
+        "id": "checkout-login-options",
+        "landmark": null,
+        "component": null,
+        "x": 240,
+        "y": 553,
+        "width": 1440,
+        "height": 425,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "20px",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 1,
+        "width": 1,
+        "height": 0
+      },
+      "passed": true,
+      "reused": null
+    },
+    {
+      "id": "shared-footer",
+      "owner": "footer",
+      "component": "footer",
+      "expected": {
+        "frameWidth": 1920,
+        "x": 0,
+        "y": 8363,
+        "width": 1920,
+        "height": 636
+      },
+      "actual": {
+        "id": "shared-footer",
+        "landmark": "footer",
+        "component": null,
+        "x": 0,
+        "y": 1128,
+        "width": 1920,
+        "height": 636,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": -7235,
+        "width": 0,
+        "height": 0
+      },
+      "passed": false
+    }
+  ],
+  "pixels": {
+    "width": 1920,
+    "height": 1799,
+    "differentPixels": 451770,
+    "ratio": 0.13079314897165092,
+    "ownership": {
+      "header": {
+        "pixels": 629760,
+        "differentPixels": 29184,
+        "ratio": 0.046341463414634146
+      },
+      "footer": {
+        "pixels": 0,
+        "differentPixels": 0,
+        "ratio": 0
+      },
+      "shared": {
+        "pixels": 100806,
+        "differentPixels": 19589,
+        "ratio": 0.19432375057040255
+      },
+      "page": {
+        "pixels": 2723514,
+        "differentPixels": 402997,
+        "ratio": 0.14796949822912606
+      },
+      "outside": {
+        "pixels": 0,
+        "differentPixels": 0,
+        "ratio": 0
+      },
+      "reused": {
+        "pixels": 0,
+        "differentPixels": 0,
+        "ratio": 0
+      }
+    },
+    "components": {
+      "header": {
+        "owner": "header",
+        "pixels": 629760,
+        "differentPixels": 29184,
+        "ratio": 0.046341463414634146
+      },
+      "checkout-steps": {
+        "owner": "shared",
+        "pixels": 100806,
+        "differentPixels": 19589,
+        "ratio": 0.19432375057040255
+      }
+    },
+    "imageDiagnostics": {
+      "interiorPixels": 22201,
+      "interiorDifferentPixels": 1588,
+      "otherPixels": 2701313,
+      "otherDifferentPixels": 401409,
+      "note": "Diagnostic only: confirm source asset, crop, geometry and border before accepting interior photo differences. No blanket image exemption."
+    },
+    "meanMaxChannelDelta": 22.9846584329257,
+    "referenceSize": {
+      "width": 1920,
+      "height": 1799
+    },
+    "renderedSize": {
+      "width": 1920,
+      "height": 1765
+    },
+    "crops": [
+      {
+        "id": "shared-topbar",
+        "owner": "header",
+        "component": "header",
+        "reused": null,
+        "pixels": 76800,
+        "differentPixels": 1226,
+        "ratio": 0.015963541666666668,
+        "signature": null
+      },
+      {
+        "id": "shared-secondary-navigation",
+        "owner": "header",
+        "component": "header",
+        "reused": null,
+        "pixels": 60522,
+        "differentPixels": 9136,
+        "ratio": 0.15095337232741812,
+        "signature": null
+      },
+      {
+        "id": "shared-primary-navigation",
+        "owner": "header",
+        "component": "header",
+        "reused": null,
+        "pixels": 113760,
+        "differentPixels": 11181,
+        "ratio": 0.09828586497890296,
+        "signature": null
+      },
+      {
+        "id": "checkout-login-heading",
+        "owner": "header",
+        "component": "header",
+        "reused": null,
+        "pixels": 31756,
+        "differentPixels": 5133,
+        "ratio": 0.16163874543393375,
+        "signature": null
+      },
+      {
+        "id": "checkout-steps",
+        "owner": "shared",
+        "component": "checkout-steps",
+        "reused": null,
+        "pixels": 100806,
+        "differentPixels": 19589,
+        "ratio": 0.19432375057040255,
+        "signature": "6e8f94dd3219dbcab0cc39a59787b625700593b04791f2a45a79ce1c302d2a1a"
+      },
+      {
+        "id": "checkout-login-options",
+        "owner": "page",
+        "component": null,
+        "reused": null,
+        "pixels": 611575,
+        "differentPixels": 80291,
+        "ratio": 0.1312856150104239,
+        "signature": "88170ffbc1c25d9e37856e8052cc13054e9b6492e364c0ee6985700127d9d45e"
+      },
+      {
+        "id": "shared-footer",
+        "owner": "footer",
+        "component": "footer",
+        "reused": null,
+        "pixels": 1920,
+        "differentPixels": 0,
+        "ratio": 0,
+        "signature": null
+      }
+    ],
+    "worstRows": [
+      {
+        "y": 1765,
+        "count": 1920
+      },
+      {
+        "y": 1766,
+        "count": 1920
+      },
+      {
+        "y": 1767,
+        "count": 1920
+      },
+      {
+        "y": 1768,
+        "count": 1920
+      },
+      {
+        "y": 1769,
+        "count": 1920
+      },
+      {
+        "y": 1770,
+        "count": 1920
+      },
+      {
+        "y": 1771,
+        "count": 1920
+      },
+      {
+        "y": 1772,
+        "count": 1920
+      },
+      {
+        "y": 1773,
+        "count": 1920
+      },
+      {
+        "y": 1774,
+        "count": 1920
+      },
+      {
+        "y": 1775,
+        "count": 1920
+      },
+      {
+        "y": 1776,
+        "count": 1920
+      },
+      {
+        "y": 1777,
+        "count": 1920
+      },
+      {
+        "y": 1778,
+        "count": 1920
+      },
+      {
+        "y": 1779,
+        "count": 1920
+      },
+      {
+        "y": 1780,
+        "count": 1920
+      },
+      {
+        "y": 1781,
+        "count": 1920
+      },
+      {
+        "y": 1782,
+        "count": 1920
+      },
+      {
+        "y": 1783,
+        "count": 1920
+      },
+      {
+        "y": 1784,
+        "count": 1920
+      }
+    ]
+  },
+  "reference": {
+    "path": "references/full/frame-492-775.png",
+    "width": 1920,
+    "height": 1799,
+    "sha256": "d3c65ad7f3459060077e22adcc66287a29af406cd2c516d073194ea8e1cf173e"
+  },
+  "rendered": {
+    "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789318767631/checkout-login/rendered.png",
+    "width": 1920,
+    "height": 1765,
+    "sha256": "0a820ec0f9c8e30af90ee13affa01843e2b2d720e7c0289aead7a29984e9f202"
+  },
+  "acceptance": {
+    "threshold": 0.085,
+    "pagePassed": false,
+    "sharedPassed": null,
+    "pageErrors": [
+      "Full page height differs",
+      "page pixel mismatch 14.797%"
+    ],
+    "sharedErrors": [
+      "shared pixel mismatch 19.432%",
+      "Shared component pixel mismatch checkout-steps: 19.432%",
+      "Section geometry differs: checkout-login-heading"
+    ],
+    "skippedOwners": [
+      "footer"
+    ],
+    "note": "Page build readiness can defer shared visual issues. Final acceptance requires both plus independent visual audit. Section ratios remain diagnostics."
+  },
+  "chromeReview": {
+    "skippedOwners": [
+      "footer"
+    ],
+    "reason": "One representative per shared section set and width"
+  }
+}

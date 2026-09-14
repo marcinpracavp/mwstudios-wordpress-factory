@@ -1,0 +1,5 @@
+2026-09-12T10:12:58.456179Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+2026-09-12T10:13:00.983396Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh
+2026-09-12T10:14:56.429513Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (1/1 in 186ms)... turn_id=01a0951c-ee5b-7110-9acb-0656468f2d74 retries=1 max_retries=1 sampling_error=stream disconnected before completion: failed to send websocket request: Connection closed normally
+2026-09-12T10:17:10.345744Z ERROR codex_core::tools::router: error=unable to process image: invalid or unsupported image data
+2026-09-12T10:26:51.671274Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (1/5 in 210ms)... turn_id=01a0951b-25cb-7990-a618-47b1ad2e9c74 retries=1 max_retries=5 sampling_error=stream disconnected before completion: failed to send websocket request: Connection closed normally

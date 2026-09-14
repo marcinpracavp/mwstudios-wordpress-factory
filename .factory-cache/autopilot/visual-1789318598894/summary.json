@@ -1,0 +1,59 @@
+{
+  "capturedAt": "2026-09-13T16:56:50.803Z",
+  "implementationHash": "2f03143a70839acd56ec49c0264a0fda19494a28e4ef420868c2e6dde5374b66",
+  "sourceHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+  "thresholds": {
+    "channelTolerance": 24,
+    "maxDifferentPixelRatio": 0.085,
+    "geometryTolerancePx": 2
+  },
+  "acceptanceScope": "page",
+  "buildReady": false,
+  "deferred": [],
+  "passed": false,
+  "pagePassed": false,
+  "routes": [
+    {
+      "id": "account",
+      "passed": false,
+      "pagePassed": false,
+      "ownership": {
+        "header": {
+          "pixels": 372480,
+          "differentPixels": 23683,
+          "ratio": 0.06358193728522336
+        },
+        "footer": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "shared": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "page": {
+          "pixels": 1079040,
+          "differentPixels": 52559,
+          "ratio": 0.04870903766310795
+        },
+        "outside": {
+          "pixels": 1534080,
+          "differentPixels": 305653,
+          "ratio": 0.19924189090529829
+        },
+        "reused": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        }
+      },
+      "errors": [
+        "Responsive render health 390",
+        "Responsive render health 375"
+      ],
+      "comparison": ".factory-cache/autopilot/visual-1789318598894/account/comparison.json"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "about-grain-trade",
+  "name": "Grain trade card",
+  "order": 37,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "519:351"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 160,
+    "y": 2085,
+    "width": 1600,
+    "height": 631,
+    "containerWidth": 1440,
+    "padding": {
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "gap": 20
+  },
+  "layout": {
+    "type": "two-column-card-with-rich-text",
+    "columns": [
+      {
+        "x": 240,
+        "width": 832
+      },
+      {
+        "x": 1092,
+        "width": 588
+      }
+    ],
+    "alignment": "center"
+  },
+  "typography": [
+    {
+      "nodeId": "519:352",
+      "family": "DM Sans",
+      "style": "Bold",
+      "fontSize": 32,
+      "lineHeight": 24,
+      "color": "#000000"
+    },
+    {
+      "nodeId": "519:351",
+      "family": "DM Sans",
+      "style": "Regular/Bold",
+      "fontSize": 24,
+      "lineHeight": "normal",
+      "color": "#000000"
+    }
+  ],
+  "colors": [
+    {
+      "nodeId": "521:452",
+      "sourceVector": true
+    },
+    {
+      "nodeId": "519:350",
+      "cornerRadius": 30
+    }
+  ],
+  "effects": [
+    {
+      "nodeId": "519:350",
+      "shadow": "0px 4px 10px rgba(0,0,0,0.25)"
+    }
+  ],
+  "contentFields": [
+    "rudnikagro_about.grain_trade.heading",
+    "rudnikagro_about.grain_trade.content",
+    "rudnikagro_about.grain_trade.image"
+  ],
+  "assets": [
+    {
+      "sourceNodeId": "521:452",
+      "path": "assets/about/521-452-grain-card.svg",
+      "usage": "Exact source card background vector."
+    },
+    {
+      "sourceNodeId": "519:350",
+      "path": "assets/about/519-350-grain-photo.png",
+      "usage": "Exact source card image."
+    }
+  ],
+  "notes": [
+    "Desktop source only; mobile behavior must be derived."
+  ],
+  "liveFigmaRequired": false
+}

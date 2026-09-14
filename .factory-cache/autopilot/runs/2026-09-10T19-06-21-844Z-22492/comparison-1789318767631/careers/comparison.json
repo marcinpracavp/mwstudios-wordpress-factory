@@ -1,0 +1,683 @@
+{
+  "id": "careers",
+  "sourceNodeId": "349:1267",
+  "capturedAt": "2026-09-13T16:59:30.065Z",
+  "passed": false,
+  "errors": [
+    "Full page height differs",
+    "footer pixel mismatch 9.783%",
+    "Section geometry differs: shared-footer"
+  ],
+  "responsive": [
+    {
+      "width": 1440,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789318767631/careers/responsive-1440.png"
+    },
+    {
+      "width": 1280,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789318767631/careers/responsive-1280.png"
+    },
+    {
+      "width": 1024,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789318767631/careers/responsive-1024.png"
+    },
+    {
+      "width": 768,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789318767631/careers/responsive-768.png"
+    },
+    {
+      "width": 390,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789318767631/careers/responsive-390.png"
+    },
+    {
+      "width": 375,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789318767631/careers/responsive-375.png"
+    }
+  ],
+  "measurementVersion": 4,
+  "acceptanceScope": "all",
+  "templatePlan": null,
+  "geometryHash": "12262bcea33bedb7c748fabddb9c18de1be3ec506cb53e5b760d40eb23912f29",
+  "geometryCorrection": null,
+  "ownershipRegions": [],
+  "geometry": [
+    {
+      "id": "shared-topbar",
+      "owner": "header",
+      "component": "header",
+      "expected": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 40
+      },
+      "actual": {
+        "id": "shared-topbar",
+        "landmark": null,
+        "component": null,
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 40,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "700",
+          "fontSize": "14px",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "shared-secondary-navigation",
+      "owner": "header",
+      "component": "header",
+      "expected": {
+        "x": 237.001953125,
+        "y": 56,
+        "width": 1442.8232421875,
+        "height": 42
+      },
+      "actual": {
+        "id": "shared-secondary-navigation",
+        "landmark": "header",
+        "component": null,
+        "x": 237,
+        "y": 56,
+        "width": 1442.8125,
+        "height": 42,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "14px",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "20px",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": -0.001953125,
+        "y": 0,
+        "width": -0.0107421875,
+        "height": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "shared-primary-navigation",
+      "owner": "header",
+      "component": "header",
+      "expected": {
+        "x": 240,
+        "y": 115,
+        "width": 1440,
+        "height": 78.6761245727539
+      },
+      "actual": {
+        "id": "shared-primary-navigation",
+        "landmark": "header",
+        "component": null,
+        "x": 240,
+        "y": 115,
+        "width": 1440,
+        "height": 80,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 1.3238754272460938
+      },
+      "passed": true
+    },
+    {
+      "id": "careers-heading",
+      "owner": "shared",
+      "component": "page-banner",
+      "expected": {
+        "x": 240,
+        "y": 218,
+        "width": 1440,
+        "height": 220
+      },
+      "actual": {
+        "id": "careers-heading",
+        "landmark": null,
+        "component": "page-banner",
+        "x": 240,
+        "y": 219,
+        "width": 1440,
+        "height": 220,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 1,
+        "width": 0,
+        "height": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "careers-vacancies",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "x": 362,
+        "y": 486,
+        "width": 1196,
+        "height": 2290
+      },
+      "actual": {
+        "id": "careers-vacancies",
+        "landmark": null,
+        "component": null,
+        "x": 362,
+        "y": 487,
+        "width": 1196,
+        "height": 2290,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 1,
+        "width": 0,
+        "height": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "careers-application",
+      "owner": "page",
+      "component": null,
+      "expected": {
+        "x": 463,
+        "y": 1695,
+        "width": 994,
+        "height": 346
+      },
+      "actual": {
+        "id": "careers-application",
+        "landmark": null,
+        "component": null,
+        "x": 463,
+        "y": 1696,
+        "width": 994,
+        "height": 346,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 1,
+        "width": 0,
+        "height": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "shared-shop-cta",
+      "owner": "shared",
+      "component": "shared-shop-cta",
+      "expected": {
+        "x": 36,
+        "y": 2919,
+        "width": 1840,
+        "height": 230
+      },
+      "actual": {
+        "id": "shared-shop-cta",
+        "landmark": null,
+        "component": null,
+        "x": 36,
+        "y": 2920,
+        "width": 1840,
+        "height": 230,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(0, 102, 51)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 1,
+        "width": 0,
+        "height": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "shared-footer",
+      "owner": "footer",
+      "component": "footer",
+      "expected": {
+        "x": 0,
+        "y": 3188,
+        "width": 1920,
+        "height": 614
+      },
+      "actual": {
+        "id": "shared-footer",
+        "landmark": "footer",
+        "component": null,
+        "x": 0,
+        "y": 3189,
+        "width": 1920,
+        "height": 636,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 1,
+        "width": 0,
+        "height": 22
+      },
+      "passed": false
+    }
+  ],
+  "pixels": {
+    "width": 1920,
+    "height": 3826,
+    "differentPixels": 436107,
+    "ratio": 0.059367240590695244,
+    "ownership": {
+      "header": {
+        "pixels": 372480,
+        "differentPixels": 23599,
+        "ratio": 0.06335642182130584
+      },
+      "footer": {
+        "pixels": 1224960,
+        "differentPixels": 119835,
+        "ratio": 0.09782768416927899
+      },
+      "shared": {
+        "pixels": 740000,
+        "differentPixels": 34756,
+        "ratio": 0.046967567567567564
+      },
+      "page": {
+        "pixels": 5008480,
+        "differentPixels": 257917,
+        "ratio": 0.05149606267769862
+      },
+      "outside": {
+        "pixels": 0,
+        "differentPixels": 0,
+        "ratio": 0
+      },
+      "reused": {
+        "pixels": 0,
+        "differentPixels": 0,
+        "ratio": 0
+      }
+    },
+    "components": {
+      "header": {
+        "owner": "header",
+        "pixels": 372480,
+        "differentPixels": 23599,
+        "ratio": 0.06335642182130584
+      },
+      "page-banner": {
+        "owner": "shared",
+        "pixels": 316800,
+        "differentPixels": 6691,
+        "ratio": 0.021120580808080807
+      },
+      "shared-shop-cta": {
+        "owner": "shared",
+        "pixels": 423200,
+        "differentPixels": 28065,
+        "ratio": 0.06631616257088847
+      },
+      "footer": {
+        "owner": "footer",
+        "pixels": 1224960,
+        "differentPixels": 119835,
+        "ratio": 0.09782768416927899
+      }
+    },
+    "imageDiagnostics": {
+      "interiorPixels": 0,
+      "interiorDifferentPixels": 0,
+      "otherPixels": 5008480,
+      "otherDifferentPixels": 257917,
+      "note": "Diagnostic only: confirm source asset, crop, geometry and border before accepting interior photo differences. No blanket image exemption."
+    },
+    "meanMaxChannelDelta": 8.83206596314689,
+    "referenceSize": {
+      "width": 1920,
+      "height": 3802
+    },
+    "renderedSize": {
+      "width": 1920,
+      "height": 3826
+    },
+    "crops": [
+      {
+        "id": "shared-topbar",
+        "owner": "header",
+        "component": "header",
+        "reused": null,
+        "pixels": 76800,
+        "differentPixels": 1546,
+        "ratio": 0.020130208333333333,
+        "signature": null
+      },
+      {
+        "id": "shared-secondary-navigation",
+        "owner": "header",
+        "component": "header",
+        "reused": null,
+        "pixels": 60606,
+        "differentPixels": 9068,
+        "ratio": 0.14962214962214962,
+        "signature": null
+      },
+      {
+        "id": "shared-primary-navigation",
+        "owner": "header",
+        "component": "header",
+        "reused": null,
+        "pixels": 113760,
+        "differentPixels": 11181,
+        "ratio": 0.09828586497890296,
+        "signature": null
+      },
+      {
+        "id": "careers-heading",
+        "owner": "shared",
+        "component": "page-banner",
+        "reused": null,
+        "pixels": 316800,
+        "differentPixels": 6691,
+        "ratio": 0.021120580808080807,
+        "signature": null
+      },
+      {
+        "id": "careers-vacancies",
+        "owner": "page",
+        "component": null,
+        "reused": null,
+        "pixels": 2738840,
+        "differentPixels": 256077,
+        "ratio": 0.09349834236392049,
+        "signature": null
+      },
+      {
+        "id": "careers-application",
+        "owner": "page",
+        "component": null,
+        "reused": null,
+        "pixels": 343924,
+        "differentPixels": 28604,
+        "ratio": 0.08316953745594957,
+        "signature": null
+      },
+      {
+        "id": "shared-shop-cta",
+        "owner": "shared",
+        "component": "shared-shop-cta",
+        "reused": null,
+        "pixels": 423200,
+        "differentPixels": 28065,
+        "ratio": 0.06631616257088847,
+        "signature": null
+      },
+      {
+        "id": "shared-footer",
+        "owner": "footer",
+        "component": "footer",
+        "reused": null,
+        "pixels": 1178880,
+        "differentPixels": 73755,
+        "ratio": 0.06256361970684039,
+        "signature": null
+      }
+    ],
+    "worstRows": [
+      {
+        "y": 3802,
+        "count": 1920
+      },
+      {
+        "y": 3803,
+        "count": 1920
+      },
+      {
+        "y": 3804,
+        "count": 1920
+      },
+      {
+        "y": 3805,
+        "count": 1920
+      },
+      {
+        "y": 3806,
+        "count": 1920
+      },
+      {
+        "y": 3807,
+        "count": 1920
+      },
+      {
+        "y": 3808,
+        "count": 1920
+      },
+      {
+        "y": 3809,
+        "count": 1920
+      },
+      {
+        "y": 3810,
+        "count": 1920
+      },
+      {
+        "y": 3811,
+        "count": 1920
+      },
+      {
+        "y": 3812,
+        "count": 1920
+      },
+      {
+        "y": 3813,
+        "count": 1920
+      },
+      {
+        "y": 3814,
+        "count": 1920
+      },
+      {
+        "y": 3815,
+        "count": 1920
+      },
+      {
+        "y": 3816,
+        "count": 1920
+      },
+      {
+        "y": 3817,
+        "count": 1920
+      },
+      {
+        "y": 3818,
+        "count": 1920
+      },
+      {
+        "y": 3819,
+        "count": 1920
+      },
+      {
+        "y": 3820,
+        "count": 1920
+      },
+      {
+        "y": 3821,
+        "count": 1920
+      }
+    ]
+  },
+  "reference": {
+    "path": "references/full/frame-349-1267.png",
+    "width": 1920,
+    "height": 3802,
+    "sha256": "cd1098f6b1466ddddbc98ef25463b2a499317c8ac3566768478d3b91cf6b0f05"
+  },
+  "rendered": {
+    "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789318767631/careers/rendered.png",
+    "width": 1920,
+    "height": 3826,
+    "sha256": "34c042e34bb8e935ae682132849c9b427850c5d935ad4a8fb002adf1b93fa27c"
+  },
+  "acceptance": {
+    "threshold": 0.085,
+    "pagePassed": false,
+    "sharedPassed": false,
+    "pageErrors": [
+      "Full page height differs"
+    ],
+    "sharedErrors": [
+      "footer pixel mismatch 9.783%",
+      "Section geometry differs: shared-footer"
+    ],
+    "skippedOwners": [],
+    "note": "Page build readiness can defer shared visual issues. Final acceptance requires both plus independent visual audit. Section ratios remain diagnostics."
+  },
+  "chromeReview": {
+    "skippedOwners": [],
+    "reason": "One representative per shared section set and width"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "product-expanded",
+  "frameNodeId": "326:2526",
+  "referenceHash": "e7a3ca64f767557d01be5e359647d144abe83587794e8c4f00bd466958336170",
+  "evidence": ".factory-cache/autopilot/product-expanded-source-geometry.json",
+  "evidenceHash": "fdcf2a94a73202daaf5fba14a24e5b3dc4d48b89752d08b855544472a8f59db2",
+  "sections": [
+    {
+      "id": "product-related",
+      "nodeIds": [
+        "326:2567"
+      ],
+      "before": {
+        "frameWidth": 1920,
+        "x": 240,
+        "y": 1635,
+        "width": 710,
+        "height": 570
+      },
+      "after": {
+        "frameWidth": 1920,
+        "x": 240,
+        "y": 4348,
+        "width": 710,
+        "height": 570
+      }
+    },
+    {
+      "id": "product-legal-notices",
+      "nodeIds": [
+        "326:2730",
+        "326:2732"
+      ],
+      "before": {
+        "frameWidth": 1920,
+        "x": 240,
+        "y": 2263,
+        "width": 1440,
+        "height": 287
+      },
+      "after": {
+        "frameWidth": 1920,
+        "x": 240,
+        "y": 4976,
+        "width": 1440,
+        "height": 287
+      }
+    }
+  ],
+  "reason": "Explicit same-sized section mapping to retained source nodes in this route frame."
+}

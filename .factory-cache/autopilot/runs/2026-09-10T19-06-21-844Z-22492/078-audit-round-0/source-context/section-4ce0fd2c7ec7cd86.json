@@ -1,0 +1,43 @@
+{
+  "id": "about-insurance",
+  "manifestRecord": {
+    "id": "about-insurance",
+    "order": 49,
+    "snapshot": "sections/38-about-insurance.json",
+    "desktopReference": "references/sections/about-insurance.png",
+    "name": "Agricultural insurance card",
+    "pageId": "0:1",
+    "desktopNodeId": "521:435"
+  },
+  "contentFields": [
+    {
+      "section": "about-insurance",
+      "nodeId": "521:436",
+      "fieldName": "rudnikagro_about.insurance.heading",
+      "type": "text",
+      "language": "pl",
+      "value": "Ubezpieczenia dla rolnictwa"
+    },
+    {
+      "section": "about-insurance",
+      "nodeId": "521:435",
+      "fieldName": "rudnikagro_about.insurance.content",
+      "type": "wysiwyg",
+      "language": "pl",
+      "value": "<ul><li><strong>Uprawy rolne:</strong> Do 65% dopłaty do składki z budżetu państwa (odpowiedzialność już od 8%). Ochrona przed: wymarznięciem, ogniem, przymrozkami wiosennymi, gradem, deszczem nawalnym, huraganem.</li><li><strong>Maszyny rolnicze:</strong> Bardzo szeroki zakres ochrony (w tym Agro Casco). Ubezpieczenia od wszystkich ryzyk (kradzież, zniszczenie, ogień i inne zdarzenia losowe). Dostępne umowy krótkoterminowe, roczne i wieloletnie.</li><li><strong>Budynki i OC:</strong> Ochrona majątku (budynki i budowle, silosy, magazyny płaskie, wagi najazdowe) od ognia i zdarzeń losowych. Zabezpieczenie towarów (ziemiopłodów) w magazynach oraz polisy OC dla przedsiębiorstw rolnych.</li></ul>"
+    },
+    {
+      "section": "about-insurance",
+      "nodeId": "521:439",
+      "fieldName": "rudnikagro_about.insurance.expert",
+      "type": "group",
+      "language": "pl",
+      "value": {
+        "role": "Ekspert ds. Ubezpieczeń",
+        "name": "Monika Zielińska",
+        "telephone": "532 402 999",
+        "email": "mzielinska@madez.pl"
+      }
+    }
+  ]
+}

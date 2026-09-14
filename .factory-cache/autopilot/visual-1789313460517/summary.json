@@ -1,0 +1,94 @@
+{
+  "capturedAt": "2026-09-13T15:31:36.713Z",
+  "implementationHash": "fc4960cc1a10ac42b5b6f980535486a13dedd2ca271baa6918d8fbecd51c5207",
+  "sourceHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+  "thresholds": {
+    "channelTolerance": 24,
+    "maxDifferentPixelRatio": 0.085,
+    "geometryTolerancePx": 2
+  },
+  "acceptanceScope": "page",
+  "buildReady": true,
+  "deferred": [
+    {
+      "id": "home",
+      "progress": {
+        "deferred": true,
+        "samples": [
+          {
+            "file": "current capture",
+            "implementationHash": "fc4960cc1a10ac42b5b6f980535486a13dedd2ca271baa6918d8fbecd51c5207",
+            "capturedAt": "2026-09-13T15:31:03.542Z",
+            "ratio": 0.11529145064395342
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789313362962\\summary.json",
+            "implementationHash": "6ba4ae0331321d80e169ba926a9412395ec3bf974946093a56a7494f85475b1d",
+            "capturedAt": "2026-09-13T15:29:25.956Z",
+            "ratio": 0.12245279646545694
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789313210710\\summary.json",
+            "implementationHash": "18ede705a0a4e9154671f908cfdacb4627f8c7bcda798295f16c1a2f3277b62b",
+            "capturedAt": "2026-09-13T15:26:53.800Z",
+            "ratio": 0.11424264751265276
+          }
+        ],
+        "improvement": 0.008210148952804183,
+        "policy": {
+          "samples": 3,
+          "maxPageMismatch": 0.13,
+          "minImprovement": 0.03
+        },
+        "nonPixelErrors": [],
+        "reason": "Insufficient measured progress across distinct implementations; unresolved visual work belongs to final audit, not PASS."
+      },
+      "comparison": ".factory-cache/autopilot/visual-1789313460517/home/comparison.json"
+    }
+  ],
+  "passed": false,
+  "pagePassed": false,
+  "routes": [
+    {
+      "id": "home",
+      "passed": false,
+      "pagePassed": false,
+      "ownership": {
+        "header": {
+          "pixels": 372480,
+          "differentPixels": 21847,
+          "ratio": 0.05865281357388316
+        },
+        "footer": {
+          "pixels": 1221120,
+          "differentPixels": 408333,
+          "ratio": 0.334392197327044
+        },
+        "shared": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "page": {
+          "pixels": 15553920,
+          "differentPixels": 1793234,
+          "ratio": 0.11529145064395342
+        },
+        "outside": {
+          "pixels": 130560,
+          "differentPixels": 130436,
+          "ratio": 0.9990502450980392
+        },
+        "reused": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        }
+      },
+      "errors": [
+        "page pixel mismatch 11.529%"
+      ],
+      "comparison": ".factory-cache/autopilot/visual-1789313460517/home/comparison.json"
+    }
+  ]
+}

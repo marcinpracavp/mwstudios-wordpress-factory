@@ -1,0 +1,40 @@
+{
+  "id": "shared-shop-cta",
+  "manifestRecord": {
+    "id": "shared-shop-cta",
+    "name": "Przerywnik",
+    "order": 33,
+    "pageId": "0:1",
+    "snapshot": "sections/33-shared-shop-cta.json",
+    "desktopNodeId": "548:24",
+    "desktopReference": "references/sections/shared-shop-cta.png"
+  },
+  "contentFields": [
+    {
+      "section": "shared-shop-cta",
+      "nodeId": "548:26",
+      "fieldName": "rudnikagro_careers_cta_heading",
+      "type": "text",
+      "language": "pl",
+      "value": "Nie znalazÅ‚eÅ› oferty dla siebie? Odezwij siÄ™ do nas!",
+      "destination": "ACF careers page / CTA heading",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "548:26"
+      }
+    },
+    {
+      "section": "shared-shop-cta",
+      "nodeId": "548:29",
+      "fieldName": "rudnikagro_careers_cta_button_label",
+      "type": "text",
+      "language": "pl",
+      "value": "WyÅ›lij CV",
+      "destination": "ACF careers page / CTA button label",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "548:29"
+      }
+    }
+  ]
+}

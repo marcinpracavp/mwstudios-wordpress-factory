@@ -23,8 +23,9 @@ function getSectionStatus(sectionId) {
     .map((relativePath) => resolveSnapshotFile(paths.cacheRoot, relativePath));
   const complete = manifest.status === 'complete'
     && Boolean(section.desktopNodeId)
-    && Boolean(section.mobileNodeId)
-    && files.length === 3
+    && Boolean(section.desktopReference)
+    && Boolean(section.mobileNodeId) === Boolean(section.mobileReference)
+    && files.length === (section.mobileNodeId ? 3 : 2)
     && files.every((filePath) => filePath && fs.existsSync(filePath));
   return { complete, paths, section };
 }

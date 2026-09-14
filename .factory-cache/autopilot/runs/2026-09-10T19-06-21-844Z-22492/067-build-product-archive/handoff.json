@@ -1,0 +1,207 @@
+{
+  "task": {
+    "id": "product-archive"
+  },
+  "sourceContext": {
+    "version": 6,
+    "available": true,
+    "index": {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/067-build-product-archive/source-context/index.json",
+      "bytes": 1435,
+      "sha256": "ab6f233a519fff6902e9aac0a06cc5625bf02558018fb5ccbf604c70e6564eb5"
+    }
+  },
+  "model": "gpt-5.6-terra",
+  "reasoningEffort": "high",
+  "continuation": "fresh session using persisted artifacts; do not load historical conversation",
+  "previousExecution": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/066-build-product-archive/execution.json",
+  "previousResult": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/066-build-product-archive/result.json",
+  "correctionFocus": [
+    {
+      "evidence": {
+        "path": ".factory-cache/autopilot/visual-1789294203652/product-archive/comparison.json",
+        "bytes": 21659,
+        "sha256": "c79c52334736dc340d7b924028d451e375ff74c0f572f42714dc86c5ee89c22c"
+      },
+      "route": "product-archive",
+      "capturedAt": "2026-09-13T10:10:05.202Z",
+      "ownership": {
+        "header": {
+          "pixels": 372480,
+          "differentPixels": 21852,
+          "ratio": 0.05866623711340206
+        },
+        "footer": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "shared": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "page": {
+          "pixels": 10972800,
+          "differentPixels": 3471355,
+          "ratio": 0.31635999927092445
+        },
+        "outside": {
+          "pixels": 1407360,
+          "differentPixels": 1407360,
+          "ratio": 1
+        },
+        "reused": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        }
+      },
+      "fullMismatch": 0.38427862779785205,
+      "sections": [
+        {
+          "id": "archive-category-description",
+          "pixelMismatch": 0.7121869082636653,
+          "geometryPassed": true,
+          "geometryDelta": {
+            "x": 0,
+            "y": 0,
+            "width": -1,
+            "height": 0
+          },
+          "approximateDifferentPixels": 1718074
+        },
+        {
+          "id": "archive-product-grid",
+          "pixelMismatch": 0.1291320194819856,
+          "geometryPassed": true,
+          "geometryDelta": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "approximateDifferentPixels": 400348
+        },
+        {
+          "id": "archive-filters",
+          "pixelMismatch": 0.0760729648646714,
+          "geometryPassed": false,
+          "geometryDelta": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": -104.03125
+          },
+          "approximateDifferentPixels": 58448
+        },
+        {
+          "id": "archive-category-introduction",
+          "pixelMismatch": 0.11670106268288927,
+          "geometryPassed": true,
+          "geometryDelta": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "approximateDifferentPixels": 37887
+        },
+        {
+          "id": "archive-breadcrumbs",
+          "pixelMismatch": 0.07691226096737908,
+          "geometryPassed": true,
+          "geometryDelta": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "approximateDifferentPixels": 2735
+        },
+        {
+          "id": "archive-pagination",
+          "pixelMismatch": 0.03649425287356322,
+          "geometryPassed": true,
+          "geometryDelta": {
+            "x": -0.5,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "approximateDifferentPixels": 508
+        },
+        {
+          "id": "archive-sort",
+          "pixelMismatch": 0.044942700548081714,
+          "geometryPassed": true,
+          "geometryDelta": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "approximateDifferentPixels": 451
+        }
+      ],
+      "instruction": "Historical priority only: confirm current screenshots first. Start with the section contributing the most different pixels, inspect its exact pair/crops and internal element typography/borders/images, then correct and recapture. Passing outer geometry does not prove matching inner content. Nested section counts overlap; do not sum them. Keep source references and acceptance thresholds unchanged."
+    }
+  ],
+  "currentPageVerification": {
+    "routes": [
+      {
+        "id": "product-archive",
+        "passed": false,
+        "pagePassed": false,
+        "ownership": {
+          "header": {
+            "pixels": 372480,
+            "differentPixels": 21852,
+            "ratio": 0.05866623711340206
+          },
+          "footer": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "shared": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "page": {
+            "pixels": 10972800,
+            "differentPixels": 3471355,
+            "ratio": 0.31635999927092445
+          },
+          "outside": {
+            "pixels": 1407360,
+            "differentPixels": 1407360,
+            "ratio": 1
+          },
+          "reused": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          }
+        },
+        "errors": [
+          "page pixel mismatch 31.636%",
+          "Section geometry differs: archive-filters"
+        ],
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/066-build-product-archive/build-readiness/product-archive/product-archive/comparison.json"
+      }
+    ],
+    "instruction": "Fresh host checks for all sibling routes. Repair only failed assigned routes."
+  },
+  "snapshot": ".factory-cache/figma/latest",
+  "observations": ".factory-cache/figma/latest/observations/index.json",
+  "plans": [
+    "docs/factory/project/PLAN.md",
+    "docs/factory/project/STATUS.md",
+    "docs/factory/project/SOURCE_CLARIFICATIONS.md",
+    "docs/factory/project/REUSABLE_COMPONENTS.md"
+  ],
+  "currentGate": null,
+  "instruction": "Inspect the current gate and finish only remaining assigned work. Reuse real saved source facts and assets."
+}

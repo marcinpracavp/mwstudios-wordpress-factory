@@ -1,0 +1,74 @@
+{
+  "id": "cart-lines",
+  "manifestRecord": {
+    "id": "cart-lines",
+    "name": "Pozycja koszyka",
+    "order": 62,
+    "pageId": "0:1",
+    "snapshot": "sections/57-cart-lines.json",
+    "desktopNodeId": "483:7",
+    "desktopReference": "references/sections/cart-lines.png"
+  },
+  "contentFields": [
+    {
+      "section": "cart-lines",
+      "nodeId": "483:29",
+      "fieldName": "rudnikagro_cart_line_product_name",
+      "type": "dynamic-native",
+      "language": "pl",
+      "value": "Aquatos 5L",
+      "destination": "WooCommerce product title rendered by native cart item",
+      "linkEvidence": [
+        {
+          "characters": "Aquatos 5L",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "483:29"
+      }
+    },
+    {
+      "section": "cart-lines",
+      "nodeId": "484:42",
+      "fieldName": "rudnikagro_cart_line_product_price",
+      "type": "dynamic-native",
+      "language": "pl",
+      "value": "411,00 zł",
+      "destination": "WooCommerce product price rendered by native cart item",
+      "linkEvidence": [
+        {
+          "characters": "411,00 zł",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "484:42"
+      }
+    },
+    {
+      "section": "cart-lines",
+      "nodeId": "484:33",
+      "fieldName": "rudnikagro_cart_line_quantity",
+      "type": "dynamic-native",
+      "language": "pl",
+      "value": "1",
+      "destination": "WooCommerce cart quantity state",
+      "linkEvidence": [
+        {
+          "characters": "1",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "484:33"
+      }
+    }
+  ]
+}

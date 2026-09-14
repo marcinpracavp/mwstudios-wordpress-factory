@@ -1,0 +1,546 @@
+{
+  "id": "product-bundle-overview",
+  "manifestRecord": {
+    "id": "product-bundle-overview",
+    "name": "dane produktu",
+    "order": 9,
+    "pageId": "0:1",
+    "snapshot": "sections/09-product-bundle-overview.json",
+    "desktopNodeId": "586:1200",
+    "desktopReference": "references/sections/product-bundle-overview.png"
+  },
+  "contentFields": [
+    {
+      "section": "product-bundle-overview",
+      "nodeId": "586:1201",
+      "fieldName": "rudnikagro_product_bundle_overview_586_1201",
+      "type": "text",
+      "language": "pl",
+      "value": "Kod produktu: 99299\nProducent: Rudnikagro",
+      "destination": "WooCommerce native package product SKU 99299 and approved bundle contents",
+      "linkEvidence": [
+        {
+          "characters": "Kod produktu: ",
+          "hyperlink": null
+        },
+        {
+          "characters": "99299\n",
+          "hyperlink": null
+        },
+        {
+          "characters": "Producent: ",
+          "hyperlink": null
+        },
+        {
+          "characters": "Rudnikagro",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "586:1201"
+      }
+    },
+    {
+      "section": "product-bundle-overview",
+      "nodeId": "586:1245",
+      "fieldName": "rudnikagro_product_bundle_overview_586_1245",
+      "type": "text",
+      "language": "pl",
+      "value": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L",
+      "destination": "WooCommerce native package product SKU 99299 and approved bundle contents",
+      "linkEvidence": [
+        {
+          "characters": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "586:1245"
+      }
+    },
+    {
+      "section": "product-bundle-overview",
+      "nodeId": "586:1205",
+      "fieldName": "rudnikagro_product_bundle_overview_586_1205",
+      "type": "text",
+      "language": "pl",
+      "value": "Dodaj do ulubionych",
+      "destination": "WooCommerce native package product SKU 99299 and approved bundle contents",
+      "linkEvidence": [
+        {
+          "characters": "Dodaj do ulubionych",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "586:1205"
+      }
+    },
+    {
+      "section": "product-bundle-overview",
+      "nodeId": "586:1209",
+      "fieldName": "rudnikagro_product_bundle_overview_586_1209",
+      "type": "text",
+      "language": "pl",
+      "value": "Chcesz poznaÄ‡ cenÄ™ hurtowÄ… dla tego produktu? Skontaktuj siÄ™!",
+      "destination": "WooCommerce native package product SKU 99299 and approved bundle contents",
+      "linkEvidence": [
+        {
+          "characters": "Chcesz poznaÄ‡ cenÄ™ hurtowÄ… dla tego produktu? Skontaktuj siÄ™!",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "586:1209"
+      }
+    },
+    {
+      "section": "product-bundle-overview",
+      "nodeId": "586:1213",
+      "fieldName": "rudnikagro_product_bundle_overview_586_1213",
+      "type": "text",
+      "language": "pl",
+      "value": "Ocena:",
+      "destination": "WooCommerce native package product SKU 99299 and approved bundle contents",
+      "linkEvidence": [
+        {
+          "characters": "Ocena:",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "586:1213"
+      }
+    },
+    {
+      "section": "product-bundle-overview",
+      "nodeId": "586:1229",
+      "fieldName": "rudnikagro_product_bundle_overview_586_1229",
+      "type": "text",
+      "language": "pl",
+      "value": "Dodaj do koszyka",
+      "destination": "WooCommerce native package product SKU 99299 and approved bundle contents",
+      "linkEvidence": [
+        {
+          "characters": "Dodaj do koszyka",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "586:1229"
+      }
+    },
+    {
+      "section": "product-bundle-overview",
+      "nodeId": "586:1232",
+      "fieldName": "rudnikagro_product_bundle_overview_586_1232",
+      "type": "text",
+      "language": "pl",
+      "value": "1",
+      "destination": "WooCommerce native package product SKU 99299 and approved bundle contents",
+      "linkEvidence": [
+        {
+          "characters": "1",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "586:1232"
+      }
+    },
+    {
+      "section": "product-bundle-overview",
+      "nodeId": "586:1233",
+      "fieldName": "rudnikagro_product_bundle_overview_586_1233",
+      "type": "text",
+      "language": "pl",
+      "value": "-",
+      "destination": "WooCommerce native package product SKU 99299 and approved bundle contents",
+      "linkEvidence": [
+        {
+          "characters": "-",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "586:1233"
+      }
+    },
+    {
+      "section": "product-bundle-overview",
+      "nodeId": "586:1234",
+      "fieldName": "rudnikagro_product_bundle_overview_586_1234",
+      "type": "text",
+      "language": "pl",
+      "value": "+",
+      "destination": "WooCommerce native package product SKU 99299 and approved bundle contents",
+      "linkEvidence": [
+        {
+          "characters": "+",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "586:1234"
+      }
+    },
+    {
+      "section": "product-bundle-overview",
+      "nodeId": "586:1237",
+      "fieldName": "rudnikagro_product_bundle_overview_586_1237",
+      "type": "text",
+      "language": "pl",
+      "value": "4 ha",
+      "destination": "WooCommerce native package product SKU 99299 and approved bundle contents",
+      "linkEvidence": [
+        {
+          "characters": "4 ha",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "586:1237"
+      }
+    },
+    {
+      "section": "product-bundle-overview",
+      "nodeId": "586:1240",
+      "fieldName": "rudnikagro_product_bundle_overview_586_1240",
+      "type": "text",
+      "language": "pl",
+      "value": "10 ha",
+      "destination": "WooCommerce native package product SKU 99299 and approved bundle contents",
+      "linkEvidence": [
+        {
+          "characters": "10 ha",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "586:1240"
+      }
+    },
+    {
+      "section": "product-bundle-overview",
+      "nodeId": "586:1243",
+      "fieldName": "rudnikagro_product_bundle_overview_586_1243",
+      "type": "text",
+      "language": "pl",
+      "value": "12 ha",
+      "destination": "WooCommerce native package product SKU 99299 and approved bundle contents",
+      "linkEvidence": [
+        {
+          "characters": "12 ha",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "586:1243"
+      }
+    },
+    {
+      "section": "product-bundle-overview",
+      "nodeId": "586:1244",
+      "fieldName": "rudnikagro_product_bundle_overview_586_1244",
+      "type": "text",
+      "language": "pl",
+      "value": "Cena: 2Â 965,00Â zÅ‚",
+      "destination": "WooCommerce native package product SKU 99299 and approved bundle contents",
+      "linkEvidence": [
+        {
+          "characters": "Cena: ",
+          "hyperlink": null
+        },
+        {
+          "characters": "2Â 965,00Â zÅ‚",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "586:1244"
+      }
+    },
+    {
+      "section": "product-bundle-overview",
+      "nodeId": "586:1247",
+      "fieldName": "rudnikagro_product_bundle_overview_586_1247",
+      "type": "text",
+      "language": "pl",
+      "value": "3365,00Â zÅ‚",
+      "destination": "WooCommerce native package product SKU 99299 and approved bundle contents",
+      "linkEvidence": [
+        {
+          "characters": "3365,00Â zÅ‚",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "586:1247"
+      }
+    },
+    {
+      "section": "product-bundle-overview",
+      "nodeId": "586:1248",
+      "fieldName": "rudnikagro_product_bundle_overview_586_1248",
+      "type": "text",
+      "language": "pl",
+      "value": "(w tym 23% VAT)",
+      "destination": "WooCommerce native package product SKU 99299 and approved bundle contents",
+      "linkEvidence": [
+        {
+          "characters": "(w tym 23% VAT)",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "586:1248"
+      }
+    },
+    {
+      "section": "product-bundle-overview",
+      "nodeId": "591:1283",
+      "fieldName": "rudnikagro_product_bundle_overview_591_1283",
+      "type": "text",
+      "language": "pl",
+      "value": "1 500,00 zÅ‚\n 1Â 690,00Â zÅ‚",
+      "destination": "WooCommerce native package product SKU 99299 and approved bundle contents",
+      "linkEvidence": [
+        {
+          "characters": "1 500,00 zÅ‚\n",
+          "hyperlink": null
+        },
+        {
+          "characters": " 1Â 690,00Â zÅ‚",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "591:1283"
+      }
+    },
+    {
+      "section": "product-bundle-overview",
+      "nodeId": "592:1292",
+      "fieldName": "rudnikagro_product_bundle_overview_592_1292",
+      "type": "text",
+      "language": "pl",
+      "value": " 1Â 465,00Â zÅ‚\n 1Â 675,00Â zÅ‚",
+      "destination": "WooCommerce native package product SKU 99299 and approved bundle contents",
+      "linkEvidence": [
+        {
+          "characters": " 1Â 465,00Â zÅ‚\n",
+          "hyperlink": null
+        },
+        {
+          "characters": " 1Â 675,00Â zÅ‚",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "592:1292"
+      }
+    },
+    {
+      "section": "product-bundle-overview",
+      "nodeId": "592:1286",
+      "fieldName": "rudnikagro_product_bundle_overview_592_1286",
+      "type": "text",
+      "language": "pl",
+      "value": "1Â szt.",
+      "destination": "WooCommerce native package product SKU 99299 and approved bundle contents",
+      "linkEvidence": [
+        {
+          "characters": "1Â szt.",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "592:1286"
+      }
+    },
+    {
+      "section": "product-bundle-overview",
+      "nodeId": "592:1288",
+      "fieldName": "rudnikagro_product_bundle_overview_592_1288",
+      "type": "text",
+      "language": "pl",
+      "value": "3Â szt.",
+      "destination": "WooCommerce native package product SKU 99299 and approved bundle contents",
+      "linkEvidence": [
+        {
+          "characters": "3Â szt.",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "592:1288"
+      }
+    },
+    {
+      "section": "product-bundle-overview",
+      "nodeId": "592:1285",
+      "fieldName": "rudnikagro_product_bundle_overview_592_1285",
+      "type": "text",
+      "language": "pl",
+      "value": "Pixafen 3L HERBICYD selektywny o dziaÅ‚aniu ukÅ‚adowym, stosowany nalistnie w postaci koncentratu do sporzÄ…dzania emulsji wodnej (EC).Â ",
+      "destination": "WooCommerce native package product SKU 99299 and approved bundle contents",
+      "linkEvidence": [
+        {
+          "characters": "Pixafen 3L ",
+          "hyperlink": null
+        },
+        {
+          "characters": "HERBICYD selektywny o dziaÅ‚aniu ukÅ‚adowym, stosowany nalistnie w postaci koncentratu do sporzÄ…dzania emulsji wodnej (EC).Â ",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "592:1285"
+      }
+    },
+    {
+      "section": "product-bundle-overview",
+      "nodeId": "592:1322",
+      "fieldName": "rudnikagro_product_bundle_overview_592_1322",
+      "type": "text",
+      "language": "pl",
+      "value": "Pakiet zawiera",
+      "destination": "WooCommerce native package product SKU 99299 and approved bundle contents",
+      "linkEvidence": [
+        {
+          "characters": "Pakiet zawiera",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "592:1322"
+      }
+    },
+    {
+      "section": "product-bundle-overview",
+      "nodeId": "592:1290",
+      "fieldName": "rudnikagro_product_bundle_overview_592_1290",
+      "type": "text",
+      "language": "pl",
+      "value": "Spark Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "destination": "WooCommerce native package product SKU 99299 and approved bundle contents",
+      "linkEvidence": [
+        {
+          "characters": "Spark ",
+          "hyperlink": null
+        },
+        {
+          "characters": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "blocked-source-placeholder",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "592:1290"
+      }
+    },
+    {
+      "section": "product-bundle-overview",
+      "nodeId": "592:1319",
+      "fieldName": "rudnikagro_product_bundle_overview_592_1319",
+      "type": "text",
+      "language": "pl",
+      "value": "OszczÄ™dzasz 400,00 zÅ‚",
+      "destination": "WooCommerce native package product SKU 99299 and approved bundle contents",
+      "linkEvidence": [
+        {
+          "characters": "OszczÄ™dzasz 400,00 zÅ‚",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "592:1319"
+      }
+    },
+    {
+      "section": "product-bundle-overview",
+      "nodeId": "592:1320",
+      "fieldName": "rudnikagro_product_bundle_overview_592_1320",
+      "type": "text",
+      "language": "pl",
+      "value": "Cena pojedynczych produktÃ³w: 3 365,00 zÅ‚",
+      "destination": "WooCommerce native package product SKU 99299 and approved bundle contents",
+      "linkEvidence": [
+        {
+          "characters": "Cena pojedynczych produktÃ³w: 3 365,00 zÅ‚",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "592:1320"
+      }
+    },
+    {
+      "section": "product-bundle-overview",
+      "nodeId": "593:117",
+      "fieldName": "rudnikagro_product_bundle_overview_593_117",
+      "type": "text",
+      "language": "pl",
+      "value": "Cena za hektar: 247,08 zÅ‚",
+      "destination": "WooCommerce native package product SKU 99299 and approved bundle contents",
+      "linkEvidence": [
+        {
+          "characters": "Cena za hektar: 247,08 zÅ‚",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "593:117"
+      }
+    }
+  ]
+}

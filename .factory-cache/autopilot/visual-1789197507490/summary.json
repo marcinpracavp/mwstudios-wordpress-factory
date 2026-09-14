@@ -1,0 +1,48 @@
+{
+  "capturedAt": "2026-09-12T07:18:45.039Z",
+  "implementationHash": "af22056bf75205d187a88f53a01da51854ad5632227dc4a0ff1bf6328b56c8b5",
+  "sourceHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+  "thresholds": {
+    "channelTolerance": 24,
+    "maxDifferentPixelRatio": 0.05,
+    "geometryTolerancePx": 2
+  },
+  "acceptanceScope": "page",
+  "passed": false,
+  "pagePassed": false,
+  "routes": [
+    {
+      "id": "blog-archive",
+      "passed": false,
+      "pagePassed": false,
+      "ownership": {
+        "header": {
+          "pixels": 372480,
+          "differentPixels": 21869,
+          "ratio": 0.05871187714776632
+        },
+        "footer": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "shared": {
+          "pixels": 334400,
+          "differentPixels": 4263,
+          "ratio": 0.012748205741626795
+        },
+        "page": {
+          "pixels": 6621760,
+          "differentPixels": 611440,
+          "ratio": 0.09233798869182816
+        }
+      },
+      "errors": [
+        "page pixel mismatch 9.234%",
+        "header pixel mismatch 5.871%",
+        "Section geometry differs: shared-footer"
+      ],
+      "comparison": ".factory-cache/autopilot/visual-1789197507490/blog-archive/comparison.json"
+    }
+  ]
+}

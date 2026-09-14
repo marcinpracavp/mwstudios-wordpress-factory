@@ -1,0 +1,584 @@
+{
+  "id": "f520b600059c7a270284",
+  "tool": "use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "250:412",
+    "250:115"
+  ],
+  "description": "Capture exact home-crop-selection-active section source nodes 175",
+  "recordedAt": "2026-09-11T00:55:26.272Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "id": "250:412",
+      "name": "wybór wg uprawy",
+      "frame": "250:115",
+      "total": 276,
+      "nodes": [
+        {
+          "id": "250:580",
+          "name": "fasola 1",
+          "type": "FRAME",
+          "parentId": "250:577",
+          "bounds": {
+            "x": 763,
+            "y": 1920,
+            "width": 30,
+            "height": 36
+          },
+          "style": 0
+        },
+        {
+          "id": "250:581",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "250:580",
+          "bounds": {
+            "x": 763.001220703125,
+            "y": 1919.9954833984375,
+            "width": 30.002275466918945,
+            "height": 35.99863815307617
+          },
+          "style": 1
+        },
+        {
+          "id": "250:582",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "250:580",
+          "bounds": {
+            "x": 766.424560546875,
+            "y": 1941.41650390625,
+            "width": 4.488970756530762,
+            "height": 4.666241645812988
+          },
+          "style": 1
+        },
+        {
+          "id": "250:583",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "250:580",
+          "bounds": {
+            "x": 772.832763671875,
+            "y": 1937.7822265625,
+            "width": 4.4889702796936035,
+            "height": 4.666241645812988
+          },
+          "style": 1
+        },
+        {
+          "id": "250:584",
+          "name": "cebula",
+          "type": "GROUP",
+          "parentId": "250:478",
+          "bounds": {
+            "x": 605,
+            "y": 1900,
+            "width": 101,
+            "height": 101
+          },
+          "style": 2
+        },
+        {
+          "id": "250:585",
+          "name": "Rectangle 3",
+          "type": "RECTANGLE",
+          "parentId": "250:584",
+          "bounds": {
+            "x": 605,
+            "y": 1900,
+            "width": 101,
+            "height": 101
+          },
+          "style": 3
+        },
+        {
+          "id": "250:586",
+          "name": "cebula",
+          "type": "TEXT",
+          "parentId": "250:584",
+          "bounds": {
+            "x": 605,
+            "y": 1966.3431396484375,
+            "width": 101,
+            "height": 18.8137264251709
+          },
+          "style": 4,
+          "characters": "cebula",
+          "align": [
+            "CENTER",
+            "TOP"
+          ],
+          "segments": [
+            {
+              "characters": "cebula",
+              "start": 0,
+              "end": 6,
+              "style": 5
+            }
+          ]
+        },
+        {
+          "id": "250:587",
+          "name": "cebula 1",
+          "type": "FRAME",
+          "parentId": "250:584",
+          "bounds": {
+            "x": 642,
+            "y": 1917,
+            "width": 26,
+            "height": 40
+          },
+          "style": 0
+        },
+        {
+          "id": "250:588",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "250:587",
+          "bounds": {
+            "x": 642,
+            "y": 1916.995361328125,
+            "width": 26.005943298339844,
+            "height": 40.004638671875
+          },
+          "style": 1
+        },
+        {
+          "id": "250:589",
+          "name": "burak cukrowy",
+          "type": "GROUP",
+          "parentId": "250:478",
+          "bounds": {
+            "x": 483,
+            "y": 1900,
+            "width": 101,
+            "height": 101
+          },
+          "style": 2
+        },
+        {
+          "id": "250:590",
+          "name": "Rectangle 3",
+          "type": "RECTANGLE",
+          "parentId": "250:589",
+          "bounds": {
+            "x": 483,
+            "y": 1900,
+            "width": 101,
+            "height": 101
+          },
+          "style": 3
+        },
+        {
+          "id": "250:591",
+          "name": "burak cukrowy",
+          "type": "TEXT",
+          "parentId": "250:589",
+          "bounds": {
+            "x": 483,
+            "y": 1964,
+            "width": 101,
+            "height": 32
+          },
+          "style": 4,
+          "characters": "burak\ncukrowy",
+          "align": [
+            "CENTER",
+            "TOP"
+          ],
+          "segments": [
+            {
+              "characters": "burak\ncukrowy",
+              "start": 0,
+              "end": 13,
+              "style": 6
+            }
+          ]
+        },
+        {
+          "id": "250:592",
+          "name": "burak-cukrowy 1",
+          "type": "FRAME",
+          "parentId": "250:589",
+          "bounds": {
+            "x": 524,
+            "y": 1917,
+            "width": 21,
+            "height": 40
+          },
+          "style": 0
+        },
+        {
+          "id": "250:593",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "250:592",
+          "bounds": {
+            "x": 523.9970703125,
+            "y": 1917.0013427734375,
+            "width": 21.005592346191406,
+            "height": 39.99235153198242
+          },
+          "style": 1
+        },
+        {
+          "id": "250:594",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "250:592",
+          "bounds": {
+            "x": 533.197265625,
+            "y": 1940.703125,
+            "width": 3.127880334854126,
+            "height": 1.859337568283081
+          },
+          "style": 1
+        },
+        {
+          "id": "250:595",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "250:592",
+          "bounds": {
+            "x": 528.5986328125,
+            "y": 1936.2734375,
+            "width": 3.1214311122894287,
+            "height": 1.8593378067016602
+          },
+          "style": 1
+        },
+        {
+          "id": "250:596",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "250:592",
+          "bounds": {
+            "x": 530.488525390625,
+            "y": 1939.567138671875,
+            "width": 1.8895517587661743,
+            "height": 1.3389506340026855
+          },
+          "style": 1
+        },
+        {
+          "id": "250:597",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "250:592",
+          "bounds": {
+            "x": 528.8759765625,
+            "y": 1945.951416015625,
+            "width": 1.8895517587661743,
+            "height": 1.3389506340026855
+          },
+          "style": 1
+        },
+        {
+          "id": "250:598",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "250:592",
+          "bounds": {
+            "x": 527.463623046875,
+            "y": 1941.9722900390625,
+            "width": 4.282364845275879,
+            "height": 2.347994089126587
+          },
+          "style": 1
+        },
+        {
+          "id": "250:599",
+          "name": "burak",
+          "type": "GROUP",
+          "parentId": "250:478",
+          "bounds": {
+            "x": 362,
+            "y": 1900,
+            "width": 101,
+            "height": 101
+          },
+          "style": 2
+        },
+        {
+          "id": "250:600",
+          "name": "Rectangle 3",
+          "type": "RECTANGLE",
+          "parentId": "250:599",
+          "bounds": {
+            "x": 362,
+            "y": 1900,
+            "width": 101,
+            "height": 101
+          },
+          "style": 3
+        },
+        {
+          "id": "250:601",
+          "name": "burak",
+          "type": "TEXT",
+          "parentId": "250:599",
+          "bounds": {
+            "x": 362,
+            "y": 1966.3431396484375,
+            "width": 101,
+            "height": 18.8137264251709
+          },
+          "style": 4,
+          "characters": "burak",
+          "align": [
+            "CENTER",
+            "TOP"
+          ],
+          "segments": [
+            {
+              "characters": "burak",
+              "start": 0,
+              "end": 5,
+              "style": 5
+            }
+          ]
+        },
+        {
+          "id": "250:602",
+          "name": "burak 1",
+          "type": "FRAME",
+          "parentId": "250:599",
+          "bounds": {
+            "x": 399,
+            "y": 1917,
+            "width": 28,
+            "height": 40
+          },
+          "style": 0
+        },
+        {
+          "id": "250:603",
+          "name": "Vector",
+          "type": "VECTOR",
+          "parentId": "250:602",
+          "bounds": {
+            "x": 398.99951171875,
+            "y": 1917.0062255859375,
+            "width": 27.993541717529297,
+            "height": 39.99372482299805
+          },
+          "style": 1
+        },
+        {
+          "id": "250:604",
+          "name": "brokuł",
+          "type": "GROUP",
+          "parentId": "250:478",
+          "bounds": {
+            "x": 240,
+            "y": 1900,
+            "width": 102,
+            "height": 102
+          },
+          "style": 2
+        }
+      ],
+      "styles": [
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": false,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH",
+          "layoutMode": "NONE",
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.11372549086809158,
+                "g": 0.11372549086809158,
+                "b": 0.10588235408067703
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 0,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.7836538553237915,
+                "g": 0.7836538553237915,
+                "b": 0.7836538553237915
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "effects": [],
+          "cornerRadius": 13,
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "OUTSIDE",
+          "effects": [],
+          "isMask": false,
+          "blendMode": "PASS_THROUGH"
+        },
+        {
+          "fontSize": 14,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 400,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        },
+        {
+          "fontSize": 14,
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "opsz": 14
+            }
+          },
+          "fontWeight": 400,
+          "textDecoration": "NONE",
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 15
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ],
+          "hyperlink": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "confirmation-line-items",
+  "manifestRecord": {
+    "id": "confirmation-line-items",
+    "name": "confirmed order line item",
+    "order": 71,
+    "pageId": "0:1",
+    "snapshot": "sections/65-confirmation-line-items.json",
+    "desktopNodeId": "493:1320",
+    "desktopReference": "references/sections/confirmation-line-items.png"
+  },
+  "contentFields": [
+    {
+      "section": "confirmation-line-items",
+      "nodeId": "493:1321",
+      "fieldName": "rudnikagro_confirmation_line_items_product_name",
+      "type": "text",
+      "language": "pl",
+      "value": "Aquatos 5L",
+      "destination": "ACF Options / Checkout content tab",
+      "linkEvidence": [
+        {
+          "characters": "Aquatos 5L",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "493:1321"
+      }
+    },
+    {
+      "section": "confirmation-line-items",
+      "nodeId": "493:1322",
+      "fieldName": "rudnikagro_confirmation_line_items_product_price",
+      "type": "text",
+      "language": "pl",
+      "value": "411,00 zł",
+      "destination": "ACF Options / Checkout content tab",
+      "linkEvidence": [
+        {
+          "characters": "411,00 zł",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "493:1322"
+      }
+    }
+  ]
+}

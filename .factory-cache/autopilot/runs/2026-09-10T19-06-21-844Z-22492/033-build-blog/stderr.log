@@ -1,0 +1,4 @@
+2026-09-12T06:50:25.842548Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+2026-09-12T06:50:28.159764Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh
+2026-09-12T07:02:12.724537Z ERROR codex_core::session: failed to record rollout items: thread 01a09461-b215-7a81-bc26-0a89c23afb56 not found
+2026-09-12T07:02:12.724737Z ERROR codex_core::session: failed to record rollout items: thread 01a09461-b215-7a81-bc26-0a89c23afb56 not found

@@ -1,0 +1,273 @@
+{
+  "id": "9185f9b528da3c02b783",
+  "tool": "use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "303:1281"
+  ],
+  "description": "Read exact category introduction copy, styles, and geometry",
+  "recordedAt": "2026-09-11T10:11:46.922Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "root": {
+        "id": "303:1281",
+        "x": 605,
+        "y": 259,
+        "width": 1075,
+        "height": 233
+      },
+      "texts": [
+        {
+          "id": "295:740",
+          "x": 605,
+          "y": 259,
+          "width": 467,
+          "height": 68,
+          "text": "Fungicydy",
+          "fontName": {
+            "family": "DM Sans",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "opsz": 14
+            }
+          },
+          "fontSize": 48,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.02856878750026226,
+                "g": 0.028846153989434242,
+                "b": 0.02871447429060936
+              },
+              "boundVariables": {}
+            }
+          ],
+          "segments": [
+            {
+              "start": 0,
+              "end": 9,
+              "text": "Fungicydy",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.02856878750026226,
+                    "g": 0.028846153989434242,
+                    "b": 0.02871447429060936
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700,
+                  "opsz": 14
+                }
+              },
+              "fontSize": 48,
+              "lineHeight": {
+                "unit": "AUTO"
+              }
+            }
+          ]
+        },
+        {
+          "id": "295:741",
+          "x": 605,
+          "y": 332,
+          "width": 1075,
+          "height": 160,
+          "text": "Fungicydy to specjalistyczne środki chemiczne, które chronią rośliny  przed chorobami grzybowymi. Ich stosowanie jest kluczowe w rolnictwie i  ogrodnictwie, ponieważ grzyby mogą powodować znaczne straty w plonach. W sklepie internetowym Rudnikagro.pl znajdziesz szeroką gamę sprawdzonych i skutecznych fungicydów, które pomogą Ci zabezpieczyć Twoje uprawy.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat. Duis aute irure dolor in reprehenderit in voluptate  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint  occaecat cupidatat non proident, sunt in culpa qui officia deserunt  mollit anim id est laborum.",
+          "fontSize": 18,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "GRADIENT_LINEAR",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "gradientStops": [
+                {
+                  "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                  },
+                  "position": 0,
+                  "boundVariables": {}
+                },
+                {
+                  "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 0
+                  },
+                  "position": 1,
+                  "boundVariables": {}
+                }
+              ],
+              "gradientTransform": [
+                [
+                  3.365495615526015e-8,
+                  2.8070178031921387,
+                  -1.7368422746658325
+                ],
+                [
+                  -126.71327209472656,
+                  3.630918807805139e-13,
+                  42.580596923828125
+                ]
+              ]
+            }
+          ],
+          "segments": [
+            {
+              "start": 0,
+              "end": 9,
+              "text": "Fungicydy",
+              "fills": [
+                {
+                  "type": "GRADIENT_LINEAR",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "gradientStops": [
+                    {
+                      "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 1
+                      },
+                      "position": 0,
+                      "boundVariables": {}
+                    },
+                    {
+                      "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0
+                      },
+                      "position": 1,
+                      "boundVariables": {}
+                    }
+                  ],
+                  "gradientTransform": [
+                    [
+                      3.365495615526015e-8,
+                      2.8070178031921387,
+                      -1.7368422746658325
+                    ],
+                    [
+                      -126.71327209472656,
+                      3.630918807805139e-13,
+                      42.580596923828125
+                    ]
+                  ]
+                }
+              ],
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700,
+                  "opsz": 14
+                }
+              },
+              "fontSize": 18,
+              "lineHeight": {
+                "unit": "AUTO"
+              }
+            },
+            {
+              "start": 9,
+              "end": 808,
+              "text": " to specjalistyczne środki chemiczne, które chronią rośliny  przed chorobami grzybowymi. Ich stosowanie jest kluczowe w rolnictwie i  ogrodnictwie, ponieważ grzyby mogą powodować znaczne straty w plonach. W sklepie internetowym Rudnikagro.pl znajdziesz szeroką gamę sprawdzonych i skutecznych fungicydów, które pomogą Ci zabezpieczyć Twoje uprawy.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat. Duis aute irure dolor in reprehenderit in voluptate  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint  occaecat cupidatat non proident, sunt in culpa qui officia deserunt  mollit anim id est laborum.",
+              "fills": [
+                {
+                  "type": "GRADIENT_LINEAR",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "gradientStops": [
+                    {
+                      "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 1
+                      },
+                      "position": 0,
+                      "boundVariables": {}
+                    },
+                    {
+                      "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0
+                      },
+                      "position": 1,
+                      "boundVariables": {}
+                    }
+                  ],
+                  "gradientTransform": [
+                    [
+                      3.365495615526015e-8,
+                      2.8070178031921387,
+                      -1.7368422746658325
+                    ],
+                    [
+                      -126.71327209472656,
+                      3.630918807805139e-13,
+                      42.580596923828125
+                    ]
+                  ]
+                }
+              ],
+              "fontName": {
+                "family": "DM Sans",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "opsz": 14
+                }
+              },
+              "fontSize": 18,
+              "lineHeight": {
+                "unit": "AUTO"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

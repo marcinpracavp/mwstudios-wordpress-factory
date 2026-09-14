@@ -1,0 +1,3 @@
+2026-09-12T06:27:14.942Z START build:catalogues [gpt-5.6-terra high] (.factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/032-build-catalogues)
+catalogues: FAIL header pixel mismatch 5.871%; Section geometry differs: shared-shop-cta; Section geometry differs: shared-footer
+2026-09-12T06:36:40.621Z DONE build:catalogues

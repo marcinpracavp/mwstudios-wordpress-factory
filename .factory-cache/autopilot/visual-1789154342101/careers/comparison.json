@@ -1,0 +1,515 @@
+{
+  "id": "careers",
+  "sourceNodeId": "349:1267",
+  "capturedAt": "2026-09-11T19:19:03.769Z",
+  "passed": false,
+  "errors": [
+    "Pixel mismatch 8.598%",
+    "Section pixel mismatch",
+    "Responsive render health 390",
+    "Responsive render health 375"
+  ],
+  "responsive": [
+    {
+      "width": 1440,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/visual-1789154342101/careers/responsive-1440.png"
+    },
+    {
+      "width": 1280,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/visual-1789154342101/careers/responsive-1280.png"
+    },
+    {
+      "width": 1024,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/visual-1789154342101/careers/responsive-1024.png"
+    },
+    {
+      "width": 768,
+      "source": "derived",
+      "renderHealthy": true,
+      "screenshot": ".factory-cache/autopilot/visual-1789154342101/careers/responsive-768.png"
+    },
+    {
+      "width": 390,
+      "source": "derived",
+      "renderHealthy": false,
+      "screenshot": ".factory-cache/autopilot/visual-1789154342101/careers/responsive-390.png"
+    },
+    {
+      "width": 375,
+      "source": "derived",
+      "renderHealthy": false,
+      "screenshot": ".factory-cache/autopilot/visual-1789154342101/careers/responsive-375.png"
+    }
+  ],
+  "geometry": [
+    {
+      "id": "shared-topbar",
+      "expected": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 40
+      },
+      "actual": {
+        "id": "shared-topbar",
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 40,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "700",
+          "fontSize": "14px",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "shared-secondary-navigation",
+      "expected": {
+        "x": 237.001953125,
+        "y": 56,
+        "width": 1442.8232421875,
+        "height": 42
+      },
+      "actual": {
+        "id": "shared-secondary-navigation",
+        "x": 237,
+        "y": 56,
+        "width": 1442.8125,
+        "height": 42,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "14px",
+          "lineHeight": "21px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "20px",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": -0.001953125,
+        "y": 0,
+        "width": -0.0107421875,
+        "height": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "shared-primary-navigation",
+      "expected": {
+        "x": 240,
+        "y": 115,
+        "width": 1440,
+        "height": 78.6761245727539
+      },
+      "actual": {
+        "id": "shared-primary-navigation",
+        "x": 240,
+        "y": 115,
+        "width": 1440,
+        "height": 79,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0.32387542724609375
+      },
+      "passed": true
+    },
+    {
+      "id": "careers-heading",
+      "expected": {
+        "x": 240,
+        "y": 218,
+        "width": 1440,
+        "height": 220
+      },
+      "actual": {
+        "id": "careers-heading",
+        "x": 240,
+        "y": 218,
+        "width": 1440,
+        "height": 220,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "careers-vacancies",
+      "expected": {
+        "x": 362,
+        "y": 486,
+        "width": 1196,
+        "height": 2290
+      },
+      "actual": {
+        "id": "careers-vacancies",
+        "x": 362,
+        "y": 486,
+        "width": 1196,
+        "height": 2290,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "careers-application",
+      "expected": {
+        "x": 463,
+        "y": 1695,
+        "width": 994,
+        "height": 346
+      },
+      "actual": {
+        "id": "careers-application",
+        "x": 463,
+        "y": 1695,
+        "width": 994,
+        "height": 346,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "shared-shop-cta",
+      "expected": {
+        "x": 36,
+        "y": 2919,
+        "width": 1840,
+        "height": 230
+      },
+      "actual": {
+        "id": "shared-shop-cta",
+        "x": 36,
+        "y": 2919,
+        "width": 1840,
+        "height": 230,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgb(0, 102, 51)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "shared-footer",
+      "expected": {
+        "x": 0,
+        "y": 3188,
+        "width": 1920,
+        "height": 614
+      },
+      "actual": {
+        "id": "shared-footer",
+        "x": 0,
+        "y": 3188,
+        "width": 1920,
+        "height": 614,
+        "style": {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "fontWeight": "400",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "0px",
+          "paddingTop": "0px",
+          "paddingRight": "0px",
+          "paddingBottom": "0px",
+          "paddingLeft": "0px",
+          "gap": "normal",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%"
+        }
+      },
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "passed": true
+    }
+  ],
+  "pixels": {
+    "width": 1920,
+    "height": 3803,
+    "differentPixels": 627832,
+    "ratio": 0.08598365325620125,
+    "meanMaxChannelDelta": 17.333590120738013,
+    "referenceSize": {
+      "width": 1920,
+      "height": 3802
+    },
+    "renderedSize": {
+      "width": 1920,
+      "height": 3803
+    },
+    "crops": [
+      {
+        "id": "shared-topbar",
+        "ratio": 0.020130208333333333
+      },
+      {
+        "id": "shared-secondary-navigation",
+        "ratio": 0.14962214962214962
+      },
+      {
+        "id": "shared-primary-navigation",
+        "ratio": 0.08234001406469761
+      },
+      {
+        "id": "careers-heading",
+        "ratio": 0.01086489898989899
+      },
+      {
+        "id": "careers-vacancies",
+        "ratio": 0.18040630339851907
+      },
+      {
+        "id": "careers-application",
+        "ratio": 0.06492131982647328
+      },
+      {
+        "id": "shared-shop-cta",
+        "ratio": 0.0667273156899811
+      },
+      {
+        "id": "shared-footer",
+        "ratio": 0.0664546009771987
+      }
+    ],
+    "worstRows": [
+      {
+        "y": 3802,
+        "count": 1920
+      },
+      {
+        "y": 3653,
+        "count": 1452
+      },
+      {
+        "y": 114,
+        "count": 1440
+      },
+      {
+        "y": 3686,
+        "count": 1318
+      },
+      {
+        "y": 3716,
+        "count": 1229
+      },
+      {
+        "y": 2122,
+        "count": 1196
+      },
+      {
+        "y": 2123,
+        "count": 1196
+      },
+      {
+        "y": 2124,
+        "count": 1196
+      },
+      {
+        "y": 2125,
+        "count": 1196
+      },
+      {
+        "y": 2213,
+        "count": 1196
+      },
+      {
+        "y": 2214,
+        "count": 1196
+      },
+      {
+        "y": 2215,
+        "count": 1196
+      },
+      {
+        "y": 2216,
+        "count": 1196
+      },
+      {
+        "y": 2258,
+        "count": 1196
+      },
+      {
+        "y": 2259,
+        "count": 1196
+      },
+      {
+        "y": 2349,
+        "count": 1196
+      },
+      {
+        "y": 2350,
+        "count": 1196
+      },
+      {
+        "y": 600,
+        "count": 1194
+      },
+      {
+        "y": 2118,
+        "count": 1194
+      },
+      {
+        "y": 2119,
+        "count": 1194
+      }
+    ]
+  },
+  "reference": {
+    "path": "references/full/frame-349-1267.png",
+    "width": 1920,
+    "height": 3802,
+    "sha256": "cd1098f6b1466ddddbc98ef25463b2a499317c8ac3566768478d3b91cf6b0f05"
+  },
+  "rendered": {
+    "path": ".factory-cache/autopilot/visual-1789154342101/careers/rendered.png",
+    "width": 1920,
+    "height": 3803,
+    "sha256": "8bbb72315ec39e04eac892ca9aab3ae3a01d9a1b2cf649a4ce0e022cd5eb7ff7"
+  }
+}

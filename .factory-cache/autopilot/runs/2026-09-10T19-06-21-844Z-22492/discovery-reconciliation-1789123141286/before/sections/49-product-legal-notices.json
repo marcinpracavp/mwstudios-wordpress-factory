@@ -1,0 +1,39 @@
+{
+  "id": "product-legal-notices",
+  "name": "noty prawne produktu",
+  "order": 49,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "326:2516"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 240,
+    "y": 2263,
+    "width": 1440,
+    "height": 287
+  },
+  "layout": {
+    "type": "legal-notices",
+    "subnodes": [
+      {
+        "nodeId": "326:2516",
+        "x": 240,
+        "y": 2263,
+        "width": 1440,
+        "height": 149
+      },
+      {
+        "nodeId": "326:2518",
+        "x": 240,
+        "y": 2437,
+        "width": 1440,
+        "height": 113
+      }
+    ]
+  },
+  "typography": [],
+  "assets": [],
+  "notes": [],
+  "liveFigmaRequired": false
+}

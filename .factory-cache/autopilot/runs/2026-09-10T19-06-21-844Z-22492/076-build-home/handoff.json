@@ -1,0 +1,123 @@
+{
+  "task": {
+    "id": "home"
+  },
+  "sourceContext": {
+    "version": 6,
+    "available": true,
+    "index": {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/076-build-home/source-context/index.json",
+      "bytes": 1391,
+      "sha256": "5ccbd9d3bb3d7dc218fbb46aa1fe1cfc7ec13898d2703f58bf2e263d8a955c86"
+    }
+  },
+  "model": "gpt-5.6-terra",
+  "reasoningEffort": "high",
+  "continuation": "same-model interrupted thread",
+  "previousExecution": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/075-build-home/execution.json",
+  "previousResult": null,
+  "correctionFocus": [],
+  "currentPageVerification": {
+    "routes": [
+      {
+        "id": "home",
+        "passed": false,
+        "pagePassed": false,
+        "ownership": {
+          "header": {
+            "pixels": 372480,
+            "differentPixels": 23661,
+            "ratio": 0.0635228737113402
+          },
+          "footer": {
+            "pixels": 1221120,
+            "differentPixels": 407002,
+            "ratio": 0.333302214360587
+          },
+          "shared": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "page": {
+            "pixels": 15553920,
+            "differentPixels": 1790678,
+            "ratio": 0.11512711907994898
+          },
+          "outside": {
+            "pixels": 130560,
+            "differentPixels": 128114,
+            "ratio": 0.981265318627451
+          },
+          "reused": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          }
+        },
+        "errors": [
+          "Responsive render health 768",
+          "Responsive render health 390",
+          "Responsive render health 375",
+          "page pixel mismatch 11.513%"
+        ],
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/resume-page-check-1789317413218/home/home/comparison.json"
+      },
+      {
+        "id": "home-active",
+        "passed": false,
+        "pagePassed": false,
+        "ownership": {
+          "header": {
+            "pixels": 1021440,
+            "differentPixels": 268579,
+            "ratio": 0.2629415335213033
+          },
+          "footer": {
+            "pixels": 1221120,
+            "differentPixels": 407002,
+            "ratio": 0.333302214360587
+          },
+          "shared": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          },
+          "page": {
+            "pixels": 14906880,
+            "differentPixels": 1861526,
+            "ratio": 0.12487696956036408
+          },
+          "outside": {
+            "pixels": 128640,
+            "differentPixels": 128114,
+            "ratio": 0.9959110696517413
+          },
+          "reused": {
+            "pixels": 0,
+            "differentPixels": 0,
+            "ratio": 0
+          }
+        },
+        "errors": [
+          "Responsive render health 768",
+          "Responsive render health 390",
+          "Responsive render health 375",
+          "page pixel mismatch 12.488%"
+        ],
+        "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/resume-page-check-1789317413218/home-active/home-active/comparison.json"
+      }
+    ],
+    "instruction": "Fresh host checks for all sibling routes. Repair only failed assigned routes."
+  },
+  "snapshot": ".factory-cache/figma/latest",
+  "observations": ".factory-cache/figma/latest/observations/index.json",
+  "plans": [
+    "docs/factory/project/PLAN.md",
+    "docs/factory/project/STATUS.md",
+    "docs/factory/project/SOURCE_CLARIFICATIONS.md",
+    "docs/factory/project/REUSABLE_COMPONENTS.md"
+  ],
+  "currentGate": null,
+  "instruction": "Inspect the current gate and finish only remaining assigned work. Reuse real saved source facts and assets."
+}

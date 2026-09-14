@@ -1,16 +1,16 @@
 {
   "$schema": "./schemas/project.schema.json",
   "factoryVersion": "0.1.0",
-  "mode": "boilerplate",
+  "mode": "project",
   "project": {
-    "name": "MWStudios Website Factory",
-    "slug": "mwstudios-factory",
-    "themeName": "MWStudios Website Factory",
-    "textDomain": "mwstudios-factory",
-    "prefix": "mwf"
+    "name": "RudnikAgro",
+    "slug": "rudnikagro",
+    "themeName": "RudnikAgro",
+    "textDomain": "rudnikagro",
+    "prefix": "rudnikagro"
   },
   "environment": {
-    "localUrl": null,
+    "localUrl": "https://autopilot.local",
     "productionUrl": null
   },
   "wordpress": {
@@ -23,11 +23,16 @@
   "capabilities": {
     "enabled": [
       "acf",
-      "swiper"
+      "cf7",
+      "woocommerce",
+      "swiper",
+      "aos",
+      "lenis",
+      "blog"
     ]
   },
   "figma": {
-    "url": null,
+    "url": "https://www.figma.com/design/OwiDXrKMVcaHKB9ryYF6mY/Rudnik-Agro?m=dev",
     "page": null,
     "rootNode": null
   },

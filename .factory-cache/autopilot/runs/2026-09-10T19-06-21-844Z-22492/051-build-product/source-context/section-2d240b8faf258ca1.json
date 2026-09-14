@@ -1,0 +1,13 @@
+{
+  "id": "product-gallery",
+  "manifestRecord": {
+    "id": "product-gallery",
+    "name": "galeria produktu",
+    "order": 51,
+    "pageId": "0:1",
+    "snapshot": "sections/46-product-gallery.json",
+    "desktopNodeId": "326:2218",
+    "desktopReference": "references/sections/product-gallery.png"
+  },
+  "contentFields": []
+}

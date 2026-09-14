@@ -1,0 +1,7 @@
+AUTOPILOT PAUSED: AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/068-build-home; {"message":"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 4:56 PM."}
+2026-09-13T10:36:53.554817Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+2026-09-13T10:36:56.478966Z  WARN codex_core::session_startup_prewarm: startup websocket prewarm setup failed: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 4:56 PM.
+2026-09-13T10:36:56.576339Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh
+2026-09-13T10:36:58.259941Z  WARN codex_core::tasks: failed to flush rollout after emitting terminal turn event: thread 01a09a57-6326-7071-b7bd-ff6aa1ef10a6 not found
+
+Report: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/REPORT.md

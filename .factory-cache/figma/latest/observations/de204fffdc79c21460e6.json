@@ -1,0 +1,490 @@
+{
+  "id": "de204fffdc79c21460e6",
+  "tool": "figma.use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "335:591"
+  ],
+  "description": "Capture exact frame-relative bounds and ungrouped source text kontakt",
+  "recordedAt": "2026-09-10T19:30:16.899Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "id": "335:591",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "grids": [
+        {
+          "pattern": "COLUMNS",
+          "visible": true,
+          "color": {
+            "r": 1,
+            "g": 0,
+            "b": 0,
+            "a": 0.10000000149011612
+          },
+          "gutterSize": 20,
+          "alignment": "STRETCH",
+          "count": 12,
+          "offset": 240,
+          "boundVariables": {}
+        }
+      ],
+      "children": [
+        {
+          "id": "335:592",
+          "name": "Strona główna / Kontakt",
+          "type": "TEXT",
+          "visible": true,
+          "x": 240,
+          "y": 368,
+          "width": 508,
+          "height": 70,
+          "text": "Strona główna  /  Kontakt"
+        },
+        {
+          "id": "335:593",
+          "name": "© Rudnikagro.pl 2026 | Wszelkie prawa zastrzeżone",
+          "type": "TEXT",
+          "visible": true,
+          "x": 240,
+          "y": 2556,
+          "width": 377,
+          "height": 34,
+          "text": "© Rudnikagro.pl 2026 | Wszelkie prawa zastrzeżone "
+        },
+        {
+          "id": "335:594",
+          "name": "Projekt i wykonanie: Virtual People",
+          "type": "TEXT",
+          "visible": true,
+          "x": 1425,
+          "y": 2556,
+          "width": 259,
+          "height": 34,
+          "text": "Projekt i wykonanie: Virtual People"
+        },
+        {
+          "id": "335:595",
+          "name": "stopka",
+          "type": "GROUP",
+          "visible": true,
+          "x": 40,
+          "y": 1983,
+          "width": 1840,
+          "height": 554
+        },
+        {
+          "id": "335:632",
+          "name": "mega menu",
+          "type": "GROUP",
+          "visible": true,
+          "x": 240,
+          "y": 115,
+          "width": 1440,
+          "height": 78.6761245727539
+        },
+        {
+          "id": "335:671",
+          "name": "Line 1",
+          "type": "LINE",
+          "visible": true,
+          "x": 240,
+          "y": 115,
+          "width": 1440,
+          "height": 0
+        },
+        {
+          "id": "335:672",
+          "name": "secondary menu",
+          "type": "GROUP",
+          "visible": true,
+          "x": 237,
+          "y": 56,
+          "width": 1442.8232421875,
+          "height": 42
+        },
+        {
+          "id": "335:694",
+          "name": "topbar",
+          "type": "GROUP",
+          "visible": true,
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 40
+        },
+        {
+          "id": "335:702",
+          "name": "Rectangle 111",
+          "type": "RECTANGLE",
+          "visible": true,
+          "x": 240,
+          "y": 218,
+          "width": 1440,
+          "height": 150
+        },
+        {
+          "id": "335:703",
+          "name": "Kontakt",
+          "type": "TEXT",
+          "visible": true,
+          "x": 848,
+          "y": 218,
+          "width": 224,
+          "height": 150,
+          "text": "Kontakt"
+        },
+        {
+          "id": "335:710",
+          "name": "Rectangle 115",
+          "type": "VECTOR",
+          "visible": true,
+          "x": 240,
+          "y": 485,
+          "width": 467,
+          "height": 467
+        },
+        {
+          "id": "339:786",
+          "name": "Rectangle 117",
+          "type": "VECTOR",
+          "visible": true,
+          "x": 1093,
+          "y": 594,
+          "width": 588,
+          "height": 215
+        },
+        {
+          "id": "339:805",
+          "name": "Treść wiadomości",
+          "type": "TEXT",
+          "visible": true,
+          "x": 1124,
+          "y": 594,
+          "width": 326,
+          "height": 62,
+          "text": "Treść wiadomości"
+        },
+        {
+          "id": "339:788",
+          "name": "Rectangle 118",
+          "type": "VECTOR",
+          "visible": true,
+          "x": 728,
+          "y": 594,
+          "width": 345,
+          "height": 62
+        },
+        {
+          "id": "339:813",
+          "name": "Imię",
+          "type": "TEXT",
+          "visible": true,
+          "x": 755,
+          "y": 594,
+          "width": 317,
+          "height": 62,
+          "text": "Imię"
+        },
+        {
+          "id": "339:790",
+          "name": "Rectangle 119",
+          "type": "VECTOR",
+          "visible": true,
+          "x": 728,
+          "y": 671,
+          "width": 345,
+          "height": 62
+        },
+        {
+          "id": "339:807",
+          "name": "Adres e-mail",
+          "type": "TEXT",
+          "visible": true,
+          "x": 756,
+          "y": 671,
+          "width": 317,
+          "height": 62,
+          "text": "Adres e-mail"
+        },
+        {
+          "id": "339:792",
+          "name": "Rectangle 120",
+          "type": "VECTOR",
+          "visible": true,
+          "x": 728,
+          "y": 747,
+          "width": 345,
+          "height": 62
+        },
+        {
+          "id": "339:809",
+          "name": "Numer telefonu",
+          "type": "TEXT",
+          "visible": true,
+          "x": 756,
+          "y": 747,
+          "width": 317,
+          "height": 62,
+          "text": "Numer telefonu"
+        },
+        {
+          "id": "335:714",
+          "name": "Siedziba firmy",
+          "type": "TEXT",
+          "visible": true,
+          "x": 290.865234375,
+          "y": 519,
+          "width": 286,
+          "height": 64,
+          "text": "Siedziba firmy"
+        },
+        {
+          "id": "339:795",
+          "name": "Formularz kontaktowy",
+          "type": "TEXT",
+          "visible": true,
+          "x": 1312,
+          "y": 519,
+          "width": 369,
+          "height": 64,
+          "text": "Formularz kontaktowy"
+        },
+        {
+          "id": "335:716",
+          "name": "ul. Stargardzka 8, 74-200 Pyrzyce NIP: 499 03 49 671 +4",
+          "type": "TEXT",
+          "visible": true,
+          "x": 316.990234375,
+          "y": 666,
+          "width": 344,
+          "height": 255,
+          "text": "ul. Stargardzka 8,\n74-200 Pyrzyce\n\nNIP: 499 03 49 671\n\n+48 535 500 612\nod poniedziałku do piątku, w godzinach 8:00-16:00\n\nsklep@rudnikagro.pl"
+        },
+        {
+          "id": "335:719",
+          "name": "Rudnikagro Sp. z o.o.",
+          "type": "TEXT",
+          "visible": true,
+          "x": 290.865234375,
+          "y": 611,
+          "width": 345,
+          "height": 64,
+          "text": "Rudnikagro Sp. z o.o."
+        },
+        {
+          "id": "335:771",
+          "name": "Group 7",
+          "type": "GROUP",
+          "visible": true,
+          "x": 288.00390625,
+          "y": 666,
+          "width": 19.875539779663086,
+          "height": 19.875539779663086
+        },
+        {
+          "id": "335:764",
+          "name": "Vector 20",
+          "type": "VECTOR",
+          "visible": true,
+          "x": 289.10112619013125,
+          "y": 788,
+          "width": 17.82748373792674,
+          "height": 17.82748373792674
+        },
+        {
+          "id": "335:769",
+          "name": "Vector 21",
+          "type": "VECTOR",
+          "visible": true,
+          "x": 289.990234375,
+          "y": 857,
+          "width": 15,
+          "height": 16
+        },
+        {
+          "id": "431:908",
+          "name": "Rectangle 123",
+          "type": "VECTOR",
+          "visible": true,
+          "x": 240,
+          "y": 1348,
+          "width": 467,
+          "height": 478
+        },
+        {
+          "id": "431:910",
+          "name": "Mateusz Świątek, tel. +48 781 600 023 m.swiatek@rudnika",
+          "type": "TEXT",
+          "visible": true,
+          "x": 291,
+          "y": 1424,
+          "width": 370,
+          "height": 71,
+          "text": "Mateusz Świątek,\ntel. +48 781 600 023\nm.swiatek@rudnikagro.pl"
+        },
+        {
+          "id": "431:911",
+          "name": "Przedstawiciele handlowi: ",
+          "type": "TEXT",
+          "visible": true,
+          "x": 290.865234375,
+          "y": 1369,
+          "width": 345,
+          "height": 64,
+          "text": "Przedstawiciele handlowi: "
+        },
+        {
+          "id": "431:918",
+          "name": "Monika Zielińska, tel. +48 532 402 999 m.zielinska@rud",
+          "type": "TEXT",
+          "visible": true,
+          "x": 291,
+          "y": 1566,
+          "width": 370,
+          "height": 71,
+          "text": "Monika Zielińska,\ntel. +48 532 402 999\nm.zielinska@rudnikagro.pl"
+        },
+        {
+          "id": "431:919",
+          "name": "Dział ubezpieczeń: ",
+          "type": "TEXT",
+          "visible": true,
+          "x": 290.865234375,
+          "y": 1511,
+          "width": 345,
+          "height": 64,
+          "text": "Dział ubezpieczeń: "
+        },
+        {
+          "id": "431:921",
+          "name": "Mariusz Rudnicki, tel. +48 91 461 25 64 m.rudnicki@rudn",
+          "type": "TEXT",
+          "visible": true,
+          "x": 291,
+          "y": 1708,
+          "width": 370,
+          "height": 71,
+          "text": "Mariusz Rudnicki,\ntel. +48 91 461 25 64\nm.rudnicki@rudnikagro.pl"
+        },
+        {
+          "id": "431:922",
+          "name": "Dział środków ochrony roślin: ",
+          "type": "TEXT",
+          "visible": true,
+          "x": 290.865234375,
+          "y": 1653,
+          "width": 345,
+          "height": 64,
+          "text": "Dział środków ochrony roślin: "
+        },
+        {
+          "id": "431:897",
+          "name": "Rectangle 122",
+          "type": "VECTOR",
+          "visible": true,
+          "x": 240,
+          "y": 983,
+          "width": 467,
+          "height": 334
+        },
+        {
+          "id": "431:898",
+          "name": "Oddział Lipiany sklep i magazyn",
+          "type": "TEXT",
+          "visible": true,
+          "x": 290.865234375,
+          "y": 1036,
+          "width": 286,
+          "height": 64,
+          "text": "Oddział Lipiany\nsklep i magazyn"
+        },
+        {
+          "id": "431:899",
+          "name": "ul. Myśliborska 5a, 74-240 Lipiany tel. (+48) 91 579 31",
+          "type": "TEXT",
+          "visible": true,
+          "x": 317,
+          "y": 1146,
+          "width": 344,
+          "height": 143,
+          "text": "ul. Myśliborska 5a,\n74-240 Lipiany\n\ntel. (+48) 91 579 31 63\nfax. (+48) 91 564 53 06"
+        },
+        {
+          "id": "431:901",
+          "name": "Group 8",
+          "type": "GROUP",
+          "visible": true,
+          "x": 288.0048828125,
+          "y": 1146,
+          "width": 19.875539779663086,
+          "height": 19.875539779663086
+        },
+        {
+          "id": "431:904",
+          "name": "Vector 22",
+          "type": "VECTOR",
+          "visible": true,
+          "x": 289.10112619013125,
+          "y": 1223,
+          "width": 17.82748373792674,
+          "height": 17.82748373792674
+        },
+        {
+          "id": "339:797",
+          "name": "koszyk",
+          "type": "GROUP",
+          "visible": true,
+          "x": 728,
+          "y": 851,
+          "width": 224,
+          "height": 44
+        },
+        {
+          "id": "431:907",
+          "name": "Podanie danych zawartych w formularzu jest dobrowolne, ",
+          "type": "TEXT",
+          "visible": true,
+          "x": 971,
+          "y": 852,
+          "width": 710,
+          "height": 43,
+          "text": "Podanie danych zawartych w formularzu jest dobrowolne, ale niezbędne do przetworzenia zapytania. Szczegóły związane z przetwarzaniem danych przez administratorów zawarte są w Polityce Prywatności."
+        },
+        {
+          "id": "431:924",
+          "name": "Rectangle 142",
+          "type": "RECTANGLE",
+          "visible": true,
+          "x": 728,
+          "y": 983,
+          "width": 953,
+          "height": 568
+        },
+        {
+          "id": "515:59",
+          "name": "Rectangle 167",
+          "type": "RECTANGLE",
+          "visible": true,
+          "x": 253,
+          "y": 2073,
+          "width": 76,
+          "height": 34
+        }
+      ]
+    }
+  ]
+}

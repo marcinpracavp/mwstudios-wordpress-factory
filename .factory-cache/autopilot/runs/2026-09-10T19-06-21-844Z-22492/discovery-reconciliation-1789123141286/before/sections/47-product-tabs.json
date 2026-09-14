@@ -1,0 +1,24 @@
+{
+  "id": "product-tabs",
+  "name": "zakładki produktu",
+  "order": 47,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "319:2072"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 240,
+    "y": 1096,
+    "width": 1440,
+    "height": 494
+  },
+  "layout": {
+    "type": "product-tabs",
+    "alignment": "technical-data active"
+  },
+  "typography": [],
+  "assets": [],
+  "notes": [],
+  "liveFigmaRequired": false
+}

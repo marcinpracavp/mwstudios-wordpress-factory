@@ -1,0 +1,116 @@
+[
+  {
+    "id": "shared-topbar",
+    "differentPixels": 0,
+    "ratio": 0,
+    "differenceBounds": null
+  },
+  {
+    "id": "shared-secondary-navigation",
+    "differentPixels": 194,
+    "ratio": 0.0032054459535375565,
+    "differenceBounds": {
+      "x": 278,
+      "y": 62,
+      "width": 1397,
+      "height": 23
+    }
+  },
+  {
+    "id": "shared-primary-navigation",
+    "differentPixels": 743,
+    "ratio": 0.006531293952180028,
+    "differenceBounds": {
+      "x": 301,
+      "y": 140,
+      "width": 426,
+      "height": 54
+    }
+  },
+  {
+    "id": "home-hero",
+    "differentPixels": 253910,
+    "ratio": 0.17249320652173913,
+    "differenceBounds": {
+      "x": 533,
+      "y": 195,
+      "width": 1278,
+      "height": 425
+    }
+  },
+  {
+    "id": "home-benefits",
+    "differentPixels": 0,
+    "ratio": 0,
+    "differenceBounds": null
+  },
+  {
+    "id": "home-crop-selection",
+    "differentPixels": 53657,
+    "ratio": 0.027053585834140047,
+    "differenceBounds": {
+      "x": 293,
+      "y": 1690,
+      "width": 1336,
+      "height": 580
+    }
+  },
+  {
+    "id": "home-promotions",
+    "differentPixels": 11108,
+    "ratio": 0.009747485029519751,
+    "differenceBounds": {
+      "x": 302,
+      "y": 2740,
+      "width": 1445,
+      "height": 395
+    }
+  },
+  {
+    "id": "home-bundles",
+    "differentPixels": 14312,
+    "ratio": 0.012559057052798585,
+    "differenceBounds": {
+      "x": 277,
+      "y": 3831,
+      "width": 1369,
+      "height": 44
+    }
+  },
+  {
+    "id": "home-catalogues",
+    "differentPixels": 0,
+    "ratio": 0,
+    "differenceBounds": null
+  },
+  {
+    "id": "home-recommended",
+    "differentPixels": 0,
+    "ratio": 0,
+    "differenceBounds": null
+  },
+  {
+    "id": "home-about",
+    "differentPixels": 0,
+    "ratio": 0,
+    "differenceBounds": null
+  },
+  {
+    "id": "home-blog",
+    "differentPixels": 0,
+    "ratio": 0,
+    "differenceBounds": null
+  },
+  {
+    "id": "home-knowledge",
+    "differentPixels": 0,
+    "ratio": 0,
+    "differenceBounds": null
+  },
+  {
+    "id": "shared-footer",
+    "differentPixels": 0,
+    "ratio": 0,
+    "differenceBounds": null
+  }
+]

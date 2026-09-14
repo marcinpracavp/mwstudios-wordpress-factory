@@ -1,0 +1,4 @@
+2026-09-11T20:42:14.468Z START build:careers [gpt-5.6-terra high] (.factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/030-build-careers)
+careers: FAIL header pixel mismatch 5.849%; footer pixel mismatch 5.859%; Shared component pixel mismatch shared-shop-cta: 6.144%
+2026-09-11T20:49:51.149Z DONE build:careers
+2026-09-11T20:49:51.298Z START build:catalogues [gpt-5.6-terra high] (.factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/031-build-catalogues)

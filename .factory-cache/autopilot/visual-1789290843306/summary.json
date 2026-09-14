@@ -1,0 +1,96 @@
+{
+  "capturedAt": "2026-09-13T09:14:17.897Z",
+  "implementationHash": "6654c1b19983a2022265223b0d3de1bcaeb0374b5a31ca81742f13ab7f24bccb",
+  "sourceHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+  "thresholds": {
+    "channelTolerance": 24,
+    "maxDifferentPixelRatio": 0.085,
+    "geometryTolerancePx": 2
+  },
+  "acceptanceScope": "page",
+  "buildReady": true,
+  "deferred": [
+    {
+      "id": "checkout-registration",
+      "progress": {
+        "deferred": true,
+        "samples": [
+          {
+            "file": "current capture",
+            "implementationHash": "6654c1b19983a2022265223b0d3de1bcaeb0374b5a31ca81742f13ab7f24bccb",
+            "capturedAt": "2026-09-13T09:14:06.374Z",
+            "ratio": 0.10223362699468085
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789290618661\\summary.json",
+            "implementationHash": "34897cd2aef0b972933c9557cbb2d4b4a0defce889ad62d5fca60ba97fc67b3e",
+            "capturedAt": "2026-09-13T09:10:20.318Z",
+            "ratio": 0.1145237699468085
+          },
+          {
+            "file": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\visual-1789290533367\\summary.json",
+            "implementationHash": "f4a3acb2d611fc91b6240021ec4612742d31162893eee795d4f6d4edb848cdec",
+            "capturedAt": "2026-09-13T09:08:54.742Z",
+            "ratio": 0.1145237699468085
+          }
+        ],
+        "improvement": 0.012290142952127658,
+        "policy": {
+          "samples": 3,
+          "maxPageMismatch": 0.13,
+          "minImprovement": 0.03
+        },
+        "nonPixelErrors": [],
+        "reason": "Insufficient measured progress across distinct implementations; unresolved visual work belongs to final audit, not PASS."
+      },
+      "comparison": ".factory-cache/autopilot/visual-1789290843306/checkout-registration/comparison.json"
+    }
+  ],
+  "passed": false,
+  "pagePassed": false,
+  "routes": [
+    {
+      "id": "checkout-registration",
+      "passed": false,
+      "pagePassed": false,
+      "ownership": {
+        "header": {
+          "pixels": 629760,
+          "differentPixels": 27118,
+          "ratio": 0.04306084857723577
+        },
+        "footer": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "shared": {
+          "pixels": 100806,
+          "differentPixels": 19764,
+          "ratio": 0.1960597583477174
+        },
+        "page": {
+          "pixels": 1443840,
+          "differentPixels": 147609,
+          "ratio": 0.10223362699468085
+        },
+        "outside": {
+          "pixels": 1316154,
+          "differentPixels": 294410,
+          "ratio": 0.22368962902517486
+        },
+        "reused": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        }
+      },
+      "errors": [
+        "page pixel mismatch 10.223%",
+        "shared pixel mismatch 19.606%",
+        "Shared component pixel mismatch checkout-steps: 19.606%"
+      ],
+      "comparison": ".factory-cache/autopilot/visual-1789290843306/checkout-registration/comparison.json"
+    }
+  ]
+}

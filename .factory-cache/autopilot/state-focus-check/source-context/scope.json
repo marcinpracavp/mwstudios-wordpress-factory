@@ -1,0 +1,424 @@
+{
+  "source": {
+    "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+    "figmaUrl": "https://www.figma.com/design/OwiDXrKMVcaHKB9ryYF6mY/Rudnik-Agro?m=dev"
+  },
+  "status": "complete",
+  "routes": [
+    {
+      "id": "product-files-state",
+      "path": "/produkt/aquatos-5l/",
+      "language": "pl",
+      "frameNodeId": "586:711",
+      "reference": "references/full/frame-586-711.png",
+      "width": 1920,
+      "height": 3111,
+      "sections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "shared-primary-navigation",
+        "product-breadcrumbs",
+        "product-gallery",
+        "product-overview",
+        "product-files",
+        "product-related",
+        "product-legal-notices",
+        "shared-footer"
+      ],
+      "buildGroup": "product",
+      "responsiveSource": "derived",
+      "notes": "Source files tab contains Pobierz etykiete; actual document bytes/target are missing. Planned local route path is an implementation decision inferred from source page identity, not a captured source hyperlink. Uncaptured section IDs remain explicit in this partial execution plan.",
+      "state": "files-tab"
+    }
+  ],
+  "stateFamilies": [
+    {
+      "family": "[\"product\",\"/produkt/aquatos-5l/\",\"pl\",1920]",
+      "baseRoute": "product",
+      "route": "product-files-state",
+      "reusedSections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "product-breadcrumbs",
+        "product-gallery"
+      ],
+      "focusSections": [
+        "shared-primary-navigation",
+        "product-overview",
+        "product-files",
+        "product-related",
+        "product-legal-notices",
+        "shared-footer"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "shared-primary-navigation",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/01-shared-primary-navigation.json",
+      "contentRecords": 5,
+      "records": {
+        "path": ".factory-cache/autopilot/state-focus-check/source-context/section-8de8ed9bbbe57bf3.json",
+        "bytes": 2587,
+        "sha256": "46046e4e7b17b0533fe94b9f43b28de71033d1948b0984c7c137a33d206cc098"
+      }
+    },
+    {
+      "id": "product-overview",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/05-product-overview.json",
+      "contentRecords": 17,
+      "records": {
+        "path": ".factory-cache/autopilot/state-focus-check/source-context/section-60749771cd2948bc.json",
+        "bytes": 10608,
+        "sha256": "59a15f07906607a67a78621fe634a7c98dd1fb73fa30054cbf45176d98d7b67d"
+      }
+    },
+    {
+      "id": "product-files",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/08-product-files.json",
+      "contentRecords": 6,
+      "records": {
+        "path": ".factory-cache/autopilot/state-focus-check/source-context/section-bcd8b1c9fe2fe027.json",
+        "bytes": 3733,
+        "sha256": "042f06979afe9e9b89caff186e63270b589308a20adcc9aa271c13f9ca71c57a"
+      }
+    },
+    {
+      "id": "product-related",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/48-product-related.json",
+      "contentRecords": 5,
+      "records": {
+        "path": ".factory-cache/autopilot/state-focus-check/source-context/section-09d07b607a4c57e0.json",
+        "bytes": 3165,
+        "sha256": "b3d828c81d3f96d836b5a9d17fc19e26808917192e26c7f7ded06a1ff8107d65"
+      }
+    },
+    {
+      "id": "product-legal-notices",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/49-product-legal-notices.json",
+      "contentRecords": 2,
+      "records": {
+        "path": ".factory-cache/autopilot/state-focus-check/source-context/section-0fa7c0303303063b.json",
+        "bytes": 3138,
+        "sha256": "1fa131ea280ee55414ec116b6dbc4fb5b0c4c10564e918c4527e43d7de9b3fcf"
+      }
+    },
+    {
+      "id": "shared-footer",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/26-shared-footer.json",
+      "contentRecords": 16,
+      "records": {
+        "path": ".factory-cache/autopilot/state-focus-check/source-context/section-61ba1faa466eb680.json",
+        "bytes": 7941,
+        "sha256": "17696d0bef8eb6c6512ee31448fe8b70d275e5fe6f11dd775cdc28ca68afc9af"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "id": "6aca56f487c87e42bdea",
+      "nodeIds": [
+        "496:1825"
+      ],
+      "description": "Read source content to identify native product or account state 496:1825",
+      "path": "observations/6aca56f487c87e42bdea.json"
+    },
+    {
+      "id": "88576a8d78befa6aac98",
+      "nodeIds": [
+        "326:2601"
+      ],
+      "description": "Read source content to identify native product or account state 326:2601",
+      "path": "observations/88576a8d78befa6aac98.json"
+    },
+    {
+      "id": "5d0b724d0516ed1e9704",
+      "nodeIds": [
+        "496:1821"
+      ],
+      "description": "Read source content to identify native product or account state 496:1821",
+      "path": "observations/5d0b724d0516ed1e9704.json"
+    },
+    {
+      "id": "998f61ab8be9e67ca9f5",
+      "nodeIds": [
+        "425:636"
+      ],
+      "description": "Read source content to identify native product or account state 425:636",
+      "path": "observations/998f61ab8be9e67ca9f5.json"
+    },
+    {
+      "id": "b6616a7b94262ffbb86f",
+      "nodeIds": [
+        "496:1722"
+      ],
+      "description": "Read source content to identify native product or account state 496:1722",
+      "path": "observations/b6616a7b94262ffbb86f.json"
+    },
+    {
+      "id": "add0963ab5328ef31073",
+      "nodeIds": [
+        "586:805"
+      ],
+      "description": "Read source content to identify native product or account state 586:805",
+      "path": "observations/add0963ab5328ef31073.json"
+    },
+    {
+      "id": "60287a9a8ff40db60511",
+      "nodeIds": [
+        "586:1200"
+      ],
+      "description": "Read source content to identify native product or account state 586:1200",
+      "path": "observations/60287a9a8ff40db60511.json"
+    },
+    {
+      "id": "30cb5cab0c0c32d05330",
+      "nodeIds": [
+        "492:716"
+      ],
+      "description": "Read source content to identify native product or account state 492:716",
+      "path": "observations/30cb5cab0c0c32d05330.json"
+    },
+    {
+      "id": "703fe9efa24ddd754f72",
+      "nodeIds": [
+        "493:1251"
+      ],
+      "description": "Read source content to identify native product or account state 493:1251",
+      "path": "observations/703fe9efa24ddd754f72.json"
+    },
+    {
+      "id": "02b0982734cad8fc0d81",
+      "nodeIds": [
+        "524:195"
+      ],
+      "description": "Read source content to identify native product or account state 524:195",
+      "path": "observations/02b0982734cad8fc0d81.json"
+    },
+    {
+      "id": "ba86239566720ac727d2",
+      "nodeIds": [
+        "140:262",
+        "12:2"
+      ],
+      "description": "Capture shared primary navigation geometry and text styles",
+      "path": "observations/ba86239566720ac727d2.json"
+    },
+    {
+      "id": "c861e9b1ac80564e8d79",
+      "nodeIds": [
+        "496:1821",
+        "318:1556"
+      ],
+      "description": "Capture logical section product-overview for immediate snapshot persistence",
+      "path": "observations/c861e9b1ac80564e8d79.json"
+    },
+    {
+      "id": "2426d11a0d8b2e6ceaa4",
+      "nodeIds": [
+        "496:1825",
+        "423:263"
+      ],
+      "description": "Capture logical section product-inquiry-overview for immediate snapshot persistence",
+      "path": "observations/2426d11a0d8b2e6ceaa4.json"
+    },
+    {
+      "id": "53fcc643295a4bae6a4e",
+      "nodeIds": [
+        "425:636",
+        "425:542"
+      ],
+      "description": "Capture logical section product-reviews for immediate snapshot persistence",
+      "path": "observations/53fcc643295a4bae6a4e.json"
+    },
+    {
+      "id": "48b6bde8feca02cd9876",
+      "nodeIds": [
+        "586:805",
+        "586:711"
+      ],
+      "description": "Capture logical section product-files for immediate snapshot persistence",
+      "path": "observations/48b6bde8feca02cd9876.json"
+    },
+    {
+      "id": "d402930cc2cf5ec43613",
+      "nodeIds": [
+        "586:1200",
+        "586:1028"
+      ],
+      "description": "Capture logical section product-bundle-overview for immediate snapshot persistence",
+      "path": "observations/d402930cc2cf5ec43613.json"
+    },
+    {
+      "id": "d2080d3319934f13a113",
+      "nodeIds": [
+        "326:2735",
+        "326:2526"
+      ],
+      "description": "Capture expanded product description with deduplicated text styles to avoid truncation",
+      "path": "observations/d2080d3319934f13a113.json"
+    },
+    {
+      "id": "dc8e3db2622ed0c06530",
+      "nodeIds": [
+        "294:3"
+      ],
+      "description": "Clarify measured full-reference mismatch for product archive frame only",
+      "path": "observations/dc8e3db2622ed0c06530.json"
+    },
+    {
+      "id": "1f35a8b8aca7f971542c",
+      "nodeIds": [
+        "140:262",
+        "12:2"
+      ],
+      "description": "Capture default primary navigation with deduplicated styles to avoid truncation",
+      "path": "observations/1f35a8b8aca7f971542c.json"
+    },
+    {
+      "id": "detail-shared-primary-navigation",
+      "nodeIds": [
+        "140:262"
+      ],
+      "description": "Exact source section capture",
+      "path": "observations/detail-shared-primary-navigation.json"
+    },
+    {
+      "id": "053b78308ad646a28ad7",
+      "nodeIds": [
+        "222:62",
+        "12:2"
+      ],
+      "description": "Capture exact shared-footer section source",
+      "path": "observations/053b78308ad646a28ad7.json"
+    },
+    {
+      "id": "7891ec52f6816ff9beb4",
+      "nodeIds": [
+        "222:62",
+        "12:2"
+      ],
+      "description": "Capture exact shared-footer section source nodes 25",
+      "path": "observations/7891ec52f6816ff9beb4.json"
+    },
+    {
+      "id": "detail-shared-footer",
+      "nodeIds": [
+        "222:62"
+      ],
+      "description": "Exact source section capture",
+      "path": "observations/detail-shared-footer.json"
+    },
+    {
+      "id": "5ea250acb1158a8cb8a0",
+      "nodeIds": [
+        "294:3"
+      ],
+      "description": "Read product archive top-level node geometry to identify logical sections",
+      "path": "observations/5ea250acb1158a8cb8a0.json"
+    },
+    {
+      "id": "bd8ded7cf3081605a9b9",
+      "nodeIds": [
+        "303:1283"
+      ],
+      "description": "Identify the archive sort control separately from the product list",
+      "path": "observations/bd8ded7cf3081605a9b9.json"
+    },
+    {
+      "id": "f9b1fef7179dc6b63523",
+      "nodeIds": [
+        "303:1282"
+      ],
+      "description": "Extract first six product content records and media geometry",
+      "path": "observations/f9b1fef7179dc6b63523.json"
+    },
+    {
+      "id": "9fc5266243c88c097b8d",
+      "nodeIds": [
+        "303:1282"
+      ],
+      "description": "Extract middle six product content records and media geometry",
+      "path": "observations/9fc5266243c88c097b8d.json"
+    },
+    {
+      "id": "a45143baf1f2dcaf7dcd",
+      "nodeIds": [
+        "303:1282"
+      ],
+      "description": "Extract final six product content records and media geometry",
+      "path": "observations/a45143baf1f2dcaf7dcd.json"
+    }
+  ],
+  "frames": [
+    {
+      "nodeId": "586:711",
+      "name": "szczegÃ³ly produktu",
+      "pageId": "0:1",
+      "type": "FRAME",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "140:262",
+      "name": "mega menu",
+      "pageId": "0:1",
+      "type": "GROUP"
+    },
+    {
+      "nodeId": "496:1821",
+      "name": "dane produktu",
+      "pageId": "0:1",
+      "type": "GROUP"
+    },
+    {
+      "nodeId": "586:805",
+      "name": "szczegÃ³Å‚y",
+      "pageId": "0:1",
+      "type": "GROUP"
+    },
+    {
+      "nodeId": "222:62",
+      "name": "stopka",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "326:2515",
+      "name": "produkty powiązane",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "326:2516",
+      "name": "noty prawne produktu",
+      "pageId": "0:1",
+      "type": "RECTANGLE",
+      "viewport": "desktop",
+      "language": "pl"
+    }
+  ],
+  "globalFiles": [
+    {
+      "path": ".factory-cache/figma/latest/design-system.json",
+      "bytes": 8294,
+      "sha256": "5086e8f74a4d3aee56055467846c3f49e9f2791c2a30a873ea30c5a5a87b3863"
+    },
+    {
+      "path": ".factory-cache/figma/latest/components.json",
+      "bytes": 261,
+      "sha256": "fb651cb0bc38b89b71ffa0e6a8b92ec6acbe3bdff6ab7d30ea9c2e39ed12fec5"
+    }
+  ],
+  "lookup": "Observation matches are an index, not a completeness claim. Use targeted rg or inspect JSON pointers for missing node IDs. Never dump the full source files."
+}

@@ -1,0 +1,22 @@
+product: PAGE PASS 
+product-bundle: PAGE PASS 
+product-expanded: PAGE FAIL page pixel mismatch 8.826%
+product-inquiry: PAGE PASS 
+product-reviews-state: PAGE PASS 
+product-files-state: PAGE FAIL page pixel mismatch 8.664%
+2026-09-12T20:42:49.869Z START build:product [gpt-5.6-terra high] (.factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/055-build-product)
+product: PAGE PASS 
+product-bundle: PAGE PASS 
+product-expanded: PAGE FAIL page pixel mismatch 8.826%
+product-inquiry: PAGE PASS 
+product-reviews-state: PAGE PASS 
+product-files-state: PAGE FAIL page pixel mismatch 8.664%
+2026-09-12T20:50:48.648Z START build:product [gpt-5.6-terra high] (.factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/056-build-product)
+product: PAGE PASS 
+product-bundle: PAGE PASS 
+product-expanded: DEFERRED TO FINAL page pixel mismatch 8.921%
+product-inquiry: PAGE PASS 
+product-reviews-state: PAGE PASS 
+product-files-state: DEFERRED TO FINAL page pixel mismatch 8.664%
+2026-09-12T21:02:52.017Z BUILD READY build:product; deferred issues retained: 4
+2026-09-12T21:02:52.397Z START build:cart [gpt-5.6-terra high] (.factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/057-build-cart)

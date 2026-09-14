@@ -1,0 +1,134 @@
+{
+  "id": "checkout-steps",
+  "manifestRecord": {
+    "id": "checkout-steps",
+    "name": "checkout steps",
+    "order": 63,
+    "pageId": "0:1",
+    "snapshot": "sections/63-checkout-steps.json",
+    "desktopNodeId": "611:196",
+    "desktopReference": "references/sections/checkout-steps.png"
+  },
+  "contentFields": [
+    {
+      "section": "checkout-steps",
+      "nodeId": "611:197",
+      "fieldName": "rudnikagro_checkout_steps_step_1",
+      "type": "text",
+      "language": "pl",
+      "value": "1",
+      "destination": "ACF Options / Checkout content tab",
+      "linkEvidence": [
+        {
+          "characters": "1",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "611:197"
+      }
+    },
+    {
+      "section": "checkout-steps",
+      "nodeId": "611:199",
+      "fieldName": "rudnikagro_checkout_steps_step_2",
+      "type": "text",
+      "language": "pl",
+      "value": "2",
+      "destination": "ACF Options / Checkout content tab",
+      "linkEvidence": [
+        {
+          "characters": "2",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "611:199"
+      }
+    },
+    {
+      "section": "checkout-steps",
+      "nodeId": "611:201",
+      "fieldName": "rudnikagro_checkout_steps_step_3",
+      "type": "text",
+      "language": "pl",
+      "value": "3",
+      "destination": "ACF Options / Checkout content tab",
+      "linkEvidence": [
+        {
+          "characters": "3",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "611:201"
+      }
+    },
+    {
+      "section": "checkout-steps",
+      "nodeId": "611:204",
+      "fieldName": "rudnikagro_checkout_steps_step_login",
+      "type": "text",
+      "language": "pl",
+      "value": "Logowanie",
+      "destination": "ACF Options / Checkout content tab",
+      "linkEvidence": [
+        {
+          "characters": "Logowanie",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "611:204"
+      }
+    },
+    {
+      "section": "checkout-steps",
+      "nodeId": "611:205",
+      "fieldName": "rudnikagro_checkout_steps_step_delivery_payment",
+      "type": "text",
+      "language": "pl",
+      "value": "Dostawa i płatność",
+      "destination": "ACF Options / Checkout content tab",
+      "linkEvidence": [
+        {
+          "characters": "Dostawa i płatność",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "611:205"
+      }
+    },
+    {
+      "section": "checkout-steps",
+      "nodeId": "611:206",
+      "fieldName": "rudnikagro_checkout_steps_step_summary",
+      "type": "text",
+      "language": "pl",
+      "value": "Podsumowanie",
+      "destination": "ACF Options / Checkout content tab",
+      "linkEvidence": [
+        {
+          "characters": "Podsumowanie",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "611:206"
+      }
+    }
+  ]
+}

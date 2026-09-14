@@ -1,0 +1,134 @@
+{
+  "id": "product-inquiry-dialog",
+  "manifestRecord": {
+    "id": "product-inquiry-dialog",
+    "name": "formularz zapytania o produkt",
+    "order": 56,
+    "pageId": "0:1",
+    "snapshot": "sections/51-product-inquiry-dialog.json",
+    "desktopNodeId": "431:876",
+    "desktopReference": "references/sections/product-inquiry-dialog.png"
+  },
+  "contentFields": [
+    {
+      "section": "product-inquiry-dialog",
+      "nodeId": "431:882",
+      "fieldName": "rudnikagro_product_inquiry_dialog_heading_431_882",
+      "type": "text",
+      "language": "pl",
+      "value": "Zapytaj o produkt",
+      "destination": "CF7 product inquiry form",
+      "linkEvidence": [
+        {
+          "characters": "Zapytaj o produkt",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "431:882"
+      }
+    },
+    {
+      "section": "product-inquiry-dialog",
+      "nodeId": "431:883",
+      "fieldName": "rudnikagro_product_inquiry_dialog_name_label_431_883",
+      "type": "text",
+      "language": "pl",
+      "value": "Imię",
+      "destination": "CF7 product inquiry form",
+      "linkEvidence": [
+        {
+          "characters": "Imię",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "431:883"
+      }
+    },
+    {
+      "section": "product-inquiry-dialog",
+      "nodeId": "431:884",
+      "fieldName": "rudnikagro_product_inquiry_dialog_email_label_431_884",
+      "type": "text",
+      "language": "pl",
+      "value": "Adres e-mail*",
+      "destination": "CF7 product inquiry form",
+      "linkEvidence": [
+        {
+          "characters": "Adres e-mail*",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "431:884"
+      }
+    },
+    {
+      "section": "product-inquiry-dialog",
+      "nodeId": "431:885",
+      "fieldName": "rudnikagro_product_inquiry_dialog_question_label_431_885",
+      "type": "text",
+      "language": "pl",
+      "value": "Pytanie*",
+      "destination": "CF7 product inquiry form",
+      "linkEvidence": [
+        {
+          "characters": "Pytanie*",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "431:885"
+      }
+    },
+    {
+      "section": "product-inquiry-dialog",
+      "nodeId": "431:889",
+      "fieldName": "rudnikagro_product_inquiry_dialog_privacy_note_431_889",
+      "type": "text",
+      "language": "pl",
+      "value": "Odpowiedź zostanie wysłana na podany adres e-mail.\n* - Pole wymagane\nPodanie danych zawartych w formularzu jest dobrowolne, ale niezbędne do przetworzenia zapytania. Szczegóły związane z przetwarzaniem danych przez administratorów zawarte są w Polityce Prywatności.",
+      "destination": "CF7 product inquiry form",
+      "linkEvidence": [
+        {
+          "characters": "Odpowiedź zostanie wysłana na podany adres e-mail.\n* - Pole wymagane\nPodanie danych zawartych w formularzu jest dobrowolne, ale niezbędne do przetworzenia zapytania. Szczegóły związane z przetwarzaniem danych przez administratorów zawarte są w Polityce Prywatności.",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "431:889"
+      }
+    },
+    {
+      "section": "product-inquiry-dialog",
+      "nodeId": "431:891",
+      "fieldName": "rudnikagro_product_inquiry_dialog_submit_label_431_891",
+      "type": "text",
+      "language": "pl",
+      "value": "Wyślij",
+      "destination": "CF7 product inquiry form",
+      "linkEvidence": [
+        {
+          "characters": "Wyślij",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "431:891"
+      }
+    }
+  ]
+}

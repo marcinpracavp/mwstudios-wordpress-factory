@@ -1,0 +1,132 @@
+{
+  "id": "blog-related-posts",
+  "name": "Related posts",
+  "order": 37,
+  "source": {
+    "pageId": "0:1",
+    "desktopNodeId": "327:3356"
+  },
+  "desktop": {
+    "frameWidth": 1920,
+    "x": 200,
+    "y": 2532,
+    "width": 1520,
+    "height": 645,
+    "productionFrame": "327:3176",
+    "containerWidth": 1440,
+    "padding": {
+      "left": 240,
+      "right": 240
+    }
+  },
+  "layout": {
+    "type": "source-composition",
+    "productionFrame": "327:3176",
+    "designContextRead": true,
+    "nodes": [
+      {
+        "id": "327:3367",
+        "name": "Section heading",
+        "type": "TEXT",
+        "parentId": null,
+        "bounds": {
+          "x": 240,
+          "y": 2532,
+          "width": 467,
+          "height": 55
+        },
+        "visible": true
+      },
+      {
+        "id": "327:3356",
+        "name": "Related post card",
+        "type": "GROUP",
+        "parentId": null,
+        "bounds": {
+          "x": 240,
+          "y": 2610,
+          "width": 467,
+          "height": 545
+        },
+        "visible": true
+      },
+      {
+        "id": "327:3355",
+        "name": "Related post card",
+        "type": "GROUP",
+        "parentId": null,
+        "bounds": {
+          "x": 727,
+          "y": 2610,
+          "width": 467,
+          "height": 545
+        },
+        "visible": true
+      },
+      {
+        "id": "327:3289",
+        "name": "Related post card",
+        "type": "GROUP",
+        "parentId": null,
+        "bounds": {
+          "x": 1213,
+          "y": 2610,
+          "width": 481,
+          "height": 545
+        },
+        "visible": true
+      }
+    ]
+  },
+  "typography": [
+    {
+      "nodeId": "327:3367",
+      "fontFamily": "DM Sans",
+      "weight": 700,
+      "size": 32,
+      "lineHeight": 55
+    },
+    {
+      "nodeId": "327:3290",
+      "fontFamily": "DM Sans",
+      "weight": 700,
+      "size": 32
+    }
+  ],
+  "colors": [
+    "#000000",
+    "#056839"
+  ],
+  "effects": [],
+  "contentFields": [
+    "heading",
+    "posts"
+  ],
+  "assets": [
+    {
+      "sourceNodeId": "327:3302",
+      "path": "assets/blog/blog-related-327-3302.png",
+      "usage": "Exact Figma MCP export; crop/geometry recorded in this section."
+    },
+    {
+      "sourceNodeId": "327:3303",
+      "path": "assets/blog/blog-related-327-3303.png",
+      "usage": "Exact Figma MCP export; crop/geometry recorded in this section."
+    },
+    {
+      "sourceNodeId": "327:3304",
+      "path": "assets/blog/blog-related-327-3304.png",
+      "usage": "Exact Figma MCP export; crop/geometry recorded in this section."
+    },
+    {
+      "sourceNodeId": "327:3295",
+      "path": "assets/blog/blog-related-arrow-327-3295.svg",
+      "usage": "Exact Figma MCP export; crop/geometry recorded in this section."
+    }
+  ],
+  "notes": [
+    "Exact full-frame crop: x=200,y=2532,width=1520,height=645 from references/full/frame-327-3176.png.",
+    "Related-card destinations are not represented by source links."
+  ],
+  "liveFigmaRequired": false
+}

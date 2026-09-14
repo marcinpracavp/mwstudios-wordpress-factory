@@ -5,21 +5,21 @@
 
 ## Project
 
-Name: MWStudios Website Factory
-Slug: mwstudios-factory
-Theme name: MWStudios Website Factory
-Text domain: mwstudios-factory
-PHP prefix: mwf
-Mode: boilerplate
+Name: RudnikAgro
+Slug: rudnikagro
+Theme name: RudnikAgro
+Text domain: rudnikagro
+PHP prefix: rudnikagro
+Mode: project
 
 ## Environment
 
-Local URL: Not configured
+Local URL: <https://autopilot.local>
 Production URL: Not configured
 
 ## Design
 
-Figma design: Not configured
+Figma design: <https://www.figma.com/design/OwiDXrKMVcaHKB9ryYF6mY/Rudnik-Agro?m=dev>
 Figma page: Not configured
 Figma root/start node: Not configured
 
@@ -31,20 +31,20 @@ Enabled: pl
 ## WordPress
 
 ACF Pro: YES
-Contact Form 7: NO
+Contact Form 7: YES
 Polylang: NO
-WooCommerce: NO
+WooCommerce: YES
 Google Maps: NO
 
 ## Frontend
 
 Swiper: YES
-AOS: NO
-Lenis smooth scroll: NO
+AOS: YES
+Lenis smooth scroll: YES
 
 ## Features
 
-Blog/news: NO
+Blog/news: YES
 Topbar: NO
 Promo popup: NO
 

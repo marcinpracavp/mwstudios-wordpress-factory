@@ -1,0 +1,20 @@
+{
+  "id": "3335d08f61e55e848aad",
+  "tool": "use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "303:1276"
+  ],
+  "description": "Measure category-description source text for exact content recording",
+  "recordedAt": "2026-09-11T10:22:44.126Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    {
+      "id": "303:1276",
+      "length": 7684,
+      "paragraphs": 48,
+      "preview": "Czym są preparaty grzybobójcze?\n\nFungicydy to preparaty przeznaczone do zwalczania grzybów  chorobotwórczych, które atakują rośliny uprawne. Wykorzystywane są  zarówno w rolnictwie, jak i w ogrodnictwie, aby zapewnić zdrowie roślin i optyma",
+      "tail": "obami grzybowymi.\nWybierając fungicydy z naszego sklepu, inwestujesz w zdrowie swoich  upraw i przyszłe plony. Zapraszamy do zapoznania się z pełną ofertą i  skorzystania z naszych produktów, które zapewnią skuteczną ochronę Twoim roślinom."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+    "id":  "contact-heading",
+    "name":  "Kontakt heading and breadcrumb",
+    "order":  41,
+    "source":  {
+                   "pageId":  "0:1",
+                   "desktopNodeId":  "335:702"
+               },
+    "desktop":  {
+                    "frameWidth":  1920,
+                    "x":  240,
+                    "y":  218,
+                    "width":  1440,
+                    "height":  220,
+                    "containerWidth":  1440,
+                    "padding":  {
+                                    "left":  0,
+                                    "right":  0
+                                },
+                    "gap":  0
+                },
+    "layout":  {
+                   "type":  "banner-and-breadcrumb",
+                   "productionFrame":  "335:591",
+                   "designContextRead":  true,
+                   "nodes":  [
+                                 "335:702",
+                                 "335:703",
+                                 "335:592"
+                             ],
+                   "banner":  {
+                                  "height":  150,
+                                  "radius":  30
+                              },
+                   "breadcrumb":  {
+                                      "y":  368,
+                                      "height":  70
+                                  }
+               },
+    "typography":  [
+                       {
+                           "nodeId":  "335:703",
+                           "family":  "DM Sans",
+                           "weight":  700,
+                           "size":  48,
+                           "lineHeight":  24,
+                           "align":  "center",
+                           "color":  "#ffffff"
+                       },
+                       {
+                           "nodeId":  "335:592",
+                           "family":  "DM Sans",
+                           "weight":  400,
+                           "size":  14,
+                           "lineHeight":  34,
+                           "align":  "left"
+                       }
+                   ],
+    "assets":  [
+                   {
+                       "sourceNodeId":  "335:702",
+                       "path":  "assets/contact/contact-heading-335-702.png",
+                       "kind":  "image",
+                       "fillHash":  "f370ec4cc703e9a97bca17d78a8445bf3e6c2926",
+                       "role":  "banner background"
+                   }
+               ],
+    "contentFields":  [
+                          "335:703",
+                          "335:592"
+                      ],
+    "notes":  [
+                  "Lossless 1x crop from references/full/frame-335-591.png: x=240,y=218,width=1440,height=220. No mobile source exists; responsive behavior is derived."
+              ],
+    "liveFigmaRequired":  false
+}

@@ -1,0 +1,906 @@
+{
+  "version": 1,
+  "inputHash": "b2c663c693ce132aabed96ef56e7118e6e095999351f13125b16b5e4d9207c4b",
+  "families": [
+    {
+      "key": "[\"product\",\"/produkt/aquatos-5l/\",\"pl\",1920]",
+      "baseRoute": "product",
+      "routes": [
+        {
+          "id": "product-expanded",
+          "sections": [
+            {
+              "id": "shared-topbar",
+              "width": 1920,
+              "height": 40,
+              "sourceCropHash": "d0a0c302438ea2303213d02005a2bc4f90f457cf8265b463c24957d837b0b039",
+              "invalid": false,
+              "sharedWithBase": true
+            },
+            {
+              "id": "shared-secondary-navigation",
+              "width": 1441,
+              "height": 42,
+              "sourceCropHash": "b4648a77917e2d16d5776dc753a997268eaa6ee5099e1b6ea85d509454fcbcd6",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "shared-primary-navigation",
+              "width": 1440,
+              "height": 79,
+              "sourceCropHash": "4aae810c1d87174f6d21475368969098000b39e69edc69d42c4f9bb38fff401c",
+              "invalid": false,
+              "sharedWithBase": true
+            },
+            {
+              "id": "product-breadcrumbs",
+              "width": 508,
+              "height": 70,
+              "sourceCropHash": "4e196ccd3fd9668ce67700191470cb6c14257c753f779daa07e7d6c860bf3294",
+              "invalid": false,
+              "sharedWithBase": true
+            },
+            {
+              "id": "product-gallery",
+              "width": 710,
+              "height": 710,
+              "sourceCropHash": "305ce5672293fb289837f4f785e859810f7cc7d0c947a5b89bfad1b68b4bda1c",
+              "invalid": false,
+              "sharedWithBase": true
+            },
+            {
+              "id": "product-overview",
+              "width": 712,
+              "height": 571,
+              "sourceCropHash": "16325f2c06af80136ba739d5db42fd6eb4e73d1a44ab9e8304a92265cd077872",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "product-tabs",
+              "width": 1440,
+              "height": 494,
+              "sourceCropHash": "f4d83bc0e3ac80567e4b6b9211e18f1e43920cd7a920b3e1aea7b93c2c783644",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "product-expanded-description",
+              "width": 1196,
+              "height": 2977,
+              "sourceCropHash": "9f93e8327c251e4bc60c148b3a993ec5969dac29219324e0d483414e2bc98af6",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "product-related",
+              "width": 710,
+              "height": 570,
+              "sourceCropHash": "8d44d754b00fbc6856d8e14f03a09c84e84dda64a830735838aa80c458506f52",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "product-legal-notices",
+              "width": 1440,
+              "height": 287,
+              "sourceCropHash": "df587e83140fd1822532a88118d51c068cee1a9ee7b7fd4bd9810d199d5aa5fa",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "shared-footer",
+              "sourceCropHash": null,
+              "invalid": true,
+              "sharedWithBase": false
+            }
+          ]
+        },
+        {
+          "id": "product",
+          "sections": [
+            {
+              "id": "shared-topbar",
+              "width": 1920,
+              "height": 40,
+              "sourceCropHash": "d0a0c302438ea2303213d02005a2bc4f90f457cf8265b463c24957d837b0b039",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "shared-secondary-navigation",
+              "width": 1441,
+              "height": 42,
+              "sourceCropHash": "2d1d9ee8614fdf1337ed9e237fb790c33668a774969e89f76f3ba4c12c0c1a73",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "shared-primary-navigation",
+              "width": 1440,
+              "height": 79,
+              "sourceCropHash": "4aae810c1d87174f6d21475368969098000b39e69edc69d42c4f9bb38fff401c",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "product-breadcrumbs",
+              "width": 508,
+              "height": 70,
+              "sourceCropHash": "4e196ccd3fd9668ce67700191470cb6c14257c753f779daa07e7d6c860bf3294",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "product-gallery",
+              "width": 710,
+              "height": 710,
+              "sourceCropHash": "305ce5672293fb289837f4f785e859810f7cc7d0c947a5b89bfad1b68b4bda1c",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "product-overview",
+              "width": 712,
+              "height": 571,
+              "sourceCropHash": "453bd7bdf305f9e5128252f4cc2bd9a78adca41c2c9e71eeb1f74cdbb94b2c70",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "product-benefits",
+              "width": 479,
+              "height": 128,
+              "sourceCropHash": "dcf568864733ee566c4ba6f168f4e407d661ec59c620e00162df078e8464abd8",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "product-tabs",
+              "width": 1440,
+              "height": 494,
+              "sourceCropHash": "74437a55cef0669dcab826a3d7a4c6242b27953f8ef88ccdf397724f892a2584",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "product-related",
+              "width": 710,
+              "height": 570,
+              "sourceCropHash": "3d1de3cd10329cbd739dbaa7f5c57adbfe6d4627c11e240e5a7aa40f65552c9f",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "product-legal-notices",
+              "width": 1440,
+              "height": 287,
+              "sourceCropHash": "7834fefb56f15a7bcd4dff2d8bb089d142ec0396a365b5e06334484f3ef9a68c",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "shared-footer",
+              "sourceCropHash": null,
+              "invalid": true,
+              "sharedWithBase": false
+            }
+          ]
+        },
+        {
+          "id": "product-inquiry",
+          "sections": [
+            {
+              "id": "shared-topbar",
+              "width": 1920,
+              "height": 40,
+              "sourceCropHash": "d0a0c302438ea2303213d02005a2bc4f90f457cf8265b463c24957d837b0b039",
+              "invalid": false,
+              "sharedWithBase": true
+            },
+            {
+              "id": "shared-secondary-navigation",
+              "width": 1441,
+              "height": 42,
+              "sourceCropHash": "2d1d9ee8614fdf1337ed9e237fb790c33668a774969e89f76f3ba4c12c0c1a73",
+              "invalid": false,
+              "sharedWithBase": true
+            },
+            {
+              "id": "shared-primary-navigation",
+              "width": 1440,
+              "height": 79,
+              "sourceCropHash": "47c5627dd8641dc17d0d55ef7416f8e5db253269edc7e13b0612b075f3ec3e1d",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "product-breadcrumbs",
+              "width": 508,
+              "height": 70,
+              "sourceCropHash": "4e196ccd3fd9668ce67700191470cb6c14257c753f779daa07e7d6c860bf3294",
+              "invalid": false,
+              "sharedWithBase": true
+            },
+            {
+              "id": "product-gallery",
+              "width": 710,
+              "height": 710,
+              "sourceCropHash": "305ce5672293fb289837f4f785e859810f7cc7d0c947a5b89bfad1b68b4bda1c",
+              "invalid": false,
+              "sharedWithBase": true
+            },
+            {
+              "id": "product-inquiry-overview",
+              "width": 712,
+              "height": 769,
+              "sourceCropHash": "0f1d0e251a10c09636e57dff0885886aabeb785251e9300bc2c52a8a4e6c0bb5",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "product-tabs",
+              "width": 1440,
+              "height": 494,
+              "sourceCropHash": "6e3bca2fbf1f83e759d68b5e89d3a24288214a145b0c64ed9ab4c39229d3614c",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "product-inquiry-dialog",
+              "width": 467,
+              "height": 702,
+              "sourceCropHash": "ced269ba0f71042cb3fa2a85532fda3b629aace181a3764af9e780ab5de1396a",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "product-related",
+              "width": 710,
+              "height": 570,
+              "sourceCropHash": "ec1fa934d6919992df520f678f9a7b513cf2c3ab66beffa567485e9b3911eeb0",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "product-legal-notices",
+              "width": 1440,
+              "height": 287,
+              "sourceCropHash": "793ee08b50cd1e6854b82ef400c46481a906949513f093b3ec4aede46f662fbd",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "shared-footer",
+              "sourceCropHash": null,
+              "invalid": true,
+              "sharedWithBase": false
+            }
+          ]
+        },
+        {
+          "id": "product-reviews-state",
+          "sections": [
+            {
+              "id": "shared-topbar",
+              "width": 1920,
+              "height": 40,
+              "sourceCropHash": "d0a0c302438ea2303213d02005a2bc4f90f457cf8265b463c24957d837b0b039",
+              "invalid": false,
+              "sharedWithBase": true
+            },
+            {
+              "id": "shared-secondary-navigation",
+              "width": 1441,
+              "height": 42,
+              "sourceCropHash": "2d1d9ee8614fdf1337ed9e237fb790c33668a774969e89f76f3ba4c12c0c1a73",
+              "invalid": false,
+              "sharedWithBase": true
+            },
+            {
+              "id": "shared-primary-navigation",
+              "width": 1440,
+              "height": 79,
+              "sourceCropHash": "fcbb07891135e0ecc5b360fc2be708f9adb1dffef5c5047bd098b1a5e464aa13",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "product-breadcrumbs",
+              "width": 508,
+              "height": 70,
+              "sourceCropHash": "4e196ccd3fd9668ce67700191470cb6c14257c753f779daa07e7d6c860bf3294",
+              "invalid": false,
+              "sharedWithBase": true
+            },
+            {
+              "id": "product-gallery",
+              "width": 710,
+              "height": 710,
+              "sourceCropHash": "305ce5672293fb289837f4f785e859810f7cc7d0c947a5b89bfad1b68b4bda1c",
+              "invalid": false,
+              "sharedWithBase": true
+            },
+            {
+              "id": "product-overview",
+              "width": 712,
+              "height": 571,
+              "sourceCropHash": "269d8634fd467036095dad99c9e578711739657b06909e7da0179f793a2512e0",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "product-reviews",
+              "width": 1440,
+              "height": 446,
+              "sourceCropHash": "54ac8fe3232155fb93bd7d2089f9e192fd81f43dfbe33c96ea2a9c5fa1a6595f",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "product-related",
+              "width": 710,
+              "height": 570,
+              "sourceCropHash": "bcd6440e93259caad63f9422ec8a9e7d947b2aaca5e3fb39f8bd63fa00bf54d4",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "product-legal-notices",
+              "width": 1440,
+              "height": 287,
+              "sourceCropHash": "9abd774258e0a46d77ac24e86a2ec27218bf6dbe456af420a299979016c70b92",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "shared-footer",
+              "sourceCropHash": null,
+              "invalid": true,
+              "sharedWithBase": false
+            }
+          ]
+        },
+        {
+          "id": "product-files-state",
+          "sections": [
+            {
+              "id": "shared-topbar",
+              "width": 1920,
+              "height": 40,
+              "sourceCropHash": "d0a0c302438ea2303213d02005a2bc4f90f457cf8265b463c24957d837b0b039",
+              "invalid": false,
+              "sharedWithBase": true
+            },
+            {
+              "id": "shared-secondary-navigation",
+              "width": 1441,
+              "height": 42,
+              "sourceCropHash": "2d1d9ee8614fdf1337ed9e237fb790c33668a774969e89f76f3ba4c12c0c1a73",
+              "invalid": false,
+              "sharedWithBase": true
+            },
+            {
+              "id": "shared-primary-navigation",
+              "width": 1440,
+              "height": 79,
+              "sourceCropHash": "80f7f62bb4a623ce08212edb266f24ba27e39f119d2b41b9ee8c16ffd347e6a6",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "product-breadcrumbs",
+              "width": 508,
+              "height": 70,
+              "sourceCropHash": "4e196ccd3fd9668ce67700191470cb6c14257c753f779daa07e7d6c860bf3294",
+              "invalid": false,
+              "sharedWithBase": true
+            },
+            {
+              "id": "product-gallery",
+              "width": 710,
+              "height": 710,
+              "sourceCropHash": "305ce5672293fb289837f4f785e859810f7cc7d0c947a5b89bfad1b68b4bda1c",
+              "invalid": false,
+              "sharedWithBase": true
+            },
+            {
+              "id": "product-overview",
+              "width": 712,
+              "height": 571,
+              "sourceCropHash": "35392c62674923c3146140498f2445f63e8132067af088339cc3ca0a298e0102",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "product-files",
+              "width": 1440,
+              "height": 265,
+              "sourceCropHash": "c560d1b20cfd9d9cf71aaa6c4da9e499b6231ecd00811b9308d239e4c9cb8918",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "product-related",
+              "width": 710,
+              "height": 570,
+              "sourceCropHash": "39c7798227f510eb002df13035120640787ab9bb4b4581d0b073060cc96fb8bb",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "product-legal-notices",
+              "width": 1440,
+              "height": 287,
+              "sourceCropHash": "e074b4c937356ad97ee0f59824b88f136cf2976c4917f4f8883061f8a8d2362a",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "shared-footer",
+              "sourceCropHash": null,
+              "invalid": true,
+              "sharedWithBase": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "[\"checkout\",\"/zamowienie/\",\"pl\",1920]",
+      "baseRoute": "checkout",
+      "routes": [
+        {
+          "id": "checkout",
+          "sections": [
+            {
+              "id": "shared-topbar",
+              "width": 1920,
+              "height": 40,
+              "sourceCropHash": "d0a0c302438ea2303213d02005a2bc4f90f457cf8265b463c24957d837b0b039",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "shared-secondary-navigation",
+              "width": 1441,
+              "height": 42,
+              "sourceCropHash": "32654ca24b78a70d2f9d08d39d85bdfeabcb7af200dab8a373a6035ead031b12",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "shared-primary-navigation",
+              "width": 1440,
+              "height": 79,
+              "sourceCropHash": "63df4d49cc61a75bf0cda00b6bcfbe3fb7a19d6b160accf8cd637af5bfaa0c75",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "checkout-heading",
+              "width": 467,
+              "height": 68,
+              "sourceCropHash": "2cc2e76ae0ac58eaa2680c423e5b7681ad302df97ed14d1edd02e5dee9240bbb",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "checkout-steps",
+              "width": 951,
+              "height": 106,
+              "sourceCropHash": "fea4c07fb97422bf52113ef2a6cee45f981376377be8d18823f64ff435466dd6",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "checkout-customer-details",
+              "width": 953,
+              "height": 578,
+              "sourceCropHash": "c5f680b5801c1ddc014d59300ed1ad7472378db0b0ffc345c501a76d03521183",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "checkout-payment",
+              "width": 953,
+              "height": 648,
+              "sourceCropHash": "4b0adeb01131530fe06f771e9d534da1304b75f1c5b8548b2cd3b2b379076a2c",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "checkout-delivery",
+              "width": 953,
+              "height": 216,
+              "sourceCropHash": "b13d80f40d57f00c9fbc403a6587f670f5f962883d14bca8fcf9bde4f805b7d1",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "checkout-totals",
+              "width": 467,
+              "height": 473,
+              "sourceCropHash": "90bb22f2f0c12038b7c4dff4700a8f5b2a56c7cc63fbe5a456d8059977c739ae",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "shared-footer",
+              "sourceCropHash": null,
+              "invalid": true,
+              "sharedWithBase": false
+            }
+          ]
+        },
+        {
+          "id": "checkout-login",
+          "sections": [
+            {
+              "id": "shared-topbar",
+              "width": 1920,
+              "height": 40,
+              "sourceCropHash": "de5ba10a9131a57b20721d1c8a3d16a90ed1b5ee07084d2afd73a5ef37bdaeec",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "shared-secondary-navigation",
+              "width": 1441,
+              "height": 42,
+              "sourceCropHash": "2d1d9ee8614fdf1337ed9e237fb790c33668a774969e89f76f3ba4c12c0c1a73",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "shared-primary-navigation",
+              "width": 1440,
+              "height": 79,
+              "sourceCropHash": "63df4d49cc61a75bf0cda00b6bcfbe3fb7a19d6b160accf8cd637af5bfaa0c75",
+              "invalid": false,
+              "sharedWithBase": true
+            },
+            {
+              "id": "checkout-login-heading",
+              "width": 467,
+              "height": 68,
+              "sourceCropHash": "b1d915e03d3d960936aa96cd72b22760bbf9c016d18fa5ad0b86a4690381f7f4",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "checkout-steps",
+              "width": 951,
+              "height": 106,
+              "sourceCropHash": "3dc1c1bb13921e48a10dd964161a6ea8f0236fad26113828af0297555a2d7d5d",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "checkout-login-options",
+              "width": 1439,
+              "height": 425,
+              "sourceCropHash": "5b57dbbf5c0a3c2bd2653a44bca5a10b890f9684394d28e30a0cc168dbf15931",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "shared-footer",
+              "sourceCropHash": null,
+              "invalid": true,
+              "sharedWithBase": false
+            }
+          ]
+        },
+        {
+          "id": "checkout-registration",
+          "sections": [
+            {
+              "id": "shared-topbar",
+              "width": 1920,
+              "height": 40,
+              "sourceCropHash": "de5ba10a9131a57b20721d1c8a3d16a90ed1b5ee07084d2afd73a5ef37bdaeec",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "shared-secondary-navigation",
+              "width": 1441,
+              "height": 42,
+              "sourceCropHash": "32654ca24b78a70d2f9d08d39d85bdfeabcb7af200dab8a373a6035ead031b12",
+              "invalid": false,
+              "sharedWithBase": true
+            },
+            {
+              "id": "shared-primary-navigation",
+              "width": 1440,
+              "height": 79,
+              "sourceCropHash": "63df4d49cc61a75bf0cda00b6bcfbe3fb7a19d6b160accf8cd637af5bfaa0c75",
+              "invalid": false,
+              "sharedWithBase": true
+            },
+            {
+              "id": "checkout-login-heading",
+              "width": 467,
+              "height": 68,
+              "sourceCropHash": "b1d915e03d3d960936aa96cd72b22760bbf9c016d18fa5ad0b86a4690381f7f4",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "checkout-steps",
+              "width": 951,
+              "height": 106,
+              "sourceCropHash": "3dc1c1bb13921e48a10dd964161a6ea8f0236fad26113828af0297555a2d7d5d",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "checkout-login-options",
+              "width": 1439,
+              "height": 425,
+              "sourceCropHash": "95f21db98a940c29b7d11bd25f671e6bd9dadc848832af927bc6337388e57e36",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "account-registration-dialog",
+              "width": 802,
+              "height": 752,
+              "sourceCropHash": "f2e0c858b5f61ce96dac011544197e7fc169001fd06daef0bfd62b64c596b8a0",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "shared-footer",
+              "sourceCropHash": null,
+              "invalid": true,
+              "sharedWithBase": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "[\"home\",\"/\",\"pl\",1920]",
+      "baseRoute": "home",
+      "routes": [
+        {
+          "id": "home-active",
+          "sections": [
+            {
+              "id": "shared-topbar",
+              "width": 1920,
+              "height": 40,
+              "sourceCropHash": "d0a0c302438ea2303213d02005a2bc4f90f457cf8265b463c24957d837b0b039",
+              "invalid": false,
+              "sharedWithBase": true
+            },
+            {
+              "id": "shared-secondary-navigation",
+              "width": 1441,
+              "height": 42,
+              "sourceCropHash": "d3dce07de89818390111aeb902244eec72b4c295d7c1ee1f213970418b97897e",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "shared-primary-navigation-active",
+              "width": 1440,
+              "height": 417,
+              "sourceCropHash": "d7c2bd7e2c8e62f927ee75137694bf84ae772fe7b1e0c41d69e6e6e195bf897f",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "home-hero",
+              "width": 1840,
+              "height": 800,
+              "sourceCropHash": "d25e17a9e14c24e90aa8a9bedba061417c04b3cebefa640275925e6d034c6330",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "home-benefits",
+              "width": 1440,
+              "height": 175,
+              "sourceCropHash": "63fd1352a615de13ea8d463ea09d2c0697a00f825361d4181770a6315ee5899a",
+              "invalid": false,
+              "sharedWithBase": true
+            },
+            {
+              "id": "home-crop-selection",
+              "width": 1920,
+              "height": 1033,
+              "sourceCropHash": "a4c7c378bb3601f5f9ea2a7866a460482fb4ee1f382dce4d592d7ef5802f1771",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "home-promotions",
+              "width": 1574,
+              "height": 724,
+              "sourceCropHash": "b598d44b275063b8b7da6a2bf2d5a07e226c7a2d4ef01fe316bf59fe63d38d10",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "home-bundles",
+              "width": 1574,
+              "height": 724,
+              "sourceCropHash": "54feed01c5c9f73a3d89332985b444d15bc0e4efa2b75bd5f6917fc4b7e8b3f3",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "home-catalogues",
+              "width": 1440,
+              "height": 384,
+              "sourceCropHash": "7ebfe0e8e03c62756ca974a420f42111987f3bf66fe04164e2c5fd67afeb8715",
+              "invalid": false,
+              "sharedWithBase": true
+            },
+            {
+              "id": "home-recommended",
+              "width": 1574,
+              "height": 724,
+              "sourceCropHash": "2ccebd76c9584f50c3a1b84228d8d66e27a77fa1c39f3dbf2b00f0de1ee01ec0",
+              "invalid": false,
+              "sharedWithBase": true
+            },
+            {
+              "id": "home-about",
+              "width": 1920,
+              "height": 850,
+              "sourceCropHash": "d9268d7eb704b9733e275d149c4d67a962aa13044c78517491c9910c6273696e",
+              "invalid": false,
+              "sharedWithBase": true
+            },
+            {
+              "id": "home-blog",
+              "width": 1457,
+              "height": 668,
+              "sourceCropHash": "0d8868d8963ae58ea0841d0080ebaae0e7ef9cef3eecc7347ae5bed54a018358",
+              "invalid": false,
+              "sharedWithBase": true
+            },
+            {
+              "id": "home-knowledge",
+              "width": 1920,
+              "height": 1273,
+              "sourceCropHash": "f0f5396152ffd9078c194fba892be0649ed7e22237bdaf32ad82716fc3227a45",
+              "invalid": false,
+              "sharedWithBase": true
+            },
+            {
+              "id": "shared-footer",
+              "width": 1920,
+              "height": 636,
+              "sourceCropHash": "fe027782dcb8e528538591828adb849a5941b67baa3ad0bdd204c4c43831d765",
+              "invalid": false,
+              "sharedWithBase": true
+            }
+          ]
+        },
+        {
+          "id": "home",
+          "sections": [
+            {
+              "id": "shared-topbar",
+              "width": 1920,
+              "height": 40,
+              "sourceCropHash": "d0a0c302438ea2303213d02005a2bc4f90f457cf8265b463c24957d837b0b039",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "shared-secondary-navigation",
+              "width": 1441,
+              "height": 42,
+              "sourceCropHash": "0aa50389c369528f778ac68647c8dca3e966375594ebca42dd5ced1746e54b92",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "shared-primary-navigation",
+              "width": 1440,
+              "height": 79,
+              "sourceCropHash": "641192c4322d8421aa44a857f7ffefe7f25ae28a4172739a1e2ade9b7574afe1",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "home-hero",
+              "width": 1840,
+              "height": 800,
+              "sourceCropHash": "651aba9379f17f6050bb723c9227f496454541e31ed54d8999c92751eba55d7d",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "home-benefits",
+              "width": 1440,
+              "height": 175,
+              "sourceCropHash": "63fd1352a615de13ea8d463ea09d2c0697a00f825361d4181770a6315ee5899a",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "home-crop-selection",
+              "width": 1920,
+              "height": 1033,
+              "sourceCropHash": "4e203afb5a67b93fd506ae2620589b849bb4b766edddab0ce70016b96bc1569e",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "home-promotions",
+              "width": 1574,
+              "height": 724,
+              "sourceCropHash": "b4ae15d69aa8c8320e542f31f4de70a362186cd7b32a15b4e9a4c0c8916f6988",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "home-bundles",
+              "width": 1574,
+              "height": 724,
+              "sourceCropHash": "dbe2adb99c169c08ab80be6f3412a94f50f8d6a5d702285145654ee36eda24f8",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "home-catalogues",
+              "width": 1440,
+              "height": 384,
+              "sourceCropHash": "7ebfe0e8e03c62756ca974a420f42111987f3bf66fe04164e2c5fd67afeb8715",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "home-recommended",
+              "width": 1574,
+              "height": 724,
+              "sourceCropHash": "2ccebd76c9584f50c3a1b84228d8d66e27a77fa1c39f3dbf2b00f0de1ee01ec0",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "home-about",
+              "width": 1920,
+              "height": 850,
+              "sourceCropHash": "d9268d7eb704b9733e275d149c4d67a962aa13044c78517491c9910c6273696e",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "home-blog",
+              "width": 1457,
+              "height": 668,
+              "sourceCropHash": "0d8868d8963ae58ea0841d0080ebaae0e7ef9cef3eecc7347ae5bed54a018358",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "home-knowledge",
+              "width": 1920,
+              "height": 1273,
+              "sourceCropHash": "f0f5396152ffd9078c194fba892be0649ed7e22237bdaf32ad82716fc3227a45",
+              "invalid": false,
+              "sharedWithBase": false
+            },
+            {
+              "id": "shared-footer",
+              "width": 1920,
+              "height": 636,
+              "sourceCropHash": "fe027782dcb8e528538591828adb849a5941b67baa3ad0bdd204c4c43831d765",
+              "invalid": false,
+              "sharedWithBase": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "capturedAt": "2026-09-13T06:24:07.854Z",
+  "implementationHash": "b93c7e0b39d1a6942203386b3c9df0e74960c0ae58bd7e1a3f1488f241f59baa",
+  "sourceHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+  "thresholds": {
+    "channelTolerance": 24,
+    "maxDifferentPixelRatio": 0.085,
+    "geometryTolerancePx": 2
+  },
+  "acceptanceScope": "page",
+  "buildReady": false,
+  "deferred": [],
+  "passed": false,
+  "pagePassed": false,
+  "routes": [
+    {
+      "id": "checkout",
+      "passed": false,
+      "pagePassed": false,
+      "ownership": {
+        "header": {
+          "pixels": 629760,
+          "differentPixels": 135019,
+          "ratio": 0.2143975482723577
+        },
+        "footer": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "shared": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "page": {
+          "pixels": 3413760,
+          "differentPixels": 319671,
+          "ratio": 0.09364190804274465
+        },
+        "outside": {
+          "pixels": 1605120,
+          "differentPixels": 1202200,
+          "ratio": 0.74897826953748
+        },
+        "reused": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        }
+      },
+      "errors": [
+        "Responsive render health 390",
+        "Responsive render health 375",
+        "Failed to load resource: the server responded with a status of 500 ()",
+        "Failed to load resource: the server responded with a status of 500 ()",
+        "page pixel mismatch 9.364%",
+        "Section geometry differs: checkout-steps",
+        "Section geometry differs: checkout-customer-details",
+        "Section geometry differs: checkout-payment",
+        "Section geometry differs: checkout-delivery",
+        "Section geometry differs: checkout-totals"
+      ],
+      "comparison": ".factory-cache/autopilot/visual-1789280605281/checkout/comparison.json"
+    }
+  ]
+}

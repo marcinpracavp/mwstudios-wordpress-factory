@@ -1,0 +1,345 @@
+{
+  "id": "9fc5266243c88c097b8d",
+  "tool": "use_figma",
+  "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+  "nodeIds": [
+    "303:1282"
+  ],
+  "description": "Extract middle six product content records and media geometry",
+  "recordedAt": "2026-09-11T10:13:39.171Z",
+  "source": "successful-worker-tool-event",
+  "facts": [
+    [
+      {
+        "id": "299:1040",
+        "name": "produkt7",
+        "x": 605,
+        "y": 1630,
+        "width": 345,
+        "height": 464,
+        "text": [
+          {
+            "id": "299:1052",
+            "text": " Tavares 250 SE 5L",
+            "fontSize": 18,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400,
+                "opsz": 14
+              }
+            },
+            "x": 700,
+            "y": 1949,
+            "width": 157,
+            "height": 23
+          },
+          {
+            "id": "299:1053",
+            "text": "1135,00 zł",
+            "fontSize": 24,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Bold",
+              "variationSettings": {
+                "wght": 700,
+                "opsz": 14
+              }
+            },
+            "x": 722,
+            "y": 1982,
+            "width": 111,
+            "height": 31
+          }
+        ],
+        "media": [
+          {
+            "id": "299:1142",
+            "name": "image 5",
+            "x": 654,
+            "y": 1630,
+            "width": 229,
+            "height": 299,
+            "imageHash": "d7c8fd4b5ffe7d7d17d362ebae5accf150a244a2"
+          }
+        ]
+      },
+      {
+        "id": "299:1058",
+        "name": "produkt8",
+        "x": 970,
+        "y": 1630,
+        "width": 345,
+        "height": 464,
+        "text": [
+          {
+            "id": "299:1070",
+            "text": " Allstar  5L",
+            "fontSize": 18,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400,
+                "opsz": 14
+              }
+            },
+            "x": 1100,
+            "y": 1949,
+            "width": 87,
+            "height": 23
+          },
+          {
+            "id": "299:1071",
+            "text": "3 185,63 zł",
+            "fontSize": 24,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Bold",
+              "variationSettings": {
+                "wght": 700,
+                "opsz": 14
+              }
+            },
+            "x": 1083,
+            "y": 1982,
+            "width": 119,
+            "height": 31
+          }
+        ],
+        "media": [
+          {
+            "id": "302:1147",
+            "name": "allstar 1",
+            "x": 1058,
+            "y": 1658,
+            "width": 172,
+            "height": 255,
+            "imageHash": "b5da1032de2f78074a0b8085b65d8fd74361390c"
+          }
+        ]
+      },
+      {
+        "id": "299:1076",
+        "name": "produkt9",
+        "x": 1335,
+        "y": 1630,
+        "width": 345,
+        "height": 464,
+        "text": [
+          {
+            "id": "299:1088",
+            "text": "Andros 750 EC 5L",
+            "fontSize": 18,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400,
+                "opsz": 14
+              }
+            },
+            "x": 1433,
+            "y": 1949,
+            "width": 150,
+            "height": 23
+          },
+          {
+            "id": "299:1089",
+            "text": "723,60 zł",
+            "fontSize": 24,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Bold",
+              "variationSettings": {
+                "wght": 700,
+                "opsz": 14
+              }
+            },
+            "x": 1456,
+            "y": 1982,
+            "width": 103,
+            "height": 31
+          }
+        ],
+        "media": [
+          {
+            "id": "302:1149",
+            "name": "image 6",
+            "x": 1391,
+            "y": 1630,
+            "width": 224,
+            "height": 299,
+            "imageHash": "72c83efea2cda7e118c26495fe9487a5fa22da24"
+          }
+        ]
+      },
+      {
+        "id": "299:1092",
+        "name": "produkt10",
+        "x": 605,
+        "y": 2114,
+        "width": 345,
+        "height": 464,
+        "text": [
+          {
+            "id": "299:1104",
+            "text": "Ascra XPRO 260 EC 5L",
+            "fontSize": 18,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400,
+                "opsz": 14
+              }
+            },
+            "x": 683,
+            "y": 2433,
+            "width": 191,
+            "height": 23
+          },
+          {
+            "id": "299:1105",
+            "text": "1 162,40 zł",
+            "fontSize": 24,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Bold",
+              "variationSettings": {
+                "wght": 700,
+                "opsz": 14
+              }
+            },
+            "x": 720,
+            "y": 2466,
+            "width": 114,
+            "height": 31
+          }
+        ],
+        "media": [
+          {
+            "id": "302:1152",
+            "name": "image 7",
+            "x": 681,
+            "y": 2122,
+            "width": 194,
+            "height": 291,
+            "imageHash": "7ef869863366b1be2a650e0f6d1ed8306690b919"
+          }
+        ]
+      },
+      {
+        "id": "299:1108",
+        "name": "produkt11",
+        "x": 970,
+        "y": 2114,
+        "width": 345,
+        "height": 464,
+        "text": [
+          {
+            "id": "299:1120",
+            "text": " Aviator XPRO 225 EC 5L",
+            "fontSize": 18,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400,
+                "opsz": 14
+              }
+            },
+            "x": 1041,
+            "y": 2433,
+            "width": 204,
+            "height": 23
+          },
+          {
+            "id": "299:1121",
+            "text": "1 240,70 zł",
+            "fontSize": 24,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Bold",
+              "variationSettings": {
+                "wght": 700,
+                "opsz": 14
+              }
+            },
+            "x": 1082,
+            "y": 2466,
+            "width": 120,
+            "height": 31
+          }
+        ],
+        "media": [
+          {
+            "id": "302:1155",
+            "name": "image 8",
+            "x": 1042,
+            "y": 2114,
+            "width": 199,
+            "height": 299,
+            "imageHash": "5c80f8238567c0998cbf620829f24a6658182268"
+          }
+        ]
+      },
+      {
+        "id": "299:1124",
+        "name": "produkt12",
+        "x": 1335,
+        "y": 2114,
+        "width": 345,
+        "height": 464,
+        "text": [
+          {
+            "id": "299:1136",
+            "text": " Bantux 500 SC 5L",
+            "fontSize": 18,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400,
+                "opsz": 14
+              }
+            },
+            "x": 1430,
+            "y": 2433,
+            "width": 156,
+            "height": 23
+          },
+          {
+            "id": "299:1137",
+            "text": "540,00 zł",
+            "fontSize": 24,
+            "fontName": {
+              "family": "DM Sans",
+              "style": "Bold",
+              "variationSettings": {
+                "wght": 700,
+                "opsz": 14
+              }
+            },
+            "x": 1451,
+            "y": 2466,
+            "width": 112,
+            "height": 31
+          }
+        ],
+        "media": [
+          {
+            "id": "299:1139",
+            "name": "image 4",
+            "x": 1406,
+            "y": 2114,
+            "width": 213,
+            "height": 284,
+            "imageHash": "c2ac71ad0b74de6f19faa9b4d4373c34db55e502"
+          }
+        ]
+      }
+    ]
+  ]
+}
