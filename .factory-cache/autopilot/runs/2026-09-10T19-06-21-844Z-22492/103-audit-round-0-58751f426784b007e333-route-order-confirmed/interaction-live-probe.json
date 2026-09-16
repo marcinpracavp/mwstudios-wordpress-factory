@@ -1,0 +1,63 @@
+{
+  "generatedAt": "2026-09-15T17:12:28.642Z",
+  "browser": "Google Chrome",
+  "isolatedContext": true,
+  "requestedUrl": "https://autopilot.local/zamowienie/order-received/",
+  "responseStatus": 200,
+  "observations": {
+    "finalUrl": "https://autopilot.local/zamowienie/order-received/",
+    "title": "Zamówienie otrzymane – Safegold",
+    "pathname": "/zamowienie/order-received/",
+    "search": "",
+    "hasOrderIdInPath": false,
+    "hasOrderKey": false,
+    "routeSections": [
+      {
+        "id": "confirmation-heading",
+        "count": 0
+      },
+      {
+        "id": "checkout-steps",
+        "count": 0
+      },
+      {
+        "id": "checkout-order-confirmation",
+        "count": 0
+      },
+      {
+        "id": "confirmation-line-items",
+        "count": 0
+      },
+      {
+        "id": "checkout-totals",
+        "count": 0
+      }
+    ],
+    "hasMain": true,
+    "mainTextSample": "Dziękujemy. Otrzymaliśmy Twoje zamówienie.",
+    "thankYouNoticeCount": 1,
+    "orderOverviewCount": 0,
+    "orderDetailsCount": 0,
+    "controls": [],
+    "forms": [],
+    "horizontalOverflow": 0
+  },
+  "pageErrors": [],
+  "consoleErrors": [],
+  "cookiesAfterNavigation": [
+    "PHPSESSID",
+    "sbjs_migrations",
+    "sbjs_current_add",
+    "sbjs_first_add",
+    "sbjs_current",
+    "sbjs_first",
+    "sbjs_udata",
+    "sbjs_session"
+  ],
+  "actionsPerformed": [
+    "read-only navigation",
+    "DOM inspection",
+    "screenshot"
+  ],
+  "businessSideEffects": false
+}

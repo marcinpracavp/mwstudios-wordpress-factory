@@ -1,0 +1,16 @@
+{
+  "status": "needs_work",
+  "summary": "Ran a fresh isolated Google Chrome context with source-backed product 121 in the session cart. The alternate-shipping checkbox changed false→true→false and restored cleanly; the coupon field accepted the sourced BLACKFRIDAY value and was cleared without submission; no page errors occurred. No order, payment, message or registration was submitted. The probe found unsafe coupon form ownership and incomplete/non-visible choice controls.",
+  "issues": [
+    "INT-CHECKOUT-001 | critical | coupon submission ownership | Expected Dodaj kod to submit a dedicated WooCommerce coupon form/AJAX action; actual button.form is the main form named checkout with action /zamowienie/. Clicking it could submit checkout data toward order processing, so the audit intentionally did not click it. Remove the invalid nested-form structure and bind the coupon control to a dedicated safe coupon action before interaction acceptance.",
+    "INT-CHECKOUT-002 | high | payment-method interaction | Expected the source-backed payment choices to be selectable; actual isolated checkout has only one payment_method input (bacs), checked but not visibly rendered, so there is no alternative method interaction to exercise. Configure/render the sourced native gateways and visible radio controls.",
+    "INT-CHECKOUT-003 | medium | shipping-method selection state | Expected the single sourced shipping method to present as selected with a visible control; actual isolated checkout has one shipping input (flat_rate:1) that is not visible and reports unchecked. Ensure the native method is selected and its visible radio state mirrors the checkout session."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/094-audit-round-0-58751f426784b007e333-route-checkout/interaction-probe.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/094-audit-round-0-58751f426784b007e333-route-checkout/checkout-interaction-probe.js",
+    "woocommerce/checkout/form-checkout.php",
+    "woocommerce/checkout/form-coupon.php"
+  ]
+}

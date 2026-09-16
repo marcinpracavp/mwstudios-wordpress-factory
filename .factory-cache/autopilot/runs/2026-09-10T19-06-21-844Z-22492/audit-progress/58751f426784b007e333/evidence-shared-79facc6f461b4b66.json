@@ -1,0 +1,15 @@
+{
+  "status": "needs_work",
+  "summary": "Compared the careers shared-shop-cta reference, rendered crop, diff, and retained geometry. The outer dimensions match, but the component shape and internal alignment differ visibly.",
+  "issues": [
+    "VIS-SHARED-SHOP-CTA-001 (high) — property: corner radius/clipping; expected: a 230 px-high gradient panel with visibly rounded corners on all four edges; actual: computed section borderRadius is 0px and the rendered left corners are square; fix: apply the reference radius to the shared CTA wrapper and clip the gradient to it.",
+    "VIS-SHARED-SHOP-CTA-002 (medium) — property: content placement; expected: heading begins about 328 px from the crop's left edge and button is centered near x=1411/y=122; actual: heading begins about 292 px and the button sits roughly 8 px left and 6 px high; fix: match the source inner container/grid columns and vertical centering.",
+    "VIS-SHARED-SHOP-CTA-003 (medium) — property: heading typography; expected: source glyph size/weight and line metrics; actual: the rendered two-line heading is smaller/differently weighted, producing the prominent double-edge diff; fix: apply the exact source heading font size, weight, and line-height."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/shared-shop-cta-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/shared-shop-cta-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/shared-shop-cta-diff.png"
+  ]
+}

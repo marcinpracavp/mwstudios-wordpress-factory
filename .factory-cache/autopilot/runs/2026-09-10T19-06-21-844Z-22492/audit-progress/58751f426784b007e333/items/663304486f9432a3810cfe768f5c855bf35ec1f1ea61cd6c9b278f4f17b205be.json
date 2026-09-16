@@ -1,0 +1,29 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-checkout-login",
+  "item": "section:checkout-login-options",
+  "status": "needs_work",
+  "summary": "Compared the assigned checkout-login-options reference, rendered crop and diff at 1920px and verified the retained section geometry and crop metric.",
+  "issues": [
+    "CHK-LOGIN-OPTIONS-001 | high | internal spacing and control geometry | Expected: three 425px-high cards with headings at about 43px from the left and 51px from the top, login inputs about 380px wide, and all primary actions aligned near y=324 within the crop with fully rounded pill buttons. Actual: headings start about 32px from the left and 36px from the top, login inputs are about 403px wide, guest/register actions sit directly below their copy near y=129/y=227, and primary buttons are short rectangular controls; the retained crop mismatch is 13.129% (80291/611575 pixels). Fix: match the source card inner padding, constrain the login controls to the source width, keep the guest/register actions bottom-aligned, and restore source button height/pill radius without changing the already-passing outer section geometry."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/comparison.json",
+      "sha256": "ccec5d86a6c7481aa778179b2a536e4586404b84dd26b38dfb04c426068c7b0f"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/checkout-login-options-reference.png",
+      "sha256": "db2ce4cf4ddf2a460c04cc5ffe7ea2cc49fc9a93e162e7449375a6fe3a89400d"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/checkout-login-options-rendered.png",
+      "sha256": "fb91f09219e213ad16bf099e4b63adf5899831688e45e054e8b3d08da61e6137"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/checkout-login-options-diff.png",
+      "sha256": "6b80f52dfe450eef4e073cbe71b25a480edc045348d2e0d6f58ac97db3ce3d38"
+    }
+  ],
+  "completedAt": "2026-09-15T17:22:06.053Z"
+}

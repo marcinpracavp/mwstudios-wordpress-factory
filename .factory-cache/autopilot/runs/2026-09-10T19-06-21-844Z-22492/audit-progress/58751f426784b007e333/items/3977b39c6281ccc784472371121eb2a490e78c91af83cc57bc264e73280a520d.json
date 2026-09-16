@@ -1,0 +1,35 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-contact",
+  "item": "section:contact-map",
+  "status": "passed",
+  "summary": "Compared the retained 1920 px reference, rendered crop, diff and frozen source asset for contact-map. The expected map content, crop, marker, 30 px rounded corners and dimensions are preserved; outer geometry passes within one pixel (expected 728,983,953,568; actual 728,984,952,568). The diagnostic crop difference is 2.586%, below the 8.5% ownership threshold, and the remaining diff is consistent with the one-pixel placement/width delta plus raster edge rendering rather than a wrong asset or crop.",
+  "issues": [],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/contact/comparison.json",
+      "sha256": "4c07bdf7d3e9aaff4e994ea3a6771784e9f9a97a0f78c169ad44f271fa897253"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/contact/contact-map-reference.png",
+      "sha256": "96af77d774548ac66a43969102fda2b64762d8c7a127fea498366c0d2a84971c"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/contact/contact-map-rendered.png",
+      "sha256": "674772e08853d5f5c1a05cc767471eb5e3caf8ba9dd94dcd5b924e0207f47441"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/contact/contact-map-diff.png",
+      "sha256": "b132cb07c31fe5b094318f117149d8ca0296ca69962eb6dbdeeffa1d794f7c4a"
+    },
+    {
+      "path": ".factory-cache/figma/latest/assets/contact/contact-map-431-924.png",
+      "sha256": "7bbf74d142bae491850f557407fec98768d984c698ec83e39f634b931338dc46"
+    },
+    {
+      "path": ".factory-cache/figma/latest/sections/44-contact-map.json",
+      "sha256": "bd03d0aa45ac67b22e0feaae51c221e6828968a073e0c4682ad2ad376f2828c8"
+    }
+  ],
+  "completedAt": "2026-09-14T21:44:07.654Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "about-introduction",
+  "manifestRecord": {
+    "id": "about-introduction",
+    "order": 46,
+    "snapshot": "sections/35-about-introduction.json",
+    "desktopReference": "references/sections/about-introduction.png",
+    "name": "About company introduction",
+    "pageId": "0:1",
+    "desktopNodeId": "326:2980"
+  },
+  "contentFields": [
+    {
+      "section": "about-introduction",
+      "nodeId": "326:2985",
+      "fieldName": "rudnikagro_about.introduction.heading",
+      "type": "text",
+      "language": "pl",
+      "value": "Poznaj nas"
+    },
+    {
+      "section": "about-introduction",
+      "nodeId": "326:2980",
+      "fieldName": "rudnikagro_about.introduction.content",
+      "type": "wysiwyg",
+      "language": "pl",
+      "value": "<p><strong>Rudnikagro Sp. z o.o. oferuje kompleksowe wsparcie rolnictwa oraz zapewnia najwyższy standard obsługi. Od siedemnastu lat jesteśmy stabilnym i wiarygodnym partnerem dla firm dystrybucyjnych oraz producentów rolnych.</strong></p><p>Dokładamy wszelkich starań, aby nasi Klienci w możliwie najkrótszym czasie mieli dostęp do najbardziej efektywnych rozwiązań agrotechnicznych. Chętnie dzielimy się wiedzą i doświadczeniem. Nasza oferta produktowa z biegiem czasu stale się powiększa, ponieważ w kompleksowy sposób zaspokajamy rosnące potrzeby i oczekiwania rynku.</p>"
+    }
+  ]
+}

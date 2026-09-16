@@ -1,0 +1,33 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-order-confirmed",
+  "item": "section:checkout-steps",
+  "status": "needs_work",
+  "summary": "Compared checkout-steps reference, rendered crop and diff with the frozen section source record and measured route geometry.",
+  "issues": [
+    "OC-VIS-002 (critical, presence/geometry/content): expected the three-step checkout progress indicator at x=249, y=376, 951x106, with 72px circles, connecting arrows and labels Logowanie, Dostawa i płatność, Podsumowanie; no actual section was detected (all geometry deltas null). The rendered crop shows unrelated black header/topbar contact content and differs by 98.582%. Fix the order-confirmed route state/capture and render the sourced step indicator under data-factory-section=checkout-steps."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/order-confirmed/comparison.json",
+      "sha256": "ebd141bae69283c244c9d9f5b8009815024f2f37de3f47d2328ca94297b2de17"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/order-confirmed/checkout-steps-reference.png",
+      "sha256": "aeda27d96861e8de5d2014b4123bd393fca0617d0bb20f30d333653673eb5cb0"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/order-confirmed/checkout-steps-rendered.png",
+      "sha256": "ed84193f42cab7747989d70b7d441f5139eb78914bf9b57b12084c28edfa7478"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/order-confirmed/checkout-steps-diff.png",
+      "sha256": "6ac86eafcfdd9d3c3bd4f6ac2d89d0c2864e5ca6e8d3100ff8b6787e9d4c32ab"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/103-audit-round-0-58751f426784b007e333-route-order-confirmed/source-context/section-9705096daabd0357.json",
+      "sha256": "a8f7c0f14214d64f81a61da3880bc1e5522134010fa4215832820479d83274e8"
+    }
+  ],
+  "completedAt": "2026-09-15T17:05:08.130Z"
+}

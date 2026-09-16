@@ -1,0 +1,13 @@
+{
+  "status": "needs_work",
+  "summary": "Compared the catalogues shared-topbar using exact 1920 x 40 crops from its retained reference, rendered image, and diff; the route reproduces the same incomplete control state.",
+  "issues": [
+    "VIS-SHARED-TOPBAR-002 (high) — property: promotional-bar controls; expected: circular previous/next chevrons around the promotion and a close icon at the right; actual: rendered topbar contains only the label and omits all three controls; fix: render the exact source-backed SVG controls and match their reference positions."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/catalogues/comparison.json",
+    ".factory-cache/autopilot/previews/audit-catalogues-topbar-reference.png",
+    ".factory-cache/autopilot/previews/audit-catalogues-topbar-rendered.png",
+    ".factory-cache/autopilot/previews/audit-catalogues-topbar-diff.png"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "status": "needs_work",
+  "summary": "Inspected the retained account-login reference, rendered and diff crops against source node 524:195. The panel geometry matches at x 240, y 331, width 710, height 425, but the native form's internal presentation differs; the crop pixel ratio is 0.06778127589063794.",
+  "issues": [
+    "AUD-ACCOUNT-LOGIN-001 | priority: high | property: field presentation | expected: E-mail and Hasło are light placeholders inside 588 by 43 inputs at source-local x 41 and y 107/178 | actual: rendered output places visible labels above blank inputs and stretches controls to approximately 650 px | fix: keep native login fields while rendering the sourced labels as placeholders and restore source input width and position.",
+    "AUD-ACCOUNT-LOGIN-002 | priority: medium | property: internal spacing/alignment | expected: heading starts 40 px from the panel left at source y 376, checkbox row at y 581, and buttons at y 655 | actual: heading starts about 30 px from the panel left and 16 px too high, while the checkbox and action row are approximately 30 to 32 px too high | fix: reproduce the source panel padding and vertical rhythm while retaining the correct outer panel bounds."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/account/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/account/account-login-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/account/account-login-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/account/account-login-diff.png"
+  ]
+}

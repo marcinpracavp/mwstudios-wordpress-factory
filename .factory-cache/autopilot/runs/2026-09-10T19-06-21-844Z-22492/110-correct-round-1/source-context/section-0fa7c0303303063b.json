@@ -1,0 +1,54 @@
+{
+  "id": "product-legal-notices",
+  "manifestRecord": {
+    "id": "product-legal-notices",
+    "name": "noty prawne produktu",
+    "order": 54,
+    "pageId": "0:1",
+    "snapshot": "sections/49-product-legal-notices.json",
+    "desktopNodeId": "326:2516",
+    "desktopReference": "references/sections/product-legal-notices.png"
+  },
+  "contentFields": [
+    {
+      "section": "product-legal-notices",
+      "nodeId": "326:2517",
+      "fieldName": "rudnikagro_product_legal_notices_consumer_notice_326_2517",
+      "type": "text",
+      "language": "pl",
+      "value": "Środki ochrony roślin mogą być nabywane wyłącznie przez osoby pełnoletnie oraz posiadające kwalifikacje wymagane od osób nabywających środki ochrony roślin określone w art. 28. Ustawy z dnia 08.03.2013r. o środkach ochrony roślin (Dz.U.z 2019 poz.1900 z późn.zm.).\nZe środków ochrony roślin należy korzystać z zachowaniem bezpieczeństwa. Przed każdym użyciem przeczytaj informacje zamieszczone w etykiecie i informacje dotyczące produktu. Zwróć uwagę na zwroty wskazujące rodzaj zagrożenia oraz przestrzegaj środków bezpieczeństwa zamieszczonych w etykiecie.",
+      "destination": "WooCommerce product legal notices",
+      "linkEvidence": [
+        {
+          "characters": "Środki ochrony roślin mogą być nabywane wyłącznie przez osoby pełnoletnie oraz posiadające kwalifikacje wymagane od osób nabywających środki ochrony roślin określone w art. 28. Ustawy z dnia 08.03.2013r. o środkach ochrony roślin (Dz.U.z 2019 poz.1900 z późn.zm.).\nZe środków ochrony roślin należy korzystać z zachowaniem bezpieczeństwa. Przed każdym użyciem przeczytaj informacje zamieszczone w etykiecie i informacje dotyczące produktu. Zwróć uwagę na zwroty wskazujące rodzaj zagrożenia oraz przestrzegaj środków bezpieczeństwa zamieszczonych w etykiecie.",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "326:2517"
+      }
+    },
+    {
+      "section": "product-legal-notices",
+      "nodeId": "326:2519",
+      "fieldName": "rudnikagro_product_legal_notices_professional_notice_326_2519",
+      "type": "text",
+      "language": "pl",
+      "value": "PRODUKT PROFESJONALNY\nNumer wpisu do rejestru działalności regulowane: 32/62/3946\nProdukt może zakupić jedynie osoba pełnoletnia, która spełnia warunki określone w art. 28. ustawy z dnia 8 marca 2013 r. o środkach ochrony roślin.",
+      "destination": "WooCommerce product legal notices",
+      "linkEvidence": [
+        {
+          "characters": "PRODUKT PROFESJONALNY\nNumer wpisu do rejestru działalności regulowane: 32/62/3946\nProdukt może zakupić jedynie osoba pełnoletnia, która spełnia warunki określone w art. 28. ustawy z dnia 8 marca 2013 r. o środkach ochrony roślin.",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "326:2519"
+      }
+    }
+  ]
+}

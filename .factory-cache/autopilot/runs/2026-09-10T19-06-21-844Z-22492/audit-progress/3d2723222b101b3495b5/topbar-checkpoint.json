@@ -1,0 +1,13 @@
+{
+  "status": "needs_work",
+  "summary": "Rendered the exact source-backed previous, next and close SVG controls in the shared topbar. Fresh careers capture confirms the 1920x40 section geometry and a 1.697% crop difference.",
+  "issues": [
+    "The topbar is below the 8.5% ownership threshold, but the new controls require the later representative shared audit across the remaining routes before a visual pass can be certified."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/visual-1789540932764/careers/comparison.json",
+    ".factory-cache/autopilot/visual-1789540932764/careers/shared-topbar-reference.png",
+    ".factory-cache/autopilot/visual-1789540932764/careers/shared-topbar-rendered.png",
+    ".factory-cache/autopilot/visual-1789540932764/careers/shared-topbar-diff.png"
+  ]
+}

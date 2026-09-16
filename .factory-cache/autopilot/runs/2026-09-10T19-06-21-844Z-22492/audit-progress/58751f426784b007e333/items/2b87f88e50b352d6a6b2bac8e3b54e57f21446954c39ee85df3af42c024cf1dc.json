@@ -1,0 +1,27 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "shared-components",
+  "item": "shared:16fc1d3865fd84c1",
+  "status": "passed",
+  "summary": "Compared the blog-archive page-banner reference, rendered crop, diff, retained geometry, and component pixels. The section matches x=200, y=219, 1520 x 220 exactly; the correct image, crop, green treatment, rounded shape, centered title, and breadcrumb hierarchy are present. Residual text-edge differences are limited to 1,986 of 334,400 pixels (0.594%), well inside the approved 8.5% ownership acceptance.",
+  "issues": [],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/blog-archive/comparison.json",
+      "sha256": "19d473445af91569c6efcbc25324921414c31b143fcee94bfc50f9fdf84b0264"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/blog-archive/blog-archive-heading-reference.png",
+      "sha256": "a1365f00d84c37af8f9a461b89886d100b2ac207a07bc7942a80c15007b13ce3"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/blog-archive/blog-archive-heading-rendered.png",
+      "sha256": "91ec00238e5b1e753218bca803970ef20bbe072f6c70e3d0c839c3f8ca30c964"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/blog-archive/blog-archive-heading-diff.png",
+      "sha256": "4563d5ffcfde91796fd11e742d700d34e0d0c2e9efaf238fd179ab4247926a4f"
+    }
+  ],
+  "completedAt": "2026-09-14T15:29:08.192Z"
+}

@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-09-15T06:09:30.702Z",
+  "browser": "Google Chrome",
+  "isolatedContext": true,
+  "route": "https://autopilot.local/koszyk/",
+  "lineCount": 1,
+  "quantity": {
+    "before": 1,
+    "increased": 2,
+    "restored": 1,
+    "increaseVisible": true,
+    "decreaseVisible": true
+  },
+  "couponVisible": true,
+  "checkout": {
+    "visible": true,
+    "href": "https://autopilot.local/zamowienie/"
+  },
+  "continueShopping": {
+    "visible": true,
+    "href": "https://autopilot.local/shop/"
+  },
+  "stateChangingRequestsAfterSetup": [],
+  "orderPlaced": false,
+  "paymentAttempted": false,
+  "checkoutVisited": false,
+  "consoleErrors": [],
+  "pageErrors": []
+}

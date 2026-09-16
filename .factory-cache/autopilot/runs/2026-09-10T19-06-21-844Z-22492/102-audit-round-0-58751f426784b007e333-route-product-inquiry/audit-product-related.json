@@ -1,0 +1,14 @@
+{
+  "status": "needs_work",
+  "summary": "Compared the assigned 1920 px product-related reference, rendered crop and diff against the frozen section record and current comparison geometry.",
+  "issues": [
+    "PRI-RELATED-001 | high | content/layout/geometry | expected: 710x570 at (240,1635), one 'Produkty powiazane' heading and two large Stomp Aqua 455 CS 1L/5L cards priced 45,99 zl and 534,60 zl | actual: 710x743.9375 at (240,1637), an extra 'Podobne produkty' heading plus unrelated Mepi Met Life 5L and Bounty 430 SC 5L cards in broken narrow columns; crop pixel difference is 15.163825% | fix: bind the related section to the two source-backed Woo products, remove the duplicate heading, restore the two-card proportions and reduce the section to the source height."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-inquiry/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-inquiry/product-related-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-inquiry/product-related-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-inquiry/product-related-diff.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/102-audit-round-0-58751f426784b007e333-route-product-inquiry/source-context/section-09d07b607a4c57e0.json"
+  ]
+}

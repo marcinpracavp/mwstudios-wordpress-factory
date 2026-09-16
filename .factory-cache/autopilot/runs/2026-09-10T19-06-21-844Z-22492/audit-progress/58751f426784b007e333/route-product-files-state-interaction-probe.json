@@ -1,0 +1,297 @@
+{
+  "browser": "Google Chrome",
+  "isolatedContext": true,
+  "businessSideEffects": {
+    "submittedForms": false,
+    "clickedAddToCart": false,
+    "placedOrder": false,
+    "sentEmail": false
+  },
+  "initial": {
+    "url": "https://autopilot.local/product/aquatos-5l/#downloads",
+    "hash": "#downloads",
+    "tabs": [
+      {
+        "key": "technical",
+        "text": "Dane techniczne",
+        "selected": "false",
+        "disabled": false
+      },
+      {
+        "key": "description",
+        "text": "Opis produktu",
+        "selected": "false",
+        "disabled": false
+      },
+      {
+        "key": "use",
+        "text": "Stosowanie",
+        "selected": "false",
+        "disabled": false
+      },
+      {
+        "key": "reviews",
+        "text": "Opinie",
+        "selected": "false",
+        "disabled": false
+      },
+      {
+        "key": "downloads",
+        "text": "Pliki do pobrania",
+        "selected": "true",
+        "disabled": false
+      }
+    ],
+    "activePanels": [
+      "downloads"
+    ],
+    "downloads": {
+      "label": "Pobierz etykietę",
+      "linkCount": 0,
+      "iconCount": 0
+    },
+    "commerce": {
+      "variationFormCount": 1,
+      "variationSelectCount": 1,
+      "quantityInputCount": 1,
+      "enabledCartButtonCount": 1,
+      "favoriteControlCount": 0
+    },
+    "inquiry": {
+      "openerCount": 1,
+      "dialogCount": 1,
+      "open": false,
+      "ariaHidden": "true"
+    }
+  },
+  "afterTechnicalClick": {
+    "url": "https://autopilot.local/product/aquatos-5l/#technical",
+    "hash": "#technical",
+    "tabs": [
+      {
+        "key": "technical",
+        "text": "Dane techniczne",
+        "selected": "true",
+        "disabled": false
+      },
+      {
+        "key": "description",
+        "text": "Opis produktu",
+        "selected": "false",
+        "disabled": false
+      },
+      {
+        "key": "use",
+        "text": "Stosowanie",
+        "selected": "false",
+        "disabled": false
+      },
+      {
+        "key": "reviews",
+        "text": "Opinie",
+        "selected": "false",
+        "disabled": false
+      },
+      {
+        "key": "downloads",
+        "text": "Pliki do pobrania",
+        "selected": "false",
+        "disabled": false
+      }
+    ],
+    "activePanels": [
+      "technical"
+    ],
+    "downloads": {
+      "label": "Pobierz etykietę",
+      "linkCount": 0,
+      "iconCount": 0
+    },
+    "commerce": {
+      "variationFormCount": 1,
+      "variationSelectCount": 1,
+      "quantityInputCount": 1,
+      "enabledCartButtonCount": 1,
+      "favoriteControlCount": 0
+    },
+    "inquiry": {
+      "openerCount": 1,
+      "dialogCount": 1,
+      "open": false,
+      "ariaHidden": "true"
+    }
+  },
+  "afterDownloadsKeyboard": {
+    "url": "https://autopilot.local/product/aquatos-5l/#downloads",
+    "hash": "#downloads",
+    "tabs": [
+      {
+        "key": "technical",
+        "text": "Dane techniczne",
+        "selected": "false",
+        "disabled": false
+      },
+      {
+        "key": "description",
+        "text": "Opis produktu",
+        "selected": "false",
+        "disabled": false
+      },
+      {
+        "key": "use",
+        "text": "Stosowanie",
+        "selected": "false",
+        "disabled": false
+      },
+      {
+        "key": "reviews",
+        "text": "Opinie",
+        "selected": "false",
+        "disabled": false
+      },
+      {
+        "key": "downloads",
+        "text": "Pliki do pobrania",
+        "selected": "true",
+        "disabled": false
+      }
+    ],
+    "activePanels": [
+      "downloads"
+    ],
+    "downloads": {
+      "label": "Pobierz etykietę",
+      "linkCount": 0,
+      "iconCount": 0
+    },
+    "commerce": {
+      "variationFormCount": 1,
+      "variationSelectCount": 1,
+      "quantityInputCount": 1,
+      "enabledCartButtonCount": 1,
+      "favoriteControlCount": 0
+    },
+    "inquiry": {
+      "openerCount": 1,
+      "dialogCount": 1,
+      "open": false,
+      "ariaHidden": "true"
+    }
+  },
+  "inquiryOpen": {
+    "url": "https://autopilot.local/product/aquatos-5l/#downloads",
+    "hash": "#downloads",
+    "tabs": [
+      {
+        "key": "technical",
+        "text": "Dane techniczne",
+        "selected": "false",
+        "disabled": false
+      },
+      {
+        "key": "description",
+        "text": "Opis produktu",
+        "selected": "false",
+        "disabled": false
+      },
+      {
+        "key": "use",
+        "text": "Stosowanie",
+        "selected": "false",
+        "disabled": false
+      },
+      {
+        "key": "reviews",
+        "text": "Opinie",
+        "selected": "false",
+        "disabled": false
+      },
+      {
+        "key": "downloads",
+        "text": "Pliki do pobrania",
+        "selected": "true",
+        "disabled": false
+      }
+    ],
+    "activePanels": [
+      "downloads"
+    ],
+    "downloads": {
+      "label": "Pobierz etykietę",
+      "linkCount": 0,
+      "iconCount": 0
+    },
+    "commerce": {
+      "variationFormCount": 1,
+      "variationSelectCount": 1,
+      "quantityInputCount": 1,
+      "enabledCartButtonCount": 1,
+      "favoriteControlCount": 0
+    },
+    "inquiry": {
+      "openerCount": 1,
+      "dialogCount": 1,
+      "open": true,
+      "ariaHidden": "false"
+    }
+  },
+  "inquiryClosed": {
+    "url": "https://autopilot.local/product/aquatos-5l/#downloads",
+    "hash": "#downloads",
+    "tabs": [
+      {
+        "key": "technical",
+        "text": "Dane techniczne",
+        "selected": "false",
+        "disabled": false
+      },
+      {
+        "key": "description",
+        "text": "Opis produktu",
+        "selected": "false",
+        "disabled": false
+      },
+      {
+        "key": "use",
+        "text": "Stosowanie",
+        "selected": "false",
+        "disabled": false
+      },
+      {
+        "key": "reviews",
+        "text": "Opinie",
+        "selected": "false",
+        "disabled": false
+      },
+      {
+        "key": "downloads",
+        "text": "Pliki do pobrania",
+        "selected": "true",
+        "disabled": false
+      }
+    ],
+    "activePanels": [
+      "downloads"
+    ],
+    "downloads": {
+      "label": "Pobierz etykietę",
+      "linkCount": 0,
+      "iconCount": 0
+    },
+    "commerce": {
+      "variationFormCount": 1,
+      "variationSelectCount": 1,
+      "quantityInputCount": 1,
+      "enabledCartButtonCount": 1,
+      "favoriteControlCount": 0
+    },
+    "inquiry": {
+      "openerCount": 1,
+      "dialogCount": 1,
+      "open": false,
+      "ariaHidden": "true"
+    }
+  },
+  "pageErrors": [],
+  "consoleErrors": []
+}

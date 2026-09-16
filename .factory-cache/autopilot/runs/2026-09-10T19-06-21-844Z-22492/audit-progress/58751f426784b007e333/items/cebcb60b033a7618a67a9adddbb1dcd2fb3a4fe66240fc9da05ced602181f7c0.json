@@ -1,0 +1,40 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-product-inquiry",
+  "item": "section:product-inquiry-dialog",
+  "status": "needs_work",
+  "summary": "Compared the assigned dialog source content with exact 1920 px reference/render/diff crops. Outer geometry passes with a 1 px y delta, but the form fields, legal copy and submit placement do not reproduce the source; diagnostic crop mismatch is 11.136%.",
+  "issues": [
+    "PI-DIALOG-001 | critical | content: expected the sourced response notice, required-field note and full privacy-processing paragraph between the textarea and submit button; actual dialog omits all of this editable copy. Restore the captured CF7/ACF notice content without fabricating links.",
+    "PI-DIALOG-002 | high | field geometry/alignment: expected three tall fields with left-aligned placeholders and a substantially taller question textarea; actual fields are shorter, placeholders are centered, and the form starts lower. Match source input dimensions, padding and placeholder alignment.",
+    "PI-DIALOG-003 | high | submit/layout: expected a wide pill submit at the bottom after the privacy copy; actual small button sits immediately below the textarea, leaving most of the fixed-height dialog empty. Restore the source flow and button dimensions.",
+    "PI-DIALOG-004 | medium | color/typography: expected dark green header and button with bold heading and source-scale close icon; actual green and text sizing/placement visibly differ. Match the reference component styling."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-inquiry/comparison.json",
+      "sha256": "059ac34bfdbd63e14d7fe90ec52a19713c8e2efa1e6cd9c238587a888d2b6814"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-inquiry/product-inquiry-dialog-reference.png",
+      "sha256": "50f440be52487b403b2a36e8e173f940800822366b74bf6193d58bd2bc02b01e"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-inquiry/product-inquiry-dialog-rendered.png",
+      "sha256": "fcaf6266da87f9f610ae25af572f491b44572b4b990da042a9bfd5cb694c4a02"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-inquiry/product-inquiry-dialog-diff.png",
+      "sha256": "8e845cd2644945cf539718e38b1757614d49f0c1df7333804c2795266e97ab66"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/101-audit-round-0-58751f426784b007e333-route-product-inquiry/source-context/section-2524d07ae98c651d.json",
+      "sha256": "4d28904de50d3366bf715581a25c73fcb96fea44fc4795997f6a5882ea06e204"
+    },
+    {
+      "path": ".factory-cache/figma/latest/sections/51-product-inquiry-dialog.json",
+      "sha256": "a2596937e19a03adff9f71ea03f7ea002cb78ec133c16288c8e9d4aabc523cc3"
+    }
+  ],
+  "completedAt": "2026-09-15T12:31:03.828Z"
+}

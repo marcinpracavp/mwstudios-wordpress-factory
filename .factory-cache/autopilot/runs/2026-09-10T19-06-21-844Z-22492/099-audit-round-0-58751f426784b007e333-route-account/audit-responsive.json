@@ -1,0 +1,22 @@
+{
+  "status": "needs_work",
+  "summary": "Inspected all retained widths (1440, 1280, 1024, 768, 390 and 375 px), their responsive JSON probes and screenshots. Account panels remain side by side at 1440/1280/1024, stack at 768/390/375, and all visible account controls remain available. Overflow is 0 through 390 px, but the retained 375 px probe reports 1 px horizontal overflow.",
+  "issues": [
+    "AUD-ACCOUNT-RESPONSIVE-001 | priority: low | property: horizontal overflow at 375 px | expected: 0 px overflow at every retained width | actual: responsive-375.json reports overflow 1 while the account wrappers (x 20, width 335) and recorded text/image/link boxes remain within the viewport | fix: identify the 1 px scroll-width contributor at 375 px, including borders or pseudo-elements, and constrain it without changing the healthy account stacking behavior."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/account/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/account/responsive-1440.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/account/responsive-1440.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/account/responsive-1280.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/account/responsive-1280.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/account/responsive-1024.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/account/responsive-1024.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/account/responsive-768.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/account/responsive-768.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/account/responsive-390.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/account/responsive-390.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/account/responsive-375.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/account/responsive-375.png"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "needs_work",
+  "summary": "Compared the retained 1920px section crops, diff, source record, and geometry for home-benefits.",
+  "issues": [
+    "BENEFITS-001 high content/icon mapping: expected the second benefit to use the shield/5 LAT icon; actual second benefit repeats the delivery-truck icon. Bind the sourced 222:92 warranty SVG attachment to the warranty item.",
+    "BENEFITS-002 high encoding/content: expected the fifth title ‘Tańsze’; actual rendered title is ‘Ta?sze’. Correct the native field value/encoding without inventing copy.",
+    "BENEFITS-003 medium layout: expected five evenly distributed columns with each icon centered above its copy; actual first and second items are crowded together and the overall spacing is uneven. Restore the reference column distribution and per-item alignment.",
+    "BENEFITS-004 medium typography: expected bold first-line labels with lighter second lines; actual labels are uniformly regular and wrap differently. Apply the sourced weight hierarchy and widths.",
+    "Outer geometry passes with only +1px y delta; the 10.411% crop diagnostic is consistent with the visible mapping, layout, and text defects."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home/home-benefits-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home/home-benefits-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home/home-benefits-diff.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/096-audit-round-0-58751f426784b007e333-route-home/source-context/section-e7508b48dc19acd1.json"
+  ]
+}

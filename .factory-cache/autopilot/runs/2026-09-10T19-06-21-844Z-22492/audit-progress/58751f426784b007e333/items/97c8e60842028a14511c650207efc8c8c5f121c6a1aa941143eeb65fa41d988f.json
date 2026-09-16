@@ -1,0 +1,36 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-product-bundle",
+  "item": "section:product-bundle-overview",
+  "status": "needs_work",
+  "summary": "Compared the product-bundle-overview reference, rendered and diff crops with the frozen source typography/content and current geometry. The outer section geometry passes at x/y +1 px with exact width and height, but the internal commerce presentation is materially different (14.870% crop mismatch).",
+  "issues": [
+    "PB-OVERVIEW-001 | priority: critical | property: product typography and internal layout | expected: 48 px bold two-line title, readable 16 px metadata/component rows, 20 px bundle heading and source-sized pricing/actions | actual: title is visibly smaller/lighter, metadata contains literal '<br />', bundle rows are compressed into undersized text and large empty space remains | fix: restore the source typography and internal row geometry while rendering line breaks as markup rather than escaped text.",
+    "PB-OVERVIEW-002 | priority: high | property: bundle item media and row composition | expected: Pixafen and Spark bottle images with quantity, description, current price and struck old price aligned as two distinct rows | actual: product images are absent and quantity/description/price columns are compressed and partly collide | fix: render the exact source-backed product media and restore source row sizing/alignment.",
+    "PB-OVERVIEW-003 | priority: critical | property: price block | expected: 'Cena:' plus prominent green 2 965,00 zł, adjacent '(w tym 23% VAT)', with the former price presented separately as sourced | actual: 3.365,00 zł and 2.965,00 zł appear as same-size underlined text, the source label, green emphasis and VAT text are missing | fix: map native regular/sale/tax data into the source price hierarchy and formatting.",
+    "PB-OVERVIEW-004 | priority: high | property: controls and metadata | expected: minus/value/plus quantity stepper, cart icon/button, rating row, wholesale contact line and favorite line with source icons | actual: only a plain quantity input is shown, rating/favorite rows are absent, and the wholesale message is an unrelated orange pill | fix: restore the source-backed controls/icons and visual states without faking business actions."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-bundle/comparison.json",
+      "sha256": "89d409e8575ea24865f2a0a206fb66acb04602cd717168a2242f712d5af38e02"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-bundle/product-bundle-overview-reference.png",
+      "sha256": "19bbe63142c5f3ab3e58d20d3e4329957bb2f841a1da04e87d4bd86511a3edb3"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-bundle/product-bundle-overview-rendered.png",
+      "sha256": "f530a59ad2e8a74c3f36b6345373686dcbb8ccdf4663278c38a70a34a0393b54"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-bundle/product-bundle-overview-diff.png",
+      "sha256": "b95ba7b63135dcfd1cc5422510ad8a1b9bde4e89b117f22d72894b21356ece1b"
+    },
+    {
+      "path": ".factory-cache/figma/latest/sections/09-product-bundle-overview.json",
+      "sha256": "13554995434222a148574aa33ce48a072f76730c995cf435f03d30cdfac06685"
+    }
+  ],
+  "completedAt": "2026-09-15T11:27:14.858Z"
+}

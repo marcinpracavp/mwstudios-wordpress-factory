@@ -1,0 +1,15 @@
+{
+  "status": "needs_work",
+  "summary": "Inspected the retained account-registration reference, rendered and diff crops against source node 524:243. The panel is correctly positioned and only 1 px wider than expected, but internal content differs; the crop pixel ratio is 0.1007682734588899.",
+  "issues": [
+    "AUD-ACCOUNT-REGISTRATION-001 | priority: high | property: list markers | expected: four benefits are displayed as a bulleted list | actual: all four benefit lines render without visible bullet markers | fix: restore semantic list markers and source indentation.",
+    "AUD-ACCOUNT-REGISTRATION-002 | priority: high | property: vertical positioning | expected: title y 376 and registration button y 655, equivalent to panel-local y 45 and 324 | actual: title is approximately 15 px too high and button approximately 63 px too high | fix: restore source vertical padding and action-row position.",
+    "AUD-ACCOUNT-REGISTRATION-003 | priority: low | property: panel width | expected: 709 px | actual: 710 px | fix: reduce the desktop registration column or panel width by 1 px while preserving its x position."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/account/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/account/account-registration-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/account/account-registration-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/account/account-registration-diff.png"
+  ]
+}

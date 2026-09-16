@@ -1,0 +1,319 @@
+{
+  "routeUrl": "https://autopilot.local/produkt/pakiet-ochronny-rzepaku-ozimego-12-ha/",
+  "browser": "Google Chrome",
+  "isolatedContexts": true,
+  "sideEffects": {
+    "cartClicked": false,
+    "orderPlaced": false,
+    "paymentAttempted": false,
+    "formSubmitted": false,
+    "emailSent": false
+  },
+  "results": [
+    {
+      "width": 1440,
+      "httpStatus": 200,
+      "controlInventory": [
+        {
+          "tag": "input",
+          "type": "number",
+          "name": "quantity",
+          "text": "",
+          "value": "1",
+          "disabled": false,
+          "ariaPressed": null,
+          "ariaExpanded": null,
+          "className": ""
+        },
+        {
+          "tag": "button",
+          "type": "submit",
+          "name": null,
+          "text": "Dodaj do koszyka",
+          "value": "",
+          "disabled": false,
+          "ariaPressed": null,
+          "ariaExpanded": null,
+          "className": "button-primary"
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "name": null,
+          "text": "Chcesz poznać cenę hurtową dla tego produktu? Skontaktuj się!",
+          "value": "",
+          "disabled": false,
+          "ariaPressed": null,
+          "ariaExpanded": null,
+          "className": "c-product__inquiry-open"
+        }
+      ],
+      "quantityProbe": {
+        "found": true,
+        "before": "1",
+        "afterUp": "2",
+        "restored": "1",
+        "changed": true,
+        "restoredExactly": true
+      },
+      "variationElements": [
+        {
+          "tag": "span",
+          "text": "4 ha",
+          "role": null,
+          "tabIndex": -1,
+          "ariaPressed": null,
+          "className": "",
+          "cursor": "auto"
+        },
+        {
+          "tag": "span",
+          "text": "10 ha",
+          "role": null,
+          "tabIndex": -1,
+          "ariaPressed": null,
+          "className": "is-active",
+          "cursor": "auto"
+        },
+        {
+          "tag": "span",
+          "text": "12 ha",
+          "role": null,
+          "tabIndex": -1,
+          "ariaPressed": null,
+          "className": "",
+          "cursor": "auto"
+        }
+      ],
+      "variationProbe": {
+        "found": 0,
+        "before": [],
+        "tested": false
+      },
+      "inquiryProbe": {
+        "found": true,
+        "urlChanged": false,
+        "dialogCount": 0,
+        "bodyClass": "wp-singular product-template-default single single-product postid-55 wp-theme-slawinsky-boilerplate theme-slawinsky-boilerplate woocommerce woocommerce-page woocommerce-js loaded",
+        "candidates": [
+          {
+            "tag": "article",
+            "className": "c-product c-product--bundle is-inquiry-open",
+            "hidden": false,
+            "ariaHidden": null,
+            "display": "block",
+            "visibility": "visible",
+            "width": 1440,
+            "height": 2491.75,
+            "text": "Strona główna/Środki ochrony roślin/Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 "
+          },
+          {
+            "tag": "button",
+            "className": "c-product__inquiry-open",
+            "hidden": false,
+            "ariaHidden": null,
+            "display": "block",
+            "visibility": "visible",
+            "width": 330,
+            "height": 46,
+            "text": "Chcesz poznać cenę hurtową dla tego produktu? Skontaktuj się!"
+          }
+        ],
+        "titleElements": [
+          {
+            "tag": "h2",
+            "className": "",
+            "x": 730,
+            "y": 218,
+            "width": 467,
+            "height": 56,
+            "parent": {
+              "tag": "section",
+              "className": "c-product__dialog is-open",
+              "x": 730,
+              "y": 218,
+              "width": 467,
+              "height": 702,
+              "role": null,
+              "ariaModal": null
+            }
+          }
+        ],
+        "formControls": [
+          {
+            "tag": "input",
+            "name": "quantity",
+            "type": "number"
+          }
+        ],
+        "screenshot": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/098-audit-round-0-58751f426784b007e333-route-product-bundle/interaction-inquiry-1440.png",
+        "dialogCountAfterEscape": 0,
+        "articleClassAfterEscape": "c-product c-product--bundle is-inquiry-open",
+        "closeButtonFound": true,
+        "closePointerClick": "passed",
+        "articleClassAfterCloseButton": "c-product c-product--bundle"
+      },
+      "addToCartProbe": {
+        "found": true,
+        "disabled": false,
+        "text": "Dodaj do koszyka",
+        "clicked": false,
+        "reason": "Excluded to avoid changing cart/session state during isolated no-side-effect audit."
+      },
+      "pageErrors": []
+    },
+    {
+      "width": 390,
+      "httpStatus": 200,
+      "controlInventory": [
+        {
+          "tag": "input",
+          "type": "number",
+          "name": "quantity",
+          "text": "",
+          "value": "1",
+          "disabled": false,
+          "ariaPressed": null,
+          "ariaExpanded": null,
+          "className": ""
+        },
+        {
+          "tag": "button",
+          "type": "submit",
+          "name": null,
+          "text": "Dodaj do koszyka",
+          "value": "",
+          "disabled": false,
+          "ariaPressed": null,
+          "ariaExpanded": null,
+          "className": "button-primary"
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "name": null,
+          "text": "Chcesz poznać cenę hurtową dla tego produktu? Skontaktuj się!",
+          "value": "",
+          "disabled": false,
+          "ariaPressed": null,
+          "ariaExpanded": null,
+          "className": "c-product__inquiry-open"
+        }
+      ],
+      "quantityProbe": {
+        "found": true,
+        "before": "1",
+        "afterUp": "2",
+        "restored": "1",
+        "changed": true,
+        "restoredExactly": true
+      },
+      "variationElements": [
+        {
+          "tag": "span",
+          "text": "4 ha",
+          "role": null,
+          "tabIndex": -1,
+          "ariaPressed": null,
+          "className": "",
+          "cursor": "auto"
+        },
+        {
+          "tag": "span",
+          "text": "10 ha",
+          "role": null,
+          "tabIndex": -1,
+          "ariaPressed": null,
+          "className": "is-active",
+          "cursor": "auto"
+        },
+        {
+          "tag": "span",
+          "text": "12 ha",
+          "role": null,
+          "tabIndex": -1,
+          "ariaPressed": null,
+          "className": "",
+          "cursor": "auto"
+        }
+      ],
+      "variationProbe": {
+        "found": 0,
+        "before": [],
+        "tested": false
+      },
+      "inquiryProbe": {
+        "found": true,
+        "urlChanged": false,
+        "dialogCount": 0,
+        "bodyClass": "wp-singular product-template-default single single-product postid-55 wp-theme-slawinsky-boilerplate theme-slawinsky-boilerplate woocommerce woocommerce-page woocommerce-js loaded",
+        "candidates": [
+          {
+            "tag": "article",
+            "className": "c-product c-product--bundle is-inquiry-open",
+            "hidden": false,
+            "ariaHidden": null,
+            "display": "block",
+            "visibility": "visible",
+            "width": 390,
+            "height": 3592.296875,
+            "text": "Strona główna/Środki ochrony roślin/Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 "
+          },
+          {
+            "tag": "button",
+            "className": "c-product__inquiry-open",
+            "hidden": false,
+            "ariaHidden": null,
+            "display": "block",
+            "visibility": "visible",
+            "width": 330,
+            "height": 46,
+            "text": "Chcesz poznać cenę hurtową dla tego produktu? Skontaktuj się!"
+          }
+        ],
+        "titleElements": [
+          {
+            "tag": "h2",
+            "className": "",
+            "x": 16,
+            "y": 16,
+            "width": 358,
+            "height": 56,
+            "parent": {
+              "tag": "section",
+              "className": "c-product__dialog is-open",
+              "x": 16,
+              "y": 16,
+              "width": 358,
+              "height": 82,
+              "role": null,
+              "ariaModal": null
+            }
+          }
+        ],
+        "formControls": [
+          {
+            "tag": "input",
+            "name": "quantity",
+            "type": "number"
+          }
+        ],
+        "screenshot": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/098-audit-round-0-58751f426784b007e333-route-product-bundle/interaction-inquiry-390.png",
+        "dialogCountAfterEscape": 0,
+        "articleClassAfterEscape": "c-product c-product--bundle is-inquiry-open",
+        "closeButtonFound": true,
+        "closePointerClick": "failed",
+        "closePointerError": "locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('article.c-product button').filter({ hasText: /^\\s*[×x]\\s*$/i }).first()\u001b[22m\n\u001b[2m    - locator resolved to <button type=\"button\" aria-label=\"Zamknij\" data-product-inquiry-close=\"\">×</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m",
+        "articleClassAfterProgrammaticCleanup": "c-product c-product--bundle"
+      },
+      "addToCartProbe": {
+        "found": true,
+        "disabled": false,
+        "text": "Dodaj do koszyka",
+        "clicked": false,
+        "reason": "Excluded to avoid changing cart/session state during isolated no-side-effect audit."
+      },
+      "pageErrors": []
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "contact-map",
+  "manifestRecord": {
+    "id": "contact-map",
+    "name": "Contact location map",
+    "order": 44,
+    "pageId": "0:1",
+    "snapshot": "sections/44-contact-map.json",
+    "desktopNodeId": "431:924",
+    "desktopReference": "references/sections/contact-map.png"
+  },
+  "contentFields": [
+    {
+      "section": "contact-map",
+      "nodeId": "431:924",
+      "fieldName": "rudnikagro_contact_map_image",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/contact/contact-map-431-924.png",
+      "destination": "ACF contact page / map tab / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "431:924"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "status": "needs_work",
+  "summary": "Compared the assigned product-breadcrumbs source record and exact 1920 px reference/render/diff crops; geometry passes with only a 1 px vertical delta, but visible breadcrumb content and styling do not match.",
+  "issues": [
+    "PI-BREADCRUMBS-001 | high | content: expected trail 'Strona główna / Środki ochrony Roślin / Herbicydy / Aquatos 5L'; actual rendered trail omits 'Herbicydy'. Fix the native WooCommerce breadcrumb/category hierarchy so the Herbicydy level is rendered.",
+    "PI-BREADCRUMBS-002 | medium | typography/color: expected muted gray ancestors with green current product and visibly larger source text; actual renders uniformly dark small text. Fix breadcrumb typography and current-item color to match the reference crop."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-inquiry/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-inquiry/product-breadcrumbs-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-inquiry/product-breadcrumbs-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-inquiry/product-breadcrumbs-diff.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/101-audit-round-0-58751f426784b007e333-route-product-inquiry/source-context/section-4b45f0a152f84e7b.json"
+  ]
+}

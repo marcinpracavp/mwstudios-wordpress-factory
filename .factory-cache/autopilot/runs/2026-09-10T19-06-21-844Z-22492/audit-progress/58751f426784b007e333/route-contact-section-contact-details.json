@@ -1,0 +1,15 @@
+{
+  "status": "needs_work",
+  "summary": "Compared the retained 1920 px reference, rendered crop and diff for contact-details against the frozen section source. The outer section geometry passes (expected 240,485,467,1341; actual 240,486,467,1341), but the section crop differs by 9.426%, above the 8.5% ownership acceptance threshold.",
+  "issues": [
+    "CONTACT-DETAILS-001 | high | icons | Expected the exact green address, phone and email SVG icons shown in the source cards; actual rendered crop omits all three icon glyphs, leaving text shifted left and removing meaningful visual content. Fix: render the sourced SVG attachments for nodes 335:771, 335:764 and 335:769 in their corresponding rows.",
+    "CONTACT-DETAILS-002 | high | internal layout/typography | Expected the source card text positions, line wrapping and vertical spacing; actual office hours wrap to two lines, the Lipiany heading is larger/wider and its address/phone blocks sit at different vertical positions, while the department blocks are compressed upward. Fix: align card inner padding, text widths, heading metrics and row gaps to the source without changing the already-passing outer section bounds."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/contact/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/contact/contact-details-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/contact/contact-details-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/contact/contact-details-diff.png",
+    ".factory-cache/figma/latest/sections/42-contact-details.json"
+  ]
+}

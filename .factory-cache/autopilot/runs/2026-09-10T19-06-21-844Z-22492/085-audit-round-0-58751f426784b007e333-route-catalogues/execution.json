@@ -1,0 +1,20 @@
+{
+  "startedModel": "gpt-5.6-sol",
+  "reasoningEffort": "high",
+  "threadId": "01a0a0aa-dce4-7390-87c2-5368d88a7e37",
+  "resumedFrom": null,
+  "usage": {
+    "input_tokens": 3181011,
+    "cached_input_tokens": 3073664,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 23127,
+    "reasoning_output_tokens": 5901
+  },
+  "exit": {
+    "code": 0,
+    "signal": null
+  },
+  "failure": null,
+  "completed": true,
+  "finishedAt": "2026-09-14T16:18:37.282Z"
+}

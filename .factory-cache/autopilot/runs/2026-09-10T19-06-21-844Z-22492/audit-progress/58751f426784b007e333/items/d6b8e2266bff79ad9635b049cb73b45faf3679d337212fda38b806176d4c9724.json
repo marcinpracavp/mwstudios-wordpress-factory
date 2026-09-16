@@ -1,0 +1,32 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-home-active",
+  "item": "section:home-hero",
+  "status": "needs_work",
+  "summary": "Compared the retained 1920 px source, rendered crop and diff for home-hero and confirmed its source-backed geometry. The section bounds match exactly, but visible page-owned hero controls and typography do not match the source.",
+  "issues": [
+    "HOME-HERO-01 high typography: expected the bold, compact three-line white heading at approximately x=198/y=240; actual is materially lighter, begins around x=115/y=190 and wraps/clips differently. Fix hero heading font weight, size/line-height, width and content positioning.",
+    "HOME-HERO-02 high controls: expected left/right circular carousel arrows and five pagination dots near the bottom; actual crop omits all page-owned arrows and pagination. Restore the source-backed slider controls and their positions.",
+    "HOME-HERO-03 medium CTA: expected the outlined CTA around x=198/y=541 with a larger 222x56 footprint; actual CTA is around x=115/y=449 and roughly 215x55. Align the CTA with the source content column and exact sizing.",
+    "Shared active mega-menu differences visible in the crop are outside this route unit and were not re-audited."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/comparison.json",
+      "sha256": "4e081d5f6d25b3aa5003d87f1c3c1ca420b888509f7103c4a9a6af8f92529e61"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/home-hero-reference.png",
+      "sha256": "6dabaa85b869313a7656251715ea50ced36369afdc02218fdc9514e402c2d43e"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/home-hero-rendered.png",
+      "sha256": "cb5e0e728511c3953a463b84786d2fbc028483c9f58184e6e8913c143687ac81"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/home-hero-diff.png",
+      "sha256": "8c94fd0b734ccb2c0764287bb2aa96fa690ba48c6f476f78ce1a431c235d4771"
+    }
+  ],
+  "completedAt": "2026-09-15T23:13:20.037Z"
+}

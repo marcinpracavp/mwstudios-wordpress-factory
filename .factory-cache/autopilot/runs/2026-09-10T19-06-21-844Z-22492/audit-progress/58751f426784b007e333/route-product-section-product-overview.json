@@ -1,0 +1,16 @@
+{
+  "status": "needs_work",
+  "summary": "Inspected the assigned product-overview reference, rendered and diff crops and checked source records plus current geometry. The outer section geometry passes within 2 px, but the diagnostic crop difference is 16.343% and the visible product data, controls and typography do not reproduce the source state.",
+  "issues": [
+    "VIS-PRODUCT-OVERVIEW-001 | priority critical | property product price/content | expected: selected 5 L state at 411,00 zł with crossed-out 530,00 zł, VAT note and 30-day-low copy | actual: generic 82,20 zł–1.644,00 zł range with sale, tax and 30-day-low presentation absent | fix: render the source-backed selected variation state and its sale-price metadata.",
+    "VIS-PRODUCT-OVERVIEW-002 | priority critical | property native controls/structure | expected: 1 L, 5 L and 20 L option buttons, quantity stepper, green cart control, substitutes row, rating and favorite action | actual: unstyled required-select label/value and purple disabled-looking cart control, with the remaining controls absent | fix: expose and style the actual WooCommerce variation and cart controls and restore the source-backed auxiliary rows.",
+    "VIS-PRODUCT-OVERVIEW-003 | priority high | property markup/typography/spacing | expected: 48 px-like bold title and clean SKU line followed by the full vertically distributed overview | actual: materially smaller/light title, literal <br /> displayed after SKU and content compressed into the top half | fix: remove escaped markup leakage and match source typography and internal layout."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product/product-overview-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product/product-overview-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product/product-overview-diff.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/091-audit-round-0-58751f426784b007e333-route-product/source-context/section-60749771cd2948bc.json"
+  ]
+}

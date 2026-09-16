@@ -1,0 +1,40 @@
+{
+  "id": "archive-category-introduction",
+  "manifestRecord": {
+    "id": "archive-category-introduction",
+    "name": "category introduction",
+    "order": 74,
+    "pageId": "0:1",
+    "snapshot": "sections/69-archive-category-introduction.json",
+    "desktopNodeId": "303:1281",
+    "desktopReference": "references/sections/archive-category-introduction.png"
+  },
+  "contentFields": [
+    {
+      "section": "archive-category-introduction",
+      "nodeId": "295:740",
+      "fieldName": "rudnikagro_archive_category_introduction_295_740",
+      "type": "text",
+      "language": "pl",
+      "value": "Fungicydy",
+      "destination": "WooCommerce product category / ACF tab: Introduction",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "295:740"
+      }
+    },
+    {
+      "section": "archive-category-introduction",
+      "nodeId": "420:4",
+      "fieldName": "rudnikagro_archive_category_introduction_420_4",
+      "type": "text",
+      "language": "pl",
+      "value": "Rozwiń",
+      "destination": "ACF archive control label",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "420:4"
+      }
+    }
+  ]
+}

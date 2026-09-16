@@ -1,0 +1,94 @@
+{
+  "id": "bundle-benefits",
+  "manifestRecord": {
+    "id": "bundle-benefits",
+    "name": "korzyści pakietu",
+    "order": 59,
+    "pageId": "0:1",
+    "snapshot": "sections/54-bundle-benefits.json",
+    "desktopNodeId": "586:1251",
+    "desktopReference": "references/sections/bundle-benefits.png"
+  },
+  "contentFields": [
+    {
+      "section": "bundle-benefits",
+      "nodeId": "586:1252",
+      "fieldName": "rudnikagro_bundle_benefits_benefit_1_586_1252",
+      "type": "text",
+      "language": "pl",
+      "value": "Oryginalne produkty",
+      "destination": "Product benefits repeater",
+      "linkEvidence": [
+        {
+          "characters": "Oryginalne produkty",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "586:1252"
+      }
+    },
+    {
+      "section": "bundle-benefits",
+      "nodeId": "586:1252",
+      "fieldName": "rudnikagro_bundle_benefits_benefit_2_586_1252",
+      "type": "text",
+      "language": "pl",
+      "value": "Szybka dostawa",
+      "destination": "Product benefits repeater",
+      "linkEvidence": [
+        {
+          "characters": "Szybka dostawa",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "586:1252"
+      }
+    },
+    {
+      "section": "bundle-benefits",
+      "nodeId": "586:1252",
+      "fieldName": "rudnikagro_bundle_benefits_benefit_3_586_1252",
+      "type": "text",
+      "language": "pl",
+      "value": "Korzystne ceny",
+      "destination": "Product benefits repeater",
+      "linkEvidence": [
+        {
+          "characters": "Korzystne ceny",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "586:1252"
+      }
+    },
+    {
+      "section": "bundle-benefits",
+      "nodeId": "586:1252",
+      "fieldName": "rudnikagro_bundle_benefits_benefit_4_586_1252",
+      "type": "text",
+      "language": "pl",
+      "value": "Tańsze pakiety produktowe",
+      "destination": "Product benefits repeater",
+      "linkEvidence": [
+        {
+          "characters": "Tańsze pakiety produktowe",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "586:1252"
+      }
+    }
+  ]
+}

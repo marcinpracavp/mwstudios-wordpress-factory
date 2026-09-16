@@ -1,0 +1,13 @@
+{
+  "status": "needs_work",
+  "summary": "Inspected the retained 1920 px reference, rendered and diff crops for checkout-login-options and verified the assigned comparison geometry and pixel diagnostics. The section wrapper geometry passes with delta x 0, y +1, width +1 and height 0 px, and the crop mismatch is 7.962%, but visible internal control geometry does not match the source.",
+  "issues": [
+    "CHK-LOGIN-001 | priority: high | property: card inner spacing and form/button geometry | expected: approximately 43 px horizontal inset, 380 px inputs, login actions at y about 324 with pill-shaped 145x45 and 223x45 controls, and guest action at the same vertical level | actual: approximately 32 px inset, 402 px inputs, actions at y about 250 with a 114x44 nearly-square button and the guest action about 74 px too high | fix: restore the source card padding, field width, vertical action spacing, button dimensions and pill border radii while retaining the already-passing outer wrapper geometry."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-registration/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-registration/checkout-login-options-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-registration/checkout-login-options-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-registration/checkout-login-options-diff.png"
+  ]
+}

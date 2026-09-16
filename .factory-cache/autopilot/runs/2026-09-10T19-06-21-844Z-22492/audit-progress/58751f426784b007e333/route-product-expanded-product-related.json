@@ -1,0 +1,17 @@
+{
+  "status": "needs_work",
+  "summary": "Inspected the assigned product-related reference, rendered and diff crops, source record and corrected source geometry. The section fails both content and geometry; diagnostic crop mismatch is 18.379%.",
+  "issues": [
+    "PR-01 critical content: expected the two sourced related products Stomp Aqua 455 CS 1L at 45,99 zł and Stomp Aqua 455 CS 5L at 534,60 zł with their captured images; actual renders Andros 750 EC 5L and Mepi Met Life 5L with different prices/images. Bind the section to the correct native related-product IDs.",
+    "PR-02 critical layout/geometry: corrected source geometry is x 240, y 4348, width 710, height 570 with two full cards side by side; actual is x 240, y 4348.75, width 710, height 719.9375 and collapses products into narrow, scattered card fragments. Restore the two-column card layout and 570 px section height.",
+    "PR-03 high heading/state: expected one bold heading 'Produkty powiązane'; actual adds a second 'Podobne produkty' heading and uses materially smaller/lighter typography. Remove the duplicate Woo heading and match the captured heading style."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-expanded/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-expanded/product-related-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-expanded/product-related-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-expanded/product-related-diff.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/100-audit-round-0-58751f426784b007e333-route-product-expanded/source-context/section-09d07b607a4c57e0.json",
+    ".factory-cache/autopilot/product-expanded-source-geometry.json"
+  ]
+}

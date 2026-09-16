@@ -1,0 +1,29 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "shared-components",
+  "item": "shared:6e9c4ea17376a628",
+  "status": "needs_work",
+  "summary": "Compared checkout-login shared-topbar reference, rendered crop, and diff; the promotion label is present but the source controls remain missing.",
+  "issues": [
+    "VIS-CHECKOUT-LOGIN-TOPBAR-001 (high) — property: promotional controls; expected: circular previous and next chevrons flanking '-30% z kodem BLACK' plus a right-aligned close icon; actual: only the centered promotion label renders; fix: render the exact source-backed chevron and close SVG controls at reference positions."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/comparison.json",
+      "sha256": "ccec5d86a6c7481aa778179b2a536e4586404b84dd26b38dfb04c426068c7b0f"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/shared-topbar-reference.png",
+      "sha256": "3b32d85facedb14c723a5fc1b6af3bc6e9863fd91dc28e4b832403b684fd07cc"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/shared-topbar-rendered.png",
+      "sha256": "69fa1e8e5b679842e00a774fcc68898b8c4c730bfcacb2e87613d4a247738d00"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/shared-topbar-diff.png",
+      "sha256": "a054e71c5b1da6d447638d6d3e32bafac253b11a0ee3e71618161485a9bbd174"
+    }
+  ],
+  "completedAt": "2026-09-14T15:41:39.158Z"
+}

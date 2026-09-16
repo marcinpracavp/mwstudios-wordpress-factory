@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-09-15T17:32:29.321Z",
+  "browser": "Google Chrome",
+  "isolatedContext": true,
+  "targetUrl": "https://autopilot.local/zamowienie/",
+  "submittedForms": false,
+  "pageErrors": [],
+  "consoleErrors": [],
+  "controls": {
+    "loginFormPresent": true,
+    "loginMethod": "post",
+    "loginAction": "https://autopilot.local/wp-login.php?redirect_to=https%3A%2F%2Fautopilot.local%2Fzamowienie%2F",
+    "username": {
+      "type": "text",
+      "required": true,
+      "autocomplete": "username"
+    },
+    "password": {
+      "type": "password",
+      "required": true,
+      "autocomplete": "current-password"
+    },
+    "loginSubmitPresent": true,
+    "forgotHref": "https://autopilot.local/moje-konto/lost-password/",
+    "guestHref": "https://autopilot.local/zamowienie/",
+    "registrationOpenerPresent": true
+  },
+  "rememberCheckbox": {
+    "before": false,
+    "afterCheck": true,
+    "afterReset": false
+  },
+  "registrationDialog": {
+    "initial": {
+      "hidden": true,
+      "expanded": "false"
+    },
+    "open": {
+      "hidden": false,
+      "expanded": "true",
+      "firstInputFocused": true
+    },
+    "closed": {
+      "hidden": true,
+      "expanded": "false",
+      "focusReturned": true
+    }
+  },
+  "passwordRecovery": {
+    "href": "https://autopilot.local/moje-konto/lost-password/",
+    "finalUrl": "https://autopilot.local/moje-konto/lost-password/",
+    "reachedLostPassword": true
+  },
+  "guestContinuation": {
+    "href": "https://autopilot.local/zamowienie/",
+    "finalUrl": "https://autopilot.local/zamowienie/",
+    "loginOptionsStillVisible": true,
+    "advancedPastLoginStep": false
+  }
+}

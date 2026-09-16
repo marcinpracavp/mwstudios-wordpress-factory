@@ -1,0 +1,14 @@
+{
+  "status": "needs_work",
+  "summary": "Inspected the assigned product-breadcrumbs reference, rendered and diff crops and verified source text plus geometry. Geometry passes with x/width/height exact and y delta 1 px; visual/content fidelity does not pass.",
+  "issues": [
+    "PB-01 high content/typography: expected the full sourced trail 'Strona główna / Środki ochrony Roślin / Herbicydy / Aquatos 5L' with the active product in green; actual omits 'Herbicydy', uses visibly smaller 12px text and does not reproduce the source active-state color. Fix the native breadcrumb hierarchy and match the captured typography/color. Diagnostic crop mismatch is 7.494%."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-expanded/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-expanded/product-breadcrumbs-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-expanded/product-breadcrumbs-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-expanded/product-breadcrumbs-diff.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/100-audit-round-0-58751f426784b007e333-route-product-expanded/source-context/section-4b45f0a152f84e7b.json"
+  ]
+}

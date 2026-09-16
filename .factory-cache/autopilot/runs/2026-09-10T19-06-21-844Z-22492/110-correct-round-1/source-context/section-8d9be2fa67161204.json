@@ -1,0 +1,105 @@
+{
+  "id": "contact-form",
+  "manifestRecord": {
+    "id": "contact-form",
+    "name": "Contact form",
+    "order": 43,
+    "pageId": "0:1",
+    "snapshot": "sections/43-contact-form.json",
+    "desktopNodeId": "339:795",
+    "desktopReference": "references/sections/contact-form.png"
+  },
+  "contentFields": [
+    {
+      "section": "contact-form",
+      "nodeId": "339:795",
+      "fieldName": "rudnikagro_contact_form_heading",
+      "type": "text",
+      "language": "pl",
+      "value": "Formularz kontaktowy",
+      "destination": "ACF contact page / form tab / heading",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "339:795"
+      }
+    },
+    {
+      "section": "contact-form",
+      "nodeId": "339:813",
+      "fieldName": "rudnikagro_contact_form_name_label",
+      "type": "text",
+      "language": "pl",
+      "value": "Imię",
+      "destination": "ACF contact page / form tab / name label",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "339:813"
+      }
+    },
+    {
+      "section": "contact-form",
+      "nodeId": "339:807",
+      "fieldName": "rudnikagro_contact_form_email_label",
+      "type": "text",
+      "language": "pl",
+      "value": "Adres e-mail",
+      "destination": "ACF contact page / form tab / email label",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "339:807"
+      }
+    },
+    {
+      "section": "contact-form",
+      "nodeId": "339:809",
+      "fieldName": "rudnikagro_contact_form_phone_label",
+      "type": "text",
+      "language": "pl",
+      "value": "Numer telefonu",
+      "destination": "ACF contact page / form tab / phone label",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "339:809"
+      }
+    },
+    {
+      "section": "contact-form",
+      "nodeId": "339:805",
+      "fieldName": "rudnikagro_contact_form_message_label",
+      "type": "text",
+      "language": "pl",
+      "value": "Treść wiadomości",
+      "destination": "ACF contact page / form tab / message label",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "339:805"
+      }
+    },
+    {
+      "section": "contact-form",
+      "nodeId": "339:803",
+      "fieldName": "rudnikagro_contact_form_submit_label",
+      "type": "text",
+      "language": "pl",
+      "value": "Wyślij",
+      "destination": "ACF contact page / form tab / submit label",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "339:803"
+      }
+    },
+    {
+      "section": "contact-form",
+      "nodeId": "431:907",
+      "fieldName": "rudnikagro_contact_form_privacy_notice",
+      "type": "textarea",
+      "language": "pl",
+      "value": "Podanie danych zawartych w formularzu jest dobrowolne, ale niezbędne do przetworzenia zapytania. Szczegóły związane z przetwarzaniem danych przez administratorów zawarte są w Polityce Prywatności.",
+      "destination": "ACF contact page / form tab / privacy notice",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "431:907"
+      }
+    }
+  ]
+}

@@ -1,0 +1,397 @@
+{
+  "version": 1,
+  "key": "3d2723222b101b3495b5",
+  "round": 1,
+  "binding": {
+    "version": 1,
+    "implementationHash": "0d51414a5f3025b7e5339906e85e690024d1d2b183a03f14989d1b9d69471aca",
+    "sourceHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+    "thresholds": {
+      "channelTolerance": 24,
+      "maxDifferentPixelRatio": 0.085,
+      "geometryTolerancePx": 2
+    },
+    "geometryHash": "c9c5ffb31cfcdabc4bd31dfe2152e848999ae7ec70ca0f06344381c8270ae384",
+    "measurementCode": "7ef149a54184d741c8dd35a8a849496a2a6e28831adf8a819556ae43a9a3d458"
+  },
+  "comparison": ".factory-cache/autopilot/visual-1789540932764/summary.json",
+  "inputs": [
+    {
+      "path": ".factory-cache/autopilot/visual-1789540932764/summary.json",
+      "sha256": "b06d489c79ea0eaedc375e3ebbb5b5620d25fa8beb640a7541587fe9b190e815"
+    },
+    {
+      "path": ".factory-cache/autopilot/visual-1789540932764/careers/comparison.json",
+      "sha256": "f635c859c24e53bc2c9efc6f321f6d446c1021bb49ab9098e4a0dd8f69a87479"
+    },
+    {
+      "path": ".factory-cache/autopilot/visual-1789540932764/careers/rendered.png",
+      "sha256": "32126b48aeec69f57ff1211bb29c10081aadecce6b9b3d3a3503fbe5ad6a510a"
+    },
+    {
+      "path": ".factory-cache/figma/latest/references/full/frame-349-1267.png",
+      "sha256": "cd1098f6b1466ddddbc98ef25463b2a499317c8ac3566768478d3b91cf6b0f05"
+    },
+    {
+      "path": ".factory-cache/autopilot/visual-1789540932764/careers/careers-application-diff.png",
+      "sha256": "b2606dcb9b4e4f011944b67e2ec7017a4cca2c877720cc2a30fcd1568811982f"
+    },
+    {
+      "path": ".factory-cache/autopilot/visual-1789540932764/careers/careers-application-reference.png",
+      "sha256": "8d8699a73167264c9cb0fc58552468b77fe4ed3b9ffba3dff6ad9f6b3de20bd0"
+    },
+    {
+      "path": ".factory-cache/autopilot/visual-1789540932764/careers/careers-application-rendered.png",
+      "sha256": "1a92c0351a605daf301ebe881e07525d554628dad412ec3387afc77875c79d6e"
+    },
+    {
+      "path": ".factory-cache/autopilot/visual-1789540932764/careers/careers-heading-diff.png",
+      "sha256": "1a9613981164cdebb2f024c5ada6918271639262ef01a6f4b7d2a9daba0e9823"
+    },
+    {
+      "path": ".factory-cache/autopilot/visual-1789540932764/careers/careers-heading-reference.png",
+      "sha256": "0e092bdfb84ea7ed07bcb38e06911e68341f26fd1feb8bd0df05be3aa122edc8"
+    },
+    {
+      "path": ".factory-cache/autopilot/visual-1789540932764/careers/careers-heading-rendered.png",
+      "sha256": "5dba9638c945e624002b1806713671090dab470b4550579c413ee88d0b680214"
+    },
+    {
+      "path": ".factory-cache/autopilot/visual-1789540932764/careers/careers-vacancies-diff.png",
+      "sha256": "14bf612f7b2b87591dde7fc5bb17051ad10c931a627b5c7f7d8304191d002876"
+    },
+    {
+      "path": ".factory-cache/autopilot/visual-1789540932764/careers/careers-vacancies-reference.png",
+      "sha256": "b522fa72e196089478537d47202562852b3c0265c3da05e2c132a3ed9bb43b01"
+    },
+    {
+      "path": ".factory-cache/autopilot/visual-1789540932764/careers/careers-vacancies-rendered.png",
+      "sha256": "b2130491e6d0b9391cc33fe3e72ae73d31b2230751ee659533a759e0850b631a"
+    },
+    {
+      "path": ".factory-cache/autopilot/visual-1789540932764/careers/diff.png",
+      "sha256": "5319a15cdd615ab55c1836fe698230c1b146d80fb8b33f9245933c7b766d1190"
+    },
+    {
+      "path": ".factory-cache/autopilot/visual-1789540932764/careers/shared-footer-diff.png",
+      "sha256": "e376717341f534f1ba47b732723607bc58569599eb3fc6399e282674f49cd905"
+    },
+    {
+      "path": ".factory-cache/autopilot/visual-1789540932764/careers/shared-footer-reference.png",
+      "sha256": "9efa1ea60ec01eef7206b6c6359ec0cb71238d02f8659db8d7a045116a927e10"
+    },
+    {
+      "path": ".factory-cache/autopilot/visual-1789540932764/careers/shared-footer-rendered.png",
+      "sha256": "4453f61de765972820c9d5e552a01cda2d63932a5fab179332ca096b5025619b"
+    },
+    {
+      "path": ".factory-cache/autopilot/visual-1789540932764/careers/shared-primary-navigation-diff.png",
+      "sha256": "91c850b60f3f2d050f4126d8928e385cfc24b75d509702f7e4edabc9586203d3"
+    },
+    {
+      "path": ".factory-cache/autopilot/visual-1789540932764/careers/shared-primary-navigation-reference.png",
+      "sha256": "b163b3f17be6b17037539e842070ca1b1734b17690d71a5a1ae7d0758e99e45b"
+    },
+    {
+      "path": ".factory-cache/autopilot/visual-1789540932764/careers/shared-primary-navigation-rendered.png",
+      "sha256": "5fa0f43161c65974323211cce98ca72faa8f760a8dd1a24315f2e28dd8f3f844"
+    },
+    {
+      "path": ".factory-cache/autopilot/visual-1789540932764/careers/shared-secondary-navigation-diff.png",
+      "sha256": "8c903af18270f9a7de933dd65ef907085c8164432b5c9e2cfb7bcce5fe23911e"
+    },
+    {
+      "path": ".factory-cache/autopilot/visual-1789540932764/careers/shared-secondary-navigation-reference.png",
+      "sha256": "ece7ac88b958c880d113cc19cbd528ab724f22c3e1183f428eb0f8e9d656654e"
+    },
+    {
+      "path": ".factory-cache/autopilot/visual-1789540932764/careers/shared-secondary-navigation-rendered.png",
+      "sha256": "1a97e1c5826f04289c72b4b64947dbe6c7ae345c4e0e037eb256098190f8fd45"
+    },
+    {
+      "path": ".factory-cache/autopilot/visual-1789540932764/careers/shared-shop-cta-diff.png",
+      "sha256": "962a0c104e8f05d3f231443eebe971d30e1fc62a64319419f45619927fffd616"
+    },
+    {
+      "path": ".factory-cache/autopilot/visual-1789540932764/careers/shared-shop-cta-reference.png",
+      "sha256": "8ced9a0be7852e48cddcefe24e4a9d296a92624abb6b7e839920625e1e1b97e3"
+    },
+    {
+      "path": ".factory-cache/autopilot/visual-1789540932764/careers/shared-shop-cta-rendered.png",
+      "sha256": "a41b9d186296c582faeaf6524d800d3d4396b33e7e98719ff75f52b78ee44095"
+    },
+    {
+      "path": ".factory-cache/autopilot/visual-1789540932764/careers/shared-topbar-diff.png",
+      "sha256": "89cf69a355786faba5bece6c3ddc2207330743d58e700549f618dea24ef3ade2"
+    },
+    {
+      "path": ".factory-cache/autopilot/visual-1789540932764/careers/shared-topbar-reference.png",
+      "sha256": "e9236c025b9eb176d431a6452a699ce0444dee1e9077f23d1721e558e74a72a8"
+    },
+    {
+      "path": ".factory-cache/autopilot/visual-1789540932764/careers/shared-topbar-rendered.png",
+      "sha256": "092597c48f8024fec7e117a019962ab73fccdc160e20045646459580c915542e"
+    }
+  ],
+  "units": [
+    {
+      "id": "shared-components",
+      "routes": [
+        "careers"
+      ],
+      "items": [
+        {
+          "id": "shared:3a66fea7b33f3800",
+          "kind": "visual",
+          "section": "shared-topbar",
+          "route": "careers",
+          "comparison": ".factory-cache/autopilot/visual-1789540932764/careers/comparison.json",
+          "owner": "header"
+        },
+        {
+          "id": "shared:82fd540877f76ce8",
+          "kind": "visual",
+          "section": "shared-secondary-navigation",
+          "route": "careers",
+          "comparison": ".factory-cache/autopilot/visual-1789540932764/careers/comparison.json",
+          "owner": "header"
+        },
+        {
+          "id": "shared:25483810be2bd408",
+          "kind": "visual",
+          "section": "shared-primary-navigation",
+          "route": "careers",
+          "comparison": ".factory-cache/autopilot/visual-1789540932764/careers/comparison.json",
+          "owner": "header"
+        },
+        {
+          "id": "shared:59e248cb484e9b4e",
+          "kind": "visual",
+          "section": "careers-heading",
+          "route": "careers",
+          "comparison": ".factory-cache/autopilot/visual-1789540932764/careers/comparison.json",
+          "owner": "shared"
+        },
+        {
+          "id": "shared:79facc6f461b4b66",
+          "kind": "visual",
+          "section": "shared-shop-cta",
+          "route": "careers",
+          "comparison": ".factory-cache/autopilot/visual-1789540932764/careers/comparison.json",
+          "owner": "shared"
+        },
+        {
+          "id": "shared:1c7d6451600b1169",
+          "kind": "visual",
+          "section": "shared-footer",
+          "route": "careers",
+          "comparison": ".factory-cache/autopilot/visual-1789540932764/careers/comparison.json",
+          "owner": "footer"
+        }
+      ]
+    },
+    {
+      "id": "route-careers",
+      "routes": [
+        "careers"
+      ],
+      "items": [
+        {
+          "id": "section:careers-vacancies",
+          "kind": "visual",
+          "section": "careers-vacancies",
+          "route": "careers",
+          "comparison": ".factory-cache/autopilot/visual-1789540932764/careers/comparison.json",
+          "owner": "page"
+        },
+        {
+          "id": "section:careers-application",
+          "kind": "visual",
+          "section": "careers-application",
+          "route": "careers",
+          "comparison": ".factory-cache/autopilot/visual-1789540932764/careers/comparison.json",
+          "owner": "page"
+        },
+        {
+          "id": "responsive",
+          "kind": "responsive",
+          "route": "careers",
+          "comparison": ".factory-cache/autopilot/visual-1789540932764/careers/comparison.json"
+        },
+        {
+          "id": "interactions",
+          "kind": "interactions",
+          "route": "careers",
+          "comparison": ".factory-cache/autopilot/visual-1789540932764/careers/comparison.json"
+        }
+      ]
+    },
+    {
+      "id": "native-integrations",
+      "routes": [
+        "careers",
+        "catalogues",
+        "blog-article",
+        "blog-archive",
+        "contact",
+        "about",
+        "product-expanded",
+        "product",
+        "product-inquiry",
+        "cart",
+        "checkout",
+        "order-confirmed",
+        "checkout-login",
+        "checkout-registration",
+        "product-reviews-state",
+        "product-files-state",
+        "product-archive",
+        "home-active",
+        "home",
+        "product-bundle",
+        "account"
+      ],
+      "items": [
+        {
+          "id": "commerce",
+          "kind": "native",
+          "description": "Source products, prices/variations, taxonomy, source reviews and native relations."
+        },
+        {
+          "id": "editable-content",
+          "kind": "native",
+          "description": "ACF content and replaceable SVG fields; required plugin integrations and retained external dependencies."
+        }
+      ]
+    }
+  ],
+  "legacyEvidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/079-audit-round-0/audit-metrics.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/079-audit-round-0/cart-interaction-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/079-audit-round-0/interaction-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/079-audit-round-0/native-commerce-icons-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/audit-metrics.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/cart-interaction-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/interaction-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/native-commerce-icons-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/responsive-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/081-audit-round-0/audit-metrics.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/084-audit-round-0-58751f426784b007e333-route-careers/audit-careers-application.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/084-audit-round-0-58751f426784b007e333-route-careers/audit-careers-interactions.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/084-audit-round-0-58751f426784b007e333-route-careers/audit-careers-responsive.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/084-audit-round-0-58751f426784b007e333-route-careers/audit-careers-vacancies.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/084-audit-round-0-58751f426784b007e333-route-careers/careers-interaction-probe.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/085-audit-round-0-58751f426784b007e333-route-catalogues/interaction-browser-probe.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/085-audit-round-0-58751f426784b007e333-route-catalogues/interactions-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/085-audit-round-0-58751f426784b007e333-route-catalogues/responsive-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/085-audit-round-0-58751f426784b007e333-route-catalogues/section-catalogues-downloads-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/087-audit-round-0-58751f426784b007e333-route-blog-article/audit-blog-article-content.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/087-audit-round-0-58751f426784b007e333-route-blog-article/audit-blog-article-heading.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/087-audit-round-0-58751f426784b007e333-route-blog-article/audit-blog-related-posts.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/087-audit-round-0-58751f426784b007e333-route-blog-article/audit-interactions.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/087-audit-round-0-58751f426784b007e333-route-blog-article/audit-responsive.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/087-audit-round-0-58751f426784b007e333-route-blog-article/interaction-probe.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/087-audit-round-0-58751f426784b007e333-route-blog-article/responsive-probe.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/088-audit-round-0-58751f426784b007e333-route-blog-archive/audit-interactions.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/088-audit-round-0-58751f426784b007e333-route-blog-archive/audit-responsive.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/088-audit-round-0-58751f426784b007e333-route-blog-archive/audit-section-blog-pagination.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/088-audit-round-0-58751f426784b007e333-route-blog-archive/audit-section-blog-post-list.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/088-audit-round-0-58751f426784b007e333-route-blog-archive/blog-interaction-probe.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/092-audit-round-0-58751f426784b007e333-route-product/interaction-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/093-audit-round-0-58751f426784b007e333-route-cart/cart-heading-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/093-audit-round-0-58751f426784b007e333-route-cart/cart-interaction-probe.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/093-audit-round-0-58751f426784b007e333-route-cart/cart-lines-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/093-audit-round-0-58751f426784b007e333-route-cart/cart-totals-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/093-audit-round-0-58751f426784b007e333-route-cart/interactions-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/093-audit-round-0-58751f426784b007e333-route-cart/responsive-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/094-audit-round-0-58751f426784b007e333-route-checkout/interaction-probe.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/095-audit-round-0-58751f426784b007e333-route-product-archive/audit-interactions.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/095-audit-round-0-58751f426784b007e333-route-product-archive/audit-responsive.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/095-audit-round-0-58751f426784b007e333-route-product-archive/audit-section-archive-breadcrumbs.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/095-audit-round-0-58751f426784b007e333-route-product-archive/audit-section-archive-category-description.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/095-audit-round-0-58751f426784b007e333-route-product-archive/audit-section-archive-category-introduction.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/095-audit-round-0-58751f426784b007e333-route-product-archive/audit-section-archive-filters.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/095-audit-round-0-58751f426784b007e333-route-product-archive/audit-section-archive-pagination.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/095-audit-round-0-58751f426784b007e333-route-product-archive/audit-section-archive-product-grid.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/095-audit-round-0-58751f426784b007e333-route-product-archive/audit-section-archive-sort.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/095-audit-round-0-58751f426784b007e333-route-product-archive/interaction-probe-result.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/096-audit-round-0-58751f426784b007e333-route-home/audit-home-about.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/096-audit-round-0-58751f426784b007e333-route-home/audit-home-benefits.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/096-audit-round-0-58751f426784b007e333-route-home/audit-home-blog.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/096-audit-round-0-58751f426784b007e333-route-home/audit-home-bundles.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/096-audit-round-0-58751f426784b007e333-route-home/audit-home-catalogues.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/096-audit-round-0-58751f426784b007e333-route-home/audit-home-crop-selection.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/096-audit-round-0-58751f426784b007e333-route-home/audit-home-hero.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/096-audit-round-0-58751f426784b007e333-route-home/audit-home-knowledge.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/096-audit-round-0-58751f426784b007e333-route-home/audit-home-promotions.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/096-audit-round-0-58751f426784b007e333-route-home/audit-home-recommended.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/097-audit-round-0-58751f426784b007e333-route-home/fresh-browser-probe.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/097-audit-round-0-58751f426784b007e333-route-home/interaction-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/097-audit-round-0-58751f426784b007e333-route-home/responsive-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/098-audit-round-0-58751f426784b007e333-route-product-bundle/audit-interactions.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/098-audit-round-0-58751f426784b007e333-route-product-bundle/audit-responsive.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/098-audit-round-0-58751f426784b007e333-route-product-bundle/audit-section-bundle-benefits.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/098-audit-round-0-58751f426784b007e333-route-product-bundle/audit-section-bundle-breadcrumbs.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/098-audit-round-0-58751f426784b007e333-route-product-bundle/audit-section-product-bundle-overview.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/098-audit-round-0-58751f426784b007e333-route-product-bundle/audit-section-product-legal-notices.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/098-audit-round-0-58751f426784b007e333-route-product-bundle/audit-section-product-related.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/098-audit-round-0-58751f426784b007e333-route-product-bundle/interaction-live-probe.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/098-audit-round-0-58751f426784b007e333-route-product-bundle/responsive-live-probe.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/099-audit-round-0-58751f426784b007e333-route-account/audit-account-breadcrumbs.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/099-audit-round-0-58751f426784b007e333-route-account/audit-account-login.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/099-audit-round-0-58751f426784b007e333-route-account/audit-account-registration.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/099-audit-round-0-58751f426784b007e333-route-account/audit-interactions.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/099-audit-round-0-58751f426784b007e333-route-account/audit-responsive.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/099-audit-round-0-58751f426784b007e333-route-account/interaction-probe-result.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/101-audit-round-0-58751f426784b007e333-route-product-inquiry/audit-section-product-breadcrumbs.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/101-audit-round-0-58751f426784b007e333-route-product-inquiry/audit-section-product-inquiry-dialog.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/101-audit-round-0-58751f426784b007e333-route-product-inquiry/audit-section-product-inquiry-overview.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/101-audit-round-0-58751f426784b007e333-route-product-inquiry/audit-section-product-related.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/102-audit-round-0-58751f426784b007e333-route-product-inquiry/audit-interactions.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/102-audit-round-0-58751f426784b007e333-route-product-inquiry/audit-product-legal-notices.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/102-audit-round-0-58751f426784b007e333-route-product-inquiry/audit-product-related.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/102-audit-round-0-58751f426784b007e333-route-product-inquiry/audit-responsive.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/102-audit-round-0-58751f426784b007e333-route-product-inquiry/interaction-probe.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/103-audit-round-0-58751f426784b007e333-route-order-confirmed/audit-checkout-order-confirmation.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/103-audit-round-0-58751f426784b007e333-route-order-confirmed/audit-checkout-steps.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/103-audit-round-0-58751f426784b007e333-route-order-confirmed/audit-checkout-totals.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/103-audit-round-0-58751f426784b007e333-route-order-confirmed/audit-confirmation-heading.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/103-audit-round-0-58751f426784b007e333-route-order-confirmed/audit-confirmation-line-items.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/103-audit-round-0-58751f426784b007e333-route-order-confirmed/audit-interactions.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/103-audit-round-0-58751f426784b007e333-route-order-confirmed/audit-responsive.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/103-audit-round-0-58751f426784b007e333-route-order-confirmed/interaction-live-probe.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/104-audit-round-0-58751f426784b007e333-route-checkout-login/audit-interactions.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/104-audit-round-0-58751f426784b007e333-route-checkout-login/audit-responsive.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/104-audit-round-0-58751f426784b007e333-route-checkout-login/audit-section-checkout-login-options.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/104-audit-round-0-58751f426784b007e333-route-checkout-login/interaction-probe-results.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/105-audit-round-0-58751f426784b007e333-route-checkout-registration/interaction-live-probe.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/105-audit-round-0-58751f426784b007e333-route-checkout-registration/interactions-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/105-audit-round-0-58751f426784b007e333-route-checkout-registration/responsive-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/105-audit-round-0-58751f426784b007e333-route-checkout-registration/section-account-registration-dialog-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/105-audit-round-0-58751f426784b007e333-route-checkout-registration/section-checkout-login-options-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/106-audit-round-0-58751f426784b007e333-route-product-reviews-state/audit-interactions.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/106-audit-round-0-58751f426784b007e333-route-product-reviews-state/audit-responsive.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/106-audit-round-0-58751f426784b007e333-route-product-reviews-state/audit-section-product-breadcrumbs.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/106-audit-round-0-58751f426784b007e333-route-product-reviews-state/audit-section-product-legal-notices.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/106-audit-round-0-58751f426784b007e333-route-product-reviews-state/audit-section-product-overview.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/106-audit-round-0-58751f426784b007e333-route-product-reviews-state/audit-section-product-related.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/106-audit-round-0-58751f426784b007e333-route-product-reviews-state/audit-section-product-reviews.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/106-audit-round-0-58751f426784b007e333-route-product-reviews-state/interaction-probe.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/108-audit-round-0-58751f426784b007e333-route-home-active/audit-interactions.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/108-audit-round-0-58751f426784b007e333-route-home-active/audit-responsive.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/108-audit-round-0-58751f426784b007e333-route-home-active/audit-section-home-about.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/108-audit-round-0-58751f426784b007e333-route-home-active/audit-section-home-benefits.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/108-audit-round-0-58751f426784b007e333-route-home-active/audit-section-home-blog.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/108-audit-round-0-58751f426784b007e333-route-home-active/audit-section-home-bundles.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/108-audit-round-0-58751f426784b007e333-route-home-active/audit-section-home-catalogues.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/108-audit-round-0-58751f426784b007e333-route-home-active/audit-section-home-crop-selection.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/108-audit-round-0-58751f426784b007e333-route-home-active/audit-section-home-hero.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/108-audit-round-0-58751f426784b007e333-route-home-active/audit-section-home-knowledge.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/108-audit-round-0-58751f426784b007e333-route-home-active/audit-section-home-promotions.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/108-audit-round-0-58751f426784b007e333-route-home-active/audit-section-home-recommended.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/108-audit-round-0-58751f426784b007e333-route-home-active/home-interaction-probe.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/109-audit-round-0-58751f426784b007e333-native-integrations/commerce-audit-item.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/109-audit-round-0-58751f426784b007e333-native-integrations/editable-content-audit-item.json"
+  ],
+  "createdAt": "2026-09-16T06:45:14.977Z"
+}

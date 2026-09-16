@@ -1,0 +1,32 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "shared-components",
+  "item": "shared:ba5862fdb1bcad9a",
+  "status": "needs_work",
+  "summary": "Compared the expanded-product product-tabs reference, rendered crop, diff, retained state scope, and geometry. The active 'Stosowanie' state is present, but tab geometry/typography differ and the product-tabs marker spans 3,162 px instead of the retained 494 px component boundary.",
+  "issues": [
+    "VIS-PRODUCT-EXPANDED-TABS-001 (high) — property: state component bounds; expected: product-tabs x=240, y=1096, width=1440, height=494, with expanded description tracked separately by the state scope; actual: x=240, y=1096.75, width=1440, height=3162; fix: bound data-factory-section='product-tabs' to the intended tab component and keep expanded-description ownership distinct.",
+    "VIS-PRODUCT-EXPANDED-TABS-002 (high) — property: active tab placement/width; expected: green 'Stosowanie' tab from about x=486 to x=710 within the crop; actual: it runs from about x=576 to x=864; fix: match the reference five-column tab distribution and 224 px active-tab width.",
+    "VIS-PRODUCT-EXPANDED-TABS-003 (high) — property: panel offset; expected: bordered content panel begins around y=91; actual: it begins around y=56, shifting content roughly 31–35 px upward; fix: restore source tab-to-panel spacing and panel padding.",
+    "VIS-PRODUCT-EXPANDED-TABS-004 (medium) — property: typography/wrapping; expected: source text metrics and line breaks; actual: rendered body text is smaller/heavier and wraps into longer lines; fix: apply exact source font size, weight, line-height, and content width."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-expanded/comparison.json",
+      "sha256": "3ad8495bb06af1a307f3bd711df319833773dd7c35f0a8d10dc670d180917558"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-expanded/product-tabs-reference.png",
+      "sha256": "b6ed5d68b14e4f2ec00be36a53bd8d5ec613c8c1456e87a9e3ec4394f60c1ea0"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-expanded/product-tabs-rendered.png",
+      "sha256": "b4776bd3a156955361cb284f07b5137e396ff5847b833cee3b18bfe61b96dc84"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-expanded/product-tabs-diff.png",
+      "sha256": "9d4c8ee53ac91ed93e81b831fc30f84fa22e5aac5f257201cd60adc134a737a7"
+    }
+  ],
+  "completedAt": "2026-09-14T15:39:40.131Z"
+}

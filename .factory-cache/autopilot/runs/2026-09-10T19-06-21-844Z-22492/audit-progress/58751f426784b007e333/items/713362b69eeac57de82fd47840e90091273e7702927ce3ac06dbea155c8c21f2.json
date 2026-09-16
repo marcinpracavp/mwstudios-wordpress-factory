@@ -1,0 +1,31 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-checkout-registration",
+  "item": "section:account-registration-dialog",
+  "status": "needs_work",
+  "summary": "Inspected the retained 1920 px reference, rendered and diff crops for account-registration-dialog and verified its assigned comparison geometry and pixel diagnostics. The outer dialog geometry is exact at 802x752 px with zero delta and its crop mismatch is 6.040%, but visible controls and typography alignment remain materially different.",
+  "issues": [
+    "CHK-REG-001 | priority: high | property: dialog close control | expected: visible X control near the upper-right corner at about x 666, y 48 within the crop | actual: no close control is visible in the rendered crop | fix: render the source-backed close icon/control at the captured position and size with accessible dialog-close semantics.",
+    "CHK-REG-002 | priority: medium | property: input placeholder alignment | expected: placeholders left-aligned with about 15 px inner inset | actual: placeholders are horizontally centered | fix: restore source text alignment and left padding without changing the already-exact field bounds.",
+    "CHK-REG-003 | priority: high | property: registration CTA geometry and vertical spacing | expected: pill-shaped 223x44 px CTA starting near x 43, y 658 with about 36 px separation below the consent row | actual: rectangular 223x44 px CTA starts near y 614, about 44 px too high and only about 6 px below the consent line | fix: restore the source vertical gap and pill border radius while retaining exact dialog geometry."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-registration/comparison.json",
+      "sha256": "fc5785d20f0dd631ae10743cf5c9ab441098d678045cf835c477e068a2f24378"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-registration/account-registration-dialog-reference.png",
+      "sha256": "5e02585e5b5debc9adbbd387b49ed1662c1fb2fc506a487efc7812f2ee6b7f9f"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-registration/account-registration-dialog-rendered.png",
+      "sha256": "a3353caaeaa384bff9346dd89a237aba47962e4af742521a4c4d1376fffc8950"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-registration/account-registration-dialog-diff.png",
+      "sha256": "b672d3af6fe7b533813b3ed01063e6848f8e525b97f8424e207bbe0da0a3a540"
+    }
+  ],
+  "completedAt": "2026-09-15T17:44:24.232Z"
+}

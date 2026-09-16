@@ -1,0 +1,27 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-blog-article",
+  "item": "interactions",
+  "status": "passed",
+  "summary": "Ran a fresh isolated Google Chrome session at 1440 px and inspected all 14 page-owned controls. Ten safe same-origin GET links were clicked independently: the blog return link plus image/title/CTA links for all three related cards; every click reached its exact href with no error. The four sourced external product links were visible, enabled, retained target=_blank and matched the frozen WYSIWYG URLs; they were deliberately not opened. No forms, commerce actions, messages, account actions or state-changing requests were performed.",
+  "issues": [],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/blog-article/comparison.json",
+      "sha256": "8dc885bfcea397ad9855b0e31759c09dfe12f766737967eb5749fd409e3ce2a9"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/087-audit-round-0-58751f426784b007e333-route-blog-article/interaction-probe.json",
+      "sha256": "61914511bd033a2df8fca04dc7b1f42a47d75b8d4cb5dd0882f7d59831fb6921"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/087-audit-round-0-58751f426784b007e333-route-blog-article/source-context/section-8350c8124667ca98.json",
+      "sha256": "f5434c9be52dabfeab586676aa85f3931581e43d57905aee20d050c81ecfe7f9"
+    },
+    {
+      "path": "partials/blog-card.php",
+      "sha256": "096d49b8201e1ac5c74cafb4b325d11c16ed9eef53ca0c3610859c4b165fd723"
+    }
+  ],
+  "completedAt": "2026-09-14T21:22:59.079Z"
+}

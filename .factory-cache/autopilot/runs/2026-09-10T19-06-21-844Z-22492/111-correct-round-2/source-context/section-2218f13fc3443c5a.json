@@ -1,0 +1,62 @@
+{
+  "id": "catalogues-heading",
+  "manifestRecord": {
+    "id": "catalogues-heading",
+    "name": "Katalogi heading and breadcrumb",
+    "order": 34,
+    "pageId": "0:1",
+    "snapshot": "sections/34-catalogues-heading.json",
+    "desktopNodeId": "347:1230",
+    "desktopReference": "references/sections/catalogues-heading.png"
+  },
+  "contentFields": [
+    {
+      "section": "catalogues-heading",
+      "nodeId": "347:1231",
+      "fieldName": "rudnikagro_catalogues_347_1231",
+      "type": "text",
+      "language": "pl",
+      "value": "Katalogi",
+      "destination": "ACF catalogues page / Banner tab / banner title",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "347:1231"
+      }
+    },
+    {
+      "section": "catalogues-heading",
+      "nodeId": "347:1121",
+      "fieldName": "rudnikagro_catalogues_347_1121",
+      "type": "structured_text",
+      "language": "pl",
+      "value": [
+        {
+          "value": "Strona gÅ‚Ã³wna  / ",
+          "color": "#AAAAAA"
+        },
+        {
+          "value": "Katalogi",
+          "color": "#006633"
+        }
+      ],
+      "destination": "native breadcrumb / sourced presentation record",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "347:1121"
+      }
+    },
+    {
+      "section": "catalogues-heading",
+      "nodeId": "347:1230",
+      "fieldName": "rudnikagro_catalogues_media_347_1230",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/catalogues/catalogues-heading-background.png",
+      "destination": "ACF catalogues page / Banner tab / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "347:1230"
+      }
+    }
+  ]
+}

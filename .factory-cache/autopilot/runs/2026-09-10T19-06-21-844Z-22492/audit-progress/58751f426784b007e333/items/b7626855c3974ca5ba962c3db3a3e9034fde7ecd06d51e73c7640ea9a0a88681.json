@@ -1,0 +1,53 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-home-active",
+  "item": "responsive",
+  "status": "needs_work",
+  "summary": "Inspected retained renders and measurement probes at 1440, 1280, 1024, 768, 390 and 375 px. Fonts load and right-side document overflow is nominal (0 px except 1 px at 375), but several page-owned sections are positioned far left of the viewport and their content/controls are clipped at every width below the 1920 px source. These widths are derived responsive behavior, not claimed Figma matches.",
+  "issues": [
+    "HOME-RESP-01 critical horizontal positioning: home-promotions, home-bundles and home-recommended have x=-66 at 1440, -146 at 1280, -274 at 1024, -402 at 768 and about -591/-599 at 390/375 despite viewport-width section boxes. Their cards, headings and controls are visibly cut off or nearly absent. Remove the fixed desktop centering/translation and keep the section wrapper within the viewport at each breakpoint.",
+    "HOME-RESP-02 critical blog visibility: home-blog shifts to x=-84 at 1280, -212 at 1024, -340 at 768 and about -529/-537 at 390/375. The mobile renders lose most/all of the blog cards and leave a large blank region. Rework the wrapper/grid to start within the viewport and stack cards at narrow widths.",
+    "HOME-RESP-03 high carousel usability: product sliders show isolated badges/images and blank space at tablet/mobile widths because their fixed desktop track remains translated off-canvas; navigation/progress controls are not visibly usable. Provide a bounded responsive slide width, initial translate and accessible controls for 1024/768/390/375.",
+    "HOME-RESP-04 medium narrow layout: 375 px records 1 px horizontal document overflow while 390 px records 0; eliminate the remaining 1 px overflow and validate both retained mobile widths after correcting negative-x sections.",
+    "Shared header/footer appearance was not re-audited in this route unit; findings above are limited to page-owned home sections."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/comparison.json",
+      "sha256": "4e081d5f6d25b3aa5003d87f1c3c1ca420b888509f7103c4a9a6af8f92529e61"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/responsive-1440.json",
+      "sha256": "7075cab5530d738b0b13ed664b7171a59c35cad4f74e20a56786081065cb6fc0"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/responsive-1280.json",
+      "sha256": "709b79a31facb4eb808d19d8efc7d42175b1ba0937884b659da334426c51d4dd"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/responsive-1024.json",
+      "sha256": "6b7576b2d543c6839a843754f040816765d93d0456671fe3378a32171604093b"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/responsive-768.json",
+      "sha256": "f9166a0c4d293cff4316e20a6378d35cba07abe9d6e7f00da09c78a7e3463e72"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/responsive-390.json",
+      "sha256": "6e9076c78a702f7db7dca4d0e3261155f6d54255138a52e70ccba4c7961a6c9f"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/responsive-375.json",
+      "sha256": "72981a2cefc860f3fdfbd81896e947249e48332a3a58946df535b52b1a231309"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/responsive-390.png",
+      "sha256": "7c4c4203acc8e31b71d49db2bf6035451582afc5e4e18a79537932bc012b6756"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/responsive-375.png",
+      "sha256": "9ea741daf9f40e97a359cab9d7b37ba06625c5a9405ed7776a73d80cb6ea464b"
+    }
+  ],
+  "completedAt": "2026-09-15T23:28:06.143Z"
+}

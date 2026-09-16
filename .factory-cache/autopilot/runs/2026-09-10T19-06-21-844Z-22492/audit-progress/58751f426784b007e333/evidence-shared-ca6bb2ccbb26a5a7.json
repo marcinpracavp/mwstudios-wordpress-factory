@@ -1,0 +1,16 @@
+{
+  "status": "needs_work",
+  "summary": "Compared checkout-login checkout-steps reference, rendered crop, diff, and retained geometry. Outer 951 x 106 bounds are within 1 px, but the progress indicator is undersized and compressed (19.432% mismatch).",
+  "issues": [
+    "VIS-CHECKOUT-STEPS-001 (high) — property: step circle size; expected: approximately 72 px diameter circles; actual: approximately 54 px circles; fix: match the source circle diameter, number size, and vertical alignment.",
+    "VIS-CHECKOUT-STEPS-002 (high) — property: horizontal distribution/connectors; expected: steps span nearly the full 951 px component with arrow-ended connectors; actual: content occupies only about 750 px, connectors are shorter, and arrowheads are absent; fix: distribute three steps across the source width and render exact source connector arrows.",
+    "VIS-CHECKOUT-STEPS-003 (medium) — property: label typography/position; expected: larger source labels centered below the circles; actual: labels are smaller/heavier and sit closer to the circles with different centers; fix: match source font metrics and label offsets.",
+    "VIS-CHECKOUT-STEPS-004 (low) — property: vertical section position; expected: y=376; actual: y=377; fix: align the component 1 px upward."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/checkout-steps-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/checkout-steps-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/checkout-steps-diff.png"
+  ]
+}

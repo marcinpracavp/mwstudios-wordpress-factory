@@ -1,0 +1,16 @@
+{
+  "status": "needs_work",
+  "summary": "Inspected the assigned product-related reference, rendered and diff crops and checked source records plus current geometry. The diagnostic crop difference is 17.713%; the rendered section is 197.94 px too tall, contains different products and has a collapsed card layout.",
+  "issues": [
+    "VIS-PRODUCT-RELATED-001 | priority critical | property native product content | expected: Stomp Aqua 455 CS 1L at 45,99 zł and Stomp Aqua 455 CS 5L at 534,60 zł with their matching source images | actual: Cabrio Duo 112 EC 10L at 981,68 zł and Darcos 250 EW 5L are rendered | fix: bind the related section to the two source-backed WooCommerce products, images and prices.",
+    "VIS-PRODUCT-RELATED-002 | priority critical | property geometry/card layout | expected: two approximately 345 px-wide cards side by side within a 710 x 570 section | actual: cards collapse into narrow columns, overflow vertically and make the section 767.94 px tall versus 570 px expected | fix: restore the two-column card geometry and bounded 570 px section composition.",
+    "VIS-PRODUCT-RELATED-003 | priority high | property copy/control structure | expected: one Produkty powiązane heading plus card dividers, quantity steppers and green cart buttons | actual: an extra unsourced Podobne produkty heading appears and source card controls are absent/mis-styled | fix: remove the extra heading and reproduce the source-backed native card controls."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product/product-related-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product/product-related-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product/product-related-diff.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/091-audit-round-0-58751f426784b007e333-route-product/source-context/section-09d07b607a4c57e0.json"
+  ]
+}

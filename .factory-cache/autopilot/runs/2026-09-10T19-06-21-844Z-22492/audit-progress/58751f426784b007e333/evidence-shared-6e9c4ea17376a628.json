@@ -1,0 +1,13 @@
+{
+  "status": "needs_work",
+  "summary": "Compared checkout-login shared-topbar reference, rendered crop, and diff; the promotion label is present but the source controls remain missing.",
+  "issues": [
+    "VIS-CHECKOUT-LOGIN-TOPBAR-001 (high) — property: promotional controls; expected: circular previous and next chevrons flanking '-30% z kodem BLACK' plus a right-aligned close icon; actual: only the centered promotion label renders; fix: render the exact source-backed chevron and close SVG controls at reference positions."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/shared-topbar-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/shared-topbar-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/shared-topbar-diff.png"
+  ]
+}

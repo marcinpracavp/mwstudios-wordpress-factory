@@ -1,0 +1,34 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-product-bundle",
+  "item": "section:product-legal-notices",
+  "status": "needs_work",
+  "summary": "Compared the product-legal-notices reference, rendered and diff crops with the frozen source records and current geometry. Although the wrapper geometry passes within 0.75 px, the authoritative retained reference and current render show different content at the assigned bounds (12.584% crop mismatch), so this section cannot pass visually.",
+  "issues": [
+    "PB-LEGAL-001 | priority: critical | property: section ordering/vertical content at y=2263..2550 | expected: the authoritative reference crop shows the lower portions of the two related-product cards and then white space | actual: the rendered crop begins immediately with the two legal-notice panels | fix: correct the page flow/section placement so the same source content occupies these coordinates; reconcile the legal-notices node position against the frozen full reference without editing source/reference data.",
+    "PB-LEGAL-002 | priority: high | property: legal notice visual verification | expected: legal copy must be evaluated at its actual source-backed position and against its matching visual pixels | actual: current assigned reference crop contains no legal-notice panels, while the render does, making their styling unverified at this coordinate | fix: after correcting page flow, regenerate the implementation comparison from the unchanged reference and audit the legal panels at their true matched position."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-bundle/comparison.json",
+      "sha256": "89d409e8575ea24865f2a0a206fb66acb04602cd717168a2242f712d5af38e02"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-bundle/product-legal-notices-reference.png",
+      "sha256": "8154bbed77e32f8fef0cce8e0038faff06ce70dd8e851c932b6ab6fc66db4a21"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-bundle/product-legal-notices-rendered.png",
+      "sha256": "75789afa181bb2fa14562f7d21795408902b0b899c739f27d48106f85531bd73"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-bundle/product-legal-notices-diff.png",
+      "sha256": "2c9bc77ea08e9e83c491fd152993a4ba2c950f01320cac71a121219655501f75"
+    },
+    {
+      "path": ".factory-cache/figma/latest/sections/49-product-legal-notices.json",
+      "sha256": "d296a6cd49fb69563c8e444eccb95317c1b49f2cb2458463bbcb817bec960a02"
+    }
+  ],
+  "completedAt": "2026-09-15T11:30:38.229Z"
+}

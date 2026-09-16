@@ -1,0 +1,35 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-checkout",
+  "item": "section:checkout-customer-details",
+  "status": "needs_work",
+  "summary": "Compared the retained customer-details source, reference, rendered crop and diff. The section bounds pass geometry (x +2 px, y +1.15625 px, exact width/height) and the crop ratio is 5.8308%, but several visible controls diverge from the source.",
+  "issues": [
+    "VIS-CHECKOUT-CUSTOMER-001 | high | checkout field geometry | Expected two 400 x 43 px controls per row with consistent rounded borders and 15 px left-aligned placeholder text; actual first-name and surname controls are approximately half-width, while multiple inputs are shorter and use centered text/darker borders. Fix the native WooCommerce field wrappers and input/select sizing, radius, border color and text alignment to the sourced grid.",
+    "VIS-CHECKOUT-CUSTOMER-002 | high | alternate-shipping checkbox | Expected a visible 25 x 25 px outlined checkbox followed by the label; actual crop shows only a thin vertical mark with no checkbox box. Restore the visible native checkbox control and sourced spacing without replacing its behavior.",
+    "VIS-CHECKOUT-CUSTOMER-003 | medium | vertical spacing | Expected larger row gaps and the required-fields/checkbox block near the source y positions; actual fields and bottom labels are pulled upward, leaving excessive empty space below. Match the sourced row and footer-control spacing while retaining the passing outer bounds."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/comparison.json",
+      "sha256": "f071c2eae56cc3188f09fe2edb1fe6522a928d779a30d651d1ce27e5f15c76ff"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/checkout-customer-details-reference.png",
+      "sha256": "479f7e6c644f89fc947352f1fc9f4190509a313f4f67d1d53c7a41df761fdbbe"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/checkout-customer-details-rendered.png",
+      "sha256": "6317722150e92f3136c16142608e42f6db06b8a882d2fa44c7935f9206b85b6e"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/checkout-customer-details-diff.png",
+      "sha256": "4148ac8ed71e4597ddacb434ef50f785b6f3851ffadf73b04b7efb3fa33d3e39"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/094-audit-round-0-58751f426784b007e333-route-checkout/source-context/section-b1b497d6cb440659.json",
+      "sha256": "eff301384af03dedd95d4c9cb1ef7bbf5ec3a2f553627921673dd9813cbba157"
+    }
+  ],
+  "completedAt": "2026-09-15T06:18:02.636Z"
+}

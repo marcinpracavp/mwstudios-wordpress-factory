@@ -1,0 +1,20 @@
+{
+  "status": "needs_work",
+  "summary": "Audited the about section using the retained crops, complete source content record, Figma image-fill transform, image diagnostics contract, and measured outer geometry.",
+  "issues": [
+    "ABOUT-001 high image crop: the correct sourced 130:140 photo is present and the outer image box is close, but expected Figma CROP uses imageTransform [[0.6415824,0,0.1294151],[0,0.9802662,0.0116106]]; actual centered cover produces materially shifted/larger subjects. Reproduce the source crop/object-position and the 30px radius/drop shadow rather than changing the photo.",
+    "ABOUT-002 high typography: expected a larger 64px-class heading and a bold lead paragraph spanning about 707px; actual heading is smaller and the lead is regular-weight/narrower with different wrapping. Match sourced font size, weight, line height, and column width.",
+    "ABOUT-003 medium body flow: expected the second paragraph to remain in a compact three-line block; actual inserts an isolated ‘Klienci’ line and expands to five lines. Correct content column width/font metrics and preserve the source line flow.",
+    "ABOUT-004 medium CTA: expected a 224x56 button; actual is roughly 176x54. Restore reference width, label/arrow spacing, and position.",
+    "Outer section geometry passes with +0.797px y delta; crop mismatch is 21.196%, with the photo interior explained by a provably incorrect crop transform rather than cosmetic raster noise."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home/home-about-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home/home-about-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home/home-about-diff.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/096-audit-round-0-58751f426784b007e333-route-home/source-context/section-daef81a4e48515d8.json",
+    ".factory-cache/figma/latest/sections/23-home-about.json",
+    ".factory-cache/figma/latest/assets/home/130-140-rectangle41.png"
+  ]
+}

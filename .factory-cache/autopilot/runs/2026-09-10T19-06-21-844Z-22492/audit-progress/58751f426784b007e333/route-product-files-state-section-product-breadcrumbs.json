@@ -1,0 +1,15 @@
+{
+  "status": "needs_work",
+  "summary": "Compared the assigned product-breadcrumbs source record and exact 1920 px reference/render/diff crop. Geometry passes with x/width/height exact and a 1 px vertical delta; pixel difference is 7.4944%, but visible source content and styling do not match.",
+  "issues": [
+    "VIS-PRODUCT-BREADCRUMBS-001 | priority: high | property: breadcrumb content | expected: Strona główna / Środki ochrony Roślin / Herbicydy / Aquatos 5L | actual: Strona główna / Środki ochrony roślin / Aquatos 5L; the Herbicydy level is missing and Roślin capitalization differs | fix: render the complete native WooCommerce category hierarchy and preserve the sourced labels/capitalization.",
+    "VIS-PRODUCT-BREADCRUMBS-002 | priority: medium | property: typography/color | expected: the crop shows the final Aquatos 5L crumb in green and a visibly larger/lighter breadcrumb treatment | actual: Aquatos 5L is dark gray/bold and the overall trail is smaller/shorter | fix: align breadcrumb font metrics, weight and active-crumb green color to the source crop."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-files-state/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-files-state/product-breadcrumbs-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-files-state/product-breadcrumbs-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-files-state/product-breadcrumbs-diff.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/107-audit-round-0-58751f426784b007e333-route-product-files-state/source-context/section-4b45f0a152f84e7b.json"
+  ]
+}

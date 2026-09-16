@@ -1,0 +1,40 @@
+{
+  "id": "blog-archive-heading",
+  "manifestRecord": {
+    "id": "blog-archive-heading",
+    "name": "Blog archive heading",
+    "order": 38,
+    "pageId": "0:1",
+    "snapshot": "sections/38-blog-archive-heading.json",
+    "desktopNodeId": "327:3098",
+    "desktopReference": "references/sections/blog-archive-heading.png"
+  },
+  "contentFields": [
+    {
+      "section": "blog-archive-heading",
+      "nodeId": "327:3098",
+      "fieldName": "rudnikagro_blog_archive_heading_banner_label",
+      "type": "text",
+      "language": "pl",
+      "value": "Blog",
+      "destination": "ACF archive options / Blog header tab",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "327:3098"
+      }
+    },
+    {
+      "section": "blog-archive-heading",
+      "nodeId": "327:2987",
+      "fieldName": "rudnikagro_blog_archive_heading_breadcrumb",
+      "type": "text",
+      "language": "pl",
+      "value": "Strona gÅ‚Ã³wna / Blog",
+      "destination": "ACF archive options / Blog header tab",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "327:2987"
+      }
+    }
+  ]
+}

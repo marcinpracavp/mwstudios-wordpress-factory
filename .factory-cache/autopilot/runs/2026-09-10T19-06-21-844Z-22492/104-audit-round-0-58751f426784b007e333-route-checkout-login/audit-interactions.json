@@ -1,0 +1,14 @@
+{
+  "status": "needs_work",
+  "summary": "Ran a fresh isolated Google Chrome context against https://autopilot.local/zamowienie/ without submitting any form. Verified the native POST login form and required username/password controls, toggled and reset the remember-me checkbox, opened the registration dialog and closed it with Escape with focus restoration, and followed the password-recovery and guest-continuation links. No page or console errors were observed. The authenticated login outcome was not submitted because no genuine authorized account credentials were provided.",
+  "issues": [
+    "CHK-INT-LOGIN-001 | critical | guest continuation behavior | Expected: selecting 'Kontynuuj jako gość' advances the isolated checkout session past the login/account-choice step to the delivery and payment step without placing an order. Actual: its href is the current /zamowienie/ URL; after a real click and navigation the final URL remains /zamowienie/, checkout-login-options is still visible, and advancedPastLoginStep is false. Fix: wire the control to a native WooCommerce guest-checkout transition that establishes the intended checkout state and displays the next step; keep order/payment submission outside this action."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/104-audit-round-0-58751f426784b007e333-route-checkout-login/interaction-probe-results.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/104-audit-round-0-58751f426784b007e333-route-checkout-login/probe-interactions.js",
+    "partials/checkout-login-options.php",
+    "src/js/checkout.js"
+  ]
+}

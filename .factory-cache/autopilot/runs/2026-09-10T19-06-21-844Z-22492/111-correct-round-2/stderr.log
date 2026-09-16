@@ -1,0 +1,4 @@
+2026-09-16T07:21:05.574888Z ERROR codex_models_manager::manager: failed to load models cache: EOF while parsing a value at line 1 column 0
+2026-09-16T07:24:57.620127Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in C:\Users\HP\Local Sites\autopilot\app\public\wp-content\themes\slawinsky-boilerplate\single-product.php:
+    <?php if (function_exists('woocommerce_related_products')) : ?><section class="c-product__related" data-factory-section="product-related"><h2>Produkty powiÄ…zane</h2><?php woocommerce_related_products(['posts_per_page' => 2, 'columns' => 2]); ?></section><?php endif; ?>
+2026-09-16T07:31:12.418300Z ERROR codex_core::session: failed to record rollout items: thread 01a0a912-50a0-7e93-ab45-3d6818143e9c not found

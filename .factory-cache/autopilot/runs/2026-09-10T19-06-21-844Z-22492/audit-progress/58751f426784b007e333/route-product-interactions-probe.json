@@ -1,0 +1,156 @@
+{
+  "browser": "Google Chrome",
+  "url": "https://autopilot.local/product/aquatos-5l/",
+  "isolatedContext": true,
+  "safeGuards": {
+    "blockedNonReadRequests": true,
+    "clickedAddToCart": false,
+    "submittedForms": false,
+    "placedOrder": false,
+    "sentEmail": false
+  },
+  "blockedMutationRequests": [],
+  "consoleErrors": [],
+  "pageErrors": [],
+  "tests": {
+    "tabs": [
+      {
+        "key": "technical",
+        "label": "Dane techniczne",
+        "selectedCount": 1,
+        "selected": "true",
+        "activePanels": [
+          "technical"
+        ],
+        "hash": "#technical"
+      },
+      {
+        "key": "description",
+        "label": "Opis produktu",
+        "selectedCount": 1,
+        "selected": "true",
+        "activePanels": [
+          "description"
+        ],
+        "hash": "#description"
+      },
+      {
+        "key": "use",
+        "label": "Stosowanie",
+        "selectedCount": 1,
+        "selected": "true",
+        "activePanels": [
+          "use"
+        ],
+        "hash": "#use"
+      },
+      {
+        "key": "reviews",
+        "label": "Opinie",
+        "selectedCount": 1,
+        "selected": "true",
+        "activePanels": [
+          "reviews"
+        ],
+        "hash": "#reviews"
+      },
+      {
+        "key": "downloads",
+        "label": "Pliki do pobrania",
+        "selectedCount": 1,
+        "selected": "true",
+        "activePanels": [
+          "downloads"
+        ],
+        "hash": "#downloads"
+      }
+    ],
+    "descriptionExpand": {
+      "present": true,
+      "before": "c-product__expanded",
+      "after": "c-product__expanded is-open",
+      "triggerHidden": true
+    },
+    "inquiry": {
+      "openControlPresent": true,
+      "open": {
+        "classOpen": true,
+        "ariaHidden": "false"
+      },
+      "closed": {
+        "classOpen": false,
+        "ariaHidden": "true"
+      }
+    },
+    "variations": {
+      "selectCount": 1,
+      "selects": [
+        {
+          "name": "attribute_pojemnosc",
+          "options": [
+            {
+              "value": "",
+              "label": "Wybierz opcję",
+              "disabled": false
+            },
+            {
+              "value": "1 L",
+              "label": "1 L",
+              "disabled": false
+            },
+            {
+              "value": "5 L",
+              "label": "5 L",
+              "disabled": false
+            },
+            {
+              "value": "20 L",
+              "label": "20 L",
+              "disabled": false
+            }
+          ],
+          "selectedValue": "1 L"
+        }
+      ],
+      "cartButton": {
+        "disabled": false,
+        "className": "single_add_to_cart_button button alt",
+        "text": "Dodaj do koszyka"
+      },
+      "variationId": "118",
+      "optionStates": [
+        {
+          "value": "1 L",
+          "label": "1 L",
+          "variationId": "118",
+          "cartDisabled": false,
+          "variationPrice": "82,20 zł"
+        },
+        {
+          "value": "5 L",
+          "label": "5 L",
+          "variationId": "119",
+          "cartDisabled": false,
+          "variationPrice": "82,20 zł"
+        },
+        {
+          "value": "20 L",
+          "label": "20 L",
+          "variationId": "120",
+          "cartDisabled": false,
+          "variationPrice": "411,00 zł"
+        }
+      ]
+    },
+    "quantity": {
+      "inputPresent": true,
+      "inputValue": "1",
+      "stepButtonCount": 0
+    },
+    "tabsPassed": true,
+    "descriptionExpandPassed": true,
+    "inquiryPassed": true,
+    "variationsPassed": true
+  },
+  "title": "Aquatos 5L – Safegold"
+}

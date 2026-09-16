@@ -75,6 +75,9 @@ The product-archive route now references a separate lossless 1920x4919 frame-bou
 
 ## Blog discovery gaps
 
+<!-- factory-secondary-navigation-destination-gap -->
+- Shared secondary-navigation source node `93:28` supplies the six visible labels, including `Poradnik dla rolnika`, but carries no individual hyperlink or reaction destination. The item remains visible as source-backed editable ACF text without an invented local or external URL. An approved destination is required before it can become an actionable native menu link.
+
 The blog archive and related-post cards contain no captured reactions or destinations. Their titles, dates, labels and media are imported exactly as supplied; local WordPress post permalinks are an implementation decision. Eleven visible card titles have no supplied article body, author, category or destination, so no such content is invented.
 
 The archive source visibly supplies pagination labels 1–7 and a next-chevron, but only the twelve visible cards are supplied. The labels are rendered with native WordPress pagination markup; no unsupplied posts, article bodies, or results are created for later pages.

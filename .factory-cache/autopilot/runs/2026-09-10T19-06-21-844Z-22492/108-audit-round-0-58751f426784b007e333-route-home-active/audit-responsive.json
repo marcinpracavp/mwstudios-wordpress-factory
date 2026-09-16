@@ -1,0 +1,22 @@
+{
+  "status": "needs_work",
+  "summary": "Inspected retained renders and measurement probes at 1440, 1280, 1024, 768, 390 and 375 px. Fonts load and right-side document overflow is nominal (0 px except 1 px at 375), but several page-owned sections are positioned far left of the viewport and their content/controls are clipped at every width below the 1920 px source. These widths are derived responsive behavior, not claimed Figma matches.",
+  "issues": [
+    "HOME-RESP-01 critical horizontal positioning: home-promotions, home-bundles and home-recommended have x=-66 at 1440, -146 at 1280, -274 at 1024, -402 at 768 and about -591/-599 at 390/375 despite viewport-width section boxes. Their cards, headings and controls are visibly cut off or nearly absent. Remove the fixed desktop centering/translation and keep the section wrapper within the viewport at each breakpoint.",
+    "HOME-RESP-02 critical blog visibility: home-blog shifts to x=-84 at 1280, -212 at 1024, -340 at 768 and about -529/-537 at 390/375. The mobile renders lose most/all of the blog cards and leave a large blank region. Rework the wrapper/grid to start within the viewport and stack cards at narrow widths.",
+    "HOME-RESP-03 high carousel usability: product sliders show isolated badges/images and blank space at tablet/mobile widths because their fixed desktop track remains translated off-canvas; navigation/progress controls are not visibly usable. Provide a bounded responsive slide width, initial translate and accessible controls for 1024/768/390/375.",
+    "HOME-RESP-04 medium narrow layout: 375 px records 1 px horizontal document overflow while 390 px records 0; eliminate the remaining 1 px overflow and validate both retained mobile widths after correcting negative-x sections.",
+    "Shared header/footer appearance was not re-audited in this route unit; findings above are limited to page-owned home sections."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/responsive-1440.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/responsive-1280.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/responsive-1024.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/responsive-768.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/responsive-390.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/responsive-375.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/responsive-390.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/responsive-375.png"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "status": "needs_work",
+  "summary": "Compared the assigned source record, reference, rendered crop, diff crop, geometry and crop metric for archive-category-introduction. The wrapper geometry passes with +1 px Y delta, but the rendered crop contains only the title; the entire sourced introduction and expand control are absent. Crop diff is 11.5829%.",
+  "issues": [
+    "PA-INTRO-001 [P1] content/visibility: expected the sourced 18 px category body with bottom fade and the Rozwiń control at 149x44 px; actual rendered crop shows neither element. Fix: render the native category introduction and sourced expand control within the already matching section bounds."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-archive/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-archive/archive-category-introduction-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-archive/archive-category-introduction-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-archive/archive-category-introduction-diff.png",
+    ".factory-cache/figma/latest/sections/69-archive-category-introduction.json"
+  ]
+}

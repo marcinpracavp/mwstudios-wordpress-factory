@@ -1,0 +1,66 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-product",
+  "item": "responsive",
+  "status": "needs_work",
+  "summary": "Inspected retained screenshots and measurement JSON at 1440, 1280, 1024, 768, 390 and 375 px. Fonts load at every width and the page sections stack without section-bound overflow; the fixed-width tab strip is intentionally contained by horizontal scrolling. The 375 px capture is nevertheless unhealthy with 14 px document overflow, and related-product cards/controls remain collapsed across responsive widths.",
+  "issues": [
+    "RESP-PRODUCT-001 | priority high | property horizontal overflow at 375 px | expected: document overflow 0 and every page-owned control within x 0..375 | actual: overflow is 14 px; the first related-product Dodaj do koszyka control spans x 293.25..387.92 | fix: reflow or constrain the related-product card/control at the 375 px breakpoint.",
+    "RESP-PRODUCT-002 | priority high | property responsive related-card usability | expected: readable, consistently sized related-product cards and cart controls at 768, 390 and 375 px | actual: product-name columns are only about 79.6 px at 768 and 44.4 px at 390/375, cards are staggered vertically and CTA labels wrap into tall narrow blocks | fix: apply the intended WooCommerce card grid/selectors and a mobile layout that gives each card and CTA usable width."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product/comparison.json",
+      "sha256": "2a7d9bd010e784dab31e6b90675f591d2ab2ec7f0f36c85b05ff271f732d6b3d"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product/responsive-1440.json",
+      "sha256": "870a523b3a49d380e8afeb49f37d600d795c0bb1c97a3a7497d94822b32101b7"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product/responsive-1440.png",
+      "sha256": "2683553ca84b925ec811ca5a1ed1396fe9c4d8e54037af2998a1ed73dbac4079"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product/responsive-1280.json",
+      "sha256": "f959d881f0d9fce6855b848939947de9fecf3ec626d45bd750c01950a37171cd"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product/responsive-1280.png",
+      "sha256": "fc3535369a8af4e75f04da8a0843aec16fd230de4e2a09ab1e06f8d84292a767"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product/responsive-1024.json",
+      "sha256": "9f029ec7c7e24036d00d877cb0e600d1e8050b01326973ddadc4cd18a5289e19"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product/responsive-1024.png",
+      "sha256": "5bbdcd8a12aae7af02ded21b0f6cc753505a677d2ea3bf30409a067b33d0b32c"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product/responsive-768.json",
+      "sha256": "280feabd404e849a0cb8ac6054a23024924c10b245ef2eb08d2c3f9da1483f7f"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product/responsive-768.png",
+      "sha256": "929942c450b9e880c454bfb3144dab5a4cb5ba51fcc996af35dc0e94c1725176"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product/responsive-390.json",
+      "sha256": "09fd2e3a90063bb59cd443320e203c0f1524ced9757272933e09d1b82159524d"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product/responsive-390.png",
+      "sha256": "b3cf85553375ee16ac112bd280d519e4eadb437abd3df2125ffd5e47f96ddec2"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product/responsive-375.json",
+      "sha256": "d99210276df82d7b1c05fa13ccba074d266ba605f2a118eaf81a402e58f1dad0"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product/responsive-375.png",
+      "sha256": "75d5a24b191df079c694b736fbde6989d917cc14527512e9a4e2c7012b9578d4"
+    }
+  ],
+  "completedAt": "2026-09-14T22:21:17.808Z"
+}

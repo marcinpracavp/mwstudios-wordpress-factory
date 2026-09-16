@@ -1,0 +1,105 @@
+{
+  "id": "careers-vacancies",
+  "manifestRecord": {
+    "id": "careers-vacancies",
+    "name": "Oferty pracy",
+    "order": 31,
+    "pageId": "0:1",
+    "snapshot": "sections/31-careers-vacancies.json",
+    "desktopNodeId": "355:1423",
+    "desktopReference": "references/sections/careers-vacancies.png"
+  },
+  "contentFields": [
+    {
+      "section": "careers-vacancies",
+      "nodeId": "355:1401",
+      "fieldName": "rudnikagro_vacancies_0_title",
+      "type": "text",
+      "language": "pl",
+      "value": "Przedstawiciel handlowy - powiat Stargardzki, GryfiÅ„ski",
+      "destination": "ACF careers page / vacancies repeater title",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "355:1401"
+      }
+    },
+    {
+      "section": "careers-vacancies",
+      "nodeId": "355:1402",
+      "fieldName": "rudnikagro_vacancies_0_description",
+      "type": "wysiwyg",
+      "language": "pl",
+      "value": "<p><strong>Lokalizacja miejsca pracy:</strong> Powiaty Stargardzki i GryfiÅ„ski<br><strong>Stanowisko pracy:</strong> Przedstawiciel handlowy<br><strong>Wymiar Pracy:</strong> peÅ‚ny etat<br><strong>Rodzaj umowy:</strong> umowa o pracÄ™</p><p>Od ponad 20 lat wdraÅ¼amy najlepsze rozwiÄ…zania agronomiczne w sektorze rolniczym.<br>WspÃ³Å‚pracujemy z klientami na terenie caÅ‚ego kraju oraz krajÃ³w UE. Stawiamy na ludzi, wiedzÄ™ i rozwiÄ…zania.</p><p><strong>Opis stanowiska:</strong></p><ul><li>aktywne realizowanie celÃ³w sprzedaÅ¼owych</li><li>nawiÄ…zywanie i utrzymywanie relacji handlowych z klientem oraz wsparcie merytoryczne w gospodarstwach rolnych</li><li>poszerzanie bazy o nowych klientÃ³w</li><li>wdraÅ¼anie zaproponowanych rozwiÄ…zaÅ„ u klientÃ³w</li><li>dbanie o pozytywny wizerunek firmy</li><li>organizowanie spotkaÅ„ i warsztatÃ³w dla klientÃ³w</li><li>udziaÅ‚ w cyklu szkoleÅ„ w celu poszerzania wiedzy niezbÄ™dnej w doradztwie rolniczym</li><li>realizacja planÃ³w sprzedaÅ¼owych (sprzedaÅ¼ bezpoÅ›rednia Å›rodkÃ³w ochrony roÅ›lin, nasion oraz nawozÃ³w)</li></ul><p><strong>Wymagania:</strong><br>doÅ›wiadczenie w handlu z klientem indywidualnym</p><ul><li>praktycznej wiedzy z zakresu agronomi (doradztwo Å›rodkÃ³w ochrony roÅ›lin)</li><li>determinacji w dÄ…Å¼eniu do osiÄ…gniÄ™cia celu</li><li>umiejÄ™tnoÅ›ci samodzielnego efektywnego planowania pracy</li><li>motywacji do podnoszenia wÅ‚asnych kwalifikacji</li></ul><p>wyksztaÅ‚cenie min. Å›rednie, mile widziane rolnicze,</p><ul><li>skutecznoÅ›Ä‡ w dziaÅ‚aniach handlowych</li><li>zaangaÅ¼owanie, kreatywnoÅ›Ä‡</li><li>prawo jazdy kat.B.</li><li>Å‚atwe nawiÄ…zywanie kontaktÃ³w, komunikatywnoÅ›Ä‡</li></ul><p>KorzyÅ›ci pÅ‚ynÄ…ce z zatrudnienia w Naszej firmie:</p><ul><li>stabilne zatrudnienie w oparciu o umowÄ™ o pracÄ™,</li><li>atrakcyjne wynagrodzenie,</li><li>praca w dynamicznie rozwijajÄ…cej siÄ™ firmie,</li><li>niezbÄ™dne narzÄ™dzia pracy</li><li>moÅ¼liwoÅ›Ä‡ rozwoju zawodowego,</li><li>moÅ¼liwoÅ›Ä‡ podnoszenia kwalifikacji poprzez specjalistyczne kursy i szkolenia,</li><li>niezaleÅ¼noÅ›Ä‡ i samodzielne realizowanie ambitnych wyzwaÅ„,</li><li>przyjazna oraz partnerska atmosfera w pracy,</li></ul><p>Osoby zainteresowane pracÄ… prosimy o kontakt telefoniczny w godz. 9-16 na numer: <strong>tel. 532 088 333</strong></p>",
+      "destination": "ACF careers page / vacancies repeater description; exact Figma draft content",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "355:1402"
+      }
+    },
+    {
+      "section": "careers-vacancies",
+      "nodeId": "355:1420",
+      "fieldName": "rudnikagro_vacancies_1_title",
+      "type": "text",
+      "language": "pl",
+      "value": "Pracownik biurowy - Pyrzyce",
+      "destination": "ACF careers page / vacancies repeater title",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "355:1420"
+      }
+    },
+    {
+      "section": "careers-vacancies",
+      "nodeId": "355:1427",
+      "fieldName": "rudnikagro_vacancies_2_title",
+      "type": "text",
+      "language": "pl",
+      "value": "Specjalista w dziale handlu nawozami (aktualne)",
+      "destination": "ACF careers page / vacancies repeater title",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "355:1427"
+      }
+    },
+    {
+      "section": "careers-vacancies",
+      "nodeId": "355:1432",
+      "fieldName": "rudnikagro_vacancies_3_title",
+      "type": "text",
+      "language": "pl",
+      "value": "Przedstawiciel Handlowy woj. wielkopolskie (aktualne)",
+      "destination": "ACF careers page / vacancies repeater title",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "355:1432"
+      }
+    },
+    {
+      "section": "careers-vacancies",
+      "nodeId": "355:1436",
+      "fieldName": "rudnikagro_vacancies_4_title",
+      "type": "text",
+      "language": "pl",
+      "value": "Magazynier/aprzedawca - oddziaÅ‚ Pyrzyce (aktualne)",
+      "destination": "ACF careers page / vacancies repeater title; editorial review required for source typo",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "355:1436"
+      }
+    },
+    {
+      "section": "careers-vacancies",
+      "nodeId": "355:1441",
+      "fieldName": "rudnikagro_vacancies_5_title",
+      "type": "text",
+      "language": "pl",
+      "value": "Przedstawiciel handlowy woj. zachodniopomorskie, pow. stargardzki, goleniowski, koÅ‚obrzeski (aktualne)",
+      "destination": "ACF careers page / vacancies repeater title",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "355:1441"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "status": "needs_work",
+  "summary": "Compared the careers page-banner reference, rendered crop, and diff. The image, overlay, rounded shape, and 1440 x 220 banner geometry align closely, but the breadcrumb styling is visibly incorrect.",
+  "issues": [
+    "VIS-PAGE-BANNER-CAREERS-001 (medium) — property: breadcrumb colors and typography; expected: muted-gray 'Strona główna' and separator with green active 'Kariera' in the source font metrics; actual: the rendered breadcrumb is uniformly black with different glyph weight/spacing; fix: apply the source breadcrumb inactive, separator, and active color tokens and matching text metrics.",
+    "VIS-PAGE-BANNER-CAREERS-002 (low) — property: vertical placement; expected: section y=218; actual: y=219 (1 px lower, although the automated geometry tolerance passes); fix: align the shared banner wrapper to the source header offset when shared header geometry is corrected."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/careers-heading-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/careers-heading-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/careers-heading-diff.png"
+  ]
+}

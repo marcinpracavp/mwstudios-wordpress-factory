@@ -1,0 +1,35 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-careers",
+  "item": "section:careers-vacancies",
+  "status": "needs_work",
+  "summary": "Inspected the assigned careers-vacancies reference, rendered crop and diff against the frozen 1920 px source. The section wrapper geometry passes (expected 362,486,1196x2290; actual 362,487,1196x2290), but the crop differs by 9.3498% and contains visible internal layout/control mismatches.",
+  "issues": [
+    "CAR-VAC-001 | priority: high | property: first-row form grid width | expected: the Imię i nazwisko field spans the full 994 px inner form width in the reference | actual: the rendered field collapses to roughly one narrow column while the remaining row is empty | fix: restore the source-backed full-row grid span for the name field without changing the passing section bounds.",
+    "CAR-VAC-002 | priority: medium | property: attachment control icon | expected: the source upload/document icon is displayed at the right of the Załącz CV control | actual: the rendered control shows a small downward chevron | fix: render the exact sourced editable SVG attachment icon for the file control.",
+    "CAR-VAC-003 | priority: medium | property: vacancy body typography and vertical rhythm | expected: source line boxes and paragraph/list spacing align with the retained reference | actual: diff overlay shows repeated doubled text baselines and accumulated vertical displacement through body copy | fix: align line-height and paragraph/list margins to the source while preserving the passing outer geometry."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/comparison.json",
+      "sha256": "c25f99b2bcc264070551b6e039f28dda21e564760a062cff7c62bba332f4c82c"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/careers-vacancies-reference.png",
+      "sha256": "b522fa72e196089478537d47202562852b3c0265c3da05e2c132a3ed9bb43b01"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/careers-vacancies-rendered.png",
+      "sha256": "b2130491e6d0b9391cc33fe3e72ae73d31b2230751ee659533a759e0850b631a"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/careers-vacancies-diff.png",
+      "sha256": "14bf612f7b2b87591dde7fc5bb17051ad10c931a627b5c7f7d8304191d002876"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/084-audit-round-0-58751f426784b007e333-route-careers/source-context/scope.json",
+      "sha256": "7fe3f8b5d4fcb2f9989cb3d73760ac9a1563474e239beabe2dd6a01579e610dd"
+    }
+  ],
+  "completedAt": "2026-09-14T15:56:14.141Z"
+}

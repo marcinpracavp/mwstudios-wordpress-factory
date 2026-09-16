@@ -1,0 +1,58 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-catalogues",
+  "item": "responsive",
+  "status": "needs_work",
+  "summary": "Inspected retained route screenshots and probes at 1440, 1280, 1024, 768, 390 and 375 px. All six renders are marked healthy and fontsReady is true. The assigned catalogue section remains within the viewport, but cover images materially obscure headings and action labels at 1024, 390 and 375 px; the 375 px probe also reports overflow=1.",
+  "issues": [
+    "RESP-CAT-001 (high) — property: responsive content readability. Expected: a derived responsive layout with both catalogue headings and action labels unobscured. Actual: at 1024 px the agricultural title spans x=62..460 while its cover spans x=203..502 (257 px intersection); at 390 px the title spans x=50..340 while its cover spans x=103..370 (237 px intersection); at 375 px the title spans x=50..325 while its cover spans x=88..355 (237 px intersection). The screenshots show the same covers crossing action-label regions. Fix: reserve a non-overlapping text zone or reposition/resize the cover at these breakpoints while retaining both sourced actions.",
+    "RESP-CAT-002 (low) — property: horizontal overflow. Expected: zero horizontal overflow at every retained width. Actual: responsive-375.json reports overflow=1 while the other five widths report zero. Fix: locate the 1 px route-level overflow source at 375 px and constrain that element without blanket overflow hiding; do not attribute or alter separately owned shared components in this route unit."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/catalogues/comparison.json",
+      "sha256": "9a460e23caa1a28985cf8938adefd4971a0e7e2766e4c8a57ec607c6a9d8af01"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/catalogues/responsive-1440.json",
+      "sha256": "d2783d317c1cc1fcbf5603082914e58f6c205697c246dd185f06972c195e994b"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/catalogues/responsive-1280.json",
+      "sha256": "7ea55ddc29b5604a37459239fbc79c019554b7cbe13286d982eb26e7ad267ef2"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/catalogues/responsive-1024.json",
+      "sha256": "6917f611b19e6bcaa26b4460280d3ecc49bb3a9e206fd6778675b0066e6b4382"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/catalogues/responsive-768.json",
+      "sha256": "401f0c6e0ac514cbe1589a390669c98424b6f16de08e5684863547b1c96544e7"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/catalogues/responsive-390.json",
+      "sha256": "3add477ec338bc305ada4b1c1efb01e096fe7212a6854697b4e3e5fb2fd74c75"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/catalogues/responsive-375.json",
+      "sha256": "67aa245d56629259a1ce6805c9f0876509497e637f6c08d693e9ed1d5c460fe5"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/catalogues/responsive-1024.png",
+      "sha256": "938bedcb20f005723267af156fa73d897008819d29af66721eb39186dcd96fed"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/catalogues/responsive-390.png",
+      "sha256": "ba5af4d3bbaa0f285e84a296891c4dead3116b3046d88ec2878ee8ef61f8eec6"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/catalogues/responsive-375.png",
+      "sha256": "2bd02f60e87038f531db4c0f1b87ee83f9862f459bc5d6e6d11152dec36bd594"
+    },
+    {
+      "path": "src/css/pages/_catalogues.scss",
+      "sha256": "fcea1a7eadf5f2708f60e4c960a15a9109b56f2f6c11a4146b6f9fd55ac4a7dc"
+    }
+  ],
+  "completedAt": "2026-09-14T16:13:37.745Z"
+}

@@ -1,0 +1,30 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-product-reviews-state",
+  "item": "interactions",
+  "status": "needs_work",
+  "summary": "Ran a fresh headless Google Chrome session in an isolated 375 px browser context on the assigned #reviews URL. No forms, messages, cart checkout or orders were submitted. Hash-driven activation and pointer clicks correctly switch between description and reviews with exactly one selected tab/active panel and no console/page errors, but mobile visibility and keyboard behavior fail.",
+  "issues": [
+    "AUD-PRODUCT-INT-001 (high, deep-link visibility): on initial #reviews load, reviews is selected and its panel is active, but the 335 px tab scroller remains at scrollLeft=0 while the selected tab lies at viewport x=410..540, completely off-screen. Scroll the selected hash tab into view on initialization or use a layout that keeps the active control visible.",
+    "AUD-PRODUCT-INT-002 (high, keyboard tabs): after focusing the reviews role=tab control, ArrowRight leaves focus and selection on reviews and the hash unchanged instead of navigating to the next tab. Implement the expected tablist keyboard model (arrow navigation plus consistent focus/selection state)."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-reviews-state/comparison.json",
+      "sha256": "60fb274073d4fb6bf964080254f0a3d61455af90083b78a430d8c78e4719841f"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/106-audit-round-0-58751f426784b007e333-route-product-reviews-state/interaction-probe.json",
+      "sha256": "2df3826de72f598ea63131e12ea270966fc81f3756860e976ac0391f41df469e"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/106-audit-round-0-58751f426784b007e333-route-product-reviews-state/interaction-reviews-after-click.png",
+      "sha256": "c3271c9b5bccc21d1b1739d1c78966f5a0fe69f2d8288c243e3770605dc9becb"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/106-audit-round-0-58751f426784b007e333-route-product-reviews-state/run-interaction-probe.js",
+      "sha256": "5f3095ce220772b07900a6617af18d6d04336f6cdb74cfba15c109fb1ac65c6c"
+    }
+  ],
+  "completedAt": "2026-09-15T18:10:35.765Z"
+}

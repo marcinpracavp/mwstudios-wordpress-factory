@@ -1,0 +1,17 @@
+{
+  "status": "needs_work",
+  "summary": "Compared the retained totals source, reference, rendered crop and diff. The section bounds pass geometry (x 0 px, y +1.15625 px, exact width/height), but the crop differs by 22.0914% and the visible native coupon/totals controls diverge substantially.",
+  "issues": [
+    "VIS-CHECKOUT-TOTALS-001 | high | coupon control layout | Expected a 238 x 43 px input and adjacent 151 x 44 px green rounded Dodaj kod button; actual input spans most of the card and the gray rectangular button wraps below it. Apply the sourced two-column coupon geometry, radius, colors and typography to the native coupon controls.",
+    "VIS-CHECKOUT-TOTALS-002 | high | totals row alignment/content chrome | Expected labels on the left and amounts right-aligned against a consistent edge, with compact row spacing and no visible removal control; actual values begin near the labels, the discount is rendered as -50,00 zł [Usuń], and rows visually collide in the diff. Preserve native calculated amounts but style the table alignment and non-source removal UI to the source-backed presentation.",
+    "VIS-CHECKOUT-TOTALS-003 | high | place-order button | Expected a 224 x 44 px green pill aligned to the lower right; actual button is purple, rectangular and left aligned. Style the native place-order button to the sourced size, color, radius and position without submitting an order.",
+    "VIS-CHECKOUT-TOTALS-004 | medium | heading and total typography | Expected bold 24 px summary heading, restrained labels, divider and 32 px final amount with Do zapłaty on the left; actual hierarchy, spacing and amount position differ visibly. Match the sourced typography and vertical rhythm."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/checkout-totals-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/checkout-totals-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/checkout-totals-diff.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/094-audit-round-0-58751f426784b007e333-route-checkout/source-context/section-09dff63cf4cdbe9b.json"
+  ]
+}

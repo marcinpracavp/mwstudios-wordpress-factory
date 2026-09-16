@@ -54,7 +54,32 @@ $primary_image = (int) ($gallery[0] ?? get_post_thumbnail_id());
       <div class="c-product__panel" data-product-panel="downloads"><?php foreach ($downloads as $download) : if (!empty($download['label'])) : ?><p class="c-product__download"><?php if (!empty($icons['download_icon'])) : ?><img src="<?php echo esc_url(wp_get_attachment_url((int) $icons['download_icon'])); ?>" alt="" aria-hidden="true"><?php endif; ?><?php if (!empty($download['file'])) : ?><a href="<?php echo esc_url(wp_get_attachment_url((int) $download['file'])); ?>"><?php endif; echo esc_html($download['label']); if (!empty($download['file'])) : ?></a><?php endif; ?></p><?php endif; endforeach; ?></div>
       </div>
     </section>
-    <?php if (function_exists('woocommerce_related_products')) : ?><section class="c-product__related" data-factory-section="product-related"><h2>Produkty powiązane</h2><?php woocommerce_related_products(['posts_per_page' => 2, 'columns' => 2]); ?></section><?php endif; ?>
+    <?php
+    // The importer stores the two source-backed cards as WooCommerce upsells.
+    // Do not use Woo's category-derived related-products query: it can replace
+    // the captured cards with unrelated native products.
+    $related_ids = $product instanceof WC_Product ? array_values(array_filter(array_map('absint', $product->get_upsell_ids()))) : [];
+    if ($related_ids) :
+      $main_product = $product;
+      global $post;
+      $main_post = $post;
+    ?>
+      <section class="c-product__related" data-factory-section="product-related"><h2>Produkty powiązane</h2><ul class="products columns-2">
+      <?php foreach ($related_ids as $related_id) :
+        $related_post = get_post($related_id);
+        $related_product = function_exists('wc_get_product') ? wc_get_product($related_id) : null;
+        if (!$related_post || !$related_product || !$related_product->is_visible()) { continue; }
+        $post = $related_post;
+        $product = $related_product;
+        setup_postdata($post);
+        wc_get_template_part('content', 'product');
+      endforeach;
+      $post = $main_post;
+      $product = $main_product;
+      wp_reset_postdata();
+      ?>
+      </ul></section>
+    <?php endif; ?>
     <?php if ($notices) : ?><section class="c-product__notices" data-factory-section="product-legal-notices"><?php foreach ($notices as $notice) : ?><div><?php echo wp_kses_post($notice['text'] ?? ''); ?></div><?php endforeach; ?></section><?php endif; ?>
   </div>
   <section class="c-product__dialog" data-product-inquiry data-factory-section="product-inquiry-dialog" aria-hidden="true"><button type="button" aria-label="Zamknij" data-product-inquiry-close>×</button><h2><?php echo esc_html($inquiry['heading'] ?? ''); ?></h2><?php if (!empty($inquiry['form']) && function_exists('do_shortcode')) { echo do_shortcode('[contact-form-7 id="' . (int) $inquiry['form'] . '"]'); } ?></section>

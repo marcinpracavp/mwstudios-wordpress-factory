@@ -1,0 +1,74 @@
+{
+  "ledger": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/ledger.json",
+  "key": "58751f426784b007e333",
+  "unit": "route-product-inquiry",
+  "routes": [
+    "product-inquiry"
+  ],
+  "pending": [
+    {
+      "id": "section:product-related",
+      "kind": "visual",
+      "section": "product-related",
+      "route": "product-inquiry",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-inquiry/comparison.json",
+      "owner": "page"
+    },
+    {
+      "id": "section:product-legal-notices",
+      "kind": "visual",
+      "section": "product-legal-notices",
+      "route": "product-inquiry",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-inquiry/comparison.json",
+      "owner": "page"
+    },
+    {
+      "id": "responsive",
+      "kind": "responsive",
+      "route": "product-inquiry",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-inquiry/comparison.json"
+    },
+    {
+      "id": "interactions",
+      "kind": "interactions",
+      "route": "product-inquiry",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-inquiry/comparison.json"
+    }
+  ],
+  "completed": [
+    {
+      "item": "section:product-breadcrumbs",
+      "status": "needs_work",
+      "checkpoint": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/2852e792f3d15d0cad9631dfa352563b158f775920edd943470029ebda42978b.json"
+    },
+    {
+      "item": "section:product-inquiry-overview",
+      "status": "needs_work",
+      "checkpoint": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/b77c52d5f07caf3e298b21f24b1d9e673a385d85d2132d3733465cfaf6ad5a60.json"
+    },
+    {
+      "item": "section:product-inquiry-dialog",
+      "status": "needs_work",
+      "checkpoint": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/cebcb60b033a7618a67a9adddbb1dcd2fb3a4fe66240fc9da05ced602181f7c0.json"
+    }
+  ],
+  "legacyEvidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/081-audit-round-0/audit-metrics.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/cart-interaction-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/interaction-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/native-commerce-icons-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/responsive-audit.json"
+  ],
+  "checkpointCommand": "node scripts/factory/autopilot/audit-progress.js record .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/ledger.json route-product-inquiry <item-id> <input-json>",
+  "recordSchema": {
+    "status": "passed|needs_work|blocked",
+    "summary": "What was actually checked",
+    "issues": [
+      "Concrete finding or untestable limitation"
+    ],
+    "evidence": [
+      "Existing theme-relative FILE paths; include the assigned comparison for route checks"
+    ]
+  },
+  "instruction": "Check ONLY pending items. Save an atomic checkpoint immediately after each item, before starting the next. Existing completed items must not be reread or repeated. Earlier partial evidence is a candidate: inspect only relevant records and verify applicability; never assume old PASS. Missing genuine inputs are recorded blocked with evidence, then continue other items."
+}

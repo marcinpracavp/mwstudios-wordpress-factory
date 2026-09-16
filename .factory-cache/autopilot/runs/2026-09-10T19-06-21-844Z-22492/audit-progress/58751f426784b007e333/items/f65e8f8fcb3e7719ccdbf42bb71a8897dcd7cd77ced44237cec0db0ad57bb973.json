@@ -1,0 +1,60 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-product-expanded",
+  "item": "responsive",
+  "status": "needs_work",
+  "summary": "Inspected all retained responsive captures and exact JSON probes at 1440, 1280, 1024, 768, 390 and 375 px, then verified current DOM geometry and controls in fresh isolated read-only browser contexts at the same widths. Fonts are ready and global overflow is zero from 1440 through 390, but the mobile layout is unhealthy; 375 has 14 px document overflow.",
+  "issues": [
+    "RESP-01 critical horizontal overflow: expected document width to remain within the 375 px viewport; actual scrollWidth exceeds clientWidth by 14 px and the product-related 'Dodaj do koszyka' control ends at x 387.921875. Constrain the related-card grid/control widths at the 375 breakpoint.",
+    "RESP-02 high mobile rich-text layout: expected derived responsive content to use the available 335 px (375 viewport) and 350 px (390 viewport) content area; actual product-expanded-description is only 187 px and 202 px wide at x 94, producing page heights about 14,199 px and 13,413 px and a visibly unusable narrow text column. Make the expanded description span the mobile content width.",
+    "RESP-03 high tab controls: expected all product-tab controls to remain reachable and visibly navigable on mobile; actual tab list is fixed at 650 px, with 'Stosowanie' ending at x 410 and the later 'Opinie'/'Pliki do pobrania' controls extending to x 540/x 670. Implement a clear wrapping or accessible horizontal-scroll treatment within the viewport.",
+    "RESP-04 high responsive cards: at 768, 390 and 375 the related products collapse into tiny scattered fragments with excessive blank space instead of readable cards; at 375 one cart link itself overflows. Reflow related cards to a stable one- or two-column derived mobile layout."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-expanded/comparison.json",
+      "sha256": "3ad8495bb06af1a307f3bd711df319833773dd7c35f0a8d10dc670d180917558"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-expanded/responsive-1440.json",
+      "sha256": "87ca728f5e43427bc2988fe08d0c76b7c4d69696096943c220ec9d65617b2d25"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-expanded/responsive-1280.json",
+      "sha256": "233c685cb8271c1c534e1dae438e714f60ef64cf323f0287d36a8398aa498b7a"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-expanded/responsive-1024.json",
+      "sha256": "e80610fdc7432116e0d4e7065c0e7e49cfd2c363f566b629bfbda15256fb188e"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-expanded/responsive-768.json",
+      "sha256": "2aff7d57d8229faa380ab0a6114846d24891e71d42c3cf9bb33610aac60f69c0"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-expanded/responsive-390.json",
+      "sha256": "ebf52b3e51b0f0f942defecdc666d9bae786424209ae2136debd91a53650c995"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-expanded/responsive-375.json",
+      "sha256": "cfbf2fc5ffd51ba1ea907b73b0467d8887d4e6d4df417ce3e105da3fae1099c8"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-expanded/responsive-375.png",
+      "sha256": "ceb3f4a31eff38cb5110a02463542bb738b1787cfe31168f96040073fd5afbd9"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-expanded/responsive-390.png",
+      "sha256": "3a49f1ff3b3798e3eb1f154ebe7cb7d438dd5ab3a0f72e89b2d88be3ba9db39d"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-expanded/responsive-768.png",
+      "sha256": "6739bf139e5b4a38c5a7ce6527a66e236d2fb7b460e14d88df8a38f596038252"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/route-product-expanded-responsive-probe.json",
+      "sha256": "2144f1974e79e18a35be50a4f9b5d8f520bdbcbbb9f79c3a7ae277103e7c8c2c"
+    }
+  ],
+  "completedAt": "2026-09-15T12:17:47.418Z"
+}

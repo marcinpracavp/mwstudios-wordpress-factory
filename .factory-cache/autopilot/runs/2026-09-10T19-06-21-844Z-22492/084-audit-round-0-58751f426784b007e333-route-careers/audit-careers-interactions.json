@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "summary": "Ran a fresh isolated headless Google Chrome context against local /kariera/ only. HTTP status was 200. Six native details controls were present with only the first initially open; pointer toggling of the second and Enter/Space keyboard toggling of the third produced the expected open/closed states. The CTA updated the hash to its one visible #career-application target. Exactly one file input and one submit control were present. No form was submitted, no file was selected, and no page or console errors occurred.",
+  "issues": [],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/084-audit-round-0-58751f426784b007e333-route-careers/careers-interaction-probe.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/084-audit-round-0-58751f426784b007e333-route-careers/probe-careers-interactions.js"
+  ]
+}

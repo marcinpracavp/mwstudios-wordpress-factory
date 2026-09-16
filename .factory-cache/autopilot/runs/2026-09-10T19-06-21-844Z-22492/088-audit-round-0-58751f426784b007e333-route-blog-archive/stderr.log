@@ -1,0 +1,4 @@
+2026-09-14T21:27:50.483365Z ERROR codex_core::tools::router: error=unable to process image: invalid or unsupported image data
+2026-09-14T21:27:50.514852Z ERROR codex_core::tools::router: error=unable to process image: invalid or unsupported image data
+2026-09-14T21:27:54.758570Z ERROR codex_core::tools::router: error=unable to process image: invalid or unsupported image data
+2026-09-14T21:31:23.566434Z ERROR codex_core::tools::router: error=unable to read image at `C:\Users\HP\Local Sites\autopilot\app\public\wp-content\themes\slawinsky-boilerplate\.factory-cache\autopilot\runs\2026-09-10T19-06-21-844Z-22492\comparison-1789346670154\blog-archive\responsive-768.png`: fs/readFile returned invalid base64 dataBase64: Invalid padding

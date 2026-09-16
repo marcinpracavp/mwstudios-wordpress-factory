@@ -1,0 +1,38 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-product",
+  "item": "section:product-legal-notices",
+  "status": "needs_work",
+  "summary": "Inspected the assigned product-legal-notices reference, rendered and diff crops, checked source records/current geometry, and inspected a diagnostic crop at the actual section coordinate. The copy is present, but the section is displaced 199.69 px downward and its panel padding/sizing differ from the source.",
+  "issues": [
+    "VIS-PRODUCT-LEGAL-001 | priority critical | property section y-position | expected: y 2263 | actual: y 2462.69, delta +199.69 px | fix: correct the upstream related-section height/flow so legal notices return to the source coordinate.",
+    "VIS-PRODUCT-LEGAL-002 | priority medium | property panel padding/height | expected: text starts approximately 121 px from panel left and first panel is 149 px high | actual: text starts approximately 51 px from panel left and first panel is about 136 px high in the actual-position crop | fix: match source horizontal padding, vertical padding and first-panel height."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product/comparison.json",
+      "sha256": "2a7d9bd010e784dab31e6b90675f591d2ab2ec7f0f36c85b05ff271f732d6b3d"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product/product-legal-notices-reference.png",
+      "sha256": "d28cd02e7b7a5d0078da1c0e96f9a2dd0bc0146e74365ad1016b10391ab2b636"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product/product-legal-notices-rendered.png",
+      "sha256": "95287fe7510ab8fd5b712eaf8e28565f88d7446551e56fb036959fe1eb85dd66"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product/product-legal-notices-diff.png",
+      "sha256": "7d54346288b5c7110efc7ac39ddc450b0c143afa23af77d79543997967a3d36c"
+    },
+    {
+      "path": ".factory-cache/autopilot/previews/product-legal-notices-actual.png",
+      "sha256": "5af7d77874dba87a4dc312a7f12d627d740cc5f33bb12f3cc1f6e6b16043445a"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/091-audit-round-0-58751f426784b007e333-route-product/source-context/section-0fa7c0303303063b.json",
+      "sha256": "1fa131ea280ee55414ec116b6dbc4fb5b0c4c10564e918c4527e43d7de9b3fcf"
+    }
+  ],
+  "completedAt": "2026-09-14T22:17:18.421Z"
+}

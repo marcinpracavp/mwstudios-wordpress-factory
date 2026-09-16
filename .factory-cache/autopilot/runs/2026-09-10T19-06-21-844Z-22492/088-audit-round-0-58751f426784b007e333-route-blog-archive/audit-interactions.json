@@ -1,0 +1,11 @@
+{
+  "status": "needs_work",
+  "summary": "Ran a new isolated headless Google Chrome context against the local blog route with no business side effects. The archive returned HTTP 200, exposed 12 native cards and exactly 12 CTA links, and the first CTA navigated to its local article with HTTP 200 and no page exception. The pagination exposed page links 2-7 plus next; clicking page 2 navigated to /blog/page/2/ and returned HTTP 404 with the WordPress error404 state, no current-page control and zero blog cards.",
+  "issues": [
+    "BLOG-INTERACTION-001 (high, broken native pagination): expected every rendered page/next control to navigate to a valid native archive state; actual page 2 returns HTTP 404, and the same unsupported pagination advertises pages 3-7. Render only pages supported by the native WP_Query max_num_pages, or import additional sourced posts if such source data exists; do not force visual-only page counts that create broken destinations."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/blog-archive/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/088-audit-round-0-58751f426784b007e333-route-blog-archive/blog-interaction-probe.json"
+  ]
+}

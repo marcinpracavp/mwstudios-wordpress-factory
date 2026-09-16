@@ -1,0 +1,35 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-product-reviews-state",
+  "item": "section:product-related",
+  "status": "needs_work",
+  "summary": "Compared the product-related source record and retained reference/render/diff. The crop mismatch is 17.269%; section height is 743.94 px instead of 570 px (+173.94 px), causing the following content to shift. The rendered products do not match the sourced related-product cards.",
+  "issues": [
+    "AUD-PRODUCT-RELATED-001 (critical, source products): expected native related cards for Stomp Aqua 455 CS 1L at 45,99 zł and Stomp Aqua 455 CS 5L at 534,60 zł with their reference images; actual render shows Atrium-X 5L and Darcos 250 EW 5L, including a visible 1.069,00 zł price on the wrong product. Bind this state to the two sourced related products and exact source media/prices.",
+    "AUD-PRODUCT-RELATED-002 (high, structure/layout): expected one heading Produkty powiązane followed by two equal 345 px-class bordered cards in one row; actual adds an unsourced Podobne produkty heading and places narrow broken cards at the far right and lower center. Remove the duplicate heading and restore the two-column card structure.",
+    "AUD-PRODUCT-RELATED-003 (high, geometry): expected section bounds x=240, y=1635, 710×570; actual x=240, y=1636.75, 710×743.94. Reduce the inner overflow/stacking so height returns to 570 px and does not displace product-legal-notices."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-reviews-state/comparison.json",
+      "sha256": "60fb274073d4fb6bf964080254f0a3d61455af90083b78a430d8c78e4719841f"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-reviews-state/product-related-reference.png",
+      "sha256": "751b0cae96e3cdc432ab528ebb3b309c0ac5801a03f28f31c47496d307615db9"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-reviews-state/product-related-rendered.png",
+      "sha256": "936240ec9c66e14516d28972c2e1ea2fd2a2e91a178d071d77f9b5056070f41b"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-reviews-state/product-related-diff.png",
+      "sha256": "8042f51e7ff662fc2d4361f0145795de8f358755dfa4636e6d0baabc0461c472"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/106-audit-round-0-58751f426784b007e333-route-product-reviews-state/source-context/section-09d07b607a4c57e0.json",
+      "sha256": "b3d828c81d3f96d836b5a9d17fc19e26808917192e26c7f7ded06a1ff8107d65"
+    }
+  ],
+  "completedAt": "2026-09-15T18:03:35.787Z"
+}

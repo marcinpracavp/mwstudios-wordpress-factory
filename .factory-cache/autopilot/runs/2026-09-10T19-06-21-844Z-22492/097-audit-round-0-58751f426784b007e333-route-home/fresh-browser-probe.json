@@ -1,0 +1,2577 @@
+{
+  "generatedAt": "2026-09-15T11:17:32.380Z",
+  "browser": "Google Chrome",
+  "responsive": [
+    {
+      "width": 375,
+      "status": 200,
+      "pageErrors": [],
+      "url": "https://autopilot.local/",
+      "title": "Safegold",
+      "viewportWidth": 375,
+      "innerWidth": 375,
+      "documentHeight": 10873,
+      "scrollWidth": 376,
+      "overflowPx": 1,
+      "fontsReady": true,
+      "brokenImages": [],
+      "sectionGeometry": [
+        {
+          "id": "home-hero",
+          "left": 20,
+          "right": 355,
+          "width": 335,
+          "overflowX": "visible",
+          "cards": []
+        },
+        {
+          "id": "home-benefits",
+          "left": 20,
+          "right": 355,
+          "width": 335,
+          "overflowX": "visible",
+          "cards": []
+        },
+        {
+          "id": "home-crop-selection",
+          "left": 0,
+          "right": 375,
+          "width": 375,
+          "overflowX": "visible",
+          "cards": []
+        },
+        {
+          "id": "home-promotions",
+          "left": -598.5,
+          "right": -263.5,
+          "width": 335,
+          "overflowX": "visible",
+          "cards": [
+            {
+              "left": -598.5,
+              "right": 115.5,
+              "width": 714,
+              "visibleWidth": 115.5,
+              "visibleRatio": 0.162,
+              "text": "Rzepak DK IMMORTAL CL"
+            },
+            {
+              "left": 127.5,
+              "right": 841.5,
+              "width": 714,
+              "visibleWidth": 247.5,
+              "visibleRatio": 0.347,
+              "text": "Rzepak ozimy DK EXCITED F1"
+            },
+            {
+              "left": -598.5,
+              "right": 115.5,
+              "width": 714,
+              "visibleWidth": 115.5,
+              "visibleRatio": 0.162,
+              "text": "Rzepak ozimy LG AMBASSADOR"
+            },
+            {
+              "left": 127.5,
+              "right": 841.5,
+              "width": 714,
+              "visibleWidth": 247.5,
+              "visibleRatio": 0.347,
+              "text": "Rzepak ozimy LG AUCKLAND"
+            }
+          ]
+        },
+        {
+          "id": "home-bundles",
+          "left": -598.5,
+          "right": -263.5,
+          "width": 335,
+          "overflowX": "visible",
+          "cards": [
+            {
+              "left": -598.5,
+              "right": 115.5,
+              "width": 714,
+              "visibleWidth": 115.5,
+              "visibleRatio": 0.162,
+              "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L"
+            },
+            {
+              "left": 127.5,
+              "right": 841.5,
+              "width": 714,
+              "visibleWidth": 247.5,
+              "visibleRatio": 0.347,
+              "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L"
+            },
+            {
+              "left": -598.5,
+              "right": 115.5,
+              "width": 714,
+              "visibleWidth": 115.5,
+              "visibleRatio": 0.162,
+              "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L"
+            },
+            {
+              "left": 127.5,
+              "right": 841.5,
+              "width": 714,
+              "visibleWidth": 247.5,
+              "visibleRatio": 0.347,
+              "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L"
+            }
+          ]
+        },
+        {
+          "id": "home-catalogues",
+          "left": 20,
+          "right": 355,
+          "width": 335,
+          "overflowX": "hidden",
+          "cards": []
+        },
+        {
+          "id": "home-recommended",
+          "left": -598.5,
+          "right": -263.5,
+          "width": 335,
+          "overflowX": "visible",
+          "cards": [
+            {
+              "left": -598.5,
+              "right": 115.5,
+              "width": 714,
+              "visibleWidth": 115.5,
+              "visibleRatio": 0.162,
+              "text": "Modivo 60 CS"
+            },
+            {
+              "left": 127.5,
+              "right": 841.5,
+              "width": 714,
+              "visibleWidth": 247.5,
+              "visibleRatio": 0.347,
+              "text": "Vivero 500 SC 1l"
+            },
+            {
+              "left": -598.5,
+              "right": 115.5,
+              "width": 714,
+              "visibleWidth": 115.5,
+              "visibleRatio": 0.162,
+              "text": "Goliat Trio 060 FS"
+            },
+            {
+              "left": 127.5,
+              "right": 841.5,
+              "width": 714,
+              "visibleWidth": 247.5,
+              "visibleRatio": 0.347,
+              "text": "Tavares 250 SE 5 L"
+            }
+          ]
+        },
+        {
+          "id": "home-about",
+          "left": 0,
+          "right": 375,
+          "width": 375,
+          "overflowX": "visible",
+          "cards": []
+        },
+        {
+          "id": "home-blog",
+          "left": -536.5,
+          "right": -201.5,
+          "width": 335,
+          "overflowX": "visible",
+          "cards": []
+        },
+        {
+          "id": "home-knowledge",
+          "left": 0,
+          "right": 375,
+          "width": 375,
+          "overflowX": "visible",
+          "cards": []
+        }
+      ],
+      "clippedControls": [
+        {
+          "tag": "a",
+          "text": "Zobacz więcej→",
+          "left": -598.5,
+          "right": -393.47,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": -582.5,
+          "right": 99.5,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "Rzepak DK IMMORTAL CL",
+          "left": -328.28,
+          "right": -154.73,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": -236.5,
+          "right": -87.5,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": 143.5,
+          "right": 825.5,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "Rzepak ozimy DK EXCITED F1",
+          "left": 386.34,
+          "right": 582.66,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": 489.5,
+          "right": 638.5,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": -582.5,
+          "right": 99.5,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "Rzepak ozimy LG AMBASSADOR",
+          "left": -351.59,
+          "right": -131.42,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": -236.5,
+          "right": -87.5,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": 143.5,
+          "right": 825.5,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "Rzepak ozimy LG AUCKLAND",
+          "left": 385.52,
+          "right": 583.48,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": 489.5,
+          "right": 638.5,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "Zobacz więcej→",
+          "left": -598.5,
+          "right": -393.47,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": -582.5,
+          "right": 99.5,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L",
+          "left": -499.5,
+          "right": 16.48,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": -236.5,
+          "right": -87.5,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": 143.5,
+          "right": 825.5,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L",
+          "left": 226.5,
+          "right": 742.48,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": 489.5,
+          "right": 638.5,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": -582.5,
+          "right": 99.5,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L",
+          "left": -499.5,
+          "right": 16.48,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": -236.5,
+          "right": -87.5,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": 143.5,
+          "right": 825.5,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L",
+          "left": 226.5,
+          "right": 742.48,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": 489.5,
+          "right": 638.5,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "Zobacz więcej→",
+          "left": -598.5,
+          "right": -393.47,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": -582.5,
+          "right": 99.5,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "Modivo 60 CS",
+          "left": -290.55,
+          "right": -192.45,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": -236.5,
+          "right": -87.5,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": 143.5,
+          "right": 825.5,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "Vivero 500 SC 1l",
+          "left": 428,
+          "right": 540.98,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": 489.5,
+          "right": 638.5,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": -582.5,
+          "right": 99.5,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "Goliat Trio 060 FS",
+          "left": -304.16,
+          "right": -178.86,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": -236.5,
+          "right": -87.5,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": 143.5,
+          "right": 825.5,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "Tavares 250 SE 5 L",
+          "left": 419.27,
+          "right": 549.73,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": 489.5,
+          "right": 638.5,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "Zobacz wszystkie wpisy→",
+          "left": -536.5,
+          "right": -255.61,
+          "section": "home-blog"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": -536.5,
+          "right": -201.5,
+          "section": "home-blog"
+        },
+        {
+          "tag": "a",
+          "text": "Popularne nawozy potasowe i ich zastosowanie w uprawach",
+          "left": -536.5,
+          "right": -269.73,
+          "section": "home-blog"
+        },
+        {
+          "tag": "a",
+          "text": "Czytaj całość →",
+          "left": -536.5,
+          "right": -395.52,
+          "section": "home-blog"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": -536.5,
+          "right": -201.5,
+          "section": "home-blog"
+        },
+        {
+          "tag": "a",
+          "text": "Jak nawozić rzepak, kukurydzę, buraki, warzywa?",
+          "left": -536.5,
+          "right": -244.77,
+          "section": "home-blog"
+        },
+        {
+          "tag": "a",
+          "text": "Czytaj całość →",
+          "left": -536.5,
+          "right": -395.52,
+          "section": "home-blog"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": -536.5,
+          "right": -201.5,
+          "section": "home-blog"
+        },
+        {
+          "tag": "a",
+          "text": "Nawozy dolistne, pod korzeń i do fertygacji – jak poprawić efektywność nawożenia",
+          "left": -536.5,
+          "right": -257.11,
+          "section": "home-blog"
+        },
+        {
+          "tag": "a",
+          "text": "Czytaj całość →",
+          "left": -536.5,
+          "right": -395.52,
+          "section": "home-blog"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "status": 200,
+      "pageErrors": [],
+      "url": "https://autopilot.local/",
+      "title": "Safegold",
+      "viewportWidth": 390,
+      "innerWidth": 390,
+      "documentHeight": 10837,
+      "scrollWidth": 390,
+      "overflowPx": 0,
+      "fontsReady": true,
+      "brokenImages": [],
+      "sectionGeometry": [
+        {
+          "id": "home-hero",
+          "left": 20,
+          "right": 370,
+          "width": 350,
+          "overflowX": "visible",
+          "cards": []
+        },
+        {
+          "id": "home-benefits",
+          "left": 20,
+          "right": 370,
+          "width": 350,
+          "overflowX": "visible",
+          "cards": []
+        },
+        {
+          "id": "home-crop-selection",
+          "left": 0,
+          "right": 390,
+          "width": 390,
+          "overflowX": "visible",
+          "cards": []
+        },
+        {
+          "id": "home-promotions",
+          "left": -591,
+          "right": -241,
+          "width": 350,
+          "overflowX": "visible",
+          "cards": [
+            {
+              "left": -591,
+              "right": 123,
+              "width": 714,
+              "visibleWidth": 123,
+              "visibleRatio": 0.172,
+              "text": "Rzepak DK IMMORTAL CL"
+            },
+            {
+              "left": 135,
+              "right": 849,
+              "width": 714,
+              "visibleWidth": 255,
+              "visibleRatio": 0.357,
+              "text": "Rzepak ozimy DK EXCITED F1"
+            },
+            {
+              "left": -591,
+              "right": 123,
+              "width": 714,
+              "visibleWidth": 123,
+              "visibleRatio": 0.172,
+              "text": "Rzepak ozimy LG AMBASSADOR"
+            },
+            {
+              "left": 135,
+              "right": 849,
+              "width": 714,
+              "visibleWidth": 255,
+              "visibleRatio": 0.357,
+              "text": "Rzepak ozimy LG AUCKLAND"
+            }
+          ]
+        },
+        {
+          "id": "home-bundles",
+          "left": -591,
+          "right": -241,
+          "width": 350,
+          "overflowX": "visible",
+          "cards": [
+            {
+              "left": -591,
+              "right": 123,
+              "width": 714,
+              "visibleWidth": 123,
+              "visibleRatio": 0.172,
+              "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L"
+            },
+            {
+              "left": 135,
+              "right": 849,
+              "width": 714,
+              "visibleWidth": 255,
+              "visibleRatio": 0.357,
+              "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L"
+            },
+            {
+              "left": -591,
+              "right": 123,
+              "width": 714,
+              "visibleWidth": 123,
+              "visibleRatio": 0.172,
+              "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L"
+            },
+            {
+              "left": 135,
+              "right": 849,
+              "width": 714,
+              "visibleWidth": 255,
+              "visibleRatio": 0.357,
+              "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L"
+            }
+          ]
+        },
+        {
+          "id": "home-catalogues",
+          "left": 20,
+          "right": 370,
+          "width": 350,
+          "overflowX": "hidden",
+          "cards": []
+        },
+        {
+          "id": "home-recommended",
+          "left": -591,
+          "right": -241,
+          "width": 350,
+          "overflowX": "visible",
+          "cards": [
+            {
+              "left": -591,
+              "right": 123,
+              "width": 714,
+              "visibleWidth": 123,
+              "visibleRatio": 0.172,
+              "text": "Modivo 60 CS"
+            },
+            {
+              "left": 135,
+              "right": 849,
+              "width": 714,
+              "visibleWidth": 255,
+              "visibleRatio": 0.357,
+              "text": "Vivero 500 SC 1l"
+            },
+            {
+              "left": -591,
+              "right": 123,
+              "width": 714,
+              "visibleWidth": 123,
+              "visibleRatio": 0.172,
+              "text": "Goliat Trio 060 FS"
+            },
+            {
+              "left": 135,
+              "right": 849,
+              "width": 714,
+              "visibleWidth": 255,
+              "visibleRatio": 0.357,
+              "text": "Tavares 250 SE 5 L"
+            }
+          ]
+        },
+        {
+          "id": "home-about",
+          "left": 0,
+          "right": 390,
+          "width": 390,
+          "overflowX": "visible",
+          "cards": []
+        },
+        {
+          "id": "home-blog",
+          "left": -529,
+          "right": -179,
+          "width": 350,
+          "overflowX": "visible",
+          "cards": []
+        },
+        {
+          "id": "home-knowledge",
+          "left": 0,
+          "right": 390,
+          "width": 390,
+          "overflowX": "visible",
+          "cards": []
+        }
+      ],
+      "clippedControls": [
+        {
+          "tag": "a",
+          "text": "Zobacz więcej→",
+          "left": -591,
+          "right": -385.97,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": -575,
+          "right": 107,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "Rzepak DK IMMORTAL CL",
+          "left": -320.78,
+          "right": -147.23,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": -229,
+          "right": -80,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": 151,
+          "right": 833,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "Rzepak ozimy DK EXCITED F1",
+          "left": 393.84,
+          "right": 590.16,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": 497,
+          "right": 646,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": -575,
+          "right": 107,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "Rzepak ozimy LG AMBASSADOR",
+          "left": -344.09,
+          "right": -123.92,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": -229,
+          "right": -80,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": 151,
+          "right": 833,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "Rzepak ozimy LG AUCKLAND",
+          "left": 393.02,
+          "right": 590.98,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": 497,
+          "right": 646,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "Zobacz więcej→",
+          "left": -591,
+          "right": -385.97,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": -575,
+          "right": 107,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L",
+          "left": -492,
+          "right": 23.98,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": -229,
+          "right": -80,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": 151,
+          "right": 833,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L",
+          "left": 234,
+          "right": 749.98,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": 497,
+          "right": 646,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": -575,
+          "right": 107,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L",
+          "left": -492,
+          "right": 23.98,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": -229,
+          "right": -80,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": 151,
+          "right": 833,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L",
+          "left": 234,
+          "right": 749.98,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": 497,
+          "right": 646,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "Zobacz więcej→",
+          "left": -591,
+          "right": -385.97,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": -575,
+          "right": 107,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "Modivo 60 CS",
+          "left": -283.05,
+          "right": -184.95,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": -229,
+          "right": -80,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": 151,
+          "right": 833,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "Vivero 500 SC 1l",
+          "left": 435.5,
+          "right": 548.48,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": 497,
+          "right": 646,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": -575,
+          "right": 107,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "Goliat Trio 060 FS",
+          "left": -296.66,
+          "right": -171.36,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": -229,
+          "right": -80,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": 151,
+          "right": 833,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "Tavares 250 SE 5 L",
+          "left": 426.77,
+          "right": 557.23,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": 497,
+          "right": 646,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "Zobacz wszystkie wpisy→",
+          "left": -529,
+          "right": -248.11,
+          "section": "home-blog"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": -529,
+          "right": -179,
+          "section": "home-blog"
+        },
+        {
+          "tag": "a",
+          "text": "Popularne nawozy potasowe i ich zastosowanie w uprawach",
+          "left": -529,
+          "right": -262.23,
+          "section": "home-blog"
+        },
+        {
+          "tag": "a",
+          "text": "Czytaj całość →",
+          "left": -529,
+          "right": -388.02,
+          "section": "home-blog"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": -529,
+          "right": -179,
+          "section": "home-blog"
+        },
+        {
+          "tag": "a",
+          "text": "Jak nawozić rzepak, kukurydzę, buraki, warzywa?",
+          "left": -529,
+          "right": -237.27,
+          "section": "home-blog"
+        },
+        {
+          "tag": "a",
+          "text": "Czytaj całość →",
+          "left": -529,
+          "right": -388.02,
+          "section": "home-blog"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": -529,
+          "right": -179,
+          "section": "home-blog"
+        },
+        {
+          "tag": "a",
+          "text": "Nawozy dolistne, pod korzeń i do fertygacji – jak poprawić efektywność nawożenia",
+          "left": -529,
+          "right": -192.91,
+          "section": "home-blog"
+        },
+        {
+          "tag": "a",
+          "text": "Czytaj całość →",
+          "left": -529,
+          "right": -388.02,
+          "section": "home-blog"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "status": 200,
+      "pageErrors": [],
+      "url": "https://autopilot.local/",
+      "title": "Safegold",
+      "viewportWidth": 768,
+      "innerWidth": 768,
+      "documentHeight": 10079,
+      "scrollWidth": 768,
+      "overflowPx": 0,
+      "fontsReady": true,
+      "brokenImages": [],
+      "sectionGeometry": [
+        {
+          "id": "home-hero",
+          "left": 20,
+          "right": 748,
+          "width": 728,
+          "overflowX": "visible",
+          "cards": []
+        },
+        {
+          "id": "home-benefits",
+          "left": 20,
+          "right": 748,
+          "width": 728,
+          "overflowX": "visible",
+          "cards": []
+        },
+        {
+          "id": "home-crop-selection",
+          "left": 0,
+          "right": 768,
+          "width": 768,
+          "overflowX": "visible",
+          "cards": []
+        },
+        {
+          "id": "home-promotions",
+          "left": -402,
+          "right": 326,
+          "width": 728,
+          "overflowX": "visible",
+          "cards": [
+            {
+              "left": -402,
+              "right": 312,
+              "width": 714,
+              "visibleWidth": 312,
+              "visibleRatio": 0.437,
+              "text": "Rzepak DK IMMORTAL CL"
+            },
+            {
+              "left": 324,
+              "right": 1038,
+              "width": 714,
+              "visibleWidth": 444,
+              "visibleRatio": 0.622,
+              "text": "Rzepak ozimy DK EXCITED F1"
+            },
+            {
+              "left": -402,
+              "right": 312,
+              "width": 714,
+              "visibleWidth": 312,
+              "visibleRatio": 0.437,
+              "text": "Rzepak ozimy LG AMBASSADOR"
+            },
+            {
+              "left": 324,
+              "right": 1038,
+              "width": 714,
+              "visibleWidth": 444,
+              "visibleRatio": 0.622,
+              "text": "Rzepak ozimy LG AUCKLAND"
+            }
+          ]
+        },
+        {
+          "id": "home-bundles",
+          "left": -402,
+          "right": 326,
+          "width": 728,
+          "overflowX": "visible",
+          "cards": [
+            {
+              "left": -402,
+              "right": 312,
+              "width": 714,
+              "visibleWidth": 312,
+              "visibleRatio": 0.437,
+              "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L"
+            },
+            {
+              "left": 324,
+              "right": 1038,
+              "width": 714,
+              "visibleWidth": 444,
+              "visibleRatio": 0.622,
+              "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L"
+            },
+            {
+              "left": -402,
+              "right": 312,
+              "width": 714,
+              "visibleWidth": 312,
+              "visibleRatio": 0.437,
+              "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L"
+            },
+            {
+              "left": 324,
+              "right": 1038,
+              "width": 714,
+              "visibleWidth": 444,
+              "visibleRatio": 0.622,
+              "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L"
+            }
+          ]
+        },
+        {
+          "id": "home-catalogues",
+          "left": 20,
+          "right": 748,
+          "width": 728,
+          "overflowX": "hidden",
+          "cards": []
+        },
+        {
+          "id": "home-recommended",
+          "left": -402,
+          "right": 326,
+          "width": 728,
+          "overflowX": "visible",
+          "cards": [
+            {
+              "left": -402,
+              "right": 312,
+              "width": 714,
+              "visibleWidth": 312,
+              "visibleRatio": 0.437,
+              "text": "Modivo 60 CS"
+            },
+            {
+              "left": 324,
+              "right": 1038,
+              "width": 714,
+              "visibleWidth": 444,
+              "visibleRatio": 0.622,
+              "text": "Vivero 500 SC 1l"
+            },
+            {
+              "left": -402,
+              "right": 312,
+              "width": 714,
+              "visibleWidth": 312,
+              "visibleRatio": 0.437,
+              "text": "Goliat Trio 060 FS"
+            },
+            {
+              "left": 324,
+              "right": 1038,
+              "width": 714,
+              "visibleWidth": 444,
+              "visibleRatio": 0.622,
+              "text": "Tavares 250 SE 5 L"
+            }
+          ]
+        },
+        {
+          "id": "home-about",
+          "left": 0,
+          "right": 768,
+          "width": 768,
+          "overflowX": "visible",
+          "cards": []
+        },
+        {
+          "id": "home-blog",
+          "left": -340,
+          "right": 388,
+          "width": 728,
+          "overflowX": "visible",
+          "cards": []
+        },
+        {
+          "id": "home-knowledge",
+          "left": 0,
+          "right": 768,
+          "width": 768,
+          "overflowX": "visible",
+          "cards": []
+        }
+      ],
+      "clippedControls": [
+        {
+          "tag": "a",
+          "text": "Zobacz więcej→",
+          "left": -402,
+          "right": -196.97,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": -386,
+          "right": 296,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "Rzepak DK IMMORTAL CL",
+          "left": -131.78,
+          "right": 41.77,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": -40,
+          "right": 109,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": 340,
+          "right": 1022,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "Rzepak ozimy DK EXCITED F1",
+          "left": 582.84,
+          "right": 779.16,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": 686,
+          "right": 835,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": -386,
+          "right": 296,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "Rzepak ozimy LG AMBASSADOR",
+          "left": -155.09,
+          "right": 65.08,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": -40,
+          "right": 109,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": 340,
+          "right": 1022,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "Rzepak ozimy LG AUCKLAND",
+          "left": 582.02,
+          "right": 779.98,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": 686,
+          "right": 835,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "Zobacz więcej→",
+          "left": -402,
+          "right": -196.97,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": -386,
+          "right": 296,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L",
+          "left": -303,
+          "right": 212.98,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": -40,
+          "right": 109,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": 340,
+          "right": 1022,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L",
+          "left": 423,
+          "right": 938.98,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": 686,
+          "right": 835,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": -386,
+          "right": 296,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L",
+          "left": -303,
+          "right": 212.98,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": -40,
+          "right": 109,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": 340,
+          "right": 1022,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L",
+          "left": 423,
+          "right": 938.98,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": 686,
+          "right": 835,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "Zobacz więcej→",
+          "left": -402,
+          "right": -196.97,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": -386,
+          "right": 296,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "Modivo 60 CS",
+          "left": -94.05,
+          "right": 4.05,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": -40,
+          "right": 109,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": 340,
+          "right": 1022,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": 686,
+          "right": 835,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": -386,
+          "right": 296,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "Goliat Trio 060 FS",
+          "left": -107.66,
+          "right": 17.64,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": -40,
+          "right": 109,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": 340,
+          "right": 1022,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": 686,
+          "right": 835,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "Zobacz wszystkie wpisy→",
+          "left": -340,
+          "right": -59.11,
+          "section": "home-blog"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": -340,
+          "right": 388,
+          "section": "home-blog"
+        },
+        {
+          "tag": "a",
+          "text": "Popularne nawozy potasowe i ich zastosowanie w uprawach",
+          "left": -340,
+          "right": 350.61,
+          "section": "home-blog"
+        },
+        {
+          "tag": "a",
+          "text": "Czytaj całość →",
+          "left": -340,
+          "right": -199.02,
+          "section": "home-blog"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": -340,
+          "right": 388,
+          "section": "home-blog"
+        },
+        {
+          "tag": "a",
+          "text": "Jak nawozić rzepak, kukurydzę, buraki, warzywa?",
+          "left": -340,
+          "right": 378.36,
+          "section": "home-blog"
+        },
+        {
+          "tag": "a",
+          "text": "Czytaj całość →",
+          "left": -340,
+          "right": -199.02,
+          "section": "home-blog"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": -340,
+          "right": 388,
+          "section": "home-blog"
+        },
+        {
+          "tag": "a",
+          "text": "Nawozy dolistne, pod korzeń i do fertygacji – jak poprawić efektywność nawożenia",
+          "left": -340,
+          "right": 364.28,
+          "section": "home-blog"
+        },
+        {
+          "tag": "a",
+          "text": "Czytaj całość →",
+          "left": -340,
+          "right": -199.02,
+          "section": "home-blog"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "status": 200,
+      "pageErrors": [],
+      "url": "https://autopilot.local/",
+      "title": "Safegold",
+      "viewportWidth": 1024,
+      "innerWidth": 1024,
+      "documentHeight": 9006,
+      "scrollWidth": 1024,
+      "overflowPx": 0,
+      "fontsReady": true,
+      "brokenImages": [],
+      "sectionGeometry": [
+        {
+          "id": "home-hero",
+          "left": 40,
+          "right": 984,
+          "width": 944,
+          "overflowX": "visible",
+          "cards": []
+        },
+        {
+          "id": "home-benefits",
+          "left": 20,
+          "right": 1004,
+          "width": 984,
+          "overflowX": "visible",
+          "cards": []
+        },
+        {
+          "id": "home-crop-selection",
+          "left": 0,
+          "right": 1024,
+          "width": 1024,
+          "overflowX": "visible",
+          "cards": []
+        },
+        {
+          "id": "home-promotions",
+          "left": -274,
+          "right": 710,
+          "width": 984,
+          "overflowX": "visible",
+          "cards": [
+            {
+              "left": -274,
+              "right": 71,
+              "width": 345,
+              "visibleWidth": 71,
+              "visibleRatio": 0.206,
+              "text": "Rzepak DK IMMORTAL CL"
+            },
+            {
+              "left": 91,
+              "right": 436,
+              "width": 345,
+              "visibleWidth": 345,
+              "visibleRatio": 1,
+              "text": "Rzepak ozimy DK EXCITED F1"
+            },
+            {
+              "left": 456,
+              "right": 801,
+              "width": 345,
+              "visibleWidth": 345,
+              "visibleRatio": 1,
+              "text": "Rzepak ozimy LG AMBASSADOR"
+            },
+            {
+              "left": 821,
+              "right": 1166,
+              "width": 345,
+              "visibleWidth": 203,
+              "visibleRatio": 0.588,
+              "text": "Rzepak ozimy LG AUCKLAND"
+            }
+          ]
+        },
+        {
+          "id": "home-bundles",
+          "left": -274,
+          "right": 710,
+          "width": 984,
+          "overflowX": "visible",
+          "cards": [
+            {
+              "left": -274,
+              "right": 71,
+              "width": 345,
+              "visibleWidth": 71,
+              "visibleRatio": 0.206,
+              "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L"
+            },
+            {
+              "left": 91,
+              "right": 436,
+              "width": 345,
+              "visibleWidth": 345,
+              "visibleRatio": 1,
+              "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L"
+            },
+            {
+              "left": 456,
+              "right": 801,
+              "width": 345,
+              "visibleWidth": 345,
+              "visibleRatio": 1,
+              "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L"
+            },
+            {
+              "left": 821,
+              "right": 1166,
+              "width": 345,
+              "visibleWidth": 203,
+              "visibleRatio": 0.588,
+              "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L"
+            }
+          ]
+        },
+        {
+          "id": "home-catalogues",
+          "left": 20,
+          "right": 1004,
+          "width": 984,
+          "overflowX": "hidden",
+          "cards": []
+        },
+        {
+          "id": "home-recommended",
+          "left": -274,
+          "right": 710,
+          "width": 984,
+          "overflowX": "visible",
+          "cards": [
+            {
+              "left": -274,
+              "right": 71,
+              "width": 345,
+              "visibleWidth": 71,
+              "visibleRatio": 0.206,
+              "text": "Modivo 60 CS"
+            },
+            {
+              "left": 91,
+              "right": 436,
+              "width": 345,
+              "visibleWidth": 345,
+              "visibleRatio": 1,
+              "text": "Vivero 500 SC 1l"
+            },
+            {
+              "left": 456,
+              "right": 801,
+              "width": 345,
+              "visibleWidth": 345,
+              "visibleRatio": 1,
+              "text": "Goliat Trio 060 FS"
+            },
+            {
+              "left": 821,
+              "right": 1166,
+              "width": 345,
+              "visibleWidth": 203,
+              "visibleRatio": 0.588,
+              "text": "Tavares 250 SE 5 L"
+            }
+          ]
+        },
+        {
+          "id": "home-about",
+          "left": 0,
+          "right": 1024,
+          "width": 1024,
+          "overflowX": "visible",
+          "cards": []
+        },
+        {
+          "id": "home-blog",
+          "left": -212,
+          "right": 772,
+          "width": 984,
+          "overflowX": "visible",
+          "cards": []
+        },
+        {
+          "id": "home-knowledge",
+          "left": 0,
+          "right": 1024,
+          "width": 1024,
+          "overflowX": "visible",
+          "cards": []
+        }
+      ],
+      "clippedControls": [
+        {
+          "tag": "a",
+          "text": "Zobacz więcej→",
+          "left": 960.97,
+          "right": 1166,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": -255,
+          "right": 52,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "Rzepak DK IMMORTAL CL",
+          "left": -211.41,
+          "right": 8.41,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": -96.44,
+          "right": 52,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": 840,
+          "right": 1147,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "Rzepak ozimy LG AUCKLAND",
+          "left": 868.13,
+          "right": 1118.88,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": 998.56,
+          "right": 1147,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "Zobacz więcej→",
+          "left": 960.97,
+          "right": 1166,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": -255,
+          "right": 52,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L",
+          "left": -255,
+          "right": 52,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": -96.44,
+          "right": 52,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": 840,
+          "right": 1147,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L",
+          "left": 840,
+          "right": 1147,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": 998.56,
+          "right": 1147,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "Zobacz więcej→",
+          "left": 960.97,
+          "right": 1166,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": -255,
+          "right": 52,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "Modivo 60 CS",
+          "left": -163.62,
+          "right": -39.37,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": -96.44,
+          "right": 52,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": 840,
+          "right": 1147,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "Tavares 250 SE 5 L",
+          "left": 910.88,
+          "right": 1076.13,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "Do koszyka",
+          "left": 998.56,
+          "right": 1147,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": -212,
+          "right": 99.33,
+          "section": "home-blog"
+        },
+        {
+          "tag": "a",
+          "text": "Popularne nawozy potasowe i ich zastosowanie w uprawach",
+          "left": -212,
+          "right": 54.77,
+          "section": "home-blog"
+        },
+        {
+          "tag": "a",
+          "text": "Czytaj całość →",
+          "left": -212,
+          "right": -71.02,
+          "section": "home-blog"
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "status": 200,
+      "pageErrors": [],
+      "url": "https://autopilot.local/",
+      "title": "Safegold",
+      "viewportWidth": 1280,
+      "innerWidth": 1280,
+      "documentHeight": 8948,
+      "scrollWidth": 1280,
+      "overflowPx": 0,
+      "fontsReady": true,
+      "brokenImages": [],
+      "sectionGeometry": [
+        {
+          "id": "home-hero",
+          "left": 40,
+          "right": 1240,
+          "width": 1200,
+          "overflowX": "visible",
+          "cards": []
+        },
+        {
+          "id": "home-benefits",
+          "left": 20,
+          "right": 1260,
+          "width": 1240,
+          "overflowX": "visible",
+          "cards": []
+        },
+        {
+          "id": "home-crop-selection",
+          "left": 0,
+          "right": 1280,
+          "width": 1280,
+          "overflowX": "visible",
+          "cards": []
+        },
+        {
+          "id": "home-promotions",
+          "left": -146,
+          "right": 1094,
+          "width": 1240,
+          "overflowX": "visible",
+          "cards": [
+            {
+              "left": -146,
+              "right": 199,
+              "width": 345,
+              "visibleWidth": 199,
+              "visibleRatio": 0.577,
+              "text": "Rzepak DK IMMORTAL CL"
+            },
+            {
+              "left": 219,
+              "right": 564,
+              "width": 345,
+              "visibleWidth": 345,
+              "visibleRatio": 1,
+              "text": "Rzepak ozimy DK EXCITED F1"
+            },
+            {
+              "left": 584,
+              "right": 929,
+              "width": 345,
+              "visibleWidth": 345,
+              "visibleRatio": 1,
+              "text": "Rzepak ozimy LG AMBASSADOR"
+            },
+            {
+              "left": 949,
+              "right": 1294,
+              "width": 345,
+              "visibleWidth": 331,
+              "visibleRatio": 0.959,
+              "text": "Rzepak ozimy LG AUCKLAND"
+            }
+          ]
+        },
+        {
+          "id": "home-bundles",
+          "left": -146,
+          "right": 1094,
+          "width": 1240,
+          "overflowX": "visible",
+          "cards": [
+            {
+              "left": -146,
+              "right": 199,
+              "width": 345,
+              "visibleWidth": 199,
+              "visibleRatio": 0.577,
+              "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L"
+            },
+            {
+              "left": 219,
+              "right": 564,
+              "width": 345,
+              "visibleWidth": 345,
+              "visibleRatio": 1,
+              "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L"
+            },
+            {
+              "left": 584,
+              "right": 929,
+              "width": 345,
+              "visibleWidth": 345,
+              "visibleRatio": 1,
+              "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L"
+            },
+            {
+              "left": 949,
+              "right": 1294,
+              "width": 345,
+              "visibleWidth": 331,
+              "visibleRatio": 0.959,
+              "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L"
+            }
+          ]
+        },
+        {
+          "id": "home-catalogues",
+          "left": 20,
+          "right": 1260,
+          "width": 1240,
+          "overflowX": "hidden",
+          "cards": []
+        },
+        {
+          "id": "home-recommended",
+          "left": -146,
+          "right": 1094,
+          "width": 1240,
+          "overflowX": "visible",
+          "cards": [
+            {
+              "left": -146,
+              "right": 199,
+              "width": 345,
+              "visibleWidth": 199,
+              "visibleRatio": 0.577,
+              "text": "Modivo 60 CS"
+            },
+            {
+              "left": 219,
+              "right": 564,
+              "width": 345,
+              "visibleWidth": 345,
+              "visibleRatio": 1,
+              "text": "Vivero 500 SC 1l"
+            },
+            {
+              "left": 584,
+              "right": 929,
+              "width": 345,
+              "visibleWidth": 345,
+              "visibleRatio": 1,
+              "text": "Goliat Trio 060 FS"
+            },
+            {
+              "left": 949,
+              "right": 1294,
+              "width": 345,
+              "visibleWidth": 331,
+              "visibleRatio": 0.959,
+              "text": "Tavares 250 SE 5 L"
+            }
+          ]
+        },
+        {
+          "id": "home-about",
+          "left": 0,
+          "right": 1280,
+          "width": 1280,
+          "overflowX": "visible",
+          "cards": []
+        },
+        {
+          "id": "home-blog",
+          "left": -84,
+          "right": 1156,
+          "width": 1240,
+          "overflowX": "visible",
+          "cards": []
+        },
+        {
+          "id": "home-knowledge",
+          "left": 0,
+          "right": 1280,
+          "width": 1280,
+          "overflowX": "visible",
+          "cards": []
+        }
+      ],
+      "clippedControls": [
+        {
+          "tag": "a",
+          "text": "Zobacz więcej→",
+          "left": 1088.97,
+          "right": 1294,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": -127,
+          "right": 180,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "Rzepak DK IMMORTAL CL",
+          "left": -83.41,
+          "right": 136.41,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "Zobacz więcej→",
+          "left": 1088.97,
+          "right": 1294,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": -127,
+          "right": 180,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L",
+          "left": -127,
+          "right": 180,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "Zobacz więcej→",
+          "left": 1088.97,
+          "right": 1294,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": -127,
+          "right": 180,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "Modivo 60 CS",
+          "left": -35.62,
+          "right": 88.63,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": -84,
+          "right": 312.66,
+          "section": "home-blog"
+        },
+        {
+          "tag": "a",
+          "text": "Popularne nawozy potasowe i ich zastosowanie w uprawach",
+          "left": -84,
+          "right": 299.34,
+          "section": "home-blog"
+        },
+        {
+          "tag": "a",
+          "text": "Czytaj całość →",
+          "left": -84,
+          "right": 56.98,
+          "section": "home-blog"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "status": 200,
+      "pageErrors": [],
+      "url": "https://autopilot.local/",
+      "title": "Safegold",
+      "viewportWidth": 1440,
+      "innerWidth": 1440,
+      "documentHeight": 8934,
+      "scrollWidth": 1440,
+      "overflowPx": 0,
+      "fontsReady": true,
+      "brokenImages": [],
+      "sectionGeometry": [
+        {
+          "id": "home-hero",
+          "left": 40,
+          "right": 1400,
+          "width": 1360,
+          "overflowX": "visible",
+          "cards": []
+        },
+        {
+          "id": "home-benefits",
+          "left": 20,
+          "right": 1420,
+          "width": 1400,
+          "overflowX": "visible",
+          "cards": []
+        },
+        {
+          "id": "home-crop-selection",
+          "left": 0,
+          "right": 1440,
+          "width": 1440,
+          "overflowX": "visible",
+          "cards": []
+        },
+        {
+          "id": "home-promotions",
+          "left": -66,
+          "right": 1334,
+          "width": 1400,
+          "overflowX": "visible",
+          "cards": [
+            {
+              "left": -66,
+              "right": 279,
+              "width": 345,
+              "visibleWidth": 279,
+              "visibleRatio": 0.809,
+              "text": "Rzepak DK IMMORTAL CL"
+            },
+            {
+              "left": 299,
+              "right": 644,
+              "width": 345,
+              "visibleWidth": 345,
+              "visibleRatio": 1,
+              "text": "Rzepak ozimy DK EXCITED F1"
+            },
+            {
+              "left": 664,
+              "right": 1009,
+              "width": 345,
+              "visibleWidth": 345,
+              "visibleRatio": 1,
+              "text": "Rzepak ozimy LG AMBASSADOR"
+            },
+            {
+              "left": 1029,
+              "right": 1374,
+              "width": 345,
+              "visibleWidth": 345,
+              "visibleRatio": 1,
+              "text": "Rzepak ozimy LG AUCKLAND"
+            }
+          ]
+        },
+        {
+          "id": "home-bundles",
+          "left": -66,
+          "right": 1334,
+          "width": 1400,
+          "overflowX": "visible",
+          "cards": [
+            {
+              "left": -66,
+              "right": 279,
+              "width": 345,
+              "visibleWidth": 279,
+              "visibleRatio": 0.809,
+              "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L"
+            },
+            {
+              "left": 299,
+              "right": 644,
+              "width": 345,
+              "visibleWidth": 345,
+              "visibleRatio": 1,
+              "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L"
+            },
+            {
+              "left": 664,
+              "right": 1009,
+              "width": 345,
+              "visibleWidth": 345,
+              "visibleRatio": 1,
+              "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L"
+            },
+            {
+              "left": 1029,
+              "right": 1374,
+              "width": 345,
+              "visibleWidth": 345,
+              "visibleRatio": 1,
+              "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L"
+            }
+          ]
+        },
+        {
+          "id": "home-catalogues",
+          "left": 20,
+          "right": 1420,
+          "width": 1400,
+          "overflowX": "hidden",
+          "cards": []
+        },
+        {
+          "id": "home-recommended",
+          "left": -66,
+          "right": 1334,
+          "width": 1400,
+          "overflowX": "visible",
+          "cards": [
+            {
+              "left": -66,
+              "right": 279,
+              "width": 345,
+              "visibleWidth": 279,
+              "visibleRatio": 0.809,
+              "text": "Modivo 60 CS"
+            },
+            {
+              "left": 299,
+              "right": 644,
+              "width": 345,
+              "visibleWidth": 345,
+              "visibleRatio": 1,
+              "text": "Vivero 500 SC 1l"
+            },
+            {
+              "left": 664,
+              "right": 1009,
+              "width": 345,
+              "visibleWidth": 345,
+              "visibleRatio": 1,
+              "text": "Goliat Trio 060 FS"
+            },
+            {
+              "left": 1029,
+              "right": 1374,
+              "width": 345,
+              "visibleWidth": 345,
+              "visibleRatio": 1,
+              "text": "Tavares 250 SE 5 L"
+            }
+          ]
+        },
+        {
+          "id": "home-about",
+          "left": 0,
+          "right": 1440,
+          "width": 1440,
+          "overflowX": "visible",
+          "cards": []
+        },
+        {
+          "id": "home-blog",
+          "left": -4,
+          "right": 1396,
+          "width": 1400,
+          "overflowX": "visible",
+          "cards": []
+        },
+        {
+          "id": "home-knowledge",
+          "left": 0,
+          "right": 1440,
+          "width": 1440,
+          "overflowX": "visible",
+          "cards": []
+        }
+      ],
+      "clippedControls": [
+        {
+          "tag": "a",
+          "text": "",
+          "left": -47,
+          "right": 260,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "Rzepak DK IMMORTAL CL",
+          "left": -3.41,
+          "right": 216.41,
+          "section": "home-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": -47,
+          "right": 260,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L",
+          "left": -47,
+          "right": 260,
+          "section": "home-bundles"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": -47,
+          "right": 260,
+          "section": "home-recommended"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "left": -4,
+          "right": 446,
+          "section": "home-blog"
+        },
+        {
+          "tag": "a",
+          "text": "Popularne nawozy potasowe i ich zastosowanie w uprawach",
+          "left": -4,
+          "right": 413.64,
+          "section": "home-blog"
+        },
+        {
+          "tag": "a",
+          "text": "Czytaj całość →",
+          "left": -4,
+          "right": 136.98,
+          "section": "home-blog"
+        }
+      ]
+    }
+  ],
+  "interactions": {
+    "desktop": {
+      "status": 200,
+      "pageErrors": [],
+      "initial": {
+        "toggleVisible": true,
+        "menuHidden": true,
+        "expanded": "false"
+      },
+      "opened": {
+        "menuHidden": false,
+        "expanded": "true",
+        "bodyOpen": true
+      },
+      "selection": {
+        "categoryCount": 6,
+        "selectedCategories": 1,
+        "selectedCategoryText": "Fungicydy",
+        "cropCount": 10,
+        "pressedCrops": 1,
+        "pressedCropText": "Rzepak"
+      },
+      "closed": {
+        "menuHidden": true,
+        "expanded": "false",
+        "bodyOpen": false
+      },
+      "linkInventory": {
+        "productCardLinks": 36,
+        "addToCartLinks": 12,
+        "forms": [
+          {
+            "method": "get",
+            "action": "https://autopilot.local/",
+            "role": "search"
+          }
+        ]
+      }
+    },
+    "mobile": {
+      "status": 200,
+      "pageErrors": [],
+      "initial": {
+        "togglerVisible": true,
+        "menuActive": false,
+        "bodyOverflow": "hidden auto"
+      },
+      "opened": {
+        "togglerOpen": true,
+        "menuActive": true,
+        "bodyOverflow": "hidden",
+        "menuVisible": true
+      },
+      "closed": {
+        "togglerOpen": false,
+        "menuActive": false,
+        "bodyOverflow": "auto"
+      }
+    },
+    "businessSideEffects": {
+      "submittedForms": false,
+      "clickedAddToCart": false,
+      "placedOrders": false,
+      "sentMessages": false
+    }
+  }
+}

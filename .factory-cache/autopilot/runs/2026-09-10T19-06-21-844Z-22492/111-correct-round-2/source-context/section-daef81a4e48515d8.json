@@ -1,0 +1,92 @@
+{
+  "id": "home-about",
+  "manifestRecord": {
+    "id": "home-about",
+    "name": "o nas",
+    "order": 23,
+    "pageId": "0:1",
+    "snapshot": "sections/23-home-about.json",
+    "desktopNodeId": "130:136",
+    "desktopReference": "references/sections/home-about.png"
+  },
+  "contentFields": [
+    {
+      "section": "home-about",
+      "nodeId": "130:142",
+      "fieldName": "rudnikagro_home_about_130_142",
+      "type": "text",
+      "language": "pl",
+      "value": "Poznaj nas",
+      "destination": "ACF front page / about tab / heading, body WYSIWYG, image, CTA label and URL",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "130:142"
+      }
+    },
+    {
+      "section": "home-about",
+      "nodeId": "130:137",
+      "fieldName": "rudnikagro_home_about_130_137",
+      "type": "text",
+      "language": "pl",
+      "value": "Rudnikagro Sp. z o.o. oferuje kompleksowe wsparcie rolnictwa oraz zapewnia najwyÅ¼szy standard obsÅ‚ugi.\nOd siedemnastu lat zajmujemy siÄ™ sprzedaÅ¼Ä… Å›rodkÃ³w ochrony roÅ›lin, nawozÃ³w, nasion oraz obrotem pÅ‚odami rolnymi.",
+      "destination": "ACF front page / about tab / heading, body WYSIWYG, image, CTA label and URL",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "130:137"
+      }
+    },
+    {
+      "section": "home-about",
+      "nodeId": "130:138",
+      "fieldName": "rudnikagro_home_about_130_138",
+      "type": "text",
+      "language": "pl",
+      "value": "Dla firm dystrybucyjnych oraz producentÃ³w rolnych Rudnikagro Sp. z o.o. jest stabilnym i wiarygodnym partnerem. DokÅ‚adamy wszelkich staraÅ„, aby nasi Klienci\nw moÅ¼liwie najkrÃ³tszym czasie mieli dostÄ™p do najbardziej efektywnych rozwiÄ…zaÅ„ agrotechnicznych.",
+      "destination": "ACF front page / about tab / heading, body WYSIWYG, image, CTA label and URL",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "130:138"
+      }
+    },
+    {
+      "section": "home-about",
+      "nodeId": "130:134",
+      "fieldName": "rudnikagro_home_about_130_134",
+      "type": "text",
+      "language": "pl",
+      "value": "O nas",
+      "destination": "ACF front page / about tab / heading, body WYSIWYG, image, CTA label and URL",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "130:134"
+      }
+    },
+    {
+      "section": "home-about",
+      "nodeId": "130:140",
+      "fieldName": "rudnikagro_home_about_media_130_140",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/130-140-rectangle41.png",
+      "destination": "ACF front page / about tab / heading, body WYSIWYG, image, CTA label and URL / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "130:140"
+      }
+    },
+    {
+      "section": "home-about",
+      "nodeId": "130:143",
+      "fieldName": "rudnikagro_home_about_media_130_143",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/130-143-arrow1.svg",
+      "destination": "ACF front page / about tab / heading, body WYSIWYG, image, CTA label and URL / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "130:143"
+      }
+    }
+  ]
+}

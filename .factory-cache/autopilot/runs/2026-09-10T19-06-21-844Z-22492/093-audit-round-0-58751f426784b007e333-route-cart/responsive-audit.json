@@ -1,0 +1,19 @@
+{
+  "status": "needs_work",
+  "summary": "Inspected all retained responsive captures and probes at 1440, 1280, 1024, 768, 390 and 375 px, scoped to cart page content only. The cart is readable and controls remain visible at 768/390/375 px, but the 1024 px intermediate layout has severe cart-line overlap. Probes report zero overflow except 1 px at 375 px.",
+  "issues": [
+    "CART-RESP-01 (high, 1024 layout): cart-lines occupies x=20..517, but the remove icon is retained at x=547 and enters the totals panel; the product title overlaps the quantity control. Switch the cart line to an intermediate/mobile arrangement before its column narrows to 497 px.",
+    "CART-RESP-02 (low, horizontal overflow): retained 375 px probe reports overflow=1. Remove the final pixel of horizontal overflow and recheck controls at 375 px."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/cart/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/cart/responsive-1440.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/cart/responsive-1280.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/cart/responsive-1024.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/cart/responsive-768.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/cart/responsive-390.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/cart/responsive-375.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/cart/responsive-1024.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/cart/responsive-375.json"
+  ]
+}

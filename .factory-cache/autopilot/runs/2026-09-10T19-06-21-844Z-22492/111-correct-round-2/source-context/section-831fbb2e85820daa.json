@@ -1,0 +1,410 @@
+{
+  "id": "product-inquiry-overview",
+  "manifestRecord": {
+    "id": "product-inquiry-overview",
+    "name": "dane produktu",
+    "order": 6,
+    "pageId": "0:1",
+    "snapshot": "sections/06-product-inquiry-overview.json",
+    "desktopNodeId": "496:1825",
+    "desktopReference": "references/sections/product-inquiry-overview.png"
+  },
+  "contentFields": [
+    {
+      "section": "product-inquiry-overview",
+      "nodeId": "496:1826",
+      "fieldName": "rudnikagro_product_inquiry_overview_496_1826",
+      "type": "text",
+      "language": "pl",
+      "value": "Kod produktu: 98899\nProducent: Rudnikagro",
+      "destination": "WooCommerce product SKU 98899; inquiry display state",
+      "linkEvidence": [
+        {
+          "characters": "Kod produktu: ",
+          "hyperlink": null
+        },
+        {
+          "characters": "98899\n",
+          "hyperlink": null
+        },
+        {
+          "characters": "Producent: ",
+          "hyperlink": null
+        },
+        {
+          "characters": "Rudnikagro",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "496:1826"
+      }
+    },
+    {
+      "section": "product-inquiry-overview",
+      "nodeId": "496:1827",
+      "fieldName": "rudnikagro_product_inquiry_overview_496_1827",
+      "type": "text",
+      "language": "pl",
+      "value": "Pobierz etykietÄ™",
+      "destination": "WooCommerce product SKU 98899; inquiry display state",
+      "linkEvidence": [
+        {
+          "characters": "Pobierz etykietÄ™",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "496:1827"
+      }
+    },
+    {
+      "section": "product-inquiry-overview",
+      "nodeId": "496:1835",
+      "fieldName": "rudnikagro_product_inquiry_overview_496_1835",
+      "type": "text",
+      "language": "pl",
+      "value": "Dodaj do ulubionych",
+      "destination": "WooCommerce product SKU 98899; inquiry display state",
+      "linkEvidence": [
+        {
+          "characters": "Dodaj do ulubionych",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "496:1835"
+      }
+    },
+    {
+      "section": "product-inquiry-overview",
+      "nodeId": "496:1839",
+      "fieldName": "rudnikagro_product_inquiry_overview_496_1839",
+      "type": "text",
+      "language": "pl",
+      "value": "Chcesz poznaÄ‡ cenÄ™ hurtowÄ… dla tego produktu? Skontaktuj siÄ™!",
+      "destination": "WooCommerce product SKU 98899; inquiry display state",
+      "linkEvidence": [
+        {
+          "characters": "Chcesz poznaÄ‡ cenÄ™ hurtowÄ… dla tego produktu? Skontaktuj siÄ™!",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "496:1839"
+      }
+    },
+    {
+      "section": "product-inquiry-overview",
+      "nodeId": "496:1843",
+      "fieldName": "rudnikagro_product_inquiry_overview_496_1843",
+      "type": "text",
+      "language": "pl",
+      "value": "Ocena:",
+      "destination": "WooCommerce product SKU 98899; inquiry display state",
+      "linkEvidence": [
+        {
+          "characters": "Ocena:",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "496:1843"
+      }
+    },
+    {
+      "section": "product-inquiry-overview",
+      "nodeId": "496:1852",
+      "fieldName": "rudnikagro_product_inquiry_overview_496_1852",
+      "type": "text",
+      "language": "pl",
+      "value": "Zamienniki",
+      "destination": "WooCommerce product SKU 98899; inquiry display state",
+      "linkEvidence": [
+        {
+          "characters": "Zamienniki",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "496:1852"
+      }
+    },
+    {
+      "section": "product-inquiry-overview",
+      "nodeId": "496:1859",
+      "fieldName": "rudnikagro_product_inquiry_overview_496_1859",
+      "type": "text",
+      "language": "pl",
+      "value": "Dodaj do koszyka",
+      "destination": "WooCommerce product SKU 98899; inquiry display state",
+      "linkEvidence": [
+        {
+          "characters": "Dodaj do koszyka",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "496:1859"
+      }
+    },
+    {
+      "section": "product-inquiry-overview",
+      "nodeId": "496:1862",
+      "fieldName": "rudnikagro_product_inquiry_overview_496_1862",
+      "type": "text",
+      "language": "pl",
+      "value": "1",
+      "destination": "WooCommerce product SKU 98899; inquiry display state",
+      "linkEvidence": [
+        {
+          "characters": "1",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "496:1862"
+      }
+    },
+    {
+      "section": "product-inquiry-overview",
+      "nodeId": "496:1863",
+      "fieldName": "rudnikagro_product_inquiry_overview_496_1863",
+      "type": "text",
+      "language": "pl",
+      "value": "-",
+      "destination": "WooCommerce product SKU 98899; inquiry display state",
+      "linkEvidence": [
+        {
+          "characters": "-",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "496:1863"
+      }
+    },
+    {
+      "section": "product-inquiry-overview",
+      "nodeId": "496:1864",
+      "fieldName": "rudnikagro_product_inquiry_overview_496_1864",
+      "type": "text",
+      "language": "pl",
+      "value": "+",
+      "destination": "WooCommerce product SKU 98899; inquiry display state",
+      "linkEvidence": [
+        {
+          "characters": "+",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "496:1864"
+      }
+    },
+    {
+      "section": "product-inquiry-overview",
+      "nodeId": "496:1867",
+      "fieldName": "rudnikagro_product_inquiry_overview_496_1867",
+      "type": "text",
+      "language": "pl",
+      "value": "1 L",
+      "destination": "WooCommerce product SKU 98899; inquiry display state",
+      "linkEvidence": [
+        {
+          "characters": "1 L",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "496:1867"
+      }
+    },
+    {
+      "section": "product-inquiry-overview",
+      "nodeId": "496:1870",
+      "fieldName": "rudnikagro_product_inquiry_overview_496_1870",
+      "type": "text",
+      "language": "pl",
+      "value": "5 L",
+      "destination": "WooCommerce product SKU 98899; inquiry display state",
+      "linkEvidence": [
+        {
+          "characters": "5 L",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "496:1870"
+      }
+    },
+    {
+      "section": "product-inquiry-overview",
+      "nodeId": "496:1873",
+      "fieldName": "rudnikagro_product_inquiry_overview_496_1873",
+      "type": "text",
+      "language": "pl",
+      "value": "20 L",
+      "destination": "WooCommerce product SKU 98899; inquiry display state",
+      "linkEvidence": [
+        {
+          "characters": "20 L",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "496:1873"
+      }
+    },
+    {
+      "section": "product-inquiry-overview",
+      "nodeId": "505:2",
+      "fieldName": "rudnikagro_product_inquiry_overview_505_2",
+      "type": "text",
+      "language": "pl",
+      "value": "Cena: 411,00Â zÅ‚",
+      "destination": "WooCommerce product SKU 98899; inquiry display state",
+      "linkEvidence": [
+        {
+          "characters": "Cena: ",
+          "hyperlink": null
+        },
+        {
+          "characters": "411,00Â zÅ‚",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "505:2"
+      }
+    },
+    {
+      "section": "product-inquiry-overview",
+      "nodeId": "505:3",
+      "fieldName": "rudnikagro_product_inquiry_overview_505_3",
+      "type": "text",
+      "language": "pl",
+      "value": "530,00Â zÅ‚",
+      "destination": "WooCommerce product SKU 98899; inquiry display state",
+      "linkEvidence": [
+        {
+          "characters": "530,00Â zÅ‚",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "505:3"
+      }
+    },
+    {
+      "section": "product-inquiry-overview",
+      "nodeId": "505:4",
+      "fieldName": "rudnikagro_product_inquiry_overview_505_4",
+      "type": "text",
+      "language": "pl",
+      "value": "(w tym 23% VAT)",
+      "destination": "WooCommerce product SKU 98899; inquiry display state",
+      "linkEvidence": [
+        {
+          "characters": "(w tym 23% VAT)",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "505:4"
+      }
+    },
+    {
+      "section": "product-inquiry-overview",
+      "nodeId": "496:1875",
+      "fieldName": "rudnikagro_product_inquiry_overview_496_1875",
+      "type": "text",
+      "language": "pl",
+      "value": "Aquatos 5L",
+      "destination": "WooCommerce product SKU 98899; inquiry display state",
+      "linkEvidence": [
+        {
+          "characters": "Aquatos 5L",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "496:1875"
+      }
+    },
+    {
+      "section": "product-inquiry-overview",
+      "nodeId": "496:1876",
+      "fieldName": "rudnikagro_product_inquiry_overview_496_1876",
+      "type": "text",
+      "language": "pl",
+      "value": "NajniÅ¼sza cena z 30 dni przed obniÅ¼kÄ…: 530,00 zÅ‚",
+      "destination": "WooCommerce product SKU 98899; inquiry display state",
+      "linkEvidence": [
+        {
+          "characters": "NajniÅ¼sza cena z 30 dni przed obniÅ¼kÄ…: 530,00 zÅ‚",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "496:1876"
+      }
+    },
+    {
+      "section": "product-inquiry-overview",
+      "nodeId": "548:132",
+      "fieldName": "rudnikagro_product_inquiry_overview_548_132",
+      "type": "text",
+      "language": "pl",
+      "value": "Oryginalne produkty\nSzybka dostawa\nKorzystne ceny\nTaÅ„sze pakiety produktowe",
+      "destination": "WooCommerce product SKU 98899; inquiry display state",
+      "linkEvidence": [
+        {
+          "characters": "Oryginalne produkty\nSzybka dostawa\nKorzystne ceny\nTaÅ„sze pakiety produktowe",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "548:132"
+      }
+    }
+  ]
+}

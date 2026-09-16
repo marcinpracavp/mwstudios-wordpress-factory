@@ -1,0 +1,134 @@
+{
+  "source": {
+    "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+    "figmaUrl": "https://www.figma.com/design/OwiDXrKMVcaHKB9ryYF6mY/Rudnik-Agro?m=dev"
+  },
+  "status": "complete",
+  "routes": [
+    {
+      "id": "cart",
+      "path": "/koszyk/",
+      "language": "pl",
+      "frameNodeId": "438:151",
+      "reference": "references/full/frame-438-151.png",
+      "width": 1920,
+      "height": 1644,
+      "sections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "shared-primary-navigation",
+        "cart-heading",
+        "cart-lines",
+        "cart-totals",
+        "shared-footer"
+      ],
+      "buildGroup": "cart",
+      "responsiveSource": "derived",
+      "notes": "Source frame titled koszyk contains a product line and totals. Planned local route path is an implementation decision inferred from source page identity, not a captured source hyperlink. Responsive behavior is derived because no mobile source exists.",
+      "sectionGeometry": {
+        "cart-heading": {
+          "x": 237,
+          "y": 260,
+          "width": 467,
+          "height": 68
+        },
+        "cart-lines": {
+          "x": 240,
+          "y": 364,
+          "width": 953,
+          "height": 240
+        },
+        "cart-totals": {
+          "x": 240,
+          "y": 364,
+          "width": 1440,
+          "height": 473
+        }
+      }
+    }
+  ],
+  "stateFamilies": [],
+  "sections": [
+    {
+      "id": "cart-heading",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/56-cart-heading.json",
+      "contentRecords": 1,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/093-audit-round-0-58751f426784b007e333-route-cart/source-context/section-ede683e7bef4f527.json",
+        "bytes": 830,
+        "sha256": "0a1b66503a932b430cd4bf4e328ccf8a7016f77d8174c20e2c67af97ee12c2f9"
+      }
+    },
+    {
+      "id": "cart-lines",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/57-cart-lines.json",
+      "contentRecords": 3,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/093-audit-round-0-58751f426784b007e333-route-cart/source-context/section-96ce2feac3b9e4ee.json",
+        "bytes": 1961,
+        "sha256": "8e994ef42f30d10d7e2136bdf17072c54237663f3fca6d389ddbbc7eafbe2533"
+      }
+    },
+    {
+      "id": "cart-totals",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/58-cart-totals.json",
+      "contentRecords": 15,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/093-audit-round-0-58751f426784b007e333-route-cart/source-context/section-f4240b89cb5c9c6d.json",
+        "bytes": 8573,
+        "sha256": "e20c08a839eb6eaf76fa6552fcfbcc9546fa9ba1d4267abff9e61a4f673a6c48"
+      }
+    }
+  ],
+  "observations": [],
+  "frames": [
+    {
+      "nodeId": "438:151",
+      "name": "koszyk",
+      "pageId": "0:1",
+      "type": "FRAME",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "482:5",
+      "name": "Koszyk",
+      "pageId": "0:1",
+      "type": "TEXT",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "483:7",
+      "name": "szczegóły",
+      "pageId": "0:1",
+      "type": "FRAME",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "486:44",
+      "name": "szczegóły",
+      "pageId": "0:1",
+      "type": "FRAME",
+      "viewport": "desktop",
+      "language": "pl"
+    }
+  ],
+  "globalFiles": [
+    {
+      "path": ".factory-cache/figma/latest/design-system.json",
+      "bytes": 8294,
+      "sha256": "5086e8f74a4d3aee56055467846c3f49e9f2791c2a30a873ea30c5a5a87b3863"
+    },
+    {
+      "path": ".factory-cache/figma/latest/components.json",
+      "bytes": 261,
+      "sha256": "fb651cb0bc38b89b71ffa0e6a8b92ec6acbe3bdff6ab7d30ea9c2e39ed12fec5"
+    }
+  ],
+  "lookup": "Observation matches are an index, not a completeness claim. Use targeted rg or inspect JSON pointers for missing node IDs. Never dump the full source files."
+}

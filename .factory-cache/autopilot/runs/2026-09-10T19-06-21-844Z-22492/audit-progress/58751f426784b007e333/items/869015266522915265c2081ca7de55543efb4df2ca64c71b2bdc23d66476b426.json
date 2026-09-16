@@ -1,0 +1,29 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-order-confirmed",
+  "item": "interactions",
+  "status": "blocked",
+  "summary": "Opened the exact order-received URL in a fresh isolated headless Chrome context and performed only read-only navigation, DOM inspection and a screenshot. No links or controls were activated, no form was submitted, and no order, payment or email action occurred.",
+  "issues": [
+    "OC-INT-001 (blocked, missing genuine order identity): the route returns HTTP 200 but has neither an order ID in the path nor a WooCommerce order key. It renders one generic thank-you notice, zero order overviews, zero order-detail blocks, zero assigned route sections, zero main controls and zero forms. An approved existing native order ID/key is required to audit the real completed-order state; the audit must not create or place an order. No page or console errors were observed, but that does not validate the unavailable state."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/103-audit-round-0-58751f426784b007e333-route-order-confirmed/interaction-live-probe.json",
+      "sha256": "fe616780f1f7e07880a6ba11dbff278e86650f2540509ee3327322478115df70"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/103-audit-round-0-58751f426784b007e333-route-order-confirmed/interaction-live-probe.png",
+      "sha256": "4fde40b5ea5358d23d8b381b247849f4fc180f96ba3b4e5ec0001964ed53e9f8"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/103-audit-round-0-58751f426784b007e333-route-order-confirmed/source-context/scope.json",
+      "sha256": "6726540db83b817a954b3c6e8f54cff542a2954e6cbd6e0154acd07968135161"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/order-confirmed/comparison.json",
+      "sha256": "ebd141bae69283c244c9d9f5b8009815024f2f37de3f47d2328ca94297b2de17"
+    }
+  ],
+  "completedAt": "2026-09-15T17:13:21.961Z"
+}

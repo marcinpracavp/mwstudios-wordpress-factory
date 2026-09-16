@@ -1,0 +1,15 @@
+{
+  "status": "needs_work",
+  "summary": "Compared the retained 1920 px source, render and diff for home-benefits. Section geometry is within one pixel, but the second benefit uses the wrong icon and the five items do not preserve the source spacing and text alignment.",
+  "issues": [
+    "HOME-BENEFITS-01 high icon: expected the shield '5 LAT' SVG for 'Do 5 lat gwarancji na produkty'; actual repeats the delivery-truck icon. Bind the source-backed warranty SVG attachment for the second item.",
+    "HOME-BENEFITS-02 medium layout: expected five evenly distributed columns across the 1440 px section with icons and two-line labels centered at approximately x=95,415,720,1025,1345; actual content clusters toward the center and uses different column centers. Match the source column distribution and per-item alignment.",
+    "HOME-BENEFITS-03 medium typography: expected the first line of each benefit at bold weight with the second line regular; actual labels render as uniform regular text. Restore the source weight split and line spacing."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/home-benefits-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/home-benefits-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/home-benefits-diff.png"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-account",
+  "item": "section:account-login",
+  "status": "needs_work",
+  "summary": "Inspected the retained account-login reference, rendered and diff crops against source node 524:195. The panel geometry matches at x 240, y 331, width 710, height 425, but the native form's internal presentation differs; the crop pixel ratio is 0.06778127589063794.",
+  "issues": [
+    "AUD-ACCOUNT-LOGIN-001 | priority: high | property: field presentation | expected: E-mail and Hasło are light placeholders inside 588 by 43 inputs at source-local x 41 and y 107/178 | actual: rendered output places visible labels above blank inputs and stretches controls to approximately 650 px | fix: keep native login fields while rendering the sourced labels as placeholders and restore source input width and position.",
+    "AUD-ACCOUNT-LOGIN-002 | priority: medium | property: internal spacing/alignment | expected: heading starts 40 px from the panel left at source y 376, checkbox row at y 581, and buttons at y 655 | actual: heading starts about 30 px from the panel left and 16 px too high, while the checkbox and action row are approximately 30 to 32 px too high | fix: reproduce the source panel padding and vertical rhythm while retaining the correct outer panel bounds."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/account/comparison.json",
+      "sha256": "73910b4bdb03a2d56bbf8b570c16c403d16052c8f2cbeb8093da48e8c1421341"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/account/account-login-reference.png",
+      "sha256": "cf0006938ea5cd96f3ec92ed70c38f954f80b627954a549e498c616e33aac767"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/account/account-login-rendered.png",
+      "sha256": "b40df1a965bd472f35161cf8a3a495d95ab082c20c19a9c84771ebd52271e9d2"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/account/account-login-diff.png",
+      "sha256": "f5d8990d45265d07e6d05cf4391415305d41b6f7a3348de1d7af5e4c93633f15"
+    }
+  ],
+  "completedAt": "2026-09-15T11:49:22.726Z"
+}

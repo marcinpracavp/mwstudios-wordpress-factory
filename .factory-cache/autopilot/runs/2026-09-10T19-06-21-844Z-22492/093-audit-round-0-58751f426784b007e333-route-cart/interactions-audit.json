@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "summary": "Ran a fresh isolated headless Chrome session on the local cart. One native cart line was present; the visible quantity controls changed the input from 1 to 2 and restored it to 1. The applied coupon state was visible, checkout and continue-shopping links were visible with local URLs, and no console/page errors or state-changing requests occurred after setup. Checkout was not visited; no order or payment was attempted.",
+  "issues": [],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/cart/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/093-audit-round-0-58751f426784b007e333-route-cart/cart-interaction-probe.json"
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "source": {
+    "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+    "figmaUrl": "https://www.figma.com/design/OwiDXrKMVcaHKB9ryYF6mY/Rudnik-Agro?m=dev"
+  },
+  "status": "complete",
+  "routes": [
+    {
+      "id": "product-inquiry",
+      "path": "/produkt/aquatos-5l/",
+      "language": "pl",
+      "frameNodeId": "423:263",
+      "reference": "references/full/frame-423-263.png",
+      "width": 1920,
+      "height": 3397,
+      "sections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "shared-primary-navigation",
+        "product-breadcrumbs",
+        "product-gallery",
+        "product-inquiry-overview",
+        "product-tabs",
+        "product-inquiry-dialog",
+        "product-related",
+        "product-legal-notices",
+        "shared-footer"
+      ],
+      "buildGroup": "product",
+      "responsiveSource": "derived",
+      "notes": "Alternate product frame has an additional popup node 431:876 and expanded overview; exact popup visibility and trigger remain unresolved. Planned local route path is an implementation decision inferred from source page identity, not a captured source hyperlink. Uncaptured section IDs remain explicit in this partial execution plan.",
+      "state": "inquiry",
+      "sectionGeometry": {
+        "product-inquiry-dialog": {
+          "x": 970,
+          "y": 711,
+          "width": 467,
+          "height": 702
+        }
+      }
+    }
+  ],
+  "stateFamilies": [
+    {
+      "family": "[\"product\",\"/produkt/aquatos-5l/\",\"pl\",1920]",
+      "baseRoute": "product",
+      "route": "product-inquiry",
+      "reusedSections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "product-breadcrumbs",
+        "product-gallery"
+      ],
+      "focusSections": [
+        "shared-primary-navigation",
+        "product-inquiry-overview",
+        "product-tabs",
+        "product-inquiry-dialog",
+        "product-related",
+        "product-legal-notices",
+        "shared-footer"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "product-related",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/48-product-related.json",
+      "contentRecords": 5,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/102-audit-round-0-58751f426784b007e333-route-product-inquiry/source-context/section-09d07b607a4c57e0.json",
+        "bytes": 3165,
+        "sha256": "b3d828c81d3f96d836b5a9d17fc19e26808917192e26c7f7ded06a1ff8107d65"
+      }
+    },
+    {
+      "id": "product-legal-notices",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/49-product-legal-notices.json",
+      "contentRecords": 2,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/102-audit-round-0-58751f426784b007e333-route-product-inquiry/source-context/section-0fa7c0303303063b.json",
+        "bytes": 3138,
+        "sha256": "1fa131ea280ee55414ec116b6dbc4fb5b0c4c10564e918c4527e43d7de9b3fcf"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "id": "2426d11a0d8b2e6ceaa4",
+      "nodeIds": [
+        "496:1825",
+        "423:263"
+      ],
+      "description": "Capture logical section product-inquiry-overview for immediate snapshot persistence",
+      "path": "observations/2426d11a0d8b2e6ceaa4.json"
+    }
+  ],
+  "frames": [
+    {
+      "nodeId": "423:263",
+      "name": "szczegÃ³ly produktu",
+      "pageId": "0:1",
+      "type": "FRAME",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "326:2515",
+      "name": "produkty powiązane",
+      "pageId": "0:1",
+      "type": "GROUP",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "326:2516",
+      "name": "noty prawne produktu",
+      "pageId": "0:1",
+      "type": "RECTANGLE",
+      "viewport": "desktop",
+      "language": "pl"
+    }
+  ],
+  "globalFiles": [
+    {
+      "path": ".factory-cache/figma/latest/design-system.json",
+      "bytes": 8294,
+      "sha256": "5086e8f74a4d3aee56055467846c3f49e9f2791c2a30a873ea30c5a5a87b3863"
+    },
+    {
+      "path": ".factory-cache/figma/latest/components.json",
+      "bytes": 261,
+      "sha256": "fb651cb0bc38b89b71ffa0e6a8b92ec6acbe3bdff6ab7d30ea9c2e39ed12fec5"
+    }
+  ],
+  "lookup": "Observation matches are an index, not a completeness claim. Use targeted rg or inspect JSON pointers for missing node IDs. Never dump the full source files."
+}

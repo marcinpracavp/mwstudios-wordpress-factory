@@ -1,0 +1,102 @@
+{
+  "browser": "Google Chrome",
+  "isolatedContext": true,
+  "viewport": {
+    "width": 375,
+    "height": 900
+  },
+  "url": "https://autopilot.local/product/aquatos-5l/#reviews",
+  "submittedForms": false,
+  "placedOrder": false,
+  "sentMessages": false,
+  "initial": {
+    "hash": "#reviews",
+    "selectedTabs": [
+      "reviews"
+    ],
+    "activePanels": [
+      "reviews"
+    ],
+    "sectionIdentity": "product-reviews",
+    "tabScroller": {
+      "clientWidth": 335,
+      "scrollWidth": 650,
+      "scrollLeft": 0,
+      "overflowX": "auto"
+    },
+    "activeTabRect": {
+      "left": 410,
+      "right": 540,
+      "width": 130
+    },
+    "focusedTab": null
+  },
+  "afterDescriptionClick": {
+    "hash": "#description",
+    "selectedTabs": [
+      "description"
+    ],
+    "activePanels": [
+      "description"
+    ],
+    "sectionIdentity": "product-reviews",
+    "tabScroller": {
+      "clientWidth": 335,
+      "scrollWidth": 650,
+      "scrollLeft": 0,
+      "overflowX": "auto"
+    },
+    "activeTabRect": {
+      "left": 150,
+      "right": 280,
+      "width": 130
+    },
+    "focusedTab": "description"
+  },
+  "afterReviewsClick": {
+    "hash": "#reviews",
+    "selectedTabs": [
+      "reviews"
+    ],
+    "activePanels": [
+      "reviews"
+    ],
+    "sectionIdentity": "product-reviews",
+    "tabScroller": {
+      "clientWidth": 335,
+      "scrollWidth": 650,
+      "scrollLeft": 288,
+      "overflowX": "auto"
+    },
+    "activeTabRect": {
+      "left": 122,
+      "right": 252,
+      "width": 130
+    },
+    "focusedTab": "reviews"
+  },
+  "afterArrowRight": {
+    "hash": "#reviews",
+    "selectedTabs": [
+      "reviews"
+    ],
+    "activePanels": [
+      "reviews"
+    ],
+    "sectionIdentity": "product-reviews",
+    "tabScroller": {
+      "clientWidth": 335,
+      "scrollWidth": 650,
+      "scrollLeft": 288,
+      "overflowX": "auto"
+    },
+    "activeTabRect": {
+      "left": 122,
+      "right": 252,
+      "width": 130
+    },
+    "focusedTab": "reviews"
+  },
+  "pageErrors": [],
+  "consoleErrors": []
+}

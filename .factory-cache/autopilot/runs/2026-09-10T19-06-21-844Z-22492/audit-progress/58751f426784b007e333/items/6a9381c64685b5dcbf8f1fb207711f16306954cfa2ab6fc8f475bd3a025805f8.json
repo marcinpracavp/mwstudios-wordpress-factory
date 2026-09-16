@@ -1,0 +1,31 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-checkout-registration",
+  "item": "interactions",
+  "status": "needs_work",
+  "summary": "Ran a fresh isolated Google Chrome context at 1280x900 against https://autopilot.local/zamowienie/ without submitting any form. The registration opener changes aria-expanded false to true, reveals the role=dialog/aria-modal=true element, and focuses the username input. Escape hides the dialog, restores aria-expanded=false and returns focus to the opener. The consent checkbox is keyboard reachable and toggles with Space, and no page errors occurred. The modal nevertheless lacks a visible close control, does not contain focus, and places the consent checkbox outside the pointer-reachable viewport.",
+  "issues": [
+    "CHK-INT-001 | priority: high | property: visible dialog dismissal | expected: the source X is an operable close control in addition to Escape | actual: the only button/[role=button] inside the open dialog is the registration submit button | fix: add the source-backed accessible close button and wire it to the existing close behavior.",
+    "CHK-INT-002 | priority: high | property: modal keyboard focus containment | expected: Shift+Tab from the first field wraps to the last focusable control inside the aria-modal dialog | actual: Shift+Tab moves focus outside the dialog to the background registration opener | fix: implement focus trapping for the open modal and restore focus on every close path.",
+    "CHK-INT-003 | priority: high | property: pointer reachability at 1280x900 | expected: consent and primary action are reachable within the open modal by pointer or modal scrolling | actual: consent checkbox bounding box begins at y 1085.89 below the 900 px viewport and Playwright pointer click times out after attempted scrolling; keyboard traversal can still reach and toggle it | fix: fit the dialog within the viewport or provide an internal scroll region while keeping controls visible and reachable."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-registration/comparison.json",
+      "sha256": "fc5785d20f0dd631ae10743cf5c9ab441098d678045cf835c477e068a2f24378"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/105-audit-round-0-58751f426784b007e333-route-checkout-registration/interaction-live-probe.json",
+      "sha256": "8d515252829e5c87c666ebc3f3346aaa6effadf3548f1198ea79e4a6a4c801a7"
+    },
+    {
+      "path": "partials/checkout-login-options.php",
+      "sha256": "4d8c04578213b94acfdabf2bb7fab360c322c5e4e6b77a3880577cf2656f2377"
+    },
+    {
+      "path": "src/js/checkout.js",
+      "sha256": "1be3d33fd512808575e608f5b5638b0216bf03618d48172ac5605d01a95379cd"
+    }
+  ],
+  "completedAt": "2026-09-15T17:54:01.360Z"
+}

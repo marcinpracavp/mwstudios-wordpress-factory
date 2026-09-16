@@ -1,0 +1,110 @@
+{
+  "checkedAt": "2026-09-14T21:48:25.929Z",
+  "browser": "Google Chrome",
+  "url": "https://autopilot.local/kontakt/",
+  "httpStatus": 200,
+  "title": "Kontakt – Safegold",
+  "form": {
+    "sectionVisible": true,
+    "formCount": 1,
+    "className": "wpcf7-form init",
+    "action": "/kontakt/#wpcf7-f101-p47-o1",
+    "method": "post",
+    "noValidate": "novalidate",
+    "fields": [
+      {
+        "tag": "input",
+        "type": "text",
+        "name": "contact-name",
+        "placeholder": "Imię",
+        "required": false,
+        "ariaRequired": "true",
+        "visible": true,
+        "disabled": false,
+        "focused": true,
+        "rect": {
+          "x": 508,
+          "y": 594,
+          "width": 345,
+          "height": 62
+        }
+      },
+      {
+        "tag": "input",
+        "type": "email",
+        "name": "contact-email",
+        "placeholder": "Adres e-mail",
+        "required": false,
+        "ariaRequired": "true",
+        "visible": true,
+        "disabled": false,
+        "focused": true,
+        "rect": {
+          "x": 508,
+          "y": 671,
+          "width": 345,
+          "height": 62
+        }
+      },
+      {
+        "tag": "input",
+        "type": "tel",
+        "name": "contact-phone",
+        "placeholder": "Numer telefonu",
+        "required": false,
+        "ariaRequired": "true",
+        "visible": true,
+        "disabled": false,
+        "focused": true,
+        "rect": {
+          "x": 508,
+          "y": 748,
+          "width": 345,
+          "height": 62
+        }
+      },
+      {
+        "tag": "textarea",
+        "type": null,
+        "name": "contact-message",
+        "placeholder": "Treść wiadomości",
+        "required": false,
+        "ariaRequired": "true",
+        "visible": true,
+        "disabled": false,
+        "focused": true,
+        "rect": {
+          "x": 873,
+          "y": 594,
+          "width": 387,
+          "height": 215
+        }
+      }
+    ],
+    "submit": {
+      "tag": "input",
+      "type": "submit",
+      "value": "Wyślij",
+      "visible": true,
+      "disabled": false,
+      "focused": true,
+      "rect": {
+        "x": 508,
+        "y": 852,
+        "width": 224,
+        "height": 44
+      }
+    },
+    "responseRegionCount": 1
+  },
+  "safeScope": {
+    "submitted": false,
+    "reason": "Submission intentionally not triggered because the audit must not send email or create business side effects.",
+    "mutatingRequests": []
+  },
+  "runtime": {
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": []
+  }
+}

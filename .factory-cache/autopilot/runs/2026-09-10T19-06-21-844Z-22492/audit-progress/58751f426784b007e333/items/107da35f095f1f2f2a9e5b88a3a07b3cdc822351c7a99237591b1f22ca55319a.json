@@ -1,0 +1,32 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-home-active",
+  "item": "section:home-bundles",
+  "status": "needs_work",
+  "summary": "Compared the retained 1920 px source, rendered crop and diff for home-bundles. All four source-backed bundle cards are present, but image scaling, card typography/content and carousel chrome materially diverge; the section diagnostic mismatch is 20.329%.",
+  "issues": [
+    "HOME-BUNDLES-01 high image geometry: expected each bundle image roughly 225x180 and positioned below the savings badge; actual images are enlarged to roughly 290x220 and intrude toward the top edge. Match the source image box, contain sizing and vertical position.",
+    "HOME-BUNDLES-02 high card content/layout: expected left-aligned two-line product title, price row and the line 'Najniższa cena z 30 dni przed obniżką: 3365,00 zł'; actual title wraps to three centered lines and the lowest-price disclosure is missing. Restore source text and alignment while retaining native product data.",
+    "HOME-BUNDLES-03 high carousel controls: expected outer previous/next circles and a bottom progress track; actual crop omits those controls. Restore their source positions and clipping/z-index.",
+    "HOME-BUNDLES-04 medium section header: expected heading/button around y=66; actual places them around y=31 while the card row remains at y=174. Correct header vertical spacing independently of cards."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/comparison.json",
+      "sha256": "4e081d5f6d25b3aa5003d87f1c3c1ca420b888509f7103c4a9a6af8f92529e61"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/home-bundles-reference.png",
+      "sha256": "ac102b116a748a1ef780f6ce4a2bd786251b15115f9a1bbdf0c4b5aec3d92a61"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/home-bundles-rendered.png",
+      "sha256": "9863834f33cd0146b4bc94c02d061d34c7f9515d0e1116e4f8832e0da2779f5d"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/home-bundles-diff.png",
+      "sha256": "3fcec794a34d9ef980fc177eaa9e1f17886daad532c8e18b566e166b7f5eb10f"
+    }
+  ],
+  "completedAt": "2026-09-15T23:17:03.841Z"
+}

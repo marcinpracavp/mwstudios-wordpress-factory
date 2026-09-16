@@ -1,0 +1,16 @@
+{
+  "status": "needs_work",
+  "summary": "Compared the product tabs reference, rendered crop, diff, and retained geometry. Outer geometry is within tolerance, but tab sizing and the technical-data panel layout produce an 11.989% mismatch, above acceptance.",
+  "issues": [
+    "VIS-PRODUCT-TABS-001 (high) — property: tab widths/navigation distribution; expected: active tab width about 224 px with evenly distributed remaining labels; actual: active tab is about 288 px and every subsequent tab starts farther right; fix: match the reference tab grid/column widths and active background radius.",
+    "VIS-PRODUCT-TABS-002 (high) — property: panel vertical geometry; expected: bordered content panel begins around y=77 within the crop; actual: it begins around y=56, moving all rows about 21–26 px upward; fix: restore the source gap between tab row and panel and source inner top padding.",
+    "VIS-PRODUCT-TABS-003 (high) — property: technical table insets/columns; expected: inner rows begin near x=102 with value column near x=365; actual: rows begin near x=71 with values near x=285, widening text and changing wrapping; fix: match the source panel horizontal padding and label/value column widths.",
+    "VIS-PRODUCT-TABS-004 (medium) — property: typography; expected: source DM Sans metrics and row wrapping; actual: rendered text is smaller/heavier, with different line breaks throughout; fix: apply the exact source size, weight, and line-height to tabs, labels, and values."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product/product-tabs-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product/product-tabs-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product/product-tabs-diff.png"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "status": "needs_work",
+  "summary": "Inspected retained responsive screenshots and runtime geometry at 1440, 1280, 1024, 768, 390 and 375 px. Reported document overflow is 0 px at every retained width except 375 px (1 px); checkout section bounds remain inside the viewport, but the 1024 px composition has a major cross-section collision and narrow controls do not expand after stacking.",
+  "issues": [
+    "RESP-CHECKOUT-001 | high | 1024 px section layout | Expected the checkout steps and totals card to remain spatially separate or stack before collision; actual checkout-totals occupies x=604..1004 and y=320.2..793.2 while checkout-steps occupies x=29..980 and y=351.2..457.2, visibly placing step 3 and its label over the totals card/coupon heading. Move the totals card below the flow at this breakpoint or reduce/reflow the progress indicator before their rectangles overlap.",
+    "RESP-CHECKOUT-002 | medium | stacked customer controls at 768/390/375 px | Expected controls that become single-column to use the available inner width; actual first-name and surname inputs stack vertically but retain short desktop half-column widths, unlike the full-width country/address controls. Make each stacked native field wrapper/input fill its responsive column while preserving labels and validation.",
+    "RESP-CHECKOUT-003 | low | 375 px document width | Expected zero horizontal document overflow; retained runtime reports 1 px. No assigned checkout section, text or image rectangle exceeds the viewport, so the origin is not attributed to shared header/footer in this route audit; verify the page-owned boundary after shared-component review."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/responsive-1440.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/responsive-1440.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/responsive-1280.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/responsive-1280.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/responsive-1024.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/responsive-1024.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/responsive-768.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/responsive-768.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/responsive-390.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/responsive-390.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/responsive-375.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/responsive-375.png"
+  ]
+}

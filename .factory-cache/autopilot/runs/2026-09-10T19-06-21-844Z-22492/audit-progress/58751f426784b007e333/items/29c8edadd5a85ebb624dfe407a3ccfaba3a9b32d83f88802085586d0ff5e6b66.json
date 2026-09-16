@@ -1,0 +1,34 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-product-reviews-state",
+  "item": "section:product-legal-notices",
+  "status": "needs_work",
+  "summary": "Compared the product-legal-notices source record and retained reference/render/diff. Section width and height match, but its y position is 175.69 px too low and the crop mismatch is 13.222%, so the legal notices do not occupy their source positions.",
+  "issues": [
+    "AUD-PRODUCT-LEGAL-001 (high, geometry): expected bounds x=240, y=2263, 1440×287; actual x=240, y=2438.69, 1440×287. Remove the upstream product-related height overrun and restore this section to y=2263.",
+    "AUD-PRODUCT-LEGAL-002 (medium, inner spacing): expected the first notice text inset about 122 px from the section crop and near its top, with the professional notice visible below in the same 287 px section; the current expected-position render crop begins with upstream card residue/blank space and the first notice appears around x=52 only near the bottom. After correcting y, match the reference content insets and vertical gaps for both sourced notices."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-reviews-state/comparison.json",
+      "sha256": "60fb274073d4fb6bf964080254f0a3d61455af90083b78a430d8c78e4719841f"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-reviews-state/product-legal-notices-reference.png",
+      "sha256": "271cbbbfec5972fef0f1bc8742f978f2c65ada7276c5b9848502d014f05a2170"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-reviews-state/product-legal-notices-rendered.png",
+      "sha256": "880bae1d6cfcfa1ef0d62911ffa85600b5d77564d97de370203f8de7b0214ef8"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-reviews-state/product-legal-notices-diff.png",
+      "sha256": "1bf77b422e75072949993f9950bb29d0d94c442f183f055c399181f17ac27112"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/106-audit-round-0-58751f426784b007e333-route-product-reviews-state/source-context/section-0fa7c0303303063b.json",
+      "sha256": "1fa131ea280ee55414ec116b6dbc4fb5b0c4c10564e918c4527e43d7de9b3fcf"
+    }
+  ],
+  "completedAt": "2026-09-15T18:04:41.596Z"
+}

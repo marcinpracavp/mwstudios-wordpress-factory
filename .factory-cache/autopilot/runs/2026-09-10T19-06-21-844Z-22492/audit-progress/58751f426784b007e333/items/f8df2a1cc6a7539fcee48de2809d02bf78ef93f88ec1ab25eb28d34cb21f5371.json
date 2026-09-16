@@ -1,0 +1,37 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-home",
+  "item": "section:home-promotions",
+  "status": "needs_work",
+  "summary": "Audited the home promotions carousel against the retained reference/render/diff crops, source record, crop metric, and exact geometry.",
+  "issues": [
+    "PROMO-001 high price presentation: expected source-visible Polish prices such as ‘1 380,00 zł’; actual shows malformed ‘1.380,00 zł’ style separators. Configure native WooCommerce price formatting to preserve the displayed source presentation.",
+    "PROMO-002 medium carousel controls: expected circular light-gray previous/next buttons overlapping the section edges; actual exposes only small green chevrons with no circular control background. Use the sourced arrow SVG/control styling and reference geometry.",
+    "PROMO-003 medium vertical layout: expected section title near y=65 and card tops near y=174; actual title and card borders begin about 29–31px higher while the card content/bottoms largely align. Correct the heading-to-cards spacing and card top geometry.",
+    "PROMO-004 low product image sizing: the second product bag is visibly smaller/narrower than reference within an otherwise corresponding card. Confirm attachment and object-fit dimensions against the source crop.",
+    "Outer section geometry passes with +0.797px y delta; crop mismatch is 10.394%."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home/comparison.json",
+      "sha256": "a3af3e56f008dbaecb838d147b7ae7e324d1264c2b898786a29f4344d514aeef"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home/home-promotions-reference.png",
+      "sha256": "d63cf592b26709b4b824977749f306d774637a096cc7ce1240c81640657fc396"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home/home-promotions-rendered.png",
+      "sha256": "842db76e06209f4121fe9d2ea49cd9dfba1db7d55b3e7fe84b5ccbe5110d298b"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home/home-promotions-diff.png",
+      "sha256": "528b4895c5a5e9d845f570e747606448cfc228d2669c019250ca12fe20aabb33"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/096-audit-round-0-58751f426784b007e333-route-home/source-context/section-312f0f7bba28cab6.json",
+      "sha256": "244f835305e8384966ef7af54eb169579e8cc4e9ece2275f56c02e95459127f0"
+    }
+  ],
+  "completedAt": "2026-09-15T09:23:54.728Z"
+}

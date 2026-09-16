@@ -1,0 +1,93 @@
+{
+  "ledger": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/ledger.json",
+  "key": "58751f426784b007e333",
+  "unit": "route-home",
+  "routes": [
+    "home"
+  ],
+  "pending": [
+    {
+      "id": "responsive",
+      "kind": "responsive",
+      "route": "home",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home/comparison.json"
+    },
+    {
+      "id": "interactions",
+      "kind": "interactions",
+      "route": "home",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home/comparison.json"
+    }
+  ],
+  "completed": [
+    {
+      "item": "section:home-hero",
+      "status": "needs_work",
+      "checkpoint": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/f05f150768e400de487e92eab124171c5f3bda8bae38968da5b2913cc35c6cdd.json"
+    },
+    {
+      "item": "section:home-benefits",
+      "status": "needs_work",
+      "checkpoint": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/a4d35410846b7f4f0b9ff593e93d707224044f703f98c90d85aaab7e07213e91.json"
+    },
+    {
+      "item": "section:home-crop-selection",
+      "status": "needs_work",
+      "checkpoint": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/fab39835649a69f2c7691783ac7a7bd46daa8661a60baa3c99a001ca1ca0edc7.json"
+    },
+    {
+      "item": "section:home-promotions",
+      "status": "needs_work",
+      "checkpoint": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/f8df2a1cc6a7539fcee48de2809d02bf78ef93f88ec1ab25eb28d34cb21f5371.json"
+    },
+    {
+      "item": "section:home-bundles",
+      "status": "needs_work",
+      "checkpoint": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/577dab5c29a97558011ff57d0f1496499c6748569638c8300e9f8edbbed86d6e.json"
+    },
+    {
+      "item": "section:home-catalogues",
+      "status": "needs_work",
+      "checkpoint": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/f54192b87a3478e3d1a716154fb9c0b32e98de6b93fbd351fc3dab3035b2995d.json"
+    },
+    {
+      "item": "section:home-recommended",
+      "status": "needs_work",
+      "checkpoint": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/f425045b30b2de46504ea0440291cdeb74bffbde60cb9cfd969e8ce9be74612f.json"
+    },
+    {
+      "item": "section:home-about",
+      "status": "needs_work",
+      "checkpoint": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/03353d6844e4ab6c1db6d94cc809313335b34fd8ec611e76587b4720eb9c6a89.json"
+    },
+    {
+      "item": "section:home-blog",
+      "status": "needs_work",
+      "checkpoint": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/3694b97245e54e8f607fa8c1a1ea17950d84a79adba23608a06f00687005db53.json"
+    },
+    {
+      "item": "section:home-knowledge",
+      "status": "needs_work",
+      "checkpoint": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/80b44c58929c449b03b49ae9cf5a9fd280dfcc6bec690ba6744293a5a4819eb0.json"
+    }
+  ],
+  "legacyEvidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/081-audit-round-0/audit-metrics.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/cart-interaction-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/interaction-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/native-commerce-icons-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/responsive-audit.json"
+  ],
+  "checkpointCommand": "node scripts/factory/autopilot/audit-progress.js record .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/ledger.json route-home <item-id> <input-json>",
+  "recordSchema": {
+    "status": "passed|needs_work|blocked",
+    "summary": "What was actually checked",
+    "issues": [
+      "Concrete finding or untestable limitation"
+    ],
+    "evidence": [
+      "Existing theme-relative FILE paths; include the assigned comparison for route checks"
+    ]
+  },
+  "instruction": "Check ONLY pending items. Save an atomic checkpoint immediately after each item, before starting the next. Existing completed items must not be reread or repeated. Earlier partial evidence is a candidate: inspect only relevant records and verify applicability; never assume old PASS. Missing genuine inputs are recorded blocked with evidence, then continue other items."
+}

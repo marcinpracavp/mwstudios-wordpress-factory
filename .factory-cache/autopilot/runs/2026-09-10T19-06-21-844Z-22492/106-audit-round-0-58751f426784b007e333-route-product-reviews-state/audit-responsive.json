@@ -1,0 +1,18 @@
+{
+  "status": "needs_work",
+  "summary": "Inspected retained 1440, 1280, 1024, 768, 390 and 375 px captures plus their current runtime probes. Fonts are ready at every width and overflow is 0 at 1440–390 px, but the 375 px render has 14 px horizontal overflow and the mobile tab controls extend beyond the viewport.",
+  "issues": [
+    "AUD-PRODUCT-RESP-001 (high, 375 px horizontal overflow): expected document content to remain within the 375 px viewport; actual probe reports overflow=14 and a related-product Dodaj do koszyka control ends at x=387.92. Constrain the card/control to the mobile content width.",
+    "AUD-PRODUCT-RESP-002 (high, mobile tabs): at both 390 and 375 px, the 130 px tab items extend beyond the viewport: Stosowanie ends at x=410, Opinie at x=540 and Pliki do pobrania at x=670. The screenshots expose only the leading tabs with no visible scroll cue. Provide a responsive tab layout or explicit accessible horizontal scrolling so every state control is discoverable and operable.",
+    "AUD-PRODUCT-RESP-003 (medium, 1024 px review layout): expected a readable responsive two-column or stacked review layout; actual 1024 px capture confines the review date/body to a very narrow right column, producing excessive word wrapping and a much taller empty panel. Reflow the review summary/content at this breakpoint."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-reviews-state/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-reviews-state/responsive-1440.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-reviews-state/responsive-1024.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-reviews-state/responsive-390.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-reviews-state/responsive-390.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-reviews-state/responsive-375.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-reviews-state/responsive-375.png"
+  ]
+}

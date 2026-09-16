@@ -1,0 +1,79 @@
+{
+  "id": "blog-article-heading",
+  "manifestRecord": {
+    "id": "blog-article-heading",
+    "name": "Article heading",
+    "order": 35,
+    "pageId": "0:1",
+    "snapshot": "sections/35-blog-article-heading.json",
+    "desktopNodeId": "327:3357",
+    "desktopReference": "references/sections/blog-article-heading.png"
+  },
+  "contentFields": [
+    {
+      "section": "blog-article-heading",
+      "nodeId": "327:3177",
+      "fieldName": "rudnikagro_blog_article_heading_breadcrumb",
+      "type": "text",
+      "language": "pl",
+      "value": "Strona gÅ‚Ã³wna / Blog / Popularne nawozy potasowe i ich zastosowanie w uprawach",
+      "destination": "ACF post fields / Article header tab",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "327:3177"
+      }
+    },
+    {
+      "section": "blog-article-heading",
+      "nodeId": "327:3288",
+      "fieldName": "rudnikagro_blog_article_heading_banner_label",
+      "type": "text",
+      "language": "pl",
+      "value": "Blog",
+      "destination": "ACF post fields / Article header tab",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "327:3288"
+      }
+    },
+    {
+      "section": "blog-article-heading",
+      "nodeId": "327:3357",
+      "fieldName": "rudnikagro_blog_article_heading_title",
+      "type": "text",
+      "language": "pl",
+      "value": "Popularne nawozy potasowe i ich zastosowanie w uprawach",
+      "destination": "WordPress post title",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "327:3357"
+      }
+    },
+    {
+      "section": "blog-article-heading",
+      "nodeId": "327:3359",
+      "fieldName": "rudnikagro_blog_article_heading_featured_image",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/blog/blog-article-hero-327-3359.png",
+      "destination": "WordPress featured image",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "327:3359"
+      }
+    },
+    {
+      "section": "blog-article-heading",
+      "nodeId": "327:3371",
+      "fieldName": "rudnikagro_blog_article_heading_publication_date",
+      "type": "text",
+      "language": "pl",
+      "value": "10 lipca 2025",
+      "destination": "WordPress post date",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "327:3371"
+      }
+    }
+  ]
+}

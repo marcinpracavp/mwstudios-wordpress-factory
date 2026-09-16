@@ -1,0 +1,32 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "shared-components",
+  "item": "shared:f83a5d931578405e",
+  "status": "needs_work",
+  "summary": "Compared home-active shared-primary-navigation-active reference, rendered crop, diff, and retained geometry. Outer x/y/width/height match exactly and owner pixels are within threshold, but the open mega-menu contains non-source control glyphs and material active-state/typography differences.",
+  "issues": [
+    "VIS-HOME-ACTIVE-MEGAMENU-001 (high) — property: submenu disclosure icons; expected: small right-pointing source chevrons after each left-column category; actual: repeated L-shaped placeholder glyphs render instead; fix: use the exact exported Figma chevron SVG media attachment with reference size/alignment, not a text/CSS substitute.",
+    "VIS-HOME-ACTIVE-MEGAMENU-002 (medium) — property: selected submenu background; expected: 'Rzepak' highlight approximately x=544–678; actual: highlight spans roughly x=542–719; fix: match the source selected-item width, inset, and background bounds.",
+    "VIS-HOME-ACTIVE-MEGAMENU-003 (medium) — property: navigation/mega-menu typography; expected: source font weights and metrics across the primary row and three menu columns; actual: glyphs are smaller/lighter and produce broad text-edge differences; fix: apply exact source sizes, weights, and line-heights.",
+    "VIS-HOME-ACTIVE-MEGAMENU-004 (low) — property: active primary underline; expected: green rule spanning about x=302–487 within the crop; actual: it spans about x=311–479; fix: match the source active item's underline width and horizontal offset."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/comparison.json",
+      "sha256": "4e081d5f6d25b3aa5003d87f1c3c1ca420b888509f7103c4a9a6af8f92529e61"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/shared-primary-navigation-active-reference.png",
+      "sha256": "79d35c870147e9fa13db1ec4ea4415ad5d0ff0462966537ae721a5cb695bbb1c"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/shared-primary-navigation-active-rendered.png",
+      "sha256": "d8629e27765eff4a9887533a84880fd051d9f452e41c9fc62525e8cad74cbced"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/shared-primary-navigation-active-diff.png",
+      "sha256": "da40daed2e6e930f15bb306641e1d5ad555907003c12134cf2aa9e2130b4f2a1"
+    }
+  ],
+  "completedAt": "2026-09-14T15:47:39.937Z"
+}

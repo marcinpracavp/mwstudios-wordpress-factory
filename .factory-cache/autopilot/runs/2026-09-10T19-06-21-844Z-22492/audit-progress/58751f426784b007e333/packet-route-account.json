@@ -1,0 +1,66 @@
+{
+  "ledger": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/ledger.json",
+  "key": "58751f426784b007e333",
+  "unit": "route-account",
+  "routes": [
+    "account"
+  ],
+  "pending": [
+    {
+      "id": "section:account-breadcrumbs",
+      "kind": "visual",
+      "section": "account-breadcrumbs",
+      "route": "account",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/account/comparison.json",
+      "owner": "page"
+    },
+    {
+      "id": "section:account-login",
+      "kind": "visual",
+      "section": "account-login",
+      "route": "account",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/account/comparison.json",
+      "owner": "page"
+    },
+    {
+      "id": "section:account-registration",
+      "kind": "visual",
+      "section": "account-registration",
+      "route": "account",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/account/comparison.json",
+      "owner": "page"
+    },
+    {
+      "id": "responsive",
+      "kind": "responsive",
+      "route": "account",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/account/comparison.json"
+    },
+    {
+      "id": "interactions",
+      "kind": "interactions",
+      "route": "account",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/account/comparison.json"
+    }
+  ],
+  "completed": [],
+  "legacyEvidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/081-audit-round-0/audit-metrics.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/cart-interaction-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/interaction-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/native-commerce-icons-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/responsive-audit.json"
+  ],
+  "checkpointCommand": "node scripts/factory/autopilot/audit-progress.js record .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/ledger.json route-account <item-id> <input-json>",
+  "recordSchema": {
+    "status": "passed|needs_work|blocked",
+    "summary": "What was actually checked",
+    "issues": [
+      "Concrete finding or untestable limitation"
+    ],
+    "evidence": [
+      "Existing theme-relative FILE paths; include the assigned comparison for route checks"
+    ]
+  },
+  "instruction": "Check ONLY pending items. Save an atomic checkpoint immediately after each item, before starting the next. Existing completed items must not be reread or repeated. Earlier partial evidence is a candidate: inspect only relevant records and verify applicability; never assume old PASS. Missing genuine inputs are recorded blocked with evidence, then continue other items."
+}

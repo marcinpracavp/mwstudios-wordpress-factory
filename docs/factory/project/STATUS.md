@@ -1,5 +1,11 @@
 # RudnikAgro implementation status
 
+## Shared-header correction — 2026-09-16
+
+- Restored source-backed topbar previous/next/close controls from ACF attachment IDs for frozen nodes `169:282`, `169:287`, `169:284`, `169:288` and `169:289`. Fresh capture `visual-1789542157240` retains exact topbar geometry and reports a 1.697% section crop difference.
+- Added editable ACF definitions for the secondary-navigation telephone SVG, favourite badge background and the two source count fields. The header now renders exact sourced telephone/e-mail assets and positions the search region at the captured 411 px desktop width.
+- The secondary-navigation source text node `93:28` has no individual destination for `Poradnik dla rolnika`; it remains visible source-backed editable text without a fabricated URL. This and the missing cart-badge value are retained in `SOURCE_CLARIFICATIONS.md`; the fresh secondary-navigation crop is still 14.155% and remains open.
+
 ## Home build — 2026-09-13
 
 - Knowledge accordion icon structure: `open_icon` and `closed_icon` are ACF Image fields returning SVG attachment IDs, nested under `rudnikagro_home_knowledge.items` on the front page's **Wiedza** tab. They map respectively to Figma nodes `164:205` and `164:208`; the importer writes only an empty source-owned field, preserving an editor override.

@@ -1,0 +1,17 @@
+{
+  "status": "needs_work",
+  "summary": "Inspected the assigned catalogues-downloads reference, rendered crop and diff against the frozen source snapshot. Section geometry passes at expected x=240, y=466, width=1444, height=357 versus actual x=240, y=467, width=1444, height=357, but the independent visual review found unresolved icon and styling differences; the diagnostic section pixel ratio is 0.10932905017962864.",
+  "issues": [
+    "VIS-CAT-001 (high) — property: action icon assets. Expected: exact source download and online-reader SVG icons exported from Figma and exposed as editable ACF attachment IDs. Actual: page-catalogues.php emits Font Awesome-named i elements and _catalogues.scss redraws both icons with borders and pseudo-elements. Fix: export/import the exact Figma SVG nodes, retain provenance, expose their media IDs in the catalogue ACF data, and render those attachments.",
+    "VIS-CAT-002 (medium) — property: card typography and background compositing. Expected: the source DM Sans text rendering and Figma image/solid/gradient composite visible in catalogues-downloads-reference.png. Actual: catalogues-downloads-diff.png shows persistent outlines across both headings/action labels and broad differences within both photographic card surfaces, while the card and cover geometry otherwise aligns. Fix: verify exact font metrics and reproduce the source overlay stack/opacities against the confirmed source background and cover assets without altering the passing section geometry."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/catalogues/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/catalogues/catalogues-downloads-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/catalogues/catalogues-downloads-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/catalogues/catalogues-downloads-diff.png",
+    ".factory-cache/figma/latest/sections/04-catalogues-downloads.json",
+    "page-catalogues.php",
+    "src/css/pages/_catalogues.scss"
+  ]
+}

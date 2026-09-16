@@ -1,0 +1,34 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-product-files-state",
+  "item": "section:product-breadcrumbs",
+  "status": "needs_work",
+  "summary": "Compared the assigned product-breadcrumbs source record and exact 1920 px reference/render/diff crop. Geometry passes with x/width/height exact and a 1 px vertical delta; pixel difference is 7.4944%, but visible source content and styling do not match.",
+  "issues": [
+    "VIS-PRODUCT-BREADCRUMBS-001 | priority: high | property: breadcrumb content | expected: Strona główna / Środki ochrony Roślin / Herbicydy / Aquatos 5L | actual: Strona główna / Środki ochrony roślin / Aquatos 5L; the Herbicydy level is missing and Roślin capitalization differs | fix: render the complete native WooCommerce category hierarchy and preserve the sourced labels/capitalization.",
+    "VIS-PRODUCT-BREADCRUMBS-002 | priority: medium | property: typography/color | expected: the crop shows the final Aquatos 5L crumb in green and a visibly larger/lighter breadcrumb treatment | actual: Aquatos 5L is dark gray/bold and the overall trail is smaller/shorter | fix: align breadcrumb font metrics, weight and active-crumb green color to the source crop."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-files-state/comparison.json",
+      "sha256": "f2f40b4549be3c4d290fb1325ea36f527b064830528ff9257572c71e16e244eb"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-files-state/product-breadcrumbs-reference.png",
+      "sha256": "ed52c6009e339c5b099cdb5f6cde0f2a4f43b601fb0447f0a677551d1a8141fa"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-files-state/product-breadcrumbs-rendered.png",
+      "sha256": "7ef487b24c0e76b2a1143ded4c4b27188cd9b7b11c1e02709778c202b751e41d"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-files-state/product-breadcrumbs-diff.png",
+      "sha256": "4c49c31b9039a925d9f0384eb6a82efc105d66399b3bab861e24dc596bc1cab9"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/107-audit-round-0-58751f426784b007e333-route-product-files-state/source-context/section-4b45f0a152f84e7b.json",
+      "sha256": "3ffc12acea16ec237e9475d4cd1d6126a1789c702274006df027d2266d79db82"
+    }
+  ],
+  "completedAt": "2026-09-15T18:17:40.727Z"
+}

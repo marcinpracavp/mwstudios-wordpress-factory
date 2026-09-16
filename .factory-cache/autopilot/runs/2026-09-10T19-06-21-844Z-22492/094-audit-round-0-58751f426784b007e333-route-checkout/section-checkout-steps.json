@@ -1,0 +1,14 @@
+{
+  "status": "needs_work",
+  "summary": "Compared the retained checkout-steps reference, rendered crop and diff against the section source record. Section bounds pass geometry (x delta 0 px, y delta 1.15625 px, width/height deltas 0), but the progress indicator does not visually match the source.",
+  "issues": [
+    "VIS-CHECKOUT-STEPS-001 | high | progress-step sizing and horizontal spacing | Expected three 72 x 72 px circles at source positions with 224 px arrow runs; actual rendered circles and gaps are visibly smaller, compressing the indicator and moving labels relative to the source. Fix the step-circle dimensions and connector/gap sizing to the sourced geometry while retaining the passing section bounds."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/checkout-steps-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/checkout-steps-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/checkout-steps-diff.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/094-audit-round-0-58751f426784b007e333-route-checkout/source-context/section-9705096daabd0357.json"
+  ]
+}

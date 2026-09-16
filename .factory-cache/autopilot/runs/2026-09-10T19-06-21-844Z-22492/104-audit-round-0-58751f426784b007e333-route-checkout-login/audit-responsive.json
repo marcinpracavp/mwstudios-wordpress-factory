@@ -1,0 +1,22 @@
+{
+  "status": "needs_work",
+  "summary": "Inspected all retained derived-responsive screenshots and probes at 375, 390, 768, 1024, 1280 and 1440px. The checkout options stack at 375/390/768 and return to three columns at 1024/1280/1440; fonts are ready at every width. The route-owned section stays within the viewport at every retained width. The document probe reports 1px overflow only at 375px, but the checkout section itself spans x=20 to x=355 and is not the overflowing owner.",
+  "issues": [
+    "CHK-RESP-LOGIN-001 | high | login action layout at intermediate width | Expected: the primary login action and password-recovery control remain distinct, readable and non-overlapping at every retained width. Actual: in responsive-1024.png the green login button overlaps the left side of the outlined password-recovery control and obscures the start of its label; at 375px the two controls also meet without a safe gap. Fix: add an explicit responsive gap/stacking rule for the login action row before the controls collide, while preserving the source labels and native controls."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/responsive-375.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/responsive-375.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/responsive-390.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/responsive-390.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/responsive-768.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/responsive-768.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/responsive-1024.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/responsive-1024.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/responsive-1280.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/responsive-1280.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/responsive-1440.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/responsive-1440.png"
+  ]
+}

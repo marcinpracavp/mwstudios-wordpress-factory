@@ -1,0 +1,74 @@
+{
+  "id": "account-registration",
+  "manifestRecord": {
+    "id": "account-registration",
+    "name": "rejestracja",
+    "order": 81,
+    "pageId": "0:1",
+    "desktopNodeId": "524:243",
+    "snapshot": "sections/28-account-registration.json",
+    "desktopReference": "references/sections/account-registration.png"
+  },
+  "contentFields": [
+    {
+      "section": "account-registration",
+      "nodeId": "524:245",
+      "fieldName": "rudnikagro_account_registration_title",
+      "type": "text",
+      "language": "pl",
+      "value": "Zarejestruj się",
+      "destination": "Native WooCommerce registration; editable display label",
+      "linkEvidence": [
+        {
+          "characters": "Zarejestruj się",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "524:245"
+      }
+    },
+    {
+      "section": "account-registration",
+      "nodeId": "524:246",
+      "fieldName": "rudnikagro_account_registration_benefits",
+      "type": "wysiwyg",
+      "language": "pl",
+      "value": "<p>Otrzymasz liczne dodatkowe korzyści:</p><ul><li>podgląd statusu realizacji zamówień</li><li>podgląd historii zakupów</li><li>brak konieczności wprowadzania swoich danych przy kolejnych zakupach</li><li>możliwość otrzymania rabatów i kuponów promocyjnych</li></ul>",
+      "destination": "Native WooCommerce registration; editable display content",
+      "linkEvidence": [
+        {
+          "characters": "Otrzymasz liczne dodatkowe korzyści: podgląd statusu realizacji zamówień podgląd historii zakupów brak konieczności wprowadzania swoich danych przy kolejnych zakupach możliwość otrzymania rabatów i kuponów promocyjnych",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "524:246"
+      }
+    },
+    {
+      "section": "account-registration",
+      "nodeId": "524:249",
+      "fieldName": "rudnikagro_account_registration_submit_label",
+      "type": "text",
+      "language": "pl",
+      "value": "Zarejestruj się",
+      "destination": "Native WooCommerce registration; editable display label",
+      "linkEvidence": [
+        {
+          "characters": "Zarejestruj się",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "524:249"
+      }
+    }
+  ]
+}

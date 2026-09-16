@@ -1,0 +1,36 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-home-active",
+  "item": "section:home-about",
+  "status": "needs_work",
+  "summary": "Compared the retained 1920 px source, render and diff for home-about and verified that the imported 1408x768 upload is byte-identical to the retained source asset. Section/image box geometry is correct, but typography, copy-column wrapping, CTA sizing and the photo cover position differ; the section diagnostic mismatch is 21.196%.",
+  "issues": [
+    "HOME-ABOUT-01 high typography: expected the first paragraph in bold with source line breaks and the second paragraph in regular weight; actual renders the first paragraph regular and wraps both blocks differently. Apply the source weight split, line-height and text column width.",
+    "HOME-ABOUT-02 high photo crop: the upload SHA-256 matches the retained 1408x768 source asset, so the source is correct; expected the cover crop positions the left subject farther right and preserves the source composition, while actual pans the same image left. Match the source object-position within the unchanged 711x594 box.",
+    "HOME-ABOUT-03 medium CTA: expected the green 'Poznaj nas' button approximately 224x56 at x=238/y=607; actual is approximately 176x55 at x=240/y=593. Match width, vertical position and arrow spacing.",
+    "HOME-ABOUT-04 low heading: expected heading around x=239/y=203 with 64 px scale; actual starts around x=240/y=193 and is smaller. Match source size/line-height and y position."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/comparison.json",
+      "sha256": "4e081d5f6d25b3aa5003d87f1c3c1ca420b888509f7103c4a9a6af8f92529e61"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/home-about-reference.png",
+      "sha256": "cb5764e923cc3e8f4925d2a12281625f7ff7c4a8e60d894d8583be84a6a37b59"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/home-about-rendered.png",
+      "sha256": "add9ec3a3a06e32df9c6ddaa2f9c14a7c86c37c399ba978429b53e038a67b064"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/home-about-diff.png",
+      "sha256": "58c5dd260759f80ce60dd665e1b06fb7e3c029117d6794b52d8fc436006c012d"
+    },
+    {
+      "path": ".factory-cache/figma/latest/assets/home/130-140-rectangle41.png",
+      "sha256": "b540a8070136bcfef492a7853a93de60a1b99534e429ec0b6ba5c5d85506110d"
+    }
+  ],
+  "completedAt": "2026-09-15T23:20:51.608Z"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "careers-heading",
+  "manifestRecord": {
+    "id": "careers-heading",
+    "name": "Kariera",
+    "order": 30,
+    "pageId": "0:1",
+    "snapshot": "sections/30-careers-heading.json",
+    "desktopNodeId": "349:1377",
+    "desktopReference": "references/sections/careers-heading.png"
+  },
+  "contentFields": [
+    {
+      "section": "careers-heading",
+      "nodeId": "349:1378",
+      "fieldName": "rudnikagro_page_banner_title",
+      "type": "text",
+      "language": "pl",
+      "value": "Kariera",
+      "destination": "ACF careers page / banner title",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "349:1378"
+      }
+    },
+    {
+      "section": "careers-heading",
+      "nodeId": "349:1268",
+      "fieldName": "rudnikagro_careers_breadcrumb",
+      "type": "text",
+      "language": "pl",
+      "value": "Strona gÅ‚Ã³wna  / Kariera",
+      "destination": "native breadcrumb / careers page title",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "349:1268"
+      }
+    },
+    {
+      "section": "careers-heading",
+      "nodeId": "349:1377",
+      "fieldName": "rudnikagro_page_banner_image",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/careers/349-1377-heading-raw-1.png",
+      "destination": "ACF careers page / banner image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "349:1377"
+      }
+    }
+  ]
+}

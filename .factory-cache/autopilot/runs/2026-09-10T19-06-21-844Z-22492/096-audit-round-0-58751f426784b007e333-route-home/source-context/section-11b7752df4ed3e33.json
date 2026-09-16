@@ -1,0 +1,976 @@
+{
+  "id": "home-crop-selection",
+  "manifestRecord": {
+    "id": "home-crop-selection",
+    "name": "wybÃ³r wg uprawy",
+    "order": 18,
+    "pageId": "0:1",
+    "snapshot": "sections/18-home-crop-selection.json",
+    "desktopNodeId": "110:2",
+    "desktopReference": "references/sections/home-crop-selection.png"
+  },
+  "contentFields": [
+    {
+      "section": "home-crop-selection",
+      "nodeId": "108:495",
+      "fieldName": "rudnikagro_home_crop_selection_108_495",
+      "type": "text",
+      "language": "pl",
+      "value": "wiÅ›nia",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "108:495"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "108:537",
+      "fieldName": "rudnikagro_home_crop_selection_108_537",
+      "type": "text",
+      "language": "pl",
+      "value": "winoroÅ›l",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "108:537"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "108:516",
+      "fieldName": "rudnikagro_home_crop_selection_108_516",
+      "type": "text",
+      "language": "pl",
+      "value": "truskawka",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "108:516"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "108:487",
+      "fieldName": "rudnikagro_home_crop_selection_108_487",
+      "type": "text",
+      "language": "pl",
+      "value": "Å›liwka",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "108:487"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "107:479",
+      "fieldName": "rudnikagro_home_crop_selection_107_479",
+      "type": "text",
+      "language": "pl",
+      "value": "malina",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "107:479"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "106:408",
+      "fieldName": "rudnikagro_home_crop_selection_106_408",
+      "type": "text",
+      "language": "pl",
+      "value": "jabÅ‚oÅ„",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "106:408"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "107:471",
+      "fieldName": "rudnikagro_home_crop_selection_107_471",
+      "type": "text",
+      "language": "pl",
+      "value": "grusza",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "107:471"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "107:458",
+      "fieldName": "rudnikagro_home_crop_selection_107_458",
+      "type": "text",
+      "language": "pl",
+      "value": "borÃ³wka",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "107:458"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "119:37",
+      "fieldName": "rudnikagro_home_crop_selection_119_37",
+      "type": "text",
+      "language": "pl",
+      "value": "Owoce",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "119:37"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "106:432",
+      "fieldName": "rudnikagro_home_crop_selection_106_432",
+      "type": "text",
+      "language": "pl",
+      "value": "ziemniak",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "106:432"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "106:416",
+      "fieldName": "rudnikagro_home_crop_selection_106_416",
+      "type": "text",
+      "language": "pl",
+      "value": "seler",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "106:416"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "106:400",
+      "fieldName": "rudnikagro_home_crop_selection_106_400",
+      "type": "text",
+      "language": "pl",
+      "value": "saÅ‚ata",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "106:400"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "106:387",
+      "fieldName": "rudnikagro_home_crop_selection_106_387",
+      "type": "text",
+      "language": "pl",
+      "value": "por",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "106:387"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "106:345",
+      "fieldName": "rudnikagro_home_crop_selection_106_345",
+      "type": "text",
+      "language": "pl",
+      "value": "pomidor",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "106:345"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "106:368",
+      "fieldName": "rudnikagro_home_crop_selection_106_368",
+      "type": "text",
+      "language": "pl",
+      "value": "pietruszka",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "106:368"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "106:354",
+      "fieldName": "rudnikagro_home_crop_selection_106_354",
+      "type": "text",
+      "language": "pl",
+      "value": "pieczarka",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "106:354"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "106:324",
+      "fieldName": "rudnikagro_home_crop_selection_106_324",
+      "type": "text",
+      "language": "pl",
+      "value": "papryka",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "106:324"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "106:301",
+      "fieldName": "rudnikagro_home_crop_selection_106_301",
+      "type": "text",
+      "language": "pl",
+      "value": "ogÃ³rek",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "106:301"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "106:282",
+      "fieldName": "rudnikagro_home_crop_selection_106_282",
+      "type": "text",
+      "language": "pl",
+      "value": "marchew",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "106:282"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "106:278",
+      "fieldName": "rudnikagro_home_crop_selection_106_278",
+      "type": "text",
+      "language": "pl",
+      "value": "kapusta",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "106:278"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "106:274",
+      "fieldName": "rudnikagro_home_crop_selection_106_274",
+      "type": "text",
+      "language": "pl",
+      "value": "kalafior",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "106:274"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "106:264",
+      "fieldName": "rudnikagro_home_crop_selection_106_264",
+      "type": "text",
+      "language": "pl",
+      "value": "fasola",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "106:264"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "106:241",
+      "fieldName": "rudnikagro_home_crop_selection_106_241",
+      "type": "text",
+      "language": "pl",
+      "value": "cebula",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "106:241"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "106:249",
+      "fieldName": "rudnikagro_home_crop_selection_106_249",
+      "type": "text",
+      "language": "pl",
+      "value": "burak\ncukrowy",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "106:249"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "106:230",
+      "fieldName": "rudnikagro_home_crop_selection_106_230",
+      "type": "text",
+      "language": "pl",
+      "value": "burak",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "106:230"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "106:219",
+      "fieldName": "rudnikagro_home_crop_selection_106_219",
+      "type": "text",
+      "language": "pl",
+      "value": "brokuÅ‚",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "106:219"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "119:35",
+      "fieldName": "rudnikagro_home_crop_selection_119_35",
+      "type": "text",
+      "language": "pl",
+      "value": "Warzywa",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "119:35"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "104:181",
+      "fieldName": "rudnikagro_home_crop_selection_104_181",
+      "type": "text",
+      "language": "pl",
+      "value": "Å‚ubin",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "104:181"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "104:174",
+      "fieldName": "rudnikagro_home_crop_selection_104_174",
+      "type": "text",
+      "language": "pl",
+      "value": "rzepak",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "104:174"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "104:166",
+      "fieldName": "rudnikagro_home_crop_selection_104_166",
+      "type": "text",
+      "language": "pl",
+      "value": "owies",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "104:166"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "222:50",
+      "fieldName": "rudnikagro_home_crop_selection_222_50",
+      "type": "text",
+      "language": "pl",
+      "value": "owies",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "222:50"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "158:110",
+      "fieldName": "rudnikagro_home_crop_selection_158_110",
+      "type": "text",
+      "language": "pl",
+      "value": "Fungicyd\nHerbicyd\nInsektycyd\nRegulator\nNawÃ³z",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "158:110"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "104:159",
+      "fieldName": "rudnikagro_home_crop_selection_104_159",
+      "type": "text",
+      "language": "pl",
+      "value": "Å¼yto",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "104:159"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "104:151",
+      "fieldName": "rudnikagro_home_crop_selection_104_151",
+      "type": "text",
+      "language": "pl",
+      "value": "jÄ™czmieÅ„",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "104:151"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "102:126",
+      "fieldName": "rudnikagro_home_crop_selection_102_126",
+      "type": "text",
+      "language": "pl",
+      "value": "kukurydza",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "102:126"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "103:145",
+      "fieldName": "rudnikagro_home_crop_selection_103_145",
+      "type": "text",
+      "language": "pl",
+      "value": "pszenica",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "103:145"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "119:33",
+      "fieldName": "rudnikagro_home_crop_selection_119_33",
+      "type": "text",
+      "language": "pl",
+      "value": "ZboÅ¼a",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "119:33"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "108:550",
+      "fieldName": "rudnikagro_home_crop_selection_108_550",
+      "type": "text",
+      "language": "pl",
+      "value": "Wybierz produkt wedÅ‚ug uprawy",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "108:550"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "108:552",
+      "fieldName": "rudnikagro_home_crop_selection_108_552",
+      "type": "text",
+      "language": "pl",
+      "value": "WybÃ³r uprawy",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "108:552"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "108:541",
+      "fieldName": "rudnikagro_home_crop_selection_media_108_541",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/108-541-wisnia1.svg",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "108:541"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "108:538",
+      "fieldName": "rudnikagro_home_crop_selection_media_108_538",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/108-538-winorosl1.svg",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "108:538"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "108:517",
+      "fieldName": "rudnikagro_home_crop_selection_media_108_517",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/108-517-truskawka1.svg",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "108:517"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "108:491",
+      "fieldName": "rudnikagro_home_crop_selection_media_108_491",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/108-491-sliwa1.svg",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "108:491"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "107:483",
+      "fieldName": "rudnikagro_home_crop_selection_media_107_483",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/107-483-malina1.svg",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "107:483"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "107:475",
+      "fieldName": "rudnikagro_home_crop_selection_media_107_475",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/107-475-jablon1.svg",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "107:475"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "107:472",
+      "fieldName": "rudnikagro_home_crop_selection_media_107_472",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/107-472-grusza1.svg",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "107:472"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "107:459",
+      "fieldName": "rudnikagro_home_crop_selection_media_107_459",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/107-459-borowka1.svg",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "107:459"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "222:47",
+      "fieldName": "rudnikagro_home_crop_selection_media_222_47",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/222-47-rectangle48.svg",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "222:47"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "106:433",
+      "fieldName": "rudnikagro_home_crop_selection_media_106_433",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/106-433-ziemniak1.svg",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "106:433"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "106:412",
+      "fieldName": "rudnikagro_home_crop_selection_media_106_412",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/106-412-seler1.svg",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "106:412"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "106:404",
+      "fieldName": "rudnikagro_home_crop_selection_media_106_404",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/106-404-salata1.svg",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "106:404"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "106:396",
+      "fieldName": "rudnikagro_home_crop_selection_media_106_396",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/106-396-por1.svg",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "106:396"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "106:377",
+      "fieldName": "rudnikagro_home_crop_selection_media_106_377",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/106-377-pomidor1.svg",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "106:377"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "106:369",
+      "fieldName": "rudnikagro_home_crop_selection_media_106_369",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/106-369-pietruszka1.svg",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "106:369"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "106:355",
+      "fieldName": "rudnikagro_home_crop_selection_media_106_355",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/106-355-pieczarka1.svg",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "106:355"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "106:341",
+      "fieldName": "rudnikagro_home_crop_selection_media_106_341",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/106-341-papryka1.svg",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "106:341"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "106:307",
+      "fieldName": "rudnikagro_home_crop_selection_media_106_307",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/106-307-ogorek1.svg",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "106:307"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "106:295",
+      "fieldName": "rudnikagro_home_crop_selection_media_106_295",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/106-295-marchew1.svg",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "106:295"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "106:293",
+      "fieldName": "rudnikagro_home_crop_selection_media_106_293",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/106-293-kapusta1.svg",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "106:293"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "106:284",
+      "fieldName": "rudnikagro_home_crop_selection_media_106_284",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/106-284-kalafior1.svg",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "106:284"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "106:268",
+      "fieldName": "rudnikagro_home_crop_selection_media_106_268",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/106-268-fasola1.svg",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "106:268"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "106:242",
+      "fieldName": "rudnikagro_home_crop_selection_media_106_242",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/106-242-cebula1.svg",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "106:242"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "106:253",
+      "fieldName": "rudnikagro_home_crop_selection_media_106_253",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/106-253-burakcukrowy1.svg",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "106:253"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "106:245",
+      "fieldName": "rudnikagro_home_crop_selection_media_106_245",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/106-245-burak1.svg",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "106:245"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "106:234",
+      "fieldName": "rudnikagro_home_crop_selection_media_106_234",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/106-234-brokul1.svg",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "106:234"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "222:44",
+      "fieldName": "rudnikagro_home_crop_selection_media_222_44",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/222-44-rectangle49.svg",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "222:44"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "105:210",
+      "fieldName": "rudnikagro_home_crop_selection_media_105_210",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/105-210-lubin1.svg",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "105:210"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "106:215",
+      "fieldName": "rudnikagro_home_crop_selection_media_106_215",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/106-215-rzepak1.svg",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "106:215"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "105:207",
+      "fieldName": "rudnikagro_home_crop_selection_media_105_207",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/105-207-owies1.svg",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "105:207"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "105:204",
+      "fieldName": "rudnikagro_home_crop_selection_media_105_204",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/105-204-zyto1.svg",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "105:204"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "105:194",
+      "fieldName": "rudnikagro_home_crop_selection_media_105_194",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/105-194-jeczmien1.svg",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "105:194"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "105:191",
+      "fieldName": "rudnikagro_home_crop_selection_media_105_191",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/105-191-kukurydza1.svg",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "105:191"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "105:188",
+      "fieldName": "rudnikagro_home_crop_selection_media_105_188",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/105-188-pszenica1.svg",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "105:188"
+      }
+    },
+    {
+      "section": "home-crop-selection",
+      "nodeId": "222:40",
+      "fieldName": "rudnikagro_home_crop_selection_media_222_40",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/222-40-rectangle47.svg",
+      "destination": "ACF front page / crop selection tab / heading and crop title, image, link rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "222:40"
+      }
+    }
+  ]
+}

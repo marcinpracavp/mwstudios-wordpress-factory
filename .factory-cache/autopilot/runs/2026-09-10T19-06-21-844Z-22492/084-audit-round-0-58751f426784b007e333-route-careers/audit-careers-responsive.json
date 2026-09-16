@@ -1,0 +1,20 @@
+{
+  "status": "needs_work",
+  "summary": "Inspected retained screenshots and runtime measurements at 1440, 1280, 1024, 768, 390 and 375 px. Fonts were ready at every width and form/accordion controls remain visible. Reported document overflow is 0 px at 1440-390 and 1 px at 375. At 768 px and below, the expanded vacancy body is positioned outside its card content inset and visibly clips initial letters.",
+  "issues": [
+    "RESP-CAR-001 | priority: high | property: expanded vacancy mobile content inset | expected: body text remains inside the accordion card that starts at x=20, with a readable inner padding | actual: at 768, 390 and 375 px the body text block starts at x=6 (widths 756, 378 and 363 respectively), visibly clipping the first letters of Lokalizacja, Stanowisko, Wymiar and subsequent headings | fix: remove the negative/full-viewport mobile width offset and constrain the open panel body to the card's inner width/padding.",
+    "RESP-CAR-002 | priority: low | property: horizontal document overflow at minimum retained width | expected: 0 px overflow at 375 px | actual: the retained runtime measurement reports overflow=1 | fix: identify the one-pixel wide overflowing border/box and constrain it to the viewport without masking content globally."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/responsive-1440.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/responsive-1280.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/responsive-1024.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/responsive-768.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/responsive-390.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/responsive-375.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/responsive-768.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/responsive-390.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/responsive-375.png"
+  ]
+}

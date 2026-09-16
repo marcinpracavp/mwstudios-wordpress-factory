@@ -1,0 +1,65 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-order-confirmed",
+  "item": "responsive",
+  "status": "needs_work",
+  "summary": "Inspected the retained route captures and runtime probes at 1440, 1280, 1024, 768, 390 and 375 px. The source has no mobile frame, so narrow layouts were evaluated for derived health rather than claimed Figma parity; shared header/footer styling was not scored in this route unit.",
+  "issues": [
+    "OC-RESP-001 (critical, responsive presence/controls): all six widths omit every assigned page-owned section and show only the default thank-you sentence between shared chrome. Therefore the heading, progress steps, confirmation card, line item, totals, coupon field/button and order action have no responsive layout to audit. Retained horizontal-overflow probes are 0 px at 1440/1280/1024/768/390 and 1 px at 375, but those values cannot establish responsive health for content and controls that are absent. Fix the read-only order-received state at every retained width, then recheck stacking, readable text, uncut controls and horizontal overflow."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/order-confirmed/comparison.json",
+      "sha256": "ebd141bae69283c244c9d9f5b8009815024f2f37de3f47d2328ca94297b2de17"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/order-confirmed/responsive-1440.json",
+      "sha256": "aa06e067c732e96988cf31dcf07fae9e7eb2347ef285deec2bc89a684bd84841"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/order-confirmed/responsive-1440.png",
+      "sha256": "f0b904f65a28a1754b42ee1071e73adced779807769c1be325fcd31334f3b11e"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/order-confirmed/responsive-1280.json",
+      "sha256": "963162cbc0c44ae9c875dfa2c5009ecba248ae04658ec4b46ba4ceced7f825d4"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/order-confirmed/responsive-1280.png",
+      "sha256": "59f0cc4b6b2909f9169db45bf5a1dd3fa4e328a3f088dfbaa838120c6431aa92"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/order-confirmed/responsive-1024.json",
+      "sha256": "0a5c68d39e420e46cc077f89b50cb8b38cfd3f9fcf5941f748c51214182949d1"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/order-confirmed/responsive-1024.png",
+      "sha256": "d1e6e97280544c9c48ae2117d65543d1ab0a718b8cb61a2bf0140e16f1de16eb"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/order-confirmed/responsive-768.json",
+      "sha256": "18e30623d5c8ee3af47c896b5634780e432d50600ec92597947dbeee46f8c5e2"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/order-confirmed/responsive-768.png",
+      "sha256": "9707d1c731090d75993a9fcfe4adb4909b00ab5147ced0a0c9784dc5d77d3aeb"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/order-confirmed/responsive-390.json",
+      "sha256": "53940b4ccb666491f94d1e69b03403e736b7aa4263ca362d2ab8f102f5e589e6"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/order-confirmed/responsive-390.png",
+      "sha256": "8dcfd84679c448b1698396f35fd94c218ad0baa2dff303cbe3315fdb6e15a4c9"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/order-confirmed/responsive-375.json",
+      "sha256": "d1be8a7db2136cc786ce94f895137eb030fbfb3549c90726eeaf8f31d559b091"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/order-confirmed/responsive-375.png",
+      "sha256": "bd7da62ed296a8aac7f8f49d607a7c567a23c995ea4b3c5fabe966d066f854cd"
+    }
+  ],
+  "completedAt": "2026-09-15T17:10:40.869Z"
+}

@@ -1,0 +1,32 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "shared-components",
+  "item": "shared:ca6bb2ccbb26a5a7",
+  "status": "needs_work",
+  "summary": "Compared checkout-login checkout-steps reference, rendered crop, diff, and retained geometry. Outer 951 x 106 bounds are within 1 px, but the progress indicator is undersized and compressed (19.432% mismatch).",
+  "issues": [
+    "VIS-CHECKOUT-STEPS-001 (high) — property: step circle size; expected: approximately 72 px diameter circles; actual: approximately 54 px circles; fix: match the source circle diameter, number size, and vertical alignment.",
+    "VIS-CHECKOUT-STEPS-002 (high) — property: horizontal distribution/connectors; expected: steps span nearly the full 951 px component with arrow-ended connectors; actual: content occupies only about 750 px, connectors are shorter, and arrowheads are absent; fix: distribute three steps across the source width and render exact source connector arrows.",
+    "VIS-CHECKOUT-STEPS-003 (medium) — property: label typography/position; expected: larger source labels centered below the circles; actual: labels are smaller/heavier and sit closer to the circles with different centers; fix: match source font metrics and label offsets.",
+    "VIS-CHECKOUT-STEPS-004 (low) — property: vertical section position; expected: y=376; actual: y=377; fix: align the component 1 px upward."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/comparison.json",
+      "sha256": "ccec5d86a6c7481aa778179b2a536e4586404b84dd26b38dfb04c426068c7b0f"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/checkout-steps-reference.png",
+      "sha256": "4196a2bfa8351dbcf439488feaba3351f7e12d57fb02113961a2f4063fd68f0e"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/checkout-steps-rendered.png",
+      "sha256": "e42fa05fe6eb57998cf64eda3effd3d43bfae3665ca29c612d3def2103949777"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/checkout-steps-diff.png",
+      "sha256": "72d8e5c85d0e48214463d5c3bbc62d81797e62de1f71f04b126f09720c3e68cb"
+    }
+  ],
+  "completedAt": "2026-09-14T15:44:05.787Z"
+}

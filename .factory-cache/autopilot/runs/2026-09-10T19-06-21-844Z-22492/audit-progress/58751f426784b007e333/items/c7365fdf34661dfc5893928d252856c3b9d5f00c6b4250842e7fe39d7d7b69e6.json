@@ -1,0 +1,36 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-product-reviews-state",
+  "item": "section:product-overview",
+  "status": "needs_work",
+  "summary": "Compared the product-overview source record and retained reference/render/diff. The wrapper geometry passes (x +2 px, y +1 px, width -2 px, height exact), but the crop mismatch is 16.325% and the current rendered state is structurally and visually incomplete.",
+  "issues": [
+    "AUD-PRODUCT-OVERVIEW-001 (critical, native variation/price UI): expected the 1 L, 5 L and 20 L option buttons, quantity minus/value/plus control, sale price 411,00 zł with struck 530,00 zł, 23% VAT note and lowest-30-day-price note; actual render shows a price range, a malformed Pojemność/Wybierz opcję line, only a lone value 1, and no visible option controls or source sale-price treatment. Render the real variation form and source-backed selected 5 L state.",
+    "AUD-PRODUCT-OVERVIEW-002 (high, content/markup): expected separate product-code and producer lines; actual visibly prints the literal string <br /> after 98899. Render the line break as markup rather than escaped text.",
+    "AUD-PRODUCT-OVERVIEW-003 (high, missing controls/content): expected the wide Zamienniki control, rating row, wholesale-contact row and favorite row; actual render omits Zamienniki, rating and favorite, while the wholesale prompt is styled as the orange control. Restore the missing sourced rows and their correct hierarchy/styles.",
+    "AUD-PRODUCT-OVERVIEW-004 (medium, typography/layout): expected a bold 48 px-class title and the reference's compact 571 px populated layout; actual title is substantially lighter/smaller and most of the passing-height wrapper is blank. Match typography and vertical placement without changing the already passing outer geometry."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-reviews-state/comparison.json",
+      "sha256": "60fb274073d4fb6bf964080254f0a3d61455af90083b78a430d8c78e4719841f"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-reviews-state/product-overview-reference.png",
+      "sha256": "3aee248458d4fd2a8ef3c5708e57d5829c1d4d954dc0497f0eed5e1628a31eb3"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-reviews-state/product-overview-rendered.png",
+      "sha256": "cebea0b60fbbc332831e23f9ca6f8dbf228573301d456ac136d5e3b968895f31"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-reviews-state/product-overview-diff.png",
+      "sha256": "fc954ba384062efc5f6cca3368d410db439623d00753e057f9e8152862ce31cb"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/106-audit-round-0-58751f426784b007e333-route-product-reviews-state/source-context/section-60749771cd2948bc.json",
+      "sha256": "59a15f07906607a67a78621fe634a7c98dd1fb73fa30054cbf45176d98d7b67d"
+    }
+  ],
+  "completedAt": "2026-09-15T18:01:27.484Z"
+}

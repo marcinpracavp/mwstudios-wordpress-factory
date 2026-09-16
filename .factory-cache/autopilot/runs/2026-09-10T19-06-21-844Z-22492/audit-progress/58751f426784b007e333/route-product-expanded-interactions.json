@@ -1,0 +1,14 @@
+{
+  "status": "needs_work",
+  "summary": "Ran a fresh isolated Chrome context at 390 px and exercised only the product tab state, with no cart, form, email, order or payment side effects. Click transitions description -> downloads -> use each selected exactly one tab/panel, updated the hash, restored the expanded use state and produced no page errors. Keyboard and initial mobile active-tab visibility remain defective.",
+  "issues": [
+    "INT-PE-01 high keyboard interaction: expected a role=tab widget to move focus/selection from 'Stosowanie' to the next tab when ArrowRight is pressed; actual remains hash #use with selected ['use'] and activePanels ['use']. Implement standard arrow-key tab navigation and associated focus management.",
+    "INT-PE-02 medium mobile active-state visibility: expected direct navigation to #use to expose the selected 'Stosowanie' tab fully; actual 390 px tab scroller has clientWidth 350, scrollWidth 650 and initial scrollLeft 0, leaving the third active tab partially clipped. Scroll the hash-selected tab into view on initialization while retaining user-controlled horizontal scrolling."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-expanded/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/route-product-expanded-interactions-probe.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/probe-product-expanded-interactions.js",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/interaction-audit.json"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-product-files-state",
+  "item": "responsive",
+  "status": "needs_work",
+  "summary": "Inspected all retained responsive probes and screenshots at 1440, 1280, 1024, 768, 390 and 375 px. Fonts load and widths 390–1440 report no document overflow, but 375 px reports 14 px overflow. Independent visual inspection shows severe page-content collapse across widths and inaccessible/clipped product tab controls on both retained phone widths.",
+  "issues": [
+    "RESP-PRODUCT-FILES-001 | priority: critical | property: related-card responsive layout | expected: source product cards remain legible and usable, stacking or reflowing at narrow widths | actual: at every retained width the cards collapse into extremely narrow columns with tiny images, wrapped titles/prices and small default cart buttons; at 375 px the related-product cart control reaches x=387.92 and contributes to 14 px document overflow | fix: implement a bounded responsive card grid/stack with full-width card content and controls contained inside the viewport.",
+    "RESP-PRODUCT-FILES-002 | priority: critical | property: product purchase controls | expected: variation buttons, quantity stepper and selected-variation cart action remain readable and operable at every retained width | actual: all widths show malformed Pojemność/Wybierz opcję text, no size buttons or quantity stepper, and a small disabled-looking cart button | fix: restore the native variation and quantity controls, then define responsive wrapping and touch-sized control dimensions.",
+    "RESP-PRODUCT-FILES-003 | priority: high | property: tabs overflow/accessibility | expected: all five product tabs remain discoverable and operable on phone widths through wrapping or an explicit horizontal control | actual: at 390 and 375 px the Stosowanie, Opinie and Pliki do pobrania labels lie partly or wholly beyond the viewport (right edges 410, 540 and 670 px); the screenshots show clipped labels with no visible scroll affordance | fix: provide a clear mobile tab layout or accessible horizontal scroller with all controls reachable and visible focus states.",
+    "RESP-PRODUCT-FILES-004 | priority: high | property: desktop/tablet related-section utilization | expected: two balanced product cards fill the assigned content region | actual: 1440, 1280, 1024 and 768 screenshots retain very large empty areas while cards are compressed into narrow slivers | fix: correct the base card grid sizing before applying breakpoint-specific stacking.",
+    "RESP-PRODUCT-FILES-005 | priority: medium | property: legal notice readability | expected: source notices remain comfortably readable with appropriate padding and line length | actual: at 390/375 px the legal copy is compressed into very small dense text blocks | fix: increase mobile type size/line-height and rebalance panel padding without introducing horizontal overflow."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-files-state/comparison.json",
+      "sha256": "f2f40b4549be3c4d290fb1325ea36f527b064830528ff9257572c71e16e244eb"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-files-state/responsive-1440.json",
+      "sha256": "07f0ce2784b15d05e309758520745e4b12ba097c79ab564d592dbf1a7525310d"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-files-state/responsive-1440.png",
+      "sha256": "96f3eb5323829c079a4037a74b9b5ed062b38da7ea479ba42d613bd00b8d07ba"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-files-state/responsive-1280.json",
+      "sha256": "a0ae44924be7aa499b46523571fb34e1423c49495cdb57889af972a7e2271554"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-files-state/responsive-1280.png",
+      "sha256": "70596aab22048c7b61d3c21f6755fcbea520272f003b07450e95ec575cc80470"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-files-state/responsive-1024.json",
+      "sha256": "8af52dcfd39980b20dd1dd0d06448e538f288e65eb4b54fe4198f57b2f770e48"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-files-state/responsive-1024.png",
+      "sha256": "c29cbb440b2108ee23d7524bebc9bbfabf3e7cd0f67b438b8dfac8cfc3096e19"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-files-state/responsive-768.json",
+      "sha256": "2a067cf6781ba3b6a387cdea262618dc5bbd63a686d5632bebe9054b23ea176f"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-files-state/responsive-768.png",
+      "sha256": "cf68196c5e20dc84ad10d9aac50e07e7e3c091863dce2bbce8e33124374b0916"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-files-state/responsive-390.json",
+      "sha256": "7b171aad027bd440d1c0ca364e8c2c4762c3f75cdb730cd7e56b247cdc8af9e1"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-files-state/responsive-390.png",
+      "sha256": "fefb3f61787fe640905daf3defb6f51f1921e2dec17a6ecf4092e7e4f58f7f5c"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-files-state/responsive-375.json",
+      "sha256": "b007691013d2a2a58333df226ccb502229da2b9eaadde7d8fe542eb5d5f1b825"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-files-state/responsive-375.png",
+      "sha256": "65976e4d0e39fc8e5925285f5ae0a5ec4f31758863a51c3e056905806122fefd"
+    }
+  ],
+  "completedAt": "2026-09-15T18:25:31.284Z"
+}

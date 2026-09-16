@@ -1,0 +1,21 @@
+{
+  "status": "needs_work",
+  "summary": "Inspected retained route screenshots and probes at 1440, 1280, 1024, 768, 390 and 375 px. All six renders are marked healthy and fontsReady is true. The assigned catalogue section remains within the viewport, but cover images materially obscure headings and action labels at 1024, 390 and 375 px; the 375 px probe also reports overflow=1.",
+  "issues": [
+    "RESP-CAT-001 (high) — property: responsive content readability. Expected: a derived responsive layout with both catalogue headings and action labels unobscured. Actual: at 1024 px the agricultural title spans x=62..460 while its cover spans x=203..502 (257 px intersection); at 390 px the title spans x=50..340 while its cover spans x=103..370 (237 px intersection); at 375 px the title spans x=50..325 while its cover spans x=88..355 (237 px intersection). The screenshots show the same covers crossing action-label regions. Fix: reserve a non-overlapping text zone or reposition/resize the cover at these breakpoints while retaining both sourced actions.",
+    "RESP-CAT-002 (low) — property: horizontal overflow. Expected: zero horizontal overflow at every retained width. Actual: responsive-375.json reports overflow=1 while the other five widths report zero. Fix: locate the 1 px route-level overflow source at 375 px and constrain that element without blanket overflow hiding; do not attribute or alter separately owned shared components in this route unit."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/catalogues/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/catalogues/responsive-1440.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/catalogues/responsive-1280.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/catalogues/responsive-1024.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/catalogues/responsive-768.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/catalogues/responsive-390.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/catalogues/responsive-375.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/catalogues/responsive-1024.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/catalogues/responsive-390.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/catalogues/responsive-375.png",
+    "src/css/pages/_catalogues.scss"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-checkout",
+  "item": "responsive",
+  "status": "needs_work",
+  "summary": "Inspected retained responsive screenshots and runtime geometry at 1440, 1280, 1024, 768, 390 and 375 px. Reported document overflow is 0 px at every retained width except 375 px (1 px); checkout section bounds remain inside the viewport, but the 1024 px composition has a major cross-section collision and narrow controls do not expand after stacking.",
+  "issues": [
+    "RESP-CHECKOUT-001 | high | 1024 px section layout | Expected the checkout steps and totals card to remain spatially separate or stack before collision; actual checkout-totals occupies x=604..1004 and y=320.2..793.2 while checkout-steps occupies x=29..980 and y=351.2..457.2, visibly placing step 3 and its label over the totals card/coupon heading. Move the totals card below the flow at this breakpoint or reduce/reflow the progress indicator before their rectangles overlap.",
+    "RESP-CHECKOUT-002 | medium | stacked customer controls at 768/390/375 px | Expected controls that become single-column to use the available inner width; actual first-name and surname inputs stack vertically but retain short desktop half-column widths, unlike the full-width country/address controls. Make each stacked native field wrapper/input fill its responsive column while preserving labels and validation.",
+    "RESP-CHECKOUT-003 | low | 375 px document width | Expected zero horizontal document overflow; retained runtime reports 1 px. No assigned checkout section, text or image rectangle exceeds the viewport, so the origin is not attributed to shared header/footer in this route audit; verify the page-owned boundary after shared-component review."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/comparison.json",
+      "sha256": "f071c2eae56cc3188f09fe2edb1fe6522a928d779a30d651d1ce27e5f15c76ff"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/responsive-1440.json",
+      "sha256": "a1aed9c36355b8284b104c6438aab3c9dffab5ded1a094f83bbdcf255f333083"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/responsive-1440.png",
+      "sha256": "f2e9386613868e909a110c77e0e1221538d4ecda4264ad01de915fa16143b007"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/responsive-1280.json",
+      "sha256": "bd3193d656bd0e25b73297886cb16c10fc3c13e14acfb6037021a3397de38412"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/responsive-1280.png",
+      "sha256": "4447c5daea0b5a1a3eed0688023b800900544e83649927d5c359d9b871d7c3ec"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/responsive-1024.json",
+      "sha256": "d21b4820acb2e9e0589a44c03aa7f78e90911a3ddb80bfc18e9483b365b7bf79"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/responsive-1024.png",
+      "sha256": "d6558ebfa70f230f889539507728ba1e6cb17232f7035b176a7f6ee159583647"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/responsive-768.json",
+      "sha256": "22b53b9af5ecc9745c55245d4811f4acc6e0fd25b2eae07ecc463c97b6aa0c48"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/responsive-768.png",
+      "sha256": "300d2f35fe331fdc1486cca09eff1011b2ba18e47f966866aeff5420f77da4bc"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/responsive-390.json",
+      "sha256": "432f6304eb6c179c7361bf5338eb4660120a0770a4fbe8d6197b792792fe9930"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/responsive-390.png",
+      "sha256": "553a0da5ba3b8185564b420178a96c0a2127a11ce63c933d825ff3cd6a4a2b44"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/responsive-375.json",
+      "sha256": "6de67be23867c4828aab53dd6c13bcd3837fa83503c602799664fccc3ec3b26c"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/responsive-375.png",
+      "sha256": "2c2306365b0cb8e8c2f352fea665ddad9c2669e5d65940614b7de0f8114b847a"
+    }
+  ],
+  "completedAt": "2026-09-15T06:23:46.439Z"
+}

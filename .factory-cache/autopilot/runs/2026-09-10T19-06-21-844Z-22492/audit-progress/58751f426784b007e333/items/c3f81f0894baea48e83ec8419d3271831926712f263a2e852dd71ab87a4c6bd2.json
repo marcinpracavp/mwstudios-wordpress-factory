@@ -1,0 +1,42 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-about",
+  "item": "section:about-grain-trade",
+  "status": "needs_work",
+  "summary": "Compared the corrected 1920 px source/render/diff crop for about-grain-trade, verified sourced WYSIWYG and the actual image request. Outer geometry passes (expected 160,1454,1600x631; actual 160,1454.421875,1600x631) and the crop ratio is 8.3363%, but two concrete fidelity defects remain.",
+  "issues": [
+    "VIS-ABOUT-GRAIN-001 | priority: high | property: list markers | expected: all three rich-text list items show circular bullets at the source indentation | actual: the rendered crop preserves text indentation but suppresses all three bullet glyphs | fix: restore source list-style markers for this WYSIWYG list without changing sourced text or the passing card geometry.",
+    "VIS-ABOUT-GRAIN-002 | priority: medium | property: photo source rendition/raster quality | expected: the exact 960x640 sourced attachment is downsampled into the 588x450 cover box | actual: runtime metrics request the 600x400 WordPress intermediate and upscale it into the 588x450 cover box, producing extensive interior photo-edge differences | fix: request the full source attachment (or a sufficiently large non-upscaled rendition) while retaining object-fit cover, the current crop and border geometry."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/route-about-section-about-grain-trade.json",
+      "sha256": "6894dcabb8dc4b3cbbbccc3178bd232b17b8f6302edf6fcb767ee2d5bf9c2e86"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/about/comparison.json",
+      "sha256": "1f02ffb4d5c6729bff01478399a03e791403cd794e866ee655ddf46d9cf71416"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/about/metrics.json",
+      "sha256": "6dfb5407c6631447a52b4c647fec67b477a90162d0b4ac87b1f950378fb68b2d"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/about/about-grain-trade-reference.png",
+      "sha256": "49ad005dc3f5146475d6c03b0e32f01a96bcfeb78dd5bd25f38a68f49f5d5004"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/about/about-grain-trade-rendered.png",
+      "sha256": "56483907f298dc74cffe9c2ec93391c9d4a8accdca20e0cadc8e718797be6641"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/about/about-grain-trade-diff.png",
+      "sha256": "f989331646f95d3afe6e4b58f650a0b71abea65522ecc0374b872e2da5fd14b8"
+    },
+    {
+      "path": ".factory-cache/figma/latest/assets/about/519-350-grain-photo.png",
+      "sha256": "663985bae0be4110efda374005ff6fbd4746e5ce535dfd74ddf6ebbe9b8e8eb1"
+    }
+  ],
+  "completedAt": "2026-09-14T21:59:01.272Z"
+}

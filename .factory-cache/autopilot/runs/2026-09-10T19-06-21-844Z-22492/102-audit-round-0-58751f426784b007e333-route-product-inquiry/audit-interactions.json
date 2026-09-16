@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "summary": "Ran a fresh isolated Google Chrome context at 1440 px against the local product-inquiry route. HTTP 200 was returned; the single inquiry trigger opened the single dialog, changed aria-hidden from true to false, added the dialog/product open classes, exposed the close control, and the close control restored the hidden state. No form, cart, order, payment or message action was submitted.",
+  "issues": [],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-inquiry/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/102-audit-round-0-58751f426784b007e333-route-product-inquiry/interaction-probe.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/102-audit-round-0-58751f426784b007e333-route-product-inquiry/interaction-dialog-open.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/102-audit-round-0-58751f426784b007e333-route-product-inquiry/interaction-dialog-closed.png"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "needs_work",
+  "summary": "Compared the retained 1920 px reference, rendered crop and diff for contact-form against the frozen section source. The outer geometry passes within one pixel (expected 728,519,953,376; actual 728,520,952,376) and the crop ratio is 5.204%, but visible required source content is missing or displaced.",
+  "issues": [
+    "CONTACT-FORM-001 | high | content visibility | Expected the sourced privacy notice to appear to the right of the submit button; actual rendered crop contains no visible privacy notice. Fix: render the ACF privacy-notice value in the source position and typography.",
+    "CONTACT-FORM-002 | medium | typography/position | Expected the heading with clear top inset at the upper right; actual heading touches and is clipped by the crop top, and its horizontal position differs. Fix: restore the source heading inset/alignment while preserving the passing outer bounds.",
+    "CONTACT-FORM-003 | medium | field typography | Expected small light-gray labels with source insets; actual labels are visibly larger and lower-contrast placement differs across the inputs and textarea. Fix: match the captured 12 px label metric and source padding."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/contact/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/contact/contact-form-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/contact/contact-form-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/contact/contact-form-diff.png",
+    ".factory-cache/figma/latest/sections/43-contact-form.json"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "status": "needs_work",
+  "summary": "Compared the retained delivery source, reference, rendered crop and diff. The section bounds pass geometry (x 0 px, y +1.15625 px, exact width/height) and its diagnostic crop ratio is 4.2512%, but the native shipping row does not reproduce the sourced control presentation.",
+  "issues": [
+    "VIS-CHECKOUT-DELIVERY-001 | high | shipping-method control | Expected a selected 17/11 px radio at the left of a 399 x 44 px row, with label and right-aligned green 22,90 zł price; actual row has no visible radio and combines the label/price in WooCommerce output. Preserve native shipping selection while styling its radio, label and price to the sourced structure.",
+    "VIS-CHECKOUT-DELIVERY-002 | medium | unsourced field label and spacing | Expected the method row directly below the Dostawa heading; actual render inserts an additional visible Przesyłka label and pulls the row upward. Remove or visually suppress only that unsourced wrapper label and match the sourced vertical spacing."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/checkout-delivery-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/checkout-delivery-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/checkout-delivery-diff.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/094-audit-round-0-58751f426784b007e333-route-checkout/source-context/section-45d73474fae22ee7.json"
+  ]
+}

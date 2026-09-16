@@ -1,0 +1,100 @@
+{
+  "generatedAt": "2026-09-15T12:20:56.476Z",
+  "browser": "Google Chrome",
+  "url": "https://autopilot.local/product/aquatos-5l/#use",
+  "viewport": {
+    "width": 390,
+    "height": 900
+  },
+  "initialUse": {
+    "hash": "#use",
+    "selected": [
+      "use"
+    ],
+    "activePanels": [
+      "use"
+    ],
+    "useClass": true,
+    "useVisible": true,
+    "useExpanded": null,
+    "expandVisible": false,
+    "tabScroller": {
+      "clientWidth": 350,
+      "scrollWidth": 650,
+      "scrollLeft": 0
+    }
+  },
+  "description": {
+    "hash": "#description",
+    "selected": [
+      "description"
+    ],
+    "activePanels": [
+      "description"
+    ],
+    "useClass": false,
+    "useVisible": false,
+    "useExpanded": null,
+    "expandVisible": true,
+    "tabScroller": {
+      "clientWidth": 350,
+      "scrollWidth": 650,
+      "scrollLeft": 0
+    }
+  },
+  "downloads": {
+    "hash": "#downloads",
+    "selected": [
+      "downloads"
+    ],
+    "activePanels": [
+      "downloads"
+    ],
+    "useClass": false,
+    "useVisible": false,
+    "useExpanded": null,
+    "expandVisible": false,
+    "tabScroller": {
+      "clientWidth": 350,
+      "scrollWidth": 650,
+      "scrollLeft": 300
+    }
+  },
+  "returnedUse": {
+    "hash": "#use",
+    "selected": [
+      "use"
+    ],
+    "activePanels": [
+      "use"
+    ],
+    "useClass": true,
+    "useVisible": true,
+    "useExpanded": null,
+    "expandVisible": false,
+    "tabScroller": {
+      "clientWidth": 350,
+      "scrollWidth": 650,
+      "scrollLeft": 260
+    }
+  },
+  "afterArrowRight": {
+    "hash": "#use",
+    "selected": [
+      "use"
+    ],
+    "activePanels": [
+      "use"
+    ],
+    "useClass": true,
+    "useVisible": true,
+    "useExpanded": null,
+    "expandVisible": false,
+    "tabScroller": {
+      "clientWidth": 350,
+      "scrollWidth": 650,
+      "scrollLeft": 260
+    }
+  },
+  "pageErrors": []
+}

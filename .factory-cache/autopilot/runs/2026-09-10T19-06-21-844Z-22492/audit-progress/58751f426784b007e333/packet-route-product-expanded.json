@@ -1,0 +1,82 @@
+{
+  "ledger": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/ledger.json",
+  "key": "58751f426784b007e333",
+  "unit": "route-product-expanded",
+  "routes": [
+    "product-expanded"
+  ],
+  "pending": [
+    {
+      "id": "section:product-breadcrumbs",
+      "kind": "visual",
+      "section": "product-breadcrumbs",
+      "route": "product-expanded",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-expanded/comparison.json",
+      "owner": "page"
+    },
+    {
+      "id": "section:product-overview",
+      "kind": "visual",
+      "section": "product-overview",
+      "route": "product-expanded",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-expanded/comparison.json",
+      "owner": "page"
+    },
+    {
+      "id": "section:product-expanded-description",
+      "kind": "visual",
+      "section": "product-expanded-description",
+      "route": "product-expanded",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-expanded/comparison.json",
+      "owner": "page"
+    },
+    {
+      "id": "section:product-related",
+      "kind": "visual",
+      "section": "product-related",
+      "route": "product-expanded",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-expanded/comparison.json",
+      "owner": "page"
+    },
+    {
+      "id": "section:product-legal-notices",
+      "kind": "visual",
+      "section": "product-legal-notices",
+      "route": "product-expanded",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-expanded/comparison.json",
+      "owner": "page"
+    },
+    {
+      "id": "responsive",
+      "kind": "responsive",
+      "route": "product-expanded",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-expanded/comparison.json"
+    },
+    {
+      "id": "interactions",
+      "kind": "interactions",
+      "route": "product-expanded",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-expanded/comparison.json"
+    }
+  ],
+  "completed": [],
+  "legacyEvidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/081-audit-round-0/audit-metrics.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/cart-interaction-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/interaction-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/native-commerce-icons-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/responsive-audit.json"
+  ],
+  "checkpointCommand": "node scripts/factory/autopilot/audit-progress.js record .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/ledger.json route-product-expanded <item-id> <input-json>",
+  "recordSchema": {
+    "status": "passed|needs_work|blocked",
+    "summary": "What was actually checked",
+    "issues": [
+      "Concrete finding or untestable limitation"
+    ],
+    "evidence": [
+      "Existing theme-relative FILE paths; include the assigned comparison for route checks"
+    ]
+  },
+  "instruction": "Check ONLY pending items. Save an atomic checkpoint immediately after each item, before starting the next. Existing completed items must not be reread or repeated. Earlier partial evidence is a candidate: inspect only relevant records and verify applicability; never assume old PASS. Missing genuine inputs are recorded blocked with evidence, then continue other items."
+}

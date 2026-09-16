@@ -1,0 +1,60 @@
+{
+  "capturedAt": "2026-09-16T06:58:32.745Z",
+  "implementationHash": "647f9c245151cb10131fec98adfb885c011b117757f44a15f56cab4191e0c5ab",
+  "sourceHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+  "thresholds": {
+    "channelTolerance": 24,
+    "maxDifferentPixelRatio": 0.085,
+    "geometryTolerancePx": 2
+  },
+  "acceptanceScope": "all",
+  "buildReady": false,
+  "deferred": [],
+  "passed": false,
+  "pagePassed": false,
+  "routes": [
+    {
+      "id": "careers",
+      "passed": false,
+      "pagePassed": false,
+      "ownership": {
+        "header": {
+          "pixels": 372480,
+          "differentPixels": 21865,
+          "ratio": 0.0587011383161512
+        },
+        "footer": {
+          "pixels": 1224960,
+          "differentPixels": 119835,
+          "ratio": 0.09782768416927899
+        },
+        "shared": {
+          "pixels": 740000,
+          "differentPixels": 34756,
+          "ratio": 0.046967567567567564
+        },
+        "page": {
+          "pixels": 5008480,
+          "differentPixels": 257917,
+          "ratio": 0.05149606267769862
+        },
+        "outside": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        "reused": {
+          "pixels": 0,
+          "differentPixels": 0,
+          "ratio": 0
+        }
+      },
+      "errors": [
+        "Full page height differs",
+        "footer pixel mismatch 9.783%",
+        "Section geometry differs: shared-footer"
+      ],
+      "comparison": ".factory-cache/autopilot/visual-1789541889773/careers/comparison.json"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "blog-pagination",
+  "manifestRecord": {
+    "id": "blog-pagination",
+    "name": "Blog pagination",
+    "order": 40,
+    "pageId": "0:1",
+    "snapshot": "sections/40-blog-pagination.json",
+    "desktopNodeId": "422:25",
+    "desktopReference": "references/sections/blog-pagination.png"
+  },
+  "contentFields": [
+    {
+      "section": "blog-pagination",
+      "nodeId": "422:25",
+      "fieldName": "rudnikagro_blog_pagination",
+      "type": "pagination",
+      "language": "pl",
+      "value": {
+        "current": 1,
+        "pages": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "next": "next"
+      },
+      "destination": "Native WordPress pagination",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "422:25"
+      }
+    }
+  ]
+}

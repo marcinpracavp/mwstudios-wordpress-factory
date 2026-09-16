@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "summary": "Inspected the retained 1440, 1280, 1024, 768, 390 and 375 px screenshots and ran a fresh isolated headless-browser probe against the three page-owned sections. All sections were present at every width, each had 0 px internal horizontal overflow, no descendant exceeded the viewport, and every page-owned link/button was visible, enabled and inside the viewport. The document reports 1 px overflow only at 375 px, while all assigned page sections report 0 px; shared header/footer are outside this route unit. Responsive behavior is derived because the source provides desktop only.",
+  "issues": [],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/blog-article/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/087-audit-round-0-58751f426784b007e333-route-blog-article/responsive-probe.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/blog-article/responsive-1440.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/blog-article/responsive-1280.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/blog-article/responsive-1024.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/blog-article/responsive-768.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/blog-article/responsive-390.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/blog-article/responsive-375.png"
+  ]
+}

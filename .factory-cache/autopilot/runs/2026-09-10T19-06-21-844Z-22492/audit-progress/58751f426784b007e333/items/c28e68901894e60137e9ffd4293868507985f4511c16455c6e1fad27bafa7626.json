@@ -1,0 +1,31 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "shared-components",
+  "item": "shared:3c7623aaabbc97a5",
+  "status": "needs_work",
+  "summary": "Audited catalogues shared-shop-cta against exact real-pixel crops at x=40, y=966, 1840 x 230. The comparison's expected y=2919 is outside the 1850 px reference and is a proven source-coordinate defect; the visible component still has typography, button, and gradient mismatches.",
+  "issues": [
+    "VIS-CATALOGUES-CTA-001 (high) — property: retained comparison geometry; expected record: y=2919; actual source pixels: CTA begins at y=966 in the 1850 px frozen reference, matching rendered y=966; fix: correct the source-section coordinate extraction rather than moving the implementation to an impossible off-canvas location.",
+    "VIS-CATALOGUES-CTA-002 (medium) — property: gradient; expected: darker green center/right transition as in the reference; actual: rendered right half is noticeably brighter lime and the transition differs across the panel; fix: match the source gradient stops, positions, and colors.",
+    "VIS-CATALOGUES-CTA-003 (medium) — property: typography and button alignment; expected: source heading glyph metrics and button centered around y=122; actual: heading glyphs differ and button is approximately 7 px too high with different label weight; fix: apply source text metrics and vertical centering."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/catalogues/comparison.json",
+      "sha256": "9a460e23caa1a28985cf8938adefd4971a0e7e2766e4c8a57ec607c6a9d8af01"
+    },
+    {
+      "path": ".factory-cache/autopilot/previews/audit-catalogues-cta-reference.png",
+      "sha256": "2edeaf3da0aadb6713ec33687e93d5179f10ced5f7fd67bc65c60930bf6be274"
+    },
+    {
+      "path": ".factory-cache/autopilot/previews/audit-catalogues-cta-rendered.png",
+      "sha256": "a5b8335a4d8f7c7edef9068d444d5f37d0d20c5beee021642054f5617138e7c8"
+    },
+    {
+      "path": ".factory-cache/autopilot/previews/audit-catalogues-cta-diff.png",
+      "sha256": "003dae879b8ea032cbbbdad99ee2c943f533367e39e2a2d6bcdfd8a4d9294390"
+    }
+  ],
+  "completedAt": "2026-09-14T15:27:05.044Z"
+}

@@ -1,0 +1,15 @@
+{
+  "status": "needs_work",
+  "summary": "Compared the product-legal-notices reference, rendered and diff crops with the frozen source records and current geometry. Although the wrapper geometry passes within 0.75 px, the authoritative retained reference and current render show different content at the assigned bounds (12.584% crop mismatch), so this section cannot pass visually.",
+  "issues": [
+    "PB-LEGAL-001 | priority: critical | property: section ordering/vertical content at y=2263..2550 | expected: the authoritative reference crop shows the lower portions of the two related-product cards and then white space | actual: the rendered crop begins immediately with the two legal-notice panels | fix: correct the page flow/section placement so the same source content occupies these coordinates; reconcile the legal-notices node position against the frozen full reference without editing source/reference data.",
+    "PB-LEGAL-002 | priority: high | property: legal notice visual verification | expected: legal copy must be evaluated at its actual source-backed position and against its matching visual pixels | actual: current assigned reference crop contains no legal-notice panels, while the render does, making their styling unverified at this coordinate | fix: after correcting page flow, regenerate the implementation comparison from the unchanged reference and audit the legal panels at their true matched position."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-bundle/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-bundle/product-legal-notices-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-bundle/product-legal-notices-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-bundle/product-legal-notices-diff.png",
+    ".factory-cache/figma/latest/sections/49-product-legal-notices.json"
+  ]
+}

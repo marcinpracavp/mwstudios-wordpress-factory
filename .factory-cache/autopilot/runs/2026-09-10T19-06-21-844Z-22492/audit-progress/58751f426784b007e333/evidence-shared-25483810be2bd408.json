@@ -1,0 +1,14 @@
+{
+  "status": "needs_work",
+  "summary": "Compared the careers shared-primary-navigation reference, rendered crop, and diff; section geometry is within tolerance, but the menu typography and horizontal distribution do not reproduce the source.",
+  "issues": [
+    "VIS-SHARED-PRIMARY-NAV-001 (medium) — property: menu horizontal layout; expected: first menu item begins about 309 px into the section with the source inter-item spacing; actual: it begins about 349 px in and the remaining labels are compressed into a different distribution; fix: match the source logo-to-menu gap and per-item spacing while preserving the 1440 px container.",
+    "VIS-SHARED-PRIMARY-NAV-002 (medium) — property: navigation typography; expected: source weight/metrics consistently used across category labels with red 'Promocje'; actual: visible glyph shapes and baselines differ across every label (crop mismatch 9.829%); fix: apply the exact source font weight, size, and line-height to the shared primary menu."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/shared-primary-navigation-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/shared-primary-navigation-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/shared-primary-navigation-diff.png"
+  ]
+}

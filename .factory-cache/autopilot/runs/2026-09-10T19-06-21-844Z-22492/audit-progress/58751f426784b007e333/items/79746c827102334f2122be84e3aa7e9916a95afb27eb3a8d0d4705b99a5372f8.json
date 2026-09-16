@@ -1,0 +1,35 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-product-expanded",
+  "item": "section:product-overview",
+  "status": "needs_work",
+  "summary": "Inspected the assigned product-overview reference, rendered and diff crops, source record and measured geometry. Outer geometry passes (delta x 2 px, y 1 px, width -2 px, height 0), but the native commerce presentation and content do not match. Diagnostic crop mismatch is 17.509%.",
+  "issues": [
+    "PO-01 critical price/content: expected selected 5 L source price 411,00 zł, struck 530,00 zł, '(w tym 23% VAT)' and the 30-day lowest-price line; actual shows a generic variation range 82,20 zł – 1.644,00 zł and omits the required sale-price presentation. Fix the selected variation price block to the source-backed 5 L state.",
+    "PO-02 high controls/layout: expected separate 1 L/5 L/20 L pill controls, quantity stepper, green cart button with exact cart SVG, favorite control and an expanded orange 'Zamienniki' product panel; actual has a compressed 'PojemnośćWybierz opcję' selector, plain quantity text, a purple cart button without the source controls/icon and no replacement-product panel. Restore the captured control structure and state.",
+    "PO-03 high typography/escaping: expected a bold 48px-style product heading and clean two-line metadata; actual title is materially lighter/smaller and prints a literal '<br />' after SKU 98899. Correct heading typography and render the metadata markup instead of escaping it."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-expanded/comparison.json",
+      "sha256": "3ad8495bb06af1a307f3bd711df319833773dd7c35f0a8d10dc670d180917558"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-expanded/product-overview-reference.png",
+      "sha256": "b5e71880755623b11235462057a60070f25a28b2344d91387a8281ac16bbc396"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-expanded/product-overview-rendered.png",
+      "sha256": "cebea0b60fbbc332831e23f9ca6f8dbf228573301d456ac136d5e3b968895f31"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-expanded/product-overview-diff.png",
+      "sha256": "96623b96d5080b7610e08c301461d879e295fd030ae91df9e1b2822d442e4fc4"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/100-audit-round-0-58751f426784b007e333-route-product-expanded/source-context/section-60749771cd2948bc.json",
+      "sha256": "59a15f07906607a67a78621fe634a7c98dd1fb73fa30054cbf45176d98d7b67d"
+    }
+  ],
+  "completedAt": "2026-09-15T12:07:03.550Z"
+}

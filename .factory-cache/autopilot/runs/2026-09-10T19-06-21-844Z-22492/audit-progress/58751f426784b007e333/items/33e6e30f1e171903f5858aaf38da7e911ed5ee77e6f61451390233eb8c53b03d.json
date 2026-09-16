@@ -1,0 +1,31 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-account",
+  "item": "section:account-registration",
+  "status": "needs_work",
+  "summary": "Inspected the retained account-registration reference, rendered and diff crops against source node 524:243. The panel is correctly positioned and only 1 px wider than expected, but internal content differs; the crop pixel ratio is 0.1007682734588899.",
+  "issues": [
+    "AUD-ACCOUNT-REGISTRATION-001 | priority: high | property: list markers | expected: four benefits are displayed as a bulleted list | actual: all four benefit lines render without visible bullet markers | fix: restore semantic list markers and source indentation.",
+    "AUD-ACCOUNT-REGISTRATION-002 | priority: high | property: vertical positioning | expected: title y 376 and registration button y 655, equivalent to panel-local y 45 and 324 | actual: title is approximately 15 px too high and button approximately 63 px too high | fix: restore source vertical padding and action-row position.",
+    "AUD-ACCOUNT-REGISTRATION-003 | priority: low | property: panel width | expected: 709 px | actual: 710 px | fix: reduce the desktop registration column or panel width by 1 px while preserving its x position."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/account/comparison.json",
+      "sha256": "73910b4bdb03a2d56bbf8b570c16c403d16052c8f2cbeb8093da48e8c1421341"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/account/account-registration-reference.png",
+      "sha256": "33a6383509b228abe21282da71add2f159167064698a2f84590baec857c9a422"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/account/account-registration-rendered.png",
+      "sha256": "751dc217b98cddc220e7a5031eec592744453e96a42c6fa8d0997d56c18ca614"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/account/account-registration-diff.png",
+      "sha256": "55606f21b737f90283a0ccf47520ea5ee1044f4c04eeae2630d2e61b05dcde64"
+    }
+  ],
+  "completedAt": "2026-09-15T11:50:26.904Z"
+}

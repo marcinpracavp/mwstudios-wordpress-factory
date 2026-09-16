@@ -1,0 +1,15 @@
+{
+  "status": "needs_work",
+  "summary": "Compared bundle-gallery reference, rendered crop, diff, retained geometry, and image diagnostics. The correct Pixafen/Spark composition and 600 x 493 outer bounds are present, but the image scale/crop is severely wrong (53.261% mismatch).",
+  "issues": [
+    "VIS-BUNDLE-GALLERY-001 (critical) — property: product-image scale/crop; expected: bottles fill nearly the entire 600 x 493 frame, with the Pixafen bottle touching close to the left/top and the group extending to the right edge; actual: the composition is scaled down with large internal whitespace on all sides; fix: preserve the confirmed source asset and match the reference image box/object-fit/object-position so the composition fills the frame.",
+    "VIS-BUNDLE-GALLERY-002 (medium) — property: frame border/radius visibility; expected: image presentation makes the border almost imperceptible against the source crop; actual: a prominent rounded gray outline encloses the undersized image; fix: match the source border color/radius and clipping after correcting image fill.",
+    "VIS-BUNDLE-GALLERY-003 (low) — property: vertical position; expected: y=367; actual: y=368; fix: align the shared bundle gallery 1 px upward."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-bundle/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-bundle/bundle-gallery-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-bundle/bundle-gallery-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-bundle/bundle-gallery-diff.png"
+  ]
+}

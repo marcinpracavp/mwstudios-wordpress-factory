@@ -1,0 +1,14 @@
+{
+  "status": "needs_work",
+  "summary": "Compared checkout shared-primary-navigation reference, rendered crop, and diff; the route reproduces the shared menu spacing and typography mismatch.",
+  "issues": [
+    "VIS-CHECKOUT-PRIMARY-NAV-001 (medium) — property: logo-to-menu spacing; expected: first category starts about 309 px into the crop; actual: it starts about 349 px in; fix: match the source primary-navigation grid columns and leading gap.",
+    "VIS-CHECKOUT-PRIMARY-NAV-002 (medium) — property: menu typography and gaps; expected: source font metrics and distribution across all category labels; actual: glyph weights/widths differ and remaining items are compressed into a different horizontal rhythm; fix: apply the exact shared menu font weight, size, line-height, and item gaps."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/shared-primary-navigation-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/shared-primary-navigation-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/shared-primary-navigation-diff.png"
+  ]
+}

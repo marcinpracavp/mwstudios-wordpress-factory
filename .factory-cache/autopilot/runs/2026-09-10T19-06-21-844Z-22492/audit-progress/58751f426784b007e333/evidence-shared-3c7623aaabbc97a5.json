@@ -1,0 +1,15 @@
+{
+  "status": "needs_work",
+  "summary": "Audited catalogues shared-shop-cta against exact real-pixel crops at x=40, y=966, 1840 x 230. The comparison's expected y=2919 is outside the 1850 px reference and is a proven source-coordinate defect; the visible component still has typography, button, and gradient mismatches.",
+  "issues": [
+    "VIS-CATALOGUES-CTA-001 (high) — property: retained comparison geometry; expected record: y=2919; actual source pixels: CTA begins at y=966 in the 1850 px frozen reference, matching rendered y=966; fix: correct the source-section coordinate extraction rather than moving the implementation to an impossible off-canvas location.",
+    "VIS-CATALOGUES-CTA-002 (medium) — property: gradient; expected: darker green center/right transition as in the reference; actual: rendered right half is noticeably brighter lime and the transition differs across the panel; fix: match the source gradient stops, positions, and colors.",
+    "VIS-CATALOGUES-CTA-003 (medium) — property: typography and button alignment; expected: source heading glyph metrics and button centered around y=122; actual: heading glyphs differ and button is approximately 7 px too high with different label weight; fix: apply source text metrics and vertical centering."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/catalogues/comparison.json",
+    ".factory-cache/autopilot/previews/audit-catalogues-cta-reference.png",
+    ".factory-cache/autopilot/previews/audit-catalogues-cta-rendered.png",
+    ".factory-cache/autopilot/previews/audit-catalogues-cta-diff.png"
+  ]
+}

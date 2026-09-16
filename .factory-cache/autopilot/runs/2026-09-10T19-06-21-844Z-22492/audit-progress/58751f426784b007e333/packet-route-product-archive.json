@@ -1,0 +1,98 @@
+{
+  "ledger": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/ledger.json",
+  "key": "58751f426784b007e333",
+  "unit": "route-product-archive",
+  "routes": [
+    "product-archive"
+  ],
+  "pending": [
+    {
+      "id": "section:archive-breadcrumbs",
+      "kind": "visual",
+      "section": "archive-breadcrumbs",
+      "route": "product-archive",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-archive/comparison.json",
+      "owner": "page"
+    },
+    {
+      "id": "section:archive-category-introduction",
+      "kind": "visual",
+      "section": "archive-category-introduction",
+      "route": "product-archive",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-archive/comparison.json",
+      "owner": "page"
+    },
+    {
+      "id": "section:archive-filters",
+      "kind": "visual",
+      "section": "archive-filters",
+      "route": "product-archive",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-archive/comparison.json",
+      "owner": "page"
+    },
+    {
+      "id": "section:archive-sort",
+      "kind": "visual",
+      "section": "archive-sort",
+      "route": "product-archive",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-archive/comparison.json",
+      "owner": "page"
+    },
+    {
+      "id": "section:archive-product-grid",
+      "kind": "visual",
+      "section": "archive-product-grid",
+      "route": "product-archive",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-archive/comparison.json",
+      "owner": "page"
+    },
+    {
+      "id": "section:archive-pagination",
+      "kind": "visual",
+      "section": "archive-pagination",
+      "route": "product-archive",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-archive/comparison.json",
+      "owner": "page"
+    },
+    {
+      "id": "section:archive-category-description",
+      "kind": "visual",
+      "section": "archive-category-description",
+      "route": "product-archive",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-archive/comparison.json",
+      "owner": "page"
+    },
+    {
+      "id": "responsive",
+      "kind": "responsive",
+      "route": "product-archive",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-archive/comparison.json"
+    },
+    {
+      "id": "interactions",
+      "kind": "interactions",
+      "route": "product-archive",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-archive/comparison.json"
+    }
+  ],
+  "completed": [],
+  "legacyEvidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/081-audit-round-0/audit-metrics.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/cart-interaction-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/interaction-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/native-commerce-icons-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/responsive-audit.json"
+  ],
+  "checkpointCommand": "node scripts/factory/autopilot/audit-progress.js record .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/ledger.json route-product-archive <item-id> <input-json>",
+  "recordSchema": {
+    "status": "passed|needs_work|blocked",
+    "summary": "What was actually checked",
+    "issues": [
+      "Concrete finding or untestable limitation"
+    ],
+    "evidence": [
+      "Existing theme-relative FILE paths; include the assigned comparison for route checks"
+    ]
+  },
+  "instruction": "Check ONLY pending items. Save an atomic checkpoint immediately after each item, before starting the next. Existing completed items must not be reread or repeated. Earlier partial evidence is a candidate: inspect only relevant records and verify applicability; never assume old PASS. Missing genuine inputs are recorded blocked with evidence, then continue other items."
+}

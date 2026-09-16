@@ -1,0 +1,32 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-product-files-state",
+  "item": "interactions",
+  "status": "blocked",
+  "summary": "Ran a fresh isolated headless Chrome context at the assigned #downloads state. No form, add-to-cart, order, payment or email action was submitted. Hash initialization selected only downloads; pointer activation of technical and keyboard Enter activation of downloads correctly updated aria-selected, the active panel and URL hash. The inquiry dialog opened and closed with matching aria-hidden state, and no page/console errors were observed. Download activation cannot be accepted because the genuine source file/destination and exact icon export are not available.",
+  "issues": [
+    "INT-PRODUCT-FILES-001 | priority: blocked | property: label-document download | expected: Pobierz etykietę is an actionable link to the approved source-backed document and displays the exact source icon | actual: runtime probe found linkCount=0 and iconCount=0; SOURCE_CLARIFICATIONS confirms that neither the approved document/destination nor exact SVG export is established | fix: obtain the genuine label document/destination and exact Figma SVG export, import them as native media, assign their attachment IDs, then rerun safe link activation/response validation.",
+    "INT-PRODUCT-FILES-002 | priority: high | property: favourite action | expected: the sourced Dodaj do ulubionych affordance is an operable control | actual: isolated runtime probe found favoriteControlCount=0 | fix: implement the real local favourite control/state using the sourced label and icon; verify keyboard/pointer activation without external side effects.",
+    "INT-PRODUCT-FILES-003 | priority: passed | property: files tab state | expected: #downloads selects only the downloads tab/panel and switching remains keyboard operable | actual: initial #downloads, pointer switch to #technical and Enter switch back to #downloads all produced exactly one matching active panel and correct aria-selected/hash state | fix: none.",
+    "INT-PRODUCT-FILES-004 | priority: passed | property: inquiry dialog toggle | expected: safe open/close changes visual and accessibility state without submitting the form | actual: aria-hidden changed true→false→true and is-open changed false→true→false; no form was submitted | fix: none."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-files-state/comparison.json",
+      "sha256": "f2f40b4549be3c4d290fb1325ea36f527b064830528ff9257572c71e16e244eb"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/route-product-files-state-interaction-probe.json",
+      "sha256": "01c7530d5b42f3c3bdccbe96316c39bf5cb4062754ae0cec9b5056bcb31c0d4b"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/107-audit-round-0-58751f426784b007e333-route-product-files-state/source-context/section-bcd8b1c9fe2fe027.json",
+      "sha256": "042f06979afe9e9b89caff186e63270b589308a20adcc9aa271c13f9ca71c57a"
+    },
+    {
+      "path": "docs/factory/project/SOURCE_CLARIFICATIONS.md",
+      "sha256": "c9480a7e88539d96c49a4a7bedb4a43129cac23641d406023b817e560f6f7840"
+    }
+  ],
+  "completedAt": "2026-09-15T18:29:12.787Z"
+}

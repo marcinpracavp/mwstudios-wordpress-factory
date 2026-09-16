@@ -1,0 +1,392 @@
+{
+  "id": "archive-product-grid",
+  "manifestRecord": {
+    "id": "archive-product-grid",
+    "name": "product card grid",
+    "order": 77,
+    "pageId": "0:1",
+    "snapshot": "sections/72-archive-product-grid.json",
+    "desktopNodeId": "303:1282",
+    "desktopReference": "references/sections/archive-product-grid.png"
+  },
+  "contentFields": [
+    {
+      "section": "archive-product-grid",
+      "nodeId": "298:832",
+      "fieldName": "rudnikagro_archive_product_298_832",
+      "type": "product",
+      "language": "pl",
+      "value": {
+        "title": "Vivero 500 SC 1L",
+        "price": "475,00 zł",
+        "media": {
+          "sourceNodeId": "298:835",
+          "path": "assets/product-archive/fd65e899-135e-4f7c-b3b0-ef306c3db68e.png",
+          "sourceName": "vivero"
+        }
+      },
+      "destination": "WooCommerce product seed / native editable product fields",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "298:832"
+      }
+    },
+    {
+      "section": "archive-product-grid",
+      "nodeId": "298:849",
+      "fieldName": "rudnikagro_archive_product_298_849",
+      "type": "product",
+      "language": "pl",
+      "value": {
+        "title": " Atrium-X 5L",
+        "price": " 1 069,00 zł",
+        "media": {
+          "sourceNodeId": "299:856",
+          "path": "assets/product-archive/962f3534-04e3-49e4-8fb8-08742b4b15db.png",
+          "sourceName": "atrium-x"
+        }
+      },
+      "destination": "WooCommerce product seed / native editable product fields",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "298:849"
+      }
+    },
+    {
+      "section": "archive-product-grid",
+      "nodeId": "299:869",
+      "fieldName": "rudnikagro_archive_product_299_869",
+      "type": "product",
+      "language": "pl",
+      "value": {
+        "title": " Bounty 430 SC 5L",
+        "price": "265,00 zł",
+        "media": {
+          "sourceNodeId": "299:876",
+          "path": "assets/product-archive/22efc351-e34d-41e5-81d8-c280e42f775f.png",
+          "sourceName": "bounty"
+        }
+      },
+      "destination": "WooCommerce product seed / native editable product fields",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "299:869"
+      }
+    },
+    {
+      "section": "archive-product-grid",
+      "nodeId": "299:889",
+      "fieldName": "rudnikagro_archive_product_299_889",
+      "type": "product",
+      "language": "pl",
+      "value": {
+        "title": " Zingaro Extra 250SC 5L",
+        "price": "295,00 zł",
+        "media": {
+          "sourceNodeId": "299:931",
+          "path": "assets/product-archive/2dcf28f7-a4ee-4779-b171-1fcd4bc818c0.png",
+          "sourceName": "zingaro"
+        }
+      },
+      "destination": "WooCommerce product seed / native editable product fields",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "299:889"
+      }
+    },
+    {
+      "section": "archive-product-grid",
+      "nodeId": "299:907",
+      "fieldName": "rudnikagro_archive_product_299_907",
+      "type": "product",
+      "language": "pl",
+      "value": {
+        "title": "Darcos 250 EW 5L",
+        "price": "210,60 zł",
+        "media": {
+          "sourceNodeId": "299:934",
+          "path": "assets/product-archive/1812f6e2-eabf-4c52-85d0-a35435642180.png",
+          "sourceName": "darcos"
+        }
+      },
+      "destination": "WooCommerce product seed / native editable product fields",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "299:907"
+      }
+    },
+    {
+      "section": "archive-product-grid",
+      "nodeId": "299:925",
+      "fieldName": "rudnikagro_archive_product_299_925",
+      "type": "product",
+      "language": "pl",
+      "value": {
+        "title": "Mepi Met Life 5L",
+        "price": "460,00 zł",
+        "media": {
+          "sourceNodeId": "299:937",
+          "path": "assets/product-archive/d0962b82-012e-46e4-9654-a8e384b78f91.png",
+          "sourceName": "mepi"
+        }
+      },
+      "destination": "WooCommerce product seed / native editable product fields",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "299:925"
+      }
+    },
+    {
+      "section": "archive-product-grid",
+      "nodeId": "299:1052",
+      "fieldName": "rudnikagro_archive_product_299_1052",
+      "type": "product",
+      "language": "pl",
+      "value": {
+        "title": " Tavares 250 SE 5L",
+        "price": "1135,00 zł",
+        "media": {
+          "sourceNodeId": "299:1142",
+          "path": "assets/product-archive/001037f1-77a9-4395-a2fe-1ede41eddae6.png",
+          "sourceName": "tavares"
+        }
+      },
+      "destination": "WooCommerce product seed / native editable product fields",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "299:1052"
+      }
+    },
+    {
+      "section": "archive-product-grid",
+      "nodeId": "299:1070",
+      "fieldName": "rudnikagro_archive_product_299_1070",
+      "type": "product",
+      "language": "pl",
+      "value": {
+        "title": " Allstar  5L",
+        "price": "3 185,63 zł",
+        "media": {
+          "sourceNodeId": "302:1147",
+          "path": "assets/product-archive/eade290d-51fb-4669-8f79-4399c63be831.png",
+          "sourceName": "allstar"
+        }
+      },
+      "destination": "WooCommerce product seed / native editable product fields",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "299:1070"
+      }
+    },
+    {
+      "section": "archive-product-grid",
+      "nodeId": "299:1088",
+      "fieldName": "rudnikagro_archive_product_299_1088",
+      "type": "product",
+      "language": "pl",
+      "value": {
+        "title": "Andros 750 EC 5L",
+        "price": "723,60 zł",
+        "media": {
+          "sourceNodeId": "302:1149",
+          "path": "assets/product-archive/a3ca8574-638c-4d7c-96e6-ea004800c1a6.png",
+          "sourceName": "andros"
+        }
+      },
+      "destination": "WooCommerce product seed / native editable product fields",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "299:1088"
+      }
+    },
+    {
+      "section": "archive-product-grid",
+      "nodeId": "299:1104",
+      "fieldName": "rudnikagro_archive_product_299_1104",
+      "type": "product",
+      "language": "pl",
+      "value": {
+        "title": "Ascra XPRO 260 EC 5L",
+        "price": "1 162,40 zł",
+        "media": {
+          "sourceNodeId": "302:1152",
+          "path": "assets/product-archive/f9eb8608-652d-4dae-936c-835b76cf7097.png",
+          "sourceName": "ascra"
+        }
+      },
+      "destination": "WooCommerce product seed / native editable product fields",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "299:1104"
+      }
+    },
+    {
+      "section": "archive-product-grid",
+      "nodeId": "299:1120",
+      "fieldName": "rudnikagro_archive_product_299_1120",
+      "type": "product",
+      "language": "pl",
+      "value": {
+        "title": " Aviator XPRO 225 EC 5L",
+        "price": "1 240,70 zł",
+        "media": {
+          "sourceNodeId": "302:1155",
+          "path": "assets/product-archive/c625bc7e-655c-4500-bf47-fe37db513fc6.png",
+          "sourceName": "aviator"
+        }
+      },
+      "destination": "WooCommerce product seed / native editable product fields",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "299:1120"
+      }
+    },
+    {
+      "section": "archive-product-grid",
+      "nodeId": "299:1136",
+      "fieldName": "rudnikagro_archive_product_299_1136",
+      "type": "product",
+      "language": "pl",
+      "value": {
+        "title": " Bantux 500 SC 5L",
+        "price": "540,00 zł",
+        "media": {
+          "sourceNodeId": "299:1139",
+          "path": "assets/product-archive/d0962b82-012e-46e4-9654-a8e384b78f91.png",
+          "sourceName": "bantux"
+        }
+      },
+      "destination": "WooCommerce product seed / native editable product fields",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "299:1136"
+      }
+    },
+    {
+      "section": "archive-product-grid",
+      "nodeId": "302:1169",
+      "fieldName": "rudnikagro_archive_product_302_1169",
+      "type": "product",
+      "language": "pl",
+      "value": {
+        "title": " Belanty 5L",
+        "price": "553,68 zł",
+        "media": {
+          "sourceNodeId": "302:1257",
+          "path": "assets/product-archive/467273e2-7bb8-49fe-b397-91ede4d864e4.png",
+          "sourceName": "belanty"
+        }
+      },
+      "destination": "WooCommerce product seed / native editable product fields",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "302:1169"
+      }
+    },
+    {
+      "section": "archive-product-grid",
+      "nodeId": "302:1185",
+      "fieldName": "rudnikagro_archive_product_302_1185",
+      "type": "product",
+      "language": "pl",
+      "value": {
+        "title": " Bellis 38 WG 1kg",
+        "price": "287,16 zł",
+        "media": {
+          "sourceNodeId": "303:1261",
+          "path": "assets/product-archive/d3761d23-87f2-4184-99f5-a0f433c7b2a2.png",
+          "sourceName": "bellis-1kg"
+        }
+      },
+      "destination": "WooCommerce product seed / native editable product fields",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "302:1185"
+      }
+    },
+    {
+      "section": "archive-product-grid",
+      "nodeId": "302:1201",
+      "fieldName": "rudnikagro_archive_product_302_1201",
+      "type": "product",
+      "language": "pl",
+      "value": {
+        "title": " Bellis 38 WG 5kg",
+        "price": "1 380,51 zł",
+        "media": {
+          "sourceNodeId": "303:1263",
+          "path": "assets/product-archive/6bfc72e3-a6b5-4a2f-83f4-64338511b986.png",
+          "sourceName": "bellis-5kg"
+        }
+      },
+      "destination": "WooCommerce product seed / native editable product fields",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "302:1201"
+      }
+    },
+    {
+      "section": "archive-product-grid",
+      "nodeId": "302:1217",
+      "fieldName": "rudnikagro_archive_product_302_1217",
+      "type": "product",
+      "language": "pl",
+      "value": {
+        "title": " Boogie XPRO 400 EC 15L",
+        "price": "2 754,00 zł",
+        "media": {
+          "sourceNodeId": "303:1265",
+          "path": "assets/product-archive/ef3dca02-6501-4cfc-989a-c6f80d199df1.png",
+          "sourceName": "boogie"
+        }
+      },
+      "destination": "WooCommerce product seed / native editable product fields",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "302:1217"
+      }
+    },
+    {
+      "section": "archive-product-grid",
+      "nodeId": "302:1233",
+      "fieldName": "rudnikagro_archive_product_302_1233",
+      "type": "product",
+      "language": "pl",
+      "value": {
+        "title": " Cabrio Duo 112 EC 10L",
+        "price": "981,68 zł",
+        "media": {
+          "sourceNodeId": "303:1270",
+          "path": "assets/product-archive/07f819fe-7efa-4dcd-ad20-99bb28fc4393.png",
+          "sourceName": "cabrio-10l"
+        }
+      },
+      "destination": "WooCommerce product seed / native editable product fields",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "302:1233"
+      }
+    },
+    {
+      "section": "archive-product-grid",
+      "nodeId": "302:1249",
+      "fieldName": "rudnikagro_archive_product_302_1249",
+      "type": "product",
+      "language": "pl",
+      "value": {
+        "title": " Cabrio Duo 112 EC 1L",
+        "price": "99,76 zł",
+        "media": {
+          "sourceNodeId": "303:1275",
+          "path": "assets/product-archive/55e7ebb5-aa7d-48a4-8524-1644b1c903a8.png",
+          "sourceName": "cabrio-1l"
+        }
+      },
+      "destination": "WooCommerce product seed / native editable product fields",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "302:1249"
+      }
+    }
+  ]
+}

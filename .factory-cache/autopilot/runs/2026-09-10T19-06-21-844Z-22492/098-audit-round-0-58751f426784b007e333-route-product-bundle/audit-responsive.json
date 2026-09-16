@@ -1,0 +1,18 @@
+{
+  "status": "needs_work",
+  "summary": "Inspected all six retained responsive captures (1440, 1280, 1024, 768, 390 and 375 px) and ran fresh read-only DOM probes in isolated contexts. Every request returned HTTP 200, fonts were ready, and retained measurements report no overflow except 1 px at 375; however page-owned related product content is absent at every width.",
+  "issues": [
+    "PB-RESP-001 | priority: critical | property: responsive related-product grid | expected: the two sourced Stomp Aqua related-product cards remain present and usable as the layout adapts | actual: fresh probes find zero visible related cards at 1440, 1280, 1024, 768, 390 and 375 px; retained captures show only the heading and a large blank/transition into legal notices | fix: render the native related-product cards at every retained width and implement a usable derived stacking/grid layout on tablet/mobile.",
+    "PB-RESP-002 | priority: low | property: viewport overflow at 375 px | expected: zero document-level horizontal overflow | actual: retained and fresh probes both measure 1 px horizontal overflow at 375 px | fix: remove the page-level rounding/width excess after excluding separately owned shared off-canvas/header elements."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-bundle/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-bundle/responsive-1440.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-bundle/responsive-1280.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-bundle/responsive-1024.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-bundle/responsive-768.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-bundle/responsive-390.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-bundle/responsive-375.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/098-audit-round-0-58751f426784b007e333-route-product-bundle/responsive-live-probe.json"
+  ]
+}

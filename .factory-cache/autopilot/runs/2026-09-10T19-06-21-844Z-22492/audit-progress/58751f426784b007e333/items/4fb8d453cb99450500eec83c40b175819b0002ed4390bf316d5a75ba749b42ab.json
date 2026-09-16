@@ -1,0 +1,33 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-product-archive",
+  "item": "section:archive-category-introduction",
+  "status": "needs_work",
+  "summary": "Compared the assigned source record, reference, rendered crop, diff crop, geometry and crop metric for archive-category-introduction. The wrapper geometry passes with +1 px Y delta, but the rendered crop contains only the title; the entire sourced introduction and expand control are absent. Crop diff is 11.5829%.",
+  "issues": [
+    "PA-INTRO-001 [P1] content/visibility: expected the sourced 18 px category body with bottom fade and the Rozwiń control at 149x44 px; actual rendered crop shows neither element. Fix: render the native category introduction and sourced expand control within the already matching section bounds."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-archive/comparison.json",
+      "sha256": "df0d24b7147e821562753c69568ffa0435eef01394174e1126e9a8d7d93e038c"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-archive/archive-category-introduction-reference.png",
+      "sha256": "51c1c27f2240419332932bb3c806ee03703a6b7deab2985384ea3cea2be51a77"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-archive/archive-category-introduction-rendered.png",
+      "sha256": "44f4dfe9adb7d48d6b2e38ac1ee8a831a8dc83e4558bad3fd2fed0d740362785"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-archive/archive-category-introduction-diff.png",
+      "sha256": "37102369fe7e1232ec186c4d085a9427a9deed240f4f14bcb9e2ef3afc70c520"
+    },
+    {
+      "path": ".factory-cache/figma/latest/sections/69-archive-category-introduction.json",
+      "sha256": "9bb141acf95641faab31226511f47bb584cfa6faf2286b94967133e84f22c3b7"
+    }
+  ],
+  "completedAt": "2026-09-15T06:35:58.285Z"
+}

@@ -1,0 +1,107 @@
+{
+  "source": {
+    "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+    "figmaUrl": "https://www.figma.com/design/OwiDXrKMVcaHKB9ryYF6mY/Rudnik-Agro?m=dev"
+  },
+  "status": "complete",
+  "routes": [
+    {
+      "id": "catalogues",
+      "path": "/katalogi/",
+      "language": "pl",
+      "frameNodeId": "347:1120",
+      "reference": "references/full/frame-347-1120.png",
+      "width": 1920,
+      "height": 1850,
+      "sections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "shared-primary-navigation",
+        "catalogues-heading",
+        "catalogues-downloads",
+        "shared-shop-cta",
+        "shared-footer"
+      ],
+      "buildGroup": "catalogues",
+      "responsiveSource": "derived",
+      "notes": "Source frame titled katalogi contains two catalogue cards, PDF and online-reader actions. Planned local route path is an implementation decision inferred from source page identity, not a captured source hyperlink. Uncaptured section IDs remain explicit in this partial execution plan.",
+      "sectionGeometry": {
+        "catalogues-heading": {
+          "frameWidth": 1920,
+          "x": 240,
+          "y": 218,
+          "width": 1440,
+          "height": 220
+        },
+        "catalogues-downloads": {
+          "frameNodeId": "347:1120",
+          "x": 240,
+          "y": 466,
+          "width": 1444,
+          "height": 357
+        }
+      }
+    }
+  ],
+  "stateFamilies": [],
+  "sections": [
+    {
+      "id": "catalogues-downloads",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/04-catalogues-downloads.json",
+      "contentRecords": 10,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/085-audit-round-0-58751f426784b007e333-route-catalogues/source-context/section-21cb1fef43f3606a.json",
+        "bytes": 6091,
+        "sha256": "2fc046b72f1441dca1711ad1434d7ed3ee823711edbc6a9813d10540da052f0e"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "id": "037eef4160bdd1f1a0dc",
+      "nodeIds": [
+        "347:1120"
+      ],
+      "description": "Check actual catalogue link evidence and geometry without changing the design",
+      "path": "observations/037eef4160bdd1f1a0dc.json"
+    },
+    {
+      "id": "c298810ac7e4cc6b7f2c",
+      "nodeIds": [
+        "347:1120"
+      ],
+      "description": "Capture both catalogue cards as one logical section including actual link and crop facts",
+      "path": "observations/c298810ac7e4cc6b7f2c.json"
+    }
+  ],
+  "frames": [
+    {
+      "nodeId": "347:1120",
+      "name": "katalogi",
+      "pageId": "0:1",
+      "type": "FRAME",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "347:1236",
+      "name": "Catalogue cards source background",
+      "pageId": "0:1",
+      "type": "RECTANGLE"
+    }
+  ],
+  "globalFiles": [
+    {
+      "path": ".factory-cache/figma/latest/design-system.json",
+      "bytes": 8294,
+      "sha256": "5086e8f74a4d3aee56055467846c3f49e9f2791c2a30a873ea30c5a5a87b3863"
+    },
+    {
+      "path": ".factory-cache/figma/latest/components.json",
+      "bytes": 261,
+      "sha256": "fb651cb0bc38b89b71ffa0e6a8b92ec6acbe3bdff6ab7d30ea9c2e39ed12fec5"
+    }
+  ],
+  "lookup": "Observation matches are an index, not a completeness claim. Use targeted rg or inspect JSON pointers for missing node IDs. Never dump the full source files."
+}

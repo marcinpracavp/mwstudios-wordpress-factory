@@ -1,0 +1,33 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-product-inquiry",
+  "item": "section:product-related",
+  "status": "needs_work",
+  "summary": "Compared the assigned 1920 px product-related reference, rendered crop and diff against the frozen section record and current comparison geometry.",
+  "issues": [
+    "PRI-RELATED-001 | high | content/layout/geometry | expected: 710x570 at (240,1635), one 'Produkty powiazane' heading and two large Stomp Aqua 455 CS 1L/5L cards priced 45,99 zl and 534,60 zl | actual: 710x743.9375 at (240,1637), an extra 'Podobne produkty' heading plus unrelated Mepi Met Life 5L and Bounty 430 SC 5L cards in broken narrow columns; crop pixel difference is 15.163825% | fix: bind the related section to the two source-backed Woo products, remove the duplicate heading, restore the two-card proportions and reduce the section to the source height."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-inquiry/comparison.json",
+      "sha256": "059ac34bfdbd63e14d7fe90ec52a19713c8e2efa1e6cd9c238587a888d2b6814"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-inquiry/product-related-reference.png",
+      "sha256": "82c555b2ce610bbeacdec0fea6a5bcbcd2bc50c744c9126de4b42c17deaf3b3f"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-inquiry/product-related-rendered.png",
+      "sha256": "41b7b5db296db341b1c7732da9ca66639bc7e13d2df626ec1d03b766b0cab947"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-inquiry/product-related-diff.png",
+      "sha256": "f912d6a162cbeb1b6c68765e67bf0fc7ccb49a253cb44363ef36b82878cb2696"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/102-audit-round-0-58751f426784b007e333-route-product-inquiry/source-context/section-09d07b607a4c57e0.json",
+      "sha256": "b3d828c81d3f96d836b5a9d17fc19e26808917192e26c7f7ded06a1ff8107d65"
+    }
+  ],
+  "completedAt": "2026-09-15T16:18:42.541Z"
+}

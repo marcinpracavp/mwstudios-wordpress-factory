@@ -2123,15 +2123,944 @@
       "finishedAt": "2026-09-14T09:22:45.687Z",
       "threadId": "01a09f37-9bfc-7433-9950-d1f0cd3702f1",
       "usageUnknown": true
+    },
+    {
+      "task": "audit:round-0-58751f426784b007e333-shared-components",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\083-audit-round-0-58751f426784b007e333-shared-components",
+      "status": "needs_work",
+      "startedAt": "2026-09-14T15:14:26.272Z",
+      "usage": {
+        "input_tokens": 18912491,
+        "cached_input_tokens": 18716032,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 55518,
+        "reasoning_output_tokens": 9150
+      },
+      "threadId": "01a0a07b-e1ab-7f53-af8e-a62f7053e636",
+      "finishedAt": "2026-09-14T15:53:07.743Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Zakończono checkpointowany audyt wszystkich 32 pozycji shared-components: 3 passed, 29 needs_work, 0 blocked. Wszystkie ID są zapisane jednokrotnie, a wszystkie ścieżki dowodowe istnieją. Implementacja i progi nie zostały zmienione.",
+        "evidence": [
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/verification-shared-components.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/ledger.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/2b87f88e50b352d6a6b2bac8e3b54e57f21446954c39ee85df3af42c024cf1dc.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/ddfc0f0c812c63507e54feb524717001d727415bb2b7abe85db467c991e4d98b.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/114d0b73a7aa67ad90b541e737fcf220d28e9d09903ca2890b86c9a2e8ba1fb5.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/d7b6522202ccf4b2f32037bdeb24107a31a1449f288caa9d137f53be5e7d9ef0.json"
+        ],
+        "issues": [
+          "Nagłówek współdzielony: brakuje kontrolek topbara, części linków, ikon SVG i liczników; mega-menu używa błędnych glifów oraz ma niezgodne stany aktywne.",
+          "CTA i footer: niezgodne gradienty, typografia, wyrównanie oraz wysokość footeru większa o 22 px.",
+          "Komponenty produktu: błędna skala/crop galerii, układ zakładek ponad progiem, nakładanie treści i nieprawidłowy stan formularza zapytania.",
+          "Checkout: brak nagłówka „Dostawa i płatność”, niezgodna typografia „Logowanie” oraz pomniejszony i skompresowany stepper.",
+          "Udokumentowano błędne współrzędne źródłowe dla CTA/footeru catalogues oraz CTA about; wymagają korekty ekstrakcji, nie przesuwania zgodnego z pikselami renderu."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "audit:round-0-58751f426784b007e333-route-careers",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\084-audit-round-0-58751f426784b007e333-route-careers",
+      "status": "needs_work",
+      "startedAt": "2026-09-14T15:53:12.635Z",
+      "usage": {
+        "input_tokens": 3034504,
+        "cached_input_tokens": 2871040,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 18137,
+        "reasoning_output_tokens": 5801
+      },
+      "threadId": "01a0a09f-5b47-75f3-8d8e-4cefa098c49a",
+      "finishedAt": "2026-09-14T16:05:42.178Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Audyt careers ukończony: zapisano 4/4 checkpointów. Interakcje przeszły; obie sekcje wizualne i responsywność wymagają poprawek. Implementacji nie zmieniano.",
+        "evidence": [
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/ledger.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/084-audit-round-0-58751f426784b007e333-route-careers/audit-careers-vacancies.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/084-audit-round-0-58751f426784b007e333-route-careers/audit-careers-application.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/084-audit-round-0-58751f426784b007e333-route-careers/audit-careers-responsive.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/084-audit-round-0-58751f426784b007e333-route-careers/audit-careers-interactions.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/084-audit-round-0-58751f426784b007e333-route-careers/careers-interaction-probe.json"
+        ],
+        "issues": [
+          "Pole „Imię i nazwisko” jest zwężone zamiast zajmować pełny wiersz formularza.",
+          "Kontrolka „Załącz CV” pokazuje chevron zamiast źródłowej ikony uploadu.",
+          "Typografia i pionowy rytm treści oferty oraz zgód odbiegają od referencji.",
+          "Przy 768, 390 i 375 px treść otwartej oferty zaczyna się na x=6 poza kartą x=20, przez co ucina pierwsze litery; przy 375 px występuje także 1 px overflow."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "audit:round-0-58751f426784b007e333-route-catalogues",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\085-audit-round-0-58751f426784b007e333-route-catalogues",
+      "status": "needs_work",
+      "startedAt": "2026-09-14T16:05:46.570Z",
+      "usage": {
+        "input_tokens": 3181011,
+        "cached_input_tokens": 3073664,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 23127,
+        "reasoning_output_tokens": 5901
+      },
+      "threadId": "01a0a0aa-dce4-7390-87c2-5368d88a7e37",
+      "finishedAt": "2026-09-14T16:18:37.304Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Audyt route-catalogues ukończony: 3/3 pozycji zapisano trwale. Sekcja wizualna i responsywność wymagają poprawek; interakcje są zablokowane przez brak źródłowych PDF-ów i adresów czytnika.",
+        "evidence": [
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/48d1d7f68e68d405dac93de0c3919219880d90906ae5caaab08685a2389a3fc8.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/dd2e36ee48557aa39f1abe51fc7b129e7b90631d52f274046ec3275b09949b26.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/20efefdf6959311377f678c5ff678d63866e1d5621d24eafe1a74619c36b2c0f.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/085-audit-round-0-58751f426784b007e333-route-catalogues/section-catalogues-downloads-audit.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/085-audit-round-0-58751f426784b007e333-route-catalogues/responsive-audit.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/085-audit-round-0-58751f426784b007e333-route-catalogues/interactions-audit.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/085-audit-round-0-58751f426784b007e333-route-catalogues/interaction-browser-probe.json"
+        ],
+        "issues": [
+          "VIS-CAT-001: ikony akcji są odtworzone w CSS zamiast używać dokładnych SVG z Figma i edytowalnych identyfikatorów ACF.",
+          "VIS-CAT-002: diff sekcji wynosi 10,93%; rozbieżności obejmują typografię i kompozycję teł obu kart, mimo poprawnej geometrii sekcji.",
+          "RESP-CAT-001: okładki zasłaniają nagłówki i etykiety akcji przy szerokościach 1024, 390 i 375 px.",
+          "RESP-CAT-002: sonda dla 375 px wykazuje 1 px poziomego overflow.",
+          "INT-CAT-001: cztery etykiety są nieaktywnymi elementami SPAN. Do przetestowania pobierania i nawigacji potrzebne są dwa rzeczywiste PDF-y oraz dwa zatwierdzone adresy czytnika."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "audit:round-0-58751f426784b007e333-route-blog-article",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\086-audit-round-0-58751f426784b007e333-route-blog-article",
+      "status": "failed",
+      "startedAt": "2026-09-14T16:18:41.657Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/086-audit-round-0-58751f426784b007e333-route-blog-article; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 10:14 PM.\"}\n2026-09-14T16:19:42.616119Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"This action was rejected due to unacceptable risk.\\\\nReason: Automatic approval review failed: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 10:14 PM.\\\\nThe agent must not attempt to achieve the same outcome via workaround, indirect execution, or policy circumvention. Proceed only with a materially safer alternative, or if the user explicitly approves the action after being informed of the risk. Otherwise, stop and request user input.\\\")\" }\n",
+      "finishedAt": "2026-09-14T16:19:45.188Z",
+      "threadId": "01a0a0b6-afcd-7730-96aa-6bb9cd9834df",
+      "usageUnknown": true
+    },
+    {
+      "task": "audit:round-0-58751f426784b007e333-route-blog-article",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\087-audit-round-0-58751f426784b007e333-route-blog-article",
+      "status": "needs_work",
+      "startedAt": "2026-09-14T21:09:20.131Z",
+      "usage": {
+        "input_tokens": 4293097,
+        "cached_input_tokens": 4171264,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 25058,
+        "reasoning_output_tokens": 8319
+      },
+      "threadId": "01a0a1c0-c7fa-7751-94c0-169ced1b1730",
+      "finishedAt": "2026-09-14T21:25:34.718Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "All 5 pending items were checkpointed. Responsive checks passed at six widths, and interactions passed. Three visual sections require correction; no implementation files were changed.",
+        "evidence": [
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/1334ad413886b9a3f5724cfbee70f8b4a238d0150815558b3fcce200e8d7d45b.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/e80af081aa4bc6ebe8dfb7aa6143f5c47c48994d611a3887e5c7347d2ab14ccc.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/f73ee691c7ad0f00a30397d7c05aafff732354dc516e8b5017ab937ccf339d37.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/0996ada2e5e9c09fd7741f688b1d6dad2440b782040cb2f04a30a06ed451bd7e.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/55f4c8b05f2eb9f785e62e86167ae3b157f4a4bc7c7b7e065e340419d4ab8cea.json"
+        ],
+        "issues": [
+          "blog-article-heading: internal title/hero spacing, hero height, breadcrumb/date colors and typography diverge despite exact wrapper geometry.",
+          "blog-article-content: 18.016% crop mismatch—the largest contributor—caused by WYSIWYG typography and accumulated vertical-rhythm differences.",
+          "blog-related-posts: 12.063% mismatch from card-image raster/crop differences, incorrect title wrapping and a 1.84375 px vertical offset."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "audit:round-0-58751f426784b007e333-route-blog-archive",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\088-audit-round-0-58751f426784b007e333-route-blog-archive",
+      "status": "needs_work",
+      "startedAt": "2026-09-14T21:25:40.494Z",
+      "usage": {
+        "input_tokens": 3987350,
+        "cached_input_tokens": 3877376,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 23771,
+        "reasoning_output_tokens": 7878
+      },
+      "threadId": "01a0a1cf-c264-75d3-81e1-7fd95c6a95da",
+      "finishedAt": "2026-09-14T21:39:10.458Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Audyt ukończony: zapisano wszystkie 4 checkpointy. Responsive przeszedł; oba audyty wizualne i interakcje wymagają poprawek. Page mismatch wynosi 9,774% przy progu 8,5%.",
+        "evidence": [
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/61ba83894ca7b37a1362c1145aff9e07721e6f0998cde3710cd0172454624a4a.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/7dda2078525a12f75519bf08ae99d1655d16fe69834372e75e66f379e8dee0f0.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/fa5812b5b43db80c9cf2aea878021e99cfa2cd501c3d44052d80f4286c752945.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/cfaff00cabcd32fc8c197c4be614447c0cf0a147de1fcef47b803737a6d63326.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/088-audit-round-0-58751f426784b007e333-route-blog-archive/blog-interaction-probe.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/blog-archive/comparison.json"
+        ],
+        "issues": [
+          "BLOG-LIST-VIS-001: typografia, łamanie tytułów i pionowy rytm kart odbiegają od źródła; diagnostyczna różnica sekcji wynosi 14,864%.",
+          "BLOG-LIST-CONTENT-002: w trzecim rzędzie widoczny jest zdublowany/sąsiadujący CTA wymagający korekty układu lub outputu.",
+          "BLOG-PAGINATION-VIS-001/002: użyto pojedynczej strzałki zamiast źródłowego SVG double-chevron; promienie, odstępy i pozycja grupy kontrolek są niezgodne.",
+          "BLOG-INTERACTION-001: paginacja pokazuje strony 2–7, lecz kliknięcie strony 2 zwraca HTTP 404, bez aktywnej strony i bez kart."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "audit:round-0-58751f426784b007e333-route-contact",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\089-audit-round-0-58751f426784b007e333-route-contact",
+      "status": "needs_work",
+      "startedAt": "2026-09-14T21:39:14.657Z",
+      "usage": {
+        "input_tokens": 3685965,
+        "cached_input_tokens": 3559808,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 21765,
+        "reasoning_output_tokens": 5476
+      },
+      "threadId": "01a0a1dc-28ce-7331-8b1b-083f0d0541e7",
+      "finishedAt": "2026-09-14T21:51:32.374Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Audyt zakończony i zapisany: 5/5 pozycji. contact-map oraz interactions przeszły; contact-details, contact-form i responsive wymagają poprawek. Implementacja nie została zmieniona.",
+        "evidence": [
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/route-contact-section-contact-details.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/route-contact-section-contact-form.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/route-contact-section-contact-map.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/route-contact-responsive.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/route-contact-interactions.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/contact-interaction-probe.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/545b621078957c2d16164904506282e3a39d2d8148c0504f8790c932b746b870.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/bb00430c17789e8a1f12c5a2122321a52a136b55bcd1b7988c0cd771da1202af.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/3977b39c6281ccc784472371121eb2a490e78c91af83cc57bc264e73280a520d.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/0f05b4d30a003562cc705d6aa5d0bcd6634c6ba553a5ce41f6025a2809739fbd.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/c3b49b51e43a50f64553e9555c7ca52afc12c5d28e04aac78f8886935a458bd4.json"
+        ],
+        "issues": [
+          "CONTACT-DETAILS-001/002: różnica sekcji wynosi 9,426%, brakuje trzech źródłowych ikon SVG, a układ, łamanie tekstu i typografia kart odbiegają od źródła.",
+          "CONTACT-FORM-001/002/003: brakuje widocznej informacji o prywatności; nagłówek jest przesunięty/przycięty, a metryki etykiet pól są niezgodne ze źródłem.",
+          "CONTACT-RESPONSIVE-001: przy 1024 px desktopowy podział formularza ściska pole wiadomości do niepraktycznie wąskiej kolumny."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "audit:round-0-58751f426784b007e333-route-about",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\090-audit-round-0-58751f426784b007e333-route-about",
+      "status": "needs_work",
+      "startedAt": "2026-09-14T21:51:36.554Z",
+      "usage": {
+        "input_tokens": 5776944,
+        "cached_input_tokens": 5495680,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 30049,
+        "reasoning_output_tokens": 8289
+      },
+      "threadId": "01a0a1e7-7aec-7c13-9d0a-5aecb0664540",
+      "finishedAt": "2026-09-14T22:09:22.649Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Audyt route-about ukończony i zapisany atomowo: 6/6 checkpointów, brak pending items. Interakcje przeszły; cztery sekcje wizualne i responsive wymagają poprawek. Implementacji nie zmieniano.",
+        "evidence": [
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/route-about-verification.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/route-about-section-about-introduction.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/route-about-section-about-agricultural-supply.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/route-about-section-about-grain-trade.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/route-about-section-about-insurance.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/route-about-responsive.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/route-about-interactions.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/route-about-interactions-probe.json"
+        ],
+        "issues": [
+          "Introduction: wewnętrzna typografia jest przesunięta mimo poprawnej geometrii sekcji.",
+          "Agricultural supply: niewłaściwa skala ikon i łamanie podpisów.",
+          "Grain trade: brak punktorów listy oraz użycie obrazu 600×400 zamiast odpowiednio dużego źródła 960×640.",
+          "Insurance: brak punktorów i karta eksperta przesunięta około 22 px w dół.",
+          "Responsive: karta grain trade jest nieczytelna przy 375/390 px; przy 375 px supply powoduje overflow i przycięcie treści."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "audit:round-0-58751f426784b007e333-route-product",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\091-audit-round-0-58751f426784b007e333-route-product",
+      "status": "failed",
+      "startedAt": "2026-09-14T22:09:26.533Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/091-audit-round-0-58751f426784b007e333-route-product; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 4:09 AM.\"}\n2026-09-14T22:25:53.494434Z ERROR codex_core::tools::router: error=This action was rejected due to unacceptable risk.\nReason: Automatic approval review failed: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 4:09 AM.\nThe agent must not attempt to achieve the same outcome via workaround, indirect execution, or policy circumvention. Proceed only with a materially safer alternative, or if the user explicitly approves the action after being informed of the risk. Otherwise, stop and request user input.\n",
+      "finishedAt": "2026-09-14T22:25:54.769Z",
+      "threadId": "01a0a1f7-cf14-7121-bd0e-3dede70d2779",
+      "usageUnknown": true
+    },
+    {
+      "task": "audit:round-0-58751f426784b007e333-route-product",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\092-audit-round-0-58751f426784b007e333-route-product",
+      "status": "needs_work",
+      "startedAt": "2026-09-15T05:48:37.978Z",
+      "usage": {
+        "input_tokens": 1285294,
+        "cached_input_tokens": 1215616,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 11506,
+        "reasoning_output_tokens": 3576
+      },
+      "threadId": "01a0a39c-36e4-7030-813b-17842519829d",
+      "finishedAt": "2026-09-15T05:56:10.727Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Audit route-product is complete: 7/7 checkpoints saved. Fresh isolated Chrome testing confirmed tabs, hash navigation, description expansion, inquiry open/close, and native variation selection without POST requests or business side effects. Two interaction defects remain.",
+        "evidence": [
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/e833622575b1b94024b9d4443326b16fb03ae667a413163f14b226115f94dbf9.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/092-audit-round-0-58751f426784b007e333-route-product/interaction-audit.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/092-audit-round-0-58751f426784b007e333-route-product/interaction-checkpoint-input.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product/comparison.json"
+        ],
+        "issues": [
+          "INT-PRODUCT-01: After switching from downloads to description, `data-factory-section` incorrectly remains `product-files`.",
+          "INT-PRODUCT-02: ArrowRight does not move focus or selection within the ARIA tablist."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "audit:round-0-58751f426784b007e333-route-cart",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\093-audit-round-0-58751f426784b007e333-route-cart",
+      "status": "needs_work",
+      "startedAt": "2026-09-15T05:56:14.615Z",
+      "usage": {
+        "input_tokens": 4745672,
+        "cached_input_tokens": 4545920,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 23718,
+        "reasoning_output_tokens": 5107
+      },
+      "threadId": "01a0a3a3-2cb4-7371-868d-71b3c3a19d26",
+      "finishedAt": "2026-09-15T06:12:29.210Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Audyt route-cart zakończony i zapisany atomowo: 5/5 pozycji posiada trwałe checkpointy. Interakcje przeszły; trzy sekcje wizualne oraz responsywność wymagają poprawek.",
+        "evidence": [
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/d9fa5810da2b2abbcd724346a1ecece200d5034abeef6b0b936be0b61938497c.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/841af4938b333a8393a66cffe73ec59538725c1dc9ddac7623aa25c61f5028cb.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/076a4043d98ef54a630c5f2e400de4c53fd4e7038a7a0e0632973b999cdf83b8.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/30f8d5ead5164b49d89337d37adbb628c35e11f911ecf594d9ced2d0fc9ad187.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/7bac04d525d06ea96e7a2ec424301dae99ae99e675120c0895e95bd937591e13.json"
+        ],
+        "issues": [
+          "cart-heading: 10,203% różnicy; niezgodne wyrównanie/renderowanie nagłówka.",
+          "cart-lines: 10,194% różnicy; elementy wewnętrzne są przesunięte poziomo, mimo poprawnej geometrii wrappera.",
+          "cart-totals: 10,013% różnicy; brak widocznego „Kontynuuj zakupy”, niezgodna grubość nagłówków oraz skompresowany układ panelu.",
+          "Responsywność: przy 1024 px tytuł nachodzi na kontrolę ilości, a ikona usunięcia wychodzi do panelu podsumowania; przy 375 px występuje 1 px overflow."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "audit:round-0-58751f426784b007e333-route-checkout",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\094-audit-round-0-58751f426784b007e333-route-checkout",
+      "status": "needs_work",
+      "startedAt": "2026-09-15T06:12:32.790Z",
+      "usage": {
+        "input_tokens": 4729506,
+        "cached_input_tokens": 4613376,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 25382,
+        "reasoning_output_tokens": 6958
+      },
+      "threadId": "01a0a3b2-19d5-71f0-9cc6-332d5112df0f",
+      "finishedAt": "2026-09-15T06:31:27.822Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Audyt checkoutu ukończony: zapisano wszystkie 7 wymaganych checkpointów. Nie zmieniono implementacji. Izolowany test nie złożył zamówienia, płatności ani formularza.",
+        "evidence": [
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/ecb86e97676b061dcc4556491a16d0aba9041f4c01d0900c3d57dd84f6ce34aa.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/22ea90ba623a23ca6555d686462cdf5b343151ac59018ed0afbe2c6f5324def6.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/1f74a66d88567c2a50d89113bff6950835e4705d728d6860dcd243bac63f5826.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/0fed84132be86e273276a3d7b6481d176ad6e412db8336ea8f68e2b47aa65118.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/b9c82e700b0bee792da447019089102ced00f435a1f9e87e9fa9d31ea1e44fea.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/c04245cff7c0cc9edc41d81080faa6210d354ad03f6d743b06a00954ae0a6805.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/a52387f182054e93c047df198c65c2ec0bc7c535c54e8eae1ec94ed835f70bc7.json"
+        ],
+        "issues": [
+          "Wskaźnik kroków ma zbyt małe koła oraz skompresowane łączniki i odstępy.",
+          "Pola klienta mają błędne rozmiary, wyrównanie i odstępy; checkbox alternatywnego adresu jest niewidoczny.",
+          "Render pokazuje tylko jedną z siedmiu źródłowych metod płatności i pomija widoczne kontrolki oraz ikony.",
+          "Metoda dostawy nie ma widocznego, zaznaczonego radio i zawiera dodatkową etykietę „Przesyłka”.",
+          "Kupon, tabela kwot i przycisk realizacji zamówienia znacząco odbiegają od projektu.",
+          "Przy 1024 px karta sum nachodzi na wskaźnik kroków; po ułożeniu jednokolumnowym część pól pozostaje zbyt wąska.",
+          "Przycisk „Dodaj kod” należy w DOM do głównego formularza checkoutu, co stwarza ryzyko uruchomienia procesu zamówienia zamiast bezpiecznej obsługi kuponu."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "audit:round-0-58751f426784b007e333-route-product-archive",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\095-audit-round-0-58751f426784b007e333-route-product-archive",
+      "status": "needs_work",
+      "startedAt": "2026-09-15T06:31:31.437Z",
+      "usage": {
+        "input_tokens": 6050032,
+        "cached_input_tokens": 5915392,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 32872,
+        "reasoning_output_tokens": 8130
+      },
+      "threadId": "01a0a3c3-79e3-7c41-bcc1-d1a61ff9eb69",
+      "finishedAt": "2026-09-15T06:55:07.980Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Audyt product-archive ukończony: zapisano 9/9 trwałych checkpointów. Sortowanie przeszło; pozostałe 8 pozycji wymaga pracy. Nie zmieniono implementacji ani progów akceptacji.",
+        "evidence": [
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/ac780beeb4a68b492484e2dee57f3ef707c240bddc7ee21cc0c594edefce386c.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/aaa5a5248ea3c4f6135bdf9aeec3976d2bf6f7121d3c6c393868ffd2362a50c7.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/9bebffa76b7f364afc3b2a0373ccd7fc4b1d878a64800299f6a03af195b32a57.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/0a4d8250f15abb5b26ab35ba47f8aede7b7faabac577328dab7621aeae0e48c4.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/4fb8d453cb99450500eec83c40b175819b0002ed4390bf316d5a75ba749b42ab.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/edbb68e936addc0b8aad88db13b0d814d13d8462c8e5a41b5f68b55612bec8ef.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/e37f42367857daf7ca3001e2ffa0f0326207453ff72b19ba8b065810754d1839.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/d81b5c23ddd920da823272624d649ce37d2cb5792f7a53666efa7f85416926fe.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/4cea94e1c02e794341d6aa9b7f976ae34c5f612ec38cfd2680735d64bcad3c07.json"
+        ],
+        "issues": [
+          "Breadcrumbs mają nieprawidłowe kolory i wizualną wagę tekstu.",
+          "Wprowadzenie kategorii nie renderuje źródłowego opisu ani kontrolki „Rozwiń”.",
+          "Filtry spłaszczają hierarchię, mają błędny układ kontrolek i uciętą listę substancji.",
+          "Karty produktów nie zachowują badge’y, separatorów, kontrolek ±, dokładnej ikony koszyka ani źródłowego formatowania.",
+          "Paginacja używa błędnej ikony następnej strony i kolorów nieaktywnych numerów.",
+          "Kontrolka rozwijania dolnego opisu ma niezgodną szerokość i odstęp.",
+          "Responsywnie znikają filtry bez mobilnego triggera; układ 1024 px ściska karty, a 375 px ma 1 px overflow.",
+          "Test Chrome wykazał nieaktywne filtry, sortowanie i paginację; zmiana ilości nie aktualizuje żądania dodania do koszyka."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "audit:round-0-58751f426784b007e333-route-home",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\096-audit-round-0-58751f426784b007e333-route-home",
+      "status": "failed",
+      "startedAt": "2026-09-15T09:16:20.779Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/096-audit-round-0-58751f426784b007e333-route-home; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 12:48 PM.\"}\n",
+      "finishedAt": "2026-09-15T09:35:18.060Z",
+      "threadId": "01a0a45a-62b4-77b0-881f-21897b2a65f4",
+      "usageUnknown": true
+    },
+    {
+      "task": "audit:round-0-58751f426784b007e333-route-home",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\097-audit-round-0-58751f426784b007e333-route-home",
+      "status": "needs_work",
+      "startedAt": "2026-09-15T11:10:42.845Z",
+      "usage": {
+        "input_tokens": 3100136,
+        "cached_input_tokens": 2989568,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 18539,
+        "reasoning_output_tokens": 4493
+      },
+      "threadId": "01a0a4c3-15d2-75e2-9f9f-25abb1dd9125",
+      "finishedAt": "2026-09-15T11:22:11.282Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Route home audit is complete: 12/12 checkpoints saved. Interactions passed in isolated Chrome; responsive layout needs work due to off-canvas page sections and clipped controls.",
+        "evidence": [
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/fb5eec7dc4658fc94be4ec1691f65baa7c92d1743b446083418ebda74c87e8bc.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/2d469b5d7124fbd30298863be3a32ee9f285516275ea17678e168b168073d6b0.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/097-audit-round-0-58751f426784b007e333-route-home/responsive-audit.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/097-audit-round-0-58751f426784b007e333-route-home/interaction-audit.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/097-audit-round-0-58751f426784b007e333-route-home/fresh-browser-probe.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home/comparison.json"
+        ],
+        "issues": [
+          "RSP-HOME-01: home-promotions, home-bundles and home-recommended remain horizontally displaced at every retained width; their left edge ranges from -598.5 px at 375 px to -66 px at 1440 px.",
+          "RSP-HOME-02: page-owned clipped-control counts are 49, 49, 47, 24, 12 and 8 at 375, 390, 768, 1024, 1280 and 1440 px respectively.",
+          "RSP-HOME-03: home-blog is also displaced, ranging from x=-536.5 px at 375 px to x=-4 px at 1440 px."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "audit:round-0-58751f426784b007e333-route-product-bundle",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\098-audit-round-0-58751f426784b007e333-route-product-bundle",
+      "status": "needs_work",
+      "startedAt": "2026-09-15T11:22:14.118Z",
+      "usage": {
+        "input_tokens": 6296903,
+        "cached_input_tokens": 6152064,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 36053,
+        "reasoning_output_tokens": 10630
+      },
+      "threadId": "01a0a4cd-a06c-7fa1-9258-5ae294f90ef4",
+      "finishedAt": "2026-09-15T11:43:31.687Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Audyt product-bundle ukończony: zapisano wszystkie 7/7 atomowych checkpointów. Geometria sekcji zasadniczo przechodzi, lecz każda pozycja ma konkretne defekty wizualne, responsywne lub interakcyjne.",
+        "evidence": [
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/80ca55860fc4f9a24db0cc3259ecbece5371adb014537549df08a087500a438b.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/97c8e60842028a14511c650207efc8c8c5f121c6a1aa941143eeb65fa41d988f.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/aa622de69eb56b9033998d30b0c07270fc6f203ede3d3fc1658acdb8f80b103a.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/6780428f3339e64b3fda6aa8fc99f06fa86e3f1852996d2405814f09f231ea37.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/c895e49183dc24b804f68c2ba09e913938770416759abf1f577b0909f620242c.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/41c5429b8454a0b5897e9e89d2491494fc0410ffe688b19d6bfb971dc95abdfb.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/7fb4be92e40dc844fd566e844c7f8004f3cf27f4b37db3c53c988911ff2531d6.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/098-audit-round-0-58751f426784b007e333-route-product-bundle/interaction-live-probe.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/098-audit-round-0-58751f426784b007e333-route-product-bundle/responsive-live-probe.json"
+        ],
+        "issues": [
+          "Breadcrumb zawiera inną, zawiniętą ścieżkę niż referencja.",
+          "Overview ma błędną typografię i układ, brak obrazów składników, nieprawidłową prezentację ceny/VAT oraz niepełne kontrolki.",
+          "Cztery źródłowe ikony korzyści zastąpiono jednym znakiem tekstowym ✓.",
+          "Dwie karty produktów powiązanych nie są renderowane na żadnej z sześciu sprawdzonych szerokości.",
+          "Pozycja not prawnych nie odpowiada treści widocznej w referencji dla tych samych współrzędnych.",
+          "Przy 375 px występuje 1 px poziomego overflow.",
+          "Opcje 4/10/12 ha są statycznymi spanami, nie wariantami WooCommerce; panel zapytania jest pusty, bez semantyki dialogu, nie zamyka się Escape, a na 390 px sticky header blokuje jego przycisk zamknięcia."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "audit:round-0-58751f426784b007e333-route-account",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\099-audit-round-0-58751f426784b007e333-route-account",
+      "status": "needs_work",
+      "startedAt": "2026-09-15T11:43:36.131Z",
+      "usage": {
+        "input_tokens": 4343240,
+        "cached_input_tokens": 4175488,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 26223,
+        "reasoning_output_tokens": 7704
+      },
+      "threadId": "01a0a4e1-31de-7c80-8563-6e414d0247e7",
+      "finishedAt": "2026-09-15T12:00:34.935Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Audyt route-account ukończony: zapisano wszystkie 5/5 checkpointów. Nie zmieniono implementacji ani kryteriów. Testy interakcji wykonano bez wysyłania formularzy.",
+        "evidence": [
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/46b26f8a856a70b0d089a437d9f48bff14dfcefcd4f035c902dc15f5a19dac6c.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/7836360a37dc348a7fb84f9da72127cfaec50ff97b04985815133c92596a6cce.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/33e6e30f1e171903f5858aaf38da7e911ed5ee77e6f61451390233eb8c53b03d.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/e1b06c2a73bdff3ae506527bd47e594896dd3bbd4f69c7506fc5a9f97f88e7ba.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/24f5031a0d9ef2e0fd109c1fa22b3bac9a19f6c3441227b4c6c2cb1aa9d74052.json"
+        ],
+        "issues": [
+          "Breadcrumb nie zachowuje źródłowych odstępów wokół separatora „/”.",
+          "Formularz logowania używa etykiet nad pustymi polami zamiast źródłowych placeholderów oraz ma niezgodne szerokości i pionowe pozycje kontrolek.",
+          "Sekcja rejestracji nie wyświetla punktorów listy; nagłówek i przycisk są przesunięte pionowo, a panel jest o 1 px za szeroki.",
+          "Przy szerokości 375 px zachowany probe raportuje 1 px poziomego overflow.",
+          "Endpoint /moje-konto/lost-password/ zwraca 200, ale ponownie wyświetla login/rejestrację zamiast formularza odzyskiwania hasła.",
+          "Rozwinięty formularz rejestracji pokazuje angielski domyślny komunikat prywatności na polskiej stronie."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "audit:round-0-58751f426784b007e333-route-product-expanded",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\100-audit-round-0-58751f426784b007e333-route-product-expanded",
+      "status": "needs_work",
+      "startedAt": "2026-09-15T12:00:39.548Z",
+      "usage": {
+        "input_tokens": 7875740,
+        "cached_input_tokens": 7618944,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 32568,
+        "reasoning_output_tokens": 8851
+      },
+      "threadId": "01a0a4f0-cf53-7ff1-8283-25fcc305d346",
+      "finishedAt": "2026-09-15T12:24:52.322Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Completed and durably checkpointed all 7 assigned items. No implementation or acceptance settings were changed. Each item requires further work.",
+        "evidence": [
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/68023a9fa1b42405107f4b121867a79e5faed4d6eee84d00668a6e18f26c690f.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/79746c827102334f2122be84e3aa7e9916a95afb27eb3a8d0d4705b99a5372f8.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/8bcc226c1726345bade0e6e0c8a22ed28400cf87ee191b469793378098632e83.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/1a008761331c35927c8ef4beb7b7b775b3b9aa1a796d56dad5d9be7886b729dd.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/05e50dc0b6cdcf0a8a36051356f573aeaaa76c43162a607c34acccc24e098079.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/f65e8f8fcb3e7719ccdbf42bb71a8897dcd7cd77ced44237cec0db0ad57bb973.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/2d877ba194ed76a4f8010a35c04125a3d52fe32abc0676e9979d57443ed5797f.json"
+        ],
+        "issues": [
+          "Breadcrumbs omit the sourced Herbicydy segment and mismatch typography/active color.",
+          "Product overview shows the wrong price presentation, malformed controls, missing replacement panel, and a visible escaped <br />.",
+          "Expanded description has section-wide typography/raster displacement and 17.944% diagnostic crop mismatch.",
+          "Related products use incorrect products and broken card geometry; section height is about 150 px excessive.",
+          "Legal notices are displaced downward by 150.6875 px, pushing the professional notice outside its expected region.",
+          "At 375 px the page has 14 px horizontal overflow; mobile description and related-card layouts are unusably narrow/broken, and later tabs extend offscreen.",
+          "Tab clicks and hashes work without page errors, but ArrowRight navigation is absent and direct #use loading leaves the active mobile tab partially clipped."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "audit:round-0-58751f426784b007e333-route-product-inquiry",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\101-audit-round-0-58751f426784b007e333-route-product-inquiry",
+      "status": "failed",
+      "startedAt": "2026-09-15T12:24:56.558Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/101-audit-round-0-58751f426784b007e333-route-product-inquiry; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 6:10 PM.\"}\n",
+      "finishedAt": "2026-09-15T12:31:59.117Z",
+      "threadId": "01a0a507-0a8f-7c23-a396-fc296e697704",
+      "usageUnknown": true
+    },
+    {
+      "task": "audit:round-0-58751f426784b007e333-route-product-inquiry",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\102-audit-round-0-58751f426784b007e333-route-product-inquiry",
+      "status": "needs_work",
+      "startedAt": "2026-09-15T16:13:17.662Z",
+      "usage": {
+        "input_tokens": 3662824,
+        "cached_input_tokens": 3555456,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 20686,
+        "reasoning_output_tokens": 6143
+      },
+      "threadId": "01a0a5d8-1a09-7ea3-a30b-4d6d7dbb6f4a",
+      "finishedAt": "2026-09-15T16:32:16.159Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Zapisano wszystkie 4 oczekujące checkpointy. Interakcja dialogu przeszła; dwie sekcje wizualne i responsywność wymagają poprawek. Implementacji ani progów nie zmieniono.",
+        "evidence": [
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/c8621ebdff71c68de32cc9fc3f49656160796186c8064714cf66067e3d282e45.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/695af286b4e625cfac9b29f53c3968195b3140500d716be12033b414a6bb7c62.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/14f8301c0c42ca6cd3b9d7ae4afc05faa9fdf86169c59d2047df87a517adcf29.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/39ea56b7e496b41f3a44f4f8e60ef20a24dfdd0a37e741393d6b9871b865e1f9.json"
+        ],
+        "issues": [
+          "product-related: niewłaściwe produkty i dodatkowy nagłówek; różnica 15,164%, wysokość większa o 173,94 px.",
+          "product-legal-notices: sekcja przesunięta w dół o 175,94 px; różnica 12,085%.",
+          "Responsywność: przy 375 px występuje 14 px poziomego overflow i obcięcie kontrolki produktu powiązanego; karty są nieproporcjonalne na zachowanych szerokościach."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "audit:round-0-58751f426784b007e333-route-order-confirmed",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\103-audit-round-0-58751f426784b007e333-route-order-confirmed",
+      "status": "needs_work",
+      "startedAt": "2026-09-15T17:01:01.959Z",
+      "usage": {
+        "input_tokens": 3481048,
+        "cached_input_tokens": 3369216,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 21345,
+        "reasoning_output_tokens": 5143
+      },
+      "threadId": "01a0a603-cf90-76f1-8f76-a845c170238b",
+      "finishedAt": "2026-09-15T17:15:00.239Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Audyt route-order-confirmed ukończony: zapisano 7/7 checkpointów. Pięć sekcji wizualnych i responsywność wymagają pracy; interakcje są zablokowane przez brak zatwierdzonego identyfikatora i klucza istniejącego zamówienia. Nie zmieniono implementacji ani progów.",
+        "evidence": [
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/dd0c2c28c434079a7249c3cf54bac4d11e4c0d7c7fd3497930bbbe18f7b1369a.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/acd006933fce9c222c90a89dc984349a3897aca2580e9a4858630353dfaaf3cd.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/9ce708f4658b88ad534e6a1d0bfd97fccb19deeea17d6dc095807894a5082a15.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/3e87c9ea0d5e9728a3b79d784d9a42410c3dd3ab28c5aa568c69ab594d55348e.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/bc5707a06aaa169f796d266c90d9bd749417795375b0e539aef4f326b86d10be.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/158b756dc5874688dd6d5e6425c3ee134d48dcbd65aea00feb8ebcad62f5f6dc.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/869015266522915265c2081ca7de55543efb4df2ca64c71b2bdc23d66476b426.json"
+        ],
+        "issues": [
+          "Render ma 900 px zamiast 2199 px, a page ownership mismatch wynosi 91.102%. Żadna z pięciu przypisanych sekcji nie została wykryta w DOM.",
+          "Crop mismatch: confirmation-heading 86.881%, checkout-steps 98.582%, checkout-order-confirmation 84.415%, confirmation-line-items 100%, checkout-totals 87.048%.",
+          "We wszystkich sześciu szerokościach brakuje zawartości i kontrolek route-owned; przy 375 px probe wykazuje dodatkowo 1 px overflow.",
+          "Izolowana sesja Chrome otrzymała HTTP 200, lecz URL nie zawiera order ID ani key; dostępny jest tylko ogólny komunikat WooCommerce, bez danych zamówienia, formularzy i kontrolek. Audyt nie utworzył ani nie złożył zamówienia."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "audit:round-0-58751f426784b007e333-route-checkout-login",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\104-audit-round-0-58751f426784b007e333-route-checkout-login",
+      "status": "needs_work",
+      "startedAt": "2026-09-15T17:15:04.780Z",
+      "usage": {
+        "input_tokens": 3711433,
+        "cached_input_tokens": 3598464,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 18376,
+        "reasoning_output_tokens": 5992
+      },
+      "threadId": "01a0a610-abe2-7503-8b2c-57f267414359",
+      "finishedAt": "2026-09-15T17:37:21.658Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "All 3 pending checkout-login audit items were inspected and durably checkpointed. No implementation or acceptance configuration was changed.",
+        "evidence": [
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/663304486f9432a3810cfe768f5c855bf35ec1f1ea61cd6c9b278f4f17b205be.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/4f3bd7628e277be778dbcb11295bd6c4acd2ce44f6574cd65664dd0499b26f2e.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/5d9a06f7b45989a54a6b09f3372e9145b71d8bb16a90d343bc87df7068f46500.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/104-audit-round-0-58751f426784b007e333-route-checkout-login/interaction-probe-results.json"
+        ],
+        "issues": [
+          "CHK-LOGIN-OPTIONS-001: The section crop differs by 13.129%; card padding, control widths, CTA alignment and button shape differ visibly from the source.",
+          "CHK-RESP-LOGIN-001: At 1024px the login button overlaps the password-recovery control; at 375px the controls lack a safe gap.",
+          "CHK-INT-LOGIN-001: “Kontynuuj jako gość” reloads /zamowienie/ and leaves the login choices visible instead of advancing checkout.",
+          "Authenticated login submission was intentionally not tested because no genuine authorized credentials were available."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "audit:round-0-58751f426784b007e333-route-checkout-registration",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\105-audit-round-0-58751f426784b007e333-route-checkout-registration",
+      "status": "needs_work",
+      "startedAt": "2026-09-15T17:37:25.943Z",
+      "usage": {
+        "input_tokens": 3869526,
+        "cached_input_tokens": 3753088,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 22256,
+        "reasoning_output_tokens": 5603
+      },
+      "threadId": "01a0a625-224d-78f3-b9d2-2bda8d9a360a",
+      "finishedAt": "2026-09-15T17:56:49.766Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Audyt trasy checkout-registration ukończony: zapisano 4/4 atomowych checkpointów. Ledger potwierdza brak pending items. Nie zmieniono implementacji ani nie wysłano żadnego formularza, zamówienia, płatności lub wiadomości.",
+        "evidence": [
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/b9160c2d38b8c95ea50cd17e752c2bc617983858679f66e3b7f5ebf3b2daad3a.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/713362b69eeac57de82fd47840e90091273e7702927ce3ac06dbea155c8c21f2.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/8a3624266e78b13b2380e19206482c7ec1c6cd905b1be1d6aa3982544480cf39.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/6a9381c64685b5dcbf8f1fb207711f16306954cfa2ab6fc8f475bd3a025805f8.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/105-audit-round-0-58751f426784b007e333-route-checkout-registration/interaction-live-probe.json"
+        ],
+        "issues": [
+          "Checkout login options: niezgodne paddingi, szerokości pól, pionowe odstępy oraz geometria przycisków.",
+          "Registration dialog: brak widocznego przycisku zamknięcia, wyśrodkowane zamiast lewostronnych placeholdery oraz błędna geometria CTA.",
+          "Responsive: dialog przekracza prawą krawędź o 92 px przy 1440, 172 px przy 1280 i 300 px przy 1024; przy 375 występuje 1 px overflow.",
+          "Interactions: Shift+Tab opuszcza modal, więc focus nie jest uwięziony; checkbox zgody przy 1280×900 znajduje się poza obszarem dostępnym dla wskaźnika.",
+          "Działają poprawnie: otwieranie dialogu, focus pierwszego pola, zamknięcie Escape, zwrot focusu do triggera i klawiaturowe przełączanie zgody."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "audit:round-0-58751f426784b007e333-route-product-reviews-state",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\106-audit-round-0-58751f426784b007e333-route-product-reviews-state",
+      "status": "needs_work",
+      "startedAt": "2026-09-15T17:56:53.850Z",
+      "usage": {
+        "input_tokens": 3582372,
+        "cached_input_tokens": 3463552,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 22275,
+        "reasoning_output_tokens": 5169
+      },
+      "threadId": "01a0a636-f40d-7f22-80c7-afa0fe6afd5c",
+      "finishedAt": "2026-09-15T18:12:53.730Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Audited and durably checkpointed all 7 pending items. No implementation or acceptance configuration was changed.",
+        "evidence": [
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/587dbcfc84e86f1b69817dd8e91a15d7d99abc2eef93945fd65e8d7dfc5c20de.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/c7365fdf34661dfc5893928d252856c3b9d5f00c6b4250842e7fe39d7d7b69e6.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/3a9553cf519396e200cd5b54b9f9da378fd8948d069f8dd53b702432541711eb.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/5b6f1442537a05bcaddc2a7cf33b02627a3564b324d695ed3e3ea111e246490f.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/29c8edadd5a85ebb624dfe407a3ccfaba3a9b32d83f88802085586d0ff5e6b66.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/cd79077db97aabf24445a7893ec512bda8184e3187d35d6877bdeaba7c521115.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/2c9bbb40d5922c99bef327658a6388e0720d21b5b56c4e0d3eccbc181c79cfc2.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/106-audit-round-0-58751f426784b007e333-route-product-reviews-state/interaction-probe.json"
+        ],
+        "issues": [
+          "Breadcrumb omits the sourced Herbicydy level.",
+          "Product overview lacks the correct selected variation, sale-price treatment, quantity controls and several sourced rows; it also renders a literal <br />.",
+          "Review summary lacks all five rating-distribution rows.",
+          "Related section shows the wrong products, contains an extra heading and is 173.94 px too tall.",
+          "Legal notices are displaced downward by 175.69 px.",
+          "The 375 px render has 14 px horizontal overflow; mobile tab controls extend outside the viewport.",
+          "The #reviews tab is initially selected off-screen at mobile width, and ArrowRight keyboard navigation does not work."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "audit:round-0-58751f426784b007e333-route-product-files-state",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\107-audit-round-0-58751f426784b007e333-route-product-files-state",
+      "status": "failed",
+      "startedAt": "2026-09-15T18:12:57.857Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/107-audit-round-0-58751f426784b007e333-route-product-files-state; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 11:13 PM.\"}\n2026-09-15T18:24:02.207674Z ERROR codex_core::tools::router: error=write_stdin failed: Unknown process id 37\n",
+      "finishedAt": "2026-09-15T18:29:51.748Z",
+      "threadId": "01a0a645-a9c4-7440-8f27-72e984a82ba1",
+      "usageUnknown": true
+    },
+    {
+      "task": "audit:round-0-58751f426784b007e333-route-home-active",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\108-audit-round-0-58751f426784b007e333-route-home-active",
+      "status": "needs_work",
+      "startedAt": "2026-09-15T23:09:36.523Z",
+      "usage": {
+        "input_tokens": 10667182,
+        "cached_input_tokens": 10361472,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 34552,
+        "reasoning_output_tokens": 6911
+      },
+      "threadId": "01a0a755-42a9-7ec0-8772-d42f0ad0fb2f",
+      "finishedAt": "2026-09-15T23:39:09.882Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Completed and durably recorded all 12/12 pending home-active audit items. Geometry is healthy, but page ownership mismatch is 12.796% versus the 8.5% threshold. No implementation or source files were changed.",
+        "evidence": [
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/comparison.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/d6b8e2266bff79ad9635b049cb73b45faf3679d337212fda38b806176d4c9724.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/387764a855c1342128ed676ebe604596544cf328d46563085b3fd2c293fb05c1.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/b7a2455530ea0f19f3590f20cc81acd34fc734989487e946cafd25251d90228c.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/428252da91197a88454ca75c0806e335bba88acbd54fea078cf69d37b77307b1.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/107da35f095f1f2f2a9e5b88a3a07b3cdc822351c7a99237591b1f22ca55319a.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/4c8cab55901bae6dd58ebf49054e9952b0dfe686a046fd814e376d783f2a37c1.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/a5e8c907bf448bb0922d4cfe6bdbdcb94f7c42e26b0664a97ef202e0e8439a6c.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/d8c896267a19cf1296d7f409b12494f9ca1198f86cea5866d331d1c74f43d648.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/d24144cabaee68a40284fb746f8edbc0e41ac9a9fcf78c745ae40ff9a3addd9a.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/e78a43c6c333d3acc01fa3dcd0c7188b540d079ed22476a9b08bb9482eac5a36.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/b7626855c3974ca5ba962c3db3a3e9034fde7ecd06d51e73c7640ea9a0a88681.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/29518939af670b1e77b330c552e400f4c93a1a06c30626ebf84f7fafbb0c5b81.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/108-audit-round-0-58751f426784b007e333-route-home-active/home-interaction-probe.json"
+        ],
+        "issues": [
+          "Hero typography, CTA placement and slider controls differ from the source; benefits also use the wrong warranty icon and incorrect typography.",
+          "Crop selection omits source entries and active popovers. Promotions, bundles and recommended products lack carousel controls; bundle media and content layout materially diverge.",
+          "Catalogues, about, blog and knowledge sections retain substantial crop, spacing, typography or accordion-state defects documented in their checkpoints.",
+          "Responsive product and blog wrappers shift off-screen at 1440–375 px; mobile renders lose major content and 375 px retains one pixel of overflow.",
+          "Fresh isolated Chrome testing found no runtime errors, but crop items are plain links, quantities have no interactive controls, product carousels expose no controls, and the knowledge accordion permits multiple open panels without swapping state icons."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "audit:round-0-58751f426784b007e333-native-integrations",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\109-audit-round-0-58751f426784b007e333-native-integrations",
+      "status": "needs_work",
+      "startedAt": "2026-09-15T23:39:14.089Z",
+      "usage": {
+        "input_tokens": 13572803,
+        "cached_input_tokens": 13241600,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 47565,
+        "reasoning_output_tokens": 17671
+      },
+      "threadId": "01a0a770-5f7b-7431-99c9-6ef9700e4877",
+      "finishedAt": "2026-09-16T00:15:11.618Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Audyt integracji natywnych zakończony: zapisano 2/2 checkpointów. `commerce` ma status `needs_work`, a `editable-content` — `blocked`. Nie zmieniono implementacji ani źródeł.",
+        "evidence": [
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/df585814eebab034bb7140e11f6851f60eedc64191beb4a117e88f9661023a93.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/5c6600ab582e912c53176ebb661be986cc1c0a5708109d38ef08d5ee7d4a4e5e.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/109-audit-round-0-58751f426784b007e333-native-integrations/commerce-native-current.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/109-audit-round-0-58751f426784b007e333-native-integrations/editable-content-current.json"
+        ],
+        "issues": [
+          "Produkt pakietowy 55 pozostaje produktem prostym; brakuje natywnych wariantów 4/10/12 ha i cen 988,33/2470,83/2965,00 PLN z właściwą proweniencją.",
+          "Obsługa uploadu SVG jest globalna i nie ma bezpiecznej sanitizacji ani ograniczenia ról; występują też statyczne glify zamiast edytowalnych SVG.",
+          "Brakuje rzeczywistych PDF-ów, adresów czytników, plików produktu, eksportu ikony pobierania, konfiguracji operatorów płatności oraz zatwierdzonego zamówienia z kluczem dostępu.",
+          "Tytuł witryny nadal brzmi `Safegold`, część widocznych tekstów jest zahardkodowana, a mapowanie SVG nie przechowuje jawnego `_rudnikagro_source_node`.",
+          "Brakuje zachowanego dowodu, że rzeczywista wcześniejsza ręczna zmiana danych commerce przetrwała ponowne uruchomienie importera."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "correct:round-1",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\110-correct-round-1",
+      "status": "needs_work",
+      "startedAt": "2026-09-16T06:31:48.301Z",
+      "usage": {
+        "input_tokens": 12419532,
+        "cached_input_tokens": 12184064,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 36506,
+        "reasoning_output_tokens": 12435
+      },
+      "threadId": "01a0a8ea-1e18-7121-9c85-16868968d6db",
+      "finishedAt": "2026-09-16T07:04:45.614Z",
+      "result": {
+        "status": "needs_work",
+        "summary": "Naprawiono topbar i częściowo drugorzędną nawigację; build przechodzi. Brak źródłowego URL dla „Poradnik dla rolnika” pozostaje jawnie udokumentowany, bez tworzenia fałszywego celu.",
+        "evidence": [
+          ".factory-cache/autopilot/visual-1789542157240/careers/comparison.json",
+          ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/705036bde825ed892951/secondary-navigation-checkpoint.json",
+          "docs/factory/project/STATUS.md",
+          "docs/factory/project/SOURCE_CLARIFICATIONS.md"
+        ],
+        "issues": [
+          "Druga nawigacja nadal ma 14.155% różnicy pikseli; brak potwierdzonego URL dla „Poradnik dla rolnika” oraz brak natywnej wartości licznika koszyka.",
+          "Footer nadal nie przechodzi wspólnej kontroli: 9.783% różnicy i niezgodna geometria."
+        ]
+      },
+      "usageUnknown": false
+    },
+    {
+      "task": "correct:round-2",
+      "model": "gpt-5.6-terra",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-10T19-06-21-844Z-22492\\111-correct-round-2",
+      "status": "failed",
+      "startedAt": "2026-09-16T07:15:42.968Z",
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/111-correct-round-2; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at Sep 21st, 2026 5:14 PM.\"}\n2026-09-16T07:21:05.574888Z ERROR codex_models_manager::manager: failed to load models cache: EOF while parsing a value at line 1 column 0\n2026-09-16T07:24:57.620127Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\single-product.php:\n    <?php if (function_exists('woocommerce_related_products')) : ?><section class=\"c-product__related\" data-factory-section=\"product-related\"><h2>Produkty powiÄ…zane</h2><?php woocommerce_related_products(['posts_per_page' => 2, 'columns' => 2]); ?></section><?php endif; ?>\n2026-09-16T07:31:12.418300Z ERROR codex_core::session: failed to record rollout items: thread 01a0a912-50a0-7e93-ab45-3d6818143e9c not found\n",
+      "finishedAt": "2026-09-16T07:31:13.254Z",
+      "threadId": "01a0a912-50a0-7e93-ab45-3d6818143e9c",
+      "usageUnknown": true
     }
   ],
-  "tokens": 11172904,
-  "round": 0,
+  "tokens": 15547212,
+  "round": 2,
   "createdAt": "2026-09-10T19:06:21.846Z",
-  "updatedAt": "2026-09-14T09:22:45.763Z",
-  "activeTask": "audit:round-0-58751f426784b007e333-shared-components",
-  "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/082-audit-round-0-58751f426784b007e333-shared-components; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at Sep 19th, 2026 10:14 AM.\"}\n2026-09-14T09:20:17.037766Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n2026-09-14T09:20:19.353995Z  WARN codex_rmcp_client::rmcp_client: stored OAuth refresh credentials could not be bound to their issuer for MCP server `figma`; using the stored access token without refresh\n2026-09-14T09:22:43.356007Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"This action was rejected due to unacceptable risk.\\\\nReason: Automatic approval review failed: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at Sep 19th, 2026 10:14 AM.\\\\nThe agent must not attempt to achieve the same outcome via workaround, indirect execution, or policy circumvention. Proceed only with a materially safer alternative, or if the user explicitly approves the action after being informed of the risk. Otherwise, stop and request user input.\\\")\" }\n",
-  "activeModel": "gpt-5.6-sol",
+  "updatedAt": "2026-09-16T07:31:13.417Z",
+  "activeTask": "correct:round-2",
+  "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/111-correct-round-2; {\"message\":\"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at Sep 21st, 2026 5:14 PM.\"}\n2026-09-16T07:21:05.574888Z ERROR codex_models_manager::manager: failed to load models cache: EOF while parsing a value at line 1 column 0\n2026-09-16T07:24:57.620127Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\single-product.php:\n    <?php if (function_exists('woocommerce_related_products')) : ?><section class=\"c-product__related\" data-factory-section=\"product-related\"><h2>Produkty powiÄ…zane</h2><?php woocommerce_related_products(['posts_per_page' => 2, 'columns' => 2]); ?></section><?php endif; ?>\n2026-09-16T07:31:12.418300Z ERROR codex_core::session: failed to record rollout items: thread 01a0a912-50a0-7e93-ab45-3d6818143e9c not found\n",
+  "activeModel": "gpt-5.6-terra",
   "activeReasoningEffort": "high",
   "snapshotHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
   "deferredVisual": [
@@ -2753,5 +3682,5 @@
       "task": "build:checkout"
     }
   ],
-  "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/summary.json"
+  "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789542287704/summary.json"
 }

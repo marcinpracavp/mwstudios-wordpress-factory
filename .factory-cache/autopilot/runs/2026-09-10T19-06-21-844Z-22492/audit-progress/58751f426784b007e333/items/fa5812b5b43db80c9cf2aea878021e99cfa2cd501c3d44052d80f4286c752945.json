@@ -1,0 +1,63 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-blog-archive",
+  "item": "responsive",
+  "status": "passed",
+  "summary": "Inspected the retained route screenshots and capture metrics at 1440, 1280, 1024, 768, 390 and 375 px. The blog grid remains a readable three-column layout through 1024 px and changes to a single-column flow at 768 px and below; card images, titles, dates and CTAs remain visible. Pagination remains centered and all eight controls are visible at every retained width, including 40 px controls at 390 and 375 px. Reported horizontal overflow is 0 px at 1440/1280/1024/768/390 and 1 px at 375; a bounds probe found no captured page section, text, image or link extending beyond the 375 px viewport, and the screenshot shows no clipped page-owned content or horizontal scrollbar. Shared header/footer rendering was excluded because those components are assigned to separate audit units.",
+  "issues": [],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/blog-archive/comparison.json",
+      "sha256": "19d473445af91569c6efcbc25324921414c31b143fcee94bfc50f9fdf84b0264"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/blog-archive/responsive-1440.json",
+      "sha256": "a074dc08f2f6d3b86a8fbbe8c11748cb4f4779ed8933cf27a67215f33a8a0820"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/blog-archive/responsive-1440.png",
+      "sha256": "0acfac30a73f245b58e322d8a974993fec4c0fca9ecf93cebc5c8fff1133ac9d"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/blog-archive/responsive-1280.json",
+      "sha256": "030798b4429fb5bb7685f7e1bd02f2882886dd5c93cf2f879d1f7c9f456a5a6b"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/blog-archive/responsive-1280.png",
+      "sha256": "f654bc7373401e804cc434b15924d5a99fda7fa424a78039a39badc86d980576"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/blog-archive/responsive-1024.json",
+      "sha256": "0d121cd2a1d6cb4a62eaf77e1613effba0159429189e9f172654e3ffc252e51d"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/blog-archive/responsive-1024.png",
+      "sha256": "47d5ac0673287c0aef91ddeff4d58162778570634462948705f82f2721410cc4"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/blog-archive/responsive-768.json",
+      "sha256": "00f0fb9b0a069430ce683183b5267888843c691cf742fa76f9d88e1d956e8472"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/blog-archive/responsive-768.png",
+      "sha256": "5413e7eb05449681dddf4e5b23143774d0b9daa0f80992d1dbda4805a6059ba2"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/blog-archive/responsive-390.json",
+      "sha256": "7adf1c8679af0b62b9f303cac6f40e2020b0b2f2aedaf3bc41bed2b90a8b00cb"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/blog-archive/responsive-390.png",
+      "sha256": "03d0c153d56ec479f00739a655a394b9621e50768141ed7eed0afc6a0965a4e6"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/blog-archive/responsive-375.json",
+      "sha256": "28dd3bf393535ac643b17bb159b1e7de2766585bfcb75d6917b4b9d55267187f"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/blog-archive/responsive-375.png",
+      "sha256": "f7977dda629c8f92c9016f422f29dc02771ecd519328f0fd6cc4080787e2dab8"
+    }
+  ],
+  "completedAt": "2026-09-14T21:33:56.533Z"
+}

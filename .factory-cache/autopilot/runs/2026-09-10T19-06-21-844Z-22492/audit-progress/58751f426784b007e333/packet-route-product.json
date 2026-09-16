@@ -1,0 +1,67 @@
+{
+  "ledger": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/ledger.json",
+  "key": "58751f426784b007e333",
+  "unit": "route-product",
+  "routes": [
+    "product"
+  ],
+  "pending": [
+    {
+      "id": "interactions",
+      "kind": "interactions",
+      "route": "product",
+      "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product/comparison.json"
+    }
+  ],
+  "completed": [
+    {
+      "item": "section:product-breadcrumbs",
+      "status": "needs_work",
+      "checkpoint": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/55745c08ef0ea569326fa3896a6e376ccde07573c858f8163c097947784996d9.json"
+    },
+    {
+      "item": "section:product-overview",
+      "status": "needs_work",
+      "checkpoint": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/71d38739c82bbb99119a7690d3209edd5234c46e00a5c4a9a2e6386922251aaa.json"
+    },
+    {
+      "item": "section:product-benefits",
+      "status": "needs_work",
+      "checkpoint": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/f0eb9d54b3d6067d4ea5b5af81a6b4ca90ff3b6285edbbfefbe13cb86e382e79.json"
+    },
+    {
+      "item": "section:product-related",
+      "status": "needs_work",
+      "checkpoint": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/b49572f9b33cf93095888ecd25d82f6f041a10db710946ccf3f828db822999f8.json"
+    },
+    {
+      "item": "section:product-legal-notices",
+      "status": "needs_work",
+      "checkpoint": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/9911ebf7ba6327c5d001fe9ca470ac73275f1099025af4120ce223851ec81494.json"
+    },
+    {
+      "item": "responsive",
+      "status": "needs_work",
+      "checkpoint": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/02b9bf211ee3525ac668736a3043a0a5e8896f7bb7b05df8948ec1b616a437e0.json"
+    }
+  ],
+  "legacyEvidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/081-audit-round-0/audit-metrics.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/cart-interaction-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/interaction-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/native-commerce-icons-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/080-audit-round-0/responsive-audit.json"
+  ],
+  "checkpointCommand": "node scripts/factory/autopilot/audit-progress.js record .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/ledger.json route-product <item-id> <input-json>",
+  "recordSchema": {
+    "status": "passed|needs_work|blocked",
+    "summary": "What was actually checked",
+    "issues": [
+      "Concrete finding or untestable limitation"
+    ],
+    "evidence": [
+      "Existing theme-relative FILE paths; include the assigned comparison for route checks"
+    ]
+  },
+  "instruction": "Check ONLY pending items. Save an atomic checkpoint immediately after each item, before starting the next. Existing completed items must not be reread or repeated. Earlier partial evidence is a candidate: inspect only relevant records and verify applicability; never assume old PASS. Missing genuine inputs are recorded blocked with evidence, then continue other items."
+}

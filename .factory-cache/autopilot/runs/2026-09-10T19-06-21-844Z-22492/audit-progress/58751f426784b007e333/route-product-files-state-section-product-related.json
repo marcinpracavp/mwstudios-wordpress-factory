@@ -1,0 +1,17 @@
+{
+  "status": "needs_work",
+  "summary": "Compared the product-related source record and exact 1920 px reference/render/diff crop. The section fails geometry by +173.94 px height and differs by 16.5668%, above the 8.5% page-owner acceptance. Rendered native product content is not the source-assigned related set.",
+  "issues": [
+    "VIS-PRODUCT-RELATED-001 | priority: critical | property: related product identity/content | expected: two native cards for Stomp Aqua 455 CS 1L (45,99 zł) and Stomp Aqua 455 CS 5L (534,60 zł) with their matching source images | actual: cards show Asora XPRO 260 EC 5L (1.162,40 zł) and Atrium-X 5L with unrelated images/content | fix: connect this product to the two source-assigned native WooCommerce products and render their sourced title/image/price records.",
+    "VIS-PRODUCT-RELATED-002 | priority: critical | property: layout geometry | expected: 710×570 section with two equal side-by-side cards occupying the crop | actual: section is 710×743.94 (+173.94 px), with cards collapsed into narrow columns at the right and large empty areas | fix: restore the two-column card layout, widths, card heights and section flow to the measured source geometry.",
+    "VIS-PRODUCT-RELATED-003 | priority: high | property: card controls/styling | expected: each rounded card contains large product image, divider, centered title/price, outlined quantity stepper and green cart button with exact cart icon | actual: controls are missing or small default-styled blocks and imagery is tiny/misaligned | fix: render the reusable source product-card structure and match image sizing, border, typography, quantity and cart controls.",
+    "VIS-PRODUCT-RELATED-004 | priority: high | property: headings | expected: source crop begins with the two related cards and contains no oversized duplicate headings | actual: oversized Produkty powiązane and Podobne produkty headings occupy the left side | fix: remove the duplicate/default related-product heading output not present in this measured source section."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-files-state/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-files-state/product-related-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-files-state/product-related-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-files-state/product-related-diff.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/107-audit-round-0-58751f426784b007e333-route-product-files-state/source-context/section-09d07b607a4c57e0.json"
+  ]
+}

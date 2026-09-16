@@ -1,0 +1,16 @@
+{
+  "status": "needs_work",
+  "summary": "Audited catalogues shared-footer with exact source/render/diff crops at its real y=1236. The comparison's expected y=8363 is outside the 1850 px reference and is a proven source-coordinate defect; the visible footer also fails height and typography fidelity.",
+  "issues": [
+    "VIS-CATALOGUES-FOOTER-001 (high) — property: retained source coordinates; expected record: y=8363, height=636; actual frozen source: footer begins at y=1236 and occupies the final 614 px; fix: correct source-section extraction and preserve the real reference location.",
+    "VIS-CATALOGUES-FOOTER-002 (high) — property: rendered height; expected visible source footer height: 614 px; actual rendered geometry: 636 px; fix: remove the extra 22 px and match source bottom-row spacing.",
+    "VIS-CATALOGUES-FOOTER-003 (high) — property: typography; expected: regular-weight source body/link text with selective bold headings; actual: links, certification, legal and contact text are broadly heavier/smaller and wrap differently; fix: restore the source per-role font weights, sizes and line-heights.",
+    "VIS-CATALOGUES-FOOTER-004 (medium) — property: certification/decorative layout; expected: two-line certification label, badges, and source-sized outlined mark; actual: label wraps to three lines and the badges/mark are shifted and resized; fix: match source column widths and exact SVG geometry."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/catalogues/comparison.json",
+    ".factory-cache/autopilot/previews/audit-catalogues-footer-reference.png",
+    ".factory-cache/autopilot/previews/audit-catalogues-footer-rendered.png",
+    ".factory-cache/autopilot/previews/audit-catalogues-footer-diff.png"
+  ]
+}

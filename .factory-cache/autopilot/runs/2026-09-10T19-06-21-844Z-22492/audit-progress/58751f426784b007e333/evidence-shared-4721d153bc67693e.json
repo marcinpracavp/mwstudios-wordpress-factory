@@ -1,0 +1,15 @@
+{
+  "status": "needs_work",
+  "summary": "Compared catalogues shared-secondary-navigation using retained geometry plus exact reference/render/diff crops; geometry is within tolerance, but the shared content and controls are incomplete.",
+  "issues": [
+    "VIS-SHARED-SECONDARY-NAV-004 (high) — property: link set; expected: six source links ('O nas', 'Aktualności', 'Poradnik dla rolnika', 'Kariera', 'Katalogi', 'Kontakt'); actual: only 'O nas', 'Kariera', and 'Kontakt' render; fix: restore the missing source-backed links in order.",
+    "VIS-SHARED-SECONDARY-NAV-005 (high) — property: contact/action icons and badges; expected: green phone/email icons and exact heart/account/cart assets with two green count badges; actual: contact icons and badges are missing and action glyphs differ; fix: use the exact source SVG attachments and native counts.",
+    "VIS-SHARED-SECONDARY-NAV-006 (medium) — property: geometry and search distribution; expected: section x=239, width≈1441 with the search near x=405 in this audit crop; actual: x=237, width≈1442.81 and the search begins near x=476; fix: match the source container inset and column widths."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/catalogues/comparison.json",
+    ".factory-cache/autopilot/previews/audit-catalogues-secondary-reference.png",
+    ".factory-cache/autopilot/previews/audit-catalogues-secondary-rendered.png",
+    ".factory-cache/autopilot/previews/audit-catalogues-secondary-diff.png"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-09-15T17:53:15.510Z",
+  "browser": "Google Chrome",
+  "isolatedContext": true,
+  "url": "https://autopilot.local/zamowienie/",
+  "submittedForms": false,
+  "initial": {
+    "openerCount": 1,
+    "dialogCount": 1,
+    "hidden": true,
+    "expanded": "false"
+  },
+  "open": {
+    "hidden": false,
+    "role": "dialog",
+    "ariaModal": "true",
+    "activeInside": true,
+    "activeName": "username",
+    "expanded": "true"
+  },
+  "controls": [
+    {
+      "text": "Zarejestruj się",
+      "type": "submit",
+      "ariaLabel": null,
+      "visible": true
+    }
+  ],
+  "focusContainment": {
+    "activeInside": false,
+    "activeTag": "BUTTON",
+    "activeText": "Zarejestruj się"
+  },
+  "termsToggle": {
+    "boundingBox": {
+      "x": 693,
+      "y": 1085.890625,
+      "width": 16,
+      "height": 16
+    },
+    "pointer": {
+      "reachable": false,
+      "error": "locator.click: Timeout 2000ms exceeded."
+    },
+    "reachedByKeyboard": true,
+    "keyboard": {
+      "checkedAfterSpace": true,
+      "checkedAfterSecondSpace": false
+    }
+  },
+  "closed": {
+    "hidden": true,
+    "expanded": "false",
+    "focusReturnedToOpener": true
+  },
+  "pageErrors": []
+}

@@ -1,0 +1,19 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-home",
+  "item": "interactions",
+  "status": "passed",
+  "summary": "Ran a fresh isolated headless Chrome session against https://autopilot.local/ with no form submission, cart mutation, order placement or message sending. At 1440 px the primary mega-menu started hidden with aria-expanded=false, opened visibly with aria-expanded=true and body state applied, retained exactly one selected category and one pressed crop after real clicks, then closed with Escape and restored aria-expanded=false. At 390 px the visible mobile toggler opened a visible active menu with body overflow locked, then closed it and restored body overflow. Both sessions returned HTTP 200 and emitted no page errors.",
+  "issues": [],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home/comparison.json",
+      "sha256": "a3af3e56f008dbaecb838d147b7ae7e324d1264c2b898786a29f4344d514aeef"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/097-audit-round-0-58751f426784b007e333-route-home/fresh-browser-probe.json",
+      "sha256": "9271041231095b3b288bd854d1822cf045e435a9a9e4390981bcca1ced62a255"
+    }
+  ],
+  "completedAt": "2026-09-15T11:20:41.942Z"
+}

@@ -1,0 +1,221 @@
+{
+  "source": {
+    "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+    "figmaUrl": "https://www.figma.com/design/OwiDXrKMVcaHKB9ryYF6mY/Rudnik-Agro?m=dev"
+  },
+  "status": "complete",
+  "routes": [
+    {
+      "id": "about",
+      "path": "/o-nas/",
+      "language": "pl",
+      "frameNodeId": "326:2764",
+      "reference": "references/full/frame-326-2764.png",
+      "width": 1920,
+      "height": 3863,
+      "sections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "shared-primary-navigation",
+        "about-heading",
+        "about-introduction",
+        "about-agricultural-supply",
+        "about-grain-trade",
+        "about-insurance",
+        "shared-shop-cta",
+        "shared-footer"
+      ],
+      "buildGroup": "about",
+      "responsiveSource": "derived",
+      "notes": "Source frame titled o firmie contains company introduction and agricultural supply, trade and insurance sections. Planned local route path is an implementation decision inferred from source page identity, not a captured source hyperlink. Uncaptured section IDs remain explicit in this partial execution plan.",
+      "sectionGeometry": {
+        "about-heading": {
+          "x": 240,
+          "y": 218,
+          "width": 1440,
+          "height": 220
+        },
+        "about-introduction": {
+          "x": 240,
+          "y": 471,
+          "width": 1440,
+          "height": 337
+        },
+        "about-agricultural-supply": {
+          "x": 160,
+          "y": 832,
+          "width": 1600,
+          "height": 565
+        },
+        "about-grain-trade": {
+          "x": 160,
+          "y": 1454,
+          "width": 1600,
+          "height": 631
+        },
+        "about-insurance": {
+          "x": 160,
+          "y": 2142,
+          "width": 1600,
+          "height": 695
+        }
+      },
+      "geometryCorrection": {
+        "id": "about",
+        "frameNodeId": "326:2764",
+        "referenceHash": "1e9d5aec30c4675e1c21f164f3e1f2f7c7526b26c8548af43781ec8eae44f6bd",
+        "evidence": ".factory-cache/autopilot/about-source-geometry.json",
+        "evidenceHash": "1313e044d00ac4817c63795ad5549fb04b70e988a04bee82511fc211169f3f4c",
+        "sections": [
+          {
+            "id": "about-agricultural-supply",
+            "nodeId": "520:432",
+            "anchorNodeId": "520:432",
+            "before": {
+              "x": 160,
+              "y": 1397,
+              "width": 1600,
+              "height": 565
+            },
+            "after": {
+              "x": 160,
+              "y": 832,
+              "width": 1600,
+              "height": 565
+            }
+          },
+          {
+            "id": "about-grain-trade",
+            "nodeId": "521:452",
+            "anchorNodeId": "519:351",
+            "before": {
+              "x": 160,
+              "y": 2085,
+              "width": 1600,
+              "height": 631
+            },
+            "after": {
+              "x": 160,
+              "y": 1454,
+              "width": 1600,
+              "height": 631
+            }
+          },
+          {
+            "id": "about-insurance",
+            "nodeId": "521:454",
+            "anchorNodeId": "521:435",
+            "before": {
+              "x": 160,
+              "y": 2837,
+              "width": 1600,
+              "height": 695
+            },
+            "after": {
+              "x": 160,
+              "y": 2142,
+              "width": 1600,
+              "height": 695
+            }
+          }
+        ],
+        "reason": "Unique source background absolute bounds prove a bottom-versus-top extraction error."
+      }
+    }
+  ],
+  "stateFamilies": [],
+  "sections": [
+    {
+      "id": "about-introduction",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/35-about-introduction.json",
+      "contentRecords": 2,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/090-audit-round-0-58751f426784b007e333-route-about/source-context/section-64ff6e0694b9148b.json",
+        "bytes": 1370,
+        "sha256": "9a88c3b873f1ad4674f9c9e2e22135bfec148d7576a8a40de95154b4bc5fa69c"
+      }
+    },
+    {
+      "id": "about-agricultural-supply",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/36-about-agricultural-supply.json",
+      "contentRecords": 5,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/090-audit-round-0-58751f426784b007e333-route-about/source-context/section-315d1107ed423142.json",
+        "bytes": 1676,
+        "sha256": "749f9673772941dfcb61181b03d28149e5e807c6c4c9ad9330b947947cb1a4be"
+      }
+    },
+    {
+      "id": "about-grain-trade",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/37-about-grain-trade.json",
+      "contentRecords": 2,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/090-audit-round-0-58751f426784b007e333-route-about/source-context/section-5d07941af38954f7.json",
+        "bytes": 1541,
+        "sha256": "93a477787ab7a4622721340745634fefe0ad97cd68452ae33070a81be0c6777f"
+      }
+    },
+    {
+      "id": "about-insurance",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/38-about-insurance.json",
+      "contentRecords": 3,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/090-audit-round-0-58751f426784b007e333-route-about/source-context/section-4ce0fd2c7ec7cd86.json",
+        "bytes": 1846,
+        "sha256": "21b92213460373226d8983cf0979dcb8052d4315c3e3394a87b867b57ddf7a40"
+      }
+    }
+  ],
+  "observations": [],
+  "frames": [
+    {
+      "nodeId": "326:2764",
+      "name": "o firmie",
+      "pageId": "0:1",
+      "type": "FRAME",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "326:2980",
+      "name": "Rudnikagro Sp. z o.o. oferuje kompleksowe wsparcie rolnictwa oraz zapewnia najwyższy standard obsługi. Od siedemnastu lat jesteśmy stabilnym i wiarygodnym partnerem dla firm dystrybucyjnych oraz producentów rolnych. Dokładamy wszelkich starań, aby nasi Klienci w możliwie najkrótszym czasie mieli dostęp do najbardziej efektywnych rozwiązań agrotechnicznych. Chętnie dzielimy się wiedzą i doświadczeniem. Nasza oferta produktowa z biegiem czasu stale się powiększa, ponieważ w kompleksowy sposób zaspokajamy rosnące potrzeby i oczekiwania rynku.",
+      "type": "text",
+      "pageId": "0:1"
+    },
+    {
+      "nodeId": "520:432",
+      "name": "Rectangle 17",
+      "type": "vector",
+      "pageId": "0:1"
+    },
+    {
+      "nodeId": "519:351",
+      "name": "Od początku istnienia firmy przykładamy szczególną wagę do obrotu płodami rolnymi – zarówno na rynku krajowym, jak i europejskim. Współpracujemy z największymi odbiorcami zbóż i rzepaku. Posiadamy certyfikaty REDcert oraz GMP+, a także wyróżnienie Diamenty Forbesa. Co skupujemy: Regularnie nabywamy m.in. pszenicę, pszenżyto, jęczmień, żyto, owies, kukurydzę, rzepak, łubin i inne surowce rolne. Logistyka: Zapewniamy sprawny odbiór i transport płodów rolnych przez cały rok. Korzyści dla rolnika: Oferujemy atrakcyjne ceny, terminowe rozliczenia oraz dogodną wymianę handlową (np. płody rolne w zamian za środki ochrony roślin czy nawozy).",
+      "type": "text",
+      "pageId": "0:1"
+    },
+    {
+      "nodeId": "521:435",
+      "name": "Uprawy rolne: Do 65% dopłaty do składki z budżetu państwa (odpowiedzialność już od 8%). Ochrona przed: wymarznięciem, ogniem, przymrozkami wiosennymi, gradem, deszczem nawalnym, huraganem. Maszyny rolnicze: Bardzo szeroki zakres ochrony (w tym Agro Casco). Ubezpieczenia od wszystkich ryzyk (kradzież, zniszczenie, ogień i inne zdarzenia losowe). Dostępne umowy krótkoterminowe, roczne i wieloletnie. Budynki i OC: Ochrona majątku (budynki i budowle, silosy, magazyny płaskie, wagi najazdowe) od ognia i zdarzeń losowych. Zabezpieczenie towarów (ziemiopłodów) w magazynach oraz polisy OC dla przedsiębiorstw rolnych.",
+      "type": "text",
+      "pageId": "0:1"
+    }
+  ],
+  "globalFiles": [
+    {
+      "path": ".factory-cache/figma/latest/design-system.json",
+      "bytes": 8294,
+      "sha256": "5086e8f74a4d3aee56055467846c3f49e9f2791c2a30a873ea30c5a5a87b3863"
+    },
+    {
+      "path": ".factory-cache/figma/latest/components.json",
+      "bytes": 261,
+      "sha256": "fb651cb0bc38b89b71ffa0e6a8b92ec6acbe3bdff6ab7d30ea9c2e39ed12fec5"
+    }
+  ],
+  "lookup": "Observation matches are an index, not a completeness claim. Use targeted rg or inspect JSON pointers for missing node IDs. Never dump the full source files."
+}

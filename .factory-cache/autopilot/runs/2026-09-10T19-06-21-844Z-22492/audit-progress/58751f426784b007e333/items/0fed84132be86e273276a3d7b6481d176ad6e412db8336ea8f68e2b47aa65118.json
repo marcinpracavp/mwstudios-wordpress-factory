@@ -1,0 +1,34 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-checkout",
+  "item": "section:checkout-delivery",
+  "status": "needs_work",
+  "summary": "Compared the retained delivery source, reference, rendered crop and diff. The section bounds pass geometry (x 0 px, y +1.15625 px, exact width/height) and its diagnostic crop ratio is 4.2512%, but the native shipping row does not reproduce the sourced control presentation.",
+  "issues": [
+    "VIS-CHECKOUT-DELIVERY-001 | high | shipping-method control | Expected a selected 17/11 px radio at the left of a 399 x 44 px row, with label and right-aligned green 22,90 zł price; actual row has no visible radio and combines the label/price in WooCommerce output. Preserve native shipping selection while styling its radio, label and price to the sourced structure.",
+    "VIS-CHECKOUT-DELIVERY-002 | medium | unsourced field label and spacing | Expected the method row directly below the Dostawa heading; actual render inserts an additional visible Przesyłka label and pulls the row upward. Remove or visually suppress only that unsourced wrapper label and match the sourced vertical spacing."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/comparison.json",
+      "sha256": "f071c2eae56cc3188f09fe2edb1fe6522a928d779a30d651d1ce27e5f15c76ff"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/checkout-delivery-reference.png",
+      "sha256": "4908f040c75fef047837995ab50e8767aa7eac16a5bc4d3c9c08f4aea168cd2e"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/checkout-delivery-rendered.png",
+      "sha256": "8c414fb6f608a20c96726162740dbb5c8f9017057c58ab6d25a8d420780e35e7"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/checkout-delivery-diff.png",
+      "sha256": "2305680978a397f5b5338d49fea641e9356c072ee08b156e940ed6d42b907c98"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/094-audit-round-0-58751f426784b007e333-route-checkout/source-context/section-45d73474fae22ee7.json",
+      "sha256": "1dbcc6887dd683707e330e4c7425722f8fb202316d20dd8f661f0c4fc1c798ad"
+    }
+  ],
+  "completedAt": "2026-09-15T06:20:12.237Z"
+}

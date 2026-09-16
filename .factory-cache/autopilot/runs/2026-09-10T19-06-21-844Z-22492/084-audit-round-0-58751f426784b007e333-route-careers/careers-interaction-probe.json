@@ -1,0 +1,19 @@
+{
+  "browser": "Google Chrome",
+  "responseStatus": 200,
+  "count": 6,
+  "initial": [true, false, false, false, false, false],
+  "afterPointerOpenSecond": [true, true, false, false, false, false],
+  "afterPointerCloseSecond": [true, false, false, false, false, false],
+  "afterKeyboardOpenThird": [true, false, true, false, false, false],
+  "afterKeyboardCloseThird": [true, false, false, false, false, false],
+  "ctaHref": "#career-application",
+  "hash": "#career-application",
+  "targetCount": 1,
+  "visibleTargets": 1,
+  "fileInputs": 1,
+  "submitControls": 1,
+  "submitted": false,
+  "pageErrors": [],
+  "consoleErrors": []
+}

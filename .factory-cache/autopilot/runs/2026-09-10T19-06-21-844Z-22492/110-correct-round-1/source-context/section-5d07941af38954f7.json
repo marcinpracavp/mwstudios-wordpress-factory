@@ -1,0 +1,30 @@
+{
+  "id": "about-grain-trade",
+  "manifestRecord": {
+    "id": "about-grain-trade",
+    "order": 48,
+    "snapshot": "sections/37-about-grain-trade.json",
+    "desktopReference": "references/sections/about-grain-trade.png",
+    "name": "Grain trade card",
+    "pageId": "0:1",
+    "desktopNodeId": "519:351"
+  },
+  "contentFields": [
+    {
+      "section": "about-grain-trade",
+      "nodeId": "519:352",
+      "fieldName": "rudnikagro_about.grain_trade.heading",
+      "type": "text",
+      "language": "pl",
+      "value": "Skup i obrót płodami rolnymi"
+    },
+    {
+      "section": "about-grain-trade",
+      "nodeId": "519:351",
+      "fieldName": "rudnikagro_about.grain_trade.content",
+      "type": "wysiwyg",
+      "language": "pl",
+      "value": "<p>Od początku istnienia firmy przykładamy szczególną wagę do obrotu płodami rolnymi – zarówno na rynku krajowym, jak i europejskim. Współpracujemy z największymi odbiorcami zbóż i rzepaku. Posiadamy certyfikaty REDcert oraz GMP+, a także wyróżnienie Diamenty Forbesa.</p><ul><li><strong>Co skupujemy:</strong> Regularnie nabywamy m.in. pszenicę, pszenżyto, jęczmień, żyto, owies, kukurydzę, rzepak, łubin i inne surowce rolne.</li><li><strong>Logistyka:</strong> Zapewniamy sprawny odbiór i transport płodów rolnych przez cały rok.</li><li><strong>Korzyści dla rolnika:</strong> Oferujemy atrakcyjne ceny, terminowe rozliczenia oraz dogodną wymianę handlową (np. płody rolne w zamian za środki ochrony roślin czy nawozy).</li></ul>"
+    }
+  ]
+}

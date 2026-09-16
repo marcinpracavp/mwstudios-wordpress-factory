@@ -1,0 +1,169 @@
+{
+  "source": {
+    "fileKey": "OwiDXrKMVcaHKB9ryYF6mY",
+    "figmaUrl": "https://www.figma.com/design/OwiDXrKMVcaHKB9ryYF6mY/Rudnik-Agro?m=dev"
+  },
+  "status": "complete",
+  "routes": [
+    {
+      "id": "account",
+      "path": "/moje-konto/",
+      "language": "pl",
+      "frameNodeId": "524:2",
+      "reference": "references/full/frame-524-2.png",
+      "width": 1920,
+      "height": 1555,
+      "sections": [
+        "shared-topbar",
+        "shared-secondary-navigation",
+        "shared-primary-navigation",
+        "account-breadcrumbs",
+        "account-login",
+        "account-registration",
+        "shared-footer"
+      ],
+      "buildGroup": "account",
+      "responsiveSource": "derived",
+      "notes": "Source logowanie/rejestracja contains separate native login and registration columns. Planned local route path is an implementation decision inferred from source page identity, not a captured source hyperlink. Uncaptured section IDs remain explicit in this partial execution plan.",
+      "sectionGeometry": {
+        "shared-primary-navigation": {
+          "x": 240,
+          "y": 115,
+          "width": 1440,
+          "height": 78.6761245727539
+        },
+        "account-breadcrumbs": {
+          "frameWidth": 1920,
+          "x": 240,
+          "y": 189,
+          "width": 508,
+          "height": 70
+        },
+        "account-login": {
+          "frameWidth": 1920,
+          "x": 240,
+          "y": 331,
+          "width": 710,
+          "height": 425
+        },
+        "account-registration": {
+          "frameWidth": 1920,
+          "x": 970,
+          "y": 331,
+          "width": 709,
+          "height": 425
+        }
+      }
+    }
+  ],
+  "stateFamilies": [],
+  "sections": [
+    {
+      "id": "account-breadcrumbs",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/27-account-breadcrumbs.json",
+      "contentRecords": 1,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/099-audit-round-0-58751f426784b007e333-route-account/source-context/section-31e26feaa7de0ccb.json",
+        "bytes": 1173,
+        "sha256": "e00e45e5349f444c201149c4c84ad07de3ddd92263480029cd44a78e96045a04"
+      }
+    },
+    {
+      "id": "account-login",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/13-account-login.json",
+      "contentRecords": 6,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/099-audit-round-0-58751f426784b007e333-route-account/source-context/section-2e0ad9cd30cf83e7.json",
+        "bytes": 3766,
+        "sha256": "f010d58b8e4581675fcf5b7a5d67923fd61c80684b75fd6f99ff9d7895ff8973"
+      }
+    },
+    {
+      "id": "account-registration",
+      "manifestRecordPresent": true,
+      "snapshot": ".factory-cache/figma/latest/sections/28-account-registration.json",
+      "contentRecords": 3,
+      "records": {
+        "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/099-audit-round-0-58751f426784b007e333-route-account/source-context/section-30d7682d15ef5a8d.json",
+        "bytes": 2591,
+        "sha256": "3875a9e5f09e176474bc8cbfb89e50ace284df236b8b9d3adcc1ccdc46e4e47f"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "id": "c756eb170f71b048e7d5",
+      "nodeIds": [
+        "524:2"
+      ],
+      "description": "Read compact page composition logowanie/rejestracja 524:2",
+      "path": "observations/c756eb170f71b048e7d5.json"
+    },
+    {
+      "id": "02b0982734cad8fc0d81",
+      "nodeIds": [
+        "524:195"
+      ],
+      "description": "Read source content to identify native product or account state 524:195",
+      "path": "observations/02b0982734cad8fc0d81.json"
+    },
+    {
+      "id": "2ee61187f6062ee4bcb7",
+      "nodeIds": [
+        "524:195",
+        "524:2"
+      ],
+      "description": "Capture logical section account-login for immediate snapshot persistence",
+      "path": "observations/2ee61187f6062ee4bcb7.json"
+    }
+  ],
+  "frames": [
+    {
+      "nodeId": "524:2",
+      "name": "logowanie/rejestracja",
+      "pageId": "0:1",
+      "type": "FRAME",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "524:195",
+      "name": "logowanie",
+      "pageId": "0:1",
+      "type": "FRAME",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "524:3",
+      "name": "Strona główna / Logowanie/rejestracja",
+      "pageId": "0:1",
+      "type": "TEXT",
+      "viewport": "desktop",
+      "language": "pl"
+    },
+    {
+      "nodeId": "524:243",
+      "name": "logowanie",
+      "pageId": "0:1",
+      "type": "FRAME",
+      "viewport": "desktop",
+      "language": "pl"
+    }
+  ],
+  "globalFiles": [
+    {
+      "path": ".factory-cache/figma/latest/design-system.json",
+      "bytes": 8294,
+      "sha256": "5086e8f74a4d3aee56055467846c3f49e9f2791c2a30a873ea30c5a5a87b3863"
+    },
+    {
+      "path": ".factory-cache/figma/latest/components.json",
+      "bytes": 261,
+      "sha256": "fb651cb0bc38b89b71ffa0e6a8b92ec6acbe3bdff6ab7d30ea9c2e39ed12fec5"
+    }
+  ],
+  "lookup": "Observation matches are an index, not a completeness claim. Use targeted rg or inspect JSON pointers for missing node IDs. Never dump the full source files."
+}

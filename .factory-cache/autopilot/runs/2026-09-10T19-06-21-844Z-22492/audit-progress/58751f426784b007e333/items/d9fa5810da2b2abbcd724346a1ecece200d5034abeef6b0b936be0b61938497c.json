@@ -1,0 +1,33 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-cart",
+  "item": "section:cart-heading",
+  "status": "needs_work",
+  "summary": "Inspected the assigned cart-heading reference, rendered and diff crops against the frozen source snapshot. Section geometry passes with only a +1 px y delta, but the crop pixel difference is 10.203%, above the 8.5% page ownership threshold.",
+  "issues": [
+    "CART-HEADING-01 (high, typography): expected source heading DM Sans 700 at 48 px within (237,260,467x68); actual wrapper is (237,261,467x68), while the rendered glyph shape/vertical placement does not align with the reference and yields 10.203% crop difference. Fix font rendering/vertical alignment without changing the already-passing section dimensions."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/cart/comparison.json",
+      "sha256": "df6b06eb684e31ecea62d07a107b8287bd44b073a61d56cc86993f82408e6c79"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/cart/cart-heading-reference.png",
+      "sha256": "3e002469a733a8eeedd7bdd749724b0724dbb82b766c0338c19dfd1523b4433f"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/cart/cart-heading-rendered.png",
+      "sha256": "1116dff32bb37ea0beb132c818c2e104224796e427a7854cd408fb57b772c295"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/cart/cart-heading-diff.png",
+      "sha256": "c6b84cfdb272c1de8fcc175ad80662ec3ae854ef7579b3b40004557f5b359a5a"
+    },
+    {
+      "path": ".factory-cache/figma/latest/sections/56-cart-heading.json",
+      "sha256": "7a3c275423fa7ca27e9173aea336fe70a215bea87977b43224aba57cf59f69e0"
+    }
+  ],
+  "completedAt": "2026-09-15T05:59:38.548Z"
+}

@@ -1,0 +1,612 @@
+{
+  "id": "home-recommended",
+  "manifestRecord": {
+    "id": "home-recommended",
+    "name": "polecane produkty",
+    "order": 22,
+    "pageId": "0:1",
+    "snapshot": "sections/22-home-recommended.json",
+    "desktopNodeId": "140:167",
+    "desktopReference": "references/sections/home-recommended.png"
+  },
+  "contentFields": [
+    {
+      "section": "home-recommended",
+      "nodeId": "140:171",
+      "fieldName": "rudnikagro_home_recommended_140_171",
+      "type": "text",
+      "language": "pl",
+      "value": "1",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:171"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "140:172",
+      "fieldName": "rudnikagro_home_recommended_140_172",
+      "type": "text",
+      "language": "pl",
+      "value": "-",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:172"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "140:173",
+      "fieldName": "rudnikagro_home_recommended_140_173",
+      "type": "text",
+      "language": "pl",
+      "value": "+",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:173"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "140:179",
+      "fieldName": "rudnikagro_home_recommended_140_179",
+      "type": "text",
+      "language": "pl",
+      "value": "Do koszyka",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:179"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "140:180",
+      "fieldName": "rudnikagro_home_recommended_140_180",
+      "type": "text",
+      "language": "pl",
+      "value": "Tavares 250 SE 5 L",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:180"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "140:181",
+      "fieldName": "rudnikagro_home_recommended_140_181",
+      "type": "text",
+      "language": "pl",
+      "value": "1135,00Â zÅ‚",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:181"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "140:187",
+      "fieldName": "rudnikagro_home_recommended_140_187",
+      "type": "text",
+      "language": "pl",
+      "value": "1",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:187"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "140:188",
+      "fieldName": "rudnikagro_home_recommended_140_188",
+      "type": "text",
+      "language": "pl",
+      "value": "-",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:188"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "140:189",
+      "fieldName": "rudnikagro_home_recommended_140_189",
+      "type": "text",
+      "language": "pl",
+      "value": "+",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:189"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "140:195",
+      "fieldName": "rudnikagro_home_recommended_140_195",
+      "type": "text",
+      "language": "pl",
+      "value": "Do koszyka",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:195"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "140:196",
+      "fieldName": "rudnikagro_home_recommended_140_196",
+      "type": "text",
+      "language": "pl",
+      "value": "Goliat Trio 060 FS",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:196"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "140:197",
+      "fieldName": "rudnikagro_home_recommended_140_197",
+      "type": "text",
+      "language": "pl",
+      "value": "525,00Â zÅ‚",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:197"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "140:203",
+      "fieldName": "rudnikagro_home_recommended_140_203",
+      "type": "text",
+      "language": "pl",
+      "value": "1",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:203"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "140:204",
+      "fieldName": "rudnikagro_home_recommended_140_204",
+      "type": "text",
+      "language": "pl",
+      "value": "-",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:204"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "140:205",
+      "fieldName": "rudnikagro_home_recommended_140_205",
+      "type": "text",
+      "language": "pl",
+      "value": "+",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:205"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "140:211",
+      "fieldName": "rudnikagro_home_recommended_140_211",
+      "type": "text",
+      "language": "pl",
+      "value": "Do koszyka",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:211"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "140:212",
+      "fieldName": "rudnikagro_home_recommended_140_212",
+      "type": "text",
+      "language": "pl",
+      "value": "Vivero 500 SC 1l",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:212"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "140:213",
+      "fieldName": "rudnikagro_home_recommended_140_213",
+      "type": "text",
+      "language": "pl",
+      "value": "475,00Â zÅ‚",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:213"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "140:219",
+      "fieldName": "rudnikagro_home_recommended_140_219",
+      "type": "text",
+      "language": "pl",
+      "value": "1",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:219"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "140:220",
+      "fieldName": "rudnikagro_home_recommended_140_220",
+      "type": "text",
+      "language": "pl",
+      "value": "-",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:220"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "140:221",
+      "fieldName": "rudnikagro_home_recommended_140_221",
+      "type": "text",
+      "language": "pl",
+      "value": "+",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:221"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "140:227",
+      "fieldName": "rudnikagro_home_recommended_140_227",
+      "type": "text",
+      "language": "pl",
+      "value": "Do koszyka",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:227"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "140:228",
+      "fieldName": "rudnikagro_home_recommended_140_228",
+      "type": "text",
+      "language": "pl",
+      "value": "Modivo 60 CS",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:228"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "140:229",
+      "fieldName": "rudnikagro_home_recommended_140_229",
+      "type": "text",
+      "language": "pl",
+      "value": "203,52Â zÅ‚",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:229"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "140:233",
+      "fieldName": "rudnikagro_home_recommended_140_233",
+      "type": "text",
+      "language": "pl",
+      "value": "NowoÅ›Ä‡",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:233"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "150:47",
+      "fieldName": "rudnikagro_home_recommended_150_47",
+      "type": "text",
+      "language": "pl",
+      "value": "1",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "150:47"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "150:48",
+      "fieldName": "rudnikagro_home_recommended_150_48",
+      "type": "text",
+      "language": "pl",
+      "value": "-",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "150:48"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "150:49",
+      "fieldName": "rudnikagro_home_recommended_150_49",
+      "type": "text",
+      "language": "pl",
+      "value": "+",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "150:49"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "150:55",
+      "fieldName": "rudnikagro_home_recommended_150_55",
+      "type": "text",
+      "language": "pl",
+      "value": "Do koszyka",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "150:55"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "150:56",
+      "fieldName": "rudnikagro_home_recommended_150_56",
+      "type": "text",
+      "language": "pl",
+      "value": "Modivo 60 CS",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "150:56"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "150:57",
+      "fieldName": "rudnikagro_home_recommended_150_57",
+      "type": "text",
+      "language": "pl",
+      "value": "203,52Â zÅ‚",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "150:57"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "150:61",
+      "fieldName": "rudnikagro_home_recommended_150_61",
+      "type": "text",
+      "language": "pl",
+      "value": "NowoÅ›Ä‡",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "150:61"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "140:235",
+      "fieldName": "rudnikagro_home_recommended_140_235",
+      "type": "text",
+      "language": "pl",
+      "value": "Zobacz wiÄ™cej",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:235"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "140:239",
+      "fieldName": "rudnikagro_home_recommended_140_239",
+      "type": "text",
+      "language": "pl",
+      "value": "Polecane produkty",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:239"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "140:182",
+      "fieldName": "rudnikagro_home_recommended_media_140_182",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/140-182-image1.png",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:182"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "140:199",
+      "fieldName": "rudnikagro_home_recommended_media_140_199",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/140-199-goliattrio1.png",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:199"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "140:215",
+      "fieldName": "rudnikagro_home_recommended_media_140_215",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/140-215-vivero.png",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:215"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "140:231",
+      "fieldName": "rudnikagro_home_recommended_media_140_231",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/140-231-modivo1.png",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:231"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "140:175",
+      "fieldName": "rudnikagro_home_recommended_media_140_175",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/140-175-koszyk4.svg",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:175"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "140:183",
+      "fieldName": "rudnikagro_home_recommended_media_140_183",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/140-183-line6.svg",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:183"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "140:232",
+      "fieldName": "rudnikagro_home_recommended_media_140_232",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/140-232-rectangle40.svg",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:232"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "140:236",
+      "fieldName": "rudnikagro_home_recommended_media_140_236",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/140-236-arrow1.svg",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:236"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "159:116",
+      "fieldName": "rudnikagro_home_recommended_media_159_116",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/159-116-ellipse6.svg",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "159:116"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "159:117",
+      "fieldName": "rudnikagro_home_recommended_media_159_117",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/159-117-vector9.svg",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "159:117"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "159:118",
+      "fieldName": "rudnikagro_home_recommended_media_159_118",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/159-118-ellipse7.svg",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "159:118"
+      }
+    },
+    {
+      "section": "home-recommended",
+      "nodeId": "159:119",
+      "fieldName": "rudnikagro_home_recommended_media_159_119",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/159-119-vector10.svg",
+      "destination": "ACF front page / recommended products tab; native WooCommerce product data and product relationships / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "159:119"
+      }
+    }
+  ]
+}

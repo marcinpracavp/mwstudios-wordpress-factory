@@ -1,0 +1,29 @@
+{
+  "key": "705036bde825ed892951",
+  "unit": "shared-components",
+  "item": "shared:82fd540877f76ce8",
+  "status": "needs_work",
+  "summary": "Fresh careers capture confirms the source SVG phone/e-mail controls and the 411 px search layout are rendered while outer section geometry remains exact.",
+  "issues": [
+    "The secondary-navigation crop remains 14.155%; its sourced Poradnik dla rolnika label has no source destination and is therefore not converted to a fabricated link. The source-backed cart badge value is also absent from the native option data."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/visual-1789542157240/careers/comparison.json",
+      "sha256": "98b76bb5e69da203bbfc3b40e1be1dd64ae3e62d185a083c70b1f4a8293566dc"
+    },
+    {
+      "path": ".factory-cache/autopilot/visual-1789542157240/careers/shared-secondary-navigation-reference.png",
+      "sha256": "ece7ac88b958c880d113cc19cbd528ab724f22c3e1183f428eb0f8e9d656654e"
+    },
+    {
+      "path": ".factory-cache/autopilot/visual-1789542157240/careers/shared-secondary-navigation-rendered.png",
+      "sha256": "4d1b362255dac08db4ee5a105c5ff4aad55b33f9b0c77b3c90e4d2a9d3d3ff0c"
+    },
+    {
+      "path": ".factory-cache/autopilot/visual-1789542157240/careers/shared-secondary-navigation-diff.png",
+      "sha256": "e8bcd0b43668be531b7be9f5e828cbde7a1a79e316fea148c2ebbcf60d9da6ee"
+    }
+  ],
+  "completedAt": "2026-09-16T07:04:37.399Z"
+}

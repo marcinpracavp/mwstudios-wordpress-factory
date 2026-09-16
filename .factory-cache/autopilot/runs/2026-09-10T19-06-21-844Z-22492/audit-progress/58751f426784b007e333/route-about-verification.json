@@ -1,0 +1,38 @@
+{
+  "unit": "route-about",
+  "total": 6,
+  "completed": 6,
+  "pending": [],
+  "results": [
+    {
+      "item": "section:about-introduction",
+      "status": "needs_work",
+      "checkpoint": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/3aa98f8cfbd6591e1e9743eadae042dc46962c53bfe040a2fe6e4ec1654a797f.json"
+    },
+    {
+      "item": "section:about-agricultural-supply",
+      "status": "needs_work",
+      "checkpoint": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/0c869290f7ed37e0fbd3bb017066a34f7482cf5a8e7c9ba472fd86d91cbcc844.json"
+    },
+    {
+      "item": "section:about-grain-trade",
+      "status": "needs_work",
+      "checkpoint": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/c3f81f0894baea48e83ec8419d3271831926712f263a2e852dd71ab87a4c6bd2.json"
+    },
+    {
+      "item": "section:about-insurance",
+      "status": "needs_work",
+      "checkpoint": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/eff818fbb9f63f0bc0870f859c505792d4c054aa7f45ef3128309edcb039e338.json"
+    },
+    {
+      "item": "responsive",
+      "status": "needs_work",
+      "checkpoint": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/e16a44cac8b90c26602801c23778e0710b8d0d376a2ef9d012c2f1c356963de4.json"
+    },
+    {
+      "item": "interactions",
+      "status": "passed",
+      "checkpoint": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/items/ee8eb3437099a5da842abb8e346b23a983e4cdd371542c96456b8428dab93fc6.json"
+    }
+  ]
+}

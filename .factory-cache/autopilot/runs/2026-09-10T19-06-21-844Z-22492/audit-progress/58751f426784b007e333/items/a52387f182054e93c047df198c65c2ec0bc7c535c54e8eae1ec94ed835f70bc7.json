@@ -1,0 +1,35 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-checkout",
+  "item": "interactions",
+  "status": "needs_work",
+  "summary": "Ran a fresh isolated Google Chrome context with source-backed product 121 in the session cart. The alternate-shipping checkbox changed false→true→false and restored cleanly; the coupon field accepted the sourced BLACKFRIDAY value and was cleared without submission; no page errors occurred. No order, payment, message or registration was submitted. The probe found unsafe coupon form ownership and incomplete/non-visible choice controls.",
+  "issues": [
+    "INT-CHECKOUT-001 | critical | coupon submission ownership | Expected Dodaj kod to submit a dedicated WooCommerce coupon form/AJAX action; actual button.form is the main form named checkout with action /zamowienie/. Clicking it could submit checkout data toward order processing, so the audit intentionally did not click it. Remove the invalid nested-form structure and bind the coupon control to a dedicated safe coupon action before interaction acceptance.",
+    "INT-CHECKOUT-002 | high | payment-method interaction | Expected the source-backed payment choices to be selectable; actual isolated checkout has only one payment_method input (bacs), checked but not visibly rendered, so there is no alternative method interaction to exercise. Configure/render the sourced native gateways and visible radio controls.",
+    "INT-CHECKOUT-003 | medium | shipping-method selection state | Expected the single sourced shipping method to present as selected with a visible control; actual isolated checkout has one shipping input (flat_rate:1) that is not visible and reports unchecked. Ensure the native method is selected and its visible radio state mirrors the checkout session."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/comparison.json",
+      "sha256": "f071c2eae56cc3188f09fe2edb1fe6522a928d779a30d651d1ce27e5f15c76ff"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/094-audit-round-0-58751f426784b007e333-route-checkout/interaction-probe.json",
+      "sha256": "84de45d566c49951fad4b3366af9bbc83cf3587b78298cc34a82aa9045bb6542"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/094-audit-round-0-58751f426784b007e333-route-checkout/checkout-interaction-probe.js",
+      "sha256": "16e02a6a21dae140a88da869191e5c66aa5265dd6aaf39674c8fa58bdb450510"
+    },
+    {
+      "path": "woocommerce/checkout/form-checkout.php",
+      "sha256": "bb5cb231bdf95963daedf42d87ca14f53190f7fe9b983bd2c2f6ff0d939a409c"
+    },
+    {
+      "path": "woocommerce/checkout/form-coupon.php",
+      "sha256": "b12a52905fb46487a078bd764fa05779b3dcafa1f4db790c0fc1321246ad6f09"
+    }
+  ],
+  "completedAt": "2026-09-15T06:29:07.185Z"
+}

@@ -1,0 +1,15 @@
+{
+  "status": "needs_work",
+  "summary": "Compared the retained active-state source, render and diff for home-crop-selection. Outer geometry matches, but the active selections, product-type popovers and most vegetable entries shown by the source are absent from the render.",
+  "issues": [
+    "HOME-CROP-01 high active state: expected 'owies' selected in orange and 'seler' selected in green, each with the visible Fungicyd/Herbicyd/Insektycyd/Regulator/Nawóz popover; actual shows no selected cards or popovers. Render the assigned active state and match popover geometry.",
+    "HOME-CROP-02 high content completeness: expected 17 vegetable cards across two rows (including burak, papryka, pieczarka, pietruszka, por, sałata, seler, marchew and ogórek); actual renders only eight vegetables and omits the second row. Restore every source-backed card in source order.",
+    "HOME-CROP-03 medium sizing/spacing: expected approximately 101x101 cards with 20 px horizontal gaps and section heading around y=94; actual cards are about 98x98, compacted into a narrower grid and the heading is around y=91. Match source card dimensions and row/column spacing after content restoration."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/home-crop-selection-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/home-crop-selection-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/home-crop-selection-diff.png"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-account",
+  "item": "section:account-breadcrumbs",
+  "status": "needs_work",
+  "summary": "Inspected the retained account-breadcrumbs reference, rendered and diff crops against source node 524:3. Section geometry matches exactly (x 240, y 189, width 508, height 70); the crop pixel ratio is 0.038329583802024746.",
+  "issues": [
+    "AUD-ACCOUNT-BREADCRUMBS-001 | priority: low | property: separator spacing | expected: source shows ‘Strona główna  /  Logowanie/rejestracja’ with visible spacing on both sides of / | actual: rendered crop shows ‘Strona główna/Logowanie/rejestracja’, with the slash visually attached to the current label | fix: restore the source separator spacing without changing the already-correct section geometry."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/account/comparison.json",
+      "sha256": "73910b4bdb03a2d56bbf8b570c16c403d16052c8f2cbeb8093da48e8c1421341"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/account/account-breadcrumbs-reference.png",
+      "sha256": "cdc3a9c054112cd55ea3d138af2028a1bd67bf902279f0b204b38e0df04b8090"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/account/account-breadcrumbs-rendered.png",
+      "sha256": "b7bab1f048b4a292f4565f2126fa340b459d6cd45b56f12c3610179b1604783d"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/account/account-breadcrumbs-diff.png",
+      "sha256": "3fdf8258638e40b820da649d38736067e74bdc9652ce2ea7b82b06fcad450f81"
+    }
+  ],
+  "completedAt": "2026-09-15T11:47:41.555Z"
+}

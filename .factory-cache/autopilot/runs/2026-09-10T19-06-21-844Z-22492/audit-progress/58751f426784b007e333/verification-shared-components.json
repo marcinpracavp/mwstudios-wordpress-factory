@@ -1,0 +1,15 @@
+{
+  "unit": "shared-components",
+  "expectedItems": 32,
+  "recordedItems": 32,
+  "uniqueRecordedItems": 32,
+  "statusCounts": {
+    "passed": 3,
+    "needs_work": 29,
+    "blocked": 0
+  },
+  "missingItemIds": [],
+  "unexpectedItemIds": [],
+  "missingEvidencePaths": [],
+  "verifiedAt": "2026-09-14T17:52:15.2348126+02:00"
+}

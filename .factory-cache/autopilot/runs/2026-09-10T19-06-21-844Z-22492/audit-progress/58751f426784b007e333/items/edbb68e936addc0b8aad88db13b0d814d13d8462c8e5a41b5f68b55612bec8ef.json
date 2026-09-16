@@ -1,0 +1,35 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-product-archive",
+  "item": "section:archive-filters",
+  "status": "needs_work",
+  "summary": "Compared the assigned source record, reference, rendered crop, diff crop, geometry and crop metric for archive-filters. Outer geometry passes with +1 px Y delta and crop diff is 7.6604%, but the filter internals visibly diverge in hierarchy, control alignment and scroll viewport.",
+  "issues": [
+    "PA-FILTERS-001 [P1] hierarchy/layout: expected the sourced category hierarchy with bullets, chevrons, a green active Fungicydy row and indented crop children; actual list is flattened and omits these visual states. Fix: restore the native category hierarchy and source controls.",
+    "PA-FILTERS-002 [P1] controls/overflow: expected checkboxes inline with labels and ten active-substance rows visible inside a scroll viewport; actual checkboxes break above labels and the visible list ends at Florasulam. Fix: restore row alignment and the source list viewport/scroll sizing.",
+    "PA-FILTERS-003 [P2] price control: expected a dash separator between the od and do fields; actual control omits it. Fix: restore the sourced separator and spacing."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-archive/comparison.json",
+      "sha256": "df0d24b7147e821562753c69568ffa0435eef01394174e1126e9a8d7d93e038c"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-archive/archive-filters-reference.png",
+      "sha256": "34aec98825432409da9453d8eced7ebf254f108aec0ecf70881f1842eae4efca"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-archive/archive-filters-rendered.png",
+      "sha256": "bace2d2fb20105dd509f249ca5c8355752374c13cc0e9ba5de05ab13d7de5047"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-archive/archive-filters-diff.png",
+      "sha256": "e7fbaab2e118a19848a7c8e26b5005e2dd9feee1fbcf9bfc3ac22302c92b5c2f"
+    },
+    {
+      "path": ".factory-cache/figma/latest/sections/70-archive-filters.json",
+      "sha256": "51192b58a8486283ab11a348798f3ddb62111a810d33904cd1b6a72f795ea617"
+    }
+  ],
+  "completedAt": "2026-09-15T06:37:14.109Z"
+}

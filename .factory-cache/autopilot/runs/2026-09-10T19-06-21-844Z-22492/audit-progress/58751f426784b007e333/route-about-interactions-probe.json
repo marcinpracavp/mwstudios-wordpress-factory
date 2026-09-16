@@ -1,0 +1,56 @@
+{
+  "checkedAt": "2026-09-14T22:04:54.860Z",
+  "url": "https://autopilot.local/o-nas/",
+  "httpStatus": 200,
+  "browser": "Google Chrome",
+  "isolatedContext": true,
+  "businessSideEffectsAttempted": false,
+  "assignedSections": [
+    "about-introduction",
+    "about-agricultural-supply",
+    "about-grain-trade",
+    "about-insurance"
+  ],
+  "sections": [
+    {
+      "id": "about-introduction",
+      "present": true,
+      "controls": [],
+      "bounds": {
+        "width": 1400,
+        "height": 331.421875
+      }
+    },
+    {
+      "id": "about-agricultural-supply",
+      "present": true,
+      "controls": [],
+      "bounds": {
+        "width": 1400,
+        "height": 565
+      }
+    },
+    {
+      "id": "about-grain-trade",
+      "present": true,
+      "controls": [],
+      "bounds": {
+        "width": 1400,
+        "height": 631
+      }
+    },
+    {
+      "id": "about-insurance",
+      "present": true,
+      "controls": [],
+      "bounds": {
+        "width": 1400,
+        "height": 695
+      }
+    }
+  ],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "requestFailures": [],
+  "conclusion": "Assigned about-page sections are present and contain no route-owned interactive controls; no external protocol, form, order, payment, email or telephone action was invoked."
+}

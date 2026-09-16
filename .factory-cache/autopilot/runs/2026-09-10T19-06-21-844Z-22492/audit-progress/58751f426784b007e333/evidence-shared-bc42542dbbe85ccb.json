@@ -1,0 +1,15 @@
+{
+  "status": "needs_work",
+  "summary": "Compared home-active shared-secondary-navigation reference, rendered crop, and diff; the active home state retains the same incomplete shared utility/navigation row.",
+  "issues": [
+    "VIS-HOME-ACTIVE-SECONDARY-001 (high) — property: navigation content; expected: six source links; actual: 'Aktualności', 'Poradnik dla rolnika', and 'Katalogi' are missing; fix: restore the complete source-backed link set in order.",
+    "VIS-HOME-ACTIVE-SECONDARY-002 (high) — property: contact/action SVGs and badges; expected: green phone/email icons and heart/cart count badges; actual: contact icons and badges are absent and action glyphs differ; fix: use exact exported SVG attachments and native counts.",
+    "VIS-HOME-ACTIVE-SECONDARY-003 (medium) — property: search/menu distribution; expected: source search width and dense navigation from about x=804; actual: search starts about 71 px later and sparse menu begins about 191 px later; fix: match the source header grid columns and gaps."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/shared-secondary-navigation-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/shared-secondary-navigation-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/shared-secondary-navigation-diff.png"
+  ]
+}

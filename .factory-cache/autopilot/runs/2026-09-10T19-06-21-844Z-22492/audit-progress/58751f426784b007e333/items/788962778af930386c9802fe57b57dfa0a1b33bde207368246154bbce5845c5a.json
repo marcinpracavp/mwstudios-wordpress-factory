@@ -1,0 +1,30 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "shared-components",
+  "item": "shared:9a04b1c8c5bd653d",
+  "status": "needs_work",
+  "summary": "Compared checkout-registration checkout-login-heading via exact retained-bound crops from the reference, rendered image, and diff plus the route metrics. The state reuses the correct text but repeats the failing typography/position (16.164% mismatch).",
+  "issues": [
+    "VIS-CHECKOUT-REGISTRATION-HEADING-001 (high) — property: heading typography; expected: bold source 'Logowanie' with the reference DM Sans glyph metrics; actual: text is visibly narrower/differently weighted and produces a full double-edge diff; fix: apply the exact source H1 font family, size, weight, and line-height.",
+    "VIS-CHECKOUT-REGISTRATION-HEADING-002 (medium) — property: heading position; expected: x=237, y=260, width=467, height=68; actual state reuses x=240, y=261, width=467, height=68; fix: align the shared checkout heading 3 px left and 1 px up."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-registration/comparison.json",
+      "sha256": "fc5785d20f0dd631ae10743cf5c9ab441098d678045cf835c477e068a2f24378"
+    },
+    {
+      "path": ".factory-cache/autopilot/previews/audit-checkout-registration-heading-reference.png",
+      "sha256": "4ac22e78abdcca65893789a71101eec94245efabcd30f6107f4d25890bfda839"
+    },
+    {
+      "path": ".factory-cache/autopilot/previews/audit-checkout-registration-heading-rendered.png",
+      "sha256": "881f8090e537e12c78087b6382db80d7de981c250b3ce5ad4702f217c11401e1"
+    },
+    {
+      "path": ".factory-cache/autopilot/previews/audit-checkout-registration-heading-diff.png",
+      "sha256": "4a51ae90a2d379e73e20c65cdb8c6d8de88454f5e1dfe4736faf927c0c055d19"
+    }
+  ],
+  "completedAt": "2026-09-14T15:45:43.598Z"
+}

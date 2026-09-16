@@ -1,0 +1,31 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "shared-components",
+  "item": "shared:82fd540877f76ce8",
+  "status": "needs_work",
+  "summary": "Compared the careers shared-secondary-navigation reference, rendered crop, and diff; the retained geometry check passes within 0.02 px, but navigation content and icon treatment materially differ.",
+  "issues": [
+    "VIS-SHARED-SECONDARY-NAV-001 (high) — property: navigation content; expected: links 'O nas', 'Aktualności', 'Poradnik dla rolnika', 'Kariera', 'Katalogi', and 'Kontakt'; actual: rendered crop shows only 'O nas', 'Kariera', and 'Kontakt'; fix: restore all source-backed navigation entries in the reference order and spacing.",
+    "VIS-SHARED-SECONDARY-NAV-002 (high) — property: utility icons and badges; expected: green phone and email icons, heart with green count badge, account icon, and cart with green count badge; actual: phone/email icons and both count badges are absent and the heart/cart glyphs differ; fix: use the exact exported source SVG assets and native count badges with reference dimensions and alignment.",
+    "VIS-SHARED-SECONDARY-NAV-003 (medium) — property: search/control placement; expected: search starts near x=368 with width about 411 px; actual: it starts near x=439 and is wider, shifting subsequent controls; fix: match the reference search width and horizontal distribution."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/comparison.json",
+      "sha256": "c25f99b2bcc264070551b6e039f28dda21e564760a062cff7c62bba332f4c82c"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/shared-secondary-navigation-reference.png",
+      "sha256": "ece7ac88b958c880d113cc19cbd528ab724f22c3e1183f428eb0f8e9d656654e"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/shared-secondary-navigation-rendered.png",
+      "sha256": "1a97e1c5826f04289c72b4b64947dbe6c7ae345c4e0e037eb256098190f8fd45"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/shared-secondary-navigation-diff.png",
+      "sha256": "8c903af18270f9a7de933dd65ef907085c8164432b5c9e2cfb7bcce5fe23911e"
+    }
+  ],
+  "completedAt": "2026-09-14T15:17:58.229Z"
+}

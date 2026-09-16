@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "summary": "Ran a fresh isolated headless Chrome session against https://autopilot.local/o-nas/. The route returned HTTP 200; all four assigned page sections were present; there were no page errors, console errors or failed requests. The assigned sections contain no route-owned anchors, buttons, form fields, details/summary elements or tabindex controls, so there is no page-owned interaction to activate. No external protocol, form, order, payment, email or telephone action was attempted; shared-component interactions remain outside this route unit.",
+  "issues": [],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/route-about-interactions.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/audit-progress/58751f426784b007e333/route-about-interactions-probe.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/about/comparison.json"
+  ]
+}

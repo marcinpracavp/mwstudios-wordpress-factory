@@ -1,0 +1,34 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-product-bundle",
+  "item": "section:bundle-benefits",
+  "status": "needs_work",
+  "summary": "Compared the bundle-benefits reference, rendered and diff crops against the frozen content and current geometry. All four sourced labels are present and the outer geometry passes within 1 px, but icon and typography styling materially differ (11.521% crop mismatch).",
+  "issues": [
+    "PB-BENEFITS-001 | priority: high | property: benefit icons | expected: four distinct exact green outline SVGs (quality badge, delivery truck, price tag, package) | actual: every row uses the same text checkmark glyph | fix: render the source-exported editable SVG attachment for each corresponding benefit; do not substitute glyphs.",
+    "PB-BENEFITS-002 | priority: medium | property: benefit typography and spacing | expected: heavier light-gray labels with the source icon-to-label spacing and row rhythm | actual: thinner green labels with tighter icon spacing | fix: match the source font weight/color and per-row alignment while preserving the passing wrapper geometry."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-bundle/comparison.json",
+      "sha256": "89d409e8575ea24865f2a0a206fb66acb04602cd717168a2242f712d5af38e02"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-bundle/bundle-benefits-reference.png",
+      "sha256": "2b3903140b1440806ba6a6d8cfe00c5c5a95f7279b6e5df3f1ec152810cb1036"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-bundle/bundle-benefits-rendered.png",
+      "sha256": "1dce616d63f52055b58f487c832f8da573da0257cc7a095de5c5422d2cf76afb"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-bundle/bundle-benefits-diff.png",
+      "sha256": "7c743d66f114f1ec02fce5f4886cd3a5d028e8a8db0707a1ec51738b4876e6b8"
+    },
+    {
+      "path": ".factory-cache/figma/latest/sections/54-bundle-benefits.json",
+      "sha256": "094e3b082cce60efd980bda3dcf869f8862b8834d01354ce90f7045066786445"
+    }
+  ],
+  "completedAt": "2026-09-15T11:28:09.399Z"
+}

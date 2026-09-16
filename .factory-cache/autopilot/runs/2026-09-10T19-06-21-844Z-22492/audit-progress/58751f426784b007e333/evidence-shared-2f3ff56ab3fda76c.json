@@ -1,0 +1,15 @@
+{
+  "status": "needs_work",
+  "summary": "Compared checkout-login shared-secondary-navigation reference, rendered crop, and diff; the login state uses the same incomplete shared navigation and incorrect utility icons.",
+  "issues": [
+    "VIS-CHECKOUT-LOGIN-SECONDARY-001 (high) — property: link set; expected: all six source links; actual: 'Aktualności', 'Poradnik dla rolnika', and 'Katalogi' are missing; fix: restore the complete source-backed menu in order.",
+    "VIS-CHECKOUT-LOGIN-SECONDARY-002 (high) — property: contact/action icons and badges; expected: green phone/email SVGs and heart/cart green count badges; actual: contact icons and badges are absent and action glyphs differ; fix: use exact exported SVG attachments and native counts.",
+    "VIS-CHECKOUT-LOGIN-SECONDARY-003 (medium) — property: search and menu positioning; expected: search begins near x=366 and full menu follows near x=804; actual: search begins near x=437 and sparse menu begins near x=995; fix: match reference column widths and gaps."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/shared-secondary-navigation-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/shared-secondary-navigation-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/shared-secondary-navigation-diff.png"
+  ]
+}

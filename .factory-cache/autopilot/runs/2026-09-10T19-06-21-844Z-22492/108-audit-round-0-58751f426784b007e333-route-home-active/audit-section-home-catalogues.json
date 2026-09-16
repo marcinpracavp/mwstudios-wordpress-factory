@@ -1,0 +1,16 @@
+{
+  "status": "needs_work",
+  "summary": "Compared the retained 1920 px source, render and diff for home-catalogues. The sourced background, cover artwork and labels are present, but inner banner geometry and crop differ substantially; the section diagnostic mismatch is 40.977%.",
+  "issues": [
+    "HOME-CATALOGUES-01 high banner geometry: expected a 336 px-tall rounded banner beginning 48 px below the section top; actual banner fills the entire 384 px section from y=0. Restore the top whitespace and source banner height/radius.",
+    "HOME-CATALOGUES-02 high content positioning: expected title/download links around x=121 with title y=117 and links y=214/285; actual begins around x=80 with links y=207/256. Match the source left inset and vertical spacing.",
+    "HOME-CATALOGUES-03 high artwork/background crop: expected catalogue covers centered near x=1150 in the source crop and the wheat background at its retained object position; actual covers are shifted right and background details are strongly displaced. Use the retained source assets but correct image box dimensions and object-position.",
+    "HOME-CATALOGUES-04 medium typography: expected regular 18 px catalogue link labels; actual labels render bolder and slightly larger. Match source weight and line-height."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/home-catalogues-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/home-catalogues-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/home-active/home-catalogues-diff.png"
+  ]
+}

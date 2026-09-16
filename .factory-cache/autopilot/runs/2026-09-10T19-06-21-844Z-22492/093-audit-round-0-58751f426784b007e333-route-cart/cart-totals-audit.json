@@ -1,0 +1,17 @@
+{
+  "status": "needs_work",
+  "summary": "Inspected the assigned cart-totals source record and matching reference/rendered/diff crops. The wrapper passes geometry at actual (240,363,1440x473) versus expected (240,364,1440x473), but the crop differs by 10.013%, above the 8.5% threshold. Totals-specific controls and typography do not match the frozen source.",
+  "issues": [
+    "CART-TOTALS-01 (high, missing control): expected Continue shopping control at (240,762,223x44); it is absent from the rendered section crop.",
+    "CART-TOTALS-02 (high, typography): expected coupon and summary headings use DM Sans 700 at 24 px; retained render metrics show both at weight 400 and 24 px.",
+    "CART-TOTALS-03 (high, layout): expected coupon input width is 238 px and the source rows extend to the total at y=704 with checkout near the panel bottom. The render uses visibly narrower coupon controls and compresses the rows, total and checkout upward. Restore source widths and vertical distribution inside the 467x473 totals panel."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/cart/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/cart/metrics.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/cart/cart-totals-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/cart/cart-totals-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/cart/cart-totals-diff.png",
+    ".factory-cache/figma/latest/sections/58-cart-totals.json"
+  ]
+}

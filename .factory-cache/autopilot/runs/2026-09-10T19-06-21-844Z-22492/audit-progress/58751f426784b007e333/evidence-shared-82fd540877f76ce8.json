@@ -1,0 +1,15 @@
+{
+  "status": "needs_work",
+  "summary": "Compared the careers shared-secondary-navigation reference, rendered crop, and diff; the retained geometry check passes within 0.02 px, but navigation content and icon treatment materially differ.",
+  "issues": [
+    "VIS-SHARED-SECONDARY-NAV-001 (high) — property: navigation content; expected: links 'O nas', 'Aktualności', 'Poradnik dla rolnika', 'Kariera', 'Katalogi', and 'Kontakt'; actual: rendered crop shows only 'O nas', 'Kariera', and 'Kontakt'; fix: restore all source-backed navigation entries in the reference order and spacing.",
+    "VIS-SHARED-SECONDARY-NAV-002 (high) — property: utility icons and badges; expected: green phone and email icons, heart with green count badge, account icon, and cart with green count badge; actual: phone/email icons and both count badges are absent and the heart/cart glyphs differ; fix: use the exact exported source SVG assets and native count badges with reference dimensions and alignment.",
+    "VIS-SHARED-SECONDARY-NAV-003 (medium) — property: search/control placement; expected: search starts near x=368 with width about 411 px; actual: it starts near x=439 and is wider, shifting subsequent controls; fix: match the reference search width and horizontal distribution."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/shared-secondary-navigation-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/shared-secondary-navigation-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/shared-secondary-navigation-diff.png"
+  ]
+}

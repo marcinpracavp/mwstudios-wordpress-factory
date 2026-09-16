@@ -8,6 +8,17 @@
 | Header and navigation | `rudnikagro_shared_primary_navigation_*`, `rudnikagro_shared_secondary_navigation_*` | text/textarea; image attachment ID | RudnikAgro options |
 | Footer | `rudnikagro_shared_footer_*` | text/textarea; image attachment ID | RudnikAgro options |
 
+### Secondary-navigation completion fields
+
+| Label | Field name | Type / return | Location |
+| --- | --- | --- | --- |
+| Ikona telefonu | `rudnikagro_shared_secondary_navigation_media_347_1077` | Image / attachment ID | RudnikAgro options / Nagłówek i nawigacja |
+| Tło licznika ulubionych | `rudnikagro_shared_secondary_navigation_media_I625_179;586_587` | Image / attachment ID | RudnikAgro options / Nagłówek i nawigacja |
+| Licznik ulubionych | `rudnikagro_shared_secondary_navigation_222_3` | Text | RudnikAgro options / Nagłówek i nawigacja |
+| Licznik koszyka | `rudnikagro_shared_secondary_navigation_I625_179;586_588` | Text | RudnikAgro options / Nagłówek i nawigacja |
+
+These values map to frozen source nodes `347:1077`, `I625:179;586:587`, `222:3` and `I625:179;586:588`; the existing e-mail field maps to `347:1078`. All media fields return native attachment IDs and remain editor-replaceable.
+
 The field labels and values come from the frozen Figma `content-map.json`; source node IDs remain in that map and imported media gains project-only `_rudnikagro_source_*` provenance metadata. The importer creates a record only once and leaves subsequently populated option fields and owned posts unchanged.
 
 ## Native records

@@ -1,0 +1,33 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-order-confirmed",
+  "item": "section:confirmation-heading",
+  "status": "needs_work",
+  "summary": "Compared the assigned confirmation-heading reference, rendered crop and diff against the frozen source record and route comparison.",
+  "issues": [
+    "OC-VIS-001 (critical, presence/geometry/content): expected the editable heading Podsumowanie at x=237, y=260, 467x68 with 48px bold DM Sans; the comparison found no actual section element (all geometry deltas null), and the rendered crop instead contains the Rudnik header logo. The section crop differs by 86.881%. Fix the order-received capture/state so the confirmation page renders, then expose the section under data-factory-section=confirmation-heading at the source geometry."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/order-confirmed/comparison.json",
+      "sha256": "ebd141bae69283c244c9d9f5b8009815024f2f37de3f47d2328ca94297b2de17"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/order-confirmed/confirmation-heading-reference.png",
+      "sha256": "73b5bb74e76bdfbad07b808e5569aa95681993e8525c9ef21c36154de001004b"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/order-confirmed/confirmation-heading-rendered.png",
+      "sha256": "c1a0d8c1784f357e0ba1a03a9f2d6be86c1fb48241bf52213b8c8d08f62be63e"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/order-confirmed/confirmation-heading-diff.png",
+      "sha256": "1889b090c63143ec0c54055b2b2c659f731525a329a4cc65502d1ecb227941eb"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/103-audit-round-0-58751f426784b007e333-route-order-confirmed/source-context/section-5dd81c5574b30e24.json",
+      "sha256": "ab813d4326cc9eabaf0456d9d672b77718de0f90381097bbe7d936ac37fe80e1"
+    }
+  ],
+  "completedAt": "2026-09-15T17:04:18.814Z"
+}

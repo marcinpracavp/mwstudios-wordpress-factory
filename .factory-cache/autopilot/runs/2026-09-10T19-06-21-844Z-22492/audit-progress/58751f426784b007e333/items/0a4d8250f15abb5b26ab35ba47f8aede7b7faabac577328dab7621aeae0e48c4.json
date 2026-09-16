@@ -1,0 +1,33 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-product-archive",
+  "item": "section:archive-category-description",
+  "status": "needs_work",
+  "summary": "Compared the assigned source record, exact reference, rendered crop, diff crop, geometry and crop metric for archive-category-description. The WYSIWYG headings/body, fade and control are present, and wrapper geometry passes at +1 px Y and -1 px width. The 72.6271% diagnostic crop diff includes extensive pixels outside the page-owned text content and is not used as an independent blocker; within page-owned content the expand-control geometry/spacing remains visibly different.",
+  "issues": [
+    "PA-DESCRIPTION-001 [P2] control geometry/spacing: expected the wider sourced Rozwiń control with a larger gap below the faded text; actual control is approximately 120 px wide and sits visibly closer to the text. Fix: match the control width and vertical spacing to the reference without changing separately owned shared regions."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-archive/comparison.json",
+      "sha256": "df0d24b7147e821562753c69568ffa0435eef01394174e1126e9a8d7d93e038c"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-archive/archive-category-description-reference.png",
+      "sha256": "b51962739ee4cde5e6b5d908689938aac7f4579f85d73829e562906e88187cf8"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-archive/archive-category-description-rendered.png",
+      "sha256": "10a4285728c0fa96f2d0e8c0c0509da3987b41d5c18f425846e844adeebb8c95"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-archive/archive-category-description-diff.png",
+      "sha256": "d406da9f34df2c2a77707a375aa6d75609680222cf590372e613cdb45fb30c56"
+    },
+    {
+      "path": ".factory-cache/figma/latest/sections/74-archive-category-description.json",
+      "sha256": "3a297573b209a5ec4377882456097cad57fe101a35080bd3dfc32944cff993d5"
+    }
+  ],
+  "completedAt": "2026-09-15T06:45:13.071Z"
+}

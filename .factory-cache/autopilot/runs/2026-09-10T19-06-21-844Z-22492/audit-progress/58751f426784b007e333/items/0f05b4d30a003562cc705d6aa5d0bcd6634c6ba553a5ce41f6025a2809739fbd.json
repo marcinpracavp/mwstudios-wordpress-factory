@@ -1,0 +1,65 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-contact",
+  "item": "responsive",
+  "status": "needs_work",
+  "summary": "Inspected all retained derived widths (375, 390, 768, 1024, 1280 and 1440 px), their runtime geometry JSON and screenshots. Fonts are ready and every capture is marked renderHealthy. Contact page sections remain within the viewport at every width; the reported 1 px document overflow at 375 is not attributable to any contact-page section/text/image/link bound and shared header/footer are outside this route unit. Mobile stacking at 375/390/768 and the map crop remain usable, but the form breakpoint at 1024 produces an impractically narrow textarea column.",
+  "issues": [
+    "CONTACT-RESPONSIVE-001 | medium | 1024 px form layout | Expected usable form controls across retained widths; actual contact-form is only 496 px wide at 1024 but retains the desktop two-column split, leaving the message textarea as a narrow strip with its label wrapped over three lines. Fix: stack the form columns or use a balanced responsive column ratio at this breakpoint, then recheck control widths and wrapping."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/contact/comparison.json",
+      "sha256": "4c07bdf7d3e9aaff4e994ea3a6771784e9f9a97a0f78c169ad44f271fa897253"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/contact/responsive-375.json",
+      "sha256": "554898a05af8d6ffb6b6fa92f4e7c27f8ad1b4b0052763049a7e058faecb1aa9"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/contact/responsive-375.png",
+      "sha256": "c69f932bf698d9b27cd22750ff514005cc5deef4dabcc083144908e56815fcd1"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/contact/responsive-390.json",
+      "sha256": "0c6e8e7a03e9e37c89051656436723783e14ba44470e984b6e198956603d3fbd"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/contact/responsive-390.png",
+      "sha256": "34a71228a703f321951f3adf39ee1deac489423e7b9bd422788de906ab4217d6"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/contact/responsive-768.json",
+      "sha256": "6e4d478bc02dde856469aff2cd2adf7162438f92410ba374a31450c76fedcdd6"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/contact/responsive-768.png",
+      "sha256": "646e7d86f59e043ebcce48dbd620bdda66822a57e45cfb20ffefb0e828cf7492"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/contact/responsive-1024.json",
+      "sha256": "612b42e65023cd9679c2f09cab247062ac708f55eb885cae02c922f2eafb04f0"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/contact/responsive-1024.png",
+      "sha256": "208747537e48a5cd1de238c34db8a4c74756394bb7b6a052e1a4faf4665f007c"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/contact/responsive-1280.json",
+      "sha256": "9cdc159c5a402b0aa770fcced06ffe642dd5a009dfba6fee947e387d82c8e508"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/contact/responsive-1280.png",
+      "sha256": "9b849f4ad486bd309f73a065e9758314e7cef7e7723d75e31edec5546626321c"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/contact/responsive-1440.json",
+      "sha256": "28aabefe7ab6143c92dd04709802f8786e30832cde8ef042985e61746b8b8ee1"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/contact/responsive-1440.png",
+      "sha256": "8f2ca008b8d80efd499e16750303f39bd95c78a1f2cc3535bfe5b1cffe3ca373"
+    }
+  ],
+  "completedAt": "2026-09-14T21:46:09.138Z"
+}

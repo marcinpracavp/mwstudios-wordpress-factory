@@ -1,0 +1,15 @@
+{
+  "status": "needs_work",
+  "summary": "Inspected the assigned 1920 px reference, rendered and diff crops for blog-post-list against its frozen source record and current comparison geometry. Container geometry passes at x=200, y=479, width=1520, height=2444 versus expected x=200, y=478, width=1520, height=2444. The section diagnostic pixel difference is 14.864%. The twelve source images, crop boundaries and 30 px rounded corners visually align; the dominant actionable differences are typography/line wrapping, compressed vertical rhythm, and duplicated CTA output in the middle card of row three.",
+  "issues": [
+    "BLOG-LIST-VIS-001 (high, typography/layout): expected 32 px bold card titles with the source line wrapping and row rhythm; actual titles occupy fewer lines across multiple cards and compress the vertical whitespace between rows. Fix the card-title font metrics/available text width and row spacing against the 1920 px source.",
+    "BLOG-LIST-CONTENT-002 (high, duplicated control): expected one 'Czytaj całość →' link per card; actual middle card in row three visibly renders two adjacent copies. Fix the native post/card query or template output so every card emits exactly one CTA."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/blog-archive/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/blog-archive/blog-post-list-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/blog-archive/blog-post-list-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/blog-archive/blog-post-list-diff.png",
+    ".factory-cache/figma/latest/sections/39-blog-post-list.json"
+  ]
+}

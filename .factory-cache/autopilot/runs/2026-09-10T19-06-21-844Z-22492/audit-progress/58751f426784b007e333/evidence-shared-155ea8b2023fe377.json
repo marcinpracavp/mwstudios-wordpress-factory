@@ -1,0 +1,14 @@
+{
+  "status": "needs_work",
+  "summary": "Compared checkout-heading reference, rendered crop, diff, and retained geometry. The source H1 is absent from the expected rendered region and the section marker resolves to an oversized wrapper rather than the heading bounds.",
+  "issues": [
+    "VIS-CHECKOUT-HEADING-001 (critical) — property: visible H1 content; expected: 'Dostawa i płatność' displayed in the retained 467 x 68 source heading region; actual: rendered crop is blank and diff contains the entire title; fix: render the native editable checkout H1 in the expected region with source typography.",
+    "VIS-CHECKOUT-HEADING-002 (high) — property: section geometry/identity; expected: x=237, y=260, width=467, height=68; actual marker bounds: x=240, y=195, width=1440, height=194.156 with 126 px top padding; fix: attach data-factory-section to the semantic heading element or an accurately bounded heading wrapper and match the source position/dimensions."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/checkout-heading-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/checkout-heading-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout/checkout-heading-diff.png"
+  ]
+}

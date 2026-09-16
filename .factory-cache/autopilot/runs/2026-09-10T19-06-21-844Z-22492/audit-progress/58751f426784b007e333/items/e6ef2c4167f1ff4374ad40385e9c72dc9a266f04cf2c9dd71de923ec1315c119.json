@@ -1,0 +1,30 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "shared-components",
+  "item": "shared:25483810be2bd408",
+  "status": "needs_work",
+  "summary": "Compared the careers shared-primary-navigation reference, rendered crop, and diff; section geometry is within tolerance, but the menu typography and horizontal distribution do not reproduce the source.",
+  "issues": [
+    "VIS-SHARED-PRIMARY-NAV-001 (medium) — property: menu horizontal layout; expected: first menu item begins about 309 px into the section with the source inter-item spacing; actual: it begins about 349 px in and the remaining labels are compressed into a different distribution; fix: match the source logo-to-menu gap and per-item spacing while preserving the 1440 px container.",
+    "VIS-SHARED-PRIMARY-NAV-002 (medium) — property: navigation typography; expected: source weight/metrics consistently used across category labels with red 'Promocje'; actual: visible glyph shapes and baselines differ across every label (crop mismatch 9.829%); fix: apply the exact source font weight, size, and line-height to the shared primary menu."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/comparison.json",
+      "sha256": "c25f99b2bcc264070551b6e039f28dda21e564760a062cff7c62bba332f4c82c"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/shared-primary-navigation-reference.png",
+      "sha256": "b163b3f17be6b17037539e842070ca1b1734b17690d71a5a1ae7d0758e99e45b"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/shared-primary-navigation-rendered.png",
+      "sha256": "5fa0f43161c65974323211cce98ca72faa8f760a8dd1a24315f2e28dd8f3f844"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/careers/shared-primary-navigation-diff.png",
+      "sha256": "91c850b60f3f2d050f4126d8928e385cfc24b75d509702f7e4edabc9586203d3"
+    }
+  ],
+  "completedAt": "2026-09-14T15:18:39.655Z"
+}

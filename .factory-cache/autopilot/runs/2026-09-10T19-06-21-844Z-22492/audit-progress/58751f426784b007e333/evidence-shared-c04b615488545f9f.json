@@ -1,0 +1,16 @@
+{
+  "status": "needs_work",
+  "summary": "Compared the about shared-shop-cta reference, rendered crop, diff, and retained geometry. Both pixel crops place the panel about 60 px below the extracted expected bound, proving a source-coordinate defect; visible gradient and text/button rendering still differ.",
+  "issues": [
+    "VIS-ABOUT-CTA-001 (high) — property: retained source y coordinate; expected geometry record: y=2919; actual frozen source pixels: panel begins about 60 px later, matching rendered y=2979.42; fix: correct the section-bound extraction rather than shifting an implementation that agrees with the reference pixels.",
+    "VIS-ABOUT-CTA-002 (medium) — property: gradient; expected: source green transition with a darker right-side blend; actual: the rendered right half is brighter lime and the transition differs; fix: match the source gradient stops, colors, and positions.",
+    "VIS-ABOUT-CTA-003 (medium) — property: heading/button typography and alignment; expected: source heading glyph metrics and vertically centered button; actual: prominent double-edge text diff and button/label sit differently; fix: apply the exact source typography and inner vertical alignment.",
+    "VIS-ABOUT-CTA-004 (low) — property: horizontal section inset; expected extracted x=36; actual and visible source panel align near x=40; fix: reconcile the source-bound extraction with the frozen pixels before changing the 4 px implementation inset."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/about/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/about/shared-shop-cta-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/about/shared-shop-cta-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/about/shared-shop-cta-diff.png"
+  ]
+}

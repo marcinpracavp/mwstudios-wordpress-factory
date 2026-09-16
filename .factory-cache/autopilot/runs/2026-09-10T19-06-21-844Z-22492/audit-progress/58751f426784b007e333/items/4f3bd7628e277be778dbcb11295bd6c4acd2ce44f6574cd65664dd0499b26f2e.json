@@ -1,0 +1,65 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-checkout-login",
+  "item": "responsive",
+  "status": "needs_work",
+  "summary": "Inspected all retained derived-responsive screenshots and probes at 375, 390, 768, 1024, 1280 and 1440px. The checkout options stack at 375/390/768 and return to three columns at 1024/1280/1440; fonts are ready at every width. The route-owned section stays within the viewport at every retained width. The document probe reports 1px overflow only at 375px, but the checkout section itself spans x=20 to x=355 and is not the overflowing owner.",
+  "issues": [
+    "CHK-RESP-LOGIN-001 | high | login action layout at intermediate width | Expected: the primary login action and password-recovery control remain distinct, readable and non-overlapping at every retained width. Actual: in responsive-1024.png the green login button overlaps the left side of the outlined password-recovery control and obscures the start of its label; at 375px the two controls also meet without a safe gap. Fix: add an explicit responsive gap/stacking rule for the login action row before the controls collide, while preserving the source labels and native controls."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/comparison.json",
+      "sha256": "ccec5d86a6c7481aa778179b2a536e4586404b84dd26b38dfb04c426068c7b0f"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/responsive-375.json",
+      "sha256": "0bb62f202edd6825128b904891277895202e85d5dc640e121c54e7a5ff4e6c61"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/responsive-375.png",
+      "sha256": "156e8ada11b270d3fd569109cd6e55101168a223dffe5149f85477b80a100be4"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/responsive-390.json",
+      "sha256": "29e088d9d4b7c37919716c37cdd5321ac3a635d9db68fe32de911e03b995cfe9"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/responsive-390.png",
+      "sha256": "778e8a79f48a6b21ce127c0c29ac6933eb03d5c11763ff3075402649eded1219"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/responsive-768.json",
+      "sha256": "b13887a5b5d0d312fd9555869dd505d4774659857e2e998f3867687b8b4e5750"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/responsive-768.png",
+      "sha256": "efeb8ea7fd9b55cdbcac3a7b69dbe36934522c7158a482732f3f1e0d05a637e1"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/responsive-1024.json",
+      "sha256": "bec119b18ab48dc0c99b9206db63650511abaedf7bf0c0850cce9a053f6399e7"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/responsive-1024.png",
+      "sha256": "c82bf9e2dfa5f2410f18c672a2279c1373d52acef0b879ab020152e0a481a455"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/responsive-1280.json",
+      "sha256": "00cf881ba53240a27bfd6105fde49e7837328b0538c803f66553995e068c3e7e"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/responsive-1280.png",
+      "sha256": "be2c037d064a53cd9a2de5dfdbde2873ca69d046a394da3c58528fa220c8e3cc"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/responsive-1440.json",
+      "sha256": "40f8586b1dfa9833b3af3a67860a1897c8dd9a5dc918e3fbec1849e800fb4832"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/checkout-login/responsive-1440.png",
+      "sha256": "2e9266aa24e3488aa0b206abe39672f59bde8516dac2331e7d538691c020fefc"
+    }
+  ],
+  "completedAt": "2026-09-15T17:28:30.235Z"
+}

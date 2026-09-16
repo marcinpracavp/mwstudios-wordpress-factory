@@ -1,0 +1,14 @@
+{
+  "status": "needs_work",
+  "summary": "Ran a fresh headless Google Chrome session in an isolated 375 px browser context on the assigned #reviews URL. No forms, messages, cart checkout or orders were submitted. Hash-driven activation and pointer clicks correctly switch between description and reviews with exactly one selected tab/active panel and no console/page errors, but mobile visibility and keyboard behavior fail.",
+  "issues": [
+    "AUD-PRODUCT-INT-001 (high, deep-link visibility): on initial #reviews load, reviews is selected and its panel is active, but the 335 px tab scroller remains at scrollLeft=0 while the selected tab lies at viewport x=410..540, completely off-screen. Scroll the selected hash tab into view on initialization or use a layout that keeps the active control visible.",
+    "AUD-PRODUCT-INT-002 (high, keyboard tabs): after focusing the reviews role=tab control, ArrowRight leaves focus and selection on reviews and the hash unchanged instead of navigating to the next tab. Implement the expected tablist keyboard model (arrow navigation plus consistent focus/selection state)."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-reviews-state/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/106-audit-round-0-58751f426784b007e333-route-product-reviews-state/interaction-probe.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/106-audit-round-0-58751f426784b007e333-route-product-reviews-state/interaction-reviews-after-click.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/106-audit-round-0-58751f426784b007e333-route-product-reviews-state/run-interaction-probe.js"
+  ]
+}

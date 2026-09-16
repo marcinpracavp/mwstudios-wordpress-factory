@@ -1,0 +1,15 @@
+{
+  "status": "needs_work",
+  "summary": "Compared the retained 1920 px source, rendered and diff crops for blog-article-content. The wrapper geometry passes with only +0.84375 px height delta and the sourced WYSIWYG/link/button content is visibly present, but accumulated typography and block-spacing differences produce an 18.015994688556253% section mismatch, the route's largest section contributor.",
+  "issues": [
+    "BAC-01 | priority: high | property: WYSIWYG typography and vertical rhythm | expected: source body text is 18 px/24 px, headings are 24 px, and paragraph/heading/link/list blocks follow the retained source positions within the 1025 px text region | actual: line boxes and inter-block margins progressively diverge throughout the rendered crop, with headings, green emphasis, product links, list and closing paragraph displaced relative to the reference; crop mismatch is 18.015994688556253% (298489/1656800 pixels) | fix: match the source body/heading metrics and per-element margins while retaining the accepted section wrapper geometry.",
+    "BAC-02 | priority: medium | property: return-button placement | expected: source return button bounds begin at page y=2379 (section-local y=1046), size 286x44 | actual: the button is present at the bottom but its text/outline pixels remain displaced in the diff as a consequence of the content rhythm mismatch | fix: revalidate exact 286x44 button bounds and label alignment after correcting WYSIWYG flow."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/blog-article/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/blog-article/blog-article-content-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/blog-article/blog-article-content-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/blog-article/blog-article-content-diff.png",
+    ".factory-cache/figma/latest/sections/36-blog-article-content.json"
+  ]
+}

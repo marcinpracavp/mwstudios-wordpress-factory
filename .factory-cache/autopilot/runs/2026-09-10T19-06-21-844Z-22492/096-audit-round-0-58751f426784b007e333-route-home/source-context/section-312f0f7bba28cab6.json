@@ -1,0 +1,768 @@
+{
+  "id": "home-promotions",
+  "manifestRecord": {
+    "id": "home-promotions",
+    "name": "promocje",
+    "order": 19,
+    "pageId": "0:1",
+    "snapshot": "sections/19-home-promotions.json",
+    "desktopNodeId": "222:28",
+    "desktopReference": "references/sections/home-promotions.png"
+  },
+  "contentFields": [
+    {
+      "section": "home-promotions",
+      "nodeId": "140:355",
+      "fieldName": "rudnikagro_home_promotions_140_355",
+      "type": "text",
+      "language": "pl",
+      "value": "Promocja",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:355"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "130:86",
+      "fieldName": "rudnikagro_home_promotions_130_86",
+      "type": "text",
+      "language": "pl",
+      "value": "1",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "130:86"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "130:87",
+      "fieldName": "rudnikagro_home_promotions_130_87",
+      "type": "text",
+      "language": "pl",
+      "value": "-",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "130:87"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "130:88",
+      "fieldName": "rudnikagro_home_promotions_130_88",
+      "type": "text",
+      "language": "pl",
+      "value": "+",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "130:88"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "130:94",
+      "fieldName": "rudnikagro_home_promotions_130_94",
+      "type": "text",
+      "language": "pl",
+      "value": "Do koszyka",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "130:94"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "130:95",
+      "fieldName": "rudnikagro_home_promotions_130_95",
+      "type": "text",
+      "language": "pl",
+      "value": "Rzepak ozimy LG AUCKLAND",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "130:95"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "140:351",
+      "fieldName": "rudnikagro_home_promotions_140_351",
+      "type": "text",
+      "language": "pl",
+      "value": "1Â 545,00Â zÅ‚",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:351"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "140:352",
+      "fieldName": "rudnikagro_home_promotions_140_352",
+      "type": "text",
+      "language": "pl",
+      "value": "1Â 631,00Â zÅ‚",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:352"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "222:111",
+      "fieldName": "rudnikagro_home_promotions_222_111",
+      "type": "text",
+      "language": "pl",
+      "value": "NajniÅ¼sza cena z 30 dni przed obniÅ¼kÄ…: 1631,00 zÅ‚",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "222:111"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "140:306",
+      "fieldName": "rudnikagro_home_promotions_140_306",
+      "type": "text",
+      "language": "pl",
+      "value": "Promocja",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:306"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "130:71",
+      "fieldName": "rudnikagro_home_promotions_130_71",
+      "type": "text",
+      "language": "pl",
+      "value": "1",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "130:71"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "130:72",
+      "fieldName": "rudnikagro_home_promotions_130_72",
+      "type": "text",
+      "language": "pl",
+      "value": "-",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "130:72"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "130:73",
+      "fieldName": "rudnikagro_home_promotions_130_73",
+      "type": "text",
+      "language": "pl",
+      "value": "+",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "130:73"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "130:79",
+      "fieldName": "rudnikagro_home_promotions_130_79",
+      "type": "text",
+      "language": "pl",
+      "value": "Do koszyka",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "130:79"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "130:80",
+      "fieldName": "rudnikagro_home_promotions_130_80",
+      "type": "text",
+      "language": "pl",
+      "value": "Rzepak ozimy LG AMBASSADOR",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "130:80"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "140:296",
+      "fieldName": "rudnikagro_home_promotions_140_296",
+      "type": "text",
+      "language": "pl",
+      "value": "1Â 290,00Â zÅ‚",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:296"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "222:109",
+      "fieldName": "rudnikagro_home_promotions_222_109",
+      "type": "text",
+      "language": "pl",
+      "value": "NajniÅ¼sza cena z 30 dni przed obniÅ¼kÄ…: 1460,00 zÅ‚",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "222:109"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "140:297",
+      "fieldName": "rudnikagro_home_promotions_140_297",
+      "type": "text",
+      "language": "pl",
+      "value": "1Â 460,00Â zÅ‚",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:297"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "150:26",
+      "fieldName": "rudnikagro_home_promotions_150_26",
+      "type": "text",
+      "language": "pl",
+      "value": "1",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "150:26"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "150:27",
+      "fieldName": "rudnikagro_home_promotions_150_27",
+      "type": "text",
+      "language": "pl",
+      "value": "-",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "150:27"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "150:28",
+      "fieldName": "rudnikagro_home_promotions_150_28",
+      "type": "text",
+      "language": "pl",
+      "value": "+",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "150:28"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "150:34",
+      "fieldName": "rudnikagro_home_promotions_150_34",
+      "type": "text",
+      "language": "pl",
+      "value": "Do koszyka",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "150:34"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "150:35",
+      "fieldName": "rudnikagro_home_promotions_150_35",
+      "type": "text",
+      "language": "pl",
+      "value": " Rzepak DK IMMORTAL CL",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "150:35"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "150:36",
+      "fieldName": "rudnikagro_home_promotions_150_36",
+      "type": "text",
+      "language": "pl",
+      "value": "1Â 380,00Â zÅ‚",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "150:36"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "150:37",
+      "fieldName": "rudnikagro_home_promotions_150_37",
+      "type": "text",
+      "language": "pl",
+      "value": "1Â 430,00Â zÅ‚",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "150:37"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "150:40",
+      "fieldName": "rudnikagro_home_promotions_150_40",
+      "type": "text",
+      "language": "pl",
+      "value": "najniÅ¼sza cena z 30 dni przed obniÅ¼kÄ…",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "150:40"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "150:42",
+      "fieldName": "rudnikagro_home_promotions_150_42",
+      "type": "text",
+      "language": "pl",
+      "value": "Promocja",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "150:42"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "130:56",
+      "fieldName": "rudnikagro_home_promotions_130_56",
+      "type": "text",
+      "language": "pl",
+      "value": "1",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "130:56"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "130:57",
+      "fieldName": "rudnikagro_home_promotions_130_57",
+      "type": "text",
+      "language": "pl",
+      "value": "-",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "130:57"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "130:58",
+      "fieldName": "rudnikagro_home_promotions_130_58",
+      "type": "text",
+      "language": "pl",
+      "value": "+",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "130:58"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "130:64",
+      "fieldName": "rudnikagro_home_promotions_130_64",
+      "type": "text",
+      "language": "pl",
+      "value": "Do koszyka",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "130:64"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "130:65",
+      "fieldName": "rudnikagro_home_promotions_130_65",
+      "type": "text",
+      "language": "pl",
+      "value": " Rzepak ozimy DK EXCITED F1",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "130:65"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "130:66",
+      "fieldName": "rudnikagro_home_promotions_130_66",
+      "type": "text",
+      "language": "pl",
+      "value": "1Â 390,00Â zÅ‚",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "130:66"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "140:294",
+      "fieldName": "rudnikagro_home_promotions_140_294",
+      "type": "text",
+      "language": "pl",
+      "value": "1Â 430,00Â zÅ‚",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:294"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "222:107",
+      "fieldName": "rudnikagro_home_promotions_222_107",
+      "type": "text",
+      "language": "pl",
+      "value": "NajniÅ¼sza cena z 30 dni przed obniÅ¼kÄ…: 1430,00 zÅ‚",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "222:107"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "140:289",
+      "fieldName": "rudnikagro_home_promotions_140_289",
+      "type": "text",
+      "language": "pl",
+      "value": "Promocja",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:289"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "222:104",
+      "fieldName": "rudnikagro_home_promotions_222_104",
+      "type": "text",
+      "language": "pl",
+      "value": "NajniÅ¼sza cena z 30 dni przed obniÅ¼kÄ…: 1430,00 zÅ‚",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "222:104"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "127:2",
+      "fieldName": "rudnikagro_home_promotions_127_2",
+      "type": "text",
+      "language": "pl",
+      "value": "1",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "127:2"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "127:4",
+      "fieldName": "rudnikagro_home_promotions_127_4",
+      "type": "text",
+      "language": "pl",
+      "value": "-",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "127:4"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "127:6",
+      "fieldName": "rudnikagro_home_promotions_127_6",
+      "type": "text",
+      "language": "pl",
+      "value": "+",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "127:6"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "126:62",
+      "fieldName": "rudnikagro_home_promotions_126_62",
+      "type": "text",
+      "language": "pl",
+      "value": "Do koszyka",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "126:62"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "126:58",
+      "fieldName": "rudnikagro_home_promotions_126_58",
+      "type": "text",
+      "language": "pl",
+      "value": " Rzepak DK IMMORTAL CL",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "126:58"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "128:8",
+      "fieldName": "rudnikagro_home_promotions_128_8",
+      "type": "text",
+      "language": "pl",
+      "value": "1Â 380,00Â zÅ‚",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "128:8"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "140:244",
+      "fieldName": "rudnikagro_home_promotions_140_244",
+      "type": "text",
+      "language": "pl",
+      "value": "1Â 430,00Â zÅ‚",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:244"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "130:116",
+      "fieldName": "rudnikagro_home_promotions_130_116",
+      "type": "text",
+      "language": "pl",
+      "value": "Promocja",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "130:116"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "130:106",
+      "fieldName": "rudnikagro_home_promotions_130_106",
+      "type": "text",
+      "language": "pl",
+      "value": "Zobacz wiÄ™cej",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "130:106"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "125:46",
+      "fieldName": "rudnikagro_home_promotions_125_46",
+      "type": "text",
+      "language": "pl",
+      "value": "Promocje",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "125:46"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "140:349",
+      "fieldName": "rudnikagro_home_promotions_media_140_349",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/140-349-lg.png",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:349"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "140:292",
+      "fieldName": "rudnikagro_home_promotions_media_140_292",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/140-292-image2.png",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:292"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "140:242",
+      "fieldName": "rudnikagro_home_promotions_media_140_242",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/140-242-rzepak.png",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:242"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "140:354",
+      "fieldName": "rudnikagro_home_promotions_media_140_354",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/140-354-rectangle40.svg",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "140:354"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "130:90",
+      "fieldName": "rudnikagro_home_promotions_media_130_90",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/130-90-koszyk4.svg",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "130:90"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "130:97",
+      "fieldName": "rudnikagro_home_promotions_media_130_97",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/130-97-line6.svg",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "130:97"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "130:107",
+      "fieldName": "rudnikagro_home_promotions_media_130_107",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/130-107-arrow1.svg",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "130:107"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "159:111",
+      "fieldName": "rudnikagro_home_promotions_media_159_111",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/159-111-ellipse4.svg",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "159:111"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "159:112",
+      "fieldName": "rudnikagro_home_promotions_media_159_112",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/159-112-vector7.svg",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "159:112"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "159:113",
+      "fieldName": "rudnikagro_home_promotions_media_159_113",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/159-113-ellipse5.svg",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "159:113"
+      }
+    },
+    {
+      "section": "home-promotions",
+      "nodeId": "159:114",
+      "fieldName": "rudnikagro_home_promotions_media_159_114",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/159-114-vector8.svg",
+      "destination": "ACF front page / promotions tab; native WooCommerce product data and relationship rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "159:114"
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-product-files-state",
+  "item": "section:product-files",
+  "status": "needs_work",
+  "summary": "Compared the product-files source record and exact 1920 px reference/render/diff crop. Wrapper geometry passes with only -0.25 px y and +1 px height deltas, but the crop differs by 9.0010%, above the 8.5% page-owner acceptance.",
+  "issues": [
+    "VIS-PRODUCT-FILES-001 | priority: high | property: download icon | expected: a sourced outlined document/download icon immediately before Pobierz etykietę | actual: the label is rendered without any icon | fix: render the exact source SVG attachment exposed through the assigned editable field, preserving its source dimensions and spacing.",
+    "VIS-PRODUCT-FILES-002 | priority: medium | property: tab and download typography | expected: 18 px bold tab labels and a bold download label with source-aligned widths/positions | actual: all labels render visibly smaller/narrower and shift horizontally relative to reference | fix: match the source font metrics and tab distribution while retaining the native tab controls.",
+    "VIS-PRODUCT-FILES-003 | priority: medium | property: panel geometry/stroke | expected: panel begins at y=76 within the crop with a light rounded outline and download row at x≈120/y≈149 | actual: panel top/stroke and label alignment are offset, with the label at approximately x=120/y=124 | fix: align panel inset, border radius/stroke and content vertical padding to the source crop."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-files-state/comparison.json",
+      "sha256": "f2f40b4549be3c4d290fb1325ea36f527b064830528ff9257572c71e16e244eb"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-files-state/product-files-reference.png",
+      "sha256": "432e315602585e243a78c8561366c778951063487c472188eaa91407961d0634"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-files-state/product-files-rendered.png",
+      "sha256": "cdbd97dd2afd255769be761b424af410f7428705eb54d37770b597f6e6be4207"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-files-state/product-files-diff.png",
+      "sha256": "28e8ff36b542fd60b02e5d6ac713fa287678e03cb9a5cb14da8f69c4c67b1f46"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/107-audit-round-0-58751f426784b007e333-route-product-files-state/source-context/section-bcd8b1c9fe2fe027.json",
+      "sha256": "042f06979afe9e9b89caff186e63270b589308a20adcc9aa271c13f9ca71c57a"
+    }
+  ],
+  "completedAt": "2026-09-15T18:20:52.418Z"
+}

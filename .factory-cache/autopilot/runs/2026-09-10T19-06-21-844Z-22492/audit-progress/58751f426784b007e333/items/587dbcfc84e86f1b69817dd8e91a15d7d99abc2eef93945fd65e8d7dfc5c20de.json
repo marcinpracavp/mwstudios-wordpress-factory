@@ -1,0 +1,33 @@
+{
+  "key": "58751f426784b007e333",
+  "unit": "route-product-reviews-state",
+  "item": "section:product-breadcrumbs",
+  "status": "needs_work",
+  "summary": "Compared the retained product-breadcrumbs reference, current render and diff against the assigned source record. Geometry passes with a 1 px vertical delta and the crop mismatch is 7.494%, but the rendered breadcrumb omits the sourced Herbicydy level.",
+  "issues": [
+    "AUD-PRODUCT-BREADCRUMBS-001 (high, content): expected Strona główna / Środki ochrony Roślin / Herbicydy / Aquatos 5L; actual render is Strona główna / Środki ochrony roślin / Aquatos 5L. Restore the missing Herbicydy breadcrumb and source capitalization while retaining the passing geometry."
+  ],
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-reviews-state/comparison.json",
+      "sha256": "60fb274073d4fb6bf964080254f0a3d61455af90083b78a430d8c78e4719841f"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-reviews-state/product-breadcrumbs-reference.png",
+      "sha256": "ed52c6009e339c5b099cdb5f6cde0f2a4f43b601fb0447f0a677551d1a8141fa"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-reviews-state/product-breadcrumbs-rendered.png",
+      "sha256": "7ef487b24c0e76b2a1143ded4c4b27188cd9b7b11c1e02709778c202b751e41d"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product-reviews-state/product-breadcrumbs-diff.png",
+      "sha256": "4c49c31b9039a925d9f0384eb6a82efc105d66399b3bab861e24dc596bc1cab9"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/106-audit-round-0-58751f426784b007e333-route-product-reviews-state/source-context/section-4b45f0a152f84e7b.json",
+      "sha256": "3ffc12acea16ec237e9475d4cd1d6126a1789c702274006df027d2266d79db82"
+    }
+  ],
+  "completedAt": "2026-09-15T17:59:58.612Z"
+}

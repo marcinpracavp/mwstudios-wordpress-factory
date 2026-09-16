@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "summary": "Compared the retained 1920 px reference, rendered crop, diff and frozen source asset for contact-map. The expected map content, crop, marker, 30 px rounded corners and dimensions are preserved; outer geometry passes within one pixel (expected 728,983,953,568; actual 728,984,952,568). The diagnostic crop difference is 2.586%, below the 8.5% ownership threshold, and the remaining diff is consistent with the one-pixel placement/width delta plus raster edge rendering rather than a wrong asset or crop.",
+  "issues": [],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/contact/comparison.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/contact/contact-map-reference.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/contact/contact-map-rendered.png",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/contact/contact-map-diff.png",
+    ".factory-cache/figma/latest/assets/contact/contact-map-431-924.png",
+    ".factory-cache/figma/latest/sections/44-contact-map.json"
+  ]
+}

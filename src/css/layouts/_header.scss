@@ -101,20 +101,55 @@
 }
 
 .c-promotion-bar { background: $black; color: $white; font-size: 1.4rem; font-weight: 700; }
-.c-promotion-bar__inner { align-items: center; display: flex; justify-content: center; min-height: 40px; }
+.c-promotion-bar__inner { align-items: center; display: flex; justify-content: center; min-height: 40px; position: relative; }
+.c-promotion-bar__label { line-height: 1.25; }
+.c-promotion-bar__control,
+.c-promotion-bar__close {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  display: flex;
+  height: 17px;
+  justify-content: center;
+  padding: 0;
+  position: absolute;
+  width: 17px;
+}
+.c-promotion-bar__control img:first-child { height: 17px; width: 17px; }
+.c-promotion-bar__control img:last-child { height: 7px; position: absolute; width: 7px; }
+.c-promotion-bar__control--previous { left: calc(50% - 112px); }
+.c-promotion-bar__control--next { left: calc(50% + 95px); }
+.c-promotion-bar__close { height: 9px; right: 1px; width: 9px; }
+.c-promotion-bar__close img { height: 9px; width: 9px; }
+.c-promotion-bar__control:focus-visible,
+.c-promotion-bar__close:focus-visible { outline: 1px solid $white; outline-offset: 3px; }
+@media (max-width: $breakpoint-sm) { .c-promotion-bar__control--previous { left: 16px; } .c-promotion-bar__control--next { left: auto; right: 42px; } .c-promotion-bar__close { right: 16px; } }
 .l-header {
   background: $white;
   &__utility, &__primary { align-items: center; display: flex; justify-content: space-between; }
-  &__utility { gap: 20px; height: 42px; margin-left: max(17px, calc((100% - 1446px) / 2)); margin-right: 0; margin-top: 16px; max-width: 1442.824px; min-height: 42px; width: min(calc(100% - 34px), 1442.824px); font-size: 1.4rem; }
+  &__utility { gap: 0; height: 42px; margin-left: max(17px, calc((100% - 1446px) / 2)); margin-right: 0; margin-top: 16px; max-width: 1442.824px; min-height: 42px; width: min(calc(100% - 34px), 1442.824px); font-size: 1.4rem; }
   &__primary { border-top: 0; margin-top: 17px; min-height: 79px; }
-  &__contact, &__actions { align-items: center; display: flex; gap: 20px; white-space: nowrap; }
-  &__contact span:last-child { color: $rudnik-green; font-weight: 700; }
-  &__search { border: 1px solid #ddd; border-radius: 22px; display: flex; flex: 1 1 338px; max-width: 400px; overflow: hidden; }
+  &__contact, &__actions { align-items: center; display: flex; white-space: nowrap; }
+  &__contact { flex: 0 0 332px; gap: 20px; }
+  &__contact a { align-items: center; color: $black; display: flex; gap: 6px; }
+  &__contact a + a { color: $rudnik-green; font-weight: 700; }
+  &__contact img { display: block; flex: 0 0 auto; max-height: 20px; max-width: 20px; }
+  &__contact a:first-child img { height: 20px; width: 20px; }
+  &__contact a + a img { height: 18px; width: 17px; }
+  &__search { border: 1px solid #ddd; border-radius: 22px; display: flex; flex: 0 0 411px; height: 42px; margin-left: 36px; max-width: none; overflow: hidden; }
   &__search input { border: 0; font: inherit; min-width: 0; padding: 10px 16px; width: 100%; }
   &__search button { background: transparent; border: 0; padding: 10px; width: 42px; }
-  &__search img, &__action img { display: block; max-height: 22px; max-width: 22px; }
-  &__secondary-nav ul { display: flex; font-weight: 700; gap: 26px; white-space: nowrap; }
+  &__search img, &__action > img { display: block; max-height: 24px; max-width: 24px; }
+  &__secondary-nav { flex: 0 0 509px; margin-left: 32px; }
+  &__secondary-nav ul { display: flex; font-weight: 700; justify-content: space-between; margin: 0; padding: 0; white-space: nowrap; width: 100%; }
   &__secondary-nav a { color: $black; }
+  &__actions { flex: 0 0 106px; justify-content: space-between; margin-left: 17px; }
+  &__action { align-items: center; display: flex; position: relative; }
+  &__action--favourite > img { height: 24px; width: 24px; }
+  &__action--cart > img { height: 20px; width: 22px; }
+  &__count { align-items: center; color: $white; display: flex; font-size: 8px; font-weight: 700; height: 12px; justify-content: center; line-height: 12px; position: absolute; right: -5px; top: -3px; width: 12px; }
+  &__count img { height: 12px; left: 0; max-height: none; max-width: none; position: absolute; top: 0; width: 12px; }
+  &__count span { position: relative; }
 }
 .c-primary-menu { align-items: center; display: flex; gap: 28px; white-space: nowrap; }
 .c-primary-menu__toggle,

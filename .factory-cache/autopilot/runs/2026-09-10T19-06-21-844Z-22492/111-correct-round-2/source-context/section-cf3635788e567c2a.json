@@ -1,0 +1,79 @@
+{
+  "id": "archive-filters",
+  "manifestRecord": {
+    "id": "archive-filters",
+    "name": "product archive filters",
+    "order": 75,
+    "pageId": "0:1",
+    "snapshot": "sections/70-archive-filters.json",
+    "desktopNodeId": "310:1554",
+    "desktopReference": "references/sections/archive-filters.png"
+  },
+  "contentFields": [
+    {
+      "section": "archive-filters",
+      "nodeId": "304:1407",
+      "fieldName": "rudnikagro_archive_filters_304_1407",
+      "type": "textarea",
+      "language": "pl",
+      "value": "Środki ochrony roślin\nHerbicydy\nFungicydy\n             Zboża            Rzepak            Kukurydza            Buraki            Ziemniaki            Warzywa            Strączkowe            Jagodniki            Sady            Owoce miękkie\nInsektycydy\nRegulatory\nZaprawy\nAdiuwanty\nHandel równoległy - zamienniki\nNawozy i dodatki\nBiostymulatory\nNasiona\nWyprzedaż\nPromocje\nNowości\nPakiety",
+      "destination": "WooCommerce categories / native archive sidebar",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "304:1407"
+      }
+    },
+    {
+      "section": "archive-filters",
+      "nodeId": "306:1505",
+      "fieldName": "rudnikagro_archive_filters_306_1505",
+      "type": "textarea",
+      "language": "pl",
+      "value": "Zboża\nRzepak\nKukurydza\nBuraki\nZiemniaki\nWarzywa\nStrączkowe\nJagodniki\nSady\nOwoce miękkie",
+      "destination": "WooCommerce product attributes / crop filter",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "306:1505"
+      }
+    },
+    {
+      "section": "archive-filters",
+      "nodeId": "574:530",
+      "fieldName": "rudnikagro_archive_filters_574_530",
+      "type": "textarea",
+      "language": "pl",
+      "value": "Etofumesat Fenazachina Fenheksamid Fenmedifam Fenpiroksymat Flonikamid Florasulam Fluazyfop-P-butylowy Fluazynam Fludioksonil",
+      "destination": "WooCommerce product attributes / active-substance filter",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:530"
+      }
+    },
+    {
+      "section": "archive-filters",
+      "nodeId": "344:928",
+      "fieldName": "rudnikagro_archive_filters_344_928",
+      "type": "text",
+      "language": "pl",
+      "value": "od",
+      "destination": "WooCommerce price filter lower placeholder",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "344:928"
+      }
+    },
+    {
+      "section": "archive-filters",
+      "nodeId": "344:951",
+      "fieldName": "rudnikagro_archive_filters_344_951",
+      "type": "text",
+      "language": "pl",
+      "value": "do",
+      "destination": "WooCommerce price filter upper placeholder",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "344:951"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "status": "needs_work",
+  "summary": "Fresh isolated Chrome session at the assigned product route verified HTTP 200, one product root, five tabs, review and download tab activation, direct #reviews activation, description expansion, inquiry open/close, and native variation selection without form submission or POST requests. Runtime emitted no page or console errors. Two state/accessibility defects remain.",
+  "issues": [
+    "INT-PRODUCT-01 (high, state identity): expected the tabs-content data-factory-section identity to be cleared or updated when leaving the downloads state; actual value remains product-files after the description panel becomes the sole active panel. Fix tab activation so every state deterministically resets and then assigns the correct section identity.",
+    "INT-PRODUCT-02 (medium, keyboard tabs): expected ArrowRight on the ARIA tablist to move focus/selection to the next tab; actual focus remains technical and selected tab remains reviews. Implement standard tablist arrow-key handling while retaining click and hash behavior."
+  ],
+  "evidence": [
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/092-audit-round-0-58751f426784b007e333-route-product/interaction-audit.json",
+    ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789346670154/product/comparison.json"
+  ]
+}
