@@ -10,6 +10,11 @@
 @import '@fontsource/dm-sans/400.css';
 @import '@fontsource/dm-sans/700.css';
 
+// The scoped design-system uses DM Sans Regular (400) and Bold (700).
+$dm-sans-font-family: 'DM Sans', sans-serif;
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+
 $Poppins-weights: (
   200: 'ExtraLight',
   300: 'Light',

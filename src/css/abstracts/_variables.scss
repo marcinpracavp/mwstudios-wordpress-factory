@@ -26,8 +26,8 @@ $base-background-colour: $white;
 /**
  * Typography
  */
-$poppins-font-family: "DM Sans", sans-serif;
-$geist-font-family: "DM Sans", sans-serif;
+$poppins-font-family: $dm-sans-font-family;
+$geist-font-family: $dm-sans-font-family;
 
 $base-font-family: $poppins-font-family;
 $heading-font-family: $geist-font-family;

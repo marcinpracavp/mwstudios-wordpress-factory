@@ -7,7 +7,7 @@ $breadcrumbs = $option('rudnikagro_account_breadcrumb');
 $account_url = function_exists('wc_get_page_permalink') ? wc_get_page_permalink('myaccount') : home_url('/');
 $lost_password_url = function_exists('wc_lostpassword_url') ? wc_lostpassword_url() : wp_lostpassword_url();
 ?>
-<main class="c-account" data-factory-component="account-authentication">
+<div class="c-account" data-factory-component="account-authentication">
     <nav class="c-account__breadcrumbs" data-factory-section="account-breadcrumbs" aria-label="<?php echo esc_attr__('Breadcrumb', 'rudnikagro'); ?>">
         <?php if (is_array($breadcrumbs)) : ?>
             <?php foreach ($breadcrumbs as $index => $item) : ?>
@@ -73,4 +73,4 @@ $lost_password_url = function_exists('wc_lostpassword_url') ? wc_lostpassword_ur
             </details>
         </section>
     </div>
-</main>
+</div>

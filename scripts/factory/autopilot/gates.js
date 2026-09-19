@@ -29,12 +29,14 @@ function inventory() {
   for (const f of m.productionFrames || []) if (['production', 'state'].includes(f.classification) && !m.routes?.some(r => r.frameNodeId === f.nodeId)) errors.push(`Unmapped frame ${f.nodeId}`);
   return { passed: !errors.length, errors, routes: m.routes?.length };
 }
-function group(id) {
+function group(id, selected = null) {
   const errors = [], m = read(path.join(SNAPSHOT, 'manifest.json'));
   const routes = m.routes.filter(r => r.buildGroup === id);
   if (!routes.length) errors.push(`Unknown buildGroup ${id}`);
   const valid = new Ajv({ allErrors: true, strict: true, allowUnionTypes: true }).compile(read(path.join(ROOT, 'factory/schemas/figma-section.schema.json')));
-  for (const id of [...new Set(routes.flatMap(r => r.sections))]) {
+  const all = [...new Set(routes.flatMap(r => r.sections))];
+  if (selected && selected.some(id => !all.includes(id))) errors.push('Unknown selected section');
+  for (const id of selected || all) {
     const entry = m.sections.find(s => s.id === id);
     if (!entry) { errors.push(`Missing section ${id}`); continue; }
     try {
@@ -99,7 +101,7 @@ function snapshot({ allowPartial = false } = {}) {
 }
 if (require.main === module) {
   try {
-    const result = process.argv[2] === 'inventory' ? inventory() : process.argv[2] === 'group' ? group(process.argv[3]) : snapshot();
+    const result = process.argv[2] === 'inventory' ? inventory() : process.argv[2] === 'group' ? group(process.argv[3],process.argv.length>4?process.argv.slice(4):null) : snapshot();
     console.log(JSON.stringify(result, null, 2)); process.exitCode = result.passed ? 0 : 1;
   } catch (e) { console.error(e.message); process.exitCode = 1; }
 }

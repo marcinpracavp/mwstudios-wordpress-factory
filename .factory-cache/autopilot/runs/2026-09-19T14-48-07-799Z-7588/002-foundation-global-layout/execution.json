@@ -1,0 +1,24 @@
+{
+  "startedModel": "gpt-5.6-luna",
+  "model": "luna",
+  "reasoningEffort": "high",
+  "threadId": "01a0ba3e-8063-7a51-a9a6-6c24d87d7b64",
+  "resumedFrom": null,
+  "usage": {
+    "input_tokens": 3236888,
+    "cached_input_tokens": 3100160,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 22545,
+    "reasoning_output_tokens": 8767
+  },
+  "exit": {
+    "code": 0,
+    "signal": null
+  },
+  "failure": {
+    "message": "TASK_REPORTED_TOKEN_BUDGET"
+  },
+  "completed": true,
+  "observedBytes": 754939,
+  "finishedAt": "2026-09-19T15:29:41.691Z"
+}

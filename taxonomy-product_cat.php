@@ -17,7 +17,7 @@ $filter_groups = [
 ];
 $categories = rudnikagro_lines((string) ($archive['filter_categories'] ?? ''));
 ?>
-<main class="c-product-archive" data-factory-route="product-archive">
+<div class="c-product-archive" data-factory-route="product-archive" data-factory-component="product-archive-layout">
   <div class="l-container c-product-archive__container">
     <nav class="c-product-archive__breadcrumbs" aria-label="Breadcrumb" data-factory-section="archive-breadcrumbs">
       <?php echo esc_html((string) ($archive['breadcrumbs'] ?? '')); ?>
@@ -75,5 +75,5 @@ $categories = rudnikagro_lines((string) ($archive['filter_categories'] ?? ''));
       </div>
     </div>
   </div>
-</main>
+</div>
 <?php get_footer();

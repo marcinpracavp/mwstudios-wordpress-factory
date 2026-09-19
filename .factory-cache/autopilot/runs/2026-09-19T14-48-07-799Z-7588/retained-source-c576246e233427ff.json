@@ -1,0 +1,12 @@
+{
+  "gate": {
+    "passed": true,
+    "errors": [],
+    "group": "about"
+  },
+  "sourceHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+  "scope": [
+    "about-agricultural-supply"
+  ],
+  "note": "Validated complete local snapshot reused; no new Figma request or source review claimed."
+}

@@ -1,0 +1,32 @@
+{
+  "task": {
+    "id": "global-layout"
+  },
+  "sourceContext": {
+    "version": 7,
+    "available": true,
+    "index": {
+      "path": ".factory-cache/autopilot/runs/2026-09-19T14-48-07-799Z-7588/002-foundation-global-layout/source-context/index.json",
+      "bytes": 2864,
+      "sha256": "dc04c1a7d3ca608c7a41e1108abe89e5ac56abba3533a619de725a1552e40ab2"
+    }
+  },
+  "model": "gpt-5.6-luna",
+  "reasoningEffort": "high",
+  "continuation": "fresh session using persisted artifacts; do not load historical conversation",
+  "previousExecution": ".factory-cache/autopilot/runs/2026-09-19T14-48-07-799Z-7588/001-foundation-global-layout/execution.json",
+  "previousResult": null,
+  "correctionFocus": [],
+  "currentPageVerification": null,
+  "auditCheckpoint": null,
+  "snapshot": ".factory-cache/figma/latest",
+  "observations": ".factory-cache/figma/latest/observations/index.json",
+  "plans": [
+    "docs/factory/project/PLAN.md",
+    "docs/factory/project/STATUS.md",
+    "docs/factory/project/SOURCE_CLARIFICATIONS.md",
+    "docs/factory/project/REUSABLE_COMPONENTS.md"
+  ],
+  "currentGate": null,
+  "instruction": "Inspect the current gate and finish only remaining assigned work. Reuse real saved source facts and assets."
+}

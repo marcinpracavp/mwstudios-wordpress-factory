@@ -24,4 +24,4 @@
     ?>
     <?php get_template_part('partials/header'); ?>
 
-    <main id="main-content">
+    <main id="main-content" data-factory-component="route-shell">

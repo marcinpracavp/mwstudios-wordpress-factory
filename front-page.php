@@ -40,7 +40,7 @@ $product_card = function ($item) use ($sections): void {
     <?php
 };
 ?>
-<main class="c-home">
+<div class="c-home" data-factory-component="home-layout">
     <section class="c-home-hero" data-factory-section="home-hero"<?php if (!empty($hero['image'])) : ?> style="background-image:url('<?php echo esc_url(wp_get_attachment_image_url((int) $hero['image'], 'full')); ?>')"<?php endif; ?>>
         <div class="c-home-hero__content">
             <h1><?php echo nl2br(esc_html((string) ($hero['heading'] ?? ''))); ?></h1>
@@ -68,5 +68,5 @@ $product_card = function ($item) use ($sections): void {
     <section class="c-home-blog" data-factory-section="home-blog"><header><h2><?php echo esc_html((string) ($blog['heading'] ?? '')); ?></h2><?php if (!empty($blog['cta_label'])) : ?><a class="c-home-button" href="<?php echo esc_url(get_permalink((int) get_option('page_for_posts'))); ?>"><?php echo esc_html($blog['cta_label']); ?><span aria-hidden="true">→</span></a><?php endif; ?></header><div class="c-home-blog__grid"><?php $posts = !empty($blog['posts']) ? (array) $blog['posts'] : get_posts(['post_type' => 'post', 'post_status' => 'publish', 'posts_per_page' => 3, 'meta_key' => '_rudnikagro_blog_source_order', 'orderby' => 'meta_value_num', 'order' => 'ASC']); foreach ($posts as $post_id) : $post_id = is_object($post_id) ? $post_id->ID : (int) $post_id; $image_id = function_exists('get_field') ? (int) get_field('rudnikagro_blog_card_image', $post_id) : 0; $date = function_exists('get_field') ? (string) get_field('rudnikagro_blog_card_date', $post_id) : ''; $image_id = $image_id ?: (int) get_post_thumbnail_id($post_id); ?><article><?php if ($image_id) : ?><a href="<?php echo esc_url(get_permalink($post_id)); ?>"><?php echo wp_get_attachment_image($image_id, 'large', false, ['alt' => '']); ?></a><?php endif; ?><time datetime="<?php echo esc_attr(get_the_date('c', $post_id)); ?>"><?php echo esc_html($date ?: get_the_date('', $post_id)); ?></time><h3><a href="<?php echo esc_url(get_permalink($post_id)); ?>"><?php echo esc_html(get_the_title($post_id)); ?></a></h3><a class="c-home-read" href="<?php echo esc_url(get_permalink($post_id)); ?>"><?php esc_html_e('Czytaj całość', 'rudnikagro'); ?> <span aria-hidden="true">→</span></a></article><?php endforeach; ?></div></section>
 
     <section class="c-home-knowledge" data-factory-section="home-knowledge"<?php if (!empty($knowledge['background'])) : ?> style="background-image:url('<?php echo esc_url(wp_get_attachment_image_url((int) $knowledge['background'], 'full')); ?>')"<?php endif; ?>><div class="l-container c-home-knowledge__items"><?php foreach ((array) ($knowledge['items'] ?? []) as $index => $item) : $is_open = $index === 0; $icon = (int) ($item[$is_open ? 'open_icon' : 'closed_icon'] ?? 0); ?><details<?php echo $is_open ? ' open' : ''; ?>><summary><?php echo esc_html((string) ($item['title'] ?? '')); ?><?php if ($icon) : ?><?php echo rudnikagro_image($icon, 'c-home-knowledge__icon', ['alt' => '']); ?><?php endif; ?></summary><div><?php echo wp_kses_post((string) ($item['content'] ?? '')); ?></div></details><?php endforeach; ?></div></section>
-</main>
+</div>
 <?php get_footer();

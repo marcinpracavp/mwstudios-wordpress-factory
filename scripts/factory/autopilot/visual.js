@@ -44,7 +44,7 @@ async function metrics(page) {
       fontsReady: document.fonts.status === 'loaded',
       sections: Array.from(document.querySelectorAll('[data-factory-section]')).map(el => ({ id: el.dataset.factorySection,
         landmark: el.closest('footer,[role="contentinfo"]') ? 'footer' : el.closest('header,[role="banner"]') ? 'header' : null,
-        component: el.dataset.factoryComponent || null, ...rect(el), style: style(el) })),
+        component: el.dataset.factoryComponent || null, html: (() => { const copy=el.cloneNode(true); copy.querySelectorAll('script,iframe').forEach(n=>n.remove()); copy.querySelectorAll('input,textarea').forEach(n=>{n.removeAttribute('value');n.textContent='';}); return copy.outerHTML.slice(0,2400); })(), ...rect(el), style: style(el) })),
       texts: Array.from(document.querySelectorAll('h1,h2,h3,p,button,.button,label')).map(el => ({ text: el.textContent.trim(), ...rect(el), style: style(el) })),
       images: Array.from(document.images).map(el => ({ src: el.currentSrc || el.src, loaded: el.complete && el.naturalWidth > 0, ...rect(el), style: style(el) })),
       links: Array.from(document.querySelectorAll('a')).map(el => ({ text: el.textContent.trim(), href: el.getAttribute('href') }))
@@ -273,4 +273,4 @@ if(require.main===module) {
     .then(r=>{const ready=acceptanceScope==='page'?r.buildReady:r.passed;console.log(`VISUAL ${acceptanceScope} ${r.deferred.length?'DEFERRED TO FINAL':ready?'PASS':'FAIL'}`);process.exitCode=ready?0:1;})
     .catch(e=>{console.error(e.message);process.exitCode=1;});
 }
-module.exports={captureAll,sourceHash};
+module.exports={captureAll,sourceHash,settle,metrics,loadProjectHooks};

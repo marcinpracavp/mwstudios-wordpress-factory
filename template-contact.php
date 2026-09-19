@@ -42,7 +42,7 @@ function rudnikagro_contact_lines($value): void {
   ]); ?>
 <?php endif; ?>
 
-<main class="c-contact l-container" data-factory-component="contact-layout">
+<div class="c-contact l-container" data-factory-component="contact-layout">
   <?php if ($blocks) : ?>
     <section class="c-contact__details" data-factory-section="contact-details">
       <?php foreach ($blocks as $index => $block) :
@@ -79,6 +79,6 @@ function rudnikagro_contact_lines($value): void {
       </section>
     <?php endif; ?>
   </div>
-</main>
+</div>
 
 <?php get_footer();

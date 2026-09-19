@@ -112,10 +112,10 @@ function saveItem(file,unitId,itemId,inputFile) {
   write(target,record);
   console.log(`AUDIT CHECKPOINT ${unitId}/${itemId}: ${input.status}`);
 }
-function packet(file,unitId) {
+function packet(file,unitId,limit = Infinity) {
   const state=ledger(file),unit=state.units.find(u=>u.id===unitId);
   if(!unit) throw Error('AUDIT_UNIT_UNKNOWN');
-  const all=records(file,state,unit),pending=all.filter(r=>!r.record).map(r=>r.item);
+  const all=records(file,state,unit),pending=all.filter(r=>!r.record).map(r=>r.item).slice(0,limit);
   const routes=[...new Set(pending.map(i=>i.route).filter(Boolean))];
   const output=path.join(path.dirname(inside(ROOT,file)),`packet-${unitId}.json`);
   // Show only the newest candidate of each report type; older originals remain on disk.

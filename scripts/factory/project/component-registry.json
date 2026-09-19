@@ -1,0 +1,110 @@
+[
+  {
+    "id": "site-navigation",
+    "sections": [
+      "shared-topbar",
+      "shared-secondary-navigation",
+      "shared-primary-navigation",
+      "shared-primary-navigation-active"
+    ],
+    "files": [
+      "partials/header.php",
+      "partials/menu-mobile.php",
+      "src/css/layouts/_header.scss",
+      "src/css/components/_topbar.scss",
+      "src/css/components/_menu-mobile.scss"
+    ]
+  },
+  {
+    "id": "page-banner-breadcrumb",
+    "sections": [
+      "careers-heading",
+      "catalogues-heading",
+      "about-heading",
+      "contact-heading",
+      "blog-article-heading",
+      "blog-archive-heading"
+    ],
+    "files": [
+      "partials/page-banner.php",
+      "src/css/components/_page-banner.scss"
+    ]
+  },
+  {
+    "id": "commerce-breadcrumb",
+    "sections": [
+      "product-breadcrumbs",
+      "bundle-breadcrumbs",
+      "archive-breadcrumbs",
+      "account-breadcrumbs"
+    ],
+    "files": [
+      "single-product.php",
+      "taxonomy-product_cat.php",
+      "partials/account-form.php",
+      "src/css/pages/_product.scss",
+      "src/css/pages/_product-archive.scss",
+      "src/css/pages/_account.scss"
+    ]
+  },
+  {
+    "id": "catalogue-card-grid",
+    "sections": [
+      "catalogues-downloads"
+    ],
+    "files": [
+      "page-catalogues.php",
+      "src/css/pages/_catalogues.scss"
+    ]
+  },
+  {
+    "id": "product-card-grids",
+    "sections": [
+      "home-promotions",
+      "home-bundles",
+      "home-recommended",
+      "product-related",
+      "archive-product-grid"
+    ],
+    "files": [
+      "front-page.php",
+      "single-product.php",
+      "taxonomy-product_cat.php",
+      "src/css/pages/_home.scss",
+      "src/css/pages/_product.scss",
+      "src/css/pages/_product-archive.scss"
+    ]
+  },
+  {
+    "id": "blog-card-grid",
+    "sections": [
+      "blog-post-list",
+      "blog-related-posts"
+    ],
+    "files": [
+      "partials/blog-card.php",
+      "src/css/components/_blog-card.scss",
+      "src/css/pages/_blog-archive.scss"
+    ]
+  },
+  {
+    "id": "shop-cta",
+    "sections": [
+      "shared-shop-cta"
+    ],
+    "files": [
+      "partials/shop-cta.php",
+      "src/css/pages/_catalogues.scss"
+    ]
+  },
+  {
+    "id": "site-footer",
+    "sections": [
+      "shared-footer"
+    ],
+    "files": [
+      "partials/footer.php",
+      "src/css/layouts/_footer.scss"
+    ]
+  }
+]

@@ -3,7 +3,8 @@ const path = require('path');
 const crypto = require('crypto');
 const { spawnSync } = require('child_process');
 
-const ROOT = path.resolve(__dirname, '../../..');
+// Explicit isolated workspace support for reproducible smoke projects. Defaults to this theme.
+const ROOT = path.resolve(process.env.FACTORY_AUTOPILOT_ROOT || path.resolve(__dirname, '../../..'));
 const CACHE = path.join(ROOT, '.factory-cache/autopilot');
 const SNAPSHOT = path.join(ROOT, '.factory-cache/figma/latest');
 const read = (file) => JSON.parse(fs.readFileSync(file, 'utf8').replace(/^\uFEFF/, ''));

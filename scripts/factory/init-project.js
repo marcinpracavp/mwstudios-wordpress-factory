@@ -601,6 +601,7 @@ function writeConfiguration({
     throw new Error('docs/factory/PROJECT_CONTEXT.md changed while the initializer was running. No files were written.');
   }
 
+  require('./autopilot/custom-instructions').load(path.dirname(path.dirname(projectPath)));
   generateProjectContext(project);
   fs.mkdirSync(path.dirname(projectPath), { recursive: true });
 

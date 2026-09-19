@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "id": "v2:discovery:detail-a3a9391568cd0a49",
+  "binding": "9b30eabe0a35884d34b6794d906ca571e17f2b1f2f8a6b413552e2139c55f592",
+  "status": "passed",
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-19T14-48-07-799Z-7588/retained-source-0e449f8939509395.json",
+      "sha256": "a8c73e73962e2757d98ee0f91ff93f435e2dd1549b001588ee6961fa50651e3b"
+    }
+  ],
+  "outputs": [],
+  "result": {
+    "status": "passed",
+    "summary": "Validated complete source cache retained",
+    "issues": [],
+    "evidence": [
+      ".factory-cache/autopilot/runs/2026-09-19T14-48-07-799Z-7588/retained-source-0e449f8939509395.json"
+    ]
+  },
+  "savedAt": "2026-09-19T14:48:13.395Z"
+}

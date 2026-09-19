@@ -1,0 +1,16 @@
+Website Factory validation
+
+✓ project manifest
+✓ capability registry
+✓ capability configuration
+✓ project identifiers
+✓ required capabilities
+✓ capability dependencies
+✓ languages
+✓ environment
+✓ Figma configuration
+✓ Figma snapshot configuration
+✓ QA configuration
+✓ release contract
+
+FACTORY VALID

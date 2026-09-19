@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "id": "v2:foundation:global-layout",
+  "binding": "80d017083846563049054f339f1665e9186a32257a1566a86cbaeaf112f81995",
+  "status": "passed",
+  "evidence": [
+    {
+      "path": "src/css/abstracts/_fonts.scss",
+      "sha256": "03c8c78ac7a7e70594492c18c6694ef127df997f0f33fa96911dd59502278a7a"
+    },
+    {
+      "path": "src/css/abstracts/_variables.scss",
+      "sha256": "eea1aa4ffb0ae82c2a10804924433ee77915757291508ba7c3a1aac8acd4aae9"
+    },
+    {
+      "path": "src/css/base/_base.scss",
+      "sha256": "653dd47a1feadf241a9f76af2893526d683772d51ebae018df6eeede5e65a4e6"
+    },
+    {
+      "path": "header.php",
+      "sha256": "9e6fe5a4e4e070e417159febe0cb4ac3c4e094b6eef34b78acb7ff4b9bf01670"
+    },
+    {
+      "path": "footer.php",
+      "sha256": "2aadaa0761cc36786eee834d96e764e7df5d3f7d9a6bdf42ec035435bca26c80"
+    },
+    {
+      "path": "scripts/factory/project/component-registry.json",
+      "sha256": "f1cda4044cab4ac221c094fb94e53675b1703c5d4b5f9d510af7e77d95480e93"
+    },
+    {
+      "path": "dist/build-style.css",
+      "sha256": "3952f8d2b78a4baf484d2b55716bd05b741145a030a7719b1d5078c9f72ac620"
+    },
+    {
+      "path": "build-global-layout.log",
+      "sha256": "263f6cb2fe4f1df34b7904d6fa5bdbac8dbd63fc70bf5e29d752ccd176934bec"
+    },
+    {
+      "path": "php-lint-global-layout.log",
+      "sha256": "f523050bfe5a3ef83c7570430f693c42385ab52d54f1c6b2ea94fdbabe500827"
+    },
+    {
+      "path": "global-layout-evidence.log",
+      "sha256": "b1e90005a5400014e6316d18b9112bc6bb971e050dfdf09ea528a58411b66182"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-19T14-48-07-799Z-7588/retained-result-a95336cea6b11a82-1789832168778/validation.json",
+      "sha256": "94c6938e461301c436c39f23df60fe581377b7095dd9ec211793a2ead830be8a"
+    },
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-19T14-48-07-799Z-7588/retained-result-a95336cea6b11a82-1789832168778/build.log",
+      "sha256": "db5c21ec060239ccdeb084c5862235fcabb13385989403c08670d021fe64f5fc"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "src/css/abstracts/_fonts.scss",
+      "sha256": "03c8c78ac7a7e70594492c18c6694ef127df997f0f33fa96911dd59502278a7a"
+    },
+    {
+      "path": "src/css/abstracts/_variables.scss",
+      "sha256": "eea1aa4ffb0ae82c2a10804924433ee77915757291508ba7c3a1aac8acd4aae9"
+    },
+    {
+      "path": "src/css/base/_base.scss",
+      "sha256": "653dd47a1feadf241a9f76af2893526d683772d51ebae018df6eeede5e65a4e6"
+    },
+    {
+      "path": "header.php",
+      "sha256": "9e6fe5a4e4e070e417159febe0cb4ac3c4e094b6eef34b78acb7ff4b9bf01670"
+    },
+    {
+      "path": "footer.php",
+      "sha256": "2aadaa0761cc36786eee834d96e764e7df5d3f7d9a6bdf42ec035435bca26c80"
+    },
+    {
+      "path": "scripts/factory/project/component-registry.json",
+      "sha256": "f1cda4044cab4ac221c094fb94e53675b1703c5d4b5f9d510af7e77d95480e93"
+    }
+  ],
+  "result": {
+    "status": "passed",
+    "summary": "Implemented source-backed DM Sans 400/700 tokens, 16px/34px base typography, a single native route shell, reusable component registry patterns, and validated the generated build plus PHP syntax.",
+    "evidence": [
+      "src/css/abstracts/_fonts.scss",
+      "src/css/abstracts/_variables.scss",
+      "src/css/base/_base.scss",
+      "header.php",
+      "footer.php",
+      "scripts/factory/project/component-registry.json",
+      "dist/build-style.css",
+      "build-global-layout.log",
+      "php-lint-global-layout.log",
+      "global-layout-evidence.log",
+      ".factory-cache/autopilot/runs/2026-09-19T14-48-07-799Z-7588/retained-result-a95336cea6b11a82-1789832168778/validation.json",
+      ".factory-cache/autopilot/runs/2026-09-19T14-48-07-799Z-7588/retained-result-a95336cea6b11a82-1789832168778/build.log"
+    ],
+    "issues": [
+      "Webpack emitted three existing bundle-size warnings; compilation succeeded.",
+      "No visual route comparison was performed for this foundation-only task."
+    ]
+  },
+  "savedAt": "2026-09-19T15:36:16.965Z"
+}

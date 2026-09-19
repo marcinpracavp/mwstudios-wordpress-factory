@@ -23,7 +23,21 @@ function price({basePrice,baseQuantity,targetQuantity,sourcePrice=null,decimals=
 function mayUpdate({current,lastImported,owned}) {
   return owned===true && lastImported!==undefined && current===lastImported;
 }
-module.exports={price,quantity,mayUpdate};
+// Explicitly authorized demo duplication. This plans owned native records; it never fakes query totals.
+function demoClones({ records, requiredCount, kind, owner }) {
+  if (!['slide','post','product-card'].includes(kind) || !owner || !Number.isSafeInteger(requiredCount) || requiredCount < 0 || requiredCount > 200) throw Error('INVALID_DEMO_CLONE_SCOPE');
+  if (!Array.isArray(records) || records.some(r=>!r.sourceId || !r.id)) throw Error('DEMO_CLONE_SOURCE_REQUIRED');
+  if (!records.length && requiredCount) throw Error('NO_SOURCE_RECORD_TO_CLONE');
+  const originals=records.filter(r=>!r.cloneOf), existing=new Set(records.map(r=>r.importKey).filter(Boolean)), planned=[];
+  if (!originals.length && requiredCount>records.length) throw Error('ORIGINAL_SOURCE_RECORD_REQUIRED');
+  for(let i=0;records.length+planned.length<requiredCount;i++) {
+    const original=originals[i%originals.length], key=`${owner}:demo:${kind}:${original.sourceId}:${Math.floor(i/originals.length)+1}`;
+    if(existing.has(key)) continue;
+    planned.push({importKey:key,cloneOf:original.id,sourceId:original.sourceId,demo:true,owner});
+  }
+  return planned;
+}
+module.exports={price,quantity,mayUpdate,demoClones};
 if(require.main===module) {
   try { console.log(JSON.stringify(price(JSON.parse(process.argv[2])))); }
   catch(e){console.error(e.message);process.exitCode=1;}

@@ -2,7 +2,7 @@
 const fs = require('fs');
 const path = require('path');
 const { ROOT, SNAPSHOT, inside, read, write, hash } = require('./common');
-const CONTEXT_VERSION = 6;
+const CONTEXT_VERSION = 7;
 const relative = f => path.relative(ROOT, f).replaceAll('\\', '/');
 const descriptor = f => ({ path: relative(f), bytes: fs.statSync(f).size, sha256: hash(fs.readFileSync(f)) });
 
@@ -10,14 +10,14 @@ function prepareContext(stage, task, dir) {
   const manifestFile = path.join(SNAPSHOT, 'manifest.json');
   if (!fs.existsSync(manifestFile)) return { version: CONTEXT_VERSION, available: false };
   const m = require('./source-geometry').resolveManifest();
-  const group = task.buildGroup || (stage === 'build' ? task.id : null);
+  const group = task.buildGroup || null;
   const requestedRoutes = new Set((task.routes || []).map(r => typeof r === 'string' ? r : r.id));
   const routes = (m.routes || []).filter(r => (!group || r.buildGroup===group) && (!requestedRoutes.size || requestedRoutes.has(r.id)));
   const plan=require('./state-plan').load(m);
   const stateFamilies=routes.map(r=>require('./state-plan').routePlan(plan,r.id)).filter(Boolean);
   const sectionIds = new Set(routes.flatMap(r => {
     const state=stateFamilies.find(s=>s.route===r.id);
-    if(Array.isArray(task.auditSections)) return r.sections.filter(id=>task.auditSections.includes(id));
+    if(Array.isArray(task.sections || task.auditSections)) return r.sections.filter(id=>(task.sections || task.auditSections).includes(id));
     return state?.baseRoute!==r.id && state ? state.focusSections : r.sections;
   }));
   const sections = (m.sections || []).filter(s => sectionIds.has(s.id));
