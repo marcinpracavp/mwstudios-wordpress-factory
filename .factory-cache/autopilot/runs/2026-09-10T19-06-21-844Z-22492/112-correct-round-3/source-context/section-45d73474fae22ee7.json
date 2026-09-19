@@ -1,0 +1,74 @@
+{
+  "id": "checkout-delivery",
+  "manifestRecord": {
+    "id": "checkout-delivery",
+    "name": "dostawa",
+    "order": 65,
+    "pageId": "0:1",
+    "snapshot": "sections/60-checkout-delivery.json",
+    "desktopNodeId": "492:995",
+    "desktopReference": "references/sections/checkout-delivery.png"
+  },
+  "contentFields": [
+    {
+      "section": "checkout-delivery",
+      "nodeId": "492:755",
+      "fieldName": "rudnikagro_checkout_delivery_delivery_heading",
+      "type": "text",
+      "language": "pl",
+      "value": "Dostawa",
+      "destination": "WooCommerce native shipping-method labels / editable checkout content",
+      "linkEvidence": [
+        {
+          "characters": "Dostawa",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "492:755"
+      }
+    },
+    {
+      "section": "checkout-delivery",
+      "nodeId": "492:746",
+      "fieldName": "rudnikagro_checkout_delivery_courier_label",
+      "type": "text",
+      "language": "pl",
+      "value": "Shoper Przesyłki Kurier",
+      "destination": "WooCommerce native shipping-method labels / editable checkout content",
+      "linkEvidence": [
+        {
+          "characters": "Shoper Przesyłki Kurier",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "492:746"
+      }
+    },
+    {
+      "section": "checkout-delivery",
+      "nodeId": "492:747",
+      "fieldName": "rudnikagro_checkout_delivery_courier_price",
+      "type": "text",
+      "language": "pl",
+      "value": "22,90 zł",
+      "destination": "WooCommerce native shipping-method labels / editable checkout content",
+      "linkEvidence": [
+        {
+          "characters": "22,90 zł",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "492:747"
+      }
+    }
+  ]
+}

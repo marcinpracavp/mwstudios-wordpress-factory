@@ -1,0 +1,13 @@
+{
+  "id": "bundle-gallery",
+  "manifestRecord": {
+    "id": "bundle-gallery",
+    "name": "galeria pakietu",
+    "order": 58,
+    "pageId": "0:1",
+    "snapshot": "sections/53-bundle-gallery.json",
+    "desktopNodeId": "586:1276",
+    "desktopReference": "references/sections/bundle-gallery.png"
+  },
+  "contentFields": []
+}

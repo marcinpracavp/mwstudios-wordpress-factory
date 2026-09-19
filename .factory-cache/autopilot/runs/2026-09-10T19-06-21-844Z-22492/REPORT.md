@@ -3,8 +3,8 @@
 Status: paused
 Ready for human review: NO
 Local site: https://autopilot.local
-Updated: 2026-09-16T07:31:13.417Z
-Reported uncached input + output tokens: 15547212
+Updated: 2026-09-19T11:16:12.028Z
+Reported uncached input + output tokens: 16038345
 Attempts without usage telemetry: 39 (unknown usage is not zero; budget is a lower bound)
 
 SOURCE INPUT REQUIRED: order-confirmed: A real approved existing local WooCommerce order identity and its access key, with source-supported product, coupon, shipping and payment records (.factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/063-build-checkout/order-confirmed.source-dependency.json)
@@ -23,12 +23,7 @@ VISUAL DEFERRED: checkout-registration (.factory-cache/autopilot/runs/2026-09-10
 VISUAL DEFERRED: home (.factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/076-build-home/build-readiness/home/home/comparison.json)
 VISUAL DEFERRED: home-active (.factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/076-build-home/build-readiness/home-active/home-active/comparison.json)
 VISUAL DEFERRED: account (.factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/077-build-account/build-readiness/account/account/comparison.json)
-AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/111-correct-round-2; {"message":"You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at Sep 21st, 2026 5:14 PM."}
-2026-09-16T07:21:05.574888Z ERROR codex_models_manager::manager: failed to load models cache: EOF while parsing a value at line 1 column 0
-2026-09-16T07:24:57.620127Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in C:\Users\HP\Local Sites\autopilot\app\public\wp-content\themes\slawinsky-boilerplate\single-product.php:
-    <?php if (function_exists('woocommerce_related_products')) : ?><section class="c-product__related" data-factory-section="product-related"><h2>Produkty powiÄ…zane</h2><?php woocommerce_related_products(['posts_per_page' => 2, 'columns' => 2]); ?></section><?php endif; ?>
-2026-09-16T07:31:12.418300Z ERROR codex_core::session: failed to record rollout items: thread 01a0a912-50a0-7e93-ab45-3d6818143e9c not found
-
+VISUAL_REPAIR_BUDGET_EXHAUSTED: inspect measured differences; no false PASS
 
 | Task | Model | Result | Evidence |
 |---|---|---|---|
@@ -143,7 +138,9 @@ AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-2
 | audit:round-0-58751f426784b007e333-native-integrations | gpt-5.6-sol | needs_work | .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/109-audit-round-0-58751f426784b007e333-native-integrations |
 | correct:round-1 | gpt-5.6-terra | needs_work | .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/110-correct-round-1 |
 | correct:round-2 | gpt-5.6-terra | failed | .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/111-correct-round-2 |
+| correct:round-3 | gpt-5.6-terra | needs_work | .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/112-correct-round-3 |
+| correct:round-4 | gpt-5.6-terra | needs_work | .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/113-correct-round-4 |
 
 Measured visual acceptance and independent review are both required. Missing evidence never means PASS.
 State: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/state.json
-Latest comparison: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789542287704/summary.json
+Latest comparison: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789810267164/summary.json

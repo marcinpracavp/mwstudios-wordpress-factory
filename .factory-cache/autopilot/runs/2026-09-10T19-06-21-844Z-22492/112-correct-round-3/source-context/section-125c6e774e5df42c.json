@@ -1,0 +1,105 @@
+{
+  "id": "careers-application",
+  "manifestRecord": {
+    "id": "careers-application",
+    "name": "Formularz aplikacyjny",
+    "order": 32,
+    "pageId": "0:1",
+    "snapshot": "sections/32-careers-application.json",
+    "desktopNodeId": "355:1423",
+    "desktopReference": "references/sections/careers-application.png"
+  },
+  "contentFields": [
+    {
+      "section": "careers-application",
+      "nodeId": "434:9",
+      "fieldName": "rudnikagro_application_name_label",
+      "type": "text",
+      "language": "pl",
+      "value": "ImiÄ™ i nazwisko*",
+      "destination": "CF7/native application form / editable label",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "434:9"
+      }
+    },
+    {
+      "section": "careers-application",
+      "nodeId": "434:10",
+      "fieldName": "rudnikagro_application_email_label",
+      "type": "text",
+      "language": "pl",
+      "value": "Adres e-mail*",
+      "destination": "CF7/native application form / editable label",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "434:10"
+      }
+    },
+    {
+      "section": "careers-application",
+      "nodeId": "434:12",
+      "fieldName": "rudnikagro_application_phone_label",
+      "type": "text",
+      "language": "pl",
+      "value": "Numer telefonu*",
+      "destination": "CF7/native application form / editable label",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "434:12"
+      }
+    },
+    {
+      "section": "careers-application",
+      "nodeId": "496:2074",
+      "fieldName": "rudnikagro_application_upload_label",
+      "type": "text",
+      "language": "pl",
+      "value": "ZaÅ‚Ä…cz CV",
+      "destination": "CF7/native application form / editable upload label",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "496:2074"
+      }
+    },
+    {
+      "section": "careers-application",
+      "nodeId": "496:2070",
+      "fieldName": "rudnikagro_application_submit_label",
+      "type": "text",
+      "language": "pl",
+      "value": "WyÅ›lij",
+      "destination": "CF7/native application form / editable submit label",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "496:2070"
+      }
+    },
+    {
+      "section": "careers-application",
+      "nodeId": "435:20",
+      "fieldName": "rudnikagro_application_current_recruitment_consent",
+      "type": "text",
+      "language": "pl",
+      "value": "WyraÅ¼am zgodÄ™ na przetwarzanie moich danych osobowych przez Rudnikagro Sp. z o.o. w celu przeprowadzenia obecnego procesu rekrutacji. SzczegÃ³Å‚owe informacje o tym, jak przetwarzamy Twoje dane, znajdziesz w naszej polityce prywatnoÅ›ci.",
+      "destination": "CF7/native application form / mandatory consent text",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "435:20"
+      }
+    },
+    {
+      "section": "careers-application",
+      "nodeId": "435:22",
+      "fieldName": "rudnikagro_application_future_recruitment_consent",
+      "type": "text",
+      "language": "pl",
+      "value": "WyraÅ¼am zgodÄ™ na przetwarzanie moich danych osobowych przez Rudnikagro Sp. z o.o. rÃ³wnieÅ¼ na potrzeby przyszÅ‚ych procesÃ³w rekrutacyjnych.",
+      "destination": "CF7/native application form / optional consent text",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "435:22"
+      }
+    }
+  ]
+}

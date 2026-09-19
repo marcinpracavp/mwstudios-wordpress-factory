@@ -1,0 +1,157 @@
+{
+  "id": "contact-details",
+  "manifestRecord": {
+    "id": "contact-details",
+    "name": "Contact offices and department details",
+    "order": 42,
+    "pageId": "0:1",
+    "snapshot": "sections/42-contact-details.json",
+    "desktopNodeId": "335:710",
+    "desktopReference": "references/sections/contact-details.png"
+  },
+  "contentFields": [
+    {
+      "section": "contact-details",
+      "nodeId": "335:714",
+      "fieldName": "rudnikagro_contact_office_heading",
+      "type": "text",
+      "language": "pl",
+      "value": "Siedziba firmy",
+      "destination": "ACF contact page / contact details tab / office card heading",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "335:714"
+      }
+    },
+    {
+      "section": "contact-details",
+      "nodeId": "335:719",
+      "fieldName": "rudnikagro_contact_office_company",
+      "type": "text",
+      "language": "pl",
+      "value": "Rudnikagro Sp. z o.o.",
+      "destination": "ACF contact page / contact details tab / office card company",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "335:719"
+      }
+    },
+    {
+      "section": "contact-details",
+      "nodeId": "335:716",
+      "fieldName": "rudnikagro_contact_office_details",
+      "type": "textarea",
+      "language": "pl",
+      "value": "ul. Stargardzka 8,\n74-200 Pyrzyce\n\nNIP: 499 03 49 671\n\n+48 535 500 612\nod poniedziałku do piątku, w godzinach 8:00-16:00\n\nsklep@rudnikagro.pl",
+      "destination": "ACF contact page / contact details tab / office card details",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "335:716"
+      }
+    },
+    {
+      "section": "contact-details",
+      "nodeId": "431:898",
+      "fieldName": "rudnikagro_contact_branch_heading",
+      "type": "textarea",
+      "language": "pl",
+      "value": "Oddział Lipiany\nsklep i magazyn",
+      "destination": "ACF contact page / contact details tab / branch card heading",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "431:898"
+      }
+    },
+    {
+      "section": "contact-details",
+      "nodeId": "431:899",
+      "fieldName": "rudnikagro_contact_branch_details",
+      "type": "textarea",
+      "language": "pl",
+      "value": "ul. Myśliborska 5a,\n74-240 Lipiany\n\ntel. (+48) 91 579 31 63\nfax. (+48) 91 564 53 06",
+      "destination": "ACF contact page / contact details tab / branch card details",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "431:899"
+      }
+    },
+    {
+      "section": "contact-details",
+      "nodeId": "431:911",
+      "fieldName": "rudnikagro_contact_sales_heading",
+      "type": "text",
+      "language": "pl",
+      "value": "Przedstawiciele handlowi: ",
+      "destination": "ACF contact page / contact details tab / department card",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "431:911"
+      }
+    },
+    {
+      "section": "contact-details",
+      "nodeId": "431:910",
+      "fieldName": "rudnikagro_contact_sales_contact",
+      "type": "textarea",
+      "language": "pl",
+      "value": "Mateusz Świątek,\ntel. +48 781 600 023\nm.swiatek@rudnikagro.pl",
+      "destination": "ACF contact page / contact details tab / department card",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "431:910"
+      }
+    },
+    {
+      "section": "contact-details",
+      "nodeId": "431:919",
+      "fieldName": "rudnikagro_contact_insurance_heading",
+      "type": "text",
+      "language": "pl",
+      "value": "Dział ubezpieczeń: ",
+      "destination": "ACF contact page / contact details tab / department card",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "431:919"
+      }
+    },
+    {
+      "section": "contact-details",
+      "nodeId": "431:918",
+      "fieldName": "rudnikagro_contact_insurance_contact",
+      "type": "textarea",
+      "language": "pl",
+      "value": "Monika Zielińska,\ntel. +48 532 402 999\nm.zielinska@rudnikagro.pl",
+      "destination": "ACF contact page / contact details tab / department card",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "431:918"
+      }
+    },
+    {
+      "section": "contact-details",
+      "nodeId": "431:922",
+      "fieldName": "rudnikagro_contact_protection_heading",
+      "type": "text",
+      "language": "pl",
+      "value": "Dział środków ochrony roślin: ",
+      "destination": "ACF contact page / contact details tab / department card",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "431:922"
+      }
+    },
+    {
+      "section": "contact-details",
+      "nodeId": "431:921",
+      "fieldName": "rudnikagro_contact_protection_contact",
+      "type": "textarea",
+      "language": "pl",
+      "value": "Mariusz Rudnicki,\ntel. +48 91 461 25 64\nm.rudnicki@rudnikagro.pl",
+      "destination": "ACF contact page / contact details tab / department card",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "431:921"
+      }
+    }
+  ]
+}

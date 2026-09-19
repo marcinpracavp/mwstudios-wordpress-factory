@@ -8,6 +8,13 @@ $option = static function (string $name): string { return function_exists('rudni
 $remove_icon = (int) (function_exists('rudnikagro_option') ? rudnikagro_option('rudnikagro_cart_remove_icon_486_96') : 0);
 ?>
 <section class="c-cart" data-factory-component="cart-template">
+    <div class="l-container c-cart__breadcrumb-wrap">
+        <?php woocommerce_breadcrumb([
+            'delimiter' => ' / ',
+            'wrap_before' => '<nav class="woocommerce-breadcrumb c-cart__breadcrumb" aria-label="' . esc_attr__('Breadcrumb', 'slawinsky') . '">',
+            'wrap_after' => '</nav>',
+        ]); ?>
+    </div>
     <div class="l-container">
         <div class="c-cart__heading-offset pt-70">
             <div class="c-cart__heading-section mb-30" data-factory-section="cart-heading">

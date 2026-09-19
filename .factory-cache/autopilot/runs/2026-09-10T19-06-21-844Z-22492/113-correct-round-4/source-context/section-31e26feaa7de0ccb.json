@@ -1,0 +1,47 @@
+{
+  "id": "account-breadcrumbs",
+  "manifestRecord": {
+    "id": "account-breadcrumbs",
+    "name": "breadcrumbs",
+    "order": 80,
+    "pageId": "0:1",
+    "desktopNodeId": "524:3",
+    "snapshot": "sections/27-account-breadcrumbs.json",
+    "desktopReference": "references/sections/account-breadcrumbs.png"
+  },
+  "contentFields": [
+    {
+      "section": "account-breadcrumbs",
+      "nodeId": "524:3",
+      "fieldName": "rudnikagro_account_breadcrumb",
+      "type": "repeater",
+      "language": "pl",
+      "value": [
+        {
+          "label": "Strona główna",
+          "current": false
+        },
+        {
+          "label": "Logowanie/rejestracja",
+          "current": true
+        }
+      ],
+      "destination": "Native WordPress breadcrumb; editable labels only",
+      "linkEvidence": [
+        {
+          "characters": "Strona główna",
+          "hyperlink": null
+        },
+        {
+          "characters": "Logowanie/rejestracja",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "524:3"
+      }
+    }
+  ]
+}

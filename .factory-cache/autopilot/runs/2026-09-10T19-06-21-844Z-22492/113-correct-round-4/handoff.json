@@ -1,0 +1,36 @@
+{
+  "task": {
+    "id": "round-4",
+    "comparison": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789808589186/summary.json",
+    "issues": [
+      "Deterministic comparison failed: .factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/comparison-1789808589186/summary.json. Resolve its measured route/section/responsive failures before independent visual audit."
+    ]
+  },
+  "sourceContext": {
+    "version": 6,
+    "available": true,
+    "index": {
+      "path": ".factory-cache/autopilot/runs/2026-09-10T19-06-21-844Z-22492/113-correct-round-4/source-context/index.json",
+      "bytes": 2773,
+      "sha256": "a03e3aa3f38cb677faa34e7025943322b67a79c67bf8df9334b8d6a8e4ff552b"
+    }
+  },
+  "model": "gpt-5.6-terra",
+  "reasoningEffort": "high",
+  "continuation": "new task",
+  "previousExecution": null,
+  "previousResult": null,
+  "correctionFocus": [],
+  "currentPageVerification": null,
+  "auditCheckpoint": null,
+  "snapshot": ".factory-cache/figma/latest",
+  "observations": ".factory-cache/figma/latest/observations/index.json",
+  "plans": [
+    "docs/factory/project/PLAN.md",
+    "docs/factory/project/STATUS.md",
+    "docs/factory/project/SOURCE_CLARIFICATIONS.md",
+    "docs/factory/project/REUSABLE_COMPONENTS.md"
+  ],
+  "currentGate": null,
+  "instruction": "Inspect the current gate and finish only remaining assigned work. Reuse real saved source facts and assets."
+}

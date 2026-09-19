@@ -1,0 +1,573 @@
+{
+  "id": "home-bundles",
+  "manifestRecord": {
+    "id": "home-bundles",
+    "name": "pakiety",
+    "order": 20,
+    "pageId": "0:1",
+    "snapshot": "sections/20-home-bundles.json",
+    "desktopNodeId": "574:59",
+    "desktopReference": "references/sections/home-bundles.png"
+  },
+  "contentFields": [
+    {
+      "section": "home-bundles",
+      "nodeId": "574:144",
+      "fieldName": "rudnikagro_home_bundles_574_144",
+      "type": "text",
+      "language": "pl",
+      "value": "1",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:144"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:145",
+      "fieldName": "rudnikagro_home_bundles_574_145",
+      "type": "text",
+      "language": "pl",
+      "value": "-",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:145"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:146",
+      "fieldName": "rudnikagro_home_bundles_574_146",
+      "type": "text",
+      "language": "pl",
+      "value": "+",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:146"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:152",
+      "fieldName": "rudnikagro_home_bundles_574_152",
+      "type": "text",
+      "language": "pl",
+      "value": "Do koszyka",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:152"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:153",
+      "fieldName": "rudnikagro_home_bundles_574_153",
+      "type": "text",
+      "language": "pl",
+      "value": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:153"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:154",
+      "fieldName": "rudnikagro_home_bundles_574_154",
+      "type": "text",
+      "language": "pl",
+      "value": "2Â 965,00Â zÅ‚",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:154"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:155",
+      "fieldName": "rudnikagro_home_bundles_574_155",
+      "type": "text",
+      "language": "pl",
+      "value": "3365,00Â zÅ‚",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:155"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:159",
+      "fieldName": "rudnikagro_home_bundles_574_159",
+      "type": "text",
+      "language": "pl",
+      "value": "OszczÄ™dzasz 400 zÅ‚",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:159"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:179",
+      "fieldName": "rudnikagro_home_bundles_574_179",
+      "type": "text",
+      "language": "pl",
+      "value": "1",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:179"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:180",
+      "fieldName": "rudnikagro_home_bundles_574_180",
+      "type": "text",
+      "language": "pl",
+      "value": "-",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:180"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:181",
+      "fieldName": "rudnikagro_home_bundles_574_181",
+      "type": "text",
+      "language": "pl",
+      "value": "+",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:181"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:187",
+      "fieldName": "rudnikagro_home_bundles_574_187",
+      "type": "text",
+      "language": "pl",
+      "value": "Do koszyka",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:187"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:188",
+      "fieldName": "rudnikagro_home_bundles_574_188",
+      "type": "text",
+      "language": "pl",
+      "value": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:188"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:189",
+      "fieldName": "rudnikagro_home_bundles_574_189",
+      "type": "text",
+      "language": "pl",
+      "value": "2Â 965,00Â zÅ‚",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:189"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:190",
+      "fieldName": "rudnikagro_home_bundles_574_190",
+      "type": "text",
+      "language": "pl",
+      "value": "3365,00Â zÅ‚",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:190"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:193",
+      "fieldName": "rudnikagro_home_bundles_574_193",
+      "type": "text",
+      "language": "pl",
+      "value": "OszczÄ™dzasz 400 zÅ‚",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:193"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:200",
+      "fieldName": "rudnikagro_home_bundles_574_200",
+      "type": "text",
+      "language": "pl",
+      "value": "1",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:200"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:201",
+      "fieldName": "rudnikagro_home_bundles_574_201",
+      "type": "text",
+      "language": "pl",
+      "value": "-",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:201"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:202",
+      "fieldName": "rudnikagro_home_bundles_574_202",
+      "type": "text",
+      "language": "pl",
+      "value": "+",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:202"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:208",
+      "fieldName": "rudnikagro_home_bundles_574_208",
+      "type": "text",
+      "language": "pl",
+      "value": "Do koszyka",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:208"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:209",
+      "fieldName": "rudnikagro_home_bundles_574_209",
+      "type": "text",
+      "language": "pl",
+      "value": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:209"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:210",
+      "fieldName": "rudnikagro_home_bundles_574_210",
+      "type": "text",
+      "language": "pl",
+      "value": "2Â 965,00Â zÅ‚",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:210"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:211",
+      "fieldName": "rudnikagro_home_bundles_574_211",
+      "type": "text",
+      "language": "pl",
+      "value": "3365,00Â zÅ‚",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:211"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:214",
+      "fieldName": "rudnikagro_home_bundles_574_214",
+      "type": "text",
+      "language": "pl",
+      "value": "OszczÄ™dzasz 400 zÅ‚",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:214"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:221",
+      "fieldName": "rudnikagro_home_bundles_574_221",
+      "type": "text",
+      "language": "pl",
+      "value": "1",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:221"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:222",
+      "fieldName": "rudnikagro_home_bundles_574_222",
+      "type": "text",
+      "language": "pl",
+      "value": "-",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:222"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:223",
+      "fieldName": "rudnikagro_home_bundles_574_223",
+      "type": "text",
+      "language": "pl",
+      "value": "+",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:223"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:229",
+      "fieldName": "rudnikagro_home_bundles_574_229",
+      "type": "text",
+      "language": "pl",
+      "value": "Do koszyka",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:229"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:230",
+      "fieldName": "rudnikagro_home_bundles_574_230",
+      "type": "text",
+      "language": "pl",
+      "value": "Pakiet ochronny rzepaku ozimego na 12 ha: PIXAFEN 3L + SPARK PAK 3 x 3 L",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:230"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:231",
+      "fieldName": "rudnikagro_home_bundles_574_231",
+      "type": "text",
+      "language": "pl",
+      "value": "2Â 965,00Â zÅ‚",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:231"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:232",
+      "fieldName": "rudnikagro_home_bundles_574_232",
+      "type": "text",
+      "language": "pl",
+      "value": "3365,00Â zÅ‚",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:232"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:235",
+      "fieldName": "rudnikagro_home_bundles_574_235",
+      "type": "text",
+      "language": "pl",
+      "value": "OszczÄ™dzasz 400 zÅ‚",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:235"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:161",
+      "fieldName": "rudnikagro_home_bundles_574_161",
+      "type": "text",
+      "language": "pl",
+      "value": "Zobacz wiÄ™cej",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:161"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:169",
+      "fieldName": "rudnikagro_home_bundles_574_169",
+      "type": "text",
+      "language": "pl",
+      "value": "Pakiety",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:169"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:174",
+      "fieldName": "rudnikagro_home_bundles_media_574_174",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/574-174-rectangle175.png",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:174"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:148",
+      "fieldName": "rudnikagro_home_bundles_media_574_148",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/574-148-koszyk1.svg",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:148"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:156",
+      "fieldName": "rudnikagro_home_bundles_media_574_156",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/574-156-line3.svg",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:156"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:158",
+      "fieldName": "rudnikagro_home_bundles_media_574_158",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/574-158-rectangle40.svg",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:158"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:162",
+      "fieldName": "rudnikagro_home_bundles_media_574_162",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/574-162-arrow1.svg",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:162"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:165",
+      "fieldName": "rudnikagro_home_bundles_media_574_165",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/574-165-ellipse4.svg",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:165"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:166",
+      "fieldName": "rudnikagro_home_bundles_media_574_166",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/574-166-vector7.svg",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:166"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:167",
+      "fieldName": "rudnikagro_home_bundles_media_574_167",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/574-167-ellipse5.svg",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:167"
+      }
+    },
+    {
+      "section": "home-bundles",
+      "nodeId": "574:168",
+      "fieldName": "rudnikagro_home_bundles_media_574_168",
+      "type": "image",
+      "language": "pl",
+      "value": "assets/home/574-168-vector8.svg",
+      "destination": "ACF front page / bundles tab; native WooCommerce package data and product relationship rows / image attachment ID",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "574:168"
+      }
+    }
+  ]
+}

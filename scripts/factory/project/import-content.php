@@ -987,6 +987,16 @@ if (class_exists('WooCommerce')) {
             wp_update_post(['ID' => $id, 'post_name' => $slug]);
         }
         if ($route === 'cart') {
+            $cart_title = ra_repair_source_encoding((string) (ra_source_field($by_name, 'rudnikagro_cart_heading')['value'] ?? ''));
+            $current_title = (string) get_post_field('post_title', $id);
+            $last_imported_title = (string) get_post_meta($id, '_rudnikagro_last_imported_cart_title', true);
+            // "Cart" is WooCommerce's setup-wizard baseline. Thereafter, only
+            // refresh the title when it still equals this importer's last value.
+            $is_untracked_wizard_title = $last_imported_title === '' && $current_title === 'Cart';
+            if ($cart_title !== '' && ($is_untracked_wizard_title || ($last_imported_title !== '' && $current_title === $last_imported_title))) {
+                if ($current_title !== $cart_title) { wp_update_post(['ID' => $id, 'post_title' => $cart_title]); }
+                update_post_meta($id, '_rudnikagro_last_imported_cart_title', $cart_title);
+            }
             $cart_content = '[woocommerce_cart]';
             $current_content = (string) get_post_field('post_content', $id);
             $last_imported_content = (string) get_post_meta($id, '_rudnikagro_last_imported_cart_content', true);
@@ -1188,6 +1198,20 @@ if (class_exists('WooCommerce')) {
         $current_related = get_post_meta($aquatos_id, '_upsell_ids', true);
         $last_related = get_post_meta($aquatos_id, '_rudnikagro_last_imported_related_ids', true);
         if ($current_related === '' || $current_related === $last_related) { update_post_meta($aquatos_id, '_upsell_ids', $related_ids); update_post_meta($aquatos_id, '_rudnikagro_last_imported_related_ids', $related_ids); }
+
+        // The frozen bundle state repeats these two explicitly sourced related
+        // products. Keep the WooCommerce relationship native and preserve any
+        // later editor override using the same owned-value rule as Aquatos.
+        $bundle_ids = get_posts(['post_type' => 'product', 'post_status' => 'any', 'name' => 'pakiet-ochronny-rzepaku-ozimego-12-ha', 'fields' => 'ids', 'numberposts' => 1]);
+        if ($bundle_ids) {
+            $bundle_id = (int) $bundle_ids[0];
+            $current_related = get_post_meta($bundle_id, '_upsell_ids', true);
+            $last_related = get_post_meta($bundle_id, '_rudnikagro_last_imported_related_ids', true);
+            if ($current_related === '' || $current_related === $last_related) {
+                update_post_meta($bundle_id, '_upsell_ids', $related_ids);
+                update_post_meta($bundle_id, '_rudnikagro_last_imported_related_ids', $related_ids);
+            }
+        }
 
         $review_body = ra_source_value_by_node($by_name, '425:645');
         $review_date = ra_source_value_by_node($by_name, '429:842');

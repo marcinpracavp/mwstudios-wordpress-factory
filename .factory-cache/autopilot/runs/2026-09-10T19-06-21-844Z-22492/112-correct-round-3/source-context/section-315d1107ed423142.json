@@ -1,0 +1,54 @@
+{
+  "id": "about-agricultural-supply",
+  "manifestRecord": {
+    "id": "about-agricultural-supply",
+    "order": 47,
+    "snapshot": "sections/36-about-agricultural-supply.json",
+    "desktopReference": "references/sections/about-agricultural-supply.png",
+    "name": "Agricultural supply card",
+    "pageId": "0:1",
+    "desktopNodeId": "520:432"
+  },
+  "contentFields": [
+    {
+      "section": "about-agricultural-supply",
+      "nodeId": "519:346",
+      "fieldName": "rudnikagro_about.supply.heading",
+      "type": "text",
+      "language": "pl",
+      "value": "Kompleksowe zaopatrzenie rolnictwa"
+    },
+    {
+      "section": "about-agricultural-supply",
+      "nodeId": "519:345",
+      "fieldName": "rudnikagro_about.supply.introduction",
+      "type": "text",
+      "language": "pl",
+      "value": "Nasza podstawowa działalność opiera się na wieloletnim doświadczeniu. Głównym filarem naszej oferty jest sprzedaż:"
+    },
+    {
+      "section": "about-agricultural-supply",
+      "nodeId": "520:386",
+      "fieldName": "rudnikagro_about.supply.items.0.title",
+      "type": "text",
+      "language": "pl",
+      "value": "środków ochrony roślin"
+    },
+    {
+      "section": "about-agricultural-supply",
+      "nodeId": "521:442",
+      "fieldName": "rudnikagro_about.supply.items.1.title",
+      "type": "text",
+      "language": "pl",
+      "value": "wysokiej jakości nawozów"
+    },
+    {
+      "section": "about-agricultural-supply",
+      "nodeId": "521:444",
+      "fieldName": "rudnikagro_about.supply.items.2.title",
+      "type": "text",
+      "language": "pl",
+      "value": "wyselekcjonowanego materiału siewnego (nasion)"
+    }
+  ]
+}

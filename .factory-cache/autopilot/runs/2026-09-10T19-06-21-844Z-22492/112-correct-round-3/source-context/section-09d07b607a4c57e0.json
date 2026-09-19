@@ -1,0 +1,114 @@
+{
+  "id": "product-related",
+  "manifestRecord": {
+    "id": "product-related",
+    "name": "produkty powiązane",
+    "order": 53,
+    "pageId": "0:1",
+    "snapshot": "sections/48-product-related.json",
+    "desktopNodeId": "326:2515",
+    "desktopReference": "references/sections/product-related.png"
+  },
+  "contentFields": [
+    {
+      "section": "product-related",
+      "nodeId": "326:2515",
+      "fieldName": "rudnikagro_product_related_heading_326_2515",
+      "type": "text",
+      "language": "pl",
+      "value": "Produkty powiązane",
+      "destination": "WooCommerce related products",
+      "linkEvidence": [
+        {
+          "characters": "Produkty powiązane",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "326:2515"
+      }
+    },
+    {
+      "section": "product-related",
+      "nodeId": "326:2271",
+      "fieldName": "rudnikagro_product_related_product_1_name_326_2271",
+      "type": "text",
+      "language": "pl",
+      "value": "Stomp Aqua 455 CS 1L",
+      "destination": "WooCommerce related products",
+      "linkEvidence": [
+        {
+          "characters": "Stomp Aqua 455 CS 1L",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "326:2271"
+      }
+    },
+    {
+      "section": "product-related",
+      "nodeId": "326:2272",
+      "fieldName": "rudnikagro_product_related_product_1_price_326_2272",
+      "type": "text",
+      "language": "pl",
+      "value": "45,99 zł",
+      "destination": "WooCommerce related products",
+      "linkEvidence": [
+        {
+          "characters": "45,99 zł",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "326:2272"
+      }
+    },
+    {
+      "section": "product-related",
+      "nodeId": "326:2289",
+      "fieldName": "rudnikagro_product_related_product_2_name_326_2289",
+      "type": "text",
+      "language": "pl",
+      "value": "Stomp Aqua 455 CS 5L",
+      "destination": "WooCommerce related products",
+      "linkEvidence": [
+        {
+          "characters": "Stomp Aqua 455 CS 5L",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "326:2289"
+      }
+    },
+    {
+      "section": "product-related",
+      "nodeId": "326:2290",
+      "fieldName": "rudnikagro_product_related_product_2_price_326_2290",
+      "type": "text",
+      "language": "pl",
+      "value": "534,60 zł",
+      "destination": "WooCommerce related products",
+      "linkEvidence": [
+        {
+          "characters": "534,60 zł",
+          "hyperlink": null
+        }
+      ],
+      "importStatus": "pending-native-content-verification",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "326:2290"
+      }
+    }
+  ]
+}

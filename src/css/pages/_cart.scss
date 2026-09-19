@@ -1,7 +1,14 @@
 @use 'abstracts' as *;
 
 .c-cart {
-  padding-bottom: 150px;
+  padding-bottom: 138px;
+  position: relative;
+
+  &__breadcrumb-wrap { height: 0; position: relative; }
+  &__breadcrumb { align-items: center; color: #8d8d8d; display: flex; font-size: 1.4rem; height: 70px; left: 0; margin: 0; position: absolute; top: 22px;
+    a { color: inherit; text-decoration: none; }
+    a:last-of-type, & > :last-child { color: #006633; }
+  }
 
   &__heading-section { width: 467px; height: 68px; transform: translate(-3px, -4px); }
   &__heading { margin: 0; font-size: 4.8rem; font-weight: 700; line-height: 68px; }
@@ -44,7 +51,7 @@
     dd { font-size: 3.2rem; }
   }
   &__checkout { display: flex; width: 164px; height: 44px; margin: 25px 0 0 auto; align-items: center; justify-content: center; border-radius: 22px; background: #00753e; color: #fff; font-weight: 700; text-decoration: none; }
-  &__continue { display: flex; width: 223px; height: 44px; margin-top: 157px; align-items: center; justify-content: center; border: 1px solid #070707; border-radius: 24px; color: #070707; font-weight: 700; text-decoration: none; }
+  &__continue { display: flex; width: 223px; height: 44px; margin-top: -11px; align-items: center; justify-content: center; border: 1px solid #070707; border-radius: 24px; color: #070707; font-weight: 700; text-decoration: none; }
 
   @include media($breakpoint-md) { &__layout { grid-template-columns: 1fr; } &__totals { width: min(100%, 467px); } }
   @include media($breakpoint-sm) {
@@ -54,6 +61,7 @@
     &__line { min-height: 0; grid-template-columns: 100px 1fr; gap: 14px; padding: 16px; }
     &__image { grid-row: span 2; img { width: 90px; height: 130px; } }
     &__name, &__price { font-size: 1.8rem; } &__quantity { width: 96px; } &__remove { grid-column: 2; }
+    &__breadcrumb { left: 0; top: 12px; }
     &__coupon input { width: calc(100% - 116px); } &__continue { margin-top: 35px; }
   }
 }

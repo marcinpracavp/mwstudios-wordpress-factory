@@ -1,5 +1,15 @@
 # RudnikAgro implementation status
 
+## Cart correction — 2026-09-19
+
+- Restored the native WooCommerce breadcrumb shown in the frozen cart source, then corrected only the cart flow so the sourced continue-shopping control and footer placement are no longer inflated by the former 157px margin.
+- Fresh scoped page-only capture `.factory-cache/autopilot/visual-1789809831914/cart/comparison.json` has all three cart section geometries within tolerance, exactly matches the 1644px source frame height, and has a 6.592% page-owned difference, below the current 8.5% threshold. It is not a complete route PASS: derived 1440px and 1280px health still reports 20px horizontal overflow from the shared header action controls (right edge 1460px), reserved for the shared audit.
+
+## Product-gallery correction — 2026-09-19
+
+- Confirmed attachment 114 is byte-identical to frozen `assets/product-aquatos-5l.png` before correcting presentation. The source uses its natural 481×627px canvas, centered and 7px higher than the prior percentage-scaled implementation.
+- Fresh scoped evidence `.factory-cache/autopilot/visual-1789810212579/product-files-state/comparison.json` reduces the shared `product-gallery` mismatch from 17.983% to 3.572%, with source geometry intact. Product-files page ownership remains 9.951% and the shared header's derived 1440px/1280px overflow remains for the shared audit; neither is a visual PASS.
+
 ## Shared-header correction — 2026-09-16
 
 - Restored source-backed topbar previous/next/close controls from ACF attachment IDs for frozen nodes `169:282`, `169:287`, `169:284`, `169:288` and `169:289`. Fresh capture `visual-1789542157240` retains exact topbar geometry and reports a 1.697% section crop difference.
@@ -163,3 +173,9 @@ See `SOURCE_CLARIFICATIONS.md` for the source-backed gaps: CF7 recipient/form co
 - `/moje-konto/` now uses project-owned native WooCommerce login and registration forms. The initial source state contains the two source-backed panels; the registration disclosure exposes a real nonce-protected WooCommerce form without creating an account during QA.
 - Account labels, breadcrumb entries and registration benefits are editable ACF Options fields in `group_rudnikagro_account.json`. The importer maps each field to frozen `account-*` source content and retains the normal project-owned editor-override guard.
 - Fresh page-only QA `visual-1789318653655` passes the page acceptance scope. Desktop geometry for `account-breadcrumbs`, `account-login` and `account-registration` is exact; all derived responsive captures are healthy. The measured page-owner difference is 4.871% and is explicitly DEFERRED TO FINAL because the three changed captures improved only 0.756pp under the approved churn rule. Header difference (6.358%) remains shared final-audit ownership.
+
+## Product-bundle correction — 2026-09-19
+
+- Scoped source review confirmed the bundle gallery uses the exact `assets/product-bundle-rapeseed.png` asset at 600×493 without the generic product-card border or 82% inset. The corrected product-only style renders that source asset at its captured bounds.
+- The project importer now assigns the two source-backed `product-related` products as native WooCommerce upsells of the bundle as well as Aquatos. The normal `_rudnikagro_last_imported_related_ids` guard preserves subsequent editor changes; the local idempotent importer completed with no newly created records.
+- Fresh scoped page-only capture `.factory-cache/autopilot/visual-1789808484378/product-bundle/comparison.json` has exact page-section geometry and a 7.091% owned-page difference, below the current 8.5% threshold. Its only errors are derived 1440/1280 responsive-health failures caused by the shared header plus shared gallery/tabs pixel diagnostics, retained for the later shared audit rather than modified in this individual page correction.
