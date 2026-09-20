@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "id": "v2:foundation:products-20e36a5cc1dd30bb",
+  "binding": "b70f67fe218fd23f0af7db0d9e8032b1325e9f300802de78fb5a9711f62fe737",
+  "status": "passed",
+  "evidence": [
+    {
+      "path": ".factory-cache/autopilot/runs/2026-09-19T14-48-07-799Z-7588/native-probe-4f97afc9df7b0768-1789850613766.json",
+      "sha256": "9b0b0e43c6196bfb6c5f6619ccad5c1e9e2fa3ae2f77e0b77854ca3b086b6d22"
+    }
+  ],
+  "outputs": [],
+  "result": {
+    "status": "passed",
+    "summary": "All assigned native records verified in runtime; no import retry needed",
+    "issues": [],
+    "evidence": [
+      ".factory-cache/autopilot/runs/2026-09-19T14-48-07-799Z-7588/native-probe-4f97afc9df7b0768-1789850613766.json"
+    ]
+  },
+  "savedAt": "2026-09-19T20:43:37.023Z"
+}

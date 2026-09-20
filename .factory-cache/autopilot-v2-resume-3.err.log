@@ -1,0 +1,5 @@
+AUTOPILOT PAUSED: AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-19T14-48-07-799Z-7588/003-foundation-native-content; {"message":"TASK_REPORTED_TOKEN_BUDGET"}
+2026-09-19T15:36:18.097374Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+2026-09-19T15:49:19.514014Z  WARN codex_core::tasks: failed to flush rollout after emitting terminal turn event: thread 01a0ba4f-a930-74d1-93e5-9b4b0947c644 not found
+
+Report: .factory-cache/autopilot/runs/2026-09-19T14-48-07-799Z-7588/REPORT.md

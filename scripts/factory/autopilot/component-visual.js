@@ -52,6 +52,7 @@ async function capture({ route, sections, output, manifest, baseUrl, config, hoo
     if (hooks.prepare) await hooks.prepare({ page, route, baseUrl });
     await require('./visual').settle(page);
     const metrics = await require('./visual').metrics(page);
+    await require('./image-noise').verifySources(page,metrics.images,baseUrl);
     write(path.join(output, 'metrics.json'), metrics);
     if (metrics.overflow > 1) result.errors.push(`Horizontal overflow ${metrics.overflow}px`);
     if (!metrics.fontsReady) result.errors.push('Fonts not ready');
@@ -70,9 +71,15 @@ async function capture({ route, sections, output, manifest, baseUrl, config, hoo
       for (const [key, suffix] of [['source', 'reference'], ['diff', 'diff']]) {
         fs.writeFileSync(path.join(output, `${id}-${suffix}.png`), Buffer.from(pixels[key].split(',')[1], 'base64')); delete pixels[key];
       }
+      const localImages=metrics.images.filter(im=>im.sourceIdentityVerified&&im.x>=actual.x&&im.y>=actual.y&&im.x+im.width<=actual.x+actual.width&&im.y+im.height<=actual.y+actual.height)
+        .map(im=>({...im,x:im.x-actual.x,y:im.y-actual.y}));
+      if(geometryPassed && localImages.length){
+        const details=await require('./visual').compareImages(comparer,path.join(output,`${id}-reference.png`),rendered,config.visual,[],localImages);
+        pixels.layoutRatio=details.ownership.page.layoutRatio;pixels.imageDiagnostics=details.imageDiagnostics;
+      }
       const imagesHealthy = metrics.images.filter(im => im.y >= actual.y && im.y < actual.y + actual.height).every(im => im.loaded);
       result.sections.push({ id, expected, actual, pixels, geometryPassed, imagesHealthy,
-        referenceHash: hash(fs.readFileSync(reference)), passed: geometryPassed && imagesHealthy && pixels.sourceViewport === route.width && pixels.ratio <= config.visual.maxDifferentPixelRatio });
+        referenceHash: hash(fs.readFileSync(reference)), passed: geometryPassed && imagesHealthy && pixels.sourceViewport === route.width && (pixels.layoutRatio??pixels.ratio) <= config.visual.maxDifferentPixelRatio });
     }
     if (implementationHash !== fingerprint()) throw Error('IMPLEMENTATION_CHANGED_DURING_COMPONENT_CAPTURE');
   } catch (e) { result.errors.push(e.message); }

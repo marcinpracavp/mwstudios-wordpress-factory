@@ -1,0 +1,18 @@
+{
+  "startedModel": "gpt-5.6-luna",
+  "model": "luna",
+  "reasoningEffort": "high",
+  "threadId": "01a0bb33-676f-7ab2-b33c-8a967ef9e1bd",
+  "resumedFrom": null,
+  "usage": null,
+  "exit": {
+    "code": 1,
+    "signal": null
+  },
+  "failure": {
+    "message": "TASK_OBSERVED_CONTEXT_BUDGET"
+  },
+  "completed": false,
+  "observedBytes": 270375,
+  "finishedAt": "2026-09-19T19:45:34.205Z"
+}

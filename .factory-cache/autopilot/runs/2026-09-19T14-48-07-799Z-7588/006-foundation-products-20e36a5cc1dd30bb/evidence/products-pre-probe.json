@@ -1,0 +1,1704 @@
+﻿{
+    "kind": "read-only-native-commerce-probe",
+    "source": {
+        "project": "rudnikagro",
+        "sourceMap": ".factory-cache\/figma\/latest\/content-map.json",
+        "archiveProductRecords": 18
+    },
+    "ownedProducts": [
+        {
+            "id": 54,
+            "title": "Aquatos 5L",
+            "status": "publish",
+            "sourceNode": "323:2084",
+            "route": "product",
+            "source": "figma:OwiDXrKMVcaHKB9ryYF6mY",
+            "imageId": 114,
+            "regularPrice": "",
+            "salePrice": "",
+            "priceProvenance": null,
+            "terms": {
+                "product_brand": [],
+                "product_type": [
+                    4
+                ],
+                "product_visibility": [],
+                "product_cat": [
+                    16
+                ],
+                "product_tag": [],
+                "product_shipping_class": [],
+                "pos_product_visibility": []
+            },
+            "attributes": [
+                {
+                    "name": "pojemnosc",
+                    "taxonomy": null,
+                    "options": [
+                        "1 L",
+                        "5 L",
+                        "20 L"
+                    ],
+                    "visible": true,
+                    "variation": true
+                }
+            ],
+            "variations": [
+                {
+                    "id": 118,
+                    "sourceNode": "496:1781",
+                    "regularPrice": "82.20",
+                    "salePrice": "",
+                    "attributes": {
+                        "pojemnosc": "1 L"
+                    },
+                    "priceProvenance": {
+                        "sourceNode": "496:1781",
+                        "sourcePriceNode": "323:2087",
+                        "provenance": "user-authorized-proportional",
+                        "basePrice": 411,
+                        "baseQuantity": "5 L",
+                        "targetQuantity": "1 L",
+                        "formula": "base price * target quantity \/ base quantity",
+                        "taxBasis": "including 23% VAT, source node 502:3"
+                    }
+                },
+                {
+                    "id": 119,
+                    "sourceNode": "496:1787",
+                    "regularPrice": "411.00",
+                    "salePrice": "",
+                    "attributes": {
+                        "pojemnosc": "5 L"
+                    },
+                    "priceProvenance": {
+                        "sourceNode": "496:1787",
+                        "sourcePriceNode": "323:2087",
+                        "provenance": "figma-explicit",
+                        "basePrice": 411,
+                        "baseQuantity": "5 L",
+                        "targetQuantity": "5 L",
+                        "formula": null,
+                        "taxBasis": "including 23% VAT, source node 502:3"
+                    }
+                },
+                {
+                    "id": 120,
+                    "sourceNode": "496:1791",
+                    "regularPrice": "1644.00",
+                    "salePrice": "",
+                    "attributes": {
+                        "pojemnosc": "20 L"
+                    },
+                    "priceProvenance": {
+                        "sourceNode": "496:1791",
+                        "sourcePriceNode": "323:2087",
+                        "provenance": "user-authorized-proportional",
+                        "basePrice": 411,
+                        "baseQuantity": "5 L",
+                        "targetQuantity": "20 L",
+                        "formula": "base price * target quantity \/ base quantity",
+                        "taxBasis": "including 23% VAT, source node 502:3"
+                    }
+                }
+            ],
+            "reviews": [
+                {
+                    "id": 2,
+                    "rating": "5",
+                    "sourceNode": "425:645",
+                    "provenance": {
+                        "bodyNode": "425:645",
+                        "dateNode": "429:842",
+                        "ratingNodes": [
+                            "429:836",
+                            "429:837",
+                            "429:838",
+                            "429:839",
+                            "429:840"
+                        ],
+                        "sourceDate": "30 lipca 2026",
+                        "editorialNote": "Source placeholder body retained for editorial review."
+                    }
+                }
+            ]
+        },
+        {
+            "id": 55,
+            "title": "Pakiet ochronny rzepaku ozimego na&nbsp;12 ha: PIXAFEN 3L + SPARK PAK 3 x&nbsp;3 L",
+            "status": "publish",
+            "sourceNode": "586:1245",
+            "route": "product-bundle",
+            "source": "figma:OwiDXrKMVcaHKB9ryYF6mY",
+            "imageId": 115,
+            "regularPrice": "3365",
+            "salePrice": "2965.00",
+            "priceProvenance": {
+                "sourceNode": "574:155",
+                "provenance": "figma-explicit"
+            },
+            "terms": {
+                "product_brand": [],
+                "product_type": [
+                    2
+                ],
+                "product_visibility": [],
+                "product_cat": [],
+                "product_tag": [],
+                "product_shipping_class": [],
+                "pos_product_visibility": []
+            },
+            "attributes": [],
+            "variations": [],
+            "reviews": []
+        },
+        {
+            "id": 121,
+            "title": "Stomp Aqua 455 CS&nbsp;1L",
+            "status": "publish",
+            "sourceNode": "326:2271",
+            "route": "",
+            "source": "",
+            "imageId": 127,
+            "regularPrice": "45.99",
+            "salePrice": "",
+            "priceProvenance": {
+                "sourceNode": "326:2272",
+                "provenance": "figma-explicit"
+            },
+            "terms": {
+                "product_brand": [],
+                "product_type": [
+                    2
+                ],
+                "product_visibility": [],
+                "product_cat": [
+                    16
+                ],
+                "product_tag": [],
+                "product_shipping_class": [],
+                "pos_product_visibility": []
+            },
+            "attributes": [],
+            "variations": [],
+            "reviews": []
+        },
+        {
+            "id": 122,
+            "title": "Stomp Aqua 455 CS&nbsp;5L",
+            "status": "publish",
+            "sourceNode": "326:2289",
+            "route": "",
+            "source": "",
+            "imageId": 128,
+            "regularPrice": "534.60",
+            "salePrice": "",
+            "priceProvenance": {
+                "sourceNode": "326:2290",
+                "provenance": "figma-explicit"
+            },
+            "terms": {
+                "product_brand": [],
+                "product_type": [
+                    2
+                ],
+                "product_visibility": [],
+                "product_cat": [
+                    16
+                ],
+                "product_tag": [],
+                "product_shipping_class": [],
+                "pos_product_visibility": []
+            },
+            "attributes": [],
+            "variations": [],
+            "reviews": []
+        },
+        {
+            "id": 143,
+            "title": "Vivero 500 SC&nbsp;1L",
+            "status": "publish",
+            "sourceNode": "298:832",
+            "route": "product-archive",
+            "source": "",
+            "imageId": 144,
+            "regularPrice": "475.00",
+            "salePrice": "",
+            "priceProvenance": {
+                "sourceNode": "298:832",
+                "sourcePrice": "475,00 zł",
+                "provenance": "figma-explicit"
+            },
+            "terms": {
+                "product_brand": [],
+                "product_type": [
+                    2
+                ],
+                "product_visibility": [],
+                "product_cat": [
+                    16
+                ],
+                "product_tag": [],
+                "product_shipping_class": [],
+                "pos_product_visibility": []
+            },
+            "attributes": [],
+            "variations": [],
+            "reviews": []
+        },
+        {
+            "id": 145,
+            "title": "Atrium-X 5L",
+            "status": "publish",
+            "sourceNode": "298:849",
+            "route": "product-archive",
+            "source": "",
+            "imageId": 146,
+            "regularPrice": "1069.00",
+            "salePrice": "",
+            "priceProvenance": {
+                "sourceNode": "298:849",
+                "sourcePrice": " 1 069,00 zł",
+                "provenance": "figma-explicit"
+            },
+            "terms": {
+                "product_brand": [],
+                "product_type": [
+                    2
+                ],
+                "product_visibility": [],
+                "product_cat": [
+                    16
+                ],
+                "product_tag": [],
+                "product_shipping_class": [],
+                "pos_product_visibility": []
+            },
+            "attributes": [],
+            "variations": [],
+            "reviews": []
+        },
+        {
+            "id": 147,
+            "title": "Bounty 430 SC&nbsp;5L",
+            "status": "publish",
+            "sourceNode": "299:869",
+            "route": "product-archive",
+            "source": "",
+            "imageId": 148,
+            "regularPrice": "265.00",
+            "salePrice": "",
+            "priceProvenance": {
+                "sourceNode": "299:869",
+                "sourcePrice": "265,00 zł",
+                "provenance": "figma-explicit"
+            },
+            "terms": {
+                "product_brand": [],
+                "product_type": [
+                    2
+                ],
+                "product_visibility": [],
+                "product_cat": [
+                    16
+                ],
+                "product_tag": [],
+                "product_shipping_class": [],
+                "pos_product_visibility": []
+            },
+            "attributes": [],
+            "variations": [],
+            "reviews": []
+        },
+        {
+            "id": 149,
+            "title": "Zingaro Extra 250SC 5L",
+            "status": "publish",
+            "sourceNode": "299:889",
+            "route": "product-archive",
+            "source": "",
+            "imageId": 150,
+            "regularPrice": "295.00",
+            "salePrice": "",
+            "priceProvenance": {
+                "sourceNode": "299:889",
+                "sourcePrice": "295,00 zł",
+                "provenance": "figma-explicit"
+            },
+            "terms": {
+                "product_brand": [],
+                "product_type": [
+                    2
+                ],
+                "product_visibility": [],
+                "product_cat": [
+                    16
+                ],
+                "product_tag": [],
+                "product_shipping_class": [],
+                "pos_product_visibility": []
+            },
+            "attributes": [],
+            "variations": [],
+            "reviews": []
+        },
+        {
+            "id": 151,
+            "title": "Darcos 250 EW&nbsp;5L",
+            "status": "publish",
+            "sourceNode": "299:907",
+            "route": "product-archive",
+            "source": "",
+            "imageId": 152,
+            "regularPrice": "210.60",
+            "salePrice": "",
+            "priceProvenance": {
+                "sourceNode": "299:907",
+                "sourcePrice": "210,60 zł",
+                "provenance": "figma-explicit"
+            },
+            "terms": {
+                "product_brand": [],
+                "product_type": [
+                    2
+                ],
+                "product_visibility": [],
+                "product_cat": [
+                    16
+                ],
+                "product_tag": [],
+                "product_shipping_class": [],
+                "pos_product_visibility": []
+            },
+            "attributes": [],
+            "variations": [],
+            "reviews": []
+        },
+        {
+            "id": 153,
+            "title": "Mepi Met Life 5L",
+            "status": "publish",
+            "sourceNode": "299:925",
+            "route": "product-archive",
+            "source": "",
+            "imageId": 154,
+            "regularPrice": "460.00",
+            "salePrice": "",
+            "priceProvenance": {
+                "sourceNode": "299:925",
+                "sourcePrice": "460,00 zł",
+                "provenance": "figma-explicit"
+            },
+            "terms": {
+                "product_brand": [],
+                "product_type": [
+                    2
+                ],
+                "product_visibility": [],
+                "product_cat": [
+                    16
+                ],
+                "product_tag": [],
+                "product_shipping_class": [],
+                "pos_product_visibility": []
+            },
+            "attributes": [],
+            "variations": [],
+            "reviews": []
+        },
+        {
+            "id": 155,
+            "title": "Tavares 250 SE&nbsp;5L",
+            "status": "publish",
+            "sourceNode": "299:1052",
+            "route": "product-archive",
+            "source": "",
+            "imageId": 156,
+            "regularPrice": "1135.00",
+            "salePrice": "",
+            "priceProvenance": {
+                "sourceNode": "299:1052",
+                "sourcePrice": "1135,00 zł",
+                "provenance": "figma-explicit"
+            },
+            "terms": {
+                "product_brand": [],
+                "product_type": [
+                    2
+                ],
+                "product_visibility": [],
+                "product_cat": [
+                    16
+                ],
+                "product_tag": [],
+                "product_shipping_class": [],
+                "pos_product_visibility": []
+            },
+            "attributes": [],
+            "variations": [],
+            "reviews": []
+        },
+        {
+            "id": 157,
+            "title": "Allstar  5L",
+            "status": "publish",
+            "sourceNode": "299:1070",
+            "route": "product-archive",
+            "source": "",
+            "imageId": 158,
+            "regularPrice": "3185.63",
+            "salePrice": "",
+            "priceProvenance": {
+                "sourceNode": "299:1070",
+                "sourcePrice": "3 185,63 zł",
+                "provenance": "figma-explicit"
+            },
+            "terms": {
+                "product_brand": [],
+                "product_type": [
+                    2
+                ],
+                "product_visibility": [],
+                "product_cat": [
+                    16
+                ],
+                "product_tag": [],
+                "product_shipping_class": [],
+                "pos_product_visibility": []
+            },
+            "attributes": [],
+            "variations": [],
+            "reviews": []
+        },
+        {
+            "id": 159,
+            "title": "Andros 750 EC 5L",
+            "status": "publish",
+            "sourceNode": "299:1088",
+            "route": "product-archive",
+            "source": "",
+            "imageId": 160,
+            "regularPrice": "723.60",
+            "salePrice": "",
+            "priceProvenance": {
+                "sourceNode": "299:1088",
+                "sourcePrice": "723,60 zł",
+                "provenance": "figma-explicit"
+            },
+            "terms": {
+                "product_brand": [],
+                "product_type": [
+                    2
+                ],
+                "product_visibility": [],
+                "product_cat": [
+                    16
+                ],
+                "product_tag": [],
+                "product_shipping_class": [],
+                "pos_product_visibility": []
+            },
+            "attributes": [],
+            "variations": [],
+            "reviews": []
+        },
+        {
+            "id": 161,
+            "title": "Ascra XPRO 260 EC 5L",
+            "status": "publish",
+            "sourceNode": "299:1104",
+            "route": "product-archive",
+            "source": "",
+            "imageId": 162,
+            "regularPrice": "1162.40",
+            "salePrice": "",
+            "priceProvenance": {
+                "sourceNode": "299:1104",
+                "sourcePrice": "1 162,40 zł",
+                "provenance": "figma-explicit"
+            },
+            "terms": {
+                "product_brand": [],
+                "product_type": [
+                    2
+                ],
+                "product_visibility": [],
+                "product_cat": [
+                    16
+                ],
+                "product_tag": [],
+                "product_shipping_class": [],
+                "pos_product_visibility": []
+            },
+            "attributes": [],
+            "variations": [],
+            "reviews": []
+        },
+        {
+            "id": 163,
+            "title": "Aviator XPRO 225 EC 5L",
+            "status": "publish",
+            "sourceNode": "299:1120",
+            "route": "product-archive",
+            "source": "",
+            "imageId": 164,
+            "regularPrice": "1240.70",
+            "salePrice": "",
+            "priceProvenance": {
+                "sourceNode": "299:1120",
+                "sourcePrice": "1 240,70 zł",
+                "provenance": "figma-explicit"
+            },
+            "terms": {
+                "product_brand": [],
+                "product_type": [
+                    2
+                ],
+                "product_visibility": [],
+                "product_cat": [
+                    16
+                ],
+                "product_tag": [],
+                "product_shipping_class": [],
+                "pos_product_visibility": []
+            },
+            "attributes": [],
+            "variations": [],
+            "reviews": []
+        },
+        {
+            "id": 165,
+            "title": "Bantux 500 SC&nbsp;5L",
+            "status": "publish",
+            "sourceNode": "299:1136",
+            "route": "product-archive",
+            "source": "",
+            "imageId": 166,
+            "regularPrice": "540.00",
+            "salePrice": "",
+            "priceProvenance": {
+                "sourceNode": "299:1136",
+                "sourcePrice": "540,00 zł",
+                "provenance": "figma-explicit"
+            },
+            "terms": {
+                "product_brand": [],
+                "product_type": [
+                    2
+                ],
+                "product_visibility": [],
+                "product_cat": [
+                    16
+                ],
+                "product_tag": [],
+                "product_shipping_class": [],
+                "pos_product_visibility": []
+            },
+            "attributes": [],
+            "variations": [],
+            "reviews": []
+        },
+        {
+            "id": 167,
+            "title": "Belanty 5L",
+            "status": "publish",
+            "sourceNode": "302:1169",
+            "route": "product-archive",
+            "source": "",
+            "imageId": 168,
+            "regularPrice": "553.68",
+            "salePrice": "",
+            "priceProvenance": {
+                "sourceNode": "302:1169",
+                "sourcePrice": "553,68 zł",
+                "provenance": "figma-explicit"
+            },
+            "terms": {
+                "product_brand": [],
+                "product_type": [
+                    2
+                ],
+                "product_visibility": [],
+                "product_cat": [
+                    16
+                ],
+                "product_tag": [],
+                "product_shipping_class": [],
+                "pos_product_visibility": []
+            },
+            "attributes": [],
+            "variations": [],
+            "reviews": []
+        },
+        {
+            "id": 169,
+            "title": "Bellis 38 WG&nbsp;1kg",
+            "status": "publish",
+            "sourceNode": "302:1185",
+            "route": "product-archive",
+            "source": "",
+            "imageId": 170,
+            "regularPrice": "287.16",
+            "salePrice": "",
+            "priceProvenance": {
+                "sourceNode": "302:1185",
+                "sourcePrice": "287,16 zł",
+                "provenance": "figma-explicit"
+            },
+            "terms": {
+                "product_brand": [],
+                "product_type": [
+                    2
+                ],
+                "product_visibility": [],
+                "product_cat": [
+                    16
+                ],
+                "product_tag": [],
+                "product_shipping_class": [],
+                "pos_product_visibility": []
+            },
+            "attributes": [],
+            "variations": [],
+            "reviews": []
+        },
+        {
+            "id": 171,
+            "title": "Bellis 38 WG&nbsp;5kg",
+            "status": "publish",
+            "sourceNode": "302:1201",
+            "route": "product-archive",
+            "source": "",
+            "imageId": 172,
+            "regularPrice": "1380.51",
+            "salePrice": "",
+            "priceProvenance": {
+                "sourceNode": "302:1201",
+                "sourcePrice": "1 380,51 zł",
+                "provenance": "figma-explicit"
+            },
+            "terms": {
+                "product_brand": [],
+                "product_type": [
+                    2
+                ],
+                "product_visibility": [],
+                "product_cat": [
+                    16
+                ],
+                "product_tag": [],
+                "product_shipping_class": [],
+                "pos_product_visibility": []
+            },
+            "attributes": [],
+            "variations": [],
+            "reviews": []
+        },
+        {
+            "id": 173,
+            "title": "Boogie XPRO 400 EC 15L",
+            "status": "publish",
+            "sourceNode": "302:1217",
+            "route": "product-archive",
+            "source": "",
+            "imageId": 174,
+            "regularPrice": "2754.00",
+            "salePrice": "",
+            "priceProvenance": {
+                "sourceNode": "302:1217",
+                "sourcePrice": "2 754,00 zł",
+                "provenance": "figma-explicit"
+            },
+            "terms": {
+                "product_brand": [],
+                "product_type": [
+                    2
+                ],
+                "product_visibility": [],
+                "product_cat": [
+                    16
+                ],
+                "product_tag": [],
+                "product_shipping_class": [],
+                "pos_product_visibility": []
+            },
+            "attributes": [],
+            "variations": [],
+            "reviews": []
+        },
+        {
+            "id": 175,
+            "title": "Cabrio Duo 112 EC 10L",
+            "status": "publish",
+            "sourceNode": "302:1233",
+            "route": "product-archive",
+            "source": "",
+            "imageId": 176,
+            "regularPrice": "981.68",
+            "salePrice": "",
+            "priceProvenance": {
+                "sourceNode": "302:1233",
+                "sourcePrice": "981,68 zł",
+                "provenance": "figma-explicit"
+            },
+            "terms": {
+                "product_brand": [],
+                "product_type": [
+                    2
+                ],
+                "product_visibility": [],
+                "product_cat": [
+                    16
+                ],
+                "product_tag": [],
+                "product_shipping_class": [],
+                "pos_product_visibility": []
+            },
+            "attributes": [],
+            "variations": [],
+            "reviews": []
+        },
+        {
+            "id": 177,
+            "title": "Cabrio Duo 112 EC 1L",
+            "status": "publish",
+            "sourceNode": "302:1249",
+            "route": "product-archive",
+            "source": "",
+            "imageId": 178,
+            "regularPrice": "99.76",
+            "salePrice": "",
+            "priceProvenance": {
+                "sourceNode": "302:1249",
+                "sourcePrice": "99,76 zł",
+                "provenance": "figma-explicit"
+            },
+            "terms": {
+                "product_brand": [],
+                "product_type": [
+                    2
+                ],
+                "product_visibility": [],
+                "product_cat": [
+                    16
+                ],
+                "product_tag": [],
+                "product_shipping_class": [],
+                "pos_product_visibility": []
+            },
+            "attributes": [],
+            "variations": [],
+            "reviews": []
+        },
+        {
+            "id": 217,
+            "title": "Rzepak DK IMMORTAL CL",
+            "status": "publish",
+            "sourceNode": "130:69",
+            "route": "home-promoted",
+            "source": "",
+            "imageId": 218,
+            "regularPrice": "1430.00",
+            "salePrice": "1380.00",
+            "priceProvenance": {
+                "sourceNode": "128:8",
+                "provenance": "figma-explicit"
+            },
+            "terms": {
+                "product_brand": [],
+                "product_type": [
+                    2
+                ],
+                "product_visibility": [],
+                "product_cat": [],
+                "product_tag": [],
+                "product_shipping_class": [],
+                "pos_product_visibility": []
+            },
+            "attributes": [],
+            "variations": [],
+            "reviews": []
+        },
+        {
+            "id": 219,
+            "title": "Rzepak ozimy DK EXCITED F1",
+            "status": "publish",
+            "sourceNode": "130:84",
+            "route": "home-promoted",
+            "source": "",
+            "imageId": 220,
+            "regularPrice": "1430.00",
+            "salePrice": "1390.00",
+            "priceProvenance": {
+                "sourceNode": "130:66",
+                "provenance": "figma-explicit"
+            },
+            "terms": {
+                "product_brand": [],
+                "product_type": [
+                    2
+                ],
+                "product_visibility": [],
+                "product_cat": [],
+                "product_tag": [],
+                "product_shipping_class": [],
+                "pos_product_visibility": []
+            },
+            "attributes": [],
+            "variations": [],
+            "reviews": []
+        },
+        {
+            "id": 221,
+            "title": "Rzepak ozimy LG AMBASSADOR",
+            "status": "publish",
+            "sourceNode": "130:100",
+            "route": "home-promoted",
+            "source": "",
+            "imageId": 222,
+            "regularPrice": "1460.00",
+            "salePrice": "1290.00",
+            "priceProvenance": {
+                "sourceNode": "140:296",
+                "provenance": "figma-explicit"
+            },
+            "terms": {
+                "product_brand": [],
+                "product_type": [
+                    2
+                ],
+                "product_visibility": [],
+                "product_cat": [],
+                "product_tag": [],
+                "product_shipping_class": [],
+                "pos_product_visibility": []
+            },
+            "attributes": [],
+            "variations": [],
+            "reviews": []
+        },
+        {
+            "id": 223,
+            "title": "Rzepak ozimy LG AUCKLAND",
+            "status": "publish",
+            "sourceNode": "130:104",
+            "route": "home-promoted",
+            "source": "",
+            "imageId": 224,
+            "regularPrice": "1631.00",
+            "salePrice": "1545.00",
+            "priceProvenance": {
+                "sourceNode": "140:351",
+                "provenance": "figma-explicit"
+            },
+            "terms": {
+                "product_brand": [],
+                "product_type": [
+                    2
+                ],
+                "product_visibility": [],
+                "product_cat": [],
+                "product_tag": [],
+                "product_shipping_class": [],
+                "pos_product_visibility": []
+            },
+            "attributes": [],
+            "variations": [],
+            "reviews": []
+        },
+        {
+            "id": 225,
+            "title": "Modivo 60 CS",
+            "status": "publish",
+            "sourceNode": "140:216",
+            "route": "home-recommended",
+            "source": "",
+            "imageId": 226,
+            "regularPrice": "203.52",
+            "salePrice": "",
+            "priceProvenance": {
+                "sourceNode": "140:229",
+                "provenance": "figma-explicit"
+            },
+            "terms": {
+                "product_brand": [],
+                "product_type": [
+                    2
+                ],
+                "product_visibility": [],
+                "product_cat": [],
+                "product_tag": [],
+                "product_shipping_class": [],
+                "pos_product_visibility": []
+            },
+            "attributes": [],
+            "variations": [],
+            "reviews": []
+        },
+        {
+            "id": 227,
+            "title": "Vivero 500 SC&nbsp;1l",
+            "status": "publish",
+            "sourceNode": "140:200",
+            "route": "home-recommended",
+            "source": "",
+            "imageId": 228,
+            "regularPrice": "475.00",
+            "salePrice": "",
+            "priceProvenance": {
+                "sourceNode": "140:213",
+                "provenance": "figma-explicit"
+            },
+            "terms": {
+                "product_brand": [],
+                "product_type": [
+                    2
+                ],
+                "product_visibility": [],
+                "product_cat": [],
+                "product_tag": [],
+                "product_shipping_class": [],
+                "pos_product_visibility": []
+            },
+            "attributes": [],
+            "variations": [],
+            "reviews": []
+        },
+        {
+            "id": 229,
+            "title": "Goliat Trio 060 FS",
+            "status": "publish",
+            "sourceNode": "140:184",
+            "route": "home-recommended",
+            "source": "",
+            "imageId": 230,
+            "regularPrice": "525.00",
+            "salePrice": "",
+            "priceProvenance": {
+                "sourceNode": "140:197",
+                "provenance": "figma-explicit"
+            },
+            "terms": {
+                "product_brand": [],
+                "product_type": [
+                    2
+                ],
+                "product_visibility": [],
+                "product_cat": [],
+                "product_tag": [],
+                "product_shipping_class": [],
+                "pos_product_visibility": []
+            },
+            "attributes": [],
+            "variations": [],
+            "reviews": []
+        },
+        {
+            "id": 231,
+            "title": "Tavares 250 SE&nbsp;5 L",
+            "status": "publish",
+            "sourceNode": "140:168",
+            "route": "home-recommended",
+            "source": "",
+            "imageId": 232,
+            "regularPrice": "1135.00",
+            "salePrice": "",
+            "priceProvenance": {
+                "sourceNode": "140:181",
+                "provenance": "figma-explicit"
+            },
+            "terms": {
+                "product_brand": [],
+                "product_type": [
+                    2
+                ],
+                "product_visibility": [],
+                "product_cat": [],
+                "product_tag": [],
+                "product_shipping_class": [],
+                "pos_product_visibility": []
+            },
+            "attributes": [],
+            "variations": [],
+            "reviews": []
+        }
+    ],
+    "taxonomies": {
+        "product_cat": [
+            {
+                "id": 15,
+                "name": "Uncategorized",
+                "slug": "uncategorized",
+                "parent": 0,
+                "count": 0,
+                "sourceRoute": ""
+            },
+            {
+                "id": 16,
+                "name": "Fungicydy",
+                "slug": "fungicydy",
+                "parent": 19,
+                "count": 21,
+                "sourceRoute": "product-archive"
+            },
+            {
+                "id": 19,
+                "name": "Środki ochrony roślin",
+                "slug": "srodki-ochrony-roslin",
+                "parent": 0,
+                "count": 21,
+                "sourceRoute": ""
+            }
+        ],
+        "product_tag": []
+    },
+    "attributes": [],
+    "svgAttachments": [
+        {
+            "id": 20,
+            "sourceField": "rudnikagro_shared_topbar_media_169_282",
+            "sourceAsset": "assets\/home\/169-282-source.svg",
+            "acfReferences": [
+                {
+                    "field": "product.rudnikagro_product_technical_data.3.value",
+                    "attachmentId": 20,
+                    "sourceField": "rudnikagro_shared_topbar_media_169_282"
+                },
+                {
+                    "field": "product.rudnikagro_product_technical_data.3.value",
+                    "attachmentId": 20,
+                    "sourceField": "rudnikagro_shared_topbar_media_169_282"
+                },
+                {
+                    "field": "option.rudnikagro_shared_topbar_media_169_282",
+                    "attachmentId": 20,
+                    "sourceField": "rudnikagro_shared_topbar_media_169_282"
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "sourceField": "rudnikagro_shared_topbar_media_169_287",
+            "sourceAsset": "assets\/home\/169-287-source.svg",
+            "acfReferences": [
+                {
+                    "field": "option.rudnikagro_shared_topbar_media_169_287",
+                    "attachmentId": 21,
+                    "sourceField": "rudnikagro_shared_topbar_media_169_287"
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "sourceField": "rudnikagro_shared_topbar_media_169_284",
+            "sourceAsset": "assets\/home\/169-284-source.svg",
+            "acfReferences": [
+                {
+                    "field": "option.rudnikagro_shared_topbar_media_169_284",
+                    "attachmentId": 22,
+                    "sourceField": "rudnikagro_shared_topbar_media_169_284"
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "sourceField": "rudnikagro_shared_topbar_media_169_288",
+            "sourceAsset": "assets\/home\/169-288-source.svg",
+            "acfReferences": [
+                {
+                    "field": "option.rudnikagro_shared_topbar_media_169_288",
+                    "attachmentId": 23,
+                    "sourceField": "rudnikagro_shared_topbar_media_169_288"
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "sourceField": "rudnikagro_shared_topbar_media_169_289",
+            "sourceAsset": "assets\/home\/169-289-source.svg",
+            "acfReferences": [
+                {
+                    "field": "option.rudnikagro_shared_topbar_media_169_289",
+                    "attachmentId": 24,
+                    "sourceField": "rudnikagro_shared_topbar_media_169_289"
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "sourceField": "rudnikagro_shared_secondary_navigation_media_I625_179;586_555",
+            "sourceAsset": "assets\/home\/I625-179;586-555-ulubione.svg",
+            "acfReferences": [
+                {
+                    "field": "option.rudnikagro_shared_secondary_navigation_media_I625_179;586_555",
+                    "attachmentId": 25,
+                    "sourceField": "rudnikagro_shared_secondary_navigation_media_I625_179;586_555"
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "sourceField": "rudnikagro_shared_secondary_navigation_media_I625_179;586_587",
+            "sourceAsset": "assets\/home\/I625-179;586-587-ellipse12.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 27,
+            "sourceField": "rudnikagro_shared_secondary_navigation_media_153_63",
+            "sourceAsset": "assets\/home\/153-63-lupa1.svg",
+            "acfReferences": [
+                {
+                    "field": "option.rudnikagro_shared_secondary_navigation_media_153_63",
+                    "attachmentId": 27,
+                    "sourceField": "rudnikagro_shared_secondary_navigation_media_153_63"
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "sourceField": "rudnikagro_shared_secondary_navigation_media_347_961",
+            "sourceAsset": "assets\/home\/347-961-logowanie.svg",
+            "acfReferences": [
+                {
+                    "field": "option.rudnikagro_shared_secondary_navigation_media_347_961",
+                    "attachmentId": 28,
+                    "sourceField": "rudnikagro_shared_secondary_navigation_media_347_961"
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "sourceField": "rudnikagro_shared_secondary_navigation_media_347_972",
+            "sourceAsset": "assets\/home\/347-972-koszyk.svg",
+            "acfReferences": [
+                {
+                    "field": "option.rudnikagro_shared_secondary_navigation_media_347_972",
+                    "attachmentId": 29,
+                    "sourceField": "rudnikagro_shared_secondary_navigation_media_347_972"
+                }
+            ]
+        },
+        {
+            "id": 30,
+            "sourceField": "rudnikagro_shared_secondary_navigation_media_347_1078",
+            "sourceAsset": "assets\/home\/347-1078-mail.svg",
+            "acfReferences": [
+                {
+                    "field": "option.rudnikagro_shared_secondary_navigation_media_347_1078",
+                    "attachmentId": 30,
+                    "sourceField": "rudnikagro_shared_secondary_navigation_media_347_1078"
+                }
+            ]
+        },
+        {
+            "id": 31,
+            "sourceField": "rudnikagro_shared_secondary_navigation_media_347_1077",
+            "sourceAsset": "assets\/home\/347-1077-vector20.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 32,
+            "sourceField": "rudnikagro_shared_primary_navigation_media_118_6",
+            "sourceAsset": "assets\/home\/118-6-logo1.svg",
+            "acfReferences": [
+                {
+                    "field": "option.rudnikagro_shared_primary_navigation_media_118_6",
+                    "attachmentId": 32,
+                    "sourceField": "rudnikagro_shared_primary_navigation_media_118_6"
+                }
+            ]
+        },
+        {
+            "id": 33,
+            "sourceField": "rudnikagro_shared_primary_navigation_active_media_250_729",
+            "sourceAsset": "assets\/home\/250-729-logo1.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 34,
+            "sourceField": "rudnikagro_shared_primary_navigation_active_media_250_752",
+            "sourceAsset": "assets\/home\/250-752-rectangle43.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 35,
+            "sourceField": "rudnikagro_shared_primary_navigation_active_media_250_755",
+            "sourceAsset": "assets\/home\/250-755-vector1.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 36,
+            "sourceField": "rudnikagro_shared_primary_navigation_active_media_250_764",
+            "sourceAsset": "assets\/home\/250-764-line7.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 37,
+            "sourceField": "rudnikagro_shared_primary_navigation_active_media_250_765",
+            "sourceAsset": "assets\/home\/250-765-rectangle31.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 39,
+            "sourceField": "rudnikagro_shared_footer_media_110_3",
+            "sourceAsset": "assets\/home\/110-3-rectangle17.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 40,
+            "sourceField": "rudnikagro_shared_footer_media_222_87",
+            "sourceAsset": "assets\/home\/222-87-vector.svg",
+            "acfReferences": [
+                {
+                    "field": "option.rudnikagro_shared_footer_media_222_87",
+                    "attachmentId": 40,
+                    "sourceField": "rudnikagro_shared_footer_media_222_87"
+                }
+            ]
+        },
+        {
+            "id": 41,
+            "sourceField": "rudnikagro_shared_footer_media_222_88",
+            "sourceAsset": "assets\/home\/222-88-vector1.svg",
+            "acfReferences": [
+                {
+                    "field": "option.rudnikagro_shared_footer_media_222_88",
+                    "attachmentId": 41,
+                    "sourceField": "rudnikagro_shared_footer_media_222_88"
+                }
+            ]
+        },
+        {
+            "id": 42,
+            "sourceField": "rudnikagro_shared_footer_media_222_89",
+            "sourceAsset": "assets\/home\/222-89-vector2.svg",
+            "acfReferences": [
+                {
+                    "field": "option.rudnikagro_shared_footer_media_222_89",
+                    "attachmentId": 42,
+                    "sourceField": "rudnikagro_shared_footer_media_222_89"
+                }
+            ]
+        },
+        {
+            "id": 43,
+            "sourceField": "rudnikagro_shared_footer_media_222_90",
+            "sourceAsset": "assets\/home\/222-90-vector3.svg",
+            "acfReferences": [
+                {
+                    "field": "option.rudnikagro_shared_footer_media_222_90",
+                    "attachmentId": 43,
+                    "sourceField": "rudnikagro_shared_footer_media_222_90"
+                }
+            ]
+        },
+        {
+            "id": 44,
+            "sourceField": "rudnikagro_shared_footer_media_222_58",
+            "sourceAsset": "assets\/home\/222-58-fb1.svg",
+            "acfReferences": [
+                {
+                    "field": "option.rudnikagro_shared_footer_media_222_58",
+                    "attachmentId": 44,
+                    "sourceField": "rudnikagro_shared_footer_media_222_58"
+                }
+            ]
+        },
+        {
+            "id": 45,
+            "sourceField": "rudnikagro_shared_footer_media_140_264",
+            "sourceAsset": "assets\/home\/140-264-logo1.svg",
+            "acfReferences": [
+                {
+                    "field": "option.rudnikagro_shared_footer_media_140_264",
+                    "attachmentId": 45,
+                    "sourceField": "rudnikagro_shared_footer_media_140_264"
+                }
+            ]
+        },
+        {
+            "id": 66,
+            "sourceField": "rudnikagro_careers_cta_background",
+            "sourceAsset": "assets\/careers\/548-24-background.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 105,
+            "sourceField": "rudnikagro_about_supply_icon_crop_protection",
+            "sourceAsset": "assets\/about\/520-364-crop-protection.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 106,
+            "sourceField": "rudnikagro_about_supply_icon_fertilizer",
+            "sourceAsset": "assets\/about\/520-366-fertilizer.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 107,
+            "sourceField": "rudnikagro_about_supply_icon_seeds",
+            "sourceAsset": "assets\/about\/520-374-seeds.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 109,
+            "sourceField": "rudnikagro_about_supply_surface",
+            "sourceAsset": "assets\/about\/520-432-supply-card.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 111,
+            "sourceField": "rudnikagro_about_grain_surface",
+            "sourceAsset": "assets\/about\/521-452-grain-card.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 113,
+            "sourceField": "rudnikagro_about_insurance_surface",
+            "sourceAsset": "assets\/about\/521-454-insurance-card.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 123,
+            "sourceField": "rudnikagro_product_icon_I625_179_586_555",
+            "sourceAsset": "assets\/home\/I625-179;586-555-ulubione.svg",
+            "acfReferences": [
+                {
+                    "field": "product.rudnikagro_product_icons.favorite_icon",
+                    "attachmentId": 123,
+                    "sourceField": "rudnikagro_product_icon_I625_179_586_555"
+                }
+            ]
+        },
+        {
+            "id": 124,
+            "sourceField": "rudnikagro_cart_remove_icon_486_96",
+            "sourceAsset": "assets\/cart\/cart-remove-item.svg",
+            "acfReferences": [
+                {
+                    "field": "option.rudnikagro_cart_remove_icon_486_96",
+                    "attachmentId": 124,
+                    "sourceField": "rudnikagro_cart_remove_icon_486_96"
+                }
+            ]
+        },
+        {
+            "id": 131,
+            "sourceField": "rudnikagro_checkout_icon_payment_card",
+            "sourceAsset": "assets\/checkout\/checkout-card.svg",
+            "acfReferences": [
+                {
+                    "field": "option.rudnikagro_checkout_icon_payment_card",
+                    "attachmentId": 131,
+                    "sourceField": "rudnikagro_checkout_icon_payment_card"
+                }
+            ]
+        },
+        {
+            "id": 132,
+            "sourceField": "rudnikagro_checkout_icon_google_pay",
+            "sourceAsset": "assets\/checkout\/checkout-google-pay.svg",
+            "acfReferences": [
+                {
+                    "field": "option.rudnikagro_checkout_icon_google_pay",
+                    "attachmentId": 132,
+                    "sourceField": "rudnikagro_checkout_icon_google_pay"
+                }
+            ]
+        },
+        {
+            "id": 133,
+            "sourceField": "rudnikagro_checkout_icon_apple_pay",
+            "sourceAsset": "assets\/checkout\/checkout-apple-pay.svg",
+            "acfReferences": [
+                {
+                    "field": "option.rudnikagro_checkout_icon_apple_pay",
+                    "attachmentId": 133,
+                    "sourceField": "rudnikagro_checkout_icon_apple_pay"
+                }
+            ]
+        },
+        {
+            "id": 135,
+            "sourceField": "rudnikagro_checkout_icon_bank_transfer",
+            "sourceAsset": "assets\/checkout\/checkout-bank-transfer.svg",
+            "acfReferences": [
+                {
+                    "field": "option.rudnikagro_checkout_icon_bank_transfer",
+                    "attachmentId": 135,
+                    "sourceField": "rudnikagro_checkout_icon_bank_transfer"
+                }
+            ]
+        },
+        {
+            "id": 136,
+            "sourceField": "rudnikagro_checkout_icon_payment_radio",
+            "sourceAsset": "assets\/checkout\/checkout-radio.svg",
+            "acfReferences": [
+                {
+                    "field": "option.rudnikagro_checkout_icon_payment_radio",
+                    "attachmentId": 136,
+                    "sourceField": "rudnikagro_checkout_icon_payment_radio"
+                }
+            ]
+        },
+        {
+            "id": 137,
+            "sourceField": "rudnikagro_checkout_icon_payment_radio_active",
+            "sourceAsset": "assets\/checkout\/checkout-radio-active.svg",
+            "acfReferences": [
+                {
+                    "field": "option.rudnikagro_checkout_icon_payment_radio_active",
+                    "attachmentId": 137,
+                    "sourceField": "rudnikagro_checkout_icon_payment_radio_active"
+                }
+            ]
+        },
+        {
+            "id": 138,
+            "sourceField": "rudnikagro_checkout_icon_delivery_radio",
+            "sourceAsset": "assets\/checkout\/checkout-delivery-radio.svg",
+            "acfReferences": [
+                {
+                    "field": "option.rudnikagro_checkout_icon_delivery_radio",
+                    "attachmentId": 138,
+                    "sourceField": "rudnikagro_checkout_icon_delivery_radio"
+                }
+            ]
+        },
+        {
+            "id": 139,
+            "sourceField": "rudnikagro_checkout_icon_delivery_radio_active",
+            "sourceAsset": "assets\/checkout\/checkout-delivery-radio-active.svg",
+            "acfReferences": [
+                {
+                    "field": "option.rudnikagro_checkout_icon_delivery_radio_active",
+                    "attachmentId": 139,
+                    "sourceField": "rudnikagro_checkout_icon_delivery_radio_active"
+                }
+            ]
+        },
+        {
+            "id": 141,
+            "sourceField": "rudnikagro_account_registration_dialog_background",
+            "sourceAsset": "assets\/checkout\/account-registration-dialog.svg",
+            "acfReferences": [
+                {
+                    "field": "option.rudnikagro_account_registration_dialog_background",
+                    "attachmentId": 141,
+                    "sourceField": "rudnikagro_account_registration_dialog_background"
+                }
+            ]
+        },
+        {
+            "id": 142,
+            "sourceField": "rudnikagro_archive_pagination_next_303_1318",
+            "sourceAsset": "assets\/product-archive\/a910008d-459f-4404-bc5c-37a2f08170d2.svg",
+            "acfReferences": [
+                {
+                    "field": "option.rudnikagro_product_archive.pagination_next_icon",
+                    "attachmentId": 142,
+                    "sourceField": "rudnikagro_archive_pagination_next_303_1318"
+                }
+            ]
+        },
+        {
+            "id": 179,
+            "sourceField": "rudnikagro_home_crop_pszenica",
+            "sourceAsset": "assets\/home\/105-188-pszenica1.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 180,
+            "sourceField": "rudnikagro_home_crop_kukurydza",
+            "sourceAsset": "assets\/home\/105-191-kukurydza1.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 181,
+            "sourceField": "rudnikagro_home_crop_jeczmien",
+            "sourceAsset": "assets\/home\/105-194-jeczmien1.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 182,
+            "sourceField": "rudnikagro_home_crop_zyto",
+            "sourceAsset": "assets\/home\/105-204-zyto1.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 183,
+            "sourceField": "rudnikagro_home_crop_owies",
+            "sourceAsset": "assets\/home\/105-207-owies1.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 184,
+            "sourceField": "rudnikagro_home_crop_rzepak",
+            "sourceAsset": "assets\/home\/106-215-rzepak1.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 185,
+            "sourceField": "rudnikagro_home_crop_lubin",
+            "sourceAsset": "assets\/home\/105-210-lubin1.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 186,
+            "sourceField": "rudnikagro_home_crop_brokul",
+            "sourceAsset": "assets\/home\/106-234-brokul1.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 187,
+            "sourceField": "rudnikagro_home_crop_burak",
+            "sourceAsset": "assets\/home\/106-245-burak1.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 188,
+            "sourceField": "rudnikagro_home_crop_cebula",
+            "sourceAsset": "assets\/home\/106-242-cebula1.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 189,
+            "sourceField": "rudnikagro_home_crop_fasola",
+            "sourceAsset": "assets\/home\/106-268-fasola1.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 190,
+            "sourceField": "rudnikagro_home_crop_kalafior",
+            "sourceAsset": "assets\/home\/106-284-kalafior1.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 191,
+            "sourceField": "rudnikagro_home_crop_kapusta",
+            "sourceAsset": "assets\/home\/106-293-kapusta1.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 192,
+            "sourceField": "rudnikagro_home_crop_pomidor",
+            "sourceAsset": "assets\/home\/106-377-pomidor1.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 193,
+            "sourceField": "rudnikagro_home_crop_ziemniak",
+            "sourceAsset": "assets\/home\/106-433-ziemniak1.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 194,
+            "sourceField": "rudnikagro_home_crop_borowka",
+            "sourceAsset": "assets\/home\/107-459-borowka1.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 195,
+            "sourceField": "rudnikagro_home_crop_grusza",
+            "sourceAsset": "assets\/home\/107-472-grusza1.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 196,
+            "sourceField": "rudnikagro_home_crop_jablon",
+            "sourceAsset": "assets\/home\/107-475-jablon1.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 197,
+            "sourceField": "rudnikagro_home_crop_malina",
+            "sourceAsset": "assets\/home\/107-483-malina1.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 198,
+            "sourceField": "rudnikagro_home_crop_sliwka",
+            "sourceAsset": "assets\/home\/108-491-sliwa1.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 199,
+            "sourceField": "rudnikagro_home_crop_truskawka",
+            "sourceAsset": "assets\/home\/108-517-truskawka1.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 200,
+            "sourceField": "rudnikagro_home_crop_winorosl",
+            "sourceAsset": "assets\/home\/108-538-winorosl1.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 201,
+            "sourceField": "rudnikagro_home_crop_wisnia",
+            "sourceAsset": "assets\/home\/108-541-wisnia1.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 203,
+            "sourceField": "rudnikagro_home_benefit_original",
+            "sourceAsset": "assets\/home\/161-174-oryginalneprodukty1.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 204,
+            "sourceField": "rudnikagro_home_benefit_warranty",
+            "sourceAsset": "assets\/home\/161-186-dostawa1.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 205,
+            "sourceField": "rudnikagro_home_benefit_delivery",
+            "sourceAsset": "assets\/home\/161-186-dostawa1.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 206,
+            "sourceField": "rudnikagro_home_benefit_prices",
+            "sourceAsset": "assets\/home\/161-192-ceny1.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 207,
+            "sourceField": "rudnikagro_home_benefit_bundles",
+            "sourceAsset": "assets\/home\/161-198-pakiety1.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 210,
+            "sourceField": "rudnikagro_home_catalogues_download",
+            "sourceAsset": "assets\/home\/169-296-download1.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 211,
+            "sourceField": "rudnikagro_home_catalogues_download_orchard",
+            "sourceAsset": "assets\/home\/169-297-download.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 215,
+            "sourceField": "rudnikagro_home_knowledge_open_icon",
+            "sourceAsset": "assets\/home\/164-205-vector11.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 216,
+            "sourceField": "rudnikagro_home_knowledge_closed_icon",
+            "sourceAsset": "assets\/home\/164-208-vector12.svg",
+            "acfReferences": []
+        },
+        {
+            "id": 234,
+            "sourceField": "rudnikagro_home_card_cart_icon",
+            "sourceAsset": "assets\/home\/130-90-koszyk4.svg",
+            "acfReferences": []
+        }
+    ]
+}

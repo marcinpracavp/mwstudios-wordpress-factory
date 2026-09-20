@@ -30,7 +30,7 @@ function prepareContext(stage, task, dir) {
   const sectionIndex = [];
   for (const id of sectionIds) {
     const section = sections.find(s => s.id === id);
-    const fields = (content.fields || []).filter(f => f.section === id);
+    const fields = (content.fields || []).filter(f => f.section === id && (!task.contentKeys || task.contentKeys.includes(`${f.language}:${f.nodeId}:${f.fieldName}`)));
     const output = path.join(contextDir, `section-${hash(id).slice(0, 16)}.json`);
     write(output, { id, manifestRecord: section || null, contentFields: fields });
     sectionIndex.push({ id, manifestRecordPresent: !!section, snapshot: section?.snapshot ? relative(inside(SNAPSHOT, section.snapshot)) : null, contentRecords: fields.length, records: descriptor(output) });

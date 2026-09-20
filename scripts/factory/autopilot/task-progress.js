@@ -28,4 +28,5 @@ function save(dir, id, binding, { evidence, outputs, result }, root = ROOT) {
   write(file, { version: 1, id, binding, status: 'passed', evidence: proof, outputs: signatures(root, outputs || []), result, savedAt: new Date().toISOString() });
   return file;
 }
-module.exports = { valid, save, signatures, implementationFiles, changed };
+function result(dir, id) { return read(fileFor(dir,id)).result; }
+module.exports = { valid, save, result, signatures, implementationFiles, changed };

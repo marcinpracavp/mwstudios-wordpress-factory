@@ -1,0 +1,128 @@
+﻿{
+  "readOnly": true,
+  "records": [
+    {
+      "key": "pl:298:832:rudnikagro_archive_product_298_832",
+      "passed": true,
+      "observed": {
+        "id": 143,
+        "sourceKey": "pl:298:832:rudnikagro_archive_product_298_832",
+        "sourceNode": "298:832",
+        "title": "Vivero 500 SC&nbsp;1L",
+        "status": "publish",
+        "route": "product-archive",
+        "imageId": 144,
+        "imageSourceNode": "298:835",
+        "imageSourceAsset": "assets/product-archive/fd65e899-135e-4f7c-b3b0-ef306c3db68e.png",
+        "regularPrice": "475.00",
+        "salePrice": "",
+        "priceProvenance": {
+          "sourceNode": "298:832",
+          "sourcePrice": "475,00 zł",
+          "provenance": "figma-explicit"
+        },
+        "terms": {
+          "product_brand": [],
+          "product_type": [
+            2
+          ],
+          "product_visibility": [],
+          "product_cat": [
+            16
+          ],
+          "product_tag": [],
+          "product_shipping_class": [],
+          "pos_product_visibility": []
+        },
+        "attributes": [],
+        "variations": [],
+        "reviews": [],
+        "acf": [
+          false
+        ]
+      }
+    },
+    {
+      "key": "pl:299:1052:rudnikagro_archive_product_299_1052",
+      "passed": true,
+      "observed": {
+        "id": 155,
+        "sourceKey": "pl:299:1052:rudnikagro_archive_product_299_1052",
+        "sourceNode": "299:1052",
+        "title": "Tavares 250 SE&nbsp;5L",
+        "status": "publish",
+        "route": "product-archive",
+        "imageId": 156,
+        "imageSourceNode": "299:1142",
+        "imageSourceAsset": "assets/product-archive/001037f1-77a9-4395-a2fe-1ede41eddae6.png",
+        "regularPrice": "1135.00",
+        "salePrice": "",
+        "priceProvenance": {
+          "sourceNode": "299:1052",
+          "sourcePrice": "1135,00 zł",
+          "provenance": "figma-explicit"
+        },
+        "terms": {
+          "product_brand": [],
+          "product_type": [
+            2
+          ],
+          "product_visibility": [],
+          "product_cat": [
+            16
+          ],
+          "product_tag": [],
+          "product_shipping_class": [],
+          "pos_product_visibility": []
+        },
+        "attributes": [],
+        "variations": [],
+        "reviews": [],
+        "acf": [
+          false
+        ]
+      }
+    },
+    {
+      "key": "pl:302:1169:rudnikagro_archive_product_302_1169",
+      "passed": true,
+      "observed": {
+        "id": 167,
+        "sourceKey": "pl:302:1169:rudnikagro_archive_product_302_1169",
+        "sourceNode": "302:1169",
+        "title": "Belanty 5L",
+        "status": "publish",
+        "route": "product-archive",
+        "imageId": 168,
+        "imageSourceNode": "302:1257",
+        "imageSourceAsset": "assets/product-archive/467273e2-7bb8-49fe-b397-91ede4d864e4.png",
+        "regularPrice": "553.68",
+        "salePrice": "",
+        "priceProvenance": {
+          "sourceNode": "302:1169",
+          "sourcePrice": "553,68 zł",
+          "provenance": "figma-explicit"
+        },
+        "terms": {
+          "product_brand": [],
+          "product_type": [
+            2
+          ],
+          "product_visibility": [],
+          "product_cat": [
+            16
+          ],
+          "product_tag": [],
+          "product_shipping_class": [],
+          "pos_product_visibility": []
+        },
+        "attributes": [],
+        "variations": [],
+        "reviews": [],
+        "acf": [
+          false
+        ]
+      }
+    }
+  ]
+}

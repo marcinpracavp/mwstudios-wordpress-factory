@@ -18,13 +18,13 @@ test('Luna takes CSS/PHP work on medium, complex tasks on high, no stage lookup'
   assert.equal(routeTask(config, { type: 'style-fix' }, [done('luna', 'needs_work')]).alias, 'terra');
   assert.equal(routeTask(config, { type: 'style-fix' }, [done('luna', 'needs_work'), done('terra', 'needs_work')]).alias, 'luna');
 });
-test('Sol is restricted to final polish; cheaper successful work does not require Terra', () => {
+test('Sol is reserved exclusively for the single final audit', () => {
+  assert.equal(routeTask(config, { type: 'final-audit' }).alias, 'sol');
+  assert.equal(routeTask(config, { type: 'final-audit' }).reasoningEffort, 'high');
   assert.equal(routeTask(config, { type: 'final-polish' }).alias, 'luna');
-  assert.equal(routeTask(config, { type: 'final-polish' }, [done('luna', 'passed')]).alias, 'sol');
-  assert.equal(routeTask(config, { type: 'final-polish' }, [done('luna', 'needs_work')]).alias, 'terra');
-  assert.equal(routeTask(config, { type: 'final-polish' }, [done('luna', 'needs_work'), done('terra', 'needs_work')]).alias, 'luna');
-  assert.equal(routeTask(config, { type: 'final-polish' }, [done('luna', 'needs_work'), done('terra', 'needs_work'), done('luna', 'needs_work')]).alias, 'sol');
+  assert.equal(routeTask(config, { type: 'style-fix', onlyModel:'luna' }, [done('luna','needs_work')]).alias,'luna');
 });
+
 test('capacity interruption does not escalate and attempts/budgets survive resume', () => {
   const interrupted = { model: MODELS.luna, status: 'failed', error: 'AGENT_EXECUTION_FAILED: capacity limit' };
   assert.equal(routeTask(config, { type: 'refactor' }, [interrupted]).alias, 'luna');

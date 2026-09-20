@@ -46,7 +46,8 @@ async function metrics(page) {
         landmark: el.closest('footer,[role="contentinfo"]') ? 'footer' : el.closest('header,[role="banner"]') ? 'header' : null,
         component: el.dataset.factoryComponent || null, html: (() => { const copy=el.cloneNode(true); copy.querySelectorAll('script,iframe').forEach(n=>n.remove()); copy.querySelectorAll('input,textarea').forEach(n=>{n.removeAttribute('value');n.textContent='';}); return copy.outerHTML.slice(0,2400); })(), ...rect(el), style: style(el) })),
       texts: Array.from(document.querySelectorAll('h1,h2,h3,p,button,.button,label')).map(el => ({ text: el.textContent.trim(), ...rect(el), style: style(el) })),
-      images: Array.from(document.images).map(el => ({ src: el.currentSrc || el.src, loaded: el.complete && el.naturalWidth > 0, ...rect(el), style: style(el) })),
+      images: Array.from(document.images).map(el => ({ src: el.currentSrc || el.src, sourceNodeId:el.dataset.factorySourceNode || el.closest('[data-factory-source-node]')?.dataset.factorySourceNode || null,
+        section:el.closest('[data-factory-section]')?.dataset.factorySection || null,loaded: el.complete && el.naturalWidth > 0, ...rect(el), style: style(el) })),
       links: Array.from(document.querySelectorAll('a')).map(el => ({ text: el.textContent.trim(), href: el.getAttribute('href') }))
     };
   });
@@ -77,14 +78,25 @@ async function compareImages(page, reference, rendered, config, sections, images
     const aa = ac.getImageData(0,0,width,height), bb = bc.getImageData(0,0,width,height), dd = dc.createImageData(width,height);
     let different = 0, absolute = 0;
     const rowDifferences = new Array(height).fill(0);
-    const ownership = Object.fromEntries(['header','footer','shared','page','outside','reused'].map(k => [k, { pixels: 0, differentPixels: 0 }]));
+    const ownership = Object.fromEntries(['header','footer','shared','page','outside','reused'].map(k => [k, { pixels: 0, differentPixels: 0, noisePixels:0 }]));
     const components = {};
     const imageMask = new Uint8Array(width*height);
+    const noiseMask=new Uint8Array(width*height);
     const imageDiagnostics = { interiorPixels:0, interiorDifferentPixels:0, otherPixels:0, otherDifferentPixels:0,
       note:'Diagnostic only: confirm source asset, crop, geometry and border before accepting interior photo differences. No blanket image exemption.' };
     for (const im of images.filter(im=>im.loaded && im.width>=80 && im.height>=80)) {
       const x0=Math.max(0,Math.ceil(im.x)+4),x1=Math.min(width,Math.floor(im.x+im.width)-4);
       for(let y=Math.max(0,Math.ceil(im.y)+4);y<Math.min(height,Math.floor(im.y+im.height)-4);y++) if(x1>x0) imageMask.fill(1,y*width+x0,y*width+x1);
+      if(!im.sourceIdentityVerified)continue;
+      // Compare low-frequency colour blocks AND bound per-pixel deltas. Wrong crops, placement,
+      // assets and edges cannot be forgiven merely because the rectangle contains a photo.
+      for(let y0=Math.max(0,Math.ceil(im.y)+4);y0<Math.min(height,Math.floor(im.y+im.height)-4);y0+=8){
+        for(let xx=x0;xx<x1;xx+=8){
+          const xend=Math.min(x1,xx+8),yend=Math.min(height,Math.floor(im.y+im.height)-4,y0+8),sums=[0,0,0];let count=0,max=0;
+          for(let y=y0;y<yend;y++)for(let x=xx;x<xend;x++){const i=(y*width+x)*4;count++;for(let k=0;k<3;k++){const d=aa.data[i+k]-bb.data[i+k];sums[k]+=d;max=Math.max(max,Math.abs(d));}}
+          if(count&&max<=40&&sums.every(s=>Math.abs(s/count)<=2))for(let y=y0;y<yend;y++)noiseMask.fill(1,y*width+xx,y*width+xend);
+        }
+      }
     }
     const labels = new Uint16Array(width * height);
     const owners = [{ owner: pageOnly ? 'outside' : 'page', component: null }];
@@ -118,9 +130,11 @@ async function compareImages(page, reference, rendered, config, sections, images
         imageDiagnostics[`${prefix}Pixels`]++; if(changed) imageDiagnostics[`${prefix}DifferentPixels`]++;
       }
       bucket.pixels++; if(changed) bucket.differentPixels++;
+      if(changed&&noiseMask[i/4])bucket.noisePixels++;
       if (assigned.component) {
-        const component = components[assigned.component] ||= { owner: assigned.owner, pixels:0, differentPixels:0 };
+        const component = components[assigned.component] ||= { owner: assigned.owner, pixels:0, differentPixels:0,noisePixels:0 };
         component.pixels++; if(changed) component.differentPixels++;
+        if(changed&&noiseMask[i/4])component.noisePixels++;
       }
       dd.data[i] = changed ? 255 : Math.round(bb.data[i]*0.35);
       dd.data[i+1] = changed ? 0 : Math.round(bb.data[i+1]*0.35);
@@ -136,7 +150,9 @@ async function compareImages(page, reference, rendered, config, sections, images
       return { id:s.id, owner:s.owner, component:s.component, reused:s.reused || null, pixels:w*h, differentPixels:count, ratio:count/(w*h),
         ...(s.reused ? {} : {reference:crop(ca),rendered:crop(cb),diff:crop(diff)}) };
     });
-    for (const bucket of [...Object.values(ownership), ...Object.values(components)]) bucket.ratio=bucket.pixels ? bucket.differentPixels/bucket.pixels : 0;
+    for (const bucket of [...Object.values(ownership), ...Object.values(components)]) {bucket.ratio=bucket.pixels ? bucket.differentPixels/bucket.pixels : 0;bucket.layoutRatio=bucket.pixels?(bucket.differentPixels-bucket.noisePixels)/bucket.pixels:0;}
+    imageDiagnostics.verifiedSources=images.filter(im=>im.sourceIdentityVerified).map(im=>({src:im.src,sha256:im.sourceSha256}));
+    imageDiagnostics.ignoredNoisePixels=Object.values(ownership).reduce((n,b)=>n+b.noisePixels,0);
     return { width, height, differentPixels:different, ratio:different/(width*height), ownership, components, imageDiagnostics, meanMaxChannelDelta:absolute/(width*height),
       referenceSize:{width:a.width,height:a.height}, renderedSize:{width:b.width,height:b.height}, diff:diff.toDataURL('image/png'), crops,
       worstRows: rowDifferences.map((count,y)=>({y,count})).sort((a,b)=>b.count-a.count).slice(0,20) };
@@ -189,6 +205,7 @@ async function captureAll({ output = path.join(CACHE, `visual-${Date.now()}`), r
         }
         await settle(page);
         const actual = await metrics(page);
+        await require('./image-noise').verifySources(page,actual.images,p.environment.localUrl);
         write(path.join(dir,'metrics.json'),actual);
         if(actual.overflow>1) result.errors.push(`Horizontal overflow ${actual.overflow}px`);
         if(!actual.fontsReady) result.errors.push('Fonts not ready');
@@ -239,7 +256,7 @@ async function captureAll({ output = path.join(CACHE, `visual-${Date.now()}`), r
             const file=path.join(dir,`responsive-${width}.png`);
             await page.screenshot({path:file,fullPage:true,animations:'disabled',timeout:60000});
             const healthy=responsiveMetrics.overflow<=1&&responsiveMetrics.images.every(i=>i.loaded)&&responsiveMetrics.fontsReady;
-            result.responsive.push({width,source:'derived',renderHealthy:healthy,screenshot:rel(file)});
+            result.responsive.push({width,source:'derived',renderHealthy:healthy,overflow:responsiveMetrics.overflow,fontsReady:responsiveMetrics.fontsReady,screenshot:rel(file)});
             write(path.join(dir,`responsive-${width}.json`),responsiveMetrics);
             if(!healthy) result.errors.push(`Responsive render health ${width}`);
           }
@@ -262,7 +279,7 @@ async function captureAll({ output = path.join(CACHE, `visual-${Date.now()}`), r
     buildReady:results.length===routes.length&&results.every(r=>r.acceptance?.pagePassed || r.progress?.deferred),
     deferred:results.filter(r=>r.progress?.deferred).map(r=>({id:r.id,progress:r.progress,comparison:rel(path.join(output,r.id,'comparison.json'))})),
     passed:results.length===routes.length&&results.every(r=>r.passed),pagePassed:results.length===routes.length&&results.every(r=>r.acceptance?.pagePassed===true),
-    routes:results.map(r=>({id:r.id,passed:r.passed,pagePassed:r.acceptance?.pagePassed===true,ownership:r.pixels?.ownership,errors:r.errors,comparison:rel(path.join(output,r.id,'comparison.json'))}))};
+    routes:results.map(r=>({id:r.id,passed:r.passed,pagePassed:r.acceptance?.pagePassed===true,ownership:r.pixels?.ownership,skippedOwners:r.chromeReview?.skippedOwners || [],errors:r.errors,comparison:rel(path.join(output,r.id,'comparison.json'))}))};
   write(path.join(output,'summary.json'),summary); write(path.join(CACHE,'latest-visual.json'),{summary:rel(path.join(output,'summary.json'))});
   return summary;
 }
@@ -273,4 +290,4 @@ if(require.main===module) {
     .then(r=>{const ready=acceptanceScope==='page'?r.buildReady:r.passed;console.log(`VISUAL ${acceptanceScope} ${r.deferred.length?'DEFERRED TO FINAL':ready?'PASS':'FAIL'}`);process.exitCode=ready?0:1;})
     .catch(e=>{console.error(e.message);process.exitCode=1;});
 }
-module.exports={captureAll,sourceHash,settle,metrics,loadProjectHooks};
+module.exports={captureAll,sourceHash,settle,metrics,loadProjectHooks,compareImages};

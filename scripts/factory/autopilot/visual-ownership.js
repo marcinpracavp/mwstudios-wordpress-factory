@@ -15,12 +15,12 @@ function acceptance(result, config, runtimeErrors, skippedOwners = []) {
   if (groups.page.pixels === 0) pageErrors.push('No page pixels measured');
   for (const [owner, measurement] of Object.entries(groups)) {
     if (['outside','reused'].includes(owner) || skippedOwners.includes(owner)) continue;
-    if (measurement.pixels && measurement.ratio > config.maxDifferentPixelRatio) {
+    if (measurement.pixels && (measurement.layoutRatio??measurement.ratio) > config.maxDifferentPixelRatio) {
       (owner === 'page' ? pageErrors : sharedErrors).push(`${owner} pixel mismatch ${(measurement.ratio * 100).toFixed(3)}%`);
     }
   }
   for (const [id, measurement] of Object.entries(result.pixels.components || {})) {
-    if (measurement.owner === 'shared' && measurement.ratio > config.maxDifferentPixelRatio) sharedErrors.push(`Shared component pixel mismatch ${id}: ${(measurement.ratio * 100).toFixed(3)}%`);
+    if (measurement.owner === 'shared' && (measurement.layoutRatio??measurement.ratio) > config.maxDifferentPixelRatio) sharedErrors.push(`Shared component pixel mismatch ${id}: ${(measurement.ratio * 100).toFixed(3)}%`);
   }
   for (const section of result.geometry) {
     if (skippedOwners.includes(section.owner)) continue;

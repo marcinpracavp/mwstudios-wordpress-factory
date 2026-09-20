@@ -1,0 +1,173 @@
+{
+  "version": 3,
+  "id": "products-20e36a5cc1dd30bb",
+  "class": "product-import",
+  "title": "product-import: 3 source records",
+  "type": "native-content",
+  "contentRecords": [
+    {
+      "section": "archive-product-grid",
+      "nodeId": "298:832",
+      "fieldName": "rudnikagro_archive_product_298_832",
+      "type": "product",
+      "language": "pl",
+      "value": {
+        "title": "Vivero 500 SC 1L",
+        "price": "475,00 zł",
+        "media": {
+          "sourceNodeId": "298:835",
+          "path": "assets/product-archive/fd65e899-135e-4f7c-b3b0-ef306c3db68e.png",
+          "sourceName": "vivero"
+        }
+      },
+      "destination": "WooCommerce product seed / native editable product fields",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "298:832"
+      }
+    },
+    {
+      "section": "archive-product-grid",
+      "nodeId": "299:1052",
+      "fieldName": "rudnikagro_archive_product_299_1052",
+      "type": "product",
+      "language": "pl",
+      "value": {
+        "title": " Tavares 250 SE 5L",
+        "price": "1135,00 zł",
+        "media": {
+          "sourceNodeId": "299:1142",
+          "path": "assets/product-archive/001037f1-77a9-4395-a2fe-1ede41eddae6.png",
+          "sourceName": "tavares"
+        }
+      },
+      "destination": "WooCommerce product seed / native editable product fields",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "299:1052"
+      }
+    },
+    {
+      "section": "archive-product-grid",
+      "nodeId": "302:1169",
+      "fieldName": "rudnikagro_archive_product_302_1169",
+      "type": "product",
+      "language": "pl",
+      "value": {
+        "title": " Belanty 5L",
+        "price": "553,68 zł",
+        "media": {
+          "sourceNodeId": "302:1257",
+          "path": "assets/product-archive/467273e2-7bb8-49fe-b397-91ede4d864e4.png",
+          "sourceName": "belanty"
+        }
+      },
+      "destination": "WooCommerce product seed / native editable product fields",
+      "ownership": {
+        "project": "rudnikagro",
+        "sourceNodeId": "302:1169"
+      }
+    }
+  ],
+  "contentKeys": [
+    "pl:298:832:rudnikagro_archive_product_298_832",
+    "pl:299:1052:rudnikagro_archive_product_299_1052",
+    "pl:302:1169:rudnikagro_archive_product_302_1169"
+  ],
+  "batchInstructions": "Only these records. Import/probe idempotently by source identity; never invoke an unscoped whole-site importer. Reuse existing schemas/media and preserve editor overrides.",
+  "mode": null,
+  "diagnostic": null,
+  "reuseComponent": null,
+  "project": {
+    "localUrl": "https://autopilot.local"
+  },
+  "operation": "foundation",
+  "filesToChange": [
+    "scripts/factory/project/commerce-probe.php",
+    "scripts/factory/project/component-registry.json",
+    "scripts/factory/project/import-content.php",
+    "taxonomy-product_cat.php"
+  ],
+  "fileScope": "listed files; request concrete scope expansion when a required file is absent",
+  "snippets": [
+    {
+      "path": "scripts/factory/project/commerce-probe.php",
+      "sha256": "cabab819ed8e63530821f03ee3cab89f4817e9db866e7bfa7719aefb40fe4f7f",
+      "characters": 7159,
+      "offset": 272,
+      "text": "ng) file_get_contents($source_map), true) : [];\n$source_products = array_values(array_filter($source_fields['fields'] ?? [], static function ($field): bool {\n    return ($field['section'] ?? '') === 'archive-product-grid' && ($field['type'] ?? '') === 'product';\n}));\n\n$term_payload = static function (string $taxonomy): array {\n    return array_map(static function ($term): array {\n        return [\n            'id' => (int) $term->term_id,\n            'name' => (string) $term->name,\n            'slug' => (string) $term->slug,\n            'parent' => (int) $term->parent,\n            'count' => (int) $term->count,\n            'sourceRoute' => (string) get_term_meta($term->term_id, '_rudnikagro_route_id', true),\n        ];\n    }, get_terms(['taxonomy' => $taxonomy, 'hide_empty' => false, 'orderby' => 'term_id', 'order' => 'ASC']));\n};\n\n$attribute_payload = [];\nif (function_exists('wc_get_attribute_taxonomies')) {\n    foreach (wc_get_attribute_taxonomies() as $attribute) {\n        $taxonomy = wc_attribute_taxonomy_name($attribute->attribute_name);\n        $attribute_payload[] = [\n            'id' => (int) $attribute->attribute_id,\n            'name' => (string) $attribute->attribute_name,\n            'label' => (string) $attribute->attribute_label,\n            'taxonomy' => $taxonomy,\n            'options' => $term_payload($taxonomy),\n        ];\n    }\n}\n\n$product_ids = get_posts([\n  ",
+      "truncated": true
+    },
+    {
+      "path": "scripts/factory/project/component-registry.json",
+      "sha256": "f1cda4044cab4ac221c094fb94e53675b1703c5d4b5f9d510af7e77d95480e93",
+      "characters": 2347,
+      "offset": 1300,
+      "text": "c/css/pages/_catalogues.scss\"\n    ]\n  },\n  {\n    \"id\": \"product-card-grids\",\n    \"sections\": [\n      \"home-promotions\",\n      \"home-bundles\",\n      \"home-recommended\",\n      \"product-related\",\n      \"archive-product-grid\"\n    ],\n    \"files\": [\n      \"front-page.php\",\n      \"single-product.php\",\n      \"taxonomy-product_cat.php\",\n      \"src/css/pages/_home.scss\",\n      \"src/css/pages/_product.scss\",\n      \"src/css/pages/_product-archive.scss\"\n    ]\n  },\n  {\n    \"id\": \"blog-card-grid\",\n    \"sections\": [\n      \"blog-post-list\",\n      \"blog-related-posts\"\n    ],\n    \"files\": [\n      \"partials/blog-card.php\",\n      \"src/css/components/_blog-card.scss\",\n      \"src/css/pages/_blog-archive.scss\"\n    ]\n  },\n  {\n    \"id\": \"shop-cta\",\n    \"sections\": [\n      \"shared-shop-cta\"\n    ],\n    \"files\": [\n      \"partials/shop-cta.php\",\n      \"src/css/pages/_catalogues.scss\"\n    ]\n  },\n  {\n    \"id\": \"site-footer\",\n    \"sections\": [\n      \"shared-footer\"\n    ],\n    \"files\": [\n      \"partials/footer.php\",\n      \"src/css/layouts/_footer.scss\"\n    ]\n  }\n]\n",
+      "truncated": false
+    },
+    {
+      "path": "scripts/factory/project/import-content.php",
+      "sha256": "730fe4e6a1828c2d9c07a0d19a42f15d50944132a08bf731bf0374b334f54cdc",
+      "characters": 111099,
+      "offset": 106718,
+      "text": "on'); update_option('_rudnikagro_last_imported_product_archive', $archive_source_values, false); $summary['options']++; }\n\n    foreach ($fields as $field) {\n        if (($field['section'] ?? '') !== 'archive-product-grid' || ($field['type'] ?? '') !== 'product' || !is_array($field['value'] ?? null)) { continue; }\n        $source_node = (string) ($field['nodeId'] ?? '');\n        $source = (array) $field['value'];\n        $title = trim(ra_repair_source_encoding((string) ($source['title'] ?? '')));\n        $raw_price = ra_repair_source_encoding((string) ($source['price'] ?? ''));\n        $normalized_price = preg_replace('/[^0-9,]/u', '', $raw_price);\n        $price = $normalized_price === '' ? null : number_format((float) str_replace(',', '.', $normalized_price), 2, '.', '');\n        $asset = (string) (($source['media']['path'] ?? ''));\n        if ($source_node === '' || $title === '' || $price === null || $asset === '') { continue; }\n        $existing = get_posts(['post_type' => 'product', 'post_status' => 'any', 'meta_key' => '_rudnikagro_source_node', 'meta_value' => $source_node, 'fields' => 'ids', 'numberposts' => 1]);\n        $product_id = $existing ? (int) $existing[0] : wp_insert_post(['post_type' => 'product', 'post_status' => 'publish', 'post_title' => $title, 'post_name' => sanitize_title($title)]);\n        if (!$product_id || is_wp_error($product_id)) { continue; }\n   ",
+      "truncated": true
+    },
+    {
+      "path": "taxonomy-product_cat.php",
+      "sha256": "b8816208ee6284e2df999802a6d8b9943df71df3124638b1debe148a1755b9d1",
+      "characters": 6136,
+      "offset": 3662,
+      "text": "e__sort\" data-factory-section=\"archive-sort\"><span><?php echo esc_html((string) ($archive['sort_label'] ?? '')); ?></span></div>\n        <section class=\"c-product-archive__grid\" data-factory-section=\"archive-product-grid\">\n          <?php if (woocommerce_product_loop()) : while (have_posts()) : the_post(); $product = wc_get_product(get_the_ID()); ?>\n            <article <?php wc_product_class('c-product-archive__card', $product); ?>>\n              <a class=\"c-product-archive__image\" href=\"<?php the_permalink(); ?>\"><?php echo wp_get_attachment_image(get_post_thumbnail_id(), 'full', false, ['loading' => 'eager']); ?></a>\n              <h2><a href=\"<?php the_permalink(); ?>\"><?php the_title(); ?></a></h2>\n              <p class=\"c-product-archive__price\"><?php echo wp_kses_post($product ? $product->get_price_html() : ''); ?></p>\n              <div class=\"c-product-archive__card-actions\"><input aria-label=\"<?php echo esc_attr((string) ($archive['quantity_label'] ?? '')); ?>\" type=\"number\" min=\"1\" value=\"1\"><a class=\"c-product-archive__add\" href=\"<?php echo esc_url($product ? $product->add_to_cart_url() : get_permalink()); ?>\"><?php echo esc_html((string) ($archive['add_to_cart_label'] ?? '')); ?></a></div>\n            </article>\n          <?php endwhile; endif; ?>\n        </section>\n        <nav class=\"c-product-archive__pagination\" aria-label=\"<?php echo esc_attr((string) ($archi",
+      "truncated": true
+    }
+  ],
+  "sectionCount": 1,
+  "sections": [
+    {
+      "id": "archive-product-grid",
+      "snapshot": ".factory-cache/figma/latest/sections/72-archive-product-grid.json",
+      "records": ".factory-cache/autopilot/runs/2026-09-19T14-48-07-799Z-7588/004-foundation-products-20e36a5cc1dd30bb/source-context/section-fbedf06f3685bae0.json"
+    }
+  ],
+  "routeCount": 21,
+  "routes": [
+    {
+      "id": "careers",
+      "path": "/kariera/",
+      "viewport": {
+        "width": 1920,
+        "height": 900
+      },
+      "sourceFrameHeight": 3802,
+      "expected": {},
+      "reference": "references/full/frame-349-1267.png"
+    }
+  ],
+  "measurements": [],
+  "sourceContext": ".factory-cache/autopilot/runs/2026-09-19T14-48-07-799Z-7588/004-foundation-products-20e36a5cc1dd30bb/source-context/index.json",
+  "checkpoint": null,
+  "feedback": "",
+  "issues": [],
+  "customInstructions": [],
+  "constraints": [
+    "Only this project. No engine, reference, threshold or credential changes.",
+    "No whole source files or historical prompts/logs in context. Use bounded excerpts and exact JSON pointers.",
+    "Null measurements mean unavailable, never zero or PASS. Capture the assigned section before editing if no current measurement exists.",
+    "Source viewport width is the frame width, never the content/grid width. Active frames describe states of the canonical page.",
+    "Return real file evidence. Save each completed fragment immediately. Never invent source content or claim a measurement not performed."
+  ],
+  "budget": {
+    "maxInputTokens": 2000000,
+    "maxOutputTokens": 12000,
+    "maxAttempts": 4,
+    "maxPromptBytes": 22000,
+    "maxUncachedInputTokens": 180000,
+    "maxUncachedTokens": 100000,
+    "remainingUncachedTokens": 100000,
+    "remainingInputTokens": 2000000,
+    "remainingUncachedInputTokens": 180000,
+    "remainingOutputTokens": 12000
+  }
+}

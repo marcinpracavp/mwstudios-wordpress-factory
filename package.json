@@ -73,7 +73,7 @@
     "clean": "rm -rf dist/*",
     "reset-env": "./reset-env.sh",
     "fix-env": "unset NODE_ENV && npm install --include=dev",
-    "factory:autopilot:test": "node --test scripts/factory/autopilot/v2.test.js scripts/factory/autopilot/v2-pipeline.test.js scripts/factory/autopilot/audit-progress.test.js",
+    "factory:autopilot:test": "node --test scripts/factory/autopilot/v2.test.js scripts/factory/autopilot/v2-pipeline.test.js scripts/factory/autopilot/audit-progress.test.js scripts/factory/autopilot/v2-decision.test.js scripts/factory/autopilot/image-noise.test.js scripts/factory/autopilot/native-batch.test.js scripts/factory/autopilot/image-source.test.js",
     "factory:autopilot:smoke": "node scripts/factory/autopilot/v2-smoke.js"
   },
   "author": "slawinsky",

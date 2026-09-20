@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "sessionId": "01a0bb55-23ac-7960-a918-87d22f370ac5",
+  "invocationId": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-19T14-48-07-799Z-7588\\005-foundation-products-20e36a5cc1dd30bb",
+  "task": "v2:foundation:products-20e36a5cc1dd30bb",
+  "model": "luna",
+  "modelId": "gpt-5.6-luna",
+  "reasoningEffort": "high",
+  "status": "fail",
+  "inputTokens": null,
+  "cachedInputTokens": null,
+  "outputTokens": null,
+  "usageComplete": false,
+  "cost": null,
+  "currency": null,
+  "costKind": "unknown",
+  "pricingSource": null,
+  "pricingAssumption": "Usage or price unavailable; never report unknown cost as zero",
+  "attemptDirectory": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-19T14-48-07-799Z-7588\\005-foundation-products-20e36a5cc1dd30bb",
+  "recordedAt": "2026-09-19T20:23:49.672Z"
+}

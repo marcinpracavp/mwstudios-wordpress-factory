@@ -4,6 +4,17 @@ const path = require('path');
 const http = require('http');
 const { spawn } = require('child_process');
 const engineRoot = path.resolve(__dirname, '../../..');
+async function finalWorker() {
+  const {ROOT,read,write,resolveCodex}=require('./common');
+  const config=read(path.join(ROOT,'factory/autopilot.json'));
+  const task={id:'final-sol-once',type:'final-audit',mode:'pixel-perfect',routes:[],sections:[],files:[],title:'Final visual audit of the isolated three-view fixture'};
+  const routing=require('./model-router').routeTask(config,task),dir=path.join(ROOT,'run/002-final-sol');
+  require('./task-capsule').create({stage:'final',task,routing,dir,sourceContext:{available:false},instructions:require('./custom-instructions').load(ROOT),
+    feedback:'Read final-review-packet.json. Open actual reference and after PNG files with the image viewer. Inspect all three views; shared layout once. This is synthetic test evidence, not real Figma acceptance. Do not edit source. Save final-proof.md stating which images you inspected, actual measured ratios and any issues.'});
+  const execution=await require('./run').session({executable:resolveCodex().file,config,stage:'final',task,routing,dir,onChild:()=>{}});
+  require('./telemetry').record(path.join(ROOT,'run'),{task:task.id,routing,usage:execution.usage,status:execution.result.status,dir,pricing:config.pricing});
+  write(path.join(ROOT,'final-worker-result.json'),execution);
+}
 async function worker() {
   const { ROOT, read, write, resolveCodex } = require('./common');
   const config = read(path.join(ROOT, 'factory/autopilot.json'));
@@ -24,7 +35,7 @@ async function worker() {
     const after = fs.readFileSync(path.join(ROOT, 'src/layout.css'), 'utf8');
     if (after === before) throw Error('SMOKE_NO_WORKER_CHANGE');
     if (after.replace('height:320px', 'height:360px').trimEnd() !== before.trimEnd()) throw Error('SMOKE_UNEXPECTED_WORKER_CHANGE');
-    require('./telemetry').record(path.join(ROOT, 'run'), { task: task.id, routing, usage: result.usage, status: 'awaiting-measurement', dir });
+    require('./telemetry').record(path.join(ROOT, 'run'), { task: task.id, routing, usage: result.usage, status: 'awaiting-measurement', dir,pricing:config.pricing });
     write(path.join(ROOT, 'worker-result.json'), { model: 'luna', status: result.result.status, usage: result.usage, capsuleBytes: fs.statSync(path.join(dir, 'task-capsule.json')).size });
   } catch (e) { write(path.join(ROOT, 'worker-failure.json'), { error: e.message, execution: e.execution || null }); throw e; }
 }
@@ -86,15 +97,36 @@ async function smoke() {
     if (!await page.locator('.panel').isVisible()) throw Error('SMOKE_INTERACTION_FAILED');
     const usage = JSON.parse(fs.readFileSync(path.join(root, 'worker-result.json')));
     require('./telemetry').record(path.join(root, 'run'), { task: 'hero-height', routing: require('./model-router').routeTask(config, { type: 'style-fix' }),
-      usage: usage.usage, status: 'pass', dir: path.join(root, 'run/001-hero-height') });
+      usage: usage.usage, status: 'pass', dir: path.join(root, 'run/001-hero-height'),pricing:config.pricing });
     const legacy = require('child_process').spawnSync('git', ['show', 'autopilot-v1:scripts/factory/autopilot/prompts.js'], { cwd: engineRoot, encoding: 'utf8', windowsHide: true });
     const oldCommon = legacy.stdout.slice(legacy.stdout.indexOf('const common'), legacy.stdout.indexOf('const stages'));
     const currentCommon = require('./prompt-topics').common('style-fix');
-    const report = { status: 'passed', fixture: 'synthetic, not a Figma/WordPress production acceptance', model: 'luna', negativeControlRatio: negative.ratio, checks,
+    const summary=()=>({passed:true,sourceHash:'synthetic-three-view-v1',routes:checks.map(c=>({id:c.route,ownership:{page:{pixels:1920*900,ratio:c.ratio}}}))});
+    write(path.join(root,'interaction-proof.json'),{passed:true,action:'Clicked the real Open button on the canonical route',observed:'Panel became visible',nativeIntegration:'Not applicable: isolated synthetic static fixture'});
+    write(path.join(root,'final-review-packet.json'),{fixture:'Explicit synthetic test, not a production Figma design',checks,negativeControlRatio:negative.ratio,
+      interactionEvidence:'interaction-proof.json',nativeIntegration:'not applicable',
+      images:manifest.routes.map(r=>({route:r.id,reference:`.factory-cache/figma/latest/${r.reference}`,rendered:`${r.id}-after.png`}))});
+    await require('./final-audit').run({dir:path.join(root,'run'),comparison:summary(),
+      invoke:async()=>{
+        const finalChild=spawn(process.execPath,[__filename,'--final-worker'],{cwd:root,env:{...process.env,FACTORY_AUTOPILOT_ROOT:root},windowsHide:true,stdio:['ignore','pipe','pipe']});
+        finalChild.stdout.pipe(fs.createWriteStream(path.join(root,'final.out.log')));finalChild.stderr.pipe(fs.createWriteStream(path.join(root,'final.err.log')));
+        if(await new Promise(resolve=>finalChild.on('close',resolve))!==0)throw Error(`SMOKE_FINAL_SOL_FAILED: ${root}`);
+        return JSON.parse(fs.readFileSync(path.join(root,'final-worker-result.json'))).result;
+      },repair:async()=>{throw Error('SMOKE_FINAL_FOUND_REGRESSION: retain Sol findings');},
+      build:async()=>require('./smoke-webpack').build(root),
+      capture:async()=>{
+        for(const r of manifest.routes){await page.goto(baseUrl+r.path);await require('./visual').settle(page);const out=path.join(root,`${r.id}-final.png`);await page.screenshot({path:out,fullPage:true});
+          const p=await require('./component-visual').compare(page,path.join(root,'.factory-cache/figma/latest',r.reference),out,{x:0,y:0,width:1920,height:900},24);
+          if(p.ratio!==0)throw Error('SMOKE_FINAL_RECAPTURE_FAILED');}
+        return summary();
+      }});
+    const finalExecution=JSON.parse(fs.readFileSync(path.join(root,'final-worker-result.json')));
+    const webpack=await require('./smoke-webpack').verify(root);
+    const report = { status: 'complete', readiness:'READY FOR HUMAN REVIEW', fixture: 'synthetic, not a Figma/WordPress production acceptance', model: 'luna', finalModel:'sol',webpack,finalUsage:finalExecution.usage,negativeControlRatio: negative.ratio, checks,
       interactionPassed: true, customInstructionObserved: true, usage, promptComparison: { metric: 'common prompt characters (not actual billed tokens)', v1: oldCommon.length, v2: currentCommon.length,
         reduction: oldCommon.length ? 1 - currentCommon.length / oldCommon.length : null } };
     write(path.join(root, 'REPORT.json'), report);
     console.log(JSON.stringify({ root, ...report }, null, 2));
   } finally { await browser.close(); server.close(); }
 }
-if (require.main === module) (process.argv.includes('--worker') ? worker() : smoke()).catch(e => { console.error(e.message); process.exitCode = 1; });
+if (require.main === module) (process.argv.includes('--final-worker') ? finalWorker() : process.argv.includes('--worker') ? worker() : smoke()).catch(e => { console.error(e.message); process.exitCode = 1; });

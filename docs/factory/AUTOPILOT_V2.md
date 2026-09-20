@@ -19,12 +19,18 @@ The router consumes `task.type` and/or source file types, not a pipeline stage.
 Types: source-extraction, component-build, native-content, style-fix, template-fix,
 interaction, refactor, visual-review, final-polish.
 
-Each task starts with GPT-5.6 Luna. Simple CSS/PHP fixes use medium; harder work uses high.
-A failed measured acceptance escalates to Terra high. Sol is reserved for final-polish.
-Final review is an explicit exception to stopping at a successful cheap review: after Luna's verification
-Sol performs the ultimate visual review and any safe polish itself. Terra is skipped when it is unnecessary.
-Ordinary tasks that pass host checks finish at Luna. A small improvement outside acceptance is recorded,
-but is not a fabricated PASS. Capacity interruptions retry the same model on explicit resume.
+Ordinary tasks start with GPT-5.6 Luna: medium for CSS/PHP, high for larger tasks.
+Task classes (css-fix, php-fix, product-import, content-import, listing-bind, global-css,
+local-section, unavailable-state) select the task type independently of the pipeline stage.
+Failed measured repairs escalate Luna -> Terra; successful cheap work stops immediately.
+State preparation and minor fixes reported by Sol stay on Luna.
+
+Sol high runs once at the end, after build/capture/compare and the checkpointed audit.
+Above 2.5% effective mismatch it receives pixel-perfect mode; otherwise verification mode.
+A durable final-sol.json stores its result. Minor spacing/overflow issues go to bounded Luna
+repairs, followed by a fresh build and capture. Major unresolved issues require manual review.
+An interrupted final audit resumes the same saved thread; an unidentifiable session is blocked
+rather than silently creating another Sol audit. READY/complete requires all checks and <=2.5%.
 
 ## Context and custom instructions
 
@@ -35,7 +41,7 @@ Missing measurements are null/unavailable, never invented zeros. New files may r
 Original source files stay on disk for targeted JSON-pointer/excerpt reads; their full contents are not injected.
 An oversized capsule stops for task splitting rather than silently dropping source facts.
 
-`prompt-topics.js` selects only relevant instructions. A style-fix gets core + visual + layout + checkpoint,
+`prompt-topics.js` selects only relevant instructions. A style-fix gets core + visual + checkpoint,
 without native commerce/ACF/payment instructions. Discovery reads and persists one source section at a time.
 
 Place `custom-instructions.md` or `custom-instructions.json` in the project root before init/run.
@@ -53,7 +59,7 @@ Example (synthetic smoke-test condition, not a project design fact):
 ## Shared components and real data
 
 Order: discovery sections → global font/grid/route skeleton → native source content → each shared
-component/variant + measured gate → page/state components → scoped repairs → checkpointed audit → Sol polish.
+component/variant + measured gate → page/state components → scoped repairs → checkpointed audit → one final Sol audit.
 All source card/listing products are created in native Woo before reuse. Rich text is imported only for
 products that have it in source; cards retain title/image/price. Source hierarchy, tags, options, variation
 prices, reviews and replaceable SVG/ACF icon fields are part of the native-content contract.
@@ -95,8 +101,8 @@ No guarantee of an exact billing ceiling is made. Small tasks, bounded reads and
 
 Each attempt has `launch.json`, `execution.json`, `usage.json`; the run has `usage.jsonl` and
 `usage-summary.json`. Records include `model: luna|terra|sol`, exact model ID, effort, input/cached/output
-tokens, validation state and cost. Missing usage/cost is null. Pricing is deliberately unconfigured:
-optional `pricing.<alias> = {input,cachedInput,output,source}` supplies USD per million tokens and a verified
+tokens, validation state and cost. Missing usage/cost is null. Pricing is configured from the official OpenAI API price table (2026-09-19):
+`pricing.<alias> = {input,cachedInput,output,source}` supplies USD per million tokens and a verified
 source. These are configured estimates, not subscription charges or invoices.
 
 ## Verification
@@ -113,3 +119,44 @@ against immutable test references, checks an interactive panel and records real 
 It does not touch the WordPress database, RudnikAgro source or site implementation.
 Synthetic screenshot equality is a pipeline smoke test, not evidence of production Figma/WordPress parity.
 Production acceptance still requires a complete fresh source-backed run and native integration checks.
+
+## Bounded content and runtime resume
+
+Products import in batches of at most three; listing relations bind separately in batches of three.
+Other content is section-scoped with at most 24 records / approximately 6 KB per batch. Each batch
+has a fresh model context, maxUncachedTokens=100000 (uncached input plus output), output cap 12000,
+and its own source-bound checkpoint. The source snapshot is reused locally.
+
+The worker implements project-owned scripts/factory/project/native-batch.js: async verifyBatch
+({kind,records,keys,readOnly}) queries current native records and returns {readOnly:true,records:
+[{key,passed,observed:{...actual values...}}]}. The host checks every assigned key before importing
+and after worker completion. Correct native data skips another paid import even when the importer
+code changed. Missing, duplicate, extra or unverified records cannot pass. The adapter must compare
+actual WordPress values with source facts, preserve editor overrides and never mutate in verification.
+
+## Visual decisions and photo noise
+
+A shared overflow at all measured routes becomes one global CSS task with the affected widths.
+Incomplete viewport coverage cannot prove a global problem. Empty/viewport-only content against
+a much taller reference routes to state preparation before CSS. A local height delta above 50px
+without overflow targets that section. JavaScript/HTTP failures are not classified as CSS.
+
+Reference assets are cached. Image exceptions require exact source-file byte identity and bounded
+high-frequency raster differences (8px tiles, mean RGB delta <=2, maximum channel delta <=40).
+A four-pixel border stays measured. Raw diff and effective layout ratio are retained separately.
+Wrong/unknown images and gross crop/colour/geometry errors stay failures. This conservative test
+does not exempt all photo pixels; transformed source media may remain unverified. It is used by
+both full-page and component comparisons. Reused header/footer owners are excluded from the
+final ratio on subsequent routes; their representative checks remain mandatory.
+
+Costs use Standard short-context API-equivalent rates, not Codex subscription billing; tool costs,
+cache-write surcharges, long-context/fast/regional uplifts are excluded. Source:
+https://developers.openai.com/api/docs/pricing . Each invocation records model, actual thread identity,
+usage and estimated cost. Interrupted missing usage stays null. CLI-observed byte limits are
+conservative guards, not a guarantee that hidden reasoning cannot exceed a reported token cap.
+
+For a bounded native smoke use npm.cmd run factory:autopilot:resume -- --native-batch-limit 1.
+The host validates/imports at most one native batch, persists its checkpoint, then pauses before the next.
+Exposed-context byte guards are independent of token limits: default 400KB aggregate / 64KB single
+tool result. A completed over-budget read-only final result is recovered only when persisted before/after
+engine, implementation, source and init guards match; fresh final acceptance still follows.

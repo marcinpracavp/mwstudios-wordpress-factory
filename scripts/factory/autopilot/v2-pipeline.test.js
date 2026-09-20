@@ -45,13 +45,13 @@ test('shared-first host gate, capacity pause, missing-only resume, Luna escalati
   replace('./visual',{sourceHash:()=> 'source-test',captureAll:async({output})=>{
     const result={passed:true,implementationHash:common.fingerprint(),sourceHash:'source-test',routes:manifest.routes.map(r=>{
       const file=path.join(output,r.id,'comparison.json');write(file,{id:r.id,passed:true,errors:[],geometry:[]});
-      return {id:r.id,passed:true,comparison:path.relative(root,file).replaceAll('\\','/')};
+      return {id:r.id,passed:true,ownership:{page:{pixels:100,ratio:0}},comparison:path.relative(root,file).replaceAll('\\','/')};
     })};write(path.join(output,'summary.json'),result);return result;
   }});
   let pending=true;
   replace('./audit-progress',{resumeComparison:()=>null,initialize:()=> 'ledger-test',status:()=>[{id:'test-unit',pending:pending?['test-item']:[],completed:pending?0:1,total:1}],
     packet:()=>({file:'audit-packet.json',key:'test',pending:[{id:'test-item',kind:'visual',section:'body'}],unit:{routes:['home']}}),aggregate:()=>({status:'passed',issues:[],evidence:[]})});
-  let interruptFooter=true, reportFooterOverrun=true;
+  let interruptFooter=true, reportFooterOverrun=true, reportSolOverrun=true;
   const calls=[];
   const deps={command:(_file,_args,log)=>{fs.mkdirSync(path.dirname(log),{recursive:true});fs.writeFileSync(log,'controlled command success');},
     session:async({stage,task,routing,dir})=>{
@@ -65,8 +65,9 @@ test('shared-first host gate, capacity pause, missing-only resume, Luna escalati
       const proof=path.join(dir,'proof.json');write(proof,{observed:true});
       const result={status:'passed',summary:'Controlled worker complete',issues:[],evidence:[path.relative(root,proof).replaceAll('\\','/')]};
       const execution={completed:true,startedModel:routing.model,usage:{input_tokens:100,cached_input_tokens:50,output_tokens:20},result};
-      if(stage==='foundation'&&task.sections?.includes('shared-footer')&&reportFooterOverrun){
-        reportFooterOverrun=false;execution.failure={message:'TASK_REPORTED_TOKEN_BUDGET'};
+      if((stage==='foundation'&&task.sections?.includes('shared-footer')&&reportFooterOverrun) || (routing.alias==='sol'&&reportSolOverrun)){
+        if(routing.alias==='sol')reportSolOverrun=false;else reportFooterOverrun=false;
+        execution.failure={message:'TASK_REPORTED_TOKEN_BUDGET'};
         write(path.join(dir,'execution.json'),execution);write(path.join(dir,'result.json'),result);
         const e=Error('AGENT_EXECUTION_FAILED: TASK_REPORTED_TOKEN_BUDGET');e.execution=execution;throw e;
       }
@@ -90,8 +91,12 @@ test('shared-first host gate, capacity pause, missing-only resume, Luna escalati
     const footerCalls=calls.filter(c=>c.stage==='foundation'&&c.sections?.includes('shared-footer')).length;
     process.exitCode=0;await main(['resume'],deps);
     assert.equal(calls.filter(c=>c.stage==='foundation'&&c.sections?.includes('shared-footer')).length,footerCalls,'Completed over-budget result is revalidated without another model call');
+    assert.equal(read(pointer.state).status,'paused');
+    const solCalls=calls.filter(c=>c.model==='sol').length;
+    process.exitCode=0;await main(['resume'],deps);
+    assert.equal(calls.filter(c=>c.model==='sol').length,solCalls,'Completed over-budget final review is reconciled without another Sol invocation');
     assert.equal(read(pointer.state).status,'complete');
-    assert.ok(calls.some(c=>c.model==='sol'&&c.type==='final-polish'));
+    assert.equal(calls.filter(c=>c.model==='sol'&&c.type==='final-audit').length,1);
     assert.ok(checks>4);
     const usage=read(path.join(path.dirname(pointer.state),'usage-summary.json'));
     assert.ok(usage.byModel.luna.sessions>0&&usage.byModel.sol.sessions>0);

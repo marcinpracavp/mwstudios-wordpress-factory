@@ -34,11 +34,37 @@
     375
   ],
   "taskBudgets": {
-    "maxInputTokens": 1000000,
+    "maxInputTokens": 2000000,
     "maxOutputTokens": 24000,
     "maxAttempts": 4,
     "maxPromptBytes": 22000,
-    "maxUncachedInputTokens": 180000
+    "maxUncachedInputTokens": 180000,
+    "maxUncachedTokens": 100000
   },
-  "pricing": {}
+  "pricing": {
+    "luna": {
+      "input": 0.2,
+      "cachedInput": 0.02,
+      "output": 1.2,
+      "source": "https://developers.openai.com/api/docs/pricing",
+      "verifiedAt": "2026-09-19",
+      "assumption": "Standard short-context API equivalent estimate; excludes cache-write surcharge, tools, long-context/fast/regional uplifts. Not Codex subscription billing."
+    },
+    "terra": {
+      "input": 2,
+      "cachedInput": 0.2,
+      "output": 12,
+      "source": "https://developers.openai.com/api/docs/pricing",
+      "verifiedAt": "2026-09-19",
+      "assumption": "Standard short-context API equivalent estimate; excludes cache-write surcharge, tools, long-context/fast/regional uplifts. Not Codex subscription billing."
+    },
+    "sol": {
+      "input": 4,
+      "cachedInput": 0.4,
+      "output": 20,
+      "source": "https://developers.openai.com/api/docs/pricing",
+      "verifiedAt": "2026-09-19",
+      "assumption": "Standard short-context API equivalent estimate; excludes cache-write surcharge, tools, long-context/fast/regional uplifts. Not Codex subscription billing."
+    }
+  }
 }

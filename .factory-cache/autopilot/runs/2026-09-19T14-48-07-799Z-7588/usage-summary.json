@@ -1,13 +1,13 @@
 {
-  "sessions": 2,
-  "unknownUsage": 1,
-  "knownEstimatedCost": 0,
-  "unknownCost": 2,
+  "sessions": 6,
+  "unknownUsage": 3,
+  "knownEstimatedCost": 0.08886892000000002,
+  "unknownCost": 5,
   "byModel": {
     "luna": {
-      "sessions": 2,
-      "inputTokens": 3236888,
-      "outputTokens": 22545
+      "sessions": 6,
+      "inputTokens": 8737876,
+      "outputTokens": 70817
     },
     "terra": {
       "sessions": 0,

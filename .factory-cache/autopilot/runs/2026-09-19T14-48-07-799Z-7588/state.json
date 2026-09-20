@@ -2,7 +2,7 @@
   "id": "2026-09-19T14-48-07-799Z-7588",
   "projectHash": "bf41d3389a933df4728a7419a0614c1f2c626795beb45264b14302ffe61ffeec",
   "localUrl": "https://autopilot.local",
-  "status": "running",
+  "status": "paused",
   "done": [
     "discovery:inventory",
     "v2:discovery:inventory",
@@ -84,7 +84,8 @@
     "v2:discovery:detail-31e26feaa7de0ccb",
     "v2:discovery:detail-2e0ad9cd30cf83e7",
     "v2:discovery:detail-30d7682d15ef5a8d",
-    "v2:foundation:global-layout"
+    "v2:foundation:global-layout",
+    "v2:foundation:products-20e36a5cc1dd30bb"
   ],
   "attempts": [
     {
@@ -132,19 +133,116 @@
       "taskType": "native-content",
       "reasoningEffort": "high",
       "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-19T14-48-07-799Z-7588\\003-foundation-native-content",
-      "status": "running",
+      "status": "failed",
       "startedAt": "2026-09-19T15:36:17.228Z",
-      "usageUnknown": true
+      "usageUnknown": false,
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-19T14-48-07-799Z-7588/003-foundation-native-content; {\"message\":\"TASK_REPORTED_TOKEN_BUDGET\"}\n2026-09-19T15:36:18.097374Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n2026-09-19T15:49:19.514014Z  WARN codex_core::tasks: failed to flush rollout after emitting terminal turn event: thread 01a0ba4f-a930-74d1-93e5-9b4b0947c644 not found\n",
+      "finishedAt": "2026-09-19T15:49:20.359Z",
+      "threadId": "01a0ba4f-a930-74d1-93e5-9b4b0947c644",
+      "usage": {
+        "input_tokens": 3438903,
+        "cached_input_tokens": 3291136,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 24097,
+        "reasoning_output_tokens": 9061
+      }
+    },
+    {
+      "task": "v2:foundation:products-20e36a5cc1dd30bb",
+      "model": "gpt-5.6-luna",
+      "modelAlias": "luna",
+      "taskType": "native-content",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-19T14-48-07-799Z-7588\\004-foundation-products-20e36a5cc1dd30bb",
+      "status": "failed",
+      "startedAt": "2026-09-19T19:45:02.650Z",
+      "usageUnknown": true,
+      "reviewGuardBefore": {
+        "engine": "8a279f9909a09ad0cf64dfe4e09836b17fd8df3bc861432b4f944d2755d26773",
+        "implementation": "9c43e3a7bf08a29d294663e8a34e58387a42319f1b6f3be55471ac2ba62ed290",
+        "source": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+        "init": "bf41d3389a933df4728a7419a0614c1f2c626795beb45264b14302ffe61ffeec"
+      },
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-19T14-48-07-799Z-7588/004-foundation-products-20e36a5cc1dd30bb; {\"message\":\"TASK_OBSERVED_CONTEXT_BUDGET\"}\n2026-09-19T19:45:03.409307Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n",
+      "finishedAt": "2026-09-19T19:45:34.214Z",
+      "threadId": "01a0bb33-676f-7ab2-b33c-8a967ef9e1bd",
+      "usage": null,
+      "reviewGuardAfter": {
+        "engine": "8a279f9909a09ad0cf64dfe4e09836b17fd8df3bc861432b4f944d2755d26773",
+        "implementation": "9c43e3a7bf08a29d294663e8a34e58387a42319f1b6f3be55471ac2ba62ed290",
+        "source": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+        "init": "bf41d3389a933df4728a7419a0614c1f2c626795beb45264b14302ffe61ffeec"
+      }
+    },
+    {
+      "task": "v2:foundation:products-20e36a5cc1dd30bb",
+      "model": "gpt-5.6-luna",
+      "modelAlias": "luna",
+      "taskType": "native-content",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-19T14-48-07-799Z-7588\\005-foundation-products-20e36a5cc1dd30bb",
+      "status": "failed",
+      "startedAt": "2026-09-19T20:21:53.667Z",
+      "usageUnknown": true,
+      "reviewGuardBefore": {
+        "engine": "db4db718ff32b70aeeab2f01d8b75df0d96f55e26e86d80d706c66ddbc3ca126",
+        "implementation": "9c43e3a7bf08a29d294663e8a34e58387a42319f1b6f3be55471ac2ba62ed290",
+        "source": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+        "init": "bf41d3389a933df4728a7419a0614c1f2c626795beb45264b14302ffe61ffeec"
+      },
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-19T14-48-07-799Z-7588/005-foundation-products-20e36a5cc1dd30bb; {\"message\":\"TASK_OBSERVED_CONTEXT_BUDGET\"}\n2026-09-19T20:21:54.347261Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n",
+      "finishedAt": "2026-09-19T20:23:48.728Z",
+      "threadId": "01a0bb55-23ac-7960-a918-87d22f370ac5",
+      "usage": null,
+      "reviewGuardAfter": {
+        "engine": "db4db718ff32b70aeeab2f01d8b75df0d96f55e26e86d80d706c66ddbc3ca126",
+        "implementation": "9c43e3a7bf08a29d294663e8a34e58387a42319f1b6f3be55471ac2ba62ed290",
+        "source": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+        "init": "bf41d3389a933df4728a7419a0614c1f2c626795beb45264b14302ffe61ffeec"
+      }
+    },
+    {
+      "task": "v2:foundation:products-20e36a5cc1dd30bb",
+      "model": "gpt-5.6-luna",
+      "modelAlias": "luna",
+      "taskType": "native-content",
+      "reasoningEffort": "high",
+      "dir": "C:\\Users\\HP\\Local Sites\\autopilot\\app\\public\\wp-content\\themes\\slawinsky-boilerplate\\.factory-cache\\autopilot\\runs\\2026-09-19T14-48-07-799Z-7588\\006-foundation-products-20e36a5cc1dd30bb",
+      "status": "failed",
+      "startedAt": "2026-09-19T20:25:18.206Z",
+      "usageUnknown": false,
+      "reviewGuardBefore": {
+        "engine": "6201c52165088bd5ae5eb673ba28c27d8ac9ab7e50aeeb1b48a58304981605e5",
+        "implementation": "9c43e3a7bf08a29d294663e8a34e58387a42319f1b6f3be55471ac2ba62ed290",
+        "source": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+        "init": "bf41d3389a933df4728a7419a0614c1f2c626795beb45264b14302ffe61ffeec"
+      },
+      "error": "AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-19T14-48-07-799Z-7588/006-foundation-products-20e36a5cc1dd30bb; {\"message\":\"TASK_REPORTED_TOKEN_BUDGET\"}\n2026-09-19T20:25:18.762599Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n",
+      "finishedAt": "2026-09-19T20:39:26.774Z",
+      "threadId": "01a0bb58-422c-7b73-8bee-1214a6ec425e",
+      "usage": {
+        "input_tokens": 2062085,
+        "cached_input_tokens": 1958656,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 24175,
+        "reasoning_output_tokens": 10354
+      },
+      "reviewGuardAfter": {
+        "engine": "6201c52165088bd5ae5eb673ba28c27d8ac9ab7e50aeeb1b48a58304981605e5",
+        "implementation": "645b35b575ef3f8c303ff105a33708a50e211973a2aac2b9efc41214446fef27",
+        "source": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
+        "init": "bf41d3389a933df4728a7419a0614c1f2c626795beb45264b14302ffe61ffeec"
+      }
     }
   ],
-  "tokens": 159273,
+  "tokens": 458741,
   "round": 0,
   "createdAt": "2026-09-19T14:48:07.800Z",
   "instructionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-  "updatedAt": "2026-09-19T15:36:17.230Z",
-  "error": null,
+  "updatedAt": "2026-09-19T20:43:37.037Z",
+  "error": "NATIVE_BATCH_LIMIT_REACHED: bounded verification complete; remaining tasks retained",
   "snapshotHash": "023c0998a227970fae259ced2835d1375264afe50eeee9a0cbf1c8d2a0feec12",
-  "activeTask": "v2:foundation:native-content",
+  "activeTask": "v2:foundation:products-20e36a5cc1dd30bb",
   "activeModel": "gpt-5.6-luna",
   "activeReasoningEffort": "high"
 }

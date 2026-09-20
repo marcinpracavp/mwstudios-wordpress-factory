@@ -6,10 +6,13 @@ function entry({ task, routing, usage, status, dir, pricing = {} }) {
   const rate = pricing[routing.alias];
   const priced = known && rate?.source && ['input', 'cachedInput', 'output'].every(k => Number.isFinite(rate[k]) && rate[k] >= 0);
   const cached = known ? usage.cached_input_tokens || 0 : null;
-  return { version: 1, task, model: routing.alias, modelId: routing.model, reasoningEffort: routing.reasoningEffort, status,
+  const executionFile=dir && path.join(dir,'execution.json');
+  const execution=executionFile && fs.existsSync(executionFile)?JSON.parse(fs.readFileSync(executionFile,'utf8')):null;
+  return { version: 2, sessionId: execution?.threadId || dir || null, invocationId:dir || null, task, model: routing.alias, modelId: routing.model, reasoningEffort: routing.reasoningEffort, status,
     inputTokens: known ? usage.input_tokens : null, cachedInputTokens: cached, outputTokens: known ? usage.output_tokens : null,
     usageComplete: !!known, cost: priced ? ((usage.input_tokens - cached) * rate.input + cached * rate.cachedInput + usage.output_tokens * rate.output) / 1e6 : null,
     currency: priced ? 'USD' : null, costKind: priced ? 'configured-estimate' : 'unknown', pricingSource: priced ? rate.source : null,
+    pricingAssumption: priced ? (rate.assumption || 'Configured per-million token rates; estimate, not a billing statement') : 'Usage or price unavailable; never report unknown cost as zero',
     attemptDirectory: dir, recordedAt: new Date().toISOString() };
 }
 function record(runDir, args) {

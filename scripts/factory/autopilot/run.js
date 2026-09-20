@@ -70,7 +70,7 @@ async function session({ executable, config, stage, task, dir, feedback, onChild
           const text = e.item?.aggregated_output || e.item?.text || '';
           observedBytes += Buffer.byteLength(text);
           if (e.item?.type === 'agent_message') outputBytes += Buffer.byteLength(text);
-          if (observedBytes > routing.budget.remainingInputTokens || outputBytes > routing.budget.remainingOutputTokens * 4) {
+          if (require('./context-budget').exceeded({observedBytes,outputBytes,itemBytes:Buffer.byteLength(text),budget:routing.budget})) {
             failure = { message: 'TASK_OBSERVED_CONTEXT_BUDGET' }; terminate(child);
           }
         }
@@ -93,7 +93,8 @@ async function session({ executable, config, stage, task, dir, feedback, onChild
   await new Promise(resolve => events.end(resolve));
   activeChild = null;
   if (usage && (usage.input_tokens > routing.budget.remainingInputTokens || usage.output_tokens > routing.budget.remainingOutputTokens ||
-    usage.input_tokens-(usage.cached_input_tokens || 0)>routing.budget.remainingUncachedInputTokens)) failure = { message: 'TASK_REPORTED_TOKEN_BUDGET' };
+    usage.input_tokens-(usage.cached_input_tokens || 0)>routing.budget.remainingUncachedInputTokens ||
+    usage.input_tokens-(usage.cached_input_tokens||0)+usage.output_tokens>routing.budget.remainingUncachedTokens)) failure = { message: 'TASK_REPORTED_TOKEN_BUDGET' };
   const metadata = { startedModel: model, model: routing.alias, reasoningEffort: routing.reasoningEffort, threadId: threadId || resumeThreadId, resumedFrom: resumeThreadId, usage, exit, failure, completed, observedBytes, finishedAt: now() };
   write(path.join(dir, 'execution.json'), metadata);
   telemetry.record(path.dirname(dir), { task: task.id, routing, usage, status: failure || exit.code !== 0 ? 'fail' : 'awaiting-validation', dir, pricing: config.pricing });
@@ -144,6 +145,10 @@ async function main(argv = process.argv.slice(2), dependencies = {}) {
   const runCommand = dependencies.command || command;
   fs.mkdirSync(CACHE, { recursive: true });
   const mode = argv[0] || 'run';
+  const nativeLimitArg=argv.indexOf('--native-batch-limit');
+  const nativeBatchLimit=nativeLimitArg<0?Infinity:Number(argv[nativeLimitArg+1]);
+  if(nativeLimitArg>=0&&(!Number.isSafeInteger(nativeBatchLimit)||nativeBatchLimit<1))throw Error('INVALID_NATIVE_BATCH_LIMIT');
+  let completedNativeBatches=0;
   if (!['run', 'resume', 'status', 'stop', 'plan', 'check'].includes(mode)) throw new Error('Usage: factory:autopilot [-- run|resume|status|stop|plan|check]');
   if (mode === 'status') {
     if (!fs.existsSync(currentFile)) return console.log('No autopilot run yet.');
@@ -209,18 +214,28 @@ async function main(argv = process.argv.slice(2), dependencies = {}) {
     const key = `v2:${stage}:${task.id}`;
     const { comparison: _comparison, measurements: _measurements, ...stableTask } = task;
     const binding = hash(JSON.stringify({ task: stableTask, source: stage === 'discovery' ? state.projectHash : state.snapshotHash || state.projectHash, instructionsHash, visual: config.visual, version: 2 }));
-    if (!force && taskProgress.valid(dir, key, binding)) return { status: 'passed', summary: 'Verified task checkpoint; artifacts retained', issues: [] };
+    if (!force && !task.contentKeys && taskProgress.valid(dir, key, binding)) return taskProgress.result(dir,key);
     const completeTask = (result, outputs = []) => {
       taskProgress.save(dir, key, binding, { evidence: result.evidence, outputs, result });
       if (!state.done.includes(key)) state.done.push(key);
+      if(task.contentKeys)completedNativeBatches++;
       save();
     };
+    if(task.contentKeys){
+      if(completedNativeBatches>=nativeBatchLimit)throw Error('NATIVE_BATCH_LIMIT_REACHED: bounded verification complete; remaining tasks retained');
+      const proof=path.join(dir,`native-probe-${hash(key).slice(0,16)}-${Date.now()}.json`);
+      const native=await require('./native-batch').verify(task,proof);
+      if(native.passed){
+        const result={status:'passed',summary:'All assigned native records verified in runtime; no import retry needed',issues:[],evidence:[relative(proof)]};
+        completeTask(result);return result;
+      }
+    }
     // A completed result can be validated without another paid attempt. Retain the overrun;
     // budget exhaustion prevents model retries, not deterministic inspection of existing work.
     const retained=state.attempts.filter(a=>a.task===key).at(-1);
     const retainedExecution=retained && fs.existsSync(path.join(retained.dir,'execution.json')) ? read(path.join(retained.dir,'execution.json')) : null;
     if (retainedExecution?.completed && retainedExecution.failure?.message==='TASK_REPORTED_TOKEN_BUDGET' &&
-      ['foundation','build'].includes(stage) && fs.existsSync(path.join(retained.dir,'result.json'))) {
+      !task.contentKeys && ['foundation','build'].includes(stage) && fs.existsSync(path.join(retained.dir,'result.json'))) {
       const result=require('./result-evidence').normalize(read(path.join(retained.dir,'result.json')),ROOT).result;
       const validate=new Ajv().compile(read(path.join(ROOT,'factory/schemas/autopilot-result.schema.json')));
       if (validate(result) && result.status==='passed' && result.evidence.every(f=>fs.existsSync(inside(ROOT,f)))) {
@@ -256,7 +271,7 @@ async function main(argv = process.argv.slice(2), dependencies = {}) {
         return;
       }
     }
-    if (task.sections?.length && ['foundation','build','correct','final'].includes(stage)) {
+    if (!task.contentKeys && task.sections?.length && ['foundation','build','correct','final'].includes(stage)) {
       checkpoint();
       const measurements=[];
       for(const route of task.routes) measurements.push(await require('./component-visual').capture({route,sections:task.sections,
@@ -310,7 +325,8 @@ async function main(argv = process.argv.slice(2), dependencies = {}) {
       const previousLaunchFile = previous && path.join(previous.dir, 'launch.json');
       const previousLaunch = previousLaunchFile && fs.existsSync(previousLaunchFile) ? read(previousLaunchFile) : null;
       const contextCompatible = previousLaunch?.contextPolicyVersion === CONTEXT_VERSION && previousLaunch?.toolOutputTokenLimit === config.toolOutputTokenLimit;
-      const resumeThreadId = contextCompatible && !task.auditCheckpoint ? continuationThread(previousExecution, model, repairResult) : null;
+      const resumeThreadId = task.type==='final-audit' && previousExecution && !previousExecution.completed && previousExecution.startedModel===model
+        ? previousExecution.threadId : contextCompatible && !task.auditCheckpoint ? continuationThread(previousExecution, model, repairResult) : null;
       if (repairResult) feedback = `Your previous turn completed but its result failed validation: ${previous.error}. Fix only the result/evidence contract. Do not repeat completed source reads or implementation. Evidence entries must be existing theme-relative FILE paths, never commands or explanations. Save any missing gate output to a real file, then return the corrected schema response.`;
       if (stage === 'discovery') {
         for (const a of state.attempts.filter(a => a.task === key)) await require('./observations').recover(path.join(a.dir, 'events.jsonl'));
@@ -356,6 +372,7 @@ async function main(argv = process.argv.slice(2), dependencies = {}) {
       const engine = engineFingerprint();
       const implementationBefore = fingerprint();
       const filesBefore = taskProgress.implementationFiles();
+      record.reviewGuardBefore={engine,implementation:implementationBefore,source:state.snapshotHash || null,init:configHash};save();
       try {
         const execution = await runSession({ executable: executable.file, config, stage, task:focusedTask, dir: attemptDir, feedback, resumeThreadId, routing,
           onChild: pid => { lock.childPid = pid; write(lockFile, lock); } });
@@ -368,7 +385,13 @@ async function main(argv = process.argv.slice(2), dependencies = {}) {
         if (hash(fs.readFileSync(path.join(ROOT, 'factory/project.json'))) !== configHash) throw new Error('INIT_CHANGED_BY_WORKER');
         const result = execution.result;
         record.result = result; record.status = result.status;
-        if (task.sections?.length && ['foundation', 'build', 'correct', 'final'].includes(stage) && ['passed', 'needs_work'].includes(result.status)) {
+        if(task.contentKeys && result.status==='passed'){
+          const file=path.join(attemptDir,'native-batch-probe.json');
+          const verified=await require('./native-batch').verify(task,file);
+          if(!verified.passed)throw Error(`COMMAND_FAILED: ${verified.errors.join('; ')}; implement/read the scoped native-batch.verifyBatch probe`);
+          result.evidence.push(relative(file));
+        }
+        if (!task.contentKeys && task.sections?.length && ['foundation', 'build', 'correct', 'final'].includes(stage) && ['passed', 'needs_work'].includes(result.status)) {
           runCommand(process.execPath, ['node_modules/webpack-cli/bin/cli.js', '--mode=production'], path.join(attemptDir, 'build.log'));
           const measurements = [];
           for (const route of task.routes) measurements.push(await require('./component-visual').capture({ route, sections: task.sections, output: path.join(attemptDir, `component-${typeof route === 'string' ? route : route.id}`) }));
@@ -388,8 +411,6 @@ async function main(argv = process.argv.slice(2), dependencies = {}) {
           if(await deferBuild(path.join(attemptDir,'build-readiness'),result)) return result;
         }
         if (result.status === 'passed') {
-          // Final polish always reaches Sol; ordinary solved tasks stop at Luna.
-          if (routing.type === 'final-polish' && routing.alias !== 'sol') { feedback = 'Cheaper verification complete. Perform the next bounded final verification/polish.'; save(); continue; }
           if (stage === 'discovery') runCommand(process.execPath, ['scripts/factory/autopilot/gates.js', ...(task.scope === 'inventory' ? ['inventory'] : ['group', task.buildGroup, ...(task.sections || [])])], path.join(attemptDir, 'gate.log'));
           if (['foundation', 'build', 'correct'].includes(stage)) {
             runCommand(process.execPath, ['node_modules/webpack-cli/bin/cli.js', '--mode=production'], path.join(attemptDir, 'build.log'));
@@ -404,6 +425,7 @@ async function main(argv = process.argv.slice(2), dependencies = {}) {
           save(); console.log(`${now()} DONE ${key}`); return result;
         }
         save();
+        if(routing.type==='final-audit')return result;
         if (result.status === 'blocked') throw new Error(`WORKER_BLOCKED: ${result.summary}\n${result.issues.join('\n')}`);
         if (stage === 'audit' && task.auditCheckpoint) return result;
         feedback = JSON.stringify(result);
@@ -415,8 +437,11 @@ async function main(argv = process.argv.slice(2), dependencies = {}) {
         if (!e.message.startsWith('COMMAND_FAILED')) throw e;
         feedback = e.message;
       } finally {
+        record.reviewGuardAfter={engine:engineFingerprint(),implementation:fingerprint(),source:state.snapshotHash?require('./visual').sourceHash():null,init:hash(fs.readFileSync(path.join(ROOT,'factory/project.json')))};
+        save();
         const execution = fs.existsSync(path.join(attemptDir, 'execution.json')) ? read(path.join(attemptDir, 'execution.json')) : null;
-        telemetry.record(dir, { task: key, routing, usage: execution?.usage, status: record.status === 'passed' ? 'pass' : 'fail', dir: attemptDir, pricing: config.pricing });
+        const row=telemetry.record(dir, { task: key, routing, usage: execution?.usage, status: record.status === 'passed' ? 'pass' : 'fail', dir: attemptDir, pricing: config.pricing });
+        console.log(`${now()} USAGE ${key} model: ${row.model} effort: ${row.reasoningEffort} input: ${row.inputTokens??'unknown'} cached: ${row.cachedInputTokens??'unknown'} output: ${row.outputTokens??'unknown'} cost: ${row.cost??'unknown'} status: ${row.status}`);
       }
     }
     throw new Error(`STAGE_ATTEMPTS_EXHAUSTED: ${key}\n${feedback}`);
@@ -482,7 +507,9 @@ async function main(argv = process.argv.slice(2), dependencies = {}) {
     runCommand(process.execPath,['scripts/factory/autopilot/state-plan.js'],path.join(dir,'state-plan.log'));
     await work('foundation', { id: 'global-layout', type: 'refactor', title: 'Global source fonts, grid, tokens and native route skeletons',
       topics: ['layout'], sections: [] });
-    await work('foundation', { id: 'native-content', type: 'native-content', title: 'Import all source products, categories, tags, variations and editable source content before reuse', sections: [] });
+    const contentTasks=require('./content-batches').plan(read(path.join(SNAPSHOT,'content-map.json')),manifest,config.contentBatchSize||3);
+    write(path.join(dir,'content-batches.json'),contentTasks);
+    for(const task of contentTasks)await work('foundation',task);
     const resolvedManifest = require('./source-geometry').resolveManifest();
     const registryFile=path.join(ROOT,'scripts/factory/project/component-registry.json');
     const componentPlan = require('./component-plan').plan(resolvedManifest, require('./state-plan').load(resolvedManifest),fs.existsSync(registryFile)?read(registryFile):[]);
@@ -526,23 +553,53 @@ async function main(argv = process.argv.slice(2), dependencies = {}) {
       const before = fingerprint();
       const correctionRoutes = comparison.routes.filter(r=>!r.passed && !(state.sourceDependencies || []).some(d=>d.routeId===r.id)).map(r=>r.id);
       if (!correctionRoutes.length && state.sourceDependencies?.length) throw new Error('SOURCE_INPUT_REQUIRED: see retained source dependencies in REPORT.md; no fabricated content or visual PASS');
-      const diagnoses = require('./diagnostics').diagnose(comparison.routes.filter(r=>correctionRoutes.includes(r.id)).map(r=>read(inside(ROOT,r.comparison))),config.visual.maxDifferentPixelRatio);
+      const diagnoses = require('./diagnostics').diagnose(comparison.routes.map(r=>read(inside(ROOT,r.comparison))),config.visual.maxDifferentPixelRatio);
       write(path.join(dir, `diagnostics-${state.round}.json`), diagnoses);
       if (!diagnoses.length) {
         // Audit-only semantic findings still have a concrete per-route owner.
         for (const route of resolvedManifest.routes.filter(r=>correctionRoutes.length?correctionRoutes.includes(r.id):true)) diagnoses.push({id:`audit-${route.id}`,type:'template-fix',sections:[],routes:[route.id],reason:audit.issues.join('\n')});
       }
+      const unavailable=diagnoses.filter(d=>d.type==='state-preparation');
+      if(unavailable.length){
+        write(path.join(dir,'state-preparation-plan.json'),unavailable);
+        for(const diagnosis of unavailable)await work('correct',{...diagnosis,id:`prepare-${diagnosis.routes[0]}`,comparison:state.comparison});
+        comparison=await capture();
+        if(require('./diagnostics').diagnose(comparison.routes.map(r=>read(inside(ROOT,r.comparison)))).some(d=>d.type==='state-preparation'))throw Error('STATE_UNAVAILABLE_AFTER_PREPARATION: no Terra CSS retry');
+        continue;
+      }
       for (const diagnosis of diagnoses) await work('correct', { id: `round-${state.round}-${diagnosis.id}`, comparison: state.comparison,
-        type: diagnosis.type, sections: diagnosis.sections, routes: diagnosis.global ? diagnosis.routes.slice(0,1) : diagnosis.routes,
-        affectedRoutes: diagnosis.routes, issues: [diagnosis.reason], title: diagnosis.reason });
+        class:diagnosis.class,type: diagnosis.type, sections: diagnosis.sections, routes: diagnosis.global ? diagnosis.routes.slice(0,1) : diagnosis.routes,
+        diagnostic:diagnosis,component:diagnosis.component,affectedRoutes: diagnosis.routes, issues: [diagnosis.reason], title: diagnosis.reason });
       if (fingerprint() === before) throw new Error('NO_IMPLEMENTATION_PROGRESS: corrections did not change source/build; stopping repeated consumption');
       comparison = await capture();
     }
-    // Ultimate review/polish stays with Sol; no automatic return to Terra after Sol findings.
-    for (const component of [...componentPlan.shared, ...componentPlan.pages]) await work('final', {
-      ...component, id: `polish-${component.id}`, type: 'final-polish', comparison: state.comparison,
-      title: `Final visual verification and safe polish: ${component.component}` });
-    comparison = await capture();
+    const packetFile=path.join(dir,'final-review-packet.json');
+    write(packetFile,{comparison:state.comparison,routes:comparison.routes,shared:componentPlan.shared.map(c=>({id:c.id,sections:c.sections})),audit: audit,
+      instruction:'Follow one comparison/section pointer at a time; all raw images remain local. Shared variants are reviewed once. Missing state/source remains blocked.'});
+    const invokeFinal=mode=>work('final',{id:'final-sol-once',type:'final-audit',mode,routes:[],sections:[],issues:[],title:'Final whole-project visual audit'},`Read ${relative(packetFile)}; this is the one final Sol audit.`);
+    comparison=await require('./final-audit').run({dir,comparison,binding:hash(JSON.stringify({source:state.snapshotHash,instructionsHash})),
+      invoke:invokeFinal,
+      reconcile:async mode=>{
+        const attempt=state.attempts.filter(a=>a.task==='v2:final:final-sol-once').at(-1);
+        if(!attempt || !fs.existsSync(path.join(attempt.dir,'execution.json')))return null;
+        const execution=read(path.join(attempt.dir,'execution.json'));
+        if(execution.completed && !execution.failure && attempt.result && attempt.status!=='failed')return attempt.result;
+        if(execution.completed && execution.failure?.message==='TASK_REPORTED_TOKEN_BUDGET' && attempt.reviewGuardBefore &&
+          JSON.stringify(attempt.reviewGuardBefore)===JSON.stringify(attempt.reviewGuardAfter) &&
+          attempt.reviewGuardAfter.implementation===fingerprint() && attempt.reviewGuardAfter.engine===engineFingerprint() &&
+          fs.existsSync(path.join(attempt.dir,'result.json'))){
+          const result=require('./result-evidence').normalize(read(path.join(attempt.dir,'result.json')),ROOT).result;
+          const valid=new Ajv().compile(read(path.join(ROOT,'factory/schemas/autopilot-result.schema.json')));
+          if(valid(result)&&result.evidence.every(f=>fs.existsSync(inside(ROOT,f)))){
+            attempt.budgetOverrun=true;attempt.recoveredCompletedReview=true;save();return result;
+          }
+        }
+        if(!execution.completed&&execution.threadId&&execution.startedModel==='gpt-5.6-sol')return invokeFinal(mode);
+        return null;
+      },
+      repair:task=>work('correct',{...task,comparison:state.comparison,routes:comparison.routes.map(r=>r.id),sections:[]}),
+      build:async()=>runCommand(process.execPath,['node_modules/webpack-cli/bin/cli.js','--mode=production'],path.join(dir,'final-build.log')),
+      capture});
     if (!comparison.passed) throw Error('FINAL_POLISH_MEASURED_FAILURE: retain scoped task evidence; no false final PASS');
     if (fingerprint() !== comparison.implementationHash) throw new Error('IMPLEMENTATION_CHANGED_AFTER_CAPTURE');
     if (state.sourceDependencies?.length) throw new Error('SOURCE_INPUT_REQUIRED: dependencies need verified resolution before final acceptance');

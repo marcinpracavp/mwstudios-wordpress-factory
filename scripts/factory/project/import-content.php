@@ -339,6 +339,104 @@ function ra_owned_variation(int $parent_id, string $source_node, string $option)
     return $variation;
 }
 
+/**
+ * Import only the explicit archive-product keys supplied by the Factory batch.
+ * The normal importer below remains available for the legacy full-site command,
+ * but a scoped invocation exits before any unrelated source records are read.
+ */
+function ra_import_scoped_archive_products(array $by_name, string $snapshot, array $source_keys): array {
+    global $summary;
+    $wanted = array_fill_keys($source_keys, true);
+    $selected = [];
+    foreach ($by_name as $field) {
+        $key = implode(':', [
+            (string) ($field['language'] ?? 'pl'),
+            (string) ($field['nodeId'] ?? ''),
+            (string) ($field['fieldName'] ?? ''),
+        ]);
+        if (isset($wanted[$key])) { $selected[$key] = $field; }
+    }
+    if (count($selected) !== count($source_keys)) {
+        throw new RuntimeException('Scoped product batch has a missing source key.');
+    }
+
+    $parent_term = term_exists('Środki ochrony roślin', 'product_cat');
+    if (!$parent_term) { $parent_term = wp_insert_term('Środki ochrony roślin', 'product_cat'); }
+    $parent_term_id = !is_wp_error($parent_term) ? (int) (is_array($parent_term) ? $parent_term['term_id'] : $parent_term) : 0;
+    $fungicides = term_exists('Fungicydy', 'product_cat');
+    if (!$fungicides) { $fungicides = wp_insert_term('Fungicydy', 'product_cat', ['parent' => $parent_term_id]); }
+    $fungicides_id = !is_wp_error($fungicides) ? (int) (is_array($fungicides) ? $fungicides['term_id'] : $fungicides) : 0;
+    if ($fungicides_id && $parent_term_id && (int) get_term($fungicides_id, 'product_cat')->parent === 0) {
+        wp_update_term($fungicides_id, 'product_cat', ['parent' => $parent_term_id]);
+    }
+
+    $result = [];
+    foreach ($source_keys as $source_key) {
+        $field = $selected[$source_key];
+        $source_node = (string) ($field['nodeId'] ?? '');
+        $source = (array) ($field['value'] ?? []);
+        $title = trim(ra_repair_source_encoding((string) ($source['title'] ?? '')));
+        $raw_price = ra_repair_source_encoding((string) ($source['price'] ?? ''));
+        $price_value = ra_source_price($raw_price);
+        $price = $price_value === null ? null : number_format($price_value, 2, '.', '');
+        $asset = (string) (($source['media']['path'] ?? ''));
+        $media_source_node = (string) (($source['media']['sourceNodeId'] ?? ''));
+        if ($source_node === '' || $title === '' || $price === null || $asset === '' || $media_source_node === '') {
+            throw new RuntimeException('Scoped product source record is incomplete: ' . $source_key);
+        }
+
+        $existing = get_posts(['post_type' => 'product', 'post_status' => 'any', 'meta_key' => '_rudnikagro_source_node', 'meta_value' => $source_node, 'fields' => 'ids', 'numberposts' => 1]);
+        $product_id = $existing ? (int) $existing[0] : wp_insert_post(['post_type' => 'product', 'post_status' => 'publish', 'post_title' => $title, 'post_name' => sanitize_title($title)], true);
+        if (!$product_id || is_wp_error($product_id)) { throw new RuntimeException('Cannot create scoped product: ' . $source_key); }
+        update_post_meta($product_id, '_rudnikagro_source_node', $source_node);
+        update_post_meta($product_id, '_rudnikagro_source_key', $source_key);
+        update_post_meta($product_id, '_rudnikagro_owned', '1');
+        update_post_meta($product_id, '_rudnikagro_route_id', 'product-archive');
+        $last_title = (string) get_post_meta($product_id, '_rudnikagro_last_imported_title', true);
+        if ($last_title === '' || get_the_title($product_id) === $last_title) {
+            wp_update_post(['ID' => $product_id, 'post_title' => $title]);
+            update_post_meta($product_id, '_rudnikagro_last_imported_title', $title);
+        }
+        $native = wc_get_product($product_id);
+        if (!$native) { throw new RuntimeException('WooCommerce product unavailable: ' . $source_key); }
+        ra_set_owned_price($native, $price, ['sourceNode' => $source_node, 'sourcePrice' => $raw_price, 'provenance' => 'figma-explicit']);
+
+        $image_field = 'rudnikagro_archive_card_' . str_replace(':', '_', $source_node);
+        $image_id = ra_import_attachment($snapshot, $asset, $image_field);
+        update_post_meta($image_id, '_rudnikagro_source_node', $media_source_node);
+        update_post_meta($image_id, 'data-factory-source-node', $media_source_node);
+        $current_image = (int) get_post_thumbnail_id($product_id);
+        $last_image = (int) get_post_meta($product_id, '_rudnikagro_last_imported_thumbnail_id', true);
+        if (!$current_image || ($last_image && $current_image === $last_image)) {
+            set_post_thumbnail($product_id, $image_id);
+            update_post_meta($product_id, '_rudnikagro_last_imported_thumbnail_id', $image_id);
+        }
+
+        if ($fungicides_id) {
+            $current_terms = array_map('intval', (array) wp_get_object_terms($product_id, 'product_cat', ['fields' => 'ids']));
+            $last_terms = json_decode((string) get_post_meta($product_id, '_rudnikagro_last_imported_product_cat', true), true);
+            if (!$current_terms || ($last_terms !== null && $current_terms === array_map('intval', (array) $last_terms))) {
+                wp_set_object_terms($product_id, [$fungicides_id], 'product_cat');
+                update_post_meta($product_id, '_rudnikagro_last_imported_product_cat', wp_json_encode([$fungicides_id]));
+            }
+        }
+        $summary['products'] = ($summary['products'] ?? 0) + 1;
+        $result[] = ['key' => $source_key, 'id' => $product_id, 'sourceNode' => $source_node, 'mediaSourceNode' => $media_source_node];
+    }
+    return $result;
+}
+
+$scoped_product_keys_raw = getenv('FACTORY_RUDNIKAGRO_PRODUCT_KEYS');
+if ($scoped_product_keys_raw !== false && trim($scoped_product_keys_raw) !== '') {
+    $scoped_product_keys = json_decode($scoped_product_keys_raw, true);
+    if (!is_array($scoped_product_keys) || !$scoped_product_keys || count($scoped_product_keys) !== count(array_unique(array_map('strval', $scoped_product_keys)))) {
+        throw new RuntimeException('FACTORY_RUDNIKAGRO_PRODUCT_KEYS must be a non-empty unique JSON array.');
+    }
+    $scoped_product_keys = array_values(array_map('strval', $scoped_product_keys));
+    echo wp_json_encode(['rudnikagro_scoped_import' => ra_import_scoped_archive_products($by_name, $snapshot, $scoped_product_keys)], JSON_UNESCAPED_UNICODE) . PHP_EOL;
+    exit;
+}
+
 foreach ($by_name as $name => $field) {
     $is_shared = str_starts_with($name, 'rudnikagro_shared_') || $name === 'rudnikagro_topbar_promotion';
     if (!$is_shared || ra_is_populated_option($name)) { continue; }
@@ -382,10 +480,19 @@ $page_paths = ['home' => '', 'about' => 'o-nas', 'contact' => 'kontakt', 'career
 $page_title_fields = ['home' => 'rudnikagro_home_hero_96_96', 'catalogues' => 'rudnikagro_catalogues_347_1231', 'blog' => 'rudnikagro_blog_archive_heading_banner_label'];
 $page_ids = [];
 foreach ($page_sources as $route => [$section]) {
-    $title = ra_first_section_value($fields, $section, '/(heading|title)$/');
-    if ($title === '' && isset($page_title_fields[$route])) { $title = (string) (ra_source_field($by_name, $page_title_fields[$route])['value'] ?? ''); }
-    if ($title === '') { continue; }
+    $raw_title = ra_first_section_value($fields, $section, '/(heading|title)$/');
+    if ($raw_title === '' && isset($page_title_fields[$route])) { $raw_title = (string) (ra_source_field($by_name, $page_title_fields[$route])['value'] ?? ''); }
+    if ($raw_title === '') { continue; }
+    $title = ra_repair_source_encoding($raw_title);
     $page_ids[$route] = ra_owned_post(['post_type' => 'page', 'post_status' => 'publish', 'post_title' => wp_strip_all_tags($title), 'post_name' => $page_paths[$route]], $route);
+    $current_title = (string) get_post_field('post_title', $page_ids[$route]);
+    $raw_title = wp_strip_all_tags($raw_title);
+    $fixed_title = wp_strip_all_tags($title);
+    $last_title = (string) get_post_meta($page_ids[$route], '_rudnikagro_last_imported_page_title', true);
+    if ($current_title === $raw_title || ($last_title !== '' && $current_title === $last_title)) {
+        if ($current_title !== $fixed_title) { wp_update_post(['ID' => $page_ids[$route], 'post_title' => $fixed_title]); }
+        update_post_meta($page_ids[$route], '_rudnikagro_last_imported_page_title', $fixed_title);
+    }
 }
 if (!empty($page_ids['home'])) { update_option('show_on_front', 'page'); update_option('page_on_front', $page_ids['home']); }
 if (!empty($page_ids['blog'])) { update_option('page_for_posts', $page_ids['blog']); }
@@ -1024,13 +1131,16 @@ if (class_exists('WooCommerce')) {
         }
     }
     $product_imports = [
-        'product' => ['slug' => 'aquatos-5l', 'overview' => 'product-overview', 'tabs' => 'product-tabs', 'benefits' => 'product-benefits', 'gallery' => 'assets/product-aquatos-5l.png', 'gallery_key' => 'rudnikagro_product_gallery_aquatos'],
-        'product-bundle' => ['slug' => 'pakiet-ochronny-rzepaku-ozimego-12-ha', 'overview' => 'product-bundle-overview', 'tabs' => 'bundle-tabs', 'benefits' => 'bundle-benefits', 'gallery' => 'assets/product-bundle-rapeseed.png', 'gallery_key' => 'rudnikagro_product_gallery_bundle'],
+        'product' => ['slug' => 'aquatos-5l', 'source_node' => '323:2084', 'overview' => 'product-overview', 'tabs' => 'product-tabs', 'benefits' => 'product-benefits', 'gallery' => 'assets/product-aquatos-5l.png', 'gallery_key' => 'rudnikagro_product_gallery_aquatos'],
+        'product-bundle' => ['slug' => 'pakiet-ochronny-rzepaku-ozimego-12-ha', 'source_node' => '586:1245', 'overview' => 'product-bundle-overview', 'tabs' => 'bundle-tabs', 'benefits' => 'bundle-benefits', 'gallery' => 'assets/product-bundle-rapeseed.png', 'gallery_key' => 'rudnikagro_product_gallery_bundle'],
     ];
     foreach ($product_imports as $route => $config) {
         $ids = get_posts(['post_type' => 'product', 'post_status' => 'any', 'name' => $config['slug'], 'fields' => 'ids', 'numberposts' => 1]);
         if (!$ids) { continue; }
-        $id = (int) $ids[0]; $overview = ra_section_values($by_name, $config['overview']); $tab_values = ra_section_values($by_name, $config['tabs']);
+        $id = (int) $ids[0];
+        update_post_meta($id, '_rudnikagro_owned', '1');
+        if ((string) get_post_meta($id, '_rudnikagro_source_node', true) === '') { update_post_meta($id, '_rudnikagro_source_node', $config['source_node']); }
+        $overview = ra_section_values($by_name, $config['overview']); $tab_values = ra_section_values($by_name, $config['tabs']);
         $title = $product_titles[$config['slug']] ?? '';
         if ($title !== '' && get_post_status($id) === 'draft') { wp_update_post(['ID' => $id, 'post_title' => ra_repair_source_encoding($title), 'post_status' => 'publish']); }
         $sku = $route === 'product' ? '98899' : '99299';

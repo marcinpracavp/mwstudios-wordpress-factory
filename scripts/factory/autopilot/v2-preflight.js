@@ -11,7 +11,8 @@ function check() {
   const registry=path.join(ROOT,'scripts/factory/project/component-registry.json');
   const plan = require('./component-plan').plan(manifest, require('./state-plan').load(manifest),fs.existsSync(registry)?read(registry):[]);
   const output = path.join(CACHE, `v2-preflight-${Date.now()}`), errors = [], rows = [];
-  const tasks = [...plan.shared.map(task=>({stage:'foundation',task})),...plan.pages.map(task=>({stage:'build',task}))];
+  const native=require('./content-batches').plan(read(path.join(ROOT,'.factory-cache/figma/latest/content-map.json')),manifest);
+  const tasks = [...native.map(task=>({stage:'foundation',task})),...plan.shared.map(task=>({stage:'foundation',task})),...plan.pages.map(task=>({stage:'build',task}))];
   for (let i=0;i<tasks.length;i++) {
     const {stage,task}=tasks[i], dir=path.join(output,String(i).padStart(3,'0'));
     try {
