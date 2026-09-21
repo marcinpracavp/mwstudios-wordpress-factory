@@ -5,7 +5,4 @@ yarn.lock
 package-lock.json
 yarn-lock.json
 composer-lock.json
-/.factory-cache/v2-smoke/
-/.factory-cache/v2-tests.log
-/.factory-cache/autopilot/v2-preflight-*/
-/.factory-cache/autopilot/v2-real-readonly-check/
+/.factory-cache/
