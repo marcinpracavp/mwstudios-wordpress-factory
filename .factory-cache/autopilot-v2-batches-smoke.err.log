@@ -1,4 +1,0 @@
-AUTOPILOT PAUSED: AGENT_EXECUTION_FAILED: .factory-cache/autopilot/runs/2026-09-19T14-48-07-799Z-7588/004-foundation-products-20e36a5cc1dd30bb; {"message":"TASK_OBSERVED_CONTEXT_BUDGET"}
-2026-09-19T19:45:03.409307Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
-
-Report: .factory-cache/autopilot/runs/2026-09-19T14-48-07-799Z-7588/REPORT.md
