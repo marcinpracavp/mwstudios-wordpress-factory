@@ -53,6 +53,7 @@ services:
     volumes:
       - wordpress-data:/var/www/html
       - ..:/var/www/html/wp-content/themes/mwstudios-wordpress-factory:cached
+      - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini:ro
 
     depends_on:
       - db
