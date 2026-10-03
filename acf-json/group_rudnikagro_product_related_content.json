@@ -1,0 +1,32 @@
+{
+  "key": "group_emko_product_related_content",
+  "title": "RudnikAgro — menu i produkty powiązane",
+  "fields": [
+    {"key":"field_ra_product_related_tab_menu","label":"Menu kategorii","name":"emko_product_related_tab_menu","type":"tab","placement":"top"},
+    {"key":"field_ra_product_list_menu_category_1","label":"Kategoria 1","name":"emko_product_list_menu_category_1_125_2760","type":"text"},
+    {"key":"field_ra_product_list_menu_category_arrow","label":"Ikona kategorii","name":"emko_product_list_menu_category_arrow_125_2762","type":"image","return_format":"id","library":"all","mime_types":"svg"},
+    {"key":"field_ra_product_list_menu_category_2","label":"Kategoria 2","name":"emko_product_list_menu_category_2_125_2766","type":"text"},
+    {"key":"field_ra_product_list_menu_category_3","label":"Kategoria 3","name":"emko_product_list_menu_category_3_125_2772","type":"text"},
+    {"key":"field_ra_product_list_menu_category_4","label":"Kategoria 4","name":"emko_product_list_menu_category_4_125_2778","type":"text"},
+    {"key":"field_ra_product_list_menu_category_5","label":"Kategoria 5","name":"emko_product_list_menu_category_5_125_2784","type":"text"},
+    {"key":"field_ra_product_list_menu_category_6","label":"Kategoria 6","name":"emko_product_list_menu_category_6_125_2790","type":"text"},
+    {"key":"field_ra_product_list_menu_category_7","label":"Kategoria 7","name":"emko_product_list_menu_category_7_125_2795","type":"text"},
+    {"key":"field_ra_product_list_menu_category_8","label":"Kategoria 8","name":"emko_product_list_menu_category_8_125_2800","type":"text"},
+    {"key":"field_ra_product_list_menu_category_9","label":"Kategoria 9","name":"emko_product_list_menu_category_9_125_2805","type":"text"},
+    {"key":"field_ra_product_list_menu_heading","label":"Nagłówek kategorii","name":"emko_product_list_menu_heading_125_2809","type":"wysiwyg","tabs":"all","toolbar":"full","media_upload":1},
+    {"key":"field_ra_product_related_tab_products","label":"Produkty powiązane","name":"emko_product_related_tab_products","type":"tab","placement":"top"},
+    {"key":"field_ra_product_related_heading","label":"Nagłówek produktów powiązanych","name":"emko_product_related_heading_125_3277","type":"wysiwyg","tabs":"all","toolbar":"full","media_upload":1},
+    {"key":"field_ra_product_related_all_label","label":"Etykieta wszystkich produktów","name":"emko_product_related_all_label_125_3279","type":"text"},
+    {"key":"field_ra_product_related_all_icon","label":"Ikona wszystkich produktów","name":"emko_product_related_all_icon_125_3281","type":"image","return_format":"id","library":"all","mime_types":"svg"},
+    {"key":"field_ra_product_related_card_arrow","label":"Ikona strzałki karty produktu","name":"emko_product_related_card_arrow_130_14","type":"image","return_format":"id","library":"all","mime_types":"svg"}
+  ],
+  "location": [[{"param":"options_page","operator":"==","value":"acf-options-opcje-globalne"}]],
+  "menu_order": 30,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "active": true,
+  "show_in_rest": 0,
+  "modified": 1780000000
+}

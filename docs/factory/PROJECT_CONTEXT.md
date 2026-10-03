@@ -5,21 +5,21 @@
 
 ## Project
 
-Name: RudnikAgro
-Slug: rudnikagro
-Theme name: RudnikAgro
-Text domain: rudnikagro
-PHP prefix: rudnikagro
+Name: Emko
+Slug: emko
+Theme name: Emko
+Text domain: emko
+PHP prefix: emko
 Mode: project
 
 ## Environment
 
-Local URL: <https://autopilot.local>
-Production URL: Not configured
+Local URL: <http://wordpress>
+Production URL: <https://humble-orbit-q7rww5xpqpw5f4x7r-8000.app.github.dev/>
 
 ## Design
 
-Figma design: <https://www.figma.com/design/OwiDXrKMVcaHKB9ryYF6mY/Rudnik-Agro?m=dev>
+Figma design: <https://www.figma.com/design/XBiSgFXDfm5YsZSm4lWBUq/EMKO.PL?node-id=50-2&p=f&m=dev>
 Figma page: Not configured
 Figma root/start node: Not configured
 

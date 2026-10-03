@@ -316,7 +316,7 @@ async function collectProjectConfiguration({ prompt, logger, existingProject, ac
 
   const localUrl = await askValue(prompt, logger, {
     key: 'localUrl',
-    label: 'LocalWP URL',
+    label: 'Development WordPress URL',
     defaultValue: currentDefault(
       existingProject,
       action,

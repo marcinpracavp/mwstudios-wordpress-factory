@@ -1,3 +1,11 @@
+<?php
+$post_id = get_the_ID();
+$excerpt = wp_trim_words(
+    wp_strip_all_tags(strip_shortcodes((string) get_post_field('post_content', $post_id))),
+    24,
+    '…'
+);
+?>
 <div class="blog-item" data-aoe="fadeIn">
     <div class="blog-item__container">
         <a href="<?= get_permalink(); ?>">
@@ -12,7 +20,7 @@
                     <h2 class="text-42"><?= the_title() ?></h2>
                 </div>
                 <div class="excerpt">
-                    <?= get_the_excerpt() ?>
+                    <?php echo esc_html($excerpt); ?>
                 </div>
             </div>
         </a>

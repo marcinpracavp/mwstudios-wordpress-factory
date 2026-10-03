@@ -1,0 +1,39 @@
+@use 'abstracts' as *;
+
+// Shared hover state for the site's red CTA buttons.
+:is(
+  .c-home-slider__button,
+  .c-product-contact-cta__button,
+  .c-about-overview__button,
+  .c-contact-overview__actions button,
+  .c-about-hero__button,
+  .c-product-list-items__button,
+  .c-product-list-filters__button,
+  .c-service-contact__button,
+  .c-service-media-band__button,
+  .c-about-media-band__button,
+  .c-product-detail__action--contact,
+  .l-footer button
+):is(:hover, :focus-visible) {
+  background: $white;
+  border-color: $accent;
+  box-shadow: inset 0 0 0 1px $accent;
+  color: $accent;
+}
+
+:is(
+  .c-home-slider__button,
+  .c-product-contact-cta__button,
+  .c-about-overview__button,
+  .c-contact-overview__actions button,
+  .c-about-hero__button,
+  .c-product-list-items__button,
+  .c-product-list-filters__button,
+  .c-service-contact__button,
+  .c-service-media-band__button,
+  .c-about-media-band__button,
+  .c-product-detail__action--contact,
+  .l-footer button
+):is(:hover, :focus-visible) img {
+  filter: brightness(0) saturate(100%) invert(11%) sepia(99%) saturate(5678%) hue-rotate(341deg) brightness(104%) contrast(101%);
+}

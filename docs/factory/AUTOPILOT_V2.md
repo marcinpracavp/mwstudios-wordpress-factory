@@ -1,5 +1,25 @@
 # Autopilot v2: router, capsule, shared-first, telemetry
 
+## Route-first architecture
+
+After the Figma snapshot is frozen, the host deterministically generates
+`route-blueprints.json`. Each route blueprint contains the complete source
+section order, full-page reference, section layouts, editable content fields,
+assets, source gaps and reusable-pattern signatures. Page implementation is
+planned as one bounded route task; section tasks are reserved for measured
+follow-up repairs.
+
+Every route task capsule contains only that route, but always includes both the
+complete route blueprint/full-page evidence and a narrower `focusSections`
+list. A semantic coverage gate verifies that each `data-factory-section` owns
+all source-backed media, text and controls. A matching image crop cannot pass
+when its copy or CTA lives in an unregistered sibling wrapper.
+
+Repair history is keyed by route plus semantic section rather than repair-round
+number. Luna/Terra/source-recovery budgets therefore survive resume and later
+rounds. A no-progress plateau permits at most one route-level Sol polish before
+the run requests human review; it never restarts the same paid loop.
+
 V1 is preserved on `autopilot-v1` at the same commit as `autopilot-do-wgladu`.
 Development takes place on `autopilot-v2-optimized`. No automatic Git commit, reset or deployment is performed.
 
@@ -44,6 +64,14 @@ An oversized capsule stops for task splitting rather than silently dropping sour
 `prompt-topics.js` selects only relevant instructions. A style-fix gets core + visual + checkpoint,
 without native commerce/ACF/payment instructions. Discovery reads and persists one source section at a time.
 
+Snapshot v1.1 adds a canvas audit for every production/state frame. Discovery inventories immediate
+children by their canvas bounds and assigns visible content to a route section, decoration, duplicate or
+an explicit unresolved item. Layer-panel order is not semantic: a child listed below Footer but positioned
+inside the page must be surfaced as a candidate section. The inventory and snapshot gates reject missing
+audits, visible unassigned nodes and candidate sections omitted from their route.
+
+When resuming a legacy v1.0 snapshot, the host first runs a source-only canvas backfill. It promotes the snapshot to v1.1, discovers any omitted canvas-visible sections and reruns the snapshot gate; it never inserts spacing or edits the site implementation.
+
 Place `custom-instructions.md` or `custom-instructions.json` in the project root before init/run.
 Markdown applies to all tasks. JSON keys can be `all`, operation names (`discovery`, `foundation`, etc.),
 task types or task topics. Both files are supported in that order. Invalid JSON/oversized content fails
@@ -76,7 +104,15 @@ Source reference PNGs are reused from the frozen snapshot; local crops do not ca
 Active frames reuse canonical components; exact source-crop matches in the existing state plan exclude
 unchanged sections. Distinct genuine shared variants remain separate work.
 
+If a component has exhausted its bounded attempts but its local gate confirms loaded media, runtime health
+and exact x/width/height, its remaining pixel mismatch is recorded as deferred work and execution continues.
+This is not an acceptance or threshold override: the full-page comparison and final repair must still resolve it.
+The component deferral additionally requires two healthy captures at or below `visualDeferral.maxPageMismatch`;
+this limits it to stable rendering/typography churn rather than broken media or geometry.
+
 ## Diagnostics and checkpoints
+
+Visual QA is full-page-first. The host captures and compares the complete source-frame render before it launches an independent audit. A failed deterministic full-page comparison goes directly to measured diagnostics and scoped repair; it is not expanded into a paid audit of every section. After a route passes that gate, one independent full-page review validates the composition, followed by responsive, interaction and native checks. Only a failed independent full-page checkpoint may add its already-measured page-owned sections as narrow follow-up audit items. A component build or scoped visual correction that exhausts Luna and Terra receives one separately bounded Figma MCP/design-to-code source-recovery turn before the host gives up that diagnosis. This is reserved for a mismatch that retained source/reference/measurement evidence cannot explain or repair.
 
 Node classifies identical overflow/health signatures across all measured routes as a shared diagnosis.
 Different errors/viewport failures stay separate. Local geometry failures carry section IDs and actual

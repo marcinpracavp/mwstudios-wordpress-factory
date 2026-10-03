@@ -1,3 +1,4 @@
+const { resolveLocalUrl } = require('../autopilot/common');
 const path = require('path');
 const Ajv = require('ajv');
 
@@ -61,7 +62,7 @@ function buildTargets({ project, qa, options }) {
   const routes = selectById(qa.routes, options.route, 'route');
   const languages = selectLanguages(qa.languages, options.lang);
   const viewports = selectById(qa.viewports, options.viewport, 'viewport');
-  const baseUrl = project.environment?.localUrl;
+  const baseUrl = resolveLocalUrl(project);
 
   if (typeof baseUrl !== 'string' || baseUrl.trim() === '') {
     throw new Error('Factory QA requires environment.localUrl. Configure it in factory/project.json.');

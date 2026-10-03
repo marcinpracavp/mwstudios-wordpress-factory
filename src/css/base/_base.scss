@@ -2,19 +2,29 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
+
+  @media (prefers-reduced-motion: reduce) {
+    scroll-behavior: auto;
+  }
 }
 
 body {
   color: $base-colour;
-  background-color: $base-background-colour;
+  //background-color: $base-background-colour;
   font-size: 1.6rem;
   line-height: 34px;
   font-family: $base-font-family;
-  overflow-x: hidden;
+  font-synthesis: none;
+  background-color: $surface-light;
 
   @include media($breakpoint-sm) {
     font-size: 1.6rem;
   }
+}
+
+body.home {
+  background-color: $surface-light;
 }
 
 hr {

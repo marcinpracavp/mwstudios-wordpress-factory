@@ -24,16 +24,19 @@ try {
   const ledger=api.initialize(run,'capture/summary.json',0);
   const packet=api.packet(ledger,'route-home');assert.equal(packet.pending.length,3);
   const input='item.json';write(path.join(root,input),{status:'needs_work',summary:'measured gap',issues:['gap differs'],evidence:['capture/comparison.json','probe.json']});
-  api.saveItem(ledger,'route-home','section:body',input);
+  api.saveItem(ledger,'route-home','full-page',input);
+  // A failed full-page checkpoint is the only condition that creates a
+  // section follow-up. Healthy routes never fan out into section audits.
+  assert.deepEqual(Array.from(api.packet(ledger,'route-home').pending,i=>i.id),['section:body','responsive','interactions']);
   // Simulate interruption and reconstruction from disk: one saved item stays done.
   assert.equal(api.initialize(run,'capture/summary.json',0),ledger);
-  assert.deepEqual(Array.from(api.packet(ledger,'route-home').pending,i=>i.id),['responsive','interactions']);
+  assert.deepEqual(Array.from(api.packet(ledger,'route-home').pending,i=>i.id),['section:body','responsive','interactions']);
   assert.throws(()=>api.aggregate(ledger),/INCOMPLETE/);
-  assert.throws(()=>api.saveItem(ledger,'route-home','section:body',input),/ALREADY_RECORDED/);
+  assert.throws(()=>api.saveItem(ledger,'route-home','full-page',input),/ALREADY_RECORDED/);
   assert.throws(()=>api.saveItem(ledger,'route-home','unknown',input),/UNKNOWN/);
   assert.equal(api.resumeComparison(run).file,'capture/summary.json');
-  text(path.join(root,'probe.json'),'changed');assert.equal(api.packet(ledger,'route-home').pending.length,3);
-  api.saveItem(ledger,'route-home','section:body',input); // invalidated evidence requires re-audit, history retained
+  text(path.join(root,'probe.json'),'changed');assert.equal(api.packet(ledger,'route-home').pending.length,4);
+  api.saveItem(ledger,'route-home','full-page',input); // invalidated evidence requires re-audit, history retained
   for(const unit of api.status(ledger)) for(const item of unit.pending) {
     write(path.join(root,input),{status:'blocked',summary:'missing real input',issues:['requires source'],evidence:['capture/comparison.json']});
     api.saveItem(ledger,unit.id,item,input);

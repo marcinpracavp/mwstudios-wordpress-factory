@@ -11,6 +11,7 @@ function check() {
   const registry=path.join(ROOT,'scripts/factory/project/component-registry.json');
   const plan = require('./component-plan').plan(manifest, require('./state-plan').load(manifest),fs.existsSync(registry)?read(registry):[]);
   const output = path.join(CACHE, `v2-preflight-${Date.now()}`), errors = [], rows = [];
+  require('./route-blueprint').create(manifest,path.join(output,'route-blueprints.json'),fs.existsSync(registry)?read(registry):[]);
   const native=require('./content-batches').plan(read(path.join(ROOT,'.factory-cache/figma/latest/content-map.json')),manifest);
   const tasks = [...native.map(task=>({stage:'foundation',task})),...plan.shared.map(task=>({stage:'foundation',task})),...plan.pages.map(task=>({stage:'build',task}))];
   for (let i=0;i<tasks.length;i++) {
@@ -24,7 +25,7 @@ function check() {
       rows.push({task:task.id,bytes,files:capsule.filesToChange.length,model:routing.alias,viewport:capsule.routes.map(r=>r.viewport.width)});
     } catch(e) { errors.push({task:task.id,error:e.message}); }
   }
-  const result={passed:!errors.length,shared:plan.shared.length,pageComponents:plan.pages.length,prepared:rows.length,maxBytes:Math.max(0,...rows.map(r=>r.bytes)),errors,rows};
+  const result={passed:!errors.length,shared:plan.shared.length,routeBuilds:plan.pages.length,sectionRepairCandidates:plan.sectionRepairs.length,prepared:rows.length,maxBytes:Math.max(0,...rows.map(r=>r.bytes)),errors,rows};
   write(path.join(output,'REPORT.json'),result);
   console.log(JSON.stringify({...result,rows:undefined,report:path.relative(ROOT,path.join(output,'REPORT.json')).replaceAll('\\','/')},null,2));
   return result;

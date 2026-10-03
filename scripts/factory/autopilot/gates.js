@@ -4,6 +4,7 @@ const { ROOT, SNAPSHOT, read, inside, hash } = require('./common');
 const { validateSnapshot } = require('../figma/validate-snapshot');
 const { extractFigmaFileKey } = require('../figma/utils');
 const Ajv = require('ajv');
+const canvasAudit = require('./canvas-audit');
 function pngInfo(file) {
   const bytes = fs.readFileSync(file);
   if (bytes.length < 33 || bytes.subarray(0, 8).toString('hex') !== '89504e470d0a1a0a') throw new Error(`Not a PNG: ${file}`);
@@ -27,6 +28,7 @@ function inventory() {
     } catch(e) { errors.push(e.message); }
   }
   for (const f of m.productionFrames || []) if (['production', 'state'].includes(f.classification) && !m.routes?.some(r => r.frameNodeId === f.nodeId)) errors.push(`Unmapped frame ${f.nodeId}`);
+  errors.push(...canvasAudit.validate(m));
   return { passed: !errors.length, errors, routes: m.routes?.length };
 }
 function group(id, selected = null) {
@@ -76,6 +78,7 @@ function snapshot({ allowPartial = false } = {}) {
   for (const frame of classified) {
     if (['production', 'state'].includes(frame.classification) && !m.routes?.some(r => r.frameNodeId === frame.nodeId)) errors.push(`Uncovered production frame/state ${frame.nodeId}`);
   }
+  errors.push(...canvasAudit.validate(m));
   for (const section of m.sections) {
     try {
       const s = read(inside(SNAPSHOT, section.snapshot));

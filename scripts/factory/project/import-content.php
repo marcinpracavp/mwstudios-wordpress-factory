@@ -14,10 +14,79 @@ $map_path = $snapshot . '/content-map.json';
 if (!is_readable($map_path)) { throw new RuntimeException('Frozen content-map.json is unavailable.'); }
 $content_map = json_decode((string) file_get_contents($map_path), true, 512, JSON_THROW_ON_ERROR);
 $fields = $content_map['fields'] ?? [];
+$scoped_product_keys = null;
+$scoped_content_keys = null;
+$product_demo_clones = [];
+$scoped_product_keys_raw = getenv('FACTORY_RUDNIKAGRO_PRODUCT_KEYS');
+if ($scoped_product_keys_raw !== false && trim($scoped_product_keys_raw) !== '') {
+    $scoped_product_keys = json_decode($scoped_product_keys_raw, true);
+    if (!is_array($scoped_product_keys) || !$scoped_product_keys || count($scoped_product_keys) !== count(array_unique(array_map('strval', $scoped_product_keys)))) {
+        throw new RuntimeException('FACTORY_RUDNIKAGRO_PRODUCT_KEYS must be a non-empty unique JSON array.');
+    }
+    $scoped_product_keys = array_values(array_map('strval', $scoped_product_keys));
+}
+$product_demo_clones_raw = getenv('FACTORY_RUDNIKAGRO_PRODUCT_DEMO_CLONES');
+if ($product_demo_clones_raw !== false && trim($product_demo_clones_raw) !== '') {
+    $product_demo_clones = json_decode($product_demo_clones_raw, true);
+    if (!is_array($product_demo_clones)) {
+        throw new RuntimeException('FACTORY_RUDNIKAGRO_PRODUCT_DEMO_CLONES must be a JSON array.');
+    }
+}
+$scoped_content_keys_raw = getenv('FACTORY_RUDNIKAGRO_CONTENT_KEYS');
+if ($scoped_content_keys_raw !== false && trim($scoped_content_keys_raw) !== '') {
+    if ($scoped_product_keys !== null) { throw new RuntimeException('Product and content scopes cannot be combined.'); }
+    $scoped_content_keys = json_decode($scoped_content_keys_raw, true);
+    if (!is_array($scoped_content_keys) || !$scoped_content_keys || count($scoped_content_keys) !== count(array_unique(array_map('strval', $scoped_content_keys)))) {
+        throw new RuntimeException('FACTORY_RUDNIKAGRO_CONTENT_KEYS must be a non-empty unique JSON array.');
+    }
+    $scoped_content_keys = array_values(array_map('strval', $scoped_content_keys));
+}
+$scoped_content_records_raw = getenv('FACTORY_RUDNIKAGRO_CONTENT_RECORDS');
+$scoped_content_records = [];
+if ($scoped_content_records_raw !== false && trim($scoped_content_records_raw) !== '') {
+    if ($scoped_content_keys === null) { throw new RuntimeException('Explicit content records require a content scope.'); }
+    $scoped_content_records = json_decode($scoped_content_records_raw, true);
+    if (!is_array($scoped_content_records) || count($scoped_content_records) !== count($scoped_content_keys)) {
+        throw new RuntimeException('FACTORY_RUDNIKAGRO_CONTENT_RECORDS must match the content scope exactly.');
+    }
+    $explicit_keys = [];
+    foreach ($scoped_content_records as $record) {
+        if (!is_array($record) || empty($record['fieldName']) || empty($record['nodeId'])) {
+            throw new RuntimeException('Explicit content records must contain fieldName and nodeId.');
+        }
+        $explicit_key = implode(':', [(string) ($record['language'] ?? 'pl'), (string) $record['nodeId'], (string) $record['fieldName']]);
+        $explicit_keys[] = $explicit_key;
+    }
+    sort($explicit_keys);
+    $scope_keys = $scoped_content_keys;
+    sort($scope_keys);
+    if ($explicit_keys !== $scope_keys || count(array_unique($explicit_keys)) !== count($explicit_keys)) {
+        throw new RuntimeException('Explicit content records contain missing or out-of-scope keys.');
+    }
+}
+$scoped_listing_keys_raw = getenv('FACTORY_RUDNIKAGRO_LISTING_KEYS');
+$scoped_listing_keys = null;
+if ($scoped_listing_keys_raw !== false && trim($scoped_listing_keys_raw) !== '') {
+    if ($scoped_product_keys !== null || $scoped_content_keys !== null) { throw new RuntimeException('Listing and content scopes cannot be combined.'); }
+    $scoped_listing_keys = json_decode($scoped_listing_keys_raw, true);
+    if (!is_array($scoped_listing_keys) || !$scoped_listing_keys || count($scoped_listing_keys) !== count(array_unique(array_map('strval', $scoped_listing_keys)))) {
+        throw new RuntimeException('FACTORY_RUDNIKAGRO_LISTING_KEYS must be a non-empty unique JSON array.');
+    }
+    $scoped_listing_keys = array_values(array_map('strval', $scoped_listing_keys));
+}
 $by_name = [];
-foreach ($fields as $field) { if (!empty($field['fieldName'])) { $by_name[$field['fieldName']] = $field; } }
+foreach ($fields as $field) {
+    if (empty($field['fieldName'])) { continue; }
+    $key = implode(':', [(string) ($field['language'] ?? 'pl'), (string) ($field['nodeId'] ?? ''), (string) ($field['fieldName'] ?? '')]);
+    if ($scoped_product_keys !== null && !in_array($key, $scoped_product_keys, true)) { continue; }
+    if ($scoped_content_keys !== null && !in_array($key, $scoped_content_keys, true)) { continue; }
+    $by_name[$field['fieldName']] = $field;
+}
+foreach ($scoped_content_records as $field) {
+    $by_name[$field['fieldName']] = $field;
+}
 
-$summary = ['options' => 0, 'attachments' => 0, 'pages' => 0, 'posts' => 0, 'menus' => 0];
+$summary = ['options' => 0, 'attachments' => 0, 'pages' => 0, 'posts' => 0, 'menus' => 0, 'mediaGaps' => []];
 function ra_source_field(array $by_name, string $name): ?array { return $by_name[$name] ?? null; }
 function ra_section_values(array $by_name, string $section): array {
     $values = [];
@@ -68,9 +137,17 @@ function ra_update_legacy_imported_product_content(int $post_id, array $content,
     update_field('field_ra_product_content', $content, $post_id);
     update_post_meta($post_id, '_rudnikagro_last_imported_expanded_description', $source_expanded);
 }
+function ra_has_populated_value($value): bool {
+    if (is_array($value)) {
+        foreach ($value as $item) {
+            if (ra_has_populated_value($item)) { return true; }
+        }
+        return false;
+    }
+    return !($value === null || $value === '' || $value === false);
+}
 function ra_is_populated_option(string $name): bool {
-    $value = get_field($name, 'option');
-    return !($value === null || $value === '' || $value === false || $value === []);
+    return ra_has_populated_value(get_field($name, 'option'));
 }
 function ra_update_owned_option(string $field_key, string $field_name, $value): void {
     global $summary;
@@ -90,7 +167,8 @@ function ra_import_attachment(string $snapshot, string $source_relative, string 
     $source = realpath($snapshot . '/' . ltrim($source_relative, '/'));
     $root = realpath($snapshot);
     if (!$source || !$root || strncmp($source, $root . DIRECTORY_SEPARATOR, strlen($root) + 1) !== 0 || !is_file($source)) {
-        throw new RuntimeException('Missing frozen media for ' . $field_name);
+        $summary['mediaGaps'][] = ['field' => $field_name, 'asset' => $source_relative];
+        return 0;
     }
     $existing = get_posts(['post_type' => 'attachment', 'post_status' => 'inherit', 'meta_key' => '_rudnikagro_source_field', 'meta_value' => $field_name, 'fields' => 'ids', 'numberposts' => 1]);
     if ($existing) { return (int) $existing[0]; }
@@ -110,6 +188,26 @@ function ra_import_attachment(string $snapshot, string $source_relative, string 
     $summary['attachments']++;
     return (int) $id;
 }
+
+function ra_import_product_list_filters_icon(string $snapshot): void {
+    $field = 'emko_product_list_filters_button_icon_125_3007';
+    $source_node = '125:3007';
+    $attachment_id = ra_import_attachment($snapshot, 'assets/product-list-filters/search-arrow-125-3007.svg', $field);
+    if (!$attachment_id) { return; }
+    update_post_meta($attachment_id, '_rudnikagro_source_node', $source_node);
+    update_post_meta($attachment_id, 'data-factory-source-node', $source_node);
+    update_post_meta($attachment_id, 'data-factory-section', 'product-list-filters');
+    $current = (int) get_option('options_' . $field, 0);
+    if ($current === 0) {
+        update_option('options_' . $field, $attachment_id, false);
+        update_option('_rudnikagro_last_imported_option_' . $field, $attachment_id, false);
+        $GLOBALS['summary']['options']++;
+    }
+    if (get_option('_rudnikagro_source_option_' . $field, '') === '') {
+        update_option('_rudnikagro_source_option_' . $field, 'pl:' . $source_node . ':' . $field, false);
+    }
+}
+
 function ra_import_home_active_navigation(string $snapshot): void {
     /* Exact values from the frozen shared-primary-navigation-active record.
      * This interaction state is not in the canonical navigation content map. */
@@ -140,6 +238,178 @@ function ra_import_home_active_navigation(string $snapshot): void {
         ['field_ra_primary_active_selected', 'rudnikagro_shared_primary_navigation_active_media_250_765', 'assets/home/250-765-rectangle31.svg'],
     ];
     foreach ($assets as [$key, $name, $asset]) { ra_update_owned_option($key, $name, ra_import_attachment($snapshot, $asset, $name)); }
+}
+function ra_update_owned_native_option(string $field_name, $value): void {
+    global $summary;
+    if ($value === '' || $value === null) { return; }
+    $option_name = 'options_' . $field_name;
+    $current = get_option($option_name, null);
+    $last_key = '_rudnikagro_last_imported_option_' . $field_name;
+    $last = get_option($last_key, null);
+    if ($current === null || $current === '' || ($last !== null && (string) $current === (string) $last)) {
+        update_option($option_name, $value, false);
+        update_option($last_key, $value, false);
+        $summary['options']++;
+    }
+}
+function ra_import_product_detail_content(string $snapshot): void {
+    $image_field = 'emko_product_detail_image_125_3212';
+    $image_id = ra_import_attachment($snapshot, 'assets/product-detail/product-image-125-3212.png', $image_field);
+    if ($image_id) {
+        update_post_meta($image_id, '_rudnikagro_source_node', '125:3212');
+        update_post_meta($image_id, 'data-factory-source-node', '125:3212');
+        update_post_meta($image_id, 'data-factory-section', 'product-detail');
+        ra_update_owned_native_option($image_field, $image_id);
+    }
+
+    ra_update_owned_native_option('emko_product_detail_title_125_3430', 'Cylindry 700bar - obniżone CMP');
+    ra_update_owned_native_option('emko_product_detail_contact_label_125_3437', 'Zapytaj o ofertę');
+    ra_update_owned_native_option('emko_product_detail_download_label_125_3433', 'Karta produktu do pobrania');
+    ra_update_owned_native_option('emko_product_detail_benefits_heading_125_3439', 'Zalety serii');
+    $download_icon_id = ra_import_attachment($snapshot, 'assets/catalogues-secondary/pdf-125-2563.png', 'emko_product_detail_download_icon_125_3434');
+    if ($download_icon_id) {
+        update_post_meta($download_icon_id, '_rudnikagro_source_node', '125:3434');
+        update_post_meta($download_icon_id, 'data-factory-source-node', '125:3434');
+        update_post_meta($download_icon_id, 'data-factory-section', 'product-detail');
+        ra_update_owned_native_option('emko_product_detail_download_icon_125_3434', $download_icon_id);
+    }
+
+    // These two visible canvas text records were backfilled by the frozen
+    // product-detail source record. Keep the copy native and editor-overridable
+    // even though Figma did not emit them into content-map.json.
+    ra_update_owned_native_option(
+        'emko_product_detail_description_125_3431',
+        'Cylindry hydrauliczne to elementy układów hydraulicznych, które zamieniają energię cieczy pod ciśnieniem na ruch liniowy i siłę mechaniczną. Wykorzystywane są m.in. w maszynach przemysłowych, budowlanych i rolniczych do podnoszenia, dociskania lub przesuwania ciężkich elementów. Składają się z tłoka, tłoczyska i korpusu, a ich parametry, takie jak siła i skok, dobiera się w zależności od zastosowania.'
+    );
+    ra_update_owned_native_option(
+        'emko_product_detail_features_125_3440',
+        'niski, kompaktowy profil korpusu, antyślizgowa końcówka tłoczyska tłoczysko cofane sprężyną - praca w dowolnej pozycji, szybkozłączka żeńska w standardzie. pierścień zbierający zanieczyszczenia z tłoczyska możliwość zastosowania nasadki wahliwej opcjonalna modyfikacja na życzenie: otwory montażowe w podstawie'
+    );
+}
+function ra_import_product_gallery_content(string $snapshot): void {
+    $assets = [
+        ['field' => 'emko_product_gallery_image_1_125_3214', 'node' => '125:3214', 'path' => 'assets/product-gallery/gallery-image-125-3214.png'],
+        ['field' => 'emko_product_gallery_image_2_125_3216', 'node' => '125:3216', 'path' => 'assets/product-gallery/gallery-image-125-3216.png'],
+    ];
+    foreach ($assets as $asset) {
+        $attachment_id = ra_import_attachment($snapshot, $asset['path'], $asset['field']);
+        if (!$attachment_id) { continue; }
+        update_post_meta($attachment_id, '_rudnikagro_source_node', $asset['node']);
+        update_post_meta($attachment_id, 'data-factory-source-node', $asset['node']);
+        update_post_meta($attachment_id, 'data-factory-section', 'product-gallery');
+        ra_update_owned_native_option($asset['field'], $attachment_id);
+    }
+}
+function ra_import_home_blog_records(array $by_name, string $snapshot, int $home_id): void {
+    $cards = [
+        1 => ['node' => '125:1633', 'image' => 'assets/home-blog/card-image-125-1633.png'],
+        2 => ['node' => '125:1638', 'image' => 'assets/home-blog/card-image-125-1638.png'],
+        3 => ['node' => '125:1643', 'image' => 'assets/home-blog/card-image-125-1643.png'],
+        4 => ['node' => '125:1648', 'image' => 'assets/home-blog/card-image-125-1648.png'],
+    ];
+    foreach (['heading' => 'emko_home_blog_heading_125_1652', 'intro' => 'emko_home_blog_intro_125_1653', 'all_label' => 'emko_home_blog_all_label_125_1655'] as $key => $field_name) {
+        $value = ra_string_source($by_name, $field_name);
+        if ($value !== '') { ra_update_owned_native_option($field_name, $value); }
+    }
+    $arrow_id = ra_import_attachment($snapshot, 'assets/home-blog/all-posts-arrow-125-1657.svg', 'emko_home_blog_all_arrow_125_1657');
+    update_post_meta($arrow_id, '_rudnikagro_source_node', '125:1657');
+    update_post_meta($arrow_id, 'data-factory-source-node', '125:1657');
+    update_post_meta($arrow_id, 'data-factory-section', 'home-blog');
+    ra_update_owned_native_option('emko_home_blog_all_arrow_125_1657', $arrow_id);
+
+    $post_ids = [];
+    foreach ($cards as $index => $card) {
+        $title = ra_string_source($by_name, 'emko_home_blog_card_' . $index . '_title_125_' . ($index === 1 ? '1634' : ($index === 2 ? '1639' : ($index === 3 ? '1644' : '1649'))));
+        $excerpt = ra_string_source($by_name, 'emko_home_blog_card_' . $index . '_excerpt_125_' . ($index === 1 ? '1635' : ($index === 2 ? '1640' : ($index === 3 ? '1645' : '1650'))));
+        $date = ra_string_source($by_name, 'emko_home_blog_card_' . $index . '_date_125_' . ($index === 1 ? '1636' : ($index === 2 ? '1641' : ($index === 3 ? '1646' : '1651'))));
+        if ($title === '' || $date === '') { continue; }
+        $identity = 'home-blog-card-' . $index;
+        $existing = get_posts(['post_type' => 'post', 'post_status' => 'any', 'meta_key' => '_rudnikagro_route_id', 'meta_value' => $identity, 'fields' => 'ids', 'numberposts' => 1]);
+        $post_id = $existing ? (int) $existing[0] : ra_owned_post([
+            'post_type' => 'post',
+            'post_status' => 'publish',
+            'post_title' => $title,
+            'post_excerpt' => $excerpt,
+            'post_name' => sanitize_title($title),
+        ], $identity);
+        $last_title = (string) get_post_meta($post_id, '_rudnikagro_last_imported_home_blog_title', true);
+        $current_title = (string) get_the_title($post_id);
+        if ($current_title === '' || ($last_title !== '' && $current_title === $last_title)) {
+            if ($current_title !== $title) { wp_update_post(['ID' => $post_id, 'post_title' => $title]); }
+            update_post_meta($post_id, '_rudnikagro_last_imported_home_blog_title', $title);
+        }
+        $last_excerpt = (string) get_post_meta($post_id, '_rudnikagro_last_imported_home_blog_excerpt', true);
+        $current_excerpt = (string) get_post_field('post_excerpt', $post_id);
+        if ($current_excerpt === '' || ($last_excerpt !== '' && $current_excerpt === $last_excerpt)) {
+            if ($current_excerpt !== $excerpt) { wp_update_post(['ID' => $post_id, 'post_excerpt' => $excerpt]); }
+            update_post_meta($post_id, '_rudnikagro_last_imported_home_blog_excerpt', $excerpt);
+        }
+        update_post_meta($post_id, '_rudnikagro_home_blog_source_order', $index);
+        update_post_meta($post_id, '_rudnikagro_home_blog_source_node', $card['node']);
+        update_post_meta($post_id, '_rudnikagro_source_section', 'home-blog');
+        $date_current = function_exists('get_field') ? (string) get_field('rudnikagro_blog_card_date', $post_id) : '';
+        $date_last = (string) get_post_meta($post_id, '_rudnikagro_last_imported_home_blog_date', true);
+        if ($date_current === '' || ($date_last !== '' && $date_current === $date_last)) {
+            if (function_exists('update_field')) { update_field('field_ra_blog_card_date', $date, $post_id); }
+            update_post_meta($post_id, '_rudnikagro_last_imported_home_blog_date', $date);
+        }
+        $image_id = ra_import_attachment($snapshot, $card['image'], 'emko_home_blog_card_' . $index . '_image_' . str_replace(':', '_', $card['node']));
+        update_post_meta($image_id, '_rudnikagro_source_node', $card['node']);
+        update_post_meta($image_id, 'data-factory-source-node', $card['node']);
+        update_post_meta($image_id, 'data-factory-section', 'home-blog');
+        $current_image = function_exists('get_field') ? (int) get_field('rudnikagro_blog_card_image', $post_id) : 0;
+        $last_image = (int) get_post_meta($post_id, '_rudnikagro_last_imported_home_blog_image', true);
+        if ($current_image === 0 || ($last_image !== 0 && $current_image === $last_image)) {
+            if (function_exists('update_field')) { update_field('field_ra_blog_card_image', $image_id, $post_id); }
+            update_post_meta($post_id, '_rudnikagro_last_imported_home_blog_image', $image_id);
+        }
+        $post_ids[] = $post_id;
+    }
+    if ($home_id && $post_ids && function_exists('get_field') && function_exists('update_field')) {
+        $home_blog = (array) get_field('rudnikagro_home_blog', $home_id);
+        if (empty($home_blog['posts'])) {
+            $home_blog['posts'] = $post_ids;
+            update_field('field_ra_home_blog', $home_blog, $home_id);
+        }
+    }
+}
+function ra_import_shared_header_assets(string $snapshot): void {
+    $assets = [
+        ['field_ra_header_logo', 'rudnikagro_shared_primary_navigation_media_118_6', 'assets/shared-header/logo-125-17.png', '125:17'],
+        ['field_ra_phone_icon', 'rudnikagro_shared_secondary_navigation_media_347_1077', 'assets/shared-header/telephone-icon-125-15.png', '125:15'],
+        ['rudnikagro_shared_header_mobile_icon_125_14', 'rudnikagro_shared_header_mobile_icon_125_14', 'assets/shared-header/mobile-icon-125-14.png', '125:14'],
+        ['field_ra_mail_icon', 'rudnikagro_shared_secondary_navigation_media_347_1078', 'assets/shared-header/email-icon-125-16.png', '125:16'],
+    ];
+    foreach ($assets as [$field_key, $field_name, $asset, $source_node]) {
+        $attachment_id = ra_import_attachment($snapshot, $asset, $field_name);
+        update_post_meta($attachment_id, '_rudnikagro_source_node', $source_node);
+        update_post_meta($attachment_id, 'data-factory-source-node', $source_node);
+        update_post_meta($attachment_id, 'data-factory-section', 'shared-header');
+        if ($field_key === $field_name) {
+            ra_update_owned_native_option($field_name, $attachment_id);
+        } else {
+            ra_update_owned_option($field_key, $field_name, $attachment_id);
+        }
+    }
+}
+function ra_import_shared_header_content(array $by_name): void {
+    $targets = [
+        'rudnikagro_shared_header_tagline_125_10' => 'rudnikagro_shared_header_tagline_125_10',
+        'rudnikagro_shared_header_phone_125_11' => 'rudnikagro_shared_secondary_navigation_156_92',
+        'rudnikagro_shared_header_mobile_125_12' => 'rudnikagro_shared_header_mobile_125_12',
+        'rudnikagro_shared_header_email_125_13' => 'rudnikagro_shared_secondary_navigation_93_31',
+        'rudnikagro_shared_header_primary_navigation_125_5' => 'rudnikagro_shared_primary_navigation_93_29',
+    ];
+    foreach ($targets as $source_name => $target_name) {
+        $record = ra_source_field($by_name, $source_name);
+        if (!is_array($record) || !array_key_exists('value', $record)) { continue; }
+        $value = $record['value'];
+        if (is_array($value)) { $value = implode("\n", array_map('strval', $value)); }
+        if (!is_string($value) || $value === '') { continue; }
+        $target = ra_scoped_content_target($source_name);
+        $field_key = $target['key'] !== '' ? $target['key'] : $target['field'];
+        ra_update_owned_option($field_key, $target['field'], ra_repair_source_encoding($value));
+    }
 }
 function ra_import_reference_crop_attachment(string $snapshot, string $source_relative, array $crop, string $field_name): int {
     global $summary;
@@ -178,6 +448,384 @@ function ra_source_price(string $value): ?float {
     $decimal = max((int) strrpos($normalized, ','), (int) strrpos($normalized, '.'));
     if ($decimal > 0) { $normalized = str_replace([',', '.'], '', substr($normalized, 0, $decimal)) . '.' . substr($normalized, $decimal + 1); }
     return is_numeric($normalized) ? (float) $normalized : null;
+}
+
+function ra_import_scoped_product_list_items(array $by_name, string $snapshot, array $source_keys): array {
+    global $summary;
+    $selected = [];
+    foreach ($by_name as $field) {
+        $key = implode(':', [(string) ($field['language'] ?? 'pl'), (string) ($field['nodeId'] ?? ''), (string) ($field['fieldName'] ?? '')]);
+        if (in_array($key, $source_keys, true)) { $selected[$key] = $field; }
+    }
+    if (count($selected) !== count($source_keys)) { throw new RuntimeException('Scoped product batch has a missing source key.'); }
+    if (!function_exists('wc_get_product')) { throw new RuntimeException('WooCommerce is required for native product import.'); }
+
+    $arrow_id = ra_import_attachment($snapshot, 'assets/product-list-items/details-arrow-125-2895.svg', 'rudnikagro_product_list_item_cta_arrow_125_2895');
+    if ($arrow_id) {
+        update_post_meta($arrow_id, '_rudnikagro_source_node', '125:2895');
+        update_post_meta($arrow_id, 'data-factory-source-node', '125:2895');
+        update_post_meta($arrow_id, 'data-factory-section', 'product-list-items');
+        ra_update_owned_native_option('rudnikagro_product_list_item_cta_arrow_125_2895', $arrow_id);
+    }
+
+    $result = [];
+    foreach ($source_keys as $source_key) {
+        $field = $selected[$source_key];
+        if (($field['section'] ?? '') !== 'product-list-items' || ($field['type'] ?? '') !== 'product') {
+            throw new RuntimeException('Unsupported scoped product section: ' . $source_key);
+        }
+        $source_node = (string) ($field['nodeId'] ?? '');
+        $source = (array) ($field['value'] ?? []);
+        $title = trim(ra_repair_source_encoding((string) ($source['title'] ?? '')));
+        $description = trim(ra_repair_source_encoding((string) ($source['description'] ?? '')));
+        $specifications = array_values(array_filter(array_map(static fn($value): string => trim(ra_repair_source_encoding((string) $value)), (array) ($source['specifications'] ?? []))));
+        $cta = (array) ($source['cta'] ?? []);
+        $cta_label = trim(ra_repair_source_encoding((string) ($cta['label'] ?? '')));
+        $cta_source_node = (string) ($cta['sourceNodeId'] ?? '');
+        $asset = (string) (($source['media']['path'] ?? ''));
+        $media_source_node = (string) (($source['media']['sourceNodeId'] ?? ''));
+        if ($source_node === '' || $title === '' || $asset === '' || $media_source_node === '') {
+            throw new RuntimeException('Scoped product source record is incomplete: ' . $source_key);
+        }
+
+        $existing = get_posts(['post_type' => 'product', 'post_status' => 'any', 'meta_key' => '_rudnikagro_source_key', 'meta_value' => $source_key, 'fields' => 'ids', 'numberposts' => 1]);
+        if (!$existing) { $existing = get_posts(['post_type' => 'product', 'post_status' => 'any', 'meta_key' => '_rudnikagro_source_node', 'meta_value' => $source_node, 'fields' => 'ids', 'numberposts' => 1]); }
+        $product_id = $existing ? (int) $existing[0] : wp_insert_post(['post_type' => 'product', 'post_status' => 'publish', 'post_title' => $title, 'post_name' => sanitize_title($title)], true);
+        if (!$product_id || is_wp_error($product_id)) { throw new RuntimeException('Cannot create scoped product: ' . $source_key); }
+        update_post_meta($product_id, '_rudnikagro_source_node', $source_node);
+        update_post_meta($product_id, '_rudnikagro_source_key', $source_key);
+        update_post_meta($product_id, '_rudnikagro_source_section', 'product-list-items');
+        update_post_meta($product_id, '_rudnikagro_owned', '1');
+        update_post_meta($product_id, '_rudnikagro_route_id', 'product-list-items');
+
+        $last_title = (string) get_post_meta($product_id, '_rudnikagro_last_imported_title', true);
+        if ($last_title === '' || get_the_title($product_id) === $last_title) {
+            wp_update_post(['ID' => $product_id, 'post_title' => $title]);
+            update_post_meta($product_id, '_rudnikagro_last_imported_title', $title);
+        }
+        if ($description !== '' && ra_owned_meta_can_update($product_id, '_excerpt', $description)) {
+            wp_update_post(['ID' => $product_id, 'post_excerpt' => $description]);
+            update_post_meta($product_id, '_rudnikagro_last_imported_excerpt', $description);
+        }
+
+        if (function_exists('get_field') && function_exists('update_field')) {
+            $content = (array) get_field('rudnikagro_product_content', $product_id);
+            $last_content = json_decode((string) get_post_meta($product_id, '_rudnikagro_last_imported_product_list_content', true), true);
+            $changed = false;
+            $description_html = $description === '' ? '' : wpautop(esc_html($description));
+            if ($description_html !== '' && (($content['description'] ?? '') === '' || (($last_content['description'] ?? null) !== null && ($content['description'] ?? '') === ($last_content['description'] ?? null)))) {
+                $content['description'] = $description_html;
+                $changed = true;
+            }
+            $technical = [];
+            foreach ($specifications as $specification) {
+                [$label, $value] = array_pad(explode(':', $specification, 2), 2, '');
+                $technical[] = ['label' => trim($label), 'value' => trim($value) !== '' ? trim($value) : trim($label)];
+            }
+            if ($changed) {
+                update_field('field_ra_product_content', $content, $product_id);
+                update_post_meta($product_id, '_rudnikagro_last_imported_product_list_content', wp_json_encode(['description' => $content['description'] ?? ''], JSON_UNESCAPED_UNICODE));
+            }
+            if ($technical) {
+                $current_technical = (array) get_field('rudnikagro_product_technical_data', $product_id);
+                $last_technical = json_decode((string) get_post_meta($product_id, '_rudnikagro_last_imported_product_list_technical', true), true);
+                if (!$current_technical || ($last_technical !== null && $current_technical === $last_technical)) {
+                    update_field('field_ra_product_technical', $technical, $product_id);
+                    update_post_meta($product_id, '_rudnikagro_last_imported_product_list_technical', wp_json_encode($technical, JSON_UNESCAPED_UNICODE));
+                }
+            }
+        }
+        if ($cta_label !== '' && ra_owned_meta_can_update($product_id, '_rudnikagro_source_cta_label', $cta_label)) {
+            update_post_meta($product_id, '_rudnikagro_source_cta_label', $cta_label);
+            update_post_meta($product_id, '_rudnikagro_last_imported_source_cta_label', $cta_label);
+        }
+        if ($cta_source_node !== '') { update_post_meta($product_id, '_rudnikagro_source_cta_node', $cta_source_node); }
+
+        $image_field = 'rudnikagro_product_list_item_media_' . str_replace(':', '_', $source_node);
+        $image_id = ra_import_attachment($snapshot, $asset, $image_field);
+        update_post_meta($image_id, '_rudnikagro_source_node', $media_source_node);
+        update_post_meta($image_id, 'data-factory-source-node', $media_source_node);
+        update_post_meta($image_id, 'data-factory-section', 'product-list-items');
+        $current_image = (int) get_post_thumbnail_id($product_id);
+        $last_image = (int) get_post_meta($product_id, '_rudnikagro_last_imported_thumbnail_id', true);
+        if (!$current_image || ($last_image && $current_image === $last_image)) {
+            set_post_thumbnail($product_id, $image_id);
+            update_post_meta($product_id, '_rudnikagro_last_imported_thumbnail_id', $image_id);
+        }
+        $summary['products'] = ($summary['products'] ?? 0) + 1;
+        $result[] = ['key' => $source_key, 'id' => $product_id, 'sourceNode' => $source_node, 'mediaSourceNode' => $media_source_node, 'price' => null];
+    }
+    return $result;
+}
+
+function ra_import_scoped_product_list_demo_clones(array $plans): array {
+    global $summary;
+    if (!$plans || !function_exists('wc_get_product')) { return []; }
+    $result = [];
+    foreach ($plans as $index => $plan) {
+        $import_key = trim((string) ($plan['importKey'] ?? ''));
+        $clone_of = trim((string) ($plan['cloneOf'] ?? ''));
+        $source_id = trim((string) ($plan['sourceId'] ?? ''));
+        if ($import_key === '' || empty($plan['demo']) || ($plan['owner'] ?? '') !== 'product-list-items' || $clone_of === '' || $source_id === '') {
+            throw new RuntimeException('Invalid policy-planned product demo clone.');
+        }
+        $source_ids = get_posts([
+            'post_type' => 'product',
+            'post_status' => 'any',
+            'meta_key' => '_rudnikagro_source_node',
+            'meta_value' => $clone_of,
+            'fields' => 'ids',
+            'numberposts' => 1,
+            'orderby' => 'ID',
+            'order' => 'ASC',
+        ]);
+        if (!$source_ids) { throw new RuntimeException('Product demo clone source is unavailable: ' . $clone_of); }
+        $source_product_id = (int) $source_ids[0];
+        $existing = get_posts([
+            'post_type' => 'product',
+            'post_status' => 'any',
+            'meta_key' => '_rudnikagro_demo_import_key',
+            'meta_value' => $import_key,
+            'fields' => 'ids',
+            'numberposts' => 1,
+        ]);
+        $clone_id = $existing ? (int) $existing[0] : (int) wp_insert_post([
+            'post_type' => 'product',
+            'post_status' => 'publish',
+            'post_title' => get_the_title($source_product_id),
+            'post_name' => sanitize_title(get_the_title($source_product_id) . '-' . ($index + 1)),
+            'menu_order' => 4 + (int) $index,
+        ], true);
+        if (!$clone_id || is_wp_error($clone_id)) { throw new RuntimeException('Cannot create product demo clone: ' . $import_key); }
+        if (!$existing) {
+            wp_update_post([
+                'ID' => $clone_id,
+                'post_excerpt' => get_post_field('post_excerpt', $source_product_id),
+                'menu_order' => 4 + (int) $index,
+            ]);
+            if (function_exists('get_field') && function_exists('update_field')) {
+                $content = get_field('rudnikagro_product_content', $source_product_id);
+                $technical = get_field('rudnikagro_product_technical_data', $source_product_id);
+                if ($content !== null) { update_field('field_ra_product_content', $content, $clone_id); }
+                if ($technical !== null) { update_field('field_ra_product_technical', $technical, $clone_id); }
+            }
+            $thumbnail_id = (int) get_post_thumbnail_id($source_product_id);
+            if ($thumbnail_id) { set_post_thumbnail($clone_id, $thumbnail_id); }
+            $summary['products'] = ($summary['products'] ?? 0) + 1;
+        }
+        foreach (['_rudnikagro_source_cta_label', '_rudnikagro_source_cta_node'] as $meta_key) {
+            update_post_meta($clone_id, $meta_key, (string) get_post_meta($source_product_id, $meta_key, true));
+        }
+        update_post_meta($clone_id, '_rudnikagro_source_node', $clone_of);
+        update_post_meta($clone_id, '_rudnikagro_source_section', 'product-list-items');
+        update_post_meta($clone_id, '_rudnikagro_route_id', 'product-list-items');
+        update_post_meta($clone_id, '_rudnikagro_owned', '1');
+        update_post_meta($clone_id, '_rudnikagro_demo_import_key', $import_key);
+        update_post_meta($clone_id, '_rudnikagro_demo_clone_of', $clone_of);
+        update_post_meta($clone_id, '_rudnikagro_demo_source_node', $source_id);
+        update_post_meta($clone_id, '_rudnikagro_demo_owner', 'product-list-items');
+        update_post_meta($clone_id, '_rudnikagro_demo_clone', '1');
+        $result[] = ['importKey' => $import_key, 'id' => $clone_id, 'cloneOf' => $clone_of, 'sourceId' => $source_id];
+    }
+    return $result;
+}
+
+function ra_import_scoped_products(array $by_name, string $snapshot, array $source_keys, array $demo_plans = []): array {
+    $groups = [];
+    foreach ($by_name as $field) {
+        $key = implode(':', [(string) ($field['language'] ?? 'pl'), (string) ($field['nodeId'] ?? ''), (string) ($field['fieldName'] ?? '')]);
+        if (in_array($key, $source_keys, true)) { $groups[(string) ($field['section'] ?? '')][] = $key; }
+    }
+    if (count(array_unique(array_merge(...array_values($groups ?: [[]])))) !== count($source_keys)) {
+        throw new RuntimeException('Scoped product batch has a missing source key.');
+    }
+    $result = [];
+    foreach ($groups as $section => $keys) {
+        if ($section === 'product-list-items') {
+            $result = array_merge($result, ra_import_scoped_product_list_items($by_name, $snapshot, $keys));
+            if ($demo_plans) {
+                $GLOBALS['rudnikagro_product_demo_clone_result'] = ra_import_scoped_product_list_demo_clones($demo_plans);
+            }
+            continue;
+        }
+        if ($section === 'archive-product-grid') { $result = array_merge($result, ra_import_scoped_archive_products($by_name, $snapshot, $keys)); continue; }
+        throw new RuntimeException('Unsupported scoped product section: ' . $section);
+    }
+    return $result;
+}
+
+/**
+ * Bind an explicit product batch to the native product listing relation.
+ * Product records must already exist; this path never falls back to import.
+ */
+function ra_bind_scoped_product_listing(array $by_name, array $source_keys): array {
+    $selected = [];
+    foreach ($by_name as $field) {
+        $key = implode(':', [(string) ($field['language'] ?? 'pl'), (string) ($field['nodeId'] ?? ''), (string) ($field['fieldName'] ?? '')]);
+        if (in_array($key, $source_keys, true)) { $selected[$key] = $field; }
+    }
+    if (count($selected) !== count($source_keys)) { throw new RuntimeException('Scoped listing batch has a missing source key.'); }
+
+    $product_ids = get_posts([
+        'post_type' => 'product', 'post_status' => 'any', 'meta_key' => '_rudnikagro_source_key',
+        'meta_compare' => 'EXISTS', 'fields' => 'ids', 'numberposts' => -1, 'orderby' => 'ID', 'order' => 'ASC',
+    ]);
+    $by_key = [];
+    foreach ($product_ids as $product_id) {
+        $key = (string) get_post_meta((int) $product_id, '_rudnikagro_source_key', true);
+        if ($key !== '') { $by_key[$key] = (int) $product_id; }
+    }
+
+    $assigned_ids = [];
+    foreach ($source_keys as $source_key) {
+        $field = $selected[$source_key];
+        if (($field['section'] ?? '') !== 'product-list-items' || ($field['type'] ?? '') !== 'product') {
+            throw new RuntimeException('Unsupported scoped listing record: ' . $source_key);
+        }
+        if (empty($by_key[$source_key])) { throw new RuntimeException('Scoped listing product is not imported: ' . $source_key); }
+        $assigned_ids[$source_key] = (int) $by_key[$source_key];
+    }
+
+    $siblings = get_posts([
+        'post_type' => 'product', 'post_status' => 'any', 'meta_key' => '_rudnikagro_route_id',
+        'meta_value' => 'product-list-items', 'fields' => 'ids', 'numberposts' => -1,
+        'orderby' => 'menu_order', 'order' => 'ASC',
+    ]);
+    $assigned_lookup = array_fill_keys(array_values($assigned_ids), true);
+    $other_ids = array_values(array_filter(array_map('intval', $siblings), static fn(int $id): bool => !isset($assigned_lookup[$id])));
+    $other_orders = array_map(static fn(int $id): int => (int) get_post_field('menu_order', $id), $other_ids);
+    $next_order = $other_orders ? max(count($other_ids), max($other_orders) + 1) : 0;
+    $reserved_orders = array_fill_keys($other_orders, true);
+    $result = [];
+    foreach ($source_keys as $source_key) {
+        $product_id = $assigned_ids[$source_key];
+        update_post_meta($product_id, '_rudnikagro_route_id', 'product-list-items');
+        $current_order = (int) get_post_field('menu_order', $product_id);
+        $last_order = get_post_meta($product_id, '_rudnikagro_last_imported_listing_order', true);
+        $preserved_override = ($last_order !== '' && (string) $current_order !== (string) $last_order)
+            || ($last_order === '' && $current_order !== 0);
+        $can_set_order = !$preserved_override;
+        if ($can_set_order) {
+            while (isset($reserved_orders[$next_order])) { $next_order++; }
+            $current_order = $next_order++;
+            wp_update_post(['ID' => $product_id, 'menu_order' => $current_order]);
+            update_post_meta($product_id, '_rudnikagro_last_imported_listing_order', $current_order);
+            $reserved_orders[$current_order] = true;
+        }
+        $result[] = [
+            'key' => $source_key,
+            'id' => $product_id,
+            'route' => 'product-list-items',
+            'menuOrder' => $current_order,
+            'preservedOverride' => $preserved_override,
+        ];
+    }
+    return $result;
+}
+
+if ($scoped_product_keys !== null) {
+    $scoped_import = ra_import_scoped_products($by_name, $snapshot, $scoped_product_keys, $product_demo_clones);
+    echo wp_json_encode([
+        'rudnikagro_scoped_import' => $scoped_import,
+        'productDemoClones' => $GLOBALS['rudnikagro_product_demo_clone_result'] ?? [],
+    ], JSON_UNESCAPED_UNICODE) . PHP_EOL;
+    exit;
+}
+if ($scoped_listing_keys !== null) {
+    $scoped_listing = ra_bind_scoped_product_listing($by_name, $scoped_listing_keys);
+    echo wp_json_encode(['rudnikagro_scoped_listing_bind' => $scoped_listing], JSON_UNESCAPED_UNICODE) . PHP_EOL;
+    exit;
+}
+$should_import_shared_header = $scoped_content_keys === null;
+if (is_array($scoped_content_keys)) {
+    foreach ($scoped_content_keys as $key) {
+        if (str_contains((string) $key, ':rudnikagro_shared_header_')) {
+            $should_import_shared_header = true;
+            break;
+        }
+    }
+}
+if ($should_import_shared_header) {
+    ra_import_shared_header_content($by_name);
+    ra_import_shared_header_assets($snapshot);
+}
+if ($scoped_content_keys !== null) { ra_import_scoped_content($by_name, $scoped_content_keys, $snapshot); exit; }
+
+/**
+ * Import the five native products shown by the current product-related source.
+ * The section has no price/category/variation facts, so only source-backed
+ * title, short description and media are imported.
+ */
+function ra_import_product_related_cards(array $fields, string $snapshot): array {
+    global $summary;
+    if (!function_exists('wc_get_product')) { return []; }
+    $cards = [
+        ['titleNode' => '125:3287', 'descriptionNode' => '125:3293', 'imageNode' => '125:3274'],
+        ['titleNode' => '125:3285', 'descriptionNode' => '125:3291', 'imageNode' => '125:3276'],
+        ['titleNode' => '125:3286', 'descriptionNode' => '125:3292', 'imageNode' => '125:3273'],
+        ['titleNode' => '125:3288', 'descriptionNode' => '125:3294', 'imageNode' => '125:3289'],
+        ['titleNode' => '125:3290', 'descriptionNode' => '125:3295', 'imageNode' => '125:3275'],
+    ];
+    $by_node = [];
+    foreach ($fields as $field) {
+        $node = (string) ($field['nodeId'] ?? '');
+        if ($node !== '') { $by_node[$node] = $field; }
+    }
+    $related_ids = [];
+    foreach ($cards as $index => $card) {
+        $title = trim(ra_repair_source_encoding((string) ($by_node[$card['titleNode']]['value'] ?? '')));
+        $description = ra_repair_source_encoding((string) ($by_node[$card['descriptionNode']]['value'] ?? ''));
+        $media = (array) (($by_node[$card['imageNode']]['value']['media'] ?? []));
+        $asset = (string) ($media['path'] ?? '');
+        $media_source_node = (string) ($media['sourceNodeId'] ?? '');
+        if ($title === '' || $asset === '' || $media_source_node === '') { continue; }
+
+        $existing = get_posts(['post_type' => 'product', 'post_status' => 'any', 'meta_key' => '_rudnikagro_source_node', 'meta_value' => $card['titleNode'], 'fields' => 'ids', 'numberposts' => 1]);
+        $product_id = $existing ? (int) $existing[0] : wp_insert_post(['post_type' => 'product', 'post_status' => 'publish', 'post_title' => $title, 'post_name' => sanitize_title($title . '-' . ($index + 1))], true);
+        if (!$product_id || is_wp_error($product_id)) { continue; }
+        update_post_meta($product_id, '_rudnikagro_source_node', $card['titleNode']);
+        update_post_meta($product_id, '_rudnikagro_source_section', 'product-related');
+        update_post_meta($product_id, '_rudnikagro_owned', '1');
+        update_post_meta($product_id, '_rudnikagro_route_id', 'product-related');
+
+        $last_title = (string) get_post_meta($product_id, '_rudnikagro_last_imported_title', true);
+        if ($last_title === '' || get_the_title($product_id) === $last_title) {
+            wp_update_post(['ID' => $product_id, 'post_title' => $title]);
+            update_post_meta($product_id, '_rudnikagro_last_imported_title', $title);
+        }
+        $last_description = (string) get_post_meta($product_id, '_rudnikagro_last_imported_excerpt', true);
+        $current_description = (string) get_post_field('post_excerpt', $product_id);
+        if ($description !== '' && ($current_description === '' || ($last_description !== '' && $current_description === $last_description))) {
+            wp_update_post(['ID' => $product_id, 'post_excerpt' => $description]);
+            update_post_meta($product_id, '_rudnikagro_last_imported_excerpt', $description);
+        }
+
+        $image_field = 'emko_product_related_image_' . str_replace(':', '_', $media_source_node);
+        $image_id = ra_import_attachment($snapshot, $asset, $image_field);
+        update_post_meta($image_id, '_rudnikagro_source_node', $media_source_node);
+        update_post_meta($image_id, 'data-factory-source-node', $media_source_node);
+        $current_image = (int) get_post_thumbnail_id($product_id);
+        $last_image = (int) get_post_meta($product_id, '_rudnikagro_last_imported_thumbnail_id', true);
+        if (!$current_image || ($last_image && $current_image === $last_image)) {
+            set_post_thumbnail($product_id, $image_id);
+            update_post_meta($product_id, '_rudnikagro_last_imported_thumbnail_id', $image_id);
+        }
+        $related_ids[] = $product_id;
+        $summary['products'] = ($summary['products'] ?? 0) + 1;
+    }
+
+    if ($related_ids) {
+        $targets = get_posts(['post_type' => 'product', 'post_status' => 'any', 'meta_key' => '_rudnikagro_route_id', 'meta_value' => 'product', 'fields' => 'ids', 'numberposts' => 1]);
+        foreach ($targets as $target_id) {
+            $current_related = get_post_meta($target_id, '_upsell_ids', true);
+            $last_related = get_post_meta($target_id, '_rudnikagro_last_imported_related_ids', true);
+            if ($current_related === '' || $current_related === $last_related) {
+                update_post_meta($target_id, '_upsell_ids', $related_ids);
+                update_post_meta($target_id, '_rudnikagro_last_imported_related_ids', $related_ids);
+            }
+        }
+    }
+    return $related_ids;
 }
 function ra_import_cart_options(array $by_name): void {
     $fields = [
@@ -253,8 +901,6 @@ function ra_import_account_options(array $by_name): void {
         $value = ra_source_field($by_name, $source)['value'] ?? '';
         if (is_string($value) && $value !== '') { ra_update_owned_option($key, $name, ra_repair_source_encoding($value)); }
     }
-    $breadcrumb = ra_source_field($by_name, 'rudnikagro_account_breadcrumb')['value'] ?? null;
-    if (is_array($breadcrumb)) { ra_update_owned_option('field_ra_account_breadcrumb', 'rudnikagro_account_breadcrumb', $breadcrumb); }
 }
 function ra_import_checkout_options(array $by_name, string $snapshot): void {
     foreach ($by_name as $name => $field) {
@@ -426,17 +1072,6 @@ function ra_import_scoped_archive_products(array $by_name, string $snapshot, arr
     return $result;
 }
 
-$scoped_product_keys_raw = getenv('FACTORY_RUDNIKAGRO_PRODUCT_KEYS');
-if ($scoped_product_keys_raw !== false && trim($scoped_product_keys_raw) !== '') {
-    $scoped_product_keys = json_decode($scoped_product_keys_raw, true);
-    if (!is_array($scoped_product_keys) || !$scoped_product_keys || count($scoped_product_keys) !== count(array_unique(array_map('strval', $scoped_product_keys)))) {
-        throw new RuntimeException('FACTORY_RUDNIKAGRO_PRODUCT_KEYS must be a non-empty unique JSON array.');
-    }
-    $scoped_product_keys = array_values(array_map('strval', $scoped_product_keys));
-    echo wp_json_encode(['rudnikagro_scoped_import' => ra_import_scoped_archive_products($by_name, $snapshot, $scoped_product_keys)], JSON_UNESCAPED_UNICODE) . PHP_EOL;
-    exit;
-}
-
 foreach ($by_name as $name => $field) {
     $is_shared = str_starts_with($name, 'rudnikagro_shared_') || $name === 'rudnikagro_topbar_promotion';
     if (!$is_shared || ra_is_populated_option($name)) { continue; }
@@ -577,6 +1212,9 @@ if (!empty($page_ids['home']) && get_post_meta((int) $page_ids['home'], '_rudnik
     }
 }
 
+$home_record_id = !empty($page_ids['home']) ? (int) $page_ids['home'] : (int) get_option('page_on_front', 0);
+ra_import_home_blog_records($by_name, $snapshot, $home_record_id);
+
 // Home merchandising cards are source-ordered native WooCommerce products. The
 // cards may share one product (the package appears four times in the source),
 // but never fall back to a generic catalogue query.
@@ -676,21 +1314,1064 @@ function ra_repair_source_encoding(string $value): string {
     return $value;
 }
 function ra_string_source(array $by_name, string $name): string { return ra_repair_source_encoding(ra_raw_string_source($by_name, $name)); }
+function ra_scoped_content_target(string $source_name): array {
+    if (preg_match('/^emko_product_list_filters_(heading|strength_label|strength_unit|strength_min|strength_max|extension_label|extension_unit|extension_min|extension_max|button)_\d+_\d+$/', $source_name)) {
+        return [
+            'field' => $source_name,
+            'key' => '',
+            'storage' => 'option',
+            'identity' => 'product-list-filters',
+        ];
+    }
+    if (preg_match('/^emko_product_list_menu_(category_(?:[1-9]|arrow)|heading)_\d+_\d+$/', $source_name)) {
+        $suffix = preg_replace('/^emko_product_list_menu_/', '', $source_name);
+        $suffix = preg_replace('/_\d+_\d+$/', '', (string) $suffix);
+        return [
+            'field' => $source_name,
+            'key' => 'field_ra_product_list_menu_' . $suffix,
+            'storage' => 'acf',
+            'identity' => 'product-list-menu',
+        ];
+    }
+    if (preg_match('/^emko_product_(detail_(title|image|description|features|contact_label|download_label|download_icon|benefits_heading)|gallery_image_[12]|specification_(tabs|table_header|row_[1-8])|contact_cta_(background|arrow|heading|button_label))_\d+_\d+$/', $source_name, $matches)) {
+        $prefix = (string) $matches[1];
+        return [
+            'field' => $source_name,
+            'key' => '',
+            'storage' => 'option',
+            'identity' => str_starts_with($prefix, 'detail_') ? 'product-detail' : (str_starts_with($prefix, 'gallery_') ? 'product-gallery' : (str_starts_with($prefix, 'specification_') ? 'product-specification' : 'product-contact-cta')),
+        ];
+    }
+    if (preg_match('/^emko_product_related_(heading|all_label|all_icon)_\d+_\d+$/', $source_name)) {
+        $suffix = preg_replace('/^emko_product_related_/', '', $source_name);
+        $suffix = preg_replace('/_\d+_\d+$/', '', (string) $suffix);
+        return [
+            'field' => $source_name,
+            'key' => 'field_ra_product_related_' . $suffix,
+            'storage' => 'acf',
+            'identity' => 'product-related',
+        ];
+    }
+    if (preg_match('/^emko_product_related_card_arrow_\d+_\d+$/', $source_name)) {
+        return [
+            'field' => $source_name,
+            'key' => 'field_ra_product_related_card_arrow',
+            'storage' => 'acf',
+            'identity' => 'product-related-arrow-icon',
+        ];
+    }
+    if (preg_match('/^emko_product_related_card_(\d+)_(image|title|description)_\d+_\d+$/', $source_name, $matches)) {
+        $card = (int) $matches[1];
+        $field = (string) $matches[2];
+        return [
+            'field' => $field === 'title' ? 'post_title' : ($field === 'description' ? 'post_excerpt' : 'post_thumbnail'),
+            'key' => '',
+            'storage' => $field === 'image' ? 'product-media' : 'product',
+            'identity' => 'product-related-card-' . $card,
+            'card' => $card,
+        ];
+    }
+    if (preg_match('/^emko_about_hero_(background|pattern_a|pattern_b|body|image|title|button_label)_\d+_\d+$/', $source_name)) {
+        return [
+            'field' => $source_name,
+            'key' => '',
+            'storage' => 'option',
+            'identity' => 'source-key',
+        ];
+    }
+    if (preg_match('/^emko_about_values_(image|pattern_a|pattern_b|pattern_mask)_\d+_\d+$/', $source_name)) {
+        return [
+            'field' => $source_name,
+            'key' => '',
+            'storage' => 'option',
+            'identity' => $source_name,
+        ];
+    }
+    if (preg_match('/^emko_about_media_band_(intro_heading|body|heading|button_label)_\d+_\d+$/', $source_name)) {
+        return [
+            'field' => $source_name,
+            'key' => '',
+            'storage' => 'option',
+            'identity' => $source_name,
+        ];
+    }
+    if (preg_match('/^emko_service_media_band_(image|mask)_\d+_\d+$/', $source_name)) {
+        return [
+            'field' => $source_name,
+            'key' => '',
+            'storage' => 'option',
+            'identity' => $source_name,
+        ];
+    }
+    if (preg_match('/^emko_blog_post_article_body_\d+_\d+$/', $source_name)) {
+        return [
+            'field' => $source_name,
+            'key' => '',
+            'storage' => 'option',
+            'identity' => 'blog-post-article',
+        ];
+    }
+    if (preg_match('/^emko_blog_post_related_(heading|all_label|all_arrow)_\d+_\d+$/', $source_name)) {
+        return [
+            'field' => $source_name,
+            'key' => '',
+            'storage' => 'option',
+            'identity' => 'blog-post-related',
+        ];
+    }
+    if (preg_match('/^emko_blog_post_related_card_(\d+)_(image|title|excerpt|date)_\d+_\d+$/', $source_name, $matches)) {
+        $field = (string) $matches[2];
+        return [
+            'field' => $field === 'title' ? 'post_title' : ($field === 'excerpt' ? 'post_excerpt' : ($field === 'date' ? 'rudnikagro_blog_card_date' : 'rudnikagro_blog_card_image')),
+            'key' => $field === 'date' ? 'field_ra_blog_card_date' : ($field === 'image' ? 'field_ra_blog_card_image' : ''),
+            'storage' => in_array($field, ['image', 'date'], true) ? 'post-acf' : 'post',
+            'identity' => 'blog-post-related-card-' . (string) $matches[1],
+        ];
+    }
+    if (preg_match('/^emko_catalogues_secondary_card_(\d+)_(title|download_label)_\d+_\d+$/', $source_name, $matches)) {
+        $card = (int) $matches[1];
+        $subfield = $matches[2] === 'download_label' ? 'download_label' : 'title';
+        return [
+            'field' => 'rudnikagro_catalogues_secondary_card_' . $card . '_' . $subfield,
+            'key' => '',
+            'storage' => 'option',
+        ];
+    }
+    if (preg_match('/^emko_catalogues_primary_card_(\d+)_(title|download_label)_\d+_\d+$/', $source_name, $matches)) {
+        $card = (int) $matches[1];
+        $subfield = $matches[2] === 'download_label' ? 'pdf_label' : 'title';
+        return [
+            'field' => 'rudnikagro_catalogues[' . ($card - 1) . '].' . $subfield,
+            'key' => 'field_ra_catalogues_cards',
+            'storage' => 'post-acf',
+            'identity' => 'catalogues-primary-card-' . $card,
+            'page_route' => 'catalogues',
+            'row' => $card - 1,
+            'subfield' => $subfield,
+        ];
+    }
+    if (preg_match('/^rudnikagro_blog_archive_card_(\d+)_(title|excerpt|meta)_\d+_\d+$/', $source_name, $matches)) {
+        $field = (string) $matches[2];
+        return [
+            'field' => $field === 'title' ? 'post_title' : ($field === 'excerpt' ? 'post_excerpt' : 'rudnikagro_blog_card_date'),
+            'key' => $field === 'meta' ? 'field_ra_blog_card_date' : '',
+            'storage' => $field === 'meta' ? 'post-acf' : 'post',
+            'identity' => 'blog-archive-card-' . (string) $matches[1],
+        ];
+    }
+    if (str_starts_with($source_name, 'rudnikagro_shared_footer_')) {
+        return ['field' => $source_name, 'key' => '', 'storage' => 'option'];
+    }
+    if (str_starts_with($source_name, 'emko_home_benefits_')) {
+        return ['field' => $source_name, 'key' => '', 'storage' => 'option'];
+    }
+    if (str_starts_with($source_name, 'emko_home_popular_products_')) {
+        $field_object = function_exists('get_field_object') ? get_field_object($source_name, 'option', false, false) : null;
+        $key = is_array($field_object) ? (string) ($field_object['key'] ?? '') : '';
+        return ['field' => $source_name, 'key' => $key, 'storage' => $key !== '' ? 'acf' : 'option'];
+    }
+    if (preg_match('/^emko_home_product_categories_item_[0-9]+_label_\d+_\d+$/', $source_name)) {
+        return ['field' => $source_name, 'key' => '', 'storage' => 'option', 'identity' => ''];
+    }
+    $targets = [
+        'rudnikagro_shared_header_tagline_125_10' => ['field' => 'rudnikagro_shared_header_tagline_125_10', 'key' => '', 'storage' => 'option'],
+        'rudnikagro_shared_header_phone_125_11' => ['field' => 'rudnikagro_shared_secondary_navigation_156_92', 'key' => 'field_ra_phone', 'storage' => 'acf'],
+        'rudnikagro_shared_header_mobile_125_12' => ['field' => 'rudnikagro_shared_header_mobile_125_12', 'key' => '', 'storage' => 'option'],
+        'rudnikagro_shared_header_email_125_13' => ['field' => 'rudnikagro_shared_secondary_navigation_93_31', 'key' => 'field_ra_email', 'storage' => 'acf'],
+        'rudnikagro_shared_header_primary_navigation_125_5' => ['field' => 'rudnikagro_shared_primary_navigation_93_29', 'key' => 'field_ra_primary_source', 'storage' => 'acf'],
+    ];
+    return $targets[$source_name] ?? ['field' => $source_name, 'key' => '', 'storage' => 'option'];
+}
+function ra_scoped_catalogues_page_id(): int {
+    $existing = get_posts(['post_type' => 'page', 'post_status' => 'any', 'meta_key' => '_rudnikagro_route_id', 'meta_value' => 'catalogues', 'fields' => 'ids', 'numberposts' => 1]);
+    if ($existing) { return (int) $existing[0]; }
+    $page = get_page_by_path('katalogi', OBJECT, 'page');
+    if ($page) {
+        update_post_meta($page->ID, '_rudnikagro_route_id', 'catalogues');
+        update_post_meta($page->ID, '_rudnikagro_owned', '1');
+        return (int) $page->ID;
+    }
+    $page_id = wp_insert_post(['post_type' => 'page', 'post_status' => 'publish', 'post_title' => 'Katalogi', 'post_name' => 'katalogi'], true);
+    if (is_wp_error($page_id) || !$page_id) { throw new RuntimeException('Cannot create the native catalogues page.'); }
+    update_post_meta($page_id, '_rudnikagro_route_id', 'catalogues');
+    update_post_meta($page_id, '_rudnikagro_owned', '1');
+    return (int) $page_id;
+}
+function ra_scoped_content_value($value): string {
+    if (is_array($value)) { $value = implode("\n", array_map('strval', $value)); }
+    return ra_repair_source_encoding(is_scalar($value) ? (string) $value : '');
+}
+function ra_scoped_media_source(array $record): array {
+    $media = is_array($record['value'] ?? null) && is_array($record['value']['media'] ?? null) ? $record['value']['media'] : [];
+    $path = (string) ($media['path'] ?? '');
+    $source_node = (string) ($media['sourceNodeId'] ?? '');
+    if ($path === '' || $source_node === '') { throw new RuntimeException('Scoped image content is incomplete.'); }
+    return ['path' => $path, 'sourceNode' => $source_node];
+}
+function ra_scoped_source_record(array $by_name, string $source_key): ?array {
+    foreach ($by_name as $record) {
+        $record_key = implode(':', [(string) ($record['language'] ?? 'pl'), (string) ($record['nodeId'] ?? ''), (string) ($record['fieldName'] ?? '')]);
+        if ($record_key === $source_key) { return $record; }
+    }
+    return null;
+}
+function ra_scoped_option_value(array $target) {
+    $value = function_exists('get_field') ? get_field($target['field'], 'option') : null;
+    if ($value === null && $target['storage'] === 'option') { $value = get_option('options_' . $target['field'], null); }
+    if ($value === null && $target['storage'] === 'option') { $value = get_option($target['field'], null); }
+    return $value;
+}
+function ra_update_scoped_content_media_option(array $record, array $target, string $snapshot): array {
+    global $summary;
+    $source_name = (string) ($record['fieldName'] ?? '');
+    $source_key = implode(':', [(string) ($record['language'] ?? 'pl'), (string) ($record['nodeId'] ?? ''), $source_name]);
+    $media = ra_scoped_media_source($record);
+    $attachment_id = ra_import_attachment($snapshot, $media['path'], $source_name);
+    update_post_meta($attachment_id, '_rudnikagro_source_node', $media['sourceNode']);
+    update_post_meta($attachment_id, 'data-factory-source-node', $media['sourceNode']);
+    update_post_meta($attachment_id, 'data-factory-section', (string) ($record['section'] ?? ''));
+    $current = ra_scoped_option_value($target);
+    $current_id = is_numeric($current) ? (int) $current : 0;
+    $last_key = ($target['storage'] === 'option' ? 'rudnikagro_scoped_last_imported_' : '_rudnikagro_last_imported_option_') . $target['field'];
+    $last = (string) get_option($last_key, '');
+    $is_empty = $current_id === 0;
+    $is_owned_baseline = $last !== '' && (string) $current_id === $last;
+    $updated = false;
+    if ($is_empty || ($is_owned_baseline && $current_id !== $attachment_id)) {
+        if ($target['storage'] === 'acf' && function_exists('update_field')) { update_field($target['key'], $attachment_id, 'option'); }
+        else { update_option('options_' . $target['field'], $attachment_id, false); }
+        update_option($last_key, (string) $attachment_id, false);
+        $summary['options']++;
+        $updated = true;
+    }
+    $source_meta = '_rudnikagro_source_option_' . $target['field'];
+    $owned_source = (string) get_option($source_meta, '');
+    if ($owned_source === '') { update_option($source_meta, $source_key, false); $owned_source = $source_key; }
+    $observed_id = $updated ? $attachment_id : $current_id;
+    return [
+        'key' => $source_key,
+        'sourceNode' => (string) ($record['nodeId'] ?? ''),
+        'sourceField' => $source_name,
+        'sourceSection' => (string) ($record['section'] ?? ''),
+        'targetField' => $target['field'],
+        'targetFieldKey' => $target['key'],
+        'value' => $observed_id ? (string) $observed_id : null,
+        'mediaId' => $observed_id ?: null,
+        'mediaSourceNode' => $observed_id ? (string) get_post_meta($observed_id, 'data-factory-source-node', true) : '',
+        'mediaSourceAsset' => $observed_id ? (string) get_post_meta($observed_id, '_rudnikagro_source_asset', true) : '',
+        'mediaSourceSection' => $observed_id ? (string) get_post_meta($observed_id, 'data-factory-section', true) : '',
+        'nativeId' => 'option',
+        'targetStorage' => $target['storage'],
+        'sourceIdentity' => $owned_source,
+        'nativeIdentity' => preg_match('/^emko_(service_media_band|about_hero)_/', $source_name) ? $source_key : (string) ($target['identity'] ?? ''),
+        'lastImportedValue' => $last === '' ? null : $last,
+        'preservedOverride' => !$updated && !$is_empty && !$is_owned_baseline,
+        'updated' => $updated,
+    ];
+}
+function ra_import_about_values_media_options(string $snapshot): void {
+    $media = [
+        ['field' => 'emko_about_values_image_125_4947', 'node' => '125:4947', 'path' => 'assets/about-values/image-125-4947.png'],
+        ['field' => 'emko_about_values_pattern_a_125_4356', 'node' => '125:4356', 'path' => 'assets/about-values/pattern-a-125-4356.svg'],
+        ['field' => 'emko_about_values_pattern_b_125_4651', 'node' => '125:4651', 'path' => 'assets/about-values/pattern-b-125-4651.svg'],
+        ['field' => 'emko_about_values_pattern_mask_125_4354', 'node' => '125:4354', 'path' => 'assets/about-values/pattern-mask-125-4354.svg'],
+    ];
+    foreach ($media as $item) {
+        $record = [
+            'fieldName' => $item['field'],
+            'nodeId' => $item['node'],
+            'language' => 'pl',
+            'section' => 'about-values',
+            'type' => 'image',
+            'value' => [
+                'media' => [
+                    'path' => $item['path'],
+                    'sourceNodeId' => $item['node'],
+                ],
+            ],
+        ];
+        ra_update_scoped_content_media_option($record, ra_scoped_content_target($item['field']), $snapshot);
+    }
+}
+function ra_import_about_overview_media_options(string $snapshot): void {
+    $media = [
+        ['field' => 'emko_about_overview_background_125_4345', 'node' => '125:4345', 'path' => 'assets/about-overview/background-125-4345.png'],
+        ['field' => 'emko_about_overview_image_125_4346', 'node' => '125:4346', 'path' => 'assets/about-overview/image-125-4346.png'],
+    ];
+    foreach ($media as $item) {
+        $record = [
+            'fieldName' => $item['field'],
+            'nodeId' => $item['node'],
+            'language' => 'pl',
+            'section' => 'about-overview',
+            'type' => 'image',
+            'value' => [
+                'media' => [
+                    'path' => $item['path'],
+                    'sourceNodeId' => $item['node'],
+                ],
+            ],
+        ];
+        ra_update_scoped_content_media_option($record, ra_scoped_content_target($item['field']), $snapshot);
+    }
+}
+function ra_import_about_media_band_options(string $snapshot): void {
+    $media = [
+        ['field' => 'emko_about_media_band_mask_125_4966', 'node' => '125:4966', 'path' => 'assets/about-media-band/mask-125-4966.svg'],
+        ['field' => 'emko_about_media_band_image_125_4967', 'node' => '125:4967', 'path' => 'assets/about-media-band/image-125-4967.jpeg'],
+    ];
+    foreach ($media as $item) {
+        $record = [
+            'fieldName' => $item['field'],
+            'nodeId' => $item['node'],
+            'language' => 'pl',
+            'section' => 'about-media-band',
+            'type' => 'image',
+            'value' => [
+                'media' => [
+                    'path' => $item['path'],
+                    'sourceNodeId' => $item['node'],
+                ],
+            ],
+        ];
+        ra_update_scoped_content_media_option($record, ra_scoped_content_target($item['field']), $snapshot);
+    }
+}
+function ra_update_scoped_content_option(array $record, string $snapshot): array {
+    global $summary;
+    $source_name = (string) ($record['fieldName'] ?? '');
+    $source_key = implode(':', [(string) ($record['language'] ?? 'pl'), (string) ($record['nodeId'] ?? ''), $source_name]);
+    $target = ra_scoped_content_target($source_name);
+    if (($record['type'] ?? '') === 'image') { return ra_update_scoped_content_media_option($record, $target, $snapshot); }
+    $value = ra_scoped_content_value($record['value'] ?? '');
+    if ($source_name === '' || $value === '') { throw new RuntimeException('Scoped shared-header content is incomplete.'); }
+    if ($target['storage'] === 'acf' && !$target['key']) { throw new RuntimeException('No native ACF options target exists for scoped content: ' . $source_name); }
+    $current = ra_scoped_option_value($target);
+    $last_key = ($target['storage'] === 'option' ? 'rudnikagro_scoped_last_imported_' : '_rudnikagro_last_imported_option_') . $target['field'];
+    $last = get_option($last_key, null);
+    $source_meta = '_rudnikagro_source_option_' . $target['field'];
+    $owned_source = (string) get_option($source_meta, '');
+    $updated = false;
+    $is_empty = $current === null || $current === '' || $current === false || $current === [];
+    $is_owned_baseline = !$is_empty && $last !== null && (string) $current === (string) $last;
+    $needs_write = $is_empty || ($is_owned_baseline && (string) $current !== $value);
+    if ($needs_write) {
+        if ($target['storage'] === 'acf' && function_exists('update_field')) { update_field($target['key'], $value, 'option'); }
+        else { update_option('options_' . $target['field'], $value, false); }
+        update_option($last_key, $value, false);
+        $summary['options']++;
+        $updated = true;
+    }
+    if ($owned_source === '') { update_option($source_meta, $source_key, false); }
+    $observed = ra_scoped_option_value($target);
+    if (is_array($observed)) { $observed = implode("\n", array_map('strval', $observed)); }
+    return [
+        'key' => $source_key,
+        'sourceNode' => (string) ($record['nodeId'] ?? ''),
+        'sourceField' => $source_name,
+        'sourceSection' => (string) ($record['section'] ?? ''),
+        'targetField' => $target['field'],
+        'targetFieldKey' => $target['key'],
+        'value' => $observed === null ? null : (string) $observed,
+        'nativeId' => 'option',
+        'targetStorage' => $target['storage'],
+        'sourceIdentity' => $owned_source !== '' ? $owned_source : $source_key,
+        'nativeIdentity' => (string) ($target['identity'] ?? ''),
+        'lastImportedValue' => $last,
+        'preservedOverride' => !$updated && !$is_empty && (string) $current !== $value,
+        'updated' => $updated,
+    ];
+}
+function ra_update_scoped_catalogue_content(array $record, array $target): array {
+    global $summary;
+    if (!function_exists('get_field') || !function_exists('update_field')) { throw new RuntimeException('ACF is required for scoped catalogue content.'); }
+    $source_name = (string) ($record['fieldName'] ?? '');
+    $source_key = implode(':', [(string) ($record['language'] ?? 'pl'), (string) ($record['nodeId'] ?? ''), $source_name]);
+    $value = ra_scoped_content_value($record['value'] ?? '');
+    if ($source_name === '' || $value === '') { throw new RuntimeException('Scoped catalogue content is incomplete.'); }
+    $page_id = ra_scoped_catalogues_page_id();
+    $cards = get_field('rudnikagro_catalogues', $page_id);
+    $cards = is_array($cards) ? array_values($cards) : [];
+    $row = (int) ($target['row'] ?? -1);
+    $subfield = (string) ($target['subfield'] ?? '');
+    if ($row < 0 || !in_array($subfield, ['title', 'pdf_label'], true)) { throw new RuntimeException('Invalid scoped catalogue target: ' . $source_name); }
+    while (count($cards) <= $row) { $cards[] = []; }
+    $current = ra_scoped_content_value($cards[$row][$subfield] ?? '');
+    $last_key = '_rudnikagro_last_imported_catalogue_card_' . ($row + 1) . '_' . $subfield;
+    $last = (string) get_post_meta($page_id, $last_key, true);
+    $source_meta = '_rudnikagro_source_content_catalogue_card_' . ($row + 1) . '_' . $subfield;
+    $owned_source = (string) get_post_meta($page_id, $source_meta, true);
+    if ($last === '' && $current === $value) { $last = $value; update_post_meta($page_id, $last_key, $value); }
+    $is_empty = $current === '';
+    $is_owned_baseline = $last !== '' && hash_equals($last, $current);
+    $updated = false;
+    if ($is_empty || ($is_owned_baseline && $current !== $value)) {
+        $cards[$row][$subfield] = $value;
+        update_field('field_ra_catalogues_cards', $cards, $page_id);
+        update_post_meta($page_id, $last_key, $value);
+        $last = $value;
+        $updated = true;
+        $summary['pages'] = ($summary['pages'] ?? 0) + 0;
+    }
+    if ($owned_source === '') { update_post_meta($page_id, $source_meta, $source_key); $owned_source = $source_key; }
+    return [
+        'key' => $source_key,
+        'sourceNode' => (string) ($record['nodeId'] ?? ''),
+        'sourceField' => $source_name,
+        'sourceSection' => (string) ($record['section'] ?? ''),
+        'targetField' => $target['field'],
+        'targetFieldKey' => $target['key'],
+        'value' => $value,
+        'nativeId' => (string) $page_id,
+        'targetStorage' => $target['storage'],
+        'sourceIdentity' => $owned_source,
+        'nativeIdentity' => $target['identity'],
+        'lastImportedValue' => $last === '' ? null : $last,
+        'preservedOverride' => !$updated && !$is_empty && $current !== $value,
+        'updated' => $updated,
+    ];
+}
+function ra_scoped_blog_card_post_id(array $records, string $identity): int {
+    $existing = get_posts(['post_type' => 'post', 'post_status' => 'any', 'meta_key' => '_rudnikagro_blog_card_identity', 'meta_value' => $identity, 'fields' => 'ids', 'numberposts' => 1]);
+    if (!$existing) { $existing = get_posts(['post_type' => 'post', 'post_status' => 'any', 'meta_key' => '_rudnikagro_route_id', 'meta_value' => $identity, 'fields' => 'ids', 'numberposts' => 1]); }
+    if (!$existing) {
+        foreach ($records as $record) {
+            $source_name = (string) ($record['fieldName'] ?? '');
+            if (!str_ends_with($source_name, '_title_' . str_replace(':', '_', (string) ($record['nodeId'] ?? '')))) { continue; }
+            $legacy_route = 'blog-card-' . str_replace(':', '-', (string) ($record['nodeId'] ?? ''));
+            $existing = get_posts(['post_type' => 'post', 'post_status' => 'any', 'meta_key' => '_rudnikagro_route_id', 'meta_value' => $legacy_route, 'fields' => 'ids', 'numberposts' => 1]);
+            break;
+        }
+    }
+    $initial_title = '';
+    foreach ($records as $record) {
+        if (str_contains((string) ($record['fieldName'] ?? ''), '_title_')) { $initial_title = ra_scoped_content_value($record['value'] ?? ''); break; }
+    }
+    $created = !$existing;
+    $post_id = $existing ? (int) $existing[0] : ra_owned_post(['post_type' => 'post', 'post_status' => 'publish', 'post_title' => $initial_title], $identity);
+    if (!$post_id) { throw new RuntimeException('Cannot create scoped blog card: ' . $identity); }
+    update_post_meta($post_id, '_rudnikagro_blog_card_identity', $identity);
+    if (preg_match('/^blog-archive-card-([1-9])$/', $identity, $matches)) {
+        update_post_meta($post_id, '_rudnikagro_blog_display_order', (string) (int) $matches[1]);
+    }
+    update_post_meta($post_id, '_rudnikagro_owned', '1');
+    if ($created && $initial_title !== '') { update_post_meta($post_id, '_rudnikagro_last_imported_title', $initial_title); }
+    return $post_id;
+}
+function ra_sync_scoped_blog_archive_image(string $identity, int $post_id, string $snapshot): void {
+    global $summary;
+    if (!preg_match('/^blog-archive-card-([1-9])$/', $identity, $matches)) { return; }
+    $images = [
+        1 => ['node' => '125:1919', 'path' => 'assets/blog-archive/card-image-125-1919.png'],
+        2 => ['node' => '125:1924', 'path' => 'assets/blog-archive/card-image-125-1924.png'],
+        3 => ['node' => '125:1929', 'path' => 'assets/blog-archive/card-image-125-1929.png'],
+        4 => ['node' => '125:1935', 'path' => 'assets/blog-archive/card-image-125-1935.png'],
+        5 => ['node' => '125:1940', 'path' => 'assets/blog-archive/card-image-125-1940.png'],
+        6 => ['node' => '125:1945', 'path' => 'assets/blog-archive/card-image-125-1945.png'],
+        7 => ['node' => '125:1951', 'path' => 'assets/blog-archive/card-image-125-1951.png'],
+        8 => ['node' => '125:1956', 'path' => 'assets/blog-archive/card-image-125-1956.png'],
+        9 => ['node' => '125:1961', 'path' => 'assets/blog-archive/card-image-125-1961.png'],
+    ];
+    $source = $images[(int) $matches[1]];
+    $field_name = 'rudnikagro_blog_archive_card_' . $matches[1] . '_image_' . str_replace(':', '_', $source['node']);
+    $attachment_id = ra_import_attachment($snapshot, $source['path'], $field_name);
+    if (!$attachment_id) { return; }
+    update_post_meta($attachment_id, '_rudnikagro_source_node', $source['node']);
+    update_post_meta($attachment_id, 'data-factory-source-node', $source['node']);
+    update_post_meta($attachment_id, 'data-factory-section', 'blog-archive');
+    if (!get_post_thumbnail_id($post_id)) { set_post_thumbnail($post_id, $attachment_id); }
+}
+function ra_sync_scoped_blog_post_article_media(string $snapshot): void {
+    $attachment_id = ra_import_attachment($snapshot, 'assets/blog-post-article/article-image-125-2244.png', 'emko_blog_post_article_image_125_2244');
+    if (!$attachment_id) { return; }
+    update_post_meta($attachment_id, '_rudnikagro_source_node', '125:2244');
+    update_post_meta($attachment_id, 'data-factory-source-node', '125:2244');
+    update_post_meta($attachment_id, 'data-factory-section', 'blog-post-article');
+}
+function ra_import_blog_archive_demo_clones(): array {
+    $raw = getenv('FACTORY_RUDNIKAGRO_BLOG_DEMO_CLONES');
+    if ($raw === false || trim($raw) === '' || trim($raw) === '[]') { return ['created' => 0, 'total' => 0]; }
+
+    $plans = json_decode($raw, true);
+    if (!is_array($plans) || count($plans) !== 270) {
+        throw new RuntimeException('Blog demo pagination requires exactly 270 policy-planned clones.');
+    }
+
+    $source_nodes = [
+        'blog-archive-card-1' => '125:1919',
+        'blog-archive-card-2' => '125:1924',
+        'blog-archive-card-3' => '125:1929',
+        'blog-archive-card-4' => '125:1935',
+        'blog-archive-card-5' => '125:1940',
+        'blog-archive-card-6' => '125:1945',
+        'blog-archive-card-7' => '125:1951',
+        'blog-archive-card-8' => '125:1956',
+        'blog-archive-card-9' => '125:1961',
+    ];
+    $created = 0;
+    foreach ($plans as $index => $plan) {
+        $import_key = (string) ($plan['importKey'] ?? '');
+        $clone_of = (string) ($plan['cloneOf'] ?? '');
+        $source_id = (string) ($plan['sourceId'] ?? '');
+        $owner = (string) ($plan['owner'] ?? '');
+        if ($import_key === '' || !isset($source_nodes[$clone_of]) || $source_nodes[$clone_of] !== $source_id
+            || empty($plan['demo']) || !in_array($owner, ['blog-archive-primary', 'blog-archive-tail'], true)) {
+            throw new RuntimeException('Invalid policy-planned blog demo clone.');
+        }
+
+        $source_posts = get_posts([
+            'post_type' => 'post',
+            'post_status' => 'publish',
+            'meta_key' => '_rudnikagro_blog_card_identity',
+            'meta_value' => $clone_of,
+            'fields' => 'ids',
+            'numberposts' => 1,
+        ]);
+        if (!$source_posts) { throw new RuntimeException('Blog demo clone source is unavailable: ' . $clone_of); }
+        $source_post_id = (int) $source_posts[0];
+        $existing = get_posts([
+            'post_type' => 'post',
+            'post_status' => 'any',
+            'meta_key' => '_rudnikagro_demo_import_key',
+            'meta_value' => $import_key,
+            'fields' => 'ids',
+            'numberposts' => 1,
+        ]);
+        $is_new = !$existing;
+        $clone_id = $existing ? (int) $existing[0] : (int) ra_owned_post([
+            'post_type' => 'post',
+            'post_status' => 'publish',
+            'post_title' => (string) get_the_title($source_post_id),
+            'post_excerpt' => (string) get_post_field('post_excerpt', $source_post_id),
+            'post_date' => (string) get_post_field('post_date', $source_post_id),
+        ], $import_key);
+        if (!$clone_id) { throw new RuntimeException('Cannot create blog demo clone: ' . $import_key); }
+
+        if ($is_new && function_exists('update_field')) {
+            update_field('field_ra_blog_card_date', get_field('rudnikagro_blog_card_date', $source_post_id), $clone_id);
+            update_field('field_ra_blog_card_label', get_field('rudnikagro_blog_card_label', $source_post_id), $clone_id);
+            update_field('field_ra_blog_card_image', get_field('rudnikagro_blog_card_image', $source_post_id), $clone_id);
+            $created++;
+        }
+        update_post_meta($clone_id, '_rudnikagro_blog_card_identity', $clone_of . '-demo-' . ($index + 1));
+        update_post_meta($clone_id, '_rudnikagro_blog_display_order', (string) ($index + 10));
+        update_post_meta($clone_id, '_rudnikagro_demo_import_key', $import_key);
+        update_post_meta($clone_id, '_rudnikagro_demo_clone_of', $clone_of);
+        update_post_meta($clone_id, '_rudnikagro_demo_source_node', $source_id);
+        update_post_meta($clone_id, '_rudnikagro_demo_owner', $owner);
+        update_post_meta($clone_id, '_rudnikagro_demo_clone', '1');
+        update_post_meta($clone_id, '_rudnikagro_owned', '1');
+    }
+
+    return ['created' => $created, 'total' => count($plans)];
+}
+function ra_import_catalogues_demo_clones(): array {
+    $raw = getenv('FACTORY_RUDNIKAGRO_CATALOGUES_DEMO_CLONES');
+    if ($raw === false || trim($raw) === '' || trim($raw) === '[]') { return ['created' => 0, 'total' => 0]; }
+
+    $plans = json_decode($raw, true);
+    if (!is_array($plans) || count($plans) !== 120) {
+        throw new RuntimeException('Catalogue demo pagination requires exactly 120 policy-planned clones.');
+    }
+
+    $catalogues_page_id = ra_scoped_catalogues_page_id();
+    if (!$catalogues_page_id) { throw new RuntimeException('Catalogue demo clone parent page is unavailable.'); }
+
+    $sources = [
+        ['identity' => 'catalogues-secondary-card-1', 'source' => '125:2544', 'title' => '125:2557', 'download' => '125:2562', 'icon' => '125:2563', 'cover' => 'assets/catalogues-secondary/catalogue-image-125-2544.png', 'overlay' => ''],
+        ['identity' => 'catalogues-secondary-card-2', 'source' => '125:2548', 'title' => '125:2558', 'download' => '125:2565', 'icon' => '125:2566', 'cover' => 'assets/catalogues-secondary/catalogue-image-125-2548.png', 'overlay' => ''],
+        ['identity' => 'catalogues-secondary-card-3', 'source' => '125:2552', 'title' => '125:2559', 'download' => '125:2568', 'icon' => '125:2569', 'cover' => 'assets/catalogues-secondary/catalogue-image-125-2552.png', 'overlay' => ''],
+        ['identity' => 'catalogues-secondary-card-4', 'source' => '125:2556', 'title' => '125:2560', 'download' => '125:2571', 'icon' => '125:2572', 'cover' => 'assets/catalogues-secondary/catalogue-image-125-2552.png', 'overlay' => 'assets/catalogues-secondary/catalogue-image-125-2574.png'],
+    ];
+    $source_lookup = [];
+    foreach ($sources as $source) { $source_lookup[$source['identity']] = $source; }
+
+    $snapshot = get_template_directory() . '/.factory-cache/figma/latest';
+    $background_id = ra_import_attachment($snapshot, 'assets/catalogues-secondary/background-125-2542.png', 'rudnikagro_catalogues_secondary_background_125_2542');
+    $download_icon_id = ra_import_attachment($snapshot, 'assets/catalogues-secondary/pdf-125-2563.png', 'rudnikagro_catalogues_secondary_download_icon_125_2563');
+    $originals = [];
+    foreach ($sources as $index => $source) {
+        $existing = get_posts([
+            'post_type' => 'page',
+            'post_status' => 'any',
+            'post_parent' => $catalogues_page_id,
+            'meta_key' => '_rudnikagro_catalogue_source_identity',
+            'meta_value' => $source['identity'],
+            'fields' => 'ids',
+            'numberposts' => 1,
+        ]);
+        $is_new = !$existing;
+        $title = trim((string) get_option('options_rudnikagro_catalogues_secondary_card_' . ($index + 1) . '_title', ''));
+        $download_label = trim((string) get_option('options_rudnikagro_catalogues_secondary_card_' . ($index + 1) . '_download_label', ''));
+        if ($title === '' || $download_label === '') { throw new RuntimeException('Catalogue source copy must be imported before its demo records.'); }
+        $catalogue_id = $existing ? (int) $existing[0] : (int) wp_insert_post([
+            'post_type' => 'page',
+            'post_status' => 'publish',
+            'post_parent' => $catalogues_page_id,
+            'post_title' => $title,
+            'menu_order' => $index,
+        ], true);
+        if (is_wp_error($catalogue_id) || !$catalogue_id) { throw new RuntimeException('Cannot create native catalogue source record.'); }
+
+        $cover_id = ra_import_attachment($snapshot, $source['cover'], 'rudnikagro_' . $source['identity'] . '_cover');
+        $overlay_id = $source['overlay'] !== '' ? ra_import_attachment($snapshot, $source['overlay'], 'rudnikagro_' . $source['identity'] . '_overlay') : 0;
+        if ($is_new) {
+            update_post_meta($catalogue_id, '_rudnikagro_catalogue_download_label', $download_label);
+            update_post_meta($catalogue_id, '_rudnikagro_catalogue_cover', (string) $cover_id);
+            update_post_meta($catalogue_id, '_rudnikagro_catalogue_overlay_cover', (string) $overlay_id);
+            update_post_meta($catalogue_id, '_rudnikagro_catalogue_background', (string) $background_id);
+            update_post_meta($catalogue_id, '_rudnikagro_catalogue_download_icon', (string) $download_icon_id);
+        }
+        foreach ([
+            '_rudnikagro_catalogue_inventory' => '1',
+            '_rudnikagro_catalogue_source_identity' => $source['identity'],
+            '_rudnikagro_catalogue_cover_source_node' => $source['source'],
+            '_rudnikagro_catalogue_title_source_node' => $source['title'],
+            '_rudnikagro_catalogue_download_source_node' => $source['download'],
+            '_rudnikagro_catalogue_download_icon_source_node' => $source['icon'],
+            '_rudnikagro_catalogue_background_source_node' => '125:2542',
+            '_rudnikagro_catalogue_surface_source_node' => '125:2543',
+            '_rudnikagro_catalogue_overlay_source_node' => $source['overlay'] !== '' ? '125:2574' : '',
+            '_rudnikagro_owned' => '1',
+        ] as $meta_key => $meta_value) { update_post_meta($catalogue_id, $meta_key, $meta_value); }
+        $originals[$source['identity']] = $catalogue_id;
+    }
+
+    $created = 0;
+    foreach ($plans as $plan_index => $plan) {
+        $import_key = (string) ($plan['importKey'] ?? '');
+        $clone_of = (string) ($plan['cloneOf'] ?? '');
+        $source_id = (string) ($plan['sourceId'] ?? '');
+        if ($import_key === '' || empty($plan['demo']) || ($plan['owner'] ?? '') !== 'catalogues-secondary' || !isset($source_lookup[$clone_of]) || $source_lookup[$clone_of]['source'] !== $source_id || !isset($originals[$clone_of])) {
+            throw new RuntimeException('Invalid policy-planned catalogue demo clone.');
+        }
+        $existing = get_posts([
+            'post_type' => 'page',
+            'post_status' => 'any',
+            'post_parent' => $catalogues_page_id,
+            'meta_key' => '_rudnikagro_demo_import_key',
+            'meta_value' => $import_key,
+            'fields' => 'ids',
+            'numberposts' => 1,
+        ]);
+        $is_new = !$existing;
+        $source_post_id = $originals[$clone_of];
+        $catalogue_id = $existing ? (int) $existing[0] : (int) wp_insert_post([
+            'post_type' => 'page',
+            'post_status' => 'publish',
+            'post_parent' => $catalogues_page_id,
+            'post_title' => (string) get_the_title($source_post_id),
+            'menu_order' => $plan_index + count($sources),
+        ], true);
+        if (is_wp_error($catalogue_id) || !$catalogue_id) { throw new RuntimeException('Cannot create native catalogue demo clone.'); }
+        if ($is_new) {
+            foreach (['_rudnikagro_catalogue_download_label', '_rudnikagro_catalogue_cover', '_rudnikagro_catalogue_overlay_cover', '_rudnikagro_catalogue_background', '_rudnikagro_catalogue_download_icon'] as $meta_key) {
+                update_post_meta($catalogue_id, $meta_key, (string) get_post_meta($source_post_id, $meta_key, true));
+            }
+            $created++;
+        }
+        foreach (['_rudnikagro_catalogue_inventory', '_rudnikagro_catalogue_source_identity', '_rudnikagro_catalogue_cover_source_node', '_rudnikagro_catalogue_title_source_node', '_rudnikagro_catalogue_download_source_node', '_rudnikagro_catalogue_download_icon_source_node', '_rudnikagro_catalogue_background_source_node', '_rudnikagro_catalogue_surface_source_node', '_rudnikagro_catalogue_overlay_source_node'] as $meta_key) {
+            update_post_meta($catalogue_id, $meta_key, (string) get_post_meta($source_post_id, $meta_key, true));
+        }
+        update_post_meta($catalogue_id, '_rudnikagro_demo_import_key', $import_key);
+        update_post_meta($catalogue_id, '_rudnikagro_demo_clone_of', $clone_of);
+        update_post_meta($catalogue_id, '_rudnikagro_demo_source_node', $source_id);
+        update_post_meta($catalogue_id, '_rudnikagro_demo_owner', 'catalogues-secondary');
+        update_post_meta($catalogue_id, '_rudnikagro_demo_clone', '1');
+        update_post_meta($catalogue_id, '_rudnikagro_owned', '1');
+    }
+
+    return ['created' => $created, 'total' => count($plans)];
+}
+function ra_update_scoped_content_post(array $record, int $post_id, array $target, string $snapshot): array {
+    global $summary;
+    $source_name = (string) ($record['fieldName'] ?? '');
+    $source_key = implode(':', [(string) ($record['language'] ?? 'pl'), (string) ($record['nodeId'] ?? ''), $source_name]);
+    if (($record['type'] ?? '') === 'image') {
+        $media = ra_scoped_media_source($record);
+        $attachment_id = ra_import_attachment($snapshot, $media['path'], $source_name);
+        update_post_meta($attachment_id, '_rudnikagro_source_node', $media['sourceNode']);
+        update_post_meta($attachment_id, 'data-factory-source-node', $media['sourceNode']);
+        update_post_meta($attachment_id, 'data-factory-section', (string) ($record['section'] ?? ''));
+        $current = function_exists('get_field') ? get_field($target['field'], $post_id) : null;
+        $current_id = is_numeric($current) ? (int) $current : 0;
+        $last_key = '_rudnikagro_last_imported_' . $target['field'];
+        $last = (string) get_post_meta($post_id, $last_key, true);
+        $is_empty = $current_id === 0;
+        $is_owned_baseline = $last !== '' && (string) $current_id === $last;
+        $updated = false;
+        if ($is_empty || ($is_owned_baseline && $current_id !== $attachment_id)) {
+            if (!function_exists('update_field')) { throw new RuntimeException('ACF is required for scoped blog-card media.'); }
+            update_field($target['key'], $attachment_id, $post_id);
+            update_post_meta($post_id, $last_key, (string) $attachment_id);
+            $updated = true;
+        }
+        update_post_meta($post_id, '_rudnikagro_source_content_' . $target['field'], $source_key);
+        $observed_id = $updated ? $attachment_id : $current_id;
+        return [
+            'key' => $source_key,
+            'sourceNode' => (string) ($record['nodeId'] ?? ''),
+            'sourceField' => $source_name,
+            'sourceSection' => (string) ($record['section'] ?? ''),
+            'targetField' => $target['field'],
+            'targetFieldKey' => $target['key'],
+            'value' => $observed_id ? (string) $observed_id : null,
+            'mediaId' => $observed_id ?: null,
+            'mediaSourceNode' => $observed_id ? (string) get_post_meta($observed_id, 'data-factory-source-node', true) : '',
+            'mediaSourceAsset' => $observed_id ? (string) get_post_meta($observed_id, '_rudnikagro_source_asset', true) : '',
+            'nativeId' => (string) $post_id,
+            'targetStorage' => $target['storage'],
+            'sourceIdentity' => $source_key,
+            'nativeIdentity' => $target['identity'],
+            'lastImportedValue' => $last === '' ? null : $last,
+            'preservedOverride' => !$updated && !$is_empty && !$is_owned_baseline,
+            'updated' => $updated,
+        ];
+    }
+    $value = ra_scoped_content_value($record['value'] ?? '');
+    if ($source_name === '' || $value === '') { throw new RuntimeException('Scoped blog-card content is incomplete.'); }
+    $last_key = '_rudnikagro_last_imported_' . ($target['field'] === 'rudnikagro_blog_card_date' ? 'blog_card_date' : ltrim((string) $target['field'], '_'));
+    $last = (string) get_post_meta($post_id, $last_key, true);
+    $current = $target['field'] === 'post_title'
+        ? (string) get_post_field('post_title', $post_id)
+        : ($target['field'] === 'post_excerpt' ? (string) get_post_field('post_excerpt', $post_id) : (string) get_field($target['field'], $post_id));
+    $is_empty = $current === '';
+    if (!$is_empty && $last === '' && $current === $value) {
+        update_post_meta($post_id, $last_key, $value);
+        $last = $value;
+    }
+    $is_owned_baseline = $last !== '' && hash_equals($last, $current);
+    $updated = false;
+    if (($is_empty || $is_owned_baseline) && $current !== $value) {
+        if ($target['field'] === 'post_title' || $target['field'] === 'post_excerpt') {
+            wp_update_post(['ID' => $post_id, $target['field'] === 'post_title' ? 'post_title' : 'post_excerpt' => $value]);
+        } elseif (function_exists('update_field')) {
+            update_field($target['key'], $value, $post_id);
+        } else {
+            throw new RuntimeException('ACF is required for scoped blog-card meta.');
+        }
+        update_post_meta($post_id, $last_key, $value);
+        $updated = true;
+        $summary['posts'] = ($summary['posts'] ?? 0) + 0;
+    }
+    update_post_meta($post_id, '_rudnikagro_source_content_' . $target['field'], $source_key);
+    return [
+        'key' => $source_key,
+        'sourceNode' => (string) ($record['nodeId'] ?? ''),
+        'sourceField' => $source_name,
+        'sourceSection' => (string) ($record['section'] ?? ''),
+        'targetField' => $target['field'],
+        'targetFieldKey' => $target['key'],
+        'value' => $value,
+        'nativeId' => (string) $post_id,
+        'targetStorage' => $target['storage'],
+        'sourceIdentity' => $source_key,
+        'nativeIdentity' => $target['identity'],
+        'lastImportedValue' => $last === '' ? null : $last,
+        'preservedOverride' => !$updated && !$is_empty && $current !== $value,
+        'updated' => $updated,
+    ];
+}
+function ra_sync_scoped_catalogues_media(string $snapshot): void {
+    if (!function_exists('get_field') || !function_exists('update_field')) { return; }
+    $page_id = ra_scoped_catalogues_page_id();
+    $cards = get_field('rudnikagro_catalogues', $page_id);
+    $cards = is_array($cards) ? array_values($cards) : [];
+    $background_id = ra_import_attachment($snapshot, 'assets/catalogues-primary/asset-125-2507.png', 'rudnikagro_catalogues_primary_background_125_2507');
+    if ($background_id) {
+        update_post_meta($background_id, '_rudnikagro_source_node', '125:2507');
+        update_post_meta($background_id, 'data-factory-source-node', '125:2507');
+        update_post_meta($background_id, 'data-factory-section', 'catalogues-primary');
+    }
+    $assets = [
+        ['assets/catalogues-primary/asset-125-2509.png', 'rudnikagro_catalogues_primary_media_125_2509', '125:2509'],
+        ['assets/catalogues-primary/asset-125-2513.png', 'rudnikagro_catalogues_primary_media_125_2513', '125:2513'],
+        ['assets/catalogues-primary/asset-125-2517.png', 'rudnikagro_catalogues_primary_media_125_2517', '125:2517'],
+        ['assets/catalogues-primary/asset-125-2539.png', 'rudnikagro_catalogues_primary_media_125_2539', '125:2539'],
+    ];
+    $changed = false;
+    foreach ($assets as $index => [$asset, $field_name, $source_node]) {
+        $media_id = ra_import_attachment($snapshot, $asset, $field_name);
+        if ($media_id) {
+            update_post_meta($media_id, '_rudnikagro_source_node', $source_node);
+            update_post_meta($media_id, 'data-factory-source-node', $source_node);
+            update_post_meta($media_id, 'data-factory-section', 'catalogues-primary');
+        }
+        if (!isset($cards[$index])) { $cards[$index] = []; }
+        if (empty($cards[$index]['cover']) && $media_id) { $cards[$index]['cover'] = $media_id; $changed = true; }
+        if (empty($cards[$index]['background']) && $background_id) { $cards[$index]['background'] = $background_id; $changed = true; }
+    }
+    if ($changed) { update_field('field_ra_catalogues_cards', $cards, $page_id); }
+    $icon_id = ra_import_attachment($snapshot, 'assets/catalogues-primary/asset-125-2528.png', 'rudnikagro_catalogues_primary_download_icon_125_2528');
+    if ($icon_id) {
+        update_post_meta($icon_id, '_rudnikagro_source_node', '125:2528');
+        update_post_meta($icon_id, 'data-factory-source-node', '125:2528');
+        update_post_meta($icon_id, 'data-factory-section', 'catalogues-primary');
+        if (!get_field('rudnikagro_catalogues_download_icon', $page_id)) { update_field('field_ra_catalogues_download_icon', $icon_id, $page_id); }
+    }
+}
+function ra_scoped_product_related_id(array $target, array $records): int {
+    $identity = (string) ($target['identity'] ?? '');
+    $existing = get_posts(['post_type' => 'product', 'post_status' => 'any', 'meta_key' => '_rudnikagro_product_related_identity', 'meta_value' => $identity, 'fields' => 'ids', 'numberposts' => 1]);
+    if (!$existing) {
+        foreach ($records as $record) {
+            $source_name = (string) ($record['fieldName'] ?? '');
+            if (!str_contains($source_name, '_title_')) { continue; }
+            $existing = get_posts(['post_type' => 'product', 'post_status' => 'any', 'meta_key' => '_rudnikagro_source_node', 'meta_value' => (string) ($record['nodeId'] ?? ''), 'fields' => 'ids', 'numberposts' => 1]);
+            if ($existing) { break; }
+        }
+    }
+    if (!$existing && preg_match('/^product-related-card-(\d+)$/', $identity, $matches)) {
+        $title_nodes = [1 => '125:3287', 2 => '125:3285', 3 => '125:3286', 4 => '125:3288', 5 => '125:3290'];
+        $title_node = $title_nodes[(int) $matches[1]] ?? '';
+        if ($title_node !== '') {
+            $existing = get_posts(['post_type' => 'product', 'post_status' => 'any', 'meta_key' => '_rudnikagro_source_node', 'meta_value' => $title_node, 'fields' => 'ids', 'numberposts' => 1]);
+        }
+    }
+    if (!$existing && !array_filter($records, static fn($record): bool => str_contains((string) ($record['fieldName'] ?? ''), '_title_'))) {
+        throw new RuntimeException('Native related product is missing for ' . $identity . '; title/media batch must run first.');
+    }
+    if ($existing) {
+        $product_id = (int) $existing[0];
+        update_post_meta($product_id, '_rudnikagro_product_related_identity', $identity);
+        update_post_meta($product_id, '_rudnikagro_source_section', 'product-related');
+        update_post_meta($product_id, '_rudnikagro_route_id', 'product-related');
+        update_post_meta($product_id, '_rudnikagro_owned', '1');
+        return $product_id;
+    }
+    $title = '';
+    foreach ($records as $record) {
+        if (str_contains((string) ($record['fieldName'] ?? ''), '_title_')) { $title = ra_scoped_content_value($record['value'] ?? ''); break; }
+    }
+    $product_id = wp_insert_post(['post_type' => 'product', 'post_status' => 'publish', 'post_title' => $title], true);
+    if (is_wp_error($product_id) || !$product_id) { throw new RuntimeException('Cannot create scoped related product: ' . $identity); }
+    update_post_meta($product_id, '_rudnikagro_product_related_identity', $identity);
+    foreach ($records as $record) {
+        if (str_contains((string) ($record['fieldName'] ?? ''), '_title_')) { update_post_meta($product_id, '_rudnikagro_source_node', (string) ($record['nodeId'] ?? '')); break; }
+    }
+    update_post_meta($product_id, '_rudnikagro_source_section', 'product-related');
+    update_post_meta($product_id, '_rudnikagro_route_id', 'product-related');
+    update_post_meta($product_id, '_rudnikagro_owned', '1');
+    return (int) $product_id;
+}
+function ra_update_scoped_product_related(array $record, int $product_id, array $target, string $snapshot): array {
+    global $summary;
+    $source_name = (string) ($record['fieldName'] ?? '');
+    $source_key = implode(':', [(string) ($record['language'] ?? 'pl'), (string) ($record['nodeId'] ?? ''), $source_name]);
+    $identity = (string) $target['identity'];
+    if (($record['type'] ?? '') === 'image') {
+        $media = ra_scoped_media_source($record);
+        $image_field = 'emko_product_related_media_' . str_replace(':', '_', $media['sourceNode']);
+        $attachment_id = ra_import_attachment($snapshot, $media['path'], $image_field);
+        update_post_meta($attachment_id, '_rudnikagro_source_node', $media['sourceNode']);
+        update_post_meta($attachment_id, 'data-factory-source-node', $media['sourceNode']);
+        update_post_meta($attachment_id, 'data-factory-section', 'product-related');
+        $current = (int) get_post_thumbnail_id($product_id);
+        $last_key = '_rudnikagro_last_imported_thumbnail_id';
+        $last = (string) get_post_meta($product_id, $last_key, true);
+        $is_empty = $current === 0;
+        if ($last === '' && $current === $attachment_id) { $last = (string) $attachment_id; update_post_meta($product_id, $last_key, $last); }
+        $is_owned_baseline = $last !== '' && (string) $current === $last;
+        $updated = false;
+        if ($is_empty || ($is_owned_baseline && $current !== $attachment_id)) {
+            set_post_thumbnail($product_id, $attachment_id);
+            update_post_meta($product_id, $last_key, (string) $attachment_id);
+            $updated = true;
+        }
+        update_post_meta($product_id, '_rudnikagro_source_content_' . $identity . '_image', $source_key);
+        $observed_id = $updated ? $attachment_id : $current;
+        return [
+            'key' => $source_key, 'sourceNode' => (string) ($record['nodeId'] ?? ''), 'sourceField' => $source_name,
+            'sourceSection' => (string) ($record['section'] ?? ''), 'targetField' => 'post_thumbnail', 'targetFieldKey' => '',
+            'value' => $observed_id ? (string) $observed_id : null, 'mediaId' => $observed_id ?: null,
+            'mediaSourceNode' => $observed_id ? (string) get_post_meta($observed_id, 'data-factory-source-node', true) : '',
+            'mediaSourceAsset' => $observed_id ? (string) get_post_meta($observed_id, '_rudnikagro_source_asset', true) : '',
+            'mediaSourceSection' => $observed_id ? (string) get_post_meta($observed_id, 'data-factory-section', true) : '',
+            'nativeId' => (string) $product_id, 'targetStorage' => 'product-media', 'sourceIdentity' => $source_key,
+            'nativeIdentity' => $identity, 'lastImportedValue' => $last === '' ? null : $last,
+            'preservedOverride' => !$updated && !$is_empty && !$is_owned_baseline,
+        ];
+    }
+    $value = ra_scoped_content_value($record['value'] ?? '');
+    if ($value === '') { throw new RuntimeException('Scoped related product content is incomplete.'); }
+    $current = (string) get_post_field('post_title', $product_id);
+    $is_description = ($target['field'] ?? '') === 'post_excerpt';
+    if ($is_description) {
+        $current = (string) get_post_field('post_excerpt', $product_id);
+    }
+    $last_key = $is_description ? '_rudnikagro_last_imported_excerpt' : '_rudnikagro_last_imported_title';
+    $last = (string) get_post_meta($product_id, $last_key, true);
+    $is_empty = $current === '';
+    if ($last === '' && $current === $value) { $last = $value; update_post_meta($product_id, $last_key, $last); }
+    $is_owned_baseline = $last !== '' && $current === $last;
+    $updated = false;
+    if ($is_empty || ($is_owned_baseline && $current !== $value)) {
+        wp_update_post(['ID' => $product_id, $is_description ? 'post_excerpt' : 'post_title' => $value]);
+        update_post_meta($product_id, $last_key, $value);
+        $updated = true;
+    }
+    update_post_meta($product_id, '_rudnikagro_source_content_' . $identity . '_' . ($is_description ? 'description' : 'title'), $source_key);
+    return [
+        'key' => $source_key, 'sourceNode' => (string) ($record['nodeId'] ?? ''), 'sourceField' => $source_name,
+        'sourceSection' => (string) ($record['section'] ?? ''), 'targetField' => $is_description ? 'post_excerpt' : 'post_title', 'targetFieldKey' => '',
+        'value' => (string) get_post_field($is_description ? 'post_excerpt' : 'post_title', $product_id), 'nativeId' => (string) $product_id,
+        'targetStorage' => 'product', 'sourceIdentity' => $source_key, 'nativeIdentity' => $identity,
+        'lastImportedValue' => $last === '' ? null : $last, 'preservedOverride' => !$updated && !$is_empty && !$is_owned_baseline,
+    ];
+}
+/**
+ * Resolve the canonical product used as the owner of related-product content.
+ *
+ * Scoped content batches can run before the full commerce reconciliation. In
+ * that case the related cards are imported correctly, but there is no product
+ * with route `product` to own the native WooCommerce upsell relation. Keep
+ * this fallback aligned with the canonical product created by the full
+ * importer so the batch remains order-independent and idempotent.
+ */
+function ra_scoped_product_parent_id(array $by_name): int {
+    $targets = get_posts([
+        'post_type' => 'product',
+        'post_status' => 'any',
+        'meta_key' => '_rudnikagro_route_id',
+        'meta_value' => 'product',
+        'fields' => 'ids',
+        'numberposts' => 1,
+    ]);
+    if ($targets) { return (int) $targets[0]; }
+
+    $existing = get_posts([
+        'post_type' => 'product',
+        'post_status' => 'any',
+        'name' => 'aquatos-5l',
+        'fields' => 'ids',
+        'numberposts' => 1,
+    ]);
+    if ($existing) {
+        $product_id = (int) $existing[0];
+        update_post_meta($product_id, '_rudnikagro_route_id', 'product');
+        return $product_id;
+    }
+
+    $source = ra_source_field($by_name, 'rudnikagro_product_overview_323_2084');
+    $title = is_array($source) ? trim(ra_repair_source_encoding((string) ($source['value'] ?? ''))) : '';
+    // The canonical product overview is not part of a scoped content batch;
+    // use the same stable identity as the full importer when that source field
+    // is unavailable in the filtered map.
+    if ($title === '') { $title = 'Aquatos 5 L'; }
+
+    $product_id = wp_insert_post([
+        'post_type' => 'product',
+        'post_status' => 'publish',
+        'post_name' => 'aquatos-5l',
+        'post_title' => $title,
+    ], true);
+    if (is_wp_error($product_id) || !$product_id) { return 0; }
+
+    update_post_meta($product_id, '_rudnikagro_route_id', 'product');
+    update_post_meta($product_id, '_rudnikagro_source_node', '323:2084');
+    update_post_meta($product_id, '_rudnikagro_source', 'figma:OwiDXrKMVcaHKB9ryYF6mY');
+    update_post_meta($product_id, '_rudnikagro_owned', '1');
+    return (int) $product_id;
+}
+
+function ra_bind_scoped_product_related(array $product_ids, array $by_name): void {
+    $product_ids = array_values(array_unique(array_map('intval', $product_ids)));
+    if (!$product_ids) { return; }
+    $target_id = ra_scoped_product_parent_id($by_name);
+    if (!$target_id) { return; }
+    $current = get_post_meta($target_id, '_upsell_ids', true);
+    $last = get_post_meta($target_id, '_rudnikagro_last_imported_related_ids', true);
+    if ($current === '' || $current === $last) {
+        update_post_meta($target_id, '_upsell_ids', $product_ids);
+        update_post_meta($target_id, '_rudnikagro_last_imported_related_ids', $product_ids);
+    }
+}
+function ra_import_scoped_content(array $by_name, array $keys, string $snapshot): void {
+    global $summary;
+    if (!isset($GLOBALS['summary']) || !is_array($GLOBALS['summary'])) {
+        $GLOBALS['summary'] = ['options' => 0, 'attachments' => 0, 'pages' => 0, 'posts' => 0, 'menus' => 0, 'mediaGaps' => []];
+    }
+    $summary =& $GLOBALS['summary'];
+    $source_records = [];
+    $blog_groups = [];
+    $related_groups = [];
+    foreach ($keys as $key) {
+        $record = ra_scoped_source_record($by_name, $key);
+        if (!$record) { throw new RuntimeException('Scoped content source record is unavailable: ' . $key); }
+        $record_key = implode(':', [(string) ($record['language'] ?? 'pl'), (string) ($record['nodeId'] ?? ''), (string) ($record['fieldName'] ?? '')]);
+        if ($record_key !== $key) { throw new RuntimeException('Scoped content source identity mismatch: ' . $key); }
+        $target = ra_scoped_content_target((string) ($record['fieldName'] ?? ''));
+        $source_records[$key] = [$record, $target];
+        if (isset($target['identity']) && (str_starts_with((string) $target['identity'], 'blog-archive-card-') || str_starts_with((string) $target['identity'], 'blog-post-related-card-'))) { $blog_groups[$target['identity']][] = $record; }
+        if (isset($target['identity']) && str_starts_with((string) $target['identity'], 'product-related-card-')) { $related_groups[$target['identity']][] = $record; }
+    }
+    if (array_filter($source_records, static fn($source): bool => ($source[0]['section'] ?? '') === 'catalogues-primary')) {
+        ra_sync_scoped_catalogues_media($snapshot);
+    }
+    if (array_filter($source_records, static fn($source): bool => ($source[0]['section'] ?? '') === 'about-values')) {
+        ra_import_about_values_media_options($snapshot);
+    }
+    if (array_filter($source_records, static fn($source): bool => ($source[0]['section'] ?? '') === 'about-overview')) {
+        ra_import_about_overview_media_options($snapshot);
+    }
+    if (array_filter($source_records, static fn($source): bool => ($source[0]['section'] ?? '') === 'about-media-band')) {
+        ra_import_about_media_band_options($snapshot);
+    }
+    if (array_filter($source_records, static fn($source): bool => ($source[0]['section'] ?? '') === 'blog-post-article')) {
+        ra_sync_scoped_blog_post_article_media($snapshot);
+    }
+    if (array_filter($source_records, static fn($source): bool => ($source[0]['section'] ?? '') === 'product-detail')) {
+        // The product-detail source group owns action labels/icon and benefits
+        // heading. Import the complete
+        // source-backed native group so scoped builds do not leave those
+        // editor-owned fields empty when only the three mapped records are
+        // passed through the batch.
+        ra_import_product_detail_content($snapshot);
+    }
+    $blog_post_ids = [];
+    foreach ($blog_groups as $identity => $group) { $blog_post_ids[$identity] = ra_scoped_blog_card_post_id($group, $identity); }
+    foreach ($blog_post_ids as $identity => $post_id) {
+        ra_sync_scoped_blog_archive_image((string) $identity, (int) $post_id, $snapshot);
+    }
+    $related_product_ids = [];
+    foreach ($related_groups as $identity => $group) {
+        $target = ra_scoped_content_target((string) ($group[0]['fieldName'] ?? ''));
+        $related_product_ids[$identity] = ra_scoped_product_related_id($target, $group);
+    }
+    $records = [];
+    foreach ($keys as $key) {
+        [$record, $target] = $source_records[$key];
+        $records[] = isset($target['identity'], $related_product_ids[$target['identity']])
+            ? ra_update_scoped_product_related($record, $related_product_ids[$target['identity']], $target, $snapshot)
+            : ($target['storage'] === 'post-acf' && ($target['page_route'] ?? '') === 'catalogues'
+            ? ra_update_scoped_catalogue_content($record, $target)
+            : (isset($target['identity']) && isset($blog_post_ids[$target['identity']])
+            ? ra_update_scoped_content_post($record, $blog_post_ids[$target['identity']], $target, $snapshot)
+            : ra_update_scoped_content_option($record, $snapshot)));
+    }
+    $demo_clones = [
+        'blog' => ra_import_blog_archive_demo_clones(),
+        'catalogues' => ra_import_catalogues_demo_clones(),
+    ];
+    $related_has_native_copy = array_filter($related_groups, static function (array $group): bool {
+        foreach ($group as $record) {
+            if (str_contains((string) ($record['fieldName'] ?? ''), '_title_') || str_contains((string) ($record['fieldName'] ?? ''), '_description_')) {
+                return true;
+            }
+        }
+        return false;
+    });
+    if ($related_has_native_copy) { ra_bind_scoped_product_related($related_product_ids, $by_name); }
+    $summary = $GLOBALS['summary'];
+    echo wp_json_encode(['rudnikagro_scoped_content' => $records, 'demoClones' => $demo_clones, 'summary' => $summary], JSON_UNESCAPED_UNICODE) . PHP_EOL;
+    exit;
+}
 function ra_structured_text_source(array $by_name, string $name): string {
     $field = ra_source_field($by_name, $name);
     if (!is_array($field) || !is_array($field['value'] ?? null)) { return ''; }
     $parts = [];
     foreach ($field['value'] as $segment) { if (is_array($segment) && is_string($segment['value'] ?? null)) { $parts[] = $segment['value']; } }
     return ra_repair_source_encoding(implode('', $parts));
-}
-function ra_breadcrumb_source(array $by_name, string $name): string {
-    $field = ra_source_field($by_name, $name);
-    if (!is_array($field) || !is_array($field['value'] ?? null)) { return ''; }
-    $labels = [];
-    foreach ($field['value'] as $segment) {
-        if (is_array($segment) && is_string($segment['label'] ?? null) && $segment['label'] !== '') { $labels[] = $segment['label']; }
-    }
-    return ra_repair_source_encoding(implode(' / ', $labels));
 }
 /**
  * Refresh content only when the existing project-owned record still contains a
@@ -774,7 +2455,6 @@ if (!empty($page_ids['about'])) {
     if (get_post_meta($about_id, 'rudnikagro_about_banner_title', true) === '') {
         update_field('field_ra_about_banner', [
             'title' => ra_string_source($by_name, 'rudnikagro_about.banner.title'),
-            'breadcrumb' => ra_breadcrumb_source($by_name, 'rudnikagro_about.breadcrumb'),
             'image' => ra_import_attachment($snapshot, 'assets/about/326-2977-about-banner.png', 'rudnikagro_about_banner_image'),
         ], $about_id);
     }
@@ -827,18 +2507,14 @@ if (!empty($page_ids['careers'])) {
     $form_id = ra_create_careers_form($by_name);
     if (get_post_meta($careers_id, 'rudnikagro_page_banner_title', true) === '') {
         $banner_id = ra_import_attachment($snapshot, 'assets/careers/349-1377-heading.png', 'rudnikagro_page_banner_image_composition');
-        update_field('field_ra_careers_banner', ['title' => ra_string_source($by_name, 'rudnikagro_page_banner_title'), 'breadcrumb' => ra_string_source($by_name, 'rudnikagro_careers_breadcrumb'), 'image' => $banner_id], $careers_id);
+        update_field('field_ra_careers_banner', ['title' => ra_string_source($by_name, 'rudnikagro_page_banner_title'), 'image' => $banner_id], $careers_id);
     }
     $current_banner_id = (int) get_post_meta($careers_id, 'rudnikagro_page_banner_image', true);
     if ($current_banner_id && get_post_meta($current_banner_id, '_rudnikagro_source_asset', true) === 'assets/careers/349-1377-heading-raw-1.png') {
         $banner_id = ra_import_attachment($snapshot, 'assets/careers/349-1377-heading.png', 'rudnikagro_page_banner_image_composition');
         update_post_meta($careers_id, 'rudnikagro_page_banner_image', $banner_id);
     }
-    if (get_post_meta($careers_id, 'rudnikagro_page_banner_breadcrumb', true) === '') {
-        update_post_meta($careers_id, 'rudnikagro_page_banner_breadcrumb', ra_string_source($by_name, 'rudnikagro_careers_breadcrumb'));
-        update_post_meta($careers_id, '_rudnikagro_page_banner_breadcrumb', 'field_ra_careers_banner_breadcrumb');
-    }
-    $careers_text_fields = ['rudnikagro_page_banner_breadcrumb' => 'rudnikagro_careers_breadcrumb', 'rudnikagro_careers_cta_heading' => 'rudnikagro_careers_cta_heading', 'rudnikagro_careers_cta_button_label' => 'rudnikagro_careers_cta_button_label'];
+    $careers_text_fields = ['rudnikagro_careers_cta_heading' => 'rudnikagro_careers_cta_heading', 'rudnikagro_careers_cta_button_label' => 'rudnikagro_careers_cta_button_label'];
     for ($i = 0; $i < 6; $i++) {
         $careers_text_fields['rudnikagro_vacancies_' . $i . '_title'] = 'rudnikagro_vacancies_' . $i . '_title';
         $careers_text_fields['rudnikagro_vacancies_' . $i . '_description'] = 'rudnikagro_vacancies_' . $i . '_description';
@@ -869,23 +2545,27 @@ if (!empty($page_ids['careers'])) {
 function ra_contact_form_markup(array $labels): string {
     return '<div class="c-contact-form__fields">'
         . '<p>[text* contact-name autocomplete:name placeholder "' . esc_attr($labels['name']) . '"]</p>'
+        . '<p>[text contact-company autocomplete:organization placeholder "' . esc_attr($labels['company']) . '"]</p>'
         . '<p>[email* contact-email autocomplete:email placeholder "' . esc_attr($labels['email']) . '"]</p>'
         . '<p>[tel* contact-phone autocomplete:tel placeholder "' . esc_attr($labels['phone']) . '"]</p>'
         . '</div>'
         . '<p class="c-contact-form__message">[textarea* contact-message placeholder "' . esc_attr($labels['message']) . '"]</p>'
+        . '<p class="c-contact-form__privacy">[acceptance contact-privacy]' . esc_html($labels['privacy']) . '[/acceptance]</p>'
         . '<p class="c-contact-form__submit">[submit "' . esc_attr($labels['submit']) . '"]</p>'
-        . '<p class="c-contact-form__privacy">' . esc_html($labels['privacy']) . '</p>';
+        . '<p class="c-contact-form__email-note">' . esc_html($labels['email_note']) . '</p>';
 }
 function ra_create_contact_form(array $by_name): int {
     global $summary;
     if (!post_type_exists('wpcf7_contact_form')) { return 0; }
     $labels = [
-        'name' => ra_string_source($by_name, 'rudnikagro_contact_form_name_label'),
-        'email' => ra_string_source($by_name, 'rudnikagro_contact_form_email_label'),
-        'phone' => ra_string_source($by_name, 'rudnikagro_contact_form_phone_label'),
-        'message' => ra_string_source($by_name, 'rudnikagro_contact_form_message_label'),
-        'submit' => ra_string_source($by_name, 'rudnikagro_contact_form_submit_label'),
-        'privacy' => ra_string_source($by_name, 'rudnikagro_contact_form_privacy_notice'),
+        'name' => ra_string_source($by_name, 'emko_contact_overview_name_placeholder_125_2358'),
+        'company' => ra_string_source($by_name, 'emko_contact_overview_company_placeholder_125_2363'),
+        'email' => ra_string_source($by_name, 'emko_contact_overview_email_placeholder_125_2365'),
+        'phone' => ra_string_source($by_name, 'emko_contact_overview_phone_placeholder_125_2367'),
+        'message' => ra_string_source($by_name, 'emko_contact_overview_message_placeholder_125_2361'),
+        'submit' => ra_string_source($by_name, 'emko_contact_overview_submit_label_125_2372'),
+        'privacy' => ra_string_source($by_name, 'emko_contact_overview_privacy_consent_125_2369'),
+        'email_note' => ra_string_source($by_name, 'emko_contact_overview_email_usage_note_125_2368'),
     ];
     if (in_array('', $labels, true)) { throw new RuntimeException('Contact form source labels are incomplete.'); }
     $existing = get_posts(['post_type' => 'wpcf7_contact_form', 'post_status' => 'any', 'meta_key' => '_rudnikagro_route_id', 'meta_value' => 'contact-form', 'fields' => 'ids', 'numberposts' => 1]);
@@ -899,7 +2579,7 @@ function ra_create_contact_form(array $by_name): int {
     update_post_meta($form_id, '_additional_settings', '');
     update_post_meta($form_id, '_locale', 'pl_PL');
     update_post_meta($form_id, '_rudnikagro_route_id', 'contact-form');
-    update_post_meta($form_id, '_rudnikagro_source', 'figma:OwiDXrKMVcaHKB9ryYF6mY');
+    update_post_meta($form_id, '_rudnikagro_source', 'figma:XBiSgFXDfm5YsZSm4lWBUq');
     $summary['posts']++;
     return (int) $form_id;
 }
@@ -923,14 +2603,19 @@ function ra_create_product_inquiry_form(array $by_name): int {
     return (int) $form_id;
 }
 
+if (empty($page_ids['contact'])) {
+    $existing_contact_page = get_page_by_path('kontakt', OBJECT, 'page');
+    if ($existing_contact_page) { $page_ids['contact'] = (int) $existing_contact_page->ID; }
+}
 if (!empty($page_ids['contact'])) {
     $contact_id = (int) $page_ids['contact'];
-    if (get_post_meta($contact_id, '_wp_page_template', true) === '') { update_post_meta($contact_id, '_wp_page_template', 'template-contact.php'); }
+    if (get_post_meta($contact_id, '_wp_page_template', true) === '' && is_file($theme . '/template-contact.php')) {
+        update_post_meta($contact_id, '_wp_page_template', 'template-contact.php');
+    }
     $form_id = ra_create_contact_form($by_name);
     if (get_post_meta($contact_id, 'rudnikagro_contact_heading_title', true) === '') {
         update_field('field_ra_contact_heading', [
             'title' => ra_string_source($by_name, 'rudnikagro_contact_heading_title'),
-            'breadcrumb' => ra_string_source($by_name, 'rudnikagro_contact_heading_breadcrumb'),
             'image' => ra_import_attachment($snapshot, 'assets/contact/contact-heading-335-702.png', 'rudnikagro_contact_heading_image'),
         ], $contact_id);
     }
@@ -948,57 +2633,91 @@ if (!empty($page_ids['contact'])) {
     if (get_post_meta($contact_id, 'rudnikagro_contact_form_presentation_heading', true) === '') {
         update_field('field_ra_contact_form_presentation', [
             'heading' => ra_string_source($by_name, 'rudnikagro_contact_form_heading'),
-            'name_label' => ra_string_source($by_name, 'rudnikagro_contact_form_name_label'),
-            'email_label' => ra_string_source($by_name, 'rudnikagro_contact_form_email_label'),
-            'phone_label' => ra_string_source($by_name, 'rudnikagro_contact_form_phone_label'),
-            'message_label' => ra_string_source($by_name, 'rudnikagro_contact_form_message_label'),
-            'submit_label' => ra_string_source($by_name, 'rudnikagro_contact_form_submit_label'),
-            'privacy_notice' => ra_string_source($by_name, 'rudnikagro_contact_form_privacy_notice'),
+            'name_label' => ra_string_source($by_name, 'emko_contact_overview_name_placeholder_125_2358'),
+            'email_label' => ra_string_source($by_name, 'emko_contact_overview_email_placeholder_125_2365'),
+            'phone_label' => ra_string_source($by_name, 'emko_contact_overview_phone_placeholder_125_2367'),
+            'message_label' => ra_string_source($by_name, 'emko_contact_overview_message_placeholder_125_2361'),
+            'submit_label' => ra_string_source($by_name, 'emko_contact_overview_submit_label_125_2372'),
+            'privacy_notice' => ra_string_source($by_name, 'emko_contact_overview_privacy_consent_125_2369'),
         ], $contact_id);
     }
     if (get_post_meta($contact_id, 'rudnikagro_contact_form', true) === '' && $form_id) { update_field('field_ra_contact_form', $form_id, $contact_id); }
     if (get_post_meta($contact_id, 'rudnikagro_contact_map_image', true) === '') {
-        update_field('field_ra_contact_map', ra_import_attachment($snapshot, 'assets/contact/contact-map-431-924.png', 'rudnikagro_contact_map_image'), $contact_id);
+        $map_id = ra_import_attachment($snapshot, 'assets/contact-form/form-input-125-2374.png', 'rudnikagro_contact_map_image');
+        if ($map_id) {
+            update_post_meta($map_id, '_rudnikagro_source_node', '125:2374');
+            update_post_meta($map_id, 'data-factory-source-node', '125:2374');
+            update_post_meta($map_id, 'data-factory-section', 'contact-form');
+            update_field('field_ra_contact_map', $map_id, $contact_id);
+        }
+    }
+    if (get_post_meta($contact_id, 'rudnikagro_contact_map_marker', true) === '') {
+        $marker_id = ra_import_attachment($snapshot, 'assets/contact-form/objects-125-2375.svg', 'emko_contact_form_map_marker_125_2375');
+        if ($marker_id) {
+            update_post_meta($marker_id, '_rudnikagro_source_node', '125:2375');
+            update_post_meta($marker_id, 'data-factory-source-node', '125:2375');
+            update_post_meta($marker_id, 'data-factory-section', 'contact-form');
+            update_post_meta($contact_id, 'rudnikagro_contact_map_marker', $marker_id);
+        }
     }
 }
 
-if (!empty($page_ids['catalogues'])) {
-    $catalogues_id = (int) $page_ids['catalogues'];
+if (!empty($page_ids['catalogues']) || get_page_by_path('katalogi', OBJECT, 'page')) {
+    $catalogues_id = !empty($page_ids['catalogues']) ? (int) $page_ids['catalogues'] : ra_scoped_catalogues_page_id();
     if (get_post_meta($catalogues_id, '_wp_page_template', true) === '') { update_post_meta($catalogues_id, '_wp_page_template', 'page-catalogues.php'); }
     if (get_post_meta($catalogues_id, 'rudnikagro_catalogues_banner_title', true) === '') {
-        $banner_id = ra_import_attachment($snapshot, 'assets/catalogues/catalogues-heading-background.png', 'rudnikagro_catalogues_media_347_1230');
         update_field('field_ra_catalogues_banner', [
-            'title' => ra_string_source($by_name, 'rudnikagro_catalogues_347_1231'),
-            'breadcrumb' => ra_structured_text_source($by_name, 'rudnikagro_catalogues_347_1121'),
-            'image' => $banner_id,
+            'title' => ra_string_source($by_name, 'rudnikagro_catalogues_347_1231') ?: 'Foldery i katalogi fabryczne do pobrania w formacie PDF',
+            'image' => 0,
         ], $catalogues_id);
     }
     if (get_post_meta($catalogues_id, 'rudnikagro_catalogues', true) === '') {
         $catalogues = [
             [
-                'title' => ra_string_source($by_name, 'rudnikagro_catalogues_349_1240'),
-                'cover' => ra_import_attachment($snapshot, 'assets/catalogues/catalogue-agriculture-cover.png', 'rudnikagro_catalogues_media_349_1262'),
-                'background' => ra_import_attachment($snapshot, 'assets/catalogues/catalogues-agriculture-background.png', 'rudnikagro_catalogues_media_347_1236'),
-                'pdf_label' => ra_string_source($by_name, 'rudnikagro_catalogues_349_1253'),
+                'title' => ra_string_source($by_name, 'emko_catalogues_primary_card_1_title_125_2522'),
+                'cover' => ra_import_attachment($snapshot, 'assets/catalogues-primary/asset-125-2509.png', 'rudnikagro_catalogues_primary_media_125_2509'),
+                'pdf_label' => ra_string_source($by_name, 'emko_catalogues_primary_card_1_download_label_125_2527'),
                 'pdf' => 0,
-                'online_label' => ra_string_source($by_name, 'rudnikagro_catalogues_431_933'),
-                'online_url' => '',
             ],
             [
-                'title' => ra_string_source($by_name, 'rudnikagro_catalogues_349_1242'),
-                'cover' => ra_import_attachment($snapshot, 'assets/catalogues/catalogue-orchard-cover.png', 'rudnikagro_catalogues_media_349_1263'),
-                'background' => ra_import_attachment($snapshot, 'assets/catalogues/catalogues-orchard-background.png', 'rudnikagro_catalogues_media_347_1237'),
-                'pdf_label' => ra_string_source($by_name, 'rudnikagro_catalogues_349_1255'),
+                'title' => ra_string_source($by_name, 'emko_catalogues_primary_card_2_title_125_2523'),
+                'cover' => ra_import_attachment($snapshot, 'assets/catalogues-primary/asset-125-2513.png', 'rudnikagro_catalogues_primary_media_125_2513'),
+                'pdf_label' => ra_string_source($by_name, 'emko_catalogues_primary_card_2_download_label_125_2530'),
                 'pdf' => 0,
-                'online_label' => ra_string_source($by_name, 'rudnikagro_catalogues_431_938'),
-                'online_url' => '',
+            ],
+            [
+                'title' => ra_string_source($by_name, 'emko_catalogues_primary_card_3_title_125_2524'),
+                'cover' => ra_import_attachment($snapshot, 'assets/catalogues-primary/asset-125-2517.png', 'rudnikagro_catalogues_primary_media_125_2517'),
+                'pdf_label' => ra_string_source($by_name, 'emko_catalogues_primary_card_3_download_label_125_2533'),
+                'pdf' => 0,
+            ],
+            [
+                'title' => ra_string_source($by_name, 'emko_catalogues_primary_card_4_title_125_2525'),
+                'cover' => ra_import_attachment($snapshot, 'assets/catalogues-primary/asset-125-2539.png', 'rudnikagro_catalogues_primary_media_125_2539'),
+                'pdf_label' => ra_string_source($by_name, 'emko_catalogues_primary_card_4_download_label_125_2536'),
+                'pdf' => 0,
             ],
         ];
         update_field('field_ra_catalogues_cards', $catalogues, $catalogues_id);
     }
-    if (get_post_meta($catalogues_id, 'rudnikagro_catalogues_shop_cta_heading', true) === '') {
-        // Exact strings are visually captured in the assigned frozen catalogue frame 347:1120.
-        update_field('field_ra_catalogues_cta', ['heading' => 'Odkryj szeroki wybór produktów w naszym sklepie', 'button_label' => 'Sprawdź ofertę'], $catalogues_id);
+    $catalogues_cards = function_exists('get_field') ? get_field('rudnikagro_catalogues', $catalogues_id) : [];
+    if (is_array($catalogues_cards)) {
+        $catalogue_media = [
+            ['assets/catalogues-primary/asset-125-2509.png', 'rudnikagro_catalogues_primary_media_125_2509'],
+            ['assets/catalogues-primary/asset-125-2513.png', 'rudnikagro_catalogues_primary_media_125_2513'],
+            ['assets/catalogues-primary/asset-125-2517.png', 'rudnikagro_catalogues_primary_media_125_2517'],
+            ['assets/catalogues-primary/asset-125-2539.png', 'rudnikagro_catalogues_primary_media_125_2539'],
+        ];
+        $catalogues_changed = false;
+        foreach ($catalogue_media as $index => [$asset, $field_name]) {
+            if (!isset($catalogues_cards[$index]) || !empty($catalogues_cards[$index]['cover'])) { continue; }
+            $catalogues_cards[$index]['cover'] = ra_import_attachment($snapshot, $asset, $field_name);
+            $catalogues_changed = true;
+        }
+        if ($catalogues_changed) { update_field('field_ra_catalogues_cards', $catalogues_cards, $catalogues_id); }
+    }
+    if (get_post_meta($catalogues_id, 'rudnikagro_catalogues_download_icon', true) === '') {
+        update_field('field_ra_catalogues_download_icon', ra_import_attachment($snapshot, 'assets/catalogues-primary/asset-125-2528.png', 'rudnikagro_catalogues_primary_download_icon_125_2528'), $catalogues_id);
     }
 }
 
@@ -1020,14 +2739,6 @@ if ($article_title !== '') {
     ra_update_owned_source_content($post_id, $article_content_raw, $article_content);
     $hero = ra_source_field($by_name, 'rudnikagro_blog_article_heading_featured_image');
     if ($hero && !get_post_thumbnail_id($post_id)) { set_post_thumbnail($post_id, ra_import_attachment($snapshot, $hero['value'], 'rudnikagro_blog_article_heading_featured_image')); }
-    if (get_post_meta($post_id, 'rudnikagro_blog_article_header', true) === '') {
-        update_field('field_ra_blog_article_header', [
-            'banner_label' => ra_string_source($by_name, 'rudnikagro_blog_article_heading_banner_label'),
-            'breadcrumb' => ra_string_source($by_name, 'rudnikagro_blog_article_heading_breadcrumb'),
-            'banner' => ra_import_attachment($snapshot, 'assets/blog/blog-article-banner-327-3287.png', 'rudnikagro_blog_article_heading_banner'),
-        ], $post_id);
-    }
-    if (get_post_meta($post_id, 'rudnikagro_blog_article_return_label', true) === '') { update_field('field_ra_blog_return_label', ra_string_source($by_name, 'rudnikagro_blog_article_return_label'), $post_id); }
 }
 
 $blog_cards_field = ra_source_field($by_name, 'rudnikagro_blog_post_list_items');
@@ -1045,21 +2756,18 @@ foreach ($blog_cards as $card_index => $card) {
     ], 'blog-card-' . str_replace(':', '-', $node_id));
     $blog_post_ids[$node_id] = $card_post_id;
     if (!metadata_exists('post', $card_post_id, '_rudnikagro_blog_source_order')) { update_post_meta($card_post_id, '_rudnikagro_blog_source_order', (int) $card_index + 1); }
-    if (get_post_meta($card_post_id, 'rudnikagro_blog_card_date', true) === '') { update_field('field_ra_blog_card_date', $date, $card_post_id); }
-    if (get_post_meta($card_post_id, 'rudnikagro_blog_card_label', true) === '') { update_field('field_ra_blog_card_label', ra_blog_card_string($card, 'label'), $card_post_id); }
-    if (get_post_meta($card_post_id, 'rudnikagro_blog_card_image', true) === '') { update_field('field_ra_blog_card_image', ra_import_attachment($snapshot, $image, 'rudnikagro_blog_card_image_' . str_replace(':', '-', $node_id)), $card_post_id); }
-}
-if (isset($post_id) && get_post_meta($post_id, 'rudnikagro_blog_related_heading', true) === '') {
-    $related = [];
-    foreach (['327:3116', '327:3117', '327:3118'] as $node_id) { if (isset($blog_post_ids[$node_id])) { $related[] = ['post' => $blog_post_ids[$node_id]]; } }
-    update_field('field_ra_blog_related_heading', ra_string_source($by_name, 'rudnikagro_blog_related_posts_heading'), $post_id);
-    update_field('field_ra_blog_related_posts', $related, $post_id);
+    if (!get_post_thumbnail_id($card_post_id)) { set_post_thumbnail($card_post_id, ra_import_attachment($snapshot, $image, 'rudnikagro_blog_card_image_' . str_replace(':', '-', $node_id))); }
 }
 if (!ra_is_populated_option('rudnikagro_blog_archive_header')) {
+    // The current frozen archive-section record starts at the cards. Its
+    // source reference still supplies the compact heading copy, but contains
+    // no separately exported heading fields or banner asset.
+    $archive_banner_label = ra_string_source($by_name, 'rudnikagro_blog_archive_heading_banner_label');
     update_field('field_ra_blog_archive_header', [
-        'banner_label' => ra_string_source($by_name, 'rudnikagro_blog_archive_heading_banner_label'),
-        'breadcrumb' => ra_string_source($by_name, 'rudnikagro_blog_archive_heading_breadcrumb'),
-        'banner' => ra_import_attachment($snapshot, 'assets/blog/blog-archive-banner-327-3097.png', 'rudnikagro_blog_archive_heading_banner'),
+        'banner_label' => $archive_banner_label !== '' ? $archive_banner_label : 'Blog',
+        // Keep this editor field empty until an actual source export is
+        // available; the source variant uses its neutral CSS surface.
+        'banner' => 0,
     ], 'option');
 }
 
@@ -1160,9 +2868,6 @@ if (class_exists('WooCommerce')) {
         $image_id = ra_import_attachment($snapshot, $config['gallery'], $config['gallery_key']);
         if (!get_post_thumbnail_id($id)) { set_post_thumbnail($id, $image_id); }
         ra_update_empty_product_field($id, 'rudnikagro_product_gallery', [$image_id]);
-        $tab_labels = [];
-        foreach ($tab_values as $item) { if (preg_match('/_tab_[1-5]_/', $item['name'])) { $tab_labels[] = $item['value']; } }
-        ra_update_empty_product_field($id, 'rudnikagro_product_labels', ['breadcrumb' => $title, 'details' => ra_first_matching_value($overview, 'Kod produktu'), 'wholesale' => ra_first_matching_value($overview, 'hurtow'), 'favorite' => ra_first_matching_value($overview, 'ulubion'), 'tabs' => implode("\n", $tab_labels)]);
         $technical_source = array_values(array_filter($tab_values, static fn($item) => !preg_match('/_tab_[1-5]_/', $item['name'])));
         $technical = [];
         for ($index = 0; $index < count($technical_source); $index += 2) { $technical[] = ['label' => $technical_source[$index]['value'], 'value' => $technical_source[$index + 1]['value'] ?? '']; }
@@ -1347,7 +3052,11 @@ if (class_exists('WooCommerce')) {
             update_field('field_ra_product_icons', ['favorite_icon' => $favorite_icon, 'download_icon' => 0], $aquatos_id);
         }
     }
+    ra_import_product_related_cards($fields, $snapshot);
 }
+
+ra_import_product_detail_content($snapshot);
+ra_import_product_gallery_content($snapshot);
 
 /* Product archive: native category records, source-owned card products and editable UI. */
 if (function_exists('wc_get_product') && function_exists('update_field')) {
@@ -1378,7 +3087,6 @@ if (function_exists('wc_get_product') && function_exists('update_field')) {
     }
 
     $archive_option_values = [
-        ['field_ra_archive_breadcrumbs', 'breadcrumbs', ra_source_value_by_node($by_name, '295:700')],
         ['field_ra_archive_expand', 'expand_label', ra_source_value_by_node($by_name, '420:4')],
         ['field_ra_archive_sort', 'sort_label', ra_source_value_by_node($by_name, '295:744')],
         ['field_ra_archive_categories', 'filter_categories', ra_source_value_by_node($by_name, '304:1407')],

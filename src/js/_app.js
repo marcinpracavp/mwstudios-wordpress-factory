@@ -18,12 +18,9 @@ class App {
             delay: 0, // Opóźnienie w ms
             anchorPlacement: 'top-bottom', // Punkt zakotwiczenia
             disable: function() {
-                // Wyłącz na urządzeniach mobilnych jeśli chcesz
-                return window.innerWidth < 768;
+                return window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
             }
         });
-        
-        console.log('AOS zainicjalizowane');
     }
     
     /**
@@ -43,6 +40,29 @@ class App {
             }
         }
     }
+
+    /**
+     * Keeps the shared desktop and mobile header visible while scrolling.
+     */
+    initStickyHeader() {
+        const headerElement = document.querySelector('.l-header');
+        if (!headerElement) return;
+
+        let isTicking = false;
+        const updateHeaderState = () => {
+            headerElement.classList.toggle('is-sticky', window.scrollY > 4);
+            isTicking = false;
+        };
+
+        const onScroll = () => {
+            if (isTicking) return;
+            isTicking = true;
+            window.requestAnimationFrame(updateHeaderState);
+        };
+
+        updateHeaderState();
+        window.addEventListener('scroll', onScroll, { passive: true });
+    }
     
     /**
      * Init viewer.js
@@ -51,8 +71,32 @@ class App {
         const lightBoxes = document.querySelectorAll('.viewer-js');
         if (lightBoxes.length > 0 && typeof window.Viewer === 'function') {
             lightBoxes.forEach(lightBox => {
+                const images = Array.from(lightBox.querySelectorAll('[data-product-gallery-image]'));
                 const viewer = new Viewer(lightBox, {
                     title: false,
+                    className: 'c-product-lightbox',
+                    navbar: images.length > 1,
+                    toolbar: {
+                        zoomIn: 1,
+                        zoomOut: 1,
+                        oneToOne: 1,
+                        reset: 1,
+                        prev: images.length > 1 ? 1 : 0,
+                        next: images.length > 1 ? 1 : 0,
+                    },
+                });
+
+                lightBox.addEventListener('keydown', (event) => {
+                    if (!['Enter', ' '].includes(event.key)) return;
+
+                    const image = event.target.closest('[data-product-gallery-image]');
+                    if (!image || !lightBox.contains(image)) return;
+
+                    const imageIndex = images.indexOf(image);
+                    if (imageIndex < 0) return;
+
+                    event.preventDefault();
+                    viewer.view(imageIndex);
                 });
             });
         } else {
@@ -107,6 +151,28 @@ class App {
             item.setAttribute('aria-pressed', 'true');
         }));
     }
+
+    initProductInquiry() {
+        const inquiryLinks = document.querySelectorAll('[data-product-inquiry-subject]');
+        const subjectField = document.querySelector('[data-footer-inquiry-subject]');
+        const messageField = document.querySelector('#footer-contact-form [name="footer_question"]');
+
+        if (!inquiryLinks.length) return;
+
+        inquiryLinks.forEach((link) => {
+            link.addEventListener('click', () => {
+                const inquirySubject = link.dataset.productInquirySubject || '';
+
+                if (subjectField) {
+                    subjectField.value = inquirySubject;
+                }
+
+                if (messageField) {
+                    messageField.value = inquirySubject;
+                }
+            });
+        });
+    }
     
     /**
      * Execute on page ready
@@ -123,9 +189,11 @@ class App {
     init() {
         this.initAos();
         this.initHeadroom();
+        this.initStickyHeader();
         this.initViewer();
         this.activeClassToggler();
         this.initPrimaryMenu();
+        this.initProductInquiry();
         this.pageReady();
     }
 }

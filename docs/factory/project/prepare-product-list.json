@@ -1,0 +1,57 @@
+{
+  "task": "prepare-product-list",
+  "route": "product-list",
+  "status": "prepared",
+  "cause": {
+    "type": "unavailable-route",
+    "canonical": "http://wordpress/produkty/",
+    "observed": "With the Docker permalink structure empty, the canonical alias returns the home/blog template instead of the published Produkty page.",
+    "excluded": [
+      "missing session data",
+      "absent product-list section",
+      "missing genuine product input"
+    ]
+  },
+  "sourceDependencies": {
+    "page": {
+      "id": 185,
+      "postType": "page",
+      "slug": "produkty",
+      "status": "publish",
+      "nativeRoute": "/?pagename=produkty"
+    },
+    "plugins": [
+      "advanced-custom-fields-pro",
+      "contact-form-7",
+      "woocommerce"
+    ],
+    "productListItems": [
+      { "id": 14, "title": "General Purpose Cylinders", "route": "product-list-items" },
+      { "id": 16, "title": "General Purpose Cylinders", "route": "product-list-items" },
+      { "id": 18, "title": "General Purpose Cylinders", "route": "product-list-items" },
+      { "id": 20, "title": "General Purpose Cylinders", "route": "product-list-items" }
+    ]
+  },
+  "preparation": {
+    "hook": "scripts/factory/project/qa-state.js",
+    "fallback": "/?pagename=produkty",
+    "idempotent": true,
+    "nativeControlsOnly": true,
+    "businessHistoryCreated": false,
+    "browserProbe": {
+      "status": 200,
+      "routeSkeletonCount": 1,
+      "productCardCount": 4,
+      "repeatInvocationStable": true
+    }
+  },
+  "evidence": [
+    "prepare-product-list-native-probe.json",
+    "product-list-http-headers.log",
+    "product-list-slug-http-headers.log",
+    "product-list-prepare-browser-probe.json",
+    "scripts/factory/project/qa-state.js",
+    "page-produkty.php",
+    "partials/route-skeleton.php"
+  ]
+}

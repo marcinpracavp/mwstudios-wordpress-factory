@@ -37,7 +37,7 @@ the same run. It refuses a changed init identity or an active parent/worker. Fai
 visible, with a `REPORT.md` that explicitly says `Ready for human review: NO`.
 
 `factory:autopilot -- plan` prints the configuration without creating a site or starting a worker.
-`check` reads the actual LocalWP home option and verifies it matches the configured host.
+`check` reads the actual WordPress home option and verifies it matches the runtime host.
 
 ## Prerequisites and limits
 
@@ -133,8 +133,8 @@ field names/types/return formats/group locations. Foundation implements shared p
 ACF Local JSON, actual native content routing and the idempotent importer. Each buildGroup
 then gets one independent build session with only its sections and shared design system.
 
-The worker uses `node scripts/factory/autopilot/wp.js <arguments>`: PHP and php.ini are resolved
-from this checkout's LocalWP registration. No IDs, database settings or WP roots from old sites.
+The worker uses `node scripts/factory/autopilot/wp.js <arguments>`: on Windows, PHP and php.ini
+come from this checkout's LocalWP registration; Docker uses the app container's WP-CLI. No IDs, database settings or WP roots from old sites.
 All content comes from real Figma/approved native sources. Install required plugins when missing.
 Never reset the database, overwrite unrelated records, or reimport editor changes on resume.
 Before the source is frozen, the host reconciles discovery bookkeeping: stable manifest-array
@@ -279,3 +279,69 @@ Reused areas have their own pixel ownership, original comparison link and no dup
 crop artifacts. Different crops, geometry, thresholds or altered historical evidence
 invalidate reuse. Raw full-page diff remains diagnostic. No Figma raster redownload
 is performed. Scope changes invalidate stagnation history to avoid mixing scores.
+
+## Codespaces / Docker runtime
+
+Windows + LocalWP keeps its existing registry, PHP/ini and WP-CLI PHAR discovery.
+Without an override, the development URL remains `factory/project.json` →
+`environment.localUrl`. `FACTORY_RUNTIME=localwp` explicitly selects that mode.
+
+Linux + Codespaces uses the existing Compose app, WordPress and database services.
+Rebuild the devcontainer after changing Compose configuration. The app receives:
+
+- `FACTORY_RUNTIME=docker` (also detected from `CODESPACES=true` when unset).
+- `FACTORY_WP_ROOT=/wordpress`.
+- `FACTORY_LOCAL_URL=http://wordpress`, taking precedence over the project manifest.
+- `WORDPRESS_DB_HOST`, `WORDPRESS_DB_USER`, `WORDPRESS_DB_PASSWORD`, `WORDPRESS_DB_NAME`
+  for the existing Docker wp-config.php; the JS wrapper contains no DB credentials.
+
+`.devcontainer/post-create.sh` installs missing PHP extensions, the MySQL client,
+WP-CLI at `/usr/local/bin/wp`, npm dependencies and only Chromium from the installed
+playwright-core CLI. Rerunning the setup is safe. ACLs on plugins/uploads/upgrade
+allow both vscode and www-data to write, without changing core ownership or using 777.
+The app resolves the theme through a symlink to `/workspace`; Apache retains its bind mount.
+`FACTORY_WP_CLI_PATH` can override the executable (a PHAR in LocalWP mode).
+`FACTORY_BROWSER_PATH` overrides browser discovery; system Chrome/Edge/Chromium
+remain preferred over the installed Playwright browser. Browser paths are checked for executability.
+
+Install WordPress first, then run explicitly (setup never installs or resets the database):
+
+```bash
+npm run factory:codespaces:bootstrap
+npm run factory:autopilot -- plan
+npm run factory:autopilot:check
+# Start only when ready:
+npm run factory:autopilot
+```
+
+Bootstrap refuses LocalWP, checks the database through `wp core is-installed`, sets
+home/siteurl to `http://wordpress`, and activates/installs only enabled plugin capabilities.
+ACF Pro must be supplied under your license: missing private files stop with
+`ACF_PRO_MISSING`; bootstrap never downloads them. Existing ACF Pro is activated and checked.
+Enabled WooCommerce, Contact Form 7 and Polylang can be installed from WordPress.org.
+
+Internal Factory/Playwright requests use Docker DNS `http://wordpress`. The human
+browser uses the forwarded Codespaces HTTPS URL; the existing forwarded-host/protocol
+handling in wp-config remains intact. No Codespace name belongs in the manifest.
+
+Codex CLI must be installed and signed in. Figma MCP needs its own OAuth login;
+a working `FIGMA_TOKEN` for REST exports does not authenticate MCP. In a fresh
+Codespace, complete the browser authorization before starting Autopilot:
+
+```bash
+codex -c 'mcp_servers.figma.url="https://mcp.figma.com/mcp"' mcp login figma
+```
+
+Workers retain `--ignore-user-config`; only source-extraction tasks attach the configured
+`https://mcp.figma.com/mcp`. Codex 0.155.1 documents that auth still uses CODEX_HOME
+with this flag, so no additional auth flag or copied credentials are needed.
+REST exports read only `process.env.FIGMA_TOKEN`. Store that secret outside the repository,
+for example `~/.config/mwstudios-factory/secrets.env` with mode 600, and load it with:
+
+```bash
+source "$HOME/.config/mwstudios-factory/secrets.env"
+```
+
+Never put token values into project configuration or Autopilot artifacts.
+Docker-in-Docker is retained. Factory currently uses native tools and Docker DNS;
+removing that feature is a possible separate simplification, not part of this adaptation.

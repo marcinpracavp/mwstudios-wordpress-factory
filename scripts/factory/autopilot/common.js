@@ -60,6 +60,29 @@ function resolveCodex() {
   if (!found.length) throw new Error('CODEX_UNAVAILABLE: set FACTORY_CODEX_PATH to a native Codex executable.');
   return found[0];
 }
+function resolveRuntime(env = process.env) {
+  const mode = env.FACTORY_RUNTIME || (env.CODESPACES === 'true' ? 'docker' : 'localwp');
+  if (!['docker', 'localwp'].includes(mode)) throw new Error(`Unsupported FACTORY_RUNTIME: ${mode}`);
+  return mode;
+}
+function resolveLocalUrl(project, env = process.env) {
+  return env.FACTORY_LOCAL_URL || project.environment?.localUrl;
+}
+function resolveWordPressRoot(env = process.env, checkout = ROOT, io = fs) {
+  if (resolveRuntime(env) === 'docker') return path.resolve(env.FACTORY_WP_ROOT || '/wordpress');
+  let root = path.resolve(env.FACTORY_WP_ROOT || checkout);
+  while (!io.existsSync(path.join(root, 'wp-load.php'))) {
+    const parent = path.dirname(root);
+    if (parent === root) throw new Error('WordPress root not found in checkout ancestry');
+    root = parent;
+  }
+  return root;
+}
+function resolveWpContent(env = process.env, checkout = ROOT) {
+  return resolveRuntime(env) === 'docker'
+    ? path.join(resolveWordPressRoot(env, checkout), 'wp-content')
+    : path.resolve(checkout, '../..');
+}
 async function* jsonlLines(file) {
   let buffer = '';
   for await (const chunk of fs.createReadStream(file, { encoding: 'utf8' })) {
@@ -72,4 +95,4 @@ async function* jsonlLines(file) {
   }
   if (buffer.length) yield buffer;
 }
-module.exports = { ROOT, CACHE, SNAPSHOT, read, write, hash, inside, files, fingerprint, engineFingerprint, alive, resolveCodex, jsonlLines };
+module.exports = { ROOT, CACHE, SNAPSHOT, read, write, hash, inside, files, fingerprint, engineFingerprint, alive, resolveCodex, jsonlLines, resolveRuntime, resolveLocalUrl, resolveWordPressRoot, resolveWpContent };

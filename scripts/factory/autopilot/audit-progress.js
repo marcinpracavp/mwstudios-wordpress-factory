@@ -4,7 +4,7 @@ const path = require('path');
 const {ROOT, SNAPSHOT, read, write, inside, hash, fingerprint} = require('./common');
 const rel = file => path.relative(ROOT,file).replaceAll('\\','/');
 const digest = file => hash(fs.readFileSync(file));
-const VERSION = 1;
+const VERSION = 2;
 function binding() {
   return {version:VERSION,implementationHash:fingerprint(),sourceHash:require('./visual').sourceHash(),
     thresholds:read(path.join(ROOT,'factory/autopilot.json')).visual,
@@ -51,23 +51,18 @@ function initialize(runDir,comparisonFile,round) {
   if(fs.existsSync(file)) { ledger(rel(file)); write(current,{ledger:rel(file)}); return rel(file); }
   const summary=read(inside(ROOT,comparisonFile));
   if(summary.implementationHash!==bound.implementationHash || summary.sourceHash!==bound.sourceHash || !same(summary.thresholds,bound.thresholds)) throw Error('AUDIT_CAPTURE_STALE');
-  const manifest=require('./source-geometry').resolveManifest(), units=[], shared=[], sharedKeys=new Set();
+  const manifest=require('./source-geometry').resolveManifest(), units=[];
   for(const route of [...summary.routes].sort((a,b)=>Number(!!manifest.routes.find(r=>r.id===a.id)?.state)-Number(!!manifest.routes.find(r=>r.id===b.id)?.state))) {
-    const comparison=read(inside(ROOT,route.comparison)), items=[];
-    for(const g of comparison.geometry || []) {
-      const crop=(comparison.pixels?.crops || []).find(c=>c.id===g.id);
-      const item={id:`section:${g.id}`,kind:'visual',section:g.id,route:route.id,comparison:route.comparison,owner:g.owner};
-      if(g.owner==='header'||g.owner==='footer'||g.owner==='shared') {
-        const ref=path.join(path.dirname(inside(ROOT,route.comparison)),`${g.id}-reference.png`);
-        const sourceKey=hash(JSON.stringify([g.id,g.expected?.width,g.expected?.height,fs.existsSync(ref)?digest(ref):null]));
-        if(!sharedKeys.has(sourceKey)) {sharedKeys.add(sourceKey);shared.push({...item,id:`shared:${sourceKey.slice(0,16)}`});}
-      } else if(g.owner==='page' && !g.reused) items.push(item);
-    }
-    items.push({id:'responsive',kind:'responsive',route:route.id,comparison:route.comparison},
-      {id:'interactions',kind:'interactions',route:route.id,comparison:route.comparison});
+    const items=[
+      // The full frame is the primary visual gate. Section audits are added
+      // only after this review fails, keeping healthy routes out of an
+      // expensive component-by-component review.
+      {id:'full-page',kind:'full-page',route:route.id,comparison:route.comparison},
+      {id:'responsive',kind:'responsive',route:route.id,comparison:route.comparison},
+      {id:'interactions',kind:'interactions',route:route.id,comparison:route.comparison}
+    ];
     units.push({id:`route-${route.id}`,routes:[route.id],items});
   }
-  if(shared.length) units.unshift({id:'shared-components',routes:[...new Set(shared.map(i=>i.route))],items:shared});
   units.push({id:'native-integrations',routes:manifest.routes.map(r=>r.id),items:[
     {id:'commerce',kind:'native',description:'Source products, prices/variations, taxonomy, source reviews and native relations.'},
     {id:'editable-content',kind:'native',description:'ACF content and replaceable SVG fields; required plugin integrations and retained external dependencies.'}
@@ -110,6 +105,23 @@ function saveItem(file,unitId,itemId,inputFile) {
     write(`${target}.invalidated-${Date.now()}.json`,previous);
   }
   write(target,record);
+  // Escalate only a failed whole-page review to the failing page-owned
+  // regions already measured by the host. This avoids paying for every
+  // section on every route, while still giving the reviewer a narrow,
+  // source-bound packet when the whole composition genuinely disagrees.
+  if(item.kind==='full-page' && input.status==='needs_work') {
+    const comparison=read(inside(ROOT,item.comparison));
+    const existing=new Set(unit.items.map(candidate=>candidate.id));
+    const escalations=(comparison.geometry || [])
+      .filter(geometry=>geometry.owner==='page' && !geometry.reused && !geometry.passed)
+      .map(geometry=>({id:`section:${geometry.id}`,kind:'visual',section:geometry.id,route:item.route,comparison:item.comparison,owner:geometry.owner}))
+      .filter(candidate=>!existing.has(candidate.id));
+    if(escalations.length) {
+      const index=unit.items.findIndex(candidate=>candidate.id===item.id);
+      unit.items.splice(index + 1,0,...escalations);
+      write(inside(ROOT,file),state);
+    }
+  }
   console.log(`AUDIT CHECKPOINT ${unitId}/${itemId}: ${input.status}`);
 }
 function packet(file,unitId,limit = Infinity) {

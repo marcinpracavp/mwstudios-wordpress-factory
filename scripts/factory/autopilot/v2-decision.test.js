@@ -9,16 +9,26 @@ test('byte guard is independent from token limit and prevents oversized individu
   assert.equal(exceeded({observedBytes:102120,outputBytes:1000,itemBytes:12000,budget}),false);
   assert.equal(exceeded({observedBytes:270000,outputBytes:1000,itemBytes:235000,budget}),true);
 });
-test('product/listing batches have <=3 products, distinct identities and per-task limits',()=>{
+test('content batches combine small sections while retaining exact record identities and limits',()=>{
   const fields=Array.from({length:11},(_,i)=>({type:'product',language:'pl',nodeId:`n${i}`,fieldName:'card',section:'listing'}));
   const plan=require('./content-batches').plan({fields},{routes:[{id:'shop',sections:['listing']}]});
   assert.equal(new Set(plan.map(t=>t.id)).size,plan.length);
-  for(const t of plan){assert.ok(t.contentRecords.length<=3);assert.equal(t.budget.maxUncachedTokens,100000);}
+  for(const t of plan){assert.ok(t.contentRecords.length<=6);assert.equal(t.budget.maxUncachedTokens,400000);assert.equal(t.budget.maxOutputTokens,50000);}
   assert.equal(plan.filter(t=>t.class==='product-import').flatMap(t=>t.contentKeys).length,11);
   assert.equal(plan.filter(t=>t.class==='listing-bind').flatMap(t=>t.contentKeys).length,11);
   const shuffled=require('./content-batches').plan({fields:[...fields].reverse()},{routes:[]});
   assert.deepEqual(plan.filter(t=>t.class==='product-import').map(t=>t.id),shuffled.filter(t=>t.class==='product-import').map(t=>t.id));
   assert.throws(()=>routeTask(config,{id:'batch',class:'product-import'},[{usage:{input_tokens:120000,cached_input_tokens:30000,output_tokens:10000}}]),/UNCACHED_BUDGET/);
+  const compact=require('./content-batches').plan({fields:[
+    {type:'text',language:'pl',nodeId:'a',fieldName:'title',section:'header'},
+    {type:'text',language:'pl',nodeId:'b',fieldName:'title',section:'hero'}
+  ]},{routes:[]});
+  assert.equal(compact.filter(t=>t.class==='content-import').length,1);
+  assert.equal(compact[0].contentRecords.length,2);
+  assert.throws(()=>routeTask({...config,maxStageAttempts:2},{id:'retry-cap',class:'product-import'},[
+    {modelAlias:'luna',status:'needs_work',result:{status:'needs_work'}},
+    {modelAlias:'terra',status:'needs_work',result:{status:'needs_work'}}
+  ]),/TASK_ATTEMPTS_EXHAUSTED/);
 });
 test('responsive global overflow needs every route; inaccessible states never escalate to Terra',()=>{
   const rows=['a','b','c'].map(id=>({id,responsive:[{width:390,overflow:25}]}));
@@ -31,6 +41,16 @@ test('responsive global overflow needs every route; inaccessible states never es
   assert.equal(local.class,'local-section');assert.deepEqual(local.sections,['list']);
   const js=diagnose([{id:'home',errors:['TypeError: undefined']}])[0];
   assert.equal(routeTask(config,js).type,'interaction');
+});
+test('a scoped correction gets one Figma source-recovery turn after Luna and Terra',()=>{
+  const recovery=routeTask({...config,maxStageAttempts:2},{id:'round-2-section-20',class:undefined,type:'source-extraction',sourceRecovery:true,
+    sections:['product-list-menu'],budget:{maxAttempts:3}},[
+    {modelAlias:'luna',status:'needs_work',result:{status:'needs_work'}},
+    {modelAlias:'terra',status:'needs_work',result:{status:'needs_work'}}
+  ]);
+  assert.equal(recovery.type,'source-extraction');
+  assert.equal(recovery.alias,'luna');
+  assert.equal(recovery.budget.maxAttempts,3);
 });
 test('final audit invokes Sol once, repairs minor issues with Luna, recaptures and fails closed',async()=>{
   const dir=fs.mkdtempSync(path.join(os.tmpdir(),'factory-final-test-'));

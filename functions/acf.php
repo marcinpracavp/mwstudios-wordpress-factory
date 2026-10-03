@@ -23,6 +23,33 @@ if (function_exists('acf_add_options_sub_page')) {
 }
 
 /**
+ * Renders an ACF WYSIWYG value inside a heading element.
+ *
+ * The template owns the heading level (and therefore the document outline),
+ * while editors retain inline formatting such as bold, italics, links and
+ * line breaks from the full WYSIWYG toolbar. Block wrappers are removed to
+ * avoid invalid markup such as a paragraph nested inside an H1/H2.
+ */
+function emko_wysiwyg_heading($content): string
+{
+    $content = wp_kses_post((string) $content);
+    $content = preg_replace('/<\/?(?:p|div|h[1-6]|ul|ol|li|blockquote|pre|figure|figcaption)[^>]*>/iu', '', $content);
+
+    return trim((string) $content);
+}
+
+/** Render WYSIWYG content safely, retaining legacy plain-text values on first load. */
+function emko_wysiwyg_content($content): string
+{
+    $content = trim((string) $content);
+    if ($content !== '' && $content === wp_strip_all_tags($content)) {
+        $content = wpautop($content);
+    }
+
+    return wp_kses_post($content);
+}
+
+/**
  * Register google map api key
  */
 function my_acf_google_map_api($api)

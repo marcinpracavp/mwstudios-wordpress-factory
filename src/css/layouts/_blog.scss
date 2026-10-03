@@ -45,7 +45,7 @@
 
                     .page-numbers {
                         font-family: $base-font-family;
-                        font-weight: 800;
+                        font-weight: $font-weight-bold;
 
                         &.current {
                             color: $accent;

@@ -40,14 +40,23 @@ function prepareContext(stage, task, dir) {
   if (fs.existsSync(observationFile)) sources.push(descriptor(observationFile));
   const matchingObservations = observations.filter(o => !group && !requestedRoutes.size || (o.nodeIds || []).some(id => nodeIds.has(id)) || group && (o.description || '').toLowerCase().includes(group.toLowerCase()));
   const scopeFile = path.join(contextDir, 'scope.json');
+  const registryFile = path.join(ROOT, 'scripts/factory/project/component-registry.json');
+  const registry = fs.existsSync(registryFile) ? read(registryFile) : [];
+  const allBlueprints = require('./route-blueprint').build(m, content, registry);
+  const routeBlueprintFile = path.join(contextDir, 'route-blueprints.json');
+  write(routeBlueprintFile, { version: allBlueprints.version,
+    routes: allBlueprints.routes.filter(route => routes.some(item => item.id === route.id)),
+    reusablePatterns: allBlueprints.reusablePatterns.filter(pattern => pattern.uses.some(use => routes.some(route => route.id === use.route))) });
   write(scopeFile, { source: m.source, status: m.status, routes, stateFamilies, sections: sectionIndex, observations: matchingObservations,
+    canvasContradictions: task.scope === 'canvas-backfill' ? require('./canvas-audit').contradictions(m) : [],
+    topologyContradictions: task.scope === 'canvas-backfill' ? require('./canvas-audit').topologyContradictions(m) : [],
     frames: (m.frames || []).filter(f => nodeIds.has(f.nodeId)),
     globalFiles: ['design-system.json', 'components.json'].map(f => path.join(SNAPSHOT, f)).filter(f => fs.existsSync(f)).map(descriptor),
     lookup: 'Observation matches are an index, not a completeness claim. Use targeted rg or inspect JSON pointers for missing node IDs. Never dump the full source files.' });
   const indexFile = path.join(contextDir, 'index.json');
   const index = { version: CONTEXT_VERSION, stage, group, routes: routes.map(r => ({ id: r.id, frameNodeId: r.frameNodeId })),
     sectionCount: sectionIndex.length, contentRecordCount: sectionIndex.reduce((n, s) => n + s.contentRecords, 0),
-    relevantObservationCount: matchingObservations.length, sourceFiles: sources, scope: descriptor(scopeFile),
+    relevantObservationCount: matchingObservations.length, sourceFiles: sources, scope: descriptor(scopeFile), routeBlueprints: descriptor(routeBlueprintFile),
     read: `node scripts/factory/autopilot/source-context.js inspect ${relative(scopeFile)} /sections`,
     rule: 'Read this index first, then one section record and source snapshot at a time. Do not print full manifest/content-map/observation index. All source bytes remain on disk.' };
   write(indexFile, index);

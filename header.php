@@ -1,27 +1,16 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 
-<?php $acf_globals=get_fields('options'); ?>
-
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#4285f4">
+    <link rel="icon" href="<?php echo esc_url(get_theme_file_uri('assets/favicon.svg')); ?>" type="image/svg+xml">
     <?php wp_head(); ?>
-    <?php if(isset($acf_globals['skrypty_header'])) : ?>
-        <?php echo $acf_globals['skrypty_header']; ?>
-    <?php endif; ?>
 </head>
 
 <body <?php body_class('preload'); ?>>
-    <?php if(isset($acf_globals['skrypty_header_2'])) : ?>
-        <?php echo $acf_globals['skrypty_header_2']; ?>
-    <?php endif; ?>
-    <?php
-    if ( function_exists( 'global_render_topbar' ) ) {
-        global_render_topbar();
-    }
-    ?>
+    <?php wp_body_open(); ?>
     <?php get_template_part('partials/header'); ?>
 
     <main id="main-content" data-factory-component="route-shell">

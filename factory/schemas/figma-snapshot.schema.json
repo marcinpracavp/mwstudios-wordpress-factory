@@ -38,6 +38,7 @@
     "sections": { "type": "array", "items": { "$ref": "#/definitions/section" } },
     "languages": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/definitions/language" } },
     "viewports": { "type": "array", "items": { "$ref": "#/definitions/viewport" } },
+    "canvasAudit": { "type": "array", "items": { "$ref": "#/definitions/canvasAudit" } },
     "references": {
       "type": "object",
       "additionalProperties": false,
@@ -134,6 +135,36 @@
         "id": { "$ref": "#/definitions/id" },
         "width": { "type": "integer", "minimum": 1 },
         "height": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "canvasAudit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["frameNodeId", "nodes"],
+      "properties": {
+        "frameNodeId": { "type": "string", "minLength": 1 },
+        "nodes": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["nodeId", "name", "type", "x", "y", "width", "height", "visible", "role"],
+            "properties": {
+              "nodeId": { "type": "string", "minLength": 1 },
+              "name": { "type": "string", "minLength": 1 },
+              "type": { "type": "string", "minLength": 1 },
+              "x": { "type": "number" },
+              "y": { "type": "number" },
+              "width": { "type": "number", "minimum": 0 },
+              "height": { "type": "number", "minimum": 0 },
+              "visible": { "type": "boolean" },
+              "role": { "enum": ["section", "decoration", "duplicate", "hidden", "unassigned"] },
+              "sectionId": { "$ref": "#/definitions/id" },
+              "reason": { "type": "string", "minLength": 1 }
+            }
+          }
+        }
       }
     },
     "section": {

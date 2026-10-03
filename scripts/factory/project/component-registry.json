@@ -1,110 +1,140 @@
 [
   {
-    "id": "site-navigation",
-    "sections": [
-      "shared-topbar",
-      "shared-secondary-navigation",
-      "shared-primary-navigation",
-      "shared-primary-navigation-active"
-    ],
+    "id": "site-header",
+    "sections": ["shared-header"],
     "files": [
       "partials/header.php",
-      "partials/menu-mobile.php",
       "src/css/layouts/_header.scss",
-      "src/css/components/_topbar.scss",
-      "src/css/components/_menu-mobile.scss"
+      "scripts/factory/project/import-content.php"
     ]
   },
   {
     "id": "page-banner-breadcrumb",
     "sections": [
-      "careers-heading",
-      "catalogues-heading",
-      "about-heading",
-      "contact-heading",
-      "blog-article-heading",
-      "blog-archive-heading"
+      "blog-archive",
+      "blog-post-article",
+      "catalogues-primary",
+      "service-overview",
+      "about-hero",
+      "contact-overview",
+      "product-list-menu",
+      "product-detail"
     ],
-    "files": [
-      "partials/page-banner.php",
-      "src/css/components/_page-banner.scss"
-    ]
-  },
-  {
-    "id": "commerce-breadcrumb",
-    "sections": [
-      "product-breadcrumbs",
-      "bundle-breadcrumbs",
-      "archive-breadcrumbs",
-      "account-breadcrumbs"
-    ],
-    "files": [
-      "single-product.php",
-      "taxonomy-product_cat.php",
-      "partials/account-form.php",
-      "src/css/pages/_product.scss",
-      "src/css/pages/_product-archive.scss",
-      "src/css/pages/_account.scss"
-    ]
-  },
-  {
-    "id": "catalogue-card-grid",
-    "sections": [
-      "catalogues-downloads"
-    ],
-    "files": [
-      "page-catalogues.php",
-      "src/css/pages/_catalogues.scss"
-    ]
-  },
-  {
-    "id": "product-card-grids",
-    "sections": [
-      "home-promotions",
-      "home-bundles",
-      "home-recommended",
-      "product-related",
-      "archive-product-grid"
-    ],
-    "files": [
-      "front-page.php",
-      "single-product.php",
-      "taxonomy-product_cat.php",
-      "src/css/pages/_home.scss",
-      "src/css/pages/_product.scss",
-      "src/css/pages/_product-archive.scss"
-    ]
+    "files": ["partials/page-banner.php", "src/css/components/_page-banner.scss"]
   },
   {
     "id": "blog-card-grid",
-    "sections": [
-      "blog-post-list",
-      "blog-related-posts"
-    ],
+    "sections": ["home-blog", "blog-archive", "blog-post-related"],
     "files": [
       "partials/blog-card.php",
-      "src/css/components/_blog-card.scss",
-      "src/css/pages/_blog-archive.scss"
+      "src/css/components/_blog-card.scss"
     ]
   },
   {
-    "id": "shop-cta",
+    "id": "route-section-shell",
     "sections": [
-      "shared-shop-cta"
+      "home-slider",
+      "home-popular-products",
+      "home-intro",
+      "home-benefits",
+      "home-blog",
+      "blog-archive",
+      "catalogues-primary",
+      "catalogues-secondary",
+      "blog-post-article",
+      "blog-post-related",
+      "service-overview",
+      "service-contact",
+      "service-media-band",
+      "about-hero",
+      "about-overview",
+      "about-values",
+      "about-media-band",
+      "contact-overview",
+      "contact-form",
+      "contact-background",
+      "product-list-menu",
+      "product-list-items",
+      "product-list-filters",
+      "product-detail",
+      "product-gallery",
+      "product-specification",
+      "product-related",
+      "product-contact-cta"
     ],
     "files": [
-      "partials/shop-cta.php",
-      "src/css/pages/_catalogues.scss"
+      "partials/route-skeleton.php",
+      "partials/section-image.php",
+      "partials/catalogue-card.php",
+      "src/css/components/_catalogues.scss",
+      "src/css/components/_product-specification.scss",
+      "src/css/components/_product-contact-cta.scss",
+      "src/css/components/_index.scss",
+      "src/css/components/_home-slider.scss",
+      "src/js/home-slider.js",
+      "page-serwis.php",
+      "scripts/factory/project/qa-state.js",
+      "scripts/factory/project/import-content.php",
+      "scripts/factory/project/native-batch.js",
+      "scripts/factory/project/commerce-probe.php"
     ]
   },
   {
     "id": "site-footer",
-    "sections": [
-      "shared-footer"
-    ],
+    "sections": ["shared-footer"],
     "files": [
+      "footer.php",
       "partials/footer.php",
-      "src/css/layouts/_footer.scss"
+      "src/css/layouts/_footer.scss",
+      "scripts/factory/project/import-content.php"
+    ],
+    "sourceFields": [
+      {"sourceNode":"125:1691","fieldName":"rudnikagro_shared_footer_quick_links_125_1691"},
+      {"sourceNode":"125:1692","fieldName":"rudnikagro_shared_footer_company_contact_125_1692"},
+      {"sourceNode":"125:1693","fieldName":"rudnikagro_shared_footer_address_125_1693"},
+      {"sourceNode":"125:1694","fieldName":"rudnikagro_shared_footer_central_phone_label_125_1694"},
+      {"sourceNode":"125:1695","fieldName":"rudnikagro_shared_footer_wroclaw_phone_label_125_1695"},
+      {"sourceNode":"125:1696","fieldName":"rudnikagro_shared_footer_warsaw_phone_label_125_1696"},
+      {"sourceNode":"125:1697","fieldName":"rudnikagro_shared_footer_service_phone_label_125_1697"},
+      {"sourceNode":"125:1698","fieldName":"rudnikagro_shared_footer_central_phone_125_1698"},
+      {"sourceNode":"125:1699","fieldName":"rudnikagro_shared_footer_wroclaw_phone_125_1699"},
+      {"sourceNode":"125:1700","fieldName":"rudnikagro_shared_footer_warsaw_phone_125_1700"},
+      {"sourceNode":"125:1701","fieldName":"rudnikagro_shared_footer_service_phone_125_1701"},
+      {"sourceNode":"125:1710","fieldName":"rudnikagro_shared_footer_central_heading_125_1710"},
+      {"sourceNode":"125:1711","fieldName":"rudnikagro_shared_footer_wroclaw_heading_125_1711"},
+      {"sourceNode":"125:1712","fieldName":"rudnikagro_shared_footer_warsaw_heading_125_1712"},
+      {"sourceNode":"125:1713","fieldName":"rudnikagro_shared_footer_service_heading_125_1713"},
+      {"sourceNode":"125:1715","fieldName":"rudnikagro_shared_footer_form_name_label_125_1715"},
+      {"sourceNode":"125:1718","fieldName":"rudnikagro_shared_footer_form_question_label_125_1718"},
+      {"sourceNode":"125:1734","fieldName":"rudnikagro_shared_footer_form_company_label_125_1734"},
+      {"sourceNode":"125:1735","fieldName":"rudnikagro_shared_footer_form_email_label_125_1735"},
+      {"sourceNode":"125:1737","fieldName":"rudnikagro_shared_footer_form_phone_label_125_1737"},
+      {"sourceNode":"125:1739","fieldName":"rudnikagro_shared_footer_form_email_notice_125_1739"},
+      {"sourceNode":"125:1740","fieldName":"rudnikagro_shared_footer_form_privacy_label_125_1740"},
+      {"sourceNode":"125:1743","fieldName":"rudnikagro_shared_footer_form_submit_label_125_1743"},
+      {"sourceNode":"125:1745","fieldName":"rudnikagro_shared_footer_form_heading_125_1745"},
+      {"sourceNode":"125:1746","fieldName":"rudnikagro_shared_footer_wroclaw_email_label_125_1746"},
+      {"sourceNode":"125:1749","fieldName":"rudnikagro_shared_footer_service_email_label_125_1749"},
+      {"sourceNode":"125:1750","fieldName":"rudnikagro_shared_footer_info_email_125_1750"},
+      {"sourceNode":"125:1753","fieldName":"rudnikagro_shared_footer_technical_email_125_1753"},
+      {"sourceNode":"125:1762","fieldName":"rudnikagro_shared_footer_copyright_125_1762"},
+      {"sourceNode":"125:1765","fieldName":"rudnikagro_shared_footer_terms_label_125_1765"},
+      {"sourceNode":"125:1766","fieldName":"rudnikagro_shared_footer_privacy_link_label_125_1766"}
+    ],
+    "sourceAssets": [
+      {"sourceNode":"125:1702","fieldName":"rudnikagro_shared_footer_media_125_1702","path":"assets/references/shared-footer/125-1702.svg","usage":"central-phone-icon"},
+      {"sourceNode":"125:1704","fieldName":"rudnikagro_shared_footer_media_125_1704","path":"assets/references/shared-footer/125-1704.svg","usage":"wroclaw-phone-icon"},
+      {"sourceNode":"125:1706","fieldName":"rudnikagro_shared_footer_media_125_1706","path":"assets/references/shared-footer/125-1706.svg","usage":"warsaw-phone-icon"},
+      {"sourceNode":"125:1708","fieldName":"rudnikagro_shared_footer_media_125_1708","path":"assets/references/shared-footer/125-1708.svg","usage":"service-phone-icon"},
+      {"sourceNode":"125:1720","fieldName":"rudnikagro_shared_footer_media_125_1720","path":"assets/references/shared-footer/125-1720.png","usage":"form-decoration-raster"},
+      {"sourceNode":"125:1721","fieldName":"rudnikagro_shared_footer_media_125_1721","path":"assets/references/shared-footer/125-1720-objects.svg","usage":"map-pin-1"},
+      {"sourceNode":"125:1724","fieldName":"rudnikagro_shared_footer_media_125_1724","path":"assets/references/shared-footer/125-1720-objects.svg","usage":"map-pin-2"},
+      {"sourceNode":"125:1727","fieldName":"rudnikagro_shared_footer_media_125_1727","path":"assets/references/shared-footer/125-1720-objects.svg","usage":"map-pin-3"},
+      {"sourceNode":"125:1730","fieldName":"rudnikagro_shared_footer_media_125_1730","path":"assets/references/shared-footer/125-1720-objects.svg","usage":"map-pin-4"},
+      {"sourceNode":"125:1741","fieldName":"rudnikagro_shared_footer_media_125_1741","path":"assets/references/shared-footer/125-1741-vector.svg","usage":"submit-arrow"},
+      {"sourceNode":"125:1744","fieldName":"rudnikagro_shared_footer_media_125_1744","path":"assets/references/shared-footer/125-1744-vector.svg","usage":"submit-arrow-vector"},
+      {"sourceNode":"125:1754","fieldName":"rudnikagro_shared_footer_media_125_1754","path":"assets/references/shared-footer/125-1754.svg","usage":"info-email-icon"},
+      {"sourceNode":"125:1760","fieldName":"rudnikagro_shared_footer_media_125_1760","path":"assets/references/shared-footer/125-1760.svg","usage":"technical-email-icon"}
     ]
   }
 ]

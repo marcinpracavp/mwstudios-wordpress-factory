@@ -3,9 +3,12 @@ const path = require('path');
 const { spawnSync } = require('child_process');
 
 function existingPath(candidate) {
-  return typeof candidate === 'string' && candidate.trim() !== '' && fs.existsSync(candidate)
-    ? candidate
-    : null;
+  if (typeof candidate !== 'string' || !candidate.trim()) return null;
+  try {
+    if (!fs.statSync(candidate).isFile()) return null;
+    fs.accessSync(candidate, fs.constants.X_OK);
+    return candidate;
+  } catch { return null; }
 }
 
 function unique(values) {
@@ -80,12 +83,16 @@ function discoverBrowser() {
     }
   }
 
+  let managed = null;
+  try { managed = getChromium().executablePath(); } catch { /* Report dependency in discovery failure. */ }
+  checks.playwright = { path: managed, exists: Boolean(existingPath(managed)) };
+  if (checks.playwright.exists) return { browser: { name: 'Playwright Chromium', executablePath: managed }, checks };
   return { browser: null, checks };
 }
 
 function formatBrowserDiscoveryFailure(checks) {
   const lines = [
-    'Factory QA could not find a supported system browser.',
+    'Factory QA could not find a supported browser (system or Playwright Chromium).',
     `FACTORY_BROWSER_PATH: ${checks.environment.value || '(not set)'} (${checks.environment.exists ? 'found' : 'not found'})`,
     'Google Chrome paths checked:'
   ];
@@ -97,6 +104,7 @@ function formatBrowserDiscoveryFailure(checks) {
   checks.path.forEach((check) => lines.push(
     `- ${check.executable}: ${check.paths.length > 0 ? check.paths.join(', ') : 'not found'}`
   ));
+  lines.push('Install matching Chromium with: node node_modules/playwright-core/cli.js install chromium');
   lines.push('Set FACTORY_BROWSER_PATH to a Chrome or Edge executable, for example:');
   lines.push('$env:FACTORY_BROWSER_PATH="C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"');
 

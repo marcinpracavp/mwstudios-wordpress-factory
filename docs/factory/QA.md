@@ -1,6 +1,6 @@
 # Website Factory QA
 
-`npm run factory:qa` is the deterministic browser-capture gate for Website Factory. It runs from the terminal and does not depend on an in-app browser tool. It uses `playwright-core` with an installed system Chrome or Edge; it does not download Playwright's bundled Chromium.
+`npm run factory:qa` is the deterministic browser-capture gate for Website Factory. It runs from the terminal and does not depend on an in-app browser tool. It uses `playwright-core` with system Chrome/Edge/Chromium or its matching managed Chromium installed by the Codespaces setup.
 
 Visual QA may not be declared complete unless browser screenshots were successfully captured.
 
@@ -12,7 +12,7 @@ Visual QA may not be declared complete unless browser screenshots were successfu
 - `languages`: language code to URL-path mapping;
 - `viewports`: named width and height pairs.
 
-The base URL always comes from `factory/project.json` → `environment.localUrl`. It is intentionally not duplicated in `qa.json`. When it is not configured, QA fails with `Factory QA requires environment.localUrl.` and never guesses a LocalWP domain.
+The base URL comes from `FACTORY_LOCAL_URL`, falling back to `factory/project.json` → `environment.localUrl`. It is intentionally not duplicated in `qa.json`. When it is not configured, QA fails with `Factory QA requires environment.localUrl.` and never guesses a LocalWP domain.
 
 `factory:validate` validates `factory/qa.json` against `factory/schemas/qa.schema.json` alongside the existing Factory manifests.
 

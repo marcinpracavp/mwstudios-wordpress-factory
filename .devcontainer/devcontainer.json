@@ -15,7 +15,15 @@
     "ghcr.io/devcontainers/features/docker-in-docker:2": {}
   },
 
-  "postCreateCommand": "npm install && npx --yes playwright@1.63.0 install --with-deps",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "openai.chatgpt"
+      ]
+    }
+  },
+
+  "postCreateCommand": "bash .devcontainer/post-create.sh",
 
   "forwardPorts": [
     8000

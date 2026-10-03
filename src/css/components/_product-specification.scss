@@ -1,0 +1,162 @@
+@use 'abstracts' as *;
+
+.c-product-specification-section {
+  box-sizing: border-box;
+  margin-top: 34px;
+  min-height: 429px;
+  width: 100%;
+}
+
+.c-product-specification {
+  box-sizing: border-box;
+  color: $ink;
+  margin-left: max(20px, calc((100% - #{$source-content-width}) / 2 + 364px));
+  margin-top: 0;
+  max-width: 1076px;
+  min-height: 429px;
+  width: min(1076px, calc(100% - max(20px, calc((100% - #{$source-content-width}) / 2 + 364px)) - 20px));
+}
+
+.c-product-specification__tabs {
+  align-items: stretch;
+  border-bottom: 1px solid $border;
+  display: flex;
+  gap: 14px;
+  height: 50px;
+}
+
+.c-product-specification__tab {
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  box-sizing: border-box;
+  color: $ink;
+  cursor: pointer;
+  font-family: $base-font-family;
+  font-size: 15px;
+  font-weight: $font-weight-bold;
+  letter-spacing: -0.3px;
+  line-height: 48px;
+  padding: 0 8px;
+  white-space: nowrap;
+}
+
+.c-product-specification__tab.is-active,
+.c-product-specification__tab[aria-selected='true'] {
+  border-bottom-color: $accent;
+}
+
+.c-product-specification__tab:focus-visible {
+  outline: 2px solid $accent;
+  outline-offset: -2px;
+}
+
+.c-product-specification__panel {
+  margin-top: 30px;
+}
+
+.c-product-specification__panel[hidden],
+.c-product-specification__panel:not(.is-active) {
+  display: none;
+}
+
+.c-product-specification__table-wrap {
+  overflow-x: auto;
+  width: 100%;
+}
+
+.c-product-specification__table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-family: $base-font-family;
+  table-layout: auto;
+  min-width: 100%;
+  width: max-content;
+}
+
+.c-product-specification__table th,
+.c-product-specification__table td {
+  box-sizing: border-box;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.c-product-specification__table thead tr {
+  background: $accent;
+  color: $white;
+  height: 53px;
+}
+
+.c-product-specification__table th {
+  font-size: 11px;
+  font-weight: $font-weight-bold;
+  letter-spacing: -0.22px;
+  line-height: 14px;
+  padding: 0 14px;
+  white-space: nowrap;
+}
+
+.c-product-specification__table tbody tr {
+  height: 37px;
+}
+
+.c-product-specification__table tbody tr:nth-child(odd) {
+  background: $white;
+}
+
+.c-product-specification__table tbody tr:nth-child(even) {
+  background: #f3f4f6;
+}
+
+.c-product-specification__table tbody tr + tr {
+  border-top: 1px solid $border;
+}
+
+.c-product-specification__table td {
+  color: #4b5563;
+  font-size: 12px;
+  font-weight: $font-weight-regular;
+  letter-spacing: -0.24px;
+  line-height: 16px;
+  padding: 0 13px;
+}
+
+.c-product-specification__cell-content {
+  display: block;
+  max-width: 300px;
+  overflow-wrap: anywhere;
+}
+
+@include media($breakpoint-lg) {
+  .c-product-specification-section {
+    height: auto;
+    margin-top: 60px;
+    min-height: 0;
+  }
+
+  .c-product-specification {
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: none;
+    min-height: 0;
+    width: auto;
+  }
+
+}
+
+@include media($breakpoint-xs) {
+  .c-product-specification-section {
+    margin-top: 24px;
+  }
+
+  .c-product-specification__tabs {
+    gap: 4px;
+    overflow-x: auto;
+  }
+
+  .c-product-specification__tab {
+    font-size: 13px;
+    letter-spacing: -0.26px;
+  }
+}

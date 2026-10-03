@@ -1,0 +1,64 @@
+
+> slawinsky-boilerplate@1.0.0 build
+> cross-env NODE_ENV=production npx webpack --mode=production
+
+[dotenv@17.2.1] injecting env (2) from .env.production -- tip: 📡 observe env with Radar: https://dotenvx.com/radar
+🔧 Webpack mode: production
+📦 NODE_ENV: production
+Browserslist: browsers data (caniuse-lite) is 15 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+assets by path fonts/ 999 KiB
+  assets by path fonts/*.ttf 699 KiB 4 assets
+  assets by path fonts/*.woff2 300 KiB
+    asset fonts/fa-solid-900.woff2 155 KiB [emitted] [from: node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2]
+    + 3 assets
+assets by path *.css 1.04 MiB
+  assets by status 926 KiB [big] 2 assets
+  asset editor-styles.css 123 KiB [emitted] (name: editor-styles)
+  asset libs.css 16.4 KiB [emitted] (name: libs)
+assets by path *.js 333 KiB
+  asset build-combined.js 166 KiB [emitted] [minimized] (name: combined) 1 related asset
+  asset build-libs.js 135 KiB [emitted] [minimized] (name: libs) 1 related asset
+  asset build-js.js 32 KiB [emitted] [minimized] (name: main)
+  asset editor-styles.js 322 bytes [emitted] [minimized] (name: editor-styles)
+Entrypoint main [big] 487 KiB = build-style.css 455 KiB build-js.js 32 KiB
+Entrypoint editor-styles 123 KiB = editor-styles.css 123 KiB editor-styles.js 322 bytes
+Entrypoint libs 151 KiB = libs.css 16.4 KiB build-libs.js 135 KiB
+Entrypoint combined [big] 637 KiB = combined-style.css 471 KiB build-combined.js 166 KiB
+orphan modules 985 KiB (javascript) 999 KiB (asset) 6.02 KiB (runtime) [orphan] 87 modules
+runtime modules 3.19 KiB 13 modules
+built modules 506 KiB (javascript) 596 KiB (css/mini-extract) [built]
+  javascript modules 506 KiB
+    modules by path ./src/js/*.js 37.7 KiB 13 modules
+    modules by path ./src/js/lib/*.js 453 KiB 5 modules
+    ./src/css/editor-styles.scss 50 bytes [built] [code generated]
+    ./node_modules/aos/dist/aos.js 14.3 KiB [built] [code generated]
+    ./src/js/ sync nonrecursive ^(?%21.*\/_app\.js$).*\.js$ 604 bytes [built] [code generated]
+  css modules 596 KiB
+    modules by path ./node_modules/ 150 KiB 5 modules
+    modules by path ./src/ 446 KiB
+      modules by path ./src/css/*.scss 204 bytes 2 modules
+      modules by path ./src/css/*.scss (1) 446 KiB 2 modules
+
+WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets: 
+  fonts/fa-solid-900.ttf (416 KiB)
+  build-style.css (455 KiB)
+  combined-style.css (471 KiB)
+
+WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  main (487 KiB)
+      build-style.css
+      build-js.js
+  combined (637 KiB)
+      combined-style.css
+      build-combined.js
+
+WARNING in webpack performance recommendations: 
+You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+For more info visit https://webpack.js.org/guides/code-splitting/
+
+webpack 5.100.2 compiled with 3 warnings in 12439 ms

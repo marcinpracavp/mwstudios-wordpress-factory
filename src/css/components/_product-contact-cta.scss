@@ -1,0 +1,146 @@
+@use 'abstracts' as *;
+
+.c-product-contact-cta {
+  align-items: center;
+  background: $ink;
+  box-sizing: border-box;
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  min-height: 373px;
+  margin-top: calc(40px + var(--product-contact-cta-sidebar-clearance, 0px));
+  overflow: hidden;
+  padding: 105px 20px 59px;
+  position: relative;
+  width: 100%;
+  margin-bottom: 19px;
+
+  &__background {
+    background: $ink;
+    inset: 0;
+    position: absolute;
+
+    > img.c-product-contact-cta__image {
+      height: 100%;
+      max-width: none;
+    }
+  }
+
+  &__image {
+    display: block;
+    height: 100%;
+    inset: 0;
+    max-width: none;
+    object-fit: cover;
+    width: 100%;
+
+    &--missing {
+      background: $ink;
+    }
+  }
+
+  &__content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+  }
+
+  &__heading {
+    color: $white;
+    font-size: 32px;
+    font-weight: $font-weight-light;
+    letter-spacing: -1.4px;
+    line-height: 48px;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  &__heading p,
+  &__heading h2,
+  &__heading h3,
+  &__heading h4 {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+  }
+
+  &__heading p + p,
+  &__heading h2 + p,
+  &__heading h3 + p,
+  &__heading h4 + p {
+    margin-top: 8px;
+  }
+
+  &__heading strong,
+  &__heading b {
+    font-weight: $font-weight-bold;
+  }
+
+  &__button {
+    align-items: center;
+    background: $accent;
+    border-radius: 8px;
+    color: $white;
+    display: inline-flex;
+    font-size: 14px;
+    font-weight: $font-weight-bold;
+    height: 42px;
+    justify-content: space-between;
+    letter-spacing: -.32px;
+    margin-top: 66px;
+    padding: 0 18px 0 21px;
+    text-decoration: none;
+    width: 165px;
+
+    &:hover,
+    &:focus-visible {
+      background: darken($accent, 7%);
+      color: $white;
+    }
+  }
+
+  &__arrow {
+    display: block;
+    flex: 0 0 auto;
+    height: auto;
+    width: 15.365px;
+
+    &--missing {
+      height: 6px;
+      width: 15px;
+    }
+  }
+
+  @include media($breakpoint-sm) {
+    min-height: 320px;
+    margin-top: 32px;
+    padding: 72px 20px 48px;
+
+    &__heading {
+      font-size: 26px;
+      line-height: 36px;
+    }
+
+    &__button {
+      margin-top: 48px;
+    }
+  }
+
+  @include media($breakpoint-xs) {
+    min-height: 300px;
+    padding: 62px 20px 44px;
+
+    &__heading {
+      font-size: 23px;
+      line-height: 32px;
+    }
+
+    &__button {
+      margin-top: 40px;
+    }
+  }
+}

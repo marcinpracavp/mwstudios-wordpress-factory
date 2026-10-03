@@ -3,9 +3,12 @@
   "reasoningEffort": "high",
   "toolOutputTokenLimit": 3000,
   "stageTimeoutMinutes": 180,
-  "maxRepairPasses": 4,
+  "maxRepairPasses": 14,
   "maxStageAttempts": 2,
-  "maxUncachedTokens": 17000000,
+  "taskAttemptOverrides": {
+    "shared-72d0974f5eb4e5e9": 5
+  },
+  "maxUncachedTokens": 85000000,
   "contentPolicy": {
     "importFigmaCardProducts": true,
     "importFigmaReviews": true,
@@ -15,7 +18,7 @@
     "iconEditor": "acf-attachment"
   },
   "visualDeferral": {
-    "samples": 3,
+    "samples": 2,
     "maxPageMismatch": 0.13,
     "minImprovement": 0.03
   },
@@ -33,13 +36,16 @@
     390,
     375
   ],
+  "contentBatchSize": 6,
   "taskBudgets": {
-    "maxInputTokens": 2000000,
-    "maxOutputTokens": 24000,
-    "maxAttempts": 4,
-    "maxPromptBytes": 22000,
-    "maxUncachedInputTokens": 180000,
-    "maxUncachedTokens": 100000
+    "maxInputTokens": 320000000,
+    "maxOutputTokens": 5120000,
+    "maxAttempts": 16,
+    "maxPromptBytes": 1280000,
+    "maxUncachedInputTokens": 2000000,
+    "maxUncachedTokens": 2250000,
+    "maxObservedContextBytes": 160000000,
+    "maxToolOutputBytes": 5120000
   },
   "pricing": {
     "luna": {

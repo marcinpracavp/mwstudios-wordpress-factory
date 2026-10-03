@@ -5,32 +5,28 @@
 
 
 
-$black: #000000;
+$black: #29313c;
 $white: #fff;
-$rudnik-green: #007d44;
-$rudnik-green-dark: #005b34;
-$rudnik-orange: #ff5a17;
-$rudnik-light: #f7f7f5;
-
-$gray-1: #8D8D8D;
-$accent: #FF5064;
+$ink: #29313c;
+$surface-light: #f3f3f3;
+$border: #e5e7eb;
+$muted: #6b7280;
+$muted-light: #9ca3af;
+$accent: #fc0144;
 
 $success-colour: #5cb85c;
 $warning-colour: #f0ad4e;
 $error-colour: #e42f28;
 
 
-$base-colour: $black;
+$base-colour: $ink;
 $base-background-colour: $white;
 
 /**
  * Typography
  */
-$poppins-font-family: $dm-sans-font-family;
-$geist-font-family: $dm-sans-font-family;
-
-$base-font-family: $poppins-font-family;
-$heading-font-family: $geist-font-family;
+$base-font-family: $inter-font-family;
+$heading-font-family: $inter-font-family;
 /**
 * Breakpoints
 */
@@ -51,7 +47,18 @@ $transition: all 0.2s $timing;
 $base-border-radius: 26px;
 $shadow: 30px 30px 60px rgba($black, .15);
 
-$page-width: 1440px;
+// Source-backed desktop layout tokens. The existing grid and container
+// utilities consume these values; page-specific sections should not redefine
+// their own grid or content width.
+$source-frame-width: 1920px;
+$source-content-width: 1440px;
+$source-content-left: 240px;
+$source-header-height: 128px;
+$source-header-utility-height: 79px;
+$source-header-primary-height: 48px;
+$source-footer-height: 1151px;
+
+$page-width: $source-content-width;
 $page-gap: 20px;
 
 $grid-columns: 12; // liczba kolumn w gridzie

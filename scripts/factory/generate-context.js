@@ -1,3 +1,4 @@
+const { resolveLocalUrl } = require('./autopilot/common');
 const fs = require('fs');
 const path = require('path');
 
@@ -62,7 +63,7 @@ function generateProjectContext(project) {
     '',
     '## Environment',
     '',
-    `Local URL: ${urlValue(project.environment.localUrl)}`,
+    `Local URL: ${urlValue(resolveLocalUrl(project))}`,
     `Production URL: ${urlValue(project.environment.productionUrl)}`,
     '',
     '## Design',

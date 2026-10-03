@@ -43,25 +43,22 @@ small {
   font-style: italic;
 }
 .weight-light {
-  font-weight: 300;
+  font-weight: $font-weight-light;
 }
 .weight-regular {
-  font-weight: 400;
+  font-weight: $font-weight-regular;
 }
 .weight-medium {
-  font-weight: 500;
+  font-weight: $font-weight-medium;
 }
 .weight-semibold {
-  font-weight: 600;
+  font-weight: $font-weight-semibold;
 }
 .weight-bold {
-  font-weight: 700;
+  font-weight: $font-weight-bold;
 }
-.weight-extrabold {
-  font-weight: 800;
-}
-.weight-black {
-  font-weight: 900;
+.weight-thin {
+  font-weight: $font-weight-thin;
 }
 
 .text-uppercase {
@@ -76,6 +73,32 @@ small {
 }
 .text-center {
   text-align: center;
+}
+
+.c-wysiwyg {
+  ul,
+  ol {
+    margin: 0;
+    padding-left: 21px;
+  }
+
+  ul {
+    list-style: disc;
+  }
+
+  ol {
+    list-style: decimal;
+  }
+
+  li {
+    line-height: 24px;
+    margin: 0;
+    padding-left: 2px;
+  }
+
+  ul li::marker {
+    color: currentcolor;
+  }
 }
 
 
@@ -95,4 +118,3 @@ color: $white;
 .color-black {
 color: $black;
 }
-

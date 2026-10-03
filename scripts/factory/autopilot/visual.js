@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { ROOT, CACHE, SNAPSHOT, read, write, inside, hash, files, fingerprint } = require('./common');
+const { resolveLocalUrl, ROOT, CACHE, SNAPSHOT, read, write, inside, hash, files, fingerprint } = require('./common');
 const { snapshot, pngInfo } = require('./gates');
 const { discoverBrowser, getChromium } = require('../qa/browser');
 const { sectionOwnership, acceptance } = require('./visual-ownership');
@@ -16,7 +16,21 @@ function loadProjectHooks(hookPath) {
   return fs.existsSync(hookPath) ? require(hookPath) : {};
 }
 function sourceHash() {
-  return hash(files(SNAPSHOT).sort().map(f => `${path.relative(SNAPSHOT, f)}:${hash(fs.readFileSync(f))}`).join('\n'));
+  return hash(files(SNAPSHOT).sort().map(f => {
+    let bytes = fs.readFileSync(f);
+    // Snapshot completion is derived bookkeeping. It may change from partial
+    // to complete during resume without changing the original design evidence.
+    const relative = path.relative(SNAPSHOT, f);
+    // Observations are resume/audit bookkeeping produced by the autopilot,
+    // not original design evidence. They must never invalidate a frozen run.
+    if (relative === 'manifest.json') {
+      const manifest = JSON.parse(bytes);
+      delete manifest.status;
+      bytes = Buffer.from(JSON.stringify(manifest));
+    }
+    if (relative === 'observations' || relative.startsWith('observations/')) return null;
+    return `${relative}:${hash(bytes)}`;
+  }).filter(Boolean).join('\n'));
 }
 async function settle(page) {
   await page.addStyleTag({ content: '*,*::before,*::after{animation-duration:0s!important;animation-delay:0s!important;transition-duration:0s!important;caret-color:transparent!important}html{scroll-behavior:auto!important}' });
@@ -43,9 +57,20 @@ async function metrics(page) {
       overflow: Math.max(document.documentElement.scrollWidth, document.body.scrollWidth) - innerWidth,
       fontsReady: document.fonts.status === 'loaded',
       sections: Array.from(document.querySelectorAll('[data-factory-section]')).map(el => ({ id: el.dataset.factorySection,
+        // A card/template may inherit the owning section marker. Keep that
+        // relationship explicit so component QA measures the outer section
+        // once instead of treating its implementation details as duplicates.
+        parentSection: el.parentElement?.closest('[data-factory-section]')?.dataset.factorySection || null,
         landmark: el.closest('footer,[role="contentinfo"]') ? 'footer' : el.closest('header,[role="banner"]') ? 'header' : null,
         component: el.dataset.factoryComponent || null, html: (() => { const copy=el.cloneNode(true); copy.querySelectorAll('script,iframe').forEach(n=>n.remove()); copy.querySelectorAll('input,textarea').forEach(n=>{n.removeAttribute('value');n.textContent='';}); return copy.outerHTML.slice(0,2400); })(), ...rect(el), style: style(el) })),
       texts: Array.from(document.querySelectorAll('h1,h2,h3,p,button,.button,label')).map(el => ({ text: el.textContent.trim(), ...rect(el), style: style(el) })),
+      sourceNodes: Array.from(document.querySelectorAll('[data-factory-source-node]')).map(el => ({
+        nodeId: el.dataset.factorySourceNode,
+        section: el.closest('[data-factory-section]')?.dataset.factorySection || null,
+        tag: el.tagName.toLowerCase(),
+        text: ['img','svg','path'].includes(el.tagName.toLowerCase()) ? null : el.textContent.trim().slice(0, 300),
+        ...rect(el)
+      })),
       images: Array.from(document.images).map(el => ({ src: el.currentSrc || el.src, sourceNodeId:el.dataset.factorySourceNode || el.closest('[data-factory-source-node]')?.dataset.factorySourceNode || null,
         section:el.closest('[data-factory-section]')?.dataset.factorySection || null,loaded: el.complete && el.naturalWidth > 0, ...rect(el), style: style(el) })),
       links: Array.from(document.querySelectorAll('a')).map(el => ({ text: el.textContent.trim(), href: el.getAttribute('href') }))
@@ -183,6 +208,8 @@ async function captureAll({ output = path.join(CACHE, `visual-${Date.now()}`), r
   try {
     const orderedRoutes=[...routes].sort((a,b)=>Number(!!a.state)-Number(!!b.state));
     for (const r of orderedRoutes) {
+      const routeReadiness = require('./route-readiness').prepare(r);
+      const runtimeRoute = { ...r, path: routeReadiness.path || r.path };
       const templatePlan=require('./state-plan').routePlan(statePlan,r.id);
       const dir = path.join(output,r.id); fs.mkdirSync(dir,{recursive:true});
       const context = await browser.newContext({ viewport:{width:r.width,height:900}, deviceScaleFactor:1, ignoreHTTPSErrors:true, reducedMotion:'reduce' });
@@ -190,22 +217,22 @@ async function captureAll({ output = path.join(CACHE, `visual-${Date.now()}`), r
       const runtimeErrors = [];
       page.on('pageerror', e => runtimeErrors.push(e.message));
       page.on('console', e => { if(e.type()==='error') runtimeErrors.push(e.text()); });
-      const result = { id:r.id, sourceNodeId:r.frameNodeId, capturedAt:new Date().toISOString(), passed:false, errors:[], responsive:[],
+      const result = { id:r.id, sourceNodeId:r.frameNodeId, capturedAt:new Date().toISOString(), passed:false, errors:[], responsive:[], routeReadiness,
         measurementVersion:4, acceptanceScope, templatePlan, geometryHash:hash(JSON.stringify(r.sectionGeometry || {})), geometryCorrection:r.geometryCorrection || null, ownershipRegions:r.ownershipRegions || [] };
       try {
-        const url = new URL(r.path,p.environment.localUrl);
-        if(url.origin!==new URL(p.environment.localUrl).origin) throw new Error('External route forbidden');
+        const url = new URL(runtimeRoute.path,resolveLocalUrl(p));
+        if(url.origin!==new URL(resolveLocalUrl(p)).origin) throw new Error('External route forbidden');
         const response = await page.goto(url.href,{waitUntil:'domcontentloaded',timeout:60000});
         if(response?.status()!==200) result.errors.push(`HTTP ${response?.status()}`);
         if(r.state && typeof hooks.prepare!=='function') throw new Error(`State ${r.state} requires real project qa-state.prepare`);
         // Canonical routes can also require real session data (cart, checkout).
         // The project hook selects applicable routes and does nothing for others.
         if(typeof hooks.prepare==='function') {
-          await hooks.prepare({page,route:r,baseUrl:p.environment.localUrl});
+          await hooks.prepare({page,route:runtimeRoute,baseUrl:resolveLocalUrl(p)});
         }
         await settle(page);
         const actual = await metrics(page);
-        await require('./image-noise').verifySources(page,actual.images,p.environment.localUrl);
+        await require('./image-noise').verifySources(page,actual.images,resolveLocalUrl(p));
         write(path.join(dir,'metrics.json'),actual);
         if(actual.overflow>1) result.errors.push(`Horizontal overflow ${actual.overflow}px`);
         if(!actual.fontsReady) result.errors.push('Fonts not ready');
@@ -219,6 +246,11 @@ async function captureAll({ output = path.join(CACHE, `visual-${Date.now()}`), r
           const passed = matches.length===1 && Object.values(delta).every(v=>Number.isFinite(v)&&Math.abs(v)<=cfg.visual.geometryTolerancePx);
           return {id,...sectionOwnership(m,id,observed),expected,actual:observed,delta,passed};
         });
+        const semantic = require('./semantic-coverage').inspect(m, r, actual);
+        for (const section of semantic.sections.filter(section => !section.passed)) {
+          result.errors.push(`SEMANTIC_SECTION_INCOMPLETE ${section.id}: missing source nodes ${section.missingSourceNodes.join(',')}`);
+        }
+        for (const section of semantic.unregisteredSections) result.errors.push(`UNREGISTERED_SECTION ${section.id}: visible top-level section is absent from route blueprint`);
         const screenshot = path.join(dir,'rendered.png');
         await page.screenshot({path:screenshot,fullPage:true,animations:'disabled',timeout:60000});
         const reference = inside(SNAPSHOT,r.reference);
@@ -245,7 +277,7 @@ async function captureAll({ output = path.join(CACHE, `visual-${Date.now()}`), r
         }
         if(pixels.referenceSize.width!==pixels.renderedSize.width) result.errors.push('Full page width differs');
         if(acceptanceScope==='all' && Math.abs(pixels.referenceSize.height-pixels.renderedSize.height)>cfg.visual.geometryTolerancePx) result.errors.push('Full page height differs');
-        result.geometry=geometry; result.pixels=pixels;
+        result.geometry=geometry; result.semantic=semantic; result.pixels=pixels;
         result.reference={path:r.reference,...pngInfo(reference)};
         result.rendered={path:rel(screenshot),...pngInfo(screenshot)};
         if(responsive && r.responsiveSource==='derived') {

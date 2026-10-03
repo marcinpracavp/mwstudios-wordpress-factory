@@ -1,125 +1,117 @@
 <?php
-if (function_exists('rudnikagro_option')) :
-    $promotion = rudnikagro_option('rudnikagro_topbar_promotion');
-    $topbar_close_icon = (int) rudnikagro_option('rudnikagro_shared_topbar_media_169_282');
-    $topbar_next_background = (int) rudnikagro_option('rudnikagro_shared_topbar_media_169_287');
-    $topbar_next_icon = (int) rudnikagro_option('rudnikagro_shared_topbar_media_169_284');
-    $topbar_previous_background = (int) rudnikagro_option('rudnikagro_shared_topbar_media_169_288');
-    $topbar_previous_icon = (int) rudnikagro_option('rudnikagro_shared_topbar_media_169_289');
-    $ra_logo = (int) rudnikagro_option('rudnikagro_shared_primary_navigation_media_118_6');
-    $phone = rudnikagro_option('rudnikagro_shared_secondary_navigation_156_92');
-    $email = rudnikagro_option('rudnikagro_shared_secondary_navigation_93_31');
-    $phone_icon = (int) rudnikagro_option('rudnikagro_shared_secondary_navigation_media_347_1077');
-    $email_icon = (int) rudnikagro_option('rudnikagro_shared_secondary_navigation_media_347_1078');
-    $search = rudnikagro_option('rudnikagro_shared_secondary_navigation_153_76');
-    $search_icon = (int) rudnikagro_option('rudnikagro_shared_secondary_navigation_media_153_63');
-    $favourite_icon = (int) rudnikagro_option('rudnikagro_shared_secondary_navigation_media_I625_179;586_555');
-    $favourite_badge = (int) rudnikagro_option('rudnikagro_shared_secondary_navigation_media_I625_179;586_587');
-    $favourite_count = rudnikagro_option('rudnikagro_shared_secondary_navigation_222_3');
-    $cart_count = rudnikagro_option('rudnikagro_shared_secondary_navigation_I625_179;586_588');
-    $account_icon = (int) rudnikagro_option('rudnikagro_shared_secondary_navigation_media_347_961');
-    $cart_icon = (int) rudnikagro_option('rudnikagro_shared_secondary_navigation_media_347_972');
-    $secondary_labels = preg_split('/\s{2,}/u', trim((string) rudnikagro_option('rudnikagro_shared_secondary_navigation_93_28'))) ?: [];
-    $secondary_labels = array_values(array_filter(array_map('trim', $secondary_labels)));
-    // The frozen text extractor lost the Polish character in this one source label;
-    // the retained source reference establishes its rendered form.
-    $secondary_labels = array_map(static fn($label) => str_replace('Aktualno?ci', 'Aktualności', $label), $secondary_labels);
-    $secondary_menu_items = wp_get_nav_menu_items('RudnikAgro — dodatkowa') ?: [];
-    $secondary_menu_urls = [];
-    foreach ($secondary_menu_items as $menu_item) {
-        $secondary_menu_urls[wp_strip_all_tags((string) $menu_item->title)] = (string) $menu_item->url;
+$option = static function (string $field) {
+    $value = function_exists('emko_option') ? emko_option($field) : null;
+    if ($value === null || $value === '') {
+        $value = get_option('options_' . $field, '');
     }
-    $active_menu_labels = preg_split('/\R/u', (string) rudnikagro_option('rudnikagro_shared_primary_navigation_active_I574_5_93_29')) ?: [];
-    $active_categories = preg_split('/\R/u', (string) rudnikagro_option('rudnikagro_shared_primary_navigation_active_250_754')) ?: [];
-    $active_crops_one = preg_split('/\R/u', (string) rudnikagro_option('rudnikagro_shared_primary_navigation_active_250_762')) ?: [];
-    $active_crops_two = preg_split('/\R/u', (string) rudnikagro_option('rudnikagro_shared_primary_navigation_active_250_763')) ?: [];
-    $active_logo = (int) rudnikagro_option('rudnikagro_shared_primary_navigation_active_media_250_729');
-    $active_chevron = (int) rudnikagro_option('rudnikagro_shared_primary_navigation_active_media_250_755');
-    $active_menu_labels = array_values(array_filter(array_map('trim', $active_menu_labels)));
-    $active_categories = array_values(array_filter(array_map('trim', $active_categories)));
-    $active_crops_one = array_values(array_filter(array_map('trim', $active_crops_one)));
-    $active_crops_two = array_values(array_filter(array_map('trim', $active_crops_two)));
+    return $value;
+};
+$image = static function (int $attachment_id, string $alt = ''): string {
+    if (!$attachment_id) {
+        return '';
+    }
+    $attributes = [
+        'alt' => $alt,
+        'loading' => false,
+    ];
+    $source_node = (string) get_post_meta($attachment_id, 'data-factory-source-node', true);
+    if ($source_node !== '') {
+        $attributes['data-factory-source-node'] = $source_node;
+    }
+    if (function_exists('emko_image')) {
+        return emko_image($attachment_id, '', $attributes);
+    }
+    return wp_get_attachment_image($attachment_id, 'full', false, $attributes);
+};
+
+$logo_id = (int) $option('emko_shared_primary_navigation_media_118_6');
+$phone_icon_id = (int) $option('emko_shared_secondary_navigation_media_347_1077');
+$mobile_icon_id = (int) $option('emko_shared_header_mobile_icon_125_14');
+$email_icon_id = (int) $option('emko_shared_secondary_navigation_media_347_1078');
+$phone = trim((string) $option('emko_shared_secondary_navigation_156_92'));
+$mobile = trim((string) $option('emko_shared_header_mobile_125_12'));
+$email = trim((string) $option('emko_shared_secondary_navigation_93_31'));
+$search_placeholder = trim((string) $option('emko_shared_header_search_placeholder'));
+$header_menu_id = (int) $option('emko_shared_header_menu_id');
+$menu_markup = wp_nav_menu([
+    'menu' => $header_menu_id ?: 0,
+    'theme_location' => $header_menu_id ? '' : 'header',
+    'container' => false,
+    'fallback_cb' => false,
+    'echo' => false,
+    'emko_header_menu' => true,
+]);
+
+$phone_href = preg_replace('/[^+0-9]/', '', $phone);
+$mobile_href = preg_replace('/[^+0-9]/', '', $mobile);
+$search_placeholder = $search_placeholder ?: 'Narzędzia warsztatowe - hydraulika siłowa';
 ?>
-    <?php if ($promotion) : ?>
-        <div class="c-promotion-bar" data-factory-section="shared-topbar">
-            <div class="l-container c-promotion-bar__inner">
-                <button class="c-promotion-bar__control c-promotion-bar__control--previous" type="button" aria-label="<?php echo esc_attr__('Poprzednia promocja', 'rudnikagro'); ?>">
-                    <?php echo rudnikagro_image($topbar_previous_background, '', ['alt' => '']); ?>
-                    <?php echo rudnikagro_image($topbar_previous_icon, '', ['alt' => '']); ?>
-                </button>
-                <span class="c-promotion-bar__label"><?php echo esc_html($promotion); ?></span>
-                <button class="c-promotion-bar__control c-promotion-bar__control--next" type="button" aria-label="<?php echo esc_attr__('Następna promocja', 'rudnikagro'); ?>">
-                    <?php echo rudnikagro_image($topbar_next_background, '', ['alt' => '']); ?>
-                    <?php echo rudnikagro_image($topbar_next_icon, '', ['alt' => '']); ?>
-                </button>
-                <button class="c-promotion-bar__close" type="button" aria-label="<?php echo esc_attr__('Zamknij promocję', 'rudnikagro'); ?>">
-                    <?php echo rudnikagro_image($topbar_close_icon, '', ['alt' => '']); ?>
-                </button>
+<header class="l-header" data-factory-section="shared-header" data-factory-component="site-header">
+    <div class="l-header__utility">
+        <div class="l-container l-header__utility-inner">
+            <div class="l-header__brand">
+                <a class="l-header__logo" href="<?php echo esc_url(home_url('/')); ?>" aria-label="<?php echo esc_attr(get_bloginfo('name')); ?>">
+                    <?php echo $image($logo_id, get_bloginfo('name')); ?>
+                </a>
+            </div>
+
+            <?php get_template_part('partials/menu', 'mobile', [
+                'logo_id' => $logo_id,
+                'menu_id' => $header_menu_id,
+                'phone_icon_id' => $phone_icon_id,
+                'mobile_icon_id' => $mobile_icon_id,
+                'email_icon_id' => $email_icon_id,
+                'phone' => $phone,
+                'mobile' => $mobile,
+                'email' => $email,
+                'search_placeholder' => $search_placeholder,
+            ]); ?>
+
+            <div class="l-header__search" data-product-search>
+                <form class="l-header__search-form" action="<?php echo esc_url(home_url('/')); ?>" method="get" role="search" data-product-search-form data-endpoint="<?php echo esc_url(admin_url('admin-ajax.php')); ?>" data-nonce="<?php echo esc_attr(wp_create_nonce('emko_product_search')); ?>">
+                    <label class="screen-reader-text" for="header-product-search">Szukaj produktów</label>
+                    <input id="header-product-search" class="l-header__search-input" type="search" name="s" placeholder="<?php echo esc_attr($search_placeholder); ?>" autocomplete="off" aria-autocomplete="list" aria-controls="header-product-search-results" aria-expanded="false" data-product-search-input>
+                    <input type="hidden" name="post_type" value="product">
+                    <button class="l-header__search-submit" type="submit" aria-label="Szukaj produktów">
+                        <i class="fas fa-search" aria-hidden="true"></i>
+                    </button>
+                </form>
+                <div class="l-header__search-results" id="header-product-search-results" aria-live="polite" data-product-search-results hidden></div>
+            </div>
+
+            <div class="l-header__contacts" aria-label="Kontakt">
+                <?php if ($phone !== '') : ?>
+                    <a class="l-header__contact l-header__contact--phone" href="<?php echo esc_url('tel:' . $phone_href); ?>">
+                        <?php echo $image($phone_icon_id); ?>
+                        <span data-factory-source-node="125:11"><?php echo esc_html($phone); ?></span>
+                    </a>
+                <?php endif; ?>
+                <?php if ($mobile !== '') : ?>
+                    <a class="l-header__contact l-header__contact--mobile" href="<?php echo esc_url('tel:' . $mobile_href); ?>">
+                        <?php echo $image($mobile_icon_id); ?>
+                        <span data-factory-source-node="125:12"><?php echo esc_html($mobile); ?></span>
+                    </a>
+                <?php endif; ?>
+                <?php if ($email !== '') : ?>
+                    <a class="l-header__contact l-header__contact--email" href="<?php echo esc_url('mailto:' . $email); ?>">
+                        <?php echo $image($email_icon_id); ?>
+                        <span data-factory-source-node="125:13"><?php echo esc_html($email); ?></span>
+                    </a>
+                <?php endif; ?>
             </div>
         </div>
-    <?php endif; ?>
-    <header class="l-header">
-        <div class="l-container l-header__utility" data-factory-section="shared-secondary-navigation">
-            <div class="l-header__contact">
-                <?php if ($phone) : ?><a href="tel:<?php echo esc_attr(preg_replace('/[^+0-9]/', '', (string) $phone)); ?>"><?php echo rudnikagro_image($phone_icon, '', ['alt' => '']); ?><span><?php echo esc_html($phone); ?></span></a><?php endif; ?>
-                <?php if ($email) : ?><a href="mailto:<?php echo esc_attr($email); ?>"><?php echo rudnikagro_image($email_icon, '', ['alt' => '']); ?><span><?php echo esc_html($email); ?></span></a><?php endif; ?>
-            </div>
-            <form class="l-header__search" role="search" method="get" action="<?php echo esc_url(home_url('/')); ?>"><label class="screen-reader-text" for="rudnikagro-search">Szukaj</label><input id="rudnikagro-search" type="search" name="s" value="" placeholder="<?php echo esc_attr($search); ?>"><?php if ($search_icon) : ?><button type="submit" aria-label="Szukaj"><?php echo rudnikagro_image($search_icon, '', ['alt' => '']); ?></button><?php endif; ?></form>
-            <?php if ($secondary_labels) : ?>
-                <nav class="l-header__secondary-nav" aria-label="<?php echo esc_attr__('Nawigacja dodatkowa', 'rudnikagro'); ?>"><ul>
-                    <?php foreach ($secondary_labels as $secondary_label) : ?><li><?php if (!empty($secondary_menu_urls[$secondary_label])) : ?><a href="<?php echo esc_url($secondary_menu_urls[$secondary_label]); ?>"><?php echo esc_html($secondary_label); ?></a><?php else : ?><span><?php echo esc_html($secondary_label); ?></span><?php endif; ?></li><?php endforeach; ?>
-                </ul></nav>
-            <?php else : ?><?php wp_nav_menu(['theme_location' => 'rudnikagro_secondary', 'container' => 'nav', 'container_class' => 'l-header__secondary-nav', 'fallback_cb' => false]); ?><?php endif; ?>
-            <div class="l-header__actions">
-                <?php if ($favourite_icon) : ?><span class="l-header__action l-header__action--favourite"><?php echo rudnikagro_image($favourite_icon, '', ['alt' => '']); ?><?php if ($favourite_badge && $favourite_count !== null && $favourite_count !== '') : ?><span class="l-header__count" aria-label="<?php echo esc_attr(sprintf(__('Ulubione: %s', 'rudnikagro'), $favourite_count)); ?>"><?php echo rudnikagro_image($favourite_badge, '', ['alt' => '']); ?><span><?php echo esc_html($favourite_count); ?></span></span><?php endif; ?></span><?php endif; ?>
-                <?php if ($account_icon) : ?><a class="l-header__action" href="<?php echo esc_url(get_permalink((int) get_option('woocommerce_myaccount_page_id'))); ?>"><?php echo rudnikagro_image($account_icon, '', ['alt' => '']); ?></a><?php endif; ?>
-                <?php if ($cart_icon) : ?><a class="l-header__action l-header__action--cart" href="<?php echo esc_url(wc_get_cart_url()); ?>"><?php echo rudnikagro_image($cart_icon, '', ['alt' => '']); ?><?php if ($favourite_badge && $cart_count !== null && $cart_count !== '') : ?><span class="l-header__count" aria-label="<?php echo esc_attr(sprintf(__('Koszyk: %s', 'rudnikagro'), $cart_count)); ?>"><?php echo rudnikagro_image($favourite_badge, '', ['alt' => '']); ?><span><?php echo esc_html($cart_count); ?></span></span><?php endif; ?></a><?php endif; ?>
+    </div>
+
+    <div class="l-header__primary">
+        <div class="l-container l-header__primary-inner">
+            <nav class="l-header__primary-nav" aria-label="Nawigacja główna" data-factory-source-node="125:5">
+                <?php if ($menu_markup) : ?>
+                    <?php echo $menu_markup; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- wp_nav_menu returns theme markup. ?>
+                <?php endif; ?>
+            </nav>
+            <div class="l-header__product-menu" id="site-product-category-menu" hidden>
+                <?php get_template_part('partials/product-category-menu', null, ['context' => 'header', 'heading' => '', 'menu_id' => 'site-product-category']); ?>
             </div>
         </div>
-        <div class="l-container l-header__primary" data-factory-section="shared-primary-navigation">
-            <?php if ($ra_logo) : ?><a class="l-header__branding" href="<?php echo esc_url(home_url('/')); ?>"><?php echo rudnikagro_image($ra_logo, '', ['loading' => false]); ?></a><?php endif; ?>
-            <?php if ($active_menu_labels) : ?>
-                <nav class="l-header__menu c-primary-menu" aria-label="<?php echo esc_attr__('Główna nawigacja', 'rudnikagro'); ?>">
-                    <?php foreach ($active_menu_labels as $index => $label) : ?>
-                        <?php if ($index === 0) : ?><button class="c-primary-menu__toggle" type="button" data-primary-menu-toggle aria-expanded="false" aria-controls="primary-mega-menu"><?php echo esc_html($label); ?></button>
-                        <?php else : ?><span class="c-primary-menu__label<?php echo $label === 'Promocje' ? ' c-primary-menu__label--promotion' : ''; ?>"><?php echo esc_html($label); ?></span><?php endif; ?>
-                    <?php endforeach; ?>
-                </nav>
-            <?php else : ?><?php wp_nav_menu(['theme_location' => 'rudnikagro_primary', 'container' => 'nav', 'container_class' => 'l-header__menu', 'fallback_cb' => false]); ?><?php endif; ?>
-            <?php get_template_part('partials/menu', 'mobile'); ?>
-        </div>
-        <?php if ($active_menu_labels && $active_categories && ($active_crops_one || $active_crops_two)) : ?>
-            <section id="primary-mega-menu" class="c-primary-mega-menu" data-factory-section="shared-primary-navigation-active" data-factory-component="primary-mega-menu" aria-label="<?php echo esc_attr($active_menu_labels[0]); ?>" hidden>
-                <div class="l-container c-primary-mega-menu__inner">
-                    <div class="c-primary-mega-menu__brand"><?php echo rudnikagro_image($active_logo ?: $ra_logo, '', ['alt' => '', 'loading' => false]); ?></div>
-                    <div class="c-primary-mega-menu__categories" role="tablist" aria-label="<?php echo esc_attr($active_menu_labels[0]); ?>">
-                        <?php foreach ($active_categories as $index => $category) : ?><button type="button" role="tab" data-mega-category aria-selected="<?php echo $index === 0 ? 'true' : 'false'; ?>" tabindex="<?php echo $index === 0 ? '0' : '-1'; ?>"><span><?php echo esc_html($category); ?></span><?php echo $active_chevron ? rudnikagro_image($active_chevron, '', ['alt' => '']) : ''; ?></button><?php endforeach; ?>
-                    </div>
-                    <div class="c-primary-mega-menu__crops" role="tabpanel">
-                        <div><?php foreach ($active_crops_one as $index => $crop) : ?><button type="button" data-mega-crop aria-pressed="<?php echo $crop === 'Rzepak' ? 'true' : 'false'; ?>"><?php echo esc_html($crop); ?></button><?php endforeach; ?></div>
-                        <div><?php foreach ($active_crops_two as $crop) : ?><button type="button" data-mega-crop aria-pressed="false"><?php echo esc_html($crop); ?></button><?php endforeach; ?></div>
-                    </div>
-                </div>
-            </section>
-        <?php endif; ?>
-    </header>
-<?php return; endif; ?>
-<?php $logo = get_field('logo', 'options'); ?>
-
-<header class="l-header js-headroom">
-    <div class="l-header__container l-container">
-
-        <?php if ($logo) : ?>
-            <a class="l-header__branding" href="<?= get_site_url(); ?>" title="Przejdź do strony głównej">
-                <?= wp_get_attachment_image($logo['id'], 'full', false, ['loading' => false]); ?>
-            </a>
-        <?php endif; ?>
-
-        <div class="l-header__menu">
-            <?php wp_nav_menu(['theme_location' => 'header', 'container' => false]); ?>
-        </div>
-
-        <?php get_template_part('partials/menu', 'mobile'); ?>
-
     </div>
 </header>

@@ -1,0 +1,47 @@
+{
+  "route": "/o-nas/",
+  "section": "about-hero",
+  "viewport": { "width": 1920, "height": 900 },
+  "source": {
+    "frame": { "x": 0, "y": 131, "width": 1920, "height": 678 },
+    "body": { "x": 1083, "y": 240, "width": 597, "height": 409 },
+    "sourceNodes": ["125:3739", "125:3741", "125:4036", "125:4334"]
+  },
+  "actual": {
+    "section": { "x": 0, "y": 128, "width": 1920, "height": 678 },
+    "body": {
+      "x": 1083,
+      "y": 237,
+      "width": 597,
+      "fontFamily": "Inter, sans-serif",
+      "fontSize": "16px",
+      "lineHeight": "34px"
+    },
+    "media": [
+      { "sourceNode": "125:3739", "x": 0, "y": 128, "width": 1920, "height": 678 },
+      { "sourceNode": "125:3741", "x": -38, "y": 328, "width": 1057, "height": 625 },
+      { "sourceNode": "125:4036", "x": 1436, "y": -37, "width": 1057, "height": 625 }
+    ]
+  },
+  "delta": {
+    "section": { "x": 0, "y": -3, "width": 0, "height": 0 },
+    "body": { "x": 0, "y": -3, "width": 0 }
+  },
+  "pixelComparison": {
+    "sourceViewport": 1920,
+    "renderedSize": { "width": 1920, "height": 678 },
+    "differentPixelRatio": 0.300560779252704,
+    "imagesHealthy": true,
+    "geometryPassed": true,
+    "passed": false
+  },
+  "build": {
+    "command": "npm run build",
+    "result": "passed",
+    "warnings": ["asset size limit", "entrypoint size limit", "Browserslist data is stale"]
+  },
+  "gaps": [
+    "The immutable about-hero section record exposes no title or CTA field; neither was synthesized.",
+    "The visual comparator reference is the transparent decorative section export, while the implementation includes the source-backed body copy and background SVG; pixel delta therefore remains needs-work for host review."
+  ]
+}

@@ -3,15 +3,15 @@
   "factoryVersion": "0.1.0",
   "mode": "project",
   "project": {
-    "name": "RudnikAgro",
-    "slug": "rudnikagro",
-    "themeName": "RudnikAgro",
-    "textDomain": "rudnikagro",
-    "prefix": "rudnikagro"
+    "name": "Emko",
+    "slug": "emko",
+    "themeName": "Emko",
+    "textDomain": "emko",
+    "prefix": "emko"
   },
   "environment": {
-    "localUrl": "https://autopilot.local",
-    "productionUrl": null
+    "localUrl": "https://humble-orbit-q7rww5xpqpw5f4x7r-8000.app.github.dev/",
+    "productionUrl": "https://humble-orbit-q7rww5xpqpw5f4x7r-8000.app.github.dev/"
   },
   "wordpress": {
     "acfPro": true,
@@ -32,7 +32,7 @@
     ]
   },
   "figma": {
-    "url": "https://www.figma.com/design/OwiDXrKMVcaHKB9ryYF6mY/Rudnik-Agro?m=dev",
+    "url": "https://www.figma.com/design/XBiSgFXDfm5YsZSm4lWBUq/EMKO.PL?node-id=50-2&p=f&m=dev",
     "page": null,
     "rootNode": null
   },

@@ -1,53 +1,15 @@
+// Inter is the only font family present in the frozen design-system handoff.
+// Keep the source import here so the same family and observed weights are used
+// by both the front end and editor build without adding a new package.
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700&display=swap');
 
-
-// @font-face {
-//     font-family: 'n27bold';
-//     src: url('../dist/fonts/N27-Bold.otf');
-//     font-weight: normal;
-//     font-style: normal;
-
-// }
-@import '@fontsource/dm-sans/400.css';
-@import '@fontsource/dm-sans/700.css';
-
-// The scoped design-system uses DM Sans Regular (400) and Bold (700).
-$dm-sans-font-family: 'DM Sans', sans-serif;
+$inter-font-family: 'Inter', sans-serif;
+$font-weight-thin: 100;
+$font-weight-light: 300;
 $font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
 $font-weight-bold: 700;
 
-$Poppins-weights: (
-  200: 'ExtraLight',
-  300: 'Light',
-  400: 'Regular',
-  500: 'Medium',
-  600: 'SemiBold',
-  700: 'Bold',
-  800: 'ExtraBold',
-  900: 'Black'
-);
-
-$Baskervville-weights: (
-  400: 'Regular',
-  500: 'Medium',
-  600: 'SemiBold',
-  700: 'Bold'
-);
-
-// Tymczasowo wyłączamy fonty, bo nie ma plików w assets/fonts
-// FUNKCJA DO REJESTRACJI
-// @each $family, $map in ( 'Poppins': $Poppins-weights, 'Baskervville': $Baskervville-weights ) {
-//   @each $weight, $name in $map {
-//     @font-face {
-//       font-family: #{$family};
-//       src: url('../assets/fonts/#{$family}-#{$name}.ttf') format('truetype');
-//       font-weight: $weight;
-//       font-style: normal;
-//     }
-//     @font-face {
-//       font-family: #{$family};
-//       src: url('../assets/fonts/#{$family}-#{$name}Italic.ttf') format('truetype');
-//       font-weight: $weight;
-//       font-style: italic;
-//     }
-//   }
-// }
+$base-font-family: $inter-font-family;
+$heading-font-family: $inter-font-family;

@@ -79,7 +79,7 @@ async function smoke() {
     write(path.join(root, 'before/metrics.json'), await require('./visual').metrics(page));
     await page.screenshot({ path: path.join(root, 'before/rendered.png'), fullPage: true });
     const negative = await require('./component-visual').compare(page, path.join(root, '.factory-cache/figma/latest/home.png'), path.join(root, 'before/rendered.png'), { x: 0, y: 0, width: 1920, height: 900 }, 24);
-    const child = spawn(process.execPath, [__filename, '--worker'], { cwd: root, env: { ...process.env, FACTORY_AUTOPILOT_ROOT: root }, windowsHide: true, stdio: ['ignore', 'pipe', 'pipe'] });
+    const child = spawn(process.execPath, [__filename, '--worker'], { cwd: root, env: { ...process.env, FACTORY_AUTOPILOT_ROOT: root, FACTORY_RUNTIME: 'localwp', FACTORY_LOCAL_URL: baseUrl }, windowsHide: true, stdio: ['ignore', 'pipe', 'pipe'] });
     child.stdout.pipe(fs.createWriteStream(path.join(root, 'worker.out.log'))); child.stderr.pipe(fs.createWriteStream(path.join(root, 'worker.err.log')));
     const code = await new Promise(resolve => child.on('close', resolve));
     if (code !== 0) throw Error(`SMOKE_WORKER_FAILED: ${root}`);
@@ -108,7 +108,7 @@ async function smoke() {
       images:manifest.routes.map(r=>({route:r.id,reference:`.factory-cache/figma/latest/${r.reference}`,rendered:`${r.id}-after.png`}))});
     await require('./final-audit').run({dir:path.join(root,'run'),comparison:summary(),
       invoke:async()=>{
-        const finalChild=spawn(process.execPath,[__filename,'--final-worker'],{cwd:root,env:{...process.env,FACTORY_AUTOPILOT_ROOT:root},windowsHide:true,stdio:['ignore','pipe','pipe']});
+        const finalChild=spawn(process.execPath,[__filename,'--final-worker'],{cwd:root,env:{...process.env,FACTORY_AUTOPILOT_ROOT:root,FACTORY_RUNTIME:'localwp',FACTORY_LOCAL_URL:baseUrl},windowsHide:true,stdio:['ignore','pipe','pipe']});
         finalChild.stdout.pipe(fs.createWriteStream(path.join(root,'final.out.log')));finalChild.stderr.pipe(fs.createWriteStream(path.join(root,'final.err.log')));
         if(await new Promise(resolve=>finalChild.on('close',resolve))!==0)throw Error(`SMOKE_FINAL_SOL_FAILED: ${root}`);
         return JSON.parse(fs.readFileSync(path.join(root,'final-worker-result.json'))).result;

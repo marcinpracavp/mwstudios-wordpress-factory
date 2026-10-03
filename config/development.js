@@ -22,7 +22,7 @@
 
 module.exports = {
   // 🌍 URL WordPress Local - ZMIEŃ NA SWÓJ LOKALNY ADRES
-  WORDPRESS_URL: require('../factory/project.json').environment.localUrl,
+  WORDPRESS_URL: require('../scripts/factory/autopilot/common').resolveLocalUrl(require('../factory/project.json')),
   
   // 🌐 Porty BrowserSync  
   BROWSERSYNC_PORT: 3000,

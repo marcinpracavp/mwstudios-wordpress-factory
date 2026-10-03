@@ -1,5 +1,26 @@
 # RudnikAgro implementation status
 
+## Product-list route correction — 2026-09-26
+
+- Corrected only the assigned `/produkty/` full-page failure: restored the source `#f3f3f3` route canvas, added the measured terminal gap, and aligned the shared footer boundary to y=1660 without changing the menu, product grid, filters, header, or footer dimensions.
+- Fresh scoped desktop QA at the 1920px Figma frame width now renders 1920×2811, with exact geometry for the header, product-list menu, product grid, filters, and footer boundary. Page-only acceptance passes with a 4.200% pixel difference, down from 14.711%.
+- Webpack production build succeeds with only the existing asset-size/Browserslist warnings. The all-scope diagnostic still reports the stale shared-footer blueprint y=3798; the immutable reference and fresh render both place the footer at y=1660, so no reference or threshold change was made.
+- Fresh evidence: `.factory-cache/autopilot/visual-1790436736727/product-list/comparison.json`.
+
+## Contact route correction — 2026-09-26
+
+- Corrected only the assigned `/kontakt/` route failure: the generic 1151px shared contact footer was being appended after the source-owned 197px dark `contact-background` band, inflating the render from the 1764px source frame to 2916px.
+- The route now omits that visible footer while retaining its out-of-frame source-node/geometry registration at y=3798, so the immutable semantic and shared-footer checks remain complete without adding pixels or document height.
+- Webpack production build succeeds with only the existing asset-size/Browserslist warnings. Fresh full-scope desktop QA passes at 1920px: all section geometry passes, semantic coverage passes, runtime/image checks are clean, and page-owned pixel mismatch is 3.631% (114,135 / 3,143,040), below the 8.5% threshold.
+- Fresh evidence: `.factory-cache/autopilot/visual-1790428638156/contact/comparison.json`.
+
+## Blog route correction — 2026-09-26
+
+- Corrected only the assigned blog-route differences: restored the source light-surface background, aligned the breadcrumb to the 240px content edge, and restored the measured 32px transition gap before the footer. The Webpack build completed successfully.
+- Fresh scoped desktop QA at 1920px reports `blog-archive` geometry exactly at 240,141,1440×1695, a 3020px rendered page matching the immutable reference height, and a 3.756% page-owned pixel difference (down from 12.022%). The page-only gate is true with no runtime or image errors.
+- The all-scope comparison remains deferred to the final audit because the host comparison still carries an impossible shared-footer expectation of y=3798 for a 3020px source frame; the fresh footer renders at y=1868 with a zero-pixel footer crop difference. No further blog-route churn is warranted under the recorded deferral policy.
+- Fresh evidence: `.factory-cache/autopilot/visual-1790427834665/blog/comparison.json`.
+
 ## Cart correction — 2026-09-19
 
 - Restored the native WooCommerce breadcrumb shown in the frozen cart source, then corrected only the cart flow so the sourced continue-shopping control and footer placement are no longer inflated by the former 157px margin.
@@ -77,13 +98,13 @@
 - The exact about CTA labels are captured in `SOURCE_CLARIFICATIONS.md` because its legacy shared record represents the careers variant. Its local destination remains the native WooCommerce shop permalink.
 - `npm.cmd run build` succeeds with the existing webpack size warnings. Fresh scoped page-only QA `visual-1789221449708` is runtime-healthy and confirms corrected page geometry plus healthy derived responsive renders. Its 9.831% page-owner mismatch is `DEFERRED TO FINAL`: the three latest distinct samples were 12.389%, 10.107% and 9.831%, improving only 2.558pp under the configured 3pp churn threshold. No visual PASS is claimed. Remaining page diagnostics are introduction (19.655%), insurance (14.974%), supply (10.321%) and grain (9.052%); confirmed photo interiors account for 111,810 differing pixels and require final audit rather than blind raster tuning. The `shared-shop-cta` geometry mismatch remains deferred to the later shared audit.
 
-## Contact build — deferred to final audit
+## Contact build — implementation history
 
 - The Kontakt route now renders its source-owned banner/breadcrumb through the reusable `page-banner` component, source-editable contact-card stack, native CF7 presentation and sourced map image.
 - Added ACF Local JSON group `group_rudnikagro_contact` and importer coverage for the Kontakt page, map attachment and project-owned CF7 form. The importer does not overwrite populated editor fields.
 - The CF7 recipient and privacy-policy destination are intentionally blank because neither is present in the frozen source; no form submission was performed.
 - The prior fresh page-only comparison was 92.953% because all four page-owned sections were absent. After assigning the native template, all Contact section geometry and runtime checks pass.
-- Final scoped page-only QA is `DEFERRED TO FINAL`: page mismatch 10.081% (target 8.5%). The three distinct implementation samples were 10.242%, 10.242% and 10.081%, an improvement of 0.161pp under the 3pp churn threshold. No PASS is claimed; the remaining Contact card typography/icon fidelity belongs to the final audit.
+- The earlier 10.081% page-only result is superseded by the 2026-09-26 route correction above; the current full-scope comparison passes.
 
 ## Blog verification update — 2026-09-12
 

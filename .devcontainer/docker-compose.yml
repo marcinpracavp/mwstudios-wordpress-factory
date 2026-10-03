@@ -4,6 +4,15 @@ services:
     image: mcr.microsoft.com/devcontainers/base:ubuntu-24.04
     command: sleep infinity
 
+    environment:
+      FACTORY_RUNTIME: docker
+      FACTORY_WP_ROOT: /wordpress
+      FACTORY_LOCAL_URL: http://wordpress
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: wp
+      WORDPRESS_DB_PASSWORD: wp
+      WORDPRESS_DB_NAME: wp
+
     volumes:
       - ..:/workspace:cached
       - wordpress-data:/wordpress

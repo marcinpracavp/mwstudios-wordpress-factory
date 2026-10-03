@@ -1,0 +1,121 @@
+@use 'abstracts' as *;
+
+.c-home-faq {
+  background: #f3f4f6;
+  color: $ink;
+  max-width: $page-width;
+  padding-bottom:53px;
+}
+
+.c-home-faq__inner {
+  margin: 0 auto;
+  max-width: 880px;
+  width: 100%;
+}
+
+.c-home-faq__heading-wrap {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  min-height: 142px;
+  padding: 32px 47px 23px;
+}
+
+.c-home-faq__heading {
+  color: $ink;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -0.03rem;
+  line-height: 8.7rem;
+  margin: 0;
+  text-align: center;
+}
+
+.c-home-faq__items {
+  display: grid;
+  gap: 10px;
+}
+
+.c-home-faq__item {
+  background: $white;
+  min-width: 0;
+}
+
+.c-home-faq__summary {
+  align-items: center;
+  color: $ink;
+  cursor: pointer;
+  display: flex;
+  font-size: 1.55rem;
+  font-weight: 600;
+  justify-content: space-between;
+  line-height: 2.4rem;
+  list-style: none;
+  min-height: 51px;
+  padding: 0 35px;
+}
+
+.c-home-faq__summary::-webkit-details-marker {
+  display: none;
+}
+
+.c-home-faq__summary::marker {
+  content: '';
+}
+
+.c-home-faq__question {
+  min-width: 0;
+  padding-right: 20px;
+}
+
+.c-home-faq__arrow {
+  flex: 0 0 auto;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1;
+  transform: translateY(-1px);
+}
+
+.c-home-faq__answer {
+  padding: 3px 17px 19px 35px;
+}
+
+.c-home-faq__item[open] .c-home-faq__summary {
+  padding-top: 10px;
+}
+
+.c-home-faq__item[open] .c-home-faq__arrow {
+  transform: translateY(-1px) rotate(90deg);
+}
+
+.c-home-faq__answer p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  margin: 0;
+}
+
+@media screen and (max-width: $breakpoint-sm) {
+  .c-home-faq__heading-wrap {
+    min-height: 116px;
+    padding: 20px 24px 9px;
+  }
+
+  .c-home-faq__heading {
+    font-size: 2.4rem;
+    line-height: 8.7rem;
+  }
+
+  .c-home-faq__summary,
+  .c-home-faq__answer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .c-home-faq__item,
+  .c-home-faq__summary {
+    scroll-behavior: auto;
+  }
+}

@@ -4,8 +4,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const tabs = product.querySelectorAll('[data-product-tab]');
     tabs.forEach((tab) => tab.addEventListener('click', () => {
       const key = tab.dataset.productTab;
-      tabs.forEach((item) => item.setAttribute('aria-selected', String(item === tab)));
-      panels.forEach((panel) => panel.classList.toggle('is-active', panel.dataset.productPanel === key));
+      tabs.forEach((item) => {
+        const isActive = item === tab;
+        item.classList.toggle('is-active', isActive);
+        item.setAttribute('aria-selected', String(isActive));
+      });
+      panels.forEach((panel) => {
+        const isActive = panel.dataset.productPanel === key;
+        panel.classList.toggle('is-active', isActive);
+        panel.setAttribute('aria-hidden', String(!isActive));
+      });
       product.classList.toggle('is-use-active', key === 'use');
       if (key === 'downloads') {
         product.querySelector('.c-product__tabs-content')?.setAttribute('data-factory-section', 'product-files');

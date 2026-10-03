@@ -24,3 +24,4 @@ require_once( FUNCTIONS_DIR . 'utils.php' );
 require_once( FUNCTIONS_DIR . 'helpers.php' );
 require_once( FUNCTIONS_DIR . 'optimization.php' );
 require_once( FUNCTIONS_DIR . 'rudnikagro.php' );
+require_once( FUNCTIONS_DIR . 'home-page.php' );

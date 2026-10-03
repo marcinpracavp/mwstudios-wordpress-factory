@@ -1,0 +1,46 @@
+{
+  "key": "group_emko_service_page",
+  "title": "EMKO — Serwis",
+  "fields": [
+    {
+      "key": "field_emko_service_sections",
+      "label": "Sekcje treści",
+      "name": "emko_service_sections",
+      "type": "repeater",
+      "instructions": "Dodawaj sekcje w kolejności wyświetlania. Treść i nagłówek są edytowane w WYSIWYG; przycisk jest opcjonalny.",
+      "layout": "block",
+      "button_label": "Dodaj sekcję",
+      "sub_fields": [
+        {"key":"field_emko_service_section_heading","label":"Nagłówek","name":"heading","type":"wysiwyg","tabs":"all","toolbar":"full","media_upload":1},
+        {"key":"field_emko_service_section_content","label":"Treść przed przyciskiem","name":"content","type":"wysiwyg","tabs":"all","toolbar":"full","media_upload":1},
+        {"key":"field_emko_service_section_button","label":"Przycisk (opcjonalnie)","name":"button","type":"link","return_format":"array"},
+        {"key":"field_emko_service_section_content_after_button","label":"Treść po przycisku","name":"content_after_button","type":"wysiwyg","tabs":"all","toolbar":"full","media_upload":1},
+        {"key":"field_emko_service_section_image","label":"Grafika","name":"image","type":"image","return_format":"id","preview_size":"medium","library":"all"},
+        {"key":"field_emko_service_section_overlay_image","label":"Grafika nakładana (opcjonalnie)","name":"overlay_image","type":"image","return_format":"id","preview_size":"medium","library":"all"},
+        {"key":"field_emko_service_section_image_side","label":"Pozycja grafiki","name":"image_side","type":"button_group","choices":{"left":"Po lewej","right":"Po prawej"},"default_value":"left","return_format":"value","layout":"horizontal"}
+      ]
+    },
+    {
+      "key": "field_emko_service_media_band",
+      "label": "Pas CTA przed stopką",
+      "name": "emko_service_media_band",
+      "type": "group",
+      "layout": "block",
+      "sub_fields": [
+        {"key":"field_emko_service_media_band_heading","label":"Nagłówek","name":"heading","type":"wysiwyg","tabs":"all","toolbar":"full","media_upload":1},
+        {"key":"field_emko_service_media_band_button","label":"Przycisk","name":"button","type":"link","return_format":"array"},
+        {"key":"field_emko_service_media_band_image","label":"Grafika tła","name":"image","type":"image","return_format":"id","preview_size":"medium","library":"all"},
+        {"key":"field_emko_service_media_band_mask","label":"Maska grafiki","name":"mask","type":"image","return_format":"id","preview_size":"medium","library":"all"}
+      ]
+    }
+  ],
+  "location": [[{"param":"page","operator":"==","value":"167"}]],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "active": true,
+  "show_in_rest": 0,
+  "modified": 1790948000
+}

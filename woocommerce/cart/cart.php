@@ -4,8 +4,8 @@ defined('ABSPATH') || exit;
 
 do_action('woocommerce_before_cart');
 $cart = WC()->cart;
-$option = static function (string $name): string { return function_exists('rudnikagro_option') ? (string) rudnikagro_option($name) : ''; };
-$remove_icon = (int) (function_exists('rudnikagro_option') ? rudnikagro_option('rudnikagro_cart_remove_icon_486_96') : 0);
+$option = static function (string $name): string { return function_exists('emko_option') ? (string) emko_option($name) : ''; };
+$remove_icon = (int) (function_exists('emko_option') ? emko_option('emko_cart_remove_icon_486_96') : 0);
 ?>
 <section class="c-cart" data-factory-component="cart-template">
     <div class="l-container c-cart__breadcrumb-wrap">
@@ -18,7 +18,7 @@ $remove_icon = (int) (function_exists('rudnikagro_option') ? rudnikagro_option('
     <div class="l-container">
         <div class="c-cart__heading-offset pt-70">
             <div class="c-cart__heading-section mb-30" data-factory-section="cart-heading">
-                <h1 class="c-cart__heading"><?php echo esc_html($option('rudnikagro_cart_heading')); ?></h1>
+                <h1 class="c-cart__heading"><?php echo esc_html($option('emko_cart_heading')); ?></h1>
             </div>
         </div>
         <?php wc_print_notices(); ?>
@@ -59,24 +59,24 @@ $remove_icon = (int) (function_exists('rudnikagro_option') ? rudnikagro_option('
             <aside class="c-cart__totals cart-collaterals">
                 <?php if (wc_coupons_enabled()) : ?>
                     <form class="c-cart__coupon" action="<?php echo esc_url(wc_get_cart_url()); ?>" method="post">
-                        <h2><?php echo esc_html($option('rudnikagro_cart_coupon_heading')); ?></h2>
-                        <label class="screen-reader-text" for="coupon_code"><?php echo esc_html($option('rudnikagro_cart_coupon_heading')); ?></label>
-                        <input type="text" name="coupon_code" id="coupon_code" value="" placeholder="<?php echo esc_attr($option('rudnikagro_cart_coupon_placeholder')); ?>">
-                        <button type="submit" name="apply_coupon" value="1"><?php echo esc_html($option('rudnikagro_cart_apply_coupon_label')); ?></button>
+                        <h2><?php echo esc_html($option('emko_cart_coupon_heading')); ?></h2>
+                        <label class="screen-reader-text" for="coupon_code"><?php echo esc_html($option('emko_cart_coupon_heading')); ?></label>
+                        <input type="text" name="coupon_code" id="coupon_code" value="" placeholder="<?php echo esc_attr($option('emko_cart_coupon_placeholder')); ?>">
+                        <button type="submit" name="apply_coupon" value="1"><?php echo esc_html($option('emko_cart_apply_coupon_label')); ?></button>
                         <?php wp_nonce_field('woocommerce-cart', 'woocommerce-cart-nonce'); ?>
                     </form>
                 <?php endif; ?>
-                <h2><?php echo esc_html($option('rudnikagro_cart_summary_heading')); ?></h2>
+                <h2><?php echo esc_html($option('emko_cart_summary_heading')); ?></h2>
                 <dl class="c-cart__summary">
-                    <div><dt><?php echo esc_html($option('rudnikagro_cart_products_label')); ?></dt><dd><?php wc_cart_totals_subtotal_html(); ?></dd></div>
-                    <div><dt><?php echo esc_html($option('rudnikagro_cart_shipping_label')); ?></dt><dd><?php echo wp_kses_post(wc_price($cart->get_shipping_total())); ?></dd></div>
-                    <?php foreach ($cart->get_coupons() as $code => $coupon) : ?><div class="c-cart__discount"><dt><?php echo esc_html($option('rudnikagro_cart_discount_label')); ?><small><?php echo esc_html(sprintf(__('Dodano kod %s', 'slawinsky'), wc_strtoupper($code))); ?></small></dt><dd><?php echo wp_kses_post(wc_price($cart->get_coupon_discount_totals()[$code] ?? 0)); ?></dd></div><?php endforeach; ?>
-                    <div class="c-cart__order-total"><dt><?php echo esc_html($option('rudnikagro_cart_total_label')); ?></dt><dd><?php wc_cart_totals_order_total_html(); ?></dd></div>
+                    <div><dt><?php echo esc_html($option('emko_cart_products_label')); ?></dt><dd><?php wc_cart_totals_subtotal_html(); ?></dd></div>
+                    <div><dt><?php echo esc_html($option('emko_cart_shipping_label')); ?></dt><dd><?php echo wp_kses_post(wc_price($cart->get_shipping_total())); ?></dd></div>
+                    <?php foreach ($cart->get_coupons() as $code => $coupon) : ?><div class="c-cart__discount"><dt><?php echo esc_html($option('emko_cart_discount_label')); ?><small><?php echo esc_html(sprintf(__('Dodano kod %s', 'slawinsky'), wc_strtoupper($code))); ?></small></dt><dd><?php echo wp_kses_post(wc_price($cart->get_coupon_discount_totals()[$code] ?? 0)); ?></dd></div><?php endforeach; ?>
+                    <div class="c-cart__order-total"><dt><?php echo esc_html($option('emko_cart_total_label')); ?></dt><dd><?php wc_cart_totals_order_total_html(); ?></dd></div>
                 </dl>
-                <a class="c-cart__checkout" href="<?php echo esc_url(wc_get_checkout_url()); ?>"><?php echo esc_html($option('rudnikagro_cart_checkout_label')); ?></a>
+                <a class="c-cart__checkout" href="<?php echo esc_url(wc_get_checkout_url()); ?>"><?php echo esc_html($option('emko_cart_checkout_label')); ?></a>
             </aside>
         </div>
-        <a class="c-cart__continue" href="<?php echo esc_url(wc_get_page_permalink('shop')); ?>"><?php echo esc_html($option('rudnikagro_cart_continue_shopping_label')); ?></a>
+        <a class="c-cart__continue" href="<?php echo esc_url(wc_get_page_permalink('shop')); ?>"><?php echo esc_html($option('emko_cart_continue_shopping_label')); ?></a>
     </div>
 </section>
 <?php do_action('woocommerce_after_cart'); ?>

@@ -1,0 +1,25 @@
+{
+  "key": "group_emko_home_popular_products",
+  "title": "Emko — popularne produkty",
+  "fields": [
+    {"key":"field_emko_home_popular_products_tab","label":"Popularne produkty","name":"emko_home_popular_products_tab","type":"tab","placement":"top"},
+    {"key":"field_emko_home_popular_products_heading","label":"Nagłówek","name":"emko_home_popular_products_heading_125_674","type":"wysiwyg","tabs":"all","toolbar":"full","media_upload":1},
+    {"key":"field_emko_home_popular_products_intro","label":"Wprowadzenie","name":"emko_home_popular_products_intro_125_675","type":"wysiwyg","tabs":"all","toolbar":"full","media_upload":1},
+    {"key":"field_emko_home_popular_products_all_label","label":"Etykieta wszystkich","name":"emko_home_popular_products_all_label_125_677","type":"text"},
+    {
+      "key":"field_emko_home_popular_products",
+      "label":"Kategorie i produkty",
+      "name":"emko_home_popular_products",
+      "type":"repeater",
+      "layout":"block",
+      "button_label":"Dodaj kategorię z produktami",
+      "collapsed":"field_emko_home_popular_products_category",
+      "sub_fields":[
+        {"key":"field_emko_home_popular_products_category","label":"Kategoria","name":"category","type":"taxonomy","taxonomy":"product_cat","field_type":"select","return_format":"object","add_term":0,"save_terms":0,"load_terms":0,"allow_null":0},
+        {"key":"field_emko_home_popular_products_products","label":"Produkty","name":"products","type":"relationship","instructions":"Wybierz od 1 do 4 produktów. Kolejność na liście odpowiada kolejności kart na stronie głównej.","post_type":["product"],"return_format":"id","filters":["search","taxonomy"],"elements":["featured_image"],"min":1,"max":4}
+      ]
+    }
+  ],
+  "location": [[{"param":"options_page","operator":"==","value":"acf-options-emko"}]],
+  "position":"normal","style":"default","label_placement":"top","instruction_placement":"label","active":true,"show_in_rest":0
+}

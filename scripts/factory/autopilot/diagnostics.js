@@ -1,7 +1,12 @@
+const { sectionOwnership } = require('./visual-ownership');
+
 // No LLM required to distinguish shared health failures from local geometry defects.
-function diagnose(comparisons, threshold = 0.085) {
+function diagnose(comparisons, threshold = 0.085, manifest = null) {
   const all = comparisons.filter(Boolean), result = [], covered = new Set();
   const unavailable=new Set();
+  const sharedSemantic = new Map();
+  const ownership = id => manifest ? sectionOwnership(manifest, id) :
+    (/(^|-)shared-(header|footer)$/.test(id) ? { owner: 'shared', component: id } : { owner: 'page', component: null });
   for(const c of all){
     const rendered=c.rendered?.height??c.pixels?.renderedSize?.height,reference=c.reference?.height??c.pixels?.referenceSize?.height;
     const pageSections=(c.geometry||[]).filter(g=>g.owner==='page');
@@ -41,6 +46,39 @@ function diagnose(comparisons, threshold = 0.085) {
       owner: global ? 'shared' : 'page', global, sections: [], routes: occurrences.map(o => o.route),
       priority: 0, reason: error, evidence: occurrences, requiresDiagnosis: true });
   }
+  // Semantic completeness precedes pixel polish. A perfect crop of one child
+  // must not hide source-backed text/media rendered outside its owning
+  // section, nor a visible top-level wrapper omitted from the route plan.
+  for (const c of all.filter(c=>!unavailable.has(c.id))) {
+    for (const section of c.semantic?.sections || []) {
+      if (section.passed) continue;
+      covered.add(`${c.id}:${section.id}`);
+      const owner = ownership(section.id);
+      if (owner.owner !== 'page') {
+        const existing = sharedSemantic.get(section.id) || {
+          id: `semantic-shared-${section.id}`, class: 'php-fix', type: 'template-fix', owner: 'shared', global: true,
+          component: owner.component || section.id, sections: [section.id], routes: [], priority: -2,
+          reason: `SEMANTIC_SECTION_INCOMPLETE: ${section.id} does not own all source-backed content/media`, evidence: []
+        };
+        existing.routes.push(c.id);
+        existing.evidence.push({ route: c.id, missingSourceNodes: section.missingSourceNodes, outsideSection: section.outsideSection });
+        sharedSemantic.set(section.id, existing);
+        continue;
+      }
+      result.push({ id:`semantic-${c.id}-${section.id}`,class:'php-fix',type:'template-fix',owner:'page',global:false,
+        sections:[section.id],routes:[c.id],priority:-2,reason:`SEMANTIC_SECTION_INCOMPLETE: ${section.id} does not own all source-backed content/media`,
+        evidence:{missingSourceNodes:section.missingSourceNodes,outsideSection:section.outsideSection} });
+    }
+    for (const orphan of c.semantic?.unregisteredSections || []) {
+      const owner=(c.geometry || []).map(item=>item.id).filter(id=>orphan.id.startsWith(`${id}-`)).sort((a,b)=>b.length-a.length)[0] || null;
+      const id=owner || orphan.id;
+      covered.add(`${c.id}:${id}`);
+      result.push({id:`semantic-orphan-${c.id}-${orphan.id}`,class:'php-fix',type:'template-fix',owner:'page',global:false,
+        sections:owner?[owner]:[],routes:[c.id],priority:-2,reason:`UNREGISTERED_SECTION: ${orphan.id} is visible but absent from the route blueprint${owner?`; merge it into ${owner}`:''}`,
+        evidence:orphan});
+    }
+  }
+  result.push(...sharedSemantic.values());
   for (const c of all) {
     if(unavailable.has(c.id))continue;
     for (const g of c.geometry || []) {
@@ -48,7 +86,7 @@ function diagnose(comparisons, threshold = 0.085) {
       if (g.reused || (g.passed && !(ratio > threshold))) continue;
       const shared = ['header', 'footer', 'shared'].includes(g.owner);
       const key = shared ? `${g.id}:${g.expected?.width}:${g.expected?.height}` : `${c.id}:${g.id}`;
-      if (covered.has(key)) continue;
+      if (covered.has(key) || covered.has(`${c.id}:${g.id}`)) continue;
       covered.add(key);
       const height = Math.abs(g.delta?.height || 0), width = Math.abs(g.delta?.width || 0);
       const localHeight=height>50&&!shared&&!(c.errors||[]).some(e=>/overflow/i.test(e))&&!c.responsive?.some(r=>r.overflow>1);

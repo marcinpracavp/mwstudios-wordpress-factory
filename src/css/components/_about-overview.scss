@@ -1,0 +1,171 @@
+@use 'abstracts' as *;
+
+.c-route-skeleton--about {
+  overflow-x: clip;
+}
+
+.c-about-overview-section {
+  background: $surface-light;
+  height: 768px;
+  position: relative;
+}
+
+.c-about-overview__media {
+  height: 459px;
+  left: calc(50% - 39px);
+  overflow: hidden;
+  position: absolute;
+  top: 152px;
+  width: 759px;
+}
+
+.c-about-overview__media img {
+  display: block;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+}
+
+.c-about-overview__media img:first-child {
+  inset: 0;
+}
+
+.c-about-overview__media img:last-child {
+  inset: 0;
+  object-fit: cover;
+  z-index: 1;
+  margin-top: 13px;
+}
+
+.c-about-overview__copy {
+  background: $surface-light;
+  left: max(20px, calc((100% - #{$source-content-width}) / 2));
+  max-width: 663px;
+  padding: 0;
+  position: absolute;
+  top: 139px;
+  z-index: 1;
+}
+
+.c-about-overview__heading {
+  color: $ink;
+  font-size: 32px;
+  font-weight: 700;    
+  line-height: normal;
+  margin: 30px 0 30px;
+}
+
+.c-about-overview__body {
+  color: $ink;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0;
+}
+
+.c-about-overview__bullet {
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.c-about-overview__button {
+  align-items: center;
+  background: $accent;
+  border-radius: 8px;
+  color: $white;
+  display: inline-flex;
+  font-size: 14px;
+  font-weight: 700;
+  gap: 12px;
+  justify-content: space-between;
+  line-height: 18px;
+  margin-top: 20px;
+  min-height: 42px;
+  padding: 0 18px 0 22px;
+  text-decoration: none;
+  white-space: nowrap;
+  width: 152px;
+}
+
+.c-about-overview__button-arrow {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+@include media($breakpoint-lg) {
+  .c-about-overview-section {
+    height: auto;
+    min-height: 768px;
+  }
+
+  .c-about-overview__media {
+    left: calc(50% + 20px);
+    width: calc(50% - 40px);
+  }
+
+  .c-about-overview__copy {
+    left: 20px;
+    max-width: calc(50% - 40px);
+  }
+}
+
+// At intermediate widths the narrower copy can grow beyond the fixed desktop
+// section height. Use the same in-flow two-column behaviour as other tablet
+// sections so the following section is always placed after the longest column.
+@media screen and (min-width: #{$breakpoint-md + 1px}) and (max-width: #{$breakpoint-lg}) {
+  .c-about-overview-section {
+    align-items: center;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    min-height: 0;
+    padding: 139px 20px 80px;
+  }
+
+  .c-about-overview__media {
+    grid-column: 2;
+    grid-row: 1;
+    height: auto;
+    left: auto;
+    margin-top: 0;
+    position: relative;
+    top: auto;
+    width: 100%;
+    aspect-ratio: 759 / 459;
+  }
+
+  .c-about-overview__copy {
+    grid-column: 1;
+    grid-row: 1;
+    left: auto;
+    max-width: none;
+    position: relative;
+    top: auto;
+  }
+}
+
+@include media($breakpoint-md) {
+  .c-about-overview-section {
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .c-about-overview__media {
+    height: auto;
+    left: auto;
+    margin-top: 40px;
+    position: relative;
+    top: auto;
+    width: 100%;
+    aspect-ratio: 759 / 459;
+  }
+
+  .c-about-overview__copy {
+    left: 20px;
+    max-width: calc(100% - 40px);
+    position: relative;
+    top: auto;
+  }
+}

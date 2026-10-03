@@ -5,7 +5,13 @@ const assert = require('node:assert/strict');
 const fs = require('fs');
 const path = require('path');
 const os = require('os');
-test('shared-first host gate, capacity pause, missing-only resume, Luna escalation and final Sol polish', async () => {
+test('shared-first host gate, capacity pause, missing-only resume, Luna escalation and final Sol polish', async t => {
+  const previousUrl = process.env.FACTORY_LOCAL_URL;
+  process.env.FACTORY_LOCAL_URL = 'http://test.invalid';
+  t.after(() => {
+    if (previousUrl === undefined) delete process.env.FACTORY_LOCAL_URL;
+    else process.env.FACTORY_LOCAL_URL = previousUrl;
+  });
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'factory-v2-pipeline-'));
   process.env.FACTORY_AUTOPILOT_ROOT = root;
   const common = require('./common'), { write, read } = common;

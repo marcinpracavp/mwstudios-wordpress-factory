@@ -4,7 +4,12 @@ function sectionOwnership(manifest, id, observed) {
   if (observed?.landmark === 'footer' || tokens.includes('footer')) return { owner: 'footer', component: 'footer' };
   if (observed?.landmark === 'header' || tokens.some(t => ['header', 'topbar', 'navigation'].includes(t))) return { owner: 'header', component: 'header' };
   const groups = new Set(manifest.routes.filter(r => r.sections.includes(id)).map(r => r.buildGroup));
-  if (observed?.component || groups.size > 1) return { owner: 'shared', component: observed?.component || id };
+  // A data-factory-component marker describes reusable implementation, not
+  // visual ownership. Generic wrappers such as route-section-shell appear on
+  // almost every page section; treating the marker itself as shared removes
+  // the whole page from page-pixel measurement. Source reuse across multiple
+  // build groups is the ownership signal.
+  if (groups.size > 1) return { owner: 'shared', component: observed?.component || id };
   return { owner: 'page', component: null };
 }
 

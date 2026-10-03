@@ -1,0 +1,214 @@
+@use 'abstracts' as *;
+
+.c-service-page {
+  overflow-x: clip;
+}
+
+.c-service-content-section {
+  margin-top: 96px;
+}
+
+.c-service-content-section:first-of-type {
+  margin-top: 17px;
+}
+
+.c-service-content-section__inner {
+  align-items: start;
+}
+
+.c-service-content-section--image-right .c-service-content-section__inner {
+  grid-auto-flow: row dense;
+}
+
+.c-service-content-section__media {
+  min-width: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.c-service-content-section--image-right .c-service-content-section__media {
+  height: 553px;
+}
+
+.c-service-content-section__image,
+.c-service-content-section__overlay-image {
+  display: block;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  width: 100%;
+}
+
+.c-service-content-section--image-right .c-service-content-section__image {
+  transform: translateX(-8.85%);
+  width: 112.36%;
+}
+
+.c-service-content-section--has-overlay .c-service-content-section__media {
+  height: 474px;
+}
+
+.c-service-content-section--has-overlay .c-service-content-section__image {
+  height: 128.06%;
+  left: -4.07%;
+  position: absolute;
+  top: -4.43%;
+  width: 123.31%;
+}
+
+.c-service-content-section__overlay-image {
+  height: 110.34%;
+  left: -10.11%;
+  position: absolute;
+  top: -2.53%;
+  width: 117.56%;
+}
+
+.c-service-content-section__content {
+  color: $ink;
+  min-width: 0;
+  padding-top: 18px;
+}
+
+.c-service-content-section--image-right .c-service-content-section__content {
+  padding-top: 40px;
+}
+
+.c-service-content-section__heading {
+  color: $ink;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.38px;
+  line-height: 28px;
+  margin: 0 0 35px;
+}
+
+.c-service-content-section__body {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  max-width: 607px;
+}
+
+.c-service-content-section--has-overlay .c-service-content-section__content {
+  padding-left: 121px;
+}
+
+.c-service-content-section--has-overlay .c-service-content-section__body {
+  max-width: 478px;
+}
+
+.c-service-content-section__body p {
+  margin: 0;
+}
+
+.c-service-content-section__body p + p,
+.c-service-content-section__body h3 {
+  margin-top: 24px;
+}
+
+.c-service-content-section__body h3 + p {
+  margin-top: 25px;
+}
+
+.c-service-content-section__body--after-button {
+  margin-top: 50px;
+}
+
+.c-service-content-section__body--after-button > :first-child {
+  margin-top: 0;
+}
+
+.c-service-content-section__body h3 {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.38px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+.c-service-content-section__button {
+  align-items: center;
+  background: $accent;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: $white;
+  display: inline-flex;
+  font-size: 14px;
+  font-weight: 600;
+  gap: 27px;
+  height: 42px;
+  justify-content: center;
+  margin-top: 21px;
+  padding: 0 14px 0 18px;
+  text-decoration: none;
+  white-space: nowrap;
+  width: 165px;
+}
+
+.c-service-content-section__button:hover {
+  color: $white;
+}
+
+.c-service-page .c-service-media-band {
+  margin-bottom: 20px;
+  margin-left: 0;
+  max-width: 100%;
+  width: 100%;
+}
+
+.c-service-media-band__content {
+  max-width: 100%;
+  min-width: 0;
+}
+
+.c-service-media-band__heading strong {
+  font-weight: 700;
+}
+
+@include media($breakpoint-lg) {
+  .c-service-content-section {
+    margin-top: 64px;
+  }
+
+  .c-service-content-section__media,
+  .c-service-content-section--image-right .c-service-content-section__media,
+  .c-service-content-section--has-overlay .c-service-content-section__media {
+    aspect-ratio: 712 / 474;
+    height: auto;
+    margin-bottom: 32px;
+  }
+
+  .c-service-content-section__inner {
+    row-gap: 0;
+  }
+
+  .c-service-content-section__content,
+  .c-service-content-section--image-right .c-service-content-section__content {
+    padding-top: 0;
+    width: 100%;
+  }
+
+  .c-service-content-section--has-overlay .c-service-content-section__content {
+    padding-left: 0;
+  }
+
+  .c-service-content-section--has-overlay .c-service-content-section__body {
+    max-width: none;
+  }
+
+  .c-service-content-section__body {
+    max-width: none;
+    width: 100%;
+  }
+}
+
+@include media($breakpoint-xs) {
+  .c-service-content-section__inner {
+    width: calc(100% - 40px);
+  }
+
+  .c-service-content-section__heading {
+    margin-bottom: 20px;
+  }
+}

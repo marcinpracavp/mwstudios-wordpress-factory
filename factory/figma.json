@@ -1,6 +1,6 @@
 {
   "$schema": "./schemas/figma.schema.json",
-  "snapshotVersion": "1.0",
+  "snapshotVersion": "1.1",
   "strategy": "global-then-sections",
   "cacheRoot": ".factory-cache/figma/latest",
   "saveFullFrameReferences": true,
