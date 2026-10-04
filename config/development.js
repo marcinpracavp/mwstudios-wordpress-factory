@@ -22,7 +22,7 @@
 
 module.exports = {
   // 🌍 URL WordPress Local - ZMIEŃ NA SWÓJ LOKALNY ADRES
-  WORDPRESS_URL: require('../scripts/factory/autopilot/common').resolveLocalUrl(require('../factory/project.json')),
+  WORDPRESS_URL: 'https://humble-orbit-q7rww5xpqpw5f4x7r-8000.app.github.dev/',
   
   // 🌐 Porty BrowserSync  
   BROWSERSYNC_PORT: 3000,

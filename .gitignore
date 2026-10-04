@@ -5,4 +5,4 @@ yarn.lock
 package-lock.json
 yarn-lock.json
 composer-lock.json
-/.factory-cache/
+/.backup-artifacts/
