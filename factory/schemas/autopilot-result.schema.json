@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["status", "summary", "evidence", "issues"],
+  "properties": {
+    "status": {"type": "string", "enum": ["passed", "needs_work", "blocked"]},
+    "summary": {"type": "string"},
+    "evidence": {"type": "array", "minItems": 1, "items": {"type": "string", "pattern": "^[^\\r\\n:]+\\.[a-zA-Z0-9]+$", "description": "Existing theme-relative FILE path only. No command, colon, line number or explanation. Save command output in a log file before citing it."}},
+    "issues": {"type": "array", "items": {"type": "string"}}
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "$schema": "./schemas/capabilities.schema.json",
+  "factoryVersion": "0.1.0",
+  "capabilities": [
+    {
+      "id": "acf",
+      "name": "Advanced Custom Fields Pro",
+      "type": "core",
+      "required": false,
+      "dependencies": [],
+      "description": "Default structured content foundation for Website Factory projects."
+    },
+    {
+      "id": "cf7",
+      "name": "Contact Form 7",
+      "type": "integration",
+      "required": false,
+      "dependencies": [
+        "acf"
+      ],
+      "description": "Contact Form 7 integration for forms selected and rendered through project content."
+    },
+    {
+      "id": "polylang",
+      "name": "Polylang",
+      "type": "integration",
+      "required": false,
+      "dependencies": [],
+      "description": "Multilingual content and language navigation integration."
+    },
+    {
+      "id": "woocommerce",
+      "name": "WooCommerce",
+      "type": "integration",
+      "required": false,
+      "dependencies": [],
+      "description": "Commerce integration for projects that require products, carts, and checkout."
+    },
+    {
+      "id": "google-maps",
+      "name": "Google Maps",
+      "type": "integration",
+      "required": false,
+      "dependencies": [
+        "acf"
+      ],
+      "description": "Google Maps integration planned for project map fields and components."
+    },
+    {
+      "id": "swiper",
+      "name": "Swiper",
+      "type": "frontend",
+      "required": false,
+      "dependencies": [],
+      "description": "Shared slider and carousel capability based on Swiper."
+    },
+    {
+      "id": "aos",
+      "name": "Animate On Scroll",
+      "type": "frontend",
+      "required": false,
+      "dependencies": [],
+      "description": "Optional scroll animation capability based on AOS."
+    },
+    {
+      "id": "lenis",
+      "name": "Lenis Smooth Scroll",
+      "type": "frontend",
+      "required": false,
+      "dependencies": [],
+      "description": "Optional smooth scrolling capability planned with Lenis as the engine."
+    },
+    {
+      "id": "blog",
+      "name": "Blog",
+      "type": "feature",
+      "required": false,
+      "dependencies": [],
+      "description": "Editorial listing, post detail, and pagination capability."
+    },
+    {
+      "id": "topbar",
+      "name": "Topbar",
+      "type": "feature",
+      "required": false,
+      "dependencies": [
+        "acf"
+      ],
+      "description": "Dismissible global announcement bar configured through ACF."
+    },
+    {
+      "id": "promo-popup",
+      "name": "Promotional Popup",
+      "type": "feature",
+      "required": false,
+      "dependencies": [
+        "acf"
+      ],
+      "description": "Scheduled promotional popup configured through ACF."
+    }
+  ]
+}
