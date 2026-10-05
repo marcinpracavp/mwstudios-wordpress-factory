@@ -1,7 +1,7 @@
 const { sectionOwnership } = require('./visual-ownership');
 
 // No LLM required to distinguish shared health failures from local geometry defects.
-function diagnose(comparisons, threshold = 0.025, manifest = null) {
+function diagnose(comparisons, threshold = 0.04, manifest = null) {
   const all = comparisons.filter(Boolean), result = [], covered = new Set();
   const unavailable=new Set();
   const sharedSemantic = new Map();

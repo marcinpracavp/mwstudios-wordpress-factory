@@ -870,6 +870,17 @@ async function main(argv = process.argv.slice(2), dependencies = {}) {
     // entire autopilot merely because its residual raster mismatch is high.
     const exhaustedComponent = deferHealthyComponent() || deferExhaustedHealthyComponent();
     if (exhaustedComponent) return exhaustedComponent;
+    const latestFullPageAttempt = billableAttempts().at(-1);
+    const fullPageHandoff = fullPageTask && ['passed', 'needs_work'].includes(latestFullPageAttempt?.result?.status)
+      ? require('./full-page-handoff').create(task, key, pageChecks)
+      : null;
+    if (fullPageHandoff) {
+      state.deferredVisual ||= [];
+      state.deferredVisual.push(fullPageHandoff.deferred);
+      completeTask(fullPageHandoff.result, [...capsuleBuilder.sourceFiles(task), ...fullPageHandoff.result.evidence]);
+      console.log(`${now()} FULL-PAGE HANDOFF ${key}; bounded build exhausted, retained measurements queued for whole-site diagnosis`);
+      return fullPageHandoff.result;
+    }
     throw new Error(`STAGE_ATTEMPTS_EXHAUSTED: ${key}\n${feedback}`);
   };
   const capture = async () => {
@@ -972,8 +983,10 @@ async function main(argv = process.argv.slice(2), dependencies = {}) {
     for (const component of componentPlan.shared) await work('foundation', component);
     write(path.join(dir, 'shared-ready.json'), { status: 'passed', tasks: componentPlan.shared.map(c => c.id),
       source: state.snapshotHash, acceptance: config.visual, note: 'Local component geometry/pixels; final page placement and responsive checks remain mandatory.' });
-    // Canonical pages must pass a fresh full-page gate one by one. State
-    // frames follow their base page and receive only their measured delta.
+    // Canonical pages receive a fresh full-page gate one by one. A bounded
+    // build miss is checkpointed for the later diagnosis loop, never accepted
+    // or blindly rebuilt. State frames follow their implemented base page and
+    // receive only their measured delta.
     for (const component of [...componentPlan.pages, ...componentPlan.states]) {
       if (!state.done.includes(`v2:build:${component.id}`)) {
         const routeId=component.routes[0]?.id;
@@ -1074,7 +1087,8 @@ async function main(argv = process.argv.slice(2), dependencies = {}) {
     write(packetFile,{comparison:state.comparison,routes:comparison.routes,shared:componentPlan.shared.map(c=>({id:c.id,sections:c.sections})),audit: audit,
       instruction:'Follow one comparison/section pointer at a time; all raw images remain local. Shared variants are reviewed once. Missing state/source remains blocked.'});
     const invokeFinal=mode=>work('final',{id:'final-sol-once',type:'final-audit',mode,routes:[],sections:[],issues:[],title:'Final whole-project visual audit'},`Read ${relative(packetFile)}; this is the one final Sol audit.`);
-    comparison=await require('./final-audit').run({dir,comparison,binding:hash(JSON.stringify({source:state.snapshotHash,instructionsHash})),
+    comparison=await require('./final-audit').run({dir,comparison,threshold:config.visual.maxDifferentPixelRatio,
+      binding:hash(JSON.stringify({source:state.snapshotHash,instructionsHash,visual:config.visual})),
       invoke:invokeFinal,
       reconcile:async mode=>{
         const attempt=state.attempts.filter(a=>a.task==='v2:final:final-sol-once').at(-1);

@@ -42,4 +42,5 @@ test('host freezes architecture before foundation and uses full-page route gates
   assert.ok(source.indexOf("const routeBlueprint=require('./route-blueprint').create") < source.indexOf("await work('foundation', { id: 'global-layout'"));
   assert.match(source,/\['route-build', 'state-build'\]\.includes\(task\.mode\)/);
   assert.match(source,/fullPageTask[\s\S]+check => check\.pagePassed === true/);
+  assert.match(source,/full-page-handoff/);
 });

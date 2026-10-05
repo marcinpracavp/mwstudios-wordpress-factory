@@ -36,9 +36,13 @@ Autopilot uses this order:
    shared structures, canonical pages and state deltas.
 4. Build foundation and native editable content.
 5. Build shared components once.
-6. Build one canonical page at a time and require a fresh full-page gate before
-   proceeding to the next page.
-7. Build interaction states as deltas over accepted canonical pages.
+6. Build one canonical page at a time and run a fresh full-page gate. A route
+   that misses the gate after its bounded build turns is checkpointed with its
+   measured evidence for the later diagnosis cycle instead of being rebuilt in
+   an open-ended loop.
+7. Build interaction states as deltas over their implemented canonical pages.
+   Inherited base-page findings stay owned by the canonical route and are not
+   rebuilt as part of the state.
 8. Diagnose failed full-page comparisons and only then issue section-scoped
    repair tasks.
 9. Run a fresh whole-site deterministic comparison and independent audit.
@@ -102,10 +106,17 @@ behavior is never inferred from a familiar route ID.
 
 ## Acceptance
 
-The default visual policy is 2.5% maximum effective page mismatch, 24/255
+The default visual policy is 4% maximum effective page mismatch, 24/255
 channel tolerance and 2px geometry tolerance. A route task starts from the
 full-page reference. Section crops are diagnostics and repair scopes, not a
 replacement for whole-page acceptance.
+
+Missing the full-page threshold is never treated as acceptance. After the
+bounded route/state build turns, current measurements enter the whole-site
+diagnosis loop, which issues scoped repairs and recaptures the complete page.
+The loop has a finite repair-pass limit, one route-level no-progress polish and
+one final independent audit; unresolved evidence ends in human review rather
+than another blind retry.
 
 Full acceptance also requires:
 

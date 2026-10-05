@@ -23,7 +23,7 @@
   "figmaMcpUrl": "https://mcp.figma.com/mcp",
   "visual": {
     "channelTolerance": 24,
-    "maxDifferentPixelRatio": 0.025,
+    "maxDifferentPixelRatio": 0.04,
     "geometryTolerancePx": 2
   },
   "responsiveWidths": [

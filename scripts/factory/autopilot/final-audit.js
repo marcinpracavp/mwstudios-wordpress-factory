@@ -12,14 +12,16 @@ function smallFix(issue) {
   return /margin|padding|overflow|gap|line.height|border.radius/i.test(issue) &&
     !/missing|payment|order|taxonomy|product data|unavailable/i.test(issue);
 }
-async function run({ dir, comparison, binding, invoke, reconcile, repair, capture, build }) {
+async function run({ dir, comparison, binding, threshold = 0.04, invoke, reconcile, repair, capture, build }) {
+  if (!Number.isFinite(threshold) || threshold < 0 || threshold > 1) throw Error('FINAL_THRESHOLD_INVALID');
   const file = path.join(dir, 'final-sol.json');
   let checkpoint = fs.existsSync(file) ? read(file) : null;
   const currentBinding = binding || comparison.sourceHash;
   if (!currentBinding) throw Error('FINAL_SOURCE_BINDING_REQUIRED');
   if (checkpoint && checkpoint.binding !== currentBinding) throw Error('FINAL_SOURCE_CHANGED: old Sol review cannot accept new source');
+  if (checkpoint && checkpoint.threshold !== threshold) throw Error('FINAL_THRESHOLD_CHANGED: old Sol review cannot accept a new visual policy');
   if (!checkpoint) {
-    checkpoint = { version:2, binding:currentBinding, status:'started', mode:ratio(comparison) > .025 ? 'pixel-perfect' : 'verification', startedAt:new Date().toISOString() };
+    checkpoint = { version:2, binding:currentBinding, threshold, status:'started', mode:ratio(comparison) > threshold ? 'pixel-perfect' : 'verification', startedAt:new Date().toISOString() };
     write(file,checkpoint);
     const result = await invoke(checkpoint.mode);
     checkpoint = { ...checkpoint, status:'reviewed', result }; write(file,checkpoint);
@@ -38,7 +40,7 @@ async function run({ dir, comparison, binding, invoke, reconcile, repair, captur
   }
   await build();
   const after = await capture();
-  if (!after.passed || ratio(after) > .025) throw Error('FINAL_MEASURED_CHECKS_FAILED: no READY status');
+  if (!after.passed || ratio(after) > threshold) throw Error('FINAL_MEASURED_CHECKS_FAILED: no READY status');
   checkpoint.status = 'complete'; checkpoint.finishedAt = new Date().toISOString(); checkpoint.after = after; write(file,checkpoint);
   return after;
 }

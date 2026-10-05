@@ -13,6 +13,9 @@ Core invariants:
 - structural reuse ignores content and transient Figma identities;
 - canonical routes precede state deltas;
 - route/state tasks are measured by full-page acceptance;
+- a route/state that exhausts its bounded build turns keeps its failed
+  full-page evidence and enters the whole-site diagnosis cycle; it is not
+  accepted and is not blindly rebuilt;
 - section repair is allowed only after a failed full-page diagnosis;
 - shared chrome and components have separate ownership and final acceptance;
 - workers cannot modify the engine, frozen source or thresholds;

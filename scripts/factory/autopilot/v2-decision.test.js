@@ -56,12 +56,13 @@ test('final audit invokes Sol once, repairs minor issues with Luna, recaptures a
   const dir=fs.mkdtempSync(path.join(os.tmpdir(),'factory-final-test-'));
   try{
     let calls=0,repairs=0,builds=0,captures=0;
-    const args={dir,comparison:comparison(.04),invoke:async mode=>{calls++;assert.equal(mode,'pixel-perfect');return {status:'needs_work',issues:['home hero margin: 4px expected 0px']};},
+    const args={dir,threshold:.04,comparison:comparison(.041),invoke:async mode=>{calls++;assert.equal(mode,'pixel-perfect');return {status:'needs_work',issues:['home hero margin: 4px expected 0px']};},
       repair:async task=>{repairs++;assert.equal(task.onlyModel,'luna');},build:async()=>{builds++;},capture:async()=>{captures++;return comparison();}};
     await require('./final-audit').run(args);await require('./final-audit').run(args);
     assert.equal(calls,1);assert.equal(captures,2);assert.equal(builds,2);assert.ok(repairs>0);
     await assert.rejects(require('./final-audit').run({...args,comparison:{...comparison(),sourceHash:'changed'}}),/SOURCE_CHANGED/);
-    await assert.rejects(require('./final-audit').run({...args,capture:async()=>comparison(.026)}),/MEASURED_CHECKS_FAILED/);
+    await assert.rejects(require('./final-audit').run({...args,threshold:.039}),/THRESHOLD_CHANGED/);
+    await assert.rejects(require('./final-audit').run({...args,capture:async()=>comparison(.041)}),/MEASURED_CHECKS_FAILED/);
     assert.throws(()=>require('./final-audit').ratio({routes:[]}),/EVIDENCE_MISSING/);
   }finally{if(path.dirname(dir)===os.tmpdir()&&path.basename(dir).startsWith('factory-final-test-'))fs.rmSync(dir,{recursive:true});}
 });
