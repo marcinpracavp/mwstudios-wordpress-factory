@@ -5,6 +5,10 @@ theme built with PHP, ACF, SCSS and the repository's existing JavaScript and
 Webpack setup. Figma is visual authority; generated framework code is never
 copied into production.
 
+For installation requirements, every command, custom instructions,
+configuration, run control, artifacts and troubleshooting, see
+[`AUTOPILOT_USAGE.md`](AUTOPILOT_USAGE.md).
+
 ## Start a project
 
 ```bash
