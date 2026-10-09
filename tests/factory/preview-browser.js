@@ -12,7 +12,7 @@ const wp = (...args) => execFileSync('docker', ['compose','-p','factory-live-qa'
   try {
     wp('option','update','posts_per_page','2');
     for (const width of [390,1440]) {
-      for (const [name,url] of [['front-page',preview.homepage],['blog-page',preview.blog],['hub',preview.hub]]) {
+      for (const [name,url] of [['front-page',preview.homepage],['blog-page',preview.blog],['hub',preview.hub],['archive',preview.items.archive.url],['single',preview.items.single.url]]) {
         const page = await browser.newPage({viewport:{width,height:900}});
         await page.route('https://example.com/**',route=>route.fulfill({status:200,body:'QA fixture'}));
         const assets=[],errors=[];
