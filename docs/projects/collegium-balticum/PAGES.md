@@ -83,3 +83,13 @@ statusów; szczegóły w MODULES. Audyt PDF wskazuje bezpośrednio CB-00, CB-01,
 CB-06, CB-15 i CB-17, a pozostałym pomaga przez wymagania wspólne.
 Statusy wszystkich 19 pozycji pozostają TODO; żaden nowy URL nie został
 dodany do obowiązkowego zakresu na podstawie samego audytu.
+
+## Narzędzia LIVE — zadanie 2
+
+Pełna konfiguracja wszystkich 19 adresów: [live.json](live.json).
+Test kompletności: `node docs/projects/collegium-balticum/live-config.test.js`.
+Rejestr techniczny sześciu statusów per URL oraz dowody per viewport powstają
+w `.factory-cache/live/collegium-balticum/summary.json` i `REPORT.md`.
+Rzeczywiste wyniki i ograniczenia: [TOOLS-QA](TOOLS-QA.md).
+TEMPLATE i CONTENT powyżej pozostają TODO; udany local capture nie oznacza
+wdrożonej strony CB. Snapshot źródła CB-00 nie powstał z powodu timeoutu.

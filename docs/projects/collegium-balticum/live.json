@@ -1,0 +1,169 @@
+{
+  "$schema": "../../../factory/schemas/live.schema.json",
+  "source": "live",
+  "project": "collegium-balticum",
+  "sourceUrl": "https://www.cb.szczecin.pl",
+  "localUrl": "http://localhost:8000",
+  "reportDir": ".factory-cache/live/collegium-balticum",
+  "locale": "pl-PL",
+  "timeoutMs": 30000,
+  "settleMs": 500,
+  "viewports": [
+    {
+      "id": "reflow",
+      "width": 320,
+      "height": 844
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "id": "tablet",
+      "width": 768,
+      "height": 900
+    },
+    {
+      "id": "small-desktop",
+      "width": 1024,
+      "height": 900
+    },
+    {
+      "id": "laptop",
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "wide",
+      "width": 2048,
+      "height": 1152
+    }
+  ],
+  "routes": [
+    {
+      "id": "CB-00",
+      "path": "/",
+      "label": "Strona główna",
+      "family": null
+    },
+    {
+      "id": "CB-01",
+      "path": "/kontakt/",
+      "label": "Kontakt",
+      "family": null
+    },
+    {
+      "id": "CB-02",
+      "path": "/category/wpisy/blog-post/",
+      "label": "Archiwum bloga",
+      "family": null
+    },
+    {
+      "id": "CB-03",
+      "path": "/wpisy/blog-post/dietetyka-licencjacka-i-magisterska-czym-roznia-sie-programy-i-perspektywy-zawodowe/",
+      "label": "Dynamiczny pojedynczy wpis — przykład QA",
+      "family": null
+    },
+    {
+      "id": "CB-04",
+      "path": "/rekrutacja/",
+      "label": "Rekrutacja",
+      "family": null
+    },
+    {
+      "id": "CB-05",
+      "path": "/dni-otwarte/",
+      "label": "Dni otwarte",
+      "family": null
+    },
+    {
+      "id": "CB-06",
+      "path": "/tryb-studiow/studia-licencjackie/",
+      "label": "Studia licencjackie",
+      "family": null
+    },
+    {
+      "id": "CB-07",
+      "path": "/tryb-studiow/studia-magisterskie/",
+      "label": "Studia magisterskie",
+      "family": null
+    },
+    {
+      "id": "CB-08",
+      "path": "/tryb-studiow/studia-podyplomowe/studia-nienauczycielskie/fitodietetyka/",
+      "label": "Fitodietetyka",
+      "family": null
+    },
+    {
+      "id": "CB-09",
+      "path": "/tryb-studiow/studia-online/",
+      "label": "Studia online",
+      "family": null
+    },
+    {
+      "id": "CB-10",
+      "path": "/tryb-studiow/studia-podyplomowe/",
+      "label": "Studia podyplomowe",
+      "family": null
+    },
+    {
+      "id": "CB-11",
+      "path": "/mediator-sadowy/",
+      "label": "Mediator sądowy",
+      "family": null
+    },
+    {
+      "id": "CB-12",
+      "path": "/szkolenia-rad-pedagogicznych/",
+      "label": "Szkolenia rad pedagogicznych",
+      "family": null
+    },
+    {
+      "id": "CB-13",
+      "path": "/przeniesienie-z-innej-uczelni/",
+      "label": "Przeniesienie z innej uczelni",
+      "family": null
+    },
+    {
+      "id": "CB-14",
+      "path": "/reaktywuj-sie-w-prawach-studenta-w-collegium-balticum/",
+      "label": "Reaktywacja praw studenta",
+      "family": null
+    },
+    {
+      "id": "CB-15",
+      "path": "/strefa-studenta/wsparcie-studenta/",
+      "label": "Wsparcie studenta",
+      "family": null
+    },
+    {
+      "id": "CB-16",
+      "path": "/strefa-studenta/legitymacja-studencka/",
+      "label": "Legitymacja studencka",
+      "family": null
+    },
+    {
+      "id": "CB-17",
+      "path": "/strefa-studenta/erasmus/o-programie/",
+      "label": "Erasmus — o programie",
+      "family": null
+    },
+    {
+      "id": "CB-18",
+      "path": "/strefa-studenta/biblioteka/wypozyczenie-na-zamowienie/",
+      "label": "Biblioteka — wypożyczenie na zamówienie",
+      "family": null
+    }
+  ],
+  "visual": {
+    "channelTolerance": 24,
+    "maxDifferentPixelRatio": 0.04,
+    "geometryTolerancePx": 2
+  }
+}
