@@ -8,3 +8,7 @@ composer-lock.json
 /.factory-cache/
 /docs/factory/project/*
 !/docs/factory/project/README.md
+
+# Minimal standalone LIVE capture runtime
+/tools/live-capture/node_modules/
+!/tools/live-capture/package-lock.json
