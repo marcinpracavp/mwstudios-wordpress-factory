@@ -1,37 +1,34 @@
 # Rejestr obowiązkowych widoków CB-00–CB-18
 
-Źródło: https://www.cb.szczecin.pl/. Stan: 2026-10-09, zadanie 1/5.
+Źródło: https://www.cb.szczecin.pl/. Stan: 2026-10-09, po zadaniu 3/5; ustalenia źródłowe poniżej zawierają historię zadań 1–2.
 Rejestr zawiera wszystkie 19 pozycji. Nie istnieje mechanizm wyboru dowolnych 8–12.
 Liczba rodzin szablonów nie ogranicza liczby adresów do wdrożenia.
 
 ## Dokładne adresy i dwa statusy
 
-W kolumnie „Rola / rodzina” zapisano rolę WordPress oraz kandydatów do analizy,
-nie potwierdzony układ. H = hero/WYSIWYG/CTA; M = modułowe Flexible Content;
-rodziny banner/kafel, slider/accordiony i 50/50 dobierać po pełnej analizie LIVE.
-Wskazanie H/M obejmuje plan architektury dla każdego adresu bez wymyślania designu.
+Rodziny przypisano po odczycie tekstowym i zgodnie z zadaniem 3. Kod działa na danych QA; geometria i wierność LIVE wymagają referencji. Szczegółowe dowody i ograniczenia są w TEMPLATE-REGISTER oraz TEMPLATE-QA.
 
-| ID | Widok | Wymagany produkcyjny URL | Rola / rodzina do analizy | TEMPLATE | CONTENT | Lokalny URL | WP ID / dowody QA |
+| ID | Widok | Wymagany produkcyjny URL | Rola / wdrożony szablon | TEMPLATE | CONTENT | Lokalny URL | WP ID / dowody QA |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| CB-00 | Strona główna | https://www.cb.szczecin.pl/ | Front page / kompozycja modułów M | TODO | TODO | — | — |
-| CB-01 | Kontakt | https://www.cb.szczecin.pl/kontakt/ | Page / kontakt, dane i zakładki | TODO | TODO | — | — |
-| CB-02 | Archiwum bloga | https://www.cb.szczecin.pl/category/wpisy/blog-post/ | Natywne archiwum kategorii / lista, filtry, paginacja | TODO | TODO | — | — |
-| CB-03 | Dynamiczny pojedynczy wpis — przykład QA | https://www.cb.szczecin.pl/wpisy/blog-post/dietetyka-licencjacka-i-magisterska-czym-roznia-sie-programy-i-perspektywy-zawodowe/ | Natywny post / dynamiczny single | TODO | TODO | — | — |
-| CB-04 | Rekrutacja | https://www.cb.szczecin.pl/rekrutacja/ | Page / H lub M | TODO | TODO | — | — |
-| CB-05 | Dni otwarte | https://www.cb.szczecin.pl/dni-otwarte/ | Page / H lub M | TODO | TODO | — | — |
-| CB-06 | Studia licencjackie | https://www.cb.szczecin.pl/tryb-studiow/studia-licencjackie/ | Hierarchiczna page / M, oferta | TODO | TODO | — | — |
-| CB-07 | Studia magisterskie | https://www.cb.szczecin.pl/tryb-studiow/studia-magisterskie/ | Hierarchiczna page / M, oferta | TODO | TODO | — | — |
-| CB-08 | Fitodietetyka | https://www.cb.szczecin.pl/tryb-studiow/studia-podyplomowe/studia-nienauczycielskie/fitodietetyka/ | Hierarchiczna page / M, oferta szczegółowa | TODO | TODO | — | — |
-| CB-09 | Studia online | https://www.cb.szczecin.pl/tryb-studiow/studia-online/ | Hierarchiczna page / H lub M | TODO | TODO | — | — |
-| CB-10 | Studia podyplomowe | https://www.cb.szczecin.pl/tryb-studiow/studia-podyplomowe/ | Hierarchiczna page / M, oferta | TODO | TODO | — | — |
-| CB-11 | Mediator sądowy | https://www.cb.szczecin.pl/mediator-sadowy/ | Page / H lub M | TODO | TODO | — | — |
-| CB-12 | Szkolenia rad pedagogicznych | https://www.cb.szczecin.pl/szkolenia-rad-pedagogicznych/ | Page / H lub M | TODO | TODO | — | — |
-| CB-13 | Przeniesienie z innej uczelni | https://www.cb.szczecin.pl/przeniesienie-z-innej-uczelni/ | Page / H lub M | TODO | TODO | — | — |
-| CB-14 | Reaktywacja praw studenta | https://www.cb.szczecin.pl/reaktywuj-sie-w-prawach-studenta-w-collegium-balticum/ | Page / H lub M | TODO | TODO | — | — |
-| CB-15 | Wsparcie studenta | https://www.cb.szczecin.pl/strefa-studenta/wsparcie-studenta/ | Hierarchiczna page / H lub M | TODO | TODO | — | — |
-| CB-16 | Legitymacja studencka | https://www.cb.szczecin.pl/strefa-studenta/legitymacja-studencka/ | Hierarchiczna page / H lub M | TODO | TODO | — | — |
-| CB-17 | Erasmus — o programie | https://www.cb.szczecin.pl/strefa-studenta/erasmus/o-programie/ | Hierarchiczna page / H lub M | TODO | TODO | — | — |
-| CB-18 | Biblioteka — wypożyczenie na zamówienie | https://www.cb.szczecin.pl/strefa-studenta/biblioteka/wypozyczenie-na-zamowienie/ | Hierarchiczna page / H lub M | TODO | TODO | — | — |
+| CB-00 | Strona główna | https://www.cb.szczecin.pl/ | home / front-page.php | IN_PROGRESS | TODO | — | [szablon/analiza](TEMPLATE-REGISTER.md), [QA](TEMPLATE-QA.md) |
+| CB-01 | Kontakt | https://www.cb.szczecin.pl/kontakt/ | contact / template-contact.php | IN_PROGRESS | TODO | — | [szablon/analiza](TEMPLATE-REGISTER.md), [QA](TEMPLATE-QA.md) |
+| CB-02 | Archiwum bloga | https://www.cb.szczecin.pl/category/wpisy/blog-post/ | blog-archive / archive.php | IN_PROGRESS | TODO | — | [szablon/analiza](TEMPLATE-REGISTER.md), [QA](TEMPLATE-QA.md) |
+| CB-03 | Dynamiczny pojedynczy wpis — przykład QA | https://www.cb.szczecin.pl/wpisy/blog-post/dietetyka-licencjacka-i-magisterska-czym-roznia-sie-programy-i-perspektywy-zawodowe/ | blog-single / single.php | IN_PROGRESS | TODO | — | [szablon/analiza](TEMPLATE-REGISTER.md), [QA](TEMPLATE-QA.md) |
+| CB-04 | Rekrutacja | https://www.cb.szczecin.pl/rekrutacja/ | banner-tile / template-banner-tile.php | IN_PROGRESS | TODO | — | [szablon/analiza](TEMPLATE-REGISTER.md), [QA](TEMPLATE-QA.md) |
+| CB-05 | Dni otwarte | https://www.cb.szczecin.pl/dni-otwarte/ | banner-tile / template-banner-tile.php | IN_PROGRESS | TODO | — | [szablon/analiza](TEMPLATE-REGISTER.md), [QA](TEMPLATE-QA.md) |
+| CB-06 | Studia licencjackie | https://www.cb.szczecin.pl/tryb-studiow/studia-licencjackie/ | banner-accordion / template-banner-accordion.php | IN_PROGRESS | TODO | — | [szablon/analiza](TEMPLATE-REGISTER.md), [QA](TEMPLATE-QA.md) |
+| CB-07 | Studia magisterskie | https://www.cb.szczecin.pl/tryb-studiow/studia-magisterskie/ | banner-accordion / template-banner-accordion.php | IN_PROGRESS | TODO | — | [szablon/analiza](TEMPLATE-REGISTER.md), [QA](TEMPLATE-QA.md) |
+| CB-08 | Fitodietetyka | https://www.cb.szczecin.pl/tryb-studiow/studia-podyplomowe/studia-nienauczycielskie/fitodietetyka/ | course / template-course.php | IN_PROGRESS | TODO | — | [szablon/analiza](TEMPLATE-REGISTER.md), [QA](TEMPLATE-QA.md) |
+| CB-09 | Studia online | https://www.cb.szczecin.pl/tryb-studiow/studia-online/ | flexible / template-flexible.php | IN_PROGRESS | TODO | — | [szablon/analiza](TEMPLATE-REGISTER.md), [QA](TEMPLATE-QA.md) |
+| CB-10 | Studia podyplomowe | https://www.cb.szczecin.pl/tryb-studiow/studia-podyplomowe/ | flexible / template-flexible.php | IN_PROGRESS | TODO | — | [szablon/analiza](TEMPLATE-REGISTER.md), [QA](TEMPLATE-QA.md) |
+| CB-11 | Mediator sądowy | https://www.cb.szczecin.pl/mediator-sadowy/ | course / template-course.php | IN_PROGRESS | TODO | — | [szablon/analiza](TEMPLATE-REGISTER.md), [QA](TEMPLATE-QA.md) |
+| CB-12 | Szkolenia rad pedagogicznych | https://www.cb.szczecin.pl/szkolenia-rad-pedagogicznych/ | flexible / template-flexible.php | IN_PROGRESS | TODO | — | [szablon/analiza](TEMPLATE-REGISTER.md), [QA](TEMPLATE-QA.md) |
+| CB-13 | Przeniesienie z innej uczelni | https://www.cb.szczecin.pl/przeniesienie-z-innej-uczelni/ | basic / template-basic.php | IN_PROGRESS | TODO | — | [szablon/analiza](TEMPLATE-REGISTER.md), [QA](TEMPLATE-QA.md) |
+| CB-14 | Reaktywacja praw studenta | https://www.cb.szczecin.pl/reaktywuj-sie-w-prawach-studenta-w-collegium-balticum/ | basic / template-basic.php | IN_PROGRESS | TODO | — | [szablon/analiza](TEMPLATE-REGISTER.md), [QA](TEMPLATE-QA.md) |
+| CB-15 | Wsparcie studenta | https://www.cb.szczecin.pl/strefa-studenta/wsparcie-studenta/ | flexible / template-flexible.php | IN_PROGRESS | TODO | — | [szablon/analiza](TEMPLATE-REGISTER.md), [QA](TEMPLATE-QA.md) |
+| CB-16 | Legitymacja studencka | https://www.cb.szczecin.pl/strefa-studenta/legitymacja-studencka/ | flexible / template-flexible.php | IN_PROGRESS | TODO | — | [szablon/analiza](TEMPLATE-REGISTER.md), [QA](TEMPLATE-QA.md) |
+| CB-17 | Erasmus — o programie | https://www.cb.szczecin.pl/strefa-studenta/erasmus/o-programie/ | flexible / template-flexible.php | IN_PROGRESS | TODO | — | [szablon/analiza](TEMPLATE-REGISTER.md), [QA](TEMPLATE-QA.md) |
+| CB-18 | Biblioteka — wypożyczenie na zamówienie | https://www.cb.szczecin.pl/strefa-studenta/biblioteka/wypozyczenie-na-zamowienie/ | basic / template-basic.php | IN_PROGRESS | TODO | — | [szablon/analiza](TEMPLATE-REGISTER.md), [QA](TEMPLATE-QA.md) |
 
 ## Pochodzenie adresów i granice weryfikacji
 
@@ -56,8 +53,7 @@ Odczyty web mogą korzystać z indeksowanego cache — nie są zamrożonym scree
 
 ## Zasady aktualizacji
 
-Statusy: TODO, IN_PROGRESS, BLOCKED (z powodem), DONE. Nie ma ukończonej
-implementacji CB ani lokalnych URL w tym zadaniu; wszystkie statusy TODO są celowe.
+Statusy: TODO, IN_PROGRESS, BLOCKED (z powodem), DONE. Kod rodzin wdrożono; TEMPLATE=IN_PROGRESS do QA rzeczywistych stron, CONTENT=TODO. Lokalnych stron CB jeszcze nie utworzono.
 
 - TEMPLATE: działa szablon odpowiadający układowi, sprawdzony na rzeczywistym
   lokalnym URL z właściwą treścią. Samo przypisanie rodziny lub plik PHP nie wystarcza.
@@ -81,8 +77,7 @@ mieszane. To wskazówki do discovery, nie potwierdzony aktualny układ.
 CB-10 ma dodatkowe wymaganie otwartego naboru na początku listy i tekstowych
 statusów; szczegóły w MODULES. Audyt PDF wskazuje bezpośrednio CB-00, CB-01,
 CB-06, CB-15 i CB-17, a pozostałym pomaga przez wymagania wspólne.
-Statusy wszystkich 19 pozycji pozostają TODO; żaden nowy URL nie został
-dodany do obowiązkowego zakresu na podstawie samego audytu.
+Po zadaniu 3 TEMPLATE=IN_PROGRESS, CONTENT=TODO dla wszystkich 19 pozycji; żaden nowy URL nie został dodany do obowiązkowego zakresu na podstawie samego audytu.
 
 ## Narzędzia LIVE — zadanie 2
 
@@ -93,3 +88,7 @@ w `.factory-cache/live/collegium-balticum/summary.json` i `REPORT.md`.
 Rzeczywiste wyniki i ograniczenia: [TOOLS-QA](TOOLS-QA.md).
 TEMPLATE i CONTENT powyżej pozostają TODO; udany local capture nie oznacza
 wdrożonej strony CB. Snapshot źródła CB-00 nie powstał z powodu timeoutu.
+
+## Zadanie 3 — szablony i discovery
+
+Wszystkie 19 pozycji mają przypisany szablon/moduły w [TEMPLATE-REGISTER](TEMPLATE-REGISTER.md) oraz [JSON](TEMPLATE-REGISTER.json). Zmiana TEMPLATE na IN_PROGRESS oznacza zaimplementowany kod i testy na jawnych fixtures, a nie ukończone QA konkretnej strony. CONTENT pozostaje TODO. Wszystkie 38 prób screenshotu źródła zakończyły się timeoutem; [błędy per URL](REFERENCE-ACCESS.json). Nie potwierdzono geometrii, interakcji produkcyjnych ani wyglądu 1:1.

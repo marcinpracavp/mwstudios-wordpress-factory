@@ -25,3 +25,7 @@ Brak odpowiedzi nie jest zgodą. Niezależną pracę kontynuować.
 Dokument audytu: https://drive.google.com/file/d/11Hksqz7c0QNmWQG45Anqp_F-b5Ye0VlU/view.
 Wyniki prób i fakty środowiska: [REPOSITORY-AUDIT](REPOSITORY-AUDIT.md).
 Decyzje dopisywać tutaj z datą, osobą, treścią i wpływem na BRIEF/SCOPE/PAGES.
+
+## Dowody po zadaniu 3
+
+Q-11: izolowany WP http://localhost:8000, noindex blog_public=0, aktywny motyw i dostarczony przez użytkownika ACF Pro 6.7.0.2 potwierdzone runtime. Nie potwierdzono osobnej instalacji LocalWP ani dokładnych lokalnych tras CB; istnieją wyłącznie jawne dane QA. Q-06/Q-07/Q-10 pozostają otwarte; materiał do decyzji: [PM-TEMPLATE-REVIEW](PM-TEMPLATE-REVIEW.md). Wszystkie 38 prób referencji LIVE zablokowane timeoutem; [REFERENCE-ACCESS](REFERENCE-ACCESS.json).

@@ -1,0 +1,510 @@
+{
+  "fixtureOnly": true,
+  "startedAt": "2026-10-09T15:24:42.936Z",
+  "acfVersion": "6.7.0.2",
+  "pages": [
+    {
+      "variant": "home",
+      "url": "http://localhost:8000/?page_id=10",
+      "width": 320,
+      "http": 200,
+      "overflow": 0,
+      "screenshot": ".factory-cache/content-qa/home-320.png",
+      "pass": true
+    },
+    {
+      "variant": "basic",
+      "url": "http://localhost:8000/?page_id=11",
+      "width": 320,
+      "http": 200,
+      "overflow": 0,
+      "screenshot": ".factory-cache/content-qa/basic-320.png",
+      "pass": true
+    },
+    {
+      "variant": "flexible",
+      "url": "http://localhost:8000/?page_id=12",
+      "width": 320,
+      "http": 200,
+      "overflow": 0,
+      "screenshot": ".factory-cache/content-qa/flexible-320.png",
+      "pass": true
+    },
+    {
+      "variant": "banner-tile",
+      "url": "http://localhost:8000/?page_id=13",
+      "width": 320,
+      "http": 200,
+      "overflow": 0,
+      "screenshot": ".factory-cache/content-qa/banner-tile-320.png",
+      "pass": true
+    },
+    {
+      "variant": "banner-accordion",
+      "url": "http://localhost:8000/?page_id=14",
+      "width": 320,
+      "http": 200,
+      "overflow": 0,
+      "screenshot": ".factory-cache/content-qa/banner-accordion-320.png",
+      "pass": true
+    },
+    {
+      "variant": "course",
+      "url": "http://localhost:8000/?page_id=15",
+      "width": 320,
+      "http": 200,
+      "overflow": 0,
+      "screenshot": ".factory-cache/content-qa/course-320.png",
+      "pass": true
+    },
+    {
+      "variant": "contact",
+      "url": "http://localhost:8000/?page_id=16",
+      "width": 320,
+      "http": 200,
+      "overflow": 0,
+      "screenshot": ".factory-cache/content-qa/contact-320.png",
+      "pass": true
+    },
+    {
+      "variant": "empty",
+      "url": "http://localhost:8000/?page_id=17",
+      "width": 320,
+      "http": 200,
+      "overflow": 0,
+      "screenshot": ".factory-cache/content-qa/empty-320.png",
+      "pass": true
+    },
+    {
+      "variant": "static",
+      "url": "http://localhost:8000/?page_id=18",
+      "width": 320,
+      "http": 200,
+      "overflow": 0,
+      "screenshot": ".factory-cache/content-qa/static-320.png",
+      "pass": true
+    },
+    {
+      "variant": "home",
+      "url": "http://localhost:8000/?page_id=10",
+      "width": 390,
+      "http": 200,
+      "overflow": 0,
+      "screenshot": ".factory-cache/content-qa/home-390.png",
+      "pass": true
+    },
+    {
+      "variant": "basic",
+      "url": "http://localhost:8000/?page_id=11",
+      "width": 390,
+      "http": 200,
+      "overflow": 0,
+      "screenshot": ".factory-cache/content-qa/basic-390.png",
+      "pass": true
+    },
+    {
+      "variant": "flexible",
+      "url": "http://localhost:8000/?page_id=12",
+      "width": 390,
+      "http": 200,
+      "overflow": 0,
+      "screenshot": ".factory-cache/content-qa/flexible-390.png",
+      "pass": true
+    },
+    {
+      "variant": "banner-tile",
+      "url": "http://localhost:8000/?page_id=13",
+      "width": 390,
+      "http": 200,
+      "overflow": 0,
+      "screenshot": ".factory-cache/content-qa/banner-tile-390.png",
+      "pass": true
+    },
+    {
+      "variant": "banner-accordion",
+      "url": "http://localhost:8000/?page_id=14",
+      "width": 390,
+      "http": 200,
+      "overflow": 0,
+      "screenshot": ".factory-cache/content-qa/banner-accordion-390.png",
+      "pass": true
+    },
+    {
+      "variant": "course",
+      "url": "http://localhost:8000/?page_id=15",
+      "width": 390,
+      "http": 200,
+      "overflow": 0,
+      "screenshot": ".factory-cache/content-qa/course-390.png",
+      "pass": true
+    },
+    {
+      "variant": "contact",
+      "url": "http://localhost:8000/?page_id=16",
+      "width": 390,
+      "http": 200,
+      "overflow": 0,
+      "screenshot": ".factory-cache/content-qa/contact-390.png",
+      "pass": true
+    },
+    {
+      "variant": "empty",
+      "url": "http://localhost:8000/?page_id=17",
+      "width": 390,
+      "http": 200,
+      "overflow": 0,
+      "screenshot": ".factory-cache/content-qa/empty-390.png",
+      "pass": true
+    },
+    {
+      "variant": "static",
+      "url": "http://localhost:8000/?page_id=18",
+      "width": 390,
+      "http": 200,
+      "overflow": 0,
+      "screenshot": ".factory-cache/content-qa/static-390.png",
+      "pass": true
+    },
+    {
+      "variant": "home",
+      "url": "http://localhost:8000/?page_id=10",
+      "width": 1440,
+      "http": 200,
+      "overflow": 0,
+      "screenshot": ".factory-cache/content-qa/home-1440.png",
+      "pass": true
+    },
+    {
+      "variant": "basic",
+      "url": "http://localhost:8000/?page_id=11",
+      "width": 1440,
+      "http": 200,
+      "overflow": 0,
+      "screenshot": ".factory-cache/content-qa/basic-1440.png",
+      "pass": true
+    },
+    {
+      "variant": "flexible",
+      "url": "http://localhost:8000/?page_id=12",
+      "width": 1440,
+      "http": 200,
+      "overflow": 0,
+      "screenshot": ".factory-cache/content-qa/flexible-1440.png",
+      "pass": true
+    },
+    {
+      "variant": "banner-tile",
+      "url": "http://localhost:8000/?page_id=13",
+      "width": 1440,
+      "http": 200,
+      "overflow": 0,
+      "screenshot": ".factory-cache/content-qa/banner-tile-1440.png",
+      "pass": true
+    },
+    {
+      "variant": "banner-accordion",
+      "url": "http://localhost:8000/?page_id=14",
+      "width": 1440,
+      "http": 200,
+      "overflow": 0,
+      "screenshot": ".factory-cache/content-qa/banner-accordion-1440.png",
+      "pass": true
+    },
+    {
+      "variant": "course",
+      "url": "http://localhost:8000/?page_id=15",
+      "width": 1440,
+      "http": 200,
+      "overflow": 0,
+      "screenshot": ".factory-cache/content-qa/course-1440.png",
+      "pass": true
+    },
+    {
+      "variant": "contact",
+      "url": "http://localhost:8000/?page_id=16",
+      "width": 1440,
+      "http": 200,
+      "overflow": 0,
+      "screenshot": ".factory-cache/content-qa/contact-1440.png",
+      "pass": true
+    },
+    {
+      "variant": "empty",
+      "url": "http://localhost:8000/?page_id=17",
+      "width": 1440,
+      "http": 200,
+      "overflow": 0,
+      "screenshot": ".factory-cache/content-qa/empty-1440.png",
+      "pass": true
+    },
+    {
+      "variant": "static",
+      "url": "http://localhost:8000/?page_id=18",
+      "width": 1440,
+      "http": 200,
+      "overflow": 0,
+      "screenshot": ".factory-cache/content-qa/static-1440.png",
+      "pass": true
+    },
+    {
+      "variant": "home",
+      "url": "http://localhost:8000/?page_id=10",
+      "width": 2048,
+      "http": 200,
+      "overflow": 0,
+      "screenshot": ".factory-cache/content-qa/home-2048.png",
+      "pass": true
+    },
+    {
+      "variant": "basic",
+      "url": "http://localhost:8000/?page_id=11",
+      "width": 2048,
+      "http": 200,
+      "overflow": 0,
+      "screenshot": ".factory-cache/content-qa/basic-2048.png",
+      "pass": true
+    },
+    {
+      "variant": "flexible",
+      "url": "http://localhost:8000/?page_id=12",
+      "width": 2048,
+      "http": 200,
+      "overflow": 0,
+      "screenshot": ".factory-cache/content-qa/flexible-2048.png",
+      "pass": true
+    },
+    {
+      "variant": "banner-tile",
+      "url": "http://localhost:8000/?page_id=13",
+      "width": 2048,
+      "http": 200,
+      "overflow": 0,
+      "screenshot": ".factory-cache/content-qa/banner-tile-2048.png",
+      "pass": true
+    },
+    {
+      "variant": "banner-accordion",
+      "url": "http://localhost:8000/?page_id=14",
+      "width": 2048,
+      "http": 200,
+      "overflow": 0,
+      "screenshot": ".factory-cache/content-qa/banner-accordion-2048.png",
+      "pass": true
+    },
+    {
+      "variant": "course",
+      "url": "http://localhost:8000/?page_id=15",
+      "width": 2048,
+      "http": 200,
+      "overflow": 0,
+      "screenshot": ".factory-cache/content-qa/course-2048.png",
+      "pass": true
+    },
+    {
+      "variant": "contact",
+      "url": "http://localhost:8000/?page_id=16",
+      "width": 2048,
+      "http": 200,
+      "overflow": 0,
+      "screenshot": ".factory-cache/content-qa/contact-2048.png",
+      "pass": true
+    },
+    {
+      "variant": "empty",
+      "url": "http://localhost:8000/?page_id=17",
+      "width": 2048,
+      "http": 200,
+      "overflow": 0,
+      "screenshot": ".factory-cache/content-qa/empty-2048.png",
+      "pass": true
+    },
+    {
+      "variant": "static",
+      "url": "http://localhost:8000/?page_id=18",
+      "width": 2048,
+      "http": 200,
+      "overflow": 0,
+      "screenshot": ".factory-cache/content-qa/static-2048.png",
+      "pass": true
+    },
+    {
+      "url": "http://localhost:8000/?cat=2",
+      "nativeBlog": true,
+      "pass": true
+    },
+    {
+      "url": "http://localhost:8000/?p=7",
+      "nativeBlog": true,
+      "pass": true
+    }
+  ],
+  "interactions": [
+    "200% base text + text spacing at 320 CSS px; no horizontal overflow",
+    "nested tabs Arrow/Home/End",
+    "details Enter/Space",
+    "menu Enter/Space/Escape",
+    "skip-link focus",
+    "slider Enter/ArrowLeft and hidden slide focusability",
+    "without JS: menu and all contact panels readable"
+  ],
+  "pass": true,
+  "finishedAt": "2026-10-09T15:25:38.735Z",
+  "screenshots": [
+    {
+      "path": ".factory-cache/content-qa/home-320.png",
+      "sha256": "44da067d47b5295cf3215aa65e96c66115f7191073fe461fa06bbba60cb12bf9"
+    },
+    {
+      "path": ".factory-cache/content-qa/basic-320.png",
+      "sha256": "b57f1e01f0bc32e6aa5a03cccfdbeb0a82c88efad4d9e9649821604111794e7b"
+    },
+    {
+      "path": ".factory-cache/content-qa/flexible-320.png",
+      "sha256": "c78c79013c96d9f46d2fb8b2cf6df39c281edbd55813f36c2abf76a934f5a153"
+    },
+    {
+      "path": ".factory-cache/content-qa/banner-tile-320.png",
+      "sha256": "4e07f0bfe1eeca6410fde3a70233bef0f237171e2ad7825bfb3d957473f60e37"
+    },
+    {
+      "path": ".factory-cache/content-qa/banner-accordion-320.png",
+      "sha256": "c89fa602e9e2536c77f198d59811c82dfa04f4bf7d650346e576828e4dc19e7a"
+    },
+    {
+      "path": ".factory-cache/content-qa/course-320.png",
+      "sha256": "34c1e20c8acb90279208202ac4a1807893c46a5a20dc5d4025eeac4af70d92d0"
+    },
+    {
+      "path": ".factory-cache/content-qa/contact-320.png",
+      "sha256": "2fb0cfa7aa4e973acee6d91bd9c6c853469b9e90a61439548bfeee8b8c70ad5c"
+    },
+    {
+      "path": ".factory-cache/content-qa/empty-320.png",
+      "sha256": "3a43a4976b2f34962b93286da33ee442f93ed308805edc7773d23e056a70e6bb"
+    },
+    {
+      "path": ".factory-cache/content-qa/static-320.png",
+      "sha256": "89c6e186a165b2bf25742d03d03a7a7cf8aa793f8b3ccc42c66fbf1a5c44ddd0"
+    },
+    {
+      "path": ".factory-cache/content-qa/home-390.png",
+      "sha256": "fc21440ab3daf3182b6d5985c27f067699f1d95d87878fc56ac75e368c586a64"
+    },
+    {
+      "path": ".factory-cache/content-qa/basic-390.png",
+      "sha256": "eff5410d30b4702f737891a88d2e7026b6bd07aaa8470044015563e25d6086b9"
+    },
+    {
+      "path": ".factory-cache/content-qa/flexible-390.png",
+      "sha256": "402b2de16524ce1f9b4c8a49d525c9c8312aa0f4938311b75c05a4e2c9d82cf3"
+    },
+    {
+      "path": ".factory-cache/content-qa/banner-tile-390.png",
+      "sha256": "d9db5afc9fd8c771f6bd942e1dc85751a833db9c8984345cf9871d82465ea214"
+    },
+    {
+      "path": ".factory-cache/content-qa/banner-accordion-390.png",
+      "sha256": "f83cbb876d350c291bca13da4522be925b087782f118d0124a6b9fa81b5f7f00"
+    },
+    {
+      "path": ".factory-cache/content-qa/course-390.png",
+      "sha256": "5658ece2ec24dcb76ab14173f4e020d7c8a5aa576659621175e08cdb4fd07d84"
+    },
+    {
+      "path": ".factory-cache/content-qa/contact-390.png",
+      "sha256": "516cc8bec2cef167483d364be550ca1d41405ca22265151a125679aa11117e2a"
+    },
+    {
+      "path": ".factory-cache/content-qa/empty-390.png",
+      "sha256": "22a92f0acc0670070fb36c3318b4f487b96eaf551c438d35c52eb448b4d31ba0"
+    },
+    {
+      "path": ".factory-cache/content-qa/static-390.png",
+      "sha256": "1ab8f48de9eade57565d2424350fdaca7b5391c8e1e8014eafe362d241baa934"
+    },
+    {
+      "path": ".factory-cache/content-qa/home-1440.png",
+      "sha256": "3104d34a53b5be7ad021279758800bd7941f39327884b5be3171c5fb4eacdf7b"
+    },
+    {
+      "path": ".factory-cache/content-qa/basic-1440.png",
+      "sha256": "7cdcf93ecb6c7f2260c78e72eff20ddc8e4fd59b0251ae36cb23fe7fba1138cc"
+    },
+    {
+      "path": ".factory-cache/content-qa/flexible-1440.png",
+      "sha256": "008ae57347da1c10ad7e2e6eefb9318860b4654985478abcda000b5043e814fb"
+    },
+    {
+      "path": ".factory-cache/content-qa/banner-tile-1440.png",
+      "sha256": "74eb6fb261530a5139335bb1d3050c41ebd486eb744da38f65584a6c18137799"
+    },
+    {
+      "path": ".factory-cache/content-qa/banner-accordion-1440.png",
+      "sha256": "4abb5253f5b20333cf48200bed40886293da273d58160f07b7c7b86a53e4f145"
+    },
+    {
+      "path": ".factory-cache/content-qa/course-1440.png",
+      "sha256": "d48f912a688e276ba0bc5f1978c0db8f1e7dec748f33ee87c27fda499162525e"
+    },
+    {
+      "path": ".factory-cache/content-qa/contact-1440.png",
+      "sha256": "d55ed87bd3fbcc26fe83ac73a9130d794cd7379f7066dce84744ae48ac85a9fd"
+    },
+    {
+      "path": ".factory-cache/content-qa/empty-1440.png",
+      "sha256": "8e9613f24bb6d75e141dc0ae3fab883aad7e4327d3e6387a5ece878f281ec9dd"
+    },
+    {
+      "path": ".factory-cache/content-qa/static-1440.png",
+      "sha256": "317e8c53386dd07b0711e575e9cd808d8f5bc0fc93edcb602ddcde67826d7f73"
+    },
+    {
+      "path": ".factory-cache/content-qa/home-2048.png",
+      "sha256": "6b20227689faa5cf7f82ad73a3c04612ed72b7c6414e5dc7a120f31dd5acb659"
+    },
+    {
+      "path": ".factory-cache/content-qa/basic-2048.png",
+      "sha256": "b6ca4f63d9b28ed1b6e4a9c550ea47806691f817a161431b1c78b7807c1345dc"
+    },
+    {
+      "path": ".factory-cache/content-qa/flexible-2048.png",
+      "sha256": "80d0fa8e9a6e6ed512f7043509cca897b3559df4990e386db5538ac3cd2b6f73"
+    },
+    {
+      "path": ".factory-cache/content-qa/banner-tile-2048.png",
+      "sha256": "fa4a437546c740779fd4292d9e395a129c1fff0cfa66a29d76bebd71724a7522"
+    },
+    {
+      "path": ".factory-cache/content-qa/banner-accordion-2048.png",
+      "sha256": "12fbcea0f0ee8305f1e9c6fb98f027f02cd5bfcbf2f50ad31ad32913420d4a18"
+    },
+    {
+      "path": ".factory-cache/content-qa/course-2048.png",
+      "sha256": "b64a40df182e70e6ce30e92944a2c8034f8e5dd75972d2a37a73124ddf75e995"
+    },
+    {
+      "path": ".factory-cache/content-qa/contact-2048.png",
+      "sha256": "f27b345afbba020bb6c905b90bc268baa70ce59534b06bc9b17d483b294ca6db"
+    },
+    {
+      "path": ".factory-cache/content-qa/empty-2048.png",
+      "sha256": "44e2b40c46c70ceb87e6fdd3fdd7929c8f505ac83806ff59040c1dea3032817f"
+    },
+    {
+      "path": ".factory-cache/content-qa/static-2048.png",
+      "sha256": "9d9c92740323e4daebfe04062ab2536e7282a012e05895a40faf38b401c03610"
+    }
+  ],
+  "build": [
+    {
+      "path": "dist/build-style.css",
+      "sha256": "633e6872695b4fdf574a353dc84db031dd3ce72c2f3faac04e85821cdd093c59"
+    },
+    {
+      "path": "dist/build-combined.js",
+      "sha256": "bf19d16f8dc181481fd84cc5aee9355d8449c539048f2d0268d82cf4d8c88f05"
+    }
+  ],
+  "sourceReference": "BLOCKED for all 38 required captures",
+  "cbContent": "TODO"
+}

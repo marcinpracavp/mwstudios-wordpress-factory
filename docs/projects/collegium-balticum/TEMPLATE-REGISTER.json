@@ -1,0 +1,1116 @@
+{
+  "updatedAt": "2026-10-09T15:16:50.876Z",
+  "source": "read-only LIVE / web text cache",
+  "requiredIds": [
+    "CB-00",
+    "CB-01",
+    "CB-02",
+    "CB-03",
+    "CB-04",
+    "CB-05",
+    "CB-06",
+    "CB-07",
+    "CB-08",
+    "CB-09",
+    "CB-10",
+    "CB-11",
+    "CB-12",
+    "CB-13",
+    "CB-14",
+    "CB-15",
+    "CB-16",
+    "CB-17",
+    "CB-18"
+  ],
+  "routes": [
+    {
+      "id": "CB-00",
+      "productionUrl": "https://www.cb.szczecin.pl/",
+      "path": "/",
+      "localUrl": null,
+      "plannedLocalUrl": "http://localhost:8000/",
+      "family": "home",
+      "template": "front-page.php",
+      "modules": [
+        "tiles",
+        "image_text",
+        "news",
+        "tabs",
+        "partners"
+      ],
+      "acf": {
+        "schemaReady": true,
+        "runtime": "ACF Pro 6.7.0.2; QA fixtures only",
+        "fields": "mwf_hero, mwf_sections"
+      },
+      "observation": "Tekst: wieloslajdowe komunikaty rekrutacyjne, oferta kierunków, tekst o uczelni, wpisy dzielone na kategorie; wspólne menu i stopka.",
+      "interactions": "Slider, zakładki wiadomości, linki kierunków. Potwierdzenie stanów/geometrii wymaga przeglądarki.",
+      "analysisStatus": "PARTIAL_TEXT_ONLY",
+      "familyBasis": "explicit task; live geometry unverified",
+      "reuse": [
+        "grid gc/gr",
+        "spacing utilities",
+        "shared factory sections",
+        "partials/section-image.php"
+      ],
+      "templateStatus": "IN_PROGRESS",
+      "contentStatus": "TODO",
+      "visualQA": "BLOCKED",
+      "reference": [
+        {
+          "viewport": "desktop",
+          "status": "BLOCKED",
+          "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-00/desktop",
+          "errors": [
+            {
+              "type": "capture",
+              "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+            }
+          ]
+        },
+        {
+          "viewport": "mobile",
+          "status": "BLOCKED",
+          "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-00/mobile",
+          "errors": [
+            {
+              "type": "capture",
+              "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+            }
+          ]
+        }
+      ],
+      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB."
+    },
+    {
+      "id": "CB-01",
+      "productionUrl": "https://www.cb.szczecin.pl/kontakt/",
+      "path": "/kontakt/",
+      "localUrl": null,
+      "plannedLocalUrl": "http://localhost:8000/kontakt/",
+      "family": "contact",
+      "template": "template-contact.php",
+      "modules": [
+        "contact",
+        "tabs",
+        "media"
+      ],
+      "acf": {
+        "schemaReady": true,
+        "runtime": "ACF Pro 6.7.0.2; QA fixtures only",
+        "fields": "mwf_hero, mwf_sections, mwf_contact_cities, kontakt.form (istniejące)"
+      },
+      "observation": "Tekst: miasta, działy, osoby, adresy, godziny i dane kontaktowe. Dwa poziomy przełączania miasta/działy wynikają z odczytu i audytu.",
+      "interactions": "Zakładki miast i działów; tel/mailto; formularz: Q-06 backend i zgody nadal nieustalone.",
+      "analysisStatus": "PARTIAL_TEXT_ONLY",
+      "familyBasis": "explicit task; live geometry unverified",
+      "reuse": [
+        "grid gc/gr",
+        "spacing utilities",
+        "shared factory sections"
+      ],
+      "templateStatus": "IN_PROGRESS",
+      "contentStatus": "TODO",
+      "visualQA": "BLOCKED",
+      "reference": [
+        {
+          "viewport": "desktop",
+          "status": "BLOCKED",
+          "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-01/desktop",
+          "errors": [
+            {
+              "type": "capture",
+              "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/kontakt/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+            }
+          ]
+        },
+        {
+          "viewport": "mobile",
+          "status": "BLOCKED",
+          "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-01/mobile",
+          "errors": [
+            {
+              "type": "capture",
+              "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/kontakt/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+            }
+          ]
+        }
+      ],
+      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB."
+    },
+    {
+      "id": "CB-02",
+      "productionUrl": "https://www.cb.szczecin.pl/category/wpisy/blog-post/",
+      "path": "/category/wpisy/blog-post/",
+      "localUrl": null,
+      "plannedLocalUrl": "http://localhost:8000/category/wpisy/blog-post/",
+      "family": "blog-archive",
+      "template": "archive.php",
+      "modules": [],
+      "acf": {
+        "schemaReady": true,
+        "runtime": "ACF Pro 6.7.0.2; QA fixtures only",
+        "fields": "Natywne post/term/media/Yoast; bez zbędnych pól"
+      },
+      "observation": "Tekst: lista datowanych kart, linki kategorii, wyszukiwarka i paginacja. Natywny main query WordPress zachowuje archiwum kategorii.",
+      "interactions": "Linki wpisów, kategorie, wyszukiwanie, paginacja.",
+      "analysisStatus": "PARTIAL_TEXT_ONLY",
+      "familyBasis": "explicit task; live geometry unverified",
+      "reuse": [
+        "grid gc/gr",
+        "spacing utilities",
+        "shared factory sections"
+      ],
+      "templateStatus": "IN_PROGRESS",
+      "contentStatus": "TODO",
+      "visualQA": "BLOCKED",
+      "reference": [
+        {
+          "viewport": "desktop",
+          "status": "BLOCKED",
+          "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-02/desktop",
+          "errors": [
+            {
+              "type": "capture",
+              "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/category/wpisy/blog-post/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+            }
+          ]
+        },
+        {
+          "viewport": "mobile",
+          "status": "BLOCKED",
+          "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-02/mobile",
+          "errors": [
+            {
+              "type": "capture",
+              "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/category/wpisy/blog-post/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+            }
+          ]
+        }
+      ],
+      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB."
+    },
+    {
+      "id": "CB-03",
+      "productionUrl": "https://www.cb.szczecin.pl/wpisy/blog-post/dietetyka-licencjacka-i-magisterska-czym-roznia-sie-programy-i-perspektywy-zawodowe/",
+      "path": "/wpisy/blog-post/dietetyka-licencjacka-i-magisterska-czym-roznia-sie-programy-i-perspektywy-zawodowe/",
+      "localUrl": null,
+      "plannedLocalUrl": "http://localhost:8000/wpisy/blog-post/dietetyka-licencjacka-i-magisterska-czym-roznia-sie-programy-i-perspektywy-zawodowe/",
+      "family": "blog-single",
+      "template": "single.php",
+      "modules": [],
+      "acf": {
+        "schemaReady": true,
+        "runtime": "ACF Pro 6.7.0.2; QA fixtures only",
+        "fields": "Natywne post/term/media/Yoast; bez zbędnych pól"
+      },
+      "observation": "Narzędzie web zwróciło Internal Error przy dwóch próbach dokładnego URL; aktualna treść i Hx niepotwierdzone. Szablon dynamiczny bez kopiowania artykułu.",
+      "interactions": "Natywne linki, obrazy, listy/cytaty/Hx, poprzedni/następny wpis; wymagany ponowny odczyt.",
+      "analysisStatus": "BLOCKED",
+      "familyBasis": "explicit task; live geometry unverified",
+      "reuse": [
+        "grid gc/gr",
+        "spacing utilities",
+        "shared factory sections"
+      ],
+      "templateStatus": "IN_PROGRESS",
+      "contentStatus": "TODO",
+      "visualQA": "BLOCKED",
+      "reference": [
+        {
+          "viewport": "desktop",
+          "status": "BLOCKED",
+          "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-03/desktop",
+          "errors": [
+            {
+              "type": "capture",
+              "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/wpisy/blog-post/dietetyka-licencjacka-i-magisterska-czym-roznia-sie-programy-i-perspektywy-zawodowe/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+            }
+          ]
+        },
+        {
+          "viewport": "mobile",
+          "status": "BLOCKED",
+          "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-03/mobile",
+          "errors": [
+            {
+              "type": "capture",
+              "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/wpisy/blog-post/dietetyka-licencjacka-i-magisterska-czym-roznia-sie-programy-i-perspektywy-zawodowe/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+            }
+          ]
+        }
+      ],
+      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB."
+    },
+    {
+      "id": "CB-04",
+      "productionUrl": "https://www.cb.szczecin.pl/rekrutacja/",
+      "path": "/rekrutacja/",
+      "localUrl": null,
+      "plannedLocalUrl": "http://localhost:8000/rekrutacja/",
+      "family": "banner-tile",
+      "template": "template-banner-tile.php",
+      "modules": [
+        "tiles",
+        "media",
+        "wysiwyg",
+        "cta",
+        "documents",
+        "tabs",
+        "contact"
+      ],
+      "acf": {
+        "schemaReady": true,
+        "runtime": "ACF Pro 6.7.0.2; QA fixtures only",
+        "fields": "mwf_hero, mwf_sections, mwf_overlay"
+      },
+      "observation": "Tekst: oferta stopni, filmy, warunki i dokumenty rekrutacji, promocje oraz sekcja życia studenckiego. Kafel na banerze wymagany zleceniem; położenie niezweryfikowane.",
+      "interactions": "Linki rekrutacji i dokumentów, wideo, zakładki; zewnętrzna rekrutacja pozostaje linkiem.",
+      "analysisStatus": "PARTIAL_TEXT_ONLY",
+      "familyBasis": "explicit task; live geometry unverified",
+      "reuse": [
+        "grid gc/gr",
+        "spacing utilities",
+        "shared factory sections"
+      ],
+      "templateStatus": "IN_PROGRESS",
+      "contentStatus": "TODO",
+      "visualQA": "BLOCKED",
+      "reference": [
+        {
+          "viewport": "desktop",
+          "status": "BLOCKED",
+          "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-04/desktop",
+          "errors": [
+            {
+              "type": "capture",
+              "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/rekrutacja/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+            }
+          ]
+        },
+        {
+          "viewport": "mobile",
+          "status": "BLOCKED",
+          "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-04/mobile",
+          "errors": [
+            {
+              "type": "capture",
+              "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/rekrutacja/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+            }
+          ]
+        }
+      ],
+      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB."
+    },
+    {
+      "id": "CB-05",
+      "productionUrl": "https://www.cb.szczecin.pl/dni-otwarte/",
+      "path": "/dni-otwarte/",
+      "localUrl": null,
+      "plannedLocalUrl": "http://localhost:8000/dni-otwarte/",
+      "family": "banner-tile",
+      "template": "template-banner-tile.php",
+      "modules": [
+        "wysiwyg",
+        "image_text",
+        "cta",
+        "media",
+        "gallery",
+        "contact"
+      ],
+      "acf": {
+        "schemaReady": true,
+        "runtime": "ACF Pro 6.7.0.2; QA fixtures only",
+        "fields": "mwf_hero, mwf_sections, mwf_overlay"
+      },
+      "observation": "Tekst: wprowadzenie, harmonogram, kontakt/zapisy i galerie poprzednich lat. Kafel na banerze wymagany zleceniem; układ zdjęć i wideo do referencji.",
+      "interactions": "Link formularza zewnętrznego i galerie; bez wysyłania danych na LIVE.",
+      "analysisStatus": "PARTIAL_TEXT_ONLY",
+      "familyBasis": "explicit task; live geometry unverified",
+      "reuse": [
+        "grid gc/gr",
+        "spacing utilities",
+        "shared factory sections",
+        "partials/section-image.php"
+      ],
+      "templateStatus": "IN_PROGRESS",
+      "contentStatus": "TODO",
+      "visualQA": "BLOCKED",
+      "reference": [
+        {
+          "viewport": "desktop",
+          "status": "BLOCKED",
+          "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-05/desktop",
+          "errors": [
+            {
+              "type": "capture",
+              "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/dni-otwarte/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+            }
+          ]
+        },
+        {
+          "viewport": "mobile",
+          "status": "BLOCKED",
+          "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-05/mobile",
+          "errors": [
+            {
+              "type": "capture",
+              "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/dni-otwarte/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+            }
+          ]
+        }
+      ],
+      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB."
+    },
+    {
+      "id": "CB-06",
+      "productionUrl": "https://www.cb.szczecin.pl/tryb-studiow/studia-licencjackie/",
+      "path": "/tryb-studiow/studia-licencjackie/",
+      "localUrl": null,
+      "plannedLocalUrl": "http://localhost:8000/tryb-studiow/studia-licencjackie/",
+      "family": "banner-accordion",
+      "template": "template-banner-accordion.php",
+      "modules": [
+        "wysiwyg",
+        "accordion",
+        "cta",
+        "documents"
+      ],
+      "acf": {
+        "schemaReady": true,
+        "runtime": "ACF Pro 6.7.0.2; QA fixtures only",
+        "fields": "mwf_hero, mwf_sections"
+      },
+      "observation": "Tekst: wprowadzenie, kierunki i informacje o studiach I stopnia. Banner/accordion wymagane zleceniem.",
+      "interactions": "Natywne details/summary; slider tylko gdy więcej niż jeden slajd; stany LIVE nieodczytane.",
+      "analysisStatus": "PARTIAL_TEXT_ONLY",
+      "familyBasis": "explicit task; live geometry unverified",
+      "reuse": [
+        "grid gc/gr",
+        "spacing utilities",
+        "shared factory sections"
+      ],
+      "templateStatus": "IN_PROGRESS",
+      "contentStatus": "TODO",
+      "visualQA": "BLOCKED",
+      "reference": [
+        {
+          "viewport": "desktop",
+          "status": "BLOCKED",
+          "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-06/desktop",
+          "errors": [
+            {
+              "type": "capture",
+              "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/tryb-studiow/studia-licencjackie/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+            }
+          ]
+        },
+        {
+          "viewport": "mobile",
+          "status": "BLOCKED",
+          "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-06/mobile",
+          "errors": [
+            {
+              "type": "capture",
+              "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/tryb-studiow/studia-licencjackie/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+            }
+          ]
+        }
+      ],
+      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB."
+    },
+    {
+      "id": "CB-07",
+      "productionUrl": "https://www.cb.szczecin.pl/tryb-studiow/studia-magisterskie/",
+      "path": "/tryb-studiow/studia-magisterskie/",
+      "localUrl": null,
+      "plannedLocalUrl": "http://localhost:8000/tryb-studiow/studia-magisterskie/",
+      "family": "banner-accordion",
+      "template": "template-banner-accordion.php",
+      "modules": [
+        "wysiwyg",
+        "accordion",
+        "cta",
+        "documents"
+      ],
+      "acf": {
+        "schemaReady": true,
+        "runtime": "ACF Pro 6.7.0.2; QA fixtures only",
+        "fields": "mwf_hero, mwf_sections"
+      },
+      "observation": "Narzędzie web zwróciło One moment, please… — ochronę dostępu. Rodzina banner/accordion wynika z obowiązkowego zlecenia, nie udanego audytu źródła.",
+      "interactions": "Do ponownego odczytu; brak potwierdzenia liczby obrazów i paneli.",
+      "analysisStatus": "BLOCKED",
+      "familyBasis": "explicit task; live geometry unverified",
+      "reuse": [
+        "grid gc/gr",
+        "spacing utilities",
+        "shared factory sections"
+      ],
+      "templateStatus": "IN_PROGRESS",
+      "contentStatus": "TODO",
+      "visualQA": "BLOCKED",
+      "reference": [
+        {
+          "viewport": "desktop",
+          "status": "BLOCKED",
+          "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-07/desktop",
+          "errors": [
+            {
+              "type": "capture",
+              "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/tryb-studiow/studia-magisterskie/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+            }
+          ]
+        },
+        {
+          "viewport": "mobile",
+          "status": "BLOCKED",
+          "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-07/mobile",
+          "errors": [
+            {
+              "type": "capture",
+              "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/tryb-studiow/studia-magisterskie/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+            }
+          ]
+        }
+      ],
+      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB."
+    },
+    {
+      "id": "CB-08",
+      "productionUrl": "https://www.cb.szczecin.pl/tryb-studiow/studia-podyplomowe/studia-nienauczycielskie/fitodietetyka/",
+      "path": "/tryb-studiow/studia-podyplomowe/studia-nienauczycielskie/fitodietetyka/",
+      "localUrl": null,
+      "plannedLocalUrl": "http://localhost:8000/tryb-studiow/studia-podyplomowe/studia-nienauczycielskie/fitodietetyka/",
+      "family": "course",
+      "template": "template-course.php",
+      "modules": [
+        "wysiwyg",
+        "image_text",
+        "accordion",
+        "contact",
+        "partners",
+        "documents"
+      ],
+      "acf": {
+        "schemaReady": true,
+        "runtime": "ACF Pro 6.7.0.2; QA fixtures only",
+        "fields": "mwf_hero, mwf_sections, mwf_course"
+      },
+      "observation": "Tekst: parametry opłat/czasu, opis, partner kierunku, kierownik i biogramy, cele i efekty kształcenia. Wymaga podsumowania oferty i modułów treści.",
+      "interactions": "Link zapisu, kontakt kierownika, szczegóły oferty; forma paneli i pozycja zdjęć do referencji.",
+      "analysisStatus": "PARTIAL_TEXT_ONLY",
+      "familyBasis": "explicit task; live geometry unverified",
+      "reuse": [
+        "grid gc/gr",
+        "spacing utilities",
+        "shared factory sections",
+        "partials/section-image.php"
+      ],
+      "templateStatus": "IN_PROGRESS",
+      "contentStatus": "TODO",
+      "visualQA": "BLOCKED",
+      "reference": [
+        {
+          "viewport": "desktop",
+          "status": "BLOCKED",
+          "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-08/desktop",
+          "errors": [
+            {
+              "type": "capture",
+              "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/tryb-studiow/studia-podyplomowe/studia-nienauczycielskie/fitodietetyka/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+            }
+          ]
+        },
+        {
+          "viewport": "mobile",
+          "status": "BLOCKED",
+          "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-08/mobile",
+          "errors": [
+            {
+              "type": "capture",
+              "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/tryb-studiow/studia-podyplomowe/studia-nienauczycielskie/fitodietetyka/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+            }
+          ]
+        }
+      ],
+      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB."
+    },
+    {
+      "id": "CB-09",
+      "productionUrl": "https://www.cb.szczecin.pl/tryb-studiow/studia-online/",
+      "path": "/tryb-studiow/studia-online/",
+      "localUrl": null,
+      "plannedLocalUrl": "http://localhost:8000/tryb-studiow/studia-online/",
+      "family": "flexible",
+      "template": "template-flexible.php",
+      "modules": [
+        "wysiwyg",
+        "media",
+        "cta",
+        "tiles"
+      ],
+      "acf": {
+        "schemaReady": true,
+        "runtime": "ACF Pro 6.7.0.2; QA fixtures only",
+        "fields": "mwf_hero, mwf_sections"
+      },
+      "observation": "Tekst: oferta formuły hybrydowej, link materiału informacyjnego, kierunki i listy zasad/korzyści.",
+      "interactions": "Linki kierunków, materiał informacyjny; osadzenia i geometria wymagają referencji.",
+      "analysisStatus": "PARTIAL_TEXT_ONLY",
+      "familyBasis": "text analysis; live geometry unverified",
+      "reuse": [
+        "grid gc/gr",
+        "spacing utilities",
+        "shared factory sections"
+      ],
+      "templateStatus": "IN_PROGRESS",
+      "contentStatus": "TODO",
+      "visualQA": "BLOCKED",
+      "reference": [
+        {
+          "viewport": "desktop",
+          "status": "BLOCKED",
+          "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-09/desktop",
+          "errors": [
+            {
+              "type": "capture",
+              "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/tryb-studiow/studia-online/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+            }
+          ]
+        },
+        {
+          "viewport": "mobile",
+          "status": "BLOCKED",
+          "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-09/mobile",
+          "errors": [
+            {
+              "type": "capture",
+              "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/tryb-studiow/studia-online/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+            }
+          ]
+        }
+      ],
+      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB."
+    },
+    {
+      "id": "CB-10",
+      "productionUrl": "https://www.cb.szczecin.pl/tryb-studiow/studia-podyplomowe/",
+      "path": "/tryb-studiow/studia-podyplomowe/",
+      "localUrl": null,
+      "plannedLocalUrl": "http://localhost:8000/tryb-studiow/studia-podyplomowe/",
+      "family": "flexible",
+      "template": "template-flexible.php",
+      "modules": [
+        "image_text",
+        "wysiwyg",
+        "tiles",
+        "tabs",
+        "cta",
+        "contact",
+        "documents"
+      ],
+      "acf": {
+        "schemaReady": true,
+        "runtime": "ACF Pro 6.7.0.2; QA fixtures only",
+        "fields": "mwf_hero, mwf_sections"
+      },
+      "observation": "Tekst: H1, grafika z wprowadzeniem, długi opis oferty i promocje. Lista ofert: otwarte przed zamkniętymi według wymagań PM.",
+      "interactions": "Status ręczny open/closed lub nieustalony; stabilne sortowanie w module tiles. Źródło statusów do PM.",
+      "analysisStatus": "PARTIAL_TEXT_ONLY",
+      "familyBasis": "text analysis; live geometry unverified",
+      "reuse": [
+        "grid gc/gr",
+        "spacing utilities",
+        "shared factory sections",
+        "partials/section-image.php"
+      ],
+      "templateStatus": "IN_PROGRESS",
+      "contentStatus": "TODO",
+      "visualQA": "BLOCKED",
+      "reference": [
+        {
+          "viewport": "desktop",
+          "status": "BLOCKED",
+          "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-10/desktop",
+          "errors": [
+            {
+              "type": "capture",
+              "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/tryb-studiow/studia-podyplomowe/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+            }
+          ]
+        },
+        {
+          "viewport": "mobile",
+          "status": "BLOCKED",
+          "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-10/mobile",
+          "errors": [
+            {
+              "type": "capture",
+              "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/tryb-studiow/studia-podyplomowe/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+            }
+          ]
+        }
+      ],
+      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB."
+    },
+    {
+      "id": "CB-11",
+      "productionUrl": "https://www.cb.szczecin.pl/mediator-sadowy/",
+      "path": "/mediator-sadowy/",
+      "localUrl": null,
+      "plannedLocalUrl": "http://localhost:8000/mediator-sadowy/",
+      "family": "course",
+      "template": "template-course.php",
+      "modules": [
+        "wysiwyg",
+        "accordion",
+        "documents",
+        "contact",
+        "cta"
+      ],
+      "acf": {
+        "schemaReady": true,
+        "runtime": "ACF Pro 6.7.0.2; QA fixtures only",
+        "fields": "mwf_hero, mwf_sections, mwf_course"
+      },
+      "observation": "Tekst: cena kursu, korzyści, cennik, terminarz i program; zgłoszenie mailowe. Reużycie oferty i accordionów.",
+      "interactions": "Mailto, pliki/terminarz; daty źródłowe historyczne — nie aktualizować samodzielnie.",
+      "analysisStatus": "PARTIAL_TEXT_ONLY",
+      "familyBasis": "text analysis; live geometry unverified",
+      "reuse": [
+        "grid gc/gr",
+        "spacing utilities",
+        "shared factory sections"
+      ],
+      "templateStatus": "IN_PROGRESS",
+      "contentStatus": "TODO",
+      "visualQA": "BLOCKED",
+      "reference": [
+        {
+          "viewport": "desktop",
+          "status": "BLOCKED",
+          "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-11/desktop",
+          "errors": [
+            {
+              "type": "capture",
+              "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/mediator-sadowy/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+            }
+          ]
+        },
+        {
+          "viewport": "mobile",
+          "status": "BLOCKED",
+          "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-11/mobile",
+          "errors": [
+            {
+              "type": "capture",
+              "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/mediator-sadowy/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+            }
+          ]
+        }
+      ],
+      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB."
+    },
+    {
+      "id": "CB-12",
+      "productionUrl": "https://www.cb.szczecin.pl/szkolenia-rad-pedagogicznych/",
+      "path": "/szkolenia-rad-pedagogicznych/",
+      "localUrl": null,
+      "plannedLocalUrl": "http://localhost:8000/szkolenia-rad-pedagogicznych/",
+      "family": "flexible",
+      "template": "template-flexible.php",
+      "modules": [
+        "wysiwyg",
+        "image_text",
+        "contact",
+        "cta"
+      ],
+      "acf": {
+        "schemaReady": true,
+        "runtime": "ACF Pro 6.7.0.2; QA fixtures only",
+        "fields": "mwf_hero, mwf_sections"
+      },
+      "observation": "Tekst: opis szkoleń, lista tematów, eksperci i kontakt/zapisy. Bio dostępne w zwykłej treści lub 50/50 bez nowego modelu kadry.",
+      "interactions": "Kontakt email/tel, CTA; wspólne encje kadry nadal wymagają specyfikacji.",
+      "analysisStatus": "PARTIAL_TEXT_ONLY",
+      "familyBasis": "text analysis; live geometry unverified",
+      "reuse": [
+        "grid gc/gr",
+        "spacing utilities",
+        "shared factory sections",
+        "partials/section-image.php"
+      ],
+      "templateStatus": "IN_PROGRESS",
+      "contentStatus": "TODO",
+      "visualQA": "BLOCKED",
+      "reference": [
+        {
+          "viewport": "desktop",
+          "status": "BLOCKED",
+          "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-12/desktop",
+          "errors": [
+            {
+              "type": "capture",
+              "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/szkolenia-rad-pedagogicznych/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+            }
+          ]
+        },
+        {
+          "viewport": "mobile",
+          "status": "BLOCKED",
+          "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-12/mobile",
+          "errors": [
+            {
+              "type": "capture",
+              "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/szkolenia-rad-pedagogicznych/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+            }
+          ]
+        }
+      ],
+      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB."
+    },
+    {
+      "id": "CB-13",
+      "productionUrl": "https://www.cb.szczecin.pl/przeniesienie-z-innej-uczelni/",
+      "path": "/przeniesienie-z-innej-uczelni/",
+      "localUrl": null,
+      "plannedLocalUrl": "http://localhost:8000/przeniesienie-z-innej-uczelni/",
+      "family": "basic",
+      "template": "template-basic.php",
+      "modules": [
+        "documents",
+        "contact",
+        "cta"
+      ],
+      "acf": {
+        "schemaReady": true,
+        "runtime": "ACF Pro 6.7.0.2; QA fixtures only",
+        "fields": "mwf_hero, mwf_sections, mwf_content, mwf_cta"
+      },
+      "observation": "Tekst: H1, warunki transferu, podanie, instrukcja formalności i kontakt BOS. WYSIWYG z semantycznymi listami plus pliki/kontakt.",
+      "interactions": "Pobranie podania i email; zachować hierarchię Hx po akceptacji.",
+      "analysisStatus": "PARTIAL_TEXT_ONLY",
+      "familyBasis": "text analysis; live geometry unverified",
+      "reuse": [
+        "grid gc/gr",
+        "spacing utilities",
+        "shared factory sections"
+      ],
+      "templateStatus": "IN_PROGRESS",
+      "contentStatus": "TODO",
+      "visualQA": "BLOCKED",
+      "reference": [
+        {
+          "viewport": "desktop",
+          "status": "BLOCKED",
+          "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-13/desktop",
+          "errors": [
+            {
+              "type": "capture",
+              "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/przeniesienie-z-innej-uczelni/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+            }
+          ]
+        },
+        {
+          "viewport": "mobile",
+          "status": "BLOCKED",
+          "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-13/mobile",
+          "errors": [
+            {
+              "type": "capture",
+              "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/przeniesienie-z-innej-uczelni/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+            }
+          ]
+        }
+      ],
+      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB."
+    },
+    {
+      "id": "CB-14",
+      "productionUrl": "https://www.cb.szczecin.pl/reaktywuj-sie-w-prawach-studenta-w-collegium-balticum/",
+      "path": "/reaktywuj-sie-w-prawach-studenta-w-collegium-balticum/",
+      "localUrl": null,
+      "plannedLocalUrl": "http://localhost:8000/reaktywuj-sie-w-prawach-studenta-w-collegium-balticum/",
+      "family": "basic",
+      "template": "template-basic.php",
+      "modules": [
+        "documents",
+        "contact",
+        "cta"
+      ],
+      "acf": {
+        "schemaReady": true,
+        "runtime": "ACF Pro 6.7.0.2; QA fixtures only",
+        "fields": "mwf_hero, mwf_sections, mwf_content, mwf_cta"
+      },
+      "observation": "Tekst: H1, warunki reaktywacji, podanie, opis decyzji/umowy i kontakt. Wspólny basic z opcjonalnymi modułami.",
+      "interactions": "Pobranie dokumentu i email; bez nowego osobnego partiala.",
+      "analysisStatus": "PARTIAL_TEXT_ONLY",
+      "familyBasis": "text analysis; live geometry unverified",
+      "reuse": [
+        "grid gc/gr",
+        "spacing utilities",
+        "shared factory sections"
+      ],
+      "templateStatus": "IN_PROGRESS",
+      "contentStatus": "TODO",
+      "visualQA": "BLOCKED",
+      "reference": [
+        {
+          "viewport": "desktop",
+          "status": "BLOCKED",
+          "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-14/desktop",
+          "errors": [
+            {
+              "type": "capture",
+              "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/reaktywuj-sie-w-prawach-studenta-w-collegium-balticum/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+            }
+          ]
+        },
+        {
+          "viewport": "mobile",
+          "status": "BLOCKED",
+          "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-14/mobile",
+          "errors": [
+            {
+              "type": "capture",
+              "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/reaktywuj-sie-w-prawach-studenta-w-collegium-balticum/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+            }
+          ]
+        }
+      ],
+      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB."
+    },
+    {
+      "id": "CB-15",
+      "productionUrl": "https://www.cb.szczecin.pl/strefa-studenta/wsparcie-studenta/",
+      "path": "/strefa-studenta/wsparcie-studenta/",
+      "localUrl": null,
+      "plannedLocalUrl": "http://localhost:8000/strefa-studenta/wsparcie-studenta/",
+      "family": "flexible",
+      "template": "template-flexible.php",
+      "modules": [
+        "image_text",
+        "wysiwyg",
+        "documents",
+        "contact"
+      ],
+      "acf": {
+        "schemaReady": true,
+        "runtime": "ACF Pro 6.7.0.2; QA fixtures only",
+        "fields": "mwf_hero, mwf_sections"
+      },
+      "observation": "Tekst: grafika wsparcia, opis procedury i jej dokument, podstawy i lista kanałów kontaktu.",
+      "interactions": "Dokument procedury i kontakty; źródłowy ALT znany tekstowo, transfer mediów w kolejnym etapie.",
+      "analysisStatus": "PARTIAL_TEXT_ONLY",
+      "familyBasis": "text analysis; live geometry unverified",
+      "reuse": [
+        "grid gc/gr",
+        "spacing utilities",
+        "shared factory sections",
+        "partials/section-image.php"
+      ],
+      "templateStatus": "IN_PROGRESS",
+      "contentStatus": "TODO",
+      "visualQA": "BLOCKED",
+      "reference": [
+        {
+          "viewport": "desktop",
+          "status": "BLOCKED",
+          "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-15/desktop",
+          "errors": [
+            {
+              "type": "capture",
+              "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/strefa-studenta/wsparcie-studenta/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+            }
+          ]
+        },
+        {
+          "viewport": "mobile",
+          "status": "BLOCKED",
+          "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-15/mobile",
+          "errors": [
+            {
+              "type": "capture",
+              "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/strefa-studenta/wsparcie-studenta/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+            }
+          ]
+        }
+      ],
+      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB."
+    },
+    {
+      "id": "CB-16",
+      "productionUrl": "https://www.cb.szczecin.pl/strefa-studenta/legitymacja-studencka/",
+      "path": "/strefa-studenta/legitymacja-studencka/",
+      "localUrl": null,
+      "plannedLocalUrl": "http://localhost:8000/strefa-studenta/legitymacja-studencka/",
+      "family": "flexible",
+      "template": "template-flexible.php",
+      "modules": [
+        "image_text",
+        "wysiwyg",
+        "contact",
+        "media"
+      ],
+      "acf": {
+        "schemaReady": true,
+        "runtime": "ACF Pro 6.7.0.2; QA fixtures only",
+        "fields": "mwf_hero, mwf_sections"
+      },
+      "observation": "Tekst: grafika legitymacji, sekcje tradycyjnej i elektronicznej, instrukcja i email BOS.",
+      "interactions": "Mailto; nie tworzyć formularza wydania legitymacji ani integracji.",
+      "analysisStatus": "PARTIAL_TEXT_ONLY",
+      "familyBasis": "text analysis; live geometry unverified",
+      "reuse": [
+        "grid gc/gr",
+        "spacing utilities",
+        "shared factory sections",
+        "partials/section-image.php"
+      ],
+      "templateStatus": "IN_PROGRESS",
+      "contentStatus": "TODO",
+      "visualQA": "BLOCKED",
+      "reference": [
+        {
+          "viewport": "desktop",
+          "status": "BLOCKED",
+          "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-16/desktop",
+          "errors": [
+            {
+              "type": "capture",
+              "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/strefa-studenta/legitymacja-studencka/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+            }
+          ]
+        },
+        {
+          "viewport": "mobile",
+          "status": "BLOCKED",
+          "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-16/mobile",
+          "errors": [
+            {
+              "type": "capture",
+              "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/strefa-studenta/legitymacja-studencka/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+            }
+          ]
+        }
+      ],
+      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB."
+    },
+    {
+      "id": "CB-17",
+      "productionUrl": "https://www.cb.szczecin.pl/strefa-studenta/erasmus/o-programie/",
+      "path": "/strefa-studenta/erasmus/o-programie/",
+      "localUrl": null,
+      "plannedLocalUrl": "http://localhost:8000/strefa-studenta/erasmus/o-programie/",
+      "family": "flexible",
+      "template": "template-flexible.php",
+      "modules": [
+        "image_text",
+        "wysiwyg",
+        "table",
+        "documents",
+        "contact"
+      ],
+      "acf": {
+        "schemaReady": true,
+        "runtime": "ACF Pro 6.7.0.2; QA fixtures only",
+        "fields": "mwf_hero, mwf_sections"
+      },
+      "observation": "Tekst: logo/obraz, opis programu, listy, cztery grupy dokumentów i kontakt. Tabele załączników można oddać modułem documents lub table.",
+      "interactions": "Pliki PL/EN, linki partnerskie i kontakt. ALT i metadane dokumentów wymagają źródeł/QA.",
+      "analysisStatus": "PARTIAL_TEXT_ONLY",
+      "familyBasis": "text analysis; live geometry unverified",
+      "reuse": [
+        "grid gc/gr",
+        "spacing utilities",
+        "shared factory sections",
+        "partials/section-image.php"
+      ],
+      "templateStatus": "IN_PROGRESS",
+      "contentStatus": "TODO",
+      "visualQA": "BLOCKED",
+      "reference": [
+        {
+          "viewport": "desktop",
+          "status": "BLOCKED",
+          "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-17/desktop",
+          "errors": [
+            {
+              "type": "capture",
+              "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/strefa-studenta/erasmus/o-programie/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+            }
+          ]
+        },
+        {
+          "viewport": "mobile",
+          "status": "BLOCKED",
+          "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-17/mobile",
+          "errors": [
+            {
+              "type": "capture",
+              "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/strefa-studenta/erasmus/o-programie/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+            }
+          ]
+        }
+      ],
+      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB."
+    },
+    {
+      "id": "CB-18",
+      "productionUrl": "https://www.cb.szczecin.pl/strefa-studenta/biblioteka/wypozyczenie-na-zamowienie/",
+      "path": "/strefa-studenta/biblioteka/wypozyczenie-na-zamowienie/",
+      "localUrl": null,
+      "plannedLocalUrl": "http://localhost:8000/strefa-studenta/biblioteka/wypozyczenie-na-zamowienie/",
+      "family": "basic",
+      "template": "template-basic.php",
+      "modules": [
+        "contact",
+        "partners"
+      ],
+      "acf": {
+        "schemaReady": true,
+        "runtime": "ACF Pro 6.7.0.2; QA fixtures only",
+        "fields": "mwf_hero, mwf_sections, mwf_content, mwf_cta"
+      },
+      "observation": "Tekst: breadcrumb i H1, treść zasad wypożyczeń, kontakt biblioteki oraz partnerzy. Odczyt pochodzi z cache sprzed siedmiu miesięcy.",
+      "interactions": "Mailto i linki partnerów; zachować nadrzędną hierarchię biblioteki.",
+      "analysisStatus": "PARTIAL_TEXT_ONLY",
+      "familyBasis": "text analysis; live geometry unverified",
+      "reuse": [
+        "grid gc/gr",
+        "spacing utilities",
+        "shared factory sections"
+      ],
+      "templateStatus": "IN_PROGRESS",
+      "contentStatus": "TODO",
+      "visualQA": "BLOCKED",
+      "reference": [
+        {
+          "viewport": "desktop",
+          "status": "BLOCKED",
+          "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-18/desktop",
+          "errors": [
+            {
+              "type": "capture",
+              "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/strefa-studenta/biblioteka/wypozyczenie-na-zamowienie/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+            }
+          ]
+        },
+        {
+          "viewport": "mobile",
+          "status": "BLOCKED",
+          "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-18/mobile",
+          "errors": [
+            {
+              "type": "capture",
+              "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/strefa-studenta/biblioteka/wypozyczenie-na-zamowienie/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+            }
+          ]
+        }
+      ],
+      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB."
+    }
+  ]
+}

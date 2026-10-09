@@ -1,0 +1,957 @@
+{
+  "capturedAt": "2026-10-09T15:07:33.242Z",
+  "timeoutMs": 15000,
+  "browser": "Playwright Chromium",
+  "records": [
+    {
+      "url": "https://www.cb.szczecin.pl/",
+      "viewport": {
+        "id": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "capturedAt": "2026-10-09T14:58:42.520Z",
+      "status": "BLOCKED",
+      "errors": [
+        {
+          "type": "capture",
+          "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        },
+        {
+          "type": "request",
+          "url": "https://www.cb.szczecin.pl/",
+          "message": "net::ERR_ABORTED"
+        }
+      ],
+      "paths": {},
+      "id": "CB-00",
+      "viewportId": "desktop",
+      "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-00/desktop"
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/",
+      "viewport": {
+        "id": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "capturedAt": "2026-10-09T14:58:42.520Z",
+      "status": "BLOCKED",
+      "errors": [
+        {
+          "type": "capture",
+          "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        },
+        {
+          "type": "request",
+          "url": "https://www.cb.szczecin.pl/",
+          "message": "net::ERR_ABORTED"
+        }
+      ],
+      "paths": {},
+      "id": "CB-00",
+      "viewportId": "mobile",
+      "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-00/mobile"
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/kontakt/",
+      "viewport": {
+        "id": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "capturedAt": "2026-10-09T14:58:58.179Z",
+      "status": "BLOCKED",
+      "errors": [
+        {
+          "type": "capture",
+          "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/kontakt/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        },
+        {
+          "type": "request",
+          "url": "https://www.cb.szczecin.pl/kontakt/",
+          "message": "net::ERR_ABORTED"
+        }
+      ],
+      "paths": {},
+      "id": "CB-01",
+      "viewportId": "desktop",
+      "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-01/desktop"
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/kontakt/",
+      "viewport": {
+        "id": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "capturedAt": "2026-10-09T14:58:42.521Z",
+      "status": "BLOCKED",
+      "errors": [
+        {
+          "type": "capture",
+          "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/kontakt/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        },
+        {
+          "type": "request",
+          "url": "https://www.cb.szczecin.pl/kontakt/",
+          "message": "net::ERR_ABORTED"
+        }
+      ],
+      "paths": {},
+      "id": "CB-01",
+      "viewportId": "mobile",
+      "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-01/mobile"
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/category/wpisy/blog-post/",
+      "viewport": {
+        "id": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "capturedAt": "2026-10-09T14:58:58.327Z",
+      "status": "BLOCKED",
+      "errors": [
+        {
+          "type": "capture",
+          "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/category/wpisy/blog-post/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        },
+        {
+          "type": "request",
+          "url": "https://www.cb.szczecin.pl/category/wpisy/blog-post/",
+          "message": "net::ERR_ABORTED"
+        }
+      ],
+      "paths": {},
+      "id": "CB-02",
+      "viewportId": "desktop",
+      "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-02/desktop"
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/category/wpisy/blog-post/",
+      "viewport": {
+        "id": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "capturedAt": "2026-10-09T14:58:58.221Z",
+      "status": "BLOCKED",
+      "errors": [
+        {
+          "type": "capture",
+          "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/category/wpisy/blog-post/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        },
+        {
+          "type": "request",
+          "url": "https://www.cb.szczecin.pl/category/wpisy/blog-post/",
+          "message": "net::ERR_ABORTED"
+        }
+      ],
+      "paths": {},
+      "id": "CB-02",
+      "viewportId": "mobile",
+      "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-02/mobile"
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/wpisy/blog-post/dietetyka-licencjacka-i-magisterska-czym-roznia-sie-programy-i-perspektywy-zawodowe/",
+      "viewport": {
+        "id": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "capturedAt": "2026-10-09T14:59:13.848Z",
+      "status": "BLOCKED",
+      "errors": [
+        {
+          "type": "capture",
+          "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/wpisy/blog-post/dietetyka-licencjacka-i-magisterska-czym-roznia-sie-programy-i-perspektywy-zawodowe/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        },
+        {
+          "type": "request",
+          "url": "https://www.cb.szczecin.pl/wpisy/blog-post/dietetyka-licencjacka-i-magisterska-czym-roznia-sie-programy-i-perspektywy-zawodowe/",
+          "message": "net::ERR_ABORTED"
+        }
+      ],
+      "paths": {},
+      "id": "CB-03",
+      "viewportId": "desktop",
+      "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-03/desktop"
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/wpisy/blog-post/dietetyka-licencjacka-i-magisterska-czym-roznia-sie-programy-i-perspektywy-zawodowe/",
+      "viewport": {
+        "id": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "capturedAt": "2026-10-09T14:59:13.604Z",
+      "status": "BLOCKED",
+      "errors": [
+        {
+          "type": "capture",
+          "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/wpisy/blog-post/dietetyka-licencjacka-i-magisterska-czym-roznia-sie-programy-i-perspektywy-zawodowe/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        },
+        {
+          "type": "request",
+          "url": "https://www.cb.szczecin.pl/wpisy/blog-post/dietetyka-licencjacka-i-magisterska-czym-roznia-sie-programy-i-perspektywy-zawodowe/",
+          "message": "net::ERR_ABORTED"
+        }
+      ],
+      "paths": {},
+      "id": "CB-03",
+      "viewportId": "mobile",
+      "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-03/mobile"
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/rekrutacja/",
+      "viewport": {
+        "id": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "capturedAt": "2026-10-09T14:59:28.825Z",
+      "status": "BLOCKED",
+      "errors": [
+        {
+          "type": "capture",
+          "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/rekrutacja/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        },
+        {
+          "type": "request",
+          "url": "https://www.cb.szczecin.pl/rekrutacja/",
+          "message": "net::ERR_ABORTED"
+        }
+      ],
+      "paths": {},
+      "id": "CB-04",
+      "viewportId": "desktop",
+      "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-04/desktop"
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/rekrutacja/",
+      "viewport": {
+        "id": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "capturedAt": "2026-10-09T14:59:14.017Z",
+      "status": "BLOCKED",
+      "errors": [
+        {
+          "type": "capture",
+          "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/rekrutacja/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        },
+        {
+          "type": "request",
+          "url": "https://www.cb.szczecin.pl/rekrutacja/",
+          "message": "net::ERR_ABORTED"
+        }
+      ],
+      "paths": {},
+      "id": "CB-04",
+      "viewportId": "mobile",
+      "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-04/mobile"
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/dni-otwarte/",
+      "viewport": {
+        "id": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "capturedAt": "2026-10-09T14:59:29.495Z",
+      "status": "BLOCKED",
+      "errors": [
+        {
+          "type": "capture",
+          "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/dni-otwarte/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        },
+        {
+          "type": "request",
+          "url": "https://www.cb.szczecin.pl/dni-otwarte/",
+          "message": "net::ERR_ABORTED"
+        }
+      ],
+      "paths": {},
+      "id": "CB-05",
+      "viewportId": "desktop",
+      "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-05/desktop"
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/dni-otwarte/",
+      "viewport": {
+        "id": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "capturedAt": "2026-10-09T14:59:29.157Z",
+      "status": "BLOCKED",
+      "errors": [
+        {
+          "type": "capture",
+          "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/dni-otwarte/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        },
+        {
+          "type": "request",
+          "url": "https://www.cb.szczecin.pl/dni-otwarte/",
+          "message": "net::ERR_ABORTED"
+        }
+      ],
+      "paths": {},
+      "id": "CB-05",
+      "viewportId": "mobile",
+      "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-05/mobile"
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/tryb-studiow/studia-licencjackie/",
+      "viewport": {
+        "id": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "capturedAt": "2026-10-09T14:59:44.495Z",
+      "status": "BLOCKED",
+      "errors": [
+        {
+          "type": "capture",
+          "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/tryb-studiow/studia-licencjackie/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        },
+        {
+          "type": "request",
+          "url": "https://www.cb.szczecin.pl/tryb-studiow/studia-licencjackie/",
+          "message": "net::ERR_ABORTED"
+        }
+      ],
+      "paths": {},
+      "id": "CB-06",
+      "viewportId": "desktop",
+      "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-06/desktop"
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/tryb-studiow/studia-licencjackie/",
+      "viewport": {
+        "id": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "capturedAt": "2026-10-09T14:59:44.035Z",
+      "status": "BLOCKED",
+      "errors": [
+        {
+          "type": "capture",
+          "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/tryb-studiow/studia-licencjackie/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        },
+        {
+          "type": "request",
+          "url": "https://www.cb.szczecin.pl/tryb-studiow/studia-licencjackie/",
+          "message": "net::ERR_ABORTED"
+        }
+      ],
+      "paths": {},
+      "id": "CB-06",
+      "viewportId": "mobile",
+      "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-06/mobile"
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/tryb-studiow/studia-magisterskie/",
+      "viewport": {
+        "id": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "capturedAt": "2026-10-09T14:59:59.266Z",
+      "status": "BLOCKED",
+      "errors": [
+        {
+          "type": "capture",
+          "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/tryb-studiow/studia-magisterskie/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        },
+        {
+          "type": "request",
+          "url": "https://www.cb.szczecin.pl/tryb-studiow/studia-magisterskie/",
+          "message": "net::ERR_ABORTED"
+        }
+      ],
+      "paths": {},
+      "id": "CB-07",
+      "viewportId": "desktop",
+      "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-07/desktop"
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/tryb-studiow/studia-magisterskie/",
+      "viewport": {
+        "id": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "capturedAt": "2026-10-09T14:59:44.761Z",
+      "status": "BLOCKED",
+      "errors": [
+        {
+          "type": "capture",
+          "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/tryb-studiow/studia-magisterskie/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        },
+        {
+          "type": "request",
+          "url": "https://www.cb.szczecin.pl/tryb-studiow/studia-magisterskie/",
+          "message": "net::ERR_ABORTED"
+        }
+      ],
+      "paths": {},
+      "id": "CB-07",
+      "viewportId": "mobile",
+      "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-07/mobile"
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/tryb-studiow/studia-podyplomowe/studia-nienauczycielskie/fitodietetyka/",
+      "viewport": {
+        "id": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "capturedAt": "2026-10-09T15:00:00.294Z",
+      "status": "BLOCKED",
+      "errors": [
+        {
+          "type": "capture",
+          "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/tryb-studiow/studia-podyplomowe/studia-nienauczycielskie/fitodietetyka/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        },
+        {
+          "type": "request",
+          "url": "https://www.cb.szczecin.pl/tryb-studiow/studia-podyplomowe/studia-nienauczycielskie/fitodietetyka/",
+          "message": "net::ERR_ABORTED"
+        }
+      ],
+      "paths": {},
+      "id": "CB-08",
+      "viewportId": "desktop",
+      "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-08/desktop"
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/tryb-studiow/studia-podyplomowe/studia-nienauczycielskie/fitodietetyka/",
+      "viewport": {
+        "id": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "capturedAt": "2026-10-09T14:59:59.734Z",
+      "status": "BLOCKED",
+      "errors": [
+        {
+          "type": "capture",
+          "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/tryb-studiow/studia-podyplomowe/studia-nienauczycielskie/fitodietetyka/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        },
+        {
+          "type": "request",
+          "url": "https://www.cb.szczecin.pl/tryb-studiow/studia-podyplomowe/studia-nienauczycielskie/fitodietetyka/",
+          "message": "net::ERR_ABORTED"
+        }
+      ],
+      "paths": {},
+      "id": "CB-08",
+      "viewportId": "mobile",
+      "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-08/mobile"
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/tryb-studiow/studia-online/",
+      "viewport": {
+        "id": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "capturedAt": "2026-10-09T15:00:14.959Z",
+      "status": "BLOCKED",
+      "errors": [
+        {
+          "type": "capture",
+          "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/tryb-studiow/studia-online/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        },
+        {
+          "type": "request",
+          "url": "https://www.cb.szczecin.pl/tryb-studiow/studia-online/",
+          "message": "net::ERR_ABORTED"
+        }
+      ],
+      "paths": {},
+      "id": "CB-09",
+      "viewportId": "desktop",
+      "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-09/desktop"
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/tryb-studiow/studia-online/",
+      "viewport": {
+        "id": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "capturedAt": "2026-10-09T15:00:14.502Z",
+      "status": "BLOCKED",
+      "errors": [
+        {
+          "type": "capture",
+          "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/tryb-studiow/studia-online/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        },
+        {
+          "type": "request",
+          "url": "https://www.cb.szczecin.pl/tryb-studiow/studia-online/",
+          "message": "net::ERR_ABORTED"
+        }
+      ],
+      "paths": {},
+      "id": "CB-09",
+      "viewportId": "mobile",
+      "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-09/mobile"
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/tryb-studiow/studia-podyplomowe/",
+      "viewport": {
+        "id": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "capturedAt": "2026-10-09T15:00:29.708Z",
+      "status": "BLOCKED",
+      "errors": [
+        {
+          "type": "capture",
+          "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/tryb-studiow/studia-podyplomowe/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        },
+        {
+          "type": "request",
+          "url": "https://www.cb.szczecin.pl/tryb-studiow/studia-podyplomowe/",
+          "message": "net::ERR_ABORTED"
+        }
+      ],
+      "paths": {},
+      "id": "CB-10",
+      "viewportId": "desktop",
+      "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-10/desktop"
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/tryb-studiow/studia-podyplomowe/",
+      "viewport": {
+        "id": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "capturedAt": "2026-10-09T15:00:15.545Z",
+      "status": "BLOCKED",
+      "errors": [
+        {
+          "type": "capture",
+          "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/tryb-studiow/studia-podyplomowe/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        },
+        {
+          "type": "request",
+          "url": "https://www.cb.szczecin.pl/tryb-studiow/studia-podyplomowe/",
+          "message": "net::ERR_ABORTED"
+        }
+      ],
+      "paths": {},
+      "id": "CB-10",
+      "viewportId": "mobile",
+      "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-10/mobile"
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/mediator-sadowy/",
+      "viewport": {
+        "id": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "capturedAt": "2026-10-09T15:00:30.731Z",
+      "status": "BLOCKED",
+      "errors": [
+        {
+          "type": "capture",
+          "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/mediator-sadowy/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        },
+        {
+          "type": "request",
+          "url": "https://www.cb.szczecin.pl/mediator-sadowy/",
+          "message": "net::ERR_ABORTED"
+        }
+      ],
+      "paths": {},
+      "id": "CB-11",
+      "viewportId": "desktop",
+      "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-11/desktop"
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/mediator-sadowy/",
+      "viewport": {
+        "id": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "capturedAt": "2026-10-09T15:00:30.190Z",
+      "status": "BLOCKED",
+      "errors": [
+        {
+          "type": "capture",
+          "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/mediator-sadowy/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        },
+        {
+          "type": "request",
+          "url": "https://www.cb.szczecin.pl/mediator-sadowy/",
+          "message": "net::ERR_ABORTED"
+        }
+      ],
+      "paths": {},
+      "id": "CB-11",
+      "viewportId": "mobile",
+      "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-11/mobile"
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/szkolenia-rad-pedagogicznych/",
+      "viewport": {
+        "id": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "capturedAt": "2026-10-09T15:00:45.389Z",
+      "status": "BLOCKED",
+      "errors": [
+        {
+          "type": "capture",
+          "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/szkolenia-rad-pedagogicznych/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        },
+        {
+          "type": "request",
+          "url": "https://www.cb.szczecin.pl/szkolenia-rad-pedagogicznych/",
+          "message": "net::ERR_ABORTED"
+        }
+      ],
+      "paths": {},
+      "id": "CB-12",
+      "viewportId": "desktop",
+      "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-12/desktop"
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/szkolenia-rad-pedagogicznych/",
+      "viewport": {
+        "id": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "capturedAt": "2026-10-09T15:00:44.953Z",
+      "status": "BLOCKED",
+      "errors": [
+        {
+          "type": "capture",
+          "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/szkolenia-rad-pedagogicznych/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        },
+        {
+          "type": "request",
+          "url": "https://www.cb.szczecin.pl/szkolenia-rad-pedagogicznych/",
+          "message": "net::ERR_ABORTED"
+        }
+      ],
+      "paths": {},
+      "id": "CB-12",
+      "viewportId": "mobile",
+      "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-12/mobile"
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/przeniesienie-z-innej-uczelni/",
+      "viewport": {
+        "id": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "capturedAt": "2026-10-09T15:01:00.146Z",
+      "status": "BLOCKED",
+      "errors": [
+        {
+          "type": "capture",
+          "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/przeniesienie-z-innej-uczelni/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        },
+        {
+          "type": "request",
+          "url": "https://www.cb.szczecin.pl/przeniesienie-z-innej-uczelni/",
+          "message": "net::ERR_ABORTED"
+        }
+      ],
+      "paths": {},
+      "id": "CB-13",
+      "viewportId": "desktop",
+      "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-13/desktop"
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/przeniesienie-z-innej-uczelni/",
+      "viewport": {
+        "id": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "capturedAt": "2026-10-09T15:00:45.938Z",
+      "status": "BLOCKED",
+      "errors": [
+        {
+          "type": "capture",
+          "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/przeniesienie-z-innej-uczelni/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        },
+        {
+          "type": "request",
+          "url": "https://www.cb.szczecin.pl/przeniesienie-z-innej-uczelni/",
+          "message": "net::ERR_ABORTED"
+        }
+      ],
+      "paths": {},
+      "id": "CB-13",
+      "viewportId": "mobile",
+      "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-13/mobile"
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/reaktywuj-sie-w-prawach-studenta-w-collegium-balticum/",
+      "viewport": {
+        "id": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "capturedAt": "2026-10-09T15:01:01.136Z",
+      "status": "BLOCKED",
+      "errors": [
+        {
+          "type": "capture",
+          "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/reaktywuj-sie-w-prawach-studenta-w-collegium-balticum/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        },
+        {
+          "type": "request",
+          "url": "https://www.cb.szczecin.pl/reaktywuj-sie-w-prawach-studenta-w-collegium-balticum/",
+          "message": "net::ERR_ABORTED"
+        }
+      ],
+      "paths": {},
+      "id": "CB-14",
+      "viewportId": "desktop",
+      "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-14/desktop"
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/reaktywuj-sie-w-prawach-studenta-w-collegium-balticum/",
+      "viewport": {
+        "id": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "capturedAt": "2026-10-09T15:01:00.588Z",
+      "status": "BLOCKED",
+      "errors": [
+        {
+          "type": "capture",
+          "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/reaktywuj-sie-w-prawach-studenta-w-collegium-balticum/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        },
+        {
+          "type": "request",
+          "url": "https://www.cb.szczecin.pl/reaktywuj-sie-w-prawach-studenta-w-collegium-balticum/",
+          "message": "net::ERR_ABORTED"
+        }
+      ],
+      "paths": {},
+      "id": "CB-14",
+      "viewportId": "mobile",
+      "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-14/mobile"
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/strefa-studenta/wsparcie-studenta/",
+      "viewport": {
+        "id": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "capturedAt": "2026-10-09T15:01:15.814Z",
+      "status": "BLOCKED",
+      "errors": [
+        {
+          "type": "capture",
+          "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/strefa-studenta/wsparcie-studenta/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        },
+        {
+          "type": "request",
+          "url": "https://www.cb.szczecin.pl/strefa-studenta/wsparcie-studenta/",
+          "message": "net::ERR_ABORTED"
+        }
+      ],
+      "paths": {},
+      "id": "CB-15",
+      "viewportId": "desktop",
+      "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-15/desktop"
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/strefa-studenta/wsparcie-studenta/",
+      "viewport": {
+        "id": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "capturedAt": "2026-10-09T15:01:15.395Z",
+      "status": "BLOCKED",
+      "errors": [
+        {
+          "type": "capture",
+          "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/strefa-studenta/wsparcie-studenta/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        },
+        {
+          "type": "request",
+          "url": "https://www.cb.szczecin.pl/strefa-studenta/wsparcie-studenta/",
+          "message": "net::ERR_ABORTED"
+        }
+      ],
+      "paths": {},
+      "id": "CB-15",
+      "viewportId": "mobile",
+      "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-15/mobile"
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/strefa-studenta/legitymacja-studencka/",
+      "viewport": {
+        "id": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "capturedAt": "2026-10-09T15:01:30.638Z",
+      "status": "BLOCKED",
+      "errors": [
+        {
+          "type": "capture",
+          "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/strefa-studenta/legitymacja-studencka/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        },
+        {
+          "type": "request",
+          "url": "https://www.cb.szczecin.pl/strefa-studenta/legitymacja-studencka/",
+          "message": "net::ERR_ABORTED"
+        }
+      ],
+      "paths": {},
+      "id": "CB-16",
+      "viewportId": "desktop",
+      "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-16/desktop"
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/strefa-studenta/legitymacja-studencka/",
+      "viewport": {
+        "id": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "capturedAt": "2026-10-09T15:01:16.440Z",
+      "status": "BLOCKED",
+      "errors": [
+        {
+          "type": "capture",
+          "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/strefa-studenta/legitymacja-studencka/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        },
+        {
+          "type": "request",
+          "url": "https://www.cb.szczecin.pl/strefa-studenta/legitymacja-studencka/",
+          "message": "net::ERR_ABORTED"
+        }
+      ],
+      "paths": {},
+      "id": "CB-16",
+      "viewportId": "mobile",
+      "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-16/mobile"
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/strefa-studenta/erasmus/o-programie/",
+      "viewport": {
+        "id": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "capturedAt": "2026-10-09T15:01:31.788Z",
+      "status": "BLOCKED",
+      "errors": [
+        {
+          "type": "capture",
+          "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/strefa-studenta/erasmus/o-programie/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        },
+        {
+          "type": "request",
+          "url": "https://www.cb.szczecin.pl/strefa-studenta/erasmus/o-programie/",
+          "message": "net::ERR_ABORTED"
+        }
+      ],
+      "paths": {},
+      "id": "CB-17",
+      "viewportId": "desktop",
+      "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-17/desktop"
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/strefa-studenta/erasmus/o-programie/",
+      "viewport": {
+        "id": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "capturedAt": "2026-10-09T15:01:31.039Z",
+      "status": "BLOCKED",
+      "errors": [
+        {
+          "type": "capture",
+          "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/strefa-studenta/erasmus/o-programie/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        },
+        {
+          "type": "request",
+          "url": "https://www.cb.szczecin.pl/strefa-studenta/erasmus/o-programie/",
+          "message": "net::ERR_ABORTED"
+        }
+      ],
+      "paths": {},
+      "id": "CB-17",
+      "viewportId": "mobile",
+      "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-17/mobile"
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/strefa-studenta/biblioteka/wypozyczenie-na-zamowienie/",
+      "viewport": {
+        "id": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "capturedAt": "2026-10-09T15:01:46.251Z",
+      "status": "BLOCKED",
+      "errors": [
+        {
+          "type": "capture",
+          "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/strefa-studenta/biblioteka/wypozyczenie-na-zamowienie/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        },
+        {
+          "type": "request",
+          "url": "https://www.cb.szczecin.pl/strefa-studenta/biblioteka/wypozyczenie-na-zamowienie/",
+          "message": "net::ERR_ABORTED"
+        }
+      ],
+      "paths": {},
+      "id": "CB-18",
+      "viewportId": "desktop",
+      "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-18/desktop"
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/strefa-studenta/biblioteka/wypozyczenie-na-zamowienie/",
+      "viewport": {
+        "id": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "capturedAt": "2026-10-09T15:01:45.844Z",
+      "status": "BLOCKED",
+      "errors": [
+        {
+          "type": "capture",
+          "message": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.cb.szczecin.pl/strefa-studenta/biblioteka/wypozyczenie-na-zamowienie/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        },
+        {
+          "type": "request",
+          "url": "https://www.cb.szczecin.pl/strefa-studenta/biblioteka/wypozyczenie-na-zamowienie/",
+          "message": "net::ERR_ABORTED"
+        }
+      ],
+      "paths": {},
+      "id": "CB-18",
+      "viewportId": "mobile",
+      "evidence": ".factory-cache/live/collegium-balticum/discovery/2026-10-09T14-58-41-858Z/CB-18/mobile"
+    }
+  ]
+}
