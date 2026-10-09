@@ -29,3 +29,7 @@ Decyzje dopisywać tutaj z datą, osobą, treścią i wpływem na BRIEF/SCOPE/PA
 ## Dowody po zadaniu 3
 
 Q-11: izolowany WP http://localhost:8000, noindex blog_public=0, aktywny motyw i dostarczony przez użytkownika ACF Pro 6.7.0.2 potwierdzone runtime. Nie potwierdzono osobnej instalacji LocalWP ani dokładnych lokalnych tras CB; istnieją wyłącznie jawne dane QA. Q-06/Q-07/Q-10 pozostają otwarte; materiał do decyzji: [PM-TEMPLATE-REVIEW](PM-TEMPLATE-REVIEW.md). Wszystkie 38 prób referencji LIVE zablokowane timeoutem; [REFERENCE-ACCESS](REFERENCE-ACCESS.json).
+
+## Dowody po naprawie 3A
+
+Q-11 potwierdzono ponownie: właściwy motyw oraz aktywny ACF Pro 6.7.0.2, podglądy i strona główna QA, CSS/JS HTTP 200. Projektowe komendy cb:wp/cb:dev/cb:preview wskazują tę samą izolowaną instancję factory-live-qa. Wyniki: [TASK-3A-READINESS](TASK-3A-READINESS.md). Dostęp do LIVE pozostaje BLOCKED przed TLS (TCP timeout obu hostów na portach 80/443); potrzebne referencje wszystkich 19 adresów określono w [TASK-3A-MANUAL-REFERENCES](TASK-3A-MANUAL-REFERENCES.md). Q-04/Q-06/Q-10 nie zostały domyślnie zaakceptowane. Pełne sześć statusów: [TASK-3A-REGISTER](TASK-3A-REGISTER.md).

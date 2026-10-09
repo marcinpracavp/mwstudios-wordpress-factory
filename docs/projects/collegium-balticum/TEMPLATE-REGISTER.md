@@ -180,3 +180,5 @@ Interakcje / weryfikacja: Mailto i linki partnerów; zachować nadrzędną hiera
 
 ACF: mwf_hero, mwf_sections, mwf_content, mwf_cta. Moduły: contact, partners. Reużycie: grid gc/gr, spacing utilities, shared factory sections. Hero/kolory/fonty/RWD/stany wymagają referencji; nie potwierdzono ich na podstawie tekstu.
 
+
+Aktualne sześć niezależnych statusów po naprawie 3A: [TASK-3A-REGISTER](TASK-3A-REGISTER.md). Historyczne referencje zadania 3 pozostawiono w JSON.

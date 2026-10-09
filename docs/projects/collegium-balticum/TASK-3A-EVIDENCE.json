@@ -1,0 +1,797 @@
+{
+  "at": "2026-10-09T16:23:20.751Z",
+  "fixtureOnly": true,
+  "rendering": {
+    "fixtureOnly": true,
+    "startedAt": "2026-10-09T16:13:34.563Z",
+    "acfVersion": "6.7.0.2",
+    "pages": [
+      {
+        "variant": "home",
+        "url": "http://localhost:8000/",
+        "width": 320,
+        "http": 200,
+        "overflow": 0,
+        "screenshot": ".factory-cache/content-qa/home-320.png",
+        "pass": true
+      },
+      {
+        "variant": "basic",
+        "url": "http://localhost:8000/?page_id=11",
+        "width": 320,
+        "http": 200,
+        "overflow": 0,
+        "screenshot": ".factory-cache/content-qa/basic-320.png",
+        "pass": true
+      },
+      {
+        "variant": "flexible",
+        "url": "http://localhost:8000/?page_id=12",
+        "width": 320,
+        "http": 200,
+        "overflow": 0,
+        "screenshot": ".factory-cache/content-qa/flexible-320.png",
+        "pass": true
+      },
+      {
+        "variant": "banner-tile",
+        "url": "http://localhost:8000/?page_id=13",
+        "width": 320,
+        "http": 200,
+        "overflow": 0,
+        "screenshot": ".factory-cache/content-qa/banner-tile-320.png",
+        "pass": true
+      },
+      {
+        "variant": "banner-accordion",
+        "url": "http://localhost:8000/?page_id=14",
+        "width": 320,
+        "http": 200,
+        "overflow": 0,
+        "screenshot": ".factory-cache/content-qa/banner-accordion-320.png",
+        "pass": true
+      },
+      {
+        "variant": "course",
+        "url": "http://localhost:8000/?page_id=15",
+        "width": 320,
+        "http": 200,
+        "overflow": 0,
+        "screenshot": ".factory-cache/content-qa/course-320.png",
+        "pass": true
+      },
+      {
+        "variant": "contact",
+        "url": "http://localhost:8000/?page_id=16",
+        "width": 320,
+        "http": 200,
+        "overflow": 0,
+        "screenshot": ".factory-cache/content-qa/contact-320.png",
+        "pass": true
+      },
+      {
+        "variant": "empty",
+        "url": "http://localhost:8000/?page_id=17",
+        "width": 320,
+        "http": 200,
+        "overflow": 0,
+        "screenshot": ".factory-cache/content-qa/empty-320.png",
+        "pass": true
+      },
+      {
+        "variant": "static",
+        "url": "http://localhost:8000/?page_id=18",
+        "width": 320,
+        "http": 200,
+        "overflow": 0,
+        "screenshot": ".factory-cache/content-qa/static-320.png",
+        "pass": true
+      },
+      {
+        "variant": "home",
+        "url": "http://localhost:8000/",
+        "width": 390,
+        "http": 200,
+        "overflow": 0,
+        "screenshot": ".factory-cache/content-qa/home-390.png",
+        "pass": true
+      },
+      {
+        "variant": "basic",
+        "url": "http://localhost:8000/?page_id=11",
+        "width": 390,
+        "http": 200,
+        "overflow": 0,
+        "screenshot": ".factory-cache/content-qa/basic-390.png",
+        "pass": true
+      },
+      {
+        "variant": "flexible",
+        "url": "http://localhost:8000/?page_id=12",
+        "width": 390,
+        "http": 200,
+        "overflow": 0,
+        "screenshot": ".factory-cache/content-qa/flexible-390.png",
+        "pass": true
+      },
+      {
+        "variant": "banner-tile",
+        "url": "http://localhost:8000/?page_id=13",
+        "width": 390,
+        "http": 200,
+        "overflow": 0,
+        "screenshot": ".factory-cache/content-qa/banner-tile-390.png",
+        "pass": true
+      },
+      {
+        "variant": "banner-accordion",
+        "url": "http://localhost:8000/?page_id=14",
+        "width": 390,
+        "http": 200,
+        "overflow": 0,
+        "screenshot": ".factory-cache/content-qa/banner-accordion-390.png",
+        "pass": true
+      },
+      {
+        "variant": "course",
+        "url": "http://localhost:8000/?page_id=15",
+        "width": 390,
+        "http": 200,
+        "overflow": 0,
+        "screenshot": ".factory-cache/content-qa/course-390.png",
+        "pass": true
+      },
+      {
+        "variant": "contact",
+        "url": "http://localhost:8000/?page_id=16",
+        "width": 390,
+        "http": 200,
+        "overflow": 0,
+        "screenshot": ".factory-cache/content-qa/contact-390.png",
+        "pass": true
+      },
+      {
+        "variant": "empty",
+        "url": "http://localhost:8000/?page_id=17",
+        "width": 390,
+        "http": 200,
+        "overflow": 0,
+        "screenshot": ".factory-cache/content-qa/empty-390.png",
+        "pass": true
+      },
+      {
+        "variant": "static",
+        "url": "http://localhost:8000/?page_id=18",
+        "width": 390,
+        "http": 200,
+        "overflow": 0,
+        "screenshot": ".factory-cache/content-qa/static-390.png",
+        "pass": true
+      },
+      {
+        "variant": "home",
+        "url": "http://localhost:8000/",
+        "width": 1440,
+        "http": 200,
+        "overflow": 0,
+        "screenshot": ".factory-cache/content-qa/home-1440.png",
+        "pass": true
+      },
+      {
+        "variant": "basic",
+        "url": "http://localhost:8000/?page_id=11",
+        "width": 1440,
+        "http": 200,
+        "overflow": 0,
+        "screenshot": ".factory-cache/content-qa/basic-1440.png",
+        "pass": true
+      },
+      {
+        "variant": "flexible",
+        "url": "http://localhost:8000/?page_id=12",
+        "width": 1440,
+        "http": 200,
+        "overflow": 0,
+        "screenshot": ".factory-cache/content-qa/flexible-1440.png",
+        "pass": true
+      },
+      {
+        "variant": "banner-tile",
+        "url": "http://localhost:8000/?page_id=13",
+        "width": 1440,
+        "http": 200,
+        "overflow": 0,
+        "screenshot": ".factory-cache/content-qa/banner-tile-1440.png",
+        "pass": true
+      },
+      {
+        "variant": "banner-accordion",
+        "url": "http://localhost:8000/?page_id=14",
+        "width": 1440,
+        "http": 200,
+        "overflow": 0,
+        "screenshot": ".factory-cache/content-qa/banner-accordion-1440.png",
+        "pass": true
+      },
+      {
+        "variant": "course",
+        "url": "http://localhost:8000/?page_id=15",
+        "width": 1440,
+        "http": 200,
+        "overflow": 0,
+        "screenshot": ".factory-cache/content-qa/course-1440.png",
+        "pass": true
+      },
+      {
+        "variant": "contact",
+        "url": "http://localhost:8000/?page_id=16",
+        "width": 1440,
+        "http": 200,
+        "overflow": 0,
+        "screenshot": ".factory-cache/content-qa/contact-1440.png",
+        "pass": true
+      },
+      {
+        "variant": "empty",
+        "url": "http://localhost:8000/?page_id=17",
+        "width": 1440,
+        "http": 200,
+        "overflow": 0,
+        "screenshot": ".factory-cache/content-qa/empty-1440.png",
+        "pass": true
+      },
+      {
+        "variant": "static",
+        "url": "http://localhost:8000/?page_id=18",
+        "width": 1440,
+        "http": 200,
+        "overflow": 0,
+        "screenshot": ".factory-cache/content-qa/static-1440.png",
+        "pass": true
+      },
+      {
+        "variant": "home",
+        "url": "http://localhost:8000/",
+        "width": 2048,
+        "http": 200,
+        "overflow": 0,
+        "screenshot": ".factory-cache/content-qa/home-2048.png",
+        "pass": true
+      },
+      {
+        "variant": "basic",
+        "url": "http://localhost:8000/?page_id=11",
+        "width": 2048,
+        "http": 200,
+        "overflow": 0,
+        "screenshot": ".factory-cache/content-qa/basic-2048.png",
+        "pass": true
+      },
+      {
+        "variant": "flexible",
+        "url": "http://localhost:8000/?page_id=12",
+        "width": 2048,
+        "http": 200,
+        "overflow": 0,
+        "screenshot": ".factory-cache/content-qa/flexible-2048.png",
+        "pass": true
+      },
+      {
+        "variant": "banner-tile",
+        "url": "http://localhost:8000/?page_id=13",
+        "width": 2048,
+        "http": 200,
+        "overflow": 0,
+        "screenshot": ".factory-cache/content-qa/banner-tile-2048.png",
+        "pass": true
+      },
+      {
+        "variant": "banner-accordion",
+        "url": "http://localhost:8000/?page_id=14",
+        "width": 2048,
+        "http": 200,
+        "overflow": 0,
+        "screenshot": ".factory-cache/content-qa/banner-accordion-2048.png",
+        "pass": true
+      },
+      {
+        "variant": "course",
+        "url": "http://localhost:8000/?page_id=15",
+        "width": 2048,
+        "http": 200,
+        "overflow": 0,
+        "screenshot": ".factory-cache/content-qa/course-2048.png",
+        "pass": true
+      },
+      {
+        "variant": "contact",
+        "url": "http://localhost:8000/?page_id=16",
+        "width": 2048,
+        "http": 200,
+        "overflow": 0,
+        "screenshot": ".factory-cache/content-qa/contact-2048.png",
+        "pass": true
+      },
+      {
+        "variant": "empty",
+        "url": "http://localhost:8000/?page_id=17",
+        "width": 2048,
+        "http": 200,
+        "overflow": 0,
+        "screenshot": ".factory-cache/content-qa/empty-2048.png",
+        "pass": true
+      },
+      {
+        "variant": "static",
+        "url": "http://localhost:8000/?page_id=18",
+        "width": 2048,
+        "http": 200,
+        "overflow": 0,
+        "screenshot": ".factory-cache/content-qa/static-2048.png",
+        "pass": true
+      },
+      {
+        "url": "http://localhost:8000/?cat=2",
+        "nativeBlog": true,
+        "pass": true
+      },
+      {
+        "url": "http://localhost:8000/?p=7",
+        "nativeBlog": true,
+        "pass": true
+      }
+    ],
+    "interactions": [
+      "200% base text + text spacing at 320 CSS px; no horizontal overflow",
+      "nested tabs Arrow/Home/End",
+      "details Enter/Space",
+      "menu Enter/Space/Escape",
+      "skip-link focus",
+      "slider Enter/ArrowLeft and hidden slide focusability",
+      "without JS: menu and all contact panels readable"
+    ],
+    "pass": true,
+    "finishedAt": "2026-10-09T16:14:31.838Z"
+  },
+  "preview": {
+    "fixtureOnly": true,
+    "at": "2026-10-09T16:17:14.819Z",
+    "pages": [
+      {
+        "name": "front-page",
+        "url": "http://localhost:8000/",
+        "width": 390,
+        "overflow": 0,
+        "assets": [
+          {
+            "url": "http://localhost:8000/wp-content/themes/mwstudios-wordpress-factory/dist/build-style.css?ver=1.0",
+            "status": 200
+          },
+          {
+            "url": "http://localhost:8000/wp-content/themes/mwstudios-wordpress-factory/dist/build-combined.js?ver=1.0",
+            "status": 200
+          }
+        ],
+        "screenshot": ".factory-cache/content-qa/front-page-390.png",
+        "pass": true
+      },
+      {
+        "name": "blog-page",
+        "url": "http://localhost:8000/?page_id=21",
+        "width": 390,
+        "overflow": 0,
+        "assets": [
+          {
+            "url": "http://localhost:8000/wp-content/themes/mwstudios-wordpress-factory/dist/build-style.css?ver=1.0",
+            "status": 200
+          },
+          {
+            "url": "http://localhost:8000/wp-content/themes/mwstudios-wordpress-factory/dist/build-combined.js?ver=1.0",
+            "status": 200
+          },
+          {
+            "url": "http://localhost:8000/wp-content/themes/mwstudios-wordpress-factory/dist/build-style.css?ver=1.0",
+            "status": 200
+          },
+          {
+            "url": "http://localhost:8000/wp-content/themes/mwstudios-wordpress-factory/dist/build-combined.js?ver=1.0",
+            "status": 200
+          }
+        ],
+        "screenshot": ".factory-cache/content-qa/blog-page-390.png",
+        "pass": true
+      },
+      {
+        "name": "hub",
+        "url": "http://localhost:8000/?page_id=22",
+        "width": 390,
+        "overflow": 0,
+        "assets": [
+          {
+            "url": "http://localhost:8000/wp-content/themes/mwstudios-wordpress-factory/dist/build-style.css?ver=1.0",
+            "status": 200
+          },
+          {
+            "url": "http://localhost:8000/wp-content/themes/mwstudios-wordpress-factory/dist/build-combined.js?ver=1.0",
+            "status": 200
+          }
+        ],
+        "screenshot": ".factory-cache/content-qa/hub-390.png",
+        "pass": true
+      },
+      {
+        "name": "archive",
+        "url": "http://localhost:8000/?cat=2",
+        "width": 390,
+        "overflow": 0,
+        "assets": [
+          {
+            "url": "http://localhost:8000/wp-content/themes/mwstudios-wordpress-factory/dist/build-style.css?ver=1.0",
+            "status": 200
+          },
+          {
+            "url": "http://localhost:8000/wp-content/themes/mwstudios-wordpress-factory/dist/build-combined.js?ver=1.0",
+            "status": 200
+          }
+        ],
+        "screenshot": ".factory-cache/content-qa/archive-390.png",
+        "pass": true
+      },
+      {
+        "name": "single",
+        "url": "http://localhost:8000/?p=7",
+        "width": 390,
+        "overflow": 0,
+        "assets": [
+          {
+            "url": "http://localhost:8000/wp-content/themes/mwstudios-wordpress-factory/dist/build-style.css?ver=1.0",
+            "status": 200
+          },
+          {
+            "url": "http://localhost:8000/wp-content/themes/mwstudios-wordpress-factory/dist/build-combined.js?ver=1.0",
+            "status": 200
+          }
+        ],
+        "screenshot": ".factory-cache/content-qa/single-390.png",
+        "pass": true
+      },
+      {
+        "name": "front-page",
+        "url": "http://localhost:8000/",
+        "width": 1440,
+        "overflow": 0,
+        "assets": [
+          {
+            "url": "http://localhost:8000/wp-content/themes/mwstudios-wordpress-factory/dist/build-style.css?ver=1.0",
+            "status": 200
+          },
+          {
+            "url": "http://localhost:8000/wp-content/themes/mwstudios-wordpress-factory/dist/build-combined.js?ver=1.0",
+            "status": 200
+          }
+        ],
+        "screenshot": ".factory-cache/content-qa/front-page-1440.png",
+        "pass": true
+      },
+      {
+        "name": "blog-page",
+        "url": "http://localhost:8000/?page_id=21",
+        "width": 1440,
+        "overflow": 0,
+        "assets": [
+          {
+            "url": "http://localhost:8000/wp-content/themes/mwstudios-wordpress-factory/dist/build-style.css?ver=1.0",
+            "status": 200
+          },
+          {
+            "url": "http://localhost:8000/wp-content/themes/mwstudios-wordpress-factory/dist/build-combined.js?ver=1.0",
+            "status": 200
+          },
+          {
+            "url": "http://localhost:8000/wp-content/themes/mwstudios-wordpress-factory/dist/build-style.css?ver=1.0",
+            "status": 200
+          },
+          {
+            "url": "http://localhost:8000/wp-content/themes/mwstudios-wordpress-factory/dist/build-combined.js?ver=1.0",
+            "status": 200
+          }
+        ],
+        "screenshot": ".factory-cache/content-qa/blog-page-1440.png",
+        "pass": true
+      },
+      {
+        "name": "hub",
+        "url": "http://localhost:8000/?page_id=22",
+        "width": 1440,
+        "overflow": 0,
+        "assets": [
+          {
+            "url": "http://localhost:8000/wp-content/themes/mwstudios-wordpress-factory/dist/build-style.css?ver=1.0",
+            "status": 200
+          },
+          {
+            "url": "http://localhost:8000/wp-content/themes/mwstudios-wordpress-factory/dist/build-combined.js?ver=1.0",
+            "status": 200
+          }
+        ],
+        "screenshot": ".factory-cache/content-qa/hub-1440.png",
+        "pass": true
+      },
+      {
+        "name": "archive",
+        "url": "http://localhost:8000/?cat=2",
+        "width": 1440,
+        "overflow": 0,
+        "assets": [
+          {
+            "url": "http://localhost:8000/wp-content/themes/mwstudios-wordpress-factory/dist/build-style.css?ver=1.0",
+            "status": 200
+          },
+          {
+            "url": "http://localhost:8000/wp-content/themes/mwstudios-wordpress-factory/dist/build-combined.js?ver=1.0",
+            "status": 200
+          }
+        ],
+        "screenshot": ".factory-cache/content-qa/archive-1440.png",
+        "pass": true
+      },
+      {
+        "name": "single",
+        "url": "http://localhost:8000/?p=7",
+        "width": 1440,
+        "overflow": 0,
+        "assets": [
+          {
+            "url": "http://localhost:8000/wp-content/themes/mwstudios-wordpress-factory/dist/build-style.css?ver=1.0",
+            "status": 200
+          },
+          {
+            "url": "http://localhost:8000/wp-content/themes/mwstudios-wordpress-factory/dist/build-combined.js?ver=1.0",
+            "status": 200
+          }
+        ],
+        "screenshot": ".factory-cache/content-qa/single-1440.png",
+        "pass": true
+      }
+    ],
+    "pagination": true
+  },
+  "tests": {
+    "live": {
+      "pass": 3,
+      "log": "/tmp/cb3a-live-tests.log"
+    },
+    "autopilot": {
+      "pass": 21,
+      "log": "/tmp/cb3a-autopilot.log"
+    },
+    "acfSchema": {
+      "pass": 1,
+      "log": "/tmp/cb3a-schema-tests.log"
+    },
+    "cbConfig": {
+      "pass": 1,
+      "log": "/tmp/cb3a-config-tests.log"
+    },
+    "build": {
+      "exit": 0,
+      "warnings": 3,
+      "log": "/tmp/cb3a-build.log"
+    },
+    "phpLint": {
+      "pass": 55,
+      "log": "/tmp/cb3a-php-lint.log"
+    },
+    "factoryValidate": {
+      "status": "FACTORY VALID",
+      "log": "/tmp/cb3a-validate.log"
+    }
+  },
+  "idempotence": {
+    "before": 12,
+    "after": 12
+  },
+  "controlConnection": "http=200 remote=66.6.42.252 dns=0.004518 connect=0.090329 tls=0.200686",
+  "screenshots": [
+    {
+      "path": ".factory-cache/content-qa/home-320.png",
+      "sha256": "6173a4b296652f985de619ce493ed3625034444810ea72bfea529fdbae7c43e6"
+    },
+    {
+      "path": ".factory-cache/content-qa/basic-320.png",
+      "sha256": "4c54929fcadfd1c7e6b398e55094fc5c160a2d0eef21c7e8a94d3c719a0484f6"
+    },
+    {
+      "path": ".factory-cache/content-qa/flexible-320.png",
+      "sha256": "9748d01a39e0205231e93b1a134fa1dbaebe3d634a891258c7df25af63946591"
+    },
+    {
+      "path": ".factory-cache/content-qa/banner-tile-320.png",
+      "sha256": "4dc800ff3fa2d66139aafa3afe685ce011f330f9efdedd47bd9bf2227e119e47"
+    },
+    {
+      "path": ".factory-cache/content-qa/banner-accordion-320.png",
+      "sha256": "73c6c5baf7614c2280a4f68a5ea544d61b2d9ac0adf75125038f083e117800eb"
+    },
+    {
+      "path": ".factory-cache/content-qa/course-320.png",
+      "sha256": "69cc9950b4840e0fd4ac3b0db2150e00afc1fde53f68b8512a7e08151c6028bb"
+    },
+    {
+      "path": ".factory-cache/content-qa/contact-320.png",
+      "sha256": "f26c1136ac3bd09c401c8844900a46ca4e9aa80170623de65b8e346bf35401af"
+    },
+    {
+      "path": ".factory-cache/content-qa/empty-320.png",
+      "sha256": "e148d528da2b9bed04ad2f34d8267659130ffb9595d27f39d95c5f383f56e01d"
+    },
+    {
+      "path": ".factory-cache/content-qa/static-320.png",
+      "sha256": "9fcdf5449faf15f7b9a8bff6492a89b1ca0fd7d9308a1cd8aa325a0ede987168"
+    },
+    {
+      "path": ".factory-cache/content-qa/home-390.png",
+      "sha256": "96c0be87fb7a2d7bf98a7572879554c9d6a88933da1a83b7246d3a245e4ab52f"
+    },
+    {
+      "path": ".factory-cache/content-qa/basic-390.png",
+      "sha256": "8e24c5389f8e29bac8d83214b21157c1dbf4ffb0aded896d603900f73d94ee5c"
+    },
+    {
+      "path": ".factory-cache/content-qa/flexible-390.png",
+      "sha256": "2260cc333ec89372d5007c9efd1573d4862815507d06fb985c849830bb37e225"
+    },
+    {
+      "path": ".factory-cache/content-qa/banner-tile-390.png",
+      "sha256": "f5b6fa728e2ccea762e714e695c94951b8bf9aaf5a3d88d7e52f4dfc0ae217b8"
+    },
+    {
+      "path": ".factory-cache/content-qa/banner-accordion-390.png",
+      "sha256": "94fe71a14668bdb110bc7fcebe4f7d6883338384d4de6b567d96a97bdfa1ae01"
+    },
+    {
+      "path": ".factory-cache/content-qa/course-390.png",
+      "sha256": "ba4875b9065c37ea60064dd0a9c4df81eff4f733116282ba2ae7467e41de0990"
+    },
+    {
+      "path": ".factory-cache/content-qa/contact-390.png",
+      "sha256": "cfd063f675a92c294e422530b5c51c55417c1d038b39cb7c252904c1065160a4"
+    },
+    {
+      "path": ".factory-cache/content-qa/empty-390.png",
+      "sha256": "1fc4c0841abdac76f1da35c229066a526951cbeeeeb5a8d66846a4da4ecdd806"
+    },
+    {
+      "path": ".factory-cache/content-qa/static-390.png",
+      "sha256": "86d7bc9f12cd77882b4d35200c6739636228a97d12b638f0a8d44b3cee8d59ba"
+    },
+    {
+      "path": ".factory-cache/content-qa/home-1440.png",
+      "sha256": "945bafd689976cf9076a939f9288f4ac150f813bf9a5e41653ca31db614d992b"
+    },
+    {
+      "path": ".factory-cache/content-qa/basic-1440.png",
+      "sha256": "69d080a23ac5b615ffeabcf869c5175b09767dbb2e43334b6ebae237b7645e49"
+    },
+    {
+      "path": ".factory-cache/content-qa/flexible-1440.png",
+      "sha256": "acf019c354e62b4a87f3f549d3111a85a35e42a4e043fdd7a03df66200c2444f"
+    },
+    {
+      "path": ".factory-cache/content-qa/banner-tile-1440.png",
+      "sha256": "6dc6cd6918a2634bbc629d98621c066b88044081e494d6cd074307644ac4f48e"
+    },
+    {
+      "path": ".factory-cache/content-qa/banner-accordion-1440.png",
+      "sha256": "b4ae6b44dc7ad02fca570ff73bee13737d1930327fbc885b2aa50962feeb0374"
+    },
+    {
+      "path": ".factory-cache/content-qa/course-1440.png",
+      "sha256": "3344d7243a61b68c1514cd9b5e2cc38b780d4fa346480dc9aef72fc253639d2b"
+    },
+    {
+      "path": ".factory-cache/content-qa/contact-1440.png",
+      "sha256": "caa74757e3cb72ab047a58dae0e502b8842693c85552bae33befd8faf727b02b"
+    },
+    {
+      "path": ".factory-cache/content-qa/empty-1440.png",
+      "sha256": "9951406af6e2c4b5f13ffaaa247e8f0868678ca6b6253558512a65fa31cd3efd"
+    },
+    {
+      "path": ".factory-cache/content-qa/static-1440.png",
+      "sha256": "fcf22da72ee0fcbc425ff477997d02e4b267d581d2911e93914babfd2306284b"
+    },
+    {
+      "path": ".factory-cache/content-qa/home-2048.png",
+      "sha256": "90e850f4bf1d703512693cab4726f0cb5468d5b00fa99c48226b4923fbb7b9cf"
+    },
+    {
+      "path": ".factory-cache/content-qa/basic-2048.png",
+      "sha256": "0d1089d375584eb399f9748dd469f0ae56b28542396cb4290ca60411025448d9"
+    },
+    {
+      "path": ".factory-cache/content-qa/flexible-2048.png",
+      "sha256": "8a74183479765b105a756f4101007fc1a035ea1da1d8bc9669120f5fad317ff8"
+    },
+    {
+      "path": ".factory-cache/content-qa/banner-tile-2048.png",
+      "sha256": "946d8940252c2f21e11e88875de2fd11c869ee753f1e03300f38cccd18295b8c"
+    },
+    {
+      "path": ".factory-cache/content-qa/banner-accordion-2048.png",
+      "sha256": "f2442f155a3c67a2d618caee21a17da49ec14253802d87ba4e2c8f5b1284d608"
+    },
+    {
+      "path": ".factory-cache/content-qa/course-2048.png",
+      "sha256": "252bf2d643aca7c9e927996d00b4e2252a964923a6043caa837fdaa51dbd5208"
+    },
+    {
+      "path": ".factory-cache/content-qa/contact-2048.png",
+      "sha256": "c3aa3acd0550c131e4eb1c7807a9c5892714040d4985abdf27bce9e6aceee3cb"
+    },
+    {
+      "path": ".factory-cache/content-qa/empty-2048.png",
+      "sha256": "645bcfcf5ef4562a185f387fa45966db6ba4338e11614fdb5ef119b1bb820dc0"
+    },
+    {
+      "path": ".factory-cache/content-qa/static-2048.png",
+      "sha256": "7b6eb35ded1d496a3d986846887b2c02c33d90aaa553e6bd120ccd7ab1ebf33f"
+    },
+    {
+      "path": ".factory-cache/content-qa/front-page-390.png",
+      "sha256": "96c0be87fb7a2d7bf98a7572879554c9d6a88933da1a83b7246d3a245e4ab52f"
+    },
+    {
+      "path": ".factory-cache/content-qa/blog-page-390.png",
+      "sha256": "38d7ac7e289b8f68b59886c534b5b5860ef8650d7ceeb61abe1afaf72b8c7529"
+    },
+    {
+      "path": ".factory-cache/content-qa/hub-390.png",
+      "sha256": "5b96e8f177aa7fc635979fb263bcc0f49633a0da2c257ff9c96de3259c8b919d"
+    },
+    {
+      "path": ".factory-cache/content-qa/archive-390.png",
+      "sha256": "d897e03b32695273cb4727c99e2ab3c17e838312119a52d599fcf3e638a46be9"
+    },
+    {
+      "path": ".factory-cache/content-qa/single-390.png",
+      "sha256": "d8fbe09dcebc7c2da00725b9f4140ab89dce43ac0ffddb09926ee9343eebaa0c"
+    },
+    {
+      "path": ".factory-cache/content-qa/front-page-1440.png",
+      "sha256": "945bafd689976cf9076a939f9288f4ac150f813bf9a5e41653ca31db614d992b"
+    },
+    {
+      "path": ".factory-cache/content-qa/blog-page-1440.png",
+      "sha256": "afa7528d26ef0e89d6b0a284ce264678ad2d5e4e6c25cec0deeff29dfac40283"
+    },
+    {
+      "path": ".factory-cache/content-qa/hub-1440.png",
+      "sha256": "70ac8dbb33e9179c513c11cbdcb117a1bd3a84f529a0a9e11a9d39129df5e3c9"
+    },
+    {
+      "path": ".factory-cache/content-qa/archive-1440.png",
+      "sha256": "9db1248afa3a576a966059e5b14e0c1583b0f533af09d9bf3123c6b43ee70325"
+    },
+    {
+      "path": ".factory-cache/content-qa/single-1440.png",
+      "sha256": "1d83d85820eccb39f1da6bd17cf4a95550a7f71e2f961d9e8d6703a19ca5dafe"
+    },
+    {
+      "path": ".factory-cache/content-qa/text-200-spacing-320.png",
+      "sha256": "f77108a7acc5a0d60b111c0a8ba906ffee54805cc580a3cef133dcea2ba9f576"
+    }
+  ],
+  "developmentSmoke": {
+    "command": "npm run cb:dev",
+    "proxy": "http://localhost:8000",
+    "url": "http://localhost:3050",
+    "http": 200,
+    "contains": [
+      "Factory QA — home",
+      "Stopka QA"
+    ],
+    "watcherStopped": true,
+    "productionBuildRestored": true
+  }
+}

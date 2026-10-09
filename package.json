@@ -77,7 +77,12 @@
     "factory:autopilot:smoke": "node scripts/factory/autopilot/v2-smoke.js",
     "factory:codespaces:bootstrap": "node scripts/factory/codespaces-bootstrap.js",
     "factory:live": "node scripts/factory/live/run.js",
-    "factory:live:test": "node --test scripts/factory/live/*.test.js"
+    "factory:live:test": "node --test scripts/factory/live/*.test.js",
+    "cb:wp": "node scripts/projects/collegium-balticum/runtime.js wp",
+    "cb:dev": "node scripts/projects/collegium-balticum/runtime.js dev",
+    "cb:preview": "node scripts/projects/collegium-balticum/runtime.js preview",
+    "cb:capture": "node scripts/projects/collegium-balticum/capture-reference.js",
+    "cb:diagnose": "node scripts/projects/collegium-balticum/diagnose-network.js"
   },
   "author": "slawinsky",
   "license": "ISC",

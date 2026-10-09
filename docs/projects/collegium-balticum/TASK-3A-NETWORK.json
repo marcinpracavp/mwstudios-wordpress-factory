@@ -1,0 +1,74 @@
+{
+  "at": "2026-10-09T16:12:20.373Z",
+  "timeoutMs": 6000,
+  "probes": [
+    {
+      "host": "www.cb.szczecin.pl",
+      "port": 80,
+      "connected": false,
+      "tls": false,
+      "addresses": [
+        {
+          "address": "185.41.69.148",
+          "family": 4
+        }
+      ],
+      "ipv6": [],
+      "ipv6Lookup": "ENODATA",
+      "error": "TCP_TIMEOUT",
+      "elapsedMs": 6009,
+      "http": "NOT_REACHED"
+    },
+    {
+      "host": "www.cb.szczecin.pl",
+      "port": 443,
+      "connected": false,
+      "tls": false,
+      "addresses": [
+        {
+          "address": "185.41.69.148",
+          "family": 4
+        }
+      ],
+      "ipv6": [],
+      "ipv6Lookup": "ENODATA",
+      "error": "TCP_TIMEOUT",
+      "elapsedMs": 6005,
+      "http": "NOT_REACHED"
+    },
+    {
+      "host": "cb.szczecin.pl",
+      "port": 80,
+      "connected": false,
+      "tls": false,
+      "addresses": [
+        {
+          "address": "185.41.69.148",
+          "family": 4
+        }
+      ],
+      "ipv6": [],
+      "ipv6Lookup": "ENODATA",
+      "error": "TCP_TIMEOUT",
+      "elapsedMs": 6006,
+      "http": "NOT_REACHED"
+    },
+    {
+      "host": "cb.szczecin.pl",
+      "port": 443,
+      "connected": false,
+      "tls": false,
+      "addresses": [
+        {
+          "address": "185.41.69.148",
+          "family": 4
+        }
+      ],
+      "ipv6": [],
+      "ipv6Lookup": "ENODATA",
+      "error": "TCP_TIMEOUT",
+      "elapsedMs": 6007,
+      "http": "NOT_REACHED"
+    }
+  ]
+}

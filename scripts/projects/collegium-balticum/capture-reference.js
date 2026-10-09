@@ -14,17 +14,17 @@ const config = require('../../../docs/projects/collegium-balticum/live.json');
   const browser = await getChromium().launch({ executablePath: browserInfo.executablePath, headless: true, args: ['--no-sandbox'] });
   try {
     const jobs = config.routes.flatMap(route => config.viewports.filter(v => ['desktop', 'mobile'].includes(v.id)).map(viewport => ({ route, viewport })));
-    await Promise.all(Array.from({ length: 3 }, async () => {
+    await Promise.all(Array.from({ length: 2 }, async () => {
       while (jobs.length) {
         const { route, viewport } = jobs.shift();
         const dir = path.join(root, route.id, viewport.id);
-        const result = await capture(browser, config.sourceUrl + route.path, viewport, dir, { ...config, timeoutMs: 15000 });
+        const result = await capture(browser, config.sourceUrl + route.path, viewport, dir, { ...config, timeoutMs: 10000 });
         records.push({ ...result, id: route.id, viewportId: viewport.id, evidence: dir });
         console.log(route.id, viewport.id, result.status, result.errors.find(e => e.type === 'capture')?.message || '');
       }
     }));
   } finally { await browser.close(); }
   records.sort((a, b) => a.id.localeCompare(b.id) || a.viewportId.localeCompare(b.viewportId));
-  fs.writeFileSync('docs/projects/collegium-balticum/REFERENCE-ACCESS.json', JSON.stringify({ capturedAt: new Date().toISOString(), timeoutMs: 15000, browser: browserInfo.name, records }, null, 2) + '\n');
+  fs.writeFileSync('docs/projects/collegium-balticum/REFERENCE-ACCESS-3A.json', JSON.stringify({ capturedAt: new Date().toISOString(), timeoutMs: 10000, concurrency:2, browser: browserInfo.name, records }, null, 2) + '\n');
   process.exitCode = records.some(r => r.status !== 'DONE') ? 1 : 0;
 })().catch(e => { console.error(e); process.exitCode = 1; });

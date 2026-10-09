@@ -1,0 +1,462 @@
+{
+  "at": "2026-10-09T16:14:58.270Z",
+  "scope": "Real CB routes remain uncreated; previewRender and familyImplementation concern labelled fixtures only.",
+  "rows": [
+    {
+      "id": "CB-00",
+      "productionUrl": "https://www.cb.szczecin.pl/",
+      "localUrl": null,
+      "plannedLocalUrl": "http://localhost:8000/",
+      "template": "front-page.php",
+      "previewUrl": "http://localhost:8000/",
+      "previewOnly": true,
+      "statuses": {
+        "SOURCE_CAPTURE": "BLOCKED",
+        "TEMPLATE": "IN_PROGRESS",
+        "LOCAL_RENDER": "NOT_STARTED",
+        "CONTENT": "NOT_STARTED",
+        "VISUAL_QA": "BLOCKED",
+        "WCAG_QA": "IN_PROGRESS"
+      },
+      "familyImplementation": "DONE",
+      "previewRender": "DONE",
+      "sourceEvidence": [
+        ".factory-cache/live/collegium-balticum/discovery/2026-10-09T16-06-57-892Z/CB-00/desktop",
+        ".factory-cache/live/collegium-balticum/discovery/2026-10-09T16-06-57-892Z/CB-00/mobile"
+      ],
+      "notes": "Rodzina działa na danych QA. Dopasowanie CB zależy od referencji; konkretna strona i media nie zostały zaimportowane."
+    },
+    {
+      "id": "CB-01",
+      "productionUrl": "https://www.cb.szczecin.pl/kontakt/",
+      "localUrl": null,
+      "plannedLocalUrl": "http://localhost:8000/kontakt/",
+      "template": "template-contact.php",
+      "previewUrl": "http://localhost:8000/?page_id=16",
+      "previewOnly": true,
+      "statuses": {
+        "SOURCE_CAPTURE": "BLOCKED",
+        "TEMPLATE": "IN_PROGRESS",
+        "LOCAL_RENDER": "NOT_STARTED",
+        "CONTENT": "NOT_STARTED",
+        "VISUAL_QA": "BLOCKED",
+        "WCAG_QA": "IN_PROGRESS"
+      },
+      "familyImplementation": "DONE",
+      "previewRender": "DONE",
+      "sourceEvidence": [
+        ".factory-cache/live/collegium-balticum/discovery/2026-10-09T16-06-57-892Z/CB-01/desktop",
+        ".factory-cache/live/collegium-balticum/discovery/2026-10-09T16-06-57-892Z/CB-01/mobile"
+      ],
+      "notes": "Rodzina działa na danych QA. Dopasowanie CB zależy od referencji; konkretna strona i media nie zostały zaimportowane."
+    },
+    {
+      "id": "CB-02",
+      "productionUrl": "https://www.cb.szczecin.pl/category/wpisy/blog-post/",
+      "localUrl": null,
+      "plannedLocalUrl": "http://localhost:8000/category/wpisy/blog-post/",
+      "template": "archive.php",
+      "previewUrl": "http://localhost:8000/?cat=2",
+      "previewOnly": true,
+      "statuses": {
+        "SOURCE_CAPTURE": "BLOCKED",
+        "TEMPLATE": "IN_PROGRESS",
+        "LOCAL_RENDER": "NOT_STARTED",
+        "CONTENT": "NOT_STARTED",
+        "VISUAL_QA": "BLOCKED",
+        "WCAG_QA": "IN_PROGRESS"
+      },
+      "familyImplementation": "DONE",
+      "previewRender": "DONE",
+      "sourceEvidence": [
+        ".factory-cache/live/collegium-balticum/discovery/2026-10-09T16-06-57-892Z/CB-02/desktop",
+        ".factory-cache/live/collegium-balticum/discovery/2026-10-09T16-06-57-892Z/CB-02/mobile"
+      ],
+      "notes": "Rodzina działa na danych QA. Dopasowanie CB zależy od referencji; konkretna strona i media nie zostały zaimportowane."
+    },
+    {
+      "id": "CB-03",
+      "productionUrl": "https://www.cb.szczecin.pl/wpisy/blog-post/dietetyka-licencjacka-i-magisterska-czym-roznia-sie-programy-i-perspektywy-zawodowe/",
+      "localUrl": null,
+      "plannedLocalUrl": "http://localhost:8000/wpisy/blog-post/dietetyka-licencjacka-i-magisterska-czym-roznia-sie-programy-i-perspektywy-zawodowe/",
+      "template": "single.php",
+      "previewUrl": "http://localhost:8000/?p=7",
+      "previewOnly": true,
+      "statuses": {
+        "SOURCE_CAPTURE": "BLOCKED",
+        "TEMPLATE": "IN_PROGRESS",
+        "LOCAL_RENDER": "NOT_STARTED",
+        "CONTENT": "NOT_STARTED",
+        "VISUAL_QA": "BLOCKED",
+        "WCAG_QA": "IN_PROGRESS"
+      },
+      "familyImplementation": "DONE",
+      "previewRender": "DONE",
+      "sourceEvidence": [
+        ".factory-cache/live/collegium-balticum/discovery/2026-10-09T16-06-57-892Z/CB-03/desktop",
+        ".factory-cache/live/collegium-balticum/discovery/2026-10-09T16-06-57-892Z/CB-03/mobile"
+      ],
+      "notes": "Rodzina działa na danych QA. Dopasowanie CB zależy od referencji; konkretna strona i media nie zostały zaimportowane."
+    },
+    {
+      "id": "CB-04",
+      "productionUrl": "https://www.cb.szczecin.pl/rekrutacja/",
+      "localUrl": null,
+      "plannedLocalUrl": "http://localhost:8000/rekrutacja/",
+      "template": "template-banner-tile.php",
+      "previewUrl": "http://localhost:8000/?page_id=13",
+      "previewOnly": true,
+      "statuses": {
+        "SOURCE_CAPTURE": "BLOCKED",
+        "TEMPLATE": "IN_PROGRESS",
+        "LOCAL_RENDER": "NOT_STARTED",
+        "CONTENT": "NOT_STARTED",
+        "VISUAL_QA": "BLOCKED",
+        "WCAG_QA": "IN_PROGRESS"
+      },
+      "familyImplementation": "DONE",
+      "previewRender": "DONE",
+      "sourceEvidence": [
+        ".factory-cache/live/collegium-balticum/discovery/2026-10-09T16-06-57-892Z/CB-04/desktop",
+        ".factory-cache/live/collegium-balticum/discovery/2026-10-09T16-06-57-892Z/CB-04/mobile"
+      ],
+      "notes": "Rodzina działa na danych QA. Dopasowanie CB zależy od referencji; konkretna strona i media nie zostały zaimportowane."
+    },
+    {
+      "id": "CB-05",
+      "productionUrl": "https://www.cb.szczecin.pl/dni-otwarte/",
+      "localUrl": null,
+      "plannedLocalUrl": "http://localhost:8000/dni-otwarte/",
+      "template": "template-banner-tile.php",
+      "previewUrl": "http://localhost:8000/?page_id=13",
+      "previewOnly": true,
+      "statuses": {
+        "SOURCE_CAPTURE": "BLOCKED",
+        "TEMPLATE": "IN_PROGRESS",
+        "LOCAL_RENDER": "NOT_STARTED",
+        "CONTENT": "NOT_STARTED",
+        "VISUAL_QA": "BLOCKED",
+        "WCAG_QA": "IN_PROGRESS"
+      },
+      "familyImplementation": "DONE",
+      "previewRender": "DONE",
+      "sourceEvidence": [
+        ".factory-cache/live/collegium-balticum/discovery/2026-10-09T16-06-57-892Z/CB-05/desktop",
+        ".factory-cache/live/collegium-balticum/discovery/2026-10-09T16-06-57-892Z/CB-05/mobile"
+      ],
+      "notes": "Rodzina działa na danych QA. Dopasowanie CB zależy od referencji; konkretna strona i media nie zostały zaimportowane."
+    },
+    {
+      "id": "CB-06",
+      "productionUrl": "https://www.cb.szczecin.pl/tryb-studiow/studia-licencjackie/",
+      "localUrl": null,
+      "plannedLocalUrl": "http://localhost:8000/tryb-studiow/studia-licencjackie/",
+      "template": "template-banner-accordion.php",
+      "previewUrl": "http://localhost:8000/?page_id=14",
+      "previewOnly": true,
+      "statuses": {
+        "SOURCE_CAPTURE": "BLOCKED",
+        "TEMPLATE": "IN_PROGRESS",
+        "LOCAL_RENDER": "NOT_STARTED",
+        "CONTENT": "NOT_STARTED",
+        "VISUAL_QA": "BLOCKED",
+        "WCAG_QA": "IN_PROGRESS"
+      },
+      "familyImplementation": "DONE",
+      "previewRender": "DONE",
+      "sourceEvidence": [
+        ".factory-cache/live/collegium-balticum/discovery/2026-10-09T16-06-57-892Z/CB-06/desktop",
+        ".factory-cache/live/collegium-balticum/discovery/2026-10-09T16-06-57-892Z/CB-06/mobile"
+      ],
+      "notes": "Rodzina działa na danych QA. Dopasowanie CB zależy od referencji; konkretna strona i media nie zostały zaimportowane."
+    },
+    {
+      "id": "CB-07",
+      "productionUrl": "https://www.cb.szczecin.pl/tryb-studiow/studia-magisterskie/",
+      "localUrl": null,
+      "plannedLocalUrl": "http://localhost:8000/tryb-studiow/studia-magisterskie/",
+      "template": "template-banner-accordion.php",
+      "previewUrl": "http://localhost:8000/?page_id=14",
+      "previewOnly": true,
+      "statuses": {
+        "SOURCE_CAPTURE": "BLOCKED",
+        "TEMPLATE": "IN_PROGRESS",
+        "LOCAL_RENDER": "NOT_STARTED",
+        "CONTENT": "NOT_STARTED",
+        "VISUAL_QA": "BLOCKED",
+        "WCAG_QA": "IN_PROGRESS"
+      },
+      "familyImplementation": "DONE",
+      "previewRender": "DONE",
+      "sourceEvidence": [
+        ".factory-cache/live/collegium-balticum/discovery/2026-10-09T16-06-57-892Z/CB-07/desktop",
+        ".factory-cache/live/collegium-balticum/discovery/2026-10-09T16-06-57-892Z/CB-07/mobile"
+      ],
+      "notes": "Rodzina działa na danych QA. Dopasowanie CB zależy od referencji; konkretna strona i media nie zostały zaimportowane."
+    },
+    {
+      "id": "CB-08",
+      "productionUrl": "https://www.cb.szczecin.pl/tryb-studiow/studia-podyplomowe/studia-nienauczycielskie/fitodietetyka/",
+      "localUrl": null,
+      "plannedLocalUrl": "http://localhost:8000/tryb-studiow/studia-podyplomowe/studia-nienauczycielskie/fitodietetyka/",
+      "template": "template-course.php",
+      "previewUrl": "http://localhost:8000/?page_id=15",
+      "previewOnly": true,
+      "statuses": {
+        "SOURCE_CAPTURE": "BLOCKED",
+        "TEMPLATE": "IN_PROGRESS",
+        "LOCAL_RENDER": "NOT_STARTED",
+        "CONTENT": "NOT_STARTED",
+        "VISUAL_QA": "BLOCKED",
+        "WCAG_QA": "IN_PROGRESS"
+      },
+      "familyImplementation": "DONE",
+      "previewRender": "DONE",
+      "sourceEvidence": [
+        ".factory-cache/live/collegium-balticum/discovery/2026-10-09T16-06-57-892Z/CB-08/desktop",
+        ".factory-cache/live/collegium-balticum/discovery/2026-10-09T16-06-57-892Z/CB-08/mobile"
+      ],
+      "notes": "Rodzina działa na danych QA. Dopasowanie CB zależy od referencji; konkretna strona i media nie zostały zaimportowane."
+    },
+    {
+      "id": "CB-09",
+      "productionUrl": "https://www.cb.szczecin.pl/tryb-studiow/studia-online/",
+      "localUrl": null,
+      "plannedLocalUrl": "http://localhost:8000/tryb-studiow/studia-online/",
+      "template": "template-flexible.php",
+      "previewUrl": "http://localhost:8000/?page_id=12",
+      "previewOnly": true,
+      "statuses": {
+        "SOURCE_CAPTURE": "BLOCKED",
+        "TEMPLATE": "IN_PROGRESS",
+        "LOCAL_RENDER": "NOT_STARTED",
+        "CONTENT": "NOT_STARTED",
+        "VISUAL_QA": "BLOCKED",
+        "WCAG_QA": "IN_PROGRESS"
+      },
+      "familyImplementation": "DONE",
+      "previewRender": "DONE",
+      "sourceEvidence": [
+        ".factory-cache/live/collegium-balticum/discovery/2026-10-09T16-06-57-892Z/CB-09/desktop",
+        ".factory-cache/live/collegium-balticum/discovery/2026-10-09T16-06-57-892Z/CB-09/mobile"
+      ],
+      "notes": "Rodzina działa na danych QA. Dopasowanie CB zależy od referencji; konkretna strona i media nie zostały zaimportowane."
+    },
+    {
+      "id": "CB-10",
+      "productionUrl": "https://www.cb.szczecin.pl/tryb-studiow/studia-podyplomowe/",
+      "localUrl": null,
+      "plannedLocalUrl": "http://localhost:8000/tryb-studiow/studia-podyplomowe/",
+      "template": "template-flexible.php",
+      "previewUrl": "http://localhost:8000/?page_id=12",
+      "previewOnly": true,
+      "statuses": {
+        "SOURCE_CAPTURE": "BLOCKED",
+        "TEMPLATE": "IN_PROGRESS",
+        "LOCAL_RENDER": "NOT_STARTED",
+        "CONTENT": "NOT_STARTED",
+        "VISUAL_QA": "BLOCKED",
+        "WCAG_QA": "IN_PROGRESS"
+      },
+      "familyImplementation": "DONE",
+      "previewRender": "DONE",
+      "sourceEvidence": [
+        ".factory-cache/live/collegium-balticum/discovery/2026-10-09T16-06-57-892Z/CB-10/desktop",
+        ".factory-cache/live/collegium-balticum/discovery/2026-10-09T16-06-57-892Z/CB-10/mobile"
+      ],
+      "notes": "Rodzina działa na danych QA. Dopasowanie CB zależy od referencji; konkretna strona i media nie zostały zaimportowane."
+    },
+    {
+      "id": "CB-11",
+      "productionUrl": "https://www.cb.szczecin.pl/mediator-sadowy/",
+      "localUrl": null,
+      "plannedLocalUrl": "http://localhost:8000/mediator-sadowy/",
+      "template": "template-course.php",
+      "previewUrl": "http://localhost:8000/?page_id=15",
+      "previewOnly": true,
+      "statuses": {
+        "SOURCE_CAPTURE": "BLOCKED",
+        "TEMPLATE": "IN_PROGRESS",
+        "LOCAL_RENDER": "NOT_STARTED",
+        "CONTENT": "NOT_STARTED",
+        "VISUAL_QA": "BLOCKED",
+        "WCAG_QA": "IN_PROGRESS"
+      },
+      "familyImplementation": "DONE",
+      "previewRender": "DONE",
+      "sourceEvidence": [
+        ".factory-cache/live/collegium-balticum/discovery/2026-10-09T16-06-57-892Z/CB-11/desktop",
+        ".factory-cache/live/collegium-balticum/discovery/2026-10-09T16-06-57-892Z/CB-11/mobile"
+      ],
+      "notes": "Rodzina działa na danych QA. Dopasowanie CB zależy od referencji; konkretna strona i media nie zostały zaimportowane."
+    },
+    {
+      "id": "CB-12",
+      "productionUrl": "https://www.cb.szczecin.pl/szkolenia-rad-pedagogicznych/",
+      "localUrl": null,
+      "plannedLocalUrl": "http://localhost:8000/szkolenia-rad-pedagogicznych/",
+      "template": "template-flexible.php",
+      "previewUrl": "http://localhost:8000/?page_id=12",
+      "previewOnly": true,
+      "statuses": {
+        "SOURCE_CAPTURE": "BLOCKED",
+        "TEMPLATE": "IN_PROGRESS",
+        "LOCAL_RENDER": "NOT_STARTED",
+        "CONTENT": "NOT_STARTED",
+        "VISUAL_QA": "BLOCKED",
+        "WCAG_QA": "IN_PROGRESS"
+      },
+      "familyImplementation": "DONE",
+      "previewRender": "DONE",
+      "sourceEvidence": [
+        ".factory-cache/live/collegium-balticum/discovery/2026-10-09T16-06-57-892Z/CB-12/desktop",
+        ".factory-cache/live/collegium-balticum/discovery/2026-10-09T16-06-57-892Z/CB-12/mobile"
+      ],
+      "notes": "Rodzina działa na danych QA. Dopasowanie CB zależy od referencji; konkretna strona i media nie zostały zaimportowane."
+    },
+    {
+      "id": "CB-13",
+      "productionUrl": "https://www.cb.szczecin.pl/przeniesienie-z-innej-uczelni/",
+      "localUrl": null,
+      "plannedLocalUrl": "http://localhost:8000/przeniesienie-z-innej-uczelni/",
+      "template": "template-basic.php",
+      "previewUrl": "http://localhost:8000/?page_id=11",
+      "previewOnly": true,
+      "statuses": {
+        "SOURCE_CAPTURE": "BLOCKED",
+        "TEMPLATE": "IN_PROGRESS",
+        "LOCAL_RENDER": "NOT_STARTED",
+        "CONTENT": "NOT_STARTED",
+        "VISUAL_QA": "BLOCKED",
+        "WCAG_QA": "IN_PROGRESS"
+      },
+      "familyImplementation": "DONE",
+      "previewRender": "DONE",
+      "sourceEvidence": [
+        ".factory-cache/live/collegium-balticum/discovery/2026-10-09T16-06-57-892Z/CB-13/desktop",
+        ".factory-cache/live/collegium-balticum/discovery/2026-10-09T16-06-57-892Z/CB-13/mobile"
+      ],
+      "notes": "Rodzina działa na danych QA. Dopasowanie CB zależy od referencji; konkretna strona i media nie zostały zaimportowane."
+    },
+    {
+      "id": "CB-14",
+      "productionUrl": "https://www.cb.szczecin.pl/reaktywuj-sie-w-prawach-studenta-w-collegium-balticum/",
+      "localUrl": null,
+      "plannedLocalUrl": "http://localhost:8000/reaktywuj-sie-w-prawach-studenta-w-collegium-balticum/",
+      "template": "template-basic.php",
+      "previewUrl": "http://localhost:8000/?page_id=11",
+      "previewOnly": true,
+      "statuses": {
+        "SOURCE_CAPTURE": "BLOCKED",
+        "TEMPLATE": "IN_PROGRESS",
+        "LOCAL_RENDER": "NOT_STARTED",
+        "CONTENT": "NOT_STARTED",
+        "VISUAL_QA": "BLOCKED",
+        "WCAG_QA": "IN_PROGRESS"
+      },
+      "familyImplementation": "DONE",
+      "previewRender": "DONE",
+      "sourceEvidence": [
+        ".factory-cache/live/collegium-balticum/discovery/2026-10-09T16-06-57-892Z/CB-14/desktop",
+        ".factory-cache/live/collegium-balticum/discovery/2026-10-09T16-06-57-892Z/CB-14/mobile"
+      ],
+      "notes": "Rodzina działa na danych QA. Dopasowanie CB zależy od referencji; konkretna strona i media nie zostały zaimportowane."
+    },
+    {
+      "id": "CB-15",
+      "productionUrl": "https://www.cb.szczecin.pl/strefa-studenta/wsparcie-studenta/",
+      "localUrl": null,
+      "plannedLocalUrl": "http://localhost:8000/strefa-studenta/wsparcie-studenta/",
+      "template": "template-flexible.php",
+      "previewUrl": "http://localhost:8000/?page_id=12",
+      "previewOnly": true,
+      "statuses": {
+        "SOURCE_CAPTURE": "BLOCKED",
+        "TEMPLATE": "IN_PROGRESS",
+        "LOCAL_RENDER": "NOT_STARTED",
+        "CONTENT": "NOT_STARTED",
+        "VISUAL_QA": "BLOCKED",
+        "WCAG_QA": "IN_PROGRESS"
+      },
+      "familyImplementation": "DONE",
+      "previewRender": "DONE",
+      "sourceEvidence": [
+        ".factory-cache/live/collegium-balticum/discovery/2026-10-09T16-06-57-892Z/CB-15/desktop",
+        ".factory-cache/live/collegium-balticum/discovery/2026-10-09T16-06-57-892Z/CB-15/mobile"
+      ],
+      "notes": "Rodzina działa na danych QA. Dopasowanie CB zależy od referencji; konkretna strona i media nie zostały zaimportowane."
+    },
+    {
+      "id": "CB-16",
+      "productionUrl": "https://www.cb.szczecin.pl/strefa-studenta/legitymacja-studencka/",
+      "localUrl": null,
+      "plannedLocalUrl": "http://localhost:8000/strefa-studenta/legitymacja-studencka/",
+      "template": "template-flexible.php",
+      "previewUrl": "http://localhost:8000/?page_id=12",
+      "previewOnly": true,
+      "statuses": {
+        "SOURCE_CAPTURE": "BLOCKED",
+        "TEMPLATE": "IN_PROGRESS",
+        "LOCAL_RENDER": "NOT_STARTED",
+        "CONTENT": "NOT_STARTED",
+        "VISUAL_QA": "BLOCKED",
+        "WCAG_QA": "IN_PROGRESS"
+      },
+      "familyImplementation": "DONE",
+      "previewRender": "DONE",
+      "sourceEvidence": [
+        ".factory-cache/live/collegium-balticum/discovery/2026-10-09T16-06-57-892Z/CB-16/desktop",
+        ".factory-cache/live/collegium-balticum/discovery/2026-10-09T16-06-57-892Z/CB-16/mobile"
+      ],
+      "notes": "Rodzina działa na danych QA. Dopasowanie CB zależy od referencji; konkretna strona i media nie zostały zaimportowane."
+    },
+    {
+      "id": "CB-17",
+      "productionUrl": "https://www.cb.szczecin.pl/strefa-studenta/erasmus/o-programie/",
+      "localUrl": null,
+      "plannedLocalUrl": "http://localhost:8000/strefa-studenta/erasmus/o-programie/",
+      "template": "template-flexible.php",
+      "previewUrl": "http://localhost:8000/?page_id=12",
+      "previewOnly": true,
+      "statuses": {
+        "SOURCE_CAPTURE": "BLOCKED",
+        "TEMPLATE": "IN_PROGRESS",
+        "LOCAL_RENDER": "NOT_STARTED",
+        "CONTENT": "NOT_STARTED",
+        "VISUAL_QA": "BLOCKED",
+        "WCAG_QA": "IN_PROGRESS"
+      },
+      "familyImplementation": "DONE",
+      "previewRender": "DONE",
+      "sourceEvidence": [
+        ".factory-cache/live/collegium-balticum/discovery/2026-10-09T16-06-57-892Z/CB-17/desktop",
+        ".factory-cache/live/collegium-balticum/discovery/2026-10-09T16-06-57-892Z/CB-17/mobile"
+      ],
+      "notes": "Rodzina działa na danych QA. Dopasowanie CB zależy od referencji; konkretna strona i media nie zostały zaimportowane."
+    },
+    {
+      "id": "CB-18",
+      "productionUrl": "https://www.cb.szczecin.pl/strefa-studenta/biblioteka/wypozyczenie-na-zamowienie/",
+      "localUrl": null,
+      "plannedLocalUrl": "http://localhost:8000/strefa-studenta/biblioteka/wypozyczenie-na-zamowienie/",
+      "template": "template-basic.php",
+      "previewUrl": "http://localhost:8000/?page_id=11",
+      "previewOnly": true,
+      "statuses": {
+        "SOURCE_CAPTURE": "BLOCKED",
+        "TEMPLATE": "IN_PROGRESS",
+        "LOCAL_RENDER": "NOT_STARTED",
+        "CONTENT": "NOT_STARTED",
+        "VISUAL_QA": "BLOCKED",
+        "WCAG_QA": "IN_PROGRESS"
+      },
+      "familyImplementation": "DONE",
+      "previewRender": "DONE",
+      "sourceEvidence": [
+        ".factory-cache/live/collegium-balticum/discovery/2026-10-09T16-06-57-892Z/CB-18/desktop",
+        ".factory-cache/live/collegium-balticum/discovery/2026-10-09T16-06-57-892Z/CB-18/mobile"
+      ],
+      "notes": "Rodzina działa na danych QA. Dopasowanie CB zależy od referencji; konkretna strona i media nie zostały zaimportowane."
+    }
+  ]
+}

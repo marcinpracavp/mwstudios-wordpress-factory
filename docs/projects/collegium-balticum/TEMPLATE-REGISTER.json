@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T15:16:50.876Z",
+  "updatedAt": "2026-10-09T16:14:58.271Z",
   "source": "read-only LIVE / web text cache",
   "requiredIds": [
     "CB-00",
@@ -54,7 +54,7 @@
         "partials/section-image.php"
       ],
       "templateStatus": "IN_PROGRESS",
-      "contentStatus": "TODO",
+      "contentStatus": "NOT_STARTED",
       "visualQA": "BLOCKED",
       "reference": [
         {
@@ -80,7 +80,16 @@
           ]
         }
       ],
-      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB."
+      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB.",
+      "statuses": {
+        "SOURCE_CAPTURE": "BLOCKED",
+        "TEMPLATE": "IN_PROGRESS",
+        "LOCAL_RENDER": "NOT_STARTED",
+        "CONTENT": "NOT_STARTED",
+        "VISUAL_QA": "BLOCKED",
+        "WCAG_QA": "IN_PROGRESS"
+      },
+      "previewUrl": "http://localhost:8000/"
     },
     {
       "id": "CB-01",
@@ -110,7 +119,7 @@
         "shared factory sections"
       ],
       "templateStatus": "IN_PROGRESS",
-      "contentStatus": "TODO",
+      "contentStatus": "NOT_STARTED",
       "visualQA": "BLOCKED",
       "reference": [
         {
@@ -136,7 +145,16 @@
           ]
         }
       ],
-      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB."
+      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB.",
+      "statuses": {
+        "SOURCE_CAPTURE": "BLOCKED",
+        "TEMPLATE": "IN_PROGRESS",
+        "LOCAL_RENDER": "NOT_STARTED",
+        "CONTENT": "NOT_STARTED",
+        "VISUAL_QA": "BLOCKED",
+        "WCAG_QA": "IN_PROGRESS"
+      },
+      "previewUrl": "http://localhost:8000/?page_id=16"
     },
     {
       "id": "CB-02",
@@ -162,7 +180,7 @@
         "shared factory sections"
       ],
       "templateStatus": "IN_PROGRESS",
-      "contentStatus": "TODO",
+      "contentStatus": "NOT_STARTED",
       "visualQA": "BLOCKED",
       "reference": [
         {
@@ -188,7 +206,16 @@
           ]
         }
       ],
-      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB."
+      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB.",
+      "statuses": {
+        "SOURCE_CAPTURE": "BLOCKED",
+        "TEMPLATE": "IN_PROGRESS",
+        "LOCAL_RENDER": "NOT_STARTED",
+        "CONTENT": "NOT_STARTED",
+        "VISUAL_QA": "BLOCKED",
+        "WCAG_QA": "IN_PROGRESS"
+      },
+      "previewUrl": "http://localhost:8000/?cat=2"
     },
     {
       "id": "CB-03",
@@ -214,7 +241,7 @@
         "shared factory sections"
       ],
       "templateStatus": "IN_PROGRESS",
-      "contentStatus": "TODO",
+      "contentStatus": "NOT_STARTED",
       "visualQA": "BLOCKED",
       "reference": [
         {
@@ -240,7 +267,16 @@
           ]
         }
       ],
-      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB."
+      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB.",
+      "statuses": {
+        "SOURCE_CAPTURE": "BLOCKED",
+        "TEMPLATE": "IN_PROGRESS",
+        "LOCAL_RENDER": "NOT_STARTED",
+        "CONTENT": "NOT_STARTED",
+        "VISUAL_QA": "BLOCKED",
+        "WCAG_QA": "IN_PROGRESS"
+      },
+      "previewUrl": "http://localhost:8000/?p=7"
     },
     {
       "id": "CB-04",
@@ -274,7 +310,7 @@
         "shared factory sections"
       ],
       "templateStatus": "IN_PROGRESS",
-      "contentStatus": "TODO",
+      "contentStatus": "NOT_STARTED",
       "visualQA": "BLOCKED",
       "reference": [
         {
@@ -300,7 +336,16 @@
           ]
         }
       ],
-      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB."
+      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB.",
+      "statuses": {
+        "SOURCE_CAPTURE": "BLOCKED",
+        "TEMPLATE": "IN_PROGRESS",
+        "LOCAL_RENDER": "NOT_STARTED",
+        "CONTENT": "NOT_STARTED",
+        "VISUAL_QA": "BLOCKED",
+        "WCAG_QA": "IN_PROGRESS"
+      },
+      "previewUrl": "http://localhost:8000/?page_id=13"
     },
     {
       "id": "CB-05",
@@ -334,7 +379,7 @@
         "partials/section-image.php"
       ],
       "templateStatus": "IN_PROGRESS",
-      "contentStatus": "TODO",
+      "contentStatus": "NOT_STARTED",
       "visualQA": "BLOCKED",
       "reference": [
         {
@@ -360,7 +405,16 @@
           ]
         }
       ],
-      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB."
+      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB.",
+      "statuses": {
+        "SOURCE_CAPTURE": "BLOCKED",
+        "TEMPLATE": "IN_PROGRESS",
+        "LOCAL_RENDER": "NOT_STARTED",
+        "CONTENT": "NOT_STARTED",
+        "VISUAL_QA": "BLOCKED",
+        "WCAG_QA": "IN_PROGRESS"
+      },
+      "previewUrl": "http://localhost:8000/?page_id=13"
     },
     {
       "id": "CB-06",
@@ -391,7 +445,7 @@
         "shared factory sections"
       ],
       "templateStatus": "IN_PROGRESS",
-      "contentStatus": "TODO",
+      "contentStatus": "NOT_STARTED",
       "visualQA": "BLOCKED",
       "reference": [
         {
@@ -417,7 +471,16 @@
           ]
         }
       ],
-      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB."
+      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB.",
+      "statuses": {
+        "SOURCE_CAPTURE": "BLOCKED",
+        "TEMPLATE": "IN_PROGRESS",
+        "LOCAL_RENDER": "NOT_STARTED",
+        "CONTENT": "NOT_STARTED",
+        "VISUAL_QA": "BLOCKED",
+        "WCAG_QA": "IN_PROGRESS"
+      },
+      "previewUrl": "http://localhost:8000/?page_id=14"
     },
     {
       "id": "CB-07",
@@ -448,7 +511,7 @@
         "shared factory sections"
       ],
       "templateStatus": "IN_PROGRESS",
-      "contentStatus": "TODO",
+      "contentStatus": "NOT_STARTED",
       "visualQA": "BLOCKED",
       "reference": [
         {
@@ -474,7 +537,16 @@
           ]
         }
       ],
-      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB."
+      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB.",
+      "statuses": {
+        "SOURCE_CAPTURE": "BLOCKED",
+        "TEMPLATE": "IN_PROGRESS",
+        "LOCAL_RENDER": "NOT_STARTED",
+        "CONTENT": "NOT_STARTED",
+        "VISUAL_QA": "BLOCKED",
+        "WCAG_QA": "IN_PROGRESS"
+      },
+      "previewUrl": "http://localhost:8000/?page_id=14"
     },
     {
       "id": "CB-08",
@@ -508,7 +580,7 @@
         "partials/section-image.php"
       ],
       "templateStatus": "IN_PROGRESS",
-      "contentStatus": "TODO",
+      "contentStatus": "NOT_STARTED",
       "visualQA": "BLOCKED",
       "reference": [
         {
@@ -534,7 +606,16 @@
           ]
         }
       ],
-      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB."
+      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB.",
+      "statuses": {
+        "SOURCE_CAPTURE": "BLOCKED",
+        "TEMPLATE": "IN_PROGRESS",
+        "LOCAL_RENDER": "NOT_STARTED",
+        "CONTENT": "NOT_STARTED",
+        "VISUAL_QA": "BLOCKED",
+        "WCAG_QA": "IN_PROGRESS"
+      },
+      "previewUrl": "http://localhost:8000/?page_id=15"
     },
     {
       "id": "CB-09",
@@ -565,7 +646,7 @@
         "shared factory sections"
       ],
       "templateStatus": "IN_PROGRESS",
-      "contentStatus": "TODO",
+      "contentStatus": "NOT_STARTED",
       "visualQA": "BLOCKED",
       "reference": [
         {
@@ -591,7 +672,16 @@
           ]
         }
       ],
-      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB."
+      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB.",
+      "statuses": {
+        "SOURCE_CAPTURE": "BLOCKED",
+        "TEMPLATE": "IN_PROGRESS",
+        "LOCAL_RENDER": "NOT_STARTED",
+        "CONTENT": "NOT_STARTED",
+        "VISUAL_QA": "BLOCKED",
+        "WCAG_QA": "IN_PROGRESS"
+      },
+      "previewUrl": "http://localhost:8000/?page_id=12"
     },
     {
       "id": "CB-10",
@@ -626,7 +716,7 @@
         "partials/section-image.php"
       ],
       "templateStatus": "IN_PROGRESS",
-      "contentStatus": "TODO",
+      "contentStatus": "NOT_STARTED",
       "visualQA": "BLOCKED",
       "reference": [
         {
@@ -652,7 +742,16 @@
           ]
         }
       ],
-      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB."
+      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB.",
+      "statuses": {
+        "SOURCE_CAPTURE": "BLOCKED",
+        "TEMPLATE": "IN_PROGRESS",
+        "LOCAL_RENDER": "NOT_STARTED",
+        "CONTENT": "NOT_STARTED",
+        "VISUAL_QA": "BLOCKED",
+        "WCAG_QA": "IN_PROGRESS"
+      },
+      "previewUrl": "http://localhost:8000/?page_id=12"
     },
     {
       "id": "CB-11",
@@ -684,7 +783,7 @@
         "shared factory sections"
       ],
       "templateStatus": "IN_PROGRESS",
-      "contentStatus": "TODO",
+      "contentStatus": "NOT_STARTED",
       "visualQA": "BLOCKED",
       "reference": [
         {
@@ -710,7 +809,16 @@
           ]
         }
       ],
-      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB."
+      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB.",
+      "statuses": {
+        "SOURCE_CAPTURE": "BLOCKED",
+        "TEMPLATE": "IN_PROGRESS",
+        "LOCAL_RENDER": "NOT_STARTED",
+        "CONTENT": "NOT_STARTED",
+        "VISUAL_QA": "BLOCKED",
+        "WCAG_QA": "IN_PROGRESS"
+      },
+      "previewUrl": "http://localhost:8000/?page_id=15"
     },
     {
       "id": "CB-12",
@@ -742,7 +850,7 @@
         "partials/section-image.php"
       ],
       "templateStatus": "IN_PROGRESS",
-      "contentStatus": "TODO",
+      "contentStatus": "NOT_STARTED",
       "visualQA": "BLOCKED",
       "reference": [
         {
@@ -768,7 +876,16 @@
           ]
         }
       ],
-      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB."
+      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB.",
+      "statuses": {
+        "SOURCE_CAPTURE": "BLOCKED",
+        "TEMPLATE": "IN_PROGRESS",
+        "LOCAL_RENDER": "NOT_STARTED",
+        "CONTENT": "NOT_STARTED",
+        "VISUAL_QA": "BLOCKED",
+        "WCAG_QA": "IN_PROGRESS"
+      },
+      "previewUrl": "http://localhost:8000/?page_id=12"
     },
     {
       "id": "CB-13",
@@ -798,7 +915,7 @@
         "shared factory sections"
       ],
       "templateStatus": "IN_PROGRESS",
-      "contentStatus": "TODO",
+      "contentStatus": "NOT_STARTED",
       "visualQA": "BLOCKED",
       "reference": [
         {
@@ -824,7 +941,16 @@
           ]
         }
       ],
-      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB."
+      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB.",
+      "statuses": {
+        "SOURCE_CAPTURE": "BLOCKED",
+        "TEMPLATE": "IN_PROGRESS",
+        "LOCAL_RENDER": "NOT_STARTED",
+        "CONTENT": "NOT_STARTED",
+        "VISUAL_QA": "BLOCKED",
+        "WCAG_QA": "IN_PROGRESS"
+      },
+      "previewUrl": "http://localhost:8000/?page_id=11"
     },
     {
       "id": "CB-14",
@@ -854,7 +980,7 @@
         "shared factory sections"
       ],
       "templateStatus": "IN_PROGRESS",
-      "contentStatus": "TODO",
+      "contentStatus": "NOT_STARTED",
       "visualQA": "BLOCKED",
       "reference": [
         {
@@ -880,7 +1006,16 @@
           ]
         }
       ],
-      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB."
+      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB.",
+      "statuses": {
+        "SOURCE_CAPTURE": "BLOCKED",
+        "TEMPLATE": "IN_PROGRESS",
+        "LOCAL_RENDER": "NOT_STARTED",
+        "CONTENT": "NOT_STARTED",
+        "VISUAL_QA": "BLOCKED",
+        "WCAG_QA": "IN_PROGRESS"
+      },
+      "previewUrl": "http://localhost:8000/?page_id=11"
     },
     {
       "id": "CB-15",
@@ -912,7 +1047,7 @@
         "partials/section-image.php"
       ],
       "templateStatus": "IN_PROGRESS",
-      "contentStatus": "TODO",
+      "contentStatus": "NOT_STARTED",
       "visualQA": "BLOCKED",
       "reference": [
         {
@@ -938,7 +1073,16 @@
           ]
         }
       ],
-      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB."
+      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB.",
+      "statuses": {
+        "SOURCE_CAPTURE": "BLOCKED",
+        "TEMPLATE": "IN_PROGRESS",
+        "LOCAL_RENDER": "NOT_STARTED",
+        "CONTENT": "NOT_STARTED",
+        "VISUAL_QA": "BLOCKED",
+        "WCAG_QA": "IN_PROGRESS"
+      },
+      "previewUrl": "http://localhost:8000/?page_id=12"
     },
     {
       "id": "CB-16",
@@ -970,7 +1114,7 @@
         "partials/section-image.php"
       ],
       "templateStatus": "IN_PROGRESS",
-      "contentStatus": "TODO",
+      "contentStatus": "NOT_STARTED",
       "visualQA": "BLOCKED",
       "reference": [
         {
@@ -996,7 +1140,16 @@
           ]
         }
       ],
-      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB."
+      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB.",
+      "statuses": {
+        "SOURCE_CAPTURE": "BLOCKED",
+        "TEMPLATE": "IN_PROGRESS",
+        "LOCAL_RENDER": "NOT_STARTED",
+        "CONTENT": "NOT_STARTED",
+        "VISUAL_QA": "BLOCKED",
+        "WCAG_QA": "IN_PROGRESS"
+      },
+      "previewUrl": "http://localhost:8000/?page_id=12"
     },
     {
       "id": "CB-17",
@@ -1029,7 +1182,7 @@
         "partials/section-image.php"
       ],
       "templateStatus": "IN_PROGRESS",
-      "contentStatus": "TODO",
+      "contentStatus": "NOT_STARTED",
       "visualQA": "BLOCKED",
       "reference": [
         {
@@ -1055,7 +1208,16 @@
           ]
         }
       ],
-      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB."
+      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB.",
+      "statuses": {
+        "SOURCE_CAPTURE": "BLOCKED",
+        "TEMPLATE": "IN_PROGRESS",
+        "LOCAL_RENDER": "NOT_STARTED",
+        "CONTENT": "NOT_STARTED",
+        "VISUAL_QA": "BLOCKED",
+        "WCAG_QA": "IN_PROGRESS"
+      },
+      "previewUrl": "http://localhost:8000/?page_id=12"
     },
     {
       "id": "CB-18",
@@ -1084,7 +1246,7 @@
         "shared factory sections"
       ],
       "templateStatus": "IN_PROGRESS",
-      "contentStatus": "TODO",
+      "contentStatus": "NOT_STARTED",
       "visualQA": "BLOCKED",
       "reference": [
         {
@@ -1110,7 +1272,17 @@
           ]
         }
       ],
-      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB."
+      "notes": "Brak referencji PNG: timeout każdego viewportu 15000 ms. Lokalny wymagany URL jeszcze nieutworzony; dane QA nie są stroną CB.",
+      "statuses": {
+        "SOURCE_CAPTURE": "BLOCKED",
+        "TEMPLATE": "IN_PROGRESS",
+        "LOCAL_RENDER": "NOT_STARTED",
+        "CONTENT": "NOT_STARTED",
+        "VISUAL_QA": "BLOCKED",
+        "WCAG_QA": "IN_PROGRESS"
+      },
+      "previewUrl": "http://localhost:8000/?page_id=11"
     }
-  ]
+  ],
+  "readinessReport": "TASK-3A-READINESS.md"
 }
