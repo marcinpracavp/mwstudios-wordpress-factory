@@ -1,5 +1,5 @@
 {
-  "mode": "home",
+  "mode": "full",
   "failed_ids": [],
-  "reason": "Use genuine mobile browser emulation (Android UA, touch and mobile viewport) and keep failed carousel diagnostics"
+  "reason": "Homepage PoC 37987108323 inspected: genuine desktop/mobile CB, HTTP 200, assets and SHA256 verified; capture all configured CB-00–CB-18 sequentially"
 }
