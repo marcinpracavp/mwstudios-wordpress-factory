@@ -114,3 +114,20 @@ według wspólnego IMPLEMENTATION-PLAN z regresją Figma. Następnie snapshot
 wszystkich wymaganych stron, przypisanie rzeczywistych rodzin i przedstawienie
 struktury ACF. Dopiero wtedy implementacja CB, import ograniczonej treści,
 lokalne URL i visual/WCAG/SEO QA oraz przekazanie modułów Virtual.
+
+## Aktualizacja po dostarczeniu źródeł — 2026-10-09
+
+Powyższy raport opisuje zadanie 1 przed odczytem załączników. Obecnie PDF
+(83 strony) i DOCX (10 sekcji) zostały odczytane; treść utrwalono w sources/.
+Brak dostępu Drive nie blokuje już analizy dostarczonego audytu. Nie przeprowadzono
+nowego audytu LIVE ani wdrożenia CB. Historia PM i potwierdzenie użytkownika
+uzupełniają zakres w PM-DECISIONS/MODULES; Kalasoft pozostaje wyłączony.
+Wymagania mapuje ACCEPTANCE-CHECKLIST. Oryginały nie zostały zmienione;
+SHA-256 zapisano w tekstowych odczytach. Narzędzie PDF.js zainstalowano
+wyłącznie w /tmp, bez zmian zależności projektu.
+
+Kontrole tej aktualizacji: factory VALID, build exit 0 (te same trzy ostrzeżenia
+Webpack o rozmiarze/wydajności), zachowane 19 unikalnych tras i statusy TODO,
+83 strony w odczycie audytu, 30 kontroli QA, poprawne lokalne linki dokumentacji
+i niezmienione SHA-256 oryginałów. Zmiany wyłącznie w dokumentacji klienta,
+bez nowych pól ACF, kodu motywu, silnika i zależności projektu.

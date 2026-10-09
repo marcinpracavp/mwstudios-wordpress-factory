@@ -79,9 +79,12 @@ sprawdza istnienie elementów. Nie dodawać animacji automatycznie.
 
 Audyt z czerwca 2025:
 [Google Drive](https://drive.google.com/file/d/11Hksqz7c0QNmWQG45Anqp_F-b5Ye0VlU/view).
-Próba odczytu 2026-10-09 przez narzędzie web zakończyła się `Internal Error`.
-Nie uzyskano treści dokumentu; audyt NIE został przeczytany. Powód dostępu
-nie jest potwierdzony. Potrzebny dostęp lub kopia, zapisane w [OPEN-QUESTIONS](OPEN-QUESTIONS.md).
+Pierwsza próba odczytu Drive zakończyła się `Internal Error`. Następnie użytkownik
+dostarczył lokalny PDF: `Załącznik nr 2 (1).pdf`. Odczytano tekst wszystkich
+83 stron 2026-10-09; raport podaje badanie 16–24.06.2025 i audytorkę Justynę
+Orzechowską. Q-02 zamknięto dla dostępu do treści audytu. To nie oznacza wykonania
+napraw ani ponownego badania witryny. Pełny odczyt: [AUDIT-TEXT](sources/AUDIT-TEXT.md).
+Wymagania i rozbieżności interpretacyjne: [ACCEPTANCE-CHECKLIST](ACCEPTANCE-CHECKLIST.md).
 
 Obowiązuje niezależnie od dostępności audytu:
 
@@ -111,11 +114,17 @@ Nie deklarować pełnej zgodności bez właściwego audytu i dowodów.
 
 ## Dodatkowe funkcjonalności w architekturze
 
-Globalne promocje/komunikaty używane na wielu podstronach. Status rekrutacji
-dla odpowiednich ofert i sortowanie, jeśli potwierdzono zakres. Kadra/biogramy
-i relacje z kierunkami, jeśli potwierdzono zakres. Prezentacja sylabusów wymaga
-specyfikacji danych — nie wymyślać integracji ani API. Niepotwierdzone moduły
-nie blokują implementacji niezależnych obowiązkowych stron.
+PM 15 lipca potwierdził przewidzenie dodatkowych funkcji w 110 h; uzupełnienie
+źródeł i rozstrzygnięcia znajdują się w [PM-DECISIONS](PM-DECISIONS.md).
+Status naboru na liście podyplomowych: oferty otwarte wyżej, zamknięte niżej,
+jednoznaczne oznaczenie tekstowe i kolorystyczne spełniające kontrast. Promocje
+globalne: licencjackie+magisterskie razem, podyplomowe oddzielnie. Kadra: zdjęcia
+i biogramy powiązane z kierunkami. Sylabusy/programy: zmiana prezentacji wg
+referencji UAM. Kadra, promocje i sylabusy nadal wymagają szczegółów klienta;
+nie wymyślać API ani integracji. [MODULES](MODULES.md) zawiera status zakresu,
+propozycje opcji ACF i warunki odbioru. Brak specyfikacji nie blokuje niezależnych
+obowiązkowych stron. Kalasoft pozostaje wyłączony, potwierdzone przez użytkownika
+w bieżącej rozmowie 2026-10-09.
 
 ## Wyłączenia
 
@@ -142,3 +151,15 @@ Warunki końcowe zadania 1: pełny brief, CB-00–CB-18, brak dowolnego wyboru
 i mechanizmy rozszerzenia, brak destrukcyjnych zmian factory. Raport zawiera
 listę zmian, fakty o repo, wyniki Git i następne kroki. To nie jest jeszcze
 zlecenie wdrożenia witryny lub całego działającego adaptera LIVE.
+
+## Uzupełnienia po dostarczeniu audytu, checklisty i korespondencji PM
+
+Obowiązuje [ACCEPTANCE-CHECKLIST](ACCEPTANCE-CHECKLIST.md): również lang/title,
+komunikaty dynamiczne, kontekst nazw linków, metadane i stan dostępności plików,
+napisy/audiodeskrypcja i transkrypcja materiałów stosownie do ich treści, link
+do deklaracji dostępności oraz instrukcja dla Virtual. Pliki z audytu wymagają
+właściciela treści; nie deklarować ich dostępności bez weryfikacji. Lista audytu
+nie rozszerza automatycznie CB-00–CB-18. PM potwierdził podział 110 h/40 h;
+rozbieżność liczby stron względem estymacji pozostaje do rozstrzygnięcia.
+Historyczne stawki, propozycje wyceny i terminy nie stanowią nowych warunków
+rozliczenia ani aktualnego harmonogramu tej sesji.

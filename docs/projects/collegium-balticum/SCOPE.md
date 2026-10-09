@@ -1,6 +1,8 @@
 # Zakres, odpowiedzialność i ryzyka CB
 
-Obowiązują [BRIEF](BRIEF.md) i komplet [PAGES](PAGES.md).
+Obowiązują [BRIEF](BRIEF.md), komplet [PAGES](PAGES.md),
+[PM-DECISIONS](PM-DECISIONS.md), [MODULES](MODULES.md) i
+[ACCEPTANCE-CHECKLIST](ACCEPTANCE-CHECKLIST.md).
 
 ## Rozbieżność do decyzji PM
 
@@ -39,23 +41,29 @@ header/footer/menu, globalne opcje i wspólne moduły JS po kontroli semantyki.
 Nie zakładać, że istniejące partiale są już zgodne z CB/WCAG.
 
 Promocje/komunikaty: najpierw sprawdzić globalne ustawienia topbar/popup.
-Rekrutacja/sortowanie, kadra/relacje i sylabusy: pozostawić punkty rozszerzenia,
-bez tworzenia modeli danych/integracji do czasu potwierdzenia. Niezależne
-strony wymagane pozostają możliwe do wdrożenia.
+PM potwierdził dodatkowe funkcje w 110 h: nabór i sortowanie podyplomowych,
+foto/bio kadry, globalne promocje w dwóch grupach oraz nową prezentację sylabusów.
+Cel naboru/sortowania jest potwierdzony; model danych i kolejność w grupach
+pozostają do ustalenia. Kadra/promocje/sylabusy wymagają szczegółowej specyfikacji,
+nie ponownej zgody na sam cel. Nie tworzyć integracji bez danych.
+Kalasoft nadal wyłączony, potwierdzone przez użytkownika 2026-10-09.
+Niezależne strony wymagane pozostają możliwe do wdrożenia.
 
 ## Ryzyka i ograniczenia
 
 | Ryzyko | Stan i działanie |
 | --- | --- |
 | 8–12 stron vs lista 19 widoków | Decyzja PM oczekiwana; zachować pełny rejestr. |
-| Audyt czerwiec 2025 | Nieprzeczytany, błąd odczytu Drive; uzyskać dokument. |
+| Audyt czerwiec 2025 | Odczytano 83 strony dostarczonego PDF; wymagania zapisane w ACCEPTANCE-CHECKLIST. Nie przeprowadzono jeszcze napraw ani bieżącego audytu. |
 | Blog a szersze aktualności | Potwierdzone dwa różne archiwa; ustalić podwidoki/kategorie bez zastępowania CB-02. |
 | Yoast/ALT/treści prywatne | Wymagają eksportu/dostępu; HTML publiczny nie jest pełnym backupem SEO. |
 | LIVE zmienia się podczas implementacji | Zamrozić snapshot z datą i stanami; jawnie raportować zmienne treści. |
 | Routing Docker używa URL query | Zapewnić poprawne rewrite i zachowanie zagnieżdżonych permalinków w LIVE. |
 | ACF Pro i działające WP | Konfiguracja capability nie dowodzi aktywnej licencjonowanej wtyczki ani dostępnego runtime. |
 | Design vs WCAG/Hx | Minimalne poprawki, konsultacje wymagane przez brief i dowody decyzji. |
-| Sylabusy/rekrutacja/kadra/języki/formularze | Doprecyzować; nie wymyślać API, capability ani zakresu. |
+| Moduły dodatkowe w 110 h | PM potwierdza cele, specyfikacja części niepełna; monitorować ryzyko czasu zamiast wyłączać je z budżetu. |
+| Dokumenty/wideo/deklaracja | Przypisać właściciela treści, napisy, dostępne pliki i formalną deklarację; nie obiecywać zgodności całej biblioteki. |
+| Języki/formularze | Doprecyzować wtyczki, wersje językowe i testy; Kalasoft wyłączony. |
 | Toggl | Brak dostępu i wpisu czasu; ewidencja ręczna przez zespół. |
 
 Wyłączone: Kalasoft, zmiany BIP/e-Dziekanat/e-learning, naprawy zewnętrznych

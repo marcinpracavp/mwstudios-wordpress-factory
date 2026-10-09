@@ -72,3 +72,14 @@ implementacji CB ani lokalnych URL w tym zadaniu; wszystkie statusy TODO są cel
 Globalny header/menu/footer kontrolować na całym rejestrze. Rozbudowa hierarchii
 parentów i kategorii jest elementem zachowania URL, nie zgodą na migrację treści
 wszystkich nieobjętych zakresem stron nadrzędnych.
+
+## Uzupełnienie po korespondencji PM i audycie
+
+PM 9 lipca wskazał CB-04/05 jako baner z kaflem, CB-06/07 jako banner/slider
+z accordionami, CB-08 jako ofertę podyplomową, a CB-09–CB-18 jako układy
+mieszane. To wskazówki do discovery, nie potwierdzony aktualny układ.
+CB-10 ma dodatkowe wymaganie otwartego naboru na początku listy i tekstowych
+statusów; szczegóły w MODULES. Audyt PDF wskazuje bezpośrednio CB-00, CB-01,
+CB-06, CB-15 i CB-17, a pozostałym pomaga przez wymagania wspólne.
+Statusy wszystkich 19 pozycji pozostają TODO; żaden nowy URL nie został
+dodany do obowiązkowego zakresu na podstawie samego audytu.
