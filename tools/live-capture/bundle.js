@@ -35,7 +35,12 @@ function verify(root, config) {
       if(!record.identity?.valid||![new URL(config.sourceUrl).hostname,new URL(config.sourceUrl).hostname.replace(/^www\./,'')].includes(new URL(record.finalUrl).hostname))throw Error('UNVERIFIED_IDENTITY');
       for(const name of ['screenshot','html','dom','resources','layout','metrics'])if(!record.paths?.[name]||!declared.has(safe(record.paths[name])))throw Error('MISSING_EVIDENCE: '+name);
       const png=fs.readFileSync(path.join(root,record.paths.screenshot));const width=record.viewport==='desktop'?1440:390;
-      if(png.subarray(0,8).toString('hex')!=='89504e470d0a1a0a'||png.readUInt32BE(16)!==width||png.readUInt32BE(20)<(record.viewport==='desktop'?900:844))throw Error('INVALID_SCREENSHOT');
+      const metrics=JSON.parse(fs.readFileSync(path.join(root,record.paths.metrics)));
+      // Native fullPage may include source overflow. Accept it only when the
+      // independently captured viewport and overflow metrics explain every pixel.
+      const pngWidth=png.readUInt32BE(16);
+      const explainedOverflow=(metrics.viewportWidth===width||metrics.documentElementClientWidth===width)&&metrics.horizontalOverflow===true&&Math.ceil(metrics.scrollWidth)===pngWidth&&pngWidth>width&&pngWidth<=width*2;
+      if(png.subarray(0,8).toString('hex')!=='89504e470d0a1a0a'||(pngWidth!==width&&!explainedOverflow)||png.readUInt32BE(20)<(record.viewport==='desktop'?900:844))throw Error('INVALID_SCREENSHOT');
       const html=fs.readFileSync(path.join(root,record.paths.html),'utf8');if(!/<(?:html|body)\b/i.test(html)||/please wait while your request is being verified|verify you are human/i.test(html.replace(/<script[\s\S]*?<\/script>/gi,'')))throw Error('INVALID_HTML');
       const resources=JSON.parse(fs.readFileSync(path.join(root,record.paths.resources)));for(const resource of resources.assets||[]){if(!/^https?:/.test(resource.url)||resource.file&&!declared.has(safe(resource.file)))throw Error('INVALID_RESOURCE');}
     }
