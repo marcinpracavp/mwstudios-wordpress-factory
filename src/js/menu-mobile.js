@@ -36,7 +36,7 @@
         const element = document.querySelector('.js-menu-mobile');
         if (element) {
             new MenuMobile(element);
-            $('.menu-item-has-children > a').append(`<span class="dropdown-toggle"><img src="${baseUrl}/dist/img/menu-arrow.svg"></img></span>`);
+            $('.js-menu-mobile .menu-item-has-children > a').append(`<span class="dropdown-toggle"><img src="${baseUrl}/dist/img/menu-arrow.svg"></img></span>`);
 
         }
     });
@@ -46,7 +46,7 @@
 
         // Add hover event for desktop menu
         if (!window.matchMedia('(max-width: 1199px)').matches) {
-            $('.menu-item-has-children').hover(
+            $('.l-header__menu .menu-item-has-children').hover(
                 function() {
                     // Mouse enter
                     $(this).find('ul.sub-menu').css('display', 'flex');
@@ -61,7 +61,7 @@
         if (window.matchMedia('(max-width: 991px)').matches) {
             // Dodaj kliwalny element span do każdego linku z submenu
     
-            $('.menu-item-has-children > a').each(function(){
+            $('.js-menu-mobile .menu-item-has-children > a').each(function(){
                 var wasOpened = false;
     
                 // Obsługa kliknięcia na strzałkę
@@ -87,8 +87,8 @@
                 $(document).on('click', function outsideClick(e){
                     if (!$(e.target).closest('.menu-item-has-children').length) {
                         wasOpened = false;
-                        $('.sub-menu').slideUp('slow'); // Zamknij wszystkie sub-menu
-                        $('.menu-item-has-children > a').removeClass('active');
+                        $('.js-menu-mobile .sub-menu').slideUp('slow'); // Zamknij wszystkie sub-menu
+                        $('.js-menu-mobile .menu-item-has-children > a').removeClass('active');
                     }
                 });
             });

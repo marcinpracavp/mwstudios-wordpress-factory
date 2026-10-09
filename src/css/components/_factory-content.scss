@@ -1,0 +1,131 @@
+@use 'abstracts' as *;
+
+// Component baseline. CB production measurements await accessible reference PNGs.
+// No independent grid, spacing scale, containers or breakpoints.
+.mwf-site {
+    overflow-x: visible;
+    overflow-wrap: anywhere;
+    color: #202020;
+    a:hover { color: #202020; }
+    :focus-visible { outline: 3px solid #1557a0; outline-offset: 4px; }
+    #main-content { scroll-margin-top: 2rem; }
+    img { max-width: 100%; height: auto; }
+    button, input, select, textarea { font: inherit; max-width: 100%; }
+    button { color: inherit; }
+    button, summary { cursor: pointer; }
+    [hidden] { display: none; }
+    .screen-reader-text { @extend .mwf-sr-only; }
+    h1 { font-size: clamp(2.8rem, 4vw, 5rem); line-height: 1.2; }
+    h2 { font-size: clamp(2.4rem, 3vw, 3.6rem); line-height: 1.3; }
+    h3 { font-size: 2.4rem; }
+    h4 { font-size: 2rem; }
+    h5, h6 { font-size: 1.8rem; }
+    .grid > * { min-width: 0; }
+}
+.mwf-sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+    border: 0;
+}
+.mwf-skip-link {
+    position: absolute;
+    inset: 0 auto auto 0;
+    transform: translateY(-200%);
+    z-index: 200;
+    background: #fff;
+    color: #202020;
+    &:focus { transform: none; }
+}
+.mwf-header { background: #fff; border-bottom: 1px solid #ddd; }
+.mwf-header__utility, .mwf-header__main { flex-wrap: wrap; }
+.mwf-header__branding img { max-width: 240px; }
+.mwf-header__utility ul, .mwf-nav > ul { display: flex; flex-wrap: wrap; }
+.mwf-nav {
+    max-width: 100%;
+    li { position: relative; }
+    a, button { display: inline-block; padding: .6em; }
+    button { background: #fff; border: 1px solid #555; }
+    &.is-enhanced li > ul { position: absolute; z-index: 20; background: #fff; width: max-content; max-width: min(34rem, 90vw); border: 1px solid #555; }
+    &.is-enhanced li li > ul { position: static; }
+    @include media($breakpoint-md) {
+        width: 100%;
+        > ul { flex-direction: column; }
+        &.is-enhanced li > ul { position: static; width: auto; }
+    }
+}
+.mwf-footer { background: #eee; }
+.mwf-footer__columns { flex-wrap: wrap; }
+.mwf-button {
+    display: inline-block;
+    background: #202020;
+    color: #fff;
+    padding: .65em 1.2em;
+    border: 2px solid #202020;
+    text-decoration: none;
+    .mwf-site &:hover { background: #fff; color: #202020; }
+}
+.mwf-prose {
+    p + p, li + li { margin-top: .7em; }
+    h2, h3, h4, h5, h6 { margin-block: 1em .5em; }
+    ul, ol { padding-inline-start: 1.5em; }
+    ul { list-style: disc; }
+    ol { list-style: decimal; }
+    a { text-decoration: underline; text-underline-offset: .15em; }
+    blockquote { border-inline-start: 4px solid #555; padding-inline-start: 1em; }
+    iframe { max-width: 100%; }
+    table { max-width: 100%; }
+    .mwf-button { text-decoration: none; }
+}
+.mwf-banner__slide {
+    position: relative;
+    picture { display: block; }
+    picture img { width: 100%; }
+}
+.mwf-banner__content { background: #eee; }
+.mwf-banner__controls { display: flex; flex-wrap: wrap; justify-content: space-between; }
+.mwf-banner__controls button, .mwf-tabs__controls button { padding: .5em 1em; border: 2px solid #555; background: #fff; }
+.mwf-page--banner-tile .mwf-overlay {
+    position: relative;
+    margin-top: -4rem; // Intrinsic overlay intersection, independent of utility spacing.
+    background: #fff;
+    border: 1px solid #ddd;
+    @include media($breakpoint-sm) { margin-top: 0; }
+}
+.mwf-section--muted, .mwf-course { background: #eee; }
+.mwf-section--dark {
+    background: #202020;
+    color: #fff;
+    :focus-visible { outline-color: #fff; }
+    a, .mwf-site & a:hover { color: #fff; }
+    .mwf-tile, .mwf-tabs, .mwf-accordion { color: #202020; background: #fff; }
+    .mwf-tile :focus-visible, .mwf-tabs :focus-visible, .mwf-accordion :focus-visible { outline-color: #1557a0; }
+    .mwf-tile a, .mwf-tabs a, .mwf-accordion a { color: #202020; }
+    .mwf-button { border-color: #fff; color: #fff; }
+    .mwf-tabs .mwf-button, .mwf-tile .mwf-button { color: #fff; }
+}
+.mwf-tile, .mwf-blog-card { border: 1px solid #ddd; }
+.mwf-tile img { width: 100%; }
+.mwf-accordion { border: 1px solid #555; summary { font-weight: 600; } }
+.mwf-tabs__controls { flex-wrap: wrap; }
+.mwf-tabs__controls [aria-selected='true'] { background: #202020; color: #fff; }
+.mwf-table-scroll { max-width: 100%; overflow-x: auto; }
+.mwf-table { border-collapse: collapse; width: 100%; th, td { border: 1px solid #555; padding: .6em; text-align: start; } }
+.mwf-embed { width: 100%; aspect-ratio: 16 / 9; border: 0; }
+.mwf-contact__address { white-space: pre-line; }
+.mwf-course__facts, .mwf-search { flex-wrap: wrap; }
+.mwf-course__facts dt { font-weight: 600; }
+.mwf-admission--open { color: #185b2e; }
+.mwf-admission--closed { color: #4a4a4a; }
+.mwf-documents { list-style: disc; }
+.mwf-single .mwf-prose { max-width: 90ch; }
+.mwf-site .pagination, .mwf-site .post-navigation { margin-top: 2em; }
+.mwf-site .page-numbers { display: inline-block; padding: .4em; }
+@media (prefers-reduced-motion: reduce) {
+    .mwf-site *, .mwf-site *::before, .mwf-site *::after { transition: none; animation: none; scroll-behavior: auto; }
+}

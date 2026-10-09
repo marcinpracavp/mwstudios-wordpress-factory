@@ -1,0 +1,70 @@
+{
+  "key": "group_mwf_footer",
+  "title": "Factory — stopka",
+  "fields": [
+    {
+      "key": "field_group_mwf_footer_mwf_footer_content",
+      "label": "Dane w stopce",
+      "name": "mwf_footer_content",
+      "type": "wysiwyg",
+      "tabs": "all",
+      "toolbar": "full",
+      "media_upload": 1,
+      "instructions": "Zachowaj zatwierdzone Hx i ALT. Nie używaj H1 w treści sekcji."
+    },
+    {
+      "key": "field_group_mwf_footer_mwf_footer_columns",
+      "label": "Kolumny stopki",
+      "name": "mwf_footer_columns",
+      "type": "repeater",
+      "layout": "block",
+      "button_label": "Dodaj",
+      "sub_fields": [
+        {
+          "key": "field_group_mwf_footer_mwf_footer_columns_title",
+          "label": "Tytuł",
+          "name": "title",
+          "type": "text"
+        },
+        {
+          "key": "field_group_mwf_footer_mwf_footer_columns_links",
+          "label": "Linki",
+          "name": "links",
+          "type": "repeater",
+          "layout": "block",
+          "button_label": "Dodaj",
+          "sub_fields": [
+            {
+              "key": "field_group_mwf_footer_mwf_footer_columns_links_link",
+              "label": "Link",
+              "name": "link",
+              "type": "link",
+              "return_format": "array"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "field_group_mwf_footer_mwf_accessibility_link",
+      "label": "Deklaracja dostępności",
+      "name": "mwf_accessibility_link",
+      "type": "link",
+      "return_format": "array"
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "options_page",
+        "operator": "==",
+        "value": "acf-options-opcje-globalne"
+      }
+    ]
+  ],
+  "active": true,
+  "position": "normal",
+  "style": "default",
+  "menu_order": 10,
+  "modified": 1791540000
+}

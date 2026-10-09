@@ -10,6 +10,7 @@ class App {
      * Animations On Scroll (AOS)
      */
     initAos() {
+        if (!document.querySelector('[data-aos]') || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
         AOS.init({
             duration: 800, // Czas trwania animacji w ms
             easing: 'ease-out-cubic', // Typ easingu

@@ -1,0 +1,68 @@
+{
+  "key": "group_mwf_mwf_overlay",
+  "title": "Factory — kafel na banerze",
+  "fields": [
+    {
+      "key": "field_group_mwf_mwf_overlay_mwf_overlay",
+      "label": "Nakładany kafel",
+      "name": "mwf_overlay",
+      "type": "group",
+      "layout": "block",
+      "sub_fields": [
+        {
+          "key": "field_group_mwf_mwf_overlay_mwf_overlay_heading",
+          "label": "Nagłówek",
+          "name": "heading",
+          "type": "text"
+        },
+        {
+          "key": "field_group_mwf_mwf_overlay_mwf_overlay_heading_level",
+          "label": "Poziom nagłówka",
+          "name": "heading_level",
+          "type": "select",
+          "choices": {
+            "2": "H2",
+            "3": "H3",
+            "4": "H4",
+            "5": "H5",
+            "6": "H6"
+          },
+          "default_value": "2",
+          "return_format": "value"
+        },
+        {
+          "key": "field_group_mwf_mwf_overlay_mwf_overlay_content",
+          "label": "Treść",
+          "name": "content",
+          "type": "wysiwyg",
+          "tabs": "all",
+          "toolbar": "full",
+          "media_upload": 1,
+          "instructions": "Zachowaj zatwierdzone Hx i ALT. Nie używaj H1 w treści sekcji."
+        },
+        {
+          "key": "field_group_mwf_mwf_overlay_mwf_overlay_link",
+          "label": "Link",
+          "name": "link",
+          "type": "link",
+          "return_format": "array"
+        }
+      ],
+      "instructions": " Dotyczy: template-banner-tile.php."
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "page_template",
+        "operator": "==",
+        "value": "template-banner-tile.php"
+      }
+    ]
+  ],
+  "active": true,
+  "position": "normal",
+  "style": "default",
+  "menu_order": 10,
+  "modified": 1791540000
+}

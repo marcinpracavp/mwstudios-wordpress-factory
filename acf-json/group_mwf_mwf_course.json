@@ -1,0 +1,93 @@
+{
+  "key": "group_mwf_mwf_course",
+  "title": "Factory — oferta",
+  "fields": [
+    {
+      "key": "field_group_mwf_mwf_course_mwf_course",
+      "label": "Oferta — podsumowanie",
+      "name": "mwf_course",
+      "type": "group",
+      "layout": "block",
+      "sub_fields": [
+        {
+          "key": "field_group_mwf_mwf_course_mwf_course_heading",
+          "label": "Nagłówek",
+          "name": "heading",
+          "type": "text"
+        },
+        {
+          "key": "field_group_mwf_mwf_course_mwf_course_heading_level",
+          "label": "Poziom nagłówka",
+          "name": "heading_level",
+          "type": "select",
+          "choices": {
+            "2": "H2",
+            "3": "H3",
+            "4": "H4",
+            "5": "H5",
+            "6": "H6"
+          },
+          "default_value": "2",
+          "return_format": "value"
+        },
+        {
+          "key": "field_group_mwf_mwf_course_mwf_course_facts",
+          "label": "Opłaty i parametry",
+          "name": "facts",
+          "type": "repeater",
+          "layout": "block",
+          "button_label": "Dodaj",
+          "sub_fields": [
+            {
+              "key": "field_group_mwf_mwf_course_mwf_course_facts_label",
+              "label": "Etykieta",
+              "name": "label",
+              "type": "text"
+            },
+            {
+              "key": "field_group_mwf_mwf_course_mwf_course_facts_value",
+              "label": "Wartość",
+              "name": "value",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "key": "field_group_mwf_mwf_course_mwf_course_admission_status",
+          "label": "Status naboru",
+          "name": "admission_status",
+          "type": "select",
+          "choices": {
+            "": "Nieustalony",
+            "open": "Otwarty",
+            "closed": "Zamknięty"
+          },
+          "default_value": "",
+          "return_format": "value"
+        },
+        {
+          "key": "field_group_mwf_mwf_course_mwf_course_link",
+          "label": "Link",
+          "name": "link",
+          "type": "link",
+          "return_format": "array"
+        }
+      ],
+      "instructions": " Dotyczy: template-course.php."
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "page_template",
+        "operator": "==",
+        "value": "template-course.php"
+      }
+    ]
+  ],
+  "active": true,
+  "position": "normal",
+  "style": "default",
+  "menu_order": 10,
+  "modified": 1791540000
+}

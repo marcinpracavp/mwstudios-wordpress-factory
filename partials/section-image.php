@@ -30,7 +30,7 @@ $title          = $args['title'] ?? '';
 $content        = $args['content'] ?? '';
 $button         = $args['button'] ?? [];
 $background     = $args['background'] ?? [];
-$bg_url         = isset($background['url']) ? "style=\"background-image: url({$background['url']});\"" : '';
+$bg_url         = !empty($background['url']) ? 'background-image: url(' . esc_url($background['url']) . ');' : '';
 $section_id     = $args['section_id'] ?? '';
 $section_cls    = $args['section_class'] ?? '';
 $container_cls  = $args['container_class'] ?? '';
@@ -38,25 +38,25 @@ $image_cls      = $args['image_class'] ?? 'gc-2/7';
 $content_cls    = $args['content_class'] ?? 'gc-8/14';
 $button_cls     = $args['button_class'] ?? 'button-primary';
 ?>
-<section id="<?php echo esc_attr($section_id); ?>" class="section-image-left <?php echo esc_attr($section_cls); ?>" <?php echo $bg_url; ?>>
+<section <?php if ($section_id) : ?>id="<?php echo esc_attr($section_id); ?>"<?php endif; ?> class="section-image-left <?php echo esc_attr($section_cls); ?>"<?php if ($bg_url) : ?> style="<?php echo esc_attr($bg_url); ?>"<?php endif; ?>>
     <div class="section-image-container grid align-center <?php echo esc_attr($container_cls); ?>">
         <div class="section-image-container__image <?php echo esc_attr($image_cls); ?>">
             <div class="image">
-                <?= isset($image) && !empty($image) ? acf_image($image) : ''; ?>
+                <?php echo mwf_image($image, 'large', !empty($args['decorative'])); ?>
             </div>
         </div>
         <div class="section-image-container__content <?php echo esc_attr($content_cls); ?>">
             <?php if(!empty($title)) : ?>
                 <div class="section-image-container__title">
-                    <?= $title ?>
+                    <?php echo wp_kses_post($title); ?>
                 </div>
             <?php endif; ?>
             <div class="section-image-container__wrapper">
-                <?= $content ?>
+                <?php echo wp_kses_post($content); ?>
             </div>
             <?php if(!empty($button)) : ?>
                 <div class="section-image-container__button mt-40">
-                    <?= acf_link($button, $button_cls) ?>
+                    <?php mwf_link($button, $button_cls); ?>
                 </div>
             <?php endif; ?>
         </div>

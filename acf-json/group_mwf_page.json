@@ -1,0 +1,1225 @@
+{
+  "key": "group_mwf_page",
+  "title": "Factory — hero i sekcje",
+  "fields": [
+    {
+      "key": "field_group_mwf_page_mwf_hero",
+      "label": "Hero",
+      "name": "mwf_hero",
+      "type": "group",
+      "layout": "block",
+      "sub_fields": [
+        {
+          "key": "field_group_mwf_page_mwf_hero_title",
+          "label": "Tytuł H1 (puste = tytuł WordPress)",
+          "name": "title",
+          "type": "text"
+        },
+        {
+          "key": "field_group_mwf_page_mwf_hero_intro",
+          "label": "Wprowadzenie",
+          "name": "intro",
+          "type": "wysiwyg",
+          "tabs": "all",
+          "toolbar": "full",
+          "media_upload": 1,
+          "instructions": "Zachowaj zatwierdzone Hx i ALT. Nie używaj H1 w treści sekcji."
+        },
+        {
+          "key": "field_group_mwf_page_mwf_hero_slides",
+          "label": "Obrazy / slajdy",
+          "name": "slides",
+          "type": "repeater",
+          "layout": "block",
+          "button_label": "Dodaj",
+          "sub_fields": [
+            {
+              "key": "field_group_mwf_page_mwf_hero_slides_image",
+              "label": "Obraz",
+              "name": "image",
+              "type": "image",
+              "return_format": "id",
+              "preview_size": "medium",
+              "instructions": "ALT z biblioteki mediów; brak opisu zgłoś SEO."
+            },
+            {
+              "key": "field_group_mwf_page_mwf_hero_slides_mobile_image",
+              "label": "Obraz mobile (opcjonalny)",
+              "name": "mobile_image",
+              "type": "image",
+              "return_format": "id",
+              "preview_size": "medium",
+              "instructions": "ALT z biblioteki mediów; brak opisu zgłoś SEO."
+            },
+            {
+              "key": "field_group_mwf_page_mwf_hero_slides_decorative",
+              "label": "Obraz dekoracyjny",
+              "name": "decorative",
+              "type": "true_false",
+              "ui": 1,
+              "default_value": 0
+            },
+            {
+              "key": "field_group_mwf_page_mwf_hero_slides_title",
+              "label": "Nagłówek slajdu",
+              "name": "title",
+              "type": "text"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_hero_slides_content",
+              "label": "Treść",
+              "name": "content",
+              "type": "wysiwyg",
+              "tabs": "all",
+              "toolbar": "full",
+              "media_upload": 1,
+              "instructions": "Zachowaj zatwierdzone Hx i ALT. Nie używaj H1 w treści sekcji."
+            },
+            {
+              "key": "field_group_mwf_page_mwf_hero_slides_link",
+              "label": "Link",
+              "name": "link",
+              "type": "link",
+              "return_format": "array"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "field_group_mwf_page_mwf_sections",
+      "label": "Sekcje",
+      "name": "mwf_sections",
+      "type": "flexible_content",
+      "layouts": {
+        "layout_mwf_wysiwyg": {
+          "key": "layout_mwf_wysiwyg",
+          "name": "wysiwyg",
+          "label": "Treść",
+          "display": "block",
+          "sub_fields": [
+            {
+              "key": "field_group_mwf_page_mwf_sections_wysiwyg_heading",
+              "label": "Nagłówek",
+              "name": "heading",
+              "type": "text"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_wysiwyg_heading_level",
+              "label": "Poziom nagłówka",
+              "name": "heading_level",
+              "type": "select",
+              "choices": {
+                "2": "H2",
+                "3": "H3",
+                "4": "H4",
+                "5": "H5",
+                "6": "H6"
+              },
+              "default_value": "2",
+              "return_format": "value"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_wysiwyg_tone",
+              "label": "Wariant tła",
+              "name": "tone",
+              "type": "select",
+              "choices": {
+                "plain": "Jasny",
+                "muted": "Jasnoszary",
+                "dark": "Ciemny"
+              },
+              "default_value": "plain",
+              "return_format": "value"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_wysiwyg_content",
+              "label": "Treść",
+              "name": "content",
+              "type": "wysiwyg",
+              "tabs": "all",
+              "toolbar": "full",
+              "media_upload": 1,
+              "instructions": "Zachowaj zatwierdzone Hx i ALT. Nie używaj H1 w treści sekcji."
+            }
+          ]
+        },
+        "layout_mwf_image_text": {
+          "key": "layout_mwf_image_text",
+          "name": "image_text",
+          "label": "Tekst + obraz 50/50",
+          "display": "block",
+          "sub_fields": [
+            {
+              "key": "field_group_mwf_page_mwf_sections_image_text_heading",
+              "label": "Nagłówek",
+              "name": "heading",
+              "type": "text"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_image_text_heading_level",
+              "label": "Poziom nagłówka",
+              "name": "heading_level",
+              "type": "select",
+              "choices": {
+                "2": "H2",
+                "3": "H3",
+                "4": "H4",
+                "5": "H5",
+                "6": "H6"
+              },
+              "default_value": "2",
+              "return_format": "value"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_image_text_tone",
+              "label": "Wariant tła",
+              "name": "tone",
+              "type": "select",
+              "choices": {
+                "plain": "Jasny",
+                "muted": "Jasnoszary",
+                "dark": "Ciemny"
+              },
+              "default_value": "plain",
+              "return_format": "value"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_image_text_image",
+              "label": "Obraz",
+              "name": "image",
+              "type": "image",
+              "return_format": "id",
+              "preview_size": "medium",
+              "instructions": "ALT z biblioteki mediów; brak opisu zgłoś SEO."
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_image_text_decorative",
+              "label": "Obraz dekoracyjny",
+              "name": "decorative",
+              "type": "true_false",
+              "ui": 1,
+              "default_value": 0
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_image_text_content",
+              "label": "Treść",
+              "name": "content",
+              "type": "wysiwyg",
+              "tabs": "all",
+              "toolbar": "full",
+              "media_upload": 1,
+              "instructions": "Zachowaj zatwierdzone Hx i ALT. Nie używaj H1 w treści sekcji."
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_image_text_link",
+              "label": "Link",
+              "name": "link",
+              "type": "link",
+              "return_format": "array"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_image_text_image_side",
+              "label": "Położenie obrazu",
+              "name": "image_side",
+              "type": "select",
+              "choices": {
+                "left": "Lewa",
+                "right": "Prawa"
+              },
+              "default_value": "left",
+              "return_format": "value"
+            }
+          ]
+        },
+        "layout_mwf_tiles": {
+          "key": "layout_mwf_tiles",
+          "name": "tiles",
+          "label": "Kafle / oferta",
+          "display": "block",
+          "sub_fields": [
+            {
+              "key": "field_group_mwf_page_mwf_sections_tiles_heading",
+              "label": "Nagłówek",
+              "name": "heading",
+              "type": "text"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_tiles_heading_level",
+              "label": "Poziom nagłówka",
+              "name": "heading_level",
+              "type": "select",
+              "choices": {
+                "2": "H2",
+                "3": "H3",
+                "4": "H4",
+                "5": "H5",
+                "6": "H6"
+              },
+              "default_value": "2",
+              "return_format": "value"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_tiles_tone",
+              "label": "Wariant tła",
+              "name": "tone",
+              "type": "select",
+              "choices": {
+                "plain": "Jasny",
+                "muted": "Jasnoszary",
+                "dark": "Ciemny"
+              },
+              "default_value": "plain",
+              "return_format": "value"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_tiles_sort_open_first",
+              "label": "Otwarte oferty na początku",
+              "name": "sort_open_first",
+              "type": "true_false",
+              "ui": 1,
+              "default_value": 0
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_tiles_items",
+              "label": "Kafle",
+              "name": "items",
+              "type": "repeater",
+              "layout": "block",
+              "button_label": "Dodaj",
+              "sub_fields": [
+                {
+                  "key": "field_group_mwf_page_mwf_sections_tiles_items_title",
+                  "label": "Tytuł",
+                  "name": "title",
+                  "type": "text"
+                },
+                {
+                  "key": "field_group_mwf_page_mwf_sections_tiles_items_image",
+                  "label": "Obraz",
+                  "name": "image",
+                  "type": "image",
+                  "return_format": "id",
+                  "preview_size": "medium",
+                  "instructions": "ALT z biblioteki mediów; brak opisu zgłoś SEO."
+                },
+                {
+                  "key": "field_group_mwf_page_mwf_sections_tiles_items_decorative",
+                  "label": "Obraz dekoracyjny",
+                  "name": "decorative",
+                  "type": "true_false",
+                  "ui": 1,
+                  "default_value": 0
+                },
+                {
+                  "key": "field_group_mwf_page_mwf_sections_tiles_items_content",
+                  "label": "Treść",
+                  "name": "content",
+                  "type": "wysiwyg",
+                  "tabs": "all",
+                  "toolbar": "full",
+                  "media_upload": 1,
+                  "instructions": "Zachowaj zatwierdzone Hx i ALT. Nie używaj H1 w treści sekcji."
+                },
+                {
+                  "key": "field_group_mwf_page_mwf_sections_tiles_items_link",
+                  "label": "Link",
+                  "name": "link",
+                  "type": "link",
+                  "return_format": "array"
+                },
+                {
+                  "key": "field_group_mwf_page_mwf_sections_tiles_items_admission_status",
+                  "label": "Status naboru",
+                  "name": "admission_status",
+                  "type": "select",
+                  "choices": {
+                    "": "Nieustalony",
+                    "open": "Otwarty",
+                    "closed": "Zamknięty"
+                  },
+                  "default_value": "",
+                  "return_format": "value"
+                }
+              ]
+            }
+          ]
+        },
+        "layout_mwf_cta": {
+          "key": "layout_mwf_cta",
+          "name": "cta",
+          "label": "CTA",
+          "display": "block",
+          "sub_fields": [
+            {
+              "key": "field_group_mwf_page_mwf_sections_cta_heading",
+              "label": "Nagłówek",
+              "name": "heading",
+              "type": "text"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_cta_heading_level",
+              "label": "Poziom nagłówka",
+              "name": "heading_level",
+              "type": "select",
+              "choices": {
+                "2": "H2",
+                "3": "H3",
+                "4": "H4",
+                "5": "H5",
+                "6": "H6"
+              },
+              "default_value": "2",
+              "return_format": "value"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_cta_tone",
+              "label": "Wariant tła",
+              "name": "tone",
+              "type": "select",
+              "choices": {
+                "plain": "Jasny",
+                "muted": "Jasnoszary",
+                "dark": "Ciemny"
+              },
+              "default_value": "plain",
+              "return_format": "value"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_cta_content",
+              "label": "Treść",
+              "name": "content",
+              "type": "wysiwyg",
+              "tabs": "all",
+              "toolbar": "full",
+              "media_upload": 1,
+              "instructions": "Zachowaj zatwierdzone Hx i ALT. Nie używaj H1 w treści sekcji."
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_cta_link",
+              "label": "Link",
+              "name": "link",
+              "type": "link",
+              "return_format": "array"
+            }
+          ]
+        },
+        "layout_mwf_accordion": {
+          "key": "layout_mwf_accordion",
+          "name": "accordion",
+          "label": "Accordion",
+          "display": "block",
+          "sub_fields": [
+            {
+              "key": "field_group_mwf_page_mwf_sections_accordion_heading",
+              "label": "Nagłówek",
+              "name": "heading",
+              "type": "text"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_accordion_heading_level",
+              "label": "Poziom nagłówka",
+              "name": "heading_level",
+              "type": "select",
+              "choices": {
+                "2": "H2",
+                "3": "H3",
+                "4": "H4",
+                "5": "H5",
+                "6": "H6"
+              },
+              "default_value": "2",
+              "return_format": "value"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_accordion_tone",
+              "label": "Wariant tła",
+              "name": "tone",
+              "type": "select",
+              "choices": {
+                "plain": "Jasny",
+                "muted": "Jasnoszary",
+                "dark": "Ciemny"
+              },
+              "default_value": "plain",
+              "return_format": "value"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_accordion_items",
+              "label": "Panele",
+              "name": "items",
+              "type": "repeater",
+              "layout": "block",
+              "button_label": "Dodaj",
+              "sub_fields": [
+                {
+                  "key": "field_group_mwf_page_mwf_sections_accordion_items_title",
+                  "label": "Tytuł",
+                  "name": "title",
+                  "type": "text"
+                },
+                {
+                  "key": "field_group_mwf_page_mwf_sections_accordion_items_content",
+                  "label": "Treść",
+                  "name": "content",
+                  "type": "wysiwyg",
+                  "tabs": "all",
+                  "toolbar": "full",
+                  "media_upload": 1,
+                  "instructions": "Zachowaj zatwierdzone Hx i ALT. Nie używaj H1 w treści sekcji."
+                }
+              ]
+            }
+          ]
+        },
+        "layout_mwf_tabs": {
+          "key": "layout_mwf_tabs",
+          "name": "tabs",
+          "label": "Zakładki",
+          "display": "block",
+          "sub_fields": [
+            {
+              "key": "field_group_mwf_page_mwf_sections_tabs_heading",
+              "label": "Nagłówek",
+              "name": "heading",
+              "type": "text"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_tabs_heading_level",
+              "label": "Poziom nagłówka",
+              "name": "heading_level",
+              "type": "select",
+              "choices": {
+                "2": "H2",
+                "3": "H3",
+                "4": "H4",
+                "5": "H5",
+                "6": "H6"
+              },
+              "default_value": "2",
+              "return_format": "value"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_tabs_tone",
+              "label": "Wariant tła",
+              "name": "tone",
+              "type": "select",
+              "choices": {
+                "plain": "Jasny",
+                "muted": "Jasnoszary",
+                "dark": "Ciemny"
+              },
+              "default_value": "plain",
+              "return_format": "value"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_tabs_items",
+              "label": "Zakładki",
+              "name": "items",
+              "type": "repeater",
+              "layout": "block",
+              "button_label": "Dodaj",
+              "sub_fields": [
+                {
+                  "key": "field_group_mwf_page_mwf_sections_tabs_items_title",
+                  "label": "Tytuł",
+                  "name": "title",
+                  "type": "text"
+                },
+                {
+                  "key": "field_group_mwf_page_mwf_sections_tabs_items_content",
+                  "label": "Treść",
+                  "name": "content",
+                  "type": "wysiwyg",
+                  "tabs": "all",
+                  "toolbar": "full",
+                  "media_upload": 1,
+                  "instructions": "Zachowaj zatwierdzone Hx i ALT. Nie używaj H1 w treści sekcji."
+                }
+              ]
+            }
+          ]
+        },
+        "layout_mwf_table": {
+          "key": "layout_mwf_table",
+          "name": "table",
+          "label": "Tabela",
+          "display": "block",
+          "sub_fields": [
+            {
+              "key": "field_group_mwf_page_mwf_sections_table_heading",
+              "label": "Nagłówek",
+              "name": "heading",
+              "type": "text"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_table_heading_level",
+              "label": "Poziom nagłówka",
+              "name": "heading_level",
+              "type": "select",
+              "choices": {
+                "2": "H2",
+                "3": "H3",
+                "4": "H4",
+                "5": "H5",
+                "6": "H6"
+              },
+              "default_value": "2",
+              "return_format": "value"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_table_tone",
+              "label": "Wariant tła",
+              "name": "tone",
+              "type": "select",
+              "choices": {
+                "plain": "Jasny",
+                "muted": "Jasnoszary",
+                "dark": "Ciemny"
+              },
+              "default_value": "plain",
+              "return_format": "value"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_table_caption",
+              "label": "Opis tabeli",
+              "name": "caption",
+              "type": "text"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_table_row_headers",
+              "label": "Pierwsza kolumna to nagłówki wierszy",
+              "name": "row_headers",
+              "type": "true_false",
+              "ui": 1,
+              "default_value": 0
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_table_columns",
+              "label": "Kolumny",
+              "name": "columns",
+              "type": "repeater",
+              "layout": "block",
+              "button_label": "Dodaj",
+              "sub_fields": [
+                {
+                  "key": "field_group_mwf_page_mwf_sections_table_columns_label",
+                  "label": "Nagłówek kolumny",
+                  "name": "label",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_table_rows",
+              "label": "Wiersze",
+              "name": "rows",
+              "type": "repeater",
+              "layout": "block",
+              "button_label": "Dodaj",
+              "sub_fields": [
+                {
+                  "key": "field_group_mwf_page_mwf_sections_table_rows_cells",
+                  "label": "Komórki",
+                  "name": "cells",
+                  "type": "repeater",
+                  "layout": "block",
+                  "button_label": "Dodaj",
+                  "sub_fields": [
+                    {
+                      "key": "field_group_mwf_page_mwf_sections_table_rows_cells_value",
+                      "label": "Wartość",
+                      "name": "value",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "layout_mwf_gallery": {
+          "key": "layout_mwf_gallery",
+          "name": "gallery",
+          "label": "Galeria",
+          "display": "block",
+          "sub_fields": [
+            {
+              "key": "field_group_mwf_page_mwf_sections_gallery_heading",
+              "label": "Nagłówek",
+              "name": "heading",
+              "type": "text"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_gallery_heading_level",
+              "label": "Poziom nagłówka",
+              "name": "heading_level",
+              "type": "select",
+              "choices": {
+                "2": "H2",
+                "3": "H3",
+                "4": "H4",
+                "5": "H5",
+                "6": "H6"
+              },
+              "default_value": "2",
+              "return_format": "value"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_gallery_tone",
+              "label": "Wariant tła",
+              "name": "tone",
+              "type": "select",
+              "choices": {
+                "plain": "Jasny",
+                "muted": "Jasnoszary",
+                "dark": "Ciemny"
+              },
+              "default_value": "plain",
+              "return_format": "value"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_gallery_items",
+              "label": "Zdjęcia",
+              "name": "items",
+              "type": "repeater",
+              "layout": "block",
+              "button_label": "Dodaj",
+              "sub_fields": [
+                {
+                  "key": "field_group_mwf_page_mwf_sections_gallery_items_image",
+                  "label": "Obraz",
+                  "name": "image",
+                  "type": "image",
+                  "return_format": "id",
+                  "preview_size": "medium",
+                  "instructions": "ALT z biblioteki mediów; brak opisu zgłoś SEO."
+                },
+                {
+                  "key": "field_group_mwf_page_mwf_sections_gallery_items_decorative",
+                  "label": "Obraz dekoracyjny",
+                  "name": "decorative",
+                  "type": "true_false",
+                  "ui": 1,
+                  "default_value": 0
+                },
+                {
+                  "key": "field_group_mwf_page_mwf_sections_gallery_items_caption",
+                  "label": "Podpis",
+                  "name": "caption",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "layout_mwf_media": {
+          "key": "layout_mwf_media",
+          "name": "media",
+          "label": "Wideo / iframe",
+          "display": "block",
+          "sub_fields": [
+            {
+              "key": "field_group_mwf_page_mwf_sections_media_heading",
+              "label": "Nagłówek",
+              "name": "heading",
+              "type": "text"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_media_heading_level",
+              "label": "Poziom nagłówka",
+              "name": "heading_level",
+              "type": "select",
+              "choices": {
+                "2": "H2",
+                "3": "H3",
+                "4": "H4",
+                "5": "H5",
+                "6": "H6"
+              },
+              "default_value": "2",
+              "return_format": "value"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_media_tone",
+              "label": "Wariant tła",
+              "name": "tone",
+              "type": "select",
+              "choices": {
+                "plain": "Jasny",
+                "muted": "Jasnoszary",
+                "dark": "Ciemny"
+              },
+              "default_value": "plain",
+              "return_format": "value"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_media_url",
+              "label": "Adres osadzenia",
+              "name": "url",
+              "type": "url",
+              "instructions": "HTTPS do odtwarzacza lub mapy. Nie wpisuj kodu HTML."
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_media_title",
+              "label": "Tytuł ramki",
+              "name": "title",
+              "type": "text"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_media_transcript",
+              "label": "Transkrypcja / alternatywa tekstowa",
+              "name": "transcript",
+              "type": "wysiwyg",
+              "tabs": "all",
+              "toolbar": "full",
+              "media_upload": 1,
+              "instructions": "Zachowaj zatwierdzone Hx i ALT. Nie używaj H1 w treści sekcji."
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_media_accessible_version",
+              "label": "Wersja z napisami / audiodeskrypcją",
+              "name": "accessible_version",
+              "type": "link",
+              "return_format": "array"
+            }
+          ]
+        },
+        "layout_mwf_contact": {
+          "key": "layout_mwf_contact",
+          "name": "contact",
+          "label": "Kontakt",
+          "display": "block",
+          "sub_fields": [
+            {
+              "key": "field_group_mwf_page_mwf_sections_contact_heading",
+              "label": "Nagłówek",
+              "name": "heading",
+              "type": "text"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_contact_heading_level",
+              "label": "Poziom nagłówka",
+              "name": "heading_level",
+              "type": "select",
+              "choices": {
+                "2": "H2",
+                "3": "H3",
+                "4": "H4",
+                "5": "H5",
+                "6": "H6"
+              },
+              "default_value": "2",
+              "return_format": "value"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_contact_tone",
+              "label": "Wariant tła",
+              "name": "tone",
+              "type": "select",
+              "choices": {
+                "plain": "Jasny",
+                "muted": "Jasnoszary",
+                "dark": "Ciemny"
+              },
+              "default_value": "plain",
+              "return_format": "value"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_contact_items",
+              "label": "Dane kontaktowe",
+              "name": "items",
+              "type": "repeater",
+              "layout": "block",
+              "button_label": "Dodaj",
+              "sub_fields": [
+                {
+                  "key": "field_group_mwf_page_mwf_sections_contact_items_name",
+                  "label": "Osoba lub dział",
+                  "name": "name",
+                  "type": "text"
+                },
+                {
+                  "key": "field_group_mwf_page_mwf_sections_contact_items_role",
+                  "label": "Stanowisko",
+                  "name": "role",
+                  "type": "text"
+                },
+                {
+                  "key": "field_group_mwf_page_mwf_sections_contact_items_address",
+                  "label": "Adres",
+                  "name": "address",
+                  "type": "textarea"
+                },
+                {
+                  "key": "field_group_mwf_page_mwf_sections_contact_items_phones",
+                  "label": "Telefony",
+                  "name": "phones",
+                  "type": "repeater",
+                  "layout": "block",
+                  "button_label": "Dodaj",
+                  "sub_fields": [
+                    {
+                      "key": "field_group_mwf_page_mwf_sections_contact_items_phones_number",
+                      "label": "Numer",
+                      "name": "number",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "key": "field_group_mwf_page_mwf_sections_contact_items_emails",
+                  "label": "E-maile",
+                  "name": "emails",
+                  "type": "repeater",
+                  "layout": "block",
+                  "button_label": "Dodaj",
+                  "sub_fields": [
+                    {
+                      "key": "field_group_mwf_page_mwf_sections_contact_items_emails_email",
+                      "label": "E-mail",
+                      "name": "email",
+                      "type": "email"
+                    }
+                  ]
+                },
+                {
+                  "key": "field_group_mwf_page_mwf_sections_contact_items_hours",
+                  "label": "Godziny / informacje",
+                  "name": "hours",
+                  "type": "wysiwyg",
+                  "tabs": "all",
+                  "toolbar": "full",
+                  "media_upload": 1,
+                  "instructions": "Zachowaj zatwierdzone Hx i ALT. Nie używaj H1 w treści sekcji."
+                }
+              ]
+            }
+          ]
+        },
+        "layout_mwf_partners": {
+          "key": "layout_mwf_partners",
+          "name": "partners",
+          "label": "Partnerzy",
+          "display": "block",
+          "sub_fields": [
+            {
+              "key": "field_group_mwf_page_mwf_sections_partners_heading",
+              "label": "Nagłówek",
+              "name": "heading",
+              "type": "text"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_partners_heading_level",
+              "label": "Poziom nagłówka",
+              "name": "heading_level",
+              "type": "select",
+              "choices": {
+                "2": "H2",
+                "3": "H3",
+                "4": "H4",
+                "5": "H5",
+                "6": "H6"
+              },
+              "default_value": "2",
+              "return_format": "value"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_partners_tone",
+              "label": "Wariant tła",
+              "name": "tone",
+              "type": "select",
+              "choices": {
+                "plain": "Jasny",
+                "muted": "Jasnoszary",
+                "dark": "Ciemny"
+              },
+              "default_value": "plain",
+              "return_format": "value"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_partners_items",
+              "label": "Partnerzy",
+              "name": "items",
+              "type": "repeater",
+              "layout": "block",
+              "button_label": "Dodaj",
+              "sub_fields": [
+                {
+                  "key": "field_group_mwf_page_mwf_sections_partners_items_name",
+                  "label": "Nazwa",
+                  "name": "name",
+                  "type": "text"
+                },
+                {
+                  "key": "field_group_mwf_page_mwf_sections_partners_items_image",
+                  "label": "Logo",
+                  "name": "image",
+                  "type": "image",
+                  "return_format": "id",
+                  "preview_size": "medium",
+                  "instructions": "ALT z biblioteki mediów; brak opisu zgłoś SEO."
+                },
+                {
+                  "key": "field_group_mwf_page_mwf_sections_partners_items_link",
+                  "label": "Link",
+                  "name": "link",
+                  "type": "link",
+                  "return_format": "array"
+                }
+              ]
+            }
+          ]
+        },
+        "layout_mwf_documents": {
+          "key": "layout_mwf_documents",
+          "name": "documents",
+          "label": "Dokumenty",
+          "display": "block",
+          "sub_fields": [
+            {
+              "key": "field_group_mwf_page_mwf_sections_documents_heading",
+              "label": "Nagłówek",
+              "name": "heading",
+              "type": "text"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_documents_heading_level",
+              "label": "Poziom nagłówka",
+              "name": "heading_level",
+              "type": "select",
+              "choices": {
+                "2": "H2",
+                "3": "H3",
+                "4": "H4",
+                "5": "H5",
+                "6": "H6"
+              },
+              "default_value": "2",
+              "return_format": "value"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_documents_tone",
+              "label": "Wariant tła",
+              "name": "tone",
+              "type": "select",
+              "choices": {
+                "plain": "Jasny",
+                "muted": "Jasnoszary",
+                "dark": "Ciemny"
+              },
+              "default_value": "plain",
+              "return_format": "value"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_documents_items",
+              "label": "Dokumenty",
+              "name": "items",
+              "type": "repeater",
+              "layout": "block",
+              "button_label": "Dodaj",
+              "sub_fields": [
+                {
+                  "key": "field_group_mwf_page_mwf_sections_documents_items_title",
+                  "label": "Nazwa dokumentu",
+                  "name": "title",
+                  "type": "text"
+                },
+                {
+                  "key": "field_group_mwf_page_mwf_sections_documents_items_file",
+                  "label": "Plik",
+                  "name": "file",
+                  "type": "file",
+                  "return_format": "id"
+                },
+                {
+                  "key": "field_group_mwf_page_mwf_sections_documents_items_external_link",
+                  "label": "Plik zewnętrzny (gdy brak załącznika)",
+                  "name": "external_link",
+                  "type": "link",
+                  "return_format": "array"
+                },
+                {
+                  "key": "field_group_mwf_page_mwf_sections_documents_items_metadata",
+                  "label": "Format i rozmiar pliku zewnętrznego (potwierdzone)",
+                  "name": "metadata",
+                  "type": "text"
+                },
+                {
+                  "key": "field_group_mwf_page_mwf_sections_documents_items_accessibility",
+                  "label": "Stan dostępności",
+                  "name": "accessibility",
+                  "type": "select",
+                  "choices": {
+                    "unverified": "Niezweryfikowany",
+                    "verified": "Zweryfikowany",
+                    "alternative_required": "Wymaga alternatywy"
+                  },
+                  "default_value": "unverified",
+                  "return_format": "value"
+                },
+                {
+                  "key": "field_group_mwf_page_mwf_sections_documents_items_alternative",
+                  "label": "Alternatywny dostęp",
+                  "name": "alternative",
+                  "type": "link",
+                  "return_format": "array"
+                }
+              ]
+            }
+          ]
+        },
+        "layout_mwf_news": {
+          "key": "layout_mwf_news",
+          "name": "news",
+          "label": "Wpisy z kategoriami",
+          "display": "block",
+          "sub_fields": [
+            {
+              "key": "field_group_mwf_page_mwf_sections_news_heading",
+              "label": "Nagłówek",
+              "name": "heading",
+              "type": "text"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_news_heading_level",
+              "label": "Poziom nagłówka",
+              "name": "heading_level",
+              "type": "select",
+              "choices": {
+                "2": "H2",
+                "3": "H3",
+                "4": "H4",
+                "5": "H5",
+                "6": "H6"
+              },
+              "default_value": "2",
+              "return_format": "value"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_news_tone",
+              "label": "Wariant tła",
+              "name": "tone",
+              "type": "select",
+              "choices": {
+                "plain": "Jasny",
+                "muted": "Jasnoszary",
+                "dark": "Ciemny"
+              },
+              "default_value": "plain",
+              "return_format": "value"
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_news_categories",
+              "label": "Zakładki kategorii",
+              "name": "categories",
+              "type": "repeater",
+              "layout": "block",
+              "button_label": "Dodaj",
+              "sub_fields": [
+                {
+                  "key": "field_group_mwf_page_mwf_sections_news_categories_label",
+                  "label": "Etykieta",
+                  "name": "label",
+                  "type": "text"
+                },
+                {
+                  "key": "field_group_mwf_page_mwf_sections_news_categories_term",
+                  "label": "Kategoria",
+                  "name": "term",
+                  "type": "taxonomy",
+                  "taxonomy": "category",
+                  "field_type": "select",
+                  "return_format": "id",
+                  "add_term": 0,
+                  "save_terms": 0,
+                  "load_terms": 0
+                },
+                {
+                  "key": "field_group_mwf_page_mwf_sections_news_categories_archive_link",
+                  "label": "Link archiwum",
+                  "name": "archive_link",
+                  "type": "link",
+                  "return_format": "array"
+                }
+              ]
+            },
+            {
+              "key": "field_group_mwf_page_mwf_sections_news_count",
+              "label": "Liczba wpisów",
+              "name": "count",
+              "type": "number",
+              "min": 1,
+              "max": 12,
+              "default_value": 6
+            }
+          ]
+        }
+      },
+      "button_label": "Dodaj sekcję"
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "page_template",
+        "operator": "==",
+        "value": "template-homepage.php"
+      }
+    ],
+    [
+      {
+        "param": "page_template",
+        "operator": "==",
+        "value": "template-basic.php"
+      }
+    ],
+    [
+      {
+        "param": "page_template",
+        "operator": "==",
+        "value": "template-flexible.php"
+      }
+    ],
+    [
+      {
+        "param": "page_template",
+        "operator": "==",
+        "value": "template-banner-tile.php"
+      }
+    ],
+    [
+      {
+        "param": "page_template",
+        "operator": "==",
+        "value": "template-banner-accordion.php"
+      }
+    ],
+    [
+      {
+        "param": "page_template",
+        "operator": "==",
+        "value": "template-course.php"
+      }
+    ],
+    [
+      {
+        "param": "page_template",
+        "operator": "==",
+        "value": "template-contact.php"
+      }
+    ],
+    [
+      {
+        "param": "page_type",
+        "operator": "==",
+        "value": "front_page"
+      }
+    ]
+  ],
+  "active": true,
+  "position": "normal",
+  "style": "default",
+  "menu_order": 10,
+  "modified": 1791540000
+}

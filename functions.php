@@ -22,4 +22,5 @@ require_once( FUNCTIONS_DIR . 'support.php' );
 require_once( FUNCTIONS_DIR . 'admin.php' );
 require_once( FUNCTIONS_DIR . 'utils.php' );
 require_once( FUNCTIONS_DIR . 'helpers.php' );
+require_once( FUNCTIONS_DIR . 'factory-content.php' );
 require_once( FUNCTIONS_DIR . 'optimization.php' );

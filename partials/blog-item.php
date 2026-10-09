@@ -1,25 +1,9 @@
-<div class="blog-item" data-aoe="fadeIn">
-    <div class="blog-item__container">
-        <a href="<?= get_permalink(); ?>">
-            <div class="blog-item__image">
-                <div class="image">
-                    <?= get_the_post_thumbnail(  ); ?>
-                </div>
-            </div>
-            <div class="blog-item__content">
-                <div class="date"><?= get_the_date( 'd.m.Y' ) ?></div>
-                <div class="title">
-                    <h2 class="text-42"><?= the_title() ?></h2>
-                </div>
-                <div class="excerpt">
-                    <?= get_the_excerpt() ?>
-                </div>
-            </div>
-        </a>
-        <div class="blog-item__button">
-            <a href="<?= get_permalink() ?>" class="link-orange--bold">
-                <?= __('Zobacz więcej', 'slawinsky_theme') ?>
-            </a>
-        </div>
+<article class="mwf-blog-card <?php echo esc_attr($args['class'] ?? ''); ?>">
+    <?php if (has_post_thumbnail()) : ?><div><?php the_post_thumbnail('large'); ?></div><?php endif; ?>
+    <div class="p-30">
+        <time datetime="<?php echo esc_attr(get_the_date('c')); ?>"><?php echo esc_html(get_the_date('d.m.Y')); ?></time>
+        <h2><a href="<?php echo esc_url(get_permalink()); ?>"><?php echo esc_html(get_the_title()); ?></a></h2>
+        <p><?php echo esc_html(wp_strip_all_tags(get_the_excerpt())); ?></p>
+        <a class="mwf-button" href="<?php echo esc_url(get_permalink()); ?>">Zobacz więcej<span class="mwf-sr-only"> — <?php echo esc_html(get_the_title()); ?></span></a>
     </div>
-</div>
+</article>

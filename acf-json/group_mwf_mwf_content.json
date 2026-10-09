@@ -1,0 +1,38 @@
+{
+  "key": "group_mwf_mwf_content",
+  "title": "Factory — treść podstawowa",
+  "fields": [
+    {
+      "key": "field_group_mwf_mwf_content_mwf_content",
+      "label": "Treść podstawowa",
+      "name": "mwf_content",
+      "type": "wysiwyg",
+      "tabs": "all",
+      "toolbar": "full",
+      "media_upload": 1,
+      "instructions": "Zachowaj zatwierdzone Hx i ALT. Nie używaj H1 w treści sekcji. Dotyczy: template-basic.php."
+    },
+    {
+      "key": "field_group_mwf_mwf_content_mwf_cta",
+      "label": "CTA podstawowe",
+      "name": "mwf_cta",
+      "type": "link",
+      "return_format": "array",
+      "instructions": " Dotyczy: template-basic.php."
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "page_template",
+        "operator": "==",
+        "value": "template-basic.php"
+      }
+    ]
+  ],
+  "active": true,
+  "position": "normal",
+  "style": "default",
+  "menu_order": 10,
+  "modified": 1791540000
+}

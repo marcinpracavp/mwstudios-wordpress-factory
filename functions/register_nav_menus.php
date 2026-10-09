@@ -9,4 +9,6 @@ register_nav_menus(array(
     'footer_main' => 'Stopka główne',
     'mobile' => 'Mobilne',
     'lang' => 'Języki',
+    'utility' => 'Skróty nad nawigacją',
+    'archive' => 'Kategorie przy archiwum wpisów',
 ));

@@ -1,18 +1,8 @@
 <?php
-
-/**
- * @package slawinsky_pl
- */
-
-$acf_fields = get_fields();
-$acf_globals = get_fields('options');
-
-get_header(); ?>
-
-
-<div class="hero">
-    
-</div>
-
-<?php
+get_header();
+if (is_home()) {
+    get_template_part('partials/factory/archive');
+} else {
+    get_template_part('partials/factory/page', null, ['variant' => 'home']);
+}
 get_footer();

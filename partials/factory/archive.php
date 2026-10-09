@@ -1,0 +1,21 @@
+<?php
+$title = is_category() ? single_cat_title('', false) : (is_home() ? get_the_title(get_option('page_for_posts')) : get_the_archive_title());
+$title = $title ?: 'Wpisy';
+if (is_search()) { $title = 'Wyniki wyszukiwania: ' . get_search_query(); }
+?>
+<header class="mwf-hero l-container py-50">
+    <h1><?php echo esc_html($title); ?></h1>
+    <?php if (has_nav_menu('archive')) : ?><nav aria-label="Kategorie wpisów"><?php wp_nav_menu(['theme_location' => 'archive', 'container' => false, 'fallback_cb' => false]); ?></nav><?php endif; ?>
+    <?php if (get_the_archive_description()) : ?><div class="mwf-prose"><?php echo wp_kses_post(get_the_archive_description()); ?></div><?php endif; ?>
+    <?php get_search_form(); ?>
+</header>
+<div class="l-container py-50">
+    <?php if (have_posts()) : ?>
+    <div class="grid gap-200 gap-sm-0 row-gap-sm-200">
+    <?php $i = 0; while (have_posts()) : the_post(); $col = 2 + ($i++ % 3) * 4;
+        get_template_part('partials/blog-item', null, ['class' => 'gc-' . $col . '/' . ($col + 4) . ' gc-sm-2/14']);
+    endwhile; ?>
+    </div>
+    <?php the_posts_pagination(['mid_size' => 2, 'prev_text' => 'Poprzednia strona', 'next_text' => 'Następna strona', 'screen_reader_text' => 'Strony wpisów']); ?>
+    <?php else : ?><p>Brak wpisów.</p><?php endif; ?>
+</div>

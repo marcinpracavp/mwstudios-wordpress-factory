@@ -1,0 +1,123 @@
+{
+  "key": "group_mwf_mwf_contact_cities",
+  "title": "Factory — kontakt",
+  "fields": [
+    {
+      "key": "field_group_mwf_mwf_contact_cities_mwf_contact_cities",
+      "label": "Kontakt — miasta",
+      "name": "mwf_contact_cities",
+      "type": "repeater",
+      "layout": "block",
+      "button_label": "Dodaj",
+      "sub_fields": [
+        {
+          "key": "field_group_mwf_mwf_contact_cities_mwf_contact_cities_title",
+          "label": "Miasto",
+          "name": "title",
+          "type": "text"
+        },
+        {
+          "key": "field_group_mwf_mwf_contact_cities_mwf_contact_cities_departments",
+          "label": "Działy",
+          "name": "departments",
+          "type": "repeater",
+          "layout": "block",
+          "button_label": "Dodaj",
+          "sub_fields": [
+            {
+              "key": "field_group_mwf_mwf_contact_cities_mwf_contact_cities_departments_title",
+              "label": "Dział",
+              "name": "title",
+              "type": "text"
+            },
+            {
+              "key": "field_group_mwf_mwf_contact_cities_mwf_contact_cities_departments_items",
+              "label": "Osoby / kontakt",
+              "name": "items",
+              "type": "repeater",
+              "layout": "block",
+              "button_label": "Dodaj",
+              "sub_fields": [
+                {
+                  "key": "field_group_mwf_mwf_contact_cities_mwf_contact_cities_departments_items_name",
+                  "label": "Osoba lub dział",
+                  "name": "name",
+                  "type": "text"
+                },
+                {
+                  "key": "field_group_mwf_mwf_contact_cities_mwf_contact_cities_departments_items_role",
+                  "label": "Stanowisko",
+                  "name": "role",
+                  "type": "text"
+                },
+                {
+                  "key": "field_group_mwf_mwf_contact_cities_mwf_contact_cities_departments_items_address",
+                  "label": "Adres",
+                  "name": "address",
+                  "type": "textarea"
+                },
+                {
+                  "key": "field_group_mwf_mwf_contact_cities_mwf_contact_cities_departments_items_phones",
+                  "label": "Telefony",
+                  "name": "phones",
+                  "type": "repeater",
+                  "layout": "block",
+                  "button_label": "Dodaj",
+                  "sub_fields": [
+                    {
+                      "key": "field_group_mwf_mwf_contact_cities_mwf_contact_cities_departments_items_phones_number",
+                      "label": "Numer",
+                      "name": "number",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "key": "field_group_mwf_mwf_contact_cities_mwf_contact_cities_departments_items_emails",
+                  "label": "E-maile",
+                  "name": "emails",
+                  "type": "repeater",
+                  "layout": "block",
+                  "button_label": "Dodaj",
+                  "sub_fields": [
+                    {
+                      "key": "field_group_mwf_mwf_contact_cities_mwf_contact_cities_departments_items_emails_email",
+                      "label": "E-mail",
+                      "name": "email",
+                      "type": "email"
+                    }
+                  ]
+                },
+                {
+                  "key": "field_group_mwf_mwf_contact_cities_mwf_contact_cities_departments_items_hours",
+                  "label": "Godziny / informacje",
+                  "name": "hours",
+                  "type": "wysiwyg",
+                  "tabs": "all",
+                  "toolbar": "full",
+                  "media_upload": 1,
+                  "instructions": "Zachowaj zatwierdzone Hx i ALT. Nie używaj H1 w treści sekcji."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "instructions": " Dotyczy: template-contact.php."
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "page_template",
+        "operator": "==",
+        "value": "template-contact.php"
+      }
+    ]
+  ],
+  "active": true,
+  "position": "normal",
+  "style": "default",
+  "menu_order": 10,
+  "modified": 1791540000
+}
