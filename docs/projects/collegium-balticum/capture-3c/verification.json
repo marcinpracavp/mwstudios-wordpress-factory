@@ -1,0 +1,35 @@
+{
+  "at": "2026-10-09T19:49:31.821Z",
+  "branch": "project/collegium-balticum",
+  "genericCommit": "7c48d4e",
+  "engineBranch": "feature/live-capture-bundles",
+  "engineCommit": "bbfbc6b",
+  "tests": {
+    "captureIntegration": {
+      "status": "PASS",
+      "tests": 1,
+      "fixtureOnly": true
+    },
+    "existingLiveRegression": {
+      "status": "PASS",
+      "tests": 3,
+      "fixtureOnly": true
+    },
+    "cleanMinimalRuntime": {
+      "status": "PASS",
+      "playwright": "1.55.0",
+      "ajv": "8.17.1",
+      "fixtureOnly": true
+    },
+    "workflowYaml": "PASS"
+  },
+  "portableKit": {
+    "path": ".factory-cache/live/collegium-balticum/cb-capture-kit.zip",
+    "bytes": 220732,
+    "sha256": "e4963a0cfdb23af8024ddca34e899a988c1a0364fcd4ff91f2e3dcb5e4dd5b46"
+  },
+  "githubHostedRun": "NOT_STARTED",
+  "realCbScreenshots": 0,
+  "push": "NOT_PERFORMED_USER_APPROVAL_REQUIRED",
+  "wordpressChanges": false
+}

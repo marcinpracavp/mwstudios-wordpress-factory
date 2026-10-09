@@ -1,0 +1,59 @@
+// Reuses the factory LIVE capture through a browser adapter; does not alter Figma or WordPress.
+const fs=require('fs'),path=require('path');
+const {capture}=require('../../../factory/live/capture');
+const {discoverBrowser,getChromium}=require('../../../factory/qa/browser');
+const {sha,manifest,verify,zip}=require('../../../../tools/live-capture/bundle');
+const config=require('../../../../docs/projects/collegium-balticum/live.json');
+async function timed(promise,ms){let timer;try{return await Promise.race([promise,new Promise((_,reject)=>{timer=setTimeout(()=>reject(Error('ASSET_BODY_TIMEOUT')),ms);})]);}finally{clearTimeout(timer);}}
+const write=(file,data)=>{fs.mkdirSync(path.dirname(file),{recursive:true});fs.writeFileSync(file,JSON.stringify(data,null,2)+'\n');};
+async function httpsProbe(url) {
+  const result={url,at:new Date().toISOString(),tlsVerification:true};
+  try{const response=await fetch(url,{signal:AbortSignal.timeout(15000),redirect:'follow'});result.httpStatus=response.status;result.finalUrl=response.url;result.title=(await response.text()).match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1]||null;}catch(error){result.error=error.message;}
+  return result;
+}
+function adapter(browser,dir,root,source) {
+  const observations={assets:[],failures:[]};
+  const wrapped={async newContext(settings){const context=await browser.newContext(settings);await context.route('**/*',route=>['GET','HEAD'].includes(route.request().method())?route.continue():route.abort());const create=context.newPage.bind(context);context.newPage=async()=>{const page=await create();const responses=[];
+    page.on('response',response=>{if(['stylesheet','font','image'].includes(response.request().resourceType()))responses.push(response);});
+    const navigate=page.goto.bind(page);page.goto=async(url,options)=>{const response=await navigate(url,options);observations.navigation=await page.evaluate(()=>({title:document.title,h1:[...document.querySelectorAll('h1')].map(e=>e.innerText),documentContainsCb:/collegium balticum/i.test(document.body.innerText),challenge:/please wait while your request is being verified|verify you are human|checking your browser|one moment, please/i.test(document.title+' '+document.body.innerText.slice(0,1500))}));return response;};
+    const screenshot=page.screenshot.bind(page);
+    page.screenshot=async options=>{
+      const final=new URL(page.url()),origin=new URL(source.sourceUrl);if(![origin.hostname,origin.hostname.replace(/^www\./,'')].includes(final.hostname)||!['http:','https:'].includes(final.protocol)||/\/wp-(admin|login)/.test(final.pathname))throw Error('WRONG_FINAL_ORIGIN');
+      const identity=await page.evaluate(()=>{const text=document.body.innerText,title=document.title;return {title,h1:[...document.querySelectorAll('h1')].map(e=>e.innerText),valid:/collegium balticum/i.test(text)&&text.trim().length>200&&!/please wait while your request is being verified|verify you are human|checking your browser|complete the captcha|just a moment|one moment, please/i.test(title+' '+text.slice(0,1500)),css:[...document.querySelectorAll('link[rel="stylesheet"]')].map(e=>({url:e.href,loaded:Boolean(e.sheet)})),fonts:{ready:document.fonts.status==='loaded',faces:[...document.fonts].map(f=>({family:f.family,weight:f.weight,status:f.status}))},images:[...document.images].map(e=>({url:e.currentSrc||e.src,alt:e.getAttribute('alt'),loaded:e.complete&&e.naturalWidth>0,width:e.naturalWidth,height:e.naturalHeight}))};});
+      observations.identity=identity;if(!identity.valid)throw Error('NOT_REAL_CB_DOCUMENT');
+      if(!identity.css.length||identity.css.some(c=>!c.loaded)||!identity.fonts.ready||identity.images.some(i=>i.url&&!i.loaded))throw Error('VISUAL_ASSETS_NOT_READY');
+      fs.writeFileSync(path.join(dir,'rendered.html'),await page.content());
+      const dom=await page.evaluate(()=>{const rect=e=>{const r=e.getBoundingClientRect(),s=getComputedStyle(e);return {x:r.x+scrollX,y:r.y+scrollY,width:r.width,height:r.height,font:s.fontFamily,fontSize:s.fontSize,lineHeight:s.lineHeight,color:s.color,background:s.backgroundColor,backgroundImage:s.backgroundImage}};return {url:location.href,title:document.title,lang:document.documentElement.lang,canonical:document.querySelector('link[rel=canonical]')?.href||null,seo:[...document.querySelectorAll('meta[name],meta[property]')].map(e=>({name:e.name||e.getAttribute('property'),content:e.content})),headings:[...document.querySelectorAll('h1,h2,h3,h4,h5,h6')].map(e=>({tag:e.tagName,text:e.innerText,...rect(e)})),links:[...document.querySelectorAll('a[href]')].map(e=>({text:e.innerText,href:e.href})),images:[...document.images].map(e=>({url:e.currentSrc||e.src,alt:e.getAttribute('alt'),...rect(e)})),sections:[...document.querySelectorAll('header,main,footer,section,article,main>*,.elementor-section,.vc_row')].slice(0,1500).map((e,index)=>({index,tag:e.tagName,id:e.id,classes:e.className,...rect(e)})),containers:[...document.querySelectorAll('body,main,.container,[class*="container"]')].slice(0,500).map(e=>({tag:e.tagName,classes:e.className,...rect(e)})),stylesheets:[...document.querySelectorAll('link[rel=stylesheet]')].map(e=>e.href),scripts:[...document.querySelectorAll('script[src]')].map(e=>e.src),performanceResources:performance.getEntriesByType('resource').map(e=>({url:e.name,type:e.initiatorType,duration:e.duration}))};});write(path.join(dir,'dom.json'),dom);
+      const seen=new Set();let total=0;
+      for(const response of responses){const url=response.url();if(seen.has(url))continue;seen.add(url);const entry={url,status:response.status(),type:response.request().resourceType(),contentType:response.headers()['content-type']||''};try{if(response.status()>=400)throw Error('HTTP '+response.status());const bytes=await timed(response.body(),8000);if(bytes.length>25*1024*1024||(total+=bytes.length)>200*1024*1024)throw Error('ASSET_SIZE_LIMIT');const ext=entry.type==='stylesheet'?'.css':entry.contentType.includes('woff2')?'.woff2':entry.contentType.includes('woff')?'.woff':entry.contentType.includes('jpeg')?'.jpg':entry.contentType.includes('png')?'.png':entry.contentType.includes('svg')?'.svg':'.bin';entry.sha256=sha(bytes);entry.bytes=bytes.length;entry.file='assets/'+entry.sha256+ext;fs.mkdirSync(path.join(root,'assets'),{recursive:true});if(!fs.existsSync(path.join(root,entry.file)))fs.writeFileSync(path.join(root,entry.file),bytes);}catch(error){entry.error=error.message;observations.failures.push({url,error:error.message});}observations.assets.push(entry);}
+      write(path.join(dir,'resources.json'),observations);
+      return screenshot(options);
+    };return page;};return context;}};
+  return {browser:wrapped,observations};
+}
+function homeReady(records){return ['desktop','mobile'].every(viewport=>records.some(r=>r.id==='CB-00'&&r.viewport===viewport&&r.status==='DONE'&&r.identity?.valid));}
+async function run({mode='home',output,ids,previous,source=config,browser:providedBrowser}={}) {
+  if(!['home','full','retry'].includes(mode))throw Error('INVALID_MODE');
+  if(!output)output=path.resolve('.factory-cache/live/collegium-balticum/remote',new Date().toISOString().replace(/[:.]/g,'-'));
+  if(fs.existsSync(output))throw Error('OUTPUT_EXISTS');fs.mkdirSync(output,{recursive:true});
+  let parent=null;if(previous){parent=verify(previous,source);if(!homeReady(parent.records))throw Error('PREVIOUS_HOME_NOT_READY');}
+  if(mode==='retry'&&!parent&&!ids)throw Error('RETRY_REQUIRES_FAILED_IDS_OR_VERIFIED_BUNDLE');
+  const selected=ids?ids.split(',').map(x=>x.trim()).filter(Boolean):mode==='retry'?parent.records.filter(r=>r.status!=='DONE').map(r=>r.id):source.routes.map(r=>r.id);
+  if(selected.some(id=>!source.routes.some(r=>r.id===id)))throw Error('UNKNOWN_CB_ID');
+  write(path.join(output,'https-probe.json'),await httpsProbe(source.sourceUrl+'/'));
+  const records=[];let browser=providedBrowser,fatalError=null;
+  try {
+    if(!browser){const found=discoverBrowser().browser;if(!found)throw Error('CHROMIUM_UNAVAILABLE');browser=await getChromium().launch({executablePath:found.executablePath,headless:true,args:['--no-sandbox']});}
+    const viewports=source.viewports.filter(v=>['desktop','mobile'].includes(v.id)).sort((a,b)=>(a.id==='desktop'?0:1)-(b.id==='desktop'?0:1));
+    async function one(route,viewport){const relative=route.id+'/'+viewport.id,dir=path.join(output,relative);const a=adapter(browser,dir,output,source);const result=await capture(a.browser,source.sourceUrl+route.path,viewport,dir,source);const record={id:route.id,viewport:viewport.id,url:result.url,status:result.status,httpStatus:result.httpStatus??null,finalUrl:result.finalUrl??null,redirected:result.redirected??null,identity:a.observations.identity||null,navigation:a.observations.navigation||null,errors:result.errors,missingAssets:a.observations.failures,paths:{capture:relative+'/capture.json'}};if(result.status==='DONE'){Object.assign(record.paths,{screenshot:relative+'/full.png',html:relative+'/rendered.html',dom:relative+'/dom.json',resources:relative+'/resources.json',layout:relative+'/layout.json',metrics:relative+'/metrics.json'});}records.push(record);console.log(route.id,viewport.id,record.status);return record;}
+    if(!parent){for(const viewport of viewports){const result=await one(source.routes.find(r=>r.id==='CB-00'),viewport);if(result.status!=='DONE')break;}if(!homeReady(records))throw Error('HOME_POC_FAILED: no full batch permitted');manifest(output,{project:source.project,sourceUrl:source.sourceUrl,configHash:sha(Buffer.from(JSON.stringify(source))),records,stage:'verified-home-proof'});verify(output,source);}
+    if(mode!=='home')for(const route of source.routes.filter(r=>selected.includes(r.id)&&(parent||r.id!=='CB-00'))){for(const viewport of viewports){if(parent&&parent.records.some(r=>r.id===route.id&&r.viewport===viewport.id&&r.status==='DONE'))continue;await one(route,viewport);}await new Promise(resolve=>setTimeout(resolve,500));}
+  }catch(error){fatalError=error.message;write(path.join(output,'run-error.json'),{message:error.message});}
+  finally{if(browser&&!providedBrowser)await browser.close();}
+  const expected=mode==='home'?2:parent?parent.records.filter(r=>r.status!=='DONE'&&selected.includes(r.id)).length:2+source.routes.filter(r=>r.id!=='CB-00'&&selected.includes(r.id)).length*2;
+  const result=manifest(output,{project:source.project,sourceUrl:source.sourceUrl,configHash:sha(Buffer.from(JSON.stringify(source))),capturedAt:new Date().toISOString(),mode,parentManifestHash:parent?sha(fs.readFileSync(path.join(previous,'manifest.json'))):null,runner:process.env.GITHUB_ACTIONS==='true'?{kind:'github-actions',repository:process.env.GITHUB_REPOSITORY,runId:process.env.GITHUB_RUN_ID,commit:process.env.GITHUB_SHA}:{kind:'standalone'},status:!fatalError&&records.length===expected&&records.every(r=>r.status==='DONE')?'DONE':'BLOCKED',homeProof:parent?{verifiedParent:true}:homeReady(records),records});
+  if(!fatalError&&result.records.some(r=>r.status==='DONE'))verify(output,source);
+  zip(output,output+'.zip');console.log(JSON.stringify({output,zip:output+'.zip',status:result.status,records:records.length}));return result;
+}
+if(require.main===module){const options={};for(let i=2;i<process.argv.length;i+=2){const key=process.argv[i];if(!['--mode','--output','--ids','--previous'].includes(key)||!process.argv[i+1])throw Error('INVALID_ARGUMENT');options[key.slice(2)]=process.argv[i+1];}run(options).then(result=>{process.exitCode=result.status==='DONE'?0:1;}).catch(error=>{console.error(error.message);process.exitCode=1;});}
+module.exports={run,adapter,httpsProbe,homeReady};

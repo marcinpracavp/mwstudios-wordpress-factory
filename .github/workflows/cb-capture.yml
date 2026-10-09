@@ -1,0 +1,79 @@
+name: CB LIVE reference capture
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'home: proof of concept; full: 19 routes after home succeeds; retry: selected failed routes'
+        required: true
+        default: home
+        type: choice
+        options: [home, full, retry]
+      failed_ids:
+        description: 'Retry only: comma-separated CB IDs from the previous import report'
+        required: false
+        type: string
+  # Registers the new workflow without merging into main or autopilot-clean.
+  # This trigger can only run the homepage proof, never the full batch.
+  push:
+    branches: [project/collegium-balticum]
+    paths: [.github/workflows/cb-capture.yml]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cb-production-reference-capture
+  cancel-in-progress: false
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      NODE_PATH: ${{ github.workspace }}/tools/live-capture/node_modules
+      CAPTURE_MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || 'home' }}
+      FAILED_IDS: ${{ inputs.failed_ids }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install only capture dependencies
+        run: npm ci --prefix tools/live-capture --ignore-scripts --no-audit --no-fund
+      - name: Install Chromium and its system dependencies
+        run: |
+          node tools/live-capture/node_modules/playwright-core/cli.js install --with-deps chromium
+          echo "FACTORY_BROWSER_PATH=$(node -e "process.stdout.write(require('./tools/live-capture/node_modules/playwright-core').chromium.executablePath())")" >> "$GITHUB_ENV"
+      - name: HTTPS test and real browser capture
+        run: |
+          args=(--mode "$CAPTURE_MODE" --output "$RUNNER_TEMP/cb-reference")
+          if [ "$CAPTURE_MODE" = retry ]; then
+            if [ -z "$FAILED_IDS" ]; then echo 'Failed route IDs are required'; exit 1; fi
+            args+=(--ids "$FAILED_IDS")
+          fi
+          node scripts/projects/collegium-balticum/remote/run.js "${args[@]}"
+      - name: Preserve screenshots or failure evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cb-live-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/cb-reference/
+          if-no-files-found: warn
+          retention-days: 30
+      - name: Publish factual summary
+        if: always()
+        run: |
+          node - <<'JS'
+          const fs=require('fs');
+          const file=process.env.RUNNER_TEMP+'/cb-reference/manifest.json';
+          if(!fs.existsSync(file)) { fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,'Capture did not create a manifest. Inspect installation/runner logs.\n'); process.exit(0); }
+          const m=JSON.parse(fs.readFileSync(file));
+          const lines=['CB reference capture: '+m.status,'','| ID | Viewport | HTTP | Final URL | Title | H1 | CB identity | Fonts ready |','|---|---|---|---|---|---|---|---|'];
+          const cell=value=>String(value??'unavailable').replace(/\|/g,'/').replace(/\n/g,' ');
+          for(const r of m.records) lines.push('| '+[r.id,r.viewport,r.httpStatus,r.finalUrl,r.identity?.title||r.navigation?.title,(r.identity?.h1||r.navigation?.h1)?.join('; '),r.identity?.valid,r.identity?.fonts?.ready].map(cell).join(' | ')+' |');
+          lines.push('','CSS/image load details, errors, raw HTML, DOM/SEO/layout, resources and file SHA256 are in the artifact. VISUAL_QA remains unreviewed.');
+          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,lines.join('\n')+'\n');
+          JS

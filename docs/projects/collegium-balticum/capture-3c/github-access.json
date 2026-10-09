@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-09T19:29:52.303Z",
+  "credentialAvailable": true,
+  "results": [
+    {
+      "endpoint": "repos/marcinpracavp/mwstudios-wordpress-factory",
+      "status": 200,
+      "detail": {
+        "full_name": "marcinpracavp/mwstudios-wordpress-factory",
+        "default_branch": "main",
+        "permissions": {
+          "admin": true,
+          "maintain": true,
+          "push": true,
+          "triage": true,
+          "pull": true
+        },
+        "archived": false,
+        "private": false
+      }
+    },
+    {
+      "endpoint": "repos/marcinpracavp/mwstudios-wordpress-factory/actions/permissions",
+      "status": 403,
+      "detail": {
+        "message": "Resource not accessible by integration",
+        "documentation_url": "https://docs.github.com/rest/actions/permissions#get-github-actions-permissions-for-a-repository",
+        "status": "403"
+      }
+    },
+    {
+      "endpoint": "repos/marcinpracavp/mwstudios-wordpress-factory/branches/project%2Fcollegium-balticum",
+      "status": 404,
+      "detail": {
+        "message": "Branch not found"
+      }
+    },
+    {
+      "endpoint": "repos/marcinpracavp/mwstudios-wordpress-factory/actions/workflows",
+      "status": 200,
+      "detail": {
+        "total_count": 0,
+        "workflows": []
+      }
+    },
+    {
+      "endpoint": "repos/marcinpracavp/mwstudios-wordpress-factory/actions/runs",
+      "status": 200,
+      "detail": {
+        "total_count": 0
+      }
+    },
+    {
+      "endpoint": "repos/marcinpracavp/mwstudios-wordpress-factory/actions/artifacts",
+      "status": 200,
+      "detail": {
+        "total_count": 0
+      }
+    }
+  ]
+}
