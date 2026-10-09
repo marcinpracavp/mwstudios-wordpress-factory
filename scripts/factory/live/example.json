@@ -1,0 +1,15 @@
+{
+  "$schema": "../../../factory/schemas/live.schema.json",
+  "source": "live",
+  "project": "example-migration",
+  "sourceUrl": "https://example.com",
+  "localUrl": "http://localhost:8000",
+  "reportDir": ".factory-cache/live/example-migration",
+  "locale": "en-US",
+  "viewports": [
+    {"id":"desktop","width":1440,"height":900},
+    {"id":"mobile","width":390,"height":844}
+  ],
+  "routes": [{"id":"home","path":"/","label":"Home","family":null}],
+  "visual": {"channelTolerance":24,"maxDifferentPixelRatio":0.04,"geometryTolerancePx":2}
+}

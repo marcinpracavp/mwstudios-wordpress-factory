@@ -150,6 +150,7 @@ function report(state, dir) {
   fs.writeFileSync(path.join(dir, 'REPORT.md'), lines.join('\n') + '\n');
 }
 async function main(argv = process.argv.slice(2), dependencies = {}) {
+  if (argv[0] === 'live') return require('../live/run').main(argv.slice(1));
   const runSession = dependencies.session || session;
   const runCommand = dependencies.command || command;
   fs.mkdirSync(CACHE, { recursive: true });

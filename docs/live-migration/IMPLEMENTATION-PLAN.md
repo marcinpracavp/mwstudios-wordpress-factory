@@ -1,5 +1,10 @@
 # Minimalny plan rozszerzenia Autopilota
 
+Aktualizacja zadania 2: działający adapter LIVE, konfiguracja, capture/layout,
+compare, checkpoint/retry i sześć statusów opisano w [RUNNING](RUNNING.md).
+Poniżej zachowano plan z zadania 1; pełna normalizacja planów Figma, automatyczne
+workery LIVE, importer i implementacja klienta pozostają dalszymi etapami.
+
 Status: plan zmian kodu po zadaniu 1; poniższe API i ścieżki cache LIVE są
 propozycją, nie istniejącą funkcjonalnością. W zadaniu 1 zmieniamy dokumentację
 i instrukcje, bez instalowania zależności, migracji danych i zmian silnika Figma.

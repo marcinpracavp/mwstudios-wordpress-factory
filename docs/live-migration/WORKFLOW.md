@@ -1,7 +1,8 @@
 # LIVE → WordPress factory: instrukcje agenta
 
-Status: trwały workflow, przygotowanie trybu LIVE (zadanie 1). Automatyczny
-runner nadal obsługuje Figma. Punkty rozszerzenia: [plan](IMPLEMENTATION-PLAN.md).
+Status: workflow LIVE. Od zadania 2 działa adapter capture/layout/compare oraz
+rejestr QA: [komendy](RUNNING.md). Runner Figma pozostaje dostępny.
+Dalsze rozszerzenia importu i workerów: [plan](IMPLEMENTATION-PLAN.md).
 Ten dokument nie jest poleceniem wykonania całej migracji w zadaniu dokumentacyjnym.
 
 ## Źródła i rozdzielenie odpowiedzialności

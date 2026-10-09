@@ -5,6 +5,10 @@ końcowego raportu. Opis architektury i reguł akceptacji znajduje się równie�
 w [`AUTOPILOT.md`](AUTOPILOT.md), a skrócony opis modułów hosta w
 [`AUTOPILOT_V2.md`](AUTOPILOT_V2.md).
 
+Dodatkowe źródło LIVE: `npm run factory:autopilot -- live run --config path/to/live.json`.
+Konfiguracja, capture, compare i rejestr QA: [LIVE RUNNING](../live-migration/RUNNING.md).
+Poniższy pipeline workerów opisuje istniejący tryb Figma.
+
 ## 1. Co robi Autopilot
 
 Autopilot:

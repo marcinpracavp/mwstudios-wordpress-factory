@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object", "additionalProperties": false,
+  "required": ["source", "project", "sourceUrl", "localUrl", "routes", "viewports", "reportDir", "visual"],
+  "properties": {
+    "$schema": {"type":"string"},
+    "source": {"const":"live"},
+    "project": {"$ref":"#/definitions/id"},
+    "sourceUrl": {"type":"string", "pattern":"^https?://"},
+    "localUrl": {"type":"string", "pattern":"^https?://"},
+    "reportDir": {"type":"string", "minLength":1},
+    "locale": {"type":"string", "default":"pl-PL"},
+    "ignoreHTTPSErrors": {"type":"boolean"},
+    "timeoutMs": {"type":"integer", "minimum":1000, "maximum":120000},
+    "settleMs": {"type":"integer", "minimum":0, "maximum":10000},
+    "selectors": {
+      "type":"object", "additionalProperties":false,
+      "properties": {"sections":{"type":"string","minLength":1},"containers":{"type":"string","minLength":1}}
+    },
+    "visual": {
+      "type":"object", "additionalProperties":false,
+      "required":["channelTolerance","maxDifferentPixelRatio","geometryTolerancePx"],
+      "properties": {
+        "channelTolerance":{"type":"integer","minimum":0,"maximum":255},
+        "maxDifferentPixelRatio":{"type":"number","minimum":0,"maximum":1},
+        "geometryTolerancePx":{"type":"number","minimum":0,"maximum":10}
+      }
+    },
+    "routes": {"type":"array","minItems":1,"items":{
+      "type":"object","additionalProperties":false,"required":["id","path"],
+      "properties":{"id":{"$ref":"#/definitions/id"},"path":{"type":"string"},"label":{"type":"string"},"family":{"type":["string","null"]}}
+    }},
+    "viewports": {"type":"array","minItems":1,"items":{
+      "type":"object","additionalProperties":false,"required":["id","width","height"],
+      "properties":{"id":{"$ref":"#/definitions/id"},"width":{"type":"integer","minimum":320,"maximum":2560},"height":{"type":"integer","minimum":200,"maximum":2160}}
+    }}
+  },
+  "definitions":{"id":{"type":"string","pattern":"^[A-Za-z0-9][A-Za-z0-9_-]*$"}}
+}

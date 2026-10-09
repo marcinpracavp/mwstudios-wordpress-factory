@@ -75,7 +75,9 @@
     "fix-env": "unset NODE_ENV && npm install --include=dev",
     "factory:autopilot:test": "node scripts/factory/autopilot/test-all.js",
     "factory:autopilot:smoke": "node scripts/factory/autopilot/v2-smoke.js",
-    "factory:codespaces:bootstrap": "node scripts/factory/codespaces-bootstrap.js"
+    "factory:codespaces:bootstrap": "node scripts/factory/codespaces-bootstrap.js",
+    "factory:live": "node scripts/factory/live/run.js",
+    "factory:live:test": "node --test scripts/factory/live/*.test.js"
   },
   "author": "slawinsky",
   "license": "ISC",
