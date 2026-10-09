@@ -1,5 +1,5 @@
 {
   "mode": "home",
   "failed_ids": [],
-  "reason": "Wait for real CB content after NitroPack rendering, then verify responsive carousel readiness"
+  "reason": "Verify carousel content width including padding: track must span its visible viewport"
 }
