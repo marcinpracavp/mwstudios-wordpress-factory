@@ -1,5 +1,5 @@
 {
   "mode": "home",
   "failed_ids": [],
-  "reason": "Verify real mobile carousel layout after source CSS readiness and normal viewport resize"
+  "reason": "Wait for real CB content after NitroPack rendering, then verify responsive carousel readiness"
 }
