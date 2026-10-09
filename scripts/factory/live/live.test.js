@@ -49,10 +49,13 @@ test('browser capture, layout, unequal image diff, errors, repeat and frozen ref
   const browser = await getChromium().launch({executablePath:found.browser.executablePath,headless:true});
   const dir = fs.mkdtempSync(path.join(os.tmpdir(),'live-browser-'));
   const server = http.createServer((req,res) => {
+    if (req.url==='/challenge/') { res.end('<html><title>One moment, please...</title><body>Verify you are human</body></html>'); return; }
+    if (req.url==='/empty/') { res.end('<html><title>Blank</title><body></body></html>'); return; }
+    if (req.url==='/hang/') { res.writeHead(200); res.write('pending'); return; }
     if (req.url==='/missing/') { res.writeHead(404); res.end('missing'); return; }
     if (req.url==='/redirect/') { res.writeHead(302,{Location:'/'}); res.end(); return; }
     const changed=req.url==='/changed/';
-    res.end(`<html lang="en"><title>Fixture</title><style>body{background:${changed?'blue':'white'}}main{max-width:800px;padding:30px}section{height:${changed?500:300}px}</style><main class="container"><h1>Fixture</h1><section><p>Text</p><img alt="" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10'%3E%3C/svg%3E"></section></main></html>`);
+    res.end(`<html lang="en"><title>Fixture</title><style>body{background:${changed?'blue':'white'}}main{max-width:800px;padding:30px}section{height:${changed?500:300}px}</style><main class="container"><h1>Fixture</h1><section><p>Text</p><img alt="" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10'%3E%3C/svg%3E"></section></main>${req.url==='/pending/'?'<script>fetch("/hang/")</script>':''}</html>`);
   });
   await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
   const base=`http://127.0.0.1:${server.address().port}`;
@@ -65,6 +68,16 @@ test('browser capture, layout, unequal image diff, errors, repeat and frozen ref
     const local=await capture(browser,base+'/',viewport,path.join(dir,'local'),cfg);
     assert.equal(ref.status,'DONE'); assert.ok(fs.existsSync(path.join(dir,'ref/full.png')));
     assert.equal(ref.layout.headings[0].text,'Fixture'); assert.ok(ref.layout.sections.length); assert.ok(ref.layout.containers.length);
+    for (const [route, error] of [['challenge','ACCESS_CHALLENGE_DOCUMENT'],['empty','EMPTY_SOURCE_DOCUMENT']]) {
+      const blocked = await capture(browser,base+'/'+route+'/',viewport,path.join(dir,route),cfg);
+      assert.equal(blocked.status,'BLOCKED');
+      assert.equal(blocked.paths.screenshot,undefined);
+      assert.ok(blocked.errors.some(e=>e.message.includes(error)));
+      assert.equal(blocked.diagnostics.stage,'content-validation');
+    }
+    const pending = await capture(browser,base+'/pending/',viewport,path.join(dir,'pending'),cfg);
+    assert.equal(pending.status,'DONE','Unfinished background fetch must not gate DOM capture');
+    assert.ok(pending.diagnostics.pendingRequests.some(url=>url.endsWith('/hang/')));
     const pointer=(r,folder)=>({...r,screenshot:path.join(dir,folder,'full.png')});
     const page=await browser.newPage();
     const same=await compare(page,pointer(ref,'ref'),pointer(local,'local'),path.join(dir,'same'),cfg.visual);
@@ -114,7 +127,7 @@ test('browser capture, layout, unequal image diff, errors, repeat and frozen ref
     await assert.rejects(compare(page,pointer(ref,'ref'),pointer(local,'local'),dir,cfg.visual),/HASH_MISMATCH/);
     process.exitCode=beforeExit;
   } finally {
-    await browser.close(); await new Promise(resolve=>server.close(resolve)); fixture.cleanup();
+    await browser.close(); server.closeAllConnections(); await new Promise(resolve=>server.close(resolve)); fixture.cleanup();
     fs.rmSync(dir,{recursive:true,force:true});fs.rmSync(path.resolve(cfg.reportDir),{recursive:true,force:true});
   }
 });

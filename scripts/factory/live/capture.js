@@ -24,23 +24,41 @@ async function layout(page, selectors = {}) {
 async function capture(browser, url, viewport, dir, config) {
   fs.mkdirSync(dir, { recursive:true });
   const result = { url, viewport, capturedAt:new Date().toISOString(), status:'BLOCKED', errors:[], paths:{} };
+  const started = Date.now();
+  result.diagnostics = { stage:'context', events:[], pendingRequests:[], console:[] };
+  const stage = name => { result.diagnostics.stage = name; result.diagnostics.events.push({ stage:name, elapsedMs:Date.now()-started }); };
   let context;
+  const pending = new Set();
   try {
     context = await browser.newContext({ viewport:{width:viewport.width,height:viewport.height}, deviceScaleFactor:1,
       reducedMotion:'reduce', locale:config.locale || 'pl-PL', timezoneId:'UTC', ignoreHTTPSErrors:config.ignoreHTTPSErrors === true });
     const page = await context.newPage();
+    page.on('request', r => pending.add(r.url()));
+    page.on('requestfinished', r => pending.delete(r.url()));
+    page.on('requestfailed', r => pending.delete(r.url()));
+    page.on('console', message => { if (['error','warning'].includes(message.type())) result.diagnostics.console.push({type:message.type(),message:message.text().slice(0,1000)}); });
+    page.on('domcontentloaded', () => result.diagnostics.events.push({stage:'domcontentloaded',elapsedMs:Date.now()-started}));
+    page.on('load', () => result.diagnostics.events.push({stage:'load',elapsedMs:Date.now()-started}));
     page.setDefaultTimeout(config.timeoutMs || 30000);
     page.on('requestfailed', r => result.errors.push({ type:'request', url:r.url(), message:r.failure()?.errorText }));
     page.on('pageerror', e => result.errors.push({ type:'javascript', message:e.message }));
+    stage('navigation');
     const response = await page.goto(url, { waitUntil:'domcontentloaded', timeout:config.timeoutMs || 30000 });
     result.httpStatus = response?.status() ?? null;
     result.finalUrl = page.url();
     result.redirected = result.finalUrl !== url;
     if (!response || response.status() >= 400) throw Error(`HTTP_ACCESS_FAILED: ${result.httpStatus}`);
+    stage('content-validation');
+    await page.locator('body').waitFor({state:'visible'});
+    const content = await page.evaluate(() => ({title:document.title,text:document.body.innerText.trim(), height:document.body.getBoundingClientRect().height}));
+    if (!content.text || content.height < 1) throw Error('EMPTY_SOURCE_DOCUMENT');
+    if (/^(one moment|just a moment|access denied|attention required|service unavailable|bad gateway)/i.test(content.title.trim()) || /verify you are human|checking your browser|complete the captcha/i.test(content.text)) throw Error('ACCESS_CHALLENGE_DOCUMENT');
+    stage('fonts-images-lazy-scroll');
     await settle(page);
     await page.waitForTimeout(config.settleMs ?? 250);
     result.metrics = await collectPageMetrics(page);
     result.layout = await layout(page, config.selectors);
+    stage('screenshot');
     await page.screenshot({ path:path.join(dir,'full.png'), fullPage:true, animations:'disabled', timeout:config.timeoutMs || 30000 });
     result.paths.screenshot = 'full.png';
     result.screenshotHash = hash(fs.readFileSync(path.join(dir,'full.png')));
@@ -48,8 +66,13 @@ async function capture(browser, url, viewport, dir, config) {
     write(path.join(dir,'metrics.json'), result.metrics);
     result.paths.layout = 'layout.json'; result.paths.metrics = 'metrics.json';
     result.status = 'DONE';
+    stage('complete');
   } catch (error) { result.errors.push({ type:'capture', message:error.message }); }
-  finally { if (context) await context.close().catch(() => {}); }
+  finally {
+    result.diagnostics.pendingRequests = [...pending];
+    result.diagnostics.elapsedMs = Date.now()-started;
+    if (context) await context.close().catch(() => {});
+  }
   write(path.join(dir,'capture.json'), result);
   return result;
 }

@@ -1,5 +1,6 @@
 <?php
-$title = is_category() ? single_cat_title('', false) : (is_home() ? get_the_title(get_option('page_for_posts')) : get_the_archive_title());
+$query = $args['query'] ?? $GLOBALS['wp_query'];
+$title = $args['title'] ?? (is_category() ? single_cat_title('', false) : (is_home() ? get_the_title(get_option('page_for_posts')) : get_the_archive_title()));
 $title = $title ?: 'Wpisy';
 if (is_search()) { $title = 'Wyniki wyszukiwania: ' . get_search_query(); }
 ?>
@@ -10,12 +11,15 @@ if (is_search()) { $title = 'Wyniki wyszukiwania: ' . get_search_query(); }
     <?php get_search_form(); ?>
 </header>
 <div class="l-container py-50">
-    <?php if (have_posts()) : ?>
+    <?php if ($query->have_posts()) : ?>
     <div class="grid gap-200 gap-sm-0 row-gap-sm-200">
-    <?php $i = 0; while (have_posts()) : the_post(); $col = 2 + ($i++ % 3) * 4;
+    <?php $i = 0; while ($query->have_posts()) : $query->the_post(); $col = 2 + ($i++ % 3) * 4;
         get_template_part('partials/blog-item', null, ['class' => 'gc-' . $col . '/' . ($col + 4) . ' gc-sm-2/14']);
     endwhile; ?>
     </div>
-    <?php the_posts_pagination(['mid_size' => 2, 'prev_text' => 'Poprzednia strona', 'next_text' => 'Następna strona', 'screen_reader_text' => 'Strony wpisów']); ?>
+    <?php
+    $links = paginate_links(['total' => $query->max_num_pages, 'current' => max(1, (int) get_query_var('paged'), (int) get_query_var('page')), 'mid_size' => 2, 'prev_text' => 'Poprzednia strona', 'next_text' => 'Następna strona', 'type' => 'list']);
+    if ($links) : ?><nav class="navigation pagination" aria-label="Strony wpisów"><?php echo wp_kses_post($links); ?></nav><?php endif;
+    wp_reset_postdata(); ?>
     <?php else : ?><p>Brak wpisów.</p><?php endif; ?>
 </div>

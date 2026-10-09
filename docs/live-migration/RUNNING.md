@@ -169,3 +169,15 @@ Capture narzędzi można sprawdzić na działającym WP z motywem domyślnym;
 to nie dowodzi wdrożenia factory/CB. Brak ACF Pro nie uzasadnia pozorowania jego
 funkcji. Konfiguracja `.devcontainer` montuje repo jako motyw; aktywacja factory
 i import danych są kolejnym etapem migracji.
+
+## Diagnostyka capture po naprawie 3A
+
+`capture.json` zapisuje `diagnostics.stage`, oś czasu DOM/load, ostrzeżenia konsoli,
+niezakończone żądania i czas całkowity także po błędzie. Nawigacja używa
+`domcontentloaded`; nie czeka na `networkidle`. Wspólny `settle()` ogranicza
+oczekiwanie na fonty (15 s), lazy scroll (30 s) i dekodowanie obrazów (15 s).
+Pusty dokument i rozpoznana strona wyzwania dostępu otrzymują BLOCKED bez PNG.
+Nie jest to mechanizm omijania zabezpieczeń. HTTP >=400 również blokuje referencję.
+Test integracyjny sprawdza niezakończony fetch w tle: nie blokuje poprawnego DOM.
+Brak krytycznych obrazów/fontów nadal wymaga kontroli metrics i bramki visual;
+samo powstanie PNG nie oznacza akceptacji wyglądu ani dostępności.

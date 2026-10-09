@@ -31,7 +31,8 @@ add_action('get_header', 'remove_admin_login_header');
  * Change wordpress wp-admin logo image
  */
 function change_wp_login_logo_image() { 
-    $logo = get_field('logo', 'options');
+    $logo = function_exists('get_field') ? get_field('logo', 'options') : null;
+    $logo_url = is_array($logo) ? ($logo['url'] ?? '') : (is_numeric($logo) ? wp_get_attachment_image_url((int) $logo, 'full') : '');
     ?>
     <style>
         body.login{background:#1a1f22;color:#8d8f9a;}
@@ -41,13 +42,15 @@ function change_wp_login_logo_image() {
         body.login form .forgetmenot, body.login #login form p.submit{margin-top:15px;}
         body.login #language-switcher select, body.login .language-switcher .button{background-color:#212329;border:1px solid #2E3139;}
         body.login #language-switcher select{margin-top:-13px;}
+        <?php if ($logo_url) : ?>
         body.login h1 a {
-            background-image: url('<?php echo $logo['url'] ?>') !important;
+            background-image: url('<?php echo esc_url($logo_url); ?>');
             background-size: contain;
             width: 320px;
             height: 80px;
             background-position: center;
         }
+        <?php endif; ?>
     </style>
 <?php }
 add_action( 'login_enqueue_scripts', 'change_wp_login_logo_image' );
