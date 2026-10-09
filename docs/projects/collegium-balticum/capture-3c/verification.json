@@ -1,14 +1,15 @@
 {
-  "at": "2026-10-09T19:49:31.821Z",
+  "at": "2026-10-09T20:44:26.636Z",
   "branch": "project/collegium-balticum",
   "genericCommit": "7c48d4e",
   "engineBranch": "feature/live-capture-bundles",
-  "engineCommit": "bbfbc6b",
+  "engineCommit": "4c47f68",
   "tests": {
     "captureIntegration": {
       "status": "PASS",
       "tests": 1,
-      "fixtureOnly": true
+      "fixtureOnly": true,
+      "latest": "PASS after final screenshot-time geometry classification"
     },
     "existingLiveRegression": {
       "status": "PASS",
@@ -19,17 +20,66 @@
       "status": "PASS",
       "playwright": "1.55.0",
       "ajv": "8.17.1",
-      "fixtureOnly": true
+      "fixtureOnly": true,
+      "latest": "PASS after source evidence and width clipping fixes; final geometry classification additionally checked by integration test"
     },
-    "workflowYaml": "PASS"
+    "workflowYaml": "PASS",
+    "originalGithubFullBundleIntegrity": "PASS including source overflow evidence"
   },
   "portableKit": {
     "path": ".factory-cache/live/collegium-balticum/cb-capture-kit.zip",
-    "bytes": 220732,
-    "sha256": "e4963a0cfdb23af8024ddca34e899a988c1a0364fcd4ff91f2e3dcb5e4dd5b46"
+    "bytes": 222128,
+    "sha256": "0e7f74ba86b39ca499cfa3d342618466e55828c201bf3b5a5f27fc3a36a61fe1"
   },
-  "githubHostedRun": "NOT_STARTED",
-  "realCbScreenshots": 0,
-  "push": "NOT_PERFORMED_USER_APPROVAL_REQUIRED",
-  "wordpressChanges": false
+  "githubHostedRun": {
+    "home": {
+      "id": 37987108323,
+      "artifactId": 11643068023,
+      "status": "DONE",
+      "screenshotsInspected": true,
+      "bundle": "6b7a9720b599f8a7"
+    },
+    "full": {
+      "id": 37987295715,
+      "artifactId": 11643652991,
+      "status": "BLOCKED",
+      "import": "a58132455f6f7756"
+    },
+    "retry": {
+      "id": 37988497301,
+      "artifactId": 11643004742,
+      "status": "BLOCKED",
+      "import": "b188794e2451ce56"
+    }
+  },
+  "realCbScreenshots": 38,
+  "push": "PERFORMED_USER_APPROVED",
+  "wordpressChanges": false,
+  "actionsApiDispatch": "403 Resource not accessible by integration; versioned push request used",
+  "visualQa": "NOT_STARTED",
+  "realCbHtml": 38,
+  "counts": {
+    "pages": 19,
+    "screenshots": 38,
+    "html": 38,
+    "doneViews": 32,
+    "blockedViews": 6
+  },
+  "sourceBlockedPages": [
+    "CB-08",
+    "CB-11",
+    "CB-17",
+    "CB-18"
+  ],
+  "allRequestedUrlsHttp200": true,
+  "reviewedScreenshots": [
+    "CB-00 desktop/mobile",
+    "CB-04 desktop",
+    "CB-05 desktop",
+    "CB-06 mobile",
+    "CB-10 desktop",
+    "CB-08 desktop",
+    "CB-11 desktop",
+    "CB-03 mobile"
+  ]
 }

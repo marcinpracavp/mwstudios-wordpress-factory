@@ -1,0 +1,1396 @@
+{
+  "at": "2026-10-09T20:43:27.356Z",
+  "project": "collegium-balticum",
+  "rows": [
+    {
+      "id": "CB-00",
+      "label": "Strona główna",
+      "url": "https://www.cb.szczecin.pl/",
+      "views": [
+        {
+          "viewport": "desktop",
+          "status": "DONE",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cb.szczecin.pl/",
+          "title": "Studia, Zaoczne, Dzienne - Collegium Balticum Akademia Nauk Stosowanych",
+          "h1": [
+            "Studia zaoczne i dzienne"
+          ],
+          "sourceWarnings": [],
+          "bundle": "b188794e2451ce56",
+          "artifactId": 11643004742,
+          "paths": {
+            "capture": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-00/desktop/capture.json",
+            "screenshot": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-00/desktop/full.png",
+            "html": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-00/desktop/rendered.html",
+            "dom": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-00/desktop/dom.json",
+            "resources": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-00/desktop/resources.json",
+            "layout": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-00/desktop/layout.json",
+            "metrics": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-00/desktop/metrics.json"
+          },
+          "screenshot": {
+            "width": 1440,
+            "height": 5457,
+            "bytes": 2946083,
+            "sha256": "a1ed4b298780aa429d369672f105cc32091a3a302caaff080247e7c3f0b2c8a2"
+          },
+          "htmlBytes": 738476,
+          "cssLoaded": true,
+          "fontsReady": true
+        },
+        {
+          "viewport": "mobile",
+          "status": "DONE",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cb.szczecin.pl/",
+          "title": "Studia, Zaoczne, Dzienne - Collegium Balticum Akademia Nauk Stosowanych",
+          "h1": [
+            "Studia zaoczne i dzienne"
+          ],
+          "sourceWarnings": [],
+          "bundle": "b188794e2451ce56",
+          "artifactId": 11643004742,
+          "paths": {
+            "capture": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-00/mobile/capture.json",
+            "screenshot": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-00/mobile/full.png",
+            "html": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-00/mobile/rendered.html",
+            "dom": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-00/mobile/dom.json",
+            "resources": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-00/mobile/resources.json",
+            "layout": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-00/mobile/layout.json",
+            "metrics": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-00/mobile/metrics.json"
+          },
+          "screenshot": {
+            "width": 390,
+            "height": 8475,
+            "bytes": 1415521,
+            "sha256": "462c8619fecf6adb43ed8843e0ac892695446073e0642ff7d27fc4dcc978db93"
+          },
+          "htmlBytes": 740769,
+          "cssLoaded": true,
+          "fontsReady": true
+        }
+      ]
+    },
+    {
+      "id": "CB-01",
+      "label": "Kontakt",
+      "url": "https://www.cb.szczecin.pl/kontakt/",
+      "views": [
+        {
+          "viewport": "desktop",
+          "status": "DONE",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cb.szczecin.pl/kontakt/",
+          "title": "Skontaktuj się z Nami » Collegium Balticum",
+          "h1": [
+            "Lokalizacja"
+          ],
+          "sourceWarnings": [],
+          "bundle": "a58132455f6f7756",
+          "artifactId": 11643652991,
+          "paths": {
+            "capture": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-01/desktop/capture.json",
+            "screenshot": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-01/desktop/full.png",
+            "html": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-01/desktop/rendered.html",
+            "dom": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-01/desktop/dom.json",
+            "resources": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-01/desktop/resources.json",
+            "layout": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-01/desktop/layout.json",
+            "metrics": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-01/desktop/metrics.json"
+          },
+          "screenshot": {
+            "width": 1440,
+            "height": 3604,
+            "bytes": 299578,
+            "sha256": "571241a7e60fccf7c88385b95e8bbc866bedd10260c7f1fea203005bfb2a5074"
+          },
+          "htmlBytes": 681314,
+          "cssLoaded": true,
+          "fontsReady": true
+        },
+        {
+          "viewport": "mobile",
+          "status": "DONE",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cb.szczecin.pl/kontakt/",
+          "title": "Skontaktuj się z Nami » Collegium Balticum",
+          "h1": [
+            "Lokalizacja"
+          ],
+          "sourceWarnings": [],
+          "bundle": "a58132455f6f7756",
+          "artifactId": 11643652991,
+          "paths": {
+            "capture": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-01/mobile/capture.json",
+            "screenshot": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-01/mobile/full.png",
+            "html": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-01/mobile/rendered.html",
+            "dom": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-01/mobile/dom.json",
+            "resources": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-01/mobile/resources.json",
+            "layout": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-01/mobile/layout.json",
+            "metrics": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-01/mobile/metrics.json"
+          },
+          "screenshot": {
+            "width": 390,
+            "height": 5373,
+            "bytes": 211753,
+            "sha256": "9618cd5c5f9c25a9ed0354b384e4adf92cebccf59babfa63fbd1c4802d491308"
+          },
+          "htmlBytes": 680998,
+          "cssLoaded": true,
+          "fontsReady": true
+        }
+      ]
+    },
+    {
+      "id": "CB-02",
+      "label": "Archiwum bloga",
+      "url": "https://www.cb.szczecin.pl/category/wpisy/blog-post/",
+      "views": [
+        {
+          "viewport": "desktop",
+          "status": "DONE",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cb.szczecin.pl/category/wpisy/blog-post/",
+          "title": "Blog » Collegium Balticum",
+          "h1": [
+            "BLOG"
+          ],
+          "sourceWarnings": [],
+          "bundle": "a58132455f6f7756",
+          "artifactId": 11643652991,
+          "paths": {
+            "capture": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-02/desktop/capture.json",
+            "screenshot": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-02/desktop/full.png",
+            "html": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-02/desktop/rendered.html",
+            "dom": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-02/desktop/dom.json",
+            "resources": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-02/desktop/resources.json",
+            "layout": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-02/desktop/layout.json",
+            "metrics": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-02/desktop/metrics.json"
+          },
+          "screenshot": {
+            "width": 1440,
+            "height": 3242,
+            "bytes": 983223,
+            "sha256": "6b388b8da7786a199e9aaadf7245a7e13082bbf8ce3c014c6e14cf3c718b581b"
+          },
+          "htmlBytes": 647464,
+          "cssLoaded": true,
+          "fontsReady": true
+        },
+        {
+          "viewport": "mobile",
+          "status": "DONE",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cb.szczecin.pl/category/wpisy/blog-post/",
+          "title": "Blog » Collegium Balticum",
+          "h1": [
+            "BLOG"
+          ],
+          "sourceWarnings": [],
+          "bundle": "a58132455f6f7756",
+          "artifactId": 11643652991,
+          "paths": {
+            "capture": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-02/mobile/capture.json",
+            "screenshot": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-02/mobile/full.png",
+            "html": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-02/mobile/rendered.html",
+            "dom": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-02/mobile/dom.json",
+            "resources": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-02/mobile/resources.json",
+            "layout": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-02/mobile/layout.json",
+            "metrics": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-02/mobile/metrics.json"
+          },
+          "screenshot": {
+            "width": 390,
+            "height": 5960,
+            "bytes": 601347,
+            "sha256": "3aa04db891b33b8e9faa9ae2429f116249162fa642a3483d47529f71b3ef7aa6"
+          },
+          "htmlBytes": 647322,
+          "cssLoaded": true,
+          "fontsReady": true
+        }
+      ]
+    },
+    {
+      "id": "CB-03",
+      "label": "Dynamiczny pojedynczy wpis — przykład QA",
+      "url": "https://www.cb.szczecin.pl/wpisy/blog-post/dietetyka-licencjacka-i-magisterska-czym-roznia-sie-programy-i-perspektywy-zawodowe/",
+      "views": [
+        {
+          "viewport": "desktop",
+          "status": "DONE",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cb.szczecin.pl/wpisy/blog-post/dietetyka-licencjacka-i-magisterska-czym-roznia-sie-programy-i-perspektywy-zawodowe/",
+          "title": "Dietetyka licencjacka i magisterska: czym różnią się programy i perspektywy zawodowe? » Collegium Balticum",
+          "h1": [
+            "Dietetyka licencjacka i magisterska: czym różnią się programy i perspektywy zawodowe?"
+          ],
+          "sourceWarnings": [],
+          "bundle": "b188794e2451ce56",
+          "artifactId": 11643004742,
+          "paths": {
+            "capture": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-03/desktop/capture.json",
+            "screenshot": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-03/desktop/full.png",
+            "html": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-03/desktop/rendered.html",
+            "dom": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-03/desktop/dom.json",
+            "resources": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-03/desktop/resources.json",
+            "layout": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-03/desktop/layout.json",
+            "metrics": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-03/desktop/metrics.json"
+          },
+          "screenshot": {
+            "width": 1440,
+            "height": 6497,
+            "bytes": 1687162,
+            "sha256": "7f586d0871bff510e8d2d3f50988fcf5d4162e07e469c9bc9d67399ee1b43e08"
+          },
+          "htmlBytes": 673819,
+          "cssLoaded": true,
+          "fontsReady": true
+        },
+        {
+          "viewport": "mobile",
+          "status": "DONE",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cb.szczecin.pl/wpisy/blog-post/dietetyka-licencjacka-i-magisterska-czym-roznia-sie-programy-i-perspektywy-zawodowe/",
+          "title": "Dietetyka licencjacka i magisterska: czym różnią się programy i perspektywy zawodowe? » Collegium Balticum",
+          "h1": [
+            "Dietetyka licencjacka i magisterska: czym różnią się programy i perspektywy zawodowe?"
+          ],
+          "sourceWarnings": [],
+          "bundle": "b188794e2451ce56",
+          "artifactId": 11643004742,
+          "paths": {
+            "capture": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-03/mobile/capture.json",
+            "screenshot": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-03/mobile/full.png",
+            "html": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-03/mobile/rendered.html",
+            "dom": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-03/mobile/dom.json",
+            "resources": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-03/mobile/resources.json",
+            "layout": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-03/mobile/layout.json",
+            "metrics": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-03/mobile/metrics.json"
+          },
+          "screenshot": {
+            "width": 390,
+            "height": 11988,
+            "bytes": 1061048,
+            "sha256": "af018e249dff6f64ccf2b9ceb8b120ac7a77325965db5e1df5f67b16cc90ee54"
+          },
+          "htmlBytes": 674128,
+          "cssLoaded": true,
+          "fontsReady": true
+        }
+      ]
+    },
+    {
+      "id": "CB-04",
+      "label": "Rekrutacja",
+      "url": "https://www.cb.szczecin.pl/rekrutacja/",
+      "views": [
+        {
+          "viewport": "desktop",
+          "status": "DONE",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cb.szczecin.pl/rekrutacja/",
+          "title": "Studia - Rekrutacja 2026 na studia licencjackie i magisterskie » Collegium Balticum",
+          "h1": [
+            "Rozpoczynamy rekrutację na studia na rok akademicki 2026/2027"
+          ],
+          "sourceWarnings": [],
+          "bundle": "a58132455f6f7756",
+          "artifactId": 11643652991,
+          "paths": {
+            "capture": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-04/desktop/capture.json",
+            "screenshot": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-04/desktop/full.png",
+            "html": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-04/desktop/rendered.html",
+            "dom": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-04/desktop/dom.json",
+            "resources": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-04/desktop/resources.json",
+            "layout": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-04/desktop/layout.json",
+            "metrics": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-04/desktop/metrics.json"
+          },
+          "screenshot": {
+            "width": 1440,
+            "height": 7924,
+            "bytes": 2504444,
+            "sha256": "4527423f30fb3e553d3e3a8242e951062e2a56aaaea039a746c44616bc649304"
+          },
+          "htmlBytes": 684762,
+          "cssLoaded": true,
+          "fontsReady": true
+        },
+        {
+          "viewport": "mobile",
+          "status": "DONE",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cb.szczecin.pl/rekrutacja/",
+          "title": "Studia - Rekrutacja 2026 na studia licencjackie i magisterskie » Collegium Balticum",
+          "h1": [
+            "Rozpoczynamy rekrutację na studia na rok akademicki 2026/2027"
+          ],
+          "sourceWarnings": [],
+          "bundle": "a58132455f6f7756",
+          "artifactId": 11643652991,
+          "paths": {
+            "capture": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-04/mobile/capture.json",
+            "screenshot": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-04/mobile/full.png",
+            "html": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-04/mobile/rendered.html",
+            "dom": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-04/mobile/dom.json",
+            "resources": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-04/mobile/resources.json",
+            "layout": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-04/mobile/layout.json",
+            "metrics": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-04/mobile/metrics.json"
+          },
+          "screenshot": {
+            "width": 390,
+            "height": 15343,
+            "bytes": 1191460,
+            "sha256": "169150de5edb32540d785c4c6b089870b922041bef1119627fae9f98e50783c7"
+          },
+          "htmlBytes": 684195,
+          "cssLoaded": true,
+          "fontsReady": true
+        }
+      ]
+    },
+    {
+      "id": "CB-05",
+      "label": "Dni otwarte",
+      "url": "https://www.cb.szczecin.pl/dni-otwarte/",
+      "views": [
+        {
+          "viewport": "desktop",
+          "status": "DONE",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cb.szczecin.pl/dni-otwarte/",
+          "title": "Dni otwarte » 4 marca 2026 - Collegium Balticum",
+          "h1": [
+            "Dni Otwarte"
+          ],
+          "sourceWarnings": [],
+          "bundle": "a58132455f6f7756",
+          "artifactId": 11643652991,
+          "paths": {
+            "capture": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-05/desktop/capture.json",
+            "screenshot": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-05/desktop/full.png",
+            "html": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-05/desktop/rendered.html",
+            "dom": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-05/desktop/dom.json",
+            "resources": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-05/desktop/resources.json",
+            "layout": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-05/desktop/layout.json",
+            "metrics": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-05/desktop/metrics.json"
+          },
+          "screenshot": {
+            "width": 1440,
+            "height": 5914,
+            "bytes": 2005605,
+            "sha256": "db5a7c42c6c65eec646ef678b3438921cf05007b7e75f5fd2142b591a71a2572"
+          },
+          "htmlBytes": 739685,
+          "cssLoaded": true,
+          "fontsReady": true
+        },
+        {
+          "viewport": "mobile",
+          "status": "DONE",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cb.szczecin.pl/dni-otwarte/",
+          "title": "Dni otwarte » 4 marca 2026 - Collegium Balticum",
+          "h1": [
+            "Dni Otwarte"
+          ],
+          "sourceWarnings": [],
+          "bundle": "a58132455f6f7756",
+          "artifactId": 11643652991,
+          "paths": {
+            "capture": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-05/mobile/capture.json",
+            "screenshot": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-05/mobile/full.png",
+            "html": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-05/mobile/rendered.html",
+            "dom": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-05/mobile/dom.json",
+            "resources": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-05/mobile/resources.json",
+            "layout": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-05/mobile/layout.json",
+            "metrics": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-05/mobile/metrics.json"
+          },
+          "screenshot": {
+            "width": 390,
+            "height": 8485,
+            "bytes": 762848,
+            "sha256": "220d7e93efd2af176ac203bdc86ef4270efb04f376f3398fa755ba7e51312fdd"
+          },
+          "htmlBytes": 741152,
+          "cssLoaded": true,
+          "fontsReady": true
+        }
+      ]
+    },
+    {
+      "id": "CB-06",
+      "label": "Studia licencjackie",
+      "url": "https://www.cb.szczecin.pl/tryb-studiow/studia-licencjackie/",
+      "views": [
+        {
+          "viewport": "desktop",
+          "status": "DONE",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cb.szczecin.pl/tryb-studiow/studia-licencjackie/",
+          "title": "Studia licencjackie :: Studia I stopnia - Szczecin - Stargard - Collegium Balticum",
+          "h1": [
+            "Studia licencjackie 2026",
+            "Studia licencjackie 2026",
+            "Studia licencjackie 2026"
+          ],
+          "sourceWarnings": [],
+          "bundle": "a58132455f6f7756",
+          "artifactId": 11643652991,
+          "paths": {
+            "capture": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-06/desktop/capture.json",
+            "screenshot": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-06/desktop/full.png",
+            "html": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-06/desktop/rendered.html",
+            "dom": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-06/desktop/dom.json",
+            "resources": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-06/desktop/resources.json",
+            "layout": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-06/desktop/layout.json",
+            "metrics": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-06/desktop/metrics.json"
+          },
+          "screenshot": {
+            "width": 1440,
+            "height": 4103,
+            "bytes": 1188508,
+            "sha256": "eca1bb7bf7c063c1f5cb17294b6a73be3e06f76b84befda268320da49be28269"
+          },
+          "htmlBytes": 666851,
+          "cssLoaded": true,
+          "fontsReady": true
+        },
+        {
+          "viewport": "mobile",
+          "status": "DONE",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cb.szczecin.pl/tryb-studiow/studia-licencjackie/",
+          "title": "Studia licencjackie :: Studia I stopnia - Szczecin - Stargard - Collegium Balticum",
+          "h1": [
+            "Studia licencjackie 2026",
+            "Studia licencjackie 2026",
+            "Studia licencjackie 2026"
+          ],
+          "sourceWarnings": [],
+          "bundle": "a58132455f6f7756",
+          "artifactId": 11643652991,
+          "paths": {
+            "capture": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-06/mobile/capture.json",
+            "screenshot": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-06/mobile/full.png",
+            "html": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-06/mobile/rendered.html",
+            "dom": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-06/mobile/dom.json",
+            "resources": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-06/mobile/resources.json",
+            "layout": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-06/mobile/layout.json",
+            "metrics": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-06/mobile/metrics.json"
+          },
+          "screenshot": {
+            "width": 390,
+            "height": 8199,
+            "bytes": 443038,
+            "sha256": "316ec7c78740082a0da05aac3c1ff0060125e19dfdb4c852ba58daed59fc7030"
+          },
+          "htmlBytes": 667283,
+          "cssLoaded": true,
+          "fontsReady": true
+        }
+      ]
+    },
+    {
+      "id": "CB-07",
+      "label": "Studia magisterskie",
+      "url": "https://www.cb.szczecin.pl/tryb-studiow/studia-magisterskie/",
+      "views": [
+        {
+          "viewport": "desktop",
+          "status": "DONE",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cb.szczecin.pl/tryb-studiow/studia-magisterskie/",
+          "title": "Studia magisterskie - Studia II stopnia - Szczecin - Stargard - Collegium Balticum",
+          "h1": [
+            "Studia magisterskie 2026",
+            "Studia magisterskie 2026",
+            "Studia magisterskie 2026"
+          ],
+          "sourceWarnings": [],
+          "bundle": "a58132455f6f7756",
+          "artifactId": 11643652991,
+          "paths": {
+            "capture": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-07/desktop/capture.json",
+            "screenshot": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-07/desktop/full.png",
+            "html": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-07/desktop/rendered.html",
+            "dom": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-07/desktop/dom.json",
+            "resources": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-07/desktop/resources.json",
+            "layout": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-07/desktop/layout.json",
+            "metrics": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-07/desktop/metrics.json"
+          },
+          "screenshot": {
+            "width": 1440,
+            "height": 3966,
+            "bytes": 1367535,
+            "sha256": "fba74b9c4a9e59500025b06081d8c9dc06d0d665cec76a6025b66f2466fdfe5a"
+          },
+          "htmlBytes": 663772,
+          "cssLoaded": true,
+          "fontsReady": true
+        },
+        {
+          "viewport": "mobile",
+          "status": "DONE",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cb.szczecin.pl/tryb-studiow/studia-magisterskie/",
+          "title": "Studia magisterskie - Studia II stopnia - Szczecin - Stargard - Collegium Balticum",
+          "h1": [
+            "Studia magisterskie 2026",
+            "Studia magisterskie 2026",
+            "Studia magisterskie 2026"
+          ],
+          "sourceWarnings": [],
+          "bundle": "a58132455f6f7756",
+          "artifactId": 11643652991,
+          "paths": {
+            "capture": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-07/mobile/capture.json",
+            "screenshot": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-07/mobile/full.png",
+            "html": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-07/mobile/rendered.html",
+            "dom": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-07/mobile/dom.json",
+            "resources": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-07/mobile/resources.json",
+            "layout": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-07/mobile/layout.json",
+            "metrics": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-07/mobile/metrics.json"
+          },
+          "screenshot": {
+            "width": 390,
+            "height": 8255,
+            "bytes": 473605,
+            "sha256": "b8074e3bb6cd4997fe050c41d6aea81a2763a18004e89c5cda2520ae4d6c2857"
+          },
+          "htmlBytes": 664219,
+          "cssLoaded": true,
+          "fontsReady": true
+        }
+      ]
+    },
+    {
+      "id": "CB-08",
+      "label": "Fitodietetyka",
+      "url": "https://www.cb.szczecin.pl/tryb-studiow/studia-podyplomowe/studia-nienauczycielskie/fitodietetyka/",
+      "views": [
+        {
+          "viewport": "desktop",
+          "status": "BLOCKED",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cb.szczecin.pl/tryb-studiow/studia-podyplomowe/studia-nienauczycielskie/fitodietetyka/",
+          "title": "Fitodietetyka - Studia podyplomowe - CB ANS Szczecin",
+          "h1": [
+            "Fitodietetyka",
+            "Fitodietetyka",
+            "Fitodietetyka"
+          ],
+          "sourceWarnings": [
+            {
+              "type": "SOURCE_EMPTY_IMAGE_SRC",
+              "url": "https://www.cb.szczecin.pl/tryb-studiow/studia-podyplomowe/studia-nienauczycielskie/fitodietetyka/",
+              "alt": ""
+            }
+          ],
+          "bundle": "b188794e2451ce56",
+          "artifactId": 11643004742,
+          "paths": {
+            "capture": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-08/desktop/capture.json",
+            "screenshot": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-08/desktop/full.png",
+            "html": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-08/desktop/rendered.html",
+            "dom": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-08/desktop/dom.json",
+            "resources": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-08/desktop/resources.json",
+            "layout": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-08/desktop/layout.json",
+            "metrics": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-08/desktop/metrics.json"
+          },
+          "screenshot": {
+            "width": 1440,
+            "height": 9182,
+            "bytes": 3960883,
+            "sha256": "b501dd7921bf792d491a581f1d85a47d42f3f1352f407b7f23fdf5629df6d705"
+          },
+          "htmlBytes": 735938,
+          "cssLoaded": true,
+          "fontsReady": true
+        },
+        {
+          "viewport": "mobile",
+          "status": "BLOCKED",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cb.szczecin.pl/tryb-studiow/studia-podyplomowe/studia-nienauczycielskie/fitodietetyka/",
+          "title": "Fitodietetyka - Studia podyplomowe - CB ANS Szczecin",
+          "h1": [
+            "Fitodietetyka",
+            "Fitodietetyka",
+            "Fitodietetyka"
+          ],
+          "sourceWarnings": [
+            {
+              "type": "SOURCE_EMPTY_IMAGE_SRC",
+              "url": "https://www.cb.szczecin.pl/tryb-studiow/studia-podyplomowe/studia-nienauczycielskie/fitodietetyka/",
+              "alt": ""
+            }
+          ],
+          "bundle": "b188794e2451ce56",
+          "artifactId": 11643004742,
+          "paths": {
+            "capture": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-08/mobile/capture.json",
+            "screenshot": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-08/mobile/full.png",
+            "html": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-08/mobile/rendered.html",
+            "dom": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-08/mobile/dom.json",
+            "resources": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-08/mobile/resources.json",
+            "layout": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-08/mobile/layout.json",
+            "metrics": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-08/mobile/metrics.json"
+          },
+          "screenshot": {
+            "width": 390,
+            "height": 11220,
+            "bytes": 1388914,
+            "sha256": "db933ab0ecbbb4c36c41884c5a4966e6f82700da86647df1a4b8ed3bdbe21788"
+          },
+          "htmlBytes": 730504,
+          "cssLoaded": true,
+          "fontsReady": true
+        }
+      ]
+    },
+    {
+      "id": "CB-09",
+      "label": "Studia online",
+      "url": "https://www.cb.szczecin.pl/tryb-studiow/studia-online/",
+      "views": [
+        {
+          "viewport": "desktop",
+          "status": "DONE",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cb.szczecin.pl/tryb-studiow/studia-online/",
+          "title": "Studia online :: Formuły hybrydowe - Szczecin - Stargard - Collegium Balticum",
+          "h1": [
+            "Studia Online",
+            "Studia Online",
+            "Studia Online"
+          ],
+          "sourceWarnings": [],
+          "bundle": "a58132455f6f7756",
+          "artifactId": 11643652991,
+          "paths": {
+            "capture": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-09/desktop/capture.json",
+            "screenshot": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-09/desktop/full.png",
+            "html": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-09/desktop/rendered.html",
+            "dom": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-09/desktop/dom.json",
+            "resources": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-09/desktop/resources.json",
+            "layout": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-09/desktop/layout.json",
+            "metrics": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-09/desktop/metrics.json"
+          },
+          "screenshot": {
+            "width": 1440,
+            "height": 4454,
+            "bytes": 1761477,
+            "sha256": "b504ad42d723823e616de708947dad377a613b80c8e8a7c020a5d2cac478c5e8"
+          },
+          "htmlBytes": 648805,
+          "cssLoaded": true,
+          "fontsReady": true
+        },
+        {
+          "viewport": "mobile",
+          "status": "DONE",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cb.szczecin.pl/tryb-studiow/studia-online/",
+          "title": "Studia online :: Formuły hybrydowe - Szczecin - Stargard - Collegium Balticum",
+          "h1": [
+            "Studia Online",
+            "Studia Online",
+            "Studia Online"
+          ],
+          "sourceWarnings": [],
+          "bundle": "a58132455f6f7756",
+          "artifactId": 11643652991,
+          "paths": {
+            "capture": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-09/mobile/capture.json",
+            "screenshot": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-09/mobile/full.png",
+            "html": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-09/mobile/rendered.html",
+            "dom": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-09/mobile/dom.json",
+            "resources": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-09/mobile/resources.json",
+            "layout": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-09/mobile/layout.json",
+            "metrics": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-09/mobile/metrics.json"
+          },
+          "screenshot": {
+            "width": 390,
+            "height": 6822,
+            "bytes": 643579,
+            "sha256": "93f0f04be4091b9464081a7dc41c11cf7b7eca8f5edd3818f6fa4ce7333270f6"
+          },
+          "htmlBytes": 649276,
+          "cssLoaded": true,
+          "fontsReady": true
+        }
+      ]
+    },
+    {
+      "id": "CB-10",
+      "label": "Studia podyplomowe",
+      "url": "https://www.cb.szczecin.pl/tryb-studiow/studia-podyplomowe/",
+      "views": [
+        {
+          "viewport": "desktop",
+          "status": "DONE",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cb.szczecin.pl/tryb-studiow/studia-podyplomowe/",
+          "title": "Studia Podyplomowe - Studia w Szczecinie - CB ANS",
+          "h1": [
+            "Studia podyplomowe w Szczecinie"
+          ],
+          "sourceWarnings": [],
+          "bundle": "a58132455f6f7756",
+          "artifactId": 11643652991,
+          "paths": {
+            "capture": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-10/desktop/capture.json",
+            "screenshot": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-10/desktop/full.png",
+            "html": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-10/desktop/rendered.html",
+            "dom": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-10/desktop/dom.json",
+            "resources": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-10/desktop/resources.json",
+            "layout": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-10/desktop/layout.json",
+            "metrics": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-10/desktop/metrics.json"
+          },
+          "screenshot": {
+            "width": 1440,
+            "height": 12306,
+            "bytes": 2496164,
+            "sha256": "e2aa82ee9411619c047b5d299a58f1775230b93ed02cddb51c405ea05a19e50c"
+          },
+          "htmlBytes": 733029,
+          "cssLoaded": true,
+          "fontsReady": true
+        },
+        {
+          "viewport": "mobile",
+          "status": "DONE",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cb.szczecin.pl/tryb-studiow/studia-podyplomowe/",
+          "title": "Studia Podyplomowe - Studia w Szczecinie - CB ANS",
+          "h1": [
+            "Studia podyplomowe w Szczecinie"
+          ],
+          "sourceWarnings": [],
+          "bundle": "a58132455f6f7756",
+          "artifactId": 11643652991,
+          "paths": {
+            "capture": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-10/mobile/capture.json",
+            "screenshot": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-10/mobile/full.png",
+            "html": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-10/mobile/rendered.html",
+            "dom": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-10/mobile/dom.json",
+            "resources": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-10/mobile/resources.json",
+            "layout": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-10/mobile/layout.json",
+            "metrics": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-10/mobile/metrics.json"
+          },
+          "screenshot": {
+            "width": 390,
+            "height": 18682,
+            "bytes": 1492019,
+            "sha256": "b0a2c271b785ab37729e598b32418ec90f221d13cddfbc02afe917bad4d788f3"
+          },
+          "htmlBytes": 732185,
+          "cssLoaded": true,
+          "fontsReady": true
+        }
+      ]
+    },
+    {
+      "id": "CB-11",
+      "label": "Mediator sądowy",
+      "url": "https://www.cb.szczecin.pl/mediator-sadowy/",
+      "views": [
+        {
+          "viewport": "desktop",
+          "status": "BLOCKED",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cb.szczecin.pl/mediator-sadowy/",
+          "title": "Mediator Sądowy :: Kurs bazowy - Collegium Balticum",
+          "h1": [
+            "Mediator Sądowy – kurs bazowy",
+            "Mediator Sądowy – kurs bazowy",
+            "Mediator Sądowy – kurs bazowy"
+          ],
+          "sourceWarnings": [
+            {
+              "type": "SOURCE_EMPTY_IMAGE_SRC",
+              "url": "https://www.cb.szczecin.pl/mediator-sadowy/",
+              "alt": ""
+            }
+          ],
+          "bundle": "b188794e2451ce56",
+          "artifactId": 11643004742,
+          "paths": {
+            "capture": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-11/desktop/capture.json",
+            "screenshot": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-11/desktop/full.png",
+            "html": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-11/desktop/rendered.html",
+            "dom": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-11/desktop/dom.json",
+            "resources": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-11/desktop/resources.json",
+            "layout": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-11/desktop/layout.json",
+            "metrics": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-11/desktop/metrics.json"
+          },
+          "screenshot": {
+            "width": 1440,
+            "height": 3940,
+            "bytes": 1126821,
+            "sha256": "951cf1e19de25d7de6d9b80b119f5377460d23db644dbec24f045085366d7b9f"
+          },
+          "htmlBytes": 649053,
+          "cssLoaded": true,
+          "fontsReady": true
+        },
+        {
+          "viewport": "mobile",
+          "status": "BLOCKED",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cb.szczecin.pl/mediator-sadowy/",
+          "title": "Mediator Sądowy :: Kurs bazowy - Collegium Balticum",
+          "h1": [
+            "Mediator Sądowy – kurs bazowy",
+            "Mediator Sądowy – kurs bazowy",
+            "Mediator Sądowy – kurs bazowy"
+          ],
+          "sourceWarnings": [
+            {
+              "type": "SOURCE_EMPTY_IMAGE_SRC",
+              "url": "https://www.cb.szczecin.pl/mediator-sadowy/",
+              "alt": ""
+            }
+          ],
+          "bundle": "b188794e2451ce56",
+          "artifactId": 11643004742,
+          "paths": {
+            "capture": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-11/mobile/capture.json",
+            "screenshot": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-11/mobile/full.png",
+            "html": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-11/mobile/rendered.html",
+            "dom": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-11/mobile/dom.json",
+            "resources": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-11/mobile/resources.json",
+            "layout": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-11/mobile/layout.json",
+            "metrics": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-11/mobile/metrics.json"
+          },
+          "screenshot": {
+            "width": 390,
+            "height": 4896,
+            "bytes": 419628,
+            "sha256": "1d4562ef8bd3dc042a52c6949f89f9bfc9fc6d91be2c302f4697345e4b4dfd47"
+          },
+          "htmlBytes": 649513,
+          "cssLoaded": true,
+          "fontsReady": true
+        }
+      ]
+    },
+    {
+      "id": "CB-12",
+      "label": "Szkolenia rad pedagogicznych",
+      "url": "https://www.cb.szczecin.pl/szkolenia-rad-pedagogicznych/",
+      "views": [
+        {
+          "viewport": "desktop",
+          "status": "DONE",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cb.szczecin.pl/szkolenia-rad-pedagogicznych/",
+          "title": "Szkolenia rad pedagogicznych » Collegium Balticum",
+          "h1": [
+            "Szkolenia dla rad pedagogicznych"
+          ],
+          "sourceWarnings": [],
+          "bundle": "a58132455f6f7756",
+          "artifactId": 11643652991,
+          "paths": {
+            "capture": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-12/desktop/capture.json",
+            "screenshot": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-12/desktop/full.png",
+            "html": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-12/desktop/rendered.html",
+            "dom": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-12/desktop/dom.json",
+            "resources": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-12/desktop/resources.json",
+            "layout": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-12/desktop/layout.json",
+            "metrics": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-12/desktop/metrics.json"
+          },
+          "screenshot": {
+            "width": 1440,
+            "height": 3457,
+            "bytes": 1460055,
+            "sha256": "e155c3cd32dcc389b8100aa017c839bebbafd78fe6d076d52e589f893e9b3aca"
+          },
+          "htmlBytes": 643299,
+          "cssLoaded": true,
+          "fontsReady": true
+        },
+        {
+          "viewport": "mobile",
+          "status": "DONE",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cb.szczecin.pl/szkolenia-rad-pedagogicznych/",
+          "title": "Szkolenia rad pedagogicznych » Collegium Balticum",
+          "h1": [
+            "Szkolenia dla rad pedagogicznych"
+          ],
+          "sourceWarnings": [],
+          "bundle": "a58132455f6f7756",
+          "artifactId": 11643652991,
+          "paths": {
+            "capture": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-12/mobile/capture.json",
+            "screenshot": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-12/mobile/full.png",
+            "html": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-12/mobile/rendered.html",
+            "dom": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-12/mobile/dom.json",
+            "resources": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-12/mobile/resources.json",
+            "layout": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-12/mobile/layout.json",
+            "metrics": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-12/mobile/metrics.json"
+          },
+          "screenshot": {
+            "width": 390,
+            "height": 5503,
+            "bytes": 525579,
+            "sha256": "06df0d3243cf274d4fd8cd9327899974db4e9591aa5e17c7b689a0abc262cced"
+          },
+          "htmlBytes": 643109,
+          "cssLoaded": true,
+          "fontsReady": true
+        }
+      ]
+    },
+    {
+      "id": "CB-13",
+      "label": "Przeniesienie z innej uczelni",
+      "url": "https://www.cb.szczecin.pl/przeniesienie-z-innej-uczelni/",
+      "views": [
+        {
+          "viewport": "desktop",
+          "status": "DONE",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cb.szczecin.pl/przeniesienie-z-innej-uczelni/",
+          "title": "Przeniesienie z innej uczelni » Collegium Balticum",
+          "h1": [
+            "Przenieś się z innej uczelni do Collegium Balticum"
+          ],
+          "sourceWarnings": [],
+          "bundle": "a58132455f6f7756",
+          "artifactId": 11643652991,
+          "paths": {
+            "capture": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-13/desktop/capture.json",
+            "screenshot": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-13/desktop/full.png",
+            "html": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-13/desktop/rendered.html",
+            "dom": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-13/desktop/dom.json",
+            "resources": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-13/desktop/resources.json",
+            "layout": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-13/desktop/layout.json",
+            "metrics": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-13/desktop/metrics.json"
+          },
+          "screenshot": {
+            "width": 1440,
+            "height": 2531,
+            "bytes": 632529,
+            "sha256": "9cf5c3b56f510218514b1db2775cecf5c7abbba971776754e21fe2a616fa1b63"
+          },
+          "htmlBytes": 641952,
+          "cssLoaded": true,
+          "fontsReady": true
+        },
+        {
+          "viewport": "mobile",
+          "status": "DONE",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cb.szczecin.pl/przeniesienie-z-innej-uczelni/",
+          "title": "Przeniesienie z innej uczelni » Collegium Balticum",
+          "h1": [
+            "Przenieś się z innej uczelni do Collegium Balticum"
+          ],
+          "sourceWarnings": [],
+          "bundle": "a58132455f6f7756",
+          "artifactId": 11643652991,
+          "paths": {
+            "capture": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-13/mobile/capture.json",
+            "screenshot": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-13/mobile/full.png",
+            "html": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-13/mobile/rendered.html",
+            "dom": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-13/mobile/dom.json",
+            "resources": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-13/mobile/resources.json",
+            "layout": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-13/mobile/layout.json",
+            "metrics": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-13/mobile/metrics.json"
+          },
+          "screenshot": {
+            "width": 390,
+            "height": 4254,
+            "bytes": 267945,
+            "sha256": "4ff28f44f000bf6e30a41668ada27d74d2e3e7628a85557b4e8b6d2c358fa601"
+          },
+          "htmlBytes": 641621,
+          "cssLoaded": true,
+          "fontsReady": true
+        }
+      ]
+    },
+    {
+      "id": "CB-14",
+      "label": "Reaktywacja praw studenta",
+      "url": "https://www.cb.szczecin.pl/reaktywuj-sie-w-prawach-studenta-w-collegium-balticum/",
+      "views": [
+        {
+          "viewport": "desktop",
+          "status": "DONE",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cb.szczecin.pl/reaktywuj-sie-w-prawach-studenta-w-collegium-balticum/",
+          "title": "Reaktywuj się w prawach studenta w Collegium Balticum » Collegium Balticum",
+          "h1": [
+            "Reaktywuj się w prawach studenta w Collegium Balticum"
+          ],
+          "sourceWarnings": [],
+          "bundle": "a58132455f6f7756",
+          "artifactId": 11643652991,
+          "paths": {
+            "capture": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-14/desktop/capture.json",
+            "screenshot": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-14/desktop/full.png",
+            "html": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-14/desktop/rendered.html",
+            "dom": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-14/desktop/dom.json",
+            "resources": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-14/desktop/resources.json",
+            "layout": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-14/desktop/layout.json",
+            "metrics": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-14/desktop/metrics.json"
+          },
+          "screenshot": {
+            "width": 1440,
+            "height": 2479,
+            "bytes": 630745,
+            "sha256": "daf7aee712e0ea9a29ce1ec119b4ed903c867d926eb93738983b56f976d0216c"
+          },
+          "htmlBytes": 642548,
+          "cssLoaded": true,
+          "fontsReady": true
+        },
+        {
+          "viewport": "mobile",
+          "status": "DONE",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cb.szczecin.pl/reaktywuj-sie-w-prawach-studenta-w-collegium-balticum/",
+          "title": "Reaktywuj się w prawach studenta w Collegium Balticum » Collegium Balticum",
+          "h1": [
+            "Reaktywuj się w prawach studenta w Collegium Balticum"
+          ],
+          "sourceWarnings": [],
+          "bundle": "a58132455f6f7756",
+          "artifactId": 11643652991,
+          "paths": {
+            "capture": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-14/mobile/capture.json",
+            "screenshot": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-14/mobile/full.png",
+            "html": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-14/mobile/rendered.html",
+            "dom": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-14/mobile/dom.json",
+            "resources": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-14/mobile/resources.json",
+            "layout": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-14/mobile/layout.json",
+            "metrics": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-14/mobile/metrics.json"
+          },
+          "screenshot": {
+            "width": 390,
+            "height": 4178,
+            "bytes": 267630,
+            "sha256": "1217712601837f80d34152c8ddc635fe71de6bdb843b947f708c49edad3eaf4d"
+          },
+          "htmlBytes": 641951,
+          "cssLoaded": true,
+          "fontsReady": true
+        }
+      ]
+    },
+    {
+      "id": "CB-15",
+      "label": "Wsparcie studenta",
+      "url": "https://www.cb.szczecin.pl/strefa-studenta/wsparcie-studenta/",
+      "views": [
+        {
+          "viewport": "desktop",
+          "status": "DONE",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cb.szczecin.pl/strefa-studenta/wsparcie-studenta/",
+          "title": "Wsparcie Studenta » Collegium Balticum",
+          "h1": [
+            "Wsparcie Studenta"
+          ],
+          "sourceWarnings": [],
+          "bundle": "a58132455f6f7756",
+          "artifactId": 11643652991,
+          "paths": {
+            "capture": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-15/desktop/capture.json",
+            "screenshot": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-15/desktop/full.png",
+            "html": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-15/desktop/rendered.html",
+            "dom": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-15/desktop/dom.json",
+            "resources": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-15/desktop/resources.json",
+            "layout": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-15/desktop/layout.json",
+            "metrics": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-15/desktop/metrics.json"
+          },
+          "screenshot": {
+            "width": 1440,
+            "height": 3566,
+            "bytes": 563736,
+            "sha256": "02fdd539593eb19b8d35170f84e1e4b791145b135de34b9a82c9c4c392ee7b3b"
+          },
+          "htmlBytes": 648398,
+          "cssLoaded": true,
+          "fontsReady": true
+        },
+        {
+          "viewport": "mobile",
+          "status": "DONE",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cb.szczecin.pl/strefa-studenta/wsparcie-studenta/",
+          "title": "Wsparcie Studenta » Collegium Balticum",
+          "h1": [
+            "Wsparcie Studenta"
+          ],
+          "sourceWarnings": [],
+          "bundle": "a58132455f6f7756",
+          "artifactId": 11643652991,
+          "paths": {
+            "capture": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-15/mobile/capture.json",
+            "screenshot": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-15/mobile/full.png",
+            "html": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-15/mobile/rendered.html",
+            "dom": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-15/mobile/dom.json",
+            "resources": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-15/mobile/resources.json",
+            "layout": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-15/mobile/layout.json",
+            "metrics": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-15/mobile/metrics.json"
+          },
+          "screenshot": {
+            "width": 390,
+            "height": 5284,
+            "bytes": 265431,
+            "sha256": "0df1f5406beaac464267e782c589066dff0cee707ac926579adc641158b174bc"
+          },
+          "htmlBytes": 646960,
+          "cssLoaded": true,
+          "fontsReady": true
+        }
+      ]
+    },
+    {
+      "id": "CB-16",
+      "label": "Legitymacja studencka",
+      "url": "https://www.cb.szczecin.pl/strefa-studenta/legitymacja-studencka/",
+      "views": [
+        {
+          "viewport": "desktop",
+          "status": "DONE",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cb.szczecin.pl/strefa-studenta/legitymacja-studencka/",
+          "title": "Legitymacja studencka » Collegium Balticum",
+          "h1": [
+            "Legitymacja studencka"
+          ],
+          "sourceWarnings": [],
+          "bundle": "0f72d1ed1fb38100",
+          "artifactId": 11643164053,
+          "paths": {
+            "capture": "/workspace/.factory-cache/live/collegium-balticum/imports/0f72d1ed1fb38100/CB-16/desktop/capture.json",
+            "screenshot": "/workspace/.factory-cache/live/collegium-balticum/imports/0f72d1ed1fb38100/CB-16/desktop/full.png",
+            "html": "/workspace/.factory-cache/live/collegium-balticum/imports/0f72d1ed1fb38100/CB-16/desktop/rendered.html",
+            "dom": "/workspace/.factory-cache/live/collegium-balticum/imports/0f72d1ed1fb38100/CB-16/desktop/dom.json",
+            "resources": "/workspace/.factory-cache/live/collegium-balticum/imports/0f72d1ed1fb38100/CB-16/desktop/resources.json",
+            "layout": "/workspace/.factory-cache/live/collegium-balticum/imports/0f72d1ed1fb38100/CB-16/desktop/layout.json",
+            "metrics": "/workspace/.factory-cache/live/collegium-balticum/imports/0f72d1ed1fb38100/CB-16/desktop/metrics.json"
+          },
+          "screenshot": {
+            "width": 1440,
+            "height": 2498,
+            "bytes": 801071,
+            "sha256": "e8502187461a1e05e5924be7a92804009a28f657cc5afdb38ad30282072d38d4"
+          },
+          "htmlBytes": 645191,
+          "cssLoaded": true,
+          "fontsReady": true
+        },
+        {
+          "viewport": "mobile",
+          "status": "DONE",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cb.szczecin.pl/strefa-studenta/legitymacja-studencka/",
+          "title": "Legitymacja studencka » Collegium Balticum",
+          "h1": [
+            "Legitymacja studencka"
+          ],
+          "sourceWarnings": [],
+          "bundle": "0f72d1ed1fb38100",
+          "artifactId": 11643164053,
+          "paths": {
+            "capture": "/workspace/.factory-cache/live/collegium-balticum/imports/0f72d1ed1fb38100/CB-16/mobile/capture.json",
+            "screenshot": "/workspace/.factory-cache/live/collegium-balticum/imports/0f72d1ed1fb38100/CB-16/mobile/full.png",
+            "html": "/workspace/.factory-cache/live/collegium-balticum/imports/0f72d1ed1fb38100/CB-16/mobile/rendered.html",
+            "dom": "/workspace/.factory-cache/live/collegium-balticum/imports/0f72d1ed1fb38100/CB-16/mobile/dom.json",
+            "resources": "/workspace/.factory-cache/live/collegium-balticum/imports/0f72d1ed1fb38100/CB-16/mobile/resources.json",
+            "layout": "/workspace/.factory-cache/live/collegium-balticum/imports/0f72d1ed1fb38100/CB-16/mobile/layout.json",
+            "metrics": "/workspace/.factory-cache/live/collegium-balticum/imports/0f72d1ed1fb38100/CB-16/mobile/metrics.json"
+          },
+          "screenshot": {
+            "width": 390,
+            "height": 4346,
+            "bytes": 315493,
+            "sha256": "2986a5fe8d063bb76bf960f1eb3c32af6531d25ada0e6f68115baa843f01a87d"
+          },
+          "htmlBytes": 643258,
+          "cssLoaded": true,
+          "fontsReady": true
+        }
+      ]
+    },
+    {
+      "id": "CB-17",
+      "label": "Erasmus — o programie",
+      "url": "https://www.cb.szczecin.pl/strefa-studenta/erasmus/o-programie/",
+      "views": [
+        {
+          "viewport": "desktop",
+          "status": "BLOCKED",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cb.szczecin.pl/strefa-studenta/erasmus/o-programie/",
+          "title": "O programie » Collegium Balticum",
+          "h1": [
+            "O programie"
+          ],
+          "sourceWarnings": [
+            {
+              "type": "SOURCE_SLIDER_INVALID_WIDTH",
+              "sliders": [
+                {
+                  "width": 0,
+                  "listWidth": 1410,
+                  "listHeight": 56,
+                  "slides": 6,
+                  "visible": true
+                }
+              ]
+            }
+          ],
+          "bundle": "b188794e2451ce56",
+          "artifactId": 11643004742,
+          "paths": {
+            "capture": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-17/desktop/capture.json",
+            "screenshot": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-17/desktop/full.png",
+            "html": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-17/desktop/rendered.html",
+            "dom": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-17/desktop/dom.json",
+            "resources": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-17/desktop/resources.json",
+            "layout": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-17/desktop/layout.json",
+            "metrics": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-17/desktop/metrics.json"
+          },
+          "screenshot": {
+            "width": 1440,
+            "height": 4338,
+            "bytes": 856537,
+            "sha256": "99ece39e154a418c37de8ec01ceb9bece3cc7cff7fdbc66fa26b2b2bc55edb7d"
+          },
+          "htmlBytes": 667165,
+          "cssLoaded": true,
+          "fontsReady": true
+        },
+        {
+          "viewport": "mobile",
+          "status": "DONE",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cb.szczecin.pl/strefa-studenta/erasmus/o-programie/",
+          "title": "O programie » Collegium Balticum",
+          "h1": [
+            "O programie"
+          ],
+          "sourceWarnings": [],
+          "bundle": "b188794e2451ce56",
+          "artifactId": 11643004742,
+          "paths": {
+            "capture": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-17/mobile/capture.json",
+            "screenshot": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-17/mobile/full.png",
+            "html": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-17/mobile/rendered.html",
+            "dom": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-17/mobile/dom.json",
+            "resources": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-17/mobile/resources.json",
+            "layout": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-17/mobile/layout.json",
+            "metrics": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-17/mobile/metrics.json"
+          },
+          "screenshot": {
+            "width": 390,
+            "height": 5907,
+            "bytes": 359006,
+            "sha256": "f7232e918fcfd15380dce9836f4bb2d6f47f2d10e6a66176449d2555daac9ae4"
+          },
+          "htmlBytes": 666590,
+          "cssLoaded": true,
+          "fontsReady": true
+        }
+      ]
+    },
+    {
+      "id": "CB-18",
+      "label": "Biblioteka — wypożyczenie na zamówienie",
+      "url": "https://www.cb.szczecin.pl/strefa-studenta/biblioteka/wypozyczenie-na-zamowienie/",
+      "views": [
+        {
+          "viewport": "desktop",
+          "status": "BLOCKED",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cb.szczecin.pl/strefa-studenta/biblioteka/wypozyczenie-na-zamowienie/",
+          "title": "Wypożyczenie na zamówienie » Collegium Balticum",
+          "h1": [
+            "Wypożyczenie na zamówienie"
+          ],
+          "sourceWarnings": [
+            {
+              "type": "SOURCE_SLIDER_INVALID_WIDTH",
+              "sliders": [
+                {
+                  "width": 0,
+                  "listWidth": 1410,
+                  "listHeight": 56,
+                  "slides": 6,
+                  "visible": true
+                }
+              ]
+            }
+          ],
+          "bundle": "b188794e2451ce56",
+          "artifactId": 11643004742,
+          "paths": {
+            "capture": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-18/desktop/capture.json",
+            "screenshot": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-18/desktop/full.png",
+            "html": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-18/desktop/rendered.html",
+            "dom": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-18/desktop/dom.json",
+            "resources": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-18/desktop/resources.json",
+            "layout": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-18/desktop/layout.json",
+            "metrics": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-18/desktop/metrics.json"
+          },
+          "screenshot": {
+            "width": 1440,
+            "height": 2761,
+            "bytes": 1204488,
+            "sha256": "fa158ba37d1f2e5537183a5d5be31ebddd9438710e93d6adbd11208541442200"
+          },
+          "htmlBytes": 672852,
+          "cssLoaded": true,
+          "fontsReady": true
+        },
+        {
+          "viewport": "mobile",
+          "status": "DONE",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cb.szczecin.pl/strefa-studenta/biblioteka/wypozyczenie-na-zamowienie/",
+          "title": "Wypożyczenie na zamówienie » Collegium Balticum",
+          "h1": [
+            "Wypożyczenie na zamówienie"
+          ],
+          "sourceWarnings": [],
+          "bundle": "b188794e2451ce56",
+          "artifactId": 11643004742,
+          "paths": {
+            "capture": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-18/mobile/capture.json",
+            "screenshot": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-18/mobile/full.png",
+            "html": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-18/mobile/rendered.html",
+            "dom": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-18/mobile/dom.json",
+            "resources": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-18/mobile/resources.json",
+            "layout": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-18/mobile/layout.json",
+            "metrics": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-18/mobile/metrics.json"
+          },
+          "screenshot": {
+            "width": 390,
+            "height": 6172,
+            "bytes": 1026931,
+            "sha256": "5ae07eaaace8acafd8b039797dbcbd065d91bfaa4613081f92c89944c974eb65"
+          },
+          "htmlBytes": 669036,
+          "cssLoaded": true,
+          "fontsReady": true
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "pages": 19,
+    "screenshots": 38,
+    "html": 38,
+    "doneViews": 32,
+    "blockedViews": 6
+  },
+  "visualQa": "NOT_STARTED",
+  "content": "NOT_STARTED"
+}
