@@ -1,0 +1,94 @@
+{
+  "at": "2026-10-09T17:00:47.051Z",
+  "sourceUrl": "https://www.cb.szczecin.pl/",
+  "provenance": "Codex web open / search_service open, extracted text, crawled today. Not raw HTML or live browser DOM. Geometry unverified.",
+  "title": "Studia, Zaoczne, Dzienne - Collegium Balticum Akademia Nauk Stosowanych",
+  "h1FromExtraction": [
+    {
+      "line": 148,
+      "level": 1,
+      "text": "Studia zaoczne i dzienne"
+    }
+  ],
+  "sectionOrderFromExtraction": [
+    {
+      "line": 102,
+      "level": 2,
+      "text": "Rekrutacja letnia 2026/2027 – START!!"
+    },
+    {
+      "line": 108,
+      "level": 2,
+      "text": "Studia podyplomowe"
+    },
+    {
+      "line": 113,
+      "level": 2,
+      "text": "Studia zaoczne"
+    },
+    {
+      "line": 120,
+      "level": 2,
+      "text": "10% zniżki dla maturzystów"
+    },
+    {
+      "line": 125,
+      "level": 2,
+      "text": "Kierunki studiów w CB"
+    },
+    {
+      "line": 128,
+      "level": 2,
+      "text": "Dlaczego warto podjąć studia zaoczne i dzienne w Collegium Balticum – Akademii Nauk Stosowanych z siedzibą w Szczecinie?"
+    },
+    {
+      "line": 152,
+      "level": 2,
+      "text": "Studia w Szczecinie lub w Stargardzie"
+    },
+    {
+      "line": 155,
+      "level": 2,
+      "text": "Studia zaoczne: Szczecin oraz Stargard. Studia stacjonarne i niestacjonarne."
+    },
+    {
+      "line": 161,
+      "level": 2,
+      "text": "Collegium Balticum to teraz Akademia Nauk Stosowanych. Wybierz najlepszą uczelnię wyższą w regionie."
+    },
+    {
+      "line": 279,
+      "level": 2,
+      "text": "Zobowiązanie Collegium Balticum - Akademia Nauk Stosowanych z siedzibą w Szczecinie do dostępności"
+    }
+  ],
+  "menuSummary": [
+    "rekrutacja",
+    "oferta",
+    "strefa studenta",
+    "uczelnia",
+    "konferencje",
+    "blog",
+    "kontakt"
+  ],
+  "footerSummary": {
+    "studyOfferLists": true,
+    "officeContacts": true,
+    "privacyLink": true,
+    "addressPresent": true,
+    "accessibilityNavigationLinkPresent": true
+  },
+  "heroAsset": {
+    "url": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/04/rekrutacja-lato-zaoczne-dzienne.jpg",
+    "imageLabelFromExtraction": "Dziewczyna w kapeluszu i okularach trzymająca w ręce megafon - studia zaoczne w szczecinie i stargardzie",
+    "rawAltVerified": false,
+    "localPath": ".factory-cache/live/collegium-balticum/access-3b0/rekrutacja-lato-zaoczne-dzienne.jpg"
+  },
+  "missing": [
+    "raw HTML",
+    "computed CSS/colors/fonts/geometry",
+    "desktop screenshot",
+    "mobile screenshot",
+    "verified interaction behavior"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-09T16:57:33.006Z",
+  "proxyEnvironment": {
+    "HTTP_PROXY": {
+      "present": false
+    },
+    "HTTPS_PROXY": {
+      "present": false
+    },
+    "ALL_PROXY": {
+      "present": false
+    },
+    "NO_PROXY": {
+      "present": false
+    },
+    "http_proxy": {
+      "present": false
+    },
+    "https_proxy": {
+      "present": false
+    },
+    "all_proxy": {
+      "present": false
+    },
+    "no_proxy": {
+      "present": false
+    }
+  },
+  "browserDiscovery": {
+    "name": "Playwright Chromium",
+    "executablePath": "/home/vscode/.cache/ms-playwright/chromium-1243/chrome-linux64/chrome"
+  }
+}

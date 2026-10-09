@@ -1,0 +1,16 @@
+{
+  "at": "2026-10-09T17:01:50.335Z",
+  "type": "Real linked CDN image, not page screenshot",
+  "http": 200,
+  "contentType": "image/jpeg",
+  "path": ".factory-cache/live/collegium-balticum/access-3b0/rekrutacja-lato-zaoczne-dzienne.jpg",
+  "bytes": 57908,
+  "dimensions": {
+    "width": 1808,
+    "height": 870
+  },
+  "sha256": "a89c8db28797f1b331d82b7fda91ecfdc9c1520601c35400dc9572188637ba22",
+  "headers": "HTTP/2 200 \r\ndate: Fri, 09 Oct 2026 16:58:33 GMT\r\ncontent-type: image/jpeg\r\ncontent-length: 57908\r\nserver: cloudflare\r\naccept-ranges: bytes\r\nlast-modified: Fri, 09 Oct 2026 15:53:16 GMT\r\netag: \"6ac90dec-e2c4\"\r\nlink: <https://www.cb.szczecin.pl/wp-content/uploads/2026/04/rekrutacja-lato-zaoczne-dzienne.jpg>; rel=\"canonical\"\r\nvary: Accept\r\ncache-control: max-age=31536000, public\r\naccess-control-allow-origin: *\r\nvia: 1.1 google\r\ncf-cache-status: MISS\r\nset-cookie: __cf_bm=qRn8oBWV684eqEvSTHDiB6sXeyAIGQWeFMlZlYOQD5c-1791565113.4693153-1.0.1.1-5ApOaMQfJIQKMfoHDxv_ACrTiJV1RFp8IfAIYjfmB6LZD4oVO.zuaBtKkRMvX8VNP.Mzfmd.IryRUi8CafseSh9f12ZFMMNYynvYE0CnXfHrq63F5z9q4.M_m3FWMk9A; HttpOnly; SameSite=None; Secure; Path=/; Domain=nitrocdn.com; Expires=Fri, 09 Oct 2026 17:28:33 GMT\r\ncf-ray: a47eee472cf7feb7-AMS\r\nalt-svc: h3=\":443\"; ma=86400",
+  "visuallyInspected": true,
+  "description": "Żółto-pomarańczowy baner, kobieta z megafonem, odpowiada obrazowi hero wskazanemu przez ekstrakcję CB."
+}

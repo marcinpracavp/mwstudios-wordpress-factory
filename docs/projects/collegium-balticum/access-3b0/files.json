@@ -1,0 +1,30 @@
+[
+  {
+    "path": "docs/projects/collegium-balticum/access-3b0/home-structure.json",
+    "bytes": 2688
+  },
+  {
+    "path": "docs/projects/collegium-balticum/access-3b0/web-results.json",
+    "bytes": 6454
+  },
+  {
+    "path": "docs/projects/collegium-balticum/access-3b0/network.json",
+    "bytes": 2349
+  },
+  {
+    "path": "docs/projects/collegium-balticum/access-3b0/playwright.json",
+    "bytes": 707
+  },
+  {
+    "path": "docs/projects/collegium-balticum/access-3b0/environment.json",
+    "bytes": 621
+  },
+  {
+    "path": "docs/projects/collegium-balticum/access-3b0/media-proof.json",
+    "bytes": 1443
+  },
+  {
+    "path": ".factory-cache/live/collegium-balticum/access-3b0/rekrutacja-lato-zaoczne-dzienne.jpg",
+    "bytes": 57908
+  }
+]

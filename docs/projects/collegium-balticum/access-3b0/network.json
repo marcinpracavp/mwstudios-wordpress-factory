@@ -1,0 +1,91 @@
+{
+  "at": "2026-10-09T16:57:35.616Z",
+  "dns": [
+    {
+      "host": "www.cb.szczecin.pl",
+      "a": [
+        "185.41.69.148"
+      ],
+      "aaaa": {
+        "error": "ENODATA"
+      }
+    },
+    {
+      "host": "cb.szczecin.pl",
+      "a": [
+        "185.41.69.148"
+      ],
+      "aaaa": {
+        "error": "ENODATA"
+      }
+    }
+  ],
+  "http": [
+    {
+      "url": "https://www.cb.szczecin.pl/",
+      "exit": 28,
+      "stderr": "curl: (28) Failed to connect to www.cb.szczecin.pl port 443 after 3001 ms: Timeout was reached",
+      "metrics": {
+        "url_effective": "https://www.cb.szczecin.pl/",
+        "http_code": 0,
+        "remote_ip": "",
+        "time_namelookup": 0.000879,
+        "time_connect": 0,
+        "time_appconnect": 0,
+        "time_starttransfer": 0,
+        "num_redirects": 0
+      }
+    },
+    {
+      "url": "http://www.cb.szczecin.pl/",
+      "exit": 28,
+      "stderr": "curl: (28) Failed to connect to www.cb.szczecin.pl port 80 after 3002 ms: Timeout was reached",
+      "metrics": {
+        "url_effective": "http://www.cb.szczecin.pl/",
+        "http_code": 0,
+        "remote_ip": "",
+        "time_namelookup": 0.000905,
+        "time_connect": 0,
+        "time_appconnect": 0,
+        "time_starttransfer": 0,
+        "num_redirects": 0
+      }
+    },
+    {
+      "url": "https://cb.szczecin.pl/",
+      "exit": 28,
+      "stderr": "curl: (28) Failed to connect to cb.szczecin.pl port 443 after 3002 ms: Timeout was reached",
+      "metrics": {
+        "url_effective": "https://cb.szczecin.pl/",
+        "http_code": 0,
+        "remote_ip": "",
+        "time_namelookup": 0.000848,
+        "time_connect": 0,
+        "time_appconnect": 0,
+        "time_starttransfer": 0,
+        "num_redirects": 0
+      }
+    },
+    {
+      "url": "http://cb.szczecin.pl/",
+      "exit": 28,
+      "stderr": "curl: (28) Failed to connect to cb.szczecin.pl port 80 after 3002 ms: Timeout was reached",
+      "metrics": {
+        "url_effective": "http://cb.szczecin.pl/",
+        "http_code": 0,
+        "remote_ip": "",
+        "time_namelookup": 0.000824,
+        "time_connect": 0,
+        "time_appconnect": 0,
+        "time_starttransfer": 0,
+        "num_redirects": 0
+      }
+    }
+  ],
+  "control": {
+    "url": "https://wordpress.org/",
+    "exit": 0,
+    "statusLine": "HTTP/2 200",
+    "stderr": ""
+  }
+}

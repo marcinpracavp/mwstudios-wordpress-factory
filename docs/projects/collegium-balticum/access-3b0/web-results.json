@@ -1,0 +1,170 @@
+{
+  "at": "2026-10-09T17:01:50.335Z",
+  "note": "Direct URL open, not search snippets. Web extraction can still be served from provider cache; no forced live response or raw HTML API exposed.",
+  "rows": [
+    {
+      "mechanisms": [
+        "web.run open",
+        "search_service.web_run open"
+      ],
+      "returnedFinalUrlMatchesRequested": true,
+      "redirectChainExposed": false,
+      "realCbText": true,
+      "liveDomFreshnessVerified": false,
+      "geometryVisible": false,
+      "screenshotAvailable": false,
+      "rawHtmlAvailable": false,
+      "textStructureCanBeSaved": true,
+      "mediaDownload": "PARTIAL: one linked CDN hero image confirmed; other resources not tested",
+      "url": "https://www.cb.szczecin.pl/",
+      "title": "Studia, Zaoczne, Dzienne - Collegium Balticum Akademia Nauk Stosowanych",
+      "h1FromExtraction": "Studia zaoczne i dzienne",
+      "h1RawDomVerified": false,
+      "fragments": [
+        "Studia podyplomowe",
+        "Kierunki studiów w CB",
+        "Wiadomości"
+      ],
+      "crawlLabels": [
+        "today"
+      ],
+      "imagesInExtraction": true,
+      "structure": "Menu hierarchiczne, hero/oferta, informacje o uczelni, wiadomości, tekst SEO, stopka; kolejność tekstowa, nie geometria."
+    },
+    {
+      "mechanisms": [
+        "web.run open",
+        "search_service.web_run open"
+      ],
+      "returnedFinalUrlMatchesRequested": true,
+      "redirectChainExposed": false,
+      "realCbText": true,
+      "liveDomFreshnessVerified": false,
+      "geometryVisible": false,
+      "screenshotAvailable": false,
+      "rawHtmlAvailable": false,
+      "textStructureCanBeSaved": true,
+      "mediaDownload": "PARTIAL: one linked CDN hero image confirmed; other resources not tested",
+      "url": "https://www.cb.szczecin.pl/rekrutacja/",
+      "title": "Studia - Rekrutacja 2026 na studia licencjackie i magisterskie » Collegium Balticum",
+      "h1FromExtraction": null,
+      "h1Status": "UNCONFIRMED: no H1 provided by extracted body; not proof that live DOM lacks H1",
+      "fragments": [
+        "VIDEOTEKA",
+        "Warunki rekrutacji",
+        "Studia pierwszego stopnia"
+      ],
+      "crawlLabels": [
+        "today"
+      ],
+      "imagesInExtraction": "Initial extraction exposed three category images; later extraction omitted them.",
+      "structure": "Oferty lic/mgr/podyplomowe, videoteca, warunki naboru i wymagania; stopka."
+    },
+    {
+      "mechanisms": [
+        "web.run open",
+        "search_service.web_run open"
+      ],
+      "returnedFinalUrlMatchesRequested": true,
+      "redirectChainExposed": false,
+      "realCbText": true,
+      "liveDomFreshnessVerified": false,
+      "geometryVisible": false,
+      "screenshotAvailable": false,
+      "rawHtmlAvailable": false,
+      "textStructureCanBeSaved": true,
+      "mediaDownload": "PARTIAL: one linked CDN hero image confirmed; other resources not tested",
+      "url": "https://www.cb.szczecin.pl/dni-otwarte/",
+      "title": "Dni otwarte » 4 marca 2026 - Collegium Balticum",
+      "earlierTitle": "Dni otwarte » 4 marca i 15 października 2026 - Collegium Balticum",
+      "h1FromExtraction": null,
+      "h1Status": "UNCONFIRMED",
+      "fragments": [
+        "Zapisy i kontakt",
+        "ROK 2024",
+        "ROK 2023"
+      ],
+      "crawlLabels": [
+        "2 weeks ago",
+        "today"
+      ],
+      "imagesInExtraction": "Gallery links visible; live placement/images not verified.",
+      "structure": "Opis wydarzenia, program warsztatów, zapisy/kontakt i archiwum galerii; stopka.",
+      "freshnessWarning": "Two different title/date variants and crawl labels returned within this session; no guaranteed current revision."
+    },
+    {
+      "mechanisms": [
+        "web.run open",
+        "search_service.web_run open"
+      ],
+      "returnedFinalUrlMatchesRequested": true,
+      "redirectChainExposed": false,
+      "realCbText": true,
+      "liveDomFreshnessVerified": false,
+      "geometryVisible": false,
+      "screenshotAvailable": false,
+      "rawHtmlAvailable": false,
+      "textStructureCanBeSaved": true,
+      "mediaDownload": "PARTIAL: one linked CDN hero image confirmed; other resources not tested",
+      "url": "https://www.cb.szczecin.pl/kontakt/",
+      "title": "Skontaktuj się z Nami » Collegium Balticum",
+      "h1FromExtraction": null,
+      "h1Status": "UNCONFIRMED; Skontaktuj się z nami is H2 in extraction",
+      "fragments": [
+        "Szczecin",
+        "Stargard",
+        "Biuro Obsługi Studenta"
+      ],
+      "crawlLabels": [
+        "today"
+      ],
+      "imagesInExtraction": "Image markers alone do not expose a visual contact layout.",
+      "structure": "Miasta, biura/działy, osoby, godziny, pola formularzy; stopka.",
+      "freshnessWarning": "Returned extracts differed in staff entries and total line count."
+    },
+    {
+      "mechanisms": [
+        "web.run open",
+        "search_service.web_run open"
+      ],
+      "returnedFinalUrlMatchesRequested": true,
+      "redirectChainExposed": false,
+      "realCbText": true,
+      "liveDomFreshnessVerified": false,
+      "geometryVisible": false,
+      "screenshotAvailable": false,
+      "rawHtmlAvailable": false,
+      "textStructureCanBeSaved": true,
+      "mediaDownload": "PARTIAL: one linked CDN hero image confirmed; other resources not tested",
+      "url": "https://www.cb.szczecin.pl/tryb-studiow/studia-licencjackie/",
+      "title": "Studia licencjackie :: Studia I stopnia - Szczecin - Stargard - Collegium Balticum",
+      "h1FromExtraction": null,
+      "h1Status": "UNCONFIRMED; displayed introduction is H5 and chooser H2 in extraction",
+      "fragments": [
+        "Studia Licencjackie – Wybierz kierunek",
+        "Pedagogika – studia licencjackie",
+        "Kosmetologia"
+      ],
+      "crawlLabels": [
+        "2 days ago",
+        "today"
+      ],
+      "imagesInExtraction": "No reliable hero/slider image metadata supplied by the reader.",
+      "structure": "Wstęp, wybór kierunku, opisy kierunków/specjalności; stopka."
+    }
+  ],
+  "capabilityTests": [
+    {
+      "mechanism": "web screenshot",
+      "result": "Unavailable for HTML; only PDF screenshots enabled"
+    },
+    {
+      "mechanism": "web click hero JPEG",
+      "result": "Cache miss"
+    },
+    {
+      "mechanism": "web open homepage with ordinary cache-busting query",
+      "result": "URL not accessible via tool; did not establish uncached access"
+    }
+  ]
+}
