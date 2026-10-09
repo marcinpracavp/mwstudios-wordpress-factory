@@ -1,5 +1,13 @@
 {
-  "mode": "full",
-  "failed_ids": [],
-  "reason": "Homepage PoC 37987108323 inspected: genuine desktop/mobile CB, HTTP 200, assets and SHA256 verified; capture all configured CB-00–CB-18 sequentially"
+  "mode": "retry",
+  "failed_ids": [
+    "CB-03",
+    "CB-08",
+    "CB-11",
+    "CB-17",
+    "CB-18",
+    "CB-16"
+  ],
+  "requestedAt": "2026-10-09T20:36:14.321Z",
+  "reason": "Retry failed source components; also normalize CB-16 PNG to 390px viewport while preserving source overflow metrics"
 }
