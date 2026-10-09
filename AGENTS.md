@@ -291,3 +291,38 @@ Nie przebudowuj istniejącej architektury bez wyraźnego polecenia.
 
 Nie twórz nowych systemów utility, gridów, kontenerów ani breakpointów,
 jeżeli odpowiednie rozwiązanie istnieje już w projekcie.
+
+## Dodatkowy tryb: LIVE → WordPress factory
+
+Wybierz źródło zgodnie z zadaniem: Figma albo istniejąca witryna LIVE.
+W trybie Figma wszystkie dotychczasowe zasady Figma MCP pozostają w mocy.
+W trybie LIVE analiza produkcyjnego URL zastępuje analizę frame Figma
+w powyższym trybie pracy; nie wymagaj fikcyjnego pliku ani node ID Figma.
+Pozostałe zasady PHP, ACF, reużycia, SCSS, JavaScript i build obowiązują w obu trybach.
+
+Przed pracą LIVE przeczytaj `docs/live-migration/WORKFLOW.md`,
+`docs/live-migration/IMPLEMENTATION-PLAN.md` oraz dokumenty wybranego projektu
+w `docs/projects/<project>/`: BRIEF, PAGES, SCOPE i OPEN-QUESTIONS.
+Brak konfiguracji projektu zgłoś; nie zastępuj go domyślnym klientem.
+Dokumentacja workflow nie oznacza, że obecny runner obsługuje już LIVE.
+Nie uruchamiaj runnera Figma z URL-em produkcyjnej witryny w polu `figma.url`.
+
+- Nie wykonuj redesignu bez zlecenia. Źródło LIVE analizuj tylko do odczytu.
+- Zapisz wszystkie wymagane adresy; liczba szablonów nie ogranicza listy stron.
+  Nie wybieraj dowolnych 8–12 stron i nie usuwaj adresów z briefu.
+- Prowadź osobno TEMPLATE i CONTENT. TEMPLATE=DONE nie implikuje CONTENT=DONE.
+  Gotowość wymaga działającego lokalnego URL, właściwego układu, treści i dowodów QA.
+- Reużywaj rodziny układów i komponenty factory; wariant treści nie wymaga nowego partiala.
+- Przed nowymi polami ACF przedstaw label, field name, typ, return format i lokalizację.
+- Zachowuj ścieżki, hierarchię, kategorie, źródłowe ALT i metadane SEO.
+  Brakujące ALT skieruj do SEO; nie wymyślaj treści ani nie udawaj importu metadanych.
+- Różnice dostępności względem LIVE dokumentuj; wymagane konsultacje kolorów/Hx
+  prowadź według briefu. Nie obniżaj progów wizualnych, by ukryć błędy.
+- Oddzielaj wymagany zakres od niepotwierdzonych rozszerzeń. Brak danych dla
+  modułu dodatkowego nie blokuje niezależnych stron obowiązkowych.
+- Uniwersalny silnik nie może zawierać domeny, identyfikatorów ani treści klienta.
+  Konfigurację, rejestr i adaptery klienta trzymaj oddzielnie.
+- Każdy raport odróżnia fakty potwierdzone, plan i brakujące dowody/dostępy.
+  Nie deklaruj przeczytanego audytu, zgodności WCAG ani czasu w Toggl bez dowodów.
+- Nie edytuj chronionego brancha bazowego. Używaj osobnego brancha silnika
+  i osobnego brancha projektu; raportuj bazę, commity i stan Git.
