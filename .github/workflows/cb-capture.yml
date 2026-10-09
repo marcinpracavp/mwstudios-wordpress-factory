@@ -14,10 +14,11 @@ on:
         required: false
         type: string
   # Registers the new workflow without merging into main or autopilot-clean.
-  # This trigger can only run the homepage proof, never the full batch.
+  # Workflow edits run home. Explicit versioned requests can run full/retry;
+  # the runner still requires a fresh successful home proof before other routes.
   push:
     branches: [project/collegium-balticum]
-    paths: [.github/workflows/cb-capture.yml]
+    paths: [.github/workflows/cb-capture.yml, .github/cb-capture-request.json]
 
 permissions:
   contents: read
@@ -49,6 +50,10 @@ jobs:
           echo "FACTORY_BROWSER_PATH=$(node -e "process.stdout.write(require('./tools/live-capture/node_modules/playwright-core').chromium.executablePath())")" >> "$GITHUB_ENV"
       - name: HTTPS test and real browser capture
         run: |
+          if [ "$GITHUB_EVENT_NAME" = push ] && [ -f .github/cb-capture-request.json ]; then
+            CAPTURE_MODE=$(node -e "const r=require('./.github/cb-capture-request.json');if(!['home','full','retry'].includes(r.mode))process.exit(1);process.stdout.write(r.mode)")
+            FAILED_IDS=$(node -e "const r=require('./.github/cb-capture-request.json');process.stdout.write((r.failed_ids||[]).join(','))")
+          fi
           args=(--mode "$CAPTURE_MODE" --output "$RUNNER_TEMP/cb-reference")
           if [ "$CAPTURE_MODE" = retry ]; then
             if [ -z "$FAILED_IDS" ]; then echo 'Failed route IDs are required'; exit 1; fi

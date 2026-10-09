@@ -1,0 +1,5 @@
+{
+  "mode": "home",
+  "failed_ids": [],
+  "reason": "Verify real mobile carousel layout after source CSS readiness and normal viewport resize"
+}
