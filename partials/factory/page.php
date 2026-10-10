@@ -1,6 +1,7 @@
 <?php
 $variant = $args['variant'] ?? 'flexible';
 while (have_posts()) : the_post();
+    if (get_post_meta(get_the_ID(), '_cb_source_id', true)) { get_template_part('partials/cb/page'); continue; }
 ?>
 <div class="mwf-page mwf-page--<?php echo esc_attr($variant); ?>">
     <?php get_template_part('partials/hero', null, ['hero' => mwf_field('mwf_hero'), 'variant' => $variant]); ?>

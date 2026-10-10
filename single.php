@@ -1,4 +1,4 @@
-<?php get_header(); while (have_posts()) : the_post(); ?>
+<?php get_header(); while (have_posts()) : the_post(); if (get_post_meta(get_the_ID(), '_cb_source_id', true)) { get_template_part('partials/cb/page'); continue; } ?>
 <article class="mwf-single l-container py-50">
     <header class="mb-40">
         <h1><?php echo esc_html(get_the_title()); ?></h1>

@@ -1,3 +1,32 @@
+<!-- TASK4_CURRENT -->
+# Aktualny stan zadania 4
+
+Wszystkie 19 adresów ma rzeczywiste lokalne dane WordPress; wcześniejsze sekcje tego dokumentu stanowią historię, nie bieżący status. Szczegóły URL, ID, szablonów i braków: [TASK-4-REGISTER](TASK-4-REGISTER.md), dowody: [TASK-4-EVIDENCE](TASK-4-EVIDENCE.json), raport: [TASK-4](TASK-4.md). SOURCE_CAPTURE=DONE oznacza pozyskanie referencji; 6 z 38 widoków nadal ma ostrzeżenia jakości źródła.
+
+| ID | SOURCE_CAPTURE | TEMPLATE | LOCAL_RENDER | CONTENT | VISUAL_QA | WCAG_QA |
+| --- | --- | --- | --- | --- | --- | --- |
+| CB-00 | DONE | DONE | DONE | DONE | IN_PROGRESS | IN_PROGRESS |
+| CB-01 | DONE | DONE | DONE | DONE | IN_PROGRESS | IN_PROGRESS |
+| CB-02 | DONE | DONE | DONE | DONE | IN_PROGRESS | IN_PROGRESS |
+| CB-03 | DONE | DONE | DONE | DONE | IN_PROGRESS | IN_PROGRESS |
+| CB-04 | DONE | DONE | DONE | DONE | IN_PROGRESS | IN_PROGRESS |
+| CB-05 | DONE | DONE | DONE | DONE | IN_PROGRESS | IN_PROGRESS |
+| CB-06 | DONE | DONE | DONE | DONE | IN_PROGRESS | IN_PROGRESS |
+| CB-07 | DONE | DONE | DONE | DONE | IN_PROGRESS | IN_PROGRESS |
+| CB-08 | DONE | DONE | DONE | DONE | IN_PROGRESS | IN_PROGRESS |
+| CB-09 | DONE | DONE | DONE | DONE | IN_PROGRESS | IN_PROGRESS |
+| CB-10 | DONE | DONE | DONE | DONE | IN_PROGRESS | IN_PROGRESS |
+| CB-11 | DONE | DONE | DONE | DONE | IN_PROGRESS | IN_PROGRESS |
+| CB-12 | DONE | DONE | DONE | DONE | IN_PROGRESS | IN_PROGRESS |
+| CB-13 | DONE | DONE | DONE | DONE | IN_PROGRESS | IN_PROGRESS |
+| CB-14 | DONE | DONE | DONE | DONE | IN_PROGRESS | IN_PROGRESS |
+| CB-15 | DONE | DONE | DONE | DONE | IN_PROGRESS | IN_PROGRESS |
+| CB-16 | DONE | DONE | DONE | DONE | IN_PROGRESS | IN_PROGRESS |
+| CB-17 | DONE | DONE | DONE | DONE | IN_PROGRESS | IN_PROGRESS |
+| CB-18 | DONE | DONE | DONE | DONE | IN_PROGRESS | IN_PROGRESS |
+
+<!-- TASK4_CURRENT_END -->
+
 # Rejestr obowiązkowych widoków CB-00–CB-18
 
 Źródło: https://www.cb.szczecin.pl/. Stan: 2026-10-09, po zadaniu 3/5; ustalenia źródłowe poniżej zawierają historię zadań 1–2.

@@ -82,7 +82,10 @@
     "cb:dev": "node scripts/projects/collegium-balticum/runtime.js dev",
     "cb:preview": "node scripts/projects/collegium-balticum/runtime.js preview",
     "cb:capture": "node scripts/projects/collegium-balticum/capture-reference.js",
-    "cb:diagnose": "node scripts/projects/collegium-balticum/diagnose-network.js"
+    "cb:diagnose": "node scripts/projects/collegium-balticum/diagnose-network.js",
+    "cb:migrate": "node scripts/projects/collegium-balticum/migrate/provision.js",
+    "cb:migrate:qa": "node scripts/projects/collegium-balticum/migrate/qa.js",
+    "cb:migrate:compare": "node scripts/projects/collegium-balticum/migrate/compare.js"
   },
   "author": "slawinsky",
   "license": "ISC",

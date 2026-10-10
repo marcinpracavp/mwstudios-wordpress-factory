@@ -14,4 +14,7 @@
 @use 'pages'; // automatycznie załaduje _index.scss
 
 
+@use 'components/collegium-balticum-source';
+@use 'components/collegium-balticum';
+
 @import '~@fortawesome/fontawesome-free/css/all.css';

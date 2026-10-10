@@ -1,4 +1,5 @@
 <?php
+if (cb_enabled()) { get_template_part('partials/cb/archive'); return; }
 $query = $args['query'] ?? $GLOBALS['wp_query'];
 $title = $args['title'] ?? (is_category() ? single_cat_title('', false) : (is_home() ? get_the_title(get_option('page_for_posts')) : get_the_archive_title()));
 $title = $title ?: 'Wpisy';

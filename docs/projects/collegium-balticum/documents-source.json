@@ -1,0 +1,362 @@
+{
+  "source": "frozen capture 3C",
+  "documents": [
+    {
+      "url": "https://www.cb.szczecin.pl/wp-content/uploads/2026/08/warunki-rekrutacji.pdf",
+      "occurrences": [
+        {
+          "id": "CB-04",
+          "label": "POBIERZ"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/wp-content/uploads/2022/04/Karta-zgloszenia-PCSP-aktualna-od-04.2022.pdf",
+      "occurrences": [
+        {
+          "id": "CB-04",
+          "label": "tutaj"
+        },
+        {
+          "id": "CB-08",
+          "label": "POBIERZ"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/wp-content/uploads/2024/01/Informator-studia-2024.pdf",
+      "occurrences": [
+        {
+          "id": "CB-04",
+          "label": "Sprawdź INFORMATOR NA STUDIA Pobierz"
+        },
+        {
+          "id": "CB-05",
+          "label": "Sprawdź INFORMATOR NA STUDIA Pobierz"
+        },
+        {
+          "id": "CB-09",
+          "label": "Sprawdź Studia Online"
+        },
+        {
+          "id": "CB-09",
+          "label": "Sprawdź Studia Online 2025"
+        },
+        {
+          "id": "CB-10",
+          "label": "Informator PDF"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/wp-content/uploads/2023/12/Karta-zgloszenia-2023-1.pdf",
+      "occurrences": [
+        {
+          "id": "CB-10",
+          "label": "Pobierz kartę zgłoszeniową i ankietę rekrutacyjną"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/wp-content/uploads/2021/05/informator-podyplomowe-studia_v1.pdf",
+      "occurrences": [
+        {
+          "id": "CB-10",
+          "label": "Pobierz informator w PDF"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/wp-content/uploads/2022/04/Karta-zgloszenia-PCSP-aktualna-od-04.2022.pdf?id=2279",
+      "occurrences": [
+        {
+          "id": "CB-10",
+          "label": "Karta zgłoszeniowa"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/wp-content/uploads/2024/08/karta-zgloszenia-kurs-mediator-sadowy.pdf",
+      "occurrences": [
+        {
+          "id": "CB-11",
+          "label": "Cena kursu: *1000 zł Pobierz kartę zgłoszenia"
+        },
+        {
+          "id": "CB-11",
+          "label": "POBIERZ"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/wp-content/uploads/2024/02/Podanie-PRZENIESIENIE.pdf",
+      "occurrences": [
+        {
+          "id": "CB-13",
+          "label": "podania o przeniesienie"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/wp-content/uploads/2024/02/Podanie-REAKTYWACJA.pdf",
+      "occurrences": [
+        {
+          "id": "CB-14",
+          "label": "podania o reaktywację"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/wp-content/uploads/2025/04/Procedura-wsparcia-studentow.pdf",
+      "occurrences": [
+        {
+          "id": "CB-15",
+          "label": "pobierz"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/wp-content/uploads/2023/03/ECHE_2021_2027_CB.pdf",
+      "occurrences": [
+        {
+          "id": "CB-17",
+          "label": "POBIERZ"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/wp-content/uploads/2026/02/2.-Erasmus-Policy-Statement.pdf",
+      "occurrences": [
+        {
+          "id": "CB-17",
+          "label": "POBIERZ"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/3.-Informacja-o-programie-Erasmus.docx",
+      "occurrences": [
+        {
+          "id": "CB-17",
+          "label": "POBIERZ"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/4.-Regulamin-programu-Erasmus.docx",
+      "occurrences": [
+        {
+          "id": "CB-17",
+          "label": "POBIERZ"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/5.-Uczelnie-partnerskie.docx",
+      "occurrences": [
+        {
+          "id": "CB-17",
+          "label": "POBIERZ"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/6.-Kontakt.docx",
+      "occurrences": [
+        {
+          "id": "CB-17",
+          "label": "POBIERZ"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/wp-content/uploads/2021/12/Academic-Planner-App.pdf",
+      "occurrences": [
+        {
+          "id": "CB-17",
+          "label": "POBIERZ"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/1.-Information-about-the-institution.pdf",
+      "occurrences": [
+        {
+          "id": "CB-17",
+          "label": "POBIERZ"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/2.-Application-procedure.pdf",
+      "occurrences": [
+        {
+          "id": "CB-17",
+          "label": "POBIERZ"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/3.-Application-calendar.pdf",
+      "occurrences": [
+        {
+          "id": "CB-17",
+          "label": "POBIERZ"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/4.-Grading-system-and-ECTS.pdf",
+      "occurrences": [
+        {
+          "id": "CB-17",
+          "label": "POBIERZ"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/5.-List-of-courses-in-English.pdf",
+      "occurrences": [
+        {
+          "id": "CB-17",
+          "label": "POBIERZ"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/1.-Karta_studenta_Erasmusa_PL.pdf",
+      "occurrences": [
+        {
+          "id": "CB-17",
+          "label": "POBIERZ"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/2.-Karta_studenta_Erasmusa_ENG.pdf",
+      "occurrences": [
+        {
+          "id": "CB-17",
+          "label": "POBIERZ"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/3.-Formularz-zgloszeniowy.docx",
+      "occurrences": [
+        {
+          "id": "CB-17",
+          "label": "POBIERZ"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/4.-Application-form.docx",
+      "occurrences": [
+        {
+          "id": "CB-17",
+          "label": "POBIERZ"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/5.-Learning-agreement-LA.docx",
+      "occurrences": [
+        {
+          "id": "CB-17",
+          "label": "POBIERZ"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/6.-Transcript-of-records.docx",
+      "occurrences": [
+        {
+          "id": "CB-17",
+          "label": "POBIERZ"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/7.-Formularz-danych-bankowych.doc",
+      "occurrences": [
+        {
+          "id": "CB-17",
+          "label": "POBIERZ"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/8.-Instrukcja-dla-studentow-przed-wyjazdem-na-studia-Erasmus.pdf",
+      "occurrences": [
+        {
+          "id": "CB-17",
+          "label": "POBIERZ"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/9.-Instrukcja-dla-studentow-po-przyjezdzie-ze-studiow-Erasmus.pdf",
+      "occurrences": [
+        {
+          "id": "CB-17",
+          "label": "POBIERZ"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/1.-Wniosek-na-wyjazd-dydaktyczny.docx",
+      "occurrences": [
+        {
+          "id": "CB-17",
+          "label": "POBIERZ"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/2.-Wniosek-na-wyjazd-szkoleniowy.docx",
+      "occurrences": [
+        {
+          "id": "CB-17",
+          "label": "POBIERZ"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/3.-Staff-mobility-agreement-for-teaching.docx",
+      "occurrences": [
+        {
+          "id": "CB-17",
+          "label": "POBIERZ"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/4.-Staff-mobility-agreement-for-training.docx",
+      "occurrences": [
+        {
+          "id": "CB-17",
+          "label": "POBIERZ"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/5.-Oswiadczenie-o-komplementarnosci-srodkow.docx",
+      "occurrences": [
+        {
+          "id": "CB-17",
+          "label": "POBIERZ"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/6.-Formularz-danych-bankowych.doc",
+      "occurrences": [
+        {
+          "id": "CB-17",
+          "label": "POBIERZ"
+        }
+      ]
+    }
+  ]
+}

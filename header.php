@@ -12,5 +12,5 @@
     <a class="mwf-skip-link" href="#main-content">Przejdź do treści</a>
     <?php if (isset($acf_globals['skrypty_header_2'])) { echo $acf_globals['skrypty_header_2']; } ?>
     <?php if (function_exists('global_render_topbar')) { global_render_topbar(); } ?>
-    <?php get_template_part('partials/header'); ?>
+    <?php get_template_part(cb_enabled() ? 'partials/cb/header' : 'partials/header'); ?>
     <main id="main-content" tabindex="-1">

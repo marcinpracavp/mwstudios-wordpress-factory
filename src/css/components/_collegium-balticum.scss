@@ -1,0 +1,165 @@
+// Client-only corrections to captured geometry and accessible controls.
+
+.cb-site {
+  font-family: Poppins, sans-serif; background: white; color: #231f20;
+  main#main-content { margin: 0; padding: 0; }
+  [hidden] { display: none !important; }
+  *, *::before, *::after { box-sizing: border-box; }
+  img { max-width: 100%; height: auto; }
+  button, input, textarea, select { font: inherit; }
+  a:focus-visible, button:focus-visible, summary:focus-visible, [tabindex]:focus-visible { outline: 3px solid #00759c; outline-offset: 4px; }
+  .l-container { display: block; }
+  .cb-section { position: relative; }
+  .cb-banner, .banner-slider .box { height: 100%; }
+  .cb-banner .box { position: relative; }
+  .cb-banner .box img.bcg { width: 100%; height: 100%; object-fit: cover; }
+  .cb-controls { display: flex; gap: 8px; justify-content: flex-end; }
+  .cb-controls button { background: #053767; color: white; border: 0; border-radius: 50%; width: 36px; height: 36px; cursor: pointer; }
+  .banner-slider > .cb-controls { position: absolute; bottom: 20px; right: 25px; z-index: 2; }
+  .cb-carousel { display: flex; overflow-x: auto; scrollbar-width: none; scroll-snap-type: x mandatory; gap: 30px; min-width: 0; width: 100%; }
+  .cb-carousel > * { flex: 0 0 38%; scroll-snap-align: start; min-width: 0; }
+  .partners .cb-carousel > * { flex-basis: 20%; }
+  .cb-carousel:focus-visible { outline-offset: -3px; }
+  .faq .question { display: block; }
+  .faq .question > summary { list-style: none; cursor: pointer; }
+  .faq .question > summary::-webkit-details-marker { display: none; }
+  .faq .question > summary::after { content: '+'; float: right; }
+  .faq .question[open] > summary::after { content: '−'; }
+  .faq .question > .cb-answer { display: block; }
+  .text-tabs .text > .box:not([hidden]) { display: block; }
+  .cb-header .main-menu li:focus-within > .sub-menu { visibility: visible; opacity: 1; transform: none; display: block; }
+  .cb-submenu-toggle { background: transparent; border: 0; color: #053767; padding: 4px; cursor: pointer; }
+  .cb-header .main-menu > ul > li:last-child > a { color: white; background: #ff7b00; border-radius: 30px; padding: 10px 22px; line-height: 20px; display: inline-block; }
+  .cb-header .main-menu > ul > li:first-child > a { color: #ff7b00; }
+  .wp-block-columns { display: flex; gap: 2em; }
+  .wp-block-column { flex: 1; min-width: 0; }
+  .gallery[id^='gallery-'], .rl-gallery { display: flex; flex-wrap: wrap; gap: 2px; }
+  .gallery[id^='gallery-'] .gallery-item { flex: 0 0 20%; margin: 10px 0 0; text-align: center; }
+  iframe { max-width: 100%; }
+  table { max-width: 100%; }
+  .cb-table-wrap { overflow-x: auto; }
+  .cb-form-note { font-size: 12px; line-height: 1.5; }
+  .single-layout { overflow-wrap: anywhere; }
+  .screen-reader-text, .mwf-skip-link { font-size: 16px; }
+}
+@media (max-width: 1220px) {
+ .cb-site {
+   .cb-header .main-menu { display: none; position: static; transform: none; width: 100%; height: auto; max-height: 70vh; overflow-y: auto; }
+   .cb-header .main-menu.cb-open { display: block; }
+   .cb-header .bottom { flex-wrap: wrap; }
+   .cb-header .main-menu > ul { display: block; }
+   .cb-header .main-menu li .sub-menu { display: none; width: 100%; }
+   .cb-header .main-menu li .sub-menu.cb-open { display: block; }
+   .cb-header .main-menu li:focus-within > .sub-menu:not(.cb-open) { display: none; }
+ }
+}
+@media (max-width: 768px) {
+ .cb-site {
+   .wp-block-columns { flex-direction: column; }
+   .cb-carousel > * { flex-basis: 86%; }
+   .partners .cb-carousel > * { flex-basis: 50%; }
+
+
+ }
+}
+.cb-lightbox { max-width: 95vw; max-height: 95vh; border: 0; background: white; }
+.cb-lightbox img { max-height: 80vh; object-fit: contain; }
+.cb-lightbox::backdrop { background: rgba(0,0,0,.85); }
+.cb-site #main-content .cb-section .cb-carousel { display: flex; overflow-x: auto; flex-wrap: nowrap; width: 100%; }
+.cb-site #main-content .cb-section .cb-carousel > * { flex: 0 0 38%; width: 38%; }
+.cb-site #main-content .partners .cb-carousel > * { flex-basis: 20%; width: 20%; }
+@media(max-width: 768px) {
+ .cb-site #main-content .cb-section .cb-carousel > * { flex-basis: 86%; width: 86%; }
+ .cb-site #main-content .partners .cb-carousel > * { flex-basis: 50%; width: 50%; }
+}
+.cb-site #main-content .cb-banner > .box > img.bcg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1; }
+.cb-site #main-content .cb-banner > .box { isolation: isolate; }
+.cb-site .cb-header .main-menu > ul > li { white-space: nowrap; }
+.cb-site .cb-header .main-menu > ul > li > .cb-submenu-toggle { position: absolute; right: -13px; top: 4px; font-size: 11px; }
+.cb-site .cb-header .main-menu > ul > li:last-child > a { display: block; color: white; line-height: 17px; }
+.cb-site .cb-header .main-menu > ul > li:first-child > a { color: #ff7b00; }
+.cb-site .wp-block-getwid-accordion .question { background: #f7f7f7; padding: 15px; margin-bottom: 10px; }
+.cb-site .wp-block-getwid-accordion summary { cursor: pointer; font-size: 20px; font-weight: 600; }
+@media(max-width: 768px){
+ .cb-site #main-content .cb-banner > .box > img.bcg { z-index: -1; }
+ .cb-site .cb-header .main-menu > ul > li { white-space: normal; }
+}
+.cb-site #cb-navigation > ul > li:first-child > a { color: #ff7b00; }
+@media(min-width: 769px){ .cb-site #main-content .cb-banner > .box { width: 100vw; } .cb-site #main-content .cb-banner > .box > img.bcg { width: 100vw; max-width: none; } }
+.cb-site .slider .slider-box { position: relative; }
+.cb-site .slider .slider-box > .cb-controls { position: absolute; top: -65px; right: 13%; }
+.cb-site .slider .cb-controls button { background: transparent; border-radius: 0; color: #666; font-size: 22px; width: 30px; height: 25px; }
+.cb-site .banner-slider > .cb-controls { inset: 0; align-items: center; justify-content: space-between; padding: 0 40px; pointer-events: none; }
+.cb-site .banner-slider > .cb-controls button { pointer-events: auto; color: rgba(255,255,255,.65); background: transparent; font-size: 32px; }
+@media(max-width:768px){.cb-site .slider .slider-box > .cb-controls { right: 15px; top: -45px; } .cb-site .banner-slider > .cb-controls { padding: 0 5px; }}
+.cb-site #main-content .faq .question[open] > .cb-answer { display: flex; }
+.cb-site #main-content .cb-section--accordion:not(.faq) .question[open] > .cb-answer { display: block; }
+@media(max-width:768px){.cb-site #main-content .faq .question[open] > .cb-answer { flex-direction: column; }}
+.cb-site .cb-entry-date { display: block; margin-bottom: 10px; }
+.cb-site .wp-block-group.is-nowrap { display: flex; flex-wrap: nowrap; }
+.cb-site .wp-block-group.is-nowrap > figure { flex: 1 1 0; min-width: 0; }
+.cb-site .wp-block-group.is-nowrap > figure img { width: 100%; }
+.cb-site .wp-block-image img { display: block; }
+@media(min-width:1221px){.cb-site .cb-header .main-menu li:hover > .sub-menu { display: block; visibility: visible; opacity: 1; transform: none; }}
+.cb-site #main-content { scroll-margin-top: var(--cb-header-height, 137px); }
+
+// Keep factory typography and hidden groups from overriding the CB source components.
+.cb-site #main-content h1, .cb-site #main-content h2, .cb-site #main-content h3, .cb-site #main-content h4, .cb-site #main-content h5, .cb-site #main-content h6 { font-family: Poppins, sans-serif; }
+.cb-site #main-content form.wpcf7-form .form-group { display: flex; }
+.cb-site header.cb-header .header-content .bottom #cb-navigation > ul > li.default-button { padding: 0 36px; }
+.cb-site header.cb-header .header-content .bottom #cb-navigation > ul > li.default-button > a { background: transparent; padding: 0; display: block; color: white; line-height: 17px; }
+.cb-site header.cb-header #cb-navigation > ul > li > .cb-submenu-toggle { position: static; width: 15px; height: 8px; padding: 0; font-size: 0; background: var(--cb-asset-b7754939fea3) center / contain no-repeat; }
+@media(max-width:1220px){.cb-site header.cb-header #cb-navigation > ul > li > .cb-submenu-toggle { margin-left: 10px; }}
+
+.cb-site #main-content h1, .cb-site #main-content h2, .cb-site #main-content h3, .cb-site #main-content h4, .cb-site #main-content h5, .cb-site #main-content h6 { letter-spacing: normal; }
+
+.cb-site .banner.banner--image-only .text { min-height: 272px; }
+@media(max-width:768px){.cb-site .banner.banner--image-only .text { min-height: 124px; }}
+
+// Source Slick track spacing is retained by the native scrolling component.
+.cb-site #main-content .slider .cb-carousel { padding: 40px 0; }
+.cb-site #main-content .promotion .cb-carousel { padding: 38px 0; }
+@media(max-width:768px){.cb-site #main-content .slider .cb-carousel { margin: 50px 15px 0; width: calc(100% - 30px); padding: 40px 15px; }}
+
+.cb-site .cb-banner-pagination { position: absolute; bottom: 17px; left: 50%; transform: translateX(-50%); display: flex; gap: 30px; }
+.cb-site .cb-banner-pagination button { width: 96px; height: 24px; position: relative; border: 0; background: transparent; padding: 0; }
+.cb-site .cb-banner-pagination button::before { content: ''; position: absolute; left: 0; right: 0; top: 11px; height: 3px; background: rgba(255,255,255,.45); }
+.cb-site .cb-banner-pagination button[aria-current=true]::before { background: #00aeef; }
+@media(max-width:768px){.cb-site .cb-banner-pagination { gap: 15px; } .cb-site .cb-banner-pagination button { width: 30px; }}
+
+.cb-site #main-content .text-tabs .content:not([hidden]) { display: flex; }
+.cb-site #main-content form.wpcf7-form .form-group:not(.two-elements):not(.acceptance) { display: block; }
+
+.cb-site #main-content .rl-gallery { gap: 0; }
+.cb-site .rl-gallery .rl-gallery-item { flex: 0 0 calc(25% - 2px); height: 150px; margin: 1px; }
+.cb-site .rl-gallery .rl-gallery-item a { display: block; height: 100%; }
+.cb-site .rl-gallery .rl-gallery-item img { width: 100%; height: 100%; object-fit: cover; }
+@media(max-width:768px){.cb-site .rl-gallery .rl-gallery-item { flex-basis: calc(100% - 2px); }}
+
+.cb-site header.cb-header .header-content .bottom .main-menu li.cb-submenu-closed > .sub-menu { display: none; }
+
+// The factory .content foreground belongs to dark sections; the source contact
+// panels have a light background and inherit the page foreground instead.
+.cb-site #main-content .text-tabs.contact .content { color: #222; }
+.cb-site #main-content .text-tabs.contact .cb-form-note { color: #222; }
+.cb-site #main-content .wpcf7 form { color: #222; display: block; }
+.cb-site #main-content .wpcf7 input:not([type=submit]), .cb-site #main-content .wpcf7 textarea { text-align: left; }
+.cb-site #main-content .wpcf7 .default-input { background: #fff; }
+.cb-site #main-content .wpcf7 .default-input::placeholder { text-align: left; }
+.cb-site #main-content .wpcf7 input[type=checkbox] { appearance: auto; background: #fff; }
+
+// Source mobile promotion tiles form a vertical list. Keep the genuine cards,
+// without copying Slick's repeated clones or exposing inert scroll controls.
+@media(max-width:768px){
+  .cb-site #main-content .promotion .cb-carousel { flex-direction: column; overflow: visible; gap: 0; }
+  .cb-site #main-content .promotion .cb-carousel > * { flex: 0 0 auto; width: 100%; }
+  .cb-site #main-content .promotion .cb-controls { display: none; }
+}
+
+.cb-site.cb-view-cb-17 .page-style p img.alignleft { float: none; display: inline; vertical-align: baseline; }
+.cb-site.cb-view-cb-18 .text.single-layout > div > p:first-of-type { margin-top: 31px; }
+
+// Both captured viewports use this card width; overflow stays inside the
+// keyboard/touch scrolling region instead of widening the document.
+.cb-site #main-content .slider .cb-carousel { gap: 0; }
+.cb-site #main-content .slider .cb-carousel > * { flex: 0 0 536px; width: 536px; }

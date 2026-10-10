@@ -1,0 +1,2024 @@
+{
+  "at": "2026-10-10T00:01:48.081Z",
+  "branch": "project/collegium-balticum",
+  "baseCommit": "4e283cf",
+  "runtime": {
+    "theme": "mwstudios-wordpress-factory",
+    "acf": "6.7.0.2",
+    "environment": "local",
+    "localUrl": "http://localhost:8000",
+    "locale": "pl_PL",
+    "blogPublic": "0",
+    "counts": [
+      35,
+      23,
+      268,
+      92
+    ]
+  },
+  "referenceManifests": [
+    {
+      "id": "b188794e2451ce56",
+      "verifiedFiles": 210
+    },
+    {
+      "id": "a58132455f6f7756",
+      "verifiedFiles": 426
+    },
+    {
+      "id": "0f72d1ed1fb38100",
+      "verifiedFiles": 227
+    }
+  ],
+  "importedMediaUrlMappings": 316,
+  "mappedMediaAttachments": 259,
+  "missingImages": [],
+  "localScreenshots": 38,
+  "comparisonImages": 114,
+  "responsiveChecks": 76,
+  "externalResourcesBlockedInAutomatedQa": [
+    "YouTube iframe",
+    "Google Maps iframe"
+  ],
+  "rawPixelMetric": "max channel delta > 32; full image, no rescaling or masking; not an acceptance threshold",
+  "interactions": {
+    "results": [
+      {
+        "id": "CB-00",
+        "failures": [],
+        "accordions": 0,
+        "tabs": 3,
+        "imagesWithoutAlt": 0,
+        "unlabelledForms": 0,
+        "lang": "pl-PL",
+        "skip": true,
+        "sliders": 1,
+        "keyboardSlider": true,
+        "sliderPager": true,
+        "keyboardMenu": true,
+        "escapeMenu": true
+      },
+      {
+        "id": "CB-01",
+        "failures": [],
+        "accordions": 0,
+        "tabs": 11,
+        "imagesWithoutAlt": 0,
+        "unlabelledForms": 0,
+        "lang": "pl-PL",
+        "skip": true,
+        "sliders": 0,
+        "keyboardMenu": true,
+        "escapeMenu": true
+      },
+      {
+        "id": "CB-02",
+        "failures": [],
+        "accordions": 0,
+        "tabs": 0,
+        "imagesWithoutAlt": 0,
+        "unlabelledForms": 0,
+        "lang": "pl-PL",
+        "skip": true,
+        "sliders": 0,
+        "keyboardMenu": true,
+        "escapeMenu": true
+      },
+      {
+        "id": "CB-03",
+        "failures": [],
+        "accordions": 0,
+        "tabs": 0,
+        "imagesWithoutAlt": 0,
+        "unlabelledForms": 0,
+        "lang": "pl-PL",
+        "skip": true,
+        "sliders": 0,
+        "keyboardMenu": true,
+        "escapeMenu": true
+      },
+      {
+        "id": "CB-04",
+        "failures": [],
+        "accordions": 5,
+        "tabs": 3,
+        "imagesWithoutAlt": 0,
+        "unlabelledForms": 0,
+        "lang": "pl-PL",
+        "skip": true,
+        "sliders": 0,
+        "keyboardAccordion": true,
+        "keyboardMenu": true,
+        "escapeMenu": true
+      },
+      {
+        "id": "CB-05",
+        "failures": [],
+        "accordions": 2,
+        "tabs": 0,
+        "imagesWithoutAlt": 0,
+        "unlabelledForms": 0,
+        "lang": "pl-PL",
+        "skip": true,
+        "sliders": 0,
+        "keyboardAccordion": true,
+        "galleryOpens": true,
+        "galleryCloses": true,
+        "keyboardMenu": true,
+        "escapeMenu": true
+      },
+      {
+        "id": "CB-06",
+        "failures": [],
+        "accordions": 5,
+        "tabs": 0,
+        "imagesWithoutAlt": 0,
+        "unlabelledForms": 0,
+        "lang": "pl-PL",
+        "skip": true,
+        "sliders": 1,
+        "keyboardAccordion": true,
+        "keyboardMenu": true,
+        "escapeMenu": true
+      },
+      {
+        "id": "CB-07",
+        "failures": [],
+        "accordions": 4,
+        "tabs": 0,
+        "imagesWithoutAlt": 0,
+        "unlabelledForms": 0,
+        "lang": "pl-PL",
+        "skip": true,
+        "sliders": 1,
+        "keyboardAccordion": true,
+        "keyboardMenu": true,
+        "escapeMenu": true
+      },
+      {
+        "id": "CB-08",
+        "failures": [],
+        "accordions": 13,
+        "tabs": 0,
+        "imagesWithoutAlt": 0,
+        "unlabelledForms": 0,
+        "lang": "pl-PL",
+        "skip": true,
+        "sliders": 1,
+        "keyboardAccordion": true,
+        "keyboardMenu": true,
+        "escapeMenu": true
+      },
+      {
+        "id": "CB-09",
+        "failures": [],
+        "accordions": 0,
+        "tabs": 0,
+        "imagesWithoutAlt": 0,
+        "unlabelledForms": 0,
+        "lang": "pl-PL",
+        "skip": true,
+        "sliders": 1,
+        "keyboardMenu": true,
+        "escapeMenu": true
+      },
+      {
+        "id": "CB-10",
+        "failures": [],
+        "accordions": 18,
+        "tabs": 3,
+        "imagesWithoutAlt": 0,
+        "unlabelledForms": 0,
+        "lang": "pl-PL",
+        "skip": true,
+        "sliders": 0,
+        "keyboardAccordion": true,
+        "keyboardMenu": true,
+        "escapeMenu": true
+      },
+      {
+        "id": "CB-11",
+        "failures": [],
+        "accordions": 5,
+        "tabs": 0,
+        "imagesWithoutAlt": 0,
+        "unlabelledForms": 0,
+        "lang": "pl-PL",
+        "skip": true,
+        "sliders": 1,
+        "keyboardAccordion": true,
+        "keyboardMenu": true,
+        "escapeMenu": true
+      },
+      {
+        "id": "CB-12",
+        "failures": [],
+        "accordions": 0,
+        "tabs": 0,
+        "imagesWithoutAlt": 0,
+        "unlabelledForms": 0,
+        "lang": "pl-PL",
+        "skip": true,
+        "sliders": 0,
+        "keyboardMenu": true,
+        "escapeMenu": true
+      },
+      {
+        "id": "CB-13",
+        "failures": [],
+        "accordions": 0,
+        "tabs": 0,
+        "imagesWithoutAlt": 0,
+        "unlabelledForms": 0,
+        "lang": "pl-PL",
+        "skip": true,
+        "sliders": 0,
+        "keyboardMenu": true,
+        "escapeMenu": true
+      },
+      {
+        "id": "CB-14",
+        "failures": [],
+        "accordions": 0,
+        "tabs": 0,
+        "imagesWithoutAlt": 0,
+        "unlabelledForms": 0,
+        "lang": "pl-PL",
+        "skip": true,
+        "sliders": 0,
+        "keyboardMenu": true,
+        "escapeMenu": true
+      },
+      {
+        "id": "CB-15",
+        "failures": [],
+        "accordions": 0,
+        "tabs": 0,
+        "imagesWithoutAlt": 0,
+        "unlabelledForms": 0,
+        "lang": "pl-PL",
+        "skip": true,
+        "sliders": 0,
+        "keyboardMenu": true,
+        "escapeMenu": true
+      },
+      {
+        "id": "CB-16",
+        "failures": [],
+        "accordions": 0,
+        "tabs": 0,
+        "imagesWithoutAlt": 0,
+        "unlabelledForms": 0,
+        "lang": "pl-PL",
+        "skip": true,
+        "sliders": 0,
+        "keyboardMenu": true,
+        "escapeMenu": true
+      },
+      {
+        "id": "CB-17",
+        "failures": [],
+        "accordions": 0,
+        "tabs": 0,
+        "imagesWithoutAlt": 0,
+        "unlabelledForms": 0,
+        "lang": "pl-PL",
+        "skip": true,
+        "sliders": 0,
+        "keyboardMenu": true,
+        "escapeMenu": true
+      },
+      {
+        "id": "CB-18",
+        "failures": [],
+        "accordions": 0,
+        "tabs": 0,
+        "imagesWithoutAlt": 0,
+        "unlabelledForms": 0,
+        "lang": "pl-PL",
+        "skip": true,
+        "sliders": 0,
+        "galleryOpens": true,
+        "galleryCloses": true,
+        "keyboardMenu": true,
+        "escapeMenu": true
+      }
+    ],
+    "desktopNavigation": {
+      "escapeCloses": true
+    },
+    "form": {
+      "invalidStatus": 422,
+      "validStatus": 302,
+      "redirect": "http://localhost:8000/kontakt/?cb_form=saved",
+      "browserSubmission": true
+    },
+    "filter": [
+      "Fitodietetyka"
+    ]
+  },
+  "rows": [
+    {
+      "id": "CB-00",
+      "sourceUrl": "https://www.cb.szczecin.pl/",
+      "localUrl": "http://localhost:8000/",
+      "wpId": 242,
+      "recordType": "page",
+      "template": "template-homepage.php",
+      "sourceCapture": "DONE",
+      "sourceQuality": [
+        {
+          "viewport": "desktop",
+          "status": "DONE",
+          "warnings": []
+        },
+        {
+          "viewport": "mobile",
+          "status": "DONE",
+          "warnings": []
+        }
+      ],
+      "templateStatus": "DONE",
+      "localRender": "DONE",
+      "content": "DONE",
+      "images": "DONE",
+      "documents": "DONE",
+      "desktopVisualQa": "IN_PROGRESS",
+      "mobileVisualQa": "IN_PROGRESS",
+      "wcagQa": "IN_PROGRESS",
+      "functionality": "IN_PROGRESS",
+      "openIssues": "Pozycja początkowa banera zgodna z osobnymi referencjami desktop/mobile; bez autoplay.",
+      "sections": 6,
+      "views": [
+        {
+          "viewport": "desktop",
+          "source": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-00/desktop/full.png",
+          "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-00-desktop.png",
+          "sourceSha256": "a1ed4b298780aa429d369672f105cc32091a3a302caaff080247e7c3f0b2c8a2",
+          "localSha256": "cf9df9a232f5917fd309942930292abd38cfb7cf9726ff66788be590a1f51070",
+          "sourceSize": [
+            1440,
+            5457
+          ],
+          "localSize": [
+            1440,
+            5469
+          ],
+          "changedPixelRatio": 0.09794828426890961,
+          "comparisonFiles": {
+            "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-00-desktop-pair.png",
+            "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-00-desktop-overlay.png",
+            "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-00-desktop-diff.png"
+          }
+        },
+        {
+          "viewport": "mobile",
+          "source": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-00/mobile/full.png",
+          "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-00-mobile.png",
+          "sourceSha256": "462c8619fecf6adb43ed8843e0ac892695446073e0642ff7d27fc4dcc978db93",
+          "localSha256": "86f3f357350d8d903c6302aa04dd735971fb0233ca9fd440e944f571047c121b",
+          "sourceSize": [
+            390,
+            8475
+          ],
+          "localSize": [
+            390,
+            8320
+          ],
+          "changedPixelRatio": 0.24848619620301035,
+          "comparisonFiles": {
+            "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-00-mobile-pair.png",
+            "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-00-mobile-overlay.png",
+            "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-00-mobile-diff.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CB-01",
+      "sourceUrl": "https://www.cb.szczecin.pl/kontakt/",
+      "localUrl": "http://localhost:8000/kontakt/",
+      "wpId": 243,
+      "recordType": "page",
+      "template": "template-contact.php",
+      "sourceCapture": "DONE",
+      "sourceQuality": [
+        {
+          "viewport": "desktop",
+          "status": "DONE",
+          "warnings": []
+        },
+        {
+          "viewport": "mobile",
+          "status": "DONE",
+          "warnings": []
+        }
+      ],
+      "templateStatus": "DONE",
+      "localRender": "DONE",
+      "content": "DONE",
+      "images": "DONE",
+      "documents": "DONE",
+      "desktopVisualQa": "IN_PROGRESS",
+      "mobileVisualQa": "IN_PROGRESS",
+      "wcagQa": "IN_PROGRESS",
+      "functionality": "IN_PROGRESS",
+      "openIssues": "Backend lokalny działa; brak wysyłki produkcyjnej. Mapa zewnętrzna nie była odtwarzana w automatycznej sesji.",
+      "sections": 2,
+      "views": [
+        {
+          "viewport": "desktop",
+          "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-01/desktop/full.png",
+          "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-01-desktop.png",
+          "sourceSha256": "571241a7e60fccf7c88385b95e8bbc866bedd10260c7f1fea203005bfb2a5074",
+          "localSha256": "f072dd198c1a065c1186f1d1620f1222bf42ac7cb22ce1e2daf88acb31a57c9d",
+          "sourceSize": [
+            1440,
+            3604
+          ],
+          "localSize": [
+            1440,
+            3678
+          ],
+          "changedPixelRatio": 0.030781750347411034,
+          "comparisonFiles": {
+            "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-01-desktop-pair.png",
+            "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-01-desktop-overlay.png",
+            "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-01-desktop-diff.png"
+          }
+        },
+        {
+          "viewport": "mobile",
+          "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-01/mobile/full.png",
+          "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-01-mobile.png",
+          "sourceSha256": "9618cd5c5f9c25a9ed0354b384e4adf92cebccf59babfa63fbd1c4802d491308",
+          "localSha256": "e81c88687354251f12643909824d882fc0840b705468b2c5cc5c5d4a74c346d7",
+          "sourceSize": [
+            390,
+            5373
+          ],
+          "localSize": [
+            390,
+            5408
+          ],
+          "changedPixelRatio": 0.0670559285389167,
+          "comparisonFiles": {
+            "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-01-mobile-pair.png",
+            "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-01-mobile-overlay.png",
+            "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-01-mobile-diff.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CB-02",
+      "sourceUrl": "https://www.cb.szczecin.pl/category/wpisy/blog-post/",
+      "localUrl": "http://localhost:8000/category/wpisy/blog-post/",
+      "wpId": 5,
+      "recordType": "category term",
+      "template": "archive.php (category)",
+      "sourceCapture": "DONE",
+      "sourceQuality": [
+        {
+          "viewport": "desktop",
+          "status": "DONE",
+          "warnings": []
+        },
+        {
+          "viewport": "mobile",
+          "status": "DONE",
+          "warnings": []
+        }
+      ],
+      "templateStatus": "DONE",
+      "localRender": "DONE",
+      "content": "DONE",
+      "images": "DONE",
+      "documents": "DONE",
+      "desktopVisualQa": "IN_PROGRESS",
+      "mobileVisualQa": "IN_PROGRESS",
+      "wcagQa": "IN_PROGRESS",
+      "functionality": "IN_PROGRESS",
+      "openIssues": "Natywna kategoria i paginacja; pozostałe wpisy mają tylko autentyczne zajawki i odsyłają do źródła.",
+      "sections": 2,
+      "views": [
+        {
+          "viewport": "desktop",
+          "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-02/desktop/full.png",
+          "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-02-desktop.png",
+          "sourceSha256": "6b388b8da7786a199e9aaadf7245a7e13082bbf8ce3c014c6e14cf3c718b581b",
+          "localSha256": "0d2b26804a0b4f619c51b5769c020a4f4163216e6e5b4f9d9ff7d4caad6a687a",
+          "sourceSize": [
+            1440,
+            3242
+          ],
+          "localSize": [
+            1440,
+            3441
+          ],
+          "changedPixelRatio": 0.050148737447124545,
+          "comparisonFiles": {
+            "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-02-desktop-pair.png",
+            "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-02-desktop-overlay.png",
+            "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-02-desktop-diff.png"
+          }
+        },
+        {
+          "viewport": "mobile",
+          "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-02/mobile/full.png",
+          "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-02-mobile.png",
+          "sourceSha256": "3aa04db891b33b8e9faa9ae2429f116249162fa642a3483d47529f71b3ef7aa6",
+          "localSha256": "b12aba049be51b81fde84ca0ede9e41fd2ea8cf5f267543f4d335ffa36d67b05",
+          "sourceSize": [
+            390,
+            5960
+          ],
+          "localSize": [
+            390,
+            6020
+          ],
+          "changedPixelRatio": 0.17718885765397394,
+          "comparisonFiles": {
+            "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-02-mobile-pair.png",
+            "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-02-mobile-overlay.png",
+            "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-02-mobile-diff.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CB-03",
+      "sourceUrl": "https://www.cb.szczecin.pl/wpisy/blog-post/dietetyka-licencjacka-i-magisterska-czym-roznia-sie-programy-i-perspektywy-zawodowe/",
+      "localUrl": "http://localhost:8000/wpisy/blog-post/dietetyka-licencjacka-i-magisterska-czym-roznia-sie-programy-i-perspektywy-zawodowe/",
+      "wpId": 244,
+      "recordType": "post",
+      "template": "single.php (post)",
+      "sourceCapture": "DONE",
+      "sourceQuality": [
+        {
+          "viewport": "desktop",
+          "status": "DONE",
+          "warnings": []
+        },
+        {
+          "viewport": "mobile",
+          "status": "DONE",
+          "warnings": []
+        }
+      ],
+      "templateStatus": "DONE",
+      "localRender": "DONE",
+      "content": "DONE",
+      "images": "DONE",
+      "documents": "DONE",
+      "desktopVisualQa": "IN_PROGRESS",
+      "mobileVisualQa": "IN_PROGRESS",
+      "wcagQa": "IN_PROGRESS",
+      "functionality": "IN_PROGRESS",
+      "openIssues": "Pełna treść natywnego wpisu; pozostałe zajawki nie udają pełnych artykułów.",
+      "sections": 2,
+      "views": [
+        {
+          "viewport": "desktop",
+          "source": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-03/desktop/full.png",
+          "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-03-desktop.png",
+          "sourceSha256": "7f586d0871bff510e8d2d3f50988fcf5d4162e07e469c9bc9d67399ee1b43e08",
+          "localSha256": "809e81a470a9cb7970b01eaa4ffc63b173f1076bbe3da94c08a2af5544b8eb58",
+          "sourceSize": [
+            1440,
+            6497
+          ],
+          "localSize": [
+            1440,
+            6627
+          ],
+          "changedPixelRatio": 0.08858394949952215,
+          "comparisonFiles": {
+            "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-03-desktop-pair.png",
+            "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-03-desktop-overlay.png",
+            "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-03-desktop-diff.png"
+          }
+        },
+        {
+          "viewport": "mobile",
+          "source": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-03/mobile/full.png",
+          "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-03-mobile.png",
+          "sourceSha256": "af018e249dff6f64ccf2b9ceb8b120ac7a77325965db5e1df5f67b16cc90ee54",
+          "localSha256": "514ed65926818a91584bf00fb092b5db6e7e60b02f02360d25ffd10417015c05",
+          "sourceSize": [
+            390,
+            11988
+          ],
+          "localSize": [
+            390,
+            11945
+          ],
+          "changedPixelRatio": 0.16165909499242834,
+          "comparisonFiles": {
+            "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-03-mobile-pair.png",
+            "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-03-mobile-overlay.png",
+            "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-03-mobile-diff.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CB-04",
+      "sourceUrl": "https://www.cb.szczecin.pl/rekrutacja/",
+      "localUrl": "http://localhost:8000/rekrutacja/",
+      "wpId": 246,
+      "recordType": "page",
+      "template": "template-banner-tile.php",
+      "sourceCapture": "DONE",
+      "sourceQuality": [
+        {
+          "viewport": "desktop",
+          "status": "DONE",
+          "warnings": []
+        },
+        {
+          "viewport": "mobile",
+          "status": "DONE",
+          "warnings": []
+        }
+      ],
+      "templateStatus": "DONE",
+      "localRender": "DONE",
+      "content": "DONE",
+      "images": "DONE",
+      "documents": "BLOCKED",
+      "desktopVisualQa": "IN_PROGRESS",
+      "mobileVisualQa": "IN_PROGRESS",
+      "wcagQa": "IN_PROGRESS",
+      "functionality": "IN_PROGRESS",
+      "openIssues": "Zachowane cztery oryginalne iframe; odtwarzanie/captions wymagają osobnej kontroli. Brak 3 lokalnych kopii dokumentów; oryginalne linki zachowane.",
+      "sections": 11,
+      "views": [
+        {
+          "viewport": "desktop",
+          "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-04/desktop/full.png",
+          "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-04-desktop.png",
+          "sourceSha256": "4527423f30fb3e553d3e3a8242e951062e2a56aaaea039a746c44616bc649304",
+          "localSha256": "666f6b8ec4b70c5e37970c884bb3a93530b4c48ac80886d24f9e923335ffb750",
+          "sourceSize": [
+            1440,
+            7924
+          ],
+          "localSize": [
+            1440,
+            8775
+          ],
+          "changedPixelRatio": 0.16867798353909466,
+          "comparisonFiles": {
+            "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-04-desktop-pair.png",
+            "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-04-desktop-overlay.png",
+            "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-04-desktop-diff.png"
+          }
+        },
+        {
+          "viewport": "mobile",
+          "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-04/mobile/full.png",
+          "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-04-mobile.png",
+          "sourceSha256": "169150de5edb32540d785c4c6b089870b922041bef1119627fae9f98e50783c7",
+          "localSha256": "60cc8f4864b0497b6b5cbde45a2e673227aedba37e8dd55e918bfd543fafa22b",
+          "sourceSize": [
+            390,
+            15343
+          ],
+          "localSize": [
+            390,
+            13356
+          ],
+          "changedPixelRatio": 0.18949591979638256,
+          "comparisonFiles": {
+            "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-04-mobile-pair.png",
+            "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-04-mobile-overlay.png",
+            "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-04-mobile-diff.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CB-05",
+      "sourceUrl": "https://www.cb.szczecin.pl/dni-otwarte/",
+      "localUrl": "http://localhost:8000/dni-otwarte/",
+      "wpId": 247,
+      "recordType": "page",
+      "template": "template-banner-tile.php",
+      "sourceCapture": "DONE",
+      "sourceQuality": [
+        {
+          "viewport": "desktop",
+          "status": "DONE",
+          "warnings": []
+        },
+        {
+          "viewport": "mobile",
+          "status": "DONE",
+          "warnings": []
+        }
+      ],
+      "templateStatus": "DONE",
+      "localRender": "DONE",
+      "content": "DONE",
+      "images": "DONE",
+      "documents": "BLOCKED",
+      "desktopVisualQa": "IN_PROGRESS",
+      "mobileVisualQa": "IN_PROGRESS",
+      "wcagQa": "IN_PROGRESS",
+      "functionality": "IN_PROGRESS",
+      "openIssues": "Zachowane cztery iframe i zamknięte galerie zgodnie z DOM. Odtwarzanie/captions poza automatycznym QA. Brak 1 lokalnych kopii dokumentów; oryginalne linki zachowane.",
+      "sections": 9,
+      "views": [
+        {
+          "viewport": "desktop",
+          "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-05/desktop/full.png",
+          "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-05-desktop.png",
+          "sourceSha256": "db5a7c42c6c65eec646ef678b3438921cf05007b7e75f5fd2142b591a71a2572",
+          "localSha256": "0fc32efa4b251266becbb7fb3ec2c0b427ae98e37566f9853476b91f812fcf89",
+          "sourceSize": [
+            1440,
+            5914
+          ],
+          "localSize": [
+            1440,
+            6075
+          ],
+          "changedPixelRatio": 0.12836042524005487,
+          "comparisonFiles": {
+            "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-05-desktop-pair.png",
+            "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-05-desktop-overlay.png",
+            "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-05-desktop-diff.png"
+          }
+        },
+        {
+          "viewport": "mobile",
+          "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-05/mobile/full.png",
+          "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-05-mobile.png",
+          "sourceSha256": "220d7e93efd2af176ac203bdc86ef4270efb04f376f3398fa755ba7e51312fdd",
+          "localSha256": "46f06e2f098fa4f1c36e10cdc9a5a828e64da34e966bca476cd33257d01ece8a",
+          "sourceSize": [
+            390,
+            8485
+          ],
+          "localSize": [
+            390,
+            8431
+          ],
+          "changedPixelRatio": 0.14731970445582704,
+          "comparisonFiles": {
+            "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-05-mobile-pair.png",
+            "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-05-mobile-overlay.png",
+            "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-05-mobile-diff.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CB-06",
+      "sourceUrl": "https://www.cb.szczecin.pl/tryb-studiow/studia-licencjackie/",
+      "localUrl": "http://localhost:8000/tryb-studiow/studia-licencjackie/",
+      "wpId": 249,
+      "recordType": "page",
+      "template": "template-banner-accordion.php",
+      "sourceCapture": "DONE",
+      "sourceQuality": [
+        {
+          "viewport": "desktop",
+          "status": "DONE",
+          "warnings": []
+        },
+        {
+          "viewport": "mobile",
+          "status": "DONE",
+          "warnings": []
+        }
+      ],
+      "templateStatus": "DONE",
+      "localRender": "DONE",
+      "content": "DONE",
+      "images": "DONE",
+      "documents": "DONE",
+      "desktopVisualQa": "IN_PROGRESS",
+      "mobileVisualQa": "IN_PROGRESS",
+      "wcagQa": "IN_PROGRESS",
+      "functionality": "IN_PROGRESS",
+      "openIssues": "Dalsze dopasowanie odstępów i typografii.",
+      "sections": 5,
+      "views": [
+        {
+          "viewport": "desktop",
+          "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-06/desktop/full.png",
+          "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-06-desktop.png",
+          "sourceSha256": "eca1bb7bf7c063c1f5cb17294b6a73be3e06f76b84befda268320da49be28269",
+          "localSha256": "9b6601ab57c07de143bdde0048b2c2f3eadbd4f30fde34a7ae13509e2a3a9845",
+          "sourceSize": [
+            1440,
+            4103
+          ],
+          "localSize": [
+            1440,
+            4169
+          ],
+          "changedPixelRatio": 0.12589383278697264,
+          "comparisonFiles": {
+            "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-06-desktop-pair.png",
+            "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-06-desktop-overlay.png",
+            "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-06-desktop-diff.png"
+          }
+        },
+        {
+          "viewport": "mobile",
+          "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-06/mobile/full.png",
+          "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-06-mobile.png",
+          "sourceSha256": "316ec7c78740082a0da05aac3c1ff0060125e19dfdb4c852ba58daed59fc7030",
+          "localSha256": "7e5d0dd60cc2ed575bfc4631c81a4cff9640ef5d4a7780c94d660e74180de49f",
+          "sourceSize": [
+            390,
+            8199
+          ],
+          "localSize": [
+            390,
+            6431
+          ],
+          "changedPixelRatio": 0.1657606775060123,
+          "comparisonFiles": {
+            "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-06-mobile-pair.png",
+            "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-06-mobile-overlay.png",
+            "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-06-mobile-diff.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CB-07",
+      "sourceUrl": "https://www.cb.szczecin.pl/tryb-studiow/studia-magisterskie/",
+      "localUrl": "http://localhost:8000/tryb-studiow/studia-magisterskie/",
+      "wpId": 250,
+      "recordType": "page",
+      "template": "template-banner-accordion.php",
+      "sourceCapture": "DONE",
+      "sourceQuality": [
+        {
+          "viewport": "desktop",
+          "status": "DONE",
+          "warnings": []
+        },
+        {
+          "viewport": "mobile",
+          "status": "DONE",
+          "warnings": []
+        }
+      ],
+      "templateStatus": "DONE",
+      "localRender": "DONE",
+      "content": "DONE",
+      "images": "DONE",
+      "documents": "DONE",
+      "desktopVisualQa": "IN_PROGRESS",
+      "mobileVisualQa": "IN_PROGRESS",
+      "wcagQa": "IN_PROGRESS",
+      "functionality": "IN_PROGRESS",
+      "openIssues": "Dalsze dopasowanie odstępów i typografii.",
+      "sections": 5,
+      "views": [
+        {
+          "viewport": "desktop",
+          "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-07/desktop/full.png",
+          "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-07-desktop.png",
+          "sourceSha256": "fba74b9c4a9e59500025b06081d8c9dc06d0d665cec76a6025b66f2466fdfe5a",
+          "localSha256": "ad97594ddd35f647b932bff80d2500de71db299baab895f7ecea2b9cf2fb8550",
+          "sourceSize": [
+            1440,
+            3966
+          ],
+          "localSize": [
+            1440,
+            4059
+          ],
+          "changedPixelRatio": 0.1272499726259889,
+          "comparisonFiles": {
+            "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-07-desktop-pair.png",
+            "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-07-desktop-overlay.png",
+            "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-07-desktop-diff.png"
+          }
+        },
+        {
+          "viewport": "mobile",
+          "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-07/mobile/full.png",
+          "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-07-mobile.png",
+          "sourceSha256": "b8074e3bb6cd4997fe050c41d6aea81a2763a18004e89c5cda2520ae4d6c2857",
+          "localSha256": "48dd0c83199c36372d421d6ee0a295e43542ebd23a80da539cbc4fa887c6ae52",
+          "sourceSize": [
+            390,
+            8255
+          ],
+          "localSize": [
+            390,
+            6510
+          ],
+          "changedPixelRatio": 0.1517597726319713,
+          "comparisonFiles": {
+            "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-07-mobile-pair.png",
+            "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-07-mobile-overlay.png",
+            "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-07-mobile-diff.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CB-08",
+      "sourceUrl": "https://www.cb.szczecin.pl/tryb-studiow/studia-podyplomowe/studia-nienauczycielskie/fitodietetyka/",
+      "localUrl": "http://localhost:8000/tryb-studiow/studia-podyplomowe/studia-nienauczycielskie/fitodietetyka/",
+      "wpId": 253,
+      "recordType": "page",
+      "template": "template-course.php",
+      "sourceCapture": "DONE",
+      "sourceQuality": [
+        {
+          "viewport": "desktop",
+          "status": "BLOCKED",
+          "warnings": [
+            {
+              "type": "SOURCE_EMPTY_IMAGE_SRC",
+              "url": "https://www.cb.szczecin.pl/tryb-studiow/studia-podyplomowe/studia-nienauczycielskie/fitodietetyka/",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "viewport": "mobile",
+          "status": "BLOCKED",
+          "warnings": [
+            {
+              "type": "SOURCE_EMPTY_IMAGE_SRC",
+              "url": "https://www.cb.szczecin.pl/tryb-studiow/studia-podyplomowe/studia-nienauczycielskie/fitodietetyka/",
+              "alt": ""
+            }
+          ]
+        }
+      ],
+      "templateStatus": "DONE",
+      "localRender": "DONE",
+      "content": "DONE",
+      "images": "DONE",
+      "documents": "BLOCKED",
+      "desktopVisualQa": "IN_PROGRESS",
+      "mobileVisualQa": "IN_PROGRESS",
+      "wcagQa": "IN_PROGRESS",
+      "functionality": "IN_PROGRESS",
+      "openIssues": "Źródłowy pusty src pominięto; nie dodano zastępczego obrazu. Brak 1 lokalnych kopii dokumentów; oryginalne linki zachowane.",
+      "sections": 11,
+      "views": [
+        {
+          "viewport": "desktop",
+          "source": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-08/desktop/full.png",
+          "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-08-desktop.png",
+          "sourceSha256": "b501dd7921bf792d491a581f1d85a47d42f3f1352f407b7f23fdf5629df6d705",
+          "localSha256": "bc1b8da62920383dce0412a0ec3054b518e1145cb181c0cd1231416d095201bc",
+          "sourceSize": [
+            1440,
+            9182
+          ],
+          "localSize": [
+            1440,
+            9212
+          ],
+          "changedPixelRatio": 0.1450282994403435,
+          "comparisonFiles": {
+            "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-08-desktop-pair.png",
+            "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-08-desktop-overlay.png",
+            "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-08-desktop-diff.png"
+          }
+        },
+        {
+          "viewport": "mobile",
+          "source": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-08/mobile/full.png",
+          "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-08-mobile.png",
+          "sourceSha256": "db933ab0ecbbb4c36c41884c5a4966e6f82700da86647df1a4b8ed3bdbe21788",
+          "localSha256": "11211d6c3ea81e9cee59eceecad11ddef36c4e86ca517416ecd795b66520c6d4",
+          "sourceSize": [
+            390,
+            11220
+          ],
+          "localSize": [
+            390,
+            11103
+          ],
+          "changedPixelRatio": 0.23256044608985785,
+          "comparisonFiles": {
+            "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-08-mobile-pair.png",
+            "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-08-mobile-overlay.png",
+            "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-08-mobile-diff.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CB-09",
+      "sourceUrl": "https://www.cb.szczecin.pl/tryb-studiow/studia-online/",
+      "localUrl": "http://localhost:8000/tryb-studiow/studia-online/",
+      "wpId": 254,
+      "recordType": "page",
+      "template": "template-flexible.php",
+      "sourceCapture": "DONE",
+      "sourceQuality": [
+        {
+          "viewport": "desktop",
+          "status": "DONE",
+          "warnings": []
+        },
+        {
+          "viewport": "mobile",
+          "status": "DONE",
+          "warnings": []
+        }
+      ],
+      "templateStatus": "DONE",
+      "localRender": "DONE",
+      "content": "DONE",
+      "images": "DONE",
+      "documents": "BLOCKED",
+      "desktopVisualQa": "IN_PROGRESS",
+      "mobileVisualQa": "IN_PROGRESS",
+      "wcagQa": "IN_PROGRESS",
+      "functionality": "IN_PROGRESS",
+      "openIssues": "Dalsze dopasowanie odstępów i typografii. Brak 2 lokalnych kopii dokumentów; oryginalne linki zachowane.",
+      "sections": 5,
+      "views": [
+        {
+          "viewport": "desktop",
+          "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-09/desktop/full.png",
+          "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-09-desktop.png",
+          "sourceSha256": "b504ad42d723823e616de708947dad377a613b80c8e8a7c020a5d2cac478c5e8",
+          "localSha256": "985df4bbc456b5489b85df038b777765d433443215aa4e58ca0f54f9fe663f8d",
+          "sourceSize": [
+            1440,
+            4454
+          ],
+          "localSize": [
+            1440,
+            4553
+          ],
+          "changedPixelRatio": 0.06890252458696342,
+          "comparisonFiles": {
+            "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-09-desktop-pair.png",
+            "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-09-desktop-overlay.png",
+            "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-09-desktop-diff.png"
+          }
+        },
+        {
+          "viewport": "mobile",
+          "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-09/mobile/full.png",
+          "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-09-mobile.png",
+          "sourceSha256": "93f0f04be4091b9464081a7dc41c11cf7b7eca8f5edd3818f6fa4ce7333270f6",
+          "localSha256": "261f30a27d3a115e749651dfb14ad4590e9ba2b243a99020d278e8dd16961680",
+          "sourceSize": [
+            390,
+            6822
+          ],
+          "localSize": [
+            390,
+            6828
+          ],
+          "changedPixelRatio": 0.07592717768464693,
+          "comparisonFiles": {
+            "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-09-mobile-pair.png",
+            "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-09-mobile-overlay.png",
+            "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-09-mobile-diff.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CB-10",
+      "sourceUrl": "https://www.cb.szczecin.pl/tryb-studiow/studia-podyplomowe/",
+      "localUrl": "http://localhost:8000/tryb-studiow/studia-podyplomowe/",
+      "wpId": 251,
+      "recordType": "page",
+      "template": "template-flexible.php",
+      "sourceCapture": "DONE",
+      "sourceQuality": [
+        {
+          "viewport": "desktop",
+          "status": "DONE",
+          "warnings": []
+        },
+        {
+          "viewport": "mobile",
+          "status": "DONE",
+          "warnings": []
+        }
+      ],
+      "templateStatus": "DONE",
+      "localRender": "DONE",
+      "content": "DONE",
+      "images": "DONE",
+      "documents": "BLOCKED",
+      "desktopVisualQa": "IN_PROGRESS",
+      "mobileVisualQa": "IN_PROGRESS",
+      "wcagQa": "IN_PROGRESS",
+      "functionality": "IN_PROGRESS",
+      "openIssues": "Lokalny filtr Szczecina działa; pozostałe miasta prowadzą do istniejącej usługi źródłowej. Brak 4 lokalnych kopii dokumentów; oryginalne linki zachowane.",
+      "sections": 14,
+      "views": [
+        {
+          "viewport": "desktop",
+          "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-10/desktop/full.png",
+          "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-10-desktop.png",
+          "sourceSha256": "e2aa82ee9411619c047b5d299a58f1775230b93ed02cddb51c405ea05a19e50c",
+          "localSha256": "5549f56be71ea973136323eaf5129fc32fa870016d66c11d450dc0869f044cfa",
+          "sourceSize": [
+            1440,
+            12306
+          ],
+          "localSize": [
+            1440,
+            12398
+          ],
+          "changedPixelRatio": 0.10900666102059473,
+          "comparisonFiles": {
+            "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-10-desktop-pair.png",
+            "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-10-desktop-overlay.png",
+            "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-10-desktop-diff.png"
+          }
+        },
+        {
+          "viewport": "mobile",
+          "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-10/mobile/full.png",
+          "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-10-mobile.png",
+          "sourceSha256": "b0a2c271b785ab37729e598b32418ec90f221d13cddfbc02afe917bad4d788f3",
+          "localSha256": "b1e0b64b9ad215a7a8ff91f1262d9c5be92812e396eeea6ebcd281a260f54abc",
+          "sourceSize": [
+            390,
+            18682
+          ],
+          "localSize": [
+            390,
+            18598
+          ],
+          "changedPixelRatio": 0.19221944062432234,
+          "comparisonFiles": {
+            "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-10-mobile-pair.png",
+            "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-10-mobile-overlay.png",
+            "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-10-mobile-diff.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CB-11",
+      "sourceUrl": "https://www.cb.szczecin.pl/mediator-sadowy/",
+      "localUrl": "http://localhost:8000/mediator-sadowy/",
+      "wpId": 256,
+      "recordType": "page",
+      "template": "template-course.php",
+      "sourceCapture": "DONE",
+      "sourceQuality": [
+        {
+          "viewport": "desktop",
+          "status": "BLOCKED",
+          "warnings": [
+            {
+              "type": "SOURCE_EMPTY_IMAGE_SRC",
+              "url": "https://www.cb.szczecin.pl/mediator-sadowy/",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "viewport": "mobile",
+          "status": "BLOCKED",
+          "warnings": [
+            {
+              "type": "SOURCE_EMPTY_IMAGE_SRC",
+              "url": "https://www.cb.szczecin.pl/mediator-sadowy/",
+              "alt": ""
+            }
+          ]
+        }
+      ],
+      "templateStatus": "DONE",
+      "localRender": "DONE",
+      "content": "DONE",
+      "images": "DONE",
+      "documents": "BLOCKED",
+      "desktopVisualQa": "IN_PROGRESS",
+      "mobileVisualQa": "IN_PROGRESS",
+      "wcagQa": "IN_PROGRESS",
+      "functionality": "IN_PROGRESS",
+      "openIssues": "Pominięto pusty źródłowy baner (272 px desktop / 125 px mobile); nie dodano zastępczego obrazu. Brak 2 lokalnych kopii dokumentów; oryginalne linki zachowane.",
+      "sections": 4,
+      "views": [
+        {
+          "viewport": "desktop",
+          "source": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-11/desktop/full.png",
+          "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-11-desktop.png",
+          "sourceSha256": "951cf1e19de25d7de6d9b80b119f5377460d23db644dbec24f045085366d7b9f",
+          "localSha256": "ed75afbfa8aa77d01fde9f09341fcc45549a6ebbdd873bce78f360725ea42621",
+          "sourceSize": [
+            1440,
+            3940
+          ],
+          "localSize": [
+            1440,
+            3674
+          ],
+          "changedPixelRatio": 0.1992327622673435,
+          "comparisonFiles": {
+            "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-11-desktop-pair.png",
+            "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-11-desktop-overlay.png",
+            "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-11-desktop-diff.png"
+          }
+        },
+        {
+          "viewport": "mobile",
+          "source": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-11/mobile/full.png",
+          "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-11-mobile.png",
+          "sourceSha256": "1d4562ef8bd3dc042a52c6949f89f9bfc9fc6d91be2c302f4697345e4b4dfd47",
+          "localSha256": "cb38652ef6d1c75e721c878297eba93c93d2d9a7e158e51e87aea2baa1fd3ec7",
+          "sourceSize": [
+            390,
+            4896
+          ],
+          "localSize": [
+            390,
+            4692
+          ],
+          "changedPixelRatio": 0.15157952069716776,
+          "comparisonFiles": {
+            "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-11-mobile-pair.png",
+            "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-11-mobile-overlay.png",
+            "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-11-mobile-diff.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CB-12",
+      "sourceUrl": "https://www.cb.szczecin.pl/szkolenia-rad-pedagogicznych/",
+      "localUrl": "http://localhost:8000/szkolenia-rad-pedagogicznych/",
+      "wpId": 257,
+      "recordType": "page",
+      "template": "template-flexible.php",
+      "sourceCapture": "DONE",
+      "sourceQuality": [
+        {
+          "viewport": "desktop",
+          "status": "DONE",
+          "warnings": []
+        },
+        {
+          "viewport": "mobile",
+          "status": "DONE",
+          "warnings": []
+        }
+      ],
+      "templateStatus": "DONE",
+      "localRender": "DONE",
+      "content": "DONE",
+      "images": "DONE",
+      "documents": "DONE",
+      "desktopVisualQa": "IN_PROGRESS",
+      "mobileVisualQa": "IN_PROGRESS",
+      "wcagQa": "IN_PROGRESS",
+      "functionality": "IN_PROGRESS",
+      "openIssues": "Dalsze dopasowanie odstępów i typografii.",
+      "sections": 3,
+      "views": [
+        {
+          "viewport": "desktop",
+          "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-12/desktop/full.png",
+          "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-12-desktop.png",
+          "sourceSha256": "e155c3cd32dcc389b8100aa017c839bebbafd78fe6d076d52e589f893e9b3aca",
+          "localSha256": "836ac38fb057077ef2de320c9f917f6699240fffb6d8aaae12f72855265c9745",
+          "sourceSize": [
+            1440,
+            3457
+          ],
+          "localSize": [
+            1440,
+            3498
+          ],
+          "changedPixelRatio": 0.11826341242614828,
+          "comparisonFiles": {
+            "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-12-desktop-pair.png",
+            "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-12-desktop-overlay.png",
+            "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-12-desktop-diff.png"
+          }
+        },
+        {
+          "viewport": "mobile",
+          "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-12/mobile/full.png",
+          "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-12-mobile.png",
+          "sourceSha256": "06df0d3243cf274d4fd8cd9327899974db4e9591aa5e17c7b689a0abc262cced",
+          "localSha256": "9c111a0490123cd579156efb13b8f74d19598ee724509fd8ce73ce9371dca13d",
+          "sourceSize": [
+            390,
+            5503
+          ],
+          "localSize": [
+            390,
+            5449
+          ],
+          "changedPixelRatio": 0.15472306480847275,
+          "comparisonFiles": {
+            "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-12-mobile-pair.png",
+            "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-12-mobile-overlay.png",
+            "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-12-mobile-diff.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CB-13",
+      "sourceUrl": "https://www.cb.szczecin.pl/przeniesienie-z-innej-uczelni/",
+      "localUrl": "http://localhost:8000/przeniesienie-z-innej-uczelni/",
+      "wpId": 258,
+      "recordType": "page",
+      "template": "template-basic.php",
+      "sourceCapture": "DONE",
+      "sourceQuality": [
+        {
+          "viewport": "desktop",
+          "status": "DONE",
+          "warnings": []
+        },
+        {
+          "viewport": "mobile",
+          "status": "DONE",
+          "warnings": []
+        }
+      ],
+      "templateStatus": "DONE",
+      "localRender": "DONE",
+      "content": "DONE",
+      "images": "DONE",
+      "documents": "BLOCKED",
+      "desktopVisualQa": "IN_PROGRESS",
+      "mobileVisualQa": "IN_PROGRESS",
+      "wcagQa": "IN_PROGRESS",
+      "functionality": "IN_PROGRESS",
+      "openIssues": "Dalsze dopasowanie odstępów i typografii. Brak 1 lokalnych kopii dokumentów; oryginalne linki zachowane.",
+      "sections": 2,
+      "views": [
+        {
+          "viewport": "desktop",
+          "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-13/desktop/full.png",
+          "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-13-desktop.png",
+          "sourceSha256": "9cf5c3b56f510218514b1db2775cecf5c7abbba971776754e21fe2a616fa1b63",
+          "localSha256": "510ff6eea683852d0d6a62d0ba6b73accb300b9e55d4e5162085d4c67e026920",
+          "sourceSize": [
+            1440,
+            2531
+          ],
+          "localSize": [
+            1440,
+            2614
+          ],
+          "changedPixelRatio": 0.07790184264218311,
+          "comparisonFiles": {
+            "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-13-desktop-pair.png",
+            "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-13-desktop-overlay.png",
+            "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-13-desktop-diff.png"
+          }
+        },
+        {
+          "viewport": "mobile",
+          "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-13/mobile/full.png",
+          "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-13-mobile.png",
+          "sourceSha256": "4ff28f44f000bf6e30a41668ada27d74d2e3e7628a85557b4e8b6d2c358fa601",
+          "localSha256": "db0f0b5653c749d5271fa659b9c3483b78bae2b9e5f884d4b6058b7042ba1202",
+          "sourceSize": [
+            390,
+            4254
+          ],
+          "localSize": [
+            390,
+            4248
+          ],
+          "changedPixelRatio": 0.11954299422564585,
+          "comparisonFiles": {
+            "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-13-mobile-pair.png",
+            "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-13-mobile-overlay.png",
+            "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-13-mobile-diff.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CB-14",
+      "sourceUrl": "https://www.cb.szczecin.pl/reaktywuj-sie-w-prawach-studenta-w-collegium-balticum/",
+      "localUrl": "http://localhost:8000/reaktywuj-sie-w-prawach-studenta-w-collegium-balticum/",
+      "wpId": 259,
+      "recordType": "page",
+      "template": "template-basic.php",
+      "sourceCapture": "DONE",
+      "sourceQuality": [
+        {
+          "viewport": "desktop",
+          "status": "DONE",
+          "warnings": []
+        },
+        {
+          "viewport": "mobile",
+          "status": "DONE",
+          "warnings": []
+        }
+      ],
+      "templateStatus": "DONE",
+      "localRender": "DONE",
+      "content": "DONE",
+      "images": "DONE",
+      "documents": "BLOCKED",
+      "desktopVisualQa": "IN_PROGRESS",
+      "mobileVisualQa": "IN_PROGRESS",
+      "wcagQa": "IN_PROGRESS",
+      "functionality": "IN_PROGRESS",
+      "openIssues": "Dalsze dopasowanie odstępów i typografii. Brak 1 lokalnych kopii dokumentów; oryginalne linki zachowane.",
+      "sections": 2,
+      "views": [
+        {
+          "viewport": "desktop",
+          "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-14/desktop/full.png",
+          "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-14-desktop.png",
+          "sourceSha256": "daf7aee712e0ea9a29ce1ec119b4ed903c867d926eb93738983b56f976d0216c",
+          "localSha256": "3666cd1fb0a2d2c881e4fc65c03756270410998fd0ce5e2151a4b3cf321c4543",
+          "sourceSize": [
+            1440,
+            2479
+          ],
+          "localSize": [
+            1440,
+            2569
+          ],
+          "changedPixelRatio": 0.07811810691579084,
+          "comparisonFiles": {
+            "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-14-desktop-pair.png",
+            "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-14-desktop-overlay.png",
+            "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-14-desktop-diff.png"
+          }
+        },
+        {
+          "viewport": "mobile",
+          "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-14/mobile/full.png",
+          "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-14-mobile.png",
+          "sourceSha256": "1217712601837f80d34152c8ddc635fe71de6bdb843b947f708c49edad3eaf4d",
+          "localSha256": "6637802809aa71e347c40421800c00d016b3b992a680822c9b0f56180eb45e34",
+          "sourceSize": [
+            390,
+            4178
+          ],
+          "localSize": [
+            390,
+            4177
+          ],
+          "changedPixelRatio": 0.09013145781934676,
+          "comparisonFiles": {
+            "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-14-mobile-pair.png",
+            "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-14-mobile-overlay.png",
+            "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-14-mobile-diff.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CB-15",
+      "sourceUrl": "https://www.cb.szczecin.pl/strefa-studenta/wsparcie-studenta/",
+      "localUrl": "http://localhost:8000/strefa-studenta/wsparcie-studenta/",
+      "wpId": 261,
+      "recordType": "page",
+      "template": "template-flexible.php",
+      "sourceCapture": "DONE",
+      "sourceQuality": [
+        {
+          "viewport": "desktop",
+          "status": "DONE",
+          "warnings": []
+        },
+        {
+          "viewport": "mobile",
+          "status": "DONE",
+          "warnings": []
+        }
+      ],
+      "templateStatus": "DONE",
+      "localRender": "DONE",
+      "content": "DONE",
+      "images": "DONE",
+      "documents": "BLOCKED",
+      "desktopVisualQa": "IN_PROGRESS",
+      "mobileVisualQa": "IN_PROGRESS",
+      "wcagQa": "IN_PROGRESS",
+      "functionality": "IN_PROGRESS",
+      "openIssues": "Dalsze dopasowanie odstępów i typografii. Brak 1 lokalnych kopii dokumentów; oryginalne linki zachowane.",
+      "sections": 1,
+      "views": [
+        {
+          "viewport": "desktop",
+          "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-15/desktop/full.png",
+          "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-15-desktop.png",
+          "sourceSha256": "02fdd539593eb19b8d35170f84e1e4b791145b135de34b9a82c9c4c392ee7b3b",
+          "localSha256": "e87491045a4fdc0211c3d1aeeb153178244714f5d7cb9ef3d845adc34dc1f6be",
+          "sourceSize": [
+            1440,
+            3566
+          ],
+          "localSize": [
+            1440,
+            3634
+          ],
+          "changedPixelRatio": 0.048636909129823276,
+          "comparisonFiles": {
+            "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-15-desktop-pair.png",
+            "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-15-desktop-overlay.png",
+            "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-15-desktop-diff.png"
+          }
+        },
+        {
+          "viewport": "mobile",
+          "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-15/mobile/full.png",
+          "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-15-mobile.png",
+          "sourceSha256": "0df1f5406beaac464267e782c589066dff0cee707ac926579adc641158b174bc",
+          "localSha256": "6c4741927032fc42219ac263533ebbfe0402a1a0e3ef344fe14f40cb71d9d4ed",
+          "sourceSize": [
+            390,
+            5284
+          ],
+          "localSize": [
+            390,
+            5284
+          ],
+          "changedPixelRatio": 0.05368601875036395,
+          "comparisonFiles": {
+            "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-15-mobile-pair.png",
+            "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-15-mobile-overlay.png",
+            "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-15-mobile-diff.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CB-16",
+      "sourceUrl": "https://www.cb.szczecin.pl/strefa-studenta/legitymacja-studencka/",
+      "localUrl": "http://localhost:8000/strefa-studenta/legitymacja-studencka/",
+      "wpId": 262,
+      "recordType": "page",
+      "template": "template-flexible.php",
+      "sourceCapture": "DONE",
+      "sourceQuality": [
+        {
+          "viewport": "desktop",
+          "status": "DONE",
+          "warnings": []
+        },
+        {
+          "viewport": "mobile",
+          "status": "DONE",
+          "warnings": []
+        }
+      ],
+      "templateStatus": "DONE",
+      "localRender": "DONE",
+      "content": "DONE",
+      "images": "DONE",
+      "documents": "DONE",
+      "desktopVisualQa": "IN_PROGRESS",
+      "mobileVisualQa": "IN_PROGRESS",
+      "wcagQa": "IN_PROGRESS",
+      "functionality": "IN_PROGRESS",
+      "openIssues": "Usunięto źródłowy overflow mobilny około 5 px.",
+      "sections": 1,
+      "views": [
+        {
+          "viewport": "desktop",
+          "source": "/workspace/.factory-cache/live/collegium-balticum/imports/0f72d1ed1fb38100/CB-16/desktop/full.png",
+          "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-16-desktop.png",
+          "sourceSha256": "e8502187461a1e05e5924be7a92804009a28f657cc5afdb38ad30282072d38d4",
+          "localSha256": "96ec8f033678691e3eb292a545e8871d8c1ed21eda0948663cfd17d034002183",
+          "sourceSize": [
+            1440,
+            2498
+          ],
+          "localSize": [
+            1440,
+            2597
+          ],
+          "changedPixelRatio": 0.06661719719334275,
+          "comparisonFiles": {
+            "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-16-desktop-pair.png",
+            "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-16-desktop-overlay.png",
+            "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-16-desktop-diff.png"
+          }
+        },
+        {
+          "viewport": "mobile",
+          "source": "/workspace/.factory-cache/live/collegium-balticum/imports/0f72d1ed1fb38100/CB-16/mobile/full.png",
+          "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-16-mobile.png",
+          "sourceSha256": "2986a5fe8d063bb76bf960f1eb3c32af6531d25ada0e6f68115baa843f01a87d",
+          "localSha256": "baf5b4f34a8d05acce1b287d5a7b4d9d8c9bca19c5e8e4d32efccfb898605591",
+          "sourceSize": [
+            390,
+            4346
+          ],
+          "localSize": [
+            390,
+            4383
+          ],
+          "changedPixelRatio": 0.12064678799791737,
+          "comparisonFiles": {
+            "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-16-mobile-pair.png",
+            "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-16-mobile-overlay.png",
+            "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-16-mobile-diff.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CB-17",
+      "sourceUrl": "https://www.cb.szczecin.pl/strefa-studenta/erasmus/o-programie/",
+      "localUrl": "http://localhost:8000/strefa-studenta/erasmus/o-programie/",
+      "wpId": 264,
+      "recordType": "page",
+      "template": "template-flexible.php",
+      "sourceCapture": "DONE",
+      "sourceQuality": [
+        {
+          "viewport": "desktop",
+          "status": "BLOCKED",
+          "warnings": [
+            {
+              "type": "SOURCE_SLIDER_INVALID_WIDTH",
+              "sliders": [
+                {
+                  "width": 0,
+                  "listWidth": 1410,
+                  "listHeight": 56,
+                  "slides": 6,
+                  "visible": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "viewport": "mobile",
+          "status": "DONE",
+          "warnings": []
+        }
+      ],
+      "templateStatus": "DONE",
+      "localRender": "DONE",
+      "content": "DONE",
+      "images": "DONE",
+      "documents": "BLOCKED",
+      "desktopVisualQa": "IN_PROGRESS",
+      "mobileVisualQa": "IN_PROGRESS",
+      "wcagQa": "IN_PROGRESS",
+      "functionality": "IN_PROGRESS",
+      "openIssues": "Naprawiono geometrię karuzeli desktop; zachowano znaną kolejność DOM bez zgadywania slajdów. Brak 27 lokalnych kopii dokumentów; oryginalne linki zachowane.",
+      "sections": 4,
+      "views": [
+        {
+          "viewport": "desktop",
+          "source": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-17/desktop/full.png",
+          "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-17-desktop.png",
+          "sourceSha256": "99ece39e154a418c37de8ec01ceb9bece3cc7cff7fdbc66fa26b2b2bc55edb7d",
+          "localSha256": "9717f634faebc7120034d7e2f24a33fbaa4dd3e61b413d341bb10884ecab7cb5",
+          "sourceSize": [
+            1440,
+            4338
+          ],
+          "localSize": [
+            1440,
+            4420
+          ],
+          "changedPixelRatio": 0.05499654348919055,
+          "comparisonFiles": {
+            "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-17-desktop-pair.png",
+            "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-17-desktop-overlay.png",
+            "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-17-desktop-diff.png"
+          }
+        },
+        {
+          "viewport": "mobile",
+          "source": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-17/mobile/full.png",
+          "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-17-mobile.png",
+          "sourceSha256": "f7232e918fcfd15380dce9836f4bb2d6f47f2d10e6a66176449d2555daac9ae4",
+          "localSha256": "09416e7adb0acc32d434799dd043d0fbef48024e5f454d73b06c8142df28e1d9",
+          "sourceSize": [
+            390,
+            5907
+          ],
+          "localSize": [
+            390,
+            5960
+          ],
+          "changedPixelRatio": 0.1120611770779556,
+          "comparisonFiles": {
+            "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-17-mobile-pair.png",
+            "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-17-mobile-overlay.png",
+            "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-17-mobile-diff.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CB-18",
+      "sourceUrl": "https://www.cb.szczecin.pl/strefa-studenta/biblioteka/wypozyczenie-na-zamowienie/",
+      "localUrl": "http://localhost:8000/strefa-studenta/biblioteka/wypozyczenie-na-zamowienie/",
+      "wpId": 266,
+      "recordType": "page",
+      "template": "template-basic.php",
+      "sourceCapture": "DONE",
+      "sourceQuality": [
+        {
+          "viewport": "desktop",
+          "status": "BLOCKED",
+          "warnings": [
+            {
+              "type": "SOURCE_SLIDER_INVALID_WIDTH",
+              "sliders": [
+                {
+                  "width": 0,
+                  "listWidth": 1410,
+                  "listHeight": 56,
+                  "slides": 6,
+                  "visible": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "viewport": "mobile",
+          "status": "DONE",
+          "warnings": []
+        }
+      ],
+      "templateStatus": "DONE",
+      "localRender": "DONE",
+      "content": "DONE",
+      "images": "DONE",
+      "documents": "DONE",
+      "desktopVisualQa": "IN_PROGRESS",
+      "mobileVisualQa": "IN_PROGRESS",
+      "wcagQa": "IN_PROGRESS",
+      "functionality": "IN_PROGRESS",
+      "openIssues": "Naprawiono geometrię karuzeli desktop; galeria 4 kolumny desktop / 1 mobile.",
+      "sections": 4,
+      "views": [
+        {
+          "viewport": "desktop",
+          "source": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-18/desktop/full.png",
+          "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-18-desktop.png",
+          "sourceSha256": "fa158ba37d1f2e5537183a5d5be31ebddd9438710e93d6adbd11208541442200",
+          "localSha256": "21010994a09a52ccb730589686dbeff99be8120c4e6c5543d2355d0f2872843b",
+          "sourceSize": [
+            1440,
+            2761
+          ],
+          "localSize": [
+            1440,
+            2895
+          ],
+          "changedPixelRatio": 0.053331414315870275,
+          "comparisonFiles": {
+            "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-18-desktop-pair.png",
+            "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-18-desktop-overlay.png",
+            "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-18-desktop-diff.png"
+          }
+        },
+        {
+          "viewport": "mobile",
+          "source": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-18/mobile/full.png",
+          "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-18-mobile.png",
+          "sourceSha256": "5ae07eaaace8acafd8b039797dbcbd065d91bfaa4613081f92c89944c974eb65",
+          "localSha256": "ba84a4e7175a61820050d281e9a347918b6645f2d402fe7251a5bec28e43699f",
+          "sourceSize": [
+            390,
+            6172
+          ],
+          "localSize": [
+            390,
+            6214
+          ],
+          "changedPixelRatio": 0.10714350556642156,
+          "comparisonFiles": {
+            "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-18-mobile-pair.png",
+            "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-18-mobile-overlay.png",
+            "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-18-mobile-diff.png"
+          }
+        }
+      ]
+    }
+  ],
+  "componentChecks": {
+    "links": {
+      "at": "2026-10-09T23:46:02.456Z",
+      "rows": [
+        {
+          "id": "CB-00",
+          "emptyTargets": 0,
+          "unmappedRequiredLinks": [],
+          "badFooterImages": []
+        },
+        {
+          "id": "CB-01",
+          "emptyTargets": 0,
+          "unmappedRequiredLinks": [],
+          "badFooterImages": []
+        },
+        {
+          "id": "CB-02",
+          "emptyTargets": 0,
+          "unmappedRequiredLinks": [],
+          "badFooterImages": []
+        },
+        {
+          "id": "CB-03",
+          "emptyTargets": 0,
+          "unmappedRequiredLinks": [],
+          "badFooterImages": []
+        },
+        {
+          "id": "CB-04",
+          "emptyTargets": 0,
+          "unmappedRequiredLinks": [],
+          "badFooterImages": []
+        },
+        {
+          "id": "CB-05",
+          "emptyTargets": 0,
+          "unmappedRequiredLinks": [],
+          "badFooterImages": []
+        },
+        {
+          "id": "CB-06",
+          "emptyTargets": 0,
+          "unmappedRequiredLinks": [],
+          "badFooterImages": []
+        },
+        {
+          "id": "CB-07",
+          "emptyTargets": 0,
+          "unmappedRequiredLinks": [],
+          "badFooterImages": []
+        },
+        {
+          "id": "CB-08",
+          "emptyTargets": 0,
+          "unmappedRequiredLinks": [],
+          "badFooterImages": []
+        },
+        {
+          "id": "CB-09",
+          "emptyTargets": 0,
+          "unmappedRequiredLinks": [],
+          "badFooterImages": []
+        },
+        {
+          "id": "CB-10",
+          "emptyTargets": 0,
+          "unmappedRequiredLinks": [],
+          "badFooterImages": []
+        },
+        {
+          "id": "CB-11",
+          "emptyTargets": 0,
+          "unmappedRequiredLinks": [],
+          "badFooterImages": []
+        },
+        {
+          "id": "CB-12",
+          "emptyTargets": 0,
+          "unmappedRequiredLinks": [],
+          "badFooterImages": []
+        },
+        {
+          "id": "CB-13",
+          "emptyTargets": 0,
+          "unmappedRequiredLinks": [],
+          "badFooterImages": []
+        },
+        {
+          "id": "CB-14",
+          "emptyTargets": 0,
+          "unmappedRequiredLinks": [],
+          "badFooterImages": []
+        },
+        {
+          "id": "CB-15",
+          "emptyTargets": 0,
+          "unmappedRequiredLinks": [],
+          "badFooterImages": []
+        },
+        {
+          "id": "CB-16",
+          "emptyTargets": 0,
+          "unmappedRequiredLinks": [],
+          "badFooterImages": []
+        },
+        {
+          "id": "CB-17",
+          "emptyTargets": 0,
+          "unmappedRequiredLinks": [],
+          "badFooterImages": []
+        },
+        {
+          "id": "CB-18",
+          "emptyTargets": 0,
+          "unmappedRequiredLinks": [],
+          "badFooterImages": []
+        }
+      ],
+      "search": {
+        "clientClass": true,
+        "resultHeading": "Wyniki wyszukiwania: dietetyka",
+        "emptyPagination": false
+      }
+    },
+    "blog-seo": {
+      "at": "2026-10-09T23:32:05.079Z",
+      "rows": [
+        {
+          "url": "http://localhost:8000/category/wpisy/blog-post/page/2/",
+          "status": 200,
+          "finalUrl": "http://localhost:8000/category/wpisy/blog-post/page/2/"
+        },
+        {
+          "url": "http://localhost:8000/?s=dietetyka",
+          "status": 200,
+          "finalUrl": "http://localhost:8000/?s=dietetyka"
+        }
+      ],
+      "metadata": [
+        {
+          "name": "article:publisher",
+          "content": "https://www.facebook.com/CollegiumBalticum/"
+        },
+        {
+          "name": "article:published_time",
+          "content": "2026-09-18T10:28:42+00:00"
+        },
+        {
+          "name": "article:modified_time",
+          "content": "2026-09-18T10:30:51+00:00"
+        },
+        {
+          "name": "og:image",
+          "content": "http://localhost:8000/wp-content/uploads/2026/10/dietetyka-licencjat-magister-7860bc2ba1.webp"
+        }
+      ]
+    },
+    "contrast": {
+      "at": "2026-10-09T23:48:57.175Z",
+      "scope": "Two opaque-background source-color CTA samples only; not a WCAG audit",
+      "samples": [
+        {
+          "selector": "#cb-navigation > ul > li.default-button > a",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(234, 131, 20)",
+          "text": "REKRUTACJA  ONLINE",
+          "ratio": 2.7078932654591235
+        },
+        {
+          "selector": ".cb-banner .box:not([hidden]) .default-button",
+          "color": "rgb(0, 174, 239)",
+          "background": "rgb(255, 255, 255)",
+          "text": "Przejdź do rekrutacji Zarejestruj się!",
+          "ratio": 2.5298706137065325
+        }
+      ]
+    }
+  },
+  "engineTestRuns": [
+    {
+      "command": "npm run factory:live:test",
+      "fixtureOnly": false,
+      "observedAt": "2026-10-09T21:45:51.002Z",
+      "logSha256": "b5ea1077cfc4030d4fbfdea40a8671bcf29372e21eb5f2846d48d476e63ef63a",
+      "tests": 3,
+      "pass": 3,
+      "fail": 0
+    },
+    {
+      "command": "npm run factory:autopilot:test",
+      "fixtureOnly": false,
+      "observedAt": "2026-10-09T21:45:40.939Z",
+      "logSha256": "9dc0c7bebdb3063235122bda2633ffe7e9fe6bbf2de3a4952a4f1930ca5fc2fb",
+      "tests": 21,
+      "pass": 21,
+      "fail": 0
+    },
+    {
+      "command": "node --test scripts/projects/collegium-balticum/remote/capture.test.js",
+      "fixtureOnly": true,
+      "observedAt": "2026-10-09T21:53:53.517Z",
+      "logSha256": "6e6804afa7a721ec1a63e5efe91eb818c998901edf0dc9fe2a25897fa738676a",
+      "tests": 1,
+      "pass": 1,
+      "fail": 0
+    }
+  ]
+}

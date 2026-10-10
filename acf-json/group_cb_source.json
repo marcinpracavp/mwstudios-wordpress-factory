@@ -1,0 +1,429 @@
+{
+  "key": "group_cb_source",
+  "title": "Collegium Balticum — sekcje",
+  "fields": [
+    {
+      "key": "field_cb_leading_space",
+      "label": "Odstęp przed pierwszą sekcją",
+      "name": "cb_leading_space",
+      "type": "number",
+      "min": 0,
+      "max": 200,
+      "default_value": 0
+    },
+    {
+      "key": "field_cb_sections",
+      "label": "cb sections",
+      "name": "cb_sections",
+      "type": "flexible_content",
+      "layouts": {
+        "layout_cb_content": {
+          "key": "layout_cb_content",
+          "name": "content",
+          "label": "Treść",
+          "display": "block",
+          "sub_fields": [
+            {
+              "key": "field_cb_content_label",
+              "label": "label",
+              "name": "label",
+              "type": "text"
+            },
+            {
+              "key": "field_cb_content_variant",
+              "label": "variant",
+              "name": "variant",
+              "type": "text",
+              "readonly": 1
+            },
+            {
+              "key": "field_cb_content_space",
+              "label": "space after",
+              "name": "space_after",
+              "type": "number",
+              "min": 0,
+              "max": 200
+            },
+            {
+              "key": "field_cb_content_tag",
+              "label": "tag",
+              "name": "tag",
+              "type": "text",
+              "readonly": 1
+            },
+            {
+              "key": "field_cb_content_body",
+              "label": "body",
+              "name": "body",
+              "type": "wysiwyg",
+              "tabs": "visual",
+              "toolbar": "full",
+              "media_upload": 1
+            }
+          ]
+        },
+        "layout_cb_banner": {
+          "key": "layout_cb_banner",
+          "name": "banner",
+          "label": "Baner",
+          "display": "block",
+          "sub_fields": [
+            {
+              "key": "field_cb_banner_label",
+              "label": "label",
+              "name": "label",
+              "type": "text"
+            },
+            {
+              "key": "field_cb_banner_variant",
+              "label": "variant",
+              "name": "variant",
+              "type": "text",
+              "readonly": 1
+            },
+            {
+              "key": "field_cb_banner_space",
+              "label": "space after",
+              "name": "space_after",
+              "type": "number",
+              "min": 0,
+              "max": 200
+            },
+            {
+              "key": "field_cb_banner_tag",
+              "label": "tag",
+              "name": "tag",
+              "type": "text",
+              "readonly": 1
+            },
+            {
+              "key": "field_cb_banner_items",
+              "label": "items",
+              "name": "items",
+              "type": "repeater",
+              "layout": "block",
+              "button_label": "Dodaj element",
+              "sub_fields": [
+                {
+                  "key": "field_cb_banner_item_body",
+                  "label": "body",
+                  "name": "body",
+                  "type": "wysiwyg",
+                  "tabs": "visual",
+                  "toolbar": "full",
+                  "media_upload": 1
+                },
+                {
+                  "key": "field_cb_banner_image",
+                  "label": "image",
+                  "name": "image",
+                  "type": "image",
+                  "return_format": "id",
+                  "preview_size": "medium"
+                },
+                {
+                  "key": "field_cb_banner_link",
+                  "label": "link",
+                  "name": "link",
+                  "type": "link",
+                  "return_format": "array"
+                }
+              ]
+            },
+            {
+              "key": "field_cb_banner_heading",
+              "label": "title",
+              "name": "title",
+              "type": "wysiwyg"
+            },
+            {
+              "key": "field_cb_banner_initial_desktop",
+              "label": "Pierwszy slajd desktop",
+              "name": "initial_desktop",
+              "type": "number",
+              "min": 0,
+              "default_value": 0
+            },
+            {
+              "key": "field_cb_banner_initial_mobile",
+              "label": "Pierwszy slajd mobile",
+              "name": "initial_mobile",
+              "type": "number",
+              "min": 0,
+              "default_value": 0
+            }
+          ]
+        },
+        "layout_cb_carousel": {
+          "key": "layout_cb_carousel",
+          "name": "carousel",
+          "label": "Karty",
+          "display": "block",
+          "sub_fields": [
+            {
+              "key": "field_cb_carousel_label",
+              "label": "label",
+              "name": "label",
+              "type": "text"
+            },
+            {
+              "key": "field_cb_carousel_variant",
+              "label": "variant",
+              "name": "variant",
+              "type": "text",
+              "readonly": 1
+            },
+            {
+              "key": "field_cb_carousel_space",
+              "label": "space after",
+              "name": "space_after",
+              "type": "number",
+              "min": 0,
+              "max": 200
+            },
+            {
+              "key": "field_cb_carousel_tag",
+              "label": "tag",
+              "name": "tag",
+              "type": "text",
+              "readonly": 1
+            },
+            {
+              "key": "field_cb_carousel_shell",
+              "label": "shell",
+              "name": "shell",
+              "type": "textarea",
+              "readonly": 1
+            },
+            {
+              "key": "field_cb_carousel_groups",
+              "label": "groups",
+              "name": "groups",
+              "type": "repeater",
+              "layout": "block",
+              "sub_fields": [
+                {
+                  "key": "field_cb_group_title",
+                  "label": "title",
+                  "name": "title",
+                  "type": "text"
+                },
+                {
+                  "key": "field_cb_group_variant",
+                  "label": "variant",
+                  "name": "variant",
+                  "type": "text",
+                  "readonly": 1
+                },
+                {
+                  "key": "field_cb_group_target",
+                  "label": "target",
+                  "name": "target",
+                  "type": "text",
+                  "readonly": 1
+                },
+                {
+                  "key": "field_cb_group_items",
+                  "label": "items",
+                  "name": "items",
+                  "type": "repeater",
+                  "layout": "block",
+                  "button_label": "Dodaj element",
+                  "sub_fields": [
+                    {
+                      "key": "field_cb_group_item_body",
+                      "label": "body",
+                      "name": "body",
+                      "type": "wysiwyg",
+                      "tabs": "visual",
+                      "toolbar": "full",
+                      "media_upload": 1
+                    },
+                    {
+                      "key": "field_cb_group_image",
+                      "label": "image",
+                      "name": "image",
+                      "type": "image",
+                      "return_format": "id",
+                      "preview_size": "medium"
+                    },
+                    {
+                      "key": "field_cb_group_link",
+                      "label": "link",
+                      "name": "link",
+                      "type": "link",
+                      "return_format": "array"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "layout_cb_accordion": {
+          "key": "layout_cb_accordion",
+          "name": "accordion",
+          "label": "Accordion",
+          "display": "block",
+          "sub_fields": [
+            {
+              "key": "field_cb_accordion_label",
+              "label": "label",
+              "name": "label",
+              "type": "text"
+            },
+            {
+              "key": "field_cb_accordion_variant",
+              "label": "variant",
+              "name": "variant",
+              "type": "text",
+              "readonly": 1
+            },
+            {
+              "key": "field_cb_accordion_space",
+              "label": "space after",
+              "name": "space_after",
+              "type": "number",
+              "min": 0,
+              "max": 200
+            },
+            {
+              "key": "field_cb_accordion_tag",
+              "label": "tag",
+              "name": "tag",
+              "type": "text",
+              "readonly": 1
+            },
+            {
+              "key": "field_cb_accordion_items",
+              "label": "items",
+              "name": "items",
+              "type": "repeater",
+              "layout": "block",
+              "button_label": "Dodaj element",
+              "sub_fields": [
+                {
+                  "key": "field_cb_accordion_title",
+                  "label": "title",
+                  "name": "title",
+                  "type": "wysiwyg",
+                  "toolbar": "basic",
+                  "media_upload": 0
+                },
+                {
+                  "key": "field_cb_accordion_item_body",
+                  "label": "body",
+                  "name": "body",
+                  "type": "wysiwyg",
+                  "tabs": "visual",
+                  "toolbar": "full",
+                  "media_upload": 1
+                },
+                {
+                  "key": "field_cb_accordion_image",
+                  "label": "image",
+                  "name": "image",
+                  "type": "image",
+                  "return_format": "id",
+                  "preview_size": "medium"
+                },
+                {
+                  "key": "field_cb_accordion_link",
+                  "label": "link",
+                  "name": "link",
+                  "type": "link",
+                  "return_format": "array"
+                },
+                {
+                  "key": "field_cb_accordion_initially_open",
+                  "label": "Otwarty przy wejściu",
+                  "name": "initially_open",
+                  "type": "true_false",
+                  "default_value": 0,
+                  "ui": 1
+                }
+              ]
+            },
+            {
+              "key": "field_cb_accordion_heading",
+              "label": "title",
+              "name": "title",
+              "type": "wysiwyg"
+            }
+          ]
+        },
+        "layout_cb_tabs": {
+          "key": "layout_cb_tabs",
+          "name": "tabs",
+          "label": "Zakładki",
+          "display": "block",
+          "sub_fields": [
+            {
+              "key": "field_cb_tabs_label",
+              "label": "label",
+              "name": "label",
+              "type": "text"
+            },
+            {
+              "key": "field_cb_tabs_variant",
+              "label": "variant",
+              "name": "variant",
+              "type": "text",
+              "readonly": 1
+            },
+            {
+              "key": "field_cb_tabs_space",
+              "label": "space after",
+              "name": "space_after",
+              "type": "number",
+              "min": 0,
+              "max": 200
+            },
+            {
+              "key": "field_cb_tabs_tag",
+              "label": "tag",
+              "name": "tag",
+              "type": "text",
+              "readonly": 1
+            },
+            {
+              "key": "field_cb_tabs_body",
+              "label": "body",
+              "name": "body",
+              "type": "wysiwyg",
+              "tabs": "visual",
+              "toolbar": "full",
+              "media_upload": 1
+            }
+          ]
+        }
+      },
+      "button_label": "Dodaj sekcję"
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "post_type",
+        "operator": "==",
+        "value": "page"
+      }
+    ],
+    [
+      {
+        "param": "post_type",
+        "operator": "==",
+        "value": "post"
+      }
+    ],
+    [
+      {
+        "param": "options_page",
+        "operator": "==",
+        "value": "acf-options-opcje-globalne"
+      }
+    ]
+  ],
+  "active": true,
+  "description": "Rzeczywista migracja CB; techniczne warianty pochodzą z referencji."
+}

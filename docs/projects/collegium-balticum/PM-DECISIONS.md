@@ -44,3 +44,17 @@ Terminy „listopad/grudzień” i później „początek listopada” wymagają
 roku i aktualności przez PM. Nie wystawiono nowej estymacji naprawy starej strony
 ani fixed price: aktywny cel to wybrana migracja, a nie ponowne wykonanie
 historycznego zapytania ofertowego.
+
+## Zadanie 4 — decyzja o zachowaniu wyglądu
+
+Użytkownik odpowiedział: „Zachowaj wygląd źródła; zapisz problemy do decyzji PM”.
+Dotyczy propozycji granatowego tekstu na pomarańczowych CTA oraz widocznych etykiet
+pól formularza. Nie wprowadzono tych widocznych zmian. Dodano etykiety programatyczne;
+kontrast źródłowych CTA i brak widocznych etykiet pozostają otwartą decyzją PM.
+Naprawy migracyjnych kolizji CSS przywracają czytelność i wygląd referencji, nie są redesignem.
+Nie deklarujemy zgodności WCAG AA przed decyzją i pełną weryfikacją.
+
+Pomiary dwóch rzeczywistych CTA w zadaniu 4: biały tekst na `rgb(234,131,20)`
+ma kontrast **2,71:1**; `rgb(0,174,239)` na białym tle **2,53:1**.
+To pomiary wybranych stanów, nie pełny audyt. Kolory pozostawiono zgodnie z decyzją
+użytkownika. Dowód: cache `migration/qa/contrast.json`. Zmiana kolorów wymaga decyzji PM.

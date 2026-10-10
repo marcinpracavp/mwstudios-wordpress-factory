@@ -1,0 +1,33 @@
+name: CB supplementary original documents
+on:
+  workflow_dispatch:
+  # Register/run on the project branch without touching the protected base.
+  push:
+    branches: [project/collegium-balticum]
+    paths: [.github/workflows/cb-documents.yml]
+permissions:
+  contents: read
+concurrency:
+  group: cb-supplementary-documents
+  cancel-in-progress: false
+jobs:
+  documents:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Download original documents sequentially
+        run: node scripts/projects/collegium-balticum/migrate/documents.js --download --output "$RUNNER_TEMP/cb-documents"
+      - name: Preserve verified files and individual errors
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cb-documents-${{ github.run_id }}
+          path: ${{ runner.temp }}/cb-documents.zip
+          if-no-files-found: warn
+          retention-days: 30

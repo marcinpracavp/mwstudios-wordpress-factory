@@ -1,0 +1,32 @@
+{
+  "key": "group_cb_globals",
+  "title": "Collegium Balticum — nagłówek i stopka",
+  "fields": [
+    {
+      "key": "field_cb_header",
+      "label": "Nagłówek",
+      "name": "cb_header",
+      "type": "wysiwyg",
+      "toolbar": "full",
+      "media_upload": 1
+    },
+    {
+      "key": "field_cb_footer",
+      "label": "Stopka",
+      "name": "cb_footer",
+      "type": "wysiwyg",
+      "toolbar": "full",
+      "media_upload": 1
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "options_page",
+        "operator": "==",
+        "value": "acf-options-opcje-globalne"
+      }
+    ]
+  ],
+  "active": true
+}
