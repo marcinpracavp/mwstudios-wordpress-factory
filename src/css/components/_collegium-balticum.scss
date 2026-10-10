@@ -197,9 +197,33 @@
 // Factory WordPress image spacing adds 20px beneath each source CTA image.
 // The original footer has no alignnone margins.
 .cb-site .cb-footer img.alignnone { margin: 0; }
-@media(min-width:1221px){.cb-site .cb-footer .addresses h5 a { overflow-wrap: normal; }}
-@media(min-width:1221px){.cb-site .cb-footer .addresses h5 a.cb-wrap-mail { overflow-wrap: anywhere; }}
+@media(min-width:1221px){.cb-site .cb-footer .addresses .cb-footer-contact-line a { overflow-wrap: normal; }}
+@media(min-width:1221px){.cb-site .cb-footer .addresses .cb-footer-contact-line a.cb-wrap-mail { overflow-wrap: anywhere; }}
 @media(prefers-reduced-motion:reduce){
   .cb-site .partners-content .partners-content-overlay,
   .cb-site .partners-content .partners-content-details { transition: none; }
 }
+
+// Source gallery columns include no inter-column gap (5 x 20% must fit).
+.cb-site #main-content .gallery[id^='gallery-'] { gap: 0; }
+// The source bx-viewport clips the rounded corners; our native slider has no wrapper.
+.cb-site #main-content .cb-banner { overflow: hidden; border-radius: 20px 20px 20px 180px; }
+@media(max-width:1155px){.cb-site #main-content .cb-banner { border-radius: 20px; }}
+// Heading semantics change independently of the approved footer appearance.
+.cb-site .cb-footer .footer-content .box h2.title { font-size: .9375rem; font-weight: 800; line-height: 1.938rem; letter-spacing: .08em; font-family: CBPoppins, sans-serif; }
+// CB-08 source Slick viewport shows six faculty portraits, not five with a 30px gap.
+@media(min-width:769px){
+ .cb-site.cb-view-cb-08 #main-content .partners .cb-carousel { gap: 0; }
+ .cb-site.cb-view-cb-08 #main-content .partners .cb-carousel > * { flex-basis: 16.666667%; width: 16.666667%; }
+}
+// Captured caption rules targeted Slick's runtime class; retain them in the native track.
+.cb-site.cb-view-cb-08 #main-content .partners .cb-carousel > div > p { font-size: 1.225rem; line-height: 2.1rem; font-weight: 400; opacity: .5; text-align: center; }
+// The factory block-image reset leaves an inline anchor line box below the image.
+// Source CB-10 strip height is exactly the image height in both reference viewports.
+.cb-site.cb-view-cb-10 #main-content .wp-block-group.is-nowrap .wp-block-image a { display: block; }
+
+.cb-site .cb-footer .addresses .cb-footer-contact-line { font-size: 1.375rem; font-weight: 800; line-height: 2.188rem; margin: 0; color: #053767; font-family: CBPoppins, sans-serif; letter-spacing: inherit; }
+
+.cb-site #main-content .cb-hero-description { font-family: CBPoppins, sans-serif; letter-spacing: inherit; }
+// Verified source thumbnails are inline: text-align centers them and retains the line box.
+.cb-site.cb-view-cb-05 #main-content .gallery .gallery-icon img { display: inline; }

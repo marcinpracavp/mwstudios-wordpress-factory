@@ -1,0 +1,43 @@
+name: CB-05 evidenced gallery originals
+on:
+  workflow_dispatch:
+  # A project-branch push can register this workflow without touching main.
+  # Publishing this file requires explicit user approval and starts only CB-05.
+  push:
+    branches: [project/collegium-balticum]
+    paths: [.github/workflows/cb-gallery-originals.yml]
+permissions:
+  contents: read
+concurrency:
+  group: cb-gallery-originals
+  cancel-in-progress: false
+jobs:
+  gallery:
+    if: github.ref == 'refs/heads/project/collegium-balticum'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      NODE_PATH: ${{ github.workspace }}/tools/live-capture/node_modules
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install existing minimal image decoding runtime
+        run: npm ci --prefix tools/live-capture --ignore-scripts --no-audit --no-fund
+      - name: Install Chromium for decoding bytes only
+        run: |
+          node tools/live-capture/node_modules/playwright-core/cli.js install --with-deps chromium
+          echo "FACTORY_BROWSER_PATH=$(node -e "process.stdout.write(require('./tools/live-capture/node_modules/playwright-core').chromium.executablePath())")" >> "$GITHUB_ENV"
+      - name: Fetch only 21 evidenced original JPEGs sequentially
+        run: node scripts/projects/collegium-balticum/migrate/gallery-originals.js --download --output "$RUNNER_TEMP/cb-gallery-originals"
+      - name: Preserve verified originals and exact failures
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cb-gallery-originals-${{ github.run_id }}
+          path: ${{ runner.temp }}/cb-gallery-originals.zip
+          if-no-files-found: warn
+          retention-days: 30

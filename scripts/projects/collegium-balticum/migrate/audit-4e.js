@@ -70,7 +70,7 @@ async function main() {
     await page.close();
   }
   await browser.close();
-  const output=path.join(cache,'task4e');fs.mkdirSync(output,{recursive:true});const file=path.join(output,'audit-'+phase+'.json');
+  const output=path.join(cache,process.env.CB_AUDIT_DIR||'task4e');fs.mkdirSync(output,{recursive:true});const file=path.join(output,'audit-'+phase+'.json');
   const previous=process.env.CB_ID&&fs.existsSync(file)?JSON.parse(fs.readFileSync(file)).rows.filter(r=>r.id!==process.env.CB_ID):[];
   fs.writeFileSync(file,JSON.stringify({at:new Date().toISOString(),phase,externalEmbeds:'Blocked in automation; manual captions/document/screen-reader checks remain required',rows:[...previous,...rows].sort((a,b)=>a.id.localeCompare(b.id)||a.view.localeCompare(b.view))},null,2));
 }

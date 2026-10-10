@@ -2,6 +2,12 @@
 /** Client rendering stays behind CB data; the universal factory keeps its defaults. */
 function cb_enabled() { return (bool) get_option('cb_migration'); }
 function cb_html($html) {
+    // Promotional hero copy is a description, not a level-six section heading.
+    $html=preg_replace_callback('~<h6\b([^>]*)>(<span\b[^>]*text-shadow[^>]*>.*?</span>)</h6>~si',function($match){
+        $attributes=preg_replace('~class="([^"]*)"~','class="$1 cb-hero-description"',$match[1]);
+        if(strpos($attributes,'class=')===false)$attributes.=' class="cb-hero-description"';
+        return '<p'.$attributes.'>'.$match[2].'</p>';
+    },$html);
     // Source overlay tiles include an empty .more element drawing their line.
     // Older extracted ACF omitted it; restore decoration without an empty action.
     $html=preg_replace_callback('~(<a\b[^>]*class="[^"]*\bspecial-box\b[^"]*"[^>]*>)(.*?)(</a>)~si',function($match){
@@ -23,6 +29,19 @@ function cb_html($html) {
     $html=preg_replace_callback('/rgb\\(\\s*(\\d+)\\s*,\\s*(\\d+)\\s*,\\s*(\\d+)\\s*\\)/i',function($m){return sprintf("#%02x%02x%02x",min(255,(int)$m[1]),min(255,(int)$m[2]),min(255,(int)$m[3]));},$html);
     $origin=get_option('cb_import_origin');if($origin && $origin!==home_url())$html=str_replace($origin,home_url(),$html);
     $html=preg_replace_callback('~(\bhref=")([^"]+)(")~i',function($match){return $match[1].esc_url(cb_local_url(html_entity_decode($match[2],ENT_QUOTES,'UTF-8'))).$match[3];},$html);
+    // Full originals use a separate, verified Media Library map; thumbnail src stays unchanged.
+    $gallery_originals=(array)get_option('cb_gallery_original_map',[]);
+    if($gallery_originals){
+        $gallery_links=[];
+        foreach($gallery_originals as $source=>$image){
+            $original=wp_get_attachment_url((int)$image['id']);
+            $thumbs=(array)($image['thumbnailIds']??[]);
+            if($original){$gallery_links[$source]=$original;foreach($thumbs as $thumb)$gallery_links[wp_get_attachment_url((int)$thumb)]=$original;}
+        }
+        $html=preg_replace_callback('~<a\b([^>]*class="[^"]*\brl-gallery-link\b[^"]*"[^>]*)>~i',function($match)use($gallery_links){
+            return preg_replace_callback('~(href=")([^"]+)(")~i',function($href)use($gallery_links){$url=html_entity_decode($href[2],ENT_QUOTES,'UTF-8');return isset($gallery_links[$url])?$href[1].esc_url($gallery_links[$url]).$href[3]:$href[0];},$match[0]);
+        },$html);
+    }
     // Describe real local documents without adding visible source content.
     static $document_info=null;
     if($document_info===null){
