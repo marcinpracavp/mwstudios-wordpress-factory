@@ -23,3 +23,7 @@
 | CB-18 | https://www.cb.szczecin.pl/strefa-studenta/biblioteka/wypozyczenie-na-zamowienie/ | http://localhost:8000/strefa-studenta/biblioteka/wypozyczenie-na-zamowienie/ | 266 | template-basic.php | DONE | obrazy DONE; dokumenty nie dotyczy (0 odnośników) | IN_PROGRESS | IN_PROGRESS | IN_PROGRESS | Naprawiono geometrię karuzeli desktop; galeria 4 kolumny desktop / 1 mobile. |
 
 CONTENT dotyczy kompletnej treści widoków zapisanych w referencjach, nie całej witryny ani treści pozostałych artykułów. DONE dla obrazów oznacza lokalną bibliotekę mediów i brak błędów ładowania; brakujące dokumenty opisano oddzielnie. Wykonano 38 rzeczywistych porównań, ale nie zatwierdzono zgodności 1:1 ani WCAG AA.
+
+## Dowody po 4F
+
+Zachowano wszystkie CB-00–CB-18 i dotychczasowe URL/WP ID/ACF. 38 widoków, 76 szerokości, 99 URL HTTP 200; dokumenty 37 mapowań / 35 załączników / 43 linki. Wszystkie VISUAL_QA oraz WCAG_QA nadal IN_PROGRESS. CB-05: poprawiono pięć kolumn i centrowanie miniaturek, pełne oryginały 0/21 BLOCKED do zatwierdzonego workflow. CB-02: przywrócono link wszystkich wpisów. CB-08: sześć portretów i podpisy źródłowe. CB-10: poprawiono wysokość paska. CB-17: stabilizacja tabel po załadowaniu fontów. [Aktualne 38 par](TASK-4F-VISUAL.md), [803 wystąpienia WCAG i 42 ostrzeżenia Hx](TASK-4F-WCAG.md), [decyzje PM](TASK-4F-PM-DECISIONS.md).

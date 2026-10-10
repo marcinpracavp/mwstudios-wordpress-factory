@@ -168,3 +168,7 @@ Axe: 849 wystąpień reguł WCAG przed, 48 naprawionych, 801 pozostałych (794 k
 19/19 widoków ma autentyczną treść; 0/19 ma pełny zaakceptowany odbiór visual/WCAG. Pozostały dalsze dopasowanie i odbiór widocznych różnic, decyzje kolorów/etykiet/linków/Hx/deklaracji oraz manualny czytnik, zoom, kontrast na zdjęciach i audyt 35 PDF/DOCX/wideo. CB-05: brak 21 pełnych oryginałów galerii, miniatury autentyczne i działające; MEDIA=IN_PROGRESS. [Manifest do selektywnego pobrania](TASK-4E-GALLERY-ORIGINALS.json), bez konieczności nowego pełnego capture. Nie uruchamiano kolejnego workflow ani migracji dodatkowych stron.
 
 Commit implementacji 4E: `aa49906` (lokalny). Raporty i dowody zapisane osobno; zdalny branch pozostaje na `6f1479c`, bez pushu.
+
+## Aktualizacja 4F
+
+Zakończono możliwe obecnie bezpieczne korekty banerów, archiwum, galerii miniaturek, kadry, tabel i semantyki. Aktualne 38 porównań i wyniki regresji: [TASK-4F](TASK-4F.md), [wizualne](TASK-4F-VISUAL.md), [WCAG](TASK-4F-WCAG.md). Treść 19 widoków pozostaje autentyczna; pełne zdjęcia galerii CB-05 nadal 0/21, wymagają zgody na ograniczony workflow. VISUAL_QA/WCAG_QA pozostają IN_PROGRESS. Bez pushu i wdrożenia. Pozostało 803 wystąpień WCAG (796 kontrastu, 7 linków) i 42 ostrzeżenia Hx; nie liczymy 32 usuniętych ostrzeżeń Hx jako naprawionych naruszeń kontrastu. [Wymagane decyzje](TASK-4F-PM-DECISIONS.md).
