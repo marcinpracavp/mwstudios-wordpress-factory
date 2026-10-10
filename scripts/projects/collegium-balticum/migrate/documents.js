@@ -25,6 +25,17 @@ async function main() {
       const destination = path.join(output, sha(fs.readFileSync(path.join(staging, 'manifest.json'))).slice(0, 16));
       if (fs.existsSync(destination)) { verify(destination, config); fs.rmSync(staging, { recursive: true }); }
       else fs.renameSync(staging, destination);
+      // mkdtemp creates a private directory; these verified public references
+      // must also be readable by the separate WordPress container user.
+      const readable = directory => {
+        fs.chmodSync(directory, 0o755);
+        for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
+          const file = path.join(directory, entry.name);
+          if (entry.isDirectory()) readable(file);
+          else fs.chmodSync(file, 0o644);
+        }
+      };
+      readable(destination);
       const repository = path.resolve(__dirname, '../../../..');
       const relative = path.relative(repository, destination);
       if (!relative.startsWith('..') && !path.isAbsolute(relative)) {

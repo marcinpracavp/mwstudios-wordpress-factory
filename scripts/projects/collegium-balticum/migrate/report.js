@@ -8,6 +8,9 @@ const docs = path.join(root, 'docs/projects/collegium-balticum');
 const read = file => JSON.parse(fs.readFileSync(file));
 const source = read(path.join(cache, 'source.json'));
 const imported = read(path.join(cache, 'import-result.json'));
+const documentQaPath = path.join(cache, 'qa/documents.json');
+const documentQa = fs.existsSync(documentQaPath) ? read(documentQaPath) : null;
+if (documentQa) imported.runtime.counts = documentQa.counts;
 const renders = read(path.join(cache, 'qa/render.json'));
 const comparisons = read(path.join(cache, 'comparisons/comparison.json'));
 const interactions = read(path.join(cache, 'qa/interactions.json'));
@@ -57,9 +60,14 @@ const rows = source.pages.map(page => {
 });
 const evidence = { at: new Date().toISOString(), branch: 'project/collegium-balticum', baseCommit: '4e283cf', runtime: imported.runtime, referenceManifests: manifests, importedMediaUrlMappings: imported.media, mappedMediaAttachments: imported.mediaAttachments, missingImages: imported.missing, localScreenshots: 38, comparisonImages: 114, responsiveChecks: 76, externalResourcesBlockedInAutomatedQa: ['YouTube iframe', 'Google Maps iframe'], rawPixelMetric: 'max channel delta > 32; full image, no rescaling or masking; not an acceptance threshold', interactions, rows };
 evidence.componentChecks={};
-for(const name of ['links','blog-seo','contrast']){const file=path.join(cache,'qa',name+'.json');if(fs.existsSync(file))evidence.componentChecks[name]=read(file);}
+for(const name of ['links','blog-seo','contrast','documents','documents-idempotence']){const file=path.join(cache,'qa',name+'.json');if(fs.existsSync(file))evidence.componentChecks[name]=read(file);}
+if (documentQa?.runner?.runId) {
+  const provenancePath = path.join(root, '.factory-cache/live/collegium-balticum/downloads', 'documents-' + documentQa.runner.runId, 'github-provenance.json');
+  if (fs.existsSync(provenancePath)) evidence.documentCapture = read(provenancePath);
+}
 evidence.engineTestRuns=[];
-for(const [command,file,fixtureOnly] of [['npm run factory:live:test','/tmp/cb4-live-tests.log',false],['npm run factory:autopilot:test','/tmp/cb4-autopilot-tests.log',false],['node --test scripts/projects/collegium-balticum/remote/capture.test.js','/tmp/cb4-client-tests.log',true]]){
+for(const [command,oldFile,fixtureOnly,newFile] of [['npm run factory:live:test','/tmp/cb4-live-tests.log',false,'/tmp/cb-documents-live.log'],['npm run factory:autopilot:test','/tmp/cb4-autopilot-tests.log',false,'/tmp/cb-documents-autopilot.log'],['node --test scripts/projects/collegium-balticum/remote/capture.test.js','/tmp/cb4-client-tests.log',true,'/tmp/cb-documents-client.log']]){
+  const file=fs.existsSync(newFile)?newFile:oldFile;
   if(!fs.existsSync(file))continue;const text=fs.readFileSync(file,'utf8'),counts={};for(const match of text.matchAll(/# (tests|pass|fail) (\d+)/g))counts[match[1]]=Number(match[2]);evidence.engineTestRuns.push({command,fixtureOnly,observedAt:fs.statSync(file).mtime.toISOString(),logSha256:sha(Buffer.from(text)),...counts});
 }
 fs.writeFileSync(path.join(docs, 'TASK-4-EVIDENCE.json'), JSON.stringify(evidence, null, 2) + '\n');
@@ -72,7 +80,10 @@ const current = '<!-- TASK4_CURRENT -->\n# Aktualny stan zadania 4\n\nWszystkie 
 fs.writeFileSync(pagePath, current + pages);
 const visualRows = rows.flatMap(r => r.views.map(v => '\n| '+[r.id,v.viewport,v.sourceSize.join(' × '),v.localSize.join(' × '),(v.changedPixelRatio*100).toFixed(1)+'%','IN_PROGRESS'].join(' | ')+' |'));
 fs.writeFileSync(path.join(docs, 'TASK-4-VISUAL.md'), '# Rzeczywiste porównania desktop/mobile — zadanie 4\n\n38 par zweryfikowanych hashami, pełne screenshoty bez skalowania i masek. Procent to surowa różnica pikseli, nie ocena zgodności ani próg akceptacji. Świadome odstępstwa obejmują usunięte klony Slick, panel poza viewportem i poprawioną geometrię źródła; nie wyjaśniają automatycznie wszystkich różnic. Do dopasowania/akceptacji pozostają odstępy, wysokości kart/sekcji, łamanie tekstu i stopka.\n\n| ID | Viewport | Źródło (px) | Lokalnie (px) | Surowy diff | Akceptacja visual QA |\n| --- | --- | --- | --- | --- | --- |'+visualRows.join('')+'\n\nPliki pair/overlay/diff: [TASK-4-EVIDENCE](TASK-4-EVIDENCE.json). Nie obniżono progów ani nie oznaczono VISUAL_QA=DONE.\n');
-const documentRows = documents.flatMap(p => p.documents.map(d => '| '+[p.id,d.label.replace(/\|/g,'\\|'),d.url,d.localCopy].join(' | ')+' |'));
+const documentRows = documents.flatMap(p => p.documents.map(d => '| '+[p.id,d.label.replace(/\|/g,'\\|'),d.url,d.localCopy,d.attachmentId || '—',d.localUrl || '—'].join(' | ')+' |'));
 const blockedDocuments=documents.flatMap(p=>p.documents).filter(d=>d.localCopy!=='DONE').length;
-fs.writeFileSync(path.join(docs, 'TASK-4-DOCUMENTS.md'), '# Dokumenty źródłowe — lokalne kopie i jawne braki\n\n43 wystąpienia odnośników, 37 unikalnych plików. Aktualnie '+blockedDocuments+' wystąpienia bez lokalnej kopii. Plików nie ma w artefaktach 3C; znany brak połączenia TCP Codespace z hostem CB opisano w 3B-0. Przygotowany workflow: .github/workflows/cb-documents.yml; sekwencyjny download wersjonowanej listy documents-source.json, walidacja sygnatur, manifest SHA256 i ZIP. Import: documents.js oraz documents-import.php. Opublikowanie workflow wymaga osobnej zgody na push. Zachowano oryginalne adresy, bez zastępczych dokumentów. Nie potwierdzono dostępności PDF/DOC/XLS/ZIP. Nie trzeba ponawiać capture stron ani robić screenshotów ręcznie.\n\n| ID | Tekst źródłowego odnośnika | Źródłowy plik | Lokalna kopia |\n| --- | --- | --- | --- |\n' + documentRows.join('\n') + '\n');
+const documentSummary = documentQa && blockedDocuments === 0
+  ? `Pobrano i sprawdzono ${documentQa.documents.length}/37 źródłowych dokumentów: HTTP 200, rozmiary, MIME i SHA256. W Media Library jest ${documentQa.uniqueAttachmentIds} załączników; identyczne bajtowo pliki współdzielą ID. Wszystkie 43 odnośniki na 19 widokach prowadzą lokalnie. Workflow: https://github.com/marcinpracavp/mwstudios-wordpress-factory/actions/runs/${documentQa.runner.runId}. ZIP i manifest zweryfikowano przed importem. Ponowny import nie utworzył duplikatów. Dowody: TASK-4-EVIDENCE.json oraz cache qa/documents.json. Dostępność treści dokumentów PDF/DOC/XLS/ZIP nadal wymaga osobnego audytu; dostęp HTTP nie oznacza zgodności WCAG.`
+  : 'Brakujące lokalne kopie pozostają BLOCKED. Zachowano oryginalne adresy, bez zastępczych dokumentów. Workflow cb-documents.yml pobiera wyłącznie wersjonowaną listę documents-source.json; publikacja i uruchomienie wymagają autoryzacji użytkownika. Import: documents.js oraz documents-import.php.';
+fs.writeFileSync(path.join(docs, 'TASK-4-DOCUMENTS.md'), '# Dokumenty źródłowe — lokalne kopie i jawne braki\n\n43 wystąpienia odnośników, 37 unikalnych adresów. Aktualnie '+blockedDocuments+' wystąpień bez lokalnej kopii. '+documentSummary+'\n\n| ID | Tekst źródłowego odnośnika | Źródłowy plik | Lokalna kopia | WP ID | Lokalny URL |\n| --- | --- | --- | --- | --- | --- |\n' + documentRows.join('\n') + '\n');
 console.log('Verified 38 source/local pairs; reports generated. Visual acceptance remains IN_PROGRESS.');

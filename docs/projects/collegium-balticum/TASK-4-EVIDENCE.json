@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-10T00:10:23.220Z",
+  "at": "2026-10-10T07:47:34.602Z",
   "branch": "project/collegium-balticum",
   "baseCommit": "4e283cf",
   "runtime": {
@@ -12,7 +12,7 @@
     "counts": [
       35,
       23,
-      268,
+      303,
       92
     ]
   },
@@ -433,16 +433,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-01/desktop/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-01-desktop.png",
           "sourceSha256": "571241a7e60fccf7c88385b95e8bbc866bedd10260c7f1fea203005bfb2a5074",
-          "localSha256": "f072dd198c1a065c1186f1d1620f1222bf42ac7cb22ce1e2daf88acb31a57c9d",
+          "localSha256": "698d8a84e31a8261ef1824cabeeb7177c0487bdf548a334cb134003db7ff0b8d",
           "sourceSize": [
             1440,
             3604
           ],
           "localSize": [
             1440,
-            3678
+            3700
           ],
-          "changedPixelRatio": 0.030781750347411034,
+          "changedPixelRatio": 0.03422822822822823,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-01-desktop-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-01-desktop-overlay.png",
@@ -651,12 +651,12 @@
       "content": "DONE",
       "documentCount": 3,
       "images": "DONE",
-      "documents": "BLOCKED",
+      "documents": "DONE",
       "desktopVisualQa": "IN_PROGRESS",
       "mobileVisualQa": "IN_PROGRESS",
       "wcagQa": "IN_PROGRESS",
       "functionality": "IN_PROGRESS",
-      "openIssues": "Zachowane cztery oryginalne iframe; odtwarzanie/captions wymagają osobnej kontroli. Brak 3 lokalnych kopii dokumentów; oryginalne linki zachowane.",
+      "openIssues": "Zachowane cztery oryginalne iframe; odtwarzanie/captions wymagają osobnej kontroli.",
       "sections": 11,
       "views": [
         {
@@ -728,12 +728,12 @@
       "content": "DONE",
       "documentCount": 1,
       "images": "DONE",
-      "documents": "BLOCKED",
+      "documents": "DONE",
       "desktopVisualQa": "IN_PROGRESS",
       "mobileVisualQa": "IN_PROGRESS",
       "wcagQa": "IN_PROGRESS",
       "functionality": "IN_PROGRESS",
-      "openIssues": "Zachowane cztery iframe i zamknięte galerie zgodnie z DOM. Odtwarzanie/captions poza automatycznym QA. Brak 1 lokalnych kopii dokumentów; oryginalne linki zachowane.",
+      "openIssues": "Zachowane cztery iframe i zamknięte galerie zgodnie z DOM. Odtwarzanie/captions poza automatycznym QA.",
       "sections": 9,
       "views": [
         {
@@ -971,12 +971,12 @@
       "content": "DONE",
       "documentCount": 1,
       "images": "DONE",
-      "documents": "BLOCKED",
+      "documents": "DONE",
       "desktopVisualQa": "IN_PROGRESS",
       "mobileVisualQa": "IN_PROGRESS",
       "wcagQa": "IN_PROGRESS",
       "functionality": "IN_PROGRESS",
-      "openIssues": "Źródłowy pusty src pominięto; nie dodano zastępczego obrazu. Brak 1 lokalnych kopii dokumentów; oryginalne linki zachowane.",
+      "openIssues": "Źródłowy pusty src pominięto; nie dodano zastępczego obrazu.",
       "sections": 11,
       "views": [
         {
@@ -1048,12 +1048,12 @@
       "content": "DONE",
       "documentCount": 2,
       "images": "DONE",
-      "documents": "BLOCKED",
+      "documents": "DONE",
       "desktopVisualQa": "IN_PROGRESS",
       "mobileVisualQa": "IN_PROGRESS",
       "wcagQa": "IN_PROGRESS",
       "functionality": "IN_PROGRESS",
-      "openIssues": "Dalsze dopasowanie odstępów i typografii. Brak 2 lokalnych kopii dokumentów; oryginalne linki zachowane.",
+      "openIssues": "Dalsze dopasowanie odstępów i typografii.",
       "sections": 5,
       "views": [
         {
@@ -1125,12 +1125,12 @@
       "content": "DONE",
       "documentCount": 4,
       "images": "DONE",
-      "documents": "BLOCKED",
+      "documents": "DONE",
       "desktopVisualQa": "IN_PROGRESS",
       "mobileVisualQa": "IN_PROGRESS",
       "wcagQa": "IN_PROGRESS",
       "functionality": "IN_PROGRESS",
-      "openIssues": "Lokalny filtr Szczecina działa; pozostałe miasta prowadzą do istniejącej usługi źródłowej. Brak 4 lokalnych kopii dokumentów; oryginalne linki zachowane.",
+      "openIssues": "Lokalny filtr Szczecina działa; pozostałe miasta prowadzą do istniejącej usługi źródłowej.",
       "sections": 14,
       "views": [
         {
@@ -1214,12 +1214,12 @@
       "content": "DONE",
       "documentCount": 2,
       "images": "DONE",
-      "documents": "BLOCKED",
+      "documents": "DONE",
       "desktopVisualQa": "IN_PROGRESS",
       "mobileVisualQa": "IN_PROGRESS",
       "wcagQa": "IN_PROGRESS",
       "functionality": "IN_PROGRESS",
-      "openIssues": "Pominięto pusty źródłowy baner (272 px desktop / 125 px mobile); nie dodano zastępczego obrazu. Brak 2 lokalnych kopii dokumentów; oryginalne linki zachowane.",
+      "openIssues": "Pominięto pusty źródłowy baner (272 px desktop / 125 px mobile); nie dodano zastępczego obrazu.",
       "sections": 4,
       "views": [
         {
@@ -1368,12 +1368,12 @@
       "content": "DONE",
       "documentCount": 1,
       "images": "DONE",
-      "documents": "BLOCKED",
+      "documents": "DONE",
       "desktopVisualQa": "IN_PROGRESS",
       "mobileVisualQa": "IN_PROGRESS",
       "wcagQa": "IN_PROGRESS",
       "functionality": "IN_PROGRESS",
-      "openIssues": "Dalsze dopasowanie odstępów i typografii. Brak 1 lokalnych kopii dokumentów; oryginalne linki zachowane.",
+      "openIssues": "Dalsze dopasowanie odstępów i typografii.",
       "sections": 2,
       "views": [
         {
@@ -1445,12 +1445,12 @@
       "content": "DONE",
       "documentCount": 1,
       "images": "DONE",
-      "documents": "BLOCKED",
+      "documents": "DONE",
       "desktopVisualQa": "IN_PROGRESS",
       "mobileVisualQa": "IN_PROGRESS",
       "wcagQa": "IN_PROGRESS",
       "functionality": "IN_PROGRESS",
-      "openIssues": "Dalsze dopasowanie odstępów i typografii. Brak 1 lokalnych kopii dokumentów; oryginalne linki zachowane.",
+      "openIssues": "Dalsze dopasowanie odstępów i typografii.",
       "sections": 2,
       "views": [
         {
@@ -1522,12 +1522,12 @@
       "content": "DONE",
       "documentCount": 1,
       "images": "DONE",
-      "documents": "BLOCKED",
+      "documents": "DONE",
       "desktopVisualQa": "IN_PROGRESS",
       "mobileVisualQa": "IN_PROGRESS",
       "wcagQa": "IN_PROGRESS",
       "functionality": "IN_PROGRESS",
-      "openIssues": "Dalsze dopasowanie odstępów i typografii. Brak 1 lokalnych kopii dokumentów; oryginalne linki zachowane.",
+      "openIssues": "Dalsze dopasowanie odstępów i typografii.",
       "sections": 1,
       "views": [
         {
@@ -1689,12 +1689,12 @@
       "content": "DONE",
       "documentCount": 27,
       "images": "DONE",
-      "documents": "BLOCKED",
+      "documents": "DONE",
       "desktopVisualQa": "IN_PROGRESS",
       "mobileVisualQa": "IN_PROGRESS",
       "wcagQa": "IN_PROGRESS",
       "functionality": "IN_PROGRESS",
-      "openIssues": "Naprawiono geometrię karuzeli desktop; zachowano znaną kolejność DOM bez zgadywania slajdów. Brak 27 lokalnych kopii dokumentów; oryginalne linki zachowane.",
+      "openIssues": "Naprawiono geometrię karuzeli desktop; zachowano znaną kolejność DOM bez zgadywania slajdów.",
       "sections": 4,
       "views": [
         {
@@ -1834,7 +1834,7 @@
   ],
   "componentChecks": {
     "links": {
-      "at": "2026-10-09T23:46:02.456Z",
+      "at": "2026-10-10T07:45:18.472Z",
       "rows": [
         {
           "id": "CB-00",
@@ -2009,14 +2009,636 @@
           "ratio": 2.5298706137065325
         }
       ]
+    },
+    "documents": {
+      "at": "2026-10-10T07:45:26.208Z",
+      "runner": {
+        "kind": "github-actions",
+        "repository": "marcinpracavp/mwstudios-wordpress-factory",
+        "runId": "38034776529",
+        "commit": "4100e036753aa3690c0352e0f8ff75d493a04ec0"
+      },
+      "manifestSha256": "9a7caad37daba912c188ec56950a97bd06a544c3d5cf81d9be5d78da872bd674",
+      "documents": [
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/08/warunki-rekrutacji.pdf",
+          "attachmentId": 1764,
+          "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/warunki-rekrutacji.pdf",
+          "httpStatus": 200,
+          "mime": "application/pdf",
+          "bytes": 1201402,
+          "sha256": "20e81835f19d31f6170675f5db2f89fe6bf0a5d2818b06b3ad8e44cc93e686a1"
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2022/04/Karta-zgloszenia-PCSP-aktualna-od-04.2022.pdf",
+          "attachmentId": 1765,
+          "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/Karta-zgloszenia-PCSP-aktualna-od-04.2022.pdf",
+          "httpStatus": 200,
+          "mime": "application/pdf",
+          "bytes": 700848,
+          "sha256": "93c105185eeaf3b4550feeafa74b35a4ab9d4a331f7156a0a89af2e05224ac22"
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2024/01/Informator-studia-2024.pdf",
+          "attachmentId": 1766,
+          "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/Informator-studia-2024.pdf",
+          "httpStatus": 200,
+          "mime": "application/pdf",
+          "bytes": 1821614,
+          "sha256": "408a9d68f48af59c0ee8e4b6a9d7216a3d249cfd20bb14a5bf18f261095d885e"
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2023/12/Karta-zgloszenia-2023-1.pdf",
+          "attachmentId": 1765,
+          "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/Karta-zgloszenia-PCSP-aktualna-od-04.2022.pdf",
+          "httpStatus": 200,
+          "mime": "application/pdf",
+          "bytes": 700848,
+          "sha256": "93c105185eeaf3b4550feeafa74b35a4ab9d4a331f7156a0a89af2e05224ac22"
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2021/05/informator-podyplomowe-studia_v1.pdf",
+          "attachmentId": 1767,
+          "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/informator-podyplomowe-studia_v1.pdf",
+          "httpStatus": 200,
+          "mime": "application/pdf",
+          "bytes": 1476583,
+          "sha256": "35aa271ddcb0411bab0423a8daa1e6f8ba1166018b64004cb0bf88a1d3b53704"
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2022/04/Karta-zgloszenia-PCSP-aktualna-od-04.2022.pdf?id=2279",
+          "attachmentId": 1765,
+          "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/Karta-zgloszenia-PCSP-aktualna-od-04.2022.pdf",
+          "httpStatus": 200,
+          "mime": "application/pdf",
+          "bytes": 700848,
+          "sha256": "93c105185eeaf3b4550feeafa74b35a4ab9d4a331f7156a0a89af2e05224ac22"
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2024/08/karta-zgloszenia-kurs-mediator-sadowy.pdf",
+          "attachmentId": 1768,
+          "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/karta-zgloszenia-kurs-mediator-sadowy.pdf",
+          "httpStatus": 200,
+          "mime": "application/pdf",
+          "bytes": 198136,
+          "sha256": "8ba47599ac05d4e87759898f069230ccbe70c2b4f427f0ca97334adc484dc91b"
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2024/02/Podanie-PRZENIESIENIE.pdf",
+          "attachmentId": 1769,
+          "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/Podanie-PRZENIESIENIE.pdf",
+          "httpStatus": 200,
+          "mime": "application/pdf",
+          "bytes": 128703,
+          "sha256": "882b79d03dc115b869e97253d4667918667d4ef009c9a9900ce66fb98e525fca"
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2024/02/Podanie-REAKTYWACJA.pdf",
+          "attachmentId": 1770,
+          "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/Podanie-REAKTYWACJA.pdf",
+          "httpStatus": 200,
+          "mime": "application/pdf",
+          "bytes": 118871,
+          "sha256": "59e02d6bc4d47dd47ab70eada993ea1481e65ec98cffde12f89bb645eea29078"
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2025/04/Procedura-wsparcia-studentow.pdf",
+          "attachmentId": 1771,
+          "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/Procedura-wsparcia-studentow.pdf",
+          "httpStatus": 200,
+          "mime": "application/pdf",
+          "bytes": 346163,
+          "sha256": "5062d9414ef701fe1f5d9bd4184decc3a769ec5111c30b1b87c831f224510810"
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2023/03/ECHE_2021_2027_CB.pdf",
+          "attachmentId": 1772,
+          "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/ECHE_2021_2027_CB.pdf",
+          "httpStatus": 200,
+          "mime": "application/pdf",
+          "bytes": 3836961,
+          "sha256": "3e14a6e3f5e5ab72b0036f79f99c37363667438a4a902b1959cc88f546d592a1"
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/02/2.-Erasmus-Policy-Statement.pdf",
+          "attachmentId": 1773,
+          "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/2.-Erasmus-Policy-Statement.pdf",
+          "httpStatus": 200,
+          "mime": "application/pdf",
+          "bytes": 95784,
+          "sha256": "39afbde307ccbaf397358a5f5c5630faf31d43dc38cbd25605bc2fa8f397ec57"
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/3.-Informacja-o-programie-Erasmus.docx",
+          "attachmentId": 1774,
+          "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/3.-Informacja-o-programie-Erasmus.docx",
+          "httpStatus": 200,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "bytes": 14041,
+          "sha256": "79edb0c19226be489d2b956573c8b30372708bee05423b7cdb3ecd03dfedfcba"
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/4.-Regulamin-programu-Erasmus.docx",
+          "attachmentId": 1775,
+          "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/4.-Regulamin-programu-Erasmus.docx",
+          "httpStatus": 200,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "bytes": 85498,
+          "sha256": "81588c95e0a1c4b881b480124e6212ba451247a9cae90f86324d60e714bdd40c"
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/5.-Uczelnie-partnerskie.docx",
+          "attachmentId": 1776,
+          "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/5.-Uczelnie-partnerskie.docx",
+          "httpStatus": 200,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "bytes": 12599,
+          "sha256": "b5d1cf39ff10e3c03e8fc86cc3402807202bd539c8f3fc9dfd58bb3adddb6f39"
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/6.-Kontakt.docx",
+          "attachmentId": 1777,
+          "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/6.-Kontakt.docx",
+          "httpStatus": 200,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "bytes": 12167,
+          "sha256": "da6e828b86550b2664945707841d1e8278326f675118d67b69880291c0724cd3"
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2021/12/Academic-Planner-App.pdf",
+          "attachmentId": 1778,
+          "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/Academic-Planner-App.pdf",
+          "httpStatus": 200,
+          "mime": "application/pdf",
+          "bytes": 950979,
+          "sha256": "ab3adef30eec7ab6313a3c253daa23887d1022172f95010776511179545e0694"
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/1.-Information-about-the-institution.pdf",
+          "attachmentId": 1779,
+          "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/1.-Information-about-the-institution.pdf",
+          "httpStatus": 200,
+          "mime": "application/pdf",
+          "bytes": 456163,
+          "sha256": "98d182f2e96ba421493145a04b60669d88755394ba191fdb345a2d997b52a56f"
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/2.-Application-procedure.pdf",
+          "attachmentId": 1780,
+          "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/2.-Application-procedure.pdf",
+          "httpStatus": 200,
+          "mime": "application/pdf",
+          "bytes": 577817,
+          "sha256": "f993c3e056195573798bd316851efa933cfe6e5dc24ee0d4dbbce98150b8538d"
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/3.-Application-calendar.pdf",
+          "attachmentId": 1781,
+          "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/3.-Application-calendar.pdf",
+          "httpStatus": 200,
+          "mime": "application/pdf",
+          "bytes": 341499,
+          "sha256": "4c529ea6dc9ff7c6d0c8fe4033acaba635c427362e299bd099e2197934755623"
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/4.-Grading-system-and-ECTS.pdf",
+          "attachmentId": 1782,
+          "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/4.-Grading-system-and-ECTS.pdf",
+          "httpStatus": 200,
+          "mime": "application/pdf",
+          "bytes": 457337,
+          "sha256": "6ec2f79351d5900299f655590a5b11ee241e4b070a97c736c5e246f7fc010436"
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/5.-List-of-courses-in-English.pdf",
+          "attachmentId": 1783,
+          "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/5.-List-of-courses-in-English.pdf",
+          "httpStatus": 200,
+          "mime": "application/pdf",
+          "bytes": 486236,
+          "sha256": "c5b048e25bb721c4e78a59ef0579da18e1da8e8248bce955869f8407d2f6edcf"
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/1.-Karta_studenta_Erasmusa_PL.pdf",
+          "attachmentId": 1784,
+          "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/1.-Karta_studenta_Erasmusa_PL.pdf",
+          "httpStatus": 200,
+          "mime": "application/pdf",
+          "bytes": 520584,
+          "sha256": "32e39247e59e0cac89761f5dca1a3de42abb4d33767b3289686bdf416485b0d8"
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/2.-Karta_studenta_Erasmusa_ENG.pdf",
+          "attachmentId": 1785,
+          "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/2.-Karta_studenta_Erasmusa_ENG.pdf",
+          "httpStatus": 200,
+          "mime": "application/pdf",
+          "bytes": 860450,
+          "sha256": "38cfbcdd660886804458654929693021e299682f375fddd9d337fc62d73bdd4b"
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/3.-Formularz-zgloszeniowy.docx",
+          "attachmentId": 1786,
+          "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/3.-Formularz-zgloszeniowy.docx",
+          "httpStatus": 200,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "bytes": 69675,
+          "sha256": "23a1153963e22b1606529c10f8c5f678b4757c829d0f00cf8c152e08a41bd44c"
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/4.-Application-form.docx",
+          "attachmentId": 1787,
+          "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/4.-Application-form.docx",
+          "httpStatus": 200,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "bytes": 90249,
+          "sha256": "4651f09bbb61ba36390979cdf1c7c0a5056d4883aedf28e134457808bc8f419c"
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/5.-Learning-agreement-LA.docx",
+          "attachmentId": 1788,
+          "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/5.-Learning-agreement-LA.docx",
+          "httpStatus": 200,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "bytes": 80589,
+          "sha256": "e1b74c8dc7df859242da7501f0a02d8295be3ca1548de373e8b322805720008c"
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/6.-Transcript-of-records.docx",
+          "attachmentId": 1789,
+          "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/6.-Transcript-of-records.docx",
+          "httpStatus": 200,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "bytes": 71928,
+          "sha256": "5f9af553a7e34960116512f4a8b802a23d74ac1bbdd690a4e09b391405fab0cc"
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/7.-Formularz-danych-bankowych.doc",
+          "attachmentId": 1790,
+          "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/7.-Formularz-danych-bankowych.doc",
+          "httpStatus": 200,
+          "mime": "application/msword",
+          "bytes": 102912,
+          "sha256": "2c1f9f90010e381fd4501b50d5a8c94004292562cbe5e96f0afc5ac5601fdc9c"
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/8.-Instrukcja-dla-studentow-przed-wyjazdem-na-studia-Erasmus.pdf",
+          "attachmentId": 1791,
+          "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/8.-Instrukcja-dla-studentow-przed-wyjazdem-na-studia-Erasmus.pdf",
+          "httpStatus": 200,
+          "mime": "application/pdf",
+          "bytes": 605902,
+          "sha256": "f2c0773a338204500042a94f62678428bce4a0d8804e25bb130ccf01c4701d4e"
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/9.-Instrukcja-dla-studentow-po-przyjezdzie-ze-studiow-Erasmus.pdf",
+          "attachmentId": 1792,
+          "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/9.-Instrukcja-dla-studentow-po-przyjezdzie-ze-studiow-Erasmus.pdf",
+          "httpStatus": 200,
+          "mime": "application/pdf",
+          "bytes": 594260,
+          "sha256": "154ca5bb22458b029c3a0d522e268803478faa161dd5ae02c70d75f8353745b2"
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/1.-Wniosek-na-wyjazd-dydaktyczny.docx",
+          "attachmentId": 1793,
+          "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/1.-Wniosek-na-wyjazd-dydaktyczny.docx",
+          "httpStatus": 200,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "bytes": 67237,
+          "sha256": "5ffabc76ba8ec6ce43ac56313be40296f49e6fe358517bb41b05a40b14fecbe9"
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/2.-Wniosek-na-wyjazd-szkoleniowy.docx",
+          "attachmentId": 1794,
+          "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/2.-Wniosek-na-wyjazd-szkoleniowy.docx",
+          "httpStatus": 200,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "bytes": 67103,
+          "sha256": "b7fbc723545ea65e5b897c3e99f634c60b0c21a46a3ff55bc8853078c053404f"
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/3.-Staff-mobility-agreement-for-teaching.docx",
+          "attachmentId": 1795,
+          "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/3.-Staff-mobility-agreement-for-teaching.docx",
+          "httpStatus": 200,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "bytes": 70075,
+          "sha256": "4cfbb809081dd08f01b263e9f74b399c6a46205d9a9e8bbf4e99a1f8c87cdcb6"
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/4.-Staff-mobility-agreement-for-training.docx",
+          "attachmentId": 1796,
+          "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/4.-Staff-mobility-agreement-for-training.docx",
+          "httpStatus": 200,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "bytes": 71864,
+          "sha256": "3b0b905a3f5c08779c5e1b34a04d7952314881791ad19539127360e120255b3d"
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/5.-Oswiadczenie-o-komplementarnosci-srodkow.docx",
+          "attachmentId": 1797,
+          "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/5.-Oswiadczenie-o-komplementarnosci-srodkow.docx",
+          "httpStatus": 200,
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "bytes": 64774,
+          "sha256": "89fa2b97955acfaf11fbb7b418c2818964e229835291036957feadfb6fc12b08"
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2021/09/6.-Formularz-danych-bankowych.doc",
+          "attachmentId": 1798,
+          "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/6.-Formularz-danych-bankowych.doc",
+          "httpStatus": 200,
+          "mime": "application/msword",
+          "bytes": 103936,
+          "sha256": "e7f2481a77a19a629021ec5894d38108907b2d10ff465e7b8125910de483296b"
+        }
+      ],
+      "uniqueAttachmentIds": 35,
+      "links": [
+        {
+          "id": "CB-00",
+          "status": 200,
+          "documentOccurrences": 0,
+          "missing": 0
+        },
+        {
+          "id": "CB-01",
+          "status": 200,
+          "documentOccurrences": 0,
+          "missing": 0
+        },
+        {
+          "id": "CB-02",
+          "status": 200,
+          "documentOccurrences": 0,
+          "missing": 0
+        },
+        {
+          "id": "CB-03",
+          "status": 200,
+          "documentOccurrences": 0,
+          "missing": 0
+        },
+        {
+          "id": "CB-04",
+          "status": 200,
+          "documentOccurrences": 3,
+          "missing": 0
+        },
+        {
+          "id": "CB-05",
+          "status": 200,
+          "documentOccurrences": 1,
+          "missing": 0
+        },
+        {
+          "id": "CB-06",
+          "status": 200,
+          "documentOccurrences": 0,
+          "missing": 0
+        },
+        {
+          "id": "CB-07",
+          "status": 200,
+          "documentOccurrences": 0,
+          "missing": 0
+        },
+        {
+          "id": "CB-08",
+          "status": 200,
+          "documentOccurrences": 1,
+          "missing": 0
+        },
+        {
+          "id": "CB-09",
+          "status": 200,
+          "documentOccurrences": 2,
+          "missing": 0
+        },
+        {
+          "id": "CB-10",
+          "status": 200,
+          "documentOccurrences": 4,
+          "missing": 0
+        },
+        {
+          "id": "CB-11",
+          "status": 200,
+          "documentOccurrences": 2,
+          "missing": 0
+        },
+        {
+          "id": "CB-12",
+          "status": 200,
+          "documentOccurrences": 0,
+          "missing": 0
+        },
+        {
+          "id": "CB-13",
+          "status": 200,
+          "documentOccurrences": 1,
+          "missing": 0
+        },
+        {
+          "id": "CB-14",
+          "status": 200,
+          "documentOccurrences": 1,
+          "missing": 0
+        },
+        {
+          "id": "CB-15",
+          "status": 200,
+          "documentOccurrences": 1,
+          "missing": 0
+        },
+        {
+          "id": "CB-16",
+          "status": 200,
+          "documentOccurrences": 0,
+          "missing": 0
+        },
+        {
+          "id": "CB-17",
+          "status": 200,
+          "documentOccurrences": 27,
+          "missing": 0
+        },
+        {
+          "id": "CB-18",
+          "status": 200,
+          "documentOccurrences": 0,
+          "missing": 0
+        }
+      ],
+      "counts": [
+        35,
+        23,
+        303,
+        92
+      ]
+    },
+    "documents-idempotence": {
+      "at": "2026-10-10T07:43:34.297Z",
+      "before": {
+        "contentHashes": {
+          "CB-00": "4d4e5540fb3ddd148ab82878a849b0089af0e083b927f8ad739df521a5c468cd",
+          "CB-01": "0a51b19db61c2a63909e562f77f93ba0713cc9d13ae5512890ba13e7dcd5e7e8",
+          "CB-03": "e3104e4e38d620637cc18eacffc0ea5f1ae3195abd7bca135d07a5d7b83718cf",
+          "CB-04": "a0a009452554571578dbd6aa0acf13b832b765f193f4fe22c54e95a20dd4529e",
+          "CB-05": "9274e55089458719d06ca9da8b700ff91ba27e3ca8704f7b551d6db5686d0d28",
+          "CB-06": "a797ba31f3ed644ea3a15ddeab17e2befb716a80b22e1d072759d65d190d300f",
+          "CB-07": "b8e8a7a82ea0657514f56e3ac803d934319ac0d9df320a73668590c9eb6f1696",
+          "CB-08": "3b622b6c722a34858314e38668e31fd41bb1b8b0794e678e75ea61e0537fa52f",
+          "CB-09": "c621e240562648d445bb29cfcb704afbea3e5dc9e3933d43c791be4373ba2fbd",
+          "CB-10": "cdc92d4652abade2f6257a504db05378269d373164a794c9f58aa20d3a3433fd",
+          "CB-11": "aa4db5e1762213e05d96ead457f60942b0a864c48abf7edd7e19ad90dfe5f383",
+          "CB-12": "f991057358f584729124248afd8e6668104b440be6eeb8d19a5a154a0ec4308d",
+          "CB-13": "24f7016561bc652d511f3693e2bbeb9f1ba0732866677591fa570134c354e4e4",
+          "CB-14": "d06c58469ddda0d5ea03dab372a487b757a32c06d10afd4158668c010623fe07",
+          "CB-15": "f1cbb2f8084a4c1e6c0673e9fa3eb4834cd32b00fcfe82400739b517cf55a213",
+          "CB-16": "0034cbcd250f8dbbf0b64b12a1bba98159c7b3de6748257807bfd29c89e9201f",
+          "CB-17": "11aca713cedcdaee5e0f06827cd32a0d21277607fbe1a3d0133afb8428b2c3f6",
+          "CB-18": "f7e177ab7211a222ee1b4da3fc12b1b4f1a615f165e434c80eff2dfb0475d70a",
+          "option:cb_header": "2126ddc98984d6baf6abcbe4c7550dab5b0cbef33064d0435cac229beabaceee",
+          "option:cb_footer": "423ce2fdeb7c1dda4ae7f12d0971f7897ec6f747db7a3b38c5f6bc41356c5207",
+          "option:cb_sections": "22841d1683c20292cb75d65d0d00dd97a935aa8efdb3d7ac2bc8ae64eecda79e"
+        },
+        "documentIds": [
+          1764,
+          1765,
+          1766,
+          1765,
+          1767,
+          1765,
+          1768,
+          1769,
+          1770,
+          1771,
+          1772,
+          1773,
+          1774,
+          1775,
+          1776,
+          1777,
+          1778,
+          1779,
+          1780,
+          1781,
+          1782,
+          1783,
+          1784,
+          1785,
+          1786,
+          1787,
+          1788,
+          1789,
+          1790,
+          1791,
+          1792,
+          1793,
+          1794,
+          1795,
+          1796,
+          1797,
+          1798
+        ],
+        "attachments": 303
+      },
+      "after": {
+        "contentHashes": {
+          "CB-00": "4d4e5540fb3ddd148ab82878a849b0089af0e083b927f8ad739df521a5c468cd",
+          "CB-01": "0a51b19db61c2a63909e562f77f93ba0713cc9d13ae5512890ba13e7dcd5e7e8",
+          "CB-03": "e3104e4e38d620637cc18eacffc0ea5f1ae3195abd7bca135d07a5d7b83718cf",
+          "CB-04": "a0a009452554571578dbd6aa0acf13b832b765f193f4fe22c54e95a20dd4529e",
+          "CB-05": "9274e55089458719d06ca9da8b700ff91ba27e3ca8704f7b551d6db5686d0d28",
+          "CB-06": "a797ba31f3ed644ea3a15ddeab17e2befb716a80b22e1d072759d65d190d300f",
+          "CB-07": "b8e8a7a82ea0657514f56e3ac803d934319ac0d9df320a73668590c9eb6f1696",
+          "CB-08": "3b622b6c722a34858314e38668e31fd41bb1b8b0794e678e75ea61e0537fa52f",
+          "CB-09": "c621e240562648d445bb29cfcb704afbea3e5dc9e3933d43c791be4373ba2fbd",
+          "CB-10": "cdc92d4652abade2f6257a504db05378269d373164a794c9f58aa20d3a3433fd",
+          "CB-11": "aa4db5e1762213e05d96ead457f60942b0a864c48abf7edd7e19ad90dfe5f383",
+          "CB-12": "f991057358f584729124248afd8e6668104b440be6eeb8d19a5a154a0ec4308d",
+          "CB-13": "24f7016561bc652d511f3693e2bbeb9f1ba0732866677591fa570134c354e4e4",
+          "CB-14": "d06c58469ddda0d5ea03dab372a487b757a32c06d10afd4158668c010623fe07",
+          "CB-15": "f1cbb2f8084a4c1e6c0673e9fa3eb4834cd32b00fcfe82400739b517cf55a213",
+          "CB-16": "0034cbcd250f8dbbf0b64b12a1bba98159c7b3de6748257807bfd29c89e9201f",
+          "CB-17": "11aca713cedcdaee5e0f06827cd32a0d21277607fbe1a3d0133afb8428b2c3f6",
+          "CB-18": "f7e177ab7211a222ee1b4da3fc12b1b4f1a615f165e434c80eff2dfb0475d70a",
+          "option:cb_header": "2126ddc98984d6baf6abcbe4c7550dab5b0cbef33064d0435cac229beabaceee",
+          "option:cb_footer": "423ce2fdeb7c1dda4ae7f12d0971f7897ec6f747db7a3b38c5f6bc41356c5207",
+          "option:cb_sections": "22841d1683c20292cb75d65d0d00dd97a935aa8efdb3d7ac2bc8ae64eecda79e"
+        },
+        "documentIds": [
+          1764,
+          1765,
+          1766,
+          1765,
+          1767,
+          1765,
+          1768,
+          1769,
+          1770,
+          1771,
+          1772,
+          1773,
+          1774,
+          1775,
+          1776,
+          1777,
+          1778,
+          1779,
+          1780,
+          1781,
+          1782,
+          1783,
+          1784,
+          1785,
+          1786,
+          1787,
+          1788,
+          1789,
+          1790,
+          1791,
+          1792,
+          1793,
+          1794,
+          1795,
+          1796,
+          1797,
+          1798
+        ],
+        "attachments": 303
+      },
+      "stable": true
     }
+  },
+  "documentCapture": {
+    "run": {
+      "id": 38034776529,
+      "url": "https://github.com/marcinpracavp/mwstudios-wordpress-factory/actions/runs/38034776529",
+      "branch": "project/collegium-balticum",
+      "sha": "4100e036753aa3690c0352e0f8ff75d493a04ec0",
+      "workflow": ".github/workflows/cb-documents.yml",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    "artifact": {
+      "id": 11664175006,
+      "name": "cb-documents-38034776529",
+      "digest": "sha256:d23604a599d013f56aa3350b3408a9930d15460af44fbb07a069914b615609d9",
+      "bytes": 15039900,
+      "sha256": "d23604a599d013f56aa3350b3408a9930d15460af44fbb07a069914b615609d9"
+    },
+    "downloadedAt": "2026-10-10T07:34:17.603Z",
+    "path": "/workspace/.factory-cache/live/collegium-balticum/downloads/documents-38034776529/github-artifact.zip"
   },
   "engineTestRuns": [
     {
       "command": "npm run factory:live:test",
       "fixtureOnly": false,
-      "observedAt": "2026-10-09T21:45:51.002Z",
-      "logSha256": "b5ea1077cfc4030d4fbfdea40a8671bcf29372e21eb5f2846d48d476e63ef63a",
+      "observedAt": "2026-10-10T07:31:39.899Z",
+      "logSha256": "6bc83b3284b7ec0003627f10e0e74d8b906ca3ab95f5448086bbd9d19ba804f7",
       "tests": 3,
       "pass": 3,
       "fail": 0
@@ -2024,8 +2646,8 @@
     {
       "command": "npm run factory:autopilot:test",
       "fixtureOnly": false,
-      "observedAt": "2026-10-09T21:45:40.939Z",
-      "logSha256": "9dc0c7bebdb3063235122bda2633ffe7e9fe6bbf2de3a4952a4f1930ca5fc2fb",
+      "observedAt": "2026-10-10T07:30:59.768Z",
+      "logSha256": "d440c7a46739820b88dbfe894cb46709bafd631757d9d3bb2355b5c79ca9c080",
       "tests": 21,
       "pass": 21,
       "fail": 0
@@ -2033,8 +2655,8 @@
     {
       "command": "node --test scripts/projects/collegium-balticum/remote/capture.test.js",
       "fixtureOnly": true,
-      "observedAt": "2026-10-09T21:53:53.517Z",
-      "logSha256": "6e6804afa7a721ec1a63e5efe91eb818c998901edf0dc9fe2a25897fa738676a",
+      "observedAt": "2026-10-10T07:31:56.724Z",
+      "logSha256": "1b0e32b7c3d189c70f97aef511d65c71a98850b55f0e18efcc307e401df15328",
       "tests": 1,
       "pass": 1,
       "fail": 0

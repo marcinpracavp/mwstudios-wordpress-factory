@@ -37,20 +37,24 @@ foreach ($records as $record) {
     $map[$record['url']] = ['id' => $id, 'url' => wp_get_attachment_url($id), 'sha256' => $record['sha256']];
 }
 update_option('cb_document_map', $map, false);
-function cb_document_replace($value, $map) {
-    if (is_array($value)) { foreach ($value as &$item) $item = cb_document_replace($item, $map); return $value; }
+function cb_document_replace($value, $map, $key = '') {
+    if (is_array($value)) { foreach ($value as $childKey => &$item) $item = cb_document_replace($item, $map, $childKey); return $value; }
     if (!is_string($value)) return $value;
-    foreach ($map as $source => $asset) $value = str_replace([$source, esc_url($source)], $asset['url'], $value);
-    return $value;
+    if ($key === 'url' && isset($map[$value])) return $map[$value]['url'];
+    // Change destinations only; the source's visible link labels stay intact.
+    return preg_replace_callback('/(\bhref\s*=\s*)(["\x27])(.*?)\2/is', function ($match) use ($map) {
+        $source = html_entity_decode($match[3], ENT_QUOTES | ENT_HTML5, 'UTF-8');
+        return isset($map[$source]) ? $match[1] . $match[2] . esc_url($map[$source]['url']) . $match[2] : $match[0];
+    }, $value);
 }
 $posts = get_posts(['post_type' => ['page', 'post'], 'post_status' => 'any', 'meta_key' => '_cb_source_id', 'posts_per_page' => -1]);
 foreach ($posts as $post) {
-    $sections = get_field('cb_sections', $post->ID);
+    $sections = get_field('cb_sections', $post->ID, false);
     if ($sections) update_field('field_cb_sections', cb_document_replace($sections, $map), $post->ID);
     if ($post->post_content) wp_update_post(['ID' => $post->ID, 'post_content' => cb_document_replace($post->post_content, $map)]);
 }
 foreach (['cb_header', 'cb_footer', 'cb_sections'] as $field) {
-    $value = get_field($field, 'option');
+    $value = get_field($field, 'option', false);
     if ($value) update_field('field_' . $field, cb_document_replace($value, $map), 'option');
 }
 $documents = json_decode(file_get_contents($cache . '/documents.json'), true);

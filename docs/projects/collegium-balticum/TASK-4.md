@@ -1,12 +1,12 @@
 # Zadanie 4 — rzeczywista migracja CB do lokalnego WordPressa
 
-Praca na `project/collegium-balticum`, baza `4e283cf`. Nie zmieniono `main` ani `autopilot-clean`, nie wykonano push ani wdrożenia na produkcję. Bieżąca tabela wszystkich adresów: [TASK-4-REGISTER](TASK-4-REGISTER.md); dowody i SHA256: [TASK-4-EVIDENCE](TASK-4-EVIDENCE.json). Wcześniejsze raporty pozostają historią etapów 1–3C.
+Praca na `project/collegium-balticum`, baza `4e283cf`. Nie zmieniono `main` ani `autopilot-clean`, nie wdrożono zmian na produkcję. Zgodnie z osobną zgodą użytkownika wypchnięto gałąź projektu do `4100e03` i uruchomiono wyłącznie workflow dokumentów. Bieżąca tabela wszystkich adresów: [TASK-4-REGISTER](TASK-4-REGISTER.md); dowody i SHA256: [TASK-4-EVIDENCE](TASK-4-EVIDENCE.json). Wcześniejsze raporty pozostają historią etapów 1–3C.
 
 ## Wynik i granice gotowości
 
 W lokalnej bazie istnieje **19/19 wymaganych widoków**: 17 stron, jeden pełny natywny wpis i archiwum natywnej kategorii. Wszystkie otwierają się pod zachowanymi ścieżkami na **http://localhost:8000**. Zawierają autentyczną treść zapisanych referencji, bez fixture. Import przeniósł 93 sekcje, menu i stopkę, teksty, linki, SEO, obrazy, akordeony, zakładki oraz oryginalne osadzenia multimediów.
 
-Aktywny motyw: `mwstudios-wordpress-factory`; ACF Pro `6.7.0.2`; środowisko `local`, język `pl_PL`, indeksowanie wyłączone (`blog_public=0`). Istnieje 316 powiązań źródłowych URL mediów z 259 różnymi załącznikami Media Library. W bibliotece zachowano też wcześniejsze warianty i fixture, których nie używa migracja. Ponowny import zachowuje ID i liczby rekordów: 35 stron, 23 wpisy, 268 załączników, 92 pozycje menu. Nie usuwano wcześniejszych danych.
+Aktywny motyw: `mwstudios-wordpress-factory`; ACF Pro `6.7.0.2`; środowisko `local`, język `pl_PL`, indeksowanie wyłączone (`blog_public=0`). Istnieje 316 powiązań źródłowych URL mediów z 259 różnymi załącznikami Media Library. W bibliotece zachowano też wcześniejsze warianty i fixture, których nie używa migracja. Ponowny import zachowuje ID i liczby rekordów: 35 stron, 23 wpisy, 268 załączników, 92 pozycje menu przed importem dokumentów; po nim 303 załączniki. Nie usuwano wcześniejszych danych.
 
 **To nie jest jeszcze zatwierdzona zgodność 1:1 ani WCAG 2.1 AA.** Powstało 38 lokalnych screenshotów i wykonano 38 porównań z produkcją, lecz pozostają różnice w geometrii, łamaniu tekstu, karuzelach i stopce. VISUAL_QA pozostaje IN_PROGRESS. Kompletność treści oznacza pokrycie całego zapisanego widoku, nie import wszystkich artykułów albo wszystkich podstron witryny.
 
@@ -35,7 +35,7 @@ SEO źródła jest przechowywane w metadanych WordPressa, w tym kluczach zgodnyc
 
 CB-08/CB-11: pusty źródłowy src pominięto, bez wymyślania obrazu. CB-17/CB-18: naprawiono zapadniętą geometrię karuzeli desktop, zachowując znaną kolejność DOM. CB-16: usunięto około 5 px overflow mobile. Zamknięte menu mobilne nie generuje panelu poza viewportem; nie skopiowano klonów Slick ani technicznych nakładek. Te różnice wpływają na pełne screenshoty i surowy diff.
 
-**Dokumenty:** zachowano 43 odnośniki do 37 unikalnych PDF/DOC/XLS/ZIP, ale nie pobrano lokalnych kopii. Nie występują w artefaktach, a znany brak połączenia Codespace z hostem CB nie został ponownie diagnozowany. Konkretne URL i opisy: [TASK-4-DOCUMENTS](TASK-4-DOCUMENTS.md). Potrzebny jest jednorazowy zdalny download tej listy oraz import do Media Library; obecne ograniczenie push wymaga osobnej zgody na opublikowanie i uruchomienie rozszerzenia workflow.
+**Dokumenty:** pobrano 37/37 oryginalnych adresów, bez błędów, wszystkie HTTP 200. [Workflow 38034776529](https://github.com/marcinpracavp/mwstudios-wordpress-factory/actions/runs/38034776529), artefakt `11664175006` (`cb-documents-38034776529`). SHA256 artefaktu GitHuba, CRC obu ZIP-ów, manifest i wszystkie pliki zweryfikowano. Zaimportowano 35 różnych plików do Media Library — dwa powtórzenia bajtowe współdzielą załączniki. Wszystkie 43 odnośniki na 19 widokach prowadzą lokalnie; rozmiary i SHA256 pobrań HTTP odpowiadają źródłu. Ponowny import zachował 303 załączniki i te same 35 ID. Szczegóły plików, ID i URL: [TASK-4-DOCUMENTS](TASK-4-DOCUMENTS.md). Dostępność treści dokumentów pozostaje do osobnego audytu.
 
 **Formularz:** backend lokalny waliduje nonce, wymagane pola, e-mail i zgodę, zapisuje zgłoszenie w lokalnej bazie i zwraca komunikat. Test nie wysłał wiadomości do rzeczywistych odbiorców. Produkcyjny transport poczty i adresaci nie są skonfigurowani; nie deklarujemy wysyłki e-mail. Lokalny komunikat o trybie testowym jest jawny.
 
@@ -77,13 +77,13 @@ Dowody w `.factory-cache/live/collegium-balticum/migration/`:
 - `source.json`, `import-result.json`, `supplemental-assets.json`, `documents.json`: dane, mapowanie ID i pochodzenie zasobów.
 - `backup-*.sql`, `before-import.sql`: lokalne backupy, poza Git; screenshoty i duże artefakty również poza Git.
 
-Do pełnego zamknięcia zadania pozostają: lokalne kopie dokumentów, końcowe dopasowanie i akceptacja rozbieżności desktop/mobile oraz decyzje PM i kontrola dostępności materiałów zewnętrznych. Można oglądać i redagować całą lokalną witrynę; nie oznaczono pełnej gotowości wizualnej ani produkcyjnej.
+Do pełnego zamknięcia zadania pozostają: końcowe dopasowanie i akceptacja rozbieżności desktop/mobile oraz decyzje PM i kontrola dostępności materiałów zewnętrznych. Można oglądać i redagować całą lokalną witrynę; nie oznaczono pełnej gotowości wizualnej ani produkcyjnej.
 
-## Przygotowane uzupełnienie dokumentów — jeszcze nie uruchomione
+## Wykonane uzupełnienie dokumentów
 
 Workflow `.github/workflows/cb-documents.yml` pobiera sekwencyjnie dokładnie 37 oryginalnych plików z wersjonowanej listy `documents-source.json`, bez WordPressa, Dockera ani nowego capture stron. Minimalne uprawnienia `contents: read`, Node 22, brak sekretów, manifest SHA256 i jeden ZIP. Weryfikacja TLS pozostaje włączona; błędy HTTP, przekierowania poza dozwolone hosty oraz HTML/ekrany blokady nie są traktowane jako dokumenty. Workflow ma trigger ograniczony do zmiany własnego pliku na gałęzi projektu, aby można go było zarejestrować bez zmian `main`, oraz ręczny dispatch.
 
-Przed uruchomieniem potrzebna jest **osobna zgoda użytkownika na push**, zgodnie z ochroną projektu w zadaniu 4. Kod istnieje lokalnie, lecz nie deklarujemy pobranych plików. Sprawdzono import manifestu bez pobierania plików oraz odrzucenie ZIP ze zmienionym hashem; importer PHP przeszedł lint. Import prawdziwych dokumentów i ich działanie w Media Library pozostają BLOCKED do otrzymania artefaktu.
+Użytkownik udzielił osobnej zgody na push i workflow dokumentów. Uruchomienie zakończyło się sukcesem na commicie `4100e036753aa3690c0352e0f8ff75d493a04ec0`. Zweryfikowany bundle: `.factory-cache/live/collegium-balticum/migration/documents-import/9a7caad37daba912/`; artefakt GitHuba: `.factory-cache/live/collegium-balticum/downloads/documents-38034776529/`. Import oraz jego powtórzenie wykonano po lokalnym backupie SQL. W pierwszej próbie importer nie mógł czytać katalogu utworzonego przez `mkdtemp`; naprawiono uprawnienia wyłącznie publicznego, zweryfikowanego bundle (katalogi 755/pliki 644), a import ponowiono bez zmian sekretów lub backupów.
 
 Po pobraniu artefaktu `cb-documents-<run_id>`:
 
@@ -104,6 +104,28 @@ Media Library: usunięto stare produkcyjne klasy `wp-image-*` na rzecz rzeczywis
 
 Historia Git: projekt zawiera `8d1de82` (adapter LIVE) i `9fe829a` (konfiguracja CB). `3583a4d` znajduje się na `feature/live-migration-tools`; jego zmiana jest równoważna `8d1de82`, co potwierdza identyczny `git patch-id --stable` (`426a07bc8a801457e25fc1ad3c112176c83a4d30`). Nie wykonano zbędnego merge/cherry-pick ani resetu. `autopilot-clean` pozostaje na `0077847`, `origin/main` na `519b7d0`.
 
-Commit implementacji: `f6c99d8` (47 plików); pozostaje lokalny. Dodatkowa kontrola edytora potwierdziła 218 klas `wp-image-ID` odnoszących się wyłącznie do istniejących lokalnych załączników. Poprawiono nadpisaną przez ogólną regułę Gutenberg geometrię kolumn desktop: kierunki rekrutacji stoją obok siebie, zgodnie z referencją (y=837,25 px, wysokość 1039,578125 px). W CB-04 wysokość pełnego desktopu spadła z 8775 do 7883 px przy źródle 7924 px; surowy diff z 16,9% do 10,6%, nadal bez akceptacji 1:1. Kontrola obejmuje wszystkie pięć widoków używających kolumn. Import ZIP dokumentów poprawnie wybiera domyślny katalog cache również bez `--output`; sprawdzono to na testowym manifeście, bez importowania fikcyjnych dokumentów do WordPressa.
+Commity implementacji: `f6c99d8` (47 plików) i `c53c317`; wypchnięte w zatwierdzonej gałęzi wraz z `4100e03` (pochodzenie manifestu i poprawka testu rejestru URL). Dodatkowa kontrola edytora potwierdziła 218 klas `wp-image-ID` odnoszących się wyłącznie do istniejących lokalnych załączników. Poprawiono nadpisaną przez ogólną regułę Gutenberg geometrię kolumn desktop: kierunki rekrutacji stoją obok siebie, zgodnie z referencją (y=837,25 px, wysokość 1039,578125 px). W CB-04 wysokość pełnego desktopu spadła z 8775 do 7883 px przy źródle 7924 px; surowy diff z 16,9% do 10,6%, nadal bez akceptacji 1:1. Kontrola obejmuje wszystkie pięć widoków używających kolumn. Import ZIP dokumentów poprawnie wybiera domyślny katalog cache również bez `--output`; sprawdzono to na testowym manifeście, bez importowania fikcyjnych dokumentów do WordPressa.
 
 Przy kolejnych poprawkach można użyć `CB_ID=CB-04 npm run cb:migrate:qa` oraz `CB_ID=CB-04 npm run cb:migrate:compare`. Oba polecenia aktualizują dowody tylko wskazanego widoku i zachowują pozostałe wyniki; raport nadal wymaga kompletu 38 par z poprawnymi hashami. W tabeli dokumenty bez odnośników oznaczono jako „nie dotyczy”, aby nie sugerować pobrania plików.
+
+Kontrola dokumentów jest powtarzalna: `node scripts/projects/collegium-balticum/migrate/documents-qa.js`. Sprawdza pliki Media Library, SHA256/rozmiar/MIME i HTTP 200 wszystkich 37 dokumentów oraz wszystkie 43 powiązania na 19 widokach. Dowody: cache `qa/documents.json`, wersjonowany `TASK-4-EVIDENCE.json`. Nowe testy silnika: LIVE 3/3, Autopilot 21/21, remote capture 1/1 (wyłącznie fixture silnika), konfiguracja CB 1/1; build PASS z trzema ostrzeżeniami rozmiaru. Początkowe uruchomienie dwóch testów ograniczył sandbox; po uruchomieniu z dostępem do lokalnych subprocessów przeszły. Test konfiguracji poprawiono, by odróżniał tabelę statusów od rejestru rzeczywistych URL.
+
+Importer dokumentów odczytuje surowe ACF (`get_field(..., false)`), aby ponowne zapisanie nie utrwalało dodatkowego formatowania WYSIWYG. Zamienia wyłącznie `href` oraz wartości URL w polach linków, pozostawiając autentyczne etykiety tekstowe. Kontrola idempotencji obejmuje nie tylko liczbę załączników i ID: porównuje też SHA256 treści 18 rekordów strony/wpisu oraz trzech grup opcji, przed i po ponowieniu. Archiwum CB-02 jest natywną kategorią i korzysta z opcji globalnych. Przywrócenie istniejących rekordów importerem źródłowym zachowało 19 ID, wszystkie lokalne dokumenty i liczby rekordów — nie dodano żadnych stron spoza zakresu.
+
+## Kontrola Git przed zatwierdzonym push i importem dokumentów
+
+`git status --short`, `git log -5 --oneline`, `git diff --stat` oraz `git diff --cached --stat` potwierdziły początkowy HEAD `c53c317`, obecność `f6c99d8` i brak zmian śledzonych/staged. Nieśledzone PDF i DOCX użytkownika pozostały poza commitami. Siedem wskazanych plików było zapisanych, bez dodatkowych niezacommitowanych zmian:
+
+| Plik | Ostatni commit przy rozpoczęciu | Dalsze zmiany w tym domknięciu |
+| --- | --- | --- |
+| `_collegium-balticum.scss` | c53c317 | brak |
+| `styles.js` | f6c99d8 | brak |
+| `documents.js` | c53c317 | metadane błędów/runnera w 4100e03; odczyt publicznego bundle przez użytkownika kontenera |
+| `cb-documents.yml` | f6c99d8 | brak; contents: read, wyłącznie gałąź projektu i dokumenty |
+| `report.js` | c53c317 | aktualne liczby rekordów, pochodzenie artefaktu, dowody dokumentów i idempotencji |
+| `functions/collegium-balticum.php` | f6c99d8 | brak |
+| `extract.js` | f6c99d8 | brak |
+
+Push `git push origin project/collegium-balticum` opublikował `4e283cf..4100e03`. Workflow dokumentów uruchomił się raz przez ograniczony trigger `push`; nie wywołano dodatkowego dispatch ani capture stron. Artefakt z GitHuba ma 15 039 900 B i SHA256 `d23604a599d013f56aa3350b3408a9930d15460af44fbb07a069914b615609d9`, zgodny z `digest` API. Bundle manifest SHA256: `9a7caad37daba912c188ec56950a97bd06a544c3d5cf81d9be5d78da872bd674`. Łączny rozmiar 37 pobrań źródłowych to 18 162 635 B (zawiera dwa powtórzenia bajtowe).
+
+Wykonano `documents.js --import`, `cb:wp -- eval-file .../documents-import.php`, kontrolę `documents-qa.js`, powtórzenie importu, porównanie hashy treści i ID, pełne `cb:migrate:qa`, interakcje oraz `cb:migrate:compare`. Cache, ZIP-y, screenshoty, tymczasowe skrypty i backup SQL nie trafiły do Git. Pozostałe blokery: akceptacja/dalsze dopasowanie wizualne 19 stron, kontrast CTA 2,71:1/2,53:1 i etykiety widoczne do PM, audyt dostępności dokumentów/wideo oraz konfiguracja transportu poczty poza lokalnym backendem testowym. Nie jest to deklaracja WCAG AA ani gotowości produkcyjnej. Brak lokalnych kopii tych 37 dokumentów został rozwiązany.

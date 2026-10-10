@@ -6,7 +6,7 @@
 | --- | --- | --- | --- | --- | --- |
 | CB-00 | desktop | 1440 × 5457 | 1440 × 5469 | 9.8% | IN_PROGRESS |
 | CB-00 | mobile | 390 × 8475 | 390 × 8320 | 24.8% | IN_PROGRESS |
-| CB-01 | desktop | 1440 × 3604 | 1440 × 3678 | 3.1% | IN_PROGRESS |
+| CB-01 | desktop | 1440 × 3604 | 1440 × 3700 | 3.4% | IN_PROGRESS |
 | CB-01 | mobile | 390 × 5373 | 390 × 5408 | 6.7% | IN_PROGRESS |
 | CB-02 | desktop | 1440 × 3242 | 1440 × 3441 | 5.0% | IN_PROGRESS |
 | CB-02 | mobile | 390 × 5960 | 390 × 6020 | 17.7% | IN_PROGRESS |
