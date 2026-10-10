@@ -1,0 +1,16 @@
+# CB — decyzje PM po Task 4E
+
+Nie wdrożono poniższych widocznych zmian. Obowiązuje dotychczasowa decyzja zachowania wyglądu źródła.
+
+| Decyzja | Dowód / wymaganie | Wariant A | Wariant B | Wpływ |
+| --- | --- | --- | --- | --- |
+| Kontrast CTA i linków | 1.4.3; biały/orange 2,708:1, biały/cyan 2,530:1; wymagane 4,5:1 | Zachować tła #ea8314 / #00aeef, zmienić tekst na #03294b: 5.451:1 / 5.835:1 | Zachować biały tekst, przyciemnić tła do #b45d00 / #0076a3: 4.660:1 / 5.097:1 | A zmienia tekst; B tło. Granat #053767 na #ea8314 ma 4.435:1 i nie spełnia 4,5:1 — nie proponujemy go jako PASS. |
+| Pozostała paleta tekstów | Pełna tabela stron/kolorów/selektorów w audycie WCAG i evidence | Przyciemnić niebieskie teksty do #0076a3 (white 5.097:1), szare do #767676 (white 4.542:1); usunąć opacity osłabiające kontrast | Zatwierdzić indywidualną paletę tych samych rodzin kolorów, ponownie zmierzoną dla rzeczywistych teł | Zmiana identyfikacji; utrzymanie obecnej palety pozostawia WCAG_QA otwarte. |
+| Linki w akapitach | 1.4.1; 7 wystąpień, przykład CB-03 link/body ~2,74:1 | Stałe podkreślenie + poprawa kontrastu tekst/tło | Kontrast link/body ≥3:1 oraz podkreślenie hover/focus, dodatkowo tekst/tło ≥4,5:1 | A zmienia wygląd stale; B wymaga innego koloru i ponownego pomiaru. |
+| Widoczne etykiety formularza | QA-09 audytu/briefu; programmatyczne label są, wymaganie widocznych etykiet niezrealizowane | Krótkie stałe label nad polami, placeholder jako przykład | Stały label w ramce pola; dotychczasowe rozmiary/krawędzie zachowane | Oba zmieniają zatwierdzony wygląd. Nie wdrożono bez zgody. |
+| Mapa Hx | 74 ostrzeżenia heading-order; źródłowe H6 opisu i H4/H5 stopki | Opis hero jako p z niezmienionym stylem; logiczne H2 sekcji i H3 podsekcji; podpisy kontaktowe jako p | Zachować source Hx do zatwierdzenia indywidualnej mapy wszystkich 19 stron | Zmienia strukturę SEO/semantykę; fonty można zachować. Potrzebna aprobata SEO/PM, nie automatyczna zamiana każdej liczby Hx. |
+| Odbiór wizualny i świadome odstępstwa | Wszystkie 38 par w audycie wizualnym; klony/offscreen-menu, pusty baner CB-11, poprawione karuzele CB-17/18, local form note i autentyczna lokalna paginacja CB-02 | Zaakceptować konkretne odstępstwa po przeglądzie par | Wskazać korekty zamierzonego układu na istniejących referencjach | Nie cofamy napraw overflow ani nie dodajemy fikcyjnych zdjęć. Nie można uznać 1:1 bez odbioru. |
+| Deklaracja dostępności | QA-24/Q-14: w zapisanej stopce brak linku do deklaracji; jej stan i treść wymagają właściciela | Wskazać istniejący zatwierdzony URL i zaakceptować dodanie linku | Zlecić odrębnie przygotowanie treści deklaracji po audycie | Dodatkowy widoczny link w stopce; nie tworzymy fikcyjnej deklaracji ani kolejnej strony w tym etapie. |
+| Materiały dostępności | PDF/DOCX i wideo nie mają dowodu zgodności; adequacy ALT wymaga SEO | Wyznaczyć właściciela 35 unikalnych dokumentów i dostarczyć napisy/audiodeskrypcję/ALT tam gdzie potrzebne | Zatwierdzić dostępne alternatywy dla konkretnych materiałów po audycie treści | Bez materiałów/oceny manualnej nie deklarujemy WCAG AA. |
+
+Propozycje kolorów są wyłącznie specyfikacją do decyzji, nie nową referencją CB ani wdrożonym stylem. Wszystkie stosunki obliczono z względnej luminancji sRGB; próg nie jest zaokrąglany w górę.

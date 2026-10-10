@@ -1,0 +1,144 @@
+{
+  "id": "CB-05",
+  "status": "BLOCKED",
+  "reason": "Full-size source gallery images were not captured as assets. Local lightbox currently uses authenticated captured thumbnails; the explicit full-size CDN probe returned HTTP 404; web tool cannot access the original image URL. Requires selective retrieval in an environment with source access, not a new 38-view capture.",
+  "sourceBundle": "a58132455f6f7756",
+  "sourceHtml": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-05/desktop/rendered.html",
+  "sourceHtmlSha256": "1847e29119d348c52040cfc435fa76cef07023003ae123091ec0af030679b6bb",
+  "probe": {
+    "url": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600023.jpg",
+    "at": "2026-10-10T09:06:57.800Z",
+    "status": 404,
+    "mime": "image/jpeg",
+    "bytes": 153,
+    "sha256": "3ab1f3931d01561e4339c3065d16d5053aaad9ffd017c42a63904d6a7e44419d"
+  },
+  "originals": [
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600023.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600023-300x400.jpg",
+      "srcset": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600023-300x400.jpg 300w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600023-450x600.jpg 450w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600023-225x300.jpg 225w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600023.jpg 675w",
+      "alt": ""
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600022.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600022-300x400.jpg",
+      "srcset": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600022-300x400.jpg 300w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600022-450x600.jpg 450w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600022-225x300.jpg 225w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600022.jpg 675w",
+      "alt": ""
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600021.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600021-300x400.jpg",
+      "srcset": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600021-300x400.jpg 300w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600021-450x600.jpg 450w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600021-225x300.jpg 225w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600021.jpg 675w",
+      "alt": ""
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600020.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600020-300x400.jpg",
+      "srcset": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600020-300x400.jpg 300w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600020-450x600.jpg 450w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600020-225x300.jpg 225w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600020.jpg 675w",
+      "alt": ""
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600019.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600019-300x400.jpg",
+      "srcset": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600019-300x400.jpg 300w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600019-450x600.jpg 450w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600019-225x300.jpg 225w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600019.jpg 675w",
+      "alt": ""
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600016.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600016-267x400.jpg",
+      "srcset": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600016-267x400.jpg 267w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600016-400x600.jpg 400w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600016-200x300.jpg 200w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600016.jpg 600w",
+      "alt": ""
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600015.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600015-400x267.jpg",
+      "srcset": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600015-400x267.jpg 400w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600015-900x600.jpg 900w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600015-768x512.jpg 768w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600015-1024x683.jpg 1024w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600015-600x400.jpg 600w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600015-300x200.jpg 300w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600015.jpg 1200w",
+      "alt": ""
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600014.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600014-400x267.jpg",
+      "srcset": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600014-400x267.jpg 400w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600014-900x600.jpg 900w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600014-768x512.jpg 768w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600014-1024x683.jpg 1024w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600014-600x400.jpg 600w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600014-300x200.jpg 300w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600014.jpg 1200w",
+      "alt": ""
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600013.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600013-267x400.jpg",
+      "srcset": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600013-267x400.jpg 267w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600013-400x600.jpg 400w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600013-200x300.jpg 200w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600013.jpg 600w",
+      "alt": ""
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600012.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600012-267x400.jpg",
+      "srcset": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600012-267x400.jpg 267w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600012-400x600.jpg 400w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600012-200x300.jpg 200w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600012.jpg 600w",
+      "alt": ""
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600011.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600011-400x267.jpg",
+      "srcset": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600011-400x267.jpg 400w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600011-900x600.jpg 900w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600011-768x512.jpg 768w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600011-1024x683.jpg 1024w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600011-600x400.jpg 600w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600011-300x200.jpg 300w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600011.jpg 1200w",
+      "alt": ""
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600010.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600010-400x267.jpg",
+      "srcset": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600010-400x267.jpg 400w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600010-900x600.jpg 900w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600010-768x512.jpg 768w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600010-1024x683.jpg 1024w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600010-600x400.jpg 600w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600010-300x200.jpg 300w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600010.jpg 1200w",
+      "alt": ""
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600009.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600009-267x400.jpg",
+      "srcset": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600009-267x400.jpg 267w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600009-400x600.jpg 400w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600009-200x300.jpg 200w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600009.jpg 600w",
+      "alt": ""
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600008.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600008-267x400.jpg",
+      "srcset": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600008-267x400.jpg 267w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600008-400x600.jpg 400w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600008-200x300.jpg 200w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600008.jpg 600w",
+      "alt": ""
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600007.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600007-267x400.jpg",
+      "srcset": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600007-267x400.jpg 267w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600007-400x600.jpg 400w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600007-200x300.jpg 200w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600007.jpg 600w",
+      "alt": ""
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600006.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600006-267x400.jpg",
+      "srcset": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600006-267x400.jpg 267w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600006-400x600.jpg 400w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600006-200x300.jpg 200w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600006.jpg 600w",
+      "alt": ""
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600005.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600005-267x400.jpg",
+      "srcset": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600005-267x400.jpg 267w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600005-400x600.jpg 400w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600005-200x300.jpg 200w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600005.jpg 600w",
+      "alt": ""
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600004.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600004-400x267.jpg",
+      "srcset": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600004-400x267.jpg 400w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600004-900x600.jpg 900w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600004-768x512.jpg 768w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600004-1024x683.jpg 1024w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600004-600x400.jpg 600w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600004-300x200.jpg 300w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600004.jpg 1200w",
+      "alt": ""
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600003.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600003-400x267.jpg",
+      "srcset": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600003-400x267.jpg 400w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600003-900x600.jpg 900w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600003-768x512.jpg 768w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600003-1024x683.jpg 1024w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600003-600x400.jpg 600w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600003-300x200.jpg 300w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600003.jpg 1200w",
+      "alt": ""
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600002.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600002-400x267.jpg",
+      "srcset": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600002-400x267.jpg 400w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600002-900x600.jpg 900w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600002-768x512.jpg 768w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600002-1024x683.jpg 1024w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600002-600x400.jpg 600w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600002-300x200.jpg 300w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600002.jpg 1200w",
+      "alt": ""
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600001.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600001-267x400.jpg",
+      "srcset": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600001-267x400.jpg 267w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600001-400x600.jpg 400w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600001-200x300.jpg 200w, https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600001.jpg 600w",
+      "alt": ""
+    }
+  ]
+}

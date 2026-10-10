@@ -25,6 +25,8 @@ Wszystkie 19 adresów ma rzeczywiste lokalne dane WordPress; wcześniejsze sekcj
 | CB-17 | DONE | DONE | DONE | DONE | IN_PROGRESS | IN_PROGRESS |
 | CB-18 | DONE | DONE | DONE | DONE | IN_PROGRESS | IN_PROGRESS |
 
+Task 4E: [38 porównań przed/po](TASK-4E-VISUAL-AUDIT.md), [WCAG](TASK-4E-WCAG-AUDIT.md), [decyzje PM](TASK-4E-PM-DECISIONS.md). CB-05 MEDIA=IN_PROGRESS: 21 pełnych oryginałów galerii nie ma w cache, powiększenia używają autentycznych miniatur; [manifest](TASK-4E-GALLERY-ORIGINALS.json). VISUAL_QA/WCAG_QA pozostają IN_PROGRESS.
+
 <!-- TASK4_CURRENT_END -->
 
 # Rejestr obowiązkowych widoków CB-00–CB-18

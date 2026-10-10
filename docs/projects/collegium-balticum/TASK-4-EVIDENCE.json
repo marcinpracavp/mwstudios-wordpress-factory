@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-10T07:47:34.602Z",
+  "at": "2026-10-10T11:02:54.647Z",
   "branch": "project/collegium-balticum",
   "baseCommit": "4e283cf",
   "runtime": {
@@ -356,16 +356,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-00/desktop/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-00-desktop.png",
           "sourceSha256": "a1ed4b298780aa429d369672f105cc32091a3a302caaff080247e7c3f0b2c8a2",
-          "localSha256": "cf9df9a232f5917fd309942930292abd38cfb7cf9726ff66788be590a1f51070",
+          "localSha256": "3e31b4856df616d8f35a0cd772ab8e11e2c99b0c5fc833b185dc261fba06bcd6",
           "sourceSize": [
             1440,
             5457
           ],
           "localSize": [
             1440,
-            5469
+            5446
           ],
-          "changedPixelRatio": 0.09794828426890961,
+          "changedPixelRatio": 0.06863941318999044,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-00-desktop-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-00-desktop-overlay.png",
@@ -377,16 +377,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-00/mobile/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-00-mobile.png",
           "sourceSha256": "462c8619fecf6adb43ed8843e0ac892695446073e0642ff7d27fc4dcc978db93",
-          "localSha256": "86f3f357350d8d903c6302aa04dd735971fb0233ca9fd440e944f571047c121b",
+          "localSha256": "ac1d7fd84ef5f3d3430f5ed40e51f61b6dffdd30bd1500720596fb6833328c32",
           "sourceSize": [
             390,
             8475
           ],
           "localSize": [
             390,
-            8320
+            8466
           ],
-          "changedPixelRatio": 0.24848619620301035,
+          "changedPixelRatio": 0.2303027002496029,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-00-mobile-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-00-mobile-overlay.png",
@@ -433,16 +433,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-01/desktop/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-01-desktop.png",
           "sourceSha256": "571241a7e60fccf7c88385b95e8bbc866bedd10260c7f1fea203005bfb2a5074",
-          "localSha256": "698d8a84e31a8261ef1824cabeeb7177c0487bdf548a334cb134003db7ff0b8d",
+          "localSha256": "27d90d41e85a1e8f4d1c5a12f958b25b084e501b7a3cd9bb391769ce1a26269a",
           "sourceSize": [
             1440,
             3604
           ],
           "localSize": [
             1440,
-            3700
+            3604
           ],
-          "changedPixelRatio": 0.03422822822822823,
+          "changedPixelRatio": 0.002533065112837588,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-01-desktop-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-01-desktop-overlay.png",
@@ -454,16 +454,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-01/mobile/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-01-mobile.png",
           "sourceSha256": "9618cd5c5f9c25a9ed0354b384e4adf92cebccf59babfa63fbd1c4802d491308",
-          "localSha256": "e81c88687354251f12643909824d882fc0840b705468b2c5cc5c5d4a74c346d7",
+          "localSha256": "96126763c38c0f41e607670aa3a85e29b462837941a1c8eba0c71d00916715c7",
           "sourceSize": [
             390,
             5373
           ],
           "localSize": [
             390,
-            5408
+            5427
           ],
-          "changedPixelRatio": 0.0670559285389167,
+          "changedPixelRatio": 0.07858192418723099,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-01-mobile-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-01-mobile-overlay.png",
@@ -510,16 +510,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-02/desktop/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-02-desktop.png",
           "sourceSha256": "6b388b8da7786a199e9aaadf7245a7e13082bbf8ce3c014c6e14cf3c718b581b",
-          "localSha256": "0d2b26804a0b4f619c51b5769c020a4f4163216e6e5b4f9d9ff7d4caad6a687a",
+          "localSha256": "8eaf7db30209e939ce1d0ea0a2844b4a2a7cff600b7e5094218ea155a5c2f852",
           "sourceSize": [
             1440,
             3242
           ],
           "localSize": [
             1440,
-            3441
+            3243
           ],
-          "changedPixelRatio": 0.050148737447124545,
+          "changedPixelRatio": 0.01660092678247165,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-02-desktop-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-02-desktop-overlay.png",
@@ -531,16 +531,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-02/mobile/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-02-mobile.png",
           "sourceSha256": "3aa04db891b33b8e9faa9ae2429f116249162fa642a3483d47529f71b3ef7aa6",
-          "localSha256": "b12aba049be51b81fde84ca0ede9e41fd2ea8cf5f267543f4d335ffa36d67b05",
+          "localSha256": "14db8f64635be4ef45b867355414b23923740f86fbd3bdab41753a921053af89",
           "sourceSize": [
             390,
             5960
           ],
           "localSize": [
             390,
-            6020
+            5925
           ],
-          "changedPixelRatio": 0.17718885765397394,
+          "changedPixelRatio": 0.21682412665634143,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-02-mobile-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-02-mobile-overlay.png",
@@ -587,16 +587,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-03/desktop/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-03-desktop.png",
           "sourceSha256": "7f586d0871bff510e8d2d3f50988fcf5d4162e07e469c9bc9d67399ee1b43e08",
-          "localSha256": "809e81a470a9cb7970b01eaa4ffc63b173f1076bbe3da94c08a2af5544b8eb58",
+          "localSha256": "256a884791da7dc83c502484952009909be7f55bd366f2ef6417f571867f9655",
           "sourceSize": [
             1440,
             6497
           ],
           "localSize": [
             1440,
-            6627
+            6497
           ],
-          "changedPixelRatio": 0.08858394949952215,
+          "changedPixelRatio": 0.0034737186393720178,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-03-desktop-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-03-desktop-overlay.png",
@@ -608,16 +608,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-03/mobile/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-03-mobile.png",
           "sourceSha256": "af018e249dff6f64ccf2b9ceb8b120ac7a77325965db5e1df5f67b16cc90ee54",
-          "localSha256": "514ed65926818a91584bf00fb092b5db6e7e60b02f02360d25ffd10417015c05",
+          "localSha256": "af8af2393db26a732a338c4215c2754bd060d0e5fdc561efe16c2da19b8557b8",
           "sourceSize": [
             390,
             11988
           ],
           "localSize": [
             390,
-            11945
+            12004
           ],
-          "changedPixelRatio": 0.16165909499242834,
+          "changedPixelRatio": 0.14764950144823522,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-03-mobile-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-03-mobile-overlay.png",
@@ -664,16 +664,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-04/desktop/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-04-desktop.png",
           "sourceSha256": "4527423f30fb3e553d3e3a8242e951062e2a56aaaea039a746c44616bc649304",
-          "localSha256": "32140ef758b398c4e8301f44ccb53c16b078f863cd217b83f15e7658a9dce0de",
+          "localSha256": "e1efac182daef4d4d5983d282ae99cf954909fc47a7eacc68693cd5dba29562b",
           "sourceSize": [
             1440,
             7924
           ],
           "localSize": [
             1440,
-            7883
+            7865
           ],
-          "changedPixelRatio": 0.10591995484884177,
+          "changedPixelRatio": 0.08057772799932694,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-04-desktop-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-04-desktop-overlay.png",
@@ -685,16 +685,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-04/mobile/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-04-mobile.png",
           "sourceSha256": "169150de5edb32540d785c4c6b089870b922041bef1119627fae9f98e50783c7",
-          "localSha256": "60cc8f4864b0497b6b5cbde45a2e673227aedba37e8dd55e918bfd543fafa22b",
+          "localSha256": "c09fab5a1e1a7d9a3b3a610b9883b10145677c066522bf183b34052bb933b53a",
           "sourceSize": [
             390,
             15343
           ],
           "localSize": [
             390,
-            13356
+            13541
           ],
-          "changedPixelRatio": 0.18949591979638256,
+          "changedPixelRatio": 0.14491516218036454,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-04-mobile-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-04-mobile-overlay.png",
@@ -727,13 +727,13 @@
       "localRender": "DONE",
       "content": "DONE",
       "documentCount": 1,
-      "images": "DONE",
+      "images": "IN_PROGRESS",
       "documents": "DONE",
       "desktopVisualQa": "IN_PROGRESS",
       "mobileVisualQa": "IN_PROGRESS",
       "wcagQa": "IN_PROGRESS",
       "functionality": "IN_PROGRESS",
-      "openIssues": "Zachowane cztery iframe i zamknięte galerie zgodnie z DOM. Odtwarzanie/captions poza automatycznym QA.",
+      "openIssues": "Zachowane cztery iframe i zamknięte galerie zgodnie z DOM. Odtwarzanie/captions poza automatycznym QA. Powiększenia galerii używają źródłowych miniatur; brak 21 pełnych oryginałów, dokładne URL-e w TASK-4E-GALLERY-ORIGINALS.json.",
       "sections": 9,
       "views": [
         {
@@ -741,16 +741,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-05/desktop/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-05-desktop.png",
           "sourceSha256": "db5a7c42c6c65eec646ef678b3438921cf05007b7e75f5fd2142b591a71a2572",
-          "localSha256": "0fc32efa4b251266becbb7fb3ec2c0b427ae98e37566f9853476b91f812fcf89",
+          "localSha256": "8e38c895a61c0ecb9b4584c1d62911f9c975a185f93b53dae0918834548c6be8",
           "sourceSize": [
             1440,
             5914
           ],
           "localSize": [
             1440,
-            6075
+            6034
           ],
-          "changedPixelRatio": 0.12836042524005487,
+          "changedPixelRatio": 0.11792377914042647,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-05-desktop-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-05-desktop-overlay.png",
@@ -762,16 +762,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-05/mobile/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-05-mobile.png",
           "sourceSha256": "220d7e93efd2af176ac203bdc86ef4270efb04f376f3398fa755ba7e51312fdd",
-          "localSha256": "46f06e2f098fa4f1c36e10cdc9a5a828e64da34e966bca476cd33257d01ece8a",
+          "localSha256": "c33db26cfa733518f6a9462d35bc89907742a12cc43aa36500facb399fb53e59",
           "sourceSize": [
             390,
             8485
           ],
           "localSize": [
             390,
-            8431
+            8455
           ],
-          "changedPixelRatio": 0.14731970445582704,
+          "changedPixelRatio": 0.12934348699817175,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-05-mobile-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-05-mobile-overlay.png",
@@ -818,16 +818,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-06/desktop/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-06-desktop.png",
           "sourceSha256": "eca1bb7bf7c063c1f5cb17294b6a73be3e06f76b84befda268320da49be28269",
-          "localSha256": "9b6601ab57c07de143bdde0048b2c2f3eadbd4f30fde34a7ae13509e2a3a9845",
+          "localSha256": "3dff306af427b256485a1ede0f8edbc76db159ecd87cc49824887d87e8afd8ef",
           "sourceSize": [
             1440,
             4103
           ],
           "localSize": [
             1440,
-            4169
+            4097
           ],
-          "changedPixelRatio": 0.12589383278697264,
+          "changedPixelRatio": 0.08685666991632139,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-06-desktop-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-06-desktop-overlay.png",
@@ -839,16 +839,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-06/mobile/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-06-mobile.png",
           "sourceSha256": "316ec7c78740082a0da05aac3c1ff0060125e19dfdb4c852ba58daed59fc7030",
-          "localSha256": "7e5d0dd60cc2ed575bfc4631c81a4cff9640ef5d4a7780c94d660e74180de49f",
+          "localSha256": "75bc99716de7eafd4882806f410cca6d6482ea959898996e388d5dd06b77a9a5",
           "sourceSize": [
             390,
             8199
           ],
           "localSize": [
             390,
-            6431
+            6448
           ],
-          "changedPixelRatio": 0.1657606775060123,
+          "changedPixelRatio": 0.1418553231945109,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-06-mobile-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-06-mobile-overlay.png",
@@ -895,16 +895,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-07/desktop/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-07-desktop.png",
           "sourceSha256": "fba74b9c4a9e59500025b06081d8c9dc06d0d665cec76a6025b66f2466fdfe5a",
-          "localSha256": "ad97594ddd35f647b932bff80d2500de71db299baab895f7ecea2b9cf2fb8550",
+          "localSha256": "7b74150abd4dc0081f506b87e035131d710533b9f4821c479fa50f9acce67cad",
           "sourceSize": [
             1440,
             3966
           ],
           "localSize": [
             1440,
-            4059
+            3961
           ],
-          "changedPixelRatio": 0.1272499726259889,
+          "changedPixelRatio": 0.10307439625707401,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-07-desktop-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-07-desktop-overlay.png",
@@ -916,16 +916,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-07/mobile/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-07-mobile.png",
           "sourceSha256": "b8074e3bb6cd4997fe050c41d6aea81a2763a18004e89c5cda2520ae4d6c2857",
-          "localSha256": "48dd0c83199c36372d421d6ee0a295e43542ebd23a80da539cbc4fa887c6ae52",
+          "localSha256": "363cc01540720aa0cedfb51a0c13b0904e5198ade9240319f22d73f0548fabfa",
           "sourceSize": [
             390,
             8255
           ],
           "localSize": [
             390,
-            6510
+            6504
           ],
-          "changedPixelRatio": 0.1517597726319713,
+          "changedPixelRatio": 0.14270636288807095,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-07-mobile-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-07-mobile-overlay.png",
@@ -984,16 +984,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-08/desktop/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-08-desktop.png",
           "sourceSha256": "b501dd7921bf792d491a581f1d85a47d42f3f1352f407b7f23fdf5629df6d705",
-          "localSha256": "bc1b8da62920383dce0412a0ec3054b518e1145cb181c0cd1231416d095201bc",
+          "localSha256": "624b3b5c4e63f10e53a006ce1121286a7c39a9ad4a4e655d7ecb79ae3fb33123",
           "sourceSize": [
             1440,
             9182
           ],
           "localSize": [
             1440,
-            9212
+            9221
           ],
-          "changedPixelRatio": 0.1450282994403435,
+          "changedPixelRatio": 0.13505057899239659,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-08-desktop-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-08-desktop-overlay.png",
@@ -1005,16 +1005,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-08/mobile/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-08-mobile.png",
           "sourceSha256": "db933ab0ecbbb4c36c41884c5a4966e6f82700da86647df1a4b8ed3bdbe21788",
-          "localSha256": "11211d6c3ea81e9cee59eceecad11ddef36c4e86ca517416ecd795b66520c6d4",
+          "localSha256": "789c4d5c61a17aaef25877e67408ace77cb3cfe6c4ec6ae41b473b1e4c138ae1",
           "sourceSize": [
             390,
             11220
           ],
           "localSize": [
             390,
-            11103
+            11218
           ],
-          "changedPixelRatio": 0.23256044608985785,
+          "changedPixelRatio": 0.14213332419214772,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-08-mobile-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-08-mobile-overlay.png",
@@ -1061,16 +1061,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-09/desktop/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-09-desktop.png",
           "sourceSha256": "b504ad42d723823e616de708947dad377a613b80c8e8a7c020a5d2cac478c5e8",
-          "localSha256": "985df4bbc456b5489b85df038b777765d433443215aa4e58ca0f54f9fe663f8d",
+          "localSha256": "8722260997eb313634e97cf26a9932633663cb829e17bc1fa5b31b23e7bc34a4",
           "sourceSize": [
             1440,
             4454
           ],
           "localSize": [
             1440,
-            4553
+            4454
           ],
-          "changedPixelRatio": 0.06890252458696342,
+          "changedPixelRatio": 0.0213166691613032,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-09-desktop-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-09-desktop-overlay.png",
@@ -1082,16 +1082,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-09/mobile/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-09-mobile.png",
           "sourceSha256": "93f0f04be4091b9464081a7dc41c11cf7b7eca8f5edd3818f6fa4ce7333270f6",
-          "localSha256": "261f30a27d3a115e749651dfb14ad4590e9ba2b243a99020d278e8dd16961680",
+          "localSha256": "9aeed8dab747d102aa6f529187b5da9829231bcfce43280eccbc10bade8a96e5",
           "sourceSize": [
             390,
             6822
           ],
           "localSize": [
             390,
-            6828
+            6822
           ],
-          "changedPixelRatio": 0.07592717768464693,
+          "changedPixelRatio": 0.021193499161836892,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-09-mobile-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-09-mobile-overlay.png",
@@ -1138,16 +1138,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-10/desktop/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-10-desktop.png",
           "sourceSha256": "e2aa82ee9411619c047b5d299a58f1775230b93ed02cddb51c405ea05a19e50c",
-          "localSha256": "5549f56be71ea973136323eaf5129fc32fa870016d66c11d450dc0869f044cfa",
+          "localSha256": "a983ee1fea4d207c02cd5952666d548582eec4e3170797e32c7be2073119982b",
           "sourceSize": [
             1440,
             12306
           ],
           "localSize": [
             1440,
-            12398
+            12319
           ],
-          "changedPixelRatio": 0.10900666102059473,
+          "changedPixelRatio": 0.09198821152510575,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-10-desktop-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-10-desktop-overlay.png",
@@ -1159,16 +1159,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-10/mobile/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-10-mobile.png",
           "sourceSha256": "b0a2c271b785ab37729e598b32418ec90f221d13cddfbc02afe917bad4d788f3",
-          "localSha256": "b1e0b64b9ad215a7a8ff91f1262d9c5be92812e396eeea6ebcd281a260f54abc",
+          "localSha256": "4ebefecbc896140a9c581d8efc3406272573241786f85a56a4e14bbbc1f3aa94",
           "sourceSize": [
             390,
             18682
           ],
           "localSize": [
             390,
-            18598
+            18599
           ],
-          "changedPixelRatio": 0.19221944062432234,
+          "changedPixelRatio": 0.17424464519529287,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-10-mobile-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-10-mobile-overlay.png",
@@ -1227,16 +1227,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-11/desktop/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-11-desktop.png",
           "sourceSha256": "951cf1e19de25d7de6d9b80b119f5377460d23db644dbec24f045085366d7b9f",
-          "localSha256": "ed75afbfa8aa77d01fde9f09341fcc45549a6ebbdd873bce78f360725ea42621",
+          "localSha256": "5f52b2291320e6f6c06d4ebe70dc6617e3cf1dd94e8e9bb0aaa24d34cd30d89f",
           "sourceSize": [
             1440,
             3940
           ],
           "localSize": [
             1440,
-            3674
+            3613
           ],
-          "changedPixelRatio": 0.1992327622673435,
+          "changedPixelRatio": 0.1766465736040609,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-11-desktop-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-11-desktop-overlay.png",
@@ -1248,16 +1248,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-11/mobile/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-11-mobile.png",
           "sourceSha256": "1d4562ef8bd3dc042a52c6949f89f9bfc9fc6d91be2c302f4697345e4b4dfd47",
-          "localSha256": "cb38652ef6d1c75e721c878297eba93c93d2d9a7e158e51e87aea2baa1fd3ec7",
+          "localSha256": "07ff12fd5dc7055cbcd904e8257cf4c89d65126b88bff4317e53361721210e73",
           "sourceSize": [
             390,
             4896
           ],
           "localSize": [
             390,
-            4692
+            4721
           ],
-          "changedPixelRatio": 0.15157952069716776,
+          "changedPixelRatio": 0.10732832662979722,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-11-mobile-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-11-mobile-overlay.png",
@@ -1304,16 +1304,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-12/desktop/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-12-desktop.png",
           "sourceSha256": "e155c3cd32dcc389b8100aa017c839bebbafd78fe6d076d52e589f893e9b3aca",
-          "localSha256": "836ac38fb057077ef2de320c9f917f6699240fffb6d8aaae12f72855265c9745",
+          "localSha256": "8106b75e4ba670dc92e654082b01c3f8a173704ac14a110fb5856d28978659ae",
           "sourceSize": [
             1440,
             3457
           ],
           "localSize": [
             1440,
-            3498
+            3457
           ],
-          "changedPixelRatio": 0.11826341242614828,
+          "changedPixelRatio": 0.00007231703789412785,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-12-desktop-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-12-desktop-overlay.png",
@@ -1325,16 +1325,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-12/mobile/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-12-mobile.png",
           "sourceSha256": "06df0d3243cf274d4fd8cd9327899974db4e9591aa5e17c7b689a0abc262cced",
-          "localSha256": "9c111a0490123cd579156efb13b8f74d19598ee724509fd8ce73ce9371dca13d",
+          "localSha256": "63a1b306baf8e31c6f17344c6b5ef62138432a2d17e95e460ba691032d65c3b4",
           "sourceSize": [
             390,
             5503
           ],
           "localSize": [
             390,
-            5449
+            5503
           ],
-          "changedPixelRatio": 0.15472306480847275,
+          "changedPixelRatio": 0.018956093878863278,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-12-mobile-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-12-mobile-overlay.png",
@@ -1381,16 +1381,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-13/desktop/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-13-desktop.png",
           "sourceSha256": "9cf5c3b56f510218514b1db2775cecf5c7abbba971776754e21fe2a616fa1b63",
-          "localSha256": "510ff6eea683852d0d6a62d0ba6b73accb300b9e55d4e5162085d4c67e026920",
+          "localSha256": "44693799261407525527433acf8904c8c5cd934403a35712801dcefdccc080bb",
           "sourceSize": [
             1440,
             2531
           ],
           "localSize": [
             1440,
-            2614
+            2516
           ],
-          "changedPixelRatio": 0.07790184264218311,
+          "changedPixelRatio": 0.0661708700996532,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-13-desktop-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-13-desktop-overlay.png",
@@ -1402,16 +1402,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-13/mobile/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-13-mobile.png",
           "sourceSha256": "4ff28f44f000bf6e30a41668ada27d74d2e3e7628a85557b4e8b6d2c358fa601",
-          "localSha256": "db0f0b5653c749d5271fa659b9c3483b78bae2b9e5f884d4b6058b7042ba1202",
+          "localSha256": "783e47e527829a6a6b1de933b1a26aa41ef34c447167edb3ba56426772eac8c6",
           "sourceSize": [
             390,
             4254
           ],
           "localSize": [
             390,
-            4248
+            4242
           ],
-          "changedPixelRatio": 0.11954299422564585,
+          "changedPixelRatio": 0.14580244234687112,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-13-mobile-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-13-mobile-overlay.png",
@@ -1458,16 +1458,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-14/desktop/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-14-desktop.png",
           "sourceSha256": "daf7aee712e0ea9a29ce1ec119b4ed903c867d926eb93738983b56f976d0216c",
-          "localSha256": "3666cd1fb0a2d2c881e4fc65c03756270410998fd0ce5e2151a4b3cf321c4543",
+          "localSha256": "f029f707e0d33ed0a78d716826d98e076eb99e6631539c5e8b852803914524d7",
           "sourceSize": [
             1440,
             2479
           ],
           "localSize": [
             1440,
-            2569
+            2471
           ],
-          "changedPixelRatio": 0.07811810691579084,
+          "changedPixelRatio": 0.05418655595894402,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-14-desktop-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-14-desktop-overlay.png",
@@ -1479,16 +1479,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-14/mobile/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-14-mobile.png",
           "sourceSha256": "1217712601837f80d34152c8ddc635fe71de6bdb843b947f708c49edad3eaf4d",
-          "localSha256": "6637802809aa71e347c40421800c00d016b3b992a680822c9b0f56180eb45e34",
+          "localSha256": "721642cd790e4ddbd638c0998231241eb7902dba1ef681140303aeb94ba662a2",
           "sourceSize": [
             390,
             4178
           ],
           "localSize": [
             390,
-            4177
+            4171
           ],
-          "changedPixelRatio": 0.09013145781934676,
+          "changedPixelRatio": 0.13261896871279352,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-14-mobile-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-14-mobile-overlay.png",
@@ -1535,16 +1535,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-15/desktop/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-15-desktop.png",
           "sourceSha256": "02fdd539593eb19b8d35170f84e1e4b791145b135de34b9a82c9c4c392ee7b3b",
-          "localSha256": "e87491045a4fdc0211c3d1aeeb153178244714f5d7cb9ef3d845adc34dc1f6be",
+          "localSha256": "00a810e1309282055fce473b5ef52d5551db764ff274b5a1d0d8903b1316ee07",
           "sourceSize": [
             1440,
             3566
           ],
           "localSize": [
             1440,
-            3634
+            3535
           ],
-          "changedPixelRatio": 0.048636909129823276,
+          "changedPixelRatio": 0.029218078145447746,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-15-desktop-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-15-desktop-overlay.png",
@@ -1556,16 +1556,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/a58132455f6f7756/CB-15/mobile/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-15-mobile.png",
           "sourceSha256": "0df1f5406beaac464267e782c589066dff0cee707ac926579adc641158b174bc",
-          "localSha256": "6c4741927032fc42219ac263533ebbfe0402a1a0e3ef344fe14f40cb71d9d4ed",
+          "localSha256": "1d3fc2e816dcb33e795face31b75d480650b26319fc511d34abcad3cc444119a",
           "sourceSize": [
             390,
             5284
           ],
           "localSize": [
             390,
-            5284
+            5253
           ],
-          "changedPixelRatio": 0.05368601875036395,
+          "changedPixelRatio": 0.08605029212523535,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-15-mobile-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-15-mobile-overlay.png",
@@ -1612,16 +1612,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/0f72d1ed1fb38100/CB-16/desktop/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-16-desktop.png",
           "sourceSha256": "e8502187461a1e05e5924be7a92804009a28f657cc5afdb38ad30282072d38d4",
-          "localSha256": "96ec8f033678691e3eb292a545e8871d8c1ed21eda0948663cfd17d034002183",
+          "localSha256": "92d85e1a46b3ab0843d30cb08105f90fbbcf03f5a9dd7795a2001ed09c84760b",
           "sourceSize": [
             1440,
             2498
           ],
           "localSize": [
             1440,
-            2597
+            2498
           ],
-          "changedPixelRatio": 0.06661719719334275,
+          "changedPixelRatio": 0.0026854817187083,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-16-desktop-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-16-desktop-overlay.png",
@@ -1633,16 +1633,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/0f72d1ed1fb38100/CB-16/mobile/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-16-mobile.png",
           "sourceSha256": "2986a5fe8d063bb76bf960f1eb3c32af6531d25ada0e6f68115baa843f01a87d",
-          "localSha256": "baf5b4f34a8d05acce1b287d5a7b4d9d8c9bca19c5e8e4d32efccfb898605591",
+          "localSha256": "38e7bc8cfc72bb36e2b031a127696f66edf529b347569d3cb6732563d2dccdd1",
           "sourceSize": [
             390,
             4346
           ],
           "localSize": [
             390,
-            4383
+            4346
           ],
-          "changedPixelRatio": 0.12064678799791737,
+          "changedPixelRatio": 0.0679634677333711,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-16-mobile-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-16-mobile-overlay.png",
@@ -1702,16 +1702,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-17/desktop/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-17-desktop.png",
           "sourceSha256": "99ece39e154a418c37de8ec01ceb9bece3cc7cff7fdbc66fa26b2b2bc55edb7d",
-          "localSha256": "b7fdf7e6d6dd46ddb33460b933bd230a48717d88487a088d7c77685b6f212242",
+          "localSha256": "40a37788de40e08d166cc6aec24a5a6e50394547cb3df322049a6936afc79515",
           "sourceSize": [
             1440,
             4338
           ],
           "localSize": [
             1440,
-            4420
+            4321
           ],
-          "changedPixelRatio": 0.05491484414278532,
+          "changedPixelRatio": 0.042432188412478866,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-17-desktop-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-17-desktop-overlay.png",
@@ -1723,16 +1723,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-17/mobile/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-17-mobile.png",
           "sourceSha256": "f7232e918fcfd15380dce9836f4bb2d6f47f2d10e6a66176449d2555daac9ae4",
-          "localSha256": "09416e7adb0acc32d434799dd043d0fbef48024e5f454d73b06c8142df28e1d9",
+          "localSha256": "5713fa966443832525544f75ad4da357b11116b73901c77e0c0f35578e943cd8",
           "sourceSize": [
             390,
             5907
           ],
           "localSize": [
             390,
-            5960
+            5904
           ],
-          "changedPixelRatio": 0.1120611770779556,
+          "changedPixelRatio": 0.06061343994304888,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-17-mobile-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-17-mobile-overlay.png",
@@ -1792,16 +1792,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-18/desktop/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-18-desktop.png",
           "sourceSha256": "fa158ba37d1f2e5537183a5d5be31ebddd9438710e93d6adbd11208541442200",
-          "localSha256": "21010994a09a52ccb730589686dbeff99be8120c4e6c5543d2355d0f2872843b",
+          "localSha256": "943a80d2587ddfe344e41a1f5af5e0ab2d667c4712f1ff8f4a984704476fe2f2",
           "sourceSize": [
             1440,
             2761
           ],
           "localSize": [
             1440,
-            2895
+            2797
           ],
-          "changedPixelRatio": 0.053331414315870275,
+          "changedPixelRatio": 0.03513536328606046,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-18-desktop-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-18-desktop-overlay.png",
@@ -1813,16 +1813,16 @@
           "source": "/workspace/.factory-cache/live/collegium-balticum/imports/b188794e2451ce56/CB-18/mobile/full.png",
           "local": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-18-mobile.png",
           "sourceSha256": "5ae07eaaace8acafd8b039797dbcbd065d91bfaa4613081f92c89944c974eb65",
-          "localSha256": "ba84a4e7175a61820050d281e9a347918b6645f2d402fe7251a5bec28e43699f",
+          "localSha256": "c120cf18162ecdc2df72bddccbce0be2a6340fc16bef87b0872fa2b2873b61ff",
           "sourceSize": [
             390,
             6172
           ],
           "localSize": [
             390,
-            6214
+            6208
           ],
-          "changedPixelRatio": 0.10714350556642156,
+          "changedPixelRatio": 0.170903961802802,
           "comparisonFiles": {
             "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-18-mobile-pair.png",
             "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-18-mobile-overlay.png",
@@ -2011,7 +2011,7 @@
       ]
     },
     "documents": {
-      "at": "2026-10-10T07:45:26.208Z",
+      "at": "2026-10-10T11:01:52.122Z",
       "runner": {
         "kind": "github-actions",
         "repository": "marcinpracavp/mwstudios-wordpress-factory",
@@ -2633,33 +2633,5 @@
     "downloadedAt": "2026-10-10T07:34:17.603Z",
     "path": "/workspace/.factory-cache/live/collegium-balticum/downloads/documents-38034776529/github-artifact.zip"
   },
-  "engineTestRuns": [
-    {
-      "command": "npm run factory:live:test",
-      "fixtureOnly": false,
-      "observedAt": "2026-10-10T07:31:39.899Z",
-      "logSha256": "6bc83b3284b7ec0003627f10e0e74d8b906ca3ab95f5448086bbd9d19ba804f7",
-      "tests": 3,
-      "pass": 3,
-      "fail": 0
-    },
-    {
-      "command": "npm run factory:autopilot:test",
-      "fixtureOnly": false,
-      "observedAt": "2026-10-10T07:30:59.768Z",
-      "logSha256": "d440c7a46739820b88dbfe894cb46709bafd631757d9d3bb2355b5c79ca9c080",
-      "tests": 21,
-      "pass": 21,
-      "fail": 0
-    },
-    {
-      "command": "node --test scripts/projects/collegium-balticum/remote/capture.test.js",
-      "fixtureOnly": true,
-      "observedAt": "2026-10-10T07:31:56.724Z",
-      "logSha256": "1b0e32b7c3d189c70f97aef511d65c71a98850b55f0e18efcc307e401df15328",
-      "tests": 1,
-      "pass": 1,
-      "fail": 0
-    }
-  ]
+  "engineTestRuns": []
 }

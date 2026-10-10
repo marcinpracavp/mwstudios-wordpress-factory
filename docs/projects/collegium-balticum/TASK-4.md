@@ -129,3 +129,42 @@ Importer dokumentów odczytuje surowe ACF (`get_field(..., false)`), aby ponowne
 Push `git push origin project/collegium-balticum` opublikował `4e283cf..4100e03`. Workflow dokumentów uruchomił się raz przez ograniczony trigger `push`; nie wywołano dodatkowego dispatch ani capture stron. Artefakt z GitHuba ma 15 039 900 B i SHA256 `d23604a599d013f56aa3350b3408a9930d15460af44fbb07a069914b615609d9`, zgodny z `digest` API. Bundle manifest SHA256: `9a7caad37daba912c188ec56950a97bd06a544c3d5cf81d9be5d78da872bd674`. Łączny rozmiar 37 pobrań źródłowych to 18 162 635 B (zawiera dwa powtórzenia bajtowe).
 
 Wykonano `documents.js --import`, `cb:wp -- eval-file .../documents-import.php`, kontrolę `documents-qa.js`, powtórzenie importu, porównanie hashy treści i ID, pełne `cb:migrate:qa`, interakcje oraz `cb:migrate:compare`. Cache, ZIP-y, screenshoty, tymczasowe skrypty i backup SQL nie trafiły do Git. Pozostałe blokery: akceptacja/dalsze dopasowanie wizualne 19 stron, kontrast CTA 2,71:1/2,53:1 i etykiety widoczne do PM, audyt dostępności dokumentów/wideo oraz konfiguracja transportu poczty poza lokalnym backendem testowym. Nie jest to deklaracja WCAG AA ani gotowości produkcyjnej. Brak lokalnych kopii tych 37 dokumentów został rozwiązany.
+
+
+## Task 4E — bezpieczne poprawki i końcowe dowody
+
+Stan: IN_PROGRESS. Proces został przerwany przez zamknięcie Codespace przed końcowym raportem/commitami. Kod, baza, biblioteka mediów i zweryfikowane referencje przetrwały. Przy wznowieniu uruchomiono istniejące wolumeny, bez importu źródła ani dokumentów. Motyw mwstudios-wordpress-factory, ACF Pro 6.7.0.2, http://localhost:8000, blog_public=0; 37 mapowań dokumentów zachowanych. Zdalny HEAD potwierdzony przez API: 6f1479c. Brak nowszego workflow na tym HEAD; ostatni dokumentowy run 38034776529 zakończony success. Nie wykonano push, merge ani wdrożenia; main/autopilot-clean i pliki użytkownika zachowane.
+
+Poprawiono: źródłowe Poppins 400/600, izolowaną rodzinę CBPoppins, typografię nagłówków/stopki i odstępy liter; source spacery zamiast scalanych marginesów; marginesy obrazów CTA w stopce; zamknięte menu mobile i natywny układ paginacji; źródłowe dekoracyjne linie overlay tile; semantykę galerii i dostępne nazwy wideo; nawigację focus/Escape, biografie, opis linków do plików oraz błędy konkretnych pól formularza. Hero i e-mail stopki dostosowują się do powiększonego tekstu. CTA i wygląd formularza/Hx nie zmienione bez PM.
+
+| ID | Desktop: diff przed → po | Mobile: diff przed → po |
+| --- | --- | --- |
+| CB-00 | 9.79% → 6.86% | 24.85% → 23.03% |
+| CB-01 | 3.42% → 0.25% | 6.71% → 7.86% |
+| CB-02 | 5.01% → 1.66% | 17.72% → 21.68% |
+| CB-03 | 8.86% → 0.35% | 16.17% → 14.76% |
+| CB-04 | 10.59% → 8.06% | 18.95% → 14.49% |
+| CB-05 | 12.84% → 11.79% | 14.73% → 12.93% |
+| CB-06 | 12.59% → 8.69% | 16.58% → 14.19% |
+| CB-07 | 12.72% → 10.31% | 15.18% → 14.27% |
+| CB-08 | 14.50% → 13.51% | 23.26% → 14.21% |
+| CB-09 | 6.89% → 2.13% | 7.59% → 2.12% |
+| CB-10 | 10.90% → 9.20% | 19.22% → 17.42% |
+| CB-11 | 19.92% → 17.66% | 15.16% → 10.73% |
+| CB-12 | 11.83% → 0.01% | 15.47% → 1.90% |
+| CB-13 | 7.79% → 6.62% | 11.95% → 14.58% |
+| CB-14 | 7.81% → 5.42% | 9.01% → 13.26% |
+| CB-15 | 4.86% → 2.92% | 5.37% → 8.61% |
+| CB-16 | 6.66% → 0.27% | 12.06% → 6.80% |
+| CB-17 | 5.49% → 4.24% | 11.21% → 6.06% |
+| CB-18 | 5.33% → 3.51% | 10.71% → 17.09% |
+
+Procent jest surowym pomiarem, nie progiem akceptacji. Usunięcie błędnego zamkniętego panelu mobile ujawnia treść, którą panel przykrywał w źródłowym screenshot; na części widoków zwiększa diff i wymaga oceny par. Nie maskowano pikseli ani nie usuwano treści. [Wszystkie 38 par, geometria, priorytety i ścieżki](TASK-4E-VISUAL-AUDIT.md).
+
+Regresja po wznowieniu: build i cb:build PASS z trzema ostrzeżeniami rozmiaru; LIVE 3/3, Autopilot 68/68, capture/konfiguracja/content schema 3/3; 38/38 renderów i porównań, 76 testów szerokości (320/768/1024/2048), 38 testów tekstu 200%, reflow 320 i odstępy tekstu bez poziomego overflow; 19 interakcji, 99 lokalnych URL-i HTTP 200; 37 dokumentów/35 załączników/43 linki zweryfikowane. Formularz: nieprawidłowe dane 422, pięć błędów pól, aria-invalid/opis i fokus pierwszego pola; prawidłowy test tylko do lokalnego sinka, bez poczty. Logi są w trwałym cache task4e/test-logs/, nie w /tmp.
+
+Axe: 849 wystąpień reguł WCAG przed, 48 naprawionych, 801 pozostałych (794 kontrast + 7 link-in-text-block), osobno 74 best-practice heading-order. To wystąpienia węzłów w 38 widokach, nie 849 niezależnych błędów. CTA 2,708:1 i 2,530:1 nadal FAIL. Nie deklarujemy AA. [Audyt i selektory](TASK-4E-WCAG-AUDIT.md), [decyzje PM i propozycje kolorów](TASK-4E-PM-DECISIONS.md).
+
+19/19 widoków ma autentyczną treść; 0/19 ma pełny zaakceptowany odbiór visual/WCAG. Pozostały dalsze dopasowanie i odbiór widocznych różnic, decyzje kolorów/etykiet/linków/Hx/deklaracji oraz manualny czytnik, zoom, kontrast na zdjęciach i audyt 35 PDF/DOCX/wideo. CB-05: brak 21 pełnych oryginałów galerii, miniatury autentyczne i działające; MEDIA=IN_PROGRESS. [Manifest do selektywnego pobrania](TASK-4E-GALLERY-ORIGINALS.json), bez konieczności nowego pełnego capture. Nie uruchamiano kolejnego workflow ani migracji dodatkowych stron.
+
+Commit implementacji 4E: `aa49906` (lokalny). Raporty i dowody zapisane osobno; zdalny branch pozostaje na `6f1479c`, bez pushu.
