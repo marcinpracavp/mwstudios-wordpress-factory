@@ -163,3 +163,9 @@
 // keyboard/touch scrolling region instead of widening the document.
 .cb-site #main-content .slider .cb-carousel { gap: 0; }
 .cb-site #main-content .slider .cb-carousel > * { flex: 0 0 536px; width: 536px; }
+
+// Gutenberg's later generic flex-layout rule must not wrap desktop columns.
+// The captured block layout uses one row with a 2em gap above its 782px breakpoint.
+@media(min-width:782px){
+  .cb-site #main-content .wp-block-columns { flex-wrap: nowrap; align-items: normal; }
+}

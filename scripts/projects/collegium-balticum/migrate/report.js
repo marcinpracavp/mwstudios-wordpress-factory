@@ -48,7 +48,7 @@ const rows = source.pages.map(page => {
     template: templates[page.id] || 'template-flexible.php', sourceCapture: 'DONE',
     sourceQuality: references.rows.find(r => r.id === page.id).views.map(v => ({ viewport: v.viewport, status: v.status, warnings: v.sourceWarnings })),
     templateStatus: 'DONE', localRender: 'DONE', content: complete ? 'DONE' : 'IN_PROGRESS',
-    images: render.every(r => !r.images.length) ? 'DONE' : 'BLOCKED', documents: docsForPage.some(d => d.localCopy !== 'DONE') ? 'BLOCKED' : 'DONE',
+    documentCount: docsForPage.length, images: render.every(r => !r.images.length) ? 'DONE' : 'BLOCKED', documents: docsForPage.some(d => d.localCopy !== 'DONE') ? 'BLOCKED' : 'DONE',
     desktopVisualQa: 'IN_PROGRESS', mobileVisualQa: 'IN_PROGRESS', wcagQa: 'IN_PROGRESS',
     functionality: 'IN_PROGRESS', openIssues: (notes[page.id] || 'Dalsze dopasowanie odstępów i typografii.') + (docsForPage.some(d => d.localCopy !== 'DONE') ? ` Brak ${docsForPage.filter(d => d.localCopy !== 'DONE').length} lokalnych kopii dokumentów; oryginalne linki zachowane.` : ''),
     sections: page.sections.length,
@@ -63,7 +63,7 @@ for(const [command,file,fixtureOnly] of [['npm run factory:live:test','/tmp/cb4-
   if(!fs.existsSync(file))continue;const text=fs.readFileSync(file,'utf8'),counts={};for(const match of text.matchAll(/# (tests|pass|fail) (\d+)/g))counts[match[1]]=Number(match[2]);evidence.engineTestRuns.push({command,fixtureOnly,observedAt:fs.statSync(file).mtime.toISOString(),logSha256:sha(Buffer.from(text)),...counts});
 }
 fs.writeFileSync(path.join(docs, 'TASK-4-EVIDENCE.json'), JSON.stringify(evidence, null, 2) + '\n');
-const table = ['| ID | URL źródłowy | URL lokalny | WP ID | Szablon | Treść | Media | Desktop visual QA | Mobile visual QA | Funkcjonalność | Otwarte problemy |', '| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |', ...rows.map(r => `| ${r.id} | ${r.sourceUrl} | ${r.localUrl} | ${r.wpId}${r.recordType === 'category term' ? ' (term)' : ''} | ${r.template} | ${r.content} | obrazy ${r.images}; dokumenty ${r.documents} | IN_PROGRESS | IN_PROGRESS | IN_PROGRESS | ${r.openIssues} |`)].join('\n');
+const table = ['| ID | URL źródłowy | URL lokalny | WP ID | Szablon | Treść | Media | Desktop visual QA | Mobile visual QA | Funkcjonalność | Otwarte problemy |', '| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |', ...rows.map(r => `| ${r.id} | ${r.sourceUrl} | ${r.localUrl} | ${r.wpId}${r.recordType === 'category term' ? ' (term)' : ''} | ${r.template} | ${r.content} | obrazy ${r.images}; dokumenty ${r.documentCount ? r.documents : 'nie dotyczy (0 odnośników)'} | IN_PROGRESS | IN_PROGRESS | IN_PROGRESS | ${r.openIssues} |`)].join('\n');
 fs.writeFileSync(path.join(docs, 'TASK-4-REGISTER.md'), '# Zadanie 4 — wszystkie 19 rzeczywistych widoków\n\n' + table + '\n\nCONTENT dotyczy kompletnej treści widoków zapisanych w referencjach, nie całej witryny ani treści pozostałych artykułów. DONE dla obrazów oznacza lokalną bibliotekę mediów i brak błędów ładowania; brakujące dokumenty opisano oddzielnie. Wykonano 38 rzeczywistych porównań, ale nie zatwierdzono zgodności 1:1 ani WCAG AA.\n');
 const registry = ['| ID | SOURCE_CAPTURE | TEMPLATE | LOCAL_RENDER | CONTENT | VISUAL_QA | WCAG_QA |', '| --- | --- | --- | --- | --- | --- | --- |', ...rows.map(r => `| ${r.id} | DONE | DONE | DONE | ${r.content} | IN_PROGRESS | IN_PROGRESS |`)].join('\n');
 const pagePath = path.join(docs, 'PAGES.md');

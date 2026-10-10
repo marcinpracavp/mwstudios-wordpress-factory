@@ -3,7 +3,10 @@ const fs = require('fs'), path = require('path');
 const { manifest, verify, zip, unzip, sha } = require('../../../../tools/live-capture/bundle');
 const config = require('../../../../docs/projects/collegium-balticum/live.json');
 const source = require('../../../../docs/projects/collegium-balticum/documents-source.json');
-const args = process.argv.slice(2), value = flag => args[args.indexOf(flag) + 1];
+const args = process.argv.slice(2), value = flag => {
+  const index = args.indexOf(flag);
+  return index >= 0 ? args[index + 1] : undefined;
+};
 async function main() {
   if (args.includes('--import')) {
     const output = path.resolve(value('--output') || '.factory-cache/live/collegium-balticum/migration/documents-import');

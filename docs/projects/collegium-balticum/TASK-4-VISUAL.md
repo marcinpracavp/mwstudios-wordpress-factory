@@ -12,7 +12,7 @@
 | CB-02 | mobile | 390 × 5960 | 390 × 6020 | 17.7% | IN_PROGRESS |
 | CB-03 | desktop | 1440 × 6497 | 1440 × 6627 | 8.9% | IN_PROGRESS |
 | CB-03 | mobile | 390 × 11988 | 390 × 11945 | 16.2% | IN_PROGRESS |
-| CB-04 | desktop | 1440 × 7924 | 1440 × 8775 | 16.9% | IN_PROGRESS |
+| CB-04 | desktop | 1440 × 7924 | 1440 × 7883 | 10.6% | IN_PROGRESS |
 | CB-04 | mobile | 390 × 15343 | 390 × 13356 | 18.9% | IN_PROGRESS |
 | CB-05 | desktop | 1440 × 5914 | 1440 × 6075 | 12.8% | IN_PROGRESS |
 | CB-05 | mobile | 390 × 8485 | 390 × 8431 | 14.7% | IN_PROGRESS |
