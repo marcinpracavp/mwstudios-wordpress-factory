@@ -41,7 +41,7 @@ async function main() {
   const allowedHosts = new Set(source.documents.map(d => new URL(d.url).hostname));
   const report = [];
   for (const item of source.documents) {
-    const result = { ...item, status: 'BLOCKED' };
+    const result = { ...item, status: 'BLOCKED', httpStatus: null, finalUrl: null, bytes: null, contentType: null, sha256: null };
     try {
       let url = item.url, response;
       for (let redirects = 0; redirects <= 5; redirects++) {
@@ -53,6 +53,7 @@ async function main() {
         } else break;
       }
       result.httpStatus = response.status; result.finalUrl = url;
+      result.contentType = response.headers.get('content-type');
       if (!response.ok) throw Error('HTTP ' + response.status);
       const length = Number(response.headers.get('content-length') || 0);
       if (length > 50 * 1024 * 1024) throw Error('Document too large');
@@ -70,7 +71,7 @@ async function main() {
     // Requests are sequential; no retries or concurrent traffic to production.
   }
   fs.writeFileSync(path.join(output, 'documents.json'), JSON.stringify(report, null, 2));
-  manifest(output, { project: config.project, sourceUrl: config.sourceUrl, configHash: sha(Buffer.from(JSON.stringify(config))), documentSourceHash: sha(Buffer.from(JSON.stringify(source))), kind: 'cb-documents', records: [], status: report.every(r => r.status === 'DONE') ? 'DONE' : 'BLOCKED', at: new Date().toISOString() });
+  manifest(output, { project: config.project, sourceUrl: config.sourceUrl, configHash: sha(Buffer.from(JSON.stringify(config))), documentSourceHash: sha(Buffer.from(JSON.stringify(source))), kind: 'cb-documents', records: [], runner: process.env.GITHUB_ACTIONS === 'true' ? { kind: 'github-actions', repository: process.env.GITHUB_REPOSITORY, runId: process.env.GITHUB_RUN_ID, commit: process.env.GITHUB_SHA } : { kind: 'standalone' }, status: report.every(r => r.status === 'DONE') ? 'DONE' : 'BLOCKED', at: new Date().toISOString() });
   zip(output, output + '.zip');
   if (report.some(r => r.status !== 'DONE')) process.exitCode = 1;
 }

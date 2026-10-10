@@ -8,8 +8,11 @@ test('CB keeps exactly all mandatory CB-00–CB-18 paths from the brief register
   const file = path.join(__dirname,'live.json');
   const { config } = loadConfig(file);
   const document = fs.readFileSync(path.join(__dirname,'PAGES.md'),'utf8');
-  const required = document.split('\n').filter(l => /^\| CB-\d\d \|/.test(l)).map(l => {
-    const cells = l.split('|').map(v=>v.trim());
+  // PAGES also contains the current status matrix; only the source-URL
+  // register has an HTTPS URL in its third column.
+  const required = document.split('\n').filter(l => /^\| CB-\d\d \|/.test(l))
+    .map(l => l.split('|').map(v=>v.trim()))
+    .filter(cells => cells[3].startsWith('https://')).map(cells => {
     return {id:cells[1],path:new URL(cells[3]).pathname};
   });
   assert.equal(required.length,19);
