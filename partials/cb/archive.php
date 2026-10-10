@@ -7,6 +7,6 @@ $sections=(array)(get_field('cb_sections','option') ?: get_option('cb_archive_se
 <div class="search-box"><div class="l-container width-2"><?php echo cb_html(get_option('cb_archive_search')); ?></div></div>
 <div class="l-container width-2"><div class="listing three-columns">
 <?php while(have_posts()):the_post();$card=get_post_meta(get_the_ID(),'_cb_card_html',true);if($card)echo cb_blog_card($card);else{?><a class="box" href="<?php the_permalink(); ?>"><?php the_post_thumbnail('full'); ?><p class="date"><?php echo esc_html(get_the_date('d/m/Y')); ?></p><p class="title"><?php the_title(); ?></p><div class="desc"><?php the_excerpt(); ?></div></a><?php }endwhile; ?>
-</div><?php $pagination=paginate_links(['type'=>'list','prev_text'=>'Poprzednia','next_text'=>'Następna']);if($pagination)echo '<nav class="pagination" aria-label="Strony bloga"><h2 class="screen-reader-text">Stronicowanie wpisów</h2>'.wp_kses_post($pagination).'</nav>'; ?></div></div>
+</div><?php $pagination=paginate_links(['type'=>'plain','prev_text'=>'Poprzednia','next_text'=>'Następna']);if($pagination)echo '<nav class="navigation pagination" aria-label="Strony bloga"><h2 class="screen-reader-text">Stronicowanie wpisów</h2><div class="nav-links">'.wp_kses_post($pagination).'</div></nav>'; ?></div></div>
 
 </div>

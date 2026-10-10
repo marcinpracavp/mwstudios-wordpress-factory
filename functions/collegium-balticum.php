@@ -2,11 +2,45 @@
 /** Client rendering stays behind CB data; the universal factory keeps its defaults. */
 function cb_enabled() { return (bool) get_option('cb_migration'); }
 function cb_html($html) {
+    // Source overlay tiles include an empty .more element drawing their line.
+    // Older extracted ACF omitted it; restore decoration without an empty action.
+    $html=preg_replace_callback('~(<a\b[^>]*class="[^"]*\bspecial-box\b[^"]*"[^>]*>)(.*?)(</a>)~si',function($match){
+        if(preg_match('~class="[^"]*\bmore\b~',$match[2]))return $match[0];
+        return $match[1].$match[2].'<span class="more" aria-hidden="true"></span>'.$match[3];
+    },$html);
+    // Image galleries are figures, not definition lists. Keep source styling.
+    $html=preg_replace_callback('~<dl\b([^>]*class="[^"]*\bgallery-item\b[^"]*"[^>]*)>(.*?)</dl>~si',function($match){
+        $body=preg_replace(['~<dt\b~i','~</dt>~i','~<dd\b~i','~</dd>~i'],['<div','</div>','<figcaption','</figcaption>'],$match[2]);
+        return '<figure'.$match[1].'>'.$body.'</figure>';
+    },$html);
+    // The captured decorative play icon supplies no accessible link name.
+    $html=preg_replace_callback('~<a\b[^>]*class="[^"]*wp-block-getwid-video-popup__link[^"]*"[^>]*>~i',function($match){
+        return strpos($match[0],'aria-label=')!==false?$match[0]:substr($match[0],0,-1).' aria-label="Otwórz film w YouTube">';
+    },$html);
     // Empty source targets are decorative, never a phone/email action or reload.
     $html=preg_replace('/\s+href="(?:tel:|mailto:)?"/i','',$html);
     // WordPress rejects rgb() in inline values; retain the same color as hexadecimal.
     $html=preg_replace_callback('/rgb\\(\\s*(\\d+)\\s*,\\s*(\\d+)\\s*,\\s*(\\d+)\\s*\\)/i',function($m){return sprintf("#%02x%02x%02x",min(255,(int)$m[1]),min(255,(int)$m[2]),min(255,(int)$m[3]));},$html);
     $origin=get_option('cb_import_origin');if($origin && $origin!==home_url())$html=str_replace($origin,home_url(),$html);
+    $html=preg_replace_callback('~(\bhref=")([^"]+)(")~i',function($match){return $match[1].esc_url(cb_local_url(html_entity_decode($match[2],ENT_QUOTES,'UTF-8'))).$match[3];},$html);
+    // Describe real local documents without adding visible source content.
+    static $document_info=null;
+    if($document_info===null){
+        $document_info=[];
+        foreach((array)get_option('cb_document_map',[]) as $document){
+            $id=(int)($document['id']??0);$file=get_attached_file($id);
+            if($file && is_file($file))$document_info[wp_get_attachment_url($id)]=strtoupper(pathinfo($file,PATHINFO_EXTENSION)).', '.size_format(filesize($file),1);
+        }
+    }
+    $html=preg_replace_callback('~<a\b([^>]*href="([^"]+)"[^>]*)>(.*?)</a>~si',function($match)use($document_info){
+        $url=html_entity_decode($match[2],ENT_QUOTES,'UTF-8');
+        if(!isset($document_info[$url]))return $match[0];
+        $label=trim(html_entity_decode(wp_strip_all_tags($match[3]),ENT_QUOTES,'UTF-8'));
+        if(!$label)return $match[0];
+        $attributes=preg_replace('~\s+aria-label="[^"]*"~i','',$match[1]);
+        $description=$document_info[$url].(strpos($attributes,'target="_blank"')!==false?', otwiera nową kartę':'');
+        return '<a'.$attributes.' aria-label="'.esc_attr($label.' ('.$description.')').'">'.$match[3].'</a>';
+    },$html);
     $html=preg_replace_callback('~(<input\b[^>]*name="_cb_nonce"[^>]*value=")[^"]*(")~',function($m){return $m[1].esc_attr(wp_create_nonce('cb_contact')).$m[2];},$html);
     $allowed = wp_kses_allowed_html('post');
     $allowed['iframe'] = array_fill_keys(['src','title','loading','allow','allowfullscreen','width','height','frameborder','referrerpolicy'], true);
@@ -21,6 +55,12 @@ function cb_sections($sections) {
     foreach ((array) $sections as $section) get_template_part('partials/cb/section', null, ['section'=>$section]);
 }
 function cb_local_url($url) {
+    if(preg_match('~^/?\?page_id=\d+~',$url))return 'https://www.cb.szczecin.pl/'.ltrim($url,'/');
+    if(preg_match('~^https?://(?:www\.)?cb\.szczecin\.pl/\?page_id=\d+~',$url))return $url;
+    if(wp_parse_url($url,PHP_URL_HOST)===wp_parse_url(home_url(),PHP_URL_HOST) && wp_parse_url($url,PHP_URL_PATH)==='/'){
+        parse_str((string)wp_parse_url($url,PHP_URL_QUERY),$query);
+        if(isset($query['page_id']) && !get_post((int)$query['page_id']))return 'https://www.cb.szczecin.pl/?'.wp_parse_url($url,PHP_URL_QUERY);
+    }
     $documents=(array)get_option('cb_document_map',[]);
     if(isset($documents[$url]['id']))return wp_get_attachment_url($documents[$url]['id']);
     $map = (array) get_option('cb_url_map');
@@ -28,8 +68,12 @@ function cb_local_url($url) {
     if (isset($map[$path]) && (preg_match('~^https?://(?:www\.)?cb\.szczecin\.pl(?:/|$)~', $url)||preg_match('~^/(?!/)~',$url))) {
         return home_url($path) . (wp_parse_url($url, PHP_URL_QUERY) ? '?' . wp_parse_url($url, PHP_URL_QUERY) : '') . (wp_parse_url($url, PHP_URL_FRAGMENT) ? '#' . wp_parse_url($url, PHP_URL_FRAGMENT) : '');
     }
+    // Relative source links outside the 19-view map must not become local 404s.
+    if(preg_match('~^/(?!/)~',$url))return 'https://www.cb.szczecin.pl'.$url;
+    if(preg_match('~^\?page_id=\d+~',$url))return 'https://www.cb.szczecin.pl/'.$url;
     return $url;
 }
+add_filter('nav_menu_link_attributes',function($attributes){if(cb_enabled() && isset($attributes['href']))$attributes['href']=cb_local_url($attributes['href']);return $attributes;});
 add_filter('body_class', function($classes){ if(cb_enabled()){ $classes[]='cb-site';$id=(is_archive()||is_search()||is_home())?'CB-02':get_post_meta(get_queried_object_id(),'_cb_source_id',true);if($id)$classes[]='cb-view-'.sanitize_html_class(strtolower($id)); } return $classes; });
 add_action('wp_enqueue_scripts', function(){
     if (!cb_enabled()) return;
@@ -46,7 +90,13 @@ add_action('admin_post_nopriv_cb_contact','cb_contact');add_action('admin_post_c
 function cb_contact(){
     if(!cb_enabled() || !wp_verify_nonce(sanitize_text_field(wp_unslash($_POST['_cb_nonce']??'')), 'cb_contact')) wp_die('Nieprawidłowe żądanie.', '', ['response'=>403]);
     $name=sanitize_text_field(wp_unslash(($_POST['your-name']??$_POST['first-name']??'')));$email=sanitize_email(wp_unslash(($_POST['your-email']??$_POST['email']??'')));$message=sanitize_textarea_field(wp_unslash($_POST['your-message']??$_POST['textarea-621']??''));
-    if(!$name || !sanitize_text_field(wp_unslash($_POST['surname']??'')) || !preg_match('/^[\d\s()+.\-]{7,30}$/',sanitize_text_field(wp_unslash($_POST['phone']??''))) || !is_email($email) || empty($_POST['cb_consent'])){if(strpos($_SERVER['HTTP_ACCEPT']??'', 'application/json')!==false)wp_send_json_error(['message'=>'Uzupełnij wymagane pola i zgodę.'],422);wp_die('Uzupełnij imię, poprawny e-mail i zgodę.', '', ['response'=>422]);}
+    $errors=[];
+    if(!$name)$errors[isset($_POST['your-name'])?'your-name':'first-name']='Podaj imię.';
+    if(!sanitize_text_field(wp_unslash($_POST['surname']??'')))$errors['surname']='Podaj nazwisko.';
+    if(!preg_match('/^[\d\s()+.\-]{7,30}$/',sanitize_text_field(wp_unslash($_POST['phone']??''))))$errors['phone']='Podaj poprawny numer telefonu.';
+    if(!is_email($email))$errors[isset($_POST['your-email'])?'your-email':'email']='Podaj poprawny adres e-mail.';
+    if(empty($_POST['cb_consent']))$errors['cb_consent']='Zaznacz wymaganą zgodę.';
+    if($errors){if(strpos($_SERVER['HTTP_ACCEPT']??'', 'application/json')!==false)wp_send_json_error(['message'=>'Uzupełnij wymagane pola i zgodę.','errors'=>$errors],422);wp_die(esc_html(implode(' ',$errors)), '', ['response'=>422]);}
     // Local-only sink. No source recipient is contacted.
     if(wp_get_environment_type()==='production')wp_die('Lokalny formularz wymaga konfiguracji środowiska.', '', ['response'=>503]);
     $messages=(array)get_option('cb_local_messages',[]);$messages[]= ['name'=>$name,'email'=>$email,'message'=>$message,'surname'=>sanitize_text_field(wp_unslash($_POST['surname']??'')),'phone'=>sanitize_text_field(wp_unslash($_POST['phone']??'')),'date'=>current_time('mysql')];update_option('cb_local_messages',array_slice($messages,-50),false);

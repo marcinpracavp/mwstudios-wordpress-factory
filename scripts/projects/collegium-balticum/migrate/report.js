@@ -10,6 +10,8 @@ const source = read(path.join(cache, 'source.json'));
 const imported = read(path.join(cache, 'import-result.json'));
 const documentQaPath = path.join(cache, 'qa/documents.json');
 const documentQa = fs.existsSync(documentQaPath) ? read(documentQaPath) : null;
+const galleryPath=path.join(docs,'TASK-4E-GALLERY-ORIGINALS.json');
+const gallery=fs.existsSync(galleryPath)?read(galleryPath):null;
 if (documentQa) imported.runtime.counts = documentQa.counts;
 const renders = read(path.join(cache, 'qa/render.json'));
 const comparisons = read(path.join(cache, 'comparisons/comparison.json'));
@@ -51,9 +53,9 @@ const rows = source.pages.map(page => {
     template: templates[page.id] || 'template-flexible.php', sourceCapture: 'DONE',
     sourceQuality: references.rows.find(r => r.id === page.id).views.map(v => ({ viewport: v.viewport, status: v.status, warnings: v.sourceWarnings })),
     templateStatus: 'DONE', localRender: 'DONE', content: complete ? 'DONE' : 'IN_PROGRESS',
-    documentCount: docsForPage.length, images: render.every(r => !r.images.length) ? 'DONE' : 'BLOCKED', documents: docsForPage.some(d => d.localCopy !== 'DONE') ? 'BLOCKED' : 'DONE',
+    documentCount: docsForPage.length, images: !render.every(r => !r.images.length) ? 'BLOCKED' : gallery?.id===page.id && gallery.status!=='DONE' ? 'IN_PROGRESS' : 'DONE', documents: docsForPage.some(d => d.localCopy !== 'DONE') ? 'BLOCKED' : 'DONE',
     desktopVisualQa: 'IN_PROGRESS', mobileVisualQa: 'IN_PROGRESS', wcagQa: 'IN_PROGRESS',
-    functionality: 'IN_PROGRESS', openIssues: (notes[page.id] || 'Dalsze dopasowanie odstępów i typografii.') + (docsForPage.some(d => d.localCopy !== 'DONE') ? ` Brak ${docsForPage.filter(d => d.localCopy !== 'DONE').length} lokalnych kopii dokumentów; oryginalne linki zachowane.` : ''),
+    functionality: 'IN_PROGRESS', openIssues: (notes[page.id] || 'Dalsze dopasowanie odstępów i typografii.') + (gallery?.id===page.id && gallery.status!=='DONE' ? ` Powiększenia galerii używają źródłowych miniatur; brak ${gallery.originals.length} pełnych oryginałów, dokładne URL-e w TASK-4E-GALLERY-ORIGINALS.json.` : '') + (docsForPage.some(d => d.localCopy !== 'DONE') ? ` Brak ${docsForPage.filter(d => d.localCopy !== 'DONE').length} lokalnych kopii dokumentów; oryginalne linki zachowane.` : ''),
     sections: page.sections.length,
     views: comparisons.filter(r => r.id === page.id).map(c => ({ viewport: c.view, source: c.source, local: c.local, sourceSha256: c.sourceSha256, localSha256: c.localSha256, sourceSize: c.sourceSize, localSize: c.localSize, changedPixelRatio: c.ratio, comparisonFiles: c.paths }))
   };
@@ -76,7 +78,7 @@ fs.writeFileSync(path.join(docs, 'TASK-4-REGISTER.md'), '# Zadanie 4 — wszystk
 const registry = ['| ID | SOURCE_CAPTURE | TEMPLATE | LOCAL_RENDER | CONTENT | VISUAL_QA | WCAG_QA |', '| --- | --- | --- | --- | --- | --- | --- |', ...rows.map(r => `| ${r.id} | DONE | DONE | DONE | ${r.content} | IN_PROGRESS | IN_PROGRESS |`)].join('\n');
 const pagePath = path.join(docs, 'PAGES.md');
 let pages = fs.readFileSync(pagePath, 'utf8').replace(/^<!-- TASK4_CURRENT -->[\s\S]*?<!-- TASK4_CURRENT_END -->\n\n/, '');
-const current = '<!-- TASK4_CURRENT -->\n# Aktualny stan zadania 4\n\nWszystkie 19 adresów ma rzeczywiste lokalne dane WordPress; wcześniejsze sekcje tego dokumentu stanowią historię, nie bieżący status. Szczegóły URL, ID, szablonów i braków: [TASK-4-REGISTER](TASK-4-REGISTER.md), dowody: [TASK-4-EVIDENCE](TASK-4-EVIDENCE.json), raport: [TASK-4](TASK-4.md). SOURCE_CAPTURE=DONE oznacza pozyskanie referencji; 6 z 38 widoków nadal ma ostrzeżenia jakości źródła.\n\n' + registry + '\n\n<!-- TASK4_CURRENT_END -->\n\n';
+const current = '<!-- TASK4_CURRENT -->\n# Aktualny stan zadania 4\n\nWszystkie 19 adresów ma rzeczywiste lokalne dane WordPress; wcześniejsze sekcje tego dokumentu stanowią historię, nie bieżący status. Szczegóły URL, ID, szablonów i braków: [TASK-4-REGISTER](TASK-4-REGISTER.md), dowody: [TASK-4-EVIDENCE](TASK-4-EVIDENCE.json), raport: [TASK-4](TASK-4.md). SOURCE_CAPTURE=DONE oznacza pozyskanie referencji; 6 z 38 widoków nadal ma ostrzeżenia jakości źródła.\n\n' + registry + '\n\nTask 4E: [38 porównań przed/po](TASK-4E-VISUAL-AUDIT.md), [WCAG](TASK-4E-WCAG-AUDIT.md), [decyzje PM](TASK-4E-PM-DECISIONS.md). CB-05 MEDIA=IN_PROGRESS: 21 pełnych oryginałów galerii nie ma w cache, powiększenia używają autentycznych miniatur; [manifest](TASK-4E-GALLERY-ORIGINALS.json). VISUAL_QA/WCAG_QA pozostają IN_PROGRESS.\n\n<!-- TASK4_CURRENT_END -->\n\n';
 fs.writeFileSync(pagePath, current + pages);
 const visualRows = rows.flatMap(r => r.views.map(v => '\n| '+[r.id,v.viewport,v.sourceSize.join(' × '),v.localSize.join(' × '),(v.changedPixelRatio*100).toFixed(1)+'%','IN_PROGRESS'].join(' | ')+' |'));
 fs.writeFileSync(path.join(docs, 'TASK-4-VISUAL.md'), '# Rzeczywiste porównania desktop/mobile — zadanie 4\n\n38 par zweryfikowanych hashami, pełne screenshoty bez skalowania i masek. Procent to surowa różnica pikseli, nie ocena zgodności ani próg akceptacji. Świadome odstępstwa obejmują usunięte klony Slick, panel poza viewportem i poprawioną geometrię źródła; nie wyjaśniają automatycznie wszystkich różnic. Do dopasowania/akceptacji pozostają odstępy, wysokości kart/sekcji, łamanie tekstu i stopka.\n\n| ID | Viewport | Źródło (px) | Lokalnie (px) | Surowy diff | Akceptacja visual QA |\n| --- | --- | --- | --- | --- | --- |'+visualRows.join('')+'\n\nPliki pair/overlay/diff: [TASK-4-EVIDENCE](TASK-4-EVIDENCE.json). Nie obniżono progów ani nie oznaczono VISUAL_QA=DONE.\n');

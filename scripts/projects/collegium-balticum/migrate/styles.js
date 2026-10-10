@@ -17,10 +17,17 @@ const scopeFor=ids=>{
   return ids.length>excluded.length?'.cb-site:where(:not('+excluded.map(id=>'.cb-view-'+id).join(',')+'))':'.cb-site:where('+ids.map(id=>'.cb-view-'+id).join(',')+')';
 };
 const inline=new Map();for(const page of data.pages)for(const text of new Set(page.inlineStyles||[])){if(!inline.has(text))inline.set(text,[]);inline.get(text).push(page.id.toLowerCase());}
-const sheets=[...sourceSheets.map(a=>({text:fs.readFileSync(a.path,'utf8'),scope:scopeFor([...(sheetPages.get(a.url)||[])])})),...[...inline].map(([text,ids])=>({text,scope:scopeFor(ids)}))];
+// Nitro's rendered head contains the 400/600 faces. The body-only content
+// extractor intentionally omits that head; recover only captured Poppins faces.
+const headFonts=new Set();
+for(const row of evidence.rows)for(const view of row.views){
+ const html=fs.readFileSync(view.paths.html,'utf8');
+ for(const face of html.match(/@font-face\s*\{[^}]*\}/g)||[])if(/font-family:\s*["']?Poppins/.test(face))headFonts.add(face);
+}
+const sheets=[...sourceSheets.map(a=>({text:fs.readFileSync(a.path,'utf8'),scope:scopeFor([...(sheetPages.get(a.url)||[])])})),...[...inline].map(([text,ids])=>({text,scope:scopeFor(ids)})),{text:[...headFonts].join('\n'),scope:'.cb-site'}];
 for(const {text,scope} of sheets){const sheet=postcss.parse(text);sheet.walkComments(c=>c.remove());sheet.walkAtRules(a=>{if(/keyframes/.test(a.name)||a.name==='import')a.remove();if(a.name==='font-face' && !a.toString().includes('Poppins'))a.remove();});sheet.walkRules(rule=>{
 if(rule.parent?.name?.includes('keyframes'))return;
 const selectors=rule.selectors.filter(s=>!/(\.tos-|\.on[eE]tap|\.wpcf7-spinner|\.animated|\.fadeIn|\.loader|\.wow\b|\.hamburger--(?!squeeze))/.test(s));if(!selectors.length){rule.remove();return;}
 rule.selectors=selectors.map(s=>{s=s.replace(/^:root\s+/, '').replace(/\.container\b/g,'.l-container').replace(/(^|[ >+~])main\b/g,'$1.cb-content');if(/^html\b|^:root\b/.test(s))return s.replace(/^html\b|^:root\b/,'html:has('+scope+')');if(/^body\b/.test(s))return s.replace(/^body\b/,scope);return scope+' '+s;});
-});sheet.walkDecls(d=>{if(d.value.includes('url('))d.value=rewrite(d.value);d.important=false;});sheet.walkAtRules(a=>{if(a.name==='font-face' && a.toString().includes('src:none'))a.remove();});sheet.walkRules(r=>r.raws.before='\n');out.append(sheet.nodes);}
+});sheet.walkDecls(d=>{if(d.prop==='font-family'&&d.value.includes('Poppins'))d.value=d.value.replace(/Poppins/g,'CBPoppins');if(d.value.includes('url('))d.value=rewrite(d.value);d.important=false;});sheet.walkAtRules(a=>{if(a.name==='font-face' && a.toString().includes('src:none'))a.remove();});sheet.walkRules(r=>r.raws.before='\n');out.append(sheet.nodes);}
 fs.writeFileSync(path.join(root,'src/css/components/_collegium-balticum-source.scss'),out.toString());

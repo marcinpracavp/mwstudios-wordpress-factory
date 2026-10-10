@@ -1,7 +1,7 @@
 // Client-only corrections to captured geometry and accessible controls.
 
 .cb-site {
-  font-family: Poppins, sans-serif; background: white; color: #231f20;
+  font-family: CBPoppins, sans-serif; background: white; color: #222;
   main#main-content { margin: 0; padding: 0; }
   [hidden] { display: none !important; }
   *, *::before, *::after { box-sizing: border-box; }
@@ -44,8 +44,8 @@
 }
 @media (max-width: 1220px) {
  .cb-site {
-   .cb-header .main-menu { display: none; position: static; transform: none; width: 100%; height: auto; max-height: 70vh; overflow-y: auto; }
-   .cb-header .main-menu.cb-open { display: block; }
+   .cb-header #cb-navigation { display: none; position: static; transform: none; width: 100%; height: auto; max-height: 70vh; overflow-y: auto; }
+   .cb-header #cb-navigation.cb-open { display: block; }
    .cb-header .bottom { flex-wrap: wrap; }
    .cb-header .main-menu > ul { display: block; }
    .cb-header .main-menu li .sub-menu { display: none; width: 100%; }
@@ -104,14 +104,14 @@
 .cb-site #main-content { scroll-margin-top: var(--cb-header-height, 137px); }
 
 // Keep factory typography and hidden groups from overriding the CB source components.
-.cb-site #main-content h1, .cb-site #main-content h2, .cb-site #main-content h3, .cb-site #main-content h4, .cb-site #main-content h5, .cb-site #main-content h6 { font-family: Poppins, sans-serif; }
+.cb-site #main-content h1, .cb-site #main-content h2, .cb-site #main-content h3, .cb-site #main-content h4, .cb-site #main-content h5, .cb-site #main-content h6 { font-family: CBPoppins, sans-serif; }
 .cb-site #main-content form.wpcf7-form .form-group { display: flex; }
 .cb-site header.cb-header .header-content .bottom #cb-navigation > ul > li.default-button { padding: 0 36px; }
 .cb-site header.cb-header .header-content .bottom #cb-navigation > ul > li.default-button > a { background: transparent; padding: 0; display: block; color: white; line-height: 17px; }
 .cb-site header.cb-header #cb-navigation > ul > li > .cb-submenu-toggle { position: static; width: 15px; height: 8px; padding: 0; font-size: 0; background: var(--cb-asset-b7754939fea3) center / contain no-repeat; }
 @media(max-width:1220px){.cb-site header.cb-header #cb-navigation > ul > li > .cb-submenu-toggle { margin-left: 10px; }}
 
-.cb-site #main-content h1, .cb-site #main-content h2, .cb-site #main-content h3, .cb-site #main-content h4, .cb-site #main-content h5, .cb-site #main-content h6 { letter-spacing: normal; }
+.cb-site #main-content h1, .cb-site #main-content h2, .cb-site #main-content h3, .cb-site #main-content h4, .cb-site #main-content h5, .cb-site #main-content h6 { letter-spacing: inherit; }
 
 .cb-site .banner.banner--image-only .text { min-height: 272px; }
 @media(max-width:768px){.cb-site .banner.banner--image-only .text { min-height: 124px; }}
@@ -168,4 +168,38 @@
 // The captured block layout uses one row with a 2em gap above its 782px breakpoint.
 @media(min-width:782px){
   .cb-site #main-content .wp-block-columns { flex-wrap: nowrap; align-items: normal; }
+}
+
+// Source footer headings use Poppins. Factory heading defaults were leaking
+// into the client footer and wrapping the rector email onto a second line.
+.cb-site .cb-footer h1, .cb-site .cb-footer h2, .cb-site .cb-footer h3,
+.cb-site .cb-footer h4, .cb-site .cb-footer h5, .cb-site .cb-footer h6 {
+  font-family: CBPoppins, sans-serif;
+  letter-spacing: inherit;
+}
+
+// Source biographies appear on hover. The same content is available on focus,
+// can be scrolled when enlarged, and can be dismissed with Escape.
+.cb-site .partners-content:focus-within .partners-content-overlay,
+.cb-site .partners-content:focus-within .partners-content-details { opacity: 1; }
+.cb-site .partners-content .partners-content-details { max-height: 100%; overflow-y: auto; }
+.cb-site .partners-content[data-cb-dismissed] .partners-content-overlay,
+.cb-site .partners-content[data-cb-dismissed] .partners-content-details { opacity: 0; }
+
+// Preserve source letter spacing where it is explicitly set on section titles.
+.cb-site #main-content .section-title h2,
+.cb-site #main-content .section-title h5,
+.cb-site #main-content .slider .box .title { letter-spacing: .05em; }
+.cb-site .cb-footer .footer-content .box .title { letter-spacing: .08em; }
+// The factory image reset turns inline footer links into block boxes. Restore
+// the source flow; keep the long rector email on one line only on desktop.
+.cb-site .cb-footer img { display: inline; }
+// Factory WordPress image spacing adds 20px beneath each source CTA image.
+// The original footer has no alignnone margins.
+.cb-site .cb-footer img.alignnone { margin: 0; }
+@media(min-width:1221px){.cb-site .cb-footer .addresses h5 a { overflow-wrap: normal; }}
+@media(min-width:1221px){.cb-site .cb-footer .addresses h5 a.cb-wrap-mail { overflow-wrap: anywhere; }}
+@media(prefers-reduced-motion:reduce){
+  .cb-site .partners-content .partners-content-overlay,
+  .cb-site .partners-content .partners-content-details { transition: none; }
 }

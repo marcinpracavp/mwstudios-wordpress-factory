@@ -11,6 +11,7 @@
     "@babel/preset-env": "^7.23.0",
     "ajv": "^8.17.1",
     "autoprefixer": "^10.4.21",
+    "axe-core": "4.14.0",
     "babel-loader": "^9.1.3",
     "browser-sync": "^2.29.3",
     "browser-sync-webpack-plugin": "^2.4.0",
@@ -85,7 +86,9 @@
     "cb:diagnose": "node scripts/projects/collegium-balticum/diagnose-network.js",
     "cb:migrate": "node scripts/projects/collegium-balticum/migrate/provision.js",
     "cb:migrate:qa": "node scripts/projects/collegium-balticum/migrate/qa.js",
-    "cb:migrate:compare": "node scripts/projects/collegium-balticum/migrate/compare.js"
+    "cb:migrate:compare": "node scripts/projects/collegium-balticum/migrate/compare.js",
+    "cb:build": "cross-env NODE_ENV=production npx webpack --config scripts/projects/collegium-balticum/webpack.config.js --mode=production",
+    "cb:audit": "node scripts/projects/collegium-balticum/migrate/audit-4e.js"
   },
   "author": "slawinsky",
   "license": "ISC",
