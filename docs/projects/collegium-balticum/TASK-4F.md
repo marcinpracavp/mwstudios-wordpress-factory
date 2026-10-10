@@ -23,3 +23,7 @@ Blokery zamknięcia zadania 4: 21 pełnych zdjęć wymagających zatwierdzonego 
 Kod i workflow zapisano lokalnie w commicie `8c68aca`; raporty zapisane w następującym po nim commicie dokumentacyjnym. Aktywny motyw: mwstudios-wordpress-factory; ACF Pro 6.7.0.2; blog_public=0. Istniejący workflow dokumentów 38034776529 SUCCESS; nie uruchomiono nowych workflow.
 
 Główny CSS końcowego buildu CB: 1 041 167 B (gzip 139 037 B), wobec 1 038 200 B po 4E. Przyrost obejmuje aliasy semantyczne oraz scoped korekty layoutu; trzy ostrzeżenia rozmiaru pozostają, nie obniżono limitów. Pełne rozmiary/SHA plików w TASK-4F-EVIDENCE.json.
+
+## Aktualizacja po zatwierdzonym pobraniu galerii
+
+21/21 pełnych oryginałów CB-05 pobrano, zweryfikowano i zaimportowano idempotentnie. Blokada 0/21 opisana powyżej jest historyczna. [Bieżący raport i testy](TASK-4F-GALLERY-COMPLETION.md) oraz [dowody](TASK-4F-GALLERY-EVIDENCE.json). Obrazy CB-05 DONE; VISUAL_QA/WCAG_QA pozostają IN_PROGRESS.

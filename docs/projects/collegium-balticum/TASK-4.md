@@ -172,3 +172,7 @@ Commit implementacji 4E: `aa49906` (lokalny). Raporty i dowody zapisane osobno; 
 ## Aktualizacja 4F
 
 Zakończono możliwe obecnie bezpieczne korekty banerów, archiwum, galerii miniaturek, kadry, tabel i semantyki. Aktualne 38 porównań i wyniki regresji: [TASK-4F](TASK-4F.md), [wizualne](TASK-4F-VISUAL.md), [WCAG](TASK-4F-WCAG.md). Treść 19 widoków pozostaje autentyczna; pełne zdjęcia galerii CB-05 nadal 0/21, wymagają zgody na ograniczony workflow. VISUAL_QA/WCAG_QA pozostają IN_PROGRESS. Bez pushu i wdrożenia. Pozostało 803 wystąpień WCAG (796 kontrastu, 7 linków) i 42 ostrzeżenia Hx; nie liczymy 32 usuniętych ostrzeżeń Hx jako naprawionych naruszeń kontrastu. [Wymagane decyzje](TASK-4F-PM-DECISIONS.md).
+
+## Aktualizacja po zatwierdzonym pobraniu galerii
+
+21/21 pełnych oryginałów CB-05 pobrano, zweryfikowano i zaimportowano idempotentnie. Blokada 0/21 opisana powyżej jest historyczna. [Bieżący raport i testy](TASK-4F-GALLERY-COMPLETION.md) oraz [dowody](TASK-4F-GALLERY-EVIDENCE.json). Obrazy CB-05 DONE; VISUAL_QA/WCAG_QA pozostają IN_PROGRESS.

@@ -39,3 +39,7 @@ Wymagane manualne kontrole:
 - Cała nawigacja/galerie/karuzele/biografie: kolejność Tab/Shift+Tab, czytnik ekranu, kontrast focus na obrazie, rzeczywisty zoom 200/400%, adekwatność ALT z SEO. Test automatyczny tekstu 200% nie zastępuje zoom przeglądarki.
 
 Ostrzeżenia axe incomplete pozostają do ręcznego sprawdzenia; nie przyjęto ich domyślnie jako PASS.
+
+## Aktualizacja po zatwierdzonym pobraniu galerii
+
+21/21 pełnych oryginałów CB-05 pobrano, zweryfikowano i zaimportowano idempotentnie. Blokada 0/21 opisana powyżej jest historyczna. [Bieżący raport i testy](TASK-4F-GALLERY-COMPLETION.md) oraz [dowody](TASK-4F-GALLERY-EVIDENCE.json). Obrazy CB-05 DONE; VISUAL_QA/WCAG_QA pozostają IN_PROGRESS.

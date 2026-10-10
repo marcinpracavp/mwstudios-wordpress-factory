@@ -4,7 +4,6 @@ Nie wdrożono nowych kolorów ani widocznych etykiet. Wcześniejsza decyzja zach
 
 | Decyzja | Wariant / rekomendacja | Wpływ i dowód |
 | --- | --- | --- |
-| Publikacja workflow 21 zdjęć | Zgoda na push wyłącznie project/collegium-balticum i uruchomienie cb-gallery-originals.yml. Rekomendowane ograniczone pobranie, bez ponownego capture 19 stron. | Minimalne contents:read, 21 dokładnych href, HTTPS/redirect allowlist, MIME/JPEG/wymiary/SHA, 25 MiB i 30 s na plik, sekwencyjnie. Nowy workflow nie został opublikowany; push zawierający jego plik uruchomi ten ograniczony job. |
 | CTA i pozostałe teksty | A: granat #03294b, bez zmiany źródłowych teł; B: biały tekst, tła #b45d00 / #0076a3 (4,660 / 5,097:1). Rekomendacja A plus korekty pozostałych jasnych tekstów, po odbiorze podglądu. | A: orange 5.451:1, cyan 5.835:1; obecne kolory FAIL. Wizualne porównania poniżej, nie nowa referencja źródła. |
 | Linki akapitowe | Stałe podkreślenie + kontrast tekst/tło; wariant A pokazuje to w CB-03. Alternatywa: różnica link/body ≥3:1 plus hover/focus underline. | Zmiana wyglądu; 7 wykrytych wystąpień, 1.4.1. |
 | Widoczne etykiety formularza | Etykiety stale nad polami albo stale w ramce; rekomendowane nad polami. | Istniejące etykiety programmatyczne/walidacja działają, ale placeholder nie zastępuje widocznej instrukcji. Potrzebna zgoda na zmianę zatwierdzonego formularza. |
@@ -18,3 +17,5 @@ Nie wdrożono nowych kolorów ani widocznych etykiet. Wcześniejsza decyzja zach
 - [CB-03 mobile — obecny / wariant AA](/workspace/.factory-cache/live/collegium-balticum/migration/task4f/CB-03-mobile-pm-pair.png)
 - [CB-04 desktop — obecny / wariant AA](/workspace/.factory-cache/live/collegium-balticum/migration/task4f/CB-04-desktop-pm-pair.png)
 - [CB-04 mobile — obecny / wariant AA](/workspace/.factory-cache/live/collegium-balticum/migration/task4f/CB-04-mobile-pm-pair.png)
+
+Zgoda na push i pobranie zdjęć została udzielona i wykonana: workflow 38071407938 SUCCESS, 21/21 zdjęć lokalnie. Ta decyzja nie pozostaje otwarta. Pozostałe decyzje wizualne i WCAG bez zmian; [dowody](TASK-4F-GALLERY-COMPLETION.md).

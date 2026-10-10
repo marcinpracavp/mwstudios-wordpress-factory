@@ -46,3 +46,7 @@ VISUAL_QA = IN_PROGRESS. Baza fd40cf9; wszystkie źródłowe PNG/HTML są orygin
 Sześć mobilnych regresji z 4E przeanalizowano osobno: CB-01,02,13,14,15,18. Menu źródła pojawia się poza początkowym viewportem i zasłania późniejsze sekcje w pełnym screenshot; prawidłowo zamknięte lokalne menu nie jest regresją funkcjonalną. Pozostałe wskazane różnice (formularz/paginacja/karuzele/pusty banner) wymagają jawnego odbioru. Nie usunięto autentycznej treści, aby zmniejszyć procent. Analiza geometrii bazuje też na niezmienionym TASK-4E-EVIDENCE.json; część obrazów Slick ma zerowy rect klonów, dlatego same liczby geometrii nie zastępują inspekcji obrazów. Wszystkie 38 par wymagają akceptacji wizualnej.
 
 Baseline: .factory-cache/live/collegium-balticum/migration/task4f/before/. Największe wycinki: task4f/CB-*-top.png i *-detail.png (pomocnicze wycinki istniejących par, nie nowe referencje).
+
+## Aktualizacja po zatwierdzonym pobraniu galerii
+
+21/21 pełnych oryginałów CB-05 pobrano, zweryfikowano i zaimportowano idempotentnie. Blokada 0/21 opisana powyżej jest historyczna. [Bieżący raport i testy](TASK-4F-GALLERY-COMPLETION.md) oraz [dowody](TASK-4F-GALLERY-EVIDENCE.json). Obrazy CB-05 DONE; VISUAL_QA/WCAG_QA pozostają IN_PROGRESS.

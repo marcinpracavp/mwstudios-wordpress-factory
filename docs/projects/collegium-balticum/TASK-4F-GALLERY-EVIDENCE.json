@@ -1,0 +1,1583 @@
+{
+  "at": "2026-10-10T17:31:43.574Z",
+  "pushedCommit": "d1d514f2dc932a2bbef23386f406a41ca3f6d672",
+  "branch": "project/collegium-balticum",
+  "workflow": "https://github.com/marcinpracavp/mwstudios-wordpress-factory/actions/runs/38071407938",
+  "artifactId": 11676622807,
+  "archiveSha256": "3354444dd817b218d5fe57bdbe8da1127a8dc0ac8ec2dcdbe24124c877e621f2",
+  "manifestSha256": "f7b72306ca3c587cd0cc8ae5f00d0375dd896e25beaa83ba120e59d1fb35b40e",
+  "runner": {
+    "kind": "github-actions",
+    "repository": "marcinpracavp/mwstudios-wordpress-factory",
+    "runId": "38071407938",
+    "commit": "d1d514f2dc932a2bbef23386f406a41ca3f6d672"
+  },
+  "originals": [
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600023.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600023-300x400.jpg",
+      "status": "DONE",
+      "httpStatus": 200,
+      "finalUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600023.jpg",
+      "bytes": 102372,
+      "contentType": "image/jpeg",
+      "sha256": "3291989f7a2a3510a2689c4d602f9ee35f86908ebbb387de04c66a655e66793c",
+      "file": "files/3291989f7a2a3510a2689c4d602f9ee35f86908ebbb387de04c66a655e66793c.jpg",
+      "width": 675,
+      "height": 900
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600022.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600022-300x400.jpg",
+      "status": "DONE",
+      "httpStatus": 200,
+      "finalUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600022.jpg",
+      "bytes": 123027,
+      "contentType": "image/jpeg",
+      "sha256": "fb9ac09289e57ad2dc37781848e0acb4f0f91377838af336426964b8771b4b5e",
+      "file": "files/fb9ac09289e57ad2dc37781848e0acb4f0f91377838af336426964b8771b4b5e.jpg",
+      "width": 675,
+      "height": 900
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600021.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600021-300x400.jpg",
+      "status": "DONE",
+      "httpStatus": 200,
+      "finalUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600021.jpg",
+      "bytes": 97949,
+      "contentType": "image/jpeg",
+      "sha256": "9ad0b53185dc7192192ce1725af0f59a339924202bc0804bab81c32e6065b6a6",
+      "file": "files/9ad0b53185dc7192192ce1725af0f59a339924202bc0804bab81c32e6065b6a6.jpg",
+      "width": 675,
+      "height": 900
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600020.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600020-300x400.jpg",
+      "status": "DONE",
+      "httpStatus": 200,
+      "finalUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600020.jpg",
+      "bytes": 107832,
+      "contentType": "image/jpeg",
+      "sha256": "b27cbaf7e1422e81a22212cff090eaf4402eecb24bbe1d44db9f4167403d5e21",
+      "file": "files/b27cbaf7e1422e81a22212cff090eaf4402eecb24bbe1d44db9f4167403d5e21.jpg",
+      "width": 675,
+      "height": 900
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600019.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600019-300x400.jpg",
+      "status": "DONE",
+      "httpStatus": 200,
+      "finalUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600019.jpg",
+      "bytes": 98836,
+      "contentType": "image/jpeg",
+      "sha256": "6d9e9cf4c77df6a15b6483f169d1790683c49781063de63fd58f5b71baa8635e",
+      "file": "files/6d9e9cf4c77df6a15b6483f169d1790683c49781063de63fd58f5b71baa8635e.jpg",
+      "width": 675,
+      "height": 900
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600016.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600016-267x400.jpg",
+      "status": "DONE",
+      "httpStatus": 200,
+      "finalUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600016.jpg",
+      "bytes": 116849,
+      "contentType": "image/jpeg",
+      "sha256": "e283096c61b234f3f35693d859b88377dc373021f2b273a4843bc1987fb36c63",
+      "file": "files/e283096c61b234f3f35693d859b88377dc373021f2b273a4843bc1987fb36c63.jpg",
+      "width": 600,
+      "height": 900
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600015.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600015-400x267.jpg",
+      "status": "DONE",
+      "httpStatus": 200,
+      "finalUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600015.jpg",
+      "bytes": 175970,
+      "contentType": "image/jpeg",
+      "sha256": "d01ab7c1dfe92f61517a4117f928357784452069488a21e2ee1b4accd7db6323",
+      "file": "files/d01ab7c1dfe92f61517a4117f928357784452069488a21e2ee1b4accd7db6323.jpg",
+      "width": 1200,
+      "height": 800
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600014.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600014-400x267.jpg",
+      "status": "DONE",
+      "httpStatus": 200,
+      "finalUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600014.jpg",
+      "bytes": 145237,
+      "contentType": "image/jpeg",
+      "sha256": "01609eb78582ca25f4ae742dbe2dc35628913db56bab10fab15f01d69b3c83a4",
+      "file": "files/01609eb78582ca25f4ae742dbe2dc35628913db56bab10fab15f01d69b3c83a4.jpg",
+      "width": 1200,
+      "height": 800
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600013.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600013-267x400.jpg",
+      "status": "DONE",
+      "httpStatus": 200,
+      "finalUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600013.jpg",
+      "bytes": 107726,
+      "contentType": "image/jpeg",
+      "sha256": "f63651bf21b334cfd6118c4d352f53bd6929c86af2191c837f1b9ef175501cec",
+      "file": "files/f63651bf21b334cfd6118c4d352f53bd6929c86af2191c837f1b9ef175501cec.jpg",
+      "width": 600,
+      "height": 900
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600012.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600012-267x400.jpg",
+      "status": "DONE",
+      "httpStatus": 200,
+      "finalUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600012.jpg",
+      "bytes": 75577,
+      "contentType": "image/jpeg",
+      "sha256": "aa39d822b7f82cbc44230b3b1c60a72881b7ef896cdcefab48231b59a21951e0",
+      "file": "files/aa39d822b7f82cbc44230b3b1c60a72881b7ef896cdcefab48231b59a21951e0.jpg",
+      "width": 600,
+      "height": 900
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600011.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600011-400x267.jpg",
+      "status": "DONE",
+      "httpStatus": 200,
+      "finalUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600011.jpg",
+      "bytes": 174962,
+      "contentType": "image/jpeg",
+      "sha256": "c811de90f5d7831c8db6fa4d97ce520382b146203ed8a58716841b2bef3c890e",
+      "file": "files/c811de90f5d7831c8db6fa4d97ce520382b146203ed8a58716841b2bef3c890e.jpg",
+      "width": 1200,
+      "height": 800
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600010.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600010-400x267.jpg",
+      "status": "DONE",
+      "httpStatus": 200,
+      "finalUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600010.jpg",
+      "bytes": 164473,
+      "contentType": "image/jpeg",
+      "sha256": "3f11234d31e04a2a700c87d4aaf1e9262543c7dc173c912e926ec13c1deeac52",
+      "file": "files/3f11234d31e04a2a700c87d4aaf1e9262543c7dc173c912e926ec13c1deeac52.jpg",
+      "width": 1200,
+      "height": 800
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600009.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600009-267x400.jpg",
+      "status": "DONE",
+      "httpStatus": 200,
+      "finalUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600009.jpg",
+      "bytes": 127478,
+      "contentType": "image/jpeg",
+      "sha256": "b66cfbb7fe25aa529d0ea4514d3de1dc16ba7dca492353de0c09ad34aab59bce",
+      "file": "files/b66cfbb7fe25aa529d0ea4514d3de1dc16ba7dca492353de0c09ad34aab59bce.jpg",
+      "width": 600,
+      "height": 900
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600008.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600008-267x400.jpg",
+      "status": "DONE",
+      "httpStatus": 200,
+      "finalUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600008.jpg",
+      "bytes": 136603,
+      "contentType": "image/jpeg",
+      "sha256": "76e11d6d42eb9d25602d3d6351a49d64fade119613da5f4422435c0da9421cd4",
+      "file": "files/76e11d6d42eb9d25602d3d6351a49d64fade119613da5f4422435c0da9421cd4.jpg",
+      "width": 600,
+      "height": 900
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600007.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600007-267x400.jpg",
+      "status": "DONE",
+      "httpStatus": 200,
+      "finalUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600007.jpg",
+      "bytes": 101322,
+      "contentType": "image/jpeg",
+      "sha256": "2f6d1334050b52e0815ffc62f79aacae89e1d555c06ed4dda5018fcdc90f5789",
+      "file": "files/2f6d1334050b52e0815ffc62f79aacae89e1d555c06ed4dda5018fcdc90f5789.jpg",
+      "width": 600,
+      "height": 900
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600006.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600006-267x400.jpg",
+      "status": "DONE",
+      "httpStatus": 200,
+      "finalUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600006.jpg",
+      "bytes": 101175,
+      "contentType": "image/jpeg",
+      "sha256": "2a8e2916a586b97602871ec9d39aab7fcf6cf889c329a45531b592b0262fc01f",
+      "file": "files/2a8e2916a586b97602871ec9d39aab7fcf6cf889c329a45531b592b0262fc01f.jpg",
+      "width": 600,
+      "height": 900
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600005.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600005-267x400.jpg",
+      "status": "DONE",
+      "httpStatus": 200,
+      "finalUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600005.jpg",
+      "bytes": 86540,
+      "contentType": "image/jpeg",
+      "sha256": "3b7f6cf747e198a7bd9d9a502697b793d0baca8e8a5175df924fd94ac0777543",
+      "file": "files/3b7f6cf747e198a7bd9d9a502697b793d0baca8e8a5175df924fd94ac0777543.jpg",
+      "width": 600,
+      "height": 900
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600004.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600004-400x267.jpg",
+      "status": "DONE",
+      "httpStatus": 200,
+      "finalUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600004.jpg",
+      "bytes": 243998,
+      "contentType": "image/jpeg",
+      "sha256": "1ec31724c33255ca875c67ce1bdf075677b24af85f67243e75dcaf6c14d4f4d1",
+      "file": "files/1ec31724c33255ca875c67ce1bdf075677b24af85f67243e75dcaf6c14d4f4d1.jpg",
+      "width": 1200,
+      "height": 800
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600003.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600003-400x267.jpg",
+      "status": "DONE",
+      "httpStatus": 200,
+      "finalUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600003.jpg",
+      "bytes": 138305,
+      "contentType": "image/jpeg",
+      "sha256": "e8142245fa858cec58b9313a5a0a8b507e7fd404c59a7dbc7efef9d0872a389a",
+      "file": "files/e8142245fa858cec58b9313a5a0a8b507e7fd404c59a7dbc7efef9d0872a389a.jpg",
+      "width": 1200,
+      "height": 800
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600002.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600002-400x267.jpg",
+      "status": "DONE",
+      "httpStatus": 200,
+      "finalUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600002.jpg",
+      "bytes": 271979,
+      "contentType": "image/jpeg",
+      "sha256": "77dca920c296ff0449e5c7089e3feb7c4e6f11e126b0b1cbc5c0eeabb344bae7",
+      "file": "files/77dca920c296ff0449e5c7089e3feb7c4e6f11e126b0b1cbc5c0eeabb344bae7.jpg",
+      "width": 1200,
+      "height": 800
+    },
+    {
+      "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600001.jpg",
+      "thumbnailSource": "https://cdn-abddj.nitrocdn.com/RdTkuLxaFTEFJPCSBUpnwLgHtsuVqFLa/assets/images/optimized/rev-779d533/www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600001-267x400.jpg",
+      "status": "DONE",
+      "httpStatus": 200,
+      "finalUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600001.jpg",
+      "bytes": 113179,
+      "contentType": "image/jpeg",
+      "sha256": "a64471cce3b8042c4601c9d53923223951971e7a9a519dcb41357fb353a076a6",
+      "file": "files/a64471cce3b8042c4601c9d53923223951971e7a9a519dcb41357fb353a076a6.jpg",
+      "width": 600,
+      "height": 900
+    }
+  ],
+  "idempotence": {
+    "first": {
+      "attachments": "324",
+      "galleryIds": [
+        1838,
+        1839,
+        1840,
+        1841,
+        1842,
+        1843,
+        1844,
+        1845,
+        1846,
+        1847,
+        1848,
+        1849,
+        1850,
+        1851,
+        1852,
+        1853,
+        1854,
+        1855,
+        1856,
+        1857,
+        1858
+      ],
+      "galleryHash": "ceee199ec56703a230b81ff436d0f782a11ceda7ad1d689c7341878c9dae951e",
+      "documentsHash": "d5d9c1f3a5b530fb328acff332e7bb39ec1ac4ac7a7f7a2e46fe82ed05ce7238"
+    },
+    "second": {
+      "attachments": "324",
+      "galleryIds": [
+        1838,
+        1839,
+        1840,
+        1841,
+        1842,
+        1843,
+        1844,
+        1845,
+        1846,
+        1847,
+        1848,
+        1849,
+        1850,
+        1851,
+        1852,
+        1853,
+        1854,
+        1855,
+        1856,
+        1857,
+        1858
+      ],
+      "galleryHash": "ceee199ec56703a230b81ff436d0f782a11ceda7ad1d689c7341878c9dae951e",
+      "documentsHash": "d5d9c1f3a5b530fb328acff332e7bb39ec1ac4ac7a7f7a2e46fe82ed05ce7238"
+    },
+    "identical": true,
+    "beforeAttachments": 303,
+    "afterAttachments": 324,
+    "documentsHashUnchanged": true
+  },
+  "qa": {
+    "at": "2026-10-10T17:30:12.543Z",
+    "manifestSha256": "f7b72306ca3c587cd0cc8ae5f00d0375dd896e25beaa83ba120e59d1fb35b40e",
+    "runner": {
+      "kind": "github-actions",
+      "repository": "marcinpracavp/mwstudios-wordpress-factory",
+      "runId": "38071407938",
+      "commit": "d1d514f2dc932a2bbef23386f406a41ca3f6d672"
+    },
+    "wordpress": {
+      "rows": [
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600023.jpg",
+          "id": 1838,
+          "type": "attachment",
+          "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600023.jpg",
+          "sha256": "3291989f7a2a3510a2689c4d602f9ee35f86908ebbb387de04c66a655e66793c",
+          "width": 675,
+          "height": 900,
+          "alt": "Powiększ zdjęcie w galerii",
+          "thumbnails": [
+            {
+              "id": 145,
+              "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600023-225x300-8339d80e21.webp",
+              "alt": "Powiększ zdjęcie w galerii"
+            }
+          ]
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600022.jpg",
+          "id": 1839,
+          "type": "attachment",
+          "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600022.jpg",
+          "sha256": "fb9ac09289e57ad2dc37781848e0acb4f0f91377838af336426964b8771b4b5e",
+          "width": 675,
+          "height": 900,
+          "alt": "Powiększ zdjęcie w galerii",
+          "thumbnails": [
+            {
+              "id": 146,
+              "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600022-225x300-41fee30a5e.webp",
+              "alt": "Powiększ zdjęcie w galerii"
+            }
+          ]
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600021.jpg",
+          "id": 1840,
+          "type": "attachment",
+          "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600021.jpg",
+          "sha256": "9ad0b53185dc7192192ce1725af0f59a339924202bc0804bab81c32e6065b6a6",
+          "width": 675,
+          "height": 900,
+          "alt": "Powiększ zdjęcie w galerii",
+          "thumbnails": [
+            {
+              "id": 152,
+              "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600021-225x300-b5315cc564.webp",
+              "alt": "Powiększ zdjęcie w galerii"
+            }
+          ]
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600020.jpg",
+          "id": 1841,
+          "type": "attachment",
+          "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600020.jpg",
+          "sha256": "b27cbaf7e1422e81a22212cff090eaf4402eecb24bbe1d44db9f4167403d5e21",
+          "width": 675,
+          "height": 900,
+          "alt": "Powiększ zdjęcie w galerii",
+          "thumbnails": [
+            {
+              "id": 168,
+              "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600020-225x300-6fc2d30fa0.webp",
+              "alt": "Powiększ zdjęcie w galerii"
+            }
+          ]
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600019.jpg",
+          "id": 1842,
+          "type": "attachment",
+          "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600019.jpg",
+          "sha256": "6d9e9cf4c77df6a15b6483f169d1790683c49781063de63fd58f5b71baa8635e",
+          "width": 675,
+          "height": 900,
+          "alt": "Powiększ zdjęcie w galerii",
+          "thumbnails": [
+            {
+              "id": 150,
+              "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600019-225x300-782f954546.webp",
+              "alt": "Powiększ zdjęcie w galerii"
+            }
+          ]
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600016.jpg",
+          "id": 1843,
+          "type": "attachment",
+          "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600016.jpg",
+          "sha256": "e283096c61b234f3f35693d859b88377dc373021f2b273a4843bc1987fb36c63",
+          "width": 600,
+          "height": 900,
+          "alt": "Powiększ zdjęcie w galerii",
+          "thumbnails": [
+            {
+              "id": 154,
+              "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600016-200x300-63824a226f.webp",
+              "alt": "Powiększ zdjęcie w galerii"
+            }
+          ]
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600015.jpg",
+          "id": 1844,
+          "type": "attachment",
+          "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600015.jpg",
+          "sha256": "d01ab7c1dfe92f61517a4117f928357784452069488a21e2ee1b4accd7db6323",
+          "width": 1200,
+          "height": 800,
+          "alt": "Powiększ zdjęcie w galerii",
+          "thumbnails": [
+            {
+              "id": 148,
+              "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600015-300x200-768aa45a6f.webp",
+              "alt": "Powiększ zdjęcie w galerii"
+            }
+          ]
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600014.jpg",
+          "id": 1845,
+          "type": "attachment",
+          "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600014.jpg",
+          "sha256": "01609eb78582ca25f4ae742dbe2dc35628913db56bab10fab15f01d69b3c83a4",
+          "width": 1200,
+          "height": 800,
+          "alt": "Powiększ zdjęcie w galerii",
+          "thumbnails": [
+            {
+              "id": 149,
+              "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600014-300x200-e0e56b01a2.webp",
+              "alt": "Powiększ zdjęcie w galerii"
+            }
+          ]
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600013.jpg",
+          "id": 1846,
+          "type": "attachment",
+          "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600013.jpg",
+          "sha256": "f63651bf21b334cfd6118c4d352f53bd6929c86af2191c837f1b9ef175501cec",
+          "width": 600,
+          "height": 900,
+          "alt": "Powiększ zdjęcie w galerii",
+          "thumbnails": [
+            {
+              "id": 147,
+              "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600013-200x300-cc8891f2ae.webp",
+              "alt": "Powiększ zdjęcie w galerii"
+            }
+          ]
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600012.jpg",
+          "id": 1847,
+          "type": "attachment",
+          "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600012.jpg",
+          "sha256": "aa39d822b7f82cbc44230b3b1c60a72881b7ef896cdcefab48231b59a21951e0",
+          "width": 600,
+          "height": 900,
+          "alt": "Powiększ zdjęcie w galerii",
+          "thumbnails": [
+            {
+              "id": 166,
+              "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600012-200x300-9063c53132.webp",
+              "alt": "Powiększ zdjęcie w galerii"
+            }
+          ]
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600011.jpg",
+          "id": 1848,
+          "type": "attachment",
+          "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600011.jpg",
+          "sha256": "c811de90f5d7831c8db6fa4d97ce520382b146203ed8a58716841b2bef3c890e",
+          "width": 1200,
+          "height": 800,
+          "alt": "Powiększ zdjęcie w galerii",
+          "thumbnails": [
+            {
+              "id": 162,
+              "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600011-300x200-523bb72072.webp",
+              "alt": "Powiększ zdjęcie w galerii"
+            }
+          ]
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600010.jpg",
+          "id": 1849,
+          "type": "attachment",
+          "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600010.jpg",
+          "sha256": "3f11234d31e04a2a700c87d4aaf1e9262543c7dc173c912e926ec13c1deeac52",
+          "width": 1200,
+          "height": 800,
+          "alt": "Powiększ zdjęcie w galerii",
+          "thumbnails": [
+            {
+              "id": 167,
+              "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600010-300x200-956cf45116.webp",
+              "alt": "Powiększ zdjęcie w galerii"
+            }
+          ]
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600009.jpg",
+          "id": 1850,
+          "type": "attachment",
+          "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600009.jpg",
+          "sha256": "b66cfbb7fe25aa529d0ea4514d3de1dc16ba7dca492353de0c09ad34aab59bce",
+          "width": 600,
+          "height": 900,
+          "alt": "Powiększ zdjęcie w galerii",
+          "thumbnails": [
+            {
+              "id": 151,
+              "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600009-200x300-0b2cb0011a.webp",
+              "alt": "Powiększ zdjęcie w galerii"
+            }
+          ]
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600008.jpg",
+          "id": 1851,
+          "type": "attachment",
+          "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600008.jpg",
+          "sha256": "76e11d6d42eb9d25602d3d6351a49d64fade119613da5f4422435c0da9421cd4",
+          "width": 600,
+          "height": 900,
+          "alt": "Powiększ zdjęcie w galerii",
+          "thumbnails": [
+            {
+              "id": 153,
+              "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600008-200x300-c20d697a57.webp",
+              "alt": "Powiększ zdjęcie w galerii"
+            }
+          ]
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600007.jpg",
+          "id": 1852,
+          "type": "attachment",
+          "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600007.jpg",
+          "sha256": "2f6d1334050b52e0815ffc62f79aacae89e1d555c06ed4dda5018fcdc90f5789",
+          "width": 600,
+          "height": 900,
+          "alt": "Powiększ zdjęcie w galerii",
+          "thumbnails": [
+            {
+              "id": 155,
+              "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600007-200x300-c37c8b869a.webp",
+              "alt": "Powiększ zdjęcie w galerii"
+            }
+          ]
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600006.jpg",
+          "id": 1853,
+          "type": "attachment",
+          "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600006.jpg",
+          "sha256": "2a8e2916a586b97602871ec9d39aab7fcf6cf889c329a45531b592b0262fc01f",
+          "width": 600,
+          "height": 900,
+          "alt": "Powiększ zdjęcie w galerii",
+          "thumbnails": [
+            {
+              "id": 159,
+              "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600006-200x300-27e872f209.webp",
+              "alt": "Powiększ zdjęcie w galerii"
+            }
+          ]
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600005.jpg",
+          "id": 1854,
+          "type": "attachment",
+          "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600005.jpg",
+          "sha256": "3b7f6cf747e198a7bd9d9a502697b793d0baca8e8a5175df924fd94ac0777543",
+          "width": 600,
+          "height": 900,
+          "alt": "Powiększ zdjęcie w galerii",
+          "thumbnails": [
+            {
+              "id": 157,
+              "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600005-200x300-b1d31bd45c.webp",
+              "alt": "Powiększ zdjęcie w galerii"
+            }
+          ]
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600004.jpg",
+          "id": 1855,
+          "type": "attachment",
+          "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600004.jpg",
+          "sha256": "1ec31724c33255ca875c67ce1bdf075677b24af85f67243e75dcaf6c14d4f4d1",
+          "width": 1200,
+          "height": 800,
+          "alt": "Powiększ zdjęcie w galerii",
+          "thumbnails": [
+            {
+              "id": 164,
+              "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600004-300x200-e8e189171d.webp",
+              "alt": "Powiększ zdjęcie w galerii"
+            }
+          ]
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600003.jpg",
+          "id": 1856,
+          "type": "attachment",
+          "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600003.jpg",
+          "sha256": "e8142245fa858cec58b9313a5a0a8b507e7fd404c59a7dbc7efef9d0872a389a",
+          "width": 1200,
+          "height": 800,
+          "alt": "Powiększ zdjęcie w galerii",
+          "thumbnails": [
+            {
+              "id": 165,
+              "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600003-300x200-16d79cfe59.webp",
+              "alt": "Powiększ zdjęcie w galerii"
+            }
+          ]
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600002.jpg",
+          "id": 1857,
+          "type": "attachment",
+          "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600002.jpg",
+          "sha256": "77dca920c296ff0449e5c7089e3feb7c4e6f11e126b0b1cbc5c0eeabb344bae7",
+          "width": 1200,
+          "height": 800,
+          "alt": "Powiększ zdjęcie w galerii",
+          "thumbnails": [
+            {
+              "id": 160,
+              "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600002-300x200-91c2ad8f55.webp",
+              "alt": "Powiększ zdjęcie w galerii"
+            }
+          ]
+        },
+        {
+          "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600001.jpg",
+          "id": 1858,
+          "type": "attachment",
+          "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600001.jpg",
+          "sha256": "a64471cce3b8042c4601c9d53923223951971e7a9a519dcb41357fb353a076a6",
+          "width": 600,
+          "height": 900,
+          "alt": "Powiększ zdjęcie w galerii",
+          "thumbnails": [
+            {
+              "id": 161,
+              "url": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600001-200x300-57dc802217.webp",
+              "alt": "Powiększ zdjęcie w galerii"
+            }
+          ]
+        }
+      ],
+      "attachments": 324,
+      "galleryHash": "ceee199ec56703a230b81ff436d0f782a11ceda7ad1d689c7341878c9dae951e",
+      "documentsHash": "d5d9c1f3a5b530fb328acff332e7bb39ec1ac4ac7a7f7a2e46fe82ed05ce7238"
+    },
+    "checks": [
+      {
+        "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600023.jpg",
+        "id": 1838,
+        "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600023.jpg",
+        "httpStatus": 200,
+        "bytes": 102372,
+        "sha256": "3291989f7a2a3510a2689c4d602f9ee35f86908ebbb387de04c66a655e66793c",
+        "width": 675,
+        "height": 900
+      },
+      {
+        "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600022.jpg",
+        "id": 1839,
+        "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600022.jpg",
+        "httpStatus": 200,
+        "bytes": 123027,
+        "sha256": "fb9ac09289e57ad2dc37781848e0acb4f0f91377838af336426964b8771b4b5e",
+        "width": 675,
+        "height": 900
+      },
+      {
+        "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600021.jpg",
+        "id": 1840,
+        "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600021.jpg",
+        "httpStatus": 200,
+        "bytes": 97949,
+        "sha256": "9ad0b53185dc7192192ce1725af0f59a339924202bc0804bab81c32e6065b6a6",
+        "width": 675,
+        "height": 900
+      },
+      {
+        "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600020.jpg",
+        "id": 1841,
+        "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600020.jpg",
+        "httpStatus": 200,
+        "bytes": 107832,
+        "sha256": "b27cbaf7e1422e81a22212cff090eaf4402eecb24bbe1d44db9f4167403d5e21",
+        "width": 675,
+        "height": 900
+      },
+      {
+        "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600019.jpg",
+        "id": 1842,
+        "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600019.jpg",
+        "httpStatus": 200,
+        "bytes": 98836,
+        "sha256": "6d9e9cf4c77df6a15b6483f169d1790683c49781063de63fd58f5b71baa8635e",
+        "width": 675,
+        "height": 900
+      },
+      {
+        "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600016.jpg",
+        "id": 1843,
+        "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600016.jpg",
+        "httpStatus": 200,
+        "bytes": 116849,
+        "sha256": "e283096c61b234f3f35693d859b88377dc373021f2b273a4843bc1987fb36c63",
+        "width": 600,
+        "height": 900
+      },
+      {
+        "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600015.jpg",
+        "id": 1844,
+        "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600015.jpg",
+        "httpStatus": 200,
+        "bytes": 175970,
+        "sha256": "d01ab7c1dfe92f61517a4117f928357784452069488a21e2ee1b4accd7db6323",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600014.jpg",
+        "id": 1845,
+        "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600014.jpg",
+        "httpStatus": 200,
+        "bytes": 145237,
+        "sha256": "01609eb78582ca25f4ae742dbe2dc35628913db56bab10fab15f01d69b3c83a4",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600013.jpg",
+        "id": 1846,
+        "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600013.jpg",
+        "httpStatus": 200,
+        "bytes": 107726,
+        "sha256": "f63651bf21b334cfd6118c4d352f53bd6929c86af2191c837f1b9ef175501cec",
+        "width": 600,
+        "height": 900
+      },
+      {
+        "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600012.jpg",
+        "id": 1847,
+        "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600012.jpg",
+        "httpStatus": 200,
+        "bytes": 75577,
+        "sha256": "aa39d822b7f82cbc44230b3b1c60a72881b7ef896cdcefab48231b59a21951e0",
+        "width": 600,
+        "height": 900
+      },
+      {
+        "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600011.jpg",
+        "id": 1848,
+        "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600011.jpg",
+        "httpStatus": 200,
+        "bytes": 174962,
+        "sha256": "c811de90f5d7831c8db6fa4d97ce520382b146203ed8a58716841b2bef3c890e",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600010.jpg",
+        "id": 1849,
+        "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600010.jpg",
+        "httpStatus": 200,
+        "bytes": 164473,
+        "sha256": "3f11234d31e04a2a700c87d4aaf1e9262543c7dc173c912e926ec13c1deeac52",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600009.jpg",
+        "id": 1850,
+        "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600009.jpg",
+        "httpStatus": 200,
+        "bytes": 127478,
+        "sha256": "b66cfbb7fe25aa529d0ea4514d3de1dc16ba7dca492353de0c09ad34aab59bce",
+        "width": 600,
+        "height": 900
+      },
+      {
+        "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600008.jpg",
+        "id": 1851,
+        "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600008.jpg",
+        "httpStatus": 200,
+        "bytes": 136603,
+        "sha256": "76e11d6d42eb9d25602d3d6351a49d64fade119613da5f4422435c0da9421cd4",
+        "width": 600,
+        "height": 900
+      },
+      {
+        "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600007.jpg",
+        "id": 1852,
+        "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600007.jpg",
+        "httpStatus": 200,
+        "bytes": 101322,
+        "sha256": "2f6d1334050b52e0815ffc62f79aacae89e1d555c06ed4dda5018fcdc90f5789",
+        "width": 600,
+        "height": 900
+      },
+      {
+        "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600006.jpg",
+        "id": 1853,
+        "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600006.jpg",
+        "httpStatus": 200,
+        "bytes": 101175,
+        "sha256": "2a8e2916a586b97602871ec9d39aab7fcf6cf889c329a45531b592b0262fc01f",
+        "width": 600,
+        "height": 900
+      },
+      {
+        "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600005.jpg",
+        "id": 1854,
+        "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600005.jpg",
+        "httpStatus": 200,
+        "bytes": 86540,
+        "sha256": "3b7f6cf747e198a7bd9d9a502697b793d0baca8e8a5175df924fd94ac0777543",
+        "width": 600,
+        "height": 900
+      },
+      {
+        "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600004.jpg",
+        "id": 1855,
+        "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600004.jpg",
+        "httpStatus": 200,
+        "bytes": 243998,
+        "sha256": "1ec31724c33255ca875c67ce1bdf075677b24af85f67243e75dcaf6c14d4f4d1",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600003.jpg",
+        "id": 1856,
+        "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600003.jpg",
+        "httpStatus": 200,
+        "bytes": 138305,
+        "sha256": "e8142245fa858cec58b9313a5a0a8b507e7fd404c59a7dbc7efef9d0872a389a",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600002.jpg",
+        "id": 1857,
+        "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600002.jpg",
+        "httpStatus": 200,
+        "bytes": 271979,
+        "sha256": "77dca920c296ff0449e5c7089e3feb7c4e6f11e126b0b1cbc5c0eeabb344bae7",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "sourceUrl": "https://www.cb.szczecin.pl/wp-content/uploads/2026/03/cbdniotwarte2600001.jpg",
+        "id": 1858,
+        "localUrl": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600001.jpg",
+        "httpStatus": 200,
+        "bytes": 113179,
+        "sha256": "a64471cce3b8042c4601c9d53923223951971e7a9a519dcb41357fb353a076a6",
+        "width": 600,
+        "height": 900
+      }
+    ],
+    "views": [
+      {
+        "view": "desktop",
+        "images": [
+          {
+            "index": 0,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600023.jpg",
+            "width": 675,
+            "height": 900,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 1,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600022.jpg",
+            "width": 675,
+            "height": 900,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 2,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600021.jpg",
+            "width": 675,
+            "height": 900,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 3,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600020.jpg",
+            "width": 675,
+            "height": 900,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 4,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600019.jpg",
+            "width": 675,
+            "height": 900,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 5,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600016.jpg",
+            "width": 600,
+            "height": 900,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 6,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600015.jpg",
+            "width": 1200,
+            "height": 800,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 7,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600014.jpg",
+            "width": 1200,
+            "height": 800,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 8,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600013.jpg",
+            "width": 600,
+            "height": 900,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 9,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600012.jpg",
+            "width": 600,
+            "height": 900,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 10,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600011.jpg",
+            "width": 1200,
+            "height": 800,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 11,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600010.jpg",
+            "width": 1200,
+            "height": 800,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 12,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600009.jpg",
+            "width": 600,
+            "height": 900,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 13,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600008.jpg",
+            "width": 600,
+            "height": 900,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 14,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600007.jpg",
+            "width": 600,
+            "height": 900,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 15,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600006.jpg",
+            "width": 600,
+            "height": 900,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 16,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600005.jpg",
+            "width": 600,
+            "height": 900,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 17,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600004.jpg",
+            "width": 1200,
+            "height": 800,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 18,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600003.jpg",
+            "width": 1200,
+            "height": 800,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 19,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600002.jpg",
+            "width": 1200,
+            "height": 800,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 20,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600001.jpg",
+            "width": 600,
+            "height": 900,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          }
+        ],
+        "errors": []
+      },
+      {
+        "view": "mobile",
+        "images": [
+          {
+            "index": 0,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600023.jpg",
+            "width": 675,
+            "height": 900,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 1,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600022.jpg",
+            "width": 675,
+            "height": 900,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 2,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600021.jpg",
+            "width": 675,
+            "height": 900,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 3,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600020.jpg",
+            "width": 675,
+            "height": 900,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 4,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600019.jpg",
+            "width": 675,
+            "height": 900,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 5,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600016.jpg",
+            "width": 600,
+            "height": 900,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 6,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600015.jpg",
+            "width": 1200,
+            "height": 800,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 7,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600014.jpg",
+            "width": 1200,
+            "height": 800,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 8,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600013.jpg",
+            "width": 600,
+            "height": 900,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 9,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600012.jpg",
+            "width": 600,
+            "height": 900,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 10,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600011.jpg",
+            "width": 1200,
+            "height": 800,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 11,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600010.jpg",
+            "width": 1200,
+            "height": 800,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 12,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600009.jpg",
+            "width": 600,
+            "height": 900,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 13,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600008.jpg",
+            "width": 600,
+            "height": 900,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 14,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600007.jpg",
+            "width": 600,
+            "height": 900,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 15,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600006.jpg",
+            "width": 600,
+            "height": 900,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 16,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600005.jpg",
+            "width": 600,
+            "height": 900,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 17,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600004.jpg",
+            "width": 1200,
+            "height": 800,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 18,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600003.jpg",
+            "width": 1200,
+            "height": 800,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 19,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600002.jpg",
+            "width": 1200,
+            "height": 800,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          },
+          {
+            "index": 20,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600001.jpg",
+            "width": 600,
+            "height": 900,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          }
+        ],
+        "errors": []
+      },
+      {
+        "view": "narrow",
+        "images": [
+          {
+            "index": 0,
+            "src": "http://localhost:8000/wp-content/uploads/2026/10/cbdniotwarte2600023.jpg",
+            "width": 675,
+            "height": 900,
+            "enter": true,
+            "arrows": true,
+            "escape": true,
+            "focusReturns": true,
+            "thumbnailUnchanged": true,
+            "fitsViewport": true
+          }
+        ],
+        "errors": []
+      }
+    ]
+  },
+  "visual": [
+    {
+      "view": "desktop",
+      "beforeRatio": 0.06984323083854255,
+      "afterRatio": 0.06984323083854255,
+      "screenshotUnchanged": true,
+      "sourceSha256": "db5a7c42c6c65eec646ef678b3438921cf05007b7e75f5fd2142b591a71a2572",
+      "localSha256": "61b108d57e38b0c2f6b5bc602fde8efbf4b4a60d0748a0ebdce3dbf1998f8c72",
+      "screenshot": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-05-desktop.png",
+      "paths": {
+        "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-05-desktop-pair.png",
+        "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-05-desktop-overlay.png",
+        "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-05-desktop-diff.png"
+      }
+    },
+    {
+      "view": "mobile",
+      "beforeRatio": 0.12323950259129988,
+      "afterRatio": 0.12323950259129988,
+      "screenshotUnchanged": true,
+      "sourceSha256": "220d7e93efd2af176ac203bdc86ef4270efb04f376f3398fa755ba7e51312fdd",
+      "localSha256": "25b132369b73b489cc7191224d196f6d6ee0c2ab543b9678570b088897f24707",
+      "screenshot": "/workspace/.factory-cache/live/collegium-balticum/migration/qa/CB-05-mobile.png",
+      "paths": {
+        "pair": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-05-mobile-pair.png",
+        "overlay": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-05-mobile-overlay.png",
+        "diff": "/workspace/.factory-cache/live/collegium-balticum/migration/comparisons/CB-05-mobile-diff.png"
+      }
+    }
+  ],
+  "documentSummary": {
+    "mappings": 37,
+    "uniqueAttachments": 35,
+    "links": 43
+  },
+  "localLinks": {
+    "count": 99,
+    "failed": 0
+  },
+  "wcagOccurrences": {
+    "color-contrast": 796,
+    "link-in-text-block": 7
+  },
+  "logs": [
+    {
+      "path": "/workspace/.factory-cache/live/collegium-balticum/migration/task4f/gallery-completion/build.log",
+      "sha256": "d15bce566c700724bce93adba1afb8f319855ee824f97f4d219b8c0d026c2a5e"
+    },
+    {
+      "path": "/workspace/.factory-cache/live/collegium-balticum/migration/task4f/gallery-completion/factory-build.log",
+      "sha256": "a692d8a8f6da9c765e65088572413607bda9b31ca6821e68fe40b6d0b1e5776f"
+    },
+    {
+      "path": "/workspace/.factory-cache/live/collegium-balticum/migration/task4f/gallery-completion/gallery.log",
+      "sha256": "776b929c31edace30a9d22b3499d306d15f9934f02df8bfadee79e1efcf510d6"
+    },
+    {
+      "path": "/workspace/.factory-cache/live/collegium-balticum/migration/task4f/gallery-completion/render.log",
+      "sha256": "1623208e00013f10f3144ddc801f9eceb0884d4211156a51fc98694fcc6a3de7"
+    },
+    {
+      "path": "/workspace/.factory-cache/live/collegium-balticum/migration/task4f/gallery-completion/compare.log",
+      "sha256": "37651c316d4b9cb02b06363f525c6fba3c3fba56c2aae09946240e73c9e8d6c4"
+    },
+    {
+      "path": "/workspace/.factory-cache/live/collegium-balticum/migration/task4f/gallery-completion/audit.log",
+      "sha256": "752f4bce780882e64b79b9822b0f46de377059fac51361042d18918251354981"
+    },
+    {
+      "path": "/workspace/.factory-cache/live/collegium-balticum/migration/task4f/gallery-completion/interactions.log",
+      "sha256": "e86b9c75fce365d1ddd458838a86a4bf3eaad0aba2fa5c43053287d26e815486"
+    },
+    {
+      "path": "/workspace/.factory-cache/live/collegium-balticum/migration/task4f/gallery-completion/documents.log",
+      "sha256": "a9cd35b938e8c75e8d9c35c72a79d47acfad8045691851b58aebb0875248c04b"
+    },
+    {
+      "path": "/workspace/.factory-cache/live/collegium-balticum/migration/task4f/gallery-completion/functional.log",
+      "sha256": "164a3dbedcd34681063d93ecd05ee0bba837d282f4aa815bbe1f11e8a4a97939"
+    },
+    {
+      "path": "/workspace/.factory-cache/live/collegium-balticum/migration/task4f/gallery-completion/unit.log",
+      "sha256": "d9fd4a22f1c8c55f937e3d419a33fafd3fa6f2482def0e03c3f62fc07841e3ef"
+    },
+    {
+      "path": "/workspace/.factory-cache/live/collegium-balticum/migration/task4f/gallery-completion/live.log",
+      "sha256": "befb1abfe8608b59438d6b7685b8dd5c90bee1c0da8e2f015cab35a87ac10898"
+    },
+    {
+      "path": "/workspace/.factory-cache/live/collegium-balticum/migration/task4f/gallery-completion/autopilot.log",
+      "sha256": "78aee341c2ea558ae54ef19740b88eb89396ddb640d5ed72c2a91de742f16940"
+    },
+    {
+      "path": "/workspace/.factory-cache/live/collegium-balticum/migration/task4f/gallery-completion/capture.log",
+      "sha256": "87e854fae41c6ede2159df47996f384ab12347b1238974032efe68b1524427ea"
+    },
+    {
+      "path": "/workspace/.factory-cache/live/collegium-balticum/migration/task4f/gallery-completion/config-schema.log",
+      "sha256": "57d84e3e43a196fab56a2558c262d67f56bb1a424486a505189d81c5551088e0"
+    }
+  ],
+  "visualStatus": "IN_PROGRESS",
+  "wcagStatus": "IN_PROGRESS",
+  "axeOccurrences": {
+    "color-contrast": 796,
+    "heading-order": 42,
+    "link-in-text-block": 7
+  },
+  "headingOrderWarnings": 42
+}

@@ -1,6 +1,9 @@
 /** Record actual stable-build artifacts, keeping all Task 4E baseline evidence. */
 const fs=require('fs'),path=require('path'),crypto=require('crypto'),assert=require('node:assert/strict');
 const root=path.resolve(__dirname,'../../../..'),cache=path.join(root,'.factory-cache/live/collegium-balticum/migration'),docs=path.join(root,'docs/projects/collegium-balticum');
+// This generator records the pre-approval baseline. Preserve its evidence after
+// the separately verified gallery import instead of rewriting it as 0/21.
+if(fs.existsSync(path.join(cache,'task4f/gallery-completion/gallery-qa.json')))throw Error('Gallery import supersedes this historical baseline; update TASK-4F-GALLERY-COMPLETION.md and its evidence instead.');
 const read=p=>JSON.parse(fs.readFileSync(p));const sha=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
 const before=read(path.join(cache,'task4f/before/comparison.json')),after=read(path.join(cache,'comparisons/comparison.json')),audit=read(path.join(cache,'task4f/audit-after.json')),render=read(path.join(cache,'qa/render.json')),variant=read(path.join(cache,'task4f/aa-variant.json')),functional=read(path.join(cache,'task4f/functional.json')),resize=read(path.join(cache,'task4f/text-resize.json'));
 const log=name=>fs.readFileSync(path.join(cache,'task4f/logs',name+'.log'),'utf8');
